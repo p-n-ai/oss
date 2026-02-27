@@ -98,12 +98,14 @@ National education ministries and exam boards (Cambridge, IB, College Board) who
 
 ### Seed Content (Weeks 0–4)
 
-The Pandai team seeds the initial content from existing Pandai materials and official syllabus documents:
+The Pandai team seeds the initial content from existing Pandai materials and official syllabus documents.
 
-| Curriculum | Subject | Topics | Quality Target |
-|-----------|---------|--------|----------------|
+**Seed content targets (not yet created):**
+
+| Curriculum | Subject | Target Topics | Quality Target |
+|-----------|---------|---------------|----------------|
 | Cambridge IGCSE 0580 | Mathematics | 8 (Algebra + Number) | Level 3 (Teachable) |
-| Malaysia KSSM Form 3 | Mathematics | 5 | Level 3 (Teachable) |
+| Malaysia KSSM Forms 1-3 | Mathematics | 14 (Algebra) + ~25 stubs | Level 3 (Teachable) |
 
 Seeding is done by the Education Lead with Claude Code assistance: human writes teaching notes for 2–3 topics, AI generates drafts for the rest, human reviews and edits all.
 
@@ -150,7 +152,7 @@ Teachers don't use Git. Three interfaces, same pipeline:
 
 | Interface | Audience | Complexity |
 |-----------|----------|-----------|
-| **Web form** (contribute.opensyllabus.org) | Teachers who've never seen GitHub | None — type in natural language |
+| **Web form** (contribute.p-n-ai.org — coming soon) | Teachers who've never seen GitHub | None — type in natural language |
 | **GitHub Issues** | Teachers familiar with GitHub | Low — describe what to add/fix |
 | **Direct PRs** | Developers and power users | Standard Git workflow |
 | **@oss-bot commands** | Community members in Issues/PRs | Comment with commands |
@@ -292,7 +294,7 @@ OSS costs almost nothing to maintain:
 |------|--------|----------|
 | GitHub hosting | Free (open source) | GitHub |
 | CI/CD (schema validation) | Free tier | GitHub Actions |
-| Domain (opensyllabus.org) | ~$15/year | Pandai |
+| Domain (p-n-ai.org) | ~$15/year | Pandai |
 | Team time | 5–10 hrs/week | Pandai (allocated from P&AI team) |
 | OSS Bot hosting | ~$20/month | Pandai |
 

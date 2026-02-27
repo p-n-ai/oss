@@ -503,7 +503,7 @@ OSS has near-zero operating costs because it is a static data repository hosted 
 |-----------|------|-------|
 | GitHub hosting | Free | Public open-source repository |
 | GitHub Actions CI | Free | Free tier for public repos (2,000 minutes/month) |
-| Domain (opensyllabus.org) | ~$15/year | For documentation and contribution portal redirect |
+| Domain (p-n-ai.org) | ~$15/year | For documentation and contribution portal redirect |
 | Team maintenance | 5–10 hrs/week | Scales down as community grows |
 | **Total** | **~$15/year** | |
 

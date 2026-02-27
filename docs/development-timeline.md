@@ -55,7 +55,7 @@ Form 3 Algebra (5 topics)
 | Task ID | Task | Owner | Time |
 |---------|------|-------|------|
 | `O-D0-1` | Initialize repo: `curricula/`, `schema/`, `concepts/`, `taxonomy/`, `scripts/`, `.github/workflows/` | 🤖 Claude Code | 30min |
-| `O-D0-2` | Create `schema/topic.schema.json` and `schema/assessment.schema.json` (JSON Schema Draft 2020-12) | 🤖 Claude Code | 1hr |
+| `O-D0-2` | Create `schema/topic.schema.json` and `schema/assessments.schema.json` (JSON Schema Draft 2020-12). Remaining schemas (`syllabus`, `subject`, `examples`, `concept`, `taxonomy`) are created as their content types are first introduced. | 🤖 Claude Code | 1hr |
 | `O-D0-3` | Create `curricula/malaysia/kssm/matematik-tingkatan1/syllabus.yaml` with board metadata | 🤖 Claude Code | 30min |
 | `O-D0-4` | 🧑 Choose first 5 Algebra topics (Form 1: 4 topics + Form 2 topic 1) | 🧑 Education Lead | 30min |
 

@@ -14,8 +14,8 @@
   </p>
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY--SA%204.0-orange.svg" alt="License"></a>
-    <img src="https://img.shields.io/badge/curricula-2-blue.svg" alt="Curricula Count">
-    <img src="https://img.shields.io/badge/topics-50%2B-green.svg" alt="Topics Count">
+    <img src="https://img.shields.io/badge/status-scaffolding-yellow.svg" alt="Status">
+    <img src="https://img.shields.io/badge/curricula-0_(building)-blue.svg" alt="Curricula Count">
     <img src="https://img.shields.io/badge/format-YAML%20%2B%20Markdown-yellow.svg" alt="Format">
   </p>
 </p>
@@ -42,17 +42,12 @@ Every AI tutoring platform, every educational app, every school management syste
 
 ## Browse Curricula
 
-### Currently Available
-
-| Curriculum | Country | Subjects | Topics | Quality Level |
-|-----------|---------|----------|--------|---------------|
-| [Cambridge IGCSE 0580](curricula/cambridge/igcse/mathematics-0580/) | International | Mathematics | 8 | ⭐⭐⭐ Teachable |
-| [KSSM Form 3](curricula/malaysia/kssm/mathematics-form3/) | Malaysia | Mathematics | 5 | ⭐⭐⭐ Teachable |
-
 ### Planned (Contributions Welcome!)
 
 | Curriculum | Country | Status |
 |-----------|---------|--------|
+| Cambridge IGCSE 0580 Mathematics | International | 🚧 In progress (seed content) |
+| KSSM Matematik Forms 1-3 | Malaysia | 🚧 In progress (seed content) |
 | IB Diploma Mathematics AA | International | 📋 Scaffolded |
 | SAT Mathematics | USA | 📋 Scaffolded |
 | CBSE Class 10 Mathematics | India | 🔲 Not started |
@@ -108,10 +103,22 @@ oss/
 │   ├── subject.schema.json
 │   ├── topic.schema.json
 │   ├── examples.schema.json
-│   └── assessments.schema.json
+│   ├── assessments.schema.json
+│   ├── concept.schema.json
+│   └── taxonomy.schema.json
 │
+├── scripts/                          # CI and maintenance scripts
+│   ├── validate.sh
+│   ├── check-prerequisites.py
+│   ├── check-references.py
+│   └── assess-quality.py
+│
+├── .github/workflows/                # CI pipelines
+│   └── validate.yml
+│
+├── .yamllint.yml                     # YAML linting rules
 ├── CONTRIBUTING.md                   # How to contribute
-├── LICENSE                           # CC BY-SA 4.0
+├── LICENSE                           # CC BY-SA 4.0 (planned)
 └── README.md
 ```
 
@@ -119,7 +126,7 @@ oss/
 
 ## Schema Overview
 
-OSS uses 5 core schema types. Every file is validated against its JSON Schema on every commit.
+OSS uses 7 core schema types. Every file is validated against its JSON Schema on every commit.
 
 ### 1. Syllabus
 
@@ -339,6 +346,45 @@ questions:
     # ... rubric, hints, distractors
 ```
 
+### 6. Concept (Cross-Curriculum Bridge)
+
+Bridges the same concept across different curricula, enabling student transfer and cross-curriculum analysis.
+
+```yaml
+# concepts/mathematics/quadratic-equation.yaml
+id: quadratic-equation
+name: Quadratic Equation
+domain: mathematics
+subdomain: algebra
+
+definition: "A polynomial equation of degree 2 in the form ax² + bx + c = 0, where a ≠ 0"
+
+curricula:
+  - syllabus: cambridge-igcse-mathematics-0580
+    topic: 05-quadratic-equations
+    scope: "Factorisation and quadratic formula. No completing the square."
+  - syllabus: malaysia-kssm-mathematics-form4
+    topic: quadratic-equations-and-inequalities
+    scope: "Includes completing the square. Quadratic inequalities introduced."
+```
+
+### 7. Taxonomy (Subject Area Hierarchy)
+
+Defines the universal classification tree for subject areas, enabling consistent categorisation across curricula.
+
+```yaml
+# taxonomy/mathematics/algebra.yaml
+id: algebra
+name: Algebra
+domain: mathematics
+subtopics:
+  - expressions
+  - equations
+  - inequalities
+  - sequences
+  - functions
+```
+
 ---
 
 ## For Developers
@@ -406,7 +452,7 @@ You don't need to know YAML or Git. There are 3 ways to contribute:
 
 #### 1. Web Form (Easiest)
 
-Visit [contribute.p-n-ai.org](https://contribute.p-n-ai.org) — select a syllabus and topic, type your contribution in plain language, and our bot will structure it and submit it for review.
+Visit [contribute.p-n-ai.org](https://contribute.p-n-ai.org) *(coming soon)* — select a syllabus and topic, type your contribution in plain language, and our bot will structure it and submit it for review.
 
 #### 2. GitHub Issue
 
