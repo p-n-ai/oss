@@ -83,7 +83,11 @@ oss/
 │   │                       └── 01-expressions.yaml
 │   └── malaysia/
 │       └── kssm/
-│           └── mathematics-form3/
+│           ├── matematik-tingkatan1/
+│           │   └── ...                                     # Same structure
+│           ├── matematik-tingkatan2/
+│           │   └── ...
+│           └── matematik-tingkatan3/
 │               └── ...
 │
 ├── concepts/                         # Universal cross-curriculum concepts
@@ -431,13 +435,13 @@ All YAML files are validated against JSON Schemas in the `schema/` directory.
 
 ```bash
 # Install the validator
-npm install -g ajv-cli
+npm install -g ajv-cli ajv-formats
 
-# Validate a single topic
-ajv validate -s schema/topic.schema.json -d "curricula/cambridge/igcse/mathematics-0580/topics/algebra/05-quadratic-equations.yaml"
+# Validate a single topic (--spec=draft2020 required for Draft 2020-12)
+ajv validate --spec=draft2020 -s schema/topic.schema.json -d "curricula/cambridge/igcse/mathematics-0580/topics/algebra/05-quadratic-equations.yaml"
 
 # Validate all topics in a syllabus
-find curricula/cambridge -name "*.yaml" -path "*/topics/*" | xargs -I{} ajv validate -s schema/topic.schema.json -d {}
+find curricula/cambridge -name "*.yaml" -path "*/topics/*" | xargs -I{} ajv validate --spec=draft2020 -s schema/topic.schema.json -d {}
 ```
 
 The CI pipeline validates every file on every pull request. Invalid files cannot be merged.

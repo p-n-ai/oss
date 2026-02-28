@@ -224,8 +224,12 @@ oss/
 │   │                   └── ...
 │   └── malaysia/
 │       └── kssm/
-│           └── mathematics-form3/
-│               └── ...                                     # Same structure
+│           ├── matematik-tingkatan1/
+│           │   └── ...                                     # Same structure
+│           ├── matematik-tingkatan2/
+│           │   └── ...
+│           └── matematik-tingkatan3/
+│               └── ...
 │
 ├── concepts/                           # Universal cross-curriculum concepts
 │   └── mathematics/
@@ -317,27 +321,27 @@ jobs:
       - name: Lint YAML
         run: yamllint -c .yamllint.yml curricula/ concepts/ taxonomy/
 
-      # 2. JSON Schema validation
+      # 2. JSON Schema validation (--spec=draft2020 required for Draft 2020-12)
       - name: Validate schemas
         run: |
           # Validate all syllabus files
           find curricula -name "syllabus.yaml" | xargs -I{} \
-            ajv validate -s schema/syllabus.schema.json -d {}
+            ajv validate --spec=draft2020 -s schema/syllabus.schema.json -d {}
 
           # Validate all subject files
           find curricula -path "*/subjects/*.yaml" | xargs -I{} \
-            ajv validate -s schema/subject.schema.json -d {}
+            ajv validate --spec=draft2020 -s schema/subject.schema.json -d {}
 
           # Validate all topic files (exclude teaching, examples, assessments)
           find curricula -path "*/topics/*" -name "*.yaml" \
             ! -name "*.examples.yaml" ! -name "*.assessments.yaml" | xargs -I{} \
-            ajv validate -s schema/topic.schema.json -d {}
+            ajv validate --spec=draft2020 -s schema/topic.schema.json -d {}
 
           # Validate examples and assessments
           find curricula -name "*.examples.yaml" | xargs -I{} \
-            ajv validate -s schema/examples.schema.json -d {}
+            ajv validate --spec=draft2020 -s schema/examples.schema.json -d {}
           find curricula -name "*.assessments.yaml" | xargs -I{} \
-            ajv validate -s schema/assessments.schema.json -d {}
+            ajv validate --spec=draft2020 -s schema/assessments.schema.json -d {}
 
       # 3. Prerequisite graph integrity
       - name: Check prerequisite cycles

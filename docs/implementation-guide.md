@@ -103,7 +103,7 @@ This is the core schema. All topic YAML files validate against it.
     "id": {
       "type": "string",
       "pattern": "^[A-Z][0-9]+-[0-9]{2}$",
-      "description": "Unique topic ID within syllabus (e.g., F1-01)"
+      "description": "Unique topic ID within syllabus (e.g., F1-05)"
     },
     "name": {
       "type": "string",
@@ -531,17 +531,17 @@ rules:
 
 ### 0.8 — Choose First 5 Topics (🧑 Education Lead)
 
-The timeline specifies Form 1 Algebra (4 topics) + Form 2 topic 1:
+Confirmed against official DSKP. Topic IDs follow DSKP chapter numbering:
 
-| ID | Name (BM) | Name (EN) |
-|----|-----------|-----------|
-| F1-01 | Pemboleh ubah & Ungkapan Algebra | Variables & Algebraic Expressions |
-| F1-02 | Persamaan Linear I | Linear Equations in One Variable |
-| F1-03 | Ketaksamaan Linear I | Linear Inequalities (intro) |
-| F1-04 | Pola & Jujukan | Patterns & Sequences (algebraic) |
-| F2-01 | Ungkapan Algebra II | Expansion & Factorisation |
+| ID | DSKP Bab | Name (BM) | Name (EN) |
+|----|----------|-----------|-----------|
+| F1-05 | Bab 5 | Ungkapan Algebra | Algebraic Expressions |
+| F1-06 | Bab 6 | Persamaan Linear | Linear Equations |
+| F1-07 | Bab 7 | Ketaksamaan Linear | Linear Inequalities |
+| F2-01 | Bab 1 | Pola dan Jujukan | Patterns & Sequences |
+| F2-02 | Bab 2 | Pemfaktoran dan Pecahan Algebra | Factorisation & Algebraic Fractions |
 
-**Education Lead confirms or adjusts these topics before Day 1.**
+**Note:** Form 1 has 3 algebra topics (DSKP Bab 5-7), not 4. "Pola & Jujukan" is Form 2 Bab 1 per the DSKP.
 
 ### Day 0 Validation
 
@@ -552,8 +552,8 @@ ls -R curricula/ schema/
 # Lint the syllabus file
 yamllint -c .yamllint.yml curricula/malaysia/kssm/matematik-tingkatan1/syllabus.yaml
 
-# Validate syllabus against schema
-ajv validate -s schema/syllabus.schema.json -d curricula/malaysia/kssm/matematik-tingkatan1/syllabus.yaml
+# Validate syllabus against schema (--spec=draft2020 required for Draft 2020-12)
+ajv validate --spec=draft2020 -s schema/syllabus.schema.json -d curricula/malaysia/kssm/matematik-tingkatan1/syllabus.yaml
 ```
 
 ### Day 0 Exit Criteria
@@ -579,9 +579,9 @@ ajv validate -s schema/syllabus.schema.json -d curricula/malaysia/kssm/matematik
 | # | Task | Owner | Files Created |
 |---|------|-------|---------------|
 | 1.1 | Create Form 1 `algebra.yaml` subject | 🤖 | `curricula/.../tingkatan1/subjects/algebra.yaml` |
-| 1.2 | Create F1-01 through F1-04 topic stubs | 🤖 | 4 files in `topics/algebra/` |
-| 1.3 | Write F1-01 teaching notes | 🧑 | `01-ungkapan-algebra.teaching.md` |
-| 1.4 | AI-draft teaching notes for F1-02 to F1-04, Education Lead reviews | 🧑🤖 | 3 `.teaching.md` files |
+| 1.2 | Create F1-05, F1-06, F1-07 topic stubs | 🤖 | 3 files in `topics/algebra/` |
+| 1.3 | Write F1-05 teaching notes | 🧑 | `05-ungkapan-algebra.teaching.md` |
+| 1.4 | AI-draft teaching notes for F1-06 and F1-07, Education Lead reviews | 🧑🤖 | 2 `.teaching.md` files |
 
 All paths below are relative to `curricula/malaysia/kssm/matematik-tingkatan1/`.
 
@@ -593,23 +593,22 @@ All paths below are relative to `curricula/malaysia/kssm/matematik-tingkatan1/`.
 id: algebra
 name: "Algebra"
 syllabus_id: malaysia-kssm-matematik-tingkatan1
-description: "Algebraic concepts for Form 1 KSSM Matematik including expressions, linear equations, inequalities, and patterns"
+description: "Algebraic concepts for Form 1 KSSM Matematik including expressions, linear equations, and inequalities (DSKP Bab 5-7)"
 topics:
-  - F1-01
-  - F1-02
-  - F1-03
-  - F1-04
+  - F1-05
+  - F1-06
+  - F1-07
 ```
 
 #### 1.2 — Create Topic YAML Stubs
 
 Each topic file starts at Quality Level 1 (id, name, learning_objectives, prerequisites, difficulty, bloom_levels).
 
-**File:** `topics/algebra/01-ungkapan-algebra.yaml`
+**File:** `topics/algebra/05-ungkapan-algebra.yaml`
 
 ```yaml
-id: F1-01
-name: "Pemboleh ubah & Ungkapan Algebra (Variables & Algebraic Expressions)"
+id: F1-05
+name: "Ungkapan Algebra (Algebraic Expressions)"
 subject_id: algebra
 syllabus_id: malaysia-kssm-matematik-tingkatan1
 difficulty: beginner
@@ -652,11 +651,11 @@ quality_level: 1
 provenance: ai-generated
 ```
 
-**File:** `topics/algebra/02-persamaan-linear-i.yaml`
+**File:** `topics/algebra/06-persamaan-linear.yaml`
 
 ```yaml
-id: F1-02
-name: "Persamaan Linear I (Linear Equations in One Variable)"
+id: F1-06
+name: "Persamaan Linear (Linear Equations)"
 subject_id: algebra
 syllabus_id: malaysia-kssm-matematik-tingkatan1
 difficulty: beginner
@@ -678,7 +677,7 @@ learning_objectives:
 
 prerequisites:
   required:
-    - F1-01
+    - F1-05
   recommended: []
 
 bloom_levels:
@@ -696,11 +695,11 @@ quality_level: 1
 provenance: ai-generated
 ```
 
-**File:** `topics/algebra/03-ketaksamaan-linear-i.yaml`
+**File:** `topics/algebra/07-ketaksamaan-linear.yaml`
 
 ```yaml
-id: F1-03
-name: "Ketaksamaan Linear I (Linear Inequalities — Introduction)"
+id: F1-07
+name: "Ketaksamaan Linear (Linear Inequalities)"
 subject_id: algebra
 syllabus_id: malaysia-kssm-matematik-tingkatan1
 difficulty: beginner
@@ -719,9 +718,9 @@ learning_objectives:
 
 prerequisites:
   required:
-    - F1-01
+    - F1-05
   recommended:
-    - F1-02
+    - F1-06
 
 bloom_levels:
   - understand
@@ -738,50 +737,9 @@ quality_level: 1
 provenance: ai-generated
 ```
 
-**File:** `topics/algebra/04-pola-dan-jujukan.yaml`
+#### 1.3 — Write F1-05 Teaching Notes (🧑 Education Lead)
 
-```yaml
-id: F1-04
-name: "Pola & Jujukan (Patterns & Sequences — Algebraic Patterns)"
-subject_id: algebra
-syllabus_id: malaysia-kssm-matematik-tingkatan1
-difficulty: beginner
-tier: core
-
-learning_objectives:
-  - id: LO1
-    text: "Recognise and describe patterns using algebraic expressions"
-    bloom: understand
-  - id: LO2
-    text: "Determine specific terms of a sequence"
-    bloom: apply
-  - id: LO3
-    text: "Express patterns as algebraic rules (nth term)"
-    bloom: apply
-
-prerequisites:
-  required:
-    - F1-01
-  recommended: []
-
-bloom_levels:
-  - understand
-  - apply
-
-mastery:
-  minimum_score: 0.75
-  assessment_count: 3
-  spaced_repetition:
-    initial_interval_days: 3
-    multiplier: 2.5
-
-quality_level: 1
-provenance: ai-generated
-```
-
-#### 1.3 — Write F1-01 Teaching Notes (🧑 Education Lead)
-
-**File:** `topics/algebra/01-ungkapan-algebra.teaching.md`
+**File:** `topics/algebra/05-ungkapan-algebra.teaching.md`
 
 The Education Lead writes this file with real teacher quality. Below is the expected structure:
 
@@ -845,13 +803,12 @@ The Education Lead writes this file with real teacher quality. Below is the expe
 | Unlike terms | Sebutan tidak serupa |
 ```
 
-#### 1.4 — AI-Draft Teaching Notes for F1-02 to F1-04 (🧑🤖)
+#### 1.4 — AI-Draft Teaching Notes for F1-06 and F1-07 (🧑🤖)
 
-Create three more teaching notes following the same structure as F1-01:
+Create two more teaching notes following the same structure as F1-05:
 
-- `topics/algebra/02-persamaan-linear-i.teaching.md`
-- `topics/algebra/03-ketaksamaan-linear-i.teaching.md`
-- `topics/algebra/04-pola-dan-jujukan.teaching.md`
+- `topics/algebra/06-persamaan-linear.teaching.md`
+- `topics/algebra/07-ketaksamaan-linear.teaching.md`
 
 **Process:**
 1. AI generates draft following the template structure above
@@ -862,7 +819,7 @@ After teaching notes exist, update each topic YAML to add the `ai_teaching_notes
 
 ```yaml
 # Add to each topic file:
-ai_teaching_notes: "01-ungkapan-algebra.teaching.md"  # relative path within topics/algebra/
+ai_teaching_notes: "05-ungkapan-algebra.teaching.md"  # relative path within topics/algebra/
 ```
 
 #### Day 1 Validation
@@ -871,45 +828,45 @@ ai_teaching_notes: "01-ungkapan-algebra.teaching.md"  # relative path within top
 # Lint all YAML
 yamllint -c .yamllint.yml curricula/
 
-# Validate subject
-ajv validate -s schema/subject.schema.json \
+# Validate subject (--spec=draft2020 required for Draft 2020-12)
+ajv validate --spec=draft2020 -s schema/subject.schema.json \
   -d curricula/malaysia/kssm/matematik-tingkatan1/subjects/algebra.yaml
 
 # Validate all topic files
 for f in curricula/malaysia/kssm/matematik-tingkatan1/topics/algebra/*.yaml; do
-  ajv validate -s schema/topic.schema.json -d "$f"
+  ajv validate --spec=draft2020 -s schema/topic.schema.json -d "$f"
 done
 ```
 
 #### Day 1 Exit Criteria
 
 - [ ] `subjects/algebra.yaml` validates against subject schema
-- [ ] 4 topic YAMLs (F1-01 through F1-04) validate against topic schema
-- [ ] F1-01 teaching notes written by Education Lead
-- [ ] F1-02, F1-03, F1-04 teaching notes drafted and reviewed
+- [ ] 3 topic YAMLs (F1-05, F1-06, F1-07) validate against topic schema
+- [ ] F1-05 teaching notes written by Education Lead
+- [ ] F1-06, F1-07 teaching notes drafted and reviewed
 - [ ] All topic files reference their teaching notes via `ai_teaching_notes`
 
-**Progress:** 4 topics | 0 assessments | 4 teaching notes | 4 schemas | 1 syllabus | 1 subject
+**Progress:** 3 topics | 0 assessments | 3 teaching notes | 4 schemas | 1 syllabus | 1 subject
 
 ---
 
 ### Day 2 — Form 1 Assessments
 
-**Entry criteria:** Day 1 complete. 4 topic files + 4 teaching notes exist and validate.
+**Entry criteria:** Day 1 complete. 3 topic files + 3 teaching notes exist and validate.
 
 #### Tasks
 
 | # | Task | Owner | Files Created |
 |---|------|-------|---------------|
-| 2.1 | Write F1-01 assessments (5 questions) | 🧑 | `01-ungkapan-algebra.assessments.yaml` |
-| 2.2 | AI-generate assessments for F1-02 to F1-04 (5 each), Education Lead reviews | 🧑🤖 | 3 `.assessments.yaml` files |
+| 2.1 | Write F1-05 assessments (5 questions) | 🧑 | `05-ungkapan-algebra.assessments.yaml` |
+| 2.2 | AI-generate assessments for F1-06 and F1-07 (5 each), Education Lead reviews | 🧑🤖 | 2 `.assessments.yaml` files |
 
-#### 2.1 — F1-01 Assessment File (🧑 Education Lead)
+#### 2.1 — F1-05 Assessment File (🧑 Education Lead)
 
-**File:** `curricula/malaysia/kssm/matematik-tingkatan1/topics/algebra/01-ungkapan-algebra.assessments.yaml`
+**File:** `curricula/malaysia/kssm/matematik-tingkatan1/topics/algebra/05-ungkapan-algebra.assessments.yaml`
 
 ```yaml
-topic_id: F1-01
+topic_id: F1-05
 provenance: human
 
 questions:
@@ -1064,13 +1021,12 @@ questions:
         feedback: "That's length + width. For perimeter, you need to multiply by 2: perimeter = 2(length + width)."
 ```
 
-#### 2.2 — AI-Draft Assessments for F1-02 to F1-04 (🧑🤖)
+#### 2.2 — AI-Draft Assessments for F1-06 and F1-07 (🧑🤖)
 
-Create three more assessment files following the same structure:
+Create two more assessment files following the same structure:
 
-- `topics/algebra/02-persamaan-linear-i.assessments.yaml`
-- `topics/algebra/03-ketaksamaan-linear-i.assessments.yaml`
-- `topics/algebra/04-pola-dan-jujukan.assessments.yaml`
+- `topics/algebra/06-persamaan-linear.assessments.yaml`
+- `topics/algebra/07-ketaksamaan-linear.assessments.yaml`
 
 **Requirements for each file:**
 - `topic_id` must match the topic's `id` field
@@ -1084,7 +1040,7 @@ After creating assessments, update each topic YAML:
 
 ```yaml
 # Add to each topic file:
-assessments_file: "01-ungkapan-algebra.assessments.yaml"  # matching filename
+assessments_file: "05-ungkapan-algebra.assessments.yaml"  # matching filename
 ```
 
 #### Day 2 Validation
@@ -1093,27 +1049,27 @@ assessments_file: "01-ungkapan-algebra.assessments.yaml"  # matching filename
 # Lint all YAML
 yamllint -c .yamllint.yml curricula/
 
-# Validate all assessments
+# Validate all assessments (--spec=draft2020 required)
 for f in curricula/malaysia/kssm/matematik-tingkatan1/topics/algebra/*.assessments.yaml; do
-  ajv validate -s schema/assessments.schema.json -d "$f"
+  ajv validate --spec=draft2020 -s schema/assessments.schema.json -d "$f"
 done
 
 # Re-validate topics (now updated with assessments_file references)
 for f in curricula/malaysia/kssm/matematik-tingkatan1/topics/algebra/*.yaml; do
-  [[ "$f" != *".assessments.yaml" ]] && ajv validate -s schema/topic.schema.json -d "$f"
+  [[ "$f" != *".assessments.yaml" ]] && ajv validate --spec=draft2020 -s schema/topic.schema.json -d "$f"
 done
 ```
 
 #### Day 2 Exit Criteria
 
-- [ ] 4 assessment files created (F1-01 through F1-04)
+- [ ] 3 assessment files created (F1-05, F1-06, F1-07)
 - [ ] Each file has 5 questions with rubrics and hints
 - [ ] All assessment files validate against schema
 - [ ] Topic files updated with `assessments_file` references
-- [ ] F1-01 assessments written by Education Lead (provenance: human)
-- [ ] F1-02 to F1-04 assessments reviewed by Education Lead
+- [ ] F1-05 assessments written by Education Lead (provenance: human)
+- [ ] F1-06 and F1-07 assessments reviewed by Education Lead
 
-**Progress:** 4 topics | 20 questions | 4 teaching notes | 4 assessments | 4 schemas | 1 syllabus | 1 subject
+**Progress:** 3 topics | 15 questions | 3 teaching notes | 3 assessments | 4 schemas | 1 syllabus | 1 subject
 
 ---
 
@@ -1164,30 +1120,30 @@ jobs:
       - name: Validate syllabus files
         run: |
           find curricula -name "syllabus.yaml" -print0 | \
-            xargs -0 -I{} ajv validate -s schema/syllabus.schema.json -d {}
+            xargs -0 -I{} ajv validate --spec=draft2020 -s schema/syllabus.schema.json -d {}
 
       - name: Validate subject files
         run: |
           find curricula -path "*/subjects/*.yaml" -print0 | \
-            xargs -0 -I{} ajv validate -s schema/subject.schema.json -d {}
+            xargs -0 -I{} ajv validate --spec=draft2020 -s schema/subject.schema.json -d {}
 
       - name: Validate topic files
         run: |
           find curricula -path "*/topics/*" -name "*.yaml" \
             ! -name "*.examples.yaml" ! -name "*.assessments.yaml" -print0 | \
-            xargs -0 -I{} ajv validate -s schema/topic.schema.json -d {}
+            xargs -0 -I{} ajv validate --spec=draft2020 -s schema/topic.schema.json -d {}
 
       - name: Validate assessment files
         run: |
           find curricula -name "*.assessments.yaml" -print0 | \
-            xargs -0 -I{} ajv validate -s schema/assessments.schema.json -d {}
+            xargs -0 -I{} ajv validate --spec=draft2020 -s schema/assessments.schema.json -d {}
 
       - name: Validate example files
         run: |
           shopt -s nullglob
           files=$(find curricula -name "*.examples.yaml")
           if [ -n "$files" ]; then
-            echo "$files" | xargs -I{} ajv validate -s schema/examples.schema.json -d {}
+            echo "$files" | xargs -I{} ajv validate --spec=draft2020 -s schema/examples.schema.json -d {}
           else
             echo "No example files found (OK at this stage)"
           fi
@@ -1197,7 +1153,7 @@ jobs:
           shopt -s nullglob
           files=$(find concepts -name "*.yaml" 2>/dev/null)
           if [ -n "$files" ]; then
-            echo "$files" | xargs -I{} ajv validate -s schema/concept.schema.json -d {}
+            echo "$files" | xargs -I{} ajv validate --spec=draft2020 -s schema/concept.schema.json -d {}
           else
             echo "No concept files found (OK at this stage)"
           fi
@@ -1207,7 +1163,7 @@ jobs:
           shopt -s nullglob
           files=$(find taxonomy -name "*.yaml" 2>/dev/null)
           if [ -n "$files" ]; then
-            echo "$files" | xargs -I{} ajv validate -s schema/taxonomy.schema.json -d {}
+            echo "$files" | xargs -I{} ajv validate --spec=draft2020 -s schema/taxonomy.schema.json -d {}
           else
             echo "No taxonomy files found (OK at this stage)"
           fi
@@ -1253,9 +1209,9 @@ validate_files() {
 
   while IFS= read -r -d '' file; do
     count=$((count + 1))
-    if ! ajv validate -s "$schema" -d "$file" > /dev/null 2>&1; then
+    if ! ajv validate --spec=draft2020 -s "$schema" -d "$file" > /dev/null 2>&1; then
       echo -e "${RED}FAIL${NC}: $file"
-      ajv validate -s "$schema" -d "$file" 2>&1 || true
+      ajv validate --spec=draft2020 -s "$schema" -d "$file" 2>&1 || true
       fails=$((fails + 1))
     fi
   done < <(eval "$pattern")
@@ -1321,9 +1277,9 @@ Fix any failures before proceeding.
 - [ ] `.github/workflows/validate.yml` created
 - [ ] `scripts/validate.sh` created and executable
 - [ ] Full validation passes locally with zero errors
-- [ ] All existing content (1 syllabus, 1 subject, 4 topics, 4 assessments) validates
+- [ ] All existing content (1 syllabus, 1 subject, 3 topics, 3 assessments) validates
 
-**Progress:** 4 topics | 20 questions | 4 teaching notes | 4 assessments | 4 schemas | 1 syllabus | 1 subject | 1 CI workflow | 1 validation script
+**Progress:** 3 topics | 15 questions | 3 teaching notes | 3 assessments | 4 schemas | 1 syllabus | 1 subject | 1 CI workflow | 1 validation script
 
 ---
 
@@ -1337,8 +1293,8 @@ Fix any failures before proceeding.
 |---|------|-------|---------------|
 | 4.1 | Create Form 2 `syllabus.yaml` | 🤖 | `curricula/.../tingkatan2/syllabus.yaml` |
 | 4.2 | Create Form 2 `subjects/algebra.yaml` | 🤖 | `curricula/.../tingkatan2/subjects/algebra.yaml` |
-| 4.3 | Create F2-01 through F2-05 topic stubs | 🤖 | 5 files in `topics/algebra/` |
-| 4.4 | Write F2-01 teaching notes | 🧑 | `01-ungkapan-algebra-ii.teaching.md` |
+| 4.3 | Create F2-01 through F2-03 topic stubs | 🤖 | 3 files in `topics/algebra/` |
+| 4.4 | Write F2-01 teaching notes | 🧑 | `01-pola-dan-jujukan.teaching.md` |
 | 4.5 | AI-draft teaching notes for F2-02 to F2-03 | 🧑🤖 | 2 `.teaching.md` files |
 
 All paths below are relative to `curricula/malaysia/kssm/matematik-tingkatan2/`.
@@ -1358,25 +1314,23 @@ Follow the same structure as Form 1 syllabus (see Day 0, task 0.6) with these va
 
 Follow the same structure as Form 1 subject (see Day 1, task 1.1) with:
 - `syllabus_id: malaysia-kssm-matematik-tingkatan2`
-- `topics: [F2-01, F2-02, F2-03, F2-04, F2-05]`
+- `topics: [F2-01, F2-02, F2-03]`
 
 #### 4.3 — Form 2 Topic Stubs
 
-Create 5 topic files at Quality Level 1. Key details:
+Create 3 topic files at Quality Level 1. Key details:
 
 | File | ID | Name (BM) | Prerequisites |
 |------|----|-----------|---------------|
-| `01-ungkapan-algebra-ii.yaml` | F2-01 | Ungkapan Algebra II (Expansion & Factorisation) | F1-01 (required) |
-| `02-persamaan-linear-ii.yaml` | F2-02 | Persamaan Linear II (with brackets/fractions) | F1-02, F2-01 (required) |
-| `03-persamaan-serentak.yaml` | F2-03 | Persamaan Serentak (Simultaneous Linear Equations) | F1-02, F2-02 (required) |
-| `04-ketaksamaan-linear-ii.yaml` | F2-04 | Ketaksamaan Linear II (Solving Inequalities) | F1-03, F2-01 (required) |
-| `05-pengenalan-pola-algebra.yaml` | F2-05 | Pengenalan Pola Algebra (Algebraic Patterns — Generalisation) | F1-04, F2-01 (required) |
+| `01-pola-dan-jujukan.yaml` | F2-01 | Pola dan Jujukan (Patterns & Sequences) | F1-05 (required) |
+| `02-pemfaktoran-dan-pecahan-algebra.yaml` | F2-02 | Pemfaktoran dan Pecahan Algebra (Factorisation & Algebraic Fractions) | F1-05 (required) |
+| `03-rumus-algebra.yaml` | F2-03 | Rumus Algebra (Algebraic Formulae) | F1-06, F2-02 (required) |
 
 Follow the topic YAML template from Day 1, task 1.2. Set `difficulty: intermediate` for all Form 2 topics. Ensure prerequisite links reference Form 1 topic IDs.
 
 #### 4.4 & 4.5 — Teaching Notes
 
-- 🧑 F2-01 (Expansion & Factorisation) is a key topic with highest misconception rate — Education Lead writes this one personally
+- 🧑 F2-01 (Patterns & Sequences) is foundational for algebraic thinking — Education Lead writes this one personally
 - 🧑🤖 F2-02, F2-03 are AI-drafted, educator reviewed
 
 Follow the teaching notes template from Day 1, task 1.3.
@@ -1391,19 +1345,19 @@ Follow the teaching notes template from Day 1, task 1.3.
 #### Day 4 Exit Criteria
 
 - [ ] Form 2 syllabus validates
-- [ ] Form 2 subject validates with 5 topic references
-- [ ] 5 topic YAMLs (F2-01 through F2-05) validate
+- [ ] Form 2 subject validates with 3 topic references
+- [ ] 3 topic YAMLs (F2-01 through F2-03) validate
 - [ ] Prerequisites correctly link to Form 1 topic IDs
 - [ ] F2-01 teaching notes written by Education Lead
 - [ ] F2-02, F2-03 teaching notes drafted and reviewed
 
-**Progress:** 9 topics | 20 questions | 7 teaching notes | 4 assessments | 4 schemas | 2 syllabi | 2 subjects
+**Progress:** 6 topics | 15 questions | 6 teaching notes | 3 assessments | 4 schemas | 2 syllabi | 2 subjects
 
 ---
 
 ### Day 5 — Quality Review
 
-**Entry criteria:** Day 4 complete. 9 topics across Forms 1 and 2.
+**Entry criteria:** Day 4 complete. 6 topics across Forms 1 and 2.
 
 #### Tasks
 
@@ -1434,13 +1388,13 @@ Follow the teaching notes template from Day 1, task 1.3.
 
 #### Day 5 Exit Criteria
 
-- [ ] Education Lead has reviewed all 9 topics and signed off
+- [ ] Education Lead has reviewed all 6 topics and signed off
 - [ ] All validation passes with zero errors
 - [ ] Any corrections from the review have been applied
 
-**Week 1 Output:** 9 topic YAMLs (F1: 4, F2: 5), 7+ teaching notes, 20+ assessment questions. All pass CI.
+**Week 1 Output:** 6 topic YAMLs (F1: 3, F2: 3), 6+ teaching notes, 15+ assessment questions. All pass CI.
 
-**Progress:** 9 topics | 20 questions | 7 teaching notes | 4 assessments | 4 schemas | 2 syllabi | 2 subjects
+**Progress:** 6 topics | 15 questions | 6 teaching notes | 3 assessments | 4 schemas | 2 syllabi | 2 subjects
 
 ---
 
@@ -1448,21 +1402,20 @@ Follow the teaching notes template from Day 1, task 1.3.
 
 ### Day 6 — Form 2 Assessments + Remaining Notes
 
-**Entry criteria:** Week 1 complete. 9 topics validated, Education Lead review done.
+**Entry criteria:** Week 1 complete. 6 topics validated, Education Lead review done.
 
 #### Tasks
 
 | # | Task | Owner | Files Created |
 |---|------|-------|---------------|
-| 6.1 | Write assessments for F2-01 through F2-03 (5 questions each) | 🧑 | 3 `.assessments.yaml` files |
-| 6.2 | AI-draft teaching notes for F2-04, F2-05 | 🧑🤖 | 2 `.teaching.md` files |
-| 6.3 | AI-draft assessments for F2-04, F2-05 | 🧑🤖 | 2 `.assessments.yaml` files |
+| 6.1 | Write assessments for F2-01 (5 questions) | 🧑 | 1 `.assessments.yaml` file |
+| 6.2 | AI-draft assessments for F2-02, F2-03 (5 questions each) | 🧑🤖 | 2 `.assessments.yaml` files |
 
 #### Instructions
 
 - Assessment files go in `curricula/malaysia/kssm/matematik-tingkatan2/topics/algebra/`
 - Follow the assessment template from Day 2, task 2.1
-- F2-01 assessments must test expansion and factorisation — include questions like "Expand 3(2x + 5)" and "Factorise 6x² + 9x"
+- F2-01 assessments must test pattern recognition and sequences — include questions like "Find the next three terms" and "Write the general term"
 - Update each topic YAML with `assessments_file` and `ai_teaching_notes` references
 - After adding teaching notes + assessments, update `quality_level` to 2 for topics with both
 
@@ -1474,12 +1427,11 @@ Follow the teaching notes template from Day 1, task 1.3.
 
 #### Day 6 Exit Criteria
 
-- [ ] 5 assessment files for Form 2 (F2-01 through F2-05)
-- [ ] 25 new questions (5 per topic)
-- [ ] Teaching notes for F2-04, F2-05 drafted and reviewed
+- [ ] 3 assessment files for Form 2 (F2-01 through F2-03)
+- [ ] 15 new questions (5 per topic)
 - [ ] All topic files updated with file references
 
-**Progress:** 9 topics | 45 questions | 9 teaching notes | 9 assessments | 4 schemas | 2 syllabi | 2 subjects
+**Progress:** 6 topics | 30 questions | 6 teaching notes | 6 assessments | 4 schemas | 2 syllabi | 2 subjects
 
 ---
 
@@ -1492,9 +1444,9 @@ Follow the teaching notes template from Day 1, task 1.3.
 | # | Task | Owner | Files Created |
 |---|------|-------|---------------|
 | 7.1 | Create Form 3 `syllabus.yaml` + `subjects/algebra.yaml` | 🤖 | 2 files |
-| 7.2 | Create F3-01 through F3-05 topic stubs | 🤖 | 5 files |
+| 7.2 | Create F3-01 and F3-09 topic stubs | 🤖 | 2 files |
 | 7.3 | Write F3-01 teaching notes | 🧑 | 1 `.teaching.md` |
-| 7.4 | AI-draft teaching notes for F3-02 through F3-05 | 🧑🤖 | 4 `.teaching.md` files |
+| 7.4 | AI-draft teaching notes for F3-09 | 🧑🤖 | 1 `.teaching.md` file |
 
 All paths below are relative to `curricula/malaysia/kssm/matematik-tingkatan3/`.
 
@@ -1502,11 +1454,8 @@ All paths below are relative to `curricula/malaysia/kssm/matematik-tingkatan3/`.
 
 | File | ID | Name (BM) | Prerequisites |
 |------|----|-----------|---------------|
-| `01-ungkapan-formula-algebra.yaml` | F3-01 | Ungkapan & Formula Algebra (Subject Change) | F2-01, F2-02 (required) |
-| `02-persamaan-linear-dua-pemboleh-ubah.yaml` | F3-02 | Persamaan Linear Dua Pemboleh Ubah (Two Variables) | F2-02, F2-03 (required) |
-| `03-persamaan-serentak-ii.yaml` | F3-03 | Persamaan Serentak II (Harder Simultaneous) | F2-03, F3-02 (required) |
-| `04-ketaksamaan-linear-iii.yaml` | F3-04 | Ketaksamaan Linear III (Combined Inequalities) | F2-04 (required) |
-| `05-indeks-dan-algebra.yaml` | F3-05 | Indeks & Algebra (Indices in Algebraic Expressions) | F2-01 (required) |
+| `01-indeks.yaml` | F3-01 | Indeks (Indices) | F1-05 (required) |
+| `09-garis-lurus.yaml` | F3-09 | Garis Lurus (Straight Lines) | F1-06, F2-03 (required) |
 
 Set `difficulty: advanced` for all Form 3 topics.
 
@@ -1519,30 +1468,30 @@ Set `difficulty: advanced` for all Form 3 topics.
 #### Day 7 Exit Criteria
 
 - [ ] Form 3 syllabus + subject validates
-- [ ] 5 topic YAMLs (F3-01 through F3-05) validate
-- [ ] Prerequisites correctly link to Form 2 topic IDs
-- [ ] All 5 teaching notes created (F3-01 by Education Lead, others AI-drafted)
+- [ ] 2 topic YAMLs (F3-01 and F3-09) validate
+- [ ] Prerequisites correctly link to Form 1 and Form 2 topic IDs
+- [ ] All 2 teaching notes created (F3-01 by Education Lead, F3-09 AI-drafted)
 
-**Progress:** 14 topics | 45 questions | 14 teaching notes | 9 assessments | 4 schemas | 3 syllabi | 3 subjects
+**Progress:** 8 topics | 30 questions | 8 teaching notes | 6 assessments | 4 schemas | 3 syllabi | 3 subjects
 
 ---
 
 ### Day 8 — Form 3 Assessments
 
-**Entry criteria:** Day 7 complete. All 14 algebra topics exist.
+**Entry criteria:** Day 7 complete. All 8 algebra topics exist.
 
 #### Tasks
 
 | # | Task | Owner | Files Created |
 |---|------|-------|---------------|
-| 8.1 | Write assessments for F3-01 through F3-03 (5 questions each) | 🧑 | 3 `.assessments.yaml` files |
-| 8.2 | AI-draft assessments for F3-04, F3-05 | 🧑🤖 | 2 `.assessments.yaml` files |
+| 8.1 | Write assessments for F3-01 (5 questions) | 🧑 | 1 `.assessments.yaml` file |
+| 8.2 | AI-draft assessments for F3-09 (5 questions) | 🧑🤖 | 1 `.assessments.yaml` file |
 
 #### Instructions
 
 - Assessment files go in `curricula/malaysia/kssm/matematik-tingkatan3/topics/algebra/`
 - Form 3 questions should be harder — include multi-step problems
-- F3-03 (Simultaneous Equations II) should include questions requiring both substitution and elimination methods
+- F3-09 (Straight Lines) should include questions requiring gradient calculation and equation of a line
 - Update each topic YAML with `assessments_file` reference
 
 #### Day 8 Validation
@@ -1553,17 +1502,17 @@ Set `difficulty: advanced` for all Form 3 topics.
 
 #### Day 8 Exit Criteria
 
-- [ ] 5 assessment files for Form 3 (F3-01 through F3-05)
-- [ ] 25 new questions (5 per topic)
+- [ ] 2 assessment files for Form 3 (F3-01 and F3-09)
+- [ ] 10 new questions (5 per topic)
 - [ ] All assessment files validate
 
-**Progress:** 14 topics | 70 questions | 14 teaching notes | 14 assessments | 4 schemas | 3 syllabi | 3 subjects
+**Progress:** 8 topics | 40 questions | 8 teaching notes | 8 assessments | 4 schemas | 3 syllabi | 3 subjects
 
 ---
 
 ### Day 9 — Cross-Form Prerequisites + Concepts
 
-**Entry criteria:** Day 8 complete. All 14 algebra topics with assessments.
+**Entry criteria:** Day 8 complete. All 8 algebra topics with assessments.
 
 #### Tasks
 
@@ -1661,14 +1610,14 @@ definition: "An equation of degree 1 in the form ax + b = c, where a ≠ 0"
 
 curricula:
   - syllabus: malaysia-kssm-matematik-tingkatan1
-    topic: F1-02
+    topic: F1-06
     scope: "Linear equations in one variable, basic solving"
   - syllabus: malaysia-kssm-matematik-tingkatan2
-    topic: F2-02
-    scope: "Linear equations with brackets and fractions"
+    topic: F2-03
+    scope: "Algebraic formulae involving linear equations"
   - syllabus: malaysia-kssm-matematik-tingkatan3
-    topic: F3-02
-    scope: "Linear equations in two variables"
+    topic: F3-09
+    scope: "Straight lines — linear equations in two variables"
 ```
 
 #### 9.5 — Algebraic Expression Concept
@@ -1684,20 +1633,20 @@ definition: "A mathematical phrase containing variables, constants, and operatio
 
 curricula:
   - syllabus: malaysia-kssm-matematik-tingkatan1
-    topic: F1-01
+    topic: F1-05
     scope: "Basic expressions, like terms, simplification"
   - syllabus: malaysia-kssm-matematik-tingkatan2
-    topic: F2-01
-    scope: "Expansion and factorisation of expressions"
+    topic: F2-02
+    scope: "Factorisation and algebraic fractions"
   - syllabus: malaysia-kssm-matematik-tingkatan3
     topic: F3-01
-    scope: "Algebraic formulae and changing the subject"
+    scope: "Indices in algebraic expressions"
 ```
 
 #### 9.6 — Prerequisite Chain Verification (🧑 Education Lead)
 
 The Education Lead should verify:
-- [ ] A Form 1 student completing F1-01 → F1-02 → F1-03 → F1-04 is a logical sequence
+- [ ] A Form 1 student completing F1-05 → F1-06 → F1-07 is a logical sequence
 - [ ] Form 2 topics correctly assume Form 1 mastery
 - [ ] Form 3 topics correctly assume Form 2 mastery
 - [ ] No topic has a prerequisite that is harder than itself
@@ -1718,7 +1667,7 @@ python3 scripts/check-references.py
 - [ ] 2 concept files validate against concept schema
 - [ ] Education Lead confirms prerequisite chains are pedagogically sound
 
-**Progress:** 14 topics | 70 questions | 14 teaching notes | 14 assessments | 5 schemas | 3 syllabi | 3 subjects | 2 concepts | 3 scripts
+**Progress:** 8 topics | 40 questions | 8 teaching notes | 8 assessments | 5 schemas | 3 syllabi | 3 subjects | 2 concepts | 3 scripts
 
 ---
 
@@ -1770,7 +1719,7 @@ Add the prerequisite, reference, and quality checks to `.github/workflows/valida
 
 #### 10.3 — Quality Audit (🧑 Education Lead)
 
-Review the quality report output. For each of the 14 algebra topics:
+Review the quality report output. For each of the 8 algebra topics:
 - [ ] Is the topic at Quality Level 2 or higher? (must have teaching notes + assessments by now)
 - [ ] Are teaching notes pedagogically sound?
 - [ ] Are assessment questions at appropriate difficulty?
@@ -1782,12 +1731,12 @@ Review the quality report output. For each of the 14 algebra topics:
 
 - [ ] Quality assessment script works and produces accurate report
 - [ ] CI workflow updated with all 5 validation steps
-- [ ] All 14 algebra topics at Quality Level 2+
+- [ ] All 8 algebra topics at Quality Level 2+
 - [ ] Education Lead has reviewed quality report and addressed gaps
 
-**Week 2 Output:** All 14 Algebra topics complete (F1:4 + F2:5 + F3:5). 70+ assessment questions. Prerequisite chain validated across 3 forms. Quality Level ≥2 for all topics.
+**Week 2 Output:** All 8 Algebra topics complete (F1:3 + F2:3 + F3:2). 40+ assessment questions. Prerequisite chain validated across 3 forms. Quality Level ≥2 for all topics.
 
-**Progress:** 14 topics | 70 questions | 14 teaching notes | 14 assessments | 5 schemas | 3 syllabi | 3 subjects | 2 concepts | 4 scripts
+**Progress:** 8 topics | 40 questions | 8 teaching notes | 8 assessments | 5 schemas | 3 syllabi | 3 subjects | 2 concepts | 4 scripts
 
 ---
 
@@ -1795,14 +1744,14 @@ Review the quality report output. For each of the 14 algebra topics:
 
 ### Day 11 — Examples Schema + Form 1 Examples
 
-**Entry criteria:** Week 2 complete. All 14 algebra topics at Quality Level 2+.
+**Entry criteria:** Week 2 complete. All 8 algebra topics at Quality Level 2+.
 
 #### Tasks
 
 | # | Task | Owner | Files Created |
 |---|------|-------|---------------|
 | 11.1 | Create `schema/examples.schema.json` | 🤖 | `schema/examples.schema.json` |
-| 11.2 | Create worked examples for F1-01 through F1-04 (3 examples each) | 🧑🤖 | 4 `.examples.yaml` files |
+| 11.2 | Create worked examples for F1-05 through F1-07 (3 examples each) | 🧑🤖 | 3 `.examples.yaml` files |
 
 #### 11.1 — Examples Schema
 
@@ -1874,10 +1823,10 @@ Review the quality report output. For each of the 14 algebra topics:
 
 Create example files for each Form 1 topic. 3 examples per file (easy, medium, hard).
 
-**File:** `curricula/malaysia/kssm/matematik-tingkatan1/topics/algebra/01-ungkapan-algebra.examples.yaml`
+**File:** `curricula/malaysia/kssm/matematik-tingkatan1/topics/algebra/05-ungkapan-algebra.examples.yaml`
 
 ```yaml
-topic_id: F1-01
+topic_id: F1-05
 provenance: ai-assisted
 
 examples:
@@ -1934,20 +1883,20 @@ examples:
 After creating examples, update each topic YAML to add `examples_file` and bump `quality_level` to 3 (since they now have teaching notes + examples + assessments):
 
 ```yaml
-examples_file: "01-ungkapan-algebra.examples.yaml"
+examples_file: "05-ungkapan-algebra.examples.yaml"
 quality_level: 3
 ```
 
-Create similar example files for F1-02, F1-03, F1-04 with 3 examples each.
+Create similar example files for F1-06 and F1-07 with 3 examples each.
 
 #### Day 11 Exit Criteria
 
 - [ ] Examples schema created and validates
-- [ ] 4 example files for Form 1 (12 worked examples total)
+- [ ] 3 example files for Form 1 (9 worked examples total)
 - [ ] All Form 1 topics updated to Quality Level 3
 - [ ] All validation passes
 
-**Progress:** 14 topics | 70 questions | 14 teaching notes | 14 assessments | 12 examples | 6 schemas | 3 syllabi | 3 subjects | 2 concepts
+**Progress:** 8 topics | 40 questions | 8 teaching notes | 8 assessments | 9 examples | 6 schemas | 3 syllabi | 3 subjects | 2 concepts
 
 ---
 
@@ -1959,32 +1908,32 @@ Create similar example files for F1-02, F1-03, F1-04 with 3 examples each.
 
 | # | Task | Owner | Files Created |
 |---|------|-------|---------------|
-| 12.1 | Create worked examples for F2-01 through F2-05 (3 each) | 🧑🤖 | 5 `.examples.yaml` files |
-| 12.2 | Create worked examples for F3-01 through F3-05 (3 each) | 🧑🤖 | 5 `.examples.yaml` files |
+| 12.1 | Create worked examples for F2-01 through F2-03 (3 each) | 🧑🤖 | 3 `.examples.yaml` files |
+| 12.2 | Create worked examples for F3-01 and F3-09 (3 each) | 🧑🤖 | 2 `.examples.yaml` files |
 
 Follow the examples template from Day 11. After creating all examples, update all topic files with `examples_file` and set `quality_level: 3`.
 
 #### Day 12 Exit Criteria
 
-- [ ] 10 example files created (30 worked examples)
-- [ ] All 14 algebra topics now at Quality Level 3 (Teachable)
+- [ ] 5 example files created (15 worked examples)
+- [ ] All 8 algebra topics now at Quality Level 3 (Teachable)
 - [ ] All validation passes
 
-**Progress:** 14 topics (all Level 3) | 70 questions | 14 teaching notes | 14 assessments | 42 examples | 6 schemas
+**Progress:** 8 topics (all Level 3) | 40 questions | 8 teaching notes | 8 assessments | 24 examples | 6 schemas
 
 ---
 
 ### Day 13 — Malay Translation Structure
 
-**Entry criteria:** Day 12 complete. All 14 topics at Quality Level 3.
+**Entry criteria:** Day 12 complete. All 8 topics at Quality Level 3.
 
 #### Tasks
 
 | # | Task | Owner | Files Created |
 |---|------|-------|---------------|
 | 13.1 | Create `locales/ms/` directory structure for all 3 forms | 🤖 | Directories |
-| 13.2 | Translate Form 1 topic names, LOs, misconceptions to BM | 🧑🤖 | 4 translation files |
-| 13.3 | Translate Form 1 teaching notes to BM | 🧑🤖 | 4 `.teaching.md` files |
+| 13.2 | Translate Form 1 topic names, LOs, misconceptions to BM | 🧑🤖 | 3 translation files |
+| 13.3 | Translate Form 1 teaching notes to BM | 🧑🤖 | 3 `.teaching.md` files |
 
 #### 13.1 — Directory Structure
 
@@ -2001,10 +1950,10 @@ mkdir -p curricula/malaysia/kssm/matematik-tingkatan3/locales/ms/topics/algebra
 
 Translation files contain ONLY translatable fields. Non-translatable fields inherit from source.
 
-**File:** `curricula/malaysia/kssm/matematik-tingkatan1/locales/ms/topics/algebra/01-ungkapan-algebra.yaml`
+**File:** `curricula/malaysia/kssm/matematik-tingkatan1/locales/ms/topics/algebra/05-ungkapan-algebra.yaml`
 
 ```yaml
-# Translation of F1-01 to Bahasa Melayu
+# Translation of F1-05 to Bahasa Melayu
 # Non-translatable fields (id, difficulty, prerequisites, mastery) inherit from source
 
 name: "Pemboleh ubah & Ungkapan Algebra"
@@ -2025,10 +1974,10 @@ learning_objectives:
 #### Day 13 Exit Criteria
 
 - [ ] `locales/ms/` directories created for all 3 forms
-- [ ] 4 Form 1 translation files created
-- [ ] 4 Form 1 teaching notes translated to BM
+- [ ] 3 Form 1 translation files created
+- [ ] 3 Form 1 teaching notes translated to BM
 
-**Progress:** 14 topics | 70 questions | 14 teaching notes | 14 assessments | 42 examples | 4 translations | 6 schemas
+**Progress:** 8 topics | 40 questions | 8 teaching notes | 8 assessments | 24 examples | 3 translations | 6 schemas
 
 ---
 
@@ -2040,8 +1989,8 @@ learning_objectives:
 
 | # | Task | Owner | Files Created |
 |---|------|-------|---------------|
-| 14.1 | Translate Form 2 topics + teaching notes to BM | 🧑🤖 | 5 translation files + 5 teaching notes |
-| 14.2 | Translate Form 3 topics + teaching notes to BM | 🧑🤖 | 5 translation files + 5 teaching notes |
+| 14.1 | Translate Form 2 topics + teaching notes to BM | 🧑🤖 | 3 translation files + 3 teaching notes |
+| 14.2 | Translate Form 3 topics + teaching notes to BM | 🧑🤖 | 2 translation files + 2 teaching notes |
 | 14.3 | Native speaker review of all BM translations | 🧑 | — |
 
 #### 14.3 — BM Translation Review (🧑 Education Lead)
@@ -2054,11 +2003,11 @@ Review checklist:
 
 #### Day 14 Exit Criteria
 
-- [ ] All 14 translation files created
-- [ ] All 14 teaching notes translated
+- [ ] All 8 translation files created
+- [ ] All 8 teaching notes translated
 - [ ] Native speaker review complete
 
-**Progress:** 14 topics | 70 questions | 14 teaching notes | 14 assessments | 42 examples | 14 translations | 6 schemas
+**Progress:** 8 topics | 40 questions | 8 teaching notes | 8 assessments | 24 examples | 8 translations | 6 schemas
 
 ---
 
@@ -2110,12 +2059,12 @@ domain: mathematics
 subtopics:
   - "Algebraic Expressions"
   - "Linear Equations"
-  - "Simultaneous Equations"
   - "Linear Inequalities"
+  - "Patterns & Sequences"
+  - "Factorisation & Algebraic Fractions"
   - "Algebraic Formulae"
-  - "Algebraic Patterns & Sequences"
-  - "Indices in Algebra"
-  - "Expansion & Factorisation"
+  - "Indices"
+  - "Straight Lines"
 ```
 
 #### Day 15 Exit Criteria
@@ -2126,9 +2075,9 @@ subtopics:
 - [ ] CONTRIBUTING.md updated to reflect current state
 - [ ] README.md updated to reflect current state
 
-**Week 3 Output:** 42 worked examples. Malay translations for all 14 topics. Taxonomy defined. All 7 schemas complete.
+**Week 3 Output:** 24 worked examples. Malay translations for all 8 topics. Taxonomy defined. All 7 schemas complete.
 
-**Progress:** 14 topics | 70 questions | 14 teaching notes | 14 assessments | 42 examples | 14 translations | 7 schemas | 1 taxonomy | 3 syllabi | 3 subjects | 2 concepts
+**Progress:** 8 topics | 40 questions | 8 teaching notes | 8 assessments | 24 examples | 8 translations | 7 schemas | 1 taxonomy | 3 syllabi | 3 subjects | 2 concepts
 
 ---
 
@@ -2171,7 +2120,7 @@ Update the Form 1 `syllabus.yaml` to add new subjects and `subjects/algebra.yaml
 - [ ] Form 1 syllabus updated with new subjects
 - [ ] All validation passes
 
-**Progress:** 22-24 topics | 70 questions | 17 teaching notes | 14 assessments | 42 examples | 14 translations | 7 schemas
+**Progress:** 16-18 topics | 40 questions | 11 teaching notes | 8 assessments | 24 examples | 8 translations | 7 schemas
 
 ---
 
@@ -2196,13 +2145,13 @@ Create appropriate subjects (numbers, geometry, statistics, measurement) for For
 - [ ] Prerequisite links verified by Education Lead
 - [ ] All validation passes
 
-**Progress:** ~40 topics | 70 questions | 17 teaching notes | 14 assessments | 42 examples | 14 translations | 7 schemas
+**Progress:** ~34 topics | 40 questions | 11 teaching notes | 8 assessments | 24 examples | 8 translations | 7 schemas
 
 ---
 
 ### Days 19-20 — More Assessments + Quality
 
-**Entry criteria:** Day 18 complete. ~40 topics across 3 forms.
+**Entry criteria:** Day 18 complete. ~34 topics across 3 forms.
 
 #### Tasks
 
@@ -2211,7 +2160,7 @@ Create appropriate subjects (numbers, geometry, statistics, measurement) for For
 | 19.1 | Add 5 MORE assessment questions per Algebra topic (total: 10/topic) | 🧑 |
 | 19.2 | Add harder "exam-style" questions for Form 3 (PT3 format) | 🧑 |
 | 20.1 | Run full quality report | 🤖 |
-| 20.2 | Ensure ALL 14 Algebra topics at Quality Level 3+ | 🧑 |
+| 20.2 | Ensure ALL 8 Algebra topics at Quality Level 3+ | 🧑 |
 
 #### Quality Report Output
 
@@ -2224,23 +2173,23 @@ Expected output:
 === Quality Level Report ===
 Level 5 (Gold):      0 topics
 Level 4 (Complete):  0 topics
-Level 3 (Teachable): 14 topics (all Algebra)
+Level 3 (Teachable): 8 topics (all Algebra)
 Level 2 (Structured): 3 topics
 Level 1 (Basic):     5-7 topics
 Level 0 (Stub):      ~15 topics
-Total: ~40 topics
+Total: ~34 topics
 ```
 
 #### Days 19-20 Exit Criteria
 
-- [ ] 140+ assessment questions (10 per algebra topic)
+- [ ] 80+ assessment questions (10 per algebra topic)
 - [ ] PT3-style questions for Form 3
 - [ ] Quality report generated
-- [ ] All 14 algebra topics confirmed at Level 3+
+- [ ] All 8 algebra topics confirmed at Level 3+
 
-**Week 4 Output:** ~25 non-algebra topic stubs. 140+ algebra assessment questions. Full quality report.
+**Week 4 Output:** ~25 non-algebra topic stubs. 80+ algebra assessment questions. Full quality report.
 
-**Progress:** ~40 topics | 140 questions | 17 teaching notes | 14 assessments | 42 examples | 14 translations | 7 schemas
+**Progress:** ~34 topics | 80 questions | 11 teaching notes | 8 assessments | 24 examples | 8 translations | 7 schemas
 
 ---
 
@@ -2248,7 +2197,7 @@ Total: ~40 topics
 
 ### Days 21-22 — Documentation + Tooling
 
-**Entry criteria:** Week 4 complete. 140+ assessment questions. Quality report clean.
+**Entry criteria:** Week 4 complete. 80+ assessment questions. Quality report clean.
 
 #### Tasks
 
@@ -2295,9 +2244,9 @@ Create issues for community contributors:
 1. "Add teaching notes for [stub topic]" (5-6 issues)
 2. "Translate Form 1 topics to Chinese (zh)" (1 issue)
 3. "Translate Form 1 topics to Tamil (ta)" (1 issue)
-4. "Add 2 more worked examples for F1-03" (1 issue)
+4. "Add 2 more worked examples for F1-07" (1 issue)
 5. "Improve assessment hints for F2-01" (1 issue)
-6. "Add BM-only assessment questions for F1-01" (1 issue)
+6. "Add BM-only assessment questions for F1-05" (1 issue)
 
 Label all with `good first issue` and `help wanted`.
 
@@ -2357,7 +2306,7 @@ All must pass with zero errors.
 #### 24.1 — Tag Release
 
 ```bash
-git tag -a v0.1.0 -m "First public release: KSSM Matematik F1-F3 Algebra (14 topics at Level 3+)"
+git tag -a v0.1.0 -m "First public release: KSSM Matematik F1-F3 Algebra (8 topics at Level 3+)"
 git push origin v0.1.0
 ```
 
@@ -2421,7 +2370,7 @@ All 7 schemas are defined inline in the guide at the point of first creation:
 ### Topic Template (Quality Level 1)
 
 ```yaml
-id: "XX-NN"              # e.g., F1-01, F2-03
+id: "XX-NN"              # e.g., F1-05, F2-03
 name: "Name (BM) (English Description)"
 subject_id: algebra       # or numbers, measurement, statistics, geometry
 syllabus_id: malaysia-kssm-matematik-tingkatanN
@@ -2577,23 +2526,23 @@ curricula:
 | Day | Topics | Questions | Teaching Notes | Assessments | Examples | Translations | Schemas | Scripts |
 |-----|--------|-----------|----------------|-------------|----------|--------------|---------|---------|
 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 | 0 |
-| 1 | 4 | 0 | 4 | 0 | 0 | 0 | 4 | 0 |
-| 2 | 4 | 20 | 4 | 4 | 0 | 0 | 4 | 0 |
-| 3 | 4 | 20 | 4 | 4 | 0 | 0 | 4 | 1 |
-| 4 | 9 | 20 | 7 | 4 | 0 | 0 | 4 | 1 |
-| 5 | 9 | 20 | 7 | 4 | 0 | 0 | 4 | 1 |
-| 6 | 9 | 45 | 9 | 9 | 0 | 0 | 4 | 1 |
-| 7 | 14 | 45 | 14 | 9 | 0 | 0 | 4 | 1 |
-| 8 | 14 | 70 | 14 | 14 | 0 | 0 | 4 | 1 |
-| 9 | 14 | 70 | 14 | 14 | 0 | 0 | 5 | 3 |
-| 10 | 14 | 70 | 14 | 14 | 0 | 0 | 5 | 4 |
-| 11 | 14 | 70 | 14 | 14 | 12 | 0 | 6 | 4 |
-| 12 | 14 | 70 | 14 | 14 | 42 | 0 | 6 | 4 |
-| 13 | 14 | 70 | 14 | 14 | 42 | 4 | 6 | 4 |
-| 14 | 14 | 70 | 14 | 14 | 42 | 14 | 6 | 4 |
-| 15 | 14 | 70 | 14 | 14 | 42 | 14 | 7 | 4 |
-| 16-17 | ~24 | 70 | 17 | 14 | 42 | 14 | 7 | 4 |
-| 18 | ~40 | 70 | 17 | 14 | 42 | 14 | 7 | 4 |
-| 19-20 | ~40 | 140 | 17 | 14 | 42 | 14 | 7 | 4 |
-| 21-25 | ~40 | 140 | 17 | 14 | 42 | 14 | 7 | 5 |
-| 26-30 | ~40+ | 140+ | 17+ | 14+ | 42+ | 14+ | 7 | 5 |
+| 1 | 3 | 0 | 3 | 0 | 0 | 0 | 4 | 0 |
+| 2 | 3 | 15 | 3 | 3 | 0 | 0 | 4 | 0 |
+| 3 | 3 | 15 | 3 | 3 | 0 | 0 | 4 | 1 |
+| 4 | 6 | 15 | 6 | 3 | 0 | 0 | 4 | 1 |
+| 5 | 6 | 15 | 6 | 3 | 0 | 0 | 4 | 1 |
+| 6 | 6 | 30 | 6 | 6 | 0 | 0 | 4 | 1 |
+| 7 | 8 | 30 | 8 | 6 | 0 | 0 | 4 | 1 |
+| 8 | 8 | 40 | 8 | 8 | 0 | 0 | 4 | 1 |
+| 9 | 8 | 40 | 8 | 8 | 0 | 0 | 5 | 3 |
+| 10 | 8 | 40 | 8 | 8 | 0 | 0 | 5 | 4 |
+| 11 | 8 | 40 | 8 | 8 | 9 | 0 | 6 | 4 |
+| 12 | 8 | 40 | 8 | 8 | 24 | 0 | 6 | 4 |
+| 13 | 8 | 40 | 8 | 8 | 24 | 3 | 6 | 4 |
+| 14 | 8 | 40 | 8 | 8 | 24 | 8 | 6 | 4 |
+| 15 | 8 | 40 | 8 | 8 | 24 | 8 | 7 | 4 |
+| 16-17 | ~18 | 40 | 11 | 8 | 24 | 8 | 7 | 4 |
+| 18 | ~34 | 40 | 11 | 8 | 24 | 8 | 7 | 4 |
+| 19-20 | ~34 | 80 | 11 | 8 | 24 | 8 | 7 | 4 |
+| 21-25 | ~34 | 80 | 11 | 8 | 24 | 8 | 7 | 5 |
+| 26-30 | ~34+ | 80+ | 11+ | 8+ | 24+ | 8+ | 7 | 5 |

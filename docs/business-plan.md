@@ -105,7 +105,7 @@ The Pandai team seeds the initial content from existing Pandai materials and off
 | Curriculum | Subject | Target Topics | Quality Target |
 |-----------|---------|---------------|----------------|
 | Cambridge IGCSE 0580 | Mathematics | 8 (Algebra + Number) | Level 3 (Teachable) |
-| Malaysia KSSM Forms 1-3 | Mathematics | 14 (Algebra) + ~25 stubs | Level 3 (Teachable) |
+| Malaysia KSSM Forms 1-3 | Mathematics | 8 (Algebra, DSKP-aligned) + ~25 stubs | Level 3 (Teachable) |
 
 Seeding is done by the Education Lead with Claude Code assistance: human writes teaching notes for 2–3 topics, AI generates drafts for the rest, human reviews and edits all.
 
@@ -249,7 +249,7 @@ Contribution rate exceeds consumption rate. AI-observed improvements from multip
 |--------|--------|---------|---------|----------|
 | Curricula scaffolded | 2 | 5 | 15 | 50+ |
 | Curricula at Level 3+ | 2 | 3 | 10 | 25+ |
-| Total topics | 13 | 50 | 200 | 1,000+ |
+| Total topics | 8 (algebra) + ~25 stubs | 50 | 200 | 1,000+ |
 | Languages | 2 (en, ms) | 3 | 5 | 10+ |
 | Universal concepts mapped | 10 | 30 | 100 | 500+ |
 

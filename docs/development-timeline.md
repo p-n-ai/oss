@@ -10,43 +10,39 @@
 
 oss owns the **curriculum data**: YAML topic files, Markdown teaching notes, assessment questions, JSON Schemas, and validation CI. No runtime code — purely content + structure.
 
-**First 6 months curriculum scope:**
+**First 6 months curriculum scope (aligned to official DSKP):**
 
-| Form | Algebra Topics (Primary) | Other Subjects (Backfill later) |
-|------|-------------------------|-------------------------------|
-| **Form 1** | Algebraic Expressions, Linear Equations in One Variable | Rational Numbers, Integers, Fractions, Basic Statistics |
-| **Form 2** | Algebraic Expressions II (expansion, factorisation), Simultaneous Linear Equations, Linear Inequalities | Squares/Cubes/Roots, Circles, Pythagoras |
-| **Form 3** | Algebraic Formulae, Linear Equations in Two Variables, Simultaneous Linear Equations II, Linear Inequalities II | Indices, Trigonometry, Lines & Angles |
+| Form | Algebra Topics (Primary) | DSKP Chapters | Other Subjects (Backfill later) |
+|------|-------------------------|---------------|-------------------------------|
+| **Form 1** | Ungkapan Algebra, Persamaan Linear, Ketaksamaan Linear | Bab 5, 6, 7 | Nombor Nisbah, Faktor & Gandaan, Nisbah/Kadar/Kadaran, etc. |
+| **Form 2** | Pola dan Jujukan, Pemfaktoran dan Pecahan Algebra, Rumus Algebra | Bab 1, 2, 3 | Poligon, Bulatan, Koordinat, Graf Fungsi, etc. |
+| **Form 3** | Indeks, Garis Lurus | Bab 1, 9 | Bentuk Piawai, Matematik Pengguna, Trigonometri, etc. |
 
-**Algebra topics are built first (Weeks 1-3), other topics backfilled (Weeks 4-6).**
+**Note:** Topic IDs follow DSKP chapter numbering (e.g., F1-05 = Form 1 Bab 5). Algebra topics are built first (Weeks 1-3), other topics backfilled (Weeks 4-6).
 
 ---
 
-## KSSM Algebra Topic Map
+## KSSM Algebra Topic Map (DSKP-Aligned)
+
+Topic IDs follow DSKP chapter numbering: `F{form}-{chapter}`.
 
 ```
-Form 1 Algebra (4 topics)
-├── F1-01 Pemboleh ubah & Ungkapan Algebra (Variables & Algebraic Expressions)
-├── F1-02 Persamaan Linear I (Linear Equations in One Variable)
-├── F1-03 Ketaksamaan Linear I (Linear Inequalities — intro)
-└── F1-04 Pola & Jujukan (Patterns & Sequences — algebraic patterns)
+Form 1 Algebra (3 topics — DSKP Bab 5, 6, 7)
+├── F1-05 Ungkapan Algebra (Algebraic Expressions)
+├── F1-06 Persamaan Linear (Linear Equations)
+└── F1-07 Ketaksamaan Linear (Linear Inequalities)
 
-Form 2 Algebra (5 topics)
-├── F2-01 Ungkapan Algebra II (Expansion & Factorisation)
-├── F2-02 Persamaan Linear II (Linear Equations with brackets/fractions)
-├── F2-03 Persamaan Serentak (Simultaneous Linear Equations)
-├── F2-04 Ketaksamaan Linear II (Linear Inequalities — solving)
-└── F2-05 Pengenalan Pola Algebra (Algebraic Patterns — generalisation)
+Form 2 Algebra (3 topics — DSKP Bab 1, 2, 3)
+├── F2-01 Pola dan Jujukan (Patterns & Sequences)
+├── F2-02 Pemfaktoran dan Pecahan Algebra (Factorisation & Algebraic Fractions)
+└── F2-03 Rumus Algebra (Algebraic Formulae)
 
-Form 3 Algebra (5 topics)
-├── F3-01 Ungkapan & Formula Algebra (Algebraic Formulae — subject change)
-├── F3-02 Persamaan Linear Dua Pemboleh Ubah (Linear Equations in Two Variables)
-├── F3-03 Persamaan Serentak II (Simultaneous Equations — harder)
-├── F3-04 Ketaksamaan Linear III (Combined Inequalities)
-└── F3-05 Indeks & Algebra (Indices in Algebraic Expressions)
+Form 3 Algebra (2 topics — DSKP Bab 1, 9)
+├── F3-01 Indeks (Indices)
+└── F3-09 Garis Lurus (Straight Lines)
 ```
 
-**Total Algebra topics: 14** — the primary validation set.
+**Total Algebra topics: 8** — the primary validation set.
 
 ---
 
@@ -55,9 +51,9 @@ Form 3 Algebra (5 topics)
 | Task ID | Task | Owner | Time |
 |---------|------|-------|------|
 | `O-D0-1` | Initialize repo: `curricula/`, `schema/`, `concepts/`, `taxonomy/`, `scripts/`, `.github/workflows/` | 🤖 Claude Code | 30min |
-| `O-D0-2` | Create `schema/topic.schema.json` and `schema/assessments.schema.json` (JSON Schema Draft 2020-12). Remaining schemas (`syllabus`, `subject`, `examples`, `concept`, `taxonomy`) are created as their content types are first introduced. | 🤖 Claude Code | 1hr |
+| `O-D0-2` | Create 4 schemas: `topic`, `assessments`, `syllabus`, `subject` (JSON Schema Draft 2020-12). Remaining schemas (`examples`, `concept`, `taxonomy`) are created as their content types are first introduced. | 🤖 Claude Code | 1hr |
 | `O-D0-3` | Create `curricula/malaysia/kssm/matematik-tingkatan1/syllabus.yaml` with board metadata | 🤖 Claude Code | 30min |
-| `O-D0-4` | 🧑 Choose first 5 Algebra topics (Form 1: 4 topics + Form 2 topic 1) | 🧑 Education Lead | 30min |
+| `O-D0-4` | 🧑 Choose first 5 Algebra topics against official DSKP (Form 1: 3 topics + Form 2: 2 topics) | 🧑 Education Lead | 30min |
 
 **Exit:** Repo exists with schema files and syllabus structure for KSSM Matematik Form 1.
 
@@ -65,21 +61,21 @@ Form 3 Algebra (5 topics)
 
 ## WEEK 1 — FORM 1 ALGEBRA CONTENT
 
-### Day 1 (Mon) — First 4 Topics (Form 1 Algebra)
+### Day 1 (Mon) — Form 1 Algebra Topics (3 topics)
 
 | Task ID | Task | Owner |
 |---------|------|-------|
 | `O-W1D1-1` | Create `curricula/malaysia/kssm/matematik-tingkatan1/subjects/algebra.yaml` — subject metadata | 🤖 |
-| `O-W1D1-2` | Create topic YAML stubs for F1-01 through F1-04: id, name, prerequisites, learning_objectives, difficulty, bloom_levels | 🤖 |
-| `O-W1D1-3` | 🧑 Write F1-01 teaching notes (`F1-01-ungkapan-algebra.teaching.md`) — real teacher quality, conversational, KSSM-aligned | 🧑 Education Lead (2hr) |
-| `O-W1D1-4` | 🧑🤖 AI-draft teaching notes for F1-02 through F1-04, Education Lead reviews and edits | Collaborative (2hr) |
+| `O-W1D1-2` | Create topic YAML stubs for F1-05, F1-06, F1-07: id, name, prerequisites, learning_objectives, difficulty, bloom_levels | 🤖 |
+| `O-W1D1-3` | 🧑 Write F1-05 teaching notes (`05-ungkapan-algebra.teaching.md`) — real teacher quality, conversational, KSSM-aligned | 🧑 Education Lead (2hr) |
+| `O-W1D1-4` | 🧑🤖 AI-draft teaching notes for F1-06 and F1-07, Education Lead reviews and edits | Collaborative (2hr) |
 
 ### Day 2 (Tue) — Assessments for Form 1 Algebra
 
 | Task ID | Task | Owner |
 |---------|------|-------|
-| `O-W1D2-1` | 🧑 Write 5 assessment questions for F1-01 (Algebraic Expressions): answers, rubrics, hints, difficulty spread | 🧑 Education Lead (2hr) |
-| `O-W1D2-2` | 🤖 AI-generate assessments for F1-02 through F1-04 (5 questions each), Education Lead reviews | Collaborative (2hr) |
+| `O-W1D2-1` | 🧑 Write 5 assessment questions for F1-05 (Ungkapan Algebra): answers, rubrics, hints, difficulty spread | 🧑 Education Lead (2hr) |
+| `O-W1D2-2` | 🤖 AI-generate assessments for F1-06 and F1-07 (5 questions each), Education Lead reviews | Collaborative (2hr) |
 | `O-W1D2-3` | Create `.yamllint.yml` with formatting rules | 🤖 |
 
 ### Day 3 (Wed) — Validation Pipeline
@@ -90,14 +86,14 @@ Form 3 Algebra (5 topics)
 | `O-W1D3-2` | `scripts/validate.sh` — run all schema validations locally | 🤖 |
 | `O-W1D3-3` | Validate all existing content passes CI | 🤖 |
 
-### Day 4 (Thu) — Form 2 Algebra Begins
+### Day 4 (Thu) — Form 2 Algebra Begins (3 topics)
 
 | Task ID | Task | Owner |
 |---------|------|-------|
 | `O-W1D4-1` | Create `curricula/malaysia/kssm/matematik-tingkatan2/syllabus.yaml` + `subjects/algebra.yaml` | 🤖 |
-| `O-W1D4-2` | Create topic YAML stubs for F2-01 through F2-05 with prerequisites linking to Form 1 | 🤖 |
-| `O-W1D4-3` | 🧑 Write F2-01 teaching notes (Expansion & Factorisation) — key topic, highest misconception rate | 🧑 Education Lead (2hr) |
-| `O-W1D4-4` | 🧑🤖 AI-draft teaching notes for F2-02 through F2-03 | Collaborative |
+| `O-W1D4-2` | Create topic YAML stubs for F2-01, F2-02, F2-03 with prerequisites linking to Form 1 | 🤖 |
+| `O-W1D4-3` | 🧑 Write F2-02 teaching notes (Pemfaktoran dan Pecahan Algebra) — key topic, highest misconception rate | 🧑 Education Lead (2hr) |
+| `O-W1D4-4` | 🧑🤖 AI-draft teaching notes for F2-01 and F2-03 | Collaborative |
 
 ### Day 5 (Fri) — Quality Check
 
@@ -106,35 +102,34 @@ Form 3 Algebra (5 topics)
 | `O-W1D5-1` | 🧑 Review all Week 1 content for KSSM accuracy: correct terminology (BM & English), correct scope per form | 🧑 Education Lead (2hr) |
 | `O-W1D5-2` | Fix any schema validation failures | 🤖 |
 
-**Week 1 Output:** 9 topic YAMLs (F1: 4, F2: 5), 5+ teaching notes, 20+ assessment questions. All pass CI.
+**Week 1 Output:** 6 topic YAMLs (F1: 3, F2: 3), 6 teaching notes, 15+ assessment questions. All pass CI.
 
 ---
 
 ## WEEK 2 — FORM 2 & 3 ALGEBRA + ASSESSMENTS
 
-### Day 6 (Mon) — Form 2 Assessments + Remaining Notes
+### Day 6 (Mon) — Form 2 Assessments
 
 | Task ID | Task | Owner |
 |---------|------|-------|
-| `O-W2D6-1` | 🧑 Write assessments for F2-01 through F2-03 (5 questions each, Algebra focus) | 🧑 Education Lead (3hr) |
-| `O-W2D6-2` | 🧑🤖 AI-draft teaching notes for F2-04, F2-05 | Collaborative |
-| `O-W2D6-3` | 🧑🤖 AI-draft assessments for F2-04, F2-05 | Collaborative |
+| `O-W2D6-1` | 🧑 Write assessments for F2-01, F2-02, F2-03 (5 questions each, Algebra focus) | 🧑 Education Lead (3hr) |
+| `O-W2D6-2` | 🧑🤖 AI-draft additional assessment questions for all F2 topics | Collaborative |
 
 ### Day 7 (Tue) — Form 3 Algebra Structure
 
 | Task ID | Task | Owner |
 |---------|------|-------|
 | `O-W2D7-1` | Create `curricula/malaysia/kssm/matematik-tingkatan3/syllabus.yaml` + `subjects/algebra.yaml` | 🤖 |
-| `O-W2D7-2` | Create topic YAML stubs for F3-01 through F3-05 with prerequisites linking to Form 2 | 🤖 |
-| `O-W2D7-3` | 🧑 Write F3-01 teaching notes (Algebraic Formulae — subject change) | 🧑 Education Lead (2hr) |
-| `O-W2D7-4` | 🧑🤖 AI-draft teaching notes for F3-02 through F3-05 | Collaborative |
+| `O-W2D7-2` | Create topic YAML stubs for F3-01 and F3-09 with prerequisites linking to Form 2 | 🤖 |
+| `O-W2D7-3` | 🧑 Write F3-01 teaching notes (Indeks — Indices) | 🧑 Education Lead (2hr) |
+| `O-W2D7-4` | 🧑🤖 AI-draft teaching notes for F3-09 (Garis Lurus) | Collaborative |
 
 ### Day 8 (Wed) — Form 3 Assessments
 
 | Task ID | Task | Owner |
 |---------|------|-------|
-| `O-W2D8-1` | 🧑 Write assessments for F3-01 through F3-03 (5 questions each) | 🧑 Education Lead (3hr) |
-| `O-W2D8-2` | 🧑🤖 AI-draft assessments for F3-04, F3-05 | Collaborative |
+| `O-W2D8-1` | 🧑 Write assessments for F3-01 and F3-09 (5 questions each) | 🧑 Education Lead (2hr) |
+| `O-W2D8-2` | 🧑🤖 AI-draft additional assessment questions for F3 topics | Collaborative |
 
 ### Day 9 (Thu) — Cross-Form Prerequisites + Concepts
 
@@ -152,9 +147,9 @@ Form 3 Algebra (5 topics)
 |---------|------|-------|
 | `O-W2D10-1` | `scripts/assess-quality.py` — auto-assess quality levels for all topics | 🤖 |
 | `O-W2D10-2` | Add quality report to CI (runs on merge to main) | 🤖 |
-| `O-W2D10-3` | 🧑 Full quality audit: are all 14 Algebra topics at Level 3 (Teachable)? Fix any that aren't. | 🧑 Education Lead |
+| `O-W2D10-3` | 🧑 Full quality audit: are all 8 Algebra topics at Level 3 (Teachable)? Fix any that aren't. | 🧑 Education Lead |
 
-**Week 2 Output:** All 14 Algebra topics complete (F1:4 + F2:5 + F3:5). 70+ assessment questions. Prerequisite chain validated across 3 forms. Quality Level ≥3 for all topics.
+**Week 2 Output:** All 8 Algebra topics complete (F1:3 + F2:3 + F3:2). 40+ assessment questions. Prerequisite chain validated across 3 forms. Quality Level ≥3 for all topics.
 
 ---
 
@@ -165,14 +160,14 @@ Form 3 Algebra (5 topics)
 | Task ID | Task | Owner |
 |---------|------|-------|
 | `O-W3D11-1` | Create `schema/examples.schema.json` | 🤖 |
-| `O-W3D11-2` | 🧑🤖 Create worked examples for F1-01 through F1-04 (3 examples each, progressive difficulty) | Collaborative (3hr) |
+| `O-W3D11-2` | 🧑🤖 Create worked examples for F1-05, F1-06, F1-07 (3 examples each, progressive difficulty) | Collaborative (3hr) |
 
 ### Day 12 (Tue) — Form 2 & 3 Examples
 
 | Task ID | Task | Owner |
 |---------|------|-------|
-| `O-W3D12-1` | 🧑🤖 Create worked examples for F2-01 through F2-05 | Collaborative (3hr) |
-| `O-W3D12-2` | 🧑🤖 Create worked examples for F3-01 through F3-05 | Collaborative (2hr) |
+| `O-W3D12-1` | 🧑🤖 Create worked examples for F2-01, F2-02, F2-03 | Collaborative (3hr) |
+| `O-W3D12-2` | 🧑🤖 Create worked examples for F3-01 and F3-09 | Collaborative (2hr) |
 
 ### Day 13 (Wed) — Malay Translation Structure
 
@@ -198,7 +193,7 @@ Form 3 Algebra (5 topics)
 | `O-W3D15-2` | Write CONTRIBUTING.md: 3 contribution paths (teacher, developer, AI), YAML format guide with examples | 🤖 |
 | `O-W3D15-3` | Write comprehensive README.md: what it is, structure, how to consume, how to contribute | 🤖 |
 
-**Week 3 Output:** 42 worked examples. Malay translations for all 14 topics. Taxonomy defined. Docs complete.
+**Week 3 Output:** 24 worked examples. Malay translations for all 8 Algebra topics. Taxonomy defined. Docs complete.
 
 ---
 
@@ -224,12 +219,12 @@ Form 3 Algebra (5 topics)
 
 | Task ID | Task | Owner |
 |---------|------|-------|
-| `O-W4D19-1` | 🧑 Add 5 MORE assessment questions per Algebra topic (bringing total to 10/topic = 140 total) | 🧑 Education Lead |
+| `O-W4D19-1` | 🧑 Add 5 MORE assessment questions per Algebra topic (bringing total to 10/topic = 80 total) | 🧑 Education Lead |
 | `O-W4D19-2` | 🧑 Add harder "exam-style" questions for Form 3 topics (PT3 exam format) | 🧑 Education Lead |
 | `O-W4D20-1` | Run full quality report: how many topics at each level? | 🤖 |
-| `O-W4D20-2` | 🧑 Ensure ALL 14 Algebra topics are at Quality Level 3+ (Teachable) | 🧑 Education Lead |
+| `O-W4D20-2` | 🧑 Ensure ALL 8 Algebra topics are at Quality Level 3+ (Teachable) | 🧑 Education Lead |
 
-**Week 4 Output:** ~25 non-algebra topic stubs. 140+ algebra assessment questions. Full quality report.
+**Week 4 Output:** ~25 non-algebra topic stubs. 80+ algebra assessment questions. Full quality report.
 
 ---
 
@@ -256,7 +251,7 @@ Form 3 Algebra (5 topics)
 
 | Task ID | Task | Owner |
 |---------|------|-------|
-| `O-W5D24-1` | Tag v0.1.0: first public release (14 Algebra topics at Level 3+, 25+ non-algebra stubs) | 🤖 |
+| `O-W5D24-1` | Tag v0.1.0: first public release (8 Algebra topics at Level 3+, 25+ non-algebra stubs) | 🤖 |
 | `O-W5D25-1` | 🧑 Prepare curriculum section of launch blog: "Open School Syllabus — covering KSSM F1-F3 Matematik" | 🧑 Human |
 
 **Week 5 Output:** Repo public-ready. v0.1.0 tagged. 10+ good first issues. SQLite export available.
@@ -294,9 +289,9 @@ Form 3 Algebra (5 topics)
 
 | Milestone | Algebra Topics | Non-Algebra Topics | Assessment Qs | Teaching Notes | Translations |
 |-----------|---------------|--------------------|--------------|--------------|-|
-| End Week 1 | 9 (F1:4, F2:5) | 0 | 20+ | 5+ (BM & EN) | 0 |
-| End Week 2 | 14 (all) | 0 | 70+ | 14 (all) | 0 |
-| End Week 3 | 14 | 0 | 70+ | 14 | 14 (Malay) |
-| End Week 4 | 14 | ~25 stubs | 140+ | 14+ | 14 |
-| End Week 5 | 14 | ~25 | 140+ | 14+ | 14 |
-| End Week 6 | 14 | ~25+ | 140+ | 14+ | 14+ |
+| End Week 1 | 6 (F1:3, F2:3) | 0 | 15+ | 6 (BM & EN) | 0 |
+| End Week 2 | 8 (all) | 0 | 40+ | 8 (all) | 0 |
+| End Week 3 | 8 | 0 | 40+ | 8 | 8 (Malay) |
+| End Week 4 | 8 | ~25 stubs | 80+ | 8+ | 8 |
+| End Week 5 | 8 | ~25 | 80+ | 8+ | 8 |
+| End Week 6 | 8 | ~25+ | 80+ | 8+ | 8+ |

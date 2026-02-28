@@ -72,7 +72,7 @@ When scaffolding files/tooling are present, run:
 
 ```bash
 yamllint -c .yamllint.yml curricula/ concepts/ taxonomy/
-ajv validate -s schema/topic.schema.json -d "path/to/topic.yaml"
+ajv validate --spec=draft2020 -s schema/topic.schema.json -d "path/to/topic.yaml"
 python scripts/check-prerequisites.py
 python scripts/check-references.py
 python scripts/assess-quality.py --report

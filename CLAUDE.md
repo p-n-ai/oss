@@ -104,13 +104,13 @@ Level 3 is the minimum viable quality for AI tutoring.
 # Lint all YAML
 yamllint -c .yamllint.yml curricula/ concepts/ taxonomy/
 
-# Validate a single topic
-ajv validate -s schema/topic.schema.json -d "path/to/topic.yaml"
+# Validate a single topic (--spec=draft2020 required for Draft 2020-12)
+ajv validate --spec=draft2020 -s schema/topic.schema.json -d "path/to/topic.yaml"
 
 # Validate all topics
 find curricula -path "*/topics/*" -name "*.yaml" \
   ! -name "*.examples.yaml" ! -name "*.assessments.yaml" \
-  | xargs -I{} ajv validate -s schema/topic.schema.json -d {}
+  | xargs -I{} ajv validate --spec=draft2020 -s schema/topic.schema.json -d {}
 
 # Custom checks
 python scripts/check-prerequisites.py    # Detect prerequisite cycles
