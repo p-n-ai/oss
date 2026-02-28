@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(yamllint -c .yamllint.yml curricula/malaysia/kssm/matematik-tingkatan1/syllabus.yaml)",
+      "Bash(pip3 install yamllint)",
+      "Bash(npm install -g ajv-cli ajv-formats)",
+      "Bash(ajv validate -s schema/syllabus.schema.json -d curricula/malaysia/kssm/matematik-tingkatan1/syllabus.yaml)",
+      "Bash(ajv help validate)",
+      "Bash(npm info ajv-cli version)",
+      "Bash(ajv validate --spec=draft2019 -s schema/syllabus.schema.json -d curricula/malaysia/kssm/matematik-tingkatan1/syllabus.yaml)",
+      "Bash(ajv validate --spec=draft2020 -s schema/syllabus.schema.json -d curricula/malaysia/kssm/matematik-tingkatan1/syllabus.yaml)",
+      "WebFetch(domain:app.pandai.org)"
     ]
   }
 }
