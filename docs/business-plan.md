@@ -329,4 +329,4 @@ OSS is not about technology. It is about ensuring that when an AI tutor teaches 
 
 ---
 
-*A [Pandai](https://pandai.app) initiative. Built by educators and AI, for everyone.*
+*A [Pandai](https://pandai.org) initiative. Built by educators and AI, for everyone.*

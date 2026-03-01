@@ -30,14 +30,26 @@ Most implementation paths described in docs are planned, not yet present (for ex
 
 When asked to implement features, create those directories/files according to `docs/technical-plan.md` and `docs/development-timeline.md`, then keep docs consistent.
 
+### MANDATORY: Daily Implementation Requires Both Documents
+
+When implementing any day's tasks (Day 0 through Day 30), you **MUST** read and cross-reference **both**:
+
+1. **`docs/development-timeline.md`** — defines **what** to build, task ownership, and sequencing
+2. **`docs/implementation-guide.md`** — defines **how** to build it: exact file paths, content templates, schema definitions, validation commands, and exit criteria
+
+**Never implement from one document alone.** The timeline gives scope and order; the guide gives executable instructions. Cross-check both before starting and after completing each day's tasks.
+
 ## Canonical References
 
 Use these in priority order when instructions conflict:
 
 1. `docs/technical-plan.md` — architecture, schema system, validation design.
-2. `docs/development-timeline.md` — execution sequencing and initial curriculum scope.
-3. `README.md` — public project narrative and contribution-facing overview.
-4. `docs/business-plan.md` — strategy/context, not implementation authority.
+2. `docs/development-timeline.md` — execution sequencing and initial curriculum scope (**what** to build).
+3. `docs/implementation-guide.md` — step-by-step build instructions, templates, exit criteria (**how** to build).
+4. `README.md` — public project narrative and contribution-facing overview.
+5. `docs/business-plan.md` — strategy/context, not implementation authority.
+
+**Note:** Documents 2 and 3 are companion documents. Always use both together when implementing daily tasks.
 
 ## Target Architecture (Planned)
 

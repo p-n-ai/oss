@@ -597,5 +597,5 @@ This means any school, company, or government can use OSS freely — and any imp
 <p align="center">
   <strong>Every curriculum, structured and open, for every student on Earth.</strong>
   <br>
-  A <a href="https://pandai.app">Pandai</a> initiative. Built by educators and AI, for everyone.
+  A <a href="https://pandai.org">Pandai</a> initiative. Built with ❤️ by educators and AI, for everyone.
 </p>

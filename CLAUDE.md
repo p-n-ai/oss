@@ -10,6 +10,13 @@ Think "Wikipedia for curricula" — open, structured, AI-ready.
 
 **Current state:** Scaffolding phase. Documentation exists (`README.md`, `docs/`). Curriculum content, schemas, scripts, and CI workflows are being built per the [development timeline](docs/development-timeline.md).
 
+**IMPORTANT — Daily Implementation Workflow:**
+Before starting any day's work, you **MUST** read and cross-reference **both** documents:
+1. [docs/development-timeline.md](docs/development-timeline.md) — **what** to build and in what order
+2. [docs/implementation-guide.md](docs/implementation-guide.md) — **how** to build it (exact file paths, templates, validation commands, exit criteria)
+
+The timeline provides the schedule and scope; the implementation guide provides the executable instructions. Neither is complete without the other. Do not implement a day's tasks from one document alone.
+
 ## Tech Stack
 
 | Technology | Purpose |
@@ -146,5 +153,6 @@ python scripts/assess-quality.py --report # Quality level report
 | Document | Purpose |
 |---|---|
 | [docs/technical-plan.md](docs/technical-plan.md) | **Canonical architecture reference** — schema design, validation pipeline, full repo structure |
-| [docs/development-timeline.md](docs/development-timeline.md) | 6-week execution plan for KSSM Matematik (Forms 1-3) |
+| [docs/development-timeline.md](docs/development-timeline.md) | 6-week execution plan — **what** to build and in what order |
+| [docs/implementation-guide.md](docs/implementation-guide.md) | Step-by-step instructions — **how** to build each day (templates, paths, exit criteria) |
 | [docs/business-plan.md](docs/business-plan.md) | Business strategy, growth model, sustainability |
