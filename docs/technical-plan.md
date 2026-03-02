@@ -31,22 +31,22 @@ The architecture is deliberately simple. Any platform can consume OSS by cloning
 │  │      └── ...            │  │      └── ...           │  │
 │  └─────────────────────────┘  └────────────────────────┘  │
 │                                                           │
-│  ┌────────────────────────────────────────────────────────┐│
-│  │  GitHub Actions CI                                    ││
-│  │  ├── YAML syntax check                                ││
-│  │  ├── JSON Schema validation (ajv)                     ││
-│  │  ├── Prerequisite graph cycle detection                ││
-│  │  ├── Cross-reference integrity check                  ││
-│  │  └── Quality level auto-assessment                    ││
-│  └────────────────────────────────────────────────────────┘│
+│  ┌─────────────────────────────────────────────────────┐  │
+│  │  GitHub Actions CI                                  │  │
+│  │  ├── YAML syntax check                              │  │
+│  │  ├── JSON Schema validation (ajv)                   │  │
+│  │  ├── Prerequisite graph cycle detection             │  │
+│  │  ├── Cross-reference integrity check                │  │
+│  │  └── Quality level auto-assessment                  │  │
+│  └─────────────────────────────────────────────────────┘  │
 └───────────────────────────────────────────────────────────┘
-         │              │               │
-         ▼              ▼               ▼
-    ┌─────────┐   ┌──────────┐   ┌───────────┐
-    │ P&AI Bot│   │ OSS Bot  │   │ Third-    │
-    │ (Go)    │   │ (tooling)│   │ party     │
-    │ reads   │   │ writes   │   │ platforms │
-    └─────────┘   └──────────┘   └───────────┘
+         │               │               │
+         ▼               ▼               ▼
+    ┌───────────┐   ┌───────────┐   ┌───────────┐
+    │ P&AI Bot  │   │ OSS Bot   │   │ Third-    │
+    │ (Go)      │   │ (tooling) │   │ party     │
+    │ reads     │   │ writes    │   │ platforms │
+    └───────────┘   └───────────┘   └───────────┘
 ```
 
 ---
