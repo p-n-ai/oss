@@ -46,16 +46,16 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 
 ---
 
-## DAY 0 — SETUP
+## DAY 0 — SETUP ✅
 
-| Task ID | Task | Owner | Time |
-|---------|------|-------|------|
-| `O-D0-1` | Initialize repo: `curricula/`, `schema/`, `concepts/`, `taxonomy/`, `scripts/`, `.github/workflows/` | 🤖 Claude Code | 30min |
-| `O-D0-2` | Create 4 schemas: `topic`, `assessments`, `syllabus`, `subject` (JSON Schema Draft 2020-12). Remaining schemas (`examples`, `concept`, `taxonomy`) are created as their content types are first introduced. | 🤖 Claude Code | 1hr |
-| `O-D0-3` | Create `curricula/malaysia/kssm/matematik-tingkatan1/syllabus.yaml` with board metadata | 🤖 Claude Code | 30min |
-| `O-D0-4` | 🧑 Choose first 5 Algebra topics against official DSKP (Form 1: 3 topics + Form 2: 2 topics) | 🧑 Education Lead | 30min |
+| Task ID | Task | Owner | Time | Status |
+|---------|------|-------|------|--------|
+| `O-D0-1` | Initialize repo: `curricula/`, `schema/`, `concepts/`, `taxonomy/`, `scripts/`, `.github/workflows/` | 🤖 Claude Code | 30min | ✅ Done |
+| `O-D0-2` | Create 4 schemas: `topic`, `assessments`, `syllabus`, `subject` (JSON Schema Draft 2020-12). Remaining schemas (`examples`, `concept`, `taxonomy`) are created as their content types are first introduced. | 🤖 Claude Code | 1hr | ✅ Done |
+| `O-D0-3` | Create `curricula/malaysia/kssm/matematik-tingkatan1/syllabus.yaml` with board metadata | 🤖 Claude Code | 30min | ✅ Done |
+| `O-D0-4` | 🧑 Choose first 5 Algebra topics against official DSKP (Form 1: 3 topics + Form 2: 2 topics) | 🧑 Education Lead | 30min | ✅ Done |
 
-**Exit:** Repo exists with schema files and syllabus structure for KSSM Matematik Form 1.
+**Exit:** Repo exists with schema files and syllabus structure for KSSM Matematik Form 1. ✅ **Completed**
 
 ---
 
