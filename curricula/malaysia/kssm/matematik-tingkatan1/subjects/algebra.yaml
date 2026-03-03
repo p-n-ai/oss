@@ -1,0 +1,8 @@
+id: algebra
+name: "Algebra"
+syllabus_id: malaysia-kssm-matematik-tingkatan1
+description: "Algebraic concepts for Form 1 KSSM Matematik including expressions, linear equations, and inequalities (DSKP Bab 5-7)"
+topics:
+  - F1-05
+  - F1-06
+  - F1-07

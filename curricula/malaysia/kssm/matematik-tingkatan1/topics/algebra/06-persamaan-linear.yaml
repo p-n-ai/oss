@@ -1,0 +1,44 @@
+id: F1-06
+name: "Persamaan Linear (Linear Equations)"
+subject_id: algebra
+syllabus_id: malaysia-kssm-matematik-tingkatan1
+difficulty: beginner
+tier: core
+
+learning_objectives:
+  - id: LO1
+    text: "Identify linear equations in one variable and describe their characteristics."
+    bloom: understand
+  - id: LO2
+    text: "Form linear equations in one variable from statements or situations, and vice versa."
+    bloom: apply
+  - id: LO3
+    text: "Solve linear equations in one variable, including contextual word problems."
+    bloom: apply
+  - id: LO4
+    text: "Identify and form linear equations in two variables, explain possible solutions, and represent them graphically."
+    bloom: analyze
+  - id: LO5
+    text: "Form and solve simultaneous linear equations in two variables using multiple methods."
+    bloom: apply
+
+prerequisites:
+  required:
+    - F1-05
+  recommended: []
+
+bloom_levels:
+  - understand
+  - apply
+  - analyze
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+ai_teaching_notes: "06-persamaan-linear.teaching.md"
+quality_level: 1
+provenance: ai-generated

@@ -1,0 +1,42 @@
+id: F1-07
+name: "Ketaksamaan Linear (Linear Inequalities)"
+subject_id: algebra
+syllabus_id: malaysia-kssm-matematik-tingkatan1
+difficulty: beginner
+tier: core
+
+learning_objectives:
+  - id: LO1
+    text: "Compare values, describe inequalities, and form algebraic inequalities."
+    bloom: understand
+  - id: LO2
+    text: "Generalise inequality properties including converse/transitive behavior, inverses, and arithmetic operations."
+    bloom: analyze
+  - id: LO3
+    text: "Form linear inequalities in one variable from daily-life situations, and vice versa."
+    bloom: apply
+  - id: LO4
+    text: "Solve problems involving linear inequalities, including simultaneous inequalities in one variable."
+    bloom: apply
+
+prerequisites:
+  required:
+    - F1-05
+  recommended:
+    - F1-06
+
+bloom_levels:
+  - understand
+  - apply
+  - analyze
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+ai_teaching_notes: "07-ketaksamaan-linear.teaching.md"
+quality_level: 1
+provenance: ai-generated
