@@ -1,0 +1,109 @@
+topic_id: F1-05
+provenance: human
+questions:
+  - id: Q1
+    text: "Sofea takes a certain amount of time, denoted by the letter $k$, to travel from her house to the school every day. Does the variable $k$ have a fixed value or a varied value? Justify your answer."
+    difficulty: easy
+    learning_objective: LO1
+    answer:
+      type: free_text
+      value: "Varied value"
+      working: |
+        The travelling time taken by Sofea changes every day depending on factors like traffic or walking speed.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifying it as a 'varied value'."
+      - marks: 1
+        criteria: "Justification stating that the time taken changes daily."
+    hints:
+      - level: 1
+        text: "Think about whether a daily commute takes the exact same number of minutes and seconds every single day, or if it fluctuates."
+
+  - id: Q2
+    text: "In the algebraic term $-8xy^2$, state the coefficient of $-x$."
+    difficulty: medium
+    learning_objective: LO4
+    answer:
+      type: exact
+      value: "8y^2"
+      working: |
+        The term can be split into (-x) and (8y^2).
+        Thus, the coefficient of -x is 8y^2.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Correct coefficient (8y^2)."
+      - marks: 1
+        criteria: "Partial understanding (e.g., identifying the correct variables but making a sign error, such as -8y^2)."
+    hints:
+      - level: 1
+        text: "Rewrite the term $-8xy^2$ as a product of $-x$ and the remaining factors. The remaining factors are your coefficient."
+
+  - id: Q3
+    text: "Given that $x = 3$ and $y = 2$, calculate the value of the algebraic expression: $8x - 5y + 7$."
+    difficulty: medium
+    learning_objective: LO3
+    answer:
+      type: exact
+      value: "21"
+      working: |
+        = 8(3) - 5(2) + 7
+        = 24 - 10 + 7
+        = 21
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly substituting the values into the expression: 8(3) - 5(2) + 7."
+      - marks: 1
+        criteria: "Correctly multiplying the terms: 24 - 10 + 7."
+      - marks: 1
+        criteria: "Final correct answer: 21."
+    hints:
+      - level: 1
+        text: "Replace the variables $x$ and $y$ with their given numbers, using brackets, and then solve using the correct order of arithmetic operations."
+
+  - id: Q4
+    text: "Simplify the following algebraic expression by adding and subtracting the like terms: $(6p + 2q + 10) - (p + 3q - 2)$."
+    difficulty: hard
+    learning_objective: LO5
+    answer:
+      type: exact
+      value: "5p - q + 12"
+      working: |
+        = 6p + 2q + 10 - p - 3q + 2
+        = 6p - p + 2q - 3q + 10 + 2
+        = 5p - q + 12
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly removing the brackets and changing the signs of the second expression: 6p + 2q + 10 - p - 3q + 2."
+      - marks: 1
+        criteria: "Successfully grouping the like terms: 6p - p + 2q - 3q + 10 + 2."
+      - marks: 1
+        criteria: "Final simplified expression: 5p - q + 12."
+    hints:
+      - level: 1
+        text: "When removing a negative sign '-' that is in front of a bracket, remember to change the sign of every single term inside that bracket (positive becomes negative, negative becomes positive)."
+
+  - id: Q5
+    text: "Calculate the quotient of $36pq \\div 4q^2$, and state the answer in its simplest fraction form."
+    difficulty: hard
+    learning_objective: LO6
+    answer:
+      type: exact
+      value: "9p / q"
+      working: |
+        = (36 * p * q) / (4 * q * q)
+        = 9p / q
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Writing the division as a fraction: (36pq) / (4q^2)."
+      - marks: 1
+        criteria: "Expanding the terms to find common factors: (36 × p × q) / (4 × q × q)."
+      - marks: 1
+        criteria: "Final correct quotient after eliminating common factors: 9p / q."
+    hints:
+      - level: 1
+        text: "Write the operation as a fraction. Then, expand the variable with an exponent ($q^2 = q \\times q$) so you can easily cross out the common variables on the top and bottom."
