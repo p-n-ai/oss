@@ -54,7 +54,7 @@ node --version && python3 --version && yamllint --version && ajv help
 
 ---
 
-## DAY 0 — Repository Setup
+## DAY 0 — Repository Setup ✅
 
 **Entry criteria:** Repository exists with documentation only (README.md, CLAUDE.md, AGENTS.md, CONTRIBUTING.md, docs/).
 
@@ -558,13 +558,13 @@ ajv validate --spec=draft2020 -s schema/syllabus.schema.json -d curricula/malays
 
 ### Day 0 Exit Criteria
 
-- [ ] All directories created (`schema/`, `curricula/.../tingkatan1-3/`, `concepts/`, `taxonomy/`, `scripts/`, `.github/workflows/`)
-- [ ] 4 schema files created: `topic`, `assessments`, `syllabus`, `subject`
-- [ ] `.yamllint.yml` created and working
-- [ ] Form 1 `syllabus.yaml` validates against schema
-- [ ] First 5 topics confirmed by Education Lead
+- [x] All directories created (`schema/`, `curricula/.../tingkatan1-3/`, `concepts/`, `taxonomy/`, `scripts/`, `.github/workflows/`)
+- [x] 4 schema files created: `topic`, `assessments`, `syllabus`, `subject`
+- [x] `.yamllint.yml` created and working
+- [x] Form 1 `syllabus.yaml` validates against schema
+- [x] First 5 topics confirmed by Education Lead
 
-**Progress:** 0 topics | 0 assessments | 0 teaching notes | 4 schemas | 1 syllabus
+**Progress:** 0 topics | 0 assessments | 0 teaching notes | 4 schemas | 1 syllabus ✅
 
 ---
 
