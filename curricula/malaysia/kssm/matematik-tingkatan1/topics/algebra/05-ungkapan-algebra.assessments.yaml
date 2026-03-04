@@ -1,6 +1,9 @@
 topic_id: F1-05
 provenance: human
 questions:
+  # ---------------------------------------------------------
+  # SUBCHAPTER 5.1: Variables and Algebraic Expressions
+  # ---------------------------------------------------------
   - id: Q1
     text: "Sofea takes a certain amount of time, denoted by the letter $k$, to travel from her house to the school every day. Does the variable $k$ have a fixed value or a varied value? Justify your answer."
     difficulty: easy
@@ -107,6 +110,9 @@ questions:
       - level: 1
         text: "First find out the exact given values. What is the value of y if it is twice the quantity of green marbles?"
 
+  # ---------------------------------------------------------
+  # SUBCHAPTER 5.2: Algebraic Expressions Involving Basic Arithmetic Operations
+  # ---------------------------------------------------------
   - id: Q6
     text: "Simplify the following algebraic expression: $7m + 2n - 3m + 5n$."
     difficulty: easy
