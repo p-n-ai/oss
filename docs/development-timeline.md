@@ -63,12 +63,12 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 
 ### Day 1 (Mon) — Form 1 Algebra Topics (3 topics)
 
-| Task ID | Task | Owner |
-|---------|------|-------|
-| `O-W1D1-1` | Create `curricula/malaysia/kssm/matematik-tingkatan1/subjects/algebra.yaml` — subject metadata | 🤖 |
-| `O-W1D1-2` | Create topic YAML stubs for F1-05, F1-06, F1-07: id, name, prerequisites, learning_objectives, difficulty, bloom_levels | 🤖 |
-| `O-W1D1-3` | 🧑 Write F1-05 teaching notes (`05-ungkapan-algebra.teaching.md`) — real teacher quality, conversational, KSSM-aligned | 🧑 Education Lead (2hr) |
-| `O-W1D1-4` | 🧑🤖 AI-draft teaching notes for F1-06 and F1-07, Education Lead reviews and edits | Collaborative (2hr) |
+| Task ID | Task | Owner | Time | Status |
+|---------|------|-------|------|--------|
+| `O-W1D1-1` | Create `curricula/malaysia/kssm/matematik-tingkatan1/subjects/algebra.yaml` — subject metadata | 🤖 | 15min | ✅ Done |
+| `O-W1D1-2` | Create topic YAML stubs for F1-05, F1-06, F1-07: id, name, prerequisites, learning_objectives, difficulty, bloom_levels | 🤖 | 30min | ✅ Done |
+| `O-W1D1-3` | 🧑 Write F1-05 teaching notes (`05-ungkapan-algebra.teaching.md`) — real teacher quality, conversational, KSSM-aligned | 🧑 Education Lead | 2hr | ✅ Done |
+| `O-W1D1-4` | 🧑🤖 AI-draft teaching notes for F1-06 and F1-07, Education Lead reviews and edits | Collaborative | 2hr | ✅ Done |
 
 ### Day 2 (Tue) — Assessments for Form 1 Algebra
 
