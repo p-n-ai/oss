@@ -1,19 +1,18 @@
 topic_id: F1-07
 provenance: ai-generated
 questions:
-  # ---------------------------------------------------------
-  # SUBCHAPTER 7.1: Inequalities
-  # ---------------------------------------------------------
+### ---------------------------------------------------------
+### SUBCHAPTER 7.1: Inequalities
+### ---------------------------------------------------------
   - id: Q1
-    text: "Fill in the blank with the symbol '<' or '>' so that it becomes a true statement: $-8 \\text{ \\_\\_\\_ } -3$"
+    text: "Fill in the blank with the symbol '<' or '>' so that it becomes a true statement:  $-8 \\text{ \\_\\_\\_ } -3$"
     difficulty: easy
     learning_objective: 7.1.1
     answer:
       type: exact
       value: "<"
       working: |
-        On a number line, -8 is located to the left of -3.
-        Therefore, -8 is less than -3.
+        On a number line, -8 is located to the left of -3. Therefore, -8 is less than -3.
     marks: 1
     rubric:
       - marks: 1
@@ -30,9 +29,7 @@ questions:
       type: exact
       value: "h \\geq 110"
       working: |
-        "110 cm or more" means 110 cm is the minimum allowed height.
-        This includes 110 cm and all values greater than it.
-        So, h >= 110.
+        "110 cm or more" means 110 cm is the minimum allowed height. This includes 110 cm and all values greater than it. So, h >= 110.
     marks: 1
     rubric:
       - marks: 1
@@ -49,8 +46,7 @@ questions:
       type: exact
       value: "15 > 12"
       working: |
-        The converse property (Sifat Akas) states that if a < b, then b > a.
-        Applying this to 12 < 15 yields 15 > 12.
+        The converse property (Sifat Akas) states that if a < b, then b > a. Applying this to 12 < 15 yields 15 > 12.
     marks: 1
     rubric:
       - marks: 1
@@ -67,9 +63,7 @@ questions:
       type: exact
       value: "-5 < 4"
       working: |
-        The transitive property states that if a < b and b < c, then a < c.
-        Here, a = -5, b = 0, c = 4.
-        Therefore, -5 < 4.
+        The transitive property states that if a < b and b < c, then a < c. Here, a = -5, b = 0, c = 4. Therefore, -5 < 4.
     marks: 1
     rubric:
       - marks: 1
@@ -89,7 +83,7 @@ questions:
         Multiply both sides by -3:
         4 * (-3) = -12
         -2 * (-3) = 6
-        Because we multiplied by a negative number, the inequality symbol '>' must flip to '<'.
+        Because we multiplied by a negative number, the inequality symbol '>' must flip to '<'. 
         Result: -12 < 6
     marks: 2
     rubric:
@@ -101,9 +95,9 @@ questions:
       - level: 1
         text: "Remember the 'Big Flip' rule! Whenever you multiply or divide an inequality by a negative number, you must reverse the inequality symbol."
 
-  # ---------------------------------------------------------
-  # SUBCHAPTER 7.2: Linear Inequalities in One Variable
-  # ---------------------------------------------------------
+### ---------------------------------------------------------
+### SUBCHAPTER 7.2: Linear Inequalities in One Variable
+### ---------------------------------------------------------
   - id: Q6
     text: "Form a linear inequality for the following situation: Maximum capacity of a lift is 15 people. Use $p$ to represent the number of people."
     difficulty: easy
@@ -112,9 +106,7 @@ questions:
       type: exact
       value: "p \\leq 15"
       working: |
-        "Maximum" means the number of people cannot be more than 15.
-        It can be exactly 15 or less.
-        Therefore, p <= 15.
+        "Maximum" means the number of people cannot be more than 15. It can be exactly 15 or less. Therefore, p <= 15.
     marks: 1
     rubric:
       - marks: 1
@@ -180,14 +172,14 @@ questions:
         First inequality:
         x - 3 <= 5
         x <= 8
-
+        
         Second inequality:
         2x > 8
         x > 4
-
-        Combine the two (find the common region):
-        The value of x must be greater than 4 AND less than or equal to 8.
-        So, 4 < x <= 8
+        
+        Combining both inequalities to find the common part (bahagian sepunya):
+        The values of x must be greater than 4 and less than or equal to 8.
+        Result: 4 < x <= 8
     marks: 3
     rubric:
       - marks: 1
