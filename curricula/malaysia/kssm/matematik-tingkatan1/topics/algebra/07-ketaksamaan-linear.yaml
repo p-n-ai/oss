@@ -6,17 +6,20 @@ difficulty: beginner
 tier: core
 
 learning_objectives:
-  - id: LO1
-    text: "Compare values, describe inequalities, and form algebraic inequalities."
+  - id: 7.1.1
+    text: "Compare the values of numbers, describe inequality and hence, form algebraic inequality."
     bloom: understand
-  - id: LO2
-    text: "Generalise inequality properties including converse/transitive behavior, inverses, and arithmetic operations."
+  - id: 7.1.2
+    text: "Make generalisation about inequality related to the converse and transitive properties, additive and multiplicative inverse, and basic arithmetic operations."
     bloom: analyze
-  - id: LO3
-    text: "Form linear inequalities in one variable from daily-life situations, and vice versa."
+  - id: 7.2.1
+    text: "Form linear inequalities based on daily life situations, and vice versa."
     bloom: apply
-  - id: LO4
-    text: "Solve problems involving linear inequalities, including simultaneous inequalities in one variable."
+  - id: 7.2.2
+    text: "Solve problems involving linear inequalities in one variable."
+    bloom: apply
+  - id: 7.2.3
+    text: "Solve simultaneous linear inequalities in one variable."
     bloom: apply
 
 prerequisites:

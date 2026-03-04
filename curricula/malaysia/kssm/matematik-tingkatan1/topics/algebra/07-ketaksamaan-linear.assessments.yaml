@@ -1,0 +1,229 @@
+topic_id: F1-07
+provenance: ai-generated
+questions:
+  # ---------------------------------------------------------
+  # SUBCHAPTER 7.1: Inequalities
+  # ---------------------------------------------------------
+  - id: Q1
+    text: "Fill in the blank with the symbol '<' or '>' so that it becomes a true statement: $-8 \\text{ \\_\\_\\_ } -3$"
+    difficulty: easy
+    learning_objective: 7.1.1
+    answer:
+      type: exact
+      value: "<"
+      working: |
+        On a number line, -8 is located to the left of -3.
+        Therefore, -8 is less than -3.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly fills in the '<' symbol."
+    hints:
+      - level: 1
+        text: "Think of a number line or temperature. Is -8 degrees colder (less) or warmer (greater) than -3 degrees?"
+
+  - id: Q2
+    text: "Describe the following relationship using an inequality symbol: The height, $h$ cm, of passengers allowed to ride the roller coaster must be 110 cm or more."
+    difficulty: easy
+    learning_objective: 7.1.1
+    answer:
+      type: exact
+      value: "h \\geq 110"
+      working: |
+        "110 cm or more" means 110 cm is the minimum allowed height.
+        This includes 110 cm and all values greater than it.
+        So, h >= 110.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly uses the '>=' (greater than or equal to) symbol."
+    hints:
+      - level: 1
+        text: "Since they can be exactly 110 cm or taller, you need the symbol that includes 'equal to' as well as 'greater'."
+
+  - id: Q3
+    text: "Given the inequality $12 < 15$, state the converse property of this inequality."
+    difficulty: medium
+    learning_objective: 7.1.2
+    answer:
+      type: exact
+      value: "15 > 12"
+      working: |
+        The converse property (Sifat Akas) states that if a < b, then b > a.
+        Applying this to 12 < 15 yields 15 > 12.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly reverses the numbers and flips the symbol."
+    hints:
+      - level: 1
+        text: "The converse property means reading the relationship backwards: if A is less than B, then B is..."
+
+  - id: Q4
+    text: "Based on the transitive property of inequalities, if $-5 < 0$ and $0 < 4$, what conclusion can you make?"
+    difficulty: medium
+    learning_objective: 7.1.2
+    answer:
+      type: exact
+      value: "-5 < 4"
+      working: |
+        The transitive property states that if a < b and b < c, then a < c.
+        Here, a = -5, b = 0, c = 4.
+        Therefore, -5 < 4.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly forms the new inequality bridging the smallest and largest values."
+    hints:
+      - level: 1
+        text: "Connect the ends: if the first number is smaller than the middle, and the middle is smaller than the last, how does the first compare to the last?"
+
+  - id: Q5
+    text: "Consider the inequality $4 > -2$. If you multiply both sides by $-3$, what will the new inequality be?"
+    difficulty: medium
+    learning_objective: 7.1.2
+    answer:
+      type: exact
+      value: "-12 < 6"
+      working: |
+        Multiply both sides by -3:
+        4 * (-3) = -12
+        -2 * (-3) = 6
+        Because we multiplied by a negative number, the inequality symbol '>' must flip to '<'.
+        Result: -12 < 6
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly calculates the values on both sides (-12 and 6)."
+      - marks: 1
+        criteria: "Correctly flips the inequality symbol."
+    hints:
+      - level: 1
+        text: "Remember the 'Big Flip' rule! Whenever you multiply or divide an inequality by a negative number, you must reverse the inequality symbol."
+
+  # ---------------------------------------------------------
+  # SUBCHAPTER 7.2: Linear Inequalities in One Variable
+  # ---------------------------------------------------------
+  - id: Q6
+    text: "Form a linear inequality for the following situation: Maximum capacity of a lift is 15 people. Use $p$ to represent the number of people."
+    difficulty: easy
+    learning_objective: 7.2.1
+    answer:
+      type: exact
+      value: "p \\leq 15"
+      working: |
+        "Maximum" means the number of people cannot be more than 15.
+        It can be exactly 15 or less.
+        Therefore, p <= 15.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly uses the '<=' symbol for 'maximum'."
+    hints:
+      - level: 1
+        text: "If the maximum is 15, can the lift hold 16 people? No. Can it hold exactly 15? Yes. Choose the symbol that means 'less than or equal to'."
+
+  - id: Q7
+    text: "Solve the linear inequality: $3x - 5 > 10$"
+    difficulty: medium
+    learning_objective: 7.2.2
+    answer:
+      type: exact
+      value: "x > 5"
+      working: |
+        3x - 5 > 10
+        3x > 10 + 5
+        3x > 15
+        x > 15 / 3
+        x > 5
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly isolates the variable term (3x > 15)."
+      - marks: 1
+        criteria: "Correctly solves for x without changing the inequality sign improperly."
+    hints:
+      - level: 1
+        text: "Solve it exactly like you would a normal equation! Move the -5 over, then divide by 3."
+
+  - id: Q8
+    text: "Solve the linear inequality: $-2y \\geq 14$"
+    difficulty: medium
+    learning_objective: 7.2.2
+    answer:
+      type: exact
+      value: "y \\leq -7"
+      working: |
+        -2y >= 14
+        To isolate y, divide both sides by -2:
+        y <= 14 / -2
+        Note: The inequality symbol must flip because dividing by a negative number.
+        y <= -7
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly divides by -2 to get the value -7."
+      - marks: 1
+        criteria: "Correctly flips the inequality symbol from >= to <=."
+    hints:
+      - level: 1
+        text: "You are isolating y by dividing by a negative number (-2). What must you do to the inequality symbol?"
+
+  - id: Q9
+    text: "Solve the simultaneous linear inequalities: $x - 3 \\leq 5$ and $2x > 8$"
+    difficulty: hard
+    learning_objective: 7.2.3
+    answer:
+      type: exact
+      value: "4 < x \\leq 8"
+      working: |
+        First inequality:
+        x - 3 <= 5
+        x <= 8
+
+        Second inequality:
+        2x > 8
+        x > 4
+
+        Combine the two (find the common region):
+        The value of x must be greater than 4 AND less than or equal to 8.
+        So, 4 < x <= 8
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly solves the first inequality (x <= 8)."
+      - marks: 1
+        criteria: "Correctly solves the second inequality (x > 4)."
+      - marks: 1
+        criteria: "Correctly combines them to show the intersection (4 < x <= 8)."
+    hints:
+      - level: 1
+        text: "Solve each inequality completely separately first. Then draw a number line to find where both their arrows overlap side-by-side."
+
+  - id: Q10
+    text: "Aminah has RM 50. She wants to buy a book that costs RM 12 and several pens that cost RM 4 each. Determine the maximum number of pens she can buy by forming and solving an inequality."
+    difficulty: hard
+    learning_objective: 7.2.2
+    answer:
+      type: exact
+      value: "9"
+      working: |
+        Let p = number of pens.
+        Total cost = RM 12 (book) + RM 4(p) = 12 + 4p.
+        She has a maximum of RM 50, so total cost must be <= 50.
+        12 + 4p <= 50
+        4p <= 50 - 12
+        4p <= 38
+        p <= 9.5
+        Since Aminah cannot buy half a pen, the maximum integer number of pens she can buy is 9.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly forms the inequality (12 + 4p <= 50)."
+      - marks: 1
+        criteria: "Correctly solves the algebraic part to get p <= 9.5."
+      - marks: 1
+        criteria: "Correctly interprets the decimal in a real-world context to provide the final integer answer (9)."
+    hints:
+      - level: 1
+        text: "Write an expression for the total money spent (12 plus 4 times the number of pens). This total must be less than or equal to 50. What is the highest whole number you get?"
