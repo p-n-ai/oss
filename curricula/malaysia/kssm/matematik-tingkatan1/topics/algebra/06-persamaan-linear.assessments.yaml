@@ -1,0 +1,382 @@
+topic_id: F1-06
+provenance: ai-generated
+questions:
+  # ---------------------------------------------------------
+  # SUBCHAPTER 6.1: Linear Equations in One Variable
+  # ---------------------------------------------------------
+  - id: Q1
+    text: "Which of the following is a linear equation in one variable? Justify your answer. A) $m + 5 = 12$ B) $p^2 - 1 = 8$ C) $2x + 3y = 7$"
+    difficulty: easy
+    learning_objective: 6.1.1
+    answer:
+      type: free_text
+      value: "A"
+      working: |
+        A) m + 5 = 12 is a linear equation in one variable because it has only one variable (m) and the highest power of the variable is 1.
+        B) is not because the highest power of p is 2.
+        C) is not because it contains two variables, x and y.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifies equation A."
+      - marks: 1
+        criteria: "Justifies that it only has one variable and the highest power of that variable is 1."
+    hints:
+      - level: 1
+        text: "A linear equation in one variable must have exactly one unknown letter, and that letter cannot have a 'power of 2' or higher."
+
+  - id: Q2
+    text: "Write a linear equation in one variable for this situation: The sum of a number $y$ and 8 is equal to 20."
+    difficulty: easy
+    learning_objective: 6.1.2
+    answer:
+      type: exact
+      value: "y + 8 = 20"
+      working: |
+        "Sum of a number y and 8" means y + 8.
+        "is equal to 20" means = 20.
+        Equation: y + 8 = 20
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly constructs the equation."
+    hints:
+      - level: 1
+        text: "Translate the word 'sum' into the correct mathematical operation (+)."
+
+  - id: Q3
+    text: "Solve the linear equation: $3x - 4 = 11$"
+    difficulty: medium
+    learning_objective: 6.1.3
+    answer:
+      type: exact
+      value: "5"
+      working: |
+        3x - 4 = 11
+        3x = 11 + 4
+        3x = 15
+        x = 15 / 3
+        x = 5
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly isolates the variable term using the equality concept (3x = 15)."
+      - marks: 1
+        criteria: "Correctly solves for x."
+    hints:
+      - level: 1
+        text: "Use the concept of equality: whatever you do to one side, do to the other. First add 4 to both sides, then divide both sides by 3."
+
+  - id: Q4
+    text: "Solve the linear equation: $\\frac{x + 8}{2} = 9$"
+    difficulty: medium
+    learning_objective: 6.1.3
+    answer:
+      type: exact
+      value: "10"
+      working: |
+        (x + 8) / 2 = 9
+        Multiply both sides by 2:
+        x + 8 = 18
+        Subtract 8 from both sides:
+        x = 18 - 8
+        x = 10
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly multiplies both sides by 2 (x + 8 = 18)."
+      - marks: 1
+        criteria: "Correctly solves for x."
+    hints:
+      - level: 1
+        text: "Use the concept of backtracking or equality. If the whole left side is divided by 2, what is the opposite operation you should do first?"
+
+  - id: Q5
+    text: "The perimeter of a rectangular garden is 48 meters. The length of the garden is $3w$, and the width is $w$. Form a linear equation and find the value of $w$."
+    difficulty: hard
+    learning_objective: 6.1.4
+    answer:
+      type: exact
+      value: "6"
+      working: |
+        Perimeter = 2(length) + 2(width)
+        48 = 2(3w) + 2(w)
+        48 = 6w + 2w
+        48 = 8w
+        w = 48 / 8
+        w = 6
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly forms the equation for perimeter: 2(3w) + 2(w) = 48 or 3w + 3w + w + w = 48."
+      - marks: 1
+        criteria: "Simplifies the equation to 8w = 48."
+      - marks: 1
+        criteria: "Correct final value for w."
+    hints:
+      - level: 1
+        text: "The perimeter is the total distance around the outside. A rectangle has two lengths and two widths."
+
+  # ---------------------------------------------------------
+  # SUBCHAPTER 6.2: Linear Equations in Two Variables
+  # ---------------------------------------------------------
+  - id: Q6
+    text: "Determine whether $3p - q = 6$ is a linear equation in two variables. Justify your answer."
+    difficulty: easy
+    learning_objective: 6.2.1
+    answer:
+      type: free_text
+      value: "Yes"
+      working: |
+        Yes, it is a linear equation in two variables.
+        This is because the equation has exactly two variables, p and q.
+        Additionally, the power of both variables is 1.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly states 'Yes'."
+      - marks: 1
+        criteria: "Justifies that there are two variables and the power of each is 1."
+    hints:
+      - level: 1
+        text: "Check two things: How many unknown letters are there? Are there any powers like squared or cubed?"
+
+  - id: Q7
+    text: "Write a linear equation in two variables for the following situation: A stationery shop sells books for RM15 each and pens for RM2 each. Damia spends a total of RM50 to buy $b$ books and $p$ pens."
+    difficulty: medium
+    learning_objective: 6.2.2
+    answer:
+      type: exact
+      value: "15b + 2p = 50"
+      working: |
+        Cost of books = 15 * b = 15b
+        Cost of pens = 2 * p = 2p
+        Total spending = Cost of books + cost of pens = 15b + 2p = 50
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifies the cost terms: 15b and 2p."
+      - marks: 1
+        criteria: "Correctly forms the full equation equal to 50."
+    hints:
+      - level: 1
+        text: "Multiply the price of one item by its variable quantity, then add the totals together."
+
+  - id: Q8
+    text: "Given the linear equation $2x - y = 4$, if $x = 3$, what is the value of $y$?"
+    difficulty: medium
+    learning_objective: 6.2.3
+    answer:
+      type: exact
+      value: "2"
+      working: |
+        2(3) - y = 4
+        6 - y = 4
+        -y = 4 - 6
+        -y = -2
+        y = 2
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly substitutes x = 3 into the equation."
+      - marks: 1
+        criteria: "Correctly solves for y with no sign errors."
+    hints:
+      - level: 1
+        text: "Substitute the number 3 into the equation where x is, and then solve it like a one-variable equation to find y."
+
+  - id: Q9
+    text: "State two possible pairs of solutions for the linear equation $x + y = 7$."
+    difficulty: medium
+    learning_objective: 6.2.3
+    answer:
+      type: free_text
+      value: "(0, 7) and (1, 6)"
+      working: |
+        When x = 0: 0 + y = 7 -> y = 7. Pair: (0, 7)
+        When x = 1: 1 + y = 7 -> y = 6. Pair: (1, 6)
+        (Accept any valid pairs that add up to 7).
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Provides one valid pair of values for x and y."
+      - marks: 1
+        criteria: "Provides a second valid pair of values for x and y."
+    hints:
+      - level: 1
+        text: "Pick any random number for x, put it in the equation, and find what y has to be so the total is 7."
+
+  - id: Q10
+    text: "To represent the linear equation $x - y = -2$ graphically, you must find coordinate points. If $x = 0$, what is the value of $y$?"
+    difficulty: medium
+    learning_objective: 6.2.4
+    answer:
+      type: exact
+      value: "2"
+      working: |
+        Substitute x = 0:
+        0 - y = -2
+        -y = -2
+        y = 2
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly substitutes x = 0."
+      - marks: 1
+        criteria: "Correctly identifies y = 2."
+    hints:
+      - level: 1
+        text: "Replace x with 0 in the equation, then figure out what number y must be so that negative y equals negative 2."
+
+  # ---------------------------------------------------------
+  # SUBCHAPTER 6.3: Simultaneous Linear Equations in Two Variables
+  # ---------------------------------------------------------
+  - id: Q11
+    text: "Faizah rears a total of 7 chickens and ducks. The cost of rearing a chicken is RM1 a week and a duck is RM2 a week. The total cost is RM12 a week. Form two simultaneous linear equations using $x$ for the number of chickens and $y$ for the number of ducks."
+    difficulty: medium
+    learning_objective: 6.3.1
+    answer:
+      type: free_text
+      value: "x + y = 7 and x + 2y = 12"
+      working: |
+        Total animals equation: x (chickens) + y (ducks) = 7
+        Cost equation: RM1(x) + RM2(y) = 12 -> x + 2y = 12
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly forms the first equation for the total animals (x + y = 7)."
+      - marks: 1
+        criteria: "Correctly forms the second equation for the total costs (x + 2y = 12)."
+    hints:
+      - level: 1
+        text: "You need two separate equations. One about the total number of animals, and one about the total money."
+
+  - id: Q12
+    text: "Solve the following simultaneous linear equations using the substitution method: <br> $x - y = 3$ <br> $2x + y = 12$"
+    difficulty: hard
+    learning_objective: 6.3.2
+    answer:
+      type: exact
+      value: "(5, 2)"
+      working: |
+        From eq 1: x = y + 3
+        Substitute into eq 2: 
+        2(y + 3) + y = 12
+        2y + 6 + y = 12
+        3y + 6 = 12
+        3y = 6
+        y = 2
+        Substitute y=2 back into x = y + 3:
+        x = 2 + 3 = 5
+        Solution: x = 5, y = 2
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Correctly expresses one variable in terms of the other (e.g., x = y + 3)."
+      - marks: 1
+        criteria: "Correctly substitutes it into the second equation."
+      - marks: 1
+        criteria: "Solves for the first variable correctly."
+      - marks: 1
+        criteria: "Solves for the second variable correctly."
+    hints:
+      - level: 1
+        text: "Re-arrange the first equation so that it starts with 'x = ...'. Then, replace the 'x' in the second equation with that new expression."
+
+  - id: Q13
+    text: "Solve the following simultaneous linear equations using the elimination method: <br> $3p + 2q = 16$ <br> $p - 2q = 0$"
+    difficulty: hard
+    learning_objective: 6.3.2
+    answer:
+      type: exact
+      value: "(4, 2)"
+      working: |
+        Eq 1: 3p + 2q = 16
+        Eq 2: p - 2q = 0
+        Add Eq 1 and Eq 2 because the signs on '2q' are opposite:
+        (3p + p) + (2q - 2q) = 16 + 0
+        4p = 16
+        p = 4
+        Substitute p=4 into Eq 2:
+        4 - 2q = 0
+        4 = 2q
+        q = 2
+        Solution: p = 4, q = 2
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly chooses to ADD the equations to eliminate q."
+      - marks: 1
+        criteria: "Correctly finds p = 4."
+      - marks: 1
+        criteria: "Correctly finds q = 2."
+    hints:
+      - level: 1
+        text: "Look at the '2q' in both equations. Since one is positive and one is negative, what happens if you add the two equations together?"
+
+  - id: Q14
+    text: "At a fruit stall, the cost of 2 apples and 3 oranges is RM 9. The cost of 4 apples and 1 orange is RM 13. Form simultaneous linear equations and find the price of one apple."
+    difficulty: hard
+    learning_objective: 6.3.3
+    answer:
+      type: exact
+      value: "RM 3"
+      working: |
+        Let a = price of apple, o = price of orange
+        (1) 2a + 3o = 9
+        (2) 4a + 1o = 13
+        Multiply (1) by 2 to align 'a' coefficients:
+        4a + 6o = 18
+        Subtract (2) from the new equation:
+        (4a - 4a) + (6o - 1o) = 18 - 13
+        5o = 5
+        o = 1 (Price of an orange is RM 1)
+        Substitute into (1):
+        2a + 3(1) = 9
+        2a = 6
+        a = 3
+        Price of one apple is RM 3.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Correctly forms both linear equations."
+      - marks: 1
+        criteria: "Correctly aligns coefficients (e.g., multiplying an equation)."
+      - marks: 1
+        criteria: "Correctly determines the value of an orange."
+      - marks: 1
+        criteria: "Correctly determines the final target value (apple = RM 3)."
+    hints:
+      - level: 1
+        text: "Use 'a' for apples and 'o' for oranges to write two equations first. Then, try multiplying the first equation by 2 so that the number of apples matches in both."
+
+  - id: Q15
+    text: "A 50 cm piece of wire is bent to form a rectangle. If the length of the rectangle is 5 cm longer than its width, formulate the simultaneous equations and determine its length and width."
+    difficulty: hard
+    learning_objective: 6.3.3
+    answer:
+      type: exact
+      value: "Length 15cm, Width 10cm"
+      working: |
+        Let l = length, w = width
+        Perimeter equation: 2l + 2w = 50 (or l + w = 25)
+        Length relationship: l = w + 5
+        Substitute l into the simplified perimeter eq:
+        (w + 5) + w = 25
+        2w + 5 = 25
+        2w = 20
+        w = 10
+        Length: l = 10 + 5 = 15
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Correctly forms the equation for the perimeter based on the wire length."
+      - marks: 1
+        criteria: "Correctly forms the equation relating length and width."
+      - marks: 1
+        criteria: "Correctly finds the width."
+      - marks: 1
+        criteria: "Correctly finds the length."
+    hints:
+      - level: 1
+        text: "The wire forms the perimeter. Write one equation for the perimeter ($2l + 2w = 50$). Write another equation capturing 'length is 5 longer than width'. Then substitute one into the other."

@@ -6,20 +6,38 @@ difficulty: beginner
 tier: core
 
 learning_objectives:
-  - id: LO1
+  - id: 6.1.1
     text: "Identify linear equations in one variable and describe their characteristics."
     bloom: understand
-  - id: LO2
-    text: "Form linear equations in one variable from statements or situations, and vice versa."
+  - id: 6.1.2
+    text: "Form linear equations in one variable based on a statement or situation, and vice-versa."
     bloom: apply
-  - id: LO3
-    text: "Solve linear equations in one variable, including contextual word problems."
+  - id: 6.1.3
+    text: "Solve linear equations in one variable."
     bloom: apply
-  - id: LO4
-    text: "Identify and form linear equations in two variables, explain possible solutions, and represent them graphically."
+  - id: 6.1.4
+    text: "Solve problems involving linear equations in one variable."
+    bloom: apply
+  - id: 6.2.1
+    text: "Identify linear equations in two variables and describe their characteristics."
+    bloom: understand
+  - id: 6.2.2
+    text: "Form linear equations in two variables based on a statement or situation, and vice-versa."
+    bloom: apply
+  - id: 6.2.3
+    text: "Determine and explain possible solutions of linear equations in two variables."
     bloom: analyze
-  - id: LO5
-    text: "Form and solve simultaneous linear equations in two variables using multiple methods."
+  - id: 6.2.4
+    text: "Represent graphically the linear equations in two variables."
+    bloom: apply
+  - id: 6.3.1
+    text: "Form simultaneous linear equations based on daily situations. Hence, represent graphically the simultaneous linear equations in two variables and explain the meaning of simultaneous linear equations."
+    bloom: apply
+  - id: 6.3.2
+    text: "Solve simultaneous linear equations in two variables using various methods."
+    bloom: apply
+  - id: 6.3.3
+    text: "Solve problems involving simultaneous linear equations in two variables."
     bloom: apply
 
 prerequisites:
