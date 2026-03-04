@@ -6,23 +6,26 @@ difficulty: beginner
 tier: core
 
 learning_objectives:
-  - id: LO1
+  - id: 5.1.1
     text: "Use letters to represent unknown quantities and justify whether the variable is fixed or varying."
     bloom: apply
-  - id: LO2
+  - id: 5.1.2
     text: "Derive algebraic expressions from arithmetic expressions that represent a situation."
     bloom: apply
-  - id: LO3
+  - id: 5.1.3
     text: "Determine values of algebraic expressions by substitution and relate the result to context."
     bloom: apply
-  - id: LO4
+  - id: 5.1.4
     text: "Identify terms, coefficients, and constants, and classify like and unlike terms."
     bloom: understand
-  - id: LO5
+  - id: 5.2.1
     text: "Add and subtract two or more algebraic expressions correctly."
     bloom: apply
-  - id: LO6
-    text: "Generalise repeated multiplication and multiply or divide one-term algebraic expressions."
+  - id: 5.2.2
+    text: "Generalise repeated multiplication of algebraic expressions."
+    bloom: apply
+  - id: 5.2.3
+    text: "Multiply or divide one-term algebraic expressions."
     bloom: apply
 
 prerequisites:
