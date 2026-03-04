@@ -75,8 +75,9 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 | Task ID | Task | Owner | Time | Status |
 |---------|------|-------|------|--------|
 | `O-W1D2-1` | 🧑 Write 10 assessment questions for F1-05 (Ungkapan Algebra): answers, rubrics, hints, difficulty spread | 🧑 Education Lead | 2hr | ✅ Done |
-| `O-W1D2-2` | 🤖 AI-generate assessments for F1-06 (15 questions) and F1-07 (10 questions), Education Lead reviews | Collaborative | 2hr | ⏳ Pending |
-| `O-W1D2-3` | Create `.yamllint.yml` with formatting rules | 🤖 | 15min | ✅ Done |
+| `O-W1D2-2` | 🤖 AI-generate assessments for F1-06 (15 questions), Education Lead reviews and expands | Collaborative | 2hr | ✅ Done |
+| `O-W1D2-3` | 🤖 AI-generate assessments for F1-07 (10 questions), Education Lead reviews | Collaborative | 2hr | ⏳ Pending |
+| `O-W1D2-4` | Create `.yamllint.yml` with formatting rules | 🤖 | 15min | ✅ Done |
 
 ### Day 3 (Wed) — Validation Pipeline
 
