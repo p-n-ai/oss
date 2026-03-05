@@ -5,19 +5,19 @@ This chapter transitions students from merely solving equations to find a single
 
 ## DSKP Anchors & Taxonomy
 **Standard Kandungan & Pembelajaran:**
-- **SK 3.1 Algebraic Formulae**
-    - **3.1.1:** Write a formula based on a situation.
-    - **3.1.2:** Change the subject of formula of an algebraic equation.
-    - **3.1.3:** Determine the value of a variable when the value of another variable is given.
-    - **3.1.4:** Solve problems involving formulae.
+- **SK 3.1 Rumus Algebra (Algebraic Formulae)**
+    - **3.1.1:** Membentuk rumus berdasarkan suatu situasi. (Write a formula based on a situation.)
+    - **3.1.2:** Menukar perkara rumus bagi suatu persamaan algebra. (Change the subject of formula of an algebraic equation.)
+    - **3.1.3:** Menentukan nilai suatu pemboleh ubah apabila nilai pemboleh ubah lain diberi. (Determine the value of a variable when the value of another variable is given.)
+    - **3.1.4:** Menyelesaikan masalah yang melibatkan rumus. (Solve problems involving formulae.)
 
 **Tahap Penguasaan (Performance Standards):**
-- **TP 1:** Demonstrate the basic knowledge of formulae.
-- **TP 2:** Demonstrate the understanding of formulae.
-- **TP 3:** Apply the understanding of formulae to perform simple tasks.
-- **TP 4:** Apply appropriate knowledge and skills of formulae in the context of simple routine problem solving.
-- **TP 5:** Apply appropriate knowledge and skills of formulae in the context of complex routine problem solving.
-- **TP 6:** Apply appropriate knowledge and skills of formulae in the context of non-routine problem solving in a creative manner.
+- **TP 1:** Mempamerkan pengetahuan asas tentang rumus. (Demonstrate the basic knowledge of formulae.)
+- **TP 2:** Mempamerkan kefahaman tentang rumus. (Demonstrate the understanding of formulae.)
+- **TP 3:** Mengaplikasikan kefahaman tentang rumus untuk melaksanakan tugasan mudah. (Apply the understanding of formulae to perform simple tasks.)
+- **TP 4:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang rumus dalam konteks penyelesaian masalah rutin yang mudah. (Apply appropriate knowledge and skills of formulae in the context of simple routine problem solving.)
+- **TP 5:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang rumus dalam konteks penyelesaian masalah rutin yang kompleks. (Apply appropriate knowledge and skills of formulae in the context of complex routine problem solving.)
+- **TP 6:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang rumus dalam konteks penyelesaian masalah bukan rutin secara kreatif. (Apply appropriate knowledge and skills of formulae in the context of non-routine problem solving in a creative manner.)
 
 ## Prerequisites Check
 - Students can manipulate algebraic expressions and basic arithmetic operations (F2-02 Pemfaktoran dan Pecahan Algebra).
