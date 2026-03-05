@@ -5,7 +5,10 @@ questions:
   # SUBCHAPTER 5.1: Variables and Algebraic Expressions
   # ---------------------------------------------------------
   - id: Q1
-    text: "Sofea takes a certain amount of time, denoted by the letter $k$, to travel from her house to the school every day. Does the variable $k$ have a fixed value or a varied value? Justify your answer."
+    text: >-
+      Sofea takes a certain amount of time, denoted by the letter $k$, to
+      travel from her house to the school every day. Does the variable $k$ have
+      a fixed value or a varied value? Justify your answer.
     difficulty: easy
     learning_objective: 5.1.1
     answer:
@@ -87,7 +90,10 @@ questions:
         text: "Replace the variables $x$ and $y$ with their given numbers, using brackets, and then solve using the correct order of arithmetic operations."
 
   - id: Q5
-    text: "A box contains $x$ red marbles, $y$ blue marbles, and 5 green marbles. Calculate the total number of marbles if $x = 10$ and the number of blue marbles is twice the number of green marbles."
+    text: >-
+      A box contains $x$ red marbles, $y$ blue marbles, and 5 green marbles.
+      Calculate the total number of marbles if $x = 10$ and the number of blue
+      marbles is twice the number of green marbles.
     difficulty: hard
     learning_objective: 5.1.3
     answer:
@@ -154,7 +160,10 @@ questions:
         criteria: "Final simplified expression: 5p - q + 12."
     hints:
       - level: 1
-        text: "When removing a negative sign '-' that is in front of a bracket, remember to change the sign of every single term inside that bracket (positive becomes negative, negative becomes positive)."
+        text: >-
+          When removing a negative sign '-' that is in front of a bracket,
+          remember to change the sign of every single term inside that bracket
+          (positive becomes negative, negative becomes positive).
 
   - id: Q8
     text: "State the following repeated multiplication in index form: $(2a) \\times (2a) \\times (2a)$."

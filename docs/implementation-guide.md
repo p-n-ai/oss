@@ -1079,11 +1079,11 @@ done
 
 #### Tasks
 
-| # | Task | Owner | Files Created |
-|---|------|-------|---------------|
-| 3.1 | Create GitHub Actions `validate.yml` | 🤖 | `.github/workflows/validate.yml` |
-| 3.2 | Create `scripts/validate.sh` | 🤖 | `scripts/validate.sh` |
-| 3.3 | Run full validation, fix any failures | 🤖 | — |
+| # | Task | Owner | Files Created | Status |
+|---|------|-------|---------------|--------|
+| 3.1 | Create GitHub Actions `validate.yml` | 🤖 | `.github/workflows/validate.yml` | ✅ Done |
+| 3.2 | Create `scripts/validate.sh` | 🤖 | `scripts/validate.sh` | ✅ Done |
+| 3.3 | Run full validation, fix any failures | 🤖 | — | ✅ Done |
 
 #### 3.1 — GitHub Actions Workflow
 
@@ -1274,10 +1274,10 @@ Fix any failures before proceeding.
 
 #### Day 3 Exit Criteria
 
-- [ ] `.github/workflows/validate.yml` created
-- [ ] `scripts/validate.sh` created and executable
-- [ ] Full validation passes locally with zero errors
-- [ ] All existing content (1 syllabus, 1 subject, 3 topics, 3 assessments) validates
+- [x] `.github/workflows/validate.yml` created
+- [x] `scripts/validate.sh` created and executable
+- [x] Full validation passes locally with zero errors
+- [x] All existing content (1 syllabus, 1 subject, 3 topics, 3 assessments) validates
 
 **Progress:** 3 topics | 15 questions | 3 teaching notes | 3 assessments | 4 schemas | 1 syllabus | 1 subject | 1 CI workflow | 1 validation script
 
@@ -1344,12 +1344,12 @@ Follow the teaching notes template from Day 1, task 1.3.
 
 #### Day 4 Exit Criteria
 
-- [ ] Form 2 syllabus validates
-- [ ] Form 2 subject validates with 3 topic references
-- [ ] 3 topic YAMLs (F2-01 through F2-03) validate
-- [ ] Prerequisites correctly link to Form 1 topic IDs
-- [ ] F2-01 teaching notes written by Education Lead
-- [ ] F2-02, F2-03 teaching notes drafted and reviewed
+- [x] Form 2 syllabus validates
+- [x] Form 2 subject validates with 3 topic references
+- [x] 3 topic YAMLs (F2-01 through F2-03) validate
+- [x] Prerequisites correctly link to Form 1 topic IDs
+- [x] F2-01 teaching notes completed by Thoriq
+- [x] F2-02, F2-03 teaching notes drafted and reviewed by Thoriq
 
 **Progress:** 6 topics | 15 questions | 6 teaching notes | 3 assessments | 4 schemas | 2 syllabi | 2 subjects
 
