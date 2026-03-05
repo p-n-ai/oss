@@ -93,7 +93,7 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 |---------|------|-------|--------|
 | `O-W1D4-1` | Create `curricula/malaysia/kssm/matematik-tingkatan2/syllabus.yaml` + `subjects/algebra.yaml` | 🤖 | ✅ Done |
 | `O-W1D4-2` | Create topic YAML stubs for F2-01, F2-02, F2-03 with prerequisites linking to Form 1 | 🤖 | ✅ Done |
-| `O-W1D4-3` | 🧑 Write F2-02 teaching notes (Pemfaktoran dan Pecahan Algebra) — key topic, highest misconception rate | 🧑 Education Lead (2hr) | ✅ Done (completed by Thoriq) |
+| `O-W1D4-3` | 🧑 Write F2-02 teaching notes (Pemfaktoran dan Pecahan Algebra) — key topic, highest misconception rate | 🧑 Education Lead (2hr) | ✅ Done (Prepared by Thoriq, reviewed by Faiz) |
 | `O-W1D4-4` | 🧑🤖 AI-draft teaching notes for F2-01 and F2-03 | Collaborative | ✅ Done (reviewed by Thoriq) |
 
 ### Day 5 (Fri) — Quality Check
