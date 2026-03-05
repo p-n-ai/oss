@@ -1,53 +1,75 @@
-# Rumus Algebra (Algebraic Formulae) — Teaching Notes
+# Bab 3: Rumus Algebra (Algebraic Formulae) — Teaching Notes
 
 ## Overview
-This chapter trains students to model relationships with formulae, rearrange formulae safely, and apply them for unknown quantities. It is foundational for coordinate geometry, science formula work, and later function topics.
+This chapter transitions students from merely solving equations to find a single unknown number, to modeling dynamic relationships using formulae. "Rumus Algebra" trains students to convert real-world situations into mathematical rules, rearrange those rules safely based on what they need to find, and apply them. It is absolutely foundational for coordinate geometry, physics, science formula manipulation, and all later topics involving functions. 
 
-## RPT/DSKP Anchors
-- Chapter: Bab 3 (Static RPT source, Week 7)
-- SK: 3.1
-- SP focus: 3.1.1, 3.1.2, 3.1.3, 3.1.4
+## DSKP Anchors & Taxonomy
+**Standard Kandungan & Pembelajaran:**
+- **SK 3.1 Algebraic Formulae**
+    - **3.1.1:** Write a formula based on a situation.
+    - **3.1.2:** Change the subject of formula of an algebraic equation.
+    - **3.1.3:** Determine the value of a variable when the value of another variable is given.
+    - **3.1.4:** Solve problems involving formulae.
+
+**Tahap Penguasaan (Performance Standards):**
+- **TP 1:** Demonstrate the basic knowledge of formulae.
+- **TP 2:** Demonstrate the understanding of formulae.
+- **TP 3:** Apply the understanding of formulae to perform simple tasks.
+- **TP 4:** Apply appropriate knowledge and skills of formulae in the context of simple routine problem solving.
+- **TP 5:** Apply appropriate knowledge and skills of formulae in the context of complex routine problem solving.
+- **TP 6:** Apply appropriate knowledge and skills of formulae in the context of non-routine problem solving in a creative manner.
 
 ## Prerequisites Check
-- Students can manipulate algebraic expressions (F2-02).
-- Students can solve one-variable equations with operation balance (F1-06).
+- Students can manipulate algebraic expressions and basic arithmetic operations (F2-02 Pemfaktoran dan Pecahan Algebra).
+- Students can confidently solve one-variable equations using the balance method, including backtracking opposite operations (F1-06 Persamaan Linear).
+- Familiarity with mathematical operations involving squares, square roots, cubes, and cube roots (F1-05 Ungkapan Algebra).
 
-## Teaching Sequence
+## Teaching Sequence & Strategy
 
-### 1. Build Formulae from Situations (20 min)
-Convert verbal statements into symbol relationships. Start with perimeter/area and simple financial contexts.
+### 1. Membentuk Rumus (Forming Formulae based on a situation) (20 min)
+*Before we manipulate formulas, students need to understand what a formula actually is. Convert verbal statements and real-world situations into mathematical symbol relationships.*
+- **Strategies:** Start with contexts they already know, such as saving pocket money or buying items like cakes with discounts. Show them how an algebraic formula combines expressions using addition, subtraction, multiplication, or division. Emphasize that variables in a formula should be represented by alphabetic letters. 
+- **The Trap:** Students thinking a formula is just an algebraic expression. Emphasize that a formula MUST have an equal sign "=" connecting an algebraic expression to a single designated subject variable.
 
-### 2. Change the Subject of Formula (25 min)
-Teach rearrangement as balance operations on both sides. Use one operation per line to reduce error risk.
+### 2. Menukar Perkara Rumus (Changing the Subject of Formula) (30 min)
+*This is the mechanical heart of the chapter. To "change the subject" means to isolate a different variable, placing it on the left side of the equation.*
+- **Strategies:** Teach rearrangement strictly as "balance operations" on both sides. Remind students of the rule that the coefficient for the subject of the formula must ALWAYS be 1 (e.g., it must be $m$, not $-m$ or $2m$). Use inverse operations carefully (e.g., addition $\leftrightarrow$ subtraction, multiplication $\leftrightarrow$ division).
+- **The Trap:** Squares and Square Roots. Remind them that the opposite of squaring a variable is square rooting the *entire* opposite side of the equation, and vice versa (e.g., if $\sqrt{x} = y$, then $x = y^2$). Many students forget the square root bracket extends over the whole expression.
 
-### 3. Substitution and Evaluation (20 min)
-Given formula + known values, students substitute cleanly with units and evaluate unknown variables.
+### 3. Menentukan Nilai Pemboleh Ubah (Determining the Value of a Variable) (20 min)
+*Given a formula and known values, students must substitute cleanly and evaluate the remaining unknown variable.*
+- **Strategies:** Teach them two distinct methods to see which they prefer: Method A (Substitute the given values first, then rearrange to solve) or Method B (Rearrange to make the targeted unknown the subject first, then substitute). Force them to use physical brackets when substituting negative numbers to avoid sign errors. 
+- **The Trap:** BODMAS/PEMDAS failures post-substitution. Once variables become digits, students frequently mess up the order of operations, especially if exponents or fractions are involved.
 
-### 4. Integrated Problem Solving (25 min)
-Use problems requiring model selection, rearrangement, substitution, and interpretation.
+### 4. Penyelesaian Masalah (Solving Problems Involving Formulae) (20 min)
+*Integrate everything. Use real-world problems requiring model selection, rearrangement, substitution, and interpretation all in one go.*
+- **Strategies:** Train students to systematically use the 4-step framework: (1) Understand the problem, (2) Devise a strategy, (3) Implement the strategy, and (4) Make a conclusion. Use scenarios where defining variables correctly at the start is crucial, such as calculating the number of items bought within a specific budget.
+- **The Trap:** Wrong substitution slots. Reading errors occur when multiple variables are present. Require a "variable-label marking" before any substitution. Make them write a vertical list of knowns before plugging them into the formula.
 
-## Common Misconceptions
-| Misconception | Why It Happens | Remediation |
-|---|---|---|
-| Moves terms across equals without inverse operation logic | Memorized "swap side" habit | Enforce balance-language: add/subtract/divide both sides |
-| Rearranges correctly but substitutes into wrong variable slot | Formula reading errors | Require variable-label marking before substitution |
-| Ignores units after computation | Focuses only on numeric result | Include marks for correct units and interpretation |
+## High Alert Misconceptions
+
+| Misconception | Why Students Think This | How to Fix |
+| :--- | :--- | :--- |
+| **"Swapping Sides" blindly** | A bad habit of moving terms across the "=" sign by simply changing the sign, without understanding inverse operations. | Enforce physical balance-language. Force them to physically write $+5$ or $\div3$ under *both* sides of the equation. |
+| **Negative Subject Coefficient** | Leaving the final answer as $-x = ...$ rather than $x = ...$ | Remind students that the "Perkara rumus" (Subject) must have a positive value of 1 for its coefficient. Show them how to multiply or divide both sides by $-1$. |
+| **Partial Division/Multiplication** | When making $x$ the subject in $y = 2x + 4z$, dividing only the $2x$ by 2 instead of the entire side. | Use physical brackets to show that the *entire* side must be divided: $\frac{y}{2} = \frac{(2x + 4z)}{2}$. |
 
 ## Engagement Hooks
-- Formula relay: each group does one algebraic step then passes to next group.
-- Reverse engineering task: infer original formula from a worked solution path.
+- **Historical Context:** Share the "Imbasan Silam" trivia about Al-Khwarizmi, who introduced negative numbers, decimals, and algebraic programming, giving a historical backdrop to why we balance equations.
+- **Formula Relay:** Put students in groups of 4. Write a complex formula on the board and ask them to change the subject. Student A does the first algebraic step, passes the marker to Student B who does the next step, and so on.
+- **"Papan Mengira" Mini Project:** Bring manila cards, recycled boxes, colored paper, and scissors. Have students build a "calculation board" (like a spreadsheet on paper) to automatically calculate the total price of buying items like pens, water, and books based on current prices and algebraic variables.
 
 ## Assessment Guidance
-- Include one pure rearrangement item, one substitution item, one contextual multi-step item.
-- Award marks explicitly for algebraic structure, not only final value.
-- Add one error-correction prompt to diagnose equation-balance misconceptions.
+- Always include at least one pure rearrangement item, one pure substitution item, and one contextual multi-step word problem.
+- In word problems, test if students can define their own variables (e.g., "Let $x$ be the price of the book") to achieve TP5/TP6 mastery.
+- Assess whether they recognize that the subject of the formula must ALWAYS be on the left side of the equation and represented by a single letter.
 
-## Bahasa Melayu Key Terms
+## Bilingual Key Terms
+
 | English | Bahasa Melayu |
-|---|---|
-| Formula | Rumus |
-| Subject of formula | Perkara rumus |
-| Rearrange | Menukar perkara / Menyusun semula |
-| Substitute | Menggantikan |
+| :--- | :--- |
+| Algebraic formula | Rumus algebra |
 | Variable | Pemboleh ubah |
-| Evaluate | Menentukan nilai |
+| Coefficient | Pekali |
+| Subject of formula | Perkara rumus |
+| Substitute / Evaluate | Menggantikan / Menentukan nilai |
