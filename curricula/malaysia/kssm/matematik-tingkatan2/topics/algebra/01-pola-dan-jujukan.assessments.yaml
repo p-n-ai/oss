@@ -1,0 +1,116 @@
+topic_id: F2-01
+provenance: ai-generated
+
+questions:
+  - id: Q1
+    text: "Given the pattern 3, 7, 11, 15, ..., state the next two terms and the common difference."
+    difficulty: easy
+    learning_objective: 1.2.2
+    answer:
+      type: exact
+      value: "19, 23; common difference = 4"
+      working: |
+        Each term increases by 4.
+        15 + 4 = 19
+        19 + 4 = 23
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "States both next terms correctly."
+      - marks: 1
+        criteria: "Identifies common difference as 4."
+    hints:
+      - level: 1
+        text: "Compare consecutive terms to find how much is added each time."
+
+  - id: Q2
+    text: "Write a rule in words for the sequence 5, 8, 11, 14, ..."
+    difficulty: easy
+    learning_objective: 1.2.1
+    answer:
+      type: free_text
+      value: "Start at 5 and add 3 each time."
+      working: |
+        The change between terms is constant:
+        8 - 5 = 3, 11 - 8 = 3, 14 - 11 = 3.
+        So the sequence rule is add 3 repeatedly from 5.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Identifies starting term 5."
+      - marks: 1
+        criteria: "States repeated increment +3."
+    hints:
+      - level: 1
+        text: "Check the difference between each adjacent pair of terms."
+
+  - id: Q3
+    text: "For the sequence 2, 5, 8, 11, ... determine the 12th term."
+    difficulty: medium
+    learning_objective: 1.3.2
+    answer:
+      type: exact
+      value: "35"
+      working: |
+        Arithmetic sequence with first term a = 2 and common difference d = 3.
+        nth term: a_n = a + (n - 1)d
+        a_12 = 2 + (12 - 1)(3) = 2 + 33 = 35
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Uses correct arithmetic sequence structure."
+      - marks: 1
+        criteria: "Substitutes n = 12 correctly."
+      - marks: 1
+        criteria: "Obtains final answer 35."
+    hints:
+      - level: 1
+        text: "Use first term plus (n-1) times the common difference."
+
+  - id: Q4
+    text: "A pattern has term values 4, 9, 14, 19, ... Write an algebraic expression for the nth term."
+    difficulty: medium
+    learning_objective: 1.3.1
+    answer:
+      type: exact
+      value: "5n - 1"
+      working: |
+        First term is 4 and common difference is 5.
+        nth term = 4 + (n - 1)5 = 4 + 5n - 5 = 5n - 1
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Identifies first term and common difference correctly."
+      - marks: 1
+        criteria: "Forms nth-term expression correctly."
+      - marks: 1
+        criteria: "Simplifies to 5n - 1."
+    hints:
+      - level: 1
+        text: "Use a_n = a + (n-1)d and simplify."
+
+  - id: Q5
+    text: "In a hall, Row 1 has 6 seats, Row 2 has 10 seats, Row 3 has 14 seats, and so on. Find the number of seats in Row 20 and explain your method."
+    difficulty: hard
+    learning_objective: 1.3.3
+    answer:
+      type: exact
+      value: "82"
+      working: |
+        The sequence is arithmetic with first term a = 6 and common difference d = 4.
+        a_20 = 6 + (20 - 1)(4)
+        = 6 + 76
+        = 82
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Identifies arithmetic pattern with difference 4."
+      - marks: 1
+        criteria: "Sets up nth-term method for n = 20."
+      - marks: 1
+        criteria: "Performs calculation accurately."
+      - marks: 1
+        criteria: "States final answer with clear explanation."
+    hints:
+      - level: 1
+        text: "Find the fixed increase between rows, then use nth-term formula."

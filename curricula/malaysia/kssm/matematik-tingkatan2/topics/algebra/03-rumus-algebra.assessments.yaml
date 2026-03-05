@@ -1,0 +1,113 @@
+topic_id: F2-03
+provenance: ai-generated
+
+questions:
+  - id: Q1
+    text: "The perimeter of a rectangle is given by $P = 2l + 2w$. If $l = 7$ and $w = 4$, find $P$."
+    difficulty: easy
+    learning_objective: 3.1.3
+    answer:
+      type: exact
+      value: "22"
+      working: |
+        Substitute l = 7 and w = 4:
+        P = 2(7) + 2(4)
+        = 14 + 8
+        = 22
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correct substitution into formula."
+      - marks: 1
+        criteria: "Correct final value of 22."
+    hints:
+      - level: 1
+        text: "Replace each variable with its given value before calculating."
+
+  - id: Q2
+    text: "Write a formula for total cost $C$ if each notebook costs RMm and you buy n notebooks."
+    difficulty: easy
+    learning_objective: 3.1.1
+    answer:
+      type: exact
+      value: "C = mn"
+      working: |
+        Total cost equals unit price multiplied by quantity.
+        Therefore C = m × n = mn.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Forms the formula C = mn correctly."
+    hints:
+      - level: 1
+        text: "Think: cost per item multiplied by number of items."
+
+  - id: Q3
+    text: "Make $x$ the subject of the formula: $y = 3x - 8$."
+    difficulty: medium
+    learning_objective: 3.1.2
+    answer:
+      type: exact
+      value: "x = (y + 8) / 3"
+      working: |
+        y = 3x - 8
+        y + 8 = 3x
+        x = (y + 8) / 3
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Applies inverse operations correctly on both sides."
+      - marks: 1
+        criteria: "Presents correct subject form for x."
+    hints:
+      - level: 1
+        text: "Undo -8 first, then undo multiplication by 3."
+
+  - id: Q4
+    text: "Given $A = \frac{bh}{2}$, make $h$ the subject of the formula."
+    difficulty: medium
+    learning_objective: 3.1.2
+    answer:
+      type: exact
+      value: "h = 2A / b"
+      working: |
+        A = bh/2
+        2A = bh
+        h = 2A/b
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Clears denominator correctly."
+      - marks: 1
+        criteria: "Isolates h correctly."
+      - marks: 1
+        criteria: "Final rearranged formula is correct."
+    hints:
+      - level: 1
+        text: "Multiply both sides by 2 first to remove the fraction."
+
+  - id: Q5
+    text: "A taxi fare formula is $F = 4 + 1.8d$, where $F$ is fare in RM and $d$ is distance in km. If a passenger pays RM22, find the distance travelled."
+    difficulty: hard
+    learning_objective: 3.1.4
+    answer:
+      type: exact
+      value: "10"
+      working: |
+        22 = 4 + 1.8d
+        18 = 1.8d
+        d = 18 / 1.8
+        d = 10
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Substitutes fare value correctly into formula."
+      - marks: 1
+        criteria: "Rearranges equation correctly."
+      - marks: 1
+        criteria: "Computes d accurately."
+      - marks: 1
+        criteria: "States final distance in km."
+    hints:
+      - level: 1
+        text: "First isolate the term with d by subtracting 4 from both sides."

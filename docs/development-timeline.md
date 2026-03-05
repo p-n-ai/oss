@@ -89,12 +89,12 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 
 ### Day 4 (Thu) — Form 2 Algebra Begins (3 topics)
 
-| Task ID | Task | Owner |
-|---------|------|-------|
-| `O-W1D4-1` | Create `curricula/malaysia/kssm/matematik-tingkatan2/syllabus.yaml` + `subjects/algebra.yaml` | 🤖 |
-| `O-W1D4-2` | Create topic YAML stubs for F2-01, F2-02, F2-03 with prerequisites linking to Form 1 | 🤖 |
-| `O-W1D4-3` | 🧑 Write F2-02 teaching notes (Pemfaktoran dan Pecahan Algebra) — key topic, highest misconception rate | 🧑 Education Lead (2hr) |
-| `O-W1D4-4` | 🧑🤖 AI-draft teaching notes for F2-01 and F2-03 | Collaborative |
+| Task ID | Task | Owner | Status |
+|---------|------|-------|--------|
+| `O-W1D4-1` | Create `curricula/malaysia/kssm/matematik-tingkatan2/syllabus.yaml` + `subjects/algebra.yaml` | 🤖 | ✅ Done |
+| `O-W1D4-2` | Create topic YAML stubs for F2-01, F2-02, F2-03 with prerequisites linking to Form 1 | 🤖 | ✅ Done |
+| `O-W1D4-3` | 🧑 Write F2-02 teaching notes (Pemfaktoran dan Pecahan Algebra) — key topic, highest misconception rate | 🧑 Education Lead (2hr) | ✅ Done (completed by Thoriq) |
+| `O-W1D4-4` | 🧑🤖 AI-draft teaching notes for F2-01 and F2-03 | Collaborative | ✅ Done (reviewed by Thoriq) |
 
 ### Day 5 (Fri) — Quality Check
 
@@ -111,10 +111,12 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 
 ### Day 6 (Mon) — Form 2 Assessments
 
-| Task ID | Task | Owner |
-|---------|------|-------|
-| `O-W2D6-1` | 🧑 Write assessments for F2-01, F2-02, F2-03 (5 questions each, Algebra focus) | 🧑 Education Lead (3hr) |
-| `O-W2D6-2` | 🧑🤖 AI-draft additional assessment questions for all F2 topics | Collaborative |
+| Task ID | Task | Owner | Status |
+|---------|------|-------|--------|
+| `O-W2D6-1` | 🧑 Write assessments for F2-01, F2-02, F2-03 (5 questions each, Algebra focus) | 🧑 Education Lead (3hr) | ✅ Done (completed by Thoriq) |
+| `O-W2D6-2` | 🧑🤖 AI-draft additional assessment questions for all F2 topics | Collaborative | ✅ Done |
+
+**Implementation note (Mar 2026):** Form 2 learning objective IDs were aligned from `LOx` style to DSKP code format (for example `1.1.1`, `2.2.3`, `3.1.4`) to match PR #1 convention updates.
 
 ### Day 7 (Tue) — Form 3 Algebra Structure
 

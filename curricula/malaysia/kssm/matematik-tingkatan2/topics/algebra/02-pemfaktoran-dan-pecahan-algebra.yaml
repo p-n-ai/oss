@@ -1,0 +1,52 @@
+id: F2-02
+name: "Pemfaktoran dan Pecahan Algebra (Factorisation and Algebraic Fractions)"
+subject_id: algebra
+syllabus_id: malaysia-kssm-matematik-tingkatan2
+difficulty: intermediate
+tier: core
+
+learning_objectives:
+  - id: 2.1.1
+    text: "Explain expansion of two algebraic expressions and represent it symbolically (SP 2.1.1)."
+    bloom: understand
+  - id: 2.1.2
+    text: "Perform expansion of algebraic expressions accurately (SP 2.1.2)."
+    bloom: apply
+  - id: 2.1.3
+    text: "Simplify algebraic expressions involving combined operations and expansion (SP 2.1.3)."
+    bloom: apply
+  - id: 2.2.1
+    text: "Connect multiplication of expressions to factors and factorisation structures (SP 2.2.1)."
+    bloom: understand
+  - id: 2.2.2
+    text: "Factorize algebraic expressions using suitable methods for each form (SP 2.2.2)."
+    bloom: apply
+  - id: 2.3.1
+    text: "Execute addition, subtraction, multiplication, and division of expressions involving expansion/factorisation (SP 2.3.1-2.3.3)."
+    bloom: apply
+  - id: 2.2.3
+    text: "Solve non-routine algebra problems requiring expansion and factorisation decisions (SP 2.1.4, SP 2.2.3)."
+    bloom: analyze
+
+prerequisites:
+  required:
+    - F1-05
+  recommended:
+    - F1-06
+
+bloom_levels:
+  - understand
+  - apply
+  - analyze
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+ai_teaching_notes: "02-pemfaktoran-dan-pecahan-algebra.teaching.md"
+assessments_file: "02-pemfaktoran-dan-pecahan-algebra.assessments.yaml"
+quality_level: 2
+provenance: ai-generated
