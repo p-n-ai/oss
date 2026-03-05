@@ -17,9 +17,9 @@ Now that your students understand equations and the concept of balance, it's tim
 - **TP 6:** Mengaplikasikan pengetahuan dan kemahiran... dalam konteks penyelesaian masalah bukan rutin secara kreatif (Apply knowledge creatively to solve open-ended optimization problems like profit modeling tasks).
 
 ## Prerequisites Check
-- A solid grasp of the number line, specifically understanding that values increase as you move to the right and decrease to the left (F1-01).
-- A strong foundation in basic arithmetic operations involving integers (F1-01).
-- Familiarity with the equation balancing process (F1-06), because solving linear inequalities uses an almost identical algebraic isolation process.
+- A solid grasp of the number line, specifically understanding that values increase as you move to the right and decrease to the left (F1-01 Nombor Nisbah).
+- A strong foundation in basic arithmetic operations involving integers (F1-01 Nombor Nisbah).
+- Familiarity with the equation balancing process (F1-06 Persamaan Linear), because solving linear inequalities uses an almost identical algebraic isolation process.
 
 ## Teaching Sequence & Strategy
 

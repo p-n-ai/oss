@@ -5,23 +5,32 @@ This topic introduces students to the transition from visual or numeric pattern 
 
 ## DSKP Anchors & Taxonomy
 
-**Standard Kandungan:**
-- **SK 1.1 Pola:** Mengenal dan memerihalkan pola pelbagai set nombor dan objek dalam kehidupan sebenar, dan seterusnya membuat rumusan tentang pola (termasuk nombor genap/ganjil, Segi Tiga Pascal, dan Nombor Fibonacci).
-- **SK 1.2 Jujukan:** Menerangkan maksud jujukan. Mengenal pasti dan memerihalkan pola suatu jujukan, dan seterusnya melengkapkan dan melanjutkan jujukan tersebut.
-- **SK 1.3 Pola dan Jujukan:** Membuat generalisasi tentang pola suatu jujukan menggunakan nombor, perkataan dan ungkapan algebra. Menentukan sebutan tertentu bagi suatu jujukan dan menyelesaikan masalah yang melibatkan jujukan.
+**Standard Kandungan & Pembelajaran (Content & Learning Standards):**
+- **SK 1.1 Pola (Patterns)**
+    - **1.1.1:** Mengenal dan memerihalkan pola pelbagai set nombor dan objek dalam kehidupan sebenar, dan seterusnya membuat rumusan tentang pola. (Recognise and describe patterns of various number sets and objects based on real life situations, and hence make generalisation on patterns.)
+- **SK 1.2 Jujukan (Sequences)**
+    - **1.2.1:** Menerangkan maksud jujukan. (Explain the meaning of sequence.)
+    - **1.2.2:** Mengenal pasti dan memerihalkan pola suatu jujukan, dan seterusnya melengkapkan dan melanjutkan jujukan tersebut. (Identify and describe the pattern of a sequence, and hence complete and extend the sequence.)
+- **SK 1.3 Pola dan Jujukan (Patterns and Sequences)**
+    - **1.3.1:** Membuat generalisasi tentang pola suatu jujukan menggunakan nombor, perkataan dan ungkapan algebra. (Make generalisation about the pattern of a sequence using numbers, words and algebraic expressions.)
+    - **1.3.2:** Menentukan sebutan tertentu bagi suatu jujukan. (Determine specific terms of a sequence.)
+    - **1.3.3:** Menyelesaikan masalah yang melibatkan jujukan. (Solve problems involving sequences.)
 
-**Tahap Penguasaan (Prestasi):**
-- **TP 1:** Mempamerkan pengetahuan asas tentang jujukan.
-- **TP 2:** Mempamerkan kefahaman tentang pola dan jujukan.
-- **TP 3:** Mengaplikasikan kefahaman tentang pola dan jujukan untuk melaksanakan tugasan mudah.
-- **TP 4:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang pola dan jujukan dalam konteks penyelesaian masalah rutin yang mudah.
-- **TP 5:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang pola dan jujukan dalam konteks penyelesaian masalah rutin yang kompleks.
-- **TP 6:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang pola dan jujukan dalam konteks penyelesaian masalah bukan rutin secara kreatif.
+**Nota DSKP (DSKP Note):**
+- Aktiviti penerokaan yang melibatkan bentuk geometri, nombor dan objek mesti dijalankan. (Exploratory activities that involve geometrical shapes, numbers and objects must be carried out.)
+
+**Tahap Penguasaan (Performance Standards):**
+- **TP 1:** Mempamerkan pengetahuan asas tentang jujukan. (Demonstrate the basic knowledge of sequences.)
+- **TP 2:** Mempamerkan kefahaman tentang pola dan jujukan. (Demonstrate the understanding of patterns and sequences.)
+- **TP 3:** Mengaplikasikan kefahaman tentang pola dan jujukan untuk melaksanakan tugasan mudah. (Apply the understanding of patterns and sequences to perform simple tasks.)
+- **TP 4:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang pola dan jujukan dalam konteks penyelesaian masalah rutin yang mudah. (Apply appropriate knowledge and skills of patterns and sequences in the context of simple routine problem solving.)
+- **TP 5:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang pola dan jujukan dalam konteks penyelesaian masalah rutin yang kompleks. (Apply appropriate knowledge and skills of patterns and sequences in the context of complex routine problem solving.)
+- **TP 6:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang pola dan jujukan dalam konteks penyelesaian masalah bukan rutin secara kreatif. (Apply appropriate knowledge and skills of patterns and sequences in the context of non-routine problem solving in a creative manner.)
 
 ## Prerequisites Check
-- Students can confidently represent unknowns with variables (F1-05).
-- Comfort with basic integer operations and identifying simple arithmetic multiples and intervals (F1-01).
-- The ability to substitute numbers into an algebraic expression and solve it (F1-05).
+- Students can confidently represent unknowns with variables (F1-05 Ungkapan Algebra).
+- Comfort with basic integer operations and identifying simple arithmetic multiples and intervals (F1-01 Nombor Nisbah).
+- The ability to substitute numbers into an algebraic expression and solve it (F1-05 Ungkapan Algebra).
 
 ## Teaching Sequence & Strategy
 

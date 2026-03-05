@@ -4,22 +4,30 @@
 "Ungkapan Algebra" introduces students to the foundational concept of using letters to represent unknown quantities. This marks the critical transition from concrete arithmetic to abstract mathematical reasoning. It covers identifying variables with fixed or varied values, translating real-world situations into mathematical expressions, identifying terms and coefficients, and performing basic arithmetic operations. This topic is essential for equipping students with the skills to apply algebraic understanding to solve everyday problems and serves as the bedrock for all future algebra topics.
 
 ## DSKP Anchors & Taxonomy
-**Standard Kandungan:**
-- **SK 5.1:** Pemboleh ubah dan ungkapan algebra: Using letters to represent unknown quantities, deriving algebraic expressions from real-world situations, substitution, and identifying terms and coefficients.
-- **SK 5.2:** Ungkapan algebra yang melibatkan operasi asas aritmetik: Adding and subtracting expressions by grouping like terms, generalizations about repeated multiplication, dividing and multiplying terms.
+**Standard Kandungan & Pembelajaran:**
+- **SK 5.1 Pemboleh ubah dan ungkapan algebra (Variables and algebraic expressions)**
+    - **5.1.1:** Menggunakan huruf untuk mewakilkan kuantiti yang tidak diketahui nilai. Seterusnya menyatakan sama ada pemboleh ubah itu mempunyai nilai yang tetap atau nilai yang berubah dengan memberi justifikasi. (Use letters to represent quantities with unknown values. Hence, state whether the value of the variable varies or is fixed, with justification.)
+    - **5.1.2:** Menerbitkan ungkapan algebra berdasarkan ungkapan aritmetik yang mewakili suatu situasi. (Derive algebraic expressions based on arithmetic expressions that represent a situation.)
+    - **5.1.3:** Menentukan nilai ungkapan algebra apabila nilai pemboleh ubah diberi dan membuat perkaitan dengan situasi yang sesuai. (Determine the values of algebraic expressions given the values of variables and make connection with appropriate situations.)
+    - **5.1.4:** Mengenal pasti sebutan dalam suatu ungkapan algebra. Seterusnya menyatakan pekali yang mungkin bagi sebutan algebra. (Identify the terms in an algebraic expression. Hence, state the possible coefficients for the algebraic terms.)
+    - **5.1.5:** Mengenal pasti sebutan serupa dan sebutan tidak serupa. (Identify like and unlike terms.)
+- **SK 5.2 Ungkapan algebra yang melibatkan operasi asas aritmetik (Algebraic expressions involving basic arithmetic operations)**
+    - **5.2.1:** Menambah dan menolak dua atau lebih ungkapan algebra. (Add and subtract two or more algebraic expressions.)
+    - **5.2.2:** Membuat generalisasi tentang pendaraban berulang ungkapan algebra. (Make generalisation about repeated multiplication of algebraic expressions.)
+    - **5.2.3:** Mendarab dan membahagi ungkapan algebra yang mengandungi satu sebutan. (Multiply and divide algebraic expressions with one term.)
 
-**Tahap Penguasaan:**
-- **TP 1:** Mempamerkan pengetahuan asas tentang pemboleh ubah dan ungkapan algebra (Exhibit basic knowledge of variables and algebraic expressions).
-- **TP 2:** Mempamerkan kefahaman tentang pemboleh ubah dan ungkapan algebra (Demonstrate comprehension of variables and algebraic expressions).
-- **TP 3:** Mengaplikasikan kefahaman tentang ungkapan algebra untuk melaksanakan tugasan mudah (Apply understanding of algebraic expressions to perform simple tasks).
-- **TP 4:** Mengaplikasikan pengetahuan dan kemahiran... dalam konteks penyelesaian masalah rutin yang mudah (Apply knowledge to solve simple routine problems).
-- **TP 5:** Mengaplikasikan pengetahuan dan kemahiran... dalam konteks penyelesaian masalah rutin yang kompleks (Apply knowledge to solve complex routine problems).
-- **TP 6:** Mengaplikasikan pengetahuan dan kemahiran... dalam konteks penyelesaian masalah bukan rutin secara kreatif (Apply knowledge creatively to solve non-routine problems).
+**Tahap Penguasaan (Performance Standards):**
+- **TP 1:** Mempamerkan pengetahuan asas tentang pemboleh ubah dan ungkapan algebra. (Demonstrate the basic knowledge of variables and algebraic expressions.)
+- **TP 2:** Mempamerkan kefahaman tentang pemboleh ubah dan ungkapan algebra. (Demonstrate the understanding of variables and algebraic expressions.)
+- **TP 3:** Mengaplikasikan kefahaman tentang ungkapan algebra untuk melaksanakan tugasan mudah. (Apply the understanding of algebraic expressions to perform simple tasks.)
+- **TP 4:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang ungkapan algebra dalam konteks penyelesaian masalah rutin yang mudah. (Apply appropriate knowledge and skills of algebraic expressions in the context of simple routine problem solving.)
+- **TP 5:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang ungkapan algebra dalam konteks penyelesaian masalah rutin yang kompleks. (Apply appropriate knowledge and skills of algebraic expressions in the context of complex routine problem solving.)
+- **TP 6:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang ungkapan algebra dalam konteks penyelesaian masalah bukan rutin secara kreatif. (Apply appropriate knowledge and skills of algebraic expressions in the context of non-routine problem solving in a creative manner.)
 
 ## Prerequisites Check
 - Students should be highly comfortable with basic arithmetic operations (addition, subtraction, multiplication, division).
 - Understanding of the concept of "unknown boxes" from primary school word problems.
-- Basic fluency in operations with negative integers (F1-01 Integers).
+- Basic fluency in operations with negative integers (F1-01 Nombor Nisbah).
 
 ## Teaching Sequence & Strategy
 

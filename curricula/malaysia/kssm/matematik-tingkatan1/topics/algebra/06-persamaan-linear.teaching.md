@@ -4,21 +4,32 @@
 Alright, now that they know what algebraic expressions and variables are, it's time to build the most critical tool in algebra: the equation! "Persamaan Linear" (Linear Equations) is all about balance. This chapter is a big one — it scales their understanding from basic one-variable equations to mapping linear relationships with *two* variables, and finally solving real-world puzzles using simultaneous linear equations.
 
 ## DSKP Anchors & Taxonomy
-**Standard Kandungan:**
-- **SK 6.1:** Persamaan linear dalam satu pemboleh ubah: Understanding equations as a balanced scale, forming them from real situations, and solving them using trial and error, backtracking, and the concept of equality.
-- **SK 6.2:** Persamaan linear dalam dua pemboleh ubah: Recognizing equations with two variables ($ax + by = c$), identifying multiple possible solution pairs, and representing these relationships graphically as straight lines.
-- **SK 6.3:** Persamaan linear serentak dalam dua pemboleh ubah: Solving overlapping situations algebraically (through Substitution and Elimination methods) and graphically to find unique intersection points.
+**Standard Kandungan & Pembelajaran:**
+- **SK 6.1 Persamaan linear dalam satu pemboleh ubah (Linear equations in one variable)**
+    - **6.1.1:** Mengenal pasti persamaan linear dalam satu pemboleh ubah dan menghuraikan ciri-ciri persamaan tersebut. (Identify linear equations in one variable and describe the characteristics of the equations.)
+    - **6.1.2:** Membentuk persamaan linear dalam satu pemboleh ubah berdasarkan suatu penyataan atau situasi, dan sebaliknya. (Form linear equations in one variable based on a statement or a situation, and vice-versa.)
+    - **6.1.3:** Menyelesaikan persamaan linear dalam satu pemboleh ubah. (Solve linear equations in one variable.)
+    - **6.1.4:** Menyelesaikan masalah yang melibatkan persamaan linear dalam satu pemboleh ubah. (Solve problems involving linear equations in one variable.)
+- **SK 6.2 Persamaan linear dalam dua pemboleh ubah (Linear equations in two variables)**
+    - **6.2.1:** Mengenal pasti persamaan linear dalam dua pemboleh ubah dan menghuraikan ciri-ciri persamaan tersebut. (Identify linear equations in two variables and describe the characteristics of the equations.)
+    - **6.2.2:** Membentuk persamaan linear dalam dua pemboleh ubah berdasarkan suatu penyataan atau situasi, dan sebaliknya. (Form linear equations in two variables based on a statement or a situation, and vice-versa.)
+    - **6.2.3:** Menentu dan menjelaskan penyelesaian yang mungkin bagi persamaan linear dalam dua pemboleh ubah. (Determine and explain possible solutions of linear equations in two variables.)
+    - **6.2.4:** Mewakilkan persamaan linear dalam dua pemboleh ubah secara graf. (Represent graphically the linear equations in two variables.)
+- **SK 6.3 Persamaan linear serentak dalam dua pemboleh ubah (Simultaneous linear equations in two variables)**
+    - **6.3.1:** Membentuk persamaan linear serentak berdasarkan situasi harian. Seterusnya mewakilkan persamaan linear serentak dalam dua pemboleh ubah secara graf dan menjelaskan maksud persamaan linear serentak. (Form simultaneous linear equations based on daily situations. Hence, represent graphically the simultaneous linear equations in two variables and explain the meaning of simultaneous linear equations.)
+    - **6.3.2:** Menyelesaikan persamaan linear serentak dalam dua pemboleh ubah menggunakan pelbagai kaedah. (Solve simultaneous linear equations in two variables using various methods.)
+    - **6.3.3:** Menyelesaikan masalah yang melibatkan persamaan linear serentak dalam dua pemboleh ubah. (Solve problems involving simultaneous linear equations in two variables.)
 
-**Tahap Penguasaan:**
-- **TP 1:** Mempamerkan pengetahuan asas tentang persamaan linear (Exhibit basic knowledge of linear equations, e.g., identifying linear equations).
-- **TP 2:** Mempamerkan kefahaman tentang persamaan linear dan persamaan linear serentak (Demonstrate understanding of linear and simultaneous linear equations, e.g., explaining why a line graph represents an equation).
-- **TP 3:** Mengaplikasikan kefahaman tentang penyelesaian persamaan linear dan persamaan linear serentak (Apply understanding to correctly solve equations using substitution or elimination).
-- **TP 4:** Mengaplikasikan pengetahuan dan kemahiran... dalam konteks penyelesaian masalah rutin yang mudah (Apply knowledge to solve simple routine word problems).
-- **TP 5:** Mengaplikasikan pengetahuan dan kemahiran... dalam konteks penyelesaian masalah rutin yang kompleks (Apply knowledge to solve complex routine multi-step word problems involving forming the equations).
-- **TP 6:** Mengaplikasikan pengetahuan dan kemahiran... dalam konteks penyelesaian masalah bukan rutin secara kreatif (Apply knowledge creatively to solve non-routine modeling problems).
+**Tahap Penguasaan (Performance Standards):**
+- **TP 1:** Mempamerkan pengetahuan asas tentang persamaan linear. (Demonstrate the basic knowledge of linear equations.)
+- **TP 2:** Mempamerkan kefahaman tentang persamaan linear dan persamaan linear serentak. (Demonstrate the understanding of linear equations and simultaneous linear equations.)
+- **TP 3:** Mengaplikasikan kefahaman tentang penyelesaian persamaan linear dan persamaan linear serentak. (Apply the understanding of the solution for linear equations and simultaneous linear equations.)
+- **TP 4:** Mengaplikasikan kefahaman dan kemahiran yang sesuai tentang persamaan linear dan persamaan linear serentak dalam konteks penyelesaian masalah rutin yang mudah. (Apply appropriate knowledge and skills of linear equations and simultaneous linear equations in the context of simple routine problem solving.)
+- **TP 5:** Mengaplikasikan kefahaman dan kemahiran yang sesuai tentang persamaan linear dan persamaan linear serentak dalam konteks penyelesaian masalah rutin yang kompleks. (Apply appropriate knowledge and skills of linear equations and simultaneous linear equations in the context of complex routine problem solving.)
+- **TP 6:** Mengaplikasikan kefahaman dan kemahiran yang sesuai tentang persamaan linear dan persamaan linear serentak dalam konteks penyelesaian masalah bukan rutin. (Apply appropriate knowledge and skills of linear equations and simultaneous linear equations in the context of non-routine problem solving.)
 
 ## Prerequisites Check
-- A solid grasp of forming algebraic expressions from word problems (F1-05).
+- A solid grasp of forming algebraic expressions from word problems (F1-05 Ungkapan Algebra).
 - An understanding of basic arithmetic operations, especially opposite operations (addition vs subtraction, multiplication vs division).
 - Familiarity with the equal sign "$=$" meaning "the same as" or showing a balanced relationship, not just "the answer is".
 - Basic knowledge of plotting points on a Cartesian coordinate system (crucial for 6.2 and 6.3).

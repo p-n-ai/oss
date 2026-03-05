@@ -4,23 +4,33 @@
 "Pemfaktoran dan Pecahan Algebra" is arguably the most critical and challenging algebra chapter in the lower secondary syllabus. It introduces students to expanding expressions, reversing that process through factorisation, and manipulating algebraic fractions using the four fundamental operations. Mastery of this chapter is the ultimate gateway to advanced mathematics; conversely, it is also the danger zone where the highest rate of student misconceptions occurs, specifically regarding sign errors and "illegal" fraction cancellations.
 
 ## DSKP Anchors & Taxonomy
-**Standard Kandungan:**
-- **SK 2.1:** Kembangan (Expansion): Expanding single and double brackets by multiplying expressions, and simplifying combined operations using BODMAS.
-- **SK 2.2:** Pemfaktoran (Factorisation): Understanding factorisation as the exact inverse of expansion, using Highest Common Factors (FSTB), perfect squares, cross-multiplication, and grouping.
-- **SK 2.3:** Ungkapan Algebra & Hukum Operasi Asas Aritmetik: Adding, subtracting, multiplying, and dividing algebraic fractions.
+**Standard Kandungan & Pembelajaran (Content & Learning Standards):**
+- **SK 2.1 Kembangan (Expansion)**
+    - **2.1.1:** Menerangkan maksud kembangan dua ungkapan algebra. (Explain the meaning of the expansion of two algebraic expressions.)
+    - **2.1.2:** Melaksanakan kembangan dua ungkapan algebra. (Expand two algebraic expressions.)
+    - **2.1.3:** Mempermudahkan ungkapan algebra yang melibatkan gabungan operasi termasuk kembangan. (Simplify algebraic expressions involving combined operations, including expansion.)
+    - **2.1.4:** Menyelesaikan masalah yang melibatkan kembangan dua ungkapan algebra. (Solve problems involving expansion of two algebraic expressions.)
+- **SK 2.2 Pemfaktoran (Factorisation)**
+    - **2.2.1:** Menghubungkaitkan pendaraban ungkapan algebra dengan konsep faktor dan pemfaktoran, dan seterusnya menyenaraikan faktor bagi hasil darab ungkapan algebra tersebut. (Relate the multiplication of algebraic expressions to the concept of factors and factorisation, and hence list out the factors of the product of the algebraic expressions.)
+    - **2.2.2:** Memfaktorkan ungkapan algebra dengan pelbagai kaedah. (Factorise algebraic expressions using various methods.)
+    - **2.2.3:** Menyelesaikan masalah yang melibatkan pemfaktoran. (Solve problems involving factorisation.)
+- **SK 2.3 Ungkapan Algebra dan Hukum Operasi Asas Aritmetik (Algebraic Expressions and Laws of Basic Arithmetic Operations)**
+    - **2.3.1:** Melaksanakan penambahan dan penolakan ungkapan algebra yang melibatkan kembangan dan pemfaktoran. (Perform addition and subtraction of algebraic expressions involving expansion and factorisation.)
+    - **2.3.2:** Melaksanakan pendaraban dan pembahagian ungkapan algebra yang melibatkan kembangan dan pemfaktoran. (Perform multiplication and division of algebraic expressions involving expansion and factorisation.)
+    - **2.3.3:** Melaksanakan gabungan operasi ungkapan algebra yang melibatkan kembangan dan pemfaktoran. (Perform combined operations of algebraic expressions involving expansion and factorisation.)
 
-**Tahap Penguasaan:**
-- **TP 1:** Mempamerkan pengetahuan asas tentang faktor (Exhibit basic knowledge of factors).
-- **TP 2:** Mempamerkan kefahaman tentang konsep kembangan dan pemfaktoran (Demonstrate comprehension of expansion and factorisation concepts).
-- **TP 3:** Mengaplikasikan kefahaman tentang kembangan dan pemfaktoran untuk melaksanakan tugasan mudah (Apply understanding to perform simple algebraic tasks).
-- **TP 4:** Mengaplikasikan pengetahuan dan kemahiran... dalam konteks penyelesaian masalah rutin yang mudah (Apply knowledge to solve simple routine problems).
-- **TP 5:** Mengaplikasikan pengetahuan dan kemahiran... dalam konteks penyelesaian masalah rutin yang kompleks (Apply knowledge to solve complex routine problems).
-- **TP 6:** Mengaplikasikan pengetahuan dan kemahiran... dalam konteks penyelesaian masalah bukan rutin secara kreatif (Apply knowledge creatively to solve non-routine problems).
+**Tahap Penguasaan (Performance Standards):**
+- **TP 1:** Mempamerkan pengetahuan asas tentang faktor. (Demonstrate the basic knowledge of factors.)
+- **TP 2:** Mempamerkan kefahaman tentang konsep kembangan dan pemfaktoran. (Demonstrate the understanding of the concept of expansion and factorisation.)
+- **TP 3:** Mengaplikasikan kefahaman tentang kembangan dan pemfaktoran untuk melaksanakan tugasan mudah. (Apply the understanding of expansion and factorisation to perform simple tasks.)
+- **TP 4:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang kembangan dan pemfaktoran dalam konteks penyelesaian masalah rutin yang mudah. (Apply appropriate knowledge and skills of expansion and factorisation in the context of simple routine problem solving.)
+- **TP 5:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang kembangan dan pemfaktoran dalam konteks penyelesaian masalah rutin yang kompleks. (Apply appropriate knowledge and skills of expansion and factorisation in the context of complex routine problem solving.)
+- **TP 6:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang kembangan dan pemfaktoran dalam konteks penyelesaian masalah bukan rutin secara kreatif. (Apply appropriate knowledge and skills of expansion and factorisation in the context of non-routine problem solving in a creative manner.)
 
 ## Prerequisites Check
-- Native fluency in collecting like terms and working with linear expressions (F1-05).
-- Ability to solve basic linear equations and verify results (F1-06).
-- Strong command of directed numbers and integer operations, especially negative signs (F1-01).
+- Native fluency in collecting like terms and working with linear expressions (F1-05 Ungkapan Algebra).
+- Ability to solve basic linear equations and verify results (F1-06 Persamaan Linear).
+- Strong command of directed numbers and integer operations, especially negative signs (F1-01 Nombor Nisbah).
 - Solid grounding in basic primary school fraction logic, such as finding common denominators and cross-cancellation (Primary Syllabus).
 
 ## Teaching Sequence & Strategy
