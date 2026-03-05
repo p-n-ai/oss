@@ -81,11 +81,11 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 
 ### Day 3 (Wed) — Validation Pipeline
 
-| Task ID | Task | Owner |
-|---------|------|-------|
-| `O-W1D3-1` | GitHub Actions workflow `validate.yml`: yamllint + ajv-cli validation of all YAML against schemas | 🤖 |
-| `O-W1D3-2` | `scripts/validate.sh` — run all schema validations locally | 🤖 |
-| `O-W1D3-3` | Validate all existing content passes CI | 🤖 |
+| Task ID | Task | Owner | Status |
+|---------|------|-------|--------|
+| `O-W1D3-1` | GitHub Actions workflow `validate.yml`: yamllint + ajv-cli validation of all YAML against schemas | 🤖 | ✅ Done |
+| `O-W1D3-2` | `scripts/validate.sh` — run all schema validations locally | 🤖 | ✅ Done |
+| `O-W1D3-3` | Validate all existing content passes CI | 🤖 | ✅ Done |
 
 ### Day 4 (Thu) — Form 2 Algebra Begins (3 topics)
 

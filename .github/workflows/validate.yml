@@ -1,0 +1,77 @@
+name: Validate Curriculum
+on: [push, pull_request]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install validators
+        run: |
+          npm install -g ajv-cli ajv-formats
+          pip install yamllint
+
+      - name: Lint YAML
+        run: yamllint -c .yamllint.yml curricula/ concepts/ taxonomy/
+
+      - name: Validate syllabus files
+        run: |
+          find curricula -name "syllabus.yaml" -print0 | \
+            xargs -0 -I{} ajv validate --spec=draft2020 -s schema/syllabus.schema.json -d {}
+
+      - name: Validate subject files
+        run: |
+          find curricula -path "*/subjects/*.yaml" -print0 | \
+            xargs -0 -I{} ajv validate --spec=draft2020 -s schema/subject.schema.json -d {}
+
+      - name: Validate topic files
+        run: |
+          find curricula -path "*/topics/*" -name "*.yaml" \
+            ! -name "*.examples.yaml" ! -name "*.assessments.yaml" -print0 | \
+            xargs -0 -I{} ajv validate --spec=draft2020 -s schema/topic.schema.json -d {}
+
+      - name: Validate assessment files
+        run: |
+          find curricula -name "*.assessments.yaml" -print0 | \
+            xargs -0 -I{} ajv validate --spec=draft2020 -s schema/assessments.schema.json -d {}
+
+      - name: Validate example files
+        run: |
+          shopt -s nullglob
+          files=$(find curricula -name "*.examples.yaml")
+          if [ -n "$files" ]; then
+            echo "$files" | xargs -I{} ajv validate --spec=draft2020 -s schema/examples.schema.json -d {}
+          else
+            echo "No example files found (OK at this stage)"
+          fi
+
+      - name: Validate concept files
+        run: |
+          shopt -s nullglob
+          files=$(find concepts -name "*.yaml" 2>/dev/null)
+          if [ -n "$files" ]; then
+            echo "$files" | xargs -I{} ajv validate --spec=draft2020 -s schema/concept.schema.json -d {}
+          else
+            echo "No concept files found (OK at this stage)"
+          fi
+
+      - name: Validate taxonomy files
+        run: |
+          shopt -s nullglob
+          files=$(find taxonomy -name "*.yaml" 2>/dev/null)
+          if [ -n "$files" ]; then
+            echo "$files" | xargs -I{} ajv validate --spec=draft2020 -s schema/taxonomy.schema.json -d {}
+          else
+            echo "No taxonomy files found (OK at this stage)"
+          fi

@@ -31,7 +31,10 @@ learning_objectives:
     text: "Represent graphically the linear equations in two variables."
     bloom: apply
   - id: 6.3.1
-    text: "Form simultaneous linear equations based on daily situations. Hence, represent graphically the simultaneous linear equations in two variables and explain the meaning of simultaneous linear equations."
+    text: >-
+      Form simultaneous linear equations based on daily situations. Hence,
+      represent graphically the simultaneous linear equations in two variables
+      and explain the meaning of simultaneous linear equations.
     bloom: apply
   - id: 6.3.2
     text: "Solve simultaneous linear equations in two variables using various methods."

@@ -142,7 +142,10 @@ questions:
         text: "Check two things: How many unknown letters are there? Are there any powers like squared or cubed?"
 
   - id: Q7
-    text: "Write a linear equation in two variables for the following situation: A stationery shop sells books for RM15 each and pens for RM2 each. Damia spends a total of RM50 to buy $b$ books and $p$ pens."
+    text: >-
+      Write a linear equation in two variables for the following situation: A
+      stationery shop sells books for RM15 each and pens for RM2 each. Damia
+      spends a total of RM50 to buy $b$ books and $p$ pens.
     difficulty: medium
     learning_objective: 6.2.2
     answer:
@@ -232,7 +235,11 @@ questions:
   # SUBCHAPTER 6.3: Simultaneous Linear Equations in Two Variables
   # ---------------------------------------------------------
   - id: Q11
-    text: "Faizah rears a total of 7 chickens and ducks. The cost of rearing a chicken is RM1 a week and a duck is RM2 a week. The total cost is RM12 a week. Form two simultaneous linear equations using $x$ for the number of chickens and $y$ for the number of ducks."
+    text: >-
+      Faizah rears a total of 7 chickens and ducks. The cost of rearing a
+      chicken is RM1 a week and a duck is RM2 a week. The total cost is RM12 a
+      week. Form two simultaneous linear equations using $x$ for the number of
+      chickens and $y$ for the number of ducks.
     difficulty: medium
     learning_objective: 6.3.1
     answer:
@@ -260,7 +267,7 @@ questions:
       value: "(5, 2)"
       working: |
         From eq 1: x = y + 3
-        Substitute into eq 2: 
+        Substitute into eq 2:
         2(y + 3) + y = 12
         2y + 6 + y = 12
         3y + 6 = 12
@@ -379,4 +386,7 @@ questions:
         criteria: "Correctly finds the length."
     hints:
       - level: 1
-        text: "The wire forms the perimeter. Write one equation for the perimeter ($2l + 2w = 50$). Write another equation capturing 'length is 5 longer than width'. Then substitute one into the other."
+        text: >-
+          The wire forms the perimeter. Write one equation for the perimeter
+          ($2l + 2w = 50$). Write another equation capturing "length is 5
+          longer than width". Then substitute one into the other.

@@ -1,9 +1,9 @@
 topic_id: F1-07
 provenance: ai-generated
 questions:
-### ---------------------------------------------------------
-### SUBCHAPTER 7.1: Inequalities
-### ---------------------------------------------------------
+  # ---------------------------------------------------------
+  # SUBCHAPTER 7.1: Inequalities
+  # ---------------------------------------------------------
   - id: Q1
     text: "Fill in the blank with the symbol '<' or '>' so that it becomes a true statement:  $-8 \\text{ \\_\\_\\_ } -3$"
     difficulty: easy
@@ -83,7 +83,8 @@ questions:
         Multiply both sides by -3:
         4 * (-3) = -12
         -2 * (-3) = 6
-        Because we multiplied by a negative number, the inequality symbol '>' must flip to '<'. 
+        Because we multiplied by a negative number, the inequality symbol '>'
+        must flip to '<'.
         Result: -12 < 6
     marks: 2
     rubric:
@@ -95,9 +96,9 @@ questions:
       - level: 1
         text: "Remember the 'Big Flip' rule! Whenever you multiply or divide an inequality by a negative number, you must reverse the inequality symbol."
 
-### ---------------------------------------------------------
-### SUBCHAPTER 7.2: Linear Inequalities in One Variable
-### ---------------------------------------------------------
+  # ---------------------------------------------------------
+  # SUBCHAPTER 7.2: Linear Inequalities in One Variable
+  # ---------------------------------------------------------
   - id: Q6
     text: "Form a linear inequality for the following situation: Maximum capacity of a lift is 15 people. Use $p$ to represent the number of people."
     difficulty: easy
@@ -172,11 +173,11 @@ questions:
         First inequality:
         x - 3 <= 5
         x <= 8
-        
+
         Second inequality:
         2x > 8
         x > 4
-        
+
         Combining both inequalities to find the common part (bahagian sepunya):
         The values of x must be greater than 4 and less than or equal to 8.
         Result: 4 < x <= 8
