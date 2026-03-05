@@ -1,0 +1,117 @@
+topic_id: F2-02
+provenance: ai-generated
+
+questions:
+  - id: Q1
+    text: "Expand: $3(x + 4)$."
+    difficulty: easy
+    learning_objective: LO2
+    answer:
+      type: exact
+      value: "3x + 12"
+      working: |
+        Distribute 3 to each term inside the bracket:
+        3(x + 4) = 3x + 12
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Applies distributive property correctly."
+      - marks: 1
+        criteria: "Final expanded expression is correct."
+    hints:
+      - level: 1
+        text: "Multiply 3 by both x and 4."
+
+  - id: Q2
+    text: "Factorize completely: $8y + 12$."
+    difficulty: easy
+    learning_objective: LO5
+    answer:
+      type: exact
+      value: "4(2y + 3)"
+      working: |
+        Greatest common factor of 8y and 12 is 4.
+        8y + 12 = 4(2y + 3)
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Identifies common factor 4."
+      - marks: 1
+        criteria: "Writes correct factorized form."
+    hints:
+      - level: 1
+        text: "Look for the largest number that divides both terms."
+
+  - id: Q3
+    text: "Simplify: $(2x + 5) + (x - 3)$."
+    difficulty: medium
+    learning_objective: LO3
+    answer:
+      type: exact
+      value: "3x + 2"
+      working: |
+        Remove brackets and combine like terms:
+        (2x + 5) + (x - 3) = 2x + 5 + x - 3 = 3x + 2
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Combines x-terms correctly."
+      - marks: 1
+        criteria: "Combines constants correctly."
+    hints:
+      - level: 1
+        text: "Group variable terms and constant terms separately."
+
+  - id: Q4
+    text: "Simplify: $(x + 2)(x + 5) - x(x + 1)$."
+    difficulty: medium
+    learning_objective: LO6
+    answer:
+      type: exact
+      value: "6x + 10"
+      working: |
+        Expand each product:
+        (x + 2)(x + 5) = x^2 + 7x + 10
+        x(x + 1) = x^2 + x
+        Subtract:
+        (x^2 + 7x + 10) - (x^2 + x) = 6x + 10
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Expands first product correctly."
+      - marks: 1
+        criteria: "Expands second product correctly."
+      - marks: 1
+        criteria: "Subtracts and simplifies accurately."
+    hints:
+      - level: 1
+        text: "Expand both brackets first before subtracting."
+
+  - id: Q5
+    text: "A rectangle has sides $(x + 3)$ cm and $(x - 1)$ cm. Its area is 48 cm^2. Form the equation and find $x$."
+    difficulty: hard
+    learning_objective: LO7
+    answer:
+      type: exact
+      value: "x = 5"
+      working: |
+        Area equation:
+        (x + 3)(x - 1) = 48
+        x^2 + 2x - 3 = 48
+        x^2 + 2x - 51 = 0
+        (x + 9)(x - 5) = 0
+        x = -9 or x = 5
+        Since side length must be positive and x - 1 > 0, x = 5.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Forms correct area equation."
+      - marks: 1
+        criteria: "Transforms equation to standard quadratic form."
+      - marks: 1
+        criteria: "Obtains algebraic roots correctly."
+      - marks: 1
+        criteria: "Selects valid contextual solution x = 5."
+    hints:
+      - level: 1
+        text: "Use area = length × width, then solve and keep only physically meaningful value."
