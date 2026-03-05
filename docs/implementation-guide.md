@@ -1344,12 +1344,12 @@ Follow the teaching notes template from Day 1, task 1.3.
 
 #### Day 4 Exit Criteria
 
-- [ ] Form 2 syllabus validates
-- [ ] Form 2 subject validates with 3 topic references
-- [ ] 3 topic YAMLs (F2-01 through F2-03) validate
-- [ ] Prerequisites correctly link to Form 1 topic IDs
-- [ ] F2-01 teaching notes written by Education Lead
-- [ ] F2-02, F2-03 teaching notes drafted and reviewed
+- [x] Form 2 syllabus validates
+- [x] Form 2 subject validates with 3 topic references
+- [x] 3 topic YAMLs (F2-01 through F2-03) validate
+- [x] Prerequisites correctly link to Form 1 topic IDs
+- [x] F2-01 teaching notes completed by Thoriq
+- [x] F2-02, F2-03 teaching notes drafted and reviewed by Thoriq
 
 **Progress:** 6 topics | 15 questions | 6 teaching notes | 3 assessments | 4 schemas | 2 syllabi | 2 subjects
 
