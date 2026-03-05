@@ -19,9 +19,9 @@ This topic introduces students to the transition from visual or numeric pattern 
 - **TP 6:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang pola dan jujukan dalam konteks penyelesaian masalah bukan rutin secara kreatif.
 
 ## Prerequisites Check
-- Students can confidently represent unknowns with variables (Form 1).
-- Comfort with basic integer operations, fractions, and identifying arithmetic intervals (Form 1).
-- The ability to substitute numbers into an algebraic expression and solve it (Form 1).
+- Students can confidently represent unknowns with variables (F1-05).
+- Comfort with basic integer operations and identifying simple arithmetic multiples and intervals (F1-01).
+- The ability to substitute numbers into an algebraic expression and solve it (F1-05).
 
 ## Teaching Sequence & Strategy
 
