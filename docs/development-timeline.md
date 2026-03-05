@@ -93,8 +93,8 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 |---------|------|-------|--------|
 | `O-W1D4-1` | Create `curricula/malaysia/kssm/matematik-tingkatan2/syllabus.yaml` + `subjects/algebra.yaml` | 🤖 | ✅ Done |
 | `O-W1D4-2` | Create topic YAML stubs for F2-01, F2-02, F2-03 with prerequisites linking to Form 1 | 🤖 | ✅ Done |
-| `O-W1D4-3` | 🧑 Write F2-02 teaching notes (Pemfaktoran dan Pecahan Algebra) — key topic, highest misconception rate | 🧑 Education Lead (2hr) | 🟡 Pending Education Lead sign-off |
-| `O-W1D4-4` | 🧑🤖 AI-draft teaching notes for F2-01 and F2-03 | Collaborative | ✅ Drafted (review pending) |
+| `O-W1D4-3` | 🧑 Write F2-02 teaching notes (Pemfaktoran dan Pecahan Algebra) — key topic, highest misconception rate | 🧑 Education Lead (2hr) | ✅ Done (completed by Thoriq) |
+| `O-W1D4-4` | 🧑🤖 AI-draft teaching notes for F2-01 and F2-03 | Collaborative | ✅ Done (reviewed by Thoriq) |
 
 ### Day 5 (Fri) — Quality Check
 
@@ -113,7 +113,7 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 
 | Task ID | Task | Owner | Status |
 |---------|------|-------|--------|
-| `O-W2D6-1` | 🧑 Write assessments for F2-01, F2-02, F2-03 (5 questions each, Algebra focus) | 🧑 Education Lead (3hr) | 🟡 Pending Education Lead sign-off |
+| `O-W2D6-1` | 🧑 Write assessments for F2-01, F2-02, F2-03 (5 questions each, Algebra focus) | 🧑 Education Lead (3hr) | ✅ Done (completed by Thoriq) |
 | `O-W2D6-2` | 🧑🤖 AI-draft additional assessment questions for all F2 topics | Collaborative | ✅ Done |
 
 **Implementation note (Mar 2026):** Form 2 learning objective IDs were aligned from `LOx` style to DSKP code format (for example `1.1.1`, `2.2.3`, `3.1.4`) to match PR #1 convention updates.
