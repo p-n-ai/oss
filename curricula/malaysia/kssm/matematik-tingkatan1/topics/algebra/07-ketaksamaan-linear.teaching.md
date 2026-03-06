@@ -1,20 +1,25 @@
-# Bab 7: Ketaksamaan Linear (Linear Inequalities) — Teaching Notes
+# Bab 7: Ketaksamaan Linear (Linear Inequalities) - Teaching Notes
 
 ## Overview
 Now that your students understand equations and the concept of balance, it's time to introduce scenarios where things are not equal! "Ketaksamaan" (Inequalities) explores the relationship between two quantities that do not have the same value. This chapter bridges their prior knowledge of the number line and linear equations to deal with ranges of possible values. It's a highly visual and logical topic that translates directly into everyday real-world limits like speeds, capacities, and ages.
 
 ## DSKP Anchors & Taxonomy
-**Standard Kandungan:**
-- **SK 7.1:** Ketaksamaan (Inequalities): Understanding basic inequalities using symbols (<, >, ≤, ≥), representing them on a number line, and generalizing the properties of inequalities (converse, transitive, and the effects of basic arithmetic operations).
-- **SK 7.2:** Ketaksamaan linear dalam satu pemboleh ubah: Forming inequalities from daily situations, solving single linear inequalities using algebraic operations, and solving simultaneous linear inequalities in one variable by finding their common overlapping region.
+**Standard Kandungan & Pembelajaran:**
+- **SK 7.1 Ketaksamaan (Inequalities)**
+    - **7.1.1:** Membandingkan nilai nombor dan seterusnya menerangkan ketaksamaan serta membentuk ungkapan ketaksamaan algebra. (Compare values of numbers and hence explain inequalities and form algebraic inequality expressions.)
+    - **7.1.2:** Membuat generalisasi tentang ketaksamaan berkaitan sifat akas, sifat transitif, songsangan terhadap penambahan dan pendaraban, serta operasi asas aritmetik. (Make generalisation about inequalities related to converse and transitive properties, additive and multiplicative inverse, and basic arithmetic operations.)
+- **SK 7.2 Ketaksamaan linear dalam satu pemboleh ubah (Linear inequalities in one variable)**
+    - **7.2.1:** Membentuk ketaksamaan linear berdasarkan situasi harian, dan sebaliknya. (Form linear inequalities based on daily life situations, and vice versa.)
+    - **7.2.2:** Menyelesaikan masalah yang melibatkan ketaksamaan linear dalam satu pemboleh ubah. (Solve problems involving linear inequalities in one variable.)
+    - **7.2.3:** Menyelesaikan ketaksamaan linear serentak dalam satu pemboleh ubah. (Solve simultaneous linear inequalities in one variable.)
 
-**Tahap Penguasaan:**
-- **TP 1:** Mempamerkan pengetahuan asas tentang ketaksamaan linear (Exhibit basic knowledge of linear inequalities, e.g., identifying the correct symbol to compare two integers).
-- **TP 2:** Mempamerkan kefahaman tentang ketaksamaan linear (Demonstrate understanding of linear inequalities, e.g., describing an inequality using a number line or stating properties).
-- **TP 3:** Mengaplikasikan kefahaman tentang ketaksamaan linear untuk melaksanakan tugasan mudah (Apply understanding to form a basic inequality from a daily situation or solve a 1-step linear inequality).
-- **TP 4:** Mengaplikasikan pengetahuan dan kemahiran... dalam konteks penyelesaian masalah rutin yang mudah (Apply knowledge to solve multi-step or basic simultaneous inequalities).
-- **TP 5:** Mengaplikasikan pengetahuan dan kemahiran... dalam konteks penyelesaian masalah rutin yang kompleks (Apply knowledge to extract multiple conditions from word problems and find the final range of values).
-- **TP 6:** Mengaplikasikan pengetahuan dan kemahiran... dalam konteks penyelesaian masalah bukan rutin secara kreatif (Apply knowledge creatively to solve open-ended optimization problems like profit modeling tasks).
+**Tahap Penguasaan (Performance Standards):**
+- **TP 1:** Mempamerkan pengetahuan asas tentang ketaksamaan linear. (Demonstrate the basic knowledge of linear inequalities.)
+- **TP 2:** Mempamerkan kefahaman tentang ketaksamaan linear. (Demonstrate the understanding of linear inequalities.)
+- **TP 3:** Mengaplikasikan kefahaman tentang ketaksamaan linear untuk melaksanakan tugasan mudah. (Apply the understanding of linear inequalities to perform simple tasks.)
+- **TP 4:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang ketaksamaan linear dalam konteks penyelesaian masalah rutin yang mudah. (Apply appropriate knowledge and skills of linear inequalities in the context of simple routine problem solving.)
+- **TP 5:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang ketaksamaan linear dalam konteks penyelesaian masalah rutin yang kompleks. (Apply appropriate knowledge and skills of linear inequalities in the context of complex routine problem solving.)
+- **TP 6:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang ketaksamaan linear dalam konteks penyelesaian masalah bukan rutin secara kreatif. (Apply appropriate knowledge and skills of linear inequalities in the context of non-routine problem solving in a creative manner.)
 
 ## Prerequisites Check
 - A solid grasp of the number line, specifically understanding that values increase as you move to the right and decrease to the left (F1-01 Nombor Nisbah).
@@ -25,7 +30,7 @@ Now that your students understand equations and the concept of balance, it's tim
 
 ### 1. Recognising and Forming Inequalities (15 min)
 *Start your lesson by putting a physical balancing scale on the board that is visibly imbalanced (one side heavier). Explain that a Ketaksamaan is exactly this relationship!*
-- **Strategies:** Expand directly to situations involving limits to introduce "≤" (less than or equal to) and "≥" (greater than or equal to). Show them a real speed limit sign (110 km/j) and guide them to $v \leq 110$. Use voting age (21) for $t \geq 21$.
+- **Strategies:** Expand directly to situations involving limits to introduce "<=" (less than or equal to) and ">=" (greater than or equal to). Show them a real speed limit sign (110 km/j) and guide them to $v \leq 110$. Use voting age (21) for $t \geq 21$.
 - **The Trap:** Confusing the symbols $<$ and $>$. Remind them the "alligator mouth" always eats the bigger number, or use the number line where the arrow specifically points to the smaller values for $<$.
 
 ### 2. Properties of Inequalities (25 min)
@@ -35,7 +40,7 @@ Now that your students understand equations and the concept of balance, it's tim
 
 ### 3. Forming and Solving Single Inequalities (20 min)
 *A linear inequality has a variable with a highest power of 1, and unlike equations, it represents an entire shaded range of possible solutions.*
-- **Strategies:** Give them English/BM keywords to translate into math: "At least/Minimum" = $\geq$, and "At most/Maximum" = $\leq$. Tell them solving inequalities is just like solving equations—move terms to isolate $x$.
+- **Strategies:** Give them English/BM keywords to translate into math: "At least/Minimum" = $\geq$, and "At most/Maximum" = $\leq$. Tell them solving inequalities is just like solving equations - move terms to isolate $x$.
 - **The Trap:** Whenever they multiply or divide by a negative number to isolate $x$ at the very last step, they MUST flip the sign (e.g., $-4x > 8$ becomes $x < -2$). Remind them constantly!
 
 ### 4. Solving Simultaneous Linear Inequalities (20 min)

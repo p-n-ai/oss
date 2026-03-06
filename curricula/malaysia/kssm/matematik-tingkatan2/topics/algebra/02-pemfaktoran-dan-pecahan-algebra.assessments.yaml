@@ -1,5 +1,5 @@
 topic_id: F2-02
-provenance: ai-generated
+provenance: ai-assisted
 
 questions:
   - id: Q1
@@ -114,4 +114,4 @@ questions:
         criteria: "Selects valid contextual solution x = 5."
     hints:
       - level: 1
-        text: "Use area = length Ãƒâ€” width, then solve and keep only physically meaningful value."
+        text: "Use area = length ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â width, then solve and keep only physically meaningful value."

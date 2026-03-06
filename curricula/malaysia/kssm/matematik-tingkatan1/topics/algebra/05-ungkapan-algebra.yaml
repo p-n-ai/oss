@@ -16,7 +16,10 @@ learning_objectives:
     text: "Determine values of algebraic expressions by substitution and relate the result to context."
     bloom: apply
   - id: 5.1.4
-    text: "Identify terms, coefficients, and constants, and classify like and unlike terms."
+    text: "Identify terms in an algebraic expression and state possible coefficients for algebraic terms."
+    bloom: understand
+  - id: 5.1.5
+    text: "Identify like and unlike terms."
     bloom: understand
   - id: 5.2.1
     text: "Add and subtract two or more algebraic expressions correctly."
@@ -45,4 +48,4 @@ mastery:
 
 ai_teaching_notes: "05-ungkapan-algebra.teaching.md"
 quality_level: 1
-provenance: ai-generated
+provenance: ai-assisted
