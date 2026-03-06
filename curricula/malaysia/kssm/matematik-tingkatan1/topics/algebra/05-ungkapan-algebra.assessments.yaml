@@ -197,7 +197,7 @@ questions:
       - marks: 1
         criteria: "Writing the division as a fraction: (36pq) / (4q^2)."
       - marks: 1
-        criteria: "Expanding the terms to find common factors: (36 × p × q) / (4 × q × q)."
+        criteria: "Expanding the terms to find common factors: (36 Ãƒâ€” p Ãƒâ€” q) / (4 Ãƒâ€” q Ãƒâ€” q)."
       - marks: 1
         criteria: "Final correct quotient after eliminating common factors: 9p / q."
     hints:

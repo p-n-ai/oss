@@ -33,7 +33,7 @@ questions:
       value: "C = mn"
       working: |
         Total cost equals unit price multiplied by quantity.
-        Therefore C = m × n = mn.
+        Therefore C = m Ãƒâ€” n = mn.
     marks: 1
     rubric:
       - marks: 1

@@ -114,4 +114,4 @@ questions:
         criteria: "Selects valid contextual solution x = 5."
     hints:
       - level: 1
-        text: "Use area = length × width, then solve and keep only physically meaningful value."
+        text: "Use area = length Ãƒâ€” width, then solve and keep only physically meaningful value."
