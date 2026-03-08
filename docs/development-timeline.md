@@ -101,7 +101,7 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 | Task ID | Task | Owner | Status |
 |---------|------|-------|--------|
 | `O-W1D5-1` | 🧑 Review all Week 1 content for KSSM accuracy: correct terminology (BM & English), correct scope per form | 🧑 Education Lead (2hr) | ✅ Done (QA report completed; issues #1-#4 resolved) |
-| `O-W1D5-2` | Fix any schema validation failures | 🤖 | ⏳ In progress |
+| `O-W1D5-2` | Fix any schema validation failures | 🤖 | ✅ Done (fixed encoding corruption in F2-02 assessments; all validations pass) |
 
 **Week 1 Output:** 6 topic YAMLs (F1: 3, F2: 3), 6 teaching notes, 15+ assessment questions. All pass CI.
 
