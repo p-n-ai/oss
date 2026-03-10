@@ -6,20 +6,20 @@ Now that your students understand equations and the concept of balance, it's tim
 ## DSKP Anchors & Taxonomy
 **Standard Kandungan & Pembelajaran:**
 - **SK 7.1 Ketaksamaan (Inequalities)**
-    - **7.1.1:** Membandingkan nilai nombor dan seterusnya menerangkan ketaksamaan serta membentuk ungkapan ketaksamaan algebra. (Compare values of numbers and hence explain inequalities and form algebraic inequality expressions.)
-    - **7.1.2:** Membuat generalisasi tentang ketaksamaan berkaitan sifat akas, sifat transitif, songsangan terhadap penambahan dan pendaraban, serta operasi asas aritmetik. (Make generalisation about inequalities related to converse and transitive properties, additive and multiplicative inverse, and basic arithmetic operations.)
+    - **7.1.1:** Membanding nilai nombor, memerihal ketaksamaan dan seterusnya menerbitkan ketaksamaan algebra. (Compare the values of numbers, describe inequality and hence, form algebraic inequality.)
+    - **7.1.2:** Membuat generalisasi tentang ketaksamaan yang berkaitan dengan (i) sifat akas dan transitif, songsangan terhadap penambahan dan pendaraban, (ii) operasi asas aritmetik. (Make generalisation about inequality related to (i) the converse and transitive properties, additive and multiplicative inverse, (ii) basic arithmetic operations.)
 - **SK 7.2 Ketaksamaan linear dalam satu pemboleh ubah (Linear inequalities in one variable)**
-    - **7.2.1:** Membentuk ketaksamaan linear berdasarkan situasi harian, dan sebaliknya. (Form linear inequalities based on daily life situations, and vice versa.)
+    - **7.2.1:** Membentuk ketaksamaan linear berdasarkan suatu situasi kehidupan harian, dan sebaliknya. (Form linear inequalities based on daily life situations, and vice-versa.)
     - **7.2.2:** Menyelesaikan masalah yang melibatkan ketaksamaan linear dalam satu pemboleh ubah. (Solve problems involving linear inequalities in one variable.)
     - **7.2.3:** Menyelesaikan ketaksamaan linear serentak dalam satu pemboleh ubah. (Solve simultaneous linear inequalities in one variable.)
 
 **Tahap Penguasaan (Performance Standards):**
-- **TP 1:** Mempamerkan pengetahuan asas tentang ketaksamaan linear. (Demonstrate the basic knowledge of linear inequalities.)
-- **TP 2:** Mempamerkan kefahaman tentang ketaksamaan linear. (Demonstrate the understanding of linear inequalities.)
-- **TP 3:** Mengaplikasikan kefahaman tentang ketaksamaan linear untuk melaksanakan tugasan mudah. (Apply the understanding of linear inequalities to perform simple tasks.)
-- **TP 4:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang ketaksamaan linear dalam konteks penyelesaian masalah rutin yang mudah. (Apply appropriate knowledge and skills of linear inequalities in the context of simple routine problem solving.)
-- **TP 5:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang ketaksamaan linear dalam konteks penyelesaian masalah rutin yang kompleks. (Apply appropriate knowledge and skills of linear inequalities in the context of complex routine problem solving.)
-- **TP 6:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang ketaksamaan linear dalam konteks penyelesaian masalah bukan rutin secara kreatif. (Apply appropriate knowledge and skills of linear inequalities in the context of non-routine problem solving in a creative manner.)
+- **TP 1:** Mempamerkan pengetahuan asas tentang ketaksamaan linear dalam satu pemboleh ubah. (Demonstrate the basic knowledge of linear inequalities in one variable.)
+- **TP 2:** Mempamerkan kefahaman tentang ketaksamaan linear dalam satu pemboleh ubah. (Demonstrate the understanding of linear inequalities in one variable.)
+- **TP 3:** Mengaplikasikan kefahaman tentang ketaksamaan linear dalam satu pemboleh ubah untuk melaksanakan tugasan mudah. (Apply the understanding of linear inequalities in one variable to perform simple tasks.)
+- **TP 4:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang ketaksamaan linear dalam satu pemboleh ubah dalam konteks penyelesaian masalah rutin yang mudah. (Apply appropriate knowledge and skills of linear inequalities in one variable in the context of simple routine problem solving.)
+- **TP 5:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang ketaksamaan linear dalam satu pemboleh ubah dalam konteks penyelesaian masalah rutin yang kompleks. (Apply appropriate knowledge and skills of linear inequalities in one variable in the context of complex routine problem solving.)
+- **TP 6:** Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang ketaksamaan linear dalam satu pemboleh ubah dalam konteks penyelesaian masalah bukan rutin. (Apply appropriate knowledge and skills of linear inequalities in one variable in the context of non-routine problem solving.)
 
 ## Prerequisites Check
 - A solid grasp of the number line, specifically understanding that values increase as you move to the right and decrease to the left (F1-01 Nombor Nisbah).

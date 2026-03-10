@@ -1,116 +1,347 @@
-topic_id: F2-01
+﻿topic_id: F2-01
 provenance: ai-assisted
-
 questions:
+  ### ---------------------------------------------------------
+  ### SUBCHAPTER 1.1: Pola (Patterns)
+  ### ---------------------------------------------------------
   - id: Q1
-    text: "Given the pattern 3, 7, 11, 15, ..., state the next two terms and the common difference."
+    text: "Identify the even numbers (nombor genap) from the following list: 7, 12, 17, 22, 27, 32."
     difficulty: easy
-    learning_objective: 1.2.2
+    learning_objective: 1.1.1
     answer:
       type: exact
-      value: "19, 23; common difference = 4"
+      value: "12, 22, 32"
       working: |
-        Each term increases by 4.
-        15 + 4 = 19
-        19 + 4 = 23
+        Even numbers are numbers that are perfectly divisible by 2.
+        12 / 2 = 6
+        22 / 2 = 11
+        32 / 2 = 16
+        The odd numbers (7, 17, 27) leave a remainder.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifies all three even numbers without including odd numbers."
+    hints:
+      - level: 1
+        text: "Even numbers can be divided exactly by 2. Check the last digit of each number."
+
+  - id: Q2
+    text: "What is the missing number in the following Fibonacci sequence: 0, 1, 1, 2, 3, ___, 8, 13?"
+    difficulty: easy
+    learning_objective: 1.1.1
+    answer:
+      type: exact
+      value: "5"
+      working: |
+        A Fibonacci sequence is obtained by adding the two previous terms.
+        2 + 3 = 5.
+        Check: 3 + 5 = 8.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly states the missing Fibonacci number as 5."
+    hints:
+      - level: 1
+        text: "In a Fibonacci sequence, add the two numbers immediately before the blank to find the answer."
+
+  - id: Q3
+    text: "To build Pascal's Triangle (Segi Tiga Pascal), what number must all rows start and end with?"
+    difficulty: easy
+    learning_objective: 1.1.1
+    answer:
+      type: exact
+      value: "1"
+      working: |
+        By the definition of Pascal's Triangle, it begins with 1 at the top, and all subsequent rows start and end with the number 1.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifies the number 1."
+    hints:
+      - level: 1
+        text: "Look at the outer edges of Pascal's Triangle. They never change."
+
+  - id: Q4
+    text: "Identify the pattern for the following sequence of numbers: 17, 7, -3, -13, ..."
+    difficulty: medium
+    learning_objective: 1.1.1
+    answer:
+      type: free_text
+      value: "Subtract 10 from the previous number."
+      working: |
+        Check the difference between consecutive terms:
+        7 - 17 = -10
+        -3 - 7 = -10
+        -13 - (-3) = -10
+        Pattern: Subtract 10.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "States both next terms correctly."
+        criteria: "Identifies the correct operation (subtract/tolak)."
       - marks: 1
-        criteria: "Identifies common difference as 4."
+        criteria: "Identifies the correct value (10)."
     hints:
       - level: 1
-        text: "Compare consecutive terms to find how much is added each time."
+        text: "Are the numbers increasing or decreasing? By how much?"
 
-  - id: Q2
-    text: "Write a rule in words for the sequence 5, 8, 11, 14, ..."
+  - id: Q5
+    text: "State the pattern for the set of numbers: 81, 27, 9, 3, ..."
+    difficulty: medium
+    learning_objective: 1.1.1
+    answer:
+      type: free_text
+      value: "Divide the previous number by 3."
+      working: |
+        Check the ratio between consecutive terms:
+        27 / 81 = 1/3
+        9 / 27 = 1/3
+        3 / 9 = 1/3
+        Pattern: Divide by 3.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Identifies the correct operation (divide/bahagi)."
+      - marks: 1
+        criteria: "Identifies the correct value (3)."
+    hints:
+      - level: 1
+        text: "Since the numbers shrink drastically, check if it's division rather than subtraction."
+
+  ### ---------------------------------------------------------
+  ### SUBCHAPTER 1.2: Jujukan (Sequences)
+  ### ---------------------------------------------------------
+  - id: Q6
+    text: "Determine whether the set of numbers 4, 5, -7, 10, -14 is a sequence. Give your reason."
     difficulty: easy
     learning_objective: 1.2.1
     answer:
       type: free_text
-      value: "Start at 5 and add 3 each time."
+      value: "No, because it does not follow a specific or consistent pattern."
       working: |
-        The change between terms is constant:
-        8 - 5 = 3, 11 - 8 = 3, 14 - 11 = 3.
-        So the sequence rule is add 3 repeatedly from 5.
+        Difference between terms:
+        5 - 4 = +1
+        -7 - 5 = -12
+        10 - (-7) = +17
+        Since the pattern (+1, -12, +17) is not constant, it is not a sequence.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Identifies starting term 5."
+        criteria: "States 'No' or 'Bukan'."
       - marks: 1
-        criteria: "States repeated increment +3."
+        criteria: "Provides the reason that there is no consistent pattern."
     hints:
       - level: 1
-        text: "Check the difference between each adjacent pair of terms."
+        text: "A sequence must follow the exact same rule for every single step. Does this one?"
 
-  - id: Q3
-    text: "For the sequence 2, 5, 8, 11, ... determine the 12th term."
+  - id: Q7
+    text: "Complete the sequence: 7, 13, ___, 25, ___"
+    difficulty: easy
+    learning_objective: 1.2.2
+    answer:
+      type: exact
+      value: "19, 31"
+      working: |
+        Find the difference between known consecutive terms: 13 - 7 = 6. 
+        Pattern is add 6.
+        13 + 6 = 19
+        25 + 6 = 31
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifies the first missing term as 19."
+      - marks: 1
+        criteria: "Correctly identifies the second missing term as 31."
+    hints:
+      - level: 1
+        text: "Find the difference between 13 and 7, then apply that to find the missing numbers."
+
+  - id: Q8
+    text: "Determine the next term for the sequence: 1, 0.3, 0.09, 0.027, ___"
+    difficulty: medium
+    learning_objective: 1.2.2
+    answer:
+      type: exact
+      value: "0.0081"
+      working: |
+        Find the common ratio:
+        0.3 / 1 = 0.3
+        0.09 / 0.3 = 0.3
+        Pattern is multiply by 0.3.
+        0.027 * 0.3 = 0.0081.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Identifies the pattern as multiplying by 0.3."
+      - marks: 1
+        criteria: "Calculates the correct next term: 0.0081."
+    hints:
+      - level: 1
+        text: "How do you go from 1 to 0.3, and from 0.3 to 0.09? Try multiplying."
+
+  - id: Q9
+    text: "State the pattern of the following sequence: 1/2, 1/4, 0, -1/4, ..."
+    difficulty: medium
+    learning_objective: 1.2.2
+    answer:
+      type: free_text
+      value: "Subtract 1/4 from the previous number."
+      working: |
+        Find the common difference:
+        1/4 - 1/2 = -1/4
+        0 - 1/4 = -1/4
+        Pattern is subtract 1/4.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Identifies the operation as subtraction."
+      - marks: 1
+        criteria: "Identifies the value as 1/4."
+    hints:
+      - level: 1
+        text: "Find the difference between 1/2 and 1/4."
+
+  - id: Q10
+    text: "Fill in the missing terms: 88, ___, 64, 52, ___"
+    difficulty: hard
+    learning_objective: 1.2.2
+    answer:
+      type: exact
+      value: "76, 40"
+      working: |
+        Find the difference between consecutive known terms: 52 - 64 = -12.
+        Pattern is subtract 12.
+        88 - 12 = 76.
+        52 - 12 = 40.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly fills in 76."
+      - marks: 1
+        criteria: "Correctly fills in 40."
+    hints:
+      - level: 1
+        text: "Use the two numbers that are next to each other (64 and 52) to find the hidden rule first."
+
+  ### ---------------------------------------------------------
+  ### SUBCHAPTER 1.3: Pola dan Jujukan (Patterns and Sequences)
+  ### ---------------------------------------------------------
+  - id: Q11
+    text: "Write a rule in words for the sequence 1, 9, 17, 25, 33, ..."
+    difficulty: medium
+    learning_objective: 1.3.1
+    answer:
+      type: free_text
+      value: "Add 8 to the previous number."
+      working: |
+        The change between terms is constant: 
+        9 - 1 = 8
+        17 - 9 = 8
+        So the rule is add 8 repeatedly.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Identifies the operation as addition."
+      - marks: 1
+        criteria: "States repeated increment of 8."
+    hints:
+      - level: 1
+        text: "Check the difference between each adjacent pair of terms and write it as a sentence."
+
+  - id: Q12
+    text: "Write an algebraic expression for the sequence 3, 6, 9, 12, 15, ... and define the values of n."
+    difficulty: hard
+    learning_objective: 1.3.1
+    answer:
+      type: exact
+      value: "3n, where n = 1, 2, 3, ..."
+      working: |
+        Pattern is adding 3.
+        1st term: 3 = 3(1)
+        2nd term: 6 = 3(2)
+        3rd term: 9 = 3(3)
+        Therefore, the expression is 3n, where n = 1, 2, 3...
+    marks: 3
+    rubric:
+      - marks: 2
+        criteria: "Forms the correct algebraic expression (3n)."
+      - marks: 1
+        criteria: "Correctly defines the starting values of n (n = 1, 2, 3...)."
+    hints:
+      - level: 1
+        text: "Link the term's position (1st, 2nd, 3rd) to the value. 1 x 3 = 3. 2 x 3 = 6."
+
+  - id: Q13
+    text: "For the sequence 2, 10, 18, 26, ... determine the 5th term (T5)."
     difficulty: medium
     learning_objective: 1.3.2
     answer:
       type: exact
-      value: "35"
+      value: "34"
       working: |
-        Arithmetic sequence with first term a = 2 and common difference d = 3.
-        nth term: a_n = a + (n - 1)d
-        a_12 = 2 + (12 - 1)(3) = 2 + 33 = 35
-    marks: 3
+        Determine the pattern: 10 - 2 = +8. Add 8 to the previous number.
+        T1 = 2
+        T2 = 10
+        T3 = 18
+        T4 = 26
+        T5 = 26 + 8 = 34
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Uses correct arithmetic sequence structure."
+        criteria: "Identifies the pattern as +8."
       - marks: 1
-        criteria: "Substitutes n = 12 correctly."
-      - marks: 1
-        criteria: "Obtains final answer 35."
+        criteria: "Calculates T5 correctly as 34."
     hints:
       - level: 1
-        text: "Use first term plus (n-1) times the common difference."
+        text: "Find the common difference first, then add it to the 4th term."
 
-  - id: Q4
-    text: "A pattern has term values 4, 9, 14, 19, ... Write an algebraic expression for the nth term."
+  - id: Q14
+    text: "Given the sequence 65, 60, 55, 50, ..., which term (T_n) is the number 40?"
     difficulty: medium
-    learning_objective: 1.3.1
+    learning_objective: 1.3.2
     answer:
       type: exact
-      value: "5n - 1"
+      value: "6th term (T6)"
       working: |
-        First term is 4 and common difference is 5.
-        nth term = 4 + (n - 1)5 = 4 + 5n - 5 = 5n - 1
-    marks: 3
+        Pattern: Subtract 5.
+        T1 = 65
+        T2 = 60
+        T3 = 55
+        T4 = 50
+        T5 = 45
+        T6 = 40
+        Therefore, 40 is the 6th term.
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Identifies first term and common difference correctly."
+        criteria: "Continues the sequence accurately down to 40."
       - marks: 1
-        criteria: "Forms nth-term expression correctly."
-      - marks: 1
-        criteria: "Simplifies to 5n - 1."
+        criteria: "Correctly identifies its position as the 6th term."
     hints:
       - level: 1
-        text: "Use a_n = a + (n-1)d and simplify."
+        text: "Keep subtracting 5 and counting your steps until you reach 40."
 
-  - id: Q5
-    text: "In a hall, Row 1 has 6 seats, Row 2 has 10 seats, Row 3 has 14 seats, and so on. Find the number of seats in Row 20 and explain your method."
+  - id: Q15
+    text: "An automatic fish feeder is set to feed fish 4 times a day. If the first feeding is at 7:35 a.m., at what time is the third feeding?"
     difficulty: hard
     learning_objective: 1.3.3
     answer:
       type: exact
-      value: "82"
+      value: "7:35 p.m."
       working: |
-        The sequence is arithmetic with first term a = 6 and common difference d = 4.
-        a_20 = 6 + (20 - 1)(4)
-        = 6 + 76
-        = 82
-    marks: 4
+        1 day = 24 hours.
+        Interval for 4 feedings: 24 / 4 = 6 hours.
+        Pattern = Add 6 hours.
+        T1 = 7:35 a.m.
+        T2 = 7:35 a.m. + 6 hours = 1:35 p.m.
+        T3 = 1:35 p.m. + 6 hours = 7:35 p.m.
+    marks: 3
     rubric:
       - marks: 1
-        criteria: "Identifies arithmetic pattern with difference 4."
+        criteria: "Calculates the correct interval pattern (6 hours)."
       - marks: 1
-        criteria: "Sets up nth-term method for n = 20."
+        criteria: "Calculates the second feeding time (T2) accurately."
       - marks: 1
-        criteria: "Performs calculation accurately."
-      - marks: 1
-        criteria: "States final answer with clear explanation."
+        criteria: "Determines the final third feeding time correctly with correct AM/PM notation."
     hints:
       - level: 1
-        text: "Find the fixed increase between rows, then use nth-term formula."
+        text: "First, find out how many hours pass between each of the 4 feedings in a 24-hour day."

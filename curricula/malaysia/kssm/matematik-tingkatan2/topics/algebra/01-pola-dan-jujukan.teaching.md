@@ -1,4 +1,4 @@
-# Bab 1: Pola dan Jujukan (Patterns and Sequences) — Teaching Notes
+﻿# Bab 1: Pola dan Jujukan (Patterns and Sequences) â€” Teaching Notes
 
 ## Overview
 This topic introduces students to the transition from visual or numeric pattern spotting into formal algebraic generalization. In KSSM Form 2, this chapter sets up later work on formulae and functions by helping students move from recursive thinking to building explicit mathematical rules. It is a highly interactive, logic-based chapter that acts as a bridge between pure arithmetic observation and algebraic formulation, highlighting how patterns exist both in abstract mathematics and in real-world contexts like nature and architecture.
@@ -59,7 +59,7 @@ This topic introduces students to the transition from visual or numeric pattern 
 
 ### 5. Penyelesaian Masalah (Application Problems) (20 min)
 *Mix things up. Throw them tables, diagrams, and real-world word problems, forcing them to apply their generalizations.*
-- **Strategies:** Use the textbook's real-world scenarios—such as the automatic fish feeder intervals (finding the time for the 3rd feed) or calculating the seating/planting arrangements in a grid. Have them extract the sequence, identify the rule, and find the answer.
+- **Strategies:** Use the textbook's real-world scenariosâ€”such as the automatic fish feeder intervals (finding the time for the 3rd feed) or calculating the seating/planting arrangements in a grid. Have them extract the sequence, identify the rule, and find the answer.
 - **The Trap:** Failing to establish a uniform unit or starting point before applying a pattern (e.g., mixing up AM/PM or time intervals when doing sequence additions).
 
 ## High Alert Misconceptions
@@ -91,3 +91,4 @@ This topic introduces students to the transition from visual or numeric pattern 
 | Pascal's Triangle | Segi Tiga Pascal |
 | Fibonacci Number | Nombor Fibonacci |
 | Algebraic expression | Ungkapan algebra |
+

@@ -1,4 +1,4 @@
-# Bab 2: Pemfaktoran dan Pecahan Algebra (Factorisation and Algebraic Fractions) — Teaching Notes
+# Bab 2: Pemfaktoran dan Pecahan Algebra (Factorisation and Algebraic Fractions) â€” Teaching Notes
 
 ## Overview
 "Pemfaktoran dan Pecahan Algebra" is arguably the most critical and challenging algebra chapter in the lower secondary syllabus. It introduces students to expanding expressions, reversing that process through factorisation, and manipulating algebraic fractions using the four fundamental operations. Mastery of this chapter is the ultimate gateway to advanced mathematics; conversely, it is also the danger zone where the highest rate of student misconceptions occurs, specifically regarding sign errors and "illegal" fraction cancellations.
@@ -48,12 +48,12 @@ Factorisation is simply expansion run in reverse. Start by explicitly telling th
 - **Grouping:** Only for 4 algebraic terms. e.g., $jm - jn + ym - yn = j(m-n) + y(m-n) = (j+y)(m-n)$.
 
 ### 3. Combined Operations (Adding and Subtracting Fractions) (25 min)
-This is the highest danger zone for misconceptions. Ground fraction addition heavily in primary school fraction logic. Ask them: "Can you add $\frac{1}{2}$ and $\frac{1}{3}$ directly? No! You need a common denominator." The exact same rule applies to algebraic denominators like $\frac{3}{2x} + \frac{5}{3x}$.
+This is the highest danger zone for misconceptions. Ground fraction addition heavily in primary school fraction logic. Ask them: "Can you add $\displaystyle\frac{1}{2}$ and $\displaystyle\frac{1}{3}$ directly? No! You need a common denominator." The exact same rule applies to algebraic denominators like $\displaystyle\frac{3}{2x} + \displaystyle\frac{5}{3x}$.
 - **Different Denominators:** Walk them through finding the Gandaan Sepunya Terkecil (GSTK) / LCM for algebraic denominators carefully.
-- **Numerator Danger:** Emphasize that adding/subtracting expressions in the numerator requires careful grouping. Always bracket the numerators when combining them over a single denominator so the negative sign is properly distributed, e.g., $\frac{(2x - 3) - (x + 4)}{5x}$.
+- **Numerator Danger:** Emphasize that adding/subtracting expressions in the numerator requires careful grouping. Always bracket the numerators when combining them over a single denominator so the negative sign is properly distributed, e.g., $\displaystyle\frac{(2x - 3) - (x + 4)}{5x}$.
 
 ### 4. Method Selection (Multiplying and Dividing Fractions) (20 min)
-Here, students need to learn exactly when it is legal to cancel things out. Draw a huge skull on the whiteboard when showing the classic error: cancelling the $x$'s in $\frac{x+2}{x}$.
+Here, students need to learn exactly when it is legal to cancel things out. Draw a huge skull on the whiteboard when showing the classic error: cancelling the $x$'s in $\displaystyle\frac{x+2}{x}$.
 - **The Golden Rule of Cancellation:** You can only cancel FACTORS (things being multiplied), never TERMS (things being added or subtracted).
 - **Factorise First:** Force students to fully factorise all expressions before any division or multiplication happens. 
 - **Division:** Immediately link it back to the "Keep, Change, Flip" (Salingan) rule. Flip the second fraction to turn it into multiplication, factorise everything, and only then start cancelling top-to-bottom.
@@ -65,7 +65,7 @@ Finish by using contextual or non-routine items where students must both simplif
 ## High Alert Misconceptions
 | Misconception | Why Students Think This | How to Fix |
 |---------------|------------------------|------------|
-| **Illegal Cancellation:** $\frac{x+4}{x} = 4$ | Overgeneralizing fraction simplification rules to terms instead of factors. | Prove with numbers: Let $x=2$. Is $\frac{2+4}{2}$ equal to 4? No, it's 3! Establish the 'Cancel Factors Only' rule and use numerical counterexamples. |
+| **Illegal Cancellation:** $\displaystyle\frac{x+4}{x} = 4$ | Overgeneralizing fraction simplification rules to terms instead of factors. | Prove with numbers: Let $x=2$. Is $\displaystyle\frac{2+4}{2}$ equal to 4? No, it's 3! Establish the 'Cancel Factors Only' rule and use numerical counterexamples. |
 | **Losing the Negative Sign:** $-(x - 5) = -x - 5$ | Forgetting to distribute the negative sign to the second term due to weak sign-discipline in multi-step algebra. | Visual Cues: Require sign-highlighting before each transformation. Force them to write a visible $-1(x - 5)$ and draw two physical distributive arrows. |
 | **Fake Perfect Squares:** $(x+3)^2 = x^2 + 9$ | Applying the exponent directly to terms inside a sum. | Physical Proof: Make them physically write out $(x+3)(x+3)$ side-by-side before expanding via cross-multiplication. |
 | **Separating the Topics** | Topics are viewed as unrelated, separate procedures. | Mirror Match: Pair every expansion example directly with its reverse factorised form on the board so they see the exact loop. |
@@ -96,3 +96,5 @@ Finish by using contextual or non-routine items where students must both simplif
 | Denominator | Penyebut |
 | Simplify | Mempermudah |
 | Distributive law | Hukum taburan |
+
+

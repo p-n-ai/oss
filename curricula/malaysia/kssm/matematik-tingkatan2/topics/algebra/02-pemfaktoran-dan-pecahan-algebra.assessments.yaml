@@ -1,6 +1,5 @@
-topic_id: F2-02
+﻿topic_id: F2-02
 provenance: ai-assisted
-
 questions:
   - id: Q1
     text: "Expand: $3(x + 4)$."
@@ -9,9 +8,10 @@ questions:
     answer:
       type: exact
       value: "3x + 12"
-      working: |
-        Distribute 3 to each term inside the bracket:
-        3(x + 4) = 3x + 12
+    working: |
+      Distribute 3 to each term inside the bracket:
+      3(x) + 3(4)
+      = 3x + 12
     marks: 2
     rubric:
       - marks: 1
@@ -20,98 +20,375 @@ questions:
         criteria: "Final expanded expression is correct."
     hints:
       - level: 1
-        text: "Multiply 3 by both x and 4."
+        text: "Multiply the number outside the bracket by both terms inside the bracket."
 
   - id: Q2
-    text: "Factorize completely: $8y + 12$."
+    text: "Expand the following algebraic expressions: $(x + 2)(x - 5)$."
     difficulty: easy
-    learning_objective: 2.2.2
+    learning_objective: 2.1.2
     answer:
       type: exact
-      value: "4(2y + 3)"
-      working: |
-        Greatest common factor of 8y and 12 is 4.
-        8y + 12 = 4(2y + 3)
+      value: "x^2 - 3x - 10"
+    working: |
+      Multiply each term in the first bracket by each term in the second bracket:
+      x(x) + x(-5) + 2(x) + 2(-5)
+      = x^2 - 5x + 2x - 10
+      = x^2 - 3x - 10
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Identifies common factor 4."
+        criteria: "Expands all four terms correctly."
       - marks: 1
-        criteria: "Writes correct factorized form."
+        criteria: "Simplifies by combining the like terms (-5x + 2x) accurately."
     hints:
       - level: 1
-        text: "Look for the largest number that divides both terms."
+        text: "Multiply the first terms, then outer, inner, and finally the last terms."
 
   - id: Q3
-    text: "Simplify: $(2x + 5) + (x - 3)$."
+    text: "Simplify the combined operation: $(x + y)(x - y) + x(x - 2y)$."
     difficulty: medium
     learning_objective: 2.1.3
     answer:
       type: exact
-      value: "3x + 2"
-      working: |
-        Remove brackets and combine like terms:
-        (2x + 5) + (x - 3) = 2x + 5 + x - 3 = 3x + 2
-    marks: 2
+      value: "2x^2 - y^2 - 2xy"
+    working: |
+      Expand the first part (difference of squares):
+      (x + y)(x - y) = x^2 - y^2
+      Expand the second part:
+      x(x - 2y) = x^2 - 2xy
+      Combine both parts:
+      x^2 - y^2 + x^2 - 2xy
+      = 2x^2 - y^2 - 2xy
+    marks: 3
     rubric:
       - marks: 1
-        criteria: "Combines x-terms correctly."
+        criteria: "Expands the first two brackets correctly into x^2 - y^2."
       - marks: 1
-        criteria: "Combines constants correctly."
+        criteria: "Expands the second part correctly into x^2 - 2xy."
+      - marks: 1
+        criteria: "Combines like terms accurately for the final expression."
     hints:
       - level: 1
-        text: "Group variable terms and constant terms separately."
+        text: "Follow BODMAS: do the multiplications (expansions) first before adding them together."
 
   - id: Q4
     text: "Simplify: $(x + 2)(x + 5) - x(x + 1)$."
     difficulty: medium
-    learning_objective: 2.3.1
+    learning_objective: 2.1.3
     answer:
       type: exact
       value: "6x + 10"
-      working: |
-        Expand each product:
-        (x + 2)(x + 5) = x^2 + 7x + 10
-        x(x + 1) = x^2 + x
-        Subtract:
-        (x^2 + 7x + 10) - (x^2 + x) = 6x + 10
+    working: |
+      Expand the first product:
+      (x + 2)(x + 5) = x^2 + 5x + 2x + 10 = x^2 + 7x + 10
+      Expand the second product, taking care of the negative sign:
+      -x(x + 1) = -x^2 - x
+      Combine the terms:
+      (x^2 + 7x + 10) - x^2 - x
+      = 6x + 10
     marks: 3
     rubric:
       - marks: 1
         criteria: "Expands first product correctly."
       - marks: 1
-        criteria: "Expands second product correctly."
+        criteria: "Distributes the negative x correctly in the second expansion."
       - marks: 1
-        criteria: "Subtracts and simplifies accurately."
+        criteria: "Subtracts and simplifies accurately to 6x + 10."
     hints:
       - level: 1
-        text: "Expand both brackets first before subtracting."
+        text: "Expand both sets of brackets first. Be very careful with the negative sign when multiplying -x."
 
   - id: Q5
-    text: "A rectangle has sides $(x + 3)$ cm and $(x - 1)$ cm. Its area is 48 cm^2. Form the equation and find $x$."
+    text: "Puan Maria has a rectangular carpet with a length of $(3r - 2)$ meters and a width of $(r + 1)$ meters. Calculate the area of the carpet in terms of $r$."
+    difficulty: hard
+    learning_objective: 2.1.4
+    answer:
+      type: exact
+      value: "3r^2 + r - 2"
+    working: |
+      Area = length × width
+      Area = (3r - 2)(r + 1)
+      Expand the brackets:
+      = 3r(r) + 3r(1) - 2(r) - 2(1)
+      = 3r^2 + 3r - 2r - 2
+      = 3r^2 + r - 2
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Sets up the correct multiplication for area."
+      - marks: 1
+        criteria: "Expands to four correct terms."
+      - marks: 1
+        criteria: "Simplifies correctly to the final quadratic expression."
+    hints:
+      - level: 1
+        text: "The area of a rectangle is length multiplied by width. Write it as two brackets multiplied together."
+
+  - id: Q6
+    text: "Factorise the algebraic expression completely: $8x + 12x^2$."
+    difficulty: easy
+    learning_objective: 2.2.2
+    answer:
+      type: exact
+      value: "4x(2 + 3x)"
+    working: |
+      Find the Highest Common Factor (HCF) for the numbers 8 and 12, which is 4.
+      Find the HCF for variables x and x^2, which is x.
+      Extract 4x:
+      8x / 4x = 2
+      12x^2 / 4x = 3x
+      = 4x(2 + 3x)
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Identifies the correct Highest Common Factor (4x)."
+      - marks: 1
+        criteria: "Writes the fully factorised form correctly."
+    hints:
+      - level: 1
+        text: "Look for the largest number and the largest variable that can divide both terms."
+
+  - id: Q7
+    text: "Factorise the following using the difference of two perfect squares: $b^2 - 81$."
+    difficulty: easy
+    learning_objective: 2.2.2
+    answer:
+      type: exact
+      value: "(b + 9)(b - 9)"
+    working: |
+      Recognize that 81 is a perfect square (9^2).
+      Apply the difference of squares rule: a^2 - b^2 = (a + b)(a - b)
+      b^2 - 9^2 = (b + 9)(b - 9)
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Recognizes 81 as the perfect square of 9."
+      - marks: 1
+        criteria: "Applies the rule correctly to yield (b + 9)(b - 9)."
+    hints:
+      - level: 1
+        text: "81 is a perfect square. Use the rule x^2 - y^2 = (x + y)(x - y)."
+
+  - id: Q8
+    text: "Factorise completely using the cross-multiplication method: $x^2 + 6x + 8$."
+    difficulty: medium
+    learning_objective: 2.2.2
+    answer:
+      type: exact
+      value: "(x + 2)(x + 4)"
+    working: |
+      Find factors of x^2: x and x
+      Find factors of 8 that add up to 6: 2 and 4
+      Cross multiply: 
+      x * 4 = 4x
+      x * 2 = 2x
+      Sum = 6x (matches the middle term)
+      Result = (x + 2)(x + 4)
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Identifies correct factors for 8."
+      - marks: 1
+        criteria: "Validates middle term correctly using cross multiplication."
+      - marks: 1
+        criteria: "Writes the final brackets correctly."
+    hints:
+      - level: 1
+        text: "Find two numbers that multiply to give 8 and add together to give 6."
+
+  - id: Q9
+    text: "Factorise the expression involving four terms: $pq + qr + ps + rs$."
+    difficulty: medium
+    learning_objective: 2.2.2
+    answer:
+      type: exact
+      value: "(q + s)(p + r)"
+    working: |
+      Group the terms into pairs with common factors:
+      (pq + qr) + (ps + rs)
+      Extract the common factor from each pair:
+      q(p + r) + s(p + r)
+      Extract the common bracket (p + r):
+      = (p + r)(q + s)  OR  (q + s)(p + r)
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Groups terms correctly."
+      - marks: 1
+        criteria: "Extracts common factors to create a matching binomial bracket."
+      - marks: 1
+        criteria: "Extracts the common binomial bracket to give the final answer."
+    hints:
+      - level: 1
+        text: "Divide the 4 terms into two groups of 2. Factorise each group separately first."
+
+  - id: Q10
+    text: "A rectangular football field has an area of $(4x^2 + 16x)$ square meters. If the width of the field is $4x$ meters, find its length in terms of $x$."
     difficulty: hard
     learning_objective: 2.2.3
     answer:
       type: exact
-      value: "x = 5"
-      working: |
-        Area equation:
-        (x + 3)(x - 1) = 48
-        x^2 + 2x - 3 = 48
-        x^2 + 2x - 51 = 0
-        (x + 9)(x - 5) = 0
-        x = -9 or x = 5
-        Since side length must be positive and x - 1 > 0, x = 5.
+      value: "x + 4"
+    working: |
+      Length = Area / Width
+      Length = (4x^2 + 16x) / 4x
+      Factorise the numerator (Area) using HCF:
+      4x^2 + 16x = 4x(x + 4)
+      Divide by the denominator (Width):
+      = 4x(x + 4) / 4x
+      Cancel the common factor 4x:
+      = x + 4
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Sets up the relationship: Length = Area / Width."
+      - marks: 1
+        criteria: "Factorises the area expression correctly."
+      - marks: 1
+        criteria: "Performs accurate division to find the length."
+    hints:
+      - level: 1
+        text: "Factorise the expression for the area first, then divide by the width."
+
+  - id: Q11
+    text: "Simplify the algebraic fraction: $\\frac{4a}{5} + \\frac{3a}{5}$."
+    difficulty: easy
+    learning_objective: 2.3.1
+    answer:
+      type: exact
+      value: "\\frac{7a}{5}"
+    working: |
+      Since the denominators are the same (5), combine the numerators directly:
+      (4a + 3a) / 5
+      = 7a / 5
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Combines numerators over the single denominator."
+      - marks: 1
+        criteria: "Simplifies the numerator accurately."
+    hints:
+      - level: 1
+        text: "The denominators are identical, so you just need to add the numerators together."
+
+  - id: Q12
+    text: "Simplify: $\\frac{2}{3} - \\frac{4s}{9}$."
+    difficulty: medium
+    learning_objective: 2.3.1
+    answer:
+      type: exact
+      value: "\\frac{6 - 4s}{9}"
+    working: |
+      Find the common denominator for 3 and 9, which is 9.
+      Multiply the numerator and denominator of the first fraction by 3:
+      = (2 * 3) / (3 * 3) - 4s / 9
+      = 6 / 9 - 4s / 9
+      Combine over the common denominator:
+      = (6 - 4s) / 9
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Identifies the correct common denominator (9)."
+      - marks: 1
+        criteria: "Transforms the first fraction accurately."
+      - marks: 1
+        criteria: "Combines the numerators correctly for the final answer."
+    hints:
+      - level: 1
+        text: "Find the Lowest Common Multiple (LCM) for the denominators 3 and 9 before subtracting."
+
+  - id: Q13
+    text: "Simplify the multiplication of algebraic fractions: $\\frac{a^2 - 1}{2ab} \\times \\frac{b^2}{1 + a}$."
+    difficulty: medium
+    learning_objective: 2.3.2
+    answer:
+      type: exact
+      value: "\\frac{b(a - 1)}{2a}"
+    working: |
+      Factorise the numerator a^2 - 1 (difference of squares):
+      = (a + 1)(a - 1)
+      Substitute into the equation:
+      = [(a + 1)(a - 1) / 2ab] * [b^2 / (1 + a)]
+      Note that (1 + a) is the same as (a + 1).
+      Cancel the common factor (a + 1).
+      Cancel the common factor b from b^2 and 2ab:
+      = (a - 1) * b / 2a
+      = b(a - 1) / 2a
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Factorises a^2 - 1 correctly."
+      - marks: 1
+        criteria: "Cancels the (a+1) factor correctly."
+      - marks: 1
+        criteria: "Cancels the factor 'b' and writes the final simplified expression."
+    hints:
+      - level: 1
+        text: "Factorise a^2 - 1 first. Then look for terms you can cancel cross-wise."
+
+  - id: Q14
+    text: "Simplify the division of algebraic fractions: $\\frac{m + n}{x - y} \\div \\frac{(m + n)^2}{x^2 - y^2}$."
+    difficulty: hard
+    learning_objective: 2.3.2
+    answer:
+      type: exact
+      value: "\\frac{x + y}{m + n}"
+    working: |
+      Change division to multiplication by flipping the second fraction:
+      = [(m + n) / (x - y)] * [(x^2 - y^2) / (m + n)^2]
+      Factorise x^2 - y^2 into (x + y)(x - y):
+      = [(m + n) / (x - y)] * [(x + y)(x - y) / (m + n)(m + n)]
+      Cancel the common factor (x - y):
+      Cancel the common factor (m + n):
+      = (x + y) / (m + n)
     marks: 4
     rubric:
       - marks: 1
-        criteria: "Forms correct area equation."
+        criteria: "Converts division to multiplication by flipping the fraction."
       - marks: 1
-        criteria: "Transforms equation to standard quadratic form."
+        criteria: "Factorises difference of two squares correctly."
       - marks: 1
-        criteria: "Obtains algebraic roots correctly."
+        criteria: "Cancels common factor (x - y)."
       - marks: 1
-        criteria: "Selects valid contextual solution x = 5."
+        criteria: "Cancels common factor (m + n) to get final fraction."
     hints:
       - level: 1
-        text: "Use area = length × width, then solve and keep only physically meaningful value."
+        text: "Keep, Change, Flip. Then factorise everything before you cancel terms top and bottom."
+
+  - id: Q15
+    text: "Simplify the combined operation: $\\frac{2}{5b}(15a + 25b) + \\frac{a}{b}$."
+    difficulty: hard
+    learning_objective: 2.3.3
+    answer:
+      type: exact
+      value: "\\frac{7a + 10b}{b}"
+    working: |
+      Solve the multiplication part first (BODMAS):
+      Method 1 (Expansion):
+      = [2(15a) / 5b] + [2(25b) / 5b] + a/b
+      = 30a/5b + 50b/5b + a/b
+      = 6a/b + 10 + a/b
+      To combine, ensure same denominator:
+      = (6a + 10b + a) / b
+      = (7a + 10b) / b
+      
+      Method 2 (Factorisation):
+      Factorise 5 out of (15a + 25b): 5(3a + 5b)
+      = (2 / 5b) * 5(3a + 5b) + a/b
+      Cancel the 5s:
+      = 2(3a + 5b) / b + a/b
+      = (6a + 10b) / b + a/b
+      = (7a + 10b) / b
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Prioritizes multiplication over addition (BODMAS)."
+      - marks: 1
+        criteria: "Accurately expands or factorises to clear the 5 in denominator."
+      - marks: 1
+        criteria: "Finds common denominator for adding a/b."
+      - marks: 1
+        criteria: "Combines like terms accurately for final simplified fraction."
+    hints:
+      - level: 1
+        text: "Multiply the first term out, or factorise the bracket to cancel the 5 in the denominator first. Then add."

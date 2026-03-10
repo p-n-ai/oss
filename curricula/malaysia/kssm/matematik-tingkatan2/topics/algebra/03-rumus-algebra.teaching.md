@@ -52,7 +52,7 @@ This chapter transitions students from merely solving equations to find a single
 | :--- | :--- | :--- |
 | **"Swapping Sides" blindly** | A bad habit of moving terms across the "=" sign by simply changing the sign, without understanding inverse operations. | Enforce physical balance-language. Force them to physically write $+5$ or $\div3$ under *both* sides of the equation. |
 | **Negative Subject Coefficient** | Leaving the final answer as $-x = ...$ rather than $x = ...$ | Remind students that the "Perkara rumus" (Subject) must have a positive value of 1 for its coefficient. Show them how to multiply or divide both sides by $-1$. |
-| **Partial Division/Multiplication** | When making $x$ the subject in $y = 2x + 4z$, dividing only the $2x$ by 2 instead of the entire side. | Use physical brackets to show that the *entire* side must be divided: $\frac{y}{2} = \frac{(2x + 4z)}{2}$. |
+| **Partial Division/Multiplication** | When making $x$ the subject in $y = 2x + 4z$, dividing only the $2x$ by 2 instead of the entire side. | Use physical brackets to show that the *entire* side must be divided: $\displaystyle\frac{y}{2} = \displaystyle\frac{(2x + 4z)}{2}$. |
 
 ## Engagement Hooks
 - **Historical Context:** Share the "Imbasan Silam" trivia about Al-Khwarizmi, who introduced negative numbers, decimals, and algebraic programming, giving a historical backdrop to why we balance equations.
