@@ -111,3 +111,164 @@ questions:
     hints:
       - level: 1
         text: "First isolate the term with d by subtracting 4 from both sides."
+
+  ### ---------------------------------------------------------
+  ### UASA NATIONAL EXAM EXEMPLARS
+  ### ---------------------------------------------------------
+  # EXAM: UASA (Bahagian A - OAP)
+  # RATIONALE: Translates a basic word problem involving equal distribution into a mathematical formula [8, 23].
+  - id: Q6
+    text: >-
+      Naufal has r sweets. He distributes the sweets equally to his five friends.
+      S is the number of sweets received by each of his friends. Which of the following
+      formulae is true based on this situation?
+
+      A) S = 5r
+      B) S = 5 + r
+      C) S = 5 / r
+      D) S = r / 5
+    difficulty: easy
+    learning_objective: 3.1.1
+    answer:
+      type: multiple_choice
+      value: "D"
+      working: |
+        Total sweets = r.
+        Number of friends = 5.
+        Sweets per friend (S) = Total sweets / Number of friends = r / 5.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly selects option D."
+    hints:
+      - level: 1
+        text: "Distributing equally means you have to use division."
+
+  # EXAM: UASA (Bahagian A - OAP)
+  # RATIONALE: A rigorous multi-topic question blending geometric perimeter formula creation with solving simultaneous linear equations [11, 24].
+  - id: Q7
+    text: >-
+      Given that a rectangular field has length equals to $(2x + 3)$ m and width equals
+      to $(y + 2)$ m. It is given that the perimeter of the field is 38 m.
+      If $x - y = 4$, calculate the values of $x$ and $y$.
+
+      A) x = 8, y = 4
+      B) x = 6, y = 2
+      C) x = 4, y = 8
+      D) x = 2, y = 6
+    difficulty: hard
+    learning_objective: 3.1.4
+    answer:
+      type: multiple_choice
+      value: "B"
+      working: |
+        Perimeter = 2(Length) + 2(Width) = 38
+        2(2x + 3) + 2(y + 2) = 38
+        4x + 6 + 2y + 4 = 38
+        4x + 2y + 10 = 38
+        4x + 2y = 28 -> divide by 2 -> 2x + y = 14
+        Simultaneous equations:
+        Eq 1: 2x + y = 14
+        Eq 2: x - y = 4
+        Add Eq 1 and Eq 2: 3x = 18 -> x = 6
+        Substitute x=6 into Eq 2: 6 - y = 4 -> y = 2.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly selects option B."
+    hints:
+      - level: 1
+        text: "Create an equation using the perimeter formula first. Then solve using simultaneous equations with x - y = 4."
+
+  # EXAM: UASA (Bahagian A - OAP)
+  # RATIONALE: Tests substitution of multiple values and evaluating an equation containing a squared variable in the denominator [11, 25].
+  - id: Q8
+    text: >-
+      Given that $20 / a^2 - c = 6b$, calculate the values of $a$ if $b = 5$ and $c = -2b$.
+
+      A) 1, -1
+      B) 2, -2
+      C) 3, -3
+      D) 4, -4
+    difficulty: medium
+    learning_objective: 3.1.3
+    answer:
+      type: multiple_choice
+      value: "A"
+      working: |
+        If b = 5, then c = -2(5) = -10.
+        Substitute into formula: 20 / a^2 - (-10) = 6(5)
+        20 / a^2 + 10 = 30
+        20 / a^2 = 20
+        a^2 = 1
+        a = sqrt(1) = 1 or -1.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly selects option A."
+    hints:
+      - level: 1
+        text: "Calculate the exact numerical value of 'c' first, then substitute both 'b' and 'c' into the main equation."
+
+  # EXAM: UASA (Bahagian B - OPB)
+  # RATIONALE: Tests the step-by-step rearrangement of a formula, specifically checking the trap of safely isolating a squared term before square-rooting the entire side [12, 26].
+  - id: Q9
+    text: >-
+      It is given that $n + 10m^2 = 4$. Complete the calculation steps in the answer
+      space with the correct options to express $m$ as the subject of the formula.
+      Options: $(4 - n) / 10$, $\sqrt{4 - n} / 10$, $4/10 - n$, $\sqrt{(4 - n) / 10}$
+      Step 1: $m^2$ = (a)
+      Step 2: $m$ = (b)
+    difficulty: medium
+    learning_objective: 3.1.2
+    answer:
+      type: exact
+      value: "(a) (4 - n) / 10, (b) sqrt((4 - n) / 10)"
+      working: |
+        n + 10m^2 = 4
+        Subtract n from both sides: 10m^2 = 4 - n
+        Divide by 10: m^2 = (4 - n) / 10
+        Square root both sides: m = sqrt((4 - n) / 10)
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifies Step 1 as (4 - n) / 10."
+      - marks: 1
+        criteria: "Correctly identifies Step 2 as sqrt((4 - n) / 10)."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: When moving the square, the square root bracket must cover the ENTIRE opposite side [26]."
+
+  # EXAM: UASA (Bahagian C - Subjektif)
+  # RATIONALE: High-level manipulation combining algebraic fraction division to form a linear formula, followed by direct substitution [13, 25].
+  - id: Q10
+    text: >-
+      Given $2m \div (m / 3n) = 3m - 9$.
+      (i) Express $m$ in terms of $n$.
+      (ii) Calculate the value of $m$ when $n = 12$.
+    difficulty: hard
+    learning_objective: 3.1.2
+    answer:
+      type: exact
+      value: "(i) m = 2n + 3, (ii) m = 27"
+      working: |
+        (i) Convert division to multiplication:
+        2m * (3n / m) = 3m - 9
+        Cancel m: 6n = 3m - 9
+        Rearrange to make m the subject: 3m = 6n + 9
+        Divide by 3: m = 2n + 3
+        (ii) Substitute n = 12 into formula:
+        m = 2(12) + 3 = 24 + 3 = 27.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Correctly applies 'keep, change, flip' to cancel the m variables."
+      - marks: 1
+        criteria: "Isolates m successfully to form m = 2n + 3."
+      - marks: 1
+        criteria: "Substitutes n = 12 correctly into the rearranged formula."
+      - marks: 1
+        criteria: "Calculates the correct final value of 27."
+    hints:
+      - level: 1
+        text: "For part (i), flip the fraction you are dividing by to turn it into multiplication and cancel the 'm' on the left side first."

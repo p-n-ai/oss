@@ -1,4 +1,4 @@
-﻿topic_id: F2-01
+topic_id: F2-01
 provenance: ai-assisted
 questions:
   ### ---------------------------------------------------------
@@ -345,3 +345,145 @@ questions:
     hints:
       - level: 1
         text: "First, find out how many hours pass between each of the 4 feedings in a 24-hour day."
+
+  ### ---------------------------------------------------------
+  ### UASA NATIONAL EXAM EXEMPLARS
+  ### ---------------------------------------------------------
+  # EXAM: UASA (Bahagian A - OAP)
+  # RATIONALE: Tests the TP3 ability to identify a pattern's multiplying factor and project it forward to determine a specific nth term [3, 6].
+  - id: Q16
+    text: "It is given that the first four terms of a sequence are 8, 24, 72 and 216. What is the 5th term of the sequence?\n\nA) 144\nB) 225\nC) 648\nD) 732"
+    difficulty: easy
+    learning_objective: 1.2.2
+    answer:
+      type: multiple_choice
+      value: "C"
+      working: |
+        The pattern is multiplying the previous term by 3.
+        216 * 3 = 648
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly selects option C."
+    hints:
+      - level: 1
+        text: "Compare 8 and 24, and 24 and 72. What number do you multiply by to get the next term?"
+
+  # EXAM: UASA (Bahagian A - OAP)
+  # RATIONALE: Tests conceptual understanding of generalizing a pattern using words, directly mapping to SK 1.3.1 [3, 6].
+  - id: Q17
+    text: "Diagram 1 shows a set of numbers arranged in a pattern: 9, 45, 225, 1 125, ...\nState the pattern for the number set.\n\nA) Multiply the previous number by 15.\nB) Multiply the previous number by 13.\nC) Multiply the previous number by 5.\nD) Multiply the previous number by 3."
+    difficulty: easy
+    learning_objective: 1.2.2
+    answer:
+      type: multiple_choice
+      value: "C"
+      working: |
+        45 / 9 = 5
+        225 / 45 = 5
+        The pattern is multiplying the previous number by 5.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly selects option C."
+    hints:
+      - level: 1
+        text: "Divide the second term by the first term to find the relationship."
+
+  # EXAM: UASA (Bahagian B - OPB)
+  # RATIONALE: Assesses the student's ability to recognize the recursive addition rule of Fibonacci-style sequences, avoiding the trap of purely arithmetic differences [9, 14].
+  - id: Q18
+    text: >-
+      Mark 'True' for the correct Fibonacci numbers and 'False' if otherwise.
+      (i) 1, 1, 2, 3, 6, 9, 14
+      (ii) 1, 3, 4, 7, 11, 18, 29
+      (iii) 12, 13, 25, 38, 63, 101
+      (iv) 21, 31, 52, 63, 76, 99, 111
+    difficulty: medium
+    learning_objective: 1.2.2
+    answer:
+      type: exact
+      value: "(i) False, (ii) True, (iii) True, (iv) False"
+      working: |
+        Fibonacci logic requires the sum of the two previous terms to equal the next term.
+        (i) 1+1=2, 1+2=3, 2+3=5 (Not 6). False.
+        (ii) 1+3=4, 3+4=7, 4+7=11... True.
+        (iii) 12+13=25, 13+25=38, 25+38=63... True.
+        (iv) 21+31=52, 31+52=83 (Not 63). False.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifies (i) as False."
+      - marks: 1
+        criteria: "Correctly identifies (ii) as True."
+      - marks: 1
+        criteria: "Correctly identifies (iii) as True."
+      - marks: 1
+        criteria: "Correctly identifies (iv) as False."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Fibonacci sequences are formed by adding the two previous numbers together to get the next one [15]."
+
+  # EXAM: UASA (Bahagian C - Subjektif)
+  # RATIONALE: Requires calculating a negative common difference to complete a sequence involving integers [9, 16].
+  - id: Q19
+    text: "Complete the following sequence: 7, 1, -5, -11, P, Q"
+    difficulty: medium
+    learning_objective: 1.2.2
+    answer:
+      type: exact
+      value: "P = -17, Q = -23"
+      working: |
+        Common difference: 1 - 7 = -6.
+        P = -11 - 6 = -17
+        Q = -17 - 6 = -23
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly states P = -17."
+      - marks: 1
+        criteria: "Correctly states Q = -23."
+    hints:
+      - level: 1
+        text: "Find the difference by subtracting the first term from the second term. Apply this to the end of the sequence."
+
+  # EXAM: UASA (Bahagian C - Subjektif)
+  # RATIONALE: Requires students to describe a decreasing arithmetic sequence using words, emphasizing generalization methods [9, 17].
+  - id: Q20
+    text: "The diagram below shows a number sequence: 51, 46, 41, 36, 31. Describe the pattern of the sequence."
+    difficulty: easy
+    learning_objective: 1.3.1
+    answer:
+      type: free_text
+      value: "Subtract 5 from the previous number."
+      working: |
+        46 - 51 = -5.
+        41 - 46 = -5.
+        The sequence is formed by subtracting 5.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Clearly states the subtraction of 5 from the previous term."
+    hints:
+      - level: 1
+        text: "Look at whether the numbers are increasing or decreasing, and by how much."
+
+  # EXAM: UASA (Bahagian C - Subjektif)
+  # RATIONALE: Moves from a visual representation to a numerical pattern, hitting the core DSKP requirement of exploratory activities involving objects [7, 18].
+  - id: Q21
+    text: "The diagram below shows some pencils arranged by Adelia:\n|   |||   |||||\nState the pattern of the pencils above."
+    difficulty: easy
+    learning_objective: 1.1.1
+    answer:
+      type: free_text
+      value: "Add 2 to the previous number."
+      working: |
+        The number of pencils are 1, 3, 5.
+        The difference is +2 each time.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "States the pattern is adding 2."
+    hints:
+      - level: 1
+        text: "Count the number of pencils in each group first to create a number sequence."
