@@ -1,4 +1,4 @@
-﻿topic_id: F2-02
+topic_id: F2-02
 provenance: ai-assisted
 questions:
   - id: Q1
@@ -8,10 +8,10 @@ questions:
     answer:
       type: exact
       value: "3x + 12"
-    working: |
-      Distribute 3 to each term inside the bracket:
-      3(x) + 3(4)
-      = 3x + 12
+      working: |
+        Distribute 3 to each term inside the bracket:
+        3(x) + 3(4)
+        = 3x + 12
     marks: 2
     rubric:
       - marks: 1
@@ -29,11 +29,11 @@ questions:
     answer:
       type: exact
       value: "x^2 - 3x - 10"
-    working: |
-      Multiply each term in the first bracket by each term in the second bracket:
-      x(x) + x(-5) + 2(x) + 2(-5)
-      = x^2 - 5x + 2x - 10
-      = x^2 - 3x - 10
+      working: |
+        Multiply each term in the first bracket by each term in the second bracket:
+        x(x) + x(-5) + 2(x) + 2(-5)
+        = x^2 - 5x + 2x - 10
+        = x^2 - 3x - 10
     marks: 2
     rubric:
       - marks: 1
@@ -51,14 +51,14 @@ questions:
     answer:
       type: exact
       value: "2x^2 - y^2 - 2xy"
-    working: |
-      Expand the first part (difference of squares):
-      (x + y)(x - y) = x^2 - y^2
-      Expand the second part:
-      x(x - 2y) = x^2 - 2xy
-      Combine both parts:
-      x^2 - y^2 + x^2 - 2xy
-      = 2x^2 - y^2 - 2xy
+      working: |
+        Expand the first part (difference of squares):
+        (x + y)(x - y) = x^2 - y^2
+        Expand the second part:
+        x(x - 2y) = x^2 - 2xy
+        Combine both parts:
+        x^2 - y^2 + x^2 - 2xy
+        = 2x^2 - y^2 - 2xy
     marks: 3
     rubric:
       - marks: 1
@@ -78,14 +78,14 @@ questions:
     answer:
       type: exact
       value: "6x + 10"
-    working: |
-      Expand the first product:
-      (x + 2)(x + 5) = x^2 + 5x + 2x + 10 = x^2 + 7x + 10
-      Expand the second product, taking care of the negative sign:
-      -x(x + 1) = -x^2 - x
-      Combine the terms:
-      (x^2 + 7x + 10) - x^2 - x
-      = 6x + 10
+      working: |
+        Expand the first product:
+        (x + 2)(x + 5) = x^2 + 5x + 2x + 10 = x^2 + 7x + 10
+        Expand the second product, taking care of the negative sign:
+        -x(x + 1) = -x^2 - x
+        Combine the terms:
+        (x^2 + 7x + 10) - x^2 - x
+        = 6x + 10
     marks: 3
     rubric:
       - marks: 1
@@ -105,13 +105,13 @@ questions:
     answer:
       type: exact
       value: "3r^2 + r - 2"
-    working: |
-      Area = length × width
-      Area = (3r - 2)(r + 1)
-      Expand the brackets:
-      = 3r(r) + 3r(1) - 2(r) - 2(1)
-      = 3r^2 + 3r - 2r - 2
-      = 3r^2 + r - 2
+      working: |
+        Area = length × width
+        Area = (3r - 2)(r + 1)
+        Expand the brackets:
+        = 3r(r) + 3r(1) - 2(r) - 2(1)
+        = 3r^2 + 3r - 2r - 2
+        = 3r^2 + r - 2
     marks: 3
     rubric:
       - marks: 1
@@ -131,13 +131,13 @@ questions:
     answer:
       type: exact
       value: "4x(2 + 3x)"
-    working: |
-      Find the Highest Common Factor (HCF) for the numbers 8 and 12, which is 4.
-      Find the HCF for variables x and x^2, which is x.
-      Extract 4x:
-      8x / 4x = 2
-      12x^2 / 4x = 3x
-      = 4x(2 + 3x)
+      working: |
+        Find the Highest Common Factor (HCF) for the numbers 8 and 12, which is 4.
+        Find the HCF for variables x and x^2, which is x.
+        Extract 4x:
+        8x / 4x = 2
+        12x^2 / 4x = 3x
+        = 4x(2 + 3x)
     marks: 2
     rubric:
       - marks: 1
@@ -155,10 +155,10 @@ questions:
     answer:
       type: exact
       value: "(b + 9)(b - 9)"
-    working: |
-      Recognize that 81 is a perfect square (9^2).
-      Apply the difference of squares rule: a^2 - b^2 = (a + b)(a - b)
-      b^2 - 9^2 = (b + 9)(b - 9)
+      working: |
+        Recognize that 81 is a perfect square (9^2).
+        Apply the difference of squares rule: a^2 - b^2 = (a + b)(a - b)
+        b^2 - 9^2 = (b + 9)(b - 9)
     marks: 2
     rubric:
       - marks: 1
@@ -176,14 +176,14 @@ questions:
     answer:
       type: exact
       value: "(x + 2)(x + 4)"
-    working: |
-      Find factors of x^2: x and x
-      Find factors of 8 that add up to 6: 2 and 4
-      Cross multiply: 
-      x * 4 = 4x
-      x * 2 = 2x
-      Sum = 6x (matches the middle term)
-      Result = (x + 2)(x + 4)
+      working: |
+        Find factors of x^2: x and x
+        Find factors of 8 that add up to 6: 2 and 4
+        Cross multiply:
+        x * 4 = 4x
+        x * 2 = 2x
+        Sum = 6x (matches the middle term)
+        Result = (x + 2)(x + 4)
     marks: 3
     rubric:
       - marks: 1
@@ -203,13 +203,13 @@ questions:
     answer:
       type: exact
       value: "(q + s)(p + r)"
-    working: |
-      Group the terms into pairs with common factors:
-      (pq + qr) + (ps + rs)
-      Extract the common factor from each pair:
-      q(p + r) + s(p + r)
-      Extract the common bracket (p + r):
-      = (p + r)(q + s)  OR  (q + s)(p + r)
+      working: |
+        Group the terms into pairs with common factors:
+        (pq + qr) + (ps + rs)
+        Extract the common factor from each pair:
+        q(p + r) + s(p + r)
+        Extract the common bracket (p + r):
+        = (p + r)(q + s) OR (q + s)(p + r)
     marks: 3
     rubric:
       - marks: 1
@@ -229,15 +229,15 @@ questions:
     answer:
       type: exact
       value: "x + 4"
-    working: |
-      Length = Area / Width
-      Length = (4x^2 + 16x) / 4x
-      Factorise the numerator (Area) using HCF:
-      4x^2 + 16x = 4x(x + 4)
-      Divide by the denominator (Width):
-      = 4x(x + 4) / 4x
-      Cancel the common factor 4x:
-      = x + 4
+      working: |
+        Length = Area / Width
+        Length = (4x^2 + 16x) / 4x
+        Factorise the numerator (Area) using HCF:
+        4x^2 + 16x = 4x(x + 4)
+        Divide by the denominator (Width):
+        = 4x(x + 4) / 4x
+        Cancel the common factor 4x:
+        = x + 4
     marks: 3
     rubric:
       - marks: 1
@@ -257,10 +257,10 @@ questions:
     answer:
       type: exact
       value: "\\frac{7a}{5}"
-    working: |
-      Since the denominators are the same (5), combine the numerators directly:
-      (4a + 3a) / 5
-      = 7a / 5
+      working: |
+        Since the denominators are the same (5), combine the numerators directly:
+        (4a + 3a) / 5
+        = 7a / 5
     marks: 2
     rubric:
       - marks: 1
@@ -278,13 +278,13 @@ questions:
     answer:
       type: exact
       value: "\\frac{6 - 4s}{9}"
-    working: |
-      Find the common denominator for 3 and 9, which is 9.
-      Multiply the numerator and denominator of the first fraction by 3:
-      = (2 * 3) / (3 * 3) - 4s / 9
-      = 6 / 9 - 4s / 9
-      Combine over the common denominator:
-      = (6 - 4s) / 9
+      working: |
+        Find the common denominator for 3 and 9, which is 9.
+        Multiply the numerator and denominator of the first fraction by 3:
+        = (2 * 3) / (3 * 3) - 4s / 9
+        = 6 / 9 - 4s / 9
+        Combine over the common denominator:
+        = (6 - 4s) / 9
     marks: 3
     rubric:
       - marks: 1
@@ -304,16 +304,16 @@ questions:
     answer:
       type: exact
       value: "\\frac{b(a - 1)}{2a}"
-    working: |
-      Factorise the numerator a^2 - 1 (difference of squares):
-      = (a + 1)(a - 1)
-      Substitute into the equation:
-      = [(a + 1)(a - 1) / 2ab] * [b^2 / (1 + a)]
-      Note that (1 + a) is the same as (a + 1).
-      Cancel the common factor (a + 1).
-      Cancel the common factor b from b^2 and 2ab:
-      = (a - 1) * b / 2a
-      = b(a - 1) / 2a
+      working: |
+        Factorise the numerator a^2 - 1 (difference of squares):
+        = (a + 1)(a - 1)
+        Substitute into the equation:
+        = [(a + 1)(a - 1) / 2ab] * [b^2 / (1 + a)]
+        Note that (1 + a) is the same as (a + 1).
+        Cancel the common factor (a + 1).
+        Cancel the common factor b from b^2 and 2ab:
+        = (a - 1) * b / 2a
+        = b(a - 1) / 2a
     marks: 3
     rubric:
       - marks: 1
@@ -333,14 +333,14 @@ questions:
     answer:
       type: exact
       value: "\\frac{x + y}{m + n}"
-    working: |
-      Change division to multiplication by flipping the second fraction:
-      = [(m + n) / (x - y)] * [(x^2 - y^2) / (m + n)^2]
-      Factorise x^2 - y^2 into (x + y)(x - y):
-      = [(m + n) / (x - y)] * [(x + y)(x - y) / (m + n)(m + n)]
-      Cancel the common factor (x - y):
-      Cancel the common factor (m + n):
-      = (x + y) / (m + n)
+      working: |
+        Change division to multiplication by flipping the second fraction:
+        = [(m + n) / (x - y)] * [(x^2 - y^2) / (m + n)^2]
+        Factorise x^2 - y^2 into (x + y)(x - y):
+        = [(m + n) / (x - y)] * [(x + y)(x - y) / (m + n)(m + n)]
+        Cancel the common factor (x - y):
+        Cancel the common factor (m + n):
+        = (x + y) / (m + n)
     marks: 4
     rubric:
       - marks: 1
@@ -362,23 +362,23 @@ questions:
     answer:
       type: exact
       value: "\\frac{7a + 10b}{b}"
-    working: |
-      Solve the multiplication part first (BODMAS):
-      Method 1 (Expansion):
-      = [2(15a) / 5b] + [2(25b) / 5b] + a/b
-      = 30a/5b + 50b/5b + a/b
-      = 6a/b + 10 + a/b
-      To combine, ensure same denominator:
-      = (6a + 10b + a) / b
-      = (7a + 10b) / b
-      
-      Method 2 (Factorisation):
-      Factorise 5 out of (15a + 25b): 5(3a + 5b)
-      = (2 / 5b) * 5(3a + 5b) + a/b
-      Cancel the 5s:
-      = 2(3a + 5b) / b + a/b
-      = (6a + 10b) / b + a/b
-      = (7a + 10b) / b
+      working: |
+        Solve the multiplication part first (BODMAS):
+        Method 1 (Expansion):
+        = [2(15a) / 5b] + [2(25b) / 5b] + a/b
+        = 30a/5b + 50b/5b + a/b
+        = 6a/b + 10 + a/b
+        To combine, ensure same denominator:
+        = (6a + 10b + a) / b
+        = (7a + 10b) / b
+
+        Method 2 (Factorisation):
+        Factorise 5 out of (15a + 25b): 5(3a + 5b)
+        = (2 / 5b) * 5(3a + 5b) + a/b
+        Cancel the 5s:
+        = 2(3a + 5b) / b + a/b
+        = (6a + 10b) / b + a/b
+        = (7a + 10b) / b
     marks: 4
     rubric:
       - marks: 1

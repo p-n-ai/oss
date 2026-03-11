@@ -141,7 +141,7 @@ questions:
       type: exact
       value: "19, 31"
       working: |
-        Find the difference between known consecutive terms: 13 - 7 = 6. 
+        Find the difference between known consecutive terms: 13 - 7 = 6.
         Pattern is add 6.
         13 + 6 = 19
         25 + 6 = 31
@@ -233,7 +233,7 @@ questions:
       type: free_text
       value: "Add 8 to the previous number."
       working: |
-        The change between terms is constant: 
+        The change between terms is constant:
         9 - 1 = 8
         17 - 9 = 8
         So the rule is add 8 repeatedly.

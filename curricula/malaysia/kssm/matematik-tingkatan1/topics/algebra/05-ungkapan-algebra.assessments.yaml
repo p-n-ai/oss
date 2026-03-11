@@ -303,7 +303,11 @@ questions:
         criteria: "Correctly states xz / 2 or equivalent."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: The coefficient is not strictly just the number in front. Use the 'cover-up' method: cover the given coefficient part (3xy) in the main term, and whatever is left over is the variable part."
+        text: >-
+          MISCONCEPTION ALERT: The coefficient is not strictly just the number
+          in front. Use the 'cover-up' method: cover the given coefficient part
+          (3xy) in the main term, and whatever is left over is the variable
+          part.
       - level: 2
         text: "The term is $3 \\times x \\times x \\times y \\times z / 2$."
       - level: 3

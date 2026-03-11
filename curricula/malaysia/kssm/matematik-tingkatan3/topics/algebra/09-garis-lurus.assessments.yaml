@@ -1,0 +1,125 @@
+topic_id: F3-09
+provenance: ai-assisted
+questions:
+  - id: Q1
+    text: "For the straight line $y = 3x - 4$, state the gradient and the y-intercept."
+    difficulty: easy
+    learning_objective: 9.1.1
+    answer:
+      type: exact
+      value: "gradient = 3; y-intercept = -4"
+      working: |
+        Compare y = 3x - 4 with y = mx + c.
+        Therefore m = 3 and c = -4.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Identifies the gradient as 3."
+      - marks: 1
+        criteria: "Identifies the y-intercept as -4."
+    hints:
+      - level: 1
+        text: "Match the equation with the form y = mx + c."
+
+  - id: Q2
+    text: "Rewrite $2x + y = 7$ in the form $y = mx + c$."
+    difficulty: easy
+    learning_objective: 9.1.2
+    answer:
+      type: exact
+      value: "y = -2x + 7"
+      working: |
+        2x + y = 7
+        y = 7 - 2x
+        y = -2x + 7
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Rearranges to isolate y correctly."
+      - marks: 1
+        criteria: "Writes the final answer in y = mx + c form."
+    hints:
+      - level: 1
+        text: "Move 2x to the other side so y is alone."
+
+  - id: Q3
+    text: "Determine whether the point $(2, 5)$ lies on the line $y = 2x + 1$."
+    difficulty: medium
+    learning_objective: 9.1.3
+    answer:
+      type: exact
+      value: "Yes"
+      working: |
+        Substitute x = 2 into y = 2x + 1.
+        y = 2(2) + 1 = 5
+        The calculated y-value matches the point's y-coordinate.
+        Therefore (2, 5) lies on the line.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Substitutes x = 2 correctly."
+      - marks: 1
+        criteria: "Obtains y = 5."
+      - marks: 1
+        criteria: "Makes the correct conclusion that the point lies on the line."
+    hints:
+      - level: 1
+        text: "Substitute the x-coordinate into the equation and compare the resulting y-value."
+
+  - id: Q4
+    text: "The line $y = -\\frac{1}{2}x + 6$ is parallel to line $k$. If line $k$ passes through $(4, 1)$, find the equation of line $k$ in the form $y = mx + c$."
+    difficulty: hard
+    learning_objective: 9.1.4
+    answer:
+      type: exact
+      value: "y = -1/2 x + 3"
+      working: |
+        Parallel lines have the same gradient.
+        So line k has gradient m = -1/2.
+        Substitute the point (4, 1) into y = -1/2 x + c:
+        1 = -1/2(4) + c
+        1 = -2 + c
+        c = 3
+        Therefore y = -1/2 x + 3
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Uses the same gradient for parallel lines."
+      - marks: 1
+        criteria: "Substitutes the point correctly."
+      - marks: 1
+        criteria: "Finds c = 3."
+      - marks: 1
+        criteria: "States the correct final equation."
+    hints:
+      - level: 1
+        text: "Start with the same gradient because the lines are parallel."
+
+  - id: Q5
+    text: "Find the point of intersection of the lines $y = x + 2$ and $y = -2x + 8$."
+    difficulty: hard
+    learning_objective: 9.1.6
+    answer:
+      type: exact
+      value: "(2, 4)"
+      working: |
+        At the point of intersection, both equations have the same y-value.
+        So x + 2 = -2x + 8
+        3x = 6
+        x = 2
+        Substitute into y = x + 2:
+        y = 2 + 2 = 4
+        Therefore the point of intersection is (2, 4).
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Equates the two expressions for y correctly."
+      - marks: 1
+        criteria: "Solves for x = 2."
+      - marks: 1
+        criteria: "Finds y = 4 by substitution."
+      - marks: 1
+        criteria: "States the point of intersection correctly."
+    hints:
+      - level: 1
+        text: "At the intersection, both equations give the same value of y."

@@ -425,7 +425,14 @@ questions:
   # EXAM: UASA (Bahagian A - OAP)
   # RATIONALE: Encourages 'Kaedah Cuba Jaya' (Trial and Improvement) or mapping simultaneous logic from MCQ options.
   - id: Q17
-    text: "Nina bought 5 notebooks and 4 pens for RM14. Which of the following is the price of a book and a pen?\n\nA) Book: RM2.00, Pen: RM1.00\nB) Book: RM1.50, Pen: RM1.60\nC) Book: RM2.00, Pen: RM1.60\nD) Book: RM1.50, Pen: RM1.00"
+    text: >-
+      Nina bought 5 notebooks and 4 pens for RM14. Which of the following is
+      the price of a book and a pen?
+
+      A) Book: RM2.00, Pen: RM1.00
+      B) Book: RM1.50, Pen: RM1.60
+      C) Book: RM2.00, Pen: RM1.60
+      D) Book: RM1.50, Pen: RM1.00
     difficulty: medium
     learning_objective: 6.2.3
     answer:
@@ -499,7 +506,11 @@ questions:
   # EXAM: UASA (Bahagian C - Subjektif)
   # RATIONALE: Classic age-related word problem testing algebraic translation and basic linear solving.
   - id: Q20
-    text: "(i) Sufian is 5 years younger than his elder sister. If Sufian's age is $x$ years old, express the age of Sufian's elder sister in terms of $x$.\n(ii) Sufian is 2 years older than his younger brother. If his younger brother is 4 years old, find the age of Sufian's sister."
+    text: >-
+      (i) Sufian is 5 years younger than his elder sister. If Sufian's age is
+      $x$ years old, express the age of Sufian's elder sister in terms of $x$.
+      (ii) Sufian is 2 years older than his younger brother. If his younger
+      brother is 4 years old, find the age of Sufian's sister.
     difficulty: medium
     learning_objective: 6.1.2
     answer:
@@ -528,7 +539,10 @@ questions:
   # EXAM: UASA (Bahagian C - Subjektif)
   # RATIONALE: A complex TP5 multi-step problem that links expressions built in a previous question to form and solve simultaneous equations using substitution.
   - id: Q21
-    text: "Given that Adam's crops sold for $1500x + 700y$ and Hani's crops sold for $800x + 1600y$:\nIf $x = 5$ and the total amount of money received by Adam is RM9 600, calculate the total amount of cash received by Hani."
+    text: >-
+      Given that Adam's crops sold for $1500x + 700y$ and Hani's crops sold for
+      $800x + 1600y$: If $x = 5$ and the total amount of money received by Adam
+      is RM9 600, calculate the total amount of cash received by Hani.
     difficulty: hard
     learning_objective: 6.3.3
     answer:
@@ -542,7 +556,7 @@ questions:
         700y = 9600 - 7500
         700y = 2100
         y = 3
-        
+
         Hani's expression = 800x + 1600y
         Substitute x = 5 and y = 3:
         Hani's total = 800(5) + 1600(3)

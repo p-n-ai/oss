@@ -1,0 +1,53 @@
+id: F3-09
+name: "Garis Lurus (Straight Lines)"
+subject_id: algebra
+syllabus_id: malaysia-kssm-matematik-tingkatan3
+difficulty: intermediate
+tier: core
+
+learning_objectives:
+  - id: 9.1.1
+    text: "Relate the equation y = mx + c to gradient and y-intercept, then generalize its meaning (SP 9.1.1)."
+    bloom: understand
+  - id: 9.1.2
+    text: "Convert equations of straight lines between forms such as y = mx + c, ax + by = c, and x/a + y/b = 1 (SP 9.1.2)."
+    bloom: apply
+  - id: 9.1.3
+    text: "Infer the relationship between points on a straight line and the equation of the line (SP 9.1.3)."
+    bloom: analyze
+  - id: 9.1.4
+    text: "Investigate and infer the relationship between the gradients of parallel straight lines (SP 9.1.4)."
+    bloom: analyze
+  - id: 9.1.5
+    text: "Determine the equation of a straight line from suitable given information (SP 9.1.5)."
+    bloom: apply
+  - id: 9.1.6
+    text: "Determine the point of intersection of two straight lines accurately (SP 9.1.6)."
+    bloom: apply
+  - id: 9.1.7
+    text: "Solve contextual problems involving straight lines and interpret the result correctly (SP 9.1.7)."
+    bloom: analyze
+
+prerequisites:
+  required:
+    - F1-06
+    - F2-03
+  recommended:
+    - F2-01
+
+bloom_levels:
+  - understand
+  - apply
+  - analyze
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+ai_teaching_notes: "09-garis-lurus.teaching.md"
+assessments_file: "09-garis-lurus.assessments.yaml"
+quality_level: 2
+provenance: ai-assisted
