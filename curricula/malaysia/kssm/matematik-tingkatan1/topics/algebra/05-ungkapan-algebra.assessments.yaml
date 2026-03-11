@@ -229,3 +229,114 @@ questions:
     hints:
       - level: 1
         text: "The area of a rectangle is found by multiplying the length and the width. To find the missing width, do the reverse operations (divide the area by the length)."
+
+  ### ---------------------------------------------------------
+  ### UASA NATIONAL EXAM EXEMPLARS
+  ### ---------------------------------------------------------
+  # EXAM: UASA (Bahagian A - OAP)
+  # RATIONALE: Tests TP3 ability to expand brackets and group like terms, specifically testing the 'switch' of signs when distributing a negative multiplier.
+  - id: Q11
+    text: "Simplify: $(3xy - 2) - 2(xy - 5)$\n\nA) $xy + 7$\nB) $xy + 8$\nC) $2xy - 5$\nD) $2xy - 9$"
+    difficulty: medium
+    learning_objective: 5.2.1
+    answer:
+      type: multiple_choice
+      value: "B"
+      working: |
+        = 3xy - 2 - 2(xy) - 2(-5)
+        = 3xy - 2 - 2xy + 10
+        = (3xy - 2xy) + (-2 + 10)
+        = xy + 8
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly selects option B."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: When expanding the second bracket, multiply -2 by -5 carefully. Do not mistakenly get -10!"
+      - level: 2
+        text: "Expand the second bracket first. Multiply -2 by 'xy', and then multiply -2 by '-5'."
+      - level: 3
+        text: "Group the 'xy' terms together and the constant numbers together."
+
+  # EXAM: UASA (Bahagian A - OAP)
+  # RATIONALE: Excellent exemplar for combining squares and distribution of negatives.
+  - id: Q12
+    text: "Expand and simplify: $(2 + 5x)^2 - 3(x - 4)$\n\nA) $25x^2 - 17x + 16$\nB) $25x^2 + 17x + 8$\nC) $25x^2 + 25x + 8$\nD) $25x^2 + 17x + 16$"
+    difficulty: hard
+    learning_objective: 5.2.2
+    answer:
+      type: multiple_choice
+      value: "D"
+      working: |
+        Expansion of (2 + 5x)^2 = 4 + 20x + 25x^2
+        Expansion of -3(x - 4) = -3x + 12
+        Combining: 25x^2 + 20x + 4 - 3x + 12
+        = 25x^2 + 17x + 16
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly selects option D."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Assuming $(2 + 5x)^2$ is just $4 + 25x^2$ is incorrect. You must write the bracket twice and expand fully."
+      - level: 2
+        text: "Write $(2 + 5x)^2$ as $(2 + 5x)(2 + 5x)$ and expand it."
+
+  # EXAM: UASA (Bahagian B - OPB)
+  # RATIONALE: Tests foundational understanding of terms, variables, and coefficients using the 'cover-up' method.
+  - id: Q13
+    text: "Write the correct variables or coefficients for the algebraic expression $\\frac{3x^2yz}{2}$. If the given coefficient is $3xy$, what is the variable part?"
+    difficulty: medium
+    learning_objective: 5.1.4
+    answer:
+      type: exact
+      value: "xz / 2"
+      working: |
+        Algebraic term = Coefficient × Variable
+        (3x^2yz) / 2 = 3xy × (Variable)
+        Variable = [(3x^2yz) / 2] / 3xy
+        Variable = xz / 2
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Correctly states xz / 2 or equivalent."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: The coefficient is not strictly just the number in front. Use the 'cover-up' method: cover the given coefficient part (3xy) in the main term, and whatever is left over is the variable part."
+      - level: 2
+        text: "The term is $3 \\times x \\times x \\times y \\times z / 2$."
+      - level: 3
+        text: "If you 'cover up' the 3, one x, and the y, what is left over?"
+
+  # EXAM: UASA (Bahagian C - Subjektif)
+  # RATIONALE: Translates real-world tabular data into two separate two-variable algebraic expressions.
+  - id: Q14
+    text: >-
+      Adam harvested 1500 kg of sweet potatoes and 700 kg of tapioca.
+      Hani harvested 800 kg of sweet potatoes and 1600 kg of tapioca.
+      The price of sweet potatoes is RM $x$/kg and tapioca is RM $y$/kg.
+      Express the amount of money received by:
+      (a) Adam in terms of $x$ and $y$.
+      (b) Hani in terms of $x$ and $y$.
+    difficulty: hard
+    learning_objective: 5.1.2
+    answer:
+      type: free_text
+      value: "(a) 1500x + 700y\n(b) 800x + 1600y"
+      working: |
+        (a) Adam's total money = (1500 kg * RM x) + (700 kg * RM y) = 1500x + 700y
+        (b) Hani's total money = (800 kg * RM x) + (1600 kg * RM y) = 800x + 1600y
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correct expression for Adam: 1500x + 700y."
+      - marks: 1
+        criteria: "Correct expression for Hani: 800x + 1600y."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Do not add the weights of sweet potato and tapioca together without attaching the correct price variable to each crop first."
+      - level: 2
+        text: "Money earned = (Weight of crop) × (Price per kg)."
+      - level: 3
+        text: "Calculate the money for sweet potatoes and the money for tapioca separately, then add them with a '+' sign."
