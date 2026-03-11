@@ -5,14 +5,14 @@ questions:
     text: "The perimeter of a rectangle is given by $P = 2l + 2w$. If $l = 7$ and $w = 4$, find $P$."
     difficulty: easy
     learning_objective: 3.1.3
-    answer: 
+    answer:
       type: exact
       value: "22"
-    working: |
-      Substitute l = 7 and w = 4:
-      P = 2(7) + 2(4)
-      P = 14 + 8
-      P = 22
+      working: |
+        Substitute l = 7 and w = 4:
+        P = 2(7) + 2(4)
+        P = 14 + 8
+        P = 22
     marks: 2
     rubric:
       - marks: 1
@@ -27,13 +27,13 @@ questions:
     text: "Write a formula for total cost $C$ if each notebook costs RMm and you buy n notebooks."
     difficulty: easy
     learning_objective: 3.1.1
-    answer: 
+    answer:
       type: exact
       value: "C = mn"
-    working: |
-      Total cost equals unit price multiplied by quantity.
-      Therefore C = m * n
-      C = mn
+      working: |
+        Total cost equals unit price multiplied by quantity.
+        Therefore C = m * n
+        C = mn
     marks: 1
     rubric:
       - marks: 1
@@ -46,13 +46,13 @@ questions:
     text: "Make $x$ the subject of the formula: $y = 3x - 8$."
     difficulty: medium
     learning_objective: 3.1.2
-    answer: 
+    answer:
       type: exact
       value: "x = (y + 8) / 3"
-    working: |
-      y = 3x - 8
-      y + 8 = 3x
-      x = (y + 8) / 3
+      working: |
+        y = 3x - 8
+        y + 8 = 3x
+        x = (y + 8) / 3
     marks: 2
     rubric:
       - marks: 1
@@ -67,37 +67,37 @@ questions:
     text: "Given the formula $L = \\pi j^2$, make $j$ the subject of the formula."
     difficulty: medium
     learning_objective: 3.1.2
-    answer: 
+    answer:
       type: exact
       value: "j = \\sqrt{L / \\pi}"
-    working: |
-      L = \pi j^2
-      j^2 = L / \pi
-      j = \sqrt{L / \pi}
+      working: |
+        L = \pi j^2
+        j^2 = L / \pi
+        j = \sqrt{L / \pi}
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Rearranges equation to isolate j^2 by dividing both sides by \pi."
+        criteria: "Rearranges equation to isolate j^2 by dividing both sides by \\pi."
       - marks: 1
         criteria: "Applies square root to the entire opposite side."
       - marks: 1
         criteria: "States the final correct formula for j."
     hints:
       - level: 1
-        text: "First isolate j^2 by removing \pi. Then remember that the opposite of squaring is finding the square root."
+        text: "First isolate j^2 by removing \\pi. Then remember that the opposite of squaring is finding the square root."
 
   - id: Q5
     text: "A taxi fare formula is $F = 4 + 1.8d$, where $F$ is fare in RM and $d$ is distance in km. If a passenger pays RM22, find the distance travelled."
     difficulty: hard
     learning_objective: 3.1.4
-    answer: 
+    answer:
       type: exact
       value: "10"
-    working: |
-      22 = 4 + 1.8d
-      18 = 1.8d
-      d = 18 / 1.8
-      d = 10
+      working: |
+        22 = 4 + 1.8d
+        18 = 1.8d
+        d = 18 / 1.8
+        d = 10
     marks: 4
     rubric:
       - marks: 1
