@@ -113,8 +113,8 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 
 | Task ID | Task | Owner | Status |
 |---------|------|-------|--------|
-| `O-W2D6-1` | 🧑 Write assessments for F2-01 (15 questions), F2-02 (15 questions), F2-03 (5 questions) (Algebra focus) | 🧑 Education Lead (3hr) | ✅ Done (Prepared by Thoriq, reviewed by Faiz) |
-| `O-W2D6-2` | 🧑🤖 AI-draft additional assessment questions for all F2 topics | Collaborative | ✅ Done |
+| `O-W2D6-1` | 🧑 Write assessments for F2-01 (15 questions) (Algebra focus) | 🧑 Education Lead (3hr) | ✅ Done (Prepared by Thoriq, reviewed by Faiz) |
+| `O-W2D6-2` | 🧑🤖 AI-draft assessments for F2-02 (15 questions) and F2-03 (5 questions) (Algebra focus) | Collaborative | ✅ Done (Prepared by Thoriq, reviewed by Faiz) |
 
 **Implementation note (Mar 2026):** Form 2 learning objective IDs were aligned from `LOx` style to DSKP code format (for example `1.1.1`, `2.2.3`, `3.1.4`) to match PR #1 convention updates.
 
