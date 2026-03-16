@@ -3,29 +3,19 @@
 
 require_relative "lib/oss_validation"
 
-syllabi = {}
+syllabi, syllabus_duplicates = OssValidation.build_syllabus_catalog
 subjects = {}
-topics = {}
+topics, topics_by_id, topic_duplicates = OssValidation.build_topic_catalog(syllabi)
 errors = []
 
-OssValidation.syllabus_files.each do |path|
-  data = OssValidation.load_yaml(path)
-  syllabus_id = data["id"]
+syllabus_duplicates.each do |duplicate|
+  paths = duplicate.fetch("paths").join(", ")
+  errors << "duplicate syllabus id: #{duplicate.fetch('syllabus_id')} (files: #{paths})"
+end
 
-  if syllabus_id.nil? || syllabus_id.empty?
-    errors << "#{path}: missing syllabus id"
-    next
-  end
-
-  if syllabi.key?(syllabus_id)
-    errors << "duplicate syllabus id: #{syllabus_id}"
-    next
-  end
-
-  syllabi[syllabus_id] = {
-    "path" => path,
-    "subjects" => Array(data["subjects"])
-  }
+topic_duplicates.each do |duplicate|
+  paths = duplicate.fetch("paths").join(", ")
+  errors << "duplicate topic key: #{duplicate.fetch('syllabus_id')}:#{duplicate.fetch('topic_id')} (files: #{paths})"
 end
 
 OssValidation.subject_files.each do |path|
@@ -61,31 +51,36 @@ OssValidation.topic_files.each do |path|
     next
   end
 
-  if topics.key?(topic_id)
-    errors << "duplicate topic id: #{topic_id}"
+  topic_key = OssValidation.topic_key(syllabus_id, topic_id)
+  topic = topics[topic_key]
+  unless topic
+    errors << "#{path}: topic index missing for #{syllabus_id}:#{topic_id}"
     next
   end
 
-  topics[topic_id] = {
-    "path" => path,
-    "syllabus_id" => syllabus_id,
-    "subject_id" => subject_id,
-    "prerequisites" => data["prerequisites"] || {},
-    "ai_teaching_notes" => data["ai_teaching_notes"],
-    "examples_file" => data["examples_file"],
-    "assessments_file" => data["assessments_file"]
-  }
+  topic["prerequisites"] = data["prerequisites"] || {}
+  topic["ai_teaching_notes"] = data["ai_teaching_notes"]
+  topic["examples_file"] = data["examples_file"]
+  topic["assessments_file"] = data["assessments_file"]
 end
 
-topics.each do |topic_id, meta|
-  errors << "#{topic_id}: unknown syllabus_id #{meta['syllabus_id']}" unless syllabi.key?(meta["syllabus_id"])
+topics.each_value do |meta|
+  topic_ref = OssValidation.render_topic_reference(meta)
+  errors << "#{topic_ref}: unknown syllabus_id #{meta['syllabus_id']}" unless syllabi.key?(meta["syllabus_id"])
   unless subjects.key?([meta["syllabus_id"], meta["subject_id"]])
-    errors << "#{topic_id}: unknown subject reference #{meta['subject_id']} in #{meta['syllabus_id']}"
+    errors << "#{topic_ref}: unknown subject reference #{meta['subject_id']} in #{meta['syllabus_id']}"
   end
 
   prerequisites = meta["prerequisites"]
   (Array(prerequisites["required"]) + Array(prerequisites["recommended"])).each do |dependency|
-    errors << "#{topic_id}: unknown prerequisite topic #{dependency}" unless topics.key?(dependency)
+    resolution = OssValidation.resolve_topic_reference(topic_id: dependency, from_topic: meta, topics_by_id: topics_by_id)
+    case resolution.fetch("status")
+    when "missing"
+      errors << "#{topic_ref}: unknown prerequisite topic #{dependency}"
+    when "ambiguous"
+      matches = resolution.fetch("matches").map { |topic| OssValidation.render_topic_reference(topic) }.join(", ")
+      errors << "#{topic_ref}: ambiguous prerequisite topic #{dependency} (matches: #{matches})"
+    end
   end
 
   %w[ai_teaching_notes examples_file assessments_file].each do |field|
@@ -93,7 +88,21 @@ topics.each do |topic_id, meta|
     next if relative_path.nil? || relative_path.empty?
 
     file_path = meta["path"].dirname.join(relative_path)
-    errors << "#{topic_id}: missing #{field} file #{file_path}" unless file_path.exist?
+    unless file_path.exist?
+      errors << "#{topic_ref}: missing #{field} file #{file_path}"
+      next
+    end
+
+    next unless %w[examples_file assessments_file].include?(field)
+
+    begin
+      linked_topic_id, = OssValidation.load_linked_topic_id(meta["path"], relative_path)
+      next if linked_topic_id == meta["topic_id"]
+
+      errors << "#{topic_ref}: #{field} points to topic #{linked_topic_id || 'unknown'}"
+    rescue StandardError => error
+      errors << "#{topic_ref}: failed to read #{field} #{file_path} (#{error.message})"
+    end
   end
 end
 
@@ -101,7 +110,7 @@ subjects.each do |(syllabus_id, subject_id), meta|
   errors << "#{meta['path']}: unknown syllabus_id #{syllabus_id}" unless syllabi.key?(syllabus_id)
 
   meta["topics"].each do |topic_id|
-    topic = topics[topic_id]
+    topic = topics[OssValidation.topic_key(syllabus_id, topic_id)]
     if topic.nil?
       errors << "#{syllabus_id}:#{subject_id}: missing topic #{topic_id}"
       next
@@ -132,15 +141,16 @@ OssValidation.concept_files.each do |path|
       next
     end
 
-    topic = topics[topic_id]
+    topic = topics[OssValidation.topic_key(syllabus_id, topic_id)]
     if topic.nil?
-      errors << "#{concept_id}: unknown topic #{topic_id}"
-      next
+      matches = topics_by_id.fetch(topic_id, [])
+      if matches.empty?
+        errors << "#{concept_id}: unknown topic #{topic_id}"
+      else
+        owners = matches.map { |match| OssValidation.render_topic_reference(match) }.join(", ")
+        errors << "#{concept_id}: topic #{topic_id} is not present in #{syllabus_id} (matches: #{owners})"
+      end
     end
-
-    next if topic["syllabus_id"] == syllabus_id
-
-    errors << "#{concept_id}: topic #{topic_id} belongs to #{topic['syllabus_id']}, not #{syllabus_id}"
   end
 end
 
