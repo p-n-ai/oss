@@ -113,9 +113,10 @@ oss/
 │
 ├── scripts/                          # CI and maintenance scripts
 │   ├── validate.sh
-│   ├── check-prerequisites.py
-│   ├── check-references.py
-│   └── assess-quality.py
+│   ├── check-prerequisites.rb
+│   ├── check-references.rb
+│   ├── assess-quality.rb
+│   └── lib/oss_validation.rb
 │
 ├── .github/workflows/                # CI pipelines
 │   └── validate.yml

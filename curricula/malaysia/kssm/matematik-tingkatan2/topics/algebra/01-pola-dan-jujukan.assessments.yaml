@@ -372,7 +372,15 @@ questions:
   # EXAM: UASA (Bahagian A - OAP)
   # RATIONALE: Tests conceptual understanding of generalizing a pattern using words, directly mapping to SK 1.3.1 [3, 6].
   - id: Q17
-    text: "Diagram 1 shows a set of numbers arranged in a pattern: 9, 45, 225, 1 125, ...\nState the pattern for the number set.\n\nA) Multiply the previous number by 15.\nB) Multiply the previous number by 13.\nC) Multiply the previous number by 5.\nD) Multiply the previous number by 3."
+    text: >-
+      Diagram 1 shows a set of numbers arranged in a pattern: 9, 45, 225,
+      1 125, ...
+      State the pattern for the number set.
+
+      A) Multiply the previous number by 15.
+      B) Multiply the previous number by 13.
+      C) Multiply the previous number by 5.
+      D) Multiply the previous number by 3.
     difficulty: easy
     learning_objective: 1.2.2
     answer:

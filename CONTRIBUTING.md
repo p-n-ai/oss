@@ -73,9 +73,9 @@ When scaffolding files/tooling are present, run:
 ```bash
 yamllint -c .yamllint.yml curricula/ concepts/ taxonomy/
 ajv validate --spec=draft2020 -s schema/topic.schema.json -d "path/to/topic.yaml"
-python scripts/check-prerequisites.py
-python scripts/check-references.py
-python scripts/assess-quality.py --report
+ruby scripts/check-prerequisites.rb
+ruby scripts/check-references.rb
+ruby scripts/assess-quality.rb --report
 ```
 
 If commands fail because paths are not created yet, add the missing scaffold first according to `docs/technical-plan.md`.
@@ -94,4 +94,3 @@ If commands fail because paths are not created yet, add the missing scaffold fir
 - Content PRs should be reviewed for pedagogical correctness.
 - `ai-generated` and `ai-observed` content requires educator review.
 - Invalid schema or lint output should block merge until fixed.
-

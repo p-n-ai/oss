@@ -1,0 +1,16 @@
+id: linear-equation
+name: "Linear Equation"
+domain: mathematics
+subdomain: algebra
+definition: "An equation of degree 1 in the form ax + b = c, where a is not equal to 0"
+
+curricula:
+  - syllabus: malaysia-kssm-matematik-tingkatan1
+    topic: F1-06
+    scope: "Linear equations in one variable, basic solving"
+  - syllabus: malaysia-kssm-matematik-tingkatan2
+    topic: F2-03
+    scope: "Algebraic formulae involving linear equations"
+  - syllabus: malaysia-kssm-matematik-tingkatan3
+    topic: F3-09
+    scope: "Straight lines, linear equations in two variables, and intersection reasoning"

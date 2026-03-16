@@ -1,0 +1,16 @@
+id: algebraic-expression
+name: "Algebraic Expression"
+domain: mathematics
+subdomain: algebra
+definition: "A mathematical phrase containing variables, constants, and operations but no equality sign"
+
+curricula:
+  - syllabus: malaysia-kssm-matematik-tingkatan1
+    topic: F1-05
+    scope: "Basic expressions, like terms, substitution, and simplification"
+  - syllabus: malaysia-kssm-matematik-tingkatan2
+    topic: F2-02
+    scope: "Expansion, factorisation, and algebraic fractions"
+  - syllabus: malaysia-kssm-matematik-tingkatan3
+    topic: F3-01
+    scope: "Indices applied to numerical and algebraic expressions"

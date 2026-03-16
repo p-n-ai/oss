@@ -120,39 +120,39 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 
 ### Day 7 (Tue) — Form 3 Algebra Structure
 
-| Task ID | Task | Owner |
-|---------|------|-------|
-| `O-W2D7-1` | Create `curricula/malaysia/kssm/matematik-tingkatan3/syllabus.yaml` + `subjects/algebra.yaml` | 🤖 |
-| `O-W2D7-2` | Create topic YAML stubs for F3-01 and F3-09 with prerequisites linking to Form 2 | 🤖 |
-| `O-W2D7-3` | 🧑 Write F3-01 teaching notes (Indeks — Indices) | 🧑 Education Lead (2hr) |
-| `O-W2D7-4` | 🧑🤖 AI-draft teaching notes for F3-09 (Garis Lurus) | Collaborative |
+| Task ID | Task | Owner | Status |
+|---------|------|-------|--------|
+| `O-W2D7-1` | Create `curricula/malaysia/kssm/matematik-tingkatan3/syllabus.yaml` + `subjects/algebra.yaml` | 🤖 | ✅ Done |
+| `O-W2D7-2` | Create topic YAML stubs for F3-01 and F3-09 with prerequisites linking to Form 2 | 🤖 | ✅ Done |
+| `O-W2D7-3` | 🧑 Write F3-01 teaching notes (Indeks — Indices) | 🧑 Education Lead (2hr) | ✅ Done |
+| `O-W2D7-4` | 🧑🤖 AI-draft teaching notes for F3-09 (Garis Lurus) | Collaborative | ✅ Done |
 
 ### Day 8 (Wed) — Form 3 Assessments
 
-| Task ID | Task | Owner |
-|---------|------|-------|
-| `O-W2D8-1` | 🧑 Write assessments for F3-01 and F3-09 (5 questions each) | 🧑 Education Lead (2hr) |
-| `O-W2D8-2` | 🧑🤖 AI-draft additional assessment questions for F3 topics | Collaborative |
+| Task ID | Task | Owner | Status |
+|---------|------|-------|--------|
+| `O-W2D8-1` | 🧑 Write assessments for F3-01 and F3-09 (5 questions each) | 🧑 Education Lead (2hr) | ✅ Done |
+| `O-W2D8-2` | 🧑🤖 AI-draft additional assessment questions for F3 topics | Collaborative | |
 
 ### Day 9 (Thu) — Cross-Form Prerequisites + Concepts
 
-| Task ID | Task | Owner |
-|---------|------|-------|
-| `O-W2D9-1` | `scripts/check-prerequisites.py` — detect cycles in prerequisite graph across all 3 forms | 🤖 |
-| `O-W2D9-2` | `scripts/check-references.py` — verify all topic_id and syllabus_id references are valid | 🤖 |
-| `O-W2D9-3` | Create `concepts/mathematics/linear-equation.yaml` bridging F1→F2→F3 linear equations | 🤖 |
-| `O-W2D9-4` | Create `concepts/mathematics/algebraic-expression.yaml` bridging expansion/factorisation across forms | 🤖 |
-| `O-W2D9-5` | 🧑 Verify prerequisite chain: can a Form 1 student's mastery correctly unlock Form 2 topics? | 🧑 Education Lead |
+| Task ID | Task | Owner | Status |
+|---------|------|-------|--------|
+| `O-W2D9-1` | `scripts/check-prerequisites.rb` — detect cycles in prerequisite graph across all 3 forms | 🤖 | ✅ Done |
+| `O-W2D9-2` | `scripts/check-references.rb` — verify all topic_id and syllabus_id references are valid | 🤖 | ✅ Done |
+| `O-W2D9-3` | Create `concepts/mathematics/linear-equation.yaml` bridging F1→F2→F3 linear equations | 🤖 | ✅ Done |
+| `O-W2D9-4` | Create `concepts/mathematics/algebraic-expression.yaml` bridging expansion/factorisation across forms | 🤖 | ✅ Done |
+| `O-W2D9-5` | 🧑 Verify prerequisite chain: can a Form 1 student's mastery correctly unlock Form 2 topics? | 🧑 Education Lead | |
 
 ### Day 10 (Fri) — Quality Audit
 
-| Task ID | Task | Owner |
-|---------|------|-------|
-| `O-W2D10-1` | `scripts/assess-quality.py` — auto-assess quality levels for all topics | 🤖 |
-| `O-W2D10-2` | Add quality report to CI (runs on merge to main) | 🤖 |
-| `O-W2D10-3` | 🧑 Full quality audit: are all 8 Algebra topics at Level 3 (Teachable)? Fix any that aren't. | 🧑 Education Lead |
+| Task ID | Task | Owner | Status |
+|---------|------|-------|--------|
+| `O-W2D10-1` | `scripts/assess-quality.rb` — auto-assess quality levels for all topics | 🤖 | ✅ Done |
+| `O-W2D10-2` | Add quality report to CI (runs on merge to main) | 🤖 | ✅ Done |
+| `O-W2D10-3` | 🧑 Full quality audit: are all 8 Algebra topics at Level 3 (Teachable)? Fix any that aren't. | 🧑 Education Lead | |
 
-**Week 2 Output:** All 8 Algebra topics complete (F1:3 + F2:3 + F3:2). 40+ assessment questions. Prerequisite chain validated across 3 forms. Quality Level ≥3 for all topics.
+**Week 2 Output:** All 8 Algebra topics complete (F1:3 + F2:3 + F3:2). 40+ assessment questions. Prerequisite chain validated across 3 forms. Quality Level ≥2 for all topics.
 
 ---
 
