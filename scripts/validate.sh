@@ -53,6 +53,36 @@ schema/concept.schema.json|find concepts -name '*.yaml' -print0 2>/dev/null|conc
 schema/taxonomy.schema.json|find taxonomy -name '*.yaml' -print0 2>/dev/null|taxonomy
 EOF
 
+# Integrity scripts
+run_check_script() {
+  local script="$1"
+  local label="$2"
+
+  if [ ! -f "$script" ]; then
+    echo "SKIP: $label"
+    return
+  fi
+
+  if ruby "$script"; then
+    echo "PASS: $label"
+  else
+    echo "FAIL: $label"
+    ERRORS=$((ERRORS + 1))
+  fi
+}
+
+run_check_script "scripts/check-prerequisites.rb" "prerequisite graph integrity"
+run_check_script "scripts/check-references.rb" "cross-reference integrity"
+
+if [ ! -f "scripts/assess-quality.rb" ]; then
+  echo "SKIP: quality assessment"
+elif ruby scripts/assess-quality.rb --report; then
+  echo "PASS: quality assessment"
+else
+  echo "FAIL: quality assessment"
+  ERRORS=$((ERRORS + 1))
+fi
+
 # Summary
 if [ $ERRORS -eq 0 ]; then
   echo "PASS: All validations passed"

@@ -33,8 +33,8 @@ This guide provides step-by-step executable instructions for every day of the de
 # Node.js 20 LTS (for ajv-cli)
 node --version   # Expected: v20.x.x
 
-# Python 3.12 (for custom validation scripts)
-python3 --version   # Expected: 3.12.x
+# Ruby (for custom validation scripts)
+ruby --version   # Expected: system Ruby or newer
 
 # yamllint (YAML linter)
 pip install yamllint
@@ -49,7 +49,7 @@ ajv --version   # Expected: ≥5.0.0
 
 ```bash
 # All four should succeed without errors
-node --version && python3 --version && yamllint --version && ajv help
+node --version && ruby --version && yamllint --version && ajv help
 ```
 
 ---
@@ -1518,8 +1518,8 @@ Set `difficulty: advanced` for all Form 3 topics.
 
 | # | Task | Owner | Files Created |
 |---|------|-------|---------------|
-| 9.1 | Create `scripts/check-prerequisites.py` | 🤖 | `scripts/check-prerequisites.py` |
-| 9.2 | Create `scripts/check-references.py` | 🤖 | `scripts/check-references.py` |
+| 9.1 | Create `scripts/check-prerequisites.rb` | 🤖 | `scripts/check-prerequisites.rb` |
+| 9.2 | Create `scripts/check-references.rb` | 🤖 | `scripts/check-references.rb` |
 | 9.3 | Create `schema/concept.schema.json` | 🤖 | `schema/concept.schema.json` |
 | 9.4 | Create `linear-equation.yaml` concept | 🤖 | `concepts/mathematics/linear-equation.yaml` |
 | 9.5 | Create `algebraic-expression.yaml` concept | 🤖 | `concepts/mathematics/algebraic-expression.yaml` |
@@ -1527,7 +1527,7 @@ Set `difficulty: advanced` for all Form 3 topics.
 
 #### 9.1 — Prerequisite Cycle Detection Script
 
-**File:** `scripts/check-prerequisites.py`
+**File:** `scripts/check-prerequisites.rb`
 
 This script should:
 1. Walk all `curricula/**/topics/**/*.yaml` files (excluding `.examples.yaml` and `.assessments.yaml`)
@@ -1538,13 +1538,13 @@ This script should:
 6. Print the full prerequisite chain for each form
 
 ```bash
-chmod +x scripts/check-prerequisites.py
-python3 scripts/check-prerequisites.py
+chmod +x scripts/check-prerequisites.rb
+ruby scripts/check-prerequisites.rb
 ```
 
 #### 9.2 — Cross-Reference Integrity Script
 
-**File:** `scripts/check-references.py`
+**File:** `scripts/check-references.rb`
 
 This script should:
 1. Collect all `id` fields from topic, subject, and syllabus files
@@ -1556,8 +1556,8 @@ This script should:
 7. Exit with code 1 if broken references found
 
 ```bash
-chmod +x scripts/check-references.py
-python3 scripts/check-references.py
+chmod +x scripts/check-references.rb
+ruby scripts/check-references.rb
 ```
 
 #### 9.3 — Concept Schema
@@ -1656,14 +1656,14 @@ The Education Lead should verify:
 
 ```bash
 ./scripts/validate.sh
-python3 scripts/check-prerequisites.py
-python3 scripts/check-references.py
+ruby scripts/check-prerequisites.rb
+ruby scripts/check-references.rb
 ```
 
 #### Day 9 Exit Criteria
 
-- [ ] `check-prerequisites.py` runs with no cycles detected
-- [ ] `check-references.py` runs with no broken references
+- [ ] `check-prerequisites.rb` runs with no cycles detected
+- [ ] `check-references.rb` runs with no broken references
 - [ ] 2 concept files validate against concept schema
 - [ ] Education Lead confirms prerequisite chains are pedagogically sound
 
@@ -1679,13 +1679,13 @@ python3 scripts/check-references.py
 
 | # | Task | Owner | Files Created |
 |---|------|-------|---------------|
-| 10.1 | Create `scripts/assess-quality.py` | 🤖 | `scripts/assess-quality.py` |
+| 10.1 | Create `scripts/assess-quality.rb` | 🤖 | `scripts/assess-quality.rb` |
 | 10.2 | Add quality report to CI | 🤖 | Update `validate.yml` |
 | 10.3 | Full quality audit | 🧑 | — |
 
 #### 10.1 — Quality Assessment Script
 
-**File:** `scripts/assess-quality.py`
+**File:** `scripts/assess-quality.rb`
 
 This script should:
 1. Walk all topic YAML files
@@ -1700,7 +1700,7 @@ This script should:
 4. Flag topics claiming higher than actual
 5. Print summary report
 
-Usage: `python3 scripts/assess-quality.py --report`
+Usage: `ruby scripts/assess-quality.rb --report`
 
 #### 10.2 — Update CI Workflow
 
@@ -1708,13 +1708,13 @@ Add the prerequisite, reference, and quality checks to `.github/workflows/valida
 
 ```yaml
       - name: Check prerequisite cycles
-        run: python3 scripts/check-prerequisites.py
+        run: ruby scripts/check-prerequisites.rb
 
       - name: Check cross-references
-        run: python3 scripts/check-references.py
+        run: ruby scripts/check-references.rb
 
       - name: Quality level report
-        run: python3 scripts/assess-quality.py --report
+        run: ruby scripts/assess-quality.rb --report
 ```
 
 #### 10.3 — Quality Audit (🧑 Education Lead)
@@ -2165,7 +2165,7 @@ Create appropriate subjects (numbers, geometry, statistics, measurement) for For
 #### Quality Report Output
 
 ```bash
-python3 scripts/assess-quality.py --report
+ruby scripts/assess-quality.rb --report
 ```
 
 Expected output:
@@ -2276,9 +2276,9 @@ Label all with `good first issue` and `help wanted`.
 ```bash
 # Full validation suite
 ./scripts/validate.sh
-python3 scripts/check-prerequisites.py
-python3 scripts/check-references.py
-python3 scripts/assess-quality.py --report
+ruby scripts/check-prerequisites.rb
+ruby scripts/check-references.rb
+ruby scripts/assess-quality.rb --report
 ```
 
 All must pass with zero errors.

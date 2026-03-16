@@ -256,9 +256,10 @@ oss/
 │
 ├── scripts/                            # CI and maintenance scripts
 │   ├── validate.sh                     # Run all schema validations
-│   ├── check-prerequisites.py          # Detect cycles in prerequisite graph
-│   ├── check-references.py             # Verify cross-references are valid
-│   ├── assess-quality.py               # Auto-assess quality levels
+│   ├── check-prerequisites.rb          # Detect cycles in prerequisite graph
+│   ├── check-references.rb             # Verify cross-references are valid
+│   ├── assess-quality.rb               # Auto-assess quality levels
+│   ├── lib/oss_validation.rb           # Shared YAML + repo helpers
 │   └── export-sqlite.py                # Generate SQLite export (coming soon)
 │
 ├── .github/
@@ -300,7 +301,7 @@ Every topic carries a `quality_level` field (0–5) that indicates completeness.
 | **4** | Complete | + translations (≥1 language), `cross_curriculum` links, peer-reviewed | Well — multilingual, cross-referenced |
 | **5** | Gold | + validated by curriculum authority, backed by student interaction data | Excellently — data-proven effectiveness |
 
-**Quality level is auto-assessed by CI.** The `assess-quality.py` script examines each topic file and its companion files to determine the current level. PRs that lower a topic's quality level are flagged for review.
+**Quality level is auto-assessed by CI.** The `assess-quality.rb` script examines each topic file and its companion files to determine the current level. PRs that lower a topic's quality level are flagged for review.
 
 ---
 
@@ -345,15 +346,15 @@ jobs:
 
       # 3. Prerequisite graph integrity
       - name: Check prerequisite cycles
-        run: python scripts/check-prerequisites.py
+        run: ruby scripts/check-prerequisites.rb
 
       # 4. Cross-reference integrity
       - name: Check references
-        run: python scripts/check-references.py
+        run: ruby scripts/check-references.rb
 
       # 5. Quality level assessment
       - name: Assess quality levels
-        run: python scripts/assess-quality.py --report
+        run: ruby scripts/assess-quality.rb --report
 ```
 
 **Validation rules enforced:**
@@ -362,7 +363,7 @@ jobs:
 |-------|------|---------------|
 | YAML syntax valid | yamllint | Yes |
 | Matches JSON Schema | ajv-cli | Yes |
-| No prerequisite cycles | custom Python | Yes |
+| No prerequisite cycles | custom Ruby | Yes |
 | All topic_id references exist | custom Python | Yes |
 | All syllabus_id references exist | custom Python | Yes |
 | Bloom's taxonomy levels are valid | JSON Schema enum | Yes |
