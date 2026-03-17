@@ -6,7 +6,8 @@ questions:
   # ---------------------------------------------------------
   - id: Q1
     text: >-
-      Represent the following repeated multiplication in index form: $m \times m \times m \times m \times m \times m \times m$.
+      Represent the following repeated multiplication in index form:
+      $m \times m \times m \times m \times m \times m \times m$.
       Then, state the 'asas' (base) and the 'indeks' (index).
     difficulty: easy
     learning_objective: 1.1.1
@@ -103,7 +104,9 @@ questions:
         text: "For multiplication with the same base, combine the number of factors by adding their indices."
 
   - id: Q5
-    text: "Simplify the following expression using the laws of indices: $2^6 \div 2^2$."
+    text: >-
+      Simplify the following expression using the laws of indices:
+      $2^6 \div 2^2$.
     difficulty: medium
     learning_objective: 1.2.2
     answer:
@@ -229,6 +232,111 @@ questions:
           Then, group the bases 2 and 3 separately and subtract the bottom indices from the top.
 
   - id: Q10
+    text: >-
+      Simplify the following expression: $\displaystyle\frac{(2x^2 y^{-3})^3}{4x^{-1} y^4}$.
+      Express your answer with positive indices.
+    difficulty: medium
+    learning_objective: 1.2.6
+    answer:
+      type: exact
+      value: "2x^7 / y^13"
+    working: |
+      Expand the numerator by multiplying the indices:
+      $(2x^2 y^{-3})^3 = 2^3 x^{2 \times 3} y^{-3 \times 3} = 8x^6 y^{-9}$
+      The expression becomes:
+      $\displaystyle\frac{8x^6 y^{-9}}{4x^{-1} y^4}$
+      Divide the coefficients: $8 / 4 = 2$.
+      Subtract the indices for base x: $6 - (-1) = 6 + 1 = 7$.
+      Subtract the indices for base y: $-9 - 4 = -13$.
+      Combine terms: $2x^7 y^{-13}$.
+      Convert to positive indices: $\displaystyle\frac{2x^7}{y^{13}}$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly expands the numerator to 8x^6 y^{-9}."
+      - marks: 1
+        criteria: "Correctly applies the division law to the variables, resulting in x^7 and y^{-13}."
+      - marks: 1
+        criteria: "Expresses the final answer with positive indices as (2x^7)/y^13."
+    hints:
+      - level: 1
+        text: >-
+          Apply the power outside the bracket to the coefficient (2) and both variables.
+          When dividing, subtract the bottom index from the top index.
+
+  - id: Q11
+    text: >-
+      Simplify the following expression:
+      $\displaystyle\frac{(-3x)^3 \times (2x^3y^{-4})^2}{108x^4y^3}$.
+      Express your answer with positive indices.
+    difficulty: hard
+    learning_objective: 1.2.6
+    answer:
+      type: exact
+      value: "-x^5 / y^11"
+    working: |
+      Expand the terms in the numerator:
+      $(-3x)^3 = (-3)^3 x^3 = -27x^3$
+      $(2x^3y^{-4})^2 = 2^2 x^{3 \times 2} y^{-4 \times 2} = 4x^6y^{-8}$
+      Multiply the expanded terms:
+      $(-27x^3) \times (4x^6y^{-8}) = -108x^9y^{-8}$
+      Divide by the denominator:
+      $\displaystyle\frac{-108x^9y^{-8}}{108x^4y^3}$
+      Coefficients: $-108 / 108 = -1$.
+      Base x: $9 - 4 = 5$.
+      Base y: $-8 - 3 = -11$.
+      Result: $-x^5 y^{-11} = -\displaystyle\frac{x^5}{y^{11}}$
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Correctly expands the first bracket to -27x^3."
+      - marks: 1
+        criteria: "Correctly expands the second bracket to 4x^6y^{-8}."
+      - marks: 1
+        criteria: "Combines the numerator and divides by the denominator coefficients correctly to get -1."
+      - marks: 1
+        criteria: "Submits the final correct expression with positive indices."
+    hints:
+      - level: 1
+        text: >-
+          Be careful with the negative coefficient! $(-3)^3$ is $-27$.
+          Expand all brackets in the top row first, multiply them together,
+          and then divide by the bottom row.
+
+  - id: Q12
+    text: >-
+      Simplify the following expression involving fractional and negative indices:
+      $\displaystyle\frac{(16p^8q^4)^{1/4}}{(p^{-2}q^3)^2}$.
+    difficulty: hard
+    learning_objective: 1.2.6
+    answer:
+      type: exact
+      value: "2p^6 / q^5"
+    working: |
+      Expand the numerator by multiplying indices by 1/4:
+      $(16p^8q^4)^{1/4} = 16^{1/4} p^{8/4} q^{4/4} = 2p^2q^1$
+      Expand the denominator by multiplying indices by 2:
+      $(p^{-2}q^3)^2 = p^{-2 \times 2} q^{3 \times 2} = p^{-4} q^6$
+      Divide the numerator by the denominator:
+      $\displaystyle\frac{2p^2q^1}{p^{-4} q^6}$
+      Base p: $2 - (-4) = 2 + 4 = 6$.
+      Base q: $1 - 6 = -5$.
+      Result: $2p^6 q^{-5} = \displaystyle\frac{2p^6}{q^5}$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly calculates the numerator as 2p^2q^1."
+      - marks: 1
+        criteria: "Correctly calculates the denominator as p^{-4} q^6."
+      - marks: 1
+        criteria: "Divides accurately and converts the final answer to positive indices."
+    hints:
+      - level: 1
+        text: >-
+          The power $1/4$ means the 4th root. Find the 4th root of 16,
+          and multiply the indices of the variables by $1/4$.
+
+  - id: Q13
     text: "Calculate the value of $x$ for the following equation: $3^x \times 9^{x-1} = 27$."
     difficulty: hard
     learning_objective: 1.2.7
@@ -259,10 +367,10 @@ questions:
     hints:
       - level: 1
         text: >-
-          Rewrite 9 and 27 as powers of 3. Once all the big numbers match,
-          you can drop them and just solve the indices as an algebra equation.
+          Rewrite 9 and 27 as powers of 3. Once all the bases match,
+          you can drop them and solve the indices as a standard algebra equation.
 
-  - id: Q11
+  - id: Q14
     text: >-
       Solve the following simultaneous equations (persamaan serentak) to find the values of $x$ and $y$:
       $8^x \times 2^y = 32$
@@ -296,15 +404,55 @@ questions:
     marks: 4
     rubric:
       - marks: 1
-        criteria: "Converts the first equation to base 2 to form the linear equation 3x + y = 5."
+        criteria: "Converts the first equation entirely to base 2 to form the linear equation 3x + y = 5."
       - marks: 1
-        criteria: "Converts the second equation to base 3 to form the linear equation x - 2y = -3."
+        criteria: "Converts the second equation entirely to base 3 to form the linear equation x - 2y = -3."
       - marks: 1
-        criteria: "Correctly identifies x = 1 using a valid elimination or substitution method."
+        criteria: "Correctly identifies the value of x as 1 using a valid elimination or substitution method."
       - marks: 1
-        criteria: "Correctly identifies y = 2."
+        criteria: "Correctly identifies the value of y as 2."
     hints:
       - level: 1
         text: >-
           Convert all bases in the first equation to base 2 and all bases in the second equation to base 3.
           This will give you two simple linear equations you can solve together.
+
+  - id: Q15
+    text: >-
+      In an experiment performed by Susan, the temperature of a metal rose from $25^{\circ}C$
+      to $T^{\circ}C$ according to the equation $T = 25(1.2)^m$ when the metal was heated for $m$ seconds.
+      Calculate the difference in temperature between the fifth second and the sixth second,
+      to the nearest degree Celsius.
+    difficulty: hard
+    learning_objective: 1.2.7
+    answer:
+      type: exact
+      value: "12"
+    working: |
+      Calculate the temperature at the fifth second ($m = 5$):
+      $T_5 = 25(1.2)^5$
+      $T_5 = 25(2.48832) = 62.208^{\circ}C$
+
+      Calculate the temperature at the sixth second ($m = 6$):
+      $T_6 = 25(1.2)^6$
+      $T_6 = 25(2.985984) = 74.6496^{\circ}C$
+
+      Calculate the difference in temperature:
+      Difference = $T_6 - T_5$
+      $= 74.6496 - 62.208 = 12.4416^{\circ}C$
+
+      Round to the nearest degree Celsius:
+      $= 12^{\circ}C$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly substitutes m=5 and m=6 into the formula to find the two specific temperatures."
+      - marks: 1
+        criteria: "Finds the exact difference between the two temperatures (12.4416)."
+      - marks: 1
+        criteria: "Correctly rounds the answer to the nearest whole number (12)."
+    hints:
+      - level: 1
+        text: >-
+          Substitute $m = 5$ into the equation to find the temperature at the 5th second.
+          Do the same for $m = 6$, and then subtract the smaller value from the larger one.

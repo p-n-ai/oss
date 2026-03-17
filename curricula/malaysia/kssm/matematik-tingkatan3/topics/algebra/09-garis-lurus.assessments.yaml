@@ -25,10 +25,56 @@ questions:
       - level: 1
         text: "Match the equation with the standard form $y = mx + c$, where $m$ is the gradient and $c$ is the y-intercept."
 
+  - id: Q2
+    text: >-
+      State the equation of a straight line that is parallel to the x-axis and passes
+      through the point $P(-2, 6)$.
+    difficulty: easy
+    learning_objective: 9.1.1
+    answer:
+      type: exact
+      value: "y = 6"
+    working: |
+      A straight line parallel to the x-axis has a gradient of 0 and takes the form $y = k$.
+      Since the line passes through $P(-2, 6)$, the y-coordinate is consistently 6.
+      Thus, the equation is $y = 6$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Recognizes that a line parallel to the x-axis has the form y = k."
+      - marks: 1
+        criteria: "Correctly states the equation as y = 6."
+    hints:
+      - level: 1
+        text: "A line parallel to the x-axis is perfectly horizontal, meaning its y-value never changes."
+
+  - id: Q3
+    text: >-
+      A straight line is parallel to the y-axis and passes through the point $Q(4, -3)$.
+      What is the equation of this straight line?
+    difficulty: easy
+    learning_objective: 9.1.1
+    answer:
+      type: exact
+      value: "x = 4"
+    working: |
+      A straight line parallel to the y-axis is a vertical line and takes the form $x = h$.
+      Since the line passes through $Q(4, -3)$, the x-coordinate is consistently 4.
+      Thus, the equation is $x = 4$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Recognizes that a line parallel to the y-axis has the form x = h."
+      - marks: 1
+        criteria: "Correctly states the equation as x = 4."
+    hints:
+      - level: 1
+        text: "A line parallel to the y-axis is perfectly vertical, meaning its x-value never changes."
+
   # ---------------------------------------------------------
   # SUBCHAPTER 9.1.2: Menukar Bentuk Persamaan
   # ---------------------------------------------------------
-  - id: Q2
+  - id: Q4
     text: "Change the equation of the straight line $3x - 5y = 15$ to the form $y = mx + c$."
     difficulty: easy
     learning_objective: 9.1.2
@@ -51,7 +97,7 @@ questions:
       - level: 1
         text: "You need to make $y$ the subject of the formula. Start by moving the $x$ term to the right side."
 
-  - id: Q3
+  - id: Q5
     text: >-
       State the x-intercept and y-intercept for the straight line
       $\displaystyle\frac{x}{6} + \displaystyle\frac{y}{3} = 1$.
@@ -76,10 +122,60 @@ questions:
           Look at the denominators in the equation format
           $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$.
 
+  - id: Q6
+    text: "Given the equation of a straight line is $2x + 5y = 30$, determine the x-intercept."
+    difficulty: medium
+    learning_objective: 9.1.2
+    answer:
+      type: exact
+      value: "15"
+    working: |
+      For points that lie on the x-axis, the value of the y-coordinate is zero.
+      Substitute $y = 0$ into the equation:
+      $2x + 5(0) = 30$
+      $2x = 30$
+      $x = 15$
+      Therefore, the x-intercept is 15.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Substitutes y = 0 into the given equation."
+      - marks: 1
+        criteria: "Correctly calculates x = 15."
+    hints:
+      - level: 1
+        text: "The x-intercept is the point where the line crosses the x-axis. What is the value of $y$ at that exact point?"
+
+  - id: Q7
+    text: >-
+      Write the equation of the straight line in the form $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$
+      given that its x-intercept is 4 and its y-intercept is -7.
+    difficulty: easy
+    learning_objective: 9.1.2
+    answer:
+      type: exact
+      value: "x/4 - y/7 = 1"
+    working: |
+      The formula for the intercept form is $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$.
+      Substitute $a = 4$ (x-intercept) and $b = -7$ (y-intercept).
+      $\displaystyle\frac{x}{4} + \displaystyle\frac{y}{-7} = 1$
+      $\displaystyle\frac{x}{4} - \displaystyle\frac{y}{7} = 1$
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Substitutes the intercepts into the correct denominators."
+      - marks: 1
+        criteria: "Expresses the final equation correctly, handling the negative sign properly."
+    hints:
+      - level: 1
+        text: >-
+          In the formula $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$,
+          $a$ represents the x-intercept and $b$ represents the y-intercept.
+
   # ---------------------------------------------------------
   # SUBCHAPTER 9.1.3 & 9.1.5: Titik pada Garis Lurus & Membina Persamaan
   # ---------------------------------------------------------
-  - id: Q4
+  - id: Q8
     text: "Determine whether the point $P(2, 8)$ lies on the straight line $y = 3x + 2$."
     difficulty: medium
     learning_objective: 9.1.3
@@ -102,7 +198,7 @@ questions:
       - level: 1
         text: "Substitute the x-coordinate of the point into the equation. Does it give you the same value as the y-coordinate?"
 
-  - id: Q5
+  - id: Q9
     text: >-
       Ali substitutes the coordinates of point $R(1, 2)$ into the straight line equation $x + 2y = 4$.
       He finds that the left side equals $5$, while the right side equals $4$. Explain what this means
@@ -128,7 +224,7 @@ questions:
       - level: 1
         text: "For a point to be on a line, both sides of the equation must be perfectly equal. What happens if they are not?"
 
-  - id: Q6
+  - id: Q10
     text: >-
       Determine the equation of a straight line with a gradient of $\displaystyle\frac{1}{2}$
       and that passes through point $P(6, 8)$.
@@ -160,7 +256,7 @@ questions:
   # ---------------------------------------------------------
   # SUBCHAPTER 9.1.4 & 9.1.6: Garis Selari & Titik Persilangan
   # ---------------------------------------------------------
-  - id: Q7
+  - id: Q11
     text: "Determine whether the straight line $y = 3x + 5$ is parallel to the straight line $6x - 2y = 9$."
     difficulty: medium
     learning_objective: 9.1.4
@@ -187,7 +283,7 @@ questions:
       - level: 1
         text: "Parallel lines must have the exact same gradient. Convert the second equation to $y = mx + c$ to check its gradient."
 
-  - id: Q8
+  - id: Q12
     text: "Find the point of intersection of the straight lines $2x + y = 5$ and $x + 2y = 1$."
     difficulty: hard
     learning_objective: 9.1.6
@@ -221,10 +317,37 @@ questions:
       - level: 1
         text: "Use simultaneous equations. Try expressing $y$ from the first equation and substituting it into the second."
 
+  - id: Q13
+    text: "Determine the point of intersection of the straight lines $y = -8$ and $y = -4x + 12$."
+    difficulty: medium
+    learning_objective: 9.1.6
+    answer:
+      type: exact
+      value: "(5, -8)"
+    working: |
+      Since the first equation gives $y = -8$, substitute this directly into the second equation:
+      $-8 = -4x + 12$
+      $4x = 12 + 8$
+      $4x = 20$
+      $x = 5$
+      The y-coordinate is already known to be $-8$.
+      Therefore, the point of intersection is $(5, -8)$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Substitutes y = -8 into the second equation."
+      - marks: 1
+        criteria: "Solves for x accurately to get x = 5."
+      - marks: 1
+        criteria: "Writes the final point of intersection as coordinates (5, -8)."
+    hints:
+      - level: 1
+        text: "You already know the exact value of $y$ from the first equation. Plug it into the second equation to find $x$."
+
   # ---------------------------------------------------------
   # SUBCHAPTER 9.1.7: Penyelesaian Masalah
   # ---------------------------------------------------------
-  - id: Q9
+  - id: Q14
     text: >-
       In a parallelogram $PQRS$, the gradient of $PQ$ is the same as $SR$, which is $\displaystyle\frac{1}{2}$.
       If $Q$ is $(0, h)$ and $P$ is $(-4, 6)$, determine the value of $h$.
@@ -258,7 +381,7 @@ questions:
           Use the formula for gradient $m = \displaystyle\frac{y_2 - y_1}{x_2 - x_1}$
           with the points P and Q, and set it equal to $\displaystyle\frac{1}{2}$.
 
-  - id: Q10
+  - id: Q15
     text: >-
       A straight road connects town E $(-7, -1)$ and town F $(3, 3)$ on a Cartesian map.
       Determine the equation of the straight road connecting the two towns.
