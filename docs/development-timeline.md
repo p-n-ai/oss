@@ -131,7 +131,7 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 
 | Task ID | Task | Owner | Status |
 |---------|------|-------|--------|
-| `O-W2D8-1` | 🧑 Write assessments for F3-01 and F3-09 (5 questions each) | 🧑 Education Lead (2hr) | ✅ Done |
+| `O-W2D8-1` | 🧑 Write assessments for F3-01 and F3-09 (5 questions each) | 🧑 Education Lead (2hr) | ✅ Done (Prepared by Thoriq, reviewed by Faiz) |
 | `O-W2D8-2` | 🧑🤖 AI-draft additional assessment questions for F3 topics | Collaborative | |
 
 ### Day 9 (Thu) — Cross-Form Prerequisites + Concepts
