@@ -1,111 +1,310 @@
 topic_id: F3-01
 provenance: ai-assisted
 questions:
+  # ---------------------------------------------------------
+  # SUBCHAPTER 1.1: Tatatanda Indeks (Index Notation)
+  # ---------------------------------------------------------
   - id: Q1
-    text: "Write $5 \\times 5 \\times 5 \\times 5$ in index form and state the base and the index."
+    text: >-
+      Represent the following repeated multiplication in index form: $m \times m \times m \times m \times m \times m \times m$.
+      Then, state the 'asas' (base) and the 'indeks' (index).
     difficulty: easy
     learning_objective: 1.1.1
     answer:
       type: exact
-      value: "5^4; base = 5; index = 4"
-      working: |
-        Four factors of 5 are multiplied together.
-        So the repeated multiplication is written as 5^4.
-        The base is 5 and the index is 4.
+      value: "m^7; asas = m; indeks = 7"
+    working: |
+      The factor m is multiplied by itself 7 times.
+      In index form, this is written as m to the power of 7 ($m^7$).
+      The 'asas' is the repeated factor, which is m.
+      The 'indeks' is the number of times the factor is repeated, which is 7.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Writes the correct index form 5^4."
+        criteria: "Correctly writes the expression in index form as m^7."
       - marks: 1
-        criteria: "States base 5 and index 4 correctly."
+        criteria: "Correctly identifies both the 'asas' as m and the 'indeks' as 7."
     hints:
       - level: 1
-        text: "Count how many times the same factor appears."
+        text: "Count how many times m appears in the multiplication to find the index."
 
   - id: Q2
-    text: "Simplify $3^2 \\times 3^5$."
+    text: >-
+      Write 64 in index form using base 2. Show your working using the repeated division method
+      (kaedah pembahagian berulang).
     difficulty: easy
+    learning_objective: 1.1.2
+    answer:
+      type: exact
+      value: "2^6"
+    working: |
+      Divide 64 repeatedly by 2:
+      64 ÷ 2 = 32
+      32 ÷ 2 = 16
+      16 ÷ 2 = 8
+      8 ÷ 2 = 4
+      4 ÷ 2 = 2
+      2 ÷ 2 = 1
+      The number 2 is divided 6 times (n = 6).
+      Hence, $64 = 2^6$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Shows the correct repeated division by 2."
+      - marks: 1
+        criteria: "Correctly states the final index form as 2^6."
+    hints:
+      - level: 1
+        text: "Keep dividing 64 by 2 until you reach 1. Count how many times you divided."
+
+  - id: Q3
+    text: "Calculate the value of the given number in index form: $(0.6)^3$."
+    difficulty: easy
+    learning_objective: 1.1.2
+    answer:
+      type: exact
+      value: "0.216"
+    working: |
+      $(0.6)^3$ means 0.6 is multiplied by itself 3 times.
+      $0.6 \times 0.6 \times 0.6$
+      $= 0.36 \times 0.6$
+      $= 0.216$
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly calculates the value as 0.216."
+    hints:
+      - level: 1
+        text: "Expand the index form into repeated multiplication: $0.6 \times 0.6 \times 0.6$."
+
+  # ---------------------------------------------------------
+  # SUBCHAPTER 1.2: Hukum Indeks (Law of Indices)
+  # ---------------------------------------------------------
+  - id: Q4
+    text: "Simplify the following expression using the laws of indices: $3^2 \times 3^5$."
+    difficulty: medium
     learning_objective: 1.2.1
     answer:
       type: exact
       value: "3^7"
-      working: |
-        When multiplying numbers in index form with the same base, add the indices.
-        3^2 × 3^5 = 3^(2+5) = 3^7
+    working: |
+      When multiplying numbers in index form with the same base, add the indices.
+      Rule: $a^m \times a^n = a^{m+n}$
+      $3^2 \times 3^5 = 3^{2+5}$
+      $= 3^7$
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Keeps the base as 3."
+        criteria: "Keeps the base correctly as 3."
       - marks: 1
-        criteria: "Adds the indices to obtain 7."
+        criteria: "Adds the indices correctly to obtain 7."
     hints:
       - level: 1
-        text: "The base stays the same. Combine the number of factors."
+        text: "For multiplication with the same base, combine the number of factors by adding their indices."
 
-  - id: Q3
-    text: "Simplify $2^6 \\div 2^2$."
+  - id: Q5
+    text: "Simplify the following expression using the laws of indices: $2^6 \div 2^2$."
     difficulty: medium
     learning_objective: 1.2.2
     answer:
       type: exact
       value: "2^4"
-      working: |
-        When dividing numbers in index form with the same base, subtract the indices.
-        2^6 ÷ 2^2 = 2^(6-2) = 2^4
+    working: |
+      When dividing numbers in index form with the same base, subtract the indices.
+      Rule: $a^m \div a^n = a^{m-n}$
+      $2^6 \div 2^2 = 2^{6-2}$
+      $= 2^4$
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Uses subtraction of indices correctly."
+        criteria: "Uses the subtraction rule for division of indices correctly."
       - marks: 1
-        criteria: "States the simplified answer 2^4."
+        criteria: "States the simplified answer as 2^4."
     hints:
       - level: 1
-        text: "Division with the same base means reducing the number of repeated factors."
+        text: "Division with the same base means reducing the number of repeated factors by subtracting."
 
-  - id: Q4
-    text: "Simplify and give your answer without negative indices: $4^{-2}$."
+  - id: Q6
+    text: "Simplify the following expression using the laws of indices: $(3^2)^4$."
+    difficulty: medium
+    learning_objective: 1.2.3
+    answer:
+      type: exact
+      value: "3^8"
+    working: |
+      When a number in index form is raised to a power, multiply the indices.
+      Rule: $(a^m)^n = a^{m \times n}$
+      $(3^2)^4 = 3^{2 \times 4}$
+      $= 3^8$
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly multiplies the indices to get 3^8."
+    hints:
+      - level: 1
+        text: "Multiply the inner index with the outer power."
+
+  - id: Q7
+    text: "Simplify $4^{-2}$. Express your answer in positive index form, then calculate its final value."
     difficulty: medium
     learning_objective: 1.2.4
     answer:
       type: exact
-      value: "1/16"
-      working: |
-        A negative index means reciprocal.
-        4^-2 = 1 / 4^2
-        = 1 / 16
-    marks: 3
+      value: "1/4^2; 1/16"
+    working: |
+      A negative index indicates a reciprocal.
+      Rule: $a^{-n} = \displaystyle\frac{1}{a^n}$
+      $4^{-2} = \displaystyle\frac{1}{4^2}$
+      Calculate the value:
+      $\displaystyle\frac{1}{4 \times 4} = \displaystyle\frac{1}{16}$
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Recognizes the reciprocal for a negative index."
+        criteria: "Correctly converts the negative index into a positive index fraction (1/4^2)."
       - marks: 1
-        criteria: "Evaluates 4^2 correctly."
-      - marks: 1
-        criteria: "Gives the final answer 1/16."
+        criteria: "Evaluates the expression to exactly 1/16."
     hints:
       - level: 1
-        text: "First rewrite with a positive index in the denominator."
+        text: "Move the base to the denominator to make the index positive."
 
-  - id: Q5
-    text: "Simplify $81^{1/2} + 8^{1/3}$."
-    difficulty: hard
+  - id: Q8
+    text: >-
+      Express the following number in the form $\sqrt[n]{a^m}$: $125^{2/3}$.
+      Then, calculate its final value without using a calculator.
+    difficulty: medium
     learning_objective: 1.2.5
     answer:
       type: exact
-      value: "11"
-      working: |
-        81^(1/2) = √81 = 9
-        8^(1/3) = ∛8 = 2
-        Therefore 9 + 2 = 11
+      value: '(\sqrt[3]{125})^2; 25'
+    working: |
+      Using the relationship $a^{m/n} = (\sqrt[n]{a})^m$:
+      $125^{2/3} = (\sqrt[3]{125})^2$
+      Calculate the cube root first:
+      $\sqrt[3]{125} = 5$
+      Calculate the square:
+      $5^2 = 25$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifies the denominator (3) as the root and the numerator (2) as the power."
+      - marks: 1
+        criteria: "Calculates the cube root of 125 as 5."
+      - marks: 1
+        criteria: "Squares the 5 to get the final answer 25."
+    hints:
+      - level: 1
+        text: "The denominator of the fraction index becomes the root, and the numerator becomes the power. Try taking the root first."
+
+  - id: Q9
+    text: >-
+      Simplify the following expression using the laws of indices:
+      $\displaystyle\frac{(2^3 \times 3^2)^2}{2^4 \times 3^3}$.
+    difficulty: medium
+    learning_objective: 1.2.6
+    answer:
+      type: exact
+      value: "12"
+    working: |
+      Apply the law $(a^m b^n)^q = a^{mq} b^{nq}$ to expand the numerator:
+      $(2^3 \times 3^2)^2 = 2^{3 \times 2} \times 3^{2 \times 2} = 2^6 \times 3^4$
+      Apply the division law $a^m / a^n = a^{m-n}$:
+      $\displaystyle\frac{2^6 \times 3^4}{2^4 \times 3^3} = 2^{6-4} \times 3^{4-3}$
+      Simplify indices:
+      $= 2^2 \times 3^1$
+      Calculate final value:
+      $= 4 \times 3$
+      $= 12$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly expands the brackets in the numerator."
+      - marks: 1
+        criteria: "Correctly applies the division law by subtracting indices for identical bases."
+      - marks: 1
+        criteria: "Evaluates the final numerical value accurately as 12."
+    hints:
+      - level: 1
+        text: >-
+          First, distribute the outside power (2) to the indices inside the bracket.
+          Then, group the bases 2 and 3 separately and subtract the bottom indices from the top.
+
+  - id: Q10
+    text: "Calculate the value of $x$ for the following equation: $3^x \times 9^{x-1} = 27$."
+    difficulty: hard
+    learning_objective: 1.2.7
+    answer:
+      type: exact
+      value: "5/3"
+    working: |
+      Convert all numbers to a common prime base (base 3):
+      $9 = 3^2$, so $9^{x-1} = (3^2)^{x-1} = 3^{2x-2}$
+      $27 = 3^3$
+      Substitute these into the equation:
+      $3^x \times 3^{2x-2} = 3^3$
+      Apply the multiplication law (add indices on the left side):
+      $3^{x + 2x - 2} = 3^3$
+      $3^{3x - 2} = 3^3$
+      Equate the indices (since bases are identical):
+      $3x - 2 = 3$
+      $3x = 5$
+      $x = \displaystyle\frac{5}{3}$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Expresses all terms (9 and 27) in the common base of 3."
+      - marks: 1
+        criteria: "Correctly combines the indices and forms a linear equation (3x - 2 = 3)."
+      - marks: 1
+        criteria: "Solves for x accurately to get 5/3."
+    hints:
+      - level: 1
+        text: >-
+          Rewrite 9 and 27 as powers of 3. Once all the big numbers match,
+          you can drop them and just solve the indices as an algebra equation.
+
+  - id: Q11
+    text: >-
+      Solve the following simultaneous equations (persamaan serentak) to find the values of $x$ and $y$:
+      $8^x \times 2^y = 32$
+      $3^x \div 9^y = \displaystyle\frac{1}{27}$
+    difficulty: hard
+    learning_objective: 1.2.7
+    answer:
+      type: exact
+      value: "x = 1, y = 2"
+    working: |
+      Equation 1 (Convert to base 2):
+      $(2^3)^x \times 2^y = 2^5$
+      $2^{3x+y} = 2^5$
+      $3x + y = 5$  --- (Eq 1)
+
+      Equation 2 (Convert to base 3):
+      $3^x \div (3^2)^y = 3^{-3}$
+      $3^{x-2y} = 3^{-3}$
+      $x - 2y = -3$ --- (Eq 2)
+
+      Solve using substitution method. From Eq 1:
+      $y = 5 - 3x$ --- (Eq 3)
+      Substitute Eq 3 into Eq 2:
+      $x - 2(5 - 3x) = -3$
+      $x - 10 + 6x = -3$
+      $7x = 7$
+      $x = 1$
+
+      Substitute x=1 into Eq 3:
+      $y = 5 - 3(1) = 2$
     marks: 4
     rubric:
       - marks: 1
-        criteria: "Identifies 81^(1/2) as the square root of 81."
+        criteria: "Converts the first equation to base 2 to form the linear equation 3x + y = 5."
       - marks: 1
-        criteria: "Identifies 8^(1/3) as the cube root of 8."
+        criteria: "Converts the second equation to base 3 to form the linear equation x - 2y = -3."
       - marks: 1
-        criteria: "Evaluates both terms correctly."
+        criteria: "Correctly identifies x = 1 using a valid elimination or substitution method."
       - marks: 1
-        criteria: "Finds the final total of 11."
+        criteria: "Correctly identifies y = 2."
     hints:
       - level: 1
-        text: "Recall that index 1/2 means square root and 1/3 means cube root."
+        text: >-
+          Convert all bases in the first equation to base 2 and all bases in the second equation to base 3.
+          This will give you two simple linear equations you can solve together.

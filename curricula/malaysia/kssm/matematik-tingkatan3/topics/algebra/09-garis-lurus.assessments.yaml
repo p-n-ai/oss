@@ -1,125 +1,294 @@
 topic_id: F3-09
 provenance: ai-assisted
 questions:
+  # ---------------------------------------------------------
+  # SUBCHAPTER 9.1.1: Mengenal Persamaan Garis Lurus
+  # ---------------------------------------------------------
   - id: Q1
     text: "For the straight line $y = 3x - 4$, state the gradient and the y-intercept."
     difficulty: easy
     learning_objective: 9.1.1
     answer:
       type: exact
-      value: "gradient = 3; y-intercept = -4"
-      working: |
-        Compare y = 3x - 4 with y = mx + c.
-        Therefore m = 3 and c = -4.
+      value: "Gradient = 3, y-intercept = -4"
+    working: |
+      Compare the given equation $y = 3x - 4$ with the general form $y = mx + c$.
+      The coefficient of $x$ is the gradient ($m$), so $m = 3$.
+      The constant term is the y-intercept ($c$), so $c = -4$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Identifies the gradient as 3."
+        criteria: "Correctly identifies the gradient as 3."
       - marks: 1
-        criteria: "Identifies the y-intercept as -4."
+        criteria: "Correctly identifies the y-intercept as -4."
     hints:
       - level: 1
-        text: "Match the equation with the form y = mx + c."
+        text: "Match the equation with the standard form $y = mx + c$, where $m$ is the gradient and $c$ is the y-intercept."
 
+  # ---------------------------------------------------------
+  # SUBCHAPTER 9.1.2: Menukar Bentuk Persamaan
+  # ---------------------------------------------------------
   - id: Q2
-    text: "Rewrite $2x + y = 7$ in the form $y = mx + c$."
+    text: "Change the equation of the straight line $3x - 5y = 15$ to the form $y = mx + c$."
     difficulty: easy
     learning_objective: 9.1.2
     answer:
       type: exact
-      value: "y = -2x + 7"
-      working: |
-        2x + y = 7
-        y = 7 - 2x
-        y = -2x + 7
+      value: "y = 3/5 x - 3"
+    working: |
+      $3x - 5y = 15$
+      $-5y = -3x + 15$
+      Divide the entire equation by $-5$ to isolate $y$:
+      $y = \displaystyle\frac{-3}{-5}x + \displaystyle\frac{15}{-5}$
+      $y = \displaystyle\frac{3}{5}x - 3$
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Rearranges to isolate y correctly."
+        criteria: "Rearranges the terms to place y on one side and x on the other (-5y = -3x + 15)."
       - marks: 1
-        criteria: "Writes the final answer in y = mx + c form."
+        criteria: "Divides by -5 correctly to state the final equation in y = mx + c form."
     hints:
       - level: 1
-        text: "Move 2x to the other side so y is alone."
+        text: "You need to make $y$ the subject of the formula. Start by moving the $x$ term to the right side."
 
   - id: Q3
-    text: "Determine whether the point $(2, 5)$ lies on the line $y = 2x + 1$."
+    text: >-
+      State the x-intercept and y-intercept for the straight line
+      $\displaystyle\frac{x}{6} + \displaystyle\frac{y}{3} = 1$.
+    difficulty: easy
+    learning_objective: 9.1.2
+    answer:
+      type: exact
+      value: "x-intercept = 6, y-intercept = 3"
+    working: |
+      Compare the given equation with the intercept form: $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$.
+      Here, $a$ is the x-intercept and $b$ is the y-intercept.
+      Therefore, x-intercept = 6 and y-intercept = 3.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly states the x-intercept is 6."
+      - marks: 1
+        criteria: "Correctly states the y-intercept is 3."
+    hints:
+      - level: 1
+        text: >-
+          Look at the denominators in the equation format
+          $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$.
+
+  # ---------------------------------------------------------
+  # SUBCHAPTER 9.1.3 & 9.1.5: Titik pada Garis Lurus & Membina Persamaan
+  # ---------------------------------------------------------
+  - id: Q4
+    text: "Determine whether the point $P(2, 8)$ lies on the straight line $y = 3x + 2$."
     difficulty: medium
     learning_objective: 9.1.3
     answer:
       type: exact
       value: "Yes"
-      working: |
-        Substitute x = 2 into y = 2x + 1.
-        y = 2(2) + 1 = 5
-        The calculated y-value matches the point's y-coordinate.
-        Therefore (2, 5) lies on the line.
-    marks: 3
+    working: |
+      Substitute $x = 2$ and $y = 8$ into the equation $y = 3x + 2$.
+      Left side: $y = 8$
+      Right side: $3(2) + 2 = 6 + 2 = 8$
+      Since Left side = Right side, the point $P(2, 8)$ satisfies the equation.
+      Therefore, $P(2, 8)$ lies on the straight line.
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Substitutes x = 2 correctly."
-      - marks: 1
-        criteria: "Obtains y = 5."
+        criteria: "Substitutes x = 2 into the expression 3x + 2 and calculates 8."
       - marks: 1
         criteria: "Makes the correct conclusion that the point lies on the line."
     hints:
       - level: 1
-        text: "Substitute the x-coordinate into the equation and compare the resulting y-value."
+        text: "Substitute the x-coordinate of the point into the equation. Does it give you the same value as the y-coordinate?"
 
-  - id: Q4
-    text: "The line $y = -\\frac{1}{2}x + 6$ is parallel to line $k$. If line $k$ passes through $(4, 1)$, find the equation of line $k$ in the form $y = mx + c$."
-    difficulty: hard
+  - id: Q5
+    text: >-
+      Ali substitutes the coordinates of point $R(1, 2)$ into the straight line equation $x + 2y = 4$.
+      He finds that the left side equals $5$, while the right side equals $4$. Explain what this means
+      regarding the position of point $R$.
+    difficulty: medium
+    learning_objective: 9.1.3
+    answer:
+      type: free_text
+      value: "Point R does not lie on the straight line x + 2y = 4 because its coordinates do not satisfy the equation."
+    working: |
+      Substitute $x = 1, y = 2$ into the left side of $x + 2y = 4$.
+      Left side = $1 + 2(2) = 5$
+      Right side = $4$
+      Since Left side $\neq$ Right side, the coordinates do not satisfy the equation.
+      Thus, the point does not lie on the line.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Notes that the values indicate the coordinates do not satisfy the equation (Left $\neq$ Right)."
+      - marks: 1
+        criteria: "Makes the final inference that point R does not lie on the straight line."
+    hints:
+      - level: 1
+        text: "For a point to be on a line, both sides of the equation must be perfectly equal. What happens if they are not?"
+
+  - id: Q6
+    text: >-
+      Determine the equation of a straight line with a gradient of $\displaystyle\frac{1}{2}$
+      and that passes through point $P(6, 8)$.
+    difficulty: medium
+    learning_objective: 9.1.5
+    answer:
+      type: exact
+      value: "y = 1/2 x + 5"
+    working: |
+      Given gradient, $m = 1/2$.
+      Substitute $m = 1/2, x = 6$, and $y = 8$ into $y = mx + c$ to find $c$.
+      $8 = (\displaystyle\frac{1}{2})(6) + c$
+      $8 = 3 + c$
+      $c = 8 - 3$
+      $c = 5$
+      Therefore, the equation of the straight line is $y = \displaystyle\frac{1}{2}x + 5$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly substitutes the gradient m = 1/2 into the standard equation."
+      - marks: 1
+        criteria: "Substitutes the coordinates (6, 8) and correctly solves for c = 5."
+      - marks: 1
+        criteria: "States the full correct final equation."
+    hints:
+      - level: 1
+        text: "You have $m$, $x$, and $y$. Plug them into $y = mx + c$ to find the missing intercept, $c$."
+
+  # ---------------------------------------------------------
+  # SUBCHAPTER 9.1.4 & 9.1.6: Garis Selari & Titik Persilangan
+  # ---------------------------------------------------------
+  - id: Q7
+    text: "Determine whether the straight line $y = 3x + 5$ is parallel to the straight line $6x - 2y = 9$."
+    difficulty: medium
     learning_objective: 9.1.4
     answer:
       type: exact
-      value: "y = -1/2 x + 3"
-      working: |
-        Parallel lines have the same gradient.
-        So line k has gradient m = -1/2.
-        Substitute the point (4, 1) into y = -1/2 x + c:
-        1 = -1/2(4) + c
-        1 = -2 + c
-        c = 3
-        Therefore y = -1/2 x + 3
-    marks: 4
+      value: "Yes, they are parallel."
+    working: |
+      For the first line, $y = 3x + 5$, the gradient is $3$.
+      For the second line, convert $6x - 2y = 9$ into the form $y = mx + c$:
+      $-2y = -6x + 9$
+      $y = \displaystyle\frac{-6}{-2}x + \displaystyle\frac{9}{-2}$
+      $y = 3x - 4.5$
+      The gradient of the second line is also $3$.
+      Since both lines have the same gradient ($m = 3$), they are parallel.
+    marks: 3
     rubric:
       - marks: 1
-        criteria: "Uses the same gradient for parallel lines."
+        criteria: "Identifies the gradient of the first line is 3."
       - marks: 1
-        criteria: "Substitutes the point correctly."
+        criteria: "Rearranges the second equation and correctly identifies its gradient is 3."
       - marks: 1
-        criteria: "Finds c = 3."
-      - marks: 1
-        criteria: "States the correct final equation."
+        criteria: "Concludes they are parallel based on having equal gradients."
     hints:
       - level: 1
-        text: "Start with the same gradient because the lines are parallel."
+        text: "Parallel lines must have the exact same gradient. Convert the second equation to $y = mx + c$ to check its gradient."
 
-  - id: Q5
-    text: "Find the point of intersection of the lines $y = x + 2$ and $y = -2x + 8$."
+  - id: Q8
+    text: "Find the point of intersection of the straight lines $2x + y = 5$ and $x + 2y = 1$."
     difficulty: hard
     learning_objective: 9.1.6
     answer:
       type: exact
-      value: "(2, 4)"
-      working: |
-        At the point of intersection, both equations have the same y-value.
-        So x + 2 = -2x + 8
-        3x = 6
-        x = 2
-        Substitute into y = x + 2:
-        y = 2 + 2 = 4
-        Therefore the point of intersection is (2, 4).
+      value: "(3, -1)"
+    working: |
+      Using the substitution method:
+      From the first equation: $y = 5 - 2x$  --- (1)
+      Substitute (1) into the second equation:
+      $x + 2(5 - 2x) = 1$
+      $x + 10 - 4x = 1$
+      $-3x = -9$
+      $x = 3$
+      Substitute $x = 3$ into (1):
+      $y = 5 - 2(3)$
+      $y = 5 - 6$
+      $y = -1$
+      Thus, the point of intersection is $(3, -1)$.
     marks: 4
     rubric:
       - marks: 1
-        criteria: "Equates the two expressions for y correctly."
+        criteria: "Correctly isolates one variable (e.g., y = 5 - 2x) OR matches coefficients for elimination."
       - marks: 1
-        criteria: "Solves for x = 2."
+        criteria: "Substitutes into the other equation to form a single-variable equation."
       - marks: 1
-        criteria: "Finds y = 4 by substitution."
+        criteria: "Correctly solves for the first variable (x = 3)."
       - marks: 1
-        criteria: "States the point of intersection correctly."
+        criteria: "Correctly solves for the second variable and states the coordinate point (3, -1)."
     hints:
       - level: 1
-        text: "At the intersection, both equations give the same value of y."
+        text: "Use simultaneous equations. Try expressing $y$ from the first equation and substituting it into the second."
+
+  # ---------------------------------------------------------
+  # SUBCHAPTER 9.1.7: Penyelesaian Masalah
+  # ---------------------------------------------------------
+  - id: Q9
+    text: >-
+      In a parallelogram $PQRS$, the gradient of $PQ$ is the same as $SR$, which is $\displaystyle\frac{1}{2}$.
+      If $Q$ is $(0, h)$ and $P$ is $(-4, 6)$, determine the value of $h$.
+    difficulty: hard
+    learning_objective: 9.1.7
+    answer:
+      type: exact
+      value: "8"
+    working: |
+      Since PQRS is a parallelogram, PQ is parallel to SR, so their gradients are equal.
+      Gradient $PQ = \displaystyle\frac{1}{2}$
+      Using the coordinates $P(-4, 6)$ and $Q(0, h)$ to calculate the gradient:
+      $\displaystyle\frac{h - 6}{0 - (-4)} = \displaystyle\frac{1}{2}$
+      $\displaystyle\frac{h - 6}{4} = \displaystyle\frac{1}{2}$
+      Cross-multiply:
+      $2(h - 6) = 4(1)$
+      $2h - 12 = 4$
+      $2h = 16$
+      $h = 8$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Applies the gradient formula correctly: (h - 6) / (0 - (-4))."
+      - marks: 1
+        criteria: "Equates the gradient formula to 1/2."
+      - marks: 1
+        criteria: "Solves the equation correctly to find h = 8."
+    hints:
+      - level: 1
+        text: >-
+          Use the formula for gradient $m = \displaystyle\frac{y_2 - y_1}{x_2 - x_1}$
+          with the points P and Q, and set it equal to $\displaystyle\frac{1}{2}$.
+
+  - id: Q10
+    text: >-
+      A straight road connects town E $(-7, -1)$ and town F $(3, 3)$ on a Cartesian map.
+      Determine the equation of the straight road connecting the two towns.
+    difficulty: hard
+    learning_objective: 9.1.7
+    answer:
+      type: exact
+      value: "y = 2/5 x + 9/5"
+    working: |
+      Step 1: Calculate the gradient ($m$) using $E(-7, -1)$ and $F(3, 3)$.
+      $m = \displaystyle\frac{3 - (-1)}{3 - (-7)} = \displaystyle\frac{4}{10} = \displaystyle\frac{2}{5}$
+      
+      Step 2: Determine the y-intercept ($c$) by substituting point $F(3, 3)$ into $y = mx + c$.
+      $3 = (\displaystyle\frac{2}{5})(3) + c$
+      $3 = \displaystyle\frac{6}{5} + c$
+      $c = 3 - \displaystyle\frac{6}{5}$
+      $c = \displaystyle\frac{15}{5} - \displaystyle\frac{6}{5} = \displaystyle\frac{9}{5}$
+      
+      Step 3: Write the equation.
+      $y = \displaystyle\frac{2}{5}x + \displaystyle\frac{9}{5}$
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifies the need to find the gradient between two points."
+      - marks: 1
+        criteria: "Calculates the gradient correctly as 2/5 (or 0.4)."
+      - marks: 1
+        criteria: "Substitutes one of the points and the gradient to solve for c = 9/5 (or 1.8)."
+      - marks: 1
+        criteria: "Constructs the final equation y = 2/5x + 9/5."
+    hints:
+      - level: 1
+        text: "You have two points. First, find the gradient between them. Then, use one of the points to find the y-intercept."
