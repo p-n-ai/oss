@@ -5,6 +5,11 @@
 **Status:** In Progress
 ---
 
+## 🔍 Audit Prompt Context
+*For the complete detailed prompt used to generate this audit, please see [H. Appendix: Original Audit Prompt](#h-appendix-original-audit-prompt) at the bottom of this document.*
+
+---
+
 ## A. Summary
 The overall health of the prerequisite chain is **Moderate**. While the baseline connections correctly link fundamental expression handling (F1-05) to heavier manipulation tasks (F2-02, F2-03), there are significant **missing prerequisites for equation-solving applications** and an alarming **misrepresentation of the `F1-06` scope** in the concept files. Many Form 2 and Form 3 topics implicitly assume linear equation mastery (F1-06) without formally requiring it in the YAML configuration.
 
@@ -84,3 +89,129 @@ The overall health of the prerequisite chain is **Moderate**. While the baseline
 *   *What they don’t understand:* A student attempting to make $r$ the subject in $p = qr - sr$ is helplessly stuck. 
 *   *Which prerequisite failed:* **F2-02** (Factorisation). They don't know the core mechanic of extracting a common bracket to get $p = r(q-s)$. 
 *   *How to fix:* The prerequisite is mapped correctly in the YAML! However, the AI tutor must recognize the specific failure point inside F2-03 and deploy a fallback dynamic micro-lesson on "Factoring Common Variables" (pulling an F2-02 snippet) rather than explaining F2-03 mechanics.
+
+---
+
+## H. Appendix: Original Audit Prompt
+
+```text
+You are an Education Lead responsible for validating curriculum progression and prerequisite logic for secondary school mathematics (Form 1–Form 3, KPM syllabus aligned).
+
+Your task is to perform a comprehensive audit of the prerequisite chain across forms, focusing on whether a Form 1 student's mastery correctly and sufficiently unlocks Form 2 and Form 3 topics.
+
+You will analyze:
+1. prerequisite graph (topic-to-topic dependencies)
+2. concepts YAML files (especially linear-equation.yaml and algebraic-expression.yaml)
+3. topic metadata (topic_id, syllabus_id, form level)
+
+---
+
+## OBJECTIVES
+
+### 1. Progression Validity Check
+- Verify that every Form 2 and Form 3 topic:
+  - Has all necessary prerequisite knowledge from earlier forms
+  - Does NOT assume knowledge that was never introduced
+
+---
+
+### 2. Learning Gap Detection
+Identify and list:
+- Missing prerequisite topics (e.g. a Form 2 topic requiring a skill not taught in Form 1)
+- Implicit knowledge gaps (skills assumed but not explicitly mapped)
+- Weak transitions between forms (e.g. sudden jump in difficulty)
+
+---
+
+### 3. Concept Coverage Audit
+For the following concept files:
+- mathematics/linear-equation.yaml
+- mathematics/algebraic-expression.yaml
+
+Check:
+- Are all required subskills covered across Form 1 → Form 3?
+- Are concepts introduced progressively (simple → abstract → applied)?
+- Are any concepts duplicated, missing, or misaligned with syllabus expectations?
+
+---
+
+### 4. Prerequisite Chain Integrity
+- Simulate a student mastering Form 1 topics:
+  - Can they logically progress into Form 2 topics?
+- Identify:
+  - Broken chains (missing links)
+  - Cycles that were not caught logically (even if script passed)
+  - Over-dependencies (too many prerequisites blocking progression)
+
+---
+
+### 5. Misalignment with KPM Learning Progression
+- Flag any topics that:
+  - Appear too early or too late
+  - Do not match expected cognitive level (e.g. algebraic manipulation before basic symbolic understanding)
+
+---
+
+## OUTPUT FORMAT
+
+Provide a structured report with the following sections:
+
+### A. Summary
+- Overall health of prerequisite chain (Good / Moderate / Problematic)
+- Key risks
+
+---
+
+### B. Critical Issues (Must Fix)
+List:
+- Topic ID
+- Issue
+- Why it is a problem
+- Suggested fix
+
+---
+
+### C. Learning Gaps
+List missing prerequisite knowledge:
+- Required skill
+- Where it should be introduced
+- Impacted topics
+
+---
+
+### D. Concept Coverage Issues
+For each concept file:
+- Missing subskills
+- Redundant or repeated concepts
+- Poor sequencing
+
+---
+
+### E. Progression Breakdown (F1 → F2 → F3)
+For each major topic (e.g. linear equations, algebraic expressions):
+- Describe how learning progresses
+- Identify weak transitions or jumps
+
+---
+
+### F. Recommendations
+- Specific improvements to prerequisite mapping
+- Suggestions for additional topics or concept nodes
+- Any restructuring needed
+
+---
+
+### G. Simulated Student Failure Cases
+Provide 3–5 examples of how a student might fail due to gaps in the prerequisite chain.
+Explain:
+- What they don't understand
+- Which prerequisite failed
+- How to fix it
+
+## IMPORTANT
+
+- Be strict and critical (do not assume correctness)
+- Think like a curriculum designer, not a developer
+- Focus on student learning progression, not just data correctness
+- Highlight anything that could cause confusion, cognitive overload, or learning gaps
+```
