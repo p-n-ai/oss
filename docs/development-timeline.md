@@ -124,8 +124,8 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 |---------|------|-------|--------|
 | `O-W2D7-1` | Create `curricula/malaysia/kssm/matematik-tingkatan3/syllabus.yaml` + `subjects/algebra.yaml` | 🤖 | ✅ Done |
 | `O-W2D7-2` | Create topic YAML stubs for F3-01 and F3-09 with prerequisites linking to Form 2 | 🤖 | ✅ Done |
-| `O-W2D7-3` | 🧑 Write F3-01 teaching notes (Indeks — Indices) | 🧑 Education Lead (2hr) | ✅ Done |
-| `O-W2D7-4` | 🧑🤖 AI-draft teaching notes for F3-09 (Garis Lurus) | Collaborative | ✅ Done |
+| `O-W2D7-3` | 🧑 Write F3-01 teaching notes (Indeks — Indices) | 🧑 Education Lead (2hr) | ✅ Done (Prepared by Thoriq, reviewed by Faiz) |
+| `O-W2D7-4` | 🧑🤖 AI-draft teaching notes for F3-09 (Garis Lurus) | Collaborative | ✅ Done (Prepared by Thoriq, reviewed by Faiz) |
 
 ### Day 8 (Wed) — Form 3 Assessments
 
