@@ -7,7 +7,7 @@ definition: "An equation of degree 1 in the form ax + b = c, where a is not equa
 curricula:
   - syllabus: malaysia-kssm-matematik-tingkatan1
     topic: F1-06
-    scope: "Linear equations in one variable, basic solving"
+    scope: "Solving linear equations in one variable and simultaneous linear equations in two variables (algebraic and graphical methods)"
   - syllabus: malaysia-kssm-matematik-tingkatan2
     topic: F2-03
     scope: "Algebraic formulae involving linear equations"

@@ -2,7 +2,7 @@
 **Date:** 17 March 2026
 **Task ID:** O-W2D9-5
 **Auditor:** Education Lead (Faiz) 
-**Status:** In Progress
+**Status:** Completed (18 March 2026)
 ---
 
 ## 🔍 Audit Prompt Context
@@ -19,9 +19,9 @@ The overall health of the prerequisite chain is **Moderate**. While the baseline
 
 | Status | Topic ID | Issue in Prerequisite Mapping | Why it is a problem | Suggested Fix |
 |:---:| :--- | :--- | :--- | :--- |
-| ⬜ | **F1-07** (Linear Inequalities) | `F1-06` (Linear Eq) is mapped as *recommended*, not *required*. | Solving linear inequalities (e.g., $2x + 1 > 7$) is functionally identical to solving linear equations. A student who cannot balance an equation cannot balance an inequality. | Upgrade `F1-06` to **required** in `07-ketaksamaan-linear.yaml`. |
-| ⬜ | **F3-01** (Indices) | Missing `F1-06` (Linear Eq) in *required*. | The highest cognitive jump in Forms 3 Indices (Subchapter 1.2.7) requires solving index equations (e.g., $3^{2x-1} = 27 \rightarrow 2x-1 = 3$). A student lacking `F1-06` mastery will be structurally blocked here. | Add `F1-06` to **required** in `01-indeks.yaml`. |
-| ⬜ | **F2-01** (Patterns & Sequences) | `F1-06` (Linear Eq) is mapped as *missing/recommended*. | Students are required to find the $n$-th position of a term (e.g., if $T_n = 5n - 2$ equals 48, find $n$). This requires manipulating the simple equation $5n - 2 = 48$. | Upgrade `F1-06` to **required** in `01-pola-dan-jujukan.yaml`. |
+| ✅ | **F1-07** (Linear Inequalities) | `F1-06` (Linear Eq) is mapped as *recommended*, not *required*. | Solving linear inequalities (e.g., $2x + 1 > 7$) is functionally identical to solving linear equations. A student who cannot balance an equation cannot balance an inequality. | Upgrade `F1-06` to **required** in `07-ketaksamaan-linear.yaml`. |
+| ✅ | **F3-01** (Indices) | Missing `F1-06` (Linear Eq) in *required*. | The highest cognitive jump in Forms 3 Indices (Subchapter 1.2.7) requires solving index equations (e.g., $3^{2x-1} = 27 \rightarrow 2x-1 = 3$). A student lacking `F1-06` mastery will be structurally blocked here. | Add `F1-06` to **required** in `01-indeks.yaml`. |
+| ✅ | **F2-01** (Patterns & Sequences) | `F1-06` (Linear Eq) is mapped as *missing/recommended*. | Students are required to find the $n$-th position of a term (e.g., if $T_n = 5n - 2$ equals 48, find $n$). This requires manipulating the simple equation $5n - 2 = 48$. | Upgrade `F1-06` to **required** in `01-pola-dan-jujukan.yaml`. |
 
 ---
 
@@ -64,11 +64,11 @@ The overall health of the prerequisite chain is **Moderate**. While the baseline
 
 ## F. Recommendations
 
-1. **Mandatory YAML Adjustments:**
+1. ✅ **Mandatory YAML Adjustments:**
    * Edit `07-ketaksamaan-linear.yaml`, `01-pola-dan-jujukan.yaml`, and `01-indeks.yaml` to move `F1-06` from `recommended` (or non-existent) to the `required` dependencies list.
-2. **Refactor Concept Nodes:** 
+2. ✅ **Refactor Concept Nodes:** 
    * Edit `linear-equation.yaml` to include *"simultaneous linear equations graphically and algebraically"* in the F1-06 scope. 
-3. **Teaching Notes Realignment:** 
+3. ✅ **Teaching Notes Realignment:** 
    * The Teaching Notes for F1-06 must specifically "throttle" the graphical simultaneous intersection subchapters so teachers don't attempt to teach $y = mx + c$ properties too early (stealing the difficulty from F3-09). 
 
 ---

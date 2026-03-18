@@ -61,6 +61,11 @@ Alright, now that they know what algebraic expressions and variables are, it's t
 - **Strategies:** Teach *Kaedah Penggantian* (Substitution): isolating one variable and "inserting" it into the other equation. Teach *Kaedah Penghapusan* (Elimination): multiplying an equation so coefficients match, then stacking them to add/subtract a variable out of existence.
 - **The Trap:** Adding equations incorrectly during Elimination. If they see $2y$ and $-2y$, students might subtract instead of adding. Teach them a catchy rule: "Same signs subtract, opposite signs add."
 
+> [!IMPORTANT]
+> **Curriculum Guardrail (F1-06 vs F3-09):**
+> In this chapter, students only need to understand that a linear equation forms a straight line and that the intersection is the simultaneous solution. **Do NOT** introduce the concepts of "gradient" ($m$), "intercepts" ($c$), or the formal equation $y = mx + c$. These are reserved for Form 3 (Garis Lurus). Keep the focus purely on point-plotting and algebraic manipulation at this stage.
+
+
 ## High Alert Misconceptions
 | Misconception | Why Students Think This | How to Fix |
 |---------------|-------------------------|------------|

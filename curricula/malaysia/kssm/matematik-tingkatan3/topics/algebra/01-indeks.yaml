@@ -37,6 +37,7 @@ learning_objectives:
 prerequisites:
   required:
     - F1-05
+    - F1-06
     - F2-02
   recommended:
     - F2-03

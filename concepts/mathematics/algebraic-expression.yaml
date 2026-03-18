@@ -9,8 +9,14 @@ curricula:
     topic: F1-05
     scope: "Basic expressions, like terms, substitution, and simplification"
   - syllabus: malaysia-kssm-matematik-tingkatan2
+    topic: F2-01
+    scope: "Generalising number patterns using algebraic expressions"
+  - syllabus: malaysia-kssm-matematik-tingkatan2
     topic: F2-02
     scope: "Expansion, factorisation, and algebraic fractions"
+  - syllabus: malaysia-kssm-matematik-tingkatan2
+    topic: F2-03
+    scope: "Changing subject of formula through algebraic manipulation"
   - syllabus: malaysia-kssm-matematik-tingkatan3
     topic: F3-01
     scope: "Indices applied to numerical and algebraic expressions"

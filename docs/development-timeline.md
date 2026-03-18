@@ -142,7 +142,7 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 | `O-W2D9-2` | `scripts/check-references.rb` — verify all topic_id and syllabus_id references are valid | 🤖 | ✅ Done |
 | `O-W2D9-3` | Create `concepts/mathematics/linear-equation.yaml` bridging F1→F2→F3 linear equations | 🤖 | ✅ Done |
 | `O-W2D9-4` | Create `concepts/mathematics/algebraic-expression.yaml` bridging expansion/factorisation across forms | 🤖 | ✅ Done |
-| `O-W2D9-5` | 🧑 Verify prerequisite chain: can a Form 1 student's mastery correctly unlock Form 2 topics? | 🧑 Education Lead | |
+| `O-W2D9-5` | 🧑 Verify prerequisite chain: can a Form 1 student's mastery correctly unlock Form 2 topics? | 🧑 Education Lead | ✅ Done (Full F1-F3 audit + fixes) |
 
 ### Day 10 (Fri) — Quality Audit
 
