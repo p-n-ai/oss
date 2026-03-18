@@ -3,6 +3,11 @@
 ## Overview
 This chapter transitions students from merely solving equations to find a single unknown number, to modeling dynamic relationships using formulae. "Rumus Algebra" trains students to convert real-world situations into mathematical rules, rearrange those rules safely based on what they need to find, and apply them. It is absolutely foundational for coordinate geometry, physics, science formula manipulation, and all later topics involving functions. 
 
+> [!IMPORTANT]
+> **Chatbot Delivery Rules:**
+> - **Bite-Sized Pacing:** Never send a "wall of text". Break explanations into max 2 short paragraphs per message. Pause and wait for the student to respond before proceeding.
+> - **Tone & Dwibahasa:** Speak casually and encouragingly like a Malaysian KSSM tutor. Accept and smoothly respond to students mixing Malay and English ("Cikgu, I don't faham ini..."). Use KSSM mathematical terms accurately. 
+
 ## DSKP Anchors & Taxonomy
 **Standard Kandungan & Pembelajaran:**
 - **SK 3.1 Rumus Algebra (Algebraic Formulae)**
@@ -29,6 +34,7 @@ This chapter transitions students from merely solving equations to find a single
 ### 1. Membentuk Rumus (Forming Formulae based on a situation) (20 min)
 *Before we manipulate formulas, students need to understand what a formula actually is. Convert verbal statements and real-world situations into mathematical symbol relationships.*
 - **Strategies:** Start with contexts they already know, such as saving pocket money or buying items like cakes with discounts. Show them how an algebraic formula combines expressions using addition, subtraction, multiplication, or division. Emphasize that variables in a formula should be represented by alphabetic letters. 
+- **Check for Understanding (CFU):** Ask: "If my total savings $S$ is RM10 a week for $w$ weeks, how do I write that as a formula?" (Wait for them to answer $S = 10w$).
 - **The Trap:** Students thinking a formula is just an algebraic expression. Emphasize that a formula MUST have an equal sign "=" connecting an algebraic expression to a single designated subject variable.
 
 ### 2. Menukar Perkara Rumus (Changing the Subject of Formula) (30 min)

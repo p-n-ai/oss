@@ -37,7 +37,7 @@ questions:
     marks: 1
     rubric:
       - marks: 1
-        criteria: "Forms the formula C = mn correctly."
+        criteria: "Forms the formula C = mn correctly. Accept equivalent forms like mn = C or C = nm."
     hints:
       - level: 1
         text: "Think: cost per item multiplied by number of items."
@@ -58,7 +58,7 @@ questions:
       - marks: 1
         criteria: "Applies inverse operations correctly on both sides by adding 8."
       - marks: 1
-        criteria: "Presents correct subject form for x by dividing by 3."
+        criteria: "Presents correct subject form for x by dividing by 3. Accept equivalent forms like (y + 8) / 3 = x."
     hints:
       - level: 1
         text: "Undo -8 first, then undo multiplication by 3."
@@ -81,7 +81,7 @@ questions:
       - marks: 1
         criteria: "Applies square root to the entire opposite side."
       - marks: 1
-        criteria: "States the final correct formula for j."
+        criteria: "States the final correct formula for j. Accept equivalent reversed equation."
     hints:
       - level: 1
         text: "First isolate j^2 by removing \\pi. Then remember that the opposite of squaring is finding the square root."
@@ -264,7 +264,7 @@ questions:
       - marks: 1
         criteria: "Correctly applies 'keep, change, flip' to cancel the m variables."
       - marks: 1
-        criteria: "Isolates m successfully to form m = 2n + 3."
+        criteria: "Isolates m successfully to form m = 2n + 3. Accept m = 3 + 2n or reversed equation."
       - marks: 1
         criteria: "Substitutes n = 12 correctly into the rearranged formula."
       - marks: 1

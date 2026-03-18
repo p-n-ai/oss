@@ -143,7 +143,7 @@ questions:
       - marks: 1
         criteria: "Identifies the correct Highest Common Factor (4x)."
       - marks: 1
-        criteria: "Writes the fully factorised form correctly."
+        criteria: "Writes the fully factorised form correctly. Accept equivalent forms like 4x(3x + 2)."
     hints:
       - level: 1
         text: "Look for the largest number and the largest variable that can divide both terms."
@@ -164,7 +164,7 @@ questions:
       - marks: 1
         criteria: "Recognizes 81 as the perfect square of 9."
       - marks: 1
-        criteria: "Applies the rule correctly to yield (b + 9)(b - 9)."
+        criteria: "Applies the rule correctly to yield (b + 9)(b - 9). Accept bracket reversal: (b - 9)(b + 9)."
     hints:
       - level: 1
         text: "81 is a perfect square. Use the rule x^2 - y^2 = (x + y)(x - y)."
@@ -191,7 +191,7 @@ questions:
       - marks: 1
         criteria: "Validates middle term correctly using cross multiplication."
       - marks: 1
-        criteria: "Writes the final brackets correctly."
+        criteria: "Writes the final brackets correctly. Accept bracket reversal: (x + 4)(x + 2)."
     hints:
       - level: 1
         text: "Find two numbers that multiply to give 8 and add together to give 6."
@@ -217,7 +217,7 @@ questions:
       - marks: 1
         criteria: "Extracts common factors to create a matching binomial bracket."
       - marks: 1
-        criteria: "Extracts the common binomial bracket to give the final answer."
+        criteria: "Extracts the common binomial bracket to give the final answer. Accept bracket reversal: (p + r)(q + s)."
     hints:
       - level: 1
         text: "Divide the 4 terms into two groups of 2. Factorise each group separately first."

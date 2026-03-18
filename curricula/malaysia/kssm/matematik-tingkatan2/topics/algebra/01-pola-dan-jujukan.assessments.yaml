@@ -20,7 +20,7 @@ questions:
     marks: 1
     rubric:
       - marks: 1
-        criteria: "Correctly identifies all three even numbers without including odd numbers."
+        criteria: "Correctly identifies all three even numbers without including odd numbers. Accept numbers in any order."
     hints:
       - level: 1
         text: "Even numbers can be divided exactly by 2. Check the last digit of each number."
@@ -263,7 +263,7 @@ questions:
     marks: 3
     rubric:
       - marks: 2
-        criteria: "Forms the correct algebraic expression (3n)."
+        criteria: "Forms the correct algebraic expression (3n). Accept variations with extra spaces."
       - marks: 1
         criteria: "Correctly defines the starting values of n (n = 1, 2, 3...)."
     hints:
@@ -448,7 +448,7 @@ questions:
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Correctly states P = -17."
+        criteria: "Correctly states P = -17. Accept variations in order of answering P and Q."
       - marks: 1
         criteria: "Correctly states Q = -23."
     hints:

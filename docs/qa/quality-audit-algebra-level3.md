@@ -61,9 +61,9 @@ To pass the audit, every topic must fulfil the following criteria:
 | F1 | `F1-05` | ✅ | ✅ | ✅ | Done (Batch 1) - Added CFU & Input Tolerance |
 | F1 | `F1-06` | ✅ | ✅ | ✅ | Done (Batch 1) - Added CFU & Input Tolerance |
 | F1 | `F1-07` | ✅ | ✅ | ✅ | Done (Batch 1) - Added CFU & Input Tolerance |
-| F2 | `F2-01` | ⬜ | ⬜ | ⬜ | pending review |
-| F2 | `F2-02` | ⬜ | ⬜ | ⬜ | pending review |
-| F2 | `F2-03` | ⬜ | ⬜ | ⬜ | pending review |
+| F2 | `F2-01` | ✅ | ✅ | ✅ | Done (Batch 2) - Added CFU & Input Tolerance |
+| F2 | `F2-02` | ✅ | ✅ | ✅ | Done (Batch 2) - Added CFU & Input Tolerance |
+| F2 | `F2-03` | ✅ | ✅ | ✅ | Done (Batch 2) - Added CFU & Input Tolerance |
 | F3 | `F3-01` | ⬜ | ⬜ | ⬜ | pending review |
 | F3 | `F3-09` | ⬜ | ⬜ | ⬜ | pending review |
 

@@ -3,6 +3,11 @@
 ## Overview
 "Pemfaktoran dan Pecahan Algebra" is arguably the most critical and challenging algebra chapter in the lower secondary syllabus. It introduces students to expanding expressions, reversing that process through factorisation, and manipulating algebraic fractions using the four fundamental operations. Mastery of this chapter is the ultimate gateway to advanced mathematics; conversely, it is also the danger zone where the highest rate of student misconceptions occurs, specifically regarding sign errors and "illegal" fraction cancellations.
 
+> [!IMPORTANT]
+> **Chatbot Delivery Rules:**
+> - **Bite-Sized Pacing:** Never send a "wall of text". Break explanations into max 2 short paragraphs per message. Pause and wait for the student to respond before proceeding.
+> - **Tone & Dwibahasa:** Speak casually and encouragingly like a Malaysian KSSM tutor. Accept and smoothly respond to students mixing Malay and English ("Cikgu, I don't faham ini..."). Use KSSM mathematical terms accurately.
+
 ## DSKP Anchors & Taxonomy
 **Standard Kandungan & Pembelajaran (Content & Learning Standards):**
 - **SK 2.1 Kembangan (Expansion)**
@@ -38,6 +43,7 @@
 ### 1. Kembangan Meaning and Mechanics (Expansion) (20 min)
 Start your lesson by grounding expansion in geometric reality, not just abstract rules. Use Jubin Algebra (Algebraic Tiles) or area models to prove that $a(b+c)$ is exactly the same as finding the area of a large rectangle ($ab + ac$). Once they trust the geometry, you can safely introduce the distributive arrows.
 - **Strategies:** For double brackets $(a+b)(c+d)$, teach a systematic approach like multiplying every single term in the first bracket with every term in the second. Draw physical arrows on the board.
+- **Check for Understanding (CFU):** Ask: "When we expand $x(x+5)$, do we get $2x+5$ or $x^2+5x$?" (Wait for them to answer $x^2+5x$).
 - **The Trap:** Watch out for negative signs! Teach them to treat the sign as permanently glued to the term immediately behind it. If they see $-2x(3x - 4)$, they must distribute the exact negative package: $(-2x \times 3x) + (-2x \times -4)$.
 
 ### 2. Pemfaktoran as Reverse Expansion (Factorisation) (25 min)
@@ -55,6 +61,7 @@ This is the highest danger zone for misconceptions. Ground fraction addition hea
 ### 4. Method Selection (Multiplying and Dividing Fractions) (20 min)
 Here, students need to learn exactly when it is legal to cancel things out. Draw a huge skull on the whiteboard when showing the classic error: cancelling the $x$'s in $\displaystyle\frac{x+2}{x}$.
 - **The Golden Rule of Cancellation:** You can only cancel FACTORS (things being multiplied), never TERMS (things being added or subtracted).
+- **Check for Understanding (CFU):** Ask: "Can I cancel the $x$ in $\displaystyle\frac{x+2}{x}$ to get 2?" (Wait for them to answer NO! Because $x$ and 2 are added together, not multiplied).
 - **Factorise First:** Force students to fully factorise all expressions before any division or multiplication happens. 
 - **Division:** Immediately link it back to the "Keep, Change, Flip" (Salingan) rule. Flip the second fraction to turn it into multiplication, factorise everything, and only then start cancelling top-to-bottom.
 

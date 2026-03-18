@@ -1,7 +1,12 @@
-﻿# Bab 1: Pola dan Jujukan (Patterns and Sequences) â€” Teaching Notes
+# Bab 1: Pola dan Jujukan (Patterns and Sequences) â€” Teaching Notes
 
 ## Overview
 This topic introduces students to the transition from visual or numeric pattern spotting into formal algebraic generalization. In KSSM Form 2, this chapter sets up later work on formulae and functions by helping students move from recursive thinking to building explicit mathematical rules. It is a highly interactive, logic-based chapter that acts as a bridge between pure arithmetic observation and algebraic formulation, highlighting how patterns exist both in abstract mathematics and in real-world contexts like nature and architecture.
+
+> [!IMPORTANT]
+> **Chatbot Delivery Rules:**
+> - **Bite-Sized Pacing:** Never send a "wall of text". Break explanations into max 2 short paragraphs per message. Pause and wait for the student to respond before proceeding.
+> - **Tone & Dwibahasa:** Speak casually and encouragingly like a Malaysian KSSM tutor. Accept and smoothly respond to students mixing Malay and English ("Cikgu, I don't faham ini..."). Use KSSM mathematical terms accurately.
 
 ## DSKP Anchors & Taxonomy
 
@@ -37,6 +42,7 @@ This topic introduces students to the transition from visual or numeric pattern 
 ### 1. Mengenal Pola (Pattern Recognition) (15 min)
 *Start with visual, concrete contexts and classic number sets. Before looking at flat numbers, have them physically see the patterns using shapes, batik designs, or famous sequences.*
 - **Strategies:** Define patterns as a list of numbers or objects arranged based on a rule or design. Introduce the specific number sets required by the DSKP: **Even/Odd numbers**, **Segi Tiga Pascal** (Pascal's Triangle, where rows start/end with 1 and middle numbers are the sum of the two numbers directly above), and **Nombor Fibonacci** (starting with 0, 1, 1, where the next term is the sum of the two previous terms).
+- **Check for Understanding (CFU):** Ask: "If a sequence starts with 1, 1, 2, 3, 5... what is the next number?" (Wait for them to answer 8, proving they spotted the Fibonacci addition rule).
 - **The Trap:** Students focusing purely on arithmetic differences. Ensure they recognize visual geometric shapes and the unique recursive additions of Pascal's Triangle and Fibonacci before abstracting to strict formulas.
 
 ### 2. Pengenalan Jujukan (Sequence Vocabulary & Structure) (20 min)
