@@ -25,30 +25,30 @@ To perform a full quality review of all 8 KSSM Algebra topics (Form 1 to Form 3)
 To pass the audit, every topic must fulfil the following criteria:
 
 ### 1. Structure & Metadata (`[topic_id].yaml`)
-- [ ] Contains correct DSKP `learning_objectives` with mapped Bloom’s levels.
-- [ ] Proper minimum score, assessment count, and spaced repetition logic defined.
-- [ ] Links both the `teaching.md` (AI Teaching Notes) and `assessments.yaml` files.
-- [ ] Prerequisites are accurately defined (already audited in O-W2D9-5).
+- [x] Contains correct DSKP `learning_objectives` with mapped Bloom’s levels.
+- [x] Proper minimum score, assessment count, and spaced repetition logic defined.
+- [x] Links both the `teaching.md` (AI Teaching Notes) and `assessments.yaml` files.
+- [x] Prerequisites are accurately defined (already audited in O-W2D9-5).
 
 ### 2. Teaching Notes (`[topic_id].teaching.md`)
-- [ ] Conversational and pedagogical tone for the AI tutor to adopt.
-- [ ] **Bite-Sized Delivery:** Content is structured to be delivered in short chat bubbles (max 2-3 paragraphs at a time) rather than walls of text.
-- [ ] **Check for Understanding (CFU):** Frequent pause points where the AI asks the student to confirm understanding before moving on.
-- [ ] **Tone & Localization:** Tone is approachable, encouraging, and primed to understand KSSM-specific terminology/mixed languages ("Dwibahasa").
-- [ ] **High Alert Misconceptions:** Explicitly listed "traps" to help the AI anticipate common student errors.
-- [ ] **Curriculum Guardrails:** Instructions preventing the AI from accidentally teaching higher-level concepts too early.
+- [x] Conversational and pedagogical tone for the AI tutor to adopt.
+- [x] **Bite-Sized Delivery:** Content is structured to be delivered in short chat bubbles (max 2-3 paragraphs at a time) rather than walls of text.
+- [x] **Check for Understanding (CFU):** Frequent pause points where the AI asks the student to confirm understanding before moving on.
+- [x] **Tone & Localization:** Tone is approachable, encouraging, and primed to understand KSSM-specific terminology/mixed languages ("Dwibahasa").
+- [x] **High Alert Misconceptions:** Explicitly listed "traps" to help the AI anticipate common student errors.
+- [x] **Curriculum Guardrails:** Instructions preventing the AI from accidentally teaching higher-level concepts too early.
 
 ### 3. Assessments (`[topic_id].assessments.yaml`)
-- [ ] Covers a diverse range of questions across Cognitive levels (TP1 to TP6).
-- [ ] Minimum of 10-15 questions to ensure robust testing capabilities.
-- [ ] **Input Tolerance Rules:** Rubric explicitly instructs the AI to accept equivalent algebraic expressions (e.g., $x+y$ and $y+x$, ignoring spacing).
-- [ ] **Scaffolded Hints:** Hints progressively reveal the answer (Hint 1: Concept -> Hint 2: Setup -> Hint 3: First step) rather than giving the answer away immediately.
-- [ ] Uses strict YAML formatting (e.g., folded scalars `>-` for multi-line text).
-- [ ] Mathematical notation uses correct LaTeX, but is verified to be readable in standard chat apps (or platform limits are accounted for).
+- [x] Covers a diverse range of questions across Cognitive levels (TP1 to TP6).
+- [x] Minimum of 10-15 questions to ensure robust testing capabilities.
+- [x] **Input Tolerance Rules:** Rubric explicitly instructs the AI to accept equivalent algebraic expressions (e.g., $x+y$ and $y+x$, ignoring spacing).
+- [x] **Scaffolded Hints:** Hints progressively reveal the answer (Hint 1: Concept -> Hint 2: Setup -> Hint 3: First step) rather than giving the answer away immediately.
+- [x] Uses strict YAML formatting (e.g., folded scalars `>-` for multi-line text).
+- [x] Mathematical notation uses correct LaTeX, but is verified to be readable in standard chat apps (or platform limits are accounted for).
 
 ### 4. Live Chat Simulation (Dry Run)
-- [ ] Run one "happy path" (student gets it right).
-- [ ] Run one "struggle path" (student gets it wrong, needs Dwibahasa support, handles equivalent expression input).
+- [x] Run one "happy path" (student gets it right).
+- [x] Run one "struggle path" (student gets it wrong, needs Dwibahasa support, handles equivalent expression input).
 
 ---
 
@@ -64,8 +64,8 @@ To pass the audit, every topic must fulfil the following criteria:
 | F2 | `F2-01` | ✅ | ✅ | ✅ | Done (Batch 2) - Added CFU & Input Tolerance |
 | F2 | `F2-02` | ✅ | ✅ | ✅ | Done (Batch 2) - Added CFU & Input Tolerance |
 | F2 | `F2-03` | ✅ | ✅ | ✅ | Done (Batch 2) - Added CFU & Input Tolerance |
-| F3 | `F3-01` | ⬜ | ⬜ | ⬜ | pending review |
-| F3 | `F3-09` | ⬜ | ⬜ | ⬜ | pending review |
+| F3 | `F3-01` | ✅ | ✅ | ✅ | Done (Batch 3) - Added CFU & Input Tolerance |
+| F3 | `F3-09` | ✅ | ✅ | ✅ | Done (Batch 3) - Added CFU & Input Tolerance |
 
 ---
 

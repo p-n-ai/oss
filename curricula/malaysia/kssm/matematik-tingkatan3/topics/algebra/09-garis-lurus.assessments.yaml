@@ -20,7 +20,7 @@ questions:
       - marks: 1
         criteria: "Correctly identifies the gradient as 3."
       - marks: 1
-        criteria: "Correctly identifies the y-intercept as -4."
+        criteria: "Correctly identifies the y-intercept as -4. Accept these facts in any order."
     hints:
       - level: 1
         text: "Match the equation with the standard form $y = mx + c$, where $m$ is the gradient and $c$ is the y-intercept."
@@ -92,7 +92,7 @@ questions:
       - marks: 1
         criteria: "Rearranges the terms to place y on one side and x on the other (-5y = -3x + 15)."
       - marks: 1
-        criteria: "Divides by -5 correctly to state the final equation in y = mx + c form."
+        criteria: "Divides by -5 correctly to state the final equation in y = mx + c form. Accept equivalent decimal forms like y = 0.6x - 3."
     hints:
       - level: 1
         text: "You need to make $y$ the subject of the formula. Start by moving the $x$ term to the right side."
@@ -165,7 +165,7 @@ questions:
       - marks: 1
         criteria: "Substitutes the intercepts into the correct denominators."
       - marks: 1
-        criteria: "Expresses the final equation correctly, handling the negative sign properly."
+        criteria: "Expresses the final equation correctly, handling the negative sign properly. Accept forms with added spaces like x/4 - y/7 = 1."
     hints:
       - level: 1
         text: >-
@@ -248,7 +248,7 @@ questions:
       - marks: 1
         criteria: "Substitutes the coordinates (6, 8) and correctly solves for c = 5."
       - marks: 1
-        criteria: "States the full correct final equation."
+        criteria: "States the full correct final equation. Accept decimal equivalents like y = 0.5x + 5."
     hints:
       - level: 1
         text: "You have $m$, $x$, and $y$. Plug them into $y = mx + c$ to find the missing intercept, $c$."
@@ -411,7 +411,7 @@ questions:
       - marks: 1
         criteria: "Substitutes one of the points and the gradient to solve for c = 9/5 (or 1.8)."
       - marks: 1
-        criteria: "Constructs the final equation y = 2/5x + 9/5."
+        criteria: "Constructs the final equation y = 2/5x + 9/5. Accept decimal equivalent like y = 0.4x + 1.8."
     hints:
       - level: 1
         text: "You have two points. First, find the gradient between them. Then, use one of the points to find the y-intercept."

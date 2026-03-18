@@ -3,6 +3,11 @@
 ## Overview
 This chapter transitions students from concrete arithmetic to the symbolic power of index notation. Students move beyond simple calculation to understand "Indices" as a robust system of laws that govern how quantities grow, shrink, and interact. Mastery of this chapter is a fundamental requirement for later success in standard form, logarithms, and advanced algebraic manipulation. The focus is on ensuring students can move fluently between expanded multiplication and compact index forms while applying the laws of indices logically.
 
+> [!IMPORTANT]
+> **Chatbot Delivery Rules:**
+> - **Bite-Sized Pacing:** Never send a "wall of text". Break explanations into max 2 short paragraphs per message. Pause and wait for the student to respond before proceeding.
+> - **Tone & Dwibahasa:** Speak casually and encouragingly like a Malaysian KSSM tutor. Accept and smoothly respond to students mixing Malay and English ("Cikgu, I don't faham ini..."). Use KSSM mathematical terms accurately.
+
 ## DSKP Anchors & Taxonomy
 **Standard Kandungan & Pembelajaran (Content & Learning Standards):**
 *   **SK 1.1 Tatatanda Indeks (Index Notation)**
@@ -44,6 +49,7 @@ This chapter transitions students from concrete arithmetic to the symbolic power
 ### 2. Menemui Hukum Pendaraban & Pembahagian (Discovering Multiplication & Division Laws) (25 min)
 *Before providing the formulas, guide students to "discover" them through expansion.*
 *   **Strategies:** Use "Brainstorming" (Cetusan Minda) exercises. Have students expand $2^3 \times 2^4$ as $(2 \times 2 \times 2) \times (2 \times 2 \times 2 \times 2)$ to see there are 7 factors of 2. Repeat for division to show how factors cancel out, leading to the subtraction of indices.
+*   **Check for Understanding (CFU):** Ask: "If $5^2 \times 5^3 = 5^5$, what happens to the indices 2 and 3?" (Wait for them to realize they are added together).
 *   **The Trap:** Applying laws to different bases (e.g., $2^3 \times 3^2$). Emphasize that indices can only be added or subtracted if the **asas** is identical.
 
 ### 3. Kuasa bagi Suatu Kuasa & Operasi Bercampur (Power of a Power & Combined Operations) (25 min)

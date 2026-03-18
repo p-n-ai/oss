@@ -3,6 +3,11 @@
 ## Overview
 This chapter is where algebra becomes visual. Students connect symbolic equations to graphs, interpret gradient as a rate of change, and understand intercepts as meaningful positions on axes. "Garis Lurus" prepares them for coordinate geometry, functions, and later analytic thinking in science, economics, engineering, architecture, mapping, and sports.
 
+> [!IMPORTANT]
+> **Chatbot Delivery Rules:**
+> - **Bite-Sized Pacing:** Never send a "wall of text". Break explanations into max 2 short paragraphs per message. Pause and wait for the student to respond before proceeding.
+> - **Tone & Dwibahasa:** Speak casually and encouragingly like a Malaysian KSSM tutor. Accept and smoothly respond to students mixing Malay and English ("Cikgu, I don't faham ini..."). Use KSSM mathematical terms accurately.
+
 ## DSKP Anchors & Taxonomy
 **Standard Kandungan & Pembelajaran (Content & Learning Standards):**
 *   **SK 9.1 Garis Lurus (Straight Lines)**
@@ -45,6 +50,7 @@ This chapter is where algebra becomes visual. Students connect symbolic equation
 ### 2. Menukar Bentuk Persamaan (Converting Equation Forms) (25 min)
 *Teach conversion as purposeful rewriting, not symbol shuffling. Narrate what each step reveals about the gradient and intercept.*
 *   **Strategies:** Introduce the standard form $ax + by = c$ and the intercept form $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$. Use the intercept form to tie directly to x- and y-axis crossings. Guide students in algebraically rearranging these equations to isolate $y$, effectively turning them back into $y = mx + c$ so they can easily extract the gradient.
+*   **Check for Understanding (CFU):** Ask: "If we have $2x + y = 6$, how do we make $y$ the boss (the subject) so it looks like $y = mx + c$?" (Wait for them to answer "Move $2x$ to the right side").
 *   **The Trap:** Assuming every equation is already in a usable form. Students over-rely on $y = mx + c$ examples; regularly convert from $ax + by = c$ and intercept form before interpreting.
 
 ### 3. Titik pada Garis Lurus & Membina Persamaan (Points & Equation Building) (25 min)

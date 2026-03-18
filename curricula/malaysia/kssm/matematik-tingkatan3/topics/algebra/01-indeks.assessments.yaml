@@ -24,7 +24,7 @@ questions:
       - marks: 1
         criteria: "Correctly writes the expression in index form as m^7."
       - marks: 1
-        criteria: "Correctly identifies both the 'asas' as m and the 'indeks' as 7."
+        criteria: "Correctly identifies both the 'asas' as m and the 'indeks' as 7. Accept these components in any order."
     hints:
       - level: 1
         text: "Count how many times m appears in the multiplication to find the index."
@@ -163,7 +163,7 @@ questions:
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Correctly converts the negative index into a positive index fraction (1/4^2)."
+        criteria: "Correctly converts the negative index into a positive index fraction (1/4^2). Accept variations in fraction notation."
       - marks: 1
         criteria: "Evaluates the expression to exactly 1/16."
     hints:
@@ -257,7 +257,7 @@ questions:
       - marks: 1
         criteria: "Correctly applies the division law to the variables, resulting in x^7 and y^{-13}."
       - marks: 1
-        criteria: "Expresses the final answer with positive indices as (2x^7)/y^13."
+        criteria: "Expresses the final answer with positive indices as (2x^7)/y^13. Accept equivalent forms like 2x^7 * y^-13 if they do not deduct strictly for positive indices request, or force positive indices."
     hints:
       - level: 1
         text: >-
