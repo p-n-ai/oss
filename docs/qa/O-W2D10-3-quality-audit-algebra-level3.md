@@ -2,7 +2,7 @@
 **Date:** 18 March 2026
 **Task ID:** O-W2D10-3
 **Auditor:** Education Lead (Faiz) 
-**Status:** In Progress
+**Status:** Done
 ---
 
 ## 🎯 Audit Objective
@@ -72,4 +72,12 @@ To pass the audit, every topic must fulfil the following criteria:
 ## 🛑 Action Items & Fixes Required
 *(Any gaps discovered during the audit will be documented here for resolution.)*
 
-1. *None yet - starting audit.*
+**Final Audit Summary & Fixes Implemented:**
+To optimize the curriculum specifically for our Telegram AI Tutor, we implemented several targeted upgrades directly into the core content files:
+
+1. **Chatbot Delivery Rules:** Enforced strict conversational guidelines. The AI is now instructed to use "bite-sized pacing" (no massive walls of text!), maintain an encouraging tutor tone, and seamlessly support Dwibahasa (Malay-English code-switching).
+2. **Check for Understanding (CFU):** We injected specific pause-and-prompt questions into the teaching notes. This forces the AI to check if the student actually grasps the current step before advancing to harder concepts.
+3. **Flexible Input Tolerance:** We upgraded the assessment rubrics so the AI doesn't fail students for formatting. It will now accurately accept mathematically equivalent answers (e.g., accepting `8+y` vs `y+8`) and tolerate random spacing.
+4. **Anticipating 'Traps':** We explicitly highlighted high-risk student misconceptions in the notes, so the AI knows exactly what common errors to watch out for during a live chat.
+
+By building these platform constraints directly into the curriculum layer, the AI will act much more like a real Malaysian KSSM tutor right out of the box. Our next step will be stress-testing these specific topics live on the bot through "happy" and "struggle" paths.
