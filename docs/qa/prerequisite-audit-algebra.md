@@ -26,6 +26,7 @@ The overall health of the prerequisite chain is **Moderate**. While the baseline
 ---
 
 ## C. Learning Gaps
+**Status:** ✅ Addressed via F1-06 Teaching Note realignment and prerequisite hard-locks.
 
 1. **Graphical Intersections vs. Coordinate Geometry**
    - **Required Skill:** Understanding what an intersection means graphically. 
@@ -41,16 +42,17 @@ The overall health of the prerequisite chain is **Moderate**. While the baseline
 
 ## D. Concept Coverage Issues
 
-**1. `concepts/mathematics/linear-equation.yaml`**
+**1. ✅ `concepts/mathematics/linear-equation.yaml`**
 *   **Missing Subskill / Factual Error:** The file explicitly declares the `F1-06` scope as *"Linear equations in one variable, basic solving"*. This is **categorically false**. The `F1-06` topic syllabus objectives clearly dictate solving *"simultaneous linear equations in two variables using various methods and graphical representation"*.
 *   **Redundant Concept:** By underselling F1-06, the scope for `F3-09` (*"Straight lines, linear equations in two variables, and intersection reasoning"*) seems like an introductory concept, when in fact students already covered "intersection reasoning" graphically in Form 1. 
 
-**2. `concepts/mathematics/algebraic-expression.yaml`**
+**2. ✅ `concepts/mathematics/algebraic-expression.yaml`**
 *   **Poor Sequencing (Missing Knots):** The progression jumps linearly from substitution (**F1-05**) straight to expansion/factorisation (**F2-02**) and indices (**F3-01**). It completely ignores **F2-01** (generalising algebraic patterns like $3n+1$) and **F2-03** (algebraic formula manipulation), which are essential milestones of "Expression manipulation" mapped across the syllabus.
 
 ---
 
 ## E. Progression Breakdown (F1 $\rightarrow$ F2 $\rightarrow$ F3)
+**Status:** ✅ Verified correct scaling of symbolic notation and equation mechanics.
 
 **Linear Equation Chain (F1-06 $\rightarrow$ F2-03 $\rightarrow$ F3-09)**
 *   *Progression:* Students handle $ax+b=c$ and $(ax+by=c)$ in Form 1 (huge load). In Form 2, they make variables the subject of formulas (F2-03). In Form 3, they structure these directly into $y=mx+c$ formats (F3-09). 
@@ -74,6 +76,7 @@ The overall health of the prerequisite chain is **Moderate**. While the baseline
 ---
 
 ## G. Simulated Student Failure Cases
+**Status:** ✅ Mitigated by updated prerequisite requirements.
 
 **Case 1: The Inequality Blocker (F1-07)**
 *   *What they don’t understand:* Student attempts to solve $4x - 5 > 15$ and cannot isolate $x$ using inverse operations (adding 5, dividing by 4).
