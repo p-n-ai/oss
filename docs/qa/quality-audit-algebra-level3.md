@@ -58,9 +58,9 @@ To pass the audit, every topic must fulfil the following criteria:
 
 | Form | Topic ID | Metadata YAML | Teaching Notes | Assessments YAML | Status / Remarks |
 |:---|:---|:---:|:---:|:---:|:---|
-| F1 | `F1-05` | ⬜ | ⬜ | ⬜ | pending review |
-| F1 | `F1-06` | ⬜ | ⬜ | ⬜ | pending review |
-| F1 | `F1-07` | ⬜ | ⬜ | ⬜ | pending review |
+| F1 | `F1-05` | ✅ | ✅ | ✅ | Done (Batch 1) - Added CFU & Input Tolerance |
+| F1 | `F1-06` | ✅ | ✅ | ✅ | Done (Batch 1) - Added CFU & Input Tolerance |
+| F1 | `F1-07` | ✅ | ✅ | ✅ | Done (Batch 1) - Added CFU & Input Tolerance |
 | F2 | `F2-01` | ⬜ | ⬜ | ⬜ | pending review |
 | F2 | `F2-02` | ⬜ | ⬜ | ⬜ | pending review |
 | F2 | `F2-03` | ⬜ | ⬜ | ⬜ | pending review |

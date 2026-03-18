@@ -33,7 +33,7 @@ questions:
     marks: 1
     rubric:
       - marks: 1
-        criteria: "Correctly uses the '>=' (greater than or equal to) symbol."
+        criteria: "Correctly uses the '>=' (greater than or equal to) symbol. Accept equivalent inequality like 110 <= h."
     hints:
       - level: 1
         text: "Since they can be exactly 110 cm or taller, you need the symbol that includes 'equal to' as well as 'greater'."
@@ -67,7 +67,7 @@ questions:
     marks: 1
     rubric:
       - marks: 1
-        criteria: "Correctly forms the new inequality bridging the smallest and largest values."
+        criteria: "Correctly forms the new inequality bridging the smallest and largest values. Accept equivalent like 4 > -5."
     hints:
       - level: 1
         text: "Connect the ends: if the first number is smaller than the middle, and the middle is smaller than the last, how does the first compare to the last?"
@@ -111,7 +111,7 @@ questions:
     marks: 1
     rubric:
       - marks: 1
-        criteria: "Correctly uses the '<=' symbol for 'maximum'."
+        criteria: "Correctly uses the '<=' symbol for 'maximum'. Accept equivalent like 15 >= p."
     hints:
       - level: 1
         text: "If the maximum is 15, can the lift hold 16 people? No. Can it hold exactly 15? Yes. Choose the symbol that means 'less than or equal to'."
@@ -134,7 +134,7 @@ questions:
       - marks: 1
         criteria: "Correctly isolates the variable term (3x > 15)."
       - marks: 1
-        criteria: "Correctly solves for x without changing the inequality sign improperly."
+        criteria: "Correctly solves for x without changing the inequality sign improperly. Accept equivalent like 5 < x."
     hints:
       - level: 1
         text: "Solve it exactly like you would a normal equation! Move the -5 over, then divide by 3."
@@ -188,7 +188,7 @@ questions:
       - marks: 1
         criteria: "Correctly solves the second inequality (x > 4)."
       - marks: 1
-        criteria: "Correctly combines them to show the intersection (4 < x <= 8)."
+        criteria: "Correctly combines them to show the intersection (4 < x <= 8). Accept equivalent like 8 >= x > 4, ignore spacing."
     hints:
       - level: 1
         text: "Solve each inequality completely separately first. Then draw a number line to find where both their arrows overlap side-by-side."
@@ -375,7 +375,7 @@ questions:
       - marks: 1
         criteria: "Correctly solves both individual inequalities: x <= 2 and x >= -5."
       - marks: 1
-        criteria: "Correctly combines into single range: -5 <= x <= 2."
+        criteria: "Correctly combines into single range: -5 <= x <= 2. Accept equivalent like 2 >= x >= -5, ignore spacing."
     hints:
       - level: 1
         text: "MISCONCEPTION ALERT: If you struggle to merge the final answers, draw a single horizontal number line and plot both arrows to visually find where they overlap."
@@ -412,7 +412,7 @@ questions:
       - marks: 1
         criteria: "Correctly solves both individual inequalities: x >= -3 and x < 4."
       - marks: 1
-        criteria: "Correctly merges into -3 <= x < 4."
+        criteria: "Correctly merges into -3 <= x < 4. Accept equivalent like 4 > x >= -3, ignore spacing."
     hints:
       - level: 1
         text: "For the first inequality, try dividing both sides by 3 before expanding the bracket."

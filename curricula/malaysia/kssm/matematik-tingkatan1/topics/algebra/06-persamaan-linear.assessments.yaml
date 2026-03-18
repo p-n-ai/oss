@@ -39,7 +39,7 @@ questions:
     marks: 1
     rubric:
       - marks: 1
-        criteria: "Correctly constructs the equation."
+        criteria: "Correctly constructs the equation. Accept equivalent forms like 8 + y = 20 and ignore spacing."
     hints:
       - level: 1
         text: "Translate the word 'sum' into the correct mathematical operation (+)."
@@ -160,7 +160,7 @@ questions:
       - marks: 1
         criteria: "Correctly identifies the cost terms: 15b and 2p."
       - marks: 1
-        criteria: "Correctly forms the full equation equal to 50."
+        criteria: "Correctly forms the full equation equal to 50. Accept equivalent forms like 2p + 15b = 50."
     hints:
       - level: 1
         text: "Multiply the price of one item by its variable quantity, then add the totals together."
@@ -251,9 +251,9 @@ questions:
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Correctly forms the first equation for the total animals (x + y = 7)."
+        criteria: "Correctly forms the first equation for the total animals (x + y = 7 or y + x = 7)."
       - marks: 1
-        criteria: "Correctly forms the second equation for the total costs (x + 2y = 12)."
+        criteria: "Correctly forms the second equation for the total costs (x + 2y = 12 or 2y + x = 12)."
     hints:
       - level: 1
         text: "You need two separate equations. One about the total number of animals, and one about the total money."
@@ -346,7 +346,7 @@ questions:
     marks: 4
     rubric:
       - marks: 1
-        criteria: "Correctly forms both linear equations."
+        criteria: "Correctly forms both linear equations. Accept variations in variable order."
       - marks: 1
         criteria: "Correctly aligns coefficients (e.g., multiplying an equation)."
       - marks: 1

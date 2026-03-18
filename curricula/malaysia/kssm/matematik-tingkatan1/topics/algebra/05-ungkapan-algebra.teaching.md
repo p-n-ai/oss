@@ -3,6 +3,11 @@
 ## Overview
 "Ungkapan Algebra" introduces students to the foundational concept of using letters to represent unknown quantities. This marks the critical transition from concrete arithmetic to abstract mathematical reasoning. It covers identifying variables with fixed or varied values, translating real-world situations into mathematical expressions, identifying terms and coefficients, and performing basic arithmetic operations. This topic is essential for equipping students with the skills to apply algebraic understanding to solve everyday problems and serves as the bedrock for all future algebra topics.
 
+> [!IMPORTANT]
+> **Chatbot Delivery Rules:**
+> - **Bite-Sized Pacing:** Never send a "wall of text". Break explanations into max 2 short paragraphs per message. Pause and wait for the student to respond before proceeding.
+> - **Tone & Dwibahasa:** Speak casually and encouragingly like a Malaysian KSSM tutor. Accept and smoothly respond to students mixing Malay and English ("Cikgu, I don't faham ini..."). Use KSSM mathematical terms accurately.
+
 ## DSKP Anchors & Taxonomy
 **Standard Kandungan & Pembelajaran:**
 - **SK 5.1 Pemboleh ubah dan ungkapan algebra (Variables and algebraic expressions)**
@@ -34,16 +39,19 @@
 ### 1. Introduction to Variables (15 min)
 *Start your lesson by grounding it in reality. Ask your students about situations where they don't know the exact amount yet — like how much money is inside a charity box, or exactly how many minutes it'll take them to get to school tomorrow. Once they get the idea, introduce the "variables" (pemboleh ubah) using letters.*
 - **Strategies:** Use concrete examples: "Ali has some marbles...". Have a quick class discussion to sort scenarios into variables with a "fixed value" (nilai tetap), like the interest rate on a bank loan, versus a "varied value" (nilai berubah), like their daily travel time.
+- **Check for Understanding (CFU):** Ask: "If the distance from your home to school is exactly 5km, is that distance 'nilai tetap' (fixed) or 'nilai berubah' (varied)?" Wait for the student's answer before explaining further.
 - **The Trap:** Students might think a variable always stands for a single specific number (e.g. $x$ is always 1, or $x$ is always the same as the question before). Explicitly show that $x$ can change across different problems.
 
 ### 2. Algebraic Terms and Coefficients (20 min)
 *Now let's break down algebraic expressions so they can see all the building blocks. Take a term like $3xy$ and show them that it's really the product of a number (3) and the variables ($x$ and $y$).*
 - **Strategies:** Teach coefficients (pekali) with the "cover-up" secret: just cover up the part of the term you're looking at, and whatever is left over is your coefficient! For $-8xy^2$, the coefficient of $-x$ is $8y^2$. Use physical algebra tiles or coloured cards.
-- **The Trap:** Forgetting that "invisible" variables have a coefficient of 1 or -1 (e.g., writing 0 for the coefficient of $x$ in $x+5$). 
+- **Check for Understanding (CFU):** Give them a term: "In the term $5abc$, what is the coefficient of $5c$?" (Wait for them to answer $ab$).
+- **The Trap:** Forgetting that "invisible" variables have a coefficient of 1 or -1 (e.g., writing 0 for the coefficient of $x$ in $x+5$).  
 
 ### 3. Forming Expressions (20 min)
 *Here's where it clicks for them — translating words into math! Draw a bag on the board and say it has an unknown number of blocks, $x$. Ask them what happens if you add 3 blocks? Bam, $x+3$. Ask them to build an expression for buying 5 apples at $x$ cents and 8 oranges at $y$ cents.*
 - **Strategies:** Connect key phrases to operations: "more than" $\rightarrow$ $+$, "less than" $\rightarrow$ $-$, "times" $\rightarrow$ $\times$. Use visual models heavily to show parts forming a whole.
+- **Check for Understanding (CFU):** Ask them: "How would you write '7 less than y' as a math expression?" (Wait to see if they fall into the trap of writing $7-y$ instead of $y-7$).
 - **The Trap:** Confusing order in subtraction. When reading "5 less than x", students notoriously write $5-x$ instead of $x-5$. Drill the translation order specifically.
 
 ### 4. Simplifying by Collecting Like Terms (25 min)

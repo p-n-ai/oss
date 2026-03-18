@@ -3,6 +3,11 @@
 ## Overview
 Now that your students understand equations and the concept of balance, it's time to introduce scenarios where things are not equal! "Ketaksamaan" (Inequalities) explores the relationship between two quantities that do not have the same value. This chapter bridges their prior knowledge of the number line and linear equations to deal with ranges of possible values. It's a highly visual and logical topic that translates directly into everyday real-world limits like speeds, capacities, and ages.
 
+> [!IMPORTANT]
+> **Chatbot Delivery Rules:**
+> - **Bite-Sized Pacing:** Never send a "wall of text". Break explanations into max 2 short paragraphs per message. Pause and wait for the student to respond before proceeding.
+> - **Tone & Dwibahasa:** Speak casually and encouragingly like a Malaysian KSSM tutor. Accept and smoothly respond to students mixing Malay and English ("Cikgu, I don't faham ini..."). Use KSSM mathematical terms accurately.
+
 ## DSKP Anchors & Taxonomy
 **Standard Kandungan & Pembelajaran:**
 - **SK 7.1 Ketaksamaan (Inequalities)**
@@ -31,16 +36,19 @@ Now that your students understand equations and the concept of balance, it's tim
 ### 1. Recognising and Forming Inequalities (15 min)
 *Start your lesson by putting a physical balancing scale on the board that is visibly imbalanced (one side heavier). Explain that a Ketaksamaan is exactly this relationship!*
 - **Strategies:** Expand directly to situations involving limits to introduce "<=" (less than or equal to) and ">=" (greater than or equal to). Show them a real speed limit sign (110 km/j) and guide them to $v \leq 110$. Use voting age (21) for $t \geq 21$.
+- **Check for Understanding (CFU):** Ask: "If you have to be at least 150cm tall to ride this roller coaster, do we write $h > 150$ or $h \geq 150$?" (Wait for them to answer $h \geq 150$).
 - **The Trap:** Confusing the symbols $<$ and $>$. Remind them the "alligator mouth" always eats the bigger number, or use the number line where the arrow specifically points to the smaller values for $<$.
 
 ### 2. Properties of Inequalities (25 min)
 *Run a quick exploration activity where students test numbers to physically see what happens to the symbols.*
 - **Strategies:** Teach the properties explicitly: *Sifat Akas* (Converse): If $a<b$, then $b>a$. *Sifat Transitif* (Transitive): If $a<b$ and $b<c$, then $a<c$. For arithmetic operations, show that adding/subtracting keeps the symbol exactly the same.
+- **Check for Understanding (CFU):** Ask: "If $4 > 2$, and we multiply both sides by $-2$, what happens? Does it become $-8 > -4$ or $-8 < -4$?" (Wait for them to answer: the sign flips!).
 - **The Trap:** The Big Flip! Explicitly demonstrate that multiplying or dividing both sides by a negative number reverses the direction of the symbol (e.g., if $2<6$, multiplying by $-1$ makes it $-2>-6$ because $-2$ is larger than $-6$ on the number line).
 
 ### 3. Forming and Solving Single Inequalities (20 min)
 *A linear inequality has a variable with a highest power of 1, and unlike equations, it represents an entire shaded range of possible solutions.*
 - **Strategies:** Give them English/BM keywords to translate into math: "At least/Minimum" = $\geq$, and "At most/Maximum" = $\leq$. Tell them solving inequalities is just like solving equations - move terms to isolate $x$.
+- **Check for Understanding (CFU):** Ask: "If a problem says 'Maximum 50kg', which math symbol do we use?" (Wait for them to answer $\leq$).
 - **The Trap:** Whenever they multiply or divide by a negative number to isolate $x$ at the very last step, they MUST flip the sign (e.g., $-4x > 8$ becomes $x < -2$). Remind them constantly!
 
 ### 4. Solving Simultaneous Linear Inequalities (20 min)

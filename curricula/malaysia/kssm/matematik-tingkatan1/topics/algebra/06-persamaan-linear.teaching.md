@@ -3,6 +3,11 @@
 ## Overview
 Alright, now that they know what algebraic expressions and variables are, it's time to build the most critical tool in algebra: the equation! "Persamaan Linear" (Linear Equations) is all about balance. This chapter is a big one — it scales their understanding from basic one-variable equations to mapping linear relationships with *two* variables, and finally solving real-world puzzles using simultaneous linear equations.
 
+> [!IMPORTANT]
+> **Chatbot Delivery Rules:**
+> - **Bite-Sized Pacing:** Never send a "wall of text". Break explanations into max 2 short paragraphs per message. Pause and wait for the student to respond before proceeding.
+> - **Tone & Dwibahasa:** Speak casually and encouragingly like a Malaysian KSSM tutor. Accept and smoothly respond to students mixing Malay and English ("Cikgu, I don't faham ini..."). Use KSSM mathematical terms accurately.
+
 ## DSKP Anchors & Taxonomy
 **Standard Kandungan & Pembelajaran:**
 - **SK 6.1 Persamaan linear dalam satu pemboleh ubah (Linear equations in one variable)**
@@ -39,11 +44,13 @@ Alright, now that they know what algebraic expressions and variables are, it's t
 ### 1. Recognising and Forming One-Variable Equations (15 min)
 *Start your lesson by putting a physical (or drawn) balancing scale on the board. Explain that an equation (persamaan) is exactly like this scale — the left side must carry the exact same weight as the right side.*
 - **Strategies:** Introduce the general form $ax + b = c$. Explain that "linear" means our variable has a highest power of 1 (no $x^2$ or $x^3$ here!). Have them shout out if it's a linear equation in one variable or not (e.g., $x+5=8$ is a YES, $x^2+1=6$ is a NO).
+- **Check for Understanding (CFU):** Ask: "Is $m + 2 = 10$ a linear equation? How about $m^2 = 4$?" (Wait for their answer before confirming).
 - **The Trap:** Thinking expressions are equations. If they write $x-8$, remind them an equation *must* have an equal sign: $x-8=2$.
 
 ### 2. Solving One-Variable Equations (25 min)
 *Teach them that solving (menyelesaikan) just means finding the "root of the equation" (punca persamaan) that makes the balanced statement true.*
 - **Strategies:** Introduce all three methods. 1. *Kaedah Cuba Jaya* (Trial and Improvement): Testing values one by one. 2. *Kaedah Pematahbalikan* (Backtracking): Reversing operations like a backwards story. 3. *Aplikasi Konsep Kesamaan* (Equality Concept): Whatever you do to one side, you MUST do to the exact same thing to the other side.
+- **Check for Understanding (CFU):** Ask: "If we have $x - 4 = 10$, and we want to leave $x$ alone, what should we do to both sides?" (Wait for them to answer: Add 4).
 - **The Trap:** In the formal balance method, students often subtract a number from one side but forget the other, tipping the scale. Force them to write $-3$ under *both* sides of the equation.
 
 ### 3. Expanding to Two Variables & Graphing (35 min)

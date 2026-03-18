@@ -42,7 +42,7 @@ questions:
       - marks: 1
         criteria: "Correctly formulating the cost for the pens or pencils individually."
       - marks: 1
-        criteria: "Correctly adding both parts up to form the final expression: 2m + n."
+        criteria: "Correctly adding both parts up to form the final expression: 2m + n. Accept equivalent algebraic expressions like n + 2m, and ignore spacing."
     hints:
       - level: 1
         text: "Multiply the price of one pen by the total number of pens, and do the same for the pencils. Then, add them together."
@@ -134,7 +134,7 @@ questions:
       - marks: 1
         criteria: "Grouping like terms together."
       - marks: 1
-        criteria: "Correctly simplifying to 4m + 7n."
+        criteria: "Correctly simplifying to 4m + 7n. Accept equivalent algebraic expressions like 7n + 4m. Ignore spacing."
     hints:
       - level: 1
         text: "Group the terms with variable $m$ together, and group the terms with variable $n$ together."
@@ -157,7 +157,7 @@ questions:
       - marks: 1
         criteria: "Successfully grouping the like terms: 6p - p + 2q - 3q + 10 + 2."
       - marks: 1
-        criteria: "Final simplified expression: 5p - q + 12."
+        criteria: "Final simplified expression: 5p - q + 12. Accept any equivalent arrangement (e.g., 12 - q + 5p). Ignore spacing."
     hints:
       - level: 1
         text: >-
@@ -225,7 +225,7 @@ questions:
       - marks: 1
         criteria: "Formulating the correct division: 24xy^2 / 6y."
       - marks: 1
-        criteria: "Final correct simplified expression: 4xy."
+        criteria: "Final correct simplified expression: 4xy. Accept equivalent expressions like 4yx."
     hints:
       - level: 1
         text: "The area of a rectangle is found by multiplying the length and the width. To find the missing width, do the reverse operations (divide the area by the length)."
@@ -334,9 +334,9 @@ questions:
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Correct expression for Adam: 1500x + 700y."
+        criteria: "Correct expression for Adam: 1500x + 700y. Accept 700y + 1500x."
       - marks: 1
-        criteria: "Correct expression for Hani: 800x + 1600y."
+        criteria: "Correct expression for Hani: 800x + 1600y. Accept 1600y + 800x."
     hints:
       - level: 1
         text: "MISCONCEPTION ALERT: Do not add the weights of sweet potato and tapioca together without attaching the correct price variable to each crop first."
