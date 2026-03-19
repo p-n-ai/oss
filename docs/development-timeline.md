@@ -150,7 +150,7 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 |---------|------|-------|--------|
 | `O-W2D10-1` | `scripts/assess-quality.rb` — auto-assess quality levels for all topics | 🤖 | ✅ Done |
 | `O-W2D10-2` | Add quality report to CI (runs on merge to main) | 🤖 | ✅ Done |
-| `O-W2D10-3` | 🧑 Full quality audit: are all 8 Algebra topics at Level 3 (Teachable)? Fix any that aren't. | 🧑 Education Lead | |
+| `O-W2D10-3` | 🧑 Full quality audit: are all 8 Algebra topics at Level 3 (Teachable)? Fix any that aren't. | 🧑 Education Lead | ✅ Done (8 topics validated via Telegram simulation) |
 
 **Week 2 Output:** All 8 Algebra topics complete (F1:3 + F2:3 + F3:2). 40+ assessment questions. Prerequisite chain validated across 3 forms. Quality Level ≥2 for all topics.
 
