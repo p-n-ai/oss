@@ -4,6 +4,8 @@ questions:
   - id: Q1
     text: "The perimeter of a rectangle is given by $P = 2l + 2w$. If $l = 7$ and $w = 4$, find $P$."
     difficulty: easy
+    tp_level: 2
+    kbat: false
     learning_objective: 3.1.3
     answer:
       type: exact
@@ -26,6 +28,8 @@ questions:
   - id: Q2
     text: "Write a formula for total cost $C$ if each notebook costs RMm and you buy n notebooks."
     difficulty: easy
+    tp_level: 2
+    kbat: false
     learning_objective: 3.1.1
     answer:
       type: exact
@@ -45,6 +49,8 @@ questions:
   - id: Q3
     text: "Make $x$ the subject of the formula: $y = 3x - 8$."
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 3.1.2
     answer:
       type: exact
@@ -66,6 +72,8 @@ questions:
   - id: Q4
     text: "Given the formula $L = \\pi j^2$, make $j$ the subject of the formula."
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 3.1.2
     answer:
       type: exact
@@ -89,6 +97,8 @@ questions:
   - id: Q5
     text: "A taxi fare formula is $F = 4 + 1.8d$, where $F$ is fare in RM and $d$ is distance in km. If a passenger pays RM22, find the distance travelled."
     difficulty: hard
+    tp_level: 4
+    kbat: true
     learning_objective: 3.1.4
     answer:
       type: exact
@@ -115,9 +125,8 @@ questions:
   ### ---------------------------------------------------------
   ### UASA NATIONAL EXAM EXEMPLARS
   ### ---------------------------------------------------------
-  # EXAM: UASA (Bahagian A - OAP)
-  # RATIONALE: Translates a basic word problem involving equal distribution into a mathematical formula [8, 23].
   - id: Q6
+    # EXAM: UASA Bahagian A (OAP)
     text: >-
       Naufal has r sweets. He distributes the sweets equally to his five friends.
       S is the number of sweets received by each of his friends. Which of the following
@@ -128,6 +137,8 @@ questions:
       C) S = 5 / r
       D) S = r / 5
     difficulty: easy
+    tp_level: 2
+    kbat: false
     learning_objective: 3.1.1
     answer:
       type: multiple_choice
@@ -144,9 +155,8 @@ questions:
       - level: 1
         text: "Distributing equally means you have to use division."
 
-  # EXAM: UASA (Bahagian A - OAP)
-  # RATIONALE: A rigorous multi-topic question blending geometric perimeter formula creation with solving simultaneous linear equations [11, 24].
   - id: Q7
+    # EXAM: UASA Bahagian A (OAP)
     text: >-
       Given that a rectangular field has length equals to $(2x + 3)$ m and width equals
       to $(y + 2)$ m. It is given that the perimeter of the field is 38 m.
@@ -157,6 +167,8 @@ questions:
       C) x = 4, y = 8
       D) x = 2, y = 6
     difficulty: hard
+    tp_level: 5
+    kbat: true
     learning_objective: 3.1.4
     answer:
       type: multiple_choice
@@ -180,9 +192,8 @@ questions:
       - level: 1
         text: "Create an equation using the perimeter formula first. Then solve using simultaneous equations with x - y = 4."
 
-  # EXAM: UASA (Bahagian A - OAP)
-  # RATIONALE: Tests substitution of multiple values and evaluating an equation containing a squared variable in the denominator [11, 25].
   - id: Q8
+    # EXAM: UASA Bahagian A (OAP)
     text: >-
       Given that $20 / a^2 - c = 6b$, calculate the values of $a$ if $b = 5$ and $c = -2b$.
 
@@ -191,6 +202,8 @@ questions:
       C) 3, -3
       D) 4, -4
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 3.1.3
     answer:
       type: multiple_choice
@@ -210,9 +223,8 @@ questions:
       - level: 1
         text: "Calculate the exact numerical value of 'c' first, then substitute both 'b' and 'c' into the main equation."
 
-  # EXAM: UASA (Bahagian B - OPB)
-  # RATIONALE: Tests the step-by-step rearrangement of a formula, specifically checking the trap of safely isolating a squared term before square-rooting the entire side [12, 26].
   - id: Q9
+    # EXAM: UASA Bahagian B (OPK)
     text: >-
       It is given that $n + 10m^2 = 4$. Complete the calculation steps in the answer
       space with the correct options to express $m$ as the subject of the formula.
@@ -220,6 +232,8 @@ questions:
       Step 1: $m^2$ = (a)
       Step 2: $m$ = (b)
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 3.1.2
     answer:
       type: exact
@@ -237,16 +251,17 @@ questions:
         criteria: "Correctly identifies Step 2 as sqrt((4 - n) / 10)."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: When moving the square, the square root bracket must cover the ENTIRE opposite side [26]."
+        text: "MISCONCEPTION ALERT: When moving the square, the square root bracket must cover the ENTIRE opposite side."
 
-  # EXAM: UASA (Bahagian C - Subjektif)
-  # RATIONALE: High-level manipulation combining algebraic fraction division to form a linear formula, followed by direct substitution [13, 25].
   - id: Q10
+    # EXAM: UASA Bahagian C (Subjektif)
     text: >-
       Given $2m \div (m / 3n) = 3m - 9$.
       (i) Express $m$ in terms of $n$.
       (ii) Calculate the value of $m$ when $n = 12$.
     difficulty: hard
+    tp_level: 5
+    kbat: true
     learning_objective: 3.1.2
     answer:
       type: exact
@@ -272,3 +287,132 @@ questions:
     hints:
       - level: 1
         text: "For part (i), flip the fraction you are dividing by to turn it into multiplication and cancel the 'm' on the left side first."
+
+  ### ---------------------------------------------------------
+  ### NEW ADDITIONS TO MEET 5-5-5 POOL MINIMUM
+  ### ---------------------------------------------------------
+  - id: Q11
+    # EXAM: UASA Bahagian A (OAP)
+    text: "Given the formula $y = 5x + 2$, identify which variable is the subject of the formula."
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: 3.1.1
+    answer:
+      type: exact
+      value: "y"
+      working: |
+        The subject of a formula is the single variable isolated on one side of the equals sign with a coefficient of 1.
+        In y = 5x + 2, 'y' is the subject.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifies y as the subject."
+    hints:
+      - level: 1
+        text: "The subject of a formula is the letter that stands completely alone on one side of the equal sign."
+
+  - id: Q12
+    # EXAM: UASA Bahagian A (OAP)
+    text: "Given $v = u + at$, calculate the value of $v$ when $u = 5$, $a = 2$, and $t = 10$."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 3.1.3
+    answer:
+      type: exact
+      value: "25"
+      working: |
+        Substitute u=5, a=2, t=10 into the formula:
+        v = 5 + (2)(10)
+        v = 5 + 20
+        v = 25
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly substitutes values."
+      - marks: 1
+        criteria: "Calculates the final value of 25."
+    hints:
+      - level: 1
+        text: "Replace letters with their numbers. Remember BODMAS: do the multiplication (a * t) before the addition!"
+
+  - id: Q13
+    # EXAM: UASA Bahagian B (OPK)
+    text: "Express $v$ as the subject of the formula: $w = \\frac{v - u}{3}$"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 3.1.2
+    answer:
+      type: exact
+      value: "v = 3w + u"
+      working: |
+        Move 3 by multiplying both sides: 3w = v - u
+        Move -u by adding to both sides: 3w + u = v
+        v = 3w + u
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Multiplies by 3 to clear the denominator."
+      - marks: 1
+        criteria: "Accurately isolates v. Accept v = u + 3w."
+    hints:
+      - level: 1
+        text: "Clear the fraction first by multiplying the 3 to the other side."
+
+  - id: Q14
+    # EXAM: UASA Bahagian C (Subjektif)
+    text: "Given $p = q + pr$, express $p$ in terms of $q$ and $r$."
+    difficulty: hard
+    tp_level: 4
+    kbat: true
+    learning_objective: 3.1.2
+    answer:
+      type: exact
+      value: "p = \\frac{q}{1 - r}"
+      working: |
+        Move all 'p' terms to one side:
+        p - pr = q
+        Factorise 'p' as a common factor:
+        p(1 - r) = q
+        Divide by the bracket to isolate p:
+        p = q / (1 - r)
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Groups the 'p' terms on one side."
+      - marks: 1
+        criteria: "Factorises 'p' successfully: p(1 - r)."
+      - marks: 1
+        criteria: "Divides to establish the final subject form."
+    hints:
+      - level: 1
+        text: "If the target variable appears twice, move both terms to the same side and factorise it out using brackets."
+
+  - id: Q15
+    # EXAM: UASA Bahagian C (Subjektif)
+    text: "The surface area of a closed cylinder is given by $A = 2\\pi j^2 + 2\\pi jt$. Express the height, $t$, as the subject of the formula."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 3.1.2
+    answer:
+      type: exact
+      value: "t = \\frac{A - 2\\pi j^2}{2\\pi j}"
+      working: |
+        Isolate the term with t:
+        2\pi jt = A - 2\pi j^2
+        Divide by 2\pi j to make t the subject:
+        t = (A - 2\pi j^2) / (2\pi j)
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Subtracts 2\\pi j^2 to isolate the 't' term."
+      - marks: 1
+        criteria: "Divides accurately by 2\\pi j."
+      - marks: 1
+        criteria: "Final correct expression. Accept equivalent forms like A / 2\\pi j - j."
+    hints:
+      - level: 1
+        text: "Treat terms without 't' as constants. Move them to the other side by subtraction first."
