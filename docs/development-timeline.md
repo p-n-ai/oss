@@ -163,14 +163,14 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
 | `O-W3D11-1` | Create `schema/examples.schema.json` | 🤖 | ⬜ | |
-| `O-W3D11-2` | 🧑🤖 Create worked examples for F1-05, F1-06, F1-07 (3 examples each, progressive difficulty) | Collaborative | ⬜ | |
+| `O-W3D11-2` | 🧑🤖 Create worked examples for F1-05, F1-06, F1-07 (3 examples each, progressive difficulty) | Collaborative | ✅ | Structured strictly in the "Golden Format" with progressive scaffolding. Injected targeted misconception alerts to preempt student errors and engaging real-world analogies. |
 
 ### Day 12 (Tue) — Form 2 & 3 Examples
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W3D12-1` | 🧑🤖 Create worked examples for F2-01, F2-02, F2-03 | Collaborative | ⬜ | |
-| `O-W3D12-2` | 🧑🤖 Create worked examples for F3-01 and F3-09 | Collaborative | ⬜ | |
+| `O-W3D12-1` | 🧑🤖 Create worked examples for F2-01, F2-02, F2-03 | Collaborative | ✅ | Golden Format applied. Analogies crafted for abstract concepts (e.g., the FOIL handshake) alongside preemptive KBAT error traps specifically designed to guide AI tutoring behavior. |
+| `O-W3D12-2` | 🧑🤖 Create worked examples for F3-01 and F3-09 | Collaborative | ✅ | Exam techniques enforced. Introduced explicit instruction warnings tied to grading constraints (e.g., the "Double-Decker Bus" analogy for strictly forcing positive indices). |
 
 ### Day 13 (Wed) — Malay Translation Structure
 
