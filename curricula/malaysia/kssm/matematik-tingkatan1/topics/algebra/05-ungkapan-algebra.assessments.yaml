@@ -296,7 +296,7 @@ questions:
         text: "Write $(2 + 5x)^2$ as $(2 + 5x)(2 + 5x)$ and expand it."
 
   - id: Q13 
-    # EXAM: UASA Bahagian B (OPK)
+    # EXAM: UASA Bahagian B (OPB)
     text: "Write the correct variables or coefficients for the algebraic expression $\\frac{3x^2yz}{2}$. If the given coefficient is $3xy$, what is the variable part?" 
     difficulty: medium 
     learning_objective: 5.1.4 

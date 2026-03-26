@@ -216,7 +216,7 @@ questions:
         text: "Substitute the x-coordinate of the point into the equation. Does it give you the same value as the y-coordinate?"
 
   - id: Q9
-    # EXAM: UASA Bahagian B (OPK)
+    # EXAM: UASA Bahagian B (OPB)
     text: >-
       Ali substitutes the coordinates of point $R(1, 2)$ into the straight line equation $x + 2y = 4$.
       He finds that the left side equals $5$, while the right side equals $4$. Explain what this means

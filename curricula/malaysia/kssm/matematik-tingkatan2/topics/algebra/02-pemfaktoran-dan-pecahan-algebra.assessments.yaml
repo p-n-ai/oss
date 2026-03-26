@@ -516,7 +516,7 @@ questions:
         text: "MISCONCEPTION ALERT: Keep, Change, Flip! Turn the division into multiplication first, then factorise the numerators and denominators to cancel common factors."
 
   - id: Q19
-    # EXAM: UASA Bahagian B (OPK)
+    # EXAM: UASA Bahagian B (OPB)
     text: "Expand $-9(m - 3n)$"
     difficulty: easy
     tp_level: 2

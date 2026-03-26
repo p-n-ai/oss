@@ -565,7 +565,7 @@ questions:
         text: "Find the value of $p$. Then look at the options to see which one simplifies to match your $p$ value."
 
   - id: Q22
-    # EXAM: UASA Bahagian B (OPK)
+    # EXAM: UASA Bahagian B (OPB)
     text: "(i) Sufian is 5 years younger than his elder sister. If Sufian's age is $x$ years old, express the age of Sufian's elder sister in terms of $x$. \n(ii) Sufian is 2 years older than his younger brother. If his younger brother is 4 years old, find the age of Sufian's sister."
     difficulty: medium
     tp_level: 4

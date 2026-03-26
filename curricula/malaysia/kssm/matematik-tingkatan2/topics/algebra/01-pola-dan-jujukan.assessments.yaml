@@ -431,7 +431,7 @@ questions:
         text: "Divide the second term by the first term to find the relationship."
 
   - id: Q18
-    # EXAM: UASA Bahagian B (OPK)
+    # EXAM: UASA Bahagian B (OPB)
     text: >-
       Mark 'True' for the correct Fibonacci numbers and 'False' if otherwise.
       (i) 1, 1, 2, 3, 6, 9, 14

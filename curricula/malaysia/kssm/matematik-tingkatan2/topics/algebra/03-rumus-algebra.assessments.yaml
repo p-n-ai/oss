@@ -224,7 +224,7 @@ questions:
         text: "Calculate the exact numerical value of 'c' first, then substitute both 'b' and 'c' into the main equation."
 
   - id: Q9
-    # EXAM: UASA Bahagian B (OPK)
+    # EXAM: UASA Bahagian B (OPB)
     text: >-
       It is given that $n + 10m^2 = 4$. Complete the calculation steps in the answer
       space with the correct options to express $m$ as the subject of the formula.
@@ -338,7 +338,7 @@ questions:
         text: "Replace letters with their numbers. Remember BODMAS: do the multiplication (a * t) before the addition!"
 
   - id: Q13
-    # EXAM: UASA Bahagian B (OPK)
+    # EXAM: UASA Bahagian B (OPB)
     text: "Express $v$ as the subject of the formula: $w = \\frac{v - u}{3}$"
     difficulty: medium
     tp_level: 3

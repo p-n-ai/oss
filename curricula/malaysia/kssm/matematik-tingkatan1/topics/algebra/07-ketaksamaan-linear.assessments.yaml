@@ -315,7 +315,7 @@ questions:
         text: "Next, from that specific list you just made, circle the numbers that are multiples of 3. That is Set P. P' means 'everything else'."
 
   - id: Q14
-    # EXAM: UASA Bahagian B (OPK)
+    # EXAM: UASA Bahagian B (OPB)
     text: "Match the given integer solution sets to their correct inequality range. Ranges available: $[1 < x < 3], [1 \\leq x < 3], [-1 \\leq x \\leq 3], [-1 < x < 3]$\n(i) $x = -1, 0, 1, 2, 3$ \n(ii) $x = 1, 2$ \n(iii) $x = 0, 1, 2$"
     difficulty: medium
     tp_level: 3
