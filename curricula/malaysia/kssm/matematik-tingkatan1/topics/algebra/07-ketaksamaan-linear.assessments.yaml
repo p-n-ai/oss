@@ -1,12 +1,14 @@
 topic_id: F1-07
 provenance: ai-assisted
 questions:
-  # ---------------------------------------------------------
-  # SUBCHAPTER 7.1: Inequalities
-  # ---------------------------------------------------------
+### ---------------------------------------------------------
+### SUBCHAPTER 7.1: Inequalities
+### ---------------------------------------------------------
   - id: Q1
-    text: "Fill in the blank with the symbol '<' or '>' so that it becomes a true statement:  $-8 \\text{ \\_\\_\\_ } -3$"
+    text: "Fill in the blank with the symbol '<' or '>' so that it becomes a true statement: $-8 \\text{ \\_\\_\\_ } -3$"
     difficulty: easy
+    tp_level: 1
+    kbat: false
     learning_objective: 7.1.1
     answer:
       type: exact
@@ -24,6 +26,8 @@ questions:
   - id: Q2
     text: "Describe the following relationship using an inequality symbol: The height, $h$ cm, of passengers allowed to ride the roller coaster must be 110 cm or more."
     difficulty: easy
+    tp_level: 2
+    kbat: false
     learning_objective: 7.1.1
     answer:
       type: exact
@@ -41,6 +45,8 @@ questions:
   - id: Q3
     text: "Given the inequality $12 < 15$, state the converse property of this inequality."
     difficulty: medium
+    tp_level: 2
+    kbat: false
     learning_objective: 7.1.2
     answer:
       type: exact
@@ -58,6 +64,8 @@ questions:
   - id: Q4
     text: "Based on the transitive property of inequalities, if $-5 < 0$ and $0 < 4$, what conclusion can you make?"
     difficulty: medium
+    tp_level: 2
+    kbat: false
     learning_objective: 7.1.2
     answer:
       type: exact
@@ -75,16 +83,17 @@ questions:
   - id: Q5
     text: "Consider the inequality $4 > -2$. If you multiply both sides by $-3$, what will the new inequality be?"
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 7.1.2
     answer:
       type: exact
       value: "-12 < 6"
       working: |
-        Multiply both sides by -3:
-        4 * (-3) = -12
-        -2 * (-3) = 6
-        Because we multiplied by a negative number, the inequality symbol '>'
-        must flip to '<'.
+        Multiply both sides by -3: 
+        4 * (-3) = -12 
+        -2 * (-3) = 6 
+        Because we multiplied by a negative number, the inequality symbol '>' must flip to '<'. 
         Result: -12 < 6
     marks: 2
     rubric:
@@ -96,12 +105,14 @@ questions:
       - level: 1
         text: "Remember the 'Big Flip' rule! Whenever you multiply or divide an inequality by a negative number, you must reverse the inequality symbol."
 
-  # ---------------------------------------------------------
-  # SUBCHAPTER 7.2: Linear Inequalities in One Variable
-  # ---------------------------------------------------------
+### ---------------------------------------------------------
+### SUBCHAPTER 7.2: Linear Inequalities in One Variable
+### ---------------------------------------------------------
   - id: Q6
     text: "Form a linear inequality for the following situation: Maximum capacity of a lift is 15 people. Use $p$ to represent the number of people."
     difficulty: easy
+    tp_level: 2
+    kbat: false
     learning_objective: 7.2.1
     answer:
       type: exact
@@ -119,15 +130,17 @@ questions:
   - id: Q7
     text: "Solve the linear inequality: $3x - 5 > 10$"
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 7.2.2
     answer:
       type: exact
       value: "x > 5"
       working: |
-        3x - 5 > 10
-        3x > 10 + 5
-        3x > 15
-        x > 15 / 3
+        3x - 5 > 10 
+        3x > 10 + 5 
+        3x > 15 
+        x > 15 / 3 
         x > 5
     marks: 2
     rubric:
@@ -142,15 +155,17 @@ questions:
   - id: Q8
     text: "Solve the linear inequality: $-2y \\geq 14$"
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 7.2.2
     answer:
       type: exact
       value: "y \\leq -7"
       working: |
-        -2y >= 14
-        To isolate y, divide both sides by -2:
-        y <= 14 / -2
-        Note: The inequality symbol must flip because dividing by a negative number.
+        -2y >= 14 
+        To isolate y, divide both sides by -2: 
+        y <= 14 / -2 
+        Note: The inequality symbol must flip because dividing by a negative number. 
         y <= -7
     marks: 2
     rubric:
@@ -165,22 +180,20 @@ questions:
   - id: Q9
     text: "Solve the simultaneous linear inequalities: $x - 3 \\leq 5$ and $2x > 8$"
     difficulty: hard
+    tp_level: 4
+    kbat: false
     learning_objective: 7.2.3
     answer:
       type: exact
       value: "4 < x \\leq 8"
       working: |
-        First inequality:
-        x - 3 <= 5
+        First inequality: 
+        x - 3 <= 5 
         x <= 8
-
         Second inequality:
         2x > 8
         x > 4
-
-        Combining both inequalities to find the common part (bahagian sepunya):
-        The values of x must be greater than 4 and less than or equal to 8.
-        Result: 4 < x <= 8
+        Intersection: 4 < x <= 8
     marks: 3
     rubric:
       - marks: 1
@@ -196,18 +209,20 @@ questions:
   - id: Q10
     text: "Aminah has RM 50. She wants to buy a book that costs RM 12 and several pens that cost RM 4 each. Determine the maximum number of pens she can buy by forming and solving an inequality."
     difficulty: hard
+    tp_level: 5
+    kbat: true
     learning_objective: 7.2.2
     answer:
       type: exact
       value: "9"
       working: |
-        Let p = number of pens.
-        Total cost = RM 12 (book) + RM 4(p) = 12 + 4p.
-        She has a maximum of RM 50, so total cost must be <= 50.
-        12 + 4p <= 50
-        4p <= 50 - 12
-        4p <= 38
-        p <= 9.5
+        Let p = number of pens. 
+        Total cost = RM 12 (book) + RM 4(p) = 12 + 4p. 
+        She has a maximum of RM 50, so total cost must be <= 50. 
+        12 + 4p <= 50 
+        4p <= 50 - 12 
+        4p <= 38 
+        p <= 9.5 
         Since Aminah cannot buy half a pen, the maximum integer number of pens she can buy is 9.
     marks: 3
     rubric:
@@ -221,22 +236,23 @@ questions:
       - level: 1
         text: "Write an expression for the total money spent (12 plus 4 times the number of pens). This total must be less than or equal to 50. What is the highest whole number you get?"
 
-  ### ---------------------------------------------------------
-  ### UASA NATIONAL EXAM EXEMPLARS
-  ### ---------------------------------------------------------
-  # EXAM: UASA (Bahagian A - OAP)
-  # RATIONALE: Tests 'The Big Flip' rule and understanding of 'positive integer' domain constraints.
+##### ---------------------------------------------------------
+##### UASA NATIONAL EXAM EXEMPLARS
+##### ---------------------------------------------------------
   - id: Q11
-    text: "Given: $-\\frac{1}{5}x \\geq -\\frac{3}{5}$\nIf $x$ is a positive integer, state the values of $x$ that satisfy the inequality.\n\nA) 1, 2, 3\nB) 1, 2\nC) 0, 1, 2, 3\nD) 1, 1, 2"
+    # EXAM: UASA Bahagian A (OAP)
+    text: "Given: $-\\frac{1}{5}x \\geq -\\frac{3}{5}$ \nIf $x$ is a positive integer, state the values of $x$ that satisfy the inequality.\n\nA) 1, 2, 3\nB) 1, 2\nC) 0, 1, 2, 3\nD) 1, 1, 2"
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 7.2.2
     answer:
       type: multiple_choice
       value: "A"
       working: |
-        -1/5 x >= -3/5
-        Multiply both sides by -5. The sign MUST flip.
-        x <= 3
+        -1/5 x >= -3/5 
+        Multiply both sides by -5. The sign MUST flip. 
+        x <= 3 
         Positive integers less than or equal to 3 are: 1, 2, 3. (Note: 0 is not a positive integer).
     marks: 1
     rubric:
@@ -247,31 +263,23 @@ questions:
         text: "MISCONCEPTION ALERT: Do not forget to flip the inequality sign! And do not include '0', since 0 is neutral, not a 'positive integer'."
       - level: 2
         text: "Multiply both sides by -5 to get 'x' by itself. What is the special rule for the inequality symbol when multiplying by a negative?"
-      - level: 3
-        text: "List the numbers that fit your new inequality. Remember, 0 is neutral, not positive!"
 
-  # EXAM: UASA (Bahagian A - OAP)
-  # RATIONALE: Tests basic arithmetic property generalizations on inequalities.
   - id: Q12
-    text: >-
-      Form a new inequality by performing the operation stated in the brackets.
-      $\\frac{3}{4}g > -6 \\quad [\\times \\frac{2}{3}]$
-
-      A) $\\frac{g}{3} > -6$
-      B) $\\frac{g}{2} > -4$
-      C) $\\frac{g}{2} < -4$
-      D) $\\frac{g}{3} > -6$
+    # EXAM: UASA Bahagian A (OAP)
+    text: "Form a new inequality by performing the operation stated in the brackets. $\\frac{3}{4}g > -6 \\quad [\\times \\frac{2}{3}]$\n\nA) $\\frac{g}{3} > -6$ \nB) $\\frac{g}{2} > -4$ \nC) $\\frac{g}{2} < -4$ \nD) $\\frac{g}{3} > -6$"
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 7.1.2
     answer:
       type: multiple_choice
       value: "B"
       working: |
-        Multiply both sides by 2/3:
-        (3/4 g) * (2/3) > -6 * (2/3)
-        (6/12) g > -12 / 3
-        1/2 g > -4
-        g/2 > -4
+        Multiply both sides by 2/3: 
+        (3/4 g) * (2/3) > -6 * (2/3) 
+        (6/12) g > -12 / 3 
+        1/2 g > -4 
+        g/2 > -4 
         Since we multiplied by a POSITIVE number, the sign does NOT flip.
     marks: 1
     rubric:
@@ -280,32 +288,21 @@ questions:
     hints:
       - level: 1
         text: "MISCONCEPTION ALERT: Just because there is a negative number on the right (-6), do not flip the sign! The sign ONLY flips if the multiplier itself is negative."
-      - level: 2
-        text: "Multiply the left side by 2/3 and the right side by 2/3."
-      - level: 3
-        text: "Check your multiplier. Is 2/3 positive or negative? Do you need to flip the sign?"
 
-  # EXAM: UASA (Bahagian A - OAP)
-  # RATIONALE: A cross-topic synthesis linking inequality ranges to set theory universal domains and complements.
   - id: Q13
-    text: >-
-      Given universal set: $\\{x : x < 15, x \\text{ is an even number}\\}$
-      Set P = {multiples of 3}
-      Find $P'$.
-
-      A) {3, 6, 9, 12}
-      B) {2, 4, 6, 8, 10, 12, 14}
-      C) {1, 3, 5, 7, 9, 11, 13}
-      D) {2, 4, 8, 10, 14}
+    # EXAM: UASA Bahagian A (OAP)
+    text: "Given universal set: $\\{x : x < 15, x \\text{ is an even number}\\}$ \nSet P = {multiples of 3} \nFind $P'$.\n\nA) {3, 6, 9, 12} \nB) {2, 4, 6, 8, 10, 12, 14} \nC) {1, 3, 5, 7, 9, 11, 13} \nD) {2, 4, 8, 10, 14}"
     difficulty: hard
+    tp_level: 6
+    kbat: true
     learning_objective: 7.2.2
     answer:
       type: multiple_choice
       value: "D"
       working: |
-        Universal domain = Even numbers less than 15 = {2, 4, 6, 8, 10, 12, 14}
-        Set P = Multiples of 3 strictly within this domain = {6, 12}
-        P' (Complement of P) = Everything in the universal domain EXCEPT {6, 12}
+        Universal domain = Even numbers less than 15 = {2, 4, 6, 8, 10, 12, 14} 
+        Set P = Multiples of 3 strictly within this domain = {6, 12} 
+        P' (Complement of P) = Everything in the universal domain EXCEPT {6, 12} 
         P' = {2, 4, 8, 10, 14}
     marks: 1
     rubric:
@@ -313,33 +310,23 @@ questions:
         criteria: "Correctly selects option D."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Do not build Set P out of ALL multiples of 3. You must only pick multiples of 3 that are completely inside the universal set you defined!"
-      - level: 2
         text: "First, list out every single number in the universal set. (Even numbers smaller than 15)."
-      - level: 3
-        text: "Next, from that specific list you just made, circle the numbers that are multiples of 3. That is Set P."
-      - level: 4
-        text: "The symbol P' means 'everything else'. Write down all the numbers you didn't circle."
+      - level: 2
+        text: "Next, from that specific list you just made, circle the numbers that are multiples of 3. That is Set P. P' means 'everything else'."
 
-  # EXAM: UASA (Bahagian C - Subjektif)
-  # RATIONALE: Tests the critical difference between strict (<) and inclusive (<=) inequalities when mapped to integer lists.
   - id: Q14
-    text: >-
-      Match the given integer solution sets to their correct inequality range.
-      Ranges available: $[1 < x < 3], [1 \\leq x < 3], [-1 \\leq x \\leq 3],
-      [-1 < x < 3]$
-
-      (i) $x = -1, 0, 1, 2, 3$ corresponds to which range?
-      (ii) $x = 1, 2$ corresponds to which range?
-      (iii) $x = 0, 1, 2$ corresponds to which range?
+    # EXAM: UASA Bahagian B (OPK)
+    text: "Match the given integer solution sets to their correct inequality range. Ranges available: $[1 < x < 3], [1 \\leq x < 3], [-1 \\leq x \\leq 3], [-1 < x < 3]$\n(i) $x = -1, 0, 1, 2, 3$ \n(ii) $x = 1, 2$ \n(iii) $x = 0, 1, 2$"
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 7.2.1
     answer:
       type: exact
       value: "(i) -1 <= x <= 3, (ii) 1 <= x < 3, (iii) -1 < x < 3"
       working: |
-        (i) Set includes -1 and 3, so both bounds must have 'or equal to' (<=). Thus: -1 <= x <= 3.
-        (ii) Set includes 1 but stops at 2 (less than 3). So 1 is inclusive, 3 is strict. Thus: 1 <= x < 3.
+        (i) Set includes -1 and 3, so both bounds must have 'or equal to' (<=). Thus: -1 <= x <= 3. 
+        (ii) Set includes 1 but stops at 2 (less than 3). So 1 is inclusive, 3 is strict. Thus: 1 <= x < 3. 
         (iii) Set starts at 0 (greater than -1) and stops at 2 (less than 3). Both bounds strict. Thus: -1 < x < 3.
     marks: 3
     rubric:
@@ -351,24 +338,21 @@ questions:
         criteria: "Matches (iii) to -1 < x < 3."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Do not mix up $<$ and $\\leq$. Look carefully at whether the boundary number is actually listed in the sequence."
-      - level: 2
-        text: "Look at the lowest number and highest number in the list."
-      - level: 3
         text: "If the list exactly includes the boundary number, you need the line underneath the symbol (<=)."
 
-  # EXAM: UASA (Bahagian C - Subjektif)
-  # RATIONALE: Standard exemplar for simultaneous linear inequalities testing intersection logic and the Big Flip rule.
   - id: Q15
+    # EXAM: UASA Bahagian C (Subjektif)
     text: "Solve each of the following simultaneous linear inequalities and find the possible values of $x$.\n$1 + 4x \\leq 9$ and $-\\frac{2}{5}x \\leq 2$"
     difficulty: hard
+    tp_level: 4
+    kbat: false
     learning_objective: 7.2.3
     answer:
       type: exact
-      value: "-5 <= x <= 2"
+      value: "-5 \\leq x \\leq 2"
       working: |
-        Inequality 1: 1 + 4x <= 9 -> 4x <= 8 -> x <= 2
-        Inequality 2: -2/5 x <= 2 -> x >= 2 * (-5/2) -> x >= -5 (SIGN FLIP)
+        Inequality 1: 1 + 4x <= 9 -> 4x <= 8 -> x <= 2 
+        Inequality 2: -2/5 x <= 2 -> x >= 2 * (-5/2) -> x >= -5 (SIGN FLIP) 
         Intersection: -5 <= x <= 2
     marks: 2
     rubric:
@@ -378,35 +362,22 @@ questions:
         criteria: "Correctly combines into single range: -5 <= x <= 2. Accept equivalent like 2 >= x >= -5, ignore spacing."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: If you struggle to merge the final answers, draw a single horizontal number line and plot both arrows to visually find where they overlap."
-      - level: 2
-        text: "Solve the left inequality first as if it's its own problem."
-      - level: 3
-        text: "Solve the right inequality. Remember the special rule when multiplying by a negative fraction!"
-      - level: 4
-        text: "Combine them. What numbers are bigger than or equal to -5 but smaller than or equal to 2?"
+        text: "Solve the left inequality first as if it's its own problem. Then solve the right one. Don't forget the sign flip rule on the second one!"
 
-  # EXAM: UASA (Bahagian C - Subjektif)
-  # RATIONALE: Tests simultaneous inequalities requiring bracket expansion and fraction clearing.
   - id: Q16
+    # EXAM: UASA Bahagian C (Subjektif)
     text: "Solve each of the following simultaneous linear inequalities and find the possible values of $x$.\n$3(x + 1) \\geq -6$ and $\\frac{3x}{2} + 1 < 7$"
     difficulty: hard
+    tp_level: 4
+    kbat: false
     learning_objective: 7.2.3
     answer:
       type: exact
-      value: "-3 <= x < 4"
+      value: "-3 \\leq x < 4"
       working: |
-        Inequality 1: 3(x + 1) >= -6
-        x + 1 >= -2
-        x >= -3
-
-        Inequality 2: 3x / 2 + 1 < 7
-        3x / 2 < 6
-        3x < 12
-        x < 4
-
-        Intersection: x is between -3 (inclusive) and 4 (strict).
-        -3 <= x < 4
+        Inequality 1: 3(x + 1) >= -6 -> x + 1 >= -2 -> x >= -3
+        Inequality 2: 3x/2 + 1 < 7 -> 3x/2 < 6 -> 3x < 12 -> x < 4
+        Intersection: -3 <= x < 4
     marks: 2
     rubric:
       - marks: 1
@@ -416,7 +387,47 @@ questions:
     hints:
       - level: 1
         text: "For the first inequality, try dividing both sides by 3 before expanding the bracket."
-      - level: 2
-        text: "For the second inequality, subtract 1 from both sides first, then multiply by 2."
-      - level: 3
-        text: "Draw both answers on a number line. Where do the two arrows overlap?"
+
+##### ---------------------------------------------------------
+##### NEW ADDITIONS TO MEET 5-5-5 POOL MINIMUM
+##### ---------------------------------------------------------
+  - id: Q17
+    text: "Represent the following situation using an inequality: The passing mark, $m$, for a Mathematics test is 50."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 7.2.1
+    answer:
+      type: exact
+      value: "m \\geq 50"
+      working: |
+        A passing mark of 50 means the mark must be exactly 50 or any number greater than 50.
+        Therefore, m >= 50.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correct final answer. Must include the correct inequality sign."
+    hints:
+      - level: 1
+        text: "If you score exactly 50, do you pass? Yes. So you need the symbol for 'greater than or equal to'."
+
+  - id: Q18
+    text: "Solve the linear inequality: $x + 4 < 9$"
+    difficulty: easy
+    tp_level: 3
+    kbat: false
+    learning_objective: 7.2.2
+    answer:
+      type: exact
+      value: "x < 5"
+      working: |
+        x + 4 < 9
+        x < 9 - 4
+        x < 5
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correct final answer. Must include the correct inequality sign."
+    hints:
+      - level: 1
+        text: "Move the +4 to the other side by subtracting 4 from both sides."

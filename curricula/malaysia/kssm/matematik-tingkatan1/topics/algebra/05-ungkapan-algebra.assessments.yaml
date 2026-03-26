@@ -245,7 +245,8 @@ questions:
 ### UASA NATIONAL EXAM EXEMPLARS & KBAT ADDITIONS
 ### ---------------------------------------------------------
   - id: Q11 
-    text: "Simplify: $(3xy - 2) - 2(xy - 5)$\n\nA) $xy + 7$\nB) $xy + 8$\nC) $2xy - 5$\nD) $2xy - 9$" 
+    # EXAM: UASA Bahagian A (OAP)
+    text: "Simplify: $(3xy - 2) - 2(xy - 5)\n\nA) $xy + 7$\nB) $xy + 8$\nC) $2xy - 5$\nD) $2xy - 9$" 
     difficulty: medium 
     learning_objective: 5.2.1 
     tp_level: 3
@@ -271,7 +272,8 @@ questions:
         text: "Group the 'xy' terms together and the constant numbers together."
 
   - id: Q12 
-    text: "Expand and simplify: $(2 + 5x)^2 - 3(x - 4)$\n\nA) $25x^2 - 17x + 16$\nB) $25x^2 + 17x + 8$\nC) $25x^2 + 25x + 8$\nD) $25x^2 + 17x + 16$" 
+    # EXAM: UASA Bahagian A (OAP)
+    text: "Expand and simplify: $(2 + 5x)^2 - 3(x - 4)\n\nA) $25x^2 - 17x + 16$\nB) $25x^2 + 17x + 8$\nC) $25x^2 + 25x + 8$\nD) $25x^2 + 17x + 16$" 
     difficulty: hard 
     learning_objective: 5.2.2 
     tp_level: 4
@@ -294,6 +296,7 @@ questions:
         text: "Write $(2 + 5x)^2$ as $(2 + 5x)(2 + 5x)$ and expand it."
 
   - id: Q13 
+    # EXAM: UASA Bahagian B (OPK)
     text: "Write the correct variables or coefficients for the algebraic expression $\\frac{3x^2yz}{2}$. If the given coefficient is $3xy$, what is the variable part?" 
     difficulty: medium 
     learning_objective: 5.1.4 
@@ -320,6 +323,7 @@ questions:
         text: "If you 'cover up' the 3, one x, and the y, what is left over?"
 
   - id: Q14 
+    # EXAM: UASA Bahagian C (Subjektif)
     text: "Adam harvested 1500 kg of sweet potatoes and 700 kg of tapioca. Hani harvested 800 kg of sweet potatoes and 1600 kg of tapioca. The price of sweet potatoes is RM $x$/kg and tapioca is RM $y$/kg. Express the amount of money received by:\n(a) Adam in terms of $x$ and $y$.\n(b) Hani in terms of $x$ and $y$." 
     difficulty: hard 
     learning_objective: 5.1.2 
@@ -346,6 +350,7 @@ questions:
         text: "Calculate the money for sweet potatoes and the money for tapioca separately, then add them with a '+' sign."
 
   - id: Q15
+    # EXAM: UASA Bahagian C (Subjektif)
     text: "Azhar's mother's age was four times Azhar's age last year. If Azhar is $n$ years old now, state his mother's age in seven years' time in terms of $n$."
     difficulty: hard
     learning_objective: 5.1.2
@@ -374,6 +379,7 @@ questions:
         text: "Once you have the mother's age last year, add 1 to find her age now, and then add another 7 to find her age in the future."
 
   - id: Q16
+    # EXAM: UASA Bahagian C (Subjektif)
     text: "A ribbon of length $p$ cm is cut into three parts. The lengths of the first and second parts are $x$ cm and $2x$ cm respectively. (a) Write an expression for the length of the third part. (b) If $x = 10$ and the length of the second part is four times the length of the third part, calculate the value of $p$."
     difficulty: hard
     learning_objective: 5.2.1

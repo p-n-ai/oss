@@ -1,0 +1,70 @@
+topic_id: F1-07
+provenance: ai-assisted
+worked_examples:
+### ---------------------------------------------------------
+### WORKED EXAMPLES: Subchapter 7.2
+### ---------------------------------------------------------
+  - id: WE-01
+    topic: "Forming Linear Inequalities (7.2.1)"
+    scenario: "Fatimah earns overtime pay when she works at least 9 hours a day. If $t$ is the number of working hours a day, form a linear inequality for this situation."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 7.2.1
+    real_world_analogy: >-
+      Think of 'at least' like the minimum height limit for a roller coaster. If the sign says 'At least 110cm', being exactly 110cm is allowed, and anything taller is allowed, so we use the greater than or equal to symbol (≥).
+    misconception_alert: >-
+      Students often conceptually confuse 'at least' with 'less than' because they hear the word 'least'. Emphasize that 'at least 9' means 9 is the absolute minimum boundary, so the allowable working hours must be 9 or greater.
+    working: |
+      Step 1: Identify the key phrase in the problem: "at least".
+      Step 2: Translate "at least" into a mathematical symbol. It means 9 hours is the minimum, so the time must be "greater than or equal to" 9 (≥).
+      Step 3: Connect the variable $t$ and the value 9 using the symbol.
+      Final Answer: t \geq 9
+
+  - id: WE-02
+    topic: "Solving Linear Inequalities (7.2.2)"
+    scenario: "Solve the linear inequality: $7 - 4x > 15$"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 7.2.2
+    real_world_analogy: >-
+      Solving an inequality is exactly like balancing a scale in an equation, but with one special alarm: if you ever multiply or divide both sides by a negative weight, the balance tips completely upside down!
+    misconception_alert: >-
+      AI and Students frequently forget the Golden Rule of Inequalities: Whenever you multiply or divide both sides by a NEGATIVE number, the inequality sign MUST FLIP direction. Emphasize this heavily during the final isolation step!
+    working: |
+      Step 1: Subtract 7 from both sides to begin isolating x.
+      -4x > 15 - 7
+      -4x > 8
+      
+      Step 2: Divide both sides by -4 to fully isolate x. Apply the "Big Flip" rule because we are dividing by a negative number.
+      x < 8 / -4
+      x < -2
+      
+      Final Answer: x < -2
+
+  - id: WE-03
+    topic: "Solving Simultaneous Linear Inequalities (7.2.3)"
+    scenario: "Solve the simultaneous linear inequalities: $2x + 5 < 11$ and $3x - 10 < 5$"
+    difficulty: hard
+    tp_level: 4
+    kbat: false
+    learning_objective: 7.2.3
+    real_world_analogy: >-
+      Simultaneous inequalities are like applying for a special program with two strict rules: You must be older than 14 AND score above 80%. You only get in if you stand in the exact 'overlapping' area where BOTH rules are true at the same time.
+    misconception_alert: >-
+      Students often solve both inequalities correctly algebraically but fail to combine them. Always instruct the AI to draw or visualize a horizontal number line to find the 'bahagian sepunya' (common intersection) where both arrows perfectly overlap side-by-side.
+    working: |
+      Step 1: Solve the first inequality.
+      2x + 5 < 11
+      2x < 6
+      x < 3
+      
+      Step 2: Solve the second inequality.
+      3x - 10 < 5
+      3x < 15
+      x < 5
+      
+      Step 3: Combine both solutions. The values must be strictly less than 3 AND strictly less than 5. On a number line, the overlapping region where both are true is simply values less than 3.
+      
+      Final Answer: x < 3

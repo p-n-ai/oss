@@ -458,6 +458,7 @@ questions:
   ##### ---------------------------------------------------------
 
   - id: Q18
+    # EXAM: UASA Bahagian A (OAP)
     text: "Solve: $4(b + 1) = \\frac{b}{2} - 1$ \n\nA) $-\\frac{10}{9}$ \nB) $-\\frac{4}{9}$ \nC) $-\\frac{3}{7}$ \nD) $-\\frac{10}{7}$"
     difficulty: medium
     tp_level: 3
@@ -486,6 +487,7 @@ questions:
         text: "To make the math easier, multiply every single term on both sides by 2 to get rid of the fraction."
 
   - id: Q19
+    # EXAM: UASA Bahagian A (OAP)
     text: "Nina bought 5 notebooks and 4 pens for RM14. Which of the following is the price of a book and a pen?\n\nA) Book: RM2.00, Pen: RM1.00\nB) Book: RM1.50, Pen: RM1.60\nC) Book: RM2.00, Pen: RM1.60\nD) Book: RM1.50, Pen: RM1.00"
     difficulty: medium
     tp_level: 4
@@ -509,6 +511,7 @@ questions:
         text: "Since it's a multiple choice question, use the 'Trial and Improvement' method by substituting the options into your equation."
 
   - id: Q20
+    # EXAM: UASA Bahagian A (OAP)
     text: "$x$ and $y$ are common multiples of 4 and 6 that are less than 60. If $x \\div y = 4$, calculate the value of $x + y$.\n\nA) 48\nB) 60\nC) 72\nD) 85"
     difficulty: hard
     tp_level: 5
@@ -536,6 +539,7 @@ questions:
         text: "Look at your list. Which two numbers from that list divide to give exactly 4?"
 
   - id: Q21
+    # EXAM: UASA Bahagian A (OAP)
     text: "Given: \n$p + q = 3$ \n$2p + q = 1$ \nWhich of the following is true?\n\nA) $6 - q + q = 1$ \nB) $6 + q = -1$ \nC) $3p - 9 = 2$ \nD) $2p - p = -2$"
     difficulty: hard
     tp_level: 4
@@ -561,6 +565,7 @@ questions:
         text: "Find the value of $p$. Then look at the options to see which one simplifies to match your $p$ value."
 
   - id: Q22
+    # EXAM: UASA Bahagian B (OPK)
     text: "(i) Sufian is 5 years younger than his elder sister. If Sufian's age is $x$ years old, express the age of Sufian's elder sister in terms of $x$. \n(ii) Sufian is 2 years older than his younger brother. If his younger brother is 4 years old, find the age of Sufian's sister."
     difficulty: medium
     tp_level: 4
@@ -590,6 +595,7 @@ questions:
         text: "For part (ii), figure out Sufian's exact age first using the brother's age. Then plug that into your formula from part (i)."
 
   - id: Q23
+    # EXAM: UASA Bahagian C (Subjektif)
     text: "Given that Adam's crops sold for $1500x + 700y$ and Hani's crops sold for $800x + 1600y$: If $x = 5$ and the total amount of money received by Adam is RM9 600, calculate the total amount of cash received by Hani."
     difficulty: hard
     tp_level: 5
@@ -627,6 +633,7 @@ questions:
         text: "Replace 'x' with 5, and solve the equation to find the value of 'y' (price of tapioca). Then plug both into Hani's expression to find her total."
 
   - id: Q24
+    # EXAM: UASA Bahagian C (Subjektif)
     text: "Aina uses $x$ hours a week to exercise and $y$ hours a week to read novels. The total time spent on both hobbies is 11 hours a week. In a given week, Aina halved her exercise and spent an additional 3 hours reading novels. During that week, the total time spent exercising and reading novels was 12 hours. Find the value of $x$ and $y$."
     difficulty: hard
     tp_level: 5
