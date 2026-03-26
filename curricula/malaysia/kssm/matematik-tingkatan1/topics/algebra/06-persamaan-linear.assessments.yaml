@@ -1,12 +1,56 @@
 topic_id: F1-06
 provenance: ai-assisted
 questions:
-  # ---------------------------------------------------------
-  # SUBCHAPTER 6.1: Linear Equations in One Variable
-  # ---------------------------------------------------------
+  ### ---------------------------------------------------------
+  ### SUBCHAPTER 6.1: Linear Equations in One Variable
+  ### ---------------------------------------------------------
   - id: Q1
+    text: "Determine whether $x + 5 = 10$ is a linear equation in one variable."
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: 6.1.1
+    answer:
+      type: exact
+      value: "Yes"
+      working: |
+        The equation has exactly one variable (x).
+        The highest power of the variable x is 1.
+        Therefore, it is a linear equation in one variable.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly states Yes."
+    hints:
+      - level: 1
+        text: "Check two things: Is there only one letter? Is there no 'power of 2' or higher on that letter?"
+
+  - id: Q2
+    text: "Write a linear equation in one variable for the statement: A number $x$ subtracted by 3 is equal to 7."
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: 6.1.2
+    answer:
+      type: exact
+      value: "x - 3 = 7"
+      working: |
+        "A number x subtracted by 3" means x - 3.
+        "is equal to 7" means = 7.
+        Equation: x - 3 = 7
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly constructs the equation."
+    hints:
+      - level: 1
+        text: "Translate the words 'subtracted by' into a minus sign (-)."
+
+  - id: Q3
     text: "Which of the following is a linear equation in one variable? Justify your answer. A) $m + 5 = 12$ B) $p^2 - 1 = 8$ C) $2x + 3y = 7$"
     difficulty: easy
+    tp_level: 1
+    kbat: false
     learning_objective: 6.1.1
     answer:
       type: free_text
@@ -25,9 +69,11 @@ questions:
       - level: 1
         text: "A linear equation in one variable must have exactly one unknown letter, and that letter cannot have a 'power of 2' or higher."
 
-  - id: Q2
+  - id: Q4
     text: "Write a linear equation in one variable for this situation: The sum of a number $y$ and 8 is equal to 20."
     difficulty: easy
+    tp_level: 1
+    kbat: false
     learning_objective: 6.1.2
     answer:
       type: exact
@@ -44,9 +90,11 @@ questions:
       - level: 1
         text: "Translate the word 'sum' into the correct mathematical operation (+)."
 
-  - id: Q3
+  - id: Q5
     text: "Solve the linear equation: $3x - 4 = 11$"
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 6.1.3
     answer:
       type: exact
@@ -67,9 +115,11 @@ questions:
       - level: 1
         text: "Use the concept of equality: whatever you do to one side, do to the other. First add 4 to both sides, then divide both sides by 3."
 
-  - id: Q4
+  - id: Q6
     text: "Solve the linear equation: $\\frac{x + 8}{2} = 9$"
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 6.1.3
     answer:
       type: exact
@@ -91,9 +141,11 @@ questions:
       - level: 1
         text: "Use the concept of backtracking or equality. If the whole left side is divided by 2, what is the opposite operation you should do first?"
 
-  - id: Q5
+  - id: Q7
     text: "The perimeter of a rectangular garden is 48 meters. The length of the garden is $3w$, and the width is $w$. Form a linear equation and find the value of $w$."
     difficulty: hard
+    tp_level: 4
+    kbat: true
     learning_objective: 6.1.4
     answer:
       type: exact
@@ -117,12 +169,14 @@ questions:
       - level: 1
         text: "The perimeter is the total distance around the outside. A rectangle has two lengths and two widths."
 
-  # ---------------------------------------------------------
-  # SUBCHAPTER 6.2: Linear Equations in Two Variables
-  # ---------------------------------------------------------
-  - id: Q6
+  ### ---------------------------------------------------------
+  ### SUBCHAPTER 6.2: Linear Equations in Two Variables
+  ### ---------------------------------------------------------
+  - id: Q8
     text: "Determine whether $3p - q = 6$ is a linear equation in two variables. Justify your answer."
     difficulty: easy
+    tp_level: 1
+    kbat: false
     learning_objective: 6.2.1
     answer:
       type: free_text
@@ -141,12 +195,11 @@ questions:
       - level: 1
         text: "Check two things: How many unknown letters are there? Are there any powers like squared or cubed?"
 
-  - id: Q7
-    text: >-
-      Write a linear equation in two variables for the following situation: A
-      stationery shop sells books for RM15 each and pens for RM2 each. Damia
-      spends a total of RM50 to buy $b$ books and $p$ pens.
+  - id: Q9
+    text: "Write a linear equation in two variables for the following situation: A stationery shop sells books for RM15 each and pens for RM2 each. Damia spends a total of RM50 to buy $b$ books and $p$ pens."
     difficulty: medium
+    tp_level: 2
+    kbat: false
     learning_objective: 6.2.2
     answer:
       type: exact
@@ -165,9 +218,11 @@ questions:
       - level: 1
         text: "Multiply the price of one item by its variable quantity, then add the totals together."
 
-  - id: Q8
+  - id: Q10
     text: "Given the linear equation $2x - y = 4$, if $x = 3$, what is the value of $y$?"
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 6.2.3
     answer:
       type: exact
@@ -188,9 +243,11 @@ questions:
       - level: 1
         text: "Substitute the number 3 into the equation where x is, and then solve it like a one-variable equation to find y."
 
-  - id: Q9
+  - id: Q11
     text: "State two possible pairs of solutions for the linear equation $x + y = 7$."
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 6.2.3
     answer:
       type: free_text
@@ -209,9 +266,11 @@ questions:
       - level: 1
         text: "Pick any random number for x, put it in the equation, and find what y has to be so the total is 7."
 
-  - id: Q10
+  - id: Q12
     text: "To represent the linear equation $x - y = -2$ graphically, you must find coordinate points. If $x = 0$, what is the value of $y$?"
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 6.2.4
     answer:
       type: exact
@@ -231,16 +290,14 @@ questions:
       - level: 1
         text: "Replace x with 0 in the equation, then figure out what number y must be so that negative y equals negative 2."
 
-  # ---------------------------------------------------------
-  # SUBCHAPTER 6.3: Simultaneous Linear Equations in Two Variables
-  # ---------------------------------------------------------
-  - id: Q11
-    text: >-
-      Faizah rears a total of 7 chickens and ducks. The cost of rearing a
-      chicken is RM1 a week and a duck is RM2 a week. The total cost is RM12 a
-      week. Form two simultaneous linear equations using $x$ for the number of
-      chickens and $y$ for the number of ducks.
+  ### ---------------------------------------------------------
+  ### SUBCHAPTER 6.3: Simultaneous Linear Equations in Two Variables
+  ### ---------------------------------------------------------
+  - id: Q13
+    text: "Faizah rears a total of 7 chickens and ducks. The cost of rearing a chicken is RM1 a week and a duck is RM2 a week. The total cost is RM12 a week. Form two simultaneous linear equations using $x$ for the number of chickens and $y$ for the number of ducks."
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 6.3.1
     answer:
       type: free_text
@@ -258,16 +315,18 @@ questions:
       - level: 1
         text: "You need two separate equations. One about the total number of animals, and one about the total money."
 
-  - id: Q12
+  - id: Q14
     text: "Solve the following simultaneous linear equations using the substitution method: <br> $x - y = 3$ <br> $2x + y = 12$"
     difficulty: hard
+    tp_level: 3
+    kbat: false
     learning_objective: 6.3.2
     answer:
       type: exact
       value: "(5, 2)"
       working: |
         From eq 1: x = y + 3
-        Substitute into eq 2:
+        Substitute into eq 2: 
         2(y + 3) + y = 12
         2y + 6 + y = 12
         3y + 6 = 12
@@ -290,9 +349,11 @@ questions:
       - level: 1
         text: "Re-arrange the first equation so that it starts with 'x = ...'. Then, replace the 'x' in the second equation with that new expression."
 
-  - id: Q13
+  - id: Q15
     text: "Solve the following simultaneous linear equations using the elimination method: <br> $3p + 2q = 16$ <br> $p - 2q = 0$"
     difficulty: hard
+    tp_level: 3
+    kbat: false
     learning_objective: 6.3.2
     answer:
       type: exact
@@ -321,9 +382,11 @@ questions:
       - level: 1
         text: "Look at the '2q' in both equations. Since one is positive and one is negative, what happens if you add the two equations together?"
 
-  - id: Q14
+  - id: Q16
     text: "At a fruit stall, the cost of 2 apples and 3 oranges is RM 9. The cost of 4 apples and 1 orange is RM 13. Form simultaneous linear equations and find the price of one apple."
     difficulty: hard
+    tp_level: 4
+    kbat: true
     learning_objective: 6.3.3
     answer:
       type: exact
@@ -357,9 +420,11 @@ questions:
       - level: 1
         text: "Use 'a' for apples and 'o' for oranges to write two equations first. Then, try multiplying the first equation by 2 so that the number of apples matches in both."
 
-  - id: Q15
+  - id: Q17
     text: "A 50 cm piece of wire is bent to form a rectangle. If the length of the rectangle is 5 cm longer than its width, formulate the simultaneous equations and determine its length and width."
     difficulty: hard
+    tp_level: 5
+    kbat: true
     learning_objective: 6.3.3
     answer:
       type: exact
@@ -386,19 +451,17 @@ questions:
         criteria: "Correctly finds the length."
     hints:
       - level: 1
-        text: >-
-          The wire forms the perimeter. Write one equation for the perimeter
-          ($2l + 2w = 50$). Write another equation capturing "length is 5
-          longer than width". Then substitute one into the other.
+        text: "The wire forms the perimeter. Write one equation for the perimeter ($2l + 2w = 50$). Write another equation capturing 'length is 5 longer than width'. Then substitute one into the other."
 
-  ### ---------------------------------------------------------
-  ### UASA NATIONAL EXAM EXEMPLARS
-  ### ---------------------------------------------------------
-  # EXAM: UASA (Bahagian A - OAP)
-  # RATIONALE: Tests equality concept and solving one-variable linear equations involving fractions and expansions.
-  - id: Q16
-    text: "Solve: $4(b + 1) = \\frac{b}{2} - 1$\n\nA) $-\\frac{10}{9}$\nB) $-\\frac{4}{9}$\nC) $-\\frac{3}{7}$\nD) $-\\frac{10}{7}$"
+  ##### ---------------------------------------------------------
+  ##### UASA NATIONAL EXAM EXEMPLARS
+  ##### ---------------------------------------------------------
+
+  - id: Q18
+    text: "Solve: $4(b + 1) = \\frac{b}{2} - 1$ \n\nA) $-\\frac{10}{9}$ \nB) $-\\frac{4}{9}$ \nC) $-\\frac{3}{7}$ \nD) $-\\frac{10}{7}$"
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 6.1.3
     answer:
       type: multiple_choice
@@ -422,18 +485,11 @@ questions:
       - level: 3
         text: "To make the math easier, multiply every single term on both sides by 2 to get rid of the fraction."
 
-  # EXAM: UASA (Bahagian A - OAP)
-  # RATIONALE: Encourages 'Kaedah Cuba Jaya' (Trial and Improvement) or mapping simultaneous logic from MCQ options.
-  - id: Q17
-    text: >-
-      Nina bought 5 notebooks and 4 pens for RM14. Which of the following is
-      the price of a book and a pen?
-
-      A) Book: RM2.00, Pen: RM1.00
-      B) Book: RM1.50, Pen: RM1.60
-      C) Book: RM2.00, Pen: RM1.60
-      D) Book: RM1.50, Pen: RM1.00
+  - id: Q19
+    text: "Nina bought 5 notebooks and 4 pens for RM14. Which of the following is the price of a book and a pen?\n\nA) Book: RM2.00, Pen: RM1.00\nB) Book: RM1.50, Pen: RM1.60\nC) Book: RM2.00, Pen: RM1.60\nD) Book: RM1.50, Pen: RM1.00"
     difficulty: medium
+    tp_level: 4
+    kbat: true
     learning_objective: 6.2.3
     answer:
       type: multiple_choice
@@ -452,11 +508,11 @@ questions:
       - level: 2
         text: "Since it's a multiple choice question, use the 'Trial and Improvement' method by substituting the options into your equation."
 
-  # EXAM: UASA (Bahagian A - OAP)
-  # RATIONALE: A brilliant synthesis question requiring Chapter 2 (Multiples) knowledge to constrain a Chapter 6 linear equation.
-  - id: Q18
+  - id: Q20
     text: "$x$ and $y$ are common multiples of 4 and 6 that are less than 60. If $x \\div y = 4$, calculate the value of $x + y$.\n\nA) 48\nB) 60\nC) 72\nD) 85"
     difficulty: hard
+    tp_level: 5
+    kbat: true
     learning_objective: 6.2.3
     answer:
       type: multiple_choice
@@ -479,11 +535,11 @@ questions:
       - level: 3
         text: "Look at your list. Which two numbers from that list divide to give exactly 4?"
 
-  # EXAM: UASA (Bahagian A - OAP)
-  # RATIONALE: Tests conceptual manipulation of simultaneous equations rather than just asking for the final root.
-  - id: Q19
-    text: "Given: \n$p + q = 3$\n$2p + q = 1$\nWhich of the following is true?\n\nA) $6 - q + q = 1$\nB) $6 + q = -1$\nC) $3p - 9 = 2$\nD) $2p - p = -2$"
+  - id: Q21
+    text: "Given: \n$p + q = 3$ \n$2p + q = 1$ \nWhich of the following is true?\n\nA) $6 - q + q = 1$ \nB) $6 + q = -1$ \nC) $3p - 9 = 2$ \nD) $2p - p = -2$"
     difficulty: hard
+    tp_level: 4
+    kbat: true
     learning_objective: 6.3.2
     answer:
       type: multiple_choice
@@ -492,7 +548,8 @@ questions:
         Solve for p using elimination:
         (2p + q) - (p + q) = 1 - 3
         p = -2
-        Check options: Option D states 2p - p = -2, which simplifies to p = -2. This matches the true value.
+        Check options:
+        Option D states 2p - p = -2, which simplifies to p = -2. This matches the true value.
     marks: 1
     rubric:
       - marks: 1
@@ -503,22 +560,18 @@ questions:
       - level: 2
         text: "Find the value of $p$. Then look at the options to see which one simplifies to match your $p$ value."
 
-  # EXAM: UASA (Bahagian C - Subjektif)
-  # RATIONALE: Classic age-related word problem testing algebraic translation and basic linear solving.
-  - id: Q20
-    text: >-
-      (i) Sufian is 5 years younger than his elder sister. If Sufian's age is
-      $x$ years old, express the age of Sufian's elder sister in terms of $x$.
-      (ii) Sufian is 2 years older than his younger brother. If his younger
-      brother is 4 years old, find the age of Sufian's sister.
+  - id: Q22
+    text: "(i) Sufian is 5 years younger than his elder sister. If Sufian's age is $x$ years old, express the age of Sufian's elder sister in terms of $x$. \n(ii) Sufian is 2 years older than his younger brother. If his younger brother is 4 years old, find the age of Sufian's sister."
     difficulty: medium
+    tp_level: 4
+    kbat: true
     learning_objective: 6.1.2
     answer:
       type: exact
       value: "(i) x + 5  (ii) 11"
       working: |
         (i) Sister's age = Sufian's age (x) + 5 = x + 5
-        (ii) Brother = 4. Sufian is 2 years older, so Sufian (x) = 4 + 2 = 6.
+        (ii) Brother = 4. Sufian is 2 years older, so Sufian (x) = 4 + 2 = 6. 
         Sister's age = x + 5 = 6 + 5 = 11.
     marks: 3
     rubric:
@@ -536,14 +589,11 @@ questions:
       - level: 3
         text: "For part (ii), figure out Sufian's exact age first using the brother's age. Then plug that into your formula from part (i)."
 
-  # EXAM: UASA (Bahagian C - Subjektif)
-  # RATIONALE: A complex TP5 multi-step problem that links expressions built in a previous question to form and solve simultaneous equations using substitution.
-  - id: Q21
-    text: >-
-      Given that Adam's crops sold for $1500x + 700y$ and Hani's crops sold for
-      $800x + 1600y$: If $x = 5$ and the total amount of money received by Adam
-      is RM9 600, calculate the total amount of cash received by Hani.
+  - id: Q23
+    text: "Given that Adam's crops sold for $1500x + 700y$ and Hani's crops sold for $800x + 1600y$: If $x = 5$ and the total amount of money received by Adam is RM9 600, calculate the total amount of cash received by Hani."
     difficulty: hard
+    tp_level: 5
+    kbat: true
     learning_objective: 6.3.3
     answer:
       type: exact
@@ -556,12 +606,8 @@ questions:
         700y = 9600 - 7500
         700y = 2100
         y = 3
-
-        Hani's expression = 800x + 1600y
-        Substitute x = 5 and y = 3:
-        Hani's total = 800(5) + 1600(3)
-        = 4000 + 4800
-        = 8800
+        Substitute x=5, y=3 into Hani:
+        800(5) + 1600(3) = 4000 + 4800 = 8800
     marks: 4
     rubric:
       - marks: 1
@@ -580,16 +626,11 @@ questions:
       - level: 3
         text: "Replace 'x' with 5, and solve the equation to find the value of 'y' (price of tapioca). Then plug both into Hani's expression to find her total."
 
-  # EXAM: UASA (Bahagian C - Subjektif)
-  # RATIONALE: A highly robust TP5 level question requiring students to extract two distinct linear conditions from a real-world text, formulate simultaneous equations, and solve.
-  - id: Q22
-    text: >-
-      Aina uses $x$ hours a week to exercise and $y$ hours a week to read novels.
-      The total time spent on both hobbies is 11 hours a week. In a given week,
-      Aina halved her exercise and spent an additional 3 hours reading novels.
-      During that week, the total time spent exercising and reading novels was 12 hours.
-      Find the value of $x$ and $y$.
+  - id: Q24
+    text: "Aina uses $x$ hours a week to exercise and $y$ hours a week to read novels. The total time spent on both hobbies is 11 hours a week. In a given week, Aina halved her exercise and spent an additional 3 hours reading novels. During that week, the total time spent exercising and reading novels was 12 hours. Find the value of $x$ and $y$."
     difficulty: hard
+    tp_level: 5
+    kbat: true
     learning_objective: 6.3.3
     answer:
       type: exact
@@ -598,10 +639,13 @@ questions:
         Eq 1: x + y = 11
         Eq 2: (x / 2) + (y + 3) = 12 -> (x / 2) + y = 9
         Using Substitution: y = 11 - x.
-        Substitute into Eq 2: (x / 2) + (11 - x) = 9
-        Multiply by 2: x + 22 - 2x = 18
+        Substitute into Eq 2:
+        (x / 2) + (11 - x) = 9
+        Multiply by 2:
+        x + 22 - 2x = 18
         -x = 18 - 22 -> -x = -4 -> x = 4
-        Substitute x = 4 into Eq 1: 4 + y = 11 -> y = 7
+        Substitute x = 4 into Eq 1:
+        4 + y = 11 -> y = 7
     marks: 4
     rubric:
       - marks: 1
@@ -622,20 +666,18 @@ questions:
       - level: 4
         text: "Isolate 'y' in the first equation and substitute it into the second."
 
-  # EXAM: UASA (Bahagian C - Subjektif)
-  # RATIONALE: Tests the fundamental concept of whether a specific coordinate pair mathematically satisfies a linear equation.
-  - id: Q23
-    text: "Given: $h - 2k = -5$\nDetermine whether $h = 2$, $k = -1$ is the solution of the given equation."
+  - id: Q25
+    text: "Given: $h - 2k = -5$ \nDetermine whether $h = 2$, $k = -1$ is the solution of the given equation."
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 6.2.3
     answer:
       type: free_text
       value: "No"
       working: |
         Substitute h = 2 and k = -1 into the left side of the equation:
-        Left side = 2 - 2(-1)
-        = 2 + 2
-        = 4
+        Left side = 2 - 2(-1) = 2 + 2 = 4
         Since 4 does not equal -5, it is not a solution.
     marks: 2
     rubric:

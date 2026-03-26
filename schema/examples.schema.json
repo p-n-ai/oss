@@ -22,7 +22,7 @@
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["id", "topic", "difficulty", "real_world_analogy", "misconception_alert", "scenario", "working"],
+        "required": ["id", "topic", "difficulty", "misconception_alert", "scenario", "working"],
         "properties": {
           "id": {
             "type": "string",
@@ -34,6 +34,17 @@
           "difficulty": {
             "type": "string",
             "enum": ["easy", "medium", "hard"]
+          },
+          "tp_level": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 6
+          },
+          "kbat": {
+            "type": "boolean"
+          },
+          "learning_objective": {
+            "type": "string"
           },
           "real_world_analogy": {
             "type": "string"
