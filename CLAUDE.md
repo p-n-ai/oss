@@ -17,6 +17,15 @@ Before starting any day's work, you **MUST** read and cross-reference **both** d
 
 The timeline provides the schedule and scope; the implementation guide provides the executable instructions. Neither is complete without the other. Do not implement a day's tasks from one document alone.
 
+**Task Status Tracking:**
+Each task row in `docs/development-timeline.md` follows the format:
+`| Task ID | Task | Owner | Status | Remark |`
+- **⬜** — not started
+- **✅** — completed
+- Any notes go in the **Remark** column
+
+When completing a day's tasks, update the Status column from ⬜ to ✅ and add any relevant remarks.
+
 ## Tech Stack
 
 | Technology | Purpose |

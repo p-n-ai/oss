@@ -39,6 +39,15 @@ When implementing any day's tasks (Day 0 through Day 30), you **MUST** read and 
 
 **Never implement from one document alone.** The timeline gives scope and order; the guide gives executable instructions. Cross-check both before starting and after completing each day's tasks.
 
+**Task Status Tracking:**
+Each task row in `docs/development-timeline.md` follows the format:
+`| Task ID | Task | Owner | Status | Remark |`
+- **⬜** — not started
+- **✅** — completed
+- Any notes go in the **Remark** column
+
+When completing a day's tasks, update the Status column from ⬜ to ✅ and add any relevant remarks.
+
 ## Canonical References
 
 Use these in priority order when instructions conflict:
