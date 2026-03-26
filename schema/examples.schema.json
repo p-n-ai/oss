@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/p-n-ai/oss/schema/examples.schema.json",
+  "title": "Worked Examples",
+  "description": "Pre-written worked examples for safe, step-by-step AI tutoring",
+  "type": "object",
+  "required": ["topic_id", "provenance", "worked_examples"],
+  "properties": {
+    "topic_id": {
+      "type": "string",
+      "description": "Reference to the topic these examples belong to"
+    },
+    "provenance": {
+      "type": "string",
+      "enum": ["human", "ai-assisted", "ai-generated"]
+    },
+    "description": {
+      "type": "string"
+    },
+    "worked_examples": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "topic", "difficulty", "real_world_analogy", "misconception_alert", "scenario", "working"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^WE-[0-9]+$"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "difficulty": {
+            "type": "string",
+            "enum": ["easy", "medium", "hard"]
+          },
+          "real_world_analogy": {
+            "type": "string"
+          },
+          "misconception_alert": {
+            "type": "string"
+          },
+          "scenario": {
+            "type": "string",
+            "description": "The scenario or question text"
+          },
+          "working": {
+            "type": "string",
+            "description": "Step-by-step working and solution"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

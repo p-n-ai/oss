@@ -33,6 +33,16 @@
             "type": "string",
             "description": "References a learning objective ID from the topic"
           },
+          "tp_level": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 6,
+            "description": "Tahap Penguasaan level (1-6)"
+          },
+          "kbat": {
+            "type": "boolean",
+            "description": "True if the question is a Higher Order Thinking Skills (KBAT) question"
+          },
           "answer": {
             "type": "object",
             "required": ["type", "value"],
