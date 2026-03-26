@@ -1,0 +1,75 @@
+topic_id: F2-02
+provenance: ai-assisted
+worked_examples:
+  ### ---------------------------------------------------------
+  ### WORKED EXAMPLES: Pemfaktoran dan Pecahan Algebra
+  ### ---------------------------------------------------------
+  - id: WE-01
+    topic: "Kembangan (Expansion) (2.1)"
+    scenario: "Expand the given algebraic expression brackets: (x + 3)(x - 4)"
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 2.1.2
+    real_world_analogy: >-
+      Think of expanding double brackets like a handshake. Every person in the first room (x and +3) MUST shake hands with every person in the second room (x and -4). Nobody gets skipped!
+    misconception_alert: >-
+      A very common trap is to only multiply the first terms and the last terms, giving x^2 - 12. Remember, the middle terms MUST interact too! If it's FOIL, don't forget the O and the I!
+    working: |
+      Step 1: Multiply the first terms:
+      x * x = x^2
+      Step 2: Multiply the outer terms:
+      x * (-4) = -4x
+      Step 3: Multiply the inner terms:
+      3 * x = 3x
+      Step 4: Multiply the last terms:
+      3 * (-4) = -12
+      Step 5: Combine them all together:
+      x^2 - 4x + 3x - 12
+      Final Step: Simplify by gathering like terms (-4x + 3x = -1x):
+      Final Answer: x^2 - x - 12
+
+  - id: WE-02
+    topic: "Pemfaktoran (Factorisation) (2.2)"
+    scenario: "Factorise the following quadratic expression completely using the cross method: x^2 + 7x + 10"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 2.2.2
+    real_world_analogy: >-
+      Factorising is like 'un-baking' a cake to find out what ingredients were mixed into it. We are looking for the two original brackets that were multiplied together.
+    misconception_alert: >-
+      Watch out for the signs! When finding factors of +10 that add to +7, do not randomly pick numbers. Both factors have to be positive (+2 and +5) for everything to balance out properly.
+    working: |
+      Step 1: Look at the last number (+10). Let's list the factors of 10:
+      (1, 10) and (2, 5)
+      Step 2: Look at the middle number (+7). Which pair of factors adds up to 7?
+      1 + 10 = 11 (Incorrect)
+      2 + 5 = 7 (Correct!)
+      Step 3: Setup the two brackets with x at the front.
+      (x + ... )(x + ...)
+      Step 4: Drop those correct factors into the brackets.
+      Final Answer: (x + 2)(x + 5)
+
+  - id: WE-03
+    topic: "Pecahan Algebra (Algebraic Fractions) (2.3)"
+    scenario: "Simplify the algebraic fraction equation: \\frac{3}{4r} - \\frac{m}{3rs}"
+    difficulty: hard
+    tp_level: 4
+    kbat: false
+    learning_objective: 2.3.1
+    real_world_analogy: >-
+      Adding or subtracting fractions is like combining two currencies. You cannot just add Ringgit and Yen together without exchanging them to a common currency first. That 'common currency' is the common denominator!
+    misconception_alert: >-
+      The biggest mistake students make is subtracting the top numbers and subtracting the bottom numbers. You can NEVER subtract denominators! Always find the Lowest Common Multiple (LCM) first.
+    working: |
+      Step 1: Look at the two denominators: 4r and 3rs. We must find the Lowest Common Multiple (LCM) for them.
+      - Numbers: LCM of 4 and 3 is 12.
+      - Variables: LCM of r and rs is rs.
+      - Total LCM (Common Denominator) = 12rs.
+      Step 2: Transform the first fraction (needs multiplying by 3s to reach 12rs):
+      \\frac{3 * 3s}{4r * 3s} = \\frac{9s}{12rs}
+      Step 3: Transform the second fraction (needs multiplying by 4 to reach 12rs):
+      \\frac{m * 4}{3rs * 4} = \\frac{4m}{12rs}
+      Step 4: Subtract the numerators over the single common denominator:
+      Final Answer: \\frac{9s - 4m}{12rs}

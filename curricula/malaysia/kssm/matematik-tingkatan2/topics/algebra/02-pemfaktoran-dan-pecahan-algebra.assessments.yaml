@@ -4,6 +4,8 @@ questions:
   - id: Q1
     text: "Expand: $3(x + 4)$."
     difficulty: easy
+    tp_level: 2
+    kbat: false
     learning_objective: 2.1.2
     answer:
       type: exact
@@ -25,6 +27,8 @@ questions:
   - id: Q2
     text: "Expand the following algebraic expressions: $(x + 2)(x - 5)$."
     difficulty: easy
+    tp_level: 2
+    kbat: false
     learning_objective: 2.1.2
     answer:
       type: exact
@@ -47,6 +51,8 @@ questions:
   - id: Q3
     text: "Simplify the combined operation: $(x + y)(x - y) + x(x - 2y)$."
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 2.1.3
     answer:
       type: exact
@@ -74,6 +80,8 @@ questions:
   - id: Q4
     text: "Simplify: $(x + 2)(x + 5) - x(x + 1)$."
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 2.1.3
     answer:
       type: exact
@@ -101,6 +109,8 @@ questions:
   - id: Q5
     text: "Puan Maria has a rectangular carpet with a length of $(3r - 2)$ meters and a width of $(r + 1)$ meters. Calculate the area of the carpet in terms of $r$."
     difficulty: hard
+    tp_level: 4
+    kbat: true
     learning_objective: 2.1.4
     answer:
       type: exact
@@ -127,6 +137,8 @@ questions:
   - id: Q6
     text: "Factorise the algebraic expression completely: $8x + 12x^2$."
     difficulty: easy
+    tp_level: 2
+    kbat: false
     learning_objective: 2.2.2
     answer:
       type: exact
@@ -151,6 +163,8 @@ questions:
   - id: Q7
     text: "Factorise the following using the difference of two perfect squares: $b^2 - 81$."
     difficulty: easy
+    tp_level: 2
+    kbat: false
     learning_objective: 2.2.2
     answer:
       type: exact
@@ -172,6 +186,8 @@ questions:
   - id: Q8
     text: "Factorise completely using the cross-multiplication method: $x^2 + 6x + 8$."
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 2.2.2
     answer:
       type: exact
@@ -199,6 +215,8 @@ questions:
   - id: Q9
     text: "Factorise the expression involving four terms: $pq + qr + ps + rs$."
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 2.2.2
     answer:
       type: exact
@@ -225,6 +243,8 @@ questions:
   - id: Q10
     text: "A rectangular football field has an area of $(4x^2 + 16x)$ square meters. If the width of the field is $4x$ meters, find its length in terms of $x$."
     difficulty: hard
+    tp_level: 4
+    kbat: true
     learning_objective: 2.2.3
     answer:
       type: exact
@@ -253,6 +273,8 @@ questions:
   - id: Q11
     text: "Simplify the algebraic fraction: $\\frac{4a}{5} + \\frac{3a}{5}$."
     difficulty: easy
+    tp_level: 2
+    kbat: false
     learning_objective: 2.3.1
     answer:
       type: exact
@@ -274,6 +296,8 @@ questions:
   - id: Q12
     text: "Simplify: $\\frac{2}{3} - \\frac{4s}{9}$."
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 2.3.1
     answer:
       type: exact
@@ -300,6 +324,8 @@ questions:
   - id: Q13
     text: "Simplify the multiplication of algebraic fractions: $\\frac{a^2 - 1}{2ab} \\times \\frac{b^2}{1 + a}$."
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 2.3.2
     answer:
       type: exact
@@ -329,6 +355,8 @@ questions:
   - id: Q14
     text: "Simplify the division of algebraic fractions: $\\frac{m + n}{x - y} \\div \\frac{(m + n)^2}{x^2 - y^2}$."
     difficulty: hard
+    tp_level: 4
+    kbat: false
     learning_objective: 2.3.2
     answer:
       type: exact
@@ -358,6 +386,8 @@ questions:
   - id: Q15
     text: "Simplify the combined operation: $\\frac{2}{5b}(15a + 25b) + \\frac{a}{b}$."
     difficulty: hard
+    tp_level: 4
+    kbat: false
     learning_objective: 2.3.3
     answer:
       type: exact
@@ -396,9 +426,8 @@ questions:
   ### ---------------------------------------------------------
   ### UASA NATIONAL EXAM EXEMPLARS
   ### ---------------------------------------------------------
-  # EXAM: UASA (Bahagian A - OAP)
-  # RATIONALE: Evaluates fundamental expansion of double brackets involving both positive and negative constants [4, 7].
   - id: Q16
+    # EXAM: UASA Bahagian A (OAP)
     text: >-
       Expand $(x - 4)(x + 2)$.
 
@@ -407,6 +436,8 @@ questions:
       C) $x^2 - 2x - 8$
       D) $x^2 + 6x + 8$
     difficulty: easy
+    tp_level: 2
+    kbat: false
     learning_objective: 2.1.2
     answer:
       type: multiple_choice
@@ -421,11 +452,10 @@ questions:
         criteria: "Correctly selects option C."
     hints:
       - level: 1
-        text: "Use distributive arrows to multiply every term in the first bracket with every term in the second [19]."
+        text: "Use distributive arrows to multiply every term in the first bracket with every term in the second."
 
-  # EXAM: UASA (Bahagian A - OAP)
-  # RATIONALE: Tests extracting the Highest Common Factor (FSTB) with multiple variables, a crucial first line of defense in factorisation [7, 20].
   - id: Q17
+    # EXAM: UASA Bahagian A (OAP)
     text: >-
       Factorise the following expression: $12x^2y + 15xy^2$
 
@@ -434,6 +464,8 @@ questions:
       C) $3x(4x + 5y)$
       D) $3y(4x + 5y)$
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 2.2.2
     answer:
       type: multiple_choice
@@ -452,9 +484,8 @@ questions:
       - level: 1
         text: "Find the largest number that divides both 12 and 15, then factor out the lowest powers of x and y."
 
-  # EXAM: UASA (Bahagian A - OAP)
-  # RATIONALE: A high-level danger zone question where students must perform division by converting to multiplication and factorising before cross-cancelling [10, 21].
   - id: Q18
+    # EXAM: UASA Bahagian A (OAP)
     text: >-
       Simplify: $\frac{2x - 4y}{8z} \div \frac{3x - 6y}{6}$
 
@@ -463,6 +494,8 @@ questions:
       C) $\frac{x - y}{4z}$
       D) $\frac{3}{6z}$
     difficulty: hard
+    tp_level: 4
+    kbat: false
     learning_objective: 2.3.2
     answer:
       type: multiple_choice
@@ -480,13 +513,14 @@ questions:
         criteria: "Correctly selects option B."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Keep, Change, Flip! Turn the division into multiplication first, then factorise the numerators and denominators to cancel common factors [21]."
+        text: "MISCONCEPTION ALERT: Keep, Change, Flip! Turn the division into multiplication first, then factorise the numerators and denominators to cancel common factors."
 
-  # EXAM: UASA (Bahagian B - OPB)
-  # RATIONALE: Checks sign discipline when distributing a negative multiplier across a binomial [10, 22].
   - id: Q19
+    # EXAM: UASA Bahagian B (OPK)
     text: "Expand $-9(m - 3n)$"
     difficulty: easy
+    tp_level: 2
+    kbat: false
     learning_objective: 2.1.2
     answer:
       type: exact
@@ -501,13 +535,14 @@ questions:
         criteria: "Correctly expands including the correct positive sign for 27n."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Remember that a negative multiplied by a negative results in a positive term [19, 22]."
+        text: "MISCONCEPTION ALERT: Remember that a negative multiplied by a negative results in a positive term."
 
-  # EXAM: UASA (Bahagian C - Subjektif)
-  # RATIONALE: Tests cancellation of algebraic fractions using the difference of two perfect squares in the denominator [10, 20].
   - id: Q20
+    # EXAM: UASA Bahagian C (Subjektif)
     text: "Simplify: $S = \frac{2x - 1}{4x^2 - 1}$"
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 2.3.2
     answer:
       type: exact
@@ -527,13 +562,14 @@ questions:
         criteria: "Cancels the correct factors to obtain final simplified fraction."
     hints:
       - level: 1
-        text: "Factorise the denominator first. Can you spot the 'difference of two perfect squares' pattern? [20]"
+        text: "Factorise the denominator first. Can you spot the 'difference of two perfect squares' pattern?"
 
-  # EXAM: UASA (Bahagian C - Subjektif)
-  # RATIONALE: Requires two-step factorisation: extracting a common constant factor first, then using difference of squares [10, 20].
   - id: Q21
+    # EXAM: UASA Bahagian C (Subjektif)
     text: "Factorise completely: $2x^2 - 50$"
     difficulty: medium
+    tp_level: 3
+    kbat: false
     learning_objective: 2.2.2
     answer:
       type: exact
@@ -551,9 +587,8 @@ questions:
       - level: 1
         text: "Look for the largest number that divides both terms first. Then factorise the bracket again."
 
-  # EXAM: UASA (Bahagian C - Subjektif)
-  # RATIONALE: Contextual geometry problem requiring expansion of double brackets and subtraction to find the remaining area, testing TP5 application [4, 10, 22].
   - id: Q22
+    # EXAM: UASA Bahagian C (Subjektif)
     text: >-
       Encik Mohan's yard, which is rectangular in shape with a length of $(4p + 3)$ m
       and a width of $(2p + 5)$ m. A rectangular fish pond is built in one corner of
@@ -561,6 +596,8 @@ questions:
       covered with artificial grass. Calculate the area, in $m^2$, of the region that
       is covered with artificial grass.
     difficulty: hard
+    tp_level: 5
+    kbat: true
     learning_objective: 2.1.4
     answer:
       type: exact
@@ -584,3 +621,43 @@ questions:
     hints:
       - level: 1
         text: "Find the total area of the yard by multiplying length and width, then subtract the area of the pond."
+
+  ### ---------------------------------------------------------
+  ### NEW ADDITIONS TO MEET 5-5-5 POOL MINIMUM
+  ### ---------------------------------------------------------
+  - id: Q23
+    # EXAM: UASA Bahagian C (Subjektif)
+    # RATIONALE: Cross-application of factorisation within a geometry problem, testing both TP2 and TP5 capabilities.
+    text: "The area of a rectangle is $(x^2 + 5x + 6)$ cm². If the length of the rectangle is $(x + 3)$ cm, express the perimeter of the rectangle in terms of $x$."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 2.2.3
+    answer:
+      type: exact
+      value: "4x + 10"
+      working: |
+        Area = Length x Width
+        Width = Area / Length
+        Width = (x^2 + 5x + 6) / (x + 3)
+        Factorise x^2 + 5x + 6:
+        Factors of 6 adding to 5 are 2 and 3.
+        = (x + 2)(x + 3)
+        So, Width = [(x + 2)(x + 3)] / (x + 3) = (x + 2)
+        Perimeter = 2(Length) + 2(Width)
+        = 2(x + 3) + 2(x + 2)
+        = 2x + 6 + 2x + 4
+        = 4x + 10
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Sets up division to find width."
+      - marks: 1
+        criteria: "Factorises quadratic correctly to (x+2)(x+3)."
+      - marks: 1
+        criteria: "Identifies width as (x+2)."
+      - marks: 1
+        criteria: "Calculates correct perimeter expression using 2L + 2W."
+    hints:
+      - level: 1
+        text: "To find the missing width, factorise the area and cancel out the length. Then remember the perimeter formula!"
