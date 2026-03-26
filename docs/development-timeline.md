@@ -162,7 +162,7 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W3D11-1` | Create `schema/examples.schema.json` | 🤖 | ⬜ | |
+| `O-W3D11-1` | Create `schema/examples.schema.json` | 🤖 | ✅ | Initialized global JSON schema to enforce the "Golden Format" structure for all worked examples (Scenario, Analogy, Alert, Working). |
 | `O-W3D11-2` | 🧑🤖 Create worked examples for F1-05, F1-06, F1-07 (3 examples each, progressive difficulty) | Collaborative | ✅ | Structured strictly in the "Golden Format" with progressive scaffolding. Injected targeted misconception alerts to preempt student errors and engaging real-world analogies. |
 
 ### Day 12 (Tue) — Form 2 & 3 Examples
