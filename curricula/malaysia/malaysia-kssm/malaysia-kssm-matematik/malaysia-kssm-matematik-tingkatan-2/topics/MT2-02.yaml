@@ -1,8 +1,12 @@
 id: MT2-02
 official_ref: "Bab 2"  # as printed in KSSM DSKP document
-name: "Pemfaktoran dan Pecahan Algebra (Factorisation and Algebraic Fractions)"
-subject_id: malaysia-kssm-matematik-tingkatan-2
+name: "Pemfaktoran dan Pecahan Algebra"
+name_en: "Factorisation and Algebraic Fractions"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
 difficulty: intermediate
 tier: core
 

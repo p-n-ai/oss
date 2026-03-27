@@ -1,8 +1,12 @@
 id: MT1-07
 official_ref: "Bab 7"  # as printed in KSSM DSKP document
-name: "Ketaksamaan Linear (Linear Inequalities)"
-subject_id: malaysia-kssm-matematik-tingkatan-1
+name: "Ketaksamaan Linear"
+name_en: "Linear Inequalities"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
 difficulty: beginner
 tier: core
 

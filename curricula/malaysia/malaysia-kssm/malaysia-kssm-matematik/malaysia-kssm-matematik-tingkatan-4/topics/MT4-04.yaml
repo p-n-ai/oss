@@ -1,0 +1,62 @@
+id: MT4-04
+official_ref: "4.0"
+name: "OPERASI SET"
+name_en: "Set Operations"
+subject_id: malaysia-kssm-matematik-tingkatan-4
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+learning_objectives:
+  - id: "4.1.1"
+    text: "Menentu dan menghuraikan persilangan set menggunakan pelbagai perwakilan."
+    text_en: "Determine and describe the intersection of sets using various representations."
+    bloom: understand
+  - id: "4.1.2"
+    text: "Menentukan pelengkap bagi persilangan set."
+    text_en: "Determine the complement of the intersection of sets."
+    bloom: apply
+  - id: "4.1.3"
+    text: "Menyelesaikan masalah yang melibatkan persilangan set."
+    text_en: "Solve problems involving the intersection of sets."
+    bloom: apply
+  - id: "4.2.1"
+    text: "Menentu dan menghuraikan kesatuan set menggunakan pelbagai perwakilan."
+    text_en: "Determine and describe the union of sets using various representations."
+    bloom: understand
+  - id: "4.2.2"
+    text: "Menentukan pelengkap bagi kesatuan set."
+    text_en: "Determine the complement of the union of sets."
+    bloom: apply
+  - id: "4.2.3"
+    text: "Menyelesaikan masalah yang melibatkan kesatuan set."
+    text_en: "Solve problems involving the union of sets."
+    bloom: apply
+  - id: "4.3.1"
+    text: "Menentu dan menghuraikan gabungan operasi set menggunakan pelbagai perwakilan."
+    text_en: "Determine and describe combined operations on sets using various representations."
+    bloom: understand
+  - id: "4.3.2"
+    text: "Menentukan pelengkap bagi gabungan operasi set."
+    text_en: "Determine the complement of combined operations on sets."
+    bloom: apply
+  - id: "4.3.3"
+    text: "Menyelesaikan masalah yang melibatkan gabungan operasi set."
+    text_en: "Solve problems involving combined operations on sets."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+bloom_levels:
+  - understand
+  - apply
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+ai_teaching_notes: "MT4-04.teaching.md"
+quality_level: 1
+provenance: ai-assisted

@@ -1,0 +1,60 @@
+id: MT4-08
+official_ref: "8.0"
+name: "SUKATAN SERAKAN DATA TAK TERKUMPUL"
+name_en: "Measures of Dispersion for Ungrouped Data"
+subject_id: malaysia-kssm-matematik-tingkatan-4
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+learning_objectives:
+  - id: 8.1.1
+    text: "Menerangkan maksud serakan."
+    text_en: "Explain the meaning of dispersion."
+    bloom: understand
+  - id: 8.1.2
+    text: "Membanding dan mentafsir serakan dua atau lebih set data berdasarkan plot batang-dan-daun dan plot titik dan seterusnya membuat kesimpulan."
+    text_en: "Compare and interpret the dispersion of two or more sets of data based on stem-and-leaf plots and dot plots and then make conclusions."
+    bloom: analyze
+  - id: 8.2.1
+    text: "Menentukan julat, julat antara kuartil, varians dan sisihan piawai sebagai sukatan untuk menghuraikan serakan bagi data tak terkumpul."
+    text_en: "Determine the range, interquartile range, variance, and standard deviation as measures to describe dispersion for ungrouped data."
+    bloom: apply
+  - id: 8.2.2
+    text: "Menerangkan kelebihan dan kekurangan pelbagai sukatan serakan untuk menghuraikan data tak terkumpul."
+    text_en: "Explain the advantages and disadvantages of various measures of dispersion for describing ungrouped data."
+    bloom: evaluate
+  - id: 8.2.3
+    text: "Membina dan mentafsir plot kotak bagi suatu set data tak terkumpul."
+    text_en: "Construct and interpret box plots for a set of ungrouped data."
+    bloom: analyze
+  - id: 8.2.4
+    text: "Menentukan kesan perubahan data terhadap serakan berdasarkan: (i) Nilai sukatan serakan (ii) Perwakilan grafik. Kesan ke atas serakan suatu taburan apabila: (i) Setiap data ditukar secara seragam (ii) Wujud pencilan (outlier) atau nilai ekstrem (iii) Sesuatu nilai dimasukkan atau dikeluarkan."
+    text_en: "Determine the effect of data changes on dispersion based on: (i) Measure of dispersion values (ii) Graphical representation. Effect on dispersion of a distribution when: (i) Each data is changed uniformly (ii) There is an outlier or extreme value (iii) A value is inserted or removed."
+    bloom: analyze
+  - id: 8.2.5
+    text: "Membanding dan mentafsir dua atau lebih set data tak terkumpul, berdasarkan sukatan serakan yang sesuai dan seterusnya membuat kesimpulan. Sukatan kecenderungan memusat perlu dilibatkan."
+    text_en: "Compare and interpret two or more sets of ungrouped data, based on appropriate measures of dispersion and then make conclusions. Measures of central tendency need to be involved."
+    bloom: analyze
+  - id: 8.2.6
+    text: "Menyelesaikan masalah yang melibatkan sukatan serakan."
+    text_en: "Solve problems involving measures of dispersion."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+bloom_levels:
+  - understand
+  - analyze
+  - apply
+  - evaluate
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+ai_teaching_notes: "MT4-08.teaching.md"
+quality_level: 1
+provenance: ai-assisted

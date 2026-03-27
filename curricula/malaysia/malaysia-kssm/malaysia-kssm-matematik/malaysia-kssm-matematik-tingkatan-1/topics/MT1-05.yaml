@@ -1,8 +1,12 @@
 id: MT1-05
 official_ref: "Bab 5"  # as printed in KSSM DSKP document
-name: "Ungkapan Algebra (Algebraic Expressions)"
-subject_id: malaysia-kssm-matematik-tingkatan-1
+name: "Ungkapan Algebra"
+name_en: "Algebraic Expressions"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
 difficulty: beginner
 tier: core
 

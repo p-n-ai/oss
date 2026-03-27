@@ -1,8 +1,12 @@
 id: MT2-03
 official_ref: "Bab 3"  # as printed in KSSM DSKP document
-name: "Rumus Algebra (Algebraic Formulae)"
-subject_id: malaysia-kssm-matematik-tingkatan-2
+name: "Rumus Algebra"
+name_en: "Algebraic Formulae"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
 difficulty: intermediate
 tier: core
 

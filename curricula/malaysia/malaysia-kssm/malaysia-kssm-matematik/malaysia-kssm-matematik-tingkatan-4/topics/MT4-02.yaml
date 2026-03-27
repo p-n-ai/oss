@@ -1,0 +1,42 @@
+id: MT4-02
+official_ref: "2.0"
+name: "Asas Nombor"
+name_en: "Number Bases"
+subject_id: malaysia-kssm-matematik-tingkatan-4
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+learning_objectives:
+  - id: "2.1.1"
+    text: "Mewakil dan menjelaskan nombor dalam pelbagai asas dari segi angka, nilai tempat, nilai digit dan nilai nombor berdasarkan proses pengumpulan."
+    text_en: "Represent and explain numbers in various bases in terms of numerals, place value, digit value and number value based on the grouping process."
+    bloom: understand
+  - id: "2.1.2"
+    text: "Menukar nombor daripada satu asas kepada asas yang lain menggunakan pelbagai kaedah."
+    text_en: "Convert numbers from one base to another using various methods."
+    bloom: apply
+  - id: "2.1.3"
+    text: "Membuat pengiraan yang melibatkan operasi tambah dan tolak bagi nombor dalam pelbagai asas."
+    text_en: "Perform calculations involving addition and subtraction operations for numbers in various bases."
+    bloom: apply
+  - id: "2.1.4"
+    text: "Menyelesaikan masalah yang melibatkan asas nombor."
+    text_en: "Solve problems involving number bases."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+bloom_levels:
+  - understand
+  - apply
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+ai_teaching_notes: "MT4-02.teaching.md"
+quality_level: 1
+provenance: ai-assisted

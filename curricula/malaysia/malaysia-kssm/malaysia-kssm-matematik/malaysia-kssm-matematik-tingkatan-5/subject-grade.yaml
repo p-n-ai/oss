@@ -1,0 +1,19 @@
+id: malaysia-kssm-matematik-tingkatan-5
+name: "Matematik Tingkatan 5"
+name_en: "Form 5 Mathematics"
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+grade_id: tingkatan-5
+country_id: malaysia
+language: ms
+provenance: ai-generated
+generated_at: "2026-03-27T13:54:52Z"
+topics:
+  - MT5-01
+  - MT5-02
+  - MT5-03
+  - MT5-04
+  - MT5-05
+  - MT5-06
+  - MT5-07
+  - MT5-08

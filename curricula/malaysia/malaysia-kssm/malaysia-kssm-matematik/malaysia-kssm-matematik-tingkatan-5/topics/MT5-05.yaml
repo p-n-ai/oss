@@ -1,0 +1,78 @@
+id: MT5-05
+# official_ref: ""  # fill in if the source document assigns a chapter/section code
+name: "Kekongruenan, Pembesaran dan Gabungan Transformasi"
+name_en: "Congruence, Enlargement, and Combination of Transformations"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-5
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+learning_objectives:
+  - id: "5.1.1"
+    text: "Membezakan antara bentuk kongruen dan bukan kongruen berdasarkan sisi dan sudut."
+    text_en: "Differentiate between congruent and non-congruent shapes based on sides and angles."
+    bloom: analyze
+  - id: "5.1.2"
+    text: "Membuat dan menentusahkan konjektur terhadap kekongruenan segi tiga berdasarkan sisi dan sudut."
+    text_en: "Make and verify conjectures about triangle congruence based on sides and angles."
+    bloom: create
+  - id: "5.1.3"
+    text: "Menyelesaikan masalah yang melibatkan kekongruenan."
+    text_en: "Solve problems involving congruence."
+    bloom: apply
+  - id: "5.2.1"
+    text: "Menjelaskan maksud keserupaan objek geometri."
+    text_en: "Explain the meaning of similarity of geometric objects."
+    bloom: understand
+  - id: "5.2.2"
+    text: "Membuat perkaitan antara keserupaan dengan pembesaran dan seterusnya memerihalkan pembesaran menggunakan pelbagai perwakilan."
+    text_en: "Make connections between similarity and enlargement and subsequently describe enlargement using various representations."
+    bloom: understand
+  - id: "5.2.3"
+    text: "Menentukan imej dan objek bagi suatu pembesaran."
+    text_en: "Determine the image and object of an enlargement."
+    bloom: apply
+  - id: "5.2.4"
+    text: "Membuat dan mengesahkan konjektur tentang hubungan antara luas imej dan luas objek bagi suatu pembesaran."
+    text_en: "Make and verify conjectures about the relationship between the area of the image and the area of the object for an enlargement."
+    bloom: create
+  - id: "5.2.5"
+    text: "Menyelesaikan masalah yang melibatkan pembesaran."
+    text_en: "Solve problems involving enlargement."
+    bloom: apply
+  - id: "5.3.1"
+    text: "Menentukan imej dan objek bagi suatu gabungan transformasi."
+    text_en: "Determine the image and object of a combination of transformations."
+    bloom: apply
+  - id: "5.3.2"
+    text: "Membuat dan menentusahkan konjektur tentang sifat kalis tukar tertib terhadap gabungan transformasi."
+    text_en: "Make and verify conjectures about the commutative property with respect to combination of transformations."
+    bloom: create
+  - id: "5.3.3"
+    text: "Memerihalkan gabungan transformasi."
+    text_en: "Describe combination of transformations."
+    bloom: understand
+  - id: "5.3.4"
+    text: "Menyelesaikan masalah yang melibatkan gabungan transformasi."
+    text_en: "Solve problems involving combination of transformations."
+    bloom: apply
+  - id: "5.4.1"
+    text: "Menjelaskan maksud teselasi."
+    text_en: "Explain the meaning of tessellation."
+    bloom: understand
+  - id: "5.4.2"
+    text: "Mereka bentuk teselasi yang melibatkan transformasi isometri."
+    text_en: "Design tessellations involving isometric transformations."
+    bloom: create
+bloom_levels:
+  - analyze
+  - understand
+  - apply
+  - create
+prerequisites:
+  required: []
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-03-27T13:54:52Z"

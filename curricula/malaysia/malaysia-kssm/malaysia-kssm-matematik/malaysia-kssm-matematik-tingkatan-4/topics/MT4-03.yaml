@@ -1,0 +1,76 @@
+id: MT4-03
+official_ref: "3.0"
+name: "PENAAKULAN LOGIK"
+name_en: "Logical Reasoning"
+subject_id: malaysia-kssm-matematik-tingkatan-4
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+learning_objectives:
+  - id: 3.1.1
+    text: "Menerangkan maksud pernyataan dan seterusnya menentukan nilai kebenaran bagi suatu pernyataan."
+    text_en: "Explain the meaning of a statement and subsequently determine the truth value of a statement."
+    bloom: apply
+  - id: 3.1.2
+    text: "Menafikan suatu pernyataan. Menukar nilai kebenaran pernyataan dengan menggunakan “bukan” atau “tidak”."
+    text_en: "Negate a statement. Change the truth value of a statement using 'not' or 'no'."
+    bloom: apply
+  - id: 3.1.3
+    text: "Menentukan nilai kebenaran suatu pernyataan majmuk."
+    text_en: "Determine the truth value of a compound statement."
+    bloom: apply
+  - id: 3.1.4
+    text: "Membina pernyataan dalam bentuk implikasi (i) Jika p, maka q (ii) p jika dan hanya jika q."
+    text_en: "Construct statements in the form of implication (i) If p, then q (ii) p if and only if q."
+    bloom: apply
+  - id: 3.1.5
+    text: "Membina dan membandingkan nilai kebenaran akas, songsangan dan kontrapositif bagi suatu implikasi."
+    text_en: "Construct and compare the truth values of converse, inverse, and contrapositive of an implication."
+    bloom: analyze
+  - id: 3.1.6
+    text: "Menentukan contoh penyangkal untuk menafikan kebenaran pernyataan tertentu."
+    text_en: "Determine counterexamples to negate the truth of certain statements."
+    bloom: analyze
+  - id: 3.2.1
+    text: "Menerangkan maksud hujah, dan membezakan hujah deduktif dan hujah induktif."
+    text_en: "Explain the meaning of argument, and distinguish deductive and inductive arguments."
+    bloom: analyze
+  - id: 3.2.2
+    text: "Menentu dan menjustifikasikan keesahan suatu hujah deduktif dan seterusnya menentukan sama ada hujah yang sah itu munasabah."
+    text_en: "Determine and justify the validity of a deductive argument and subsequently determine whether the valid argument is reasonable."
+    bloom: evaluate
+  - id: 3.2.3
+    text: "Membentuk hujah deduktif yang sah bagi suatu situasi."
+    text_en: "Form a valid deductive argument for a situation."
+    bloom: create
+  - id: 3.2.4
+    text: "Menentu dan menjustifikasikan kekuatan suatu hujah induktif dan seterusnya menentukan sama ada hujah yang kuat itu meyakinkan."
+    text_en: "Determine and justify the strength of an inductive argument and subsequently determine whether the strong argument is convincing."
+    bloom: evaluate
+  - id: 3.2.5
+    text: "Membentuk hujah induktif yang kuat bagi suatu situasi."
+    text_en: "Form a strong inductive argument for a situation."
+    bloom: create
+  - id: 3.2.6
+    text: "Menyelesaikan masalah yang melibatkan penaakulan logik."
+    text_en: "Solve problems involving logical reasoning."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+bloom_levels:
+  - apply
+  - analyze
+  - evaluate
+  - create
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+ai_teaching_notes: "MT4-03.teaching.md"
+quality_level: 1
+provenance: ai-assisted

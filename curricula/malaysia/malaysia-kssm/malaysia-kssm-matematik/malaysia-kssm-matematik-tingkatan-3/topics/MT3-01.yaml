@@ -1,8 +1,12 @@
 id: MT3-01
 official_ref: "Bab 1"  # as printed in KSSM DSKP document
-name: "Indeks (Indices)"
-subject_id: malaysia-kssm-matematik-tingkatan-3
+name: "Indeks"
+name_en: "Indices"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-3
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
 difficulty: intermediate
 tier: core
 

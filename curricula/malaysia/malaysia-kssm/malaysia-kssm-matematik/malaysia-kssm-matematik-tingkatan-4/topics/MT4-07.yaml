@@ -1,0 +1,55 @@
+id: MT4-07
+official_ref: "7.0"
+name: "GRAF GERAKAN"
+name_en: "Motion Graphs"
+subject_id: malaysia-kssm-matematik-tingkatan-4
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+learning_objectives:
+  - id: "7.1.1"
+    text: "Melukis graf jarak-masa."
+    text_en: "Draw distance-time graph."
+    bloom: apply
+  - id: "7.1.2"
+    text: "Mentafsir graf jarak-masa dan menghuraikan gerakan berdasarkan graf tersebut."
+    text_en: "Interpret distance-time graph and describe motion based on the graph."
+    bloom: understand
+  - id: "7.1.3"
+    text: "Menyelesaikan masalah yang melibatkan graf jarak-masa."
+    text_en: "Solve problems involving distance-time graph."
+    bloom: apply
+  - id: "7.2.1"
+    text: "Melukis graf laju-masa."
+    text_en: "Draw speed-time graph."
+    bloom: apply
+  - id: "7.2.2"
+    text: "Membuat perkaitan antara luas di bawah graf laju-masa dengan jarak yang dilalui dan seterusnya menentukan jarak."
+    text_en: "Relate the area under the speed-time graph to the distance travelled and subsequently determine the distance."
+    bloom: analyze
+  - id: "7.2.3"
+    text: "Mentafsir graf laju-masa dan menghuraikan gerakan berdasarkan graf tersebut."
+    text_en: "Interpret speed-time graph and describe motion based on the graph."
+    bloom: understand
+  - id: "7.2.4"
+    text: "Menyelesaikan masalah yang melibatkan graf laju-masa."
+    text_en: "Solve problems involving speed-time graph."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+bloom_levels:
+  - understand
+  - apply
+  - analyze
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+ai_teaching_notes: "MT4-07.teaching.md"
+quality_level: 1
+provenance: ai-assisted

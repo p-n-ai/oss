@@ -1,8 +1,12 @@
 id: MT1-06
 official_ref: "Bab 6"  # as printed in KSSM DSKP document
-name: "Persamaan Linear (Linear Equations)"
-subject_id: malaysia-kssm-matematik-tingkatan-1
+name: "Persamaan Linear"
+name_en: "Linear Equations"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
 difficulty: beginner
 tier: core
 

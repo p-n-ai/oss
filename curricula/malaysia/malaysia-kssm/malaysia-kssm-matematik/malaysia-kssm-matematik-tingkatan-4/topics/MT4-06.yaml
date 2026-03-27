@@ -1,0 +1,54 @@
+id: MT4-06
+official_ref: "6.0"
+name: "KETAKSAMAAN LINEAR DALAM DUA PEMBOLEH UBAH"
+name_en: "Linear Inequalities in Two Variables"
+subject_id: malaysia-kssm-matematik-tingkatan-4
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+learning_objectives:
+  - id: "6.1.1"
+    text: "Mewakilkan situasi dalam bentuk ketaksamaan linear."
+    text_en: "Represent situations in the form of linear inequalities."
+    bloom: apply
+  - id: "6.1.2"
+    text: "Membuat dan menentusahkan konjektur tentang titik dalam rantau dan penyelesaian bagi suatu ketaksamaan linear."
+    text_en: "Make and verify conjectures about points in the region and solution of a linear inequality."
+    bloom: analyze
+  - id: "6.1.3"
+    text: "Menentukan dan melorek rantau yang memuaskan satu ketaksamaan linear."
+    text_en: "Determine and shade the region that satisfies a linear inequality."
+    bloom: apply
+  - id: "6.2.1"
+    text: "Mewakilkan situasi dalam bentuk sistem ketaksamaan linear."
+    text_en: "Represent situations in the form of a system of linear inequalities."
+    bloom: apply
+  - id: "6.2.2"
+    text: "Membuat dan menentusahkan konjektur tentang titik dalam rantau dan penyelesaian bagi suatu sistem ketaksamaan linear."
+    text_en: "Make and verify conjectures about points in the region and solution of a system of linear inequalities."
+    bloom: analyze
+  - id: "6.2.3"
+    text: "Menentukan dan melorek rantau yang memuaskan satu sistem ketaksamaan linear."
+    text_en: "Determine and shade the region that satisfies a system of linear inequalities."
+    bloom: apply
+  - id: "6.2.4"
+    text: "Menyelesaikan masalah yang melibatkan sistem ketaksamaan linear dalam dua pemboleh ubah."
+    text_en: "Solve problems involving systems of linear inequalities in two variables."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+bloom_levels:
+  - apply
+  - analyze
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+ai_teaching_notes: "MT4-06.teaching.md"
+quality_level: 1
+provenance: ai-assisted

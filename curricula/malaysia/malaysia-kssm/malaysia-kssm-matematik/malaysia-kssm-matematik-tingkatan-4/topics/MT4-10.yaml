@@ -1,0 +1,34 @@
+id: MT4-10
+official_ref: "10.0"
+name: "MATEMATIK PENGGUNA: PENGURUSAN KEWANGAN"
+name_en: "Consumer Mathematics: Financial Management"
+subject_id: malaysia-kssm-matematik-tingkatan-4
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+learning_objectives:
+  - id: "10.1.1"
+    text: "Menghuraikan proses pengurusan kewangan yang berkesan."
+    text_en: "Describe the process of effective financial management."
+    bloom: understand
+  - id: "10.1.2"
+    text: "Membina dan membentang pelan kewangan peribadi untuk mencapai matlamat kewangan jangka pendek dan jangka panjang, dan seterusnya menilai kebolehlaksanaan pelan kewangan tersebut."
+    text_en: "Construct and present a personal financial plan to achieve short-term and long-term financial goals, and subsequently evaluate the feasibility of the financial plan."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+bloom_levels:
+  - understand
+  - apply
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+ai_teaching_notes: "MT4-10.teaching.md"
+quality_level: 1
+provenance: ai-assisted
