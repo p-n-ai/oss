@@ -176,9 +176,16 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W3D13-1` | Create `translations/ms/` directory inside each form 's `topics/` folder (3 forms) | 🤖 | ⬜ | |
-| `O-W3D13-2` | 🧑🤖 Translate Form 1 topic names, learning objectives, misconceptions to Bahasa Melayu | Collaborative | ⬜ | |
-| `O-W3D13-3` | 🧑🤖 Translate Form 1 teaching notes to BM (since KSSM students learn in Malay) | Collaborative | ⬜ | |
+| `O-W3D13-1` | Create `translations/ms/` directory inside each form's `topics/` folder (3 forms) | 🤖 | ✅ | Init topics/translations/ms/ across all 3 forms (Official i18n structural standard). |
+| `O-W3D13-2` | 🧑🤖 Translate Form 1 topic names, learning objectives, misconceptions to Bahasa Melayu | Collaborative | ✅ | Translated F1 Algebra (MT1 05-07). Upgraded YAML schema to include strict DSKP `content_standards` & `performance_standards`. |
+| `O-W3D13-3` | 🧑🤖 Translate Form 1 teaching notes to BM (since KSSM students learn in Malay) | Collaborative | ✅ | Translated F1 Algebra (MT1 05-07). Built 100% contextual KSSM conversational tutor persona ("Terbalik Simbol!", "Roti Canai hooks"). |
+
+> [!WARNING]
+> **Engineering Update Required**
+> 
+> * **Backend Struct Update (Go/TypeScript)**: The backend code that reads these `.yaml` files uses rigid data "structs". Because we just invented a brand new `content_standards` array and `performance_standards` array, the code doesn't know what they are. The engineers have to explicitly add these fields to their database parsers, otherwise, the parser will either silently ignore them or throw an Unmarshal Error and panic.
+> * **Database Migration**: If `pai-bot` stores these topics in a database (like Postgres or MongoDB), the engineers need to update the database schema to store these new SK and TP text fields.
+> * **Prompt Engineering**: The team working on the LLM backend must now write code to actively fetch these TP and SK definitions and inject them into the system prompt when the tutor evaluates a student's answer.
 
 ### Day 14 (Thu) — Form 2 & 3 Translations
 
