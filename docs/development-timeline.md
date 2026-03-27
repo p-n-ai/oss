@@ -18,28 +18,28 @@ oss owns the **curriculum data**: YAML topic files, Markdown teaching notes, ass
 | **Form 2** | Pola dan Jujukan, Pemfaktoran dan Pecahan Algebra, Rumus Algebra | Bab 1, 2, 3 | Poligon, Bulatan, Koordinat, Graf Fungsi, etc. |
 | **Form 3** | Indeks, Garis Lurus | Bab 1, 9 | Bentuk Piawai, Matematik Pengguna, Trigonometri, etc. |
 
-**Note:** Topic IDs follow DSKP chapter numbering (e.g., F1-05 = Form 1 Bab 5). Algebra topics are built first (Weeks 1-3), other topics backfilled (Weeks 4-6).
+**Note:** Topic IDs follow the OSS convention `MT{grade}-{NN}` (prefix `MT` from English "Mathematics", grade number, 2-digit DSKP chapter number — e.g., `MT1-05` = Tingkatan 1 Bab 5). Algebra topics are built first (Weeks 1-3), other topics backfilled (Weeks 4-6). See [docs/id-conventions.md](id-conventions.md) for the full prefix table and ID rules.
 
 ---
 
 ## KSSM Algebra Topic Map (DSKP-Aligned)
 
-Topic IDs follow DSKP chapter numbering: `F{form}-{chapter}`.
+Topic IDs follow OSS conventions: `{PREFIX}{grade_num}-{NN}` where prefix is derived from the English subject name. For Matematik (Mathematics) the prefix is `MT`.
 
 ```
 Form 1 Algebra (3 topics — DSKP Bab 5, 6, 7)
-├── F1-05 Ungkapan Algebra (Algebraic Expressions)
-├── F1-06 Persamaan Linear (Linear Equations)
-└── F1-07 Ketaksamaan Linear (Linear Inequalities)
+├── MT1-05 Ungkapan Algebra (Algebraic Expressions)
+├── MT1-06 Persamaan Linear (Linear Equations)
+└── MT1-07 Ketaksamaan Linear (Linear Inequalities)
 
 Form 2 Algebra (3 topics — DSKP Bab 1, 2, 3)
-├── F2-01 Pola dan Jujukan (Patterns & Sequences)
-├── F2-02 Pemfaktoran dan Pecahan Algebra (Factorisation & Algebraic Fractions)
-└── F2-03 Rumus Algebra (Algebraic Formulae)
+├── MT2-01 Pola dan Jujukan (Patterns & Sequences)
+├── MT2-02 Pemfaktoran dan Pecahan Algebra (Factorisation & Algebraic Fractions)
+└── MT2-03 Rumus Algebra (Algebraic Formulae)
 
 Form 3 Algebra (2 topics — DSKP Bab 1, 9)
-├── F3-01 Indeks (Indices)
-└── F3-09 Garis Lurus (Straight Lines)
+├── MT3-01 Indeks (Indices)
+└── MT3-09 Garis Lurus (Straight Lines)
 ```
 
 **Total Algebra topics: 8** — the primary validation set.
@@ -52,7 +52,7 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 |---------|------|-------|--------|--------|
 | `O-D0-1` | Initialize repo: `curricula/`, `schema/`, `concepts/`, `taxonomy/`, `scripts/`, `.github/workflows/` | 🤖 Claude Code | ✅ | |
 | `O-D0-2` | Create 4 schemas: `topic`, `assessments`, `syllabus`, `subject` (JSON Schema Draft 2020-12). Remaining schemas (`examples`, `concept`, `taxonomy`) are created as their content types are first introduced. | 🤖 Claude Code | ✅ | |
-| `O-D0-3` | Create `curricula/malaysia/kssm/matematik-tingkatan1/syllabus.yaml` with board metadata | 🤖 Claude Code | ✅ | |
+| `O-D0-3` | Create `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/syllabus.yaml` with board metadata | 🤖 Claude Code | ✅ | |
 | `O-D0-4` | 🧑 Choose first 5 Algebra topics against official DSKP (Form 1: 3 topics + Form 2: 2 topics) | 🧑 Education Lead | ✅ | |
 
 **Exit:** Repo exists with schema files and syllabus structure for KSSM Matematik Form 1. ✅ **Completed**
@@ -65,18 +65,18 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W1D1-1` | Create `curricula/malaysia/kssm/matematik-tingkatan1/subjects/algebra.yaml` — subject metadata | 🤖 | ✅ | |
-| `O-W1D1-2` | Create topic YAML stubs for F1-05, F1-06, F1-07: id, name, prerequisites, learning_objectives, difficulty, bloom_levels | 🤖 | ✅ | |
-| `O-W1D1-3` | 🧑 Write F1-05 teaching notes (`05-ungkapan-algebra.teaching.md`) — real teacher quality, conversational, KSSM-aligned | 🧑 Education Lead | ✅ | |
-| `O-W1D1-4` | 🧑🤖 AI-draft teaching notes for F1-06 and F1-07, Education Lead reviews and edits | Collaborative | ✅ | |
+| `O-W1D1-1` | Create `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/subject.yaml` — subject metadata | 🤖 | ✅ | |
+| `O-W1D1-2` | Create topic YAML stubs for MT1-05, MT1-06, MT1-07: id, name, prerequisites, learning_objectives, difficulty, bloom_levels | 🤖 | ✅ | |
+| `O-W1D1-3` | 🧑 Write MT1-05 teaching notes (`MT1-05.teaching.md`) — real teacher quality, conversational, KSSM-aligned | 🧑 Education Lead | ✅ | |
+| `O-W1D1-4` | 🧑🤖 AI-draft teaching notes for MT1-06 and MT1-07, Education Lead reviews and edits | Collaborative | ✅ | |
 
 ### Day 2 (Tue) — Assessments for Form 1 Algebra
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W1D2-1` | 🧑 Write 10 assessment questions for F1-05 (Ungkapan Algebra): answers, rubrics, hints, difficulty spread | 🧑 Education Lead | ✅ | |
-| `O-W1D2-2` | 🤖 AI-generate assessments for F1-06 (15 questions), Education Lead reviews and expands | Collaborative | ✅ | |
-| `O-W1D2-3` | 🤖 AI-generate assessments for F1-07 (10 questions), Education Lead reviews | Collaborative | ✅ | |
+| `O-W1D2-1` | 🧑 Write 10 assessment questions for MT1-05 (Ungkapan Algebra): answers, rubrics, hints, difficulty spread | 🧑 Education Lead | ✅ | |
+| `O-W1D2-2` | 🤖 AI-generate assessments for MT1-06 (15 questions), Education Lead reviews and expands | Collaborative | ✅ | |
+| `O-W1D2-3` | 🤖 AI-generate assessments for MT1-07 (10 questions), Education Lead reviews | Collaborative | ✅ | |
 | `O-W1D2-4` | Create `.yamllint.yml` with formatting rules | 🤖 | ✅ | |
 
 ### Day 3 (Wed) — Validation Pipeline
@@ -91,17 +91,17 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W1D4-1` | Create `curricula/malaysia/kssm/matematik-tingkatan2/syllabus.yaml` + `subjects/algebra.yaml` | 🤖 | ✅ | |
-| `O-W1D4-2` | Create topic YAML stubs for F2-01, F2-02, F2-03 with prerequisites linking to Form 1 | 🤖 | ✅ | |
-| `O-W1D4-3` | 🧑 Write F2-02 teaching notes (Pemfaktoran dan Pecahan Algebra) — key topic, highest misconception rate | 🧑 Education Lead | ✅ | Prepared by Thoriq, reviewed by Faiz |
-| `O-W1D4-4` | 🧑🤖 AI-draft teaching notes for F2-01 and F2-03 | Collaborative | ✅ | 1st review by Thoriq, 2nd review by Faiz |
+| `O-W1D4-1` | Create `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-2/syllabus.yaml + subject.yaml` | 🤖 | ✅ | |
+| `O-W1D4-2` | Create topic YAML stubs for MT2-01, MT2-02, MT2-03 with prerequisites linking to Form 1 | 🤖 | ✅ | |
+| `O-W1D4-3` | 🧑 Write MT2-02 teaching notes (Pemfaktoran dan Pecahan Algebra) — key topic, highest misconception rate | 🧑 Education Lead | ✅ | Prepared by Thoriq, reviewed by Faiz |
+| `O-W1D4-4` | 🧑🤖 AI-draft teaching notes for MT2-01 and MT2-03 | Collaborative | ✅ | 1st review by Thoriq, 2nd review by Faiz |
 
 ### Day 5 (Fri) — Quality Check
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
 | `O-W1D5-1` | 🧑 Review all Week 1 content for KSSM accuracy: correct terminology (BM & English), correct scope per form | 🧑 Education Lead | ✅ | QA report completed; issues #1-#4 resolved |
-| `O-W1D5-2` | Fix any schema validation failures | 🤖 | ✅ | fixed encoding corruption in F2-02 assessments; all validations pass |
+| `O-W1D5-2` | Fix any schema validation failures | 🤖 | ✅ | fixed encoding corruption in MT2-02 assessments; all validations pass |
 
 **Week 1 Output:** 6 topic YAMLs (F1: 3, F2: 3), 6 teaching notes, 15+ assessment questions. All pass CI.
 
@@ -113,8 +113,8 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W2D6-1` | 🧑 Write assessments for F2-01 (15 questions) (Algebra focus) | 🧑 Education Lead | ✅ | Prepared by Thoriq, reviewed by Faiz |
-| `O-W2D6-2` | 🧑🤖 AI-draft assessments for F2-02 (15 questions) and F2-03 (5 questions) (Algebra focus) | Collaborative | ✅ | Prepared by Thoriq, reviewed by Faiz |
+| `O-W2D6-1` | 🧑 Write assessments for MT2-01 (15 questions) (Algebra focus) | 🧑 Education Lead | ✅ | Prepared by Thoriq, reviewed by Faiz |
+| `O-W2D6-2` | 🧑🤖 AI-draft assessments for MT2-02 (15 questions) and MT2-03 (5 questions) (Algebra focus) | Collaborative | ✅ | Prepared by Thoriq, reviewed by Faiz |
 
 **Implementation note (Mar 2026):** Form 2 learning objective IDs were aligned from `LOx` style to DSKP code format (for example `1.1.1`, `2.2.3`, `3.1.4`) to match PR #1 convention updates.
 
@@ -122,16 +122,16 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W2D7-1` | Create `curricula/malaysia/kssm/matematik-tingkatan3/syllabus.yaml` + `subjects/algebra.yaml` | 🤖 | ✅ | |
-| `O-W2D7-2` | Create topic YAML stubs for F3-01 and F3-09 with prerequisites linking to Form 2 | 🤖 | ✅ | |
-| `O-W2D7-3` | 🧑 Write F3-01 teaching notes (Indeks — Indices) | 🧑 Education Lead | ✅ | Prepared by Thoriq, reviewed by Faiz |
-| `O-W2D7-4` | 🧑🤖 AI-draft teaching notes for F3-09 (Garis Lurus) | Collaborative | ✅ | Prepared by Thoriq, reviewed by Faiz |
+| `O-W2D7-1` | Create `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-3/syllabus.yaml + subject.yaml` | 🤖 | ✅ | |
+| `O-W2D7-2` | Create topic YAML stubs for MT3-01 and MT3-09 with prerequisites linking to Form 2 | 🤖 | ✅ | |
+| `O-W2D7-3` | 🧑 Write MT3-01 teaching notes (Indeks — Indices) | 🧑 Education Lead | ✅ | Prepared by Thoriq, reviewed by Faiz |
+| `O-W2D7-4` | 🧑🤖 AI-draft teaching notes for MT3-09 (Garis Lurus) | Collaborative | ✅ | Prepared by Thoriq, reviewed by Faiz |
 
 ### Day 8 (Wed) — Form 3 Assessments
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W2D8-1` | 🧑 Write assessments for F3-01 and F3-09 (5 questions each) | 🧑 Education Lead | ✅ | Prepared by Thoriq, reviewed by Faiz |
+| `O-W2D8-1` | 🧑 Write assessments for MT3-01 and MT3-09 (5 questions each) | 🧑 Education Lead | ✅ | Prepared by Thoriq, reviewed by Faiz |
 | `O-W2D8-2` | 🧑🤖 AI-draft additional assessment questions for F3 topics | Collaborative | ✅ | Included in O-W2D8-1 drafts |
 
 ### Day 9 (Thu) — Cross-Form Prerequisites + Concepts
@@ -163,20 +163,20 @@ Form 3 Algebra (2 topics — DSKP Bab 1, 9)
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
 | `O-W3D11-1` | Create `schema/examples.schema.json` | 🤖 | ✅ | Initialized global JSON schema to enforce the "Golden Format" structure for all worked examples (Scenario, Analogy, Alert, Working). |
-| `O-W3D11-2` | 🧑🤖 Create worked examples for F1-05, F1-06, F1-07 (3 examples each, progressive difficulty) | Collaborative | ✅ | Structured strictly in the "Golden Format" with progressive scaffolding. Injected targeted misconception alerts to preempt student errors and engaging real-world analogies. |
+| `O-W3D11-2` | 🧑🤖 Create worked examples for MT1-05, MT1-06, MT1-07 (3 examples each, progressive difficulty) | Collaborative | ✅ | Structured strictly in the "Golden Format" with progressive scaffolding. Injected targeted misconception alerts to preempt student errors and engaging real-world analogies. |
 
 ### Day 12 (Tue) — Form 2 & 3 Examples
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W3D12-1` | 🧑🤖 Create worked examples for F2-01, F2-02, F2-03 | Collaborative | ✅ | Golden Format applied. Analogies crafted for abstract concepts (e.g., the FOIL handshake) alongside preemptive KBAT error traps specifically designed to guide AI tutoring behavior. |
-| `O-W3D12-2` | 🧑🤖 Create worked examples for F3-01 and F3-09 | Collaborative | ✅ | Exam techniques enforced. Introduced explicit instruction warnings tied to grading constraints (e.g., the "Double-Decker Bus" analogy for strictly forcing positive indices). |
+| `O-W3D12-1` | 🧑🤖 Create worked examples for MT2-01, MT2-02, MT2-03 | Collaborative | ✅ | Golden Format applied. Analogies crafted for abstract concepts (e.g., the FOIL handshake) alongside preemptive KBAT error traps specifically designed to guide AI tutoring behavior. |
+| `O-W3D12-2` | 🧑🤖 Create worked examples for MT3-01 and MT3-09 | Collaborative | ✅ | Exam techniques enforced. Introduced explicit instruction warnings tied to grading constraints (e.g., the "Double-Decker Bus" analogy for strictly forcing positive indices). |
 
 ### Day 13 (Wed) — Malay Translation Structure
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W3D13-1` | Create `locales/ms/` directory structure mirroring all 3 forms | 🤖 | ⬜ | |
+| `O-W3D13-1` | Create `translations/ms/` directory inside each form 's `topics/` folder (3 forms) | 🤖 | ⬜ | |
 | `O-W3D13-2` | 🧑🤖 Translate Form 1 topic names, learning objectives, misconceptions to Bahasa Melayu | Collaborative | ⬜ | |
 | `O-W3D13-3` | 🧑🤖 Translate Form 1 teaching notes to BM (since KSSM students learn in Malay) | Collaborative | ⬜ | |
 
