@@ -1,0 +1,45 @@
+id: MT1-07
+name: "Ketaksamaan Linear (Linear Inequalities)"
+subject_id: malaysia-kssm-matematik-tingkatan-1
+syllabus_id: malaysia-kssm
+difficulty: beginner
+tier: core
+
+learning_objectives:
+  - id: 7.1.1
+    text: "Compare the values of numbers, describe inequality and hence, form algebraic inequality."
+    bloom: understand
+  - id: 7.1.2
+    text: "Make generalisation about inequality related to the converse and transitive properties, additive and multiplicative inverse, and basic arithmetic operations."
+    bloom: analyze
+  - id: 7.2.1
+    text: "Form linear inequalities based on daily life situations, and vice versa."
+    bloom: apply
+  - id: 7.2.2
+    text: "Solve problems involving linear inequalities in one variable."
+    bloom: apply
+  - id: 7.2.3
+    text: "Solve simultaneous linear inequalities in one variable."
+    bloom: apply
+
+prerequisites:
+  required:
+    - MT1-05
+    - MT1-06
+  recommended: []
+
+bloom_levels:
+  - understand
+  - apply
+  - analyze
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+ai_teaching_notes: "MT1-07.teaching.md"
+quality_level: 1
+provenance: ai-assisted

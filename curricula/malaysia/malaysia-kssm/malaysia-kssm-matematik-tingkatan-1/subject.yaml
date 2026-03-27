@@ -1,0 +1,12 @@
+id: malaysia-kssm-matematik-tingkatan-1
+name: "Matematik Tingkatan 1"
+name_en: "Mathematics Form 1"
+syllabus_id: malaysia-kssm
+grade_id: tingkatan-1
+country_id: malaysia
+language: ms
+description: "KSSM Matematik Tingkatan 1 merangkumi topik algebra, nombor, pengukuran, statistik dan geometri"
+topics:
+  - MT1-05
+  - MT1-06
+  - MT1-07

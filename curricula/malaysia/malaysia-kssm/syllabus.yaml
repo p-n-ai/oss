@@ -1,0 +1,26 @@
+id: malaysia-kssm
+name: "Kurikulum Standard Sekolah Menengah"
+name_en: "Standard Curriculum for Secondary Schools"
+board: malaysia
+level: kssm
+version: "2017"
+country_id: malaysia
+language: ms
+subjects:
+  - malaysia-kssm-matematik-tingkatan-1
+  - malaysia-kssm-matematik-tingkatan-2
+  - malaysia-kssm-matematik-tingkatan-3
+
+assessment:
+  components:
+    - name: "Pentaksiran Bilik Darjah (PBD)"
+      weight: 1.0
+
+grading:
+  scale:
+    - "Tahap Penguasaan 6 (Cemerlang)"
+    - "Tahap Penguasaan 5 (Kepujian)"
+    - "Tahap Penguasaan 4 (Baik)"
+    - "Tahap Penguasaan 3 (Memuaskan)"
+    - "Tahap Penguasaan 2 (Sederhana)"
+    - "Tahap Penguasaan 1 (Lemah)"

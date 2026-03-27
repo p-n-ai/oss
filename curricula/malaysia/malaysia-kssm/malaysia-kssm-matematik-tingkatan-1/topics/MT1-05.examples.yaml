@@ -1,0 +1,74 @@
+topic_id: MT1-05
+provenance: human
+description: "Pre-written Worked Examples for safe, step-by-step AI tutoring (O-W3D11-2)"
+worked_examples:
+  - id: WE-01
+    topic: "Variables and Algebraic Expressions (5.1)"
+    difficulty: easy
+    real_world_analogy: "Imagine a paper bag where you can't see inside. The unknown number of items in the bag is your variable, x. Adding items is +, taking them out is -, and sharing them among friends is division."
+    misconception_alert: "Students often confuse a variable (an unknown quantity, like x) with a constant (a fixed number, like 3). Emphasize that x can be anything until we solve for it or substitute it."
+    scenario: "Forming an algebraic expression from a situation: A bag contains an unknown number of wooden blocks, x. 3 blocks are added into the bag. Then, all the blocks in the bag are divided equally between 2 students. Write an algebraic expression for the number of blocks each student receives."
+    working: |
+      Step 1: Identify the initial unknown amount.
+      - The bag starts with an unknown number of blocks = x.
+      
+      Step 2: Translate the first action ("3 blocks are added").
+      - Adding means we use the '+' operator. 
+      - The expression becomes: x + 3.
+      
+      Step 3: Translate the second action ("divided equally between 2 students").
+      - The entire amount (x + 3) must be shared.
+      - Division is represented as a fraction.
+      - The final expression is: (x + 3) / 2.
+
+  - id: WE-02
+    topic: "Addition and Subtraction of Algebraic Expressions (5.2)"
+    difficulty: medium
+    real_world_analogy: "Think of sorting fruits. You can group apples (p) with apples, and oranges (q) with oranges, but you cannot combine apples and oranges into a single 'apple-orange' fruit."
+    misconception_alert: "When a negative sign lies before a bracket, students often forget to flip the sign for EVERY term inside the bracket. -(p + 3q - 2) must become -p - 3q + 2."
+    scenario: "Simplify the following algebraic expression by adding and subtracting the like terms: (6p + 2q + 10) - (p + 3q - 2)."
+    working: |
+      Step 1: Remove the brackets. 
+      - For the first bracket, there is no negative sign in front, so it remains exactly the same: 6p + 2q + 10.
+      - For the second bracket, there is a '-' sign. This means every sign inside the bracket must flip (positive becomes negative, negative becomes positive).
+      - Expanding the second bracket gives: -p - 3q + 2.
+      - Combined expression: 6p + 2q + 10 - p - 3q + 2.
+
+      Step 2: Gather the like terms.
+      - Group the 'p' variables together, the 'q' variables together, and the constants (numbers) together.
+      - Rearranged: 6p - p + 2q - 3q + 10 + 2.
+
+      Step 3: Add or subtract the like terms to simplify.
+      - For p: 6p - 1p = 5p.
+      - For q: 2q - 3q = -1q (written as -q).
+      - For constants: 10 + 2 = 12.
+      - Final Answer: 5p - q + 12.
+
+  - id: WE-03
+    topic: "Multiplication and Division of Expressions (5.2)"
+    difficulty: hard
+    real_world_analogy: "Multiplication and division of algebraic terms is like unpacking and packing boxes. First, you unpack everything into its basic parts (expansion), cross out matching items (simplifying fractions), and pack whatever is left back up."
+    misconception_alert: "Students often try to cancel out powers incorrectly (e.g., dividing y² by y and completely removing the y). Writing the expression in expanded repeated multiplication form prevents this."
+    scenario: "Calculate the quotient of 21xy × 6x ÷ 14y²z and state the answer in its simplest form."
+    working: |
+      Step 1: Write the operation as a single fraction.
+      - The terms being multiplied go on the top (numerator), and the term being divided goes on the bottom (denominator).
+      - Fraction: (21xy × 6x) / (14y²z).
+
+      Step 2: Expand all terms into their factors (numbers and single variables).
+      - Numerator: 21 × x × y × 6 × x.
+      - Denominator: 14 × y × y × z.
+
+      Step 3: Simplify the numbers by finding common factors.
+      - 21 and 14 can both be divided by 7. (21 becomes 3, 14 becomes 2).
+      - 6 on the top can be divided by the 2 on the bottom. (6 becomes 3, 2 becomes 1).
+      - Multiply the remaining numbers on top: 3 × 3 = 9.
+
+      Step 4: Eliminate common variable factors (cross-cancellation).
+      - There is one 'y' on the top and two 'y's on the bottom. Cross out one 'y' from both. This leaves one 'y' on the bottom.
+      - The 'x's on top and 'z' on the bottom have no pairs to cancel out.
+
+      Step 5: Recombine the remaining factors.
+      - Top remains: 9 × x × x = 9x².
+      - Bottom remains: y × z = y²z.
+      - Final Answer: 9x² / y²z.

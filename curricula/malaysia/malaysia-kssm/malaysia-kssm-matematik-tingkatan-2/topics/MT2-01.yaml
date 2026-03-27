@@ -1,0 +1,49 @@
+id: MT2-01
+name: "Pola dan Jujukan (Patterns and Sequences)"
+subject_id: malaysia-kssm-matematik-tingkatan-2
+syllabus_id: malaysia-kssm
+difficulty: intermediate
+tier: core
+
+learning_objectives:
+  - id: 1.1.1
+    text: "Identify and describe patterns in number sets and real-life objects, then state the governing rule (SP 1.1.1)."
+    bloom: understand
+  - id: 1.2.1
+    text: "Explain the meaning of a sequence and distinguish it from general patterns (SP 1.2.1)."
+    bloom: understand
+  - id: 1.2.2
+    text: "Complete and extend sequences by identifying pattern relationships between terms (SP 1.2.2)."
+    bloom: apply
+  - id: 1.3.1
+    text: "Generalize sequence rules using numbers, words, and algebraic expressions (SP 1.3.1)."
+    bloom: analyze
+  - id: 1.3.2
+    text: "Determine a specific term in a sequence, including nth-term style tasks (SP 1.3.2)."
+    bloom: apply
+  - id: 1.3.3
+    text: "Solve contextual problems involving patterns and sequences with justified reasoning (SP 1.3.3)."
+    bloom: apply
+
+prerequisites:
+  required:
+    - MT1-05
+    - MT1-06
+  recommended: []
+
+bloom_levels:
+  - understand
+  - apply
+  - analyze
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+ai_teaching_notes: "MT2-01.teaching.md"
+assessments_file: "MT2-01.assessments.yaml"
+quality_level: 2
+provenance: ai-assisted

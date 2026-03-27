@@ -1,0 +1,415 @@
+topic_id: MT1-05 
+provenance: human 
+questions:
+### ---------------------------------------------------------
+### SUBCHAPTER 5.1: Variables and Algebraic Expressions
+### ---------------------------------------------------------
+  - id: Q1 
+    text: "Sofea takes a certain amount of time, denoted by the letter $k$, to travel from her house to the school every day. Does the variable $k$ have a fixed value or a varied value? Justify your answer." 
+    difficulty: easy 
+    learning_objective: 5.1.1 
+    tp_level: 2
+    kbat: false
+    answer: 
+      type: free_text 
+      value: "Varied value" 
+      working: | 
+        The travelling time taken by Sofea changes every day depending on factors like traffic or walking speed. 
+    marks: 2 
+    rubric:
+      - marks: 1 
+        criteria: "Correctly identifying it as a 'varied value'."
+      - marks: 1 
+        criteria: "Justification stating that the time taken changes daily." 
+    hints:
+      - level: 1 
+        text: "Think about whether a daily commute takes the exact same number of minutes and seconds every single day, or if it fluctuates."
+
+  - id: Q2 
+    text: "Write an algebraic expression for the following situation: The total cost of buying $m$ pens at RM 2 each and $n$ pencils at RM 1 each." 
+    difficulty: easy 
+    learning_objective: 5.1.2 
+    tp_level: 3
+    kbat: false
+    answer: 
+      type: exact 
+      value: "2m + n" 
+      working: | 
+        Cost of pens = 2 * m = 2m 
+        Cost of pencils = 1 * n = n 
+        Total cost = 2m + n 
+    marks: 2 
+    rubric:
+      - marks: 1 
+        criteria: "Correctly formulating the cost for the pens or pencils individually."
+      - marks: 1 
+        criteria: "Correctly adding both parts up to form the final expression: 2m + n. Accept equivalent algebraic expressions like n + 2m, and ignore spacing." 
+    hints:
+      - level: 1 
+        text: "Multiply the price of one pen by the total number of pens, and do the same for the pencils. Then, add them together."
+
+  - id: Q3 
+    text: "In the algebraic term $-8xy^2$, state the coefficient of $-x$." 
+    difficulty: easy 
+    learning_objective: 5.1.4 
+    tp_level: 2
+    kbat: false
+    answer: 
+      type: exact 
+      value: "8y^2" 
+      working: | 
+        The term can be split into (-x) and (8y^2). Thus, the coefficient of -x is 8y^2. 
+    marks: 2 
+    rubric:
+      - marks: 2 
+        criteria: "Correct coefficient (8y^2)."
+      - marks: 1 
+        criteria: "Partial understanding (e.g., identifying the correct variables but making a sign error, such as -8y^2)." 
+    hints:
+      - level: 1 
+        text: "Rewrite the term $-8xy^2$ as a product of $-x$ and the remaining factors. The remaining factors are your coefficient."
+
+  - id: Q4 
+    text: "Given that $x = 3$ and $y = 2$, calculate the value of the algebraic expression: $8x - 5y + 7$." 
+    difficulty: medium 
+    learning_objective: 5.1.3 
+    tp_level: 3
+    kbat: false
+    answer: 
+      type: exact 
+      value: "21" 
+      working: | 
+        = 8(3) - 5(2) + 7 
+        = 24 - 10 + 7 
+        = 21 
+    marks: 3 
+    rubric:
+      - marks: 1 
+        criteria: "Correctly substituting the values into the expression: 8(3) - 5(2) + 7."
+      - marks: 1 
+        criteria: "Correctly multiplying the terms: 24 - 10 + 7."
+      - marks: 1 
+        criteria: "Final correct answer: 21." 
+    hints:
+      - level: 1 
+        text: "Replace the variables $x$ and $y$ with their given numbers, using brackets, and then solve using the correct order of arithmetic operations."
+
+  - id: Q5 
+    text: "A box contains $x$ red marbles, $y$ blue marbles, and 5 green marbles. Calculate the total number of marbles if $x = 10$ and the number of blue marbles is twice the number of green marbles." 
+    difficulty: medium 
+    learning_objective: 5.1.3 
+    tp_level: 3
+    kbat: false
+    answer: 
+      type: exact 
+      value: "25" 
+      working: | 
+        Total marbles = x + y + 5 
+        Given x = 10 
+        y = 2 * 5 = 10 
+        Total = 10 + 10 + 5 = 25 
+    marks: 3 
+    rubric:
+      - marks: 1 
+        criteria: "Identifying the value of y = 10."
+      - marks: 1 
+        criteria: "Substituting values into the expression x + y + 5."
+      - marks: 1 
+        criteria: "Correctly calculating the final answer: 25." 
+    hints:
+      - level: 1 
+        text: "First find out the exact given values. What is the value of y if it is twice the quantity of green marbles?"
+
+### ---------------------------------------------------------
+### SUBCHAPTER 5.2: Algebraic Expressions Involving Basic Arithmetic Operations
+### ---------------------------------------------------------
+  - id: Q6 
+    text: "Simplify the following algebraic expression: $7m + 2n - 3m + 5n$." 
+    difficulty: easy 
+    learning_objective: 5.2.1 
+    tp_level: 3
+    kbat: false
+    answer: 
+      type: exact 
+      value: "4m + 7n" 
+      working: | 
+        = 7m - 3m + 2n + 5n 
+        = 4m + 7n 
+    marks: 2 
+    rubric:
+      - marks: 1 
+        criteria: "Grouping like terms together."
+      - marks: 1 
+        criteria: "Correctly simplifying to 4m + 7n. Accept equivalent algebraic expressions like 7n + 4m. Ignore spacing." 
+    hints:
+      - level: 1 
+        text: "Group the terms with variable $m$ together, and group the terms with variable $n$ together."
+
+  - id: Q7 
+    text: "Simplify the following algebraic expression by adding and subtracting the like terms: $(6p + 2q + 10) - (p + 3q - 2)$." 
+    difficulty: medium 
+    learning_objective: 5.2.1 
+    tp_level: 3
+    kbat: false
+    answer: 
+      type: exact 
+      value: "5p - q + 12" 
+      working: | 
+        = 6p + 2q + 10 - p - 3q + 2 
+        = 6p - p + 2q - 3q + 10 + 2 
+        = 5p - q + 12 
+    marks: 3 
+    rubric:
+      - marks: 1 
+        criteria: "Correctly removing the brackets and changing the signs of the second expression: 6p + 2q + 10 - p - 3q + 2."
+      - marks: 1 
+        criteria: "Successfully grouping the like terms: 6p - p + 2q - 3q + 10 + 2."
+      - marks: 1 
+        criteria: "Final simplified expression: 5p - q + 12. Accept any equivalent arrangement (e.g., 12 - q + 5p). Ignore spacing." 
+    hints:
+      - level: 1 
+        text: "When removing a negative sign '-' that is in front of a bracket, remember to change the sign of every single term inside that bracket (positive becomes negative, negative becomes positive)."
+
+  - id: Q8 
+    text: "State the following repeated multiplication in index form: $(2a) \\times (2a) \\times (2a)$." 
+    difficulty: easy 
+    learning_objective: 5.2.2 
+    tp_level: 2
+    kbat: false
+    answer: 
+      type: exact 
+      value: "(2a)^3" 
+      working: | 
+        The term 2a is multiplied by itself 3 times. Thus, it is written as (2a)^3. 
+    marks: 1 
+    rubric:
+      - marks: 1 
+        criteria: "Correctly writing the expression in index form: (2a)^3." 
+    hints:
+      - level: 1 
+        text: "Count how many times the term is multiplied by itself. This number becomes the exponent (the small number at the top right)."
+
+  - id: Q9 
+    text: "Calculate the quotient of $36pq \\div 4q^2$, and state the answer in its simplest fraction form." 
+    difficulty: hard 
+    learning_objective: 5.2.3 
+    tp_level: 3
+    kbat: false
+    answer: 
+      type: exact 
+      value: "9p / q" 
+      working: | 
+        = (36 * p * q) / (4 * q * q) 
+        = 9p / q 
+    marks: 3 
+    rubric:
+      - marks: 1 
+        criteria: "Writing the division as a fraction: (36pq) / (4q^2)."
+      - marks: 1 
+        criteria: "Expanding the terms to find common factors: (36 * p * q) / (4 * q * q)."
+      - marks: 1 
+        criteria: "Final correct quotient after eliminating common factors: 9p / q." 
+    hints:
+      - level: 1 
+        text: "Write the operation as a fraction. Then, expand the variable with an exponent ($q^2 = q \\times q$) so you can easily cross out the common variables on the top and bottom."
+
+  - id: Q10 
+    text: "The area of a rectangle is $24xy^2$ $\\text{cm}^2$. If the length of the rectangle is $6y$ cm, determine an algebraic expression for its width." 
+    difficulty: hard 
+    learning_objective: 5.2.3 
+    tp_level: 4
+    kbat: true
+    answer: 
+      type: exact 
+      value: "4xy" 
+      working: | 
+        Area = length * width 
+        width = Area / length 
+        width = 24xy^2 / 6y 
+        width = (24 * x * y * y) / (6 * y) 
+        width = 4 * x * y 
+        width = 4xy 
+    marks: 3 
+    rubric:
+      - marks: 1 
+        criteria: "Recognizing that width = Area divided by length."
+      - marks: 1 
+        criteria: "Formulating the correct division: 24xy^2 / 6y."
+      - marks: 1 
+        criteria: "Final correct simplified expression: 4xy. Accept equivalent expressions like 4yx." 
+    hints:
+      - level: 1 
+        text: "The area of a rectangle is found by multiplying the length and the width. To find the missing width, do the reverse operations (divide the area by the length)."
+
+### ---------------------------------------------------------
+### UASA NATIONAL EXAM EXEMPLARS & KBAT ADDITIONS
+### ---------------------------------------------------------
+  - id: Q11 
+    # EXAM: UASA Bahagian A (OAP)
+    text: "Simplify: $(3xy - 2) - 2(xy - 5)\n\nA) $xy + 7$\nB) $xy + 8$\nC) $2xy - 5$\nD) $2xy - 9$" 
+    difficulty: medium 
+    learning_objective: 5.2.1 
+    tp_level: 3
+    kbat: false
+    answer: 
+      type: multiple_choice 
+      value: "B" 
+      working: | 
+        = 3xy - 2 - 2(xy) - 2(-5) 
+        = 3xy - 2 - 2xy + 10 
+        = (3xy - 2xy) + (-2 + 10) 
+        = xy + 8 
+    marks: 1 
+    rubric:
+      - marks: 1 
+        criteria: "Correctly selects option B." 
+    hints:
+      - level: 1 
+        text: "MISCONCEPTION ALERT: When expanding the second bracket, multiply -2 by -5 carefully. Do not mistakenly get -10!"
+      - level: 2 
+        text: "Expand the second bracket first. Multiply -2 by 'xy', and then multiply -2 by '-5'."
+      - level: 3 
+        text: "Group the 'xy' terms together and the constant numbers together."
+
+  - id: Q12 
+    # EXAM: UASA Bahagian A (OAP)
+    text: "Expand and simplify: $(2 + 5x)^2 - 3(x - 4)\n\nA) $25x^2 - 17x + 16$\nB) $25x^2 + 17x + 8$\nC) $25x^2 + 25x + 8$\nD) $25x^2 + 17x + 16$" 
+    difficulty: hard 
+    learning_objective: 5.2.2 
+    tp_level: 4
+    kbat: false
+    answer: 
+      type: multiple_choice 
+      value: "D" 
+      working: | 
+        Expansion of (2 + 5x)^2 = 4 + 20x + 25x^2 
+        Expansion of -3(x - 4) = -3x + 12 
+        Combining: 25x^2 + 20x + 4 - 3x + 12 = 25x^2 + 17x + 16 
+    marks: 1 
+    rubric:
+      - marks: 1 
+        criteria: "Correctly selects option D." 
+    hints:
+      - level: 1 
+        text: "MISCONCEPTION ALERT: Assuming $(2 + 5x)^2$ is just $4 + 25x^2$ is incorrect. You must write the bracket twice and expand fully."
+      - level: 2 
+        text: "Write $(2 + 5x)^2$ as $(2 + 5x)(2 + 5x)$ and expand it."
+
+  - id: Q13 
+    # EXAM: UASA Bahagian B (OPB)
+    text: "Write the correct variables or coefficients for the algebraic expression $\\frac{3x^2yz}{2}$. If the given coefficient is $3xy$, what is the variable part?" 
+    difficulty: medium 
+    learning_objective: 5.1.4 
+    tp_level: 3
+    kbat: false
+    answer: 
+      type: exact 
+      value: "xz / 2" 
+      working: | 
+        Algebraic term = Coefficient × Variable 
+        (3x^2yz) / 2 = 3xy × (Variable) 
+        Variable = [(3x^2yz) / 2] / 3xy 
+        Variable = xz / 2 
+    marks: 2 
+    rubric:
+      - marks: 2 
+        criteria: "Correctly states xz / 2 or equivalent." 
+    hints:
+      - level: 1 
+        text: "MISCONCEPTION ALERT: The coefficient is not strictly just the number in front. Use the 'cover-up' method: cover the given coefficient part (3xy) in the main term, and whatever is left over is the variable part."
+      - level: 2 
+        text: "The term is $3 \\times x \\times x \\times y \\times z / 2$."
+      - level: 3 
+        text: "If you 'cover up' the 3, one x, and the y, what is left over?"
+
+  - id: Q14 
+    # EXAM: UASA Bahagian C (Subjektif)
+    text: "Adam harvested 1500 kg of sweet potatoes and 700 kg of tapioca. Hani harvested 800 kg of sweet potatoes and 1600 kg of tapioca. The price of sweet potatoes is RM $x$/kg and tapioca is RM $y$/kg. Express the amount of money received by:\n(a) Adam in terms of $x$ and $y$.\n(b) Hani in terms of $x$ and $y$." 
+    difficulty: hard 
+    learning_objective: 5.1.2 
+    tp_level: 4
+    kbat: true
+    answer: 
+      type: free_text 
+      value: "(a) 1500x + 700y\n(b) 800x + 1600y" 
+      working: | 
+        (a) Adam's total money = (1500 kg * RM x) + (700 kg * RM y) = 1500x + 700y 
+        (b) Hani's total money = (800 kg * RM x) + (1600 kg * RM y) = 800x + 1600y 
+    marks: 2 
+    rubric:
+      - marks: 1 
+        criteria: "Correct expression for Adam: 1500x + 700y. Accept 700y + 1500x."
+      - marks: 1 
+        criteria: "Correct expression for Hani: 800x + 1600y. Accept 1600y + 800x." 
+    hints:
+      - level: 1 
+        text: "MISCONCEPTION ALERT: Do not add the weights of sweet potato and tapioca together without attaching the correct price variable to each crop first."
+      - level: 2 
+        text: "Money earned = (Weight of crop) × (Price per kg)."
+      - level: 3 
+        text: "Calculate the money for sweet potatoes and the money for tapioca separately, then add them with a '+' sign."
+
+  - id: Q15
+    # EXAM: UASA Bahagian C (Subjektif)
+    text: "Azhar's mother's age was four times Azhar's age last year. If Azhar is $n$ years old now, state his mother's age in seven years' time in terms of $n$."
+    difficulty: hard
+    learning_objective: 5.1.2
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "4n + 4"
+      working: |
+        Azhar's age last year = n - 1
+        Mother's age last year = 4(n - 1) = 4n - 4
+        Mother's age now = (4n - 4) + 1 = 4n - 3
+        Mother's age in 7 years = (4n - 3) + 7 = 4n + 4
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly deduces mother's age last year: 4(n - 1)."
+      - marks: 1
+        criteria: "Correctly formulates mother's current age: 4n - 3."
+      - marks: 1
+        criteria: "Correct final expression for 7 years time: 4n + 4."
+    hints:
+      - level: 1
+        text: "Write down Azhar's age last year first. Then, use that to find his mother's age last year."
+      - level: 2
+        text: "Once you have the mother's age last year, add 1 to find her age now, and then add another 7 to find her age in the future."
+
+  - id: Q16
+    # EXAM: UASA Bahagian C (Subjektif)
+    text: "A ribbon of length $p$ cm is cut into three parts. The lengths of the first and second parts are $x$ cm and $2x$ cm respectively. (a) Write an expression for the length of the third part. (b) If $x = 10$ and the length of the second part is four times the length of the third part, calculate the value of $p$."
+    difficulty: hard
+    learning_objective: 5.2.1
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: "(a) p - 3x\n(b) 35"
+      working: |
+        (a) Third part = Total length - First part - Second part
+            Third part = p - x - 2x = p - 3x
+        (b) Given x = 10.
+            Second part = 2x = 2(10) = 20.
+            The second part is 4 times the third part: 20 = 4 * (Third part).
+            Therefore, Third part = 20 / 4 = 5.
+            Using the expression from (a): 5 = p - 3(10)
+            5 = p - 30
+            p = 35.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Correct expression for (a): p - 3x."
+      - marks: 1
+        criteria: "Correctly identifies the numerical value of the second and third part (20 and 5)."
+      - marks: 1
+        criteria: "Correctly substitutes into the formula from (a): 5 = p - 30."
+      - marks: 1
+        criteria: "Correct final answer for p: 35."
+    hints:
+      - level: 1
+        text: "For (a), subtract the lengths of the first two pieces from the total length $p$."
+      - level: 2
+        text: "For (b), calculate the exact numerical length of the second part using $x=10$. Then use the 'four times' clue to find the numerical length of the third part."

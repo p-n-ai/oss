@@ -1,0 +1,11 @@
+id: malaysia-kssm-matematik-tingkatan-3
+name: "Matematik Tingkatan 3"
+name_en: "Mathematics Form 3"
+syllabus_id: malaysia-kssm
+grade_id: tingkatan-3
+country_id: malaysia
+language: ms
+description: "KSSM Matematik Tingkatan 3 merangkumi topik indeks, garis lurus, bentuk piawai, matematik pengguna dan trigonometri"
+topics:
+  - MT3-01
+  - MT3-09

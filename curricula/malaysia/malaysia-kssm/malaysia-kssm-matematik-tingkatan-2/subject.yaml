@@ -1,0 +1,12 @@
+id: malaysia-kssm-matematik-tingkatan-2
+name: "Matematik Tingkatan 2"
+name_en: "Mathematics Form 2"
+syllabus_id: malaysia-kssm
+grade_id: tingkatan-2
+country_id: malaysia
+language: ms
+description: "KSSM Matematik Tingkatan 2 merangkumi topik algebra, poligon, bulatan, koordinat, graf fungsi dan statistik"
+topics:
+  - MT2-01
+  - MT2-02
+  - MT2-03
