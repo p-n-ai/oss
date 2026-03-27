@@ -539,7 +539,6 @@ The OSS validator enforces these patterns via JSON Schema:
 
 ```yaml
 topic_id:          pattern: "^[A-Z]{2,3}[0-9]*-[0-9]{2}$"
-lo_id:             pattern: "^([0-9]+(\.[0-9]+)*|LO[0-9]+)$"   # official code or LO{N} fallback
 syllabus_id:       pattern: "^[a-z][a-z0-9-]+$"
 subject_id:        pattern: "^[a-z][a-z0-9-]+$"
 subject_grade_id:  pattern: "^[a-z][a-z0-9-]+$"
