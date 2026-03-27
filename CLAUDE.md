@@ -17,6 +17,9 @@ Before starting any day's work, you **MUST** read and cross-reference **both** d
 
 The timeline provides the schedule and scope; the implementation guide provides the executable instructions. Neither is complete without the other. Do not implement a day's tasks from one document alone.
 
+**IMPORTANT — ID and Naming Conventions:**
+When creating any curricula content (topics, subjects, syllabi, folders, YAML files), you **MUST** follow [docs/id-conventions.md](docs/id-conventions.md). This document defines the canonical identifier formats for all entities — country IDs, syllabus IDs, grade IDs, subject IDs, topic IDs, learning objective IDs, assessment question IDs, and worked example IDs. Misformatted IDs are caught by the validator and will block merges.
+
 **Task Status Tracking:**
 Each task row in `docs/development-timeline.md` follows the format:
 `| Task ID | Task | Owner | Status | Remark |`
@@ -164,4 +167,5 @@ python scripts/assess-quality.py --report # Quality level report
 | [docs/technical-plan.md](docs/technical-plan.md) | **Canonical architecture reference** — schema design, validation pipeline, full repo structure |
 | [docs/development-timeline.md](docs/development-timeline.md) | 6-week execution plan — **what** to build and in what order |
 | [docs/implementation-guide.md](docs/implementation-guide.md) | Step-by-step instructions — **how** to build each day (templates, paths, exit criteria) |
+| [docs/id-conventions.md](docs/id-conventions.md) | **Canonical ID and naming conventions** — required reading before creating any curricula content |
 | [docs/business-plan.md](docs/business-plan.md) | Business strategy, growth model, sustainability |

@@ -472,6 +472,8 @@ Examples:
 
 Fork the repo, add or edit YAML/Markdown files, and open a PR. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
+> **Before writing any YAML:** Read [docs/id-conventions.md](docs/id-conventions.md) for the canonical ID and folder naming rules. IDs use the official MOE language of the target country and every entity must include both `name` (MOE language) and `name_en` (English). The validator enforces these conventions and will block non-conforming PRs.
+
 ### What We Need Most
 
 | Contribution Type | Impact | Difficulty |
