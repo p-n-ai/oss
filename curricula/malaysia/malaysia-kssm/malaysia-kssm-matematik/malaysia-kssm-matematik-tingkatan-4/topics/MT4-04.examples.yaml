@@ -1,0 +1,41 @@
+topic_id: MT4-04
+provenance: ai-generated
+description: "Worked examples for OPERASI SET"
+worked_examples:
+  - id: WE-01
+    topic: "Persilangan Set"
+    difficulty: easy
+    real_world_analogy: "Imagine two groups of students: those who play football and those who play basketball. The intersection set is those who play both sports."
+    misconception_alert: "Students often think that intersection includes all elements from both sets, rather than just the common elements."
+    scenario: "In a class of 30 students, 12 students play football, 15 play basketball, and 5 play both. Find the number of students who play either football or basketball."
+    working: |
+      Step 1: Identify the number of students who play both sports. This is the intersection set, which is 5.
+      Step 2: Use the formula for union: |A ∪ B| = |A| + |B| - |A ∩ B|.
+      Step 3: Substitute the values: |A ∪ B| = 12 + 15 - 5 = 22.
+      Step 4: The number of students who play either football or basketball is 22.
+
+  - id: WE-02
+    topic: "Pelengkap Bagi Kesatuan Set"
+    difficulty: medium
+    real_world_analogy: "Consider a library with books in different genres. The union of genres represents all books, while the complement of the union represents books that do not belong to any of those genres."
+    misconception_alert: "Students may forget that the complement is relative to the universal set and think it contains elements from the sets only."
+    scenario: "In a school, there are 40 students. 18 students join the Science Club, 25 join the Math Club, and 10 join both clubs. How many students do not join any club?"
+    working: |
+      Step 1: Find the union of students in clubs: |A ∪ B| = |A| + |B| - |A ∩ B|.
+      Step 2: Calculate the union: |A ∪ B| = 18 + 25 - 10 = 33.
+      Step 3: Determine the complement relative to the universal set of 40 students: |U| - |A ∪ B| = 40 - 33.
+      Step 4: The number of students not joining any club is 7.
+
+  - id: WE-03
+    topic: "Gabungan Operasi Set"
+    difficulty: hard
+    real_world_analogy: "Imagine overlapping circles on a Venn diagram representing different interests. Combining operations involves considering shared and unique interests."
+    misconception_alert: "Students might confuse the order of operations in set algebra, leading to incorrect results."
+    scenario: "In a survey of 50 people, 30 like tea, 28 like coffee, and 20 like both. Additionally, 5 like neither. How many people like only one drink?"
+    working: |
+      Step 1: Find the total liking either drink: |A ∪ B| = |A| + |B| - |A ∩ B|.
+      Step 2: Calculate the union: |A ∪ B| = 30 + 28 - 20 = 38.
+      Step 3: Determine those who like only one drink by subtracting those who like both from each set: 
+              Only tea = |A| - |A ∩ B| = 30 - 20 = 10.
+              Only coffee = |B| - |A ∩ B| = 28 - 20 = 8.
+      Step 4: Sum the individuals who like only one drink: 10 + 8 = 18.

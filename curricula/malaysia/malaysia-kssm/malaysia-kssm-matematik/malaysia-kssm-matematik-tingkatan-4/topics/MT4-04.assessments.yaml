@@ -1,0 +1,138 @@
+topic_id: MT4-04
+provenance: ai-generated
+
+questions:
+  # LO 4.1.1: Menentu dan menghuraikan persilangan set menggunakan pelbagai perwakilan
+  - id: Q1
+    text: "Diberi set $A = \\{1, 2, 3, 4, 5\\}$ dan set $B = \\{4, 5, 6, 7\\}$. Tentukan persilangan set $A$ dan $B$."
+    difficulty: medium
+    learning_objective: LO4.1.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "\\{4, 5\\}"
+      working: |
+        Persilangan set $A$ dan $B$ adalah elemen yang terdapat dalam kedua-dua set $A$ dan $B$.
+        Elemen-elemen yang sama dalam $A$ dan $B$ ialah $4$ dan $5$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menentukan satu elemen persilangan."
+      - marks: 1
+        criteria: "Menentukan kedua-dua elemen persilangan dengan betul."
+    hints:
+      - level: 1
+        text: "Senaraikan elemen dalam kedua-dua set dan cari elemen yang sama."
+      - level: 2
+        text: "Lihat elemen $4$ dan $5$, adakah kedua-duanya terdapat dalam kedua-dua set?"
+
+  # LO 4.1.2: Menentukan pelengkap bagi persilangan set
+  - id: Q2
+    text: "Diberi set universal $U = \\{1, 2, 3, 4, 5, 6, 7, 8\\}$, set $A = \\{2, 4, 6, 8\\}$ dan set $B = \\{1, 2, 3, 4\\}$. Cari pelengkap bagi persilangan set $A$ dan $B$."
+    difficulty: medium
+    learning_objective: LO4.1.2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "\\{1, 3, 5, 6, 7, 8\\}"
+      working: |
+        Persilangan set $A$ dan $B$ adalah $\\{2, 4\\}$.
+        Pelengkap bagi persilangan ini dalam set universal $U$ ialah elemen-elemen yang tidak terdapat dalam $\\{2, 4\\}$.
+        Jadi pelengkapnya adalah $\\{1, 3, 5, 6, 7, 8\\}$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menentukan persilangan set dengan betul."
+      - marks: 1
+        criteria: "Mengenal pasti elemen dalam set universal."
+      - marks: 1
+        criteria: "Menentukan pelengkap dengan betul."
+    hints:
+      - level: 1
+        text: "Cari elemen yang sama dalam $A$ dan $B$ dahulu."
+      - level: 2
+        text: "Lihat elemen dalam set universal yang tidak terdapat dalam persilangan."
+
+  # LO 4.1.3: Menyelesaikan masalah yang melibatkan persilangan set
+  - id: Q3
+    text: "Di dalam sebuah kelas, 15 orang pelajar menyukai Matematik, 18 orang pelajar menyukai Sains, dan 10 orang pelajar menyukai kedua-duanya. Berapakah jumlah pelajar dalam kelas tersebut?"
+    difficulty: medium
+    learning_objective: LO4.1.3
+    tp_level: 3
+    kbat: true
+    answer:
+      type: exact
+      value: "23"
+      working: |
+        Jumlah pelajar yang menyukai sekurang-kurangnya satu subjek adalah $|A \\cup B| = |A| + |B| - |A \\cap B|$.
+        Di mana $|A| = 15$, $|B| = 18$, dan $|A \\cap B| = 10$.
+        Jadi, $|A \\cup B| = 15 + 18 - 10 = 23$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan formula kesatuan set dengan betul."
+      - marks: 1
+        criteria: "Mengira dengan betul jumlah pelajar yang suka kedua-duanya."
+      - marks: 2
+        criteria: "Menentukan jumlah pelajar dalam kelas dengan betul."
+    hints:
+      - level: 1
+        text: "Ingat formula untuk kesatuan set: $|A \\cup B| = |A| + |B| - |A \\cap B|$."
+      - level: 2
+        text: "Hitung jumlah pelajar yang menyukai sekurang-kurangnya satu subjek."
+
+  # LO 4.2.1: Menentu dan menghuraikan kesatuan set menggunakan pelbagai perwakilan
+  - id: Q4
+    text: "Diberi set $C = \\{a, b, c\\}$ dan set $D = \\{b, c, d, e\\}$. Tentukan kesatuan set $C$ dan $D$."
+    difficulty: medium
+    learning_objective: LO4.2.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "\\{a, b, c, d, e\\}"
+      working: |
+        Kesatuan set $C$ dan $D$ adalah semua elemen yang terdapat dalam $C$ atau $D$.
+        Dengan menyatukan elemen dalam kedua-dua set tanpa mengulangi elemen, kita dapati $\\{a, b, c, d, e\\}$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyenaraikan elemen dalam kedua-dua set."
+      - marks: 1
+        criteria: "Menentukan kesatuan dengan betul tanpa mengulangi elemen."
+    hints:
+      - level: 1
+        text: "Gabungkan elemen kedua-dua set."
+      - level: 2
+        text: "Pastikan tidak mengulangi elemen yang sama dalam kesatuan."
+
+  # LO 4.3.3: Menyelesaikan masalah yang melibatkan gabungan operasi set
+  - id: Q5
+    text: "Dalam satu gerai makanan, terdapat 30 jenis makanan yang dihidangkan. 18 daripadanya adalah makanan pedas dan 20 daripadanya adalah makanan bergoreng. Jika 10 jenis makanan adalah kedua-duanya, berapakah jenis makanan yang bukan pedas dan bukan bergoreng?"
+    difficulty: medium
+    learning_objective: LO4.3.3
+    tp_level: 3
+    kbat: true
+    answer:
+      type: exact
+      value: "2"
+      working: |
+        Gunakan formula kesatuan set: $|A \\cup B| = |A| + |B| - |A \\cap B|$.
+        Di mana $|A| = 18$, $|B| = 20$, dan $|A \\cap B| = 10$.
+        $|A \\cup B| = 18 + 20 - 10 = 28$. 
+        Jadi, jenis makanan yang bukan pedas dan bukan bergoreng adalah $30 - 28 = 2$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan formula kesatuan set dengan betul."
+      - marks: 1
+        criteria: "Mengira dengan betul jenis makanan yang bukan kedua-duanya."
+      - marks: 2
+        criteria: "Menentukan jumlah jenis makanan yang bukan pedas dan bukan bergoreng dengan betul."
+    hints:
+      - level: 1
+        text: "Gunakan formula kesatuan set untuk mencari jumlah makanan yang pedas atau bergoreng."
+      - level: 2
+        text: "Kurangkan jumlah kesatuan daripada jumlah keseluruhan untuk mendapatkan makanan yang bukan kedua-duanya."
