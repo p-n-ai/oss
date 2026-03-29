@@ -9,44 +9,59 @@ language: ms
 difficulty: advanced
 tier: core
 learning_objectives:
-  - id: "7.1.1"
-    text: "Membina histogram dan poligon kekerapan bagi suatu set data terkumpul."
-    text_en: "Construct histogram and frequency polygon for a set of grouped data."
-    bloom: apply
-  - id: "7.1.2"
-    text: "Membanding dan mentafsir serakan dua atau lebih set data terkumpul berdasarkan histogram dan poligon kekerapan dan seterusnya membuat kesimpulan."
-    text_en: "Compare and interpret the dispersion of two or more sets of grouped data based on histogram and frequency polygon and subsequently make conclusions."
-    bloom: analyze
-  - id: "7.1.3"
-    text: "Membina ogif bagi suatu set data terkumpul dan seterusnya menentukan kuartil."
-    text_en: "Construct ogive for a set of grouped data and subsequently determine quartiles."
-    bloom: apply
-  - id: "7.2.1"
-    text: "Menentukan julat, julat antara kuartil, varians dan sisihan piawai sebagai sukatan untuk menghuraikan serakan bagi data terkumpul."
-    text_en: "Determine range, interquartile range, variance and standard deviation as measures to describe dispersion for grouped data."
-    bloom: apply
-  - id: "7.2.2"
-    text: "Membina dan mentafsir plot kotak bagi suatu set data terkumpul."
-    text_en: "Construct and interpret box plot for a set of grouped data."
-    bloom: apply
-  - id: "7.2.3"
-    text: "Membanding dan mentafsir dua atau lebih set data terkumpul, berdasarkan sukatan serakan yang sesuai dan seterusnya membuat kesimpulan."
-    text_en: "Compare and interpret two or more sets of grouped data, based on appropriate measures of dispersion and subsequently make conclusions."
-    bloom: analyze
-  - id: "7.2.4"
-    text: "Menyelesaikan masalah yang melibatkan sukatan serakan bagi data terkumpul."
-    text_en: "Solve problems involving measures of dispersion for grouped data."
-    bloom: apply
-  - id: "7.2.5"
-    text: "Mereka bentuk dan melaksanakan suatu projek mini yang melibatkan penyiasatan statistik berdasarkan sukatan kecenderungan memusat dan sukatan serakan serta mentafsir dan mengkomunikasikan dapatan kajian."
-    text_en: "Design and implement a mini project involving statistical investigation based on measures of central tendency and measures of dispersion as well as interpret and communicate the findings of the study."
-    bloom: create
+    - id: "7.1.1"
+      text: "Membina histogram dan poligon kekerapan bagi suatu set data terkumpul."
+      text_en: "Construct histogram and frequency polygon for a set of grouped data."
+      bloom: apply
+    - id: "7.1.2"
+      text: "Membanding dan mentafsir serakan dua atau lebih set data terkumpul berdasarkan histogram dan poligon kekerapan dan seterusnya membuat kesimpulan."
+      text_en: "Compare and interpret the dispersion of two or more sets of grouped data based on histogram and frequency polygon and subsequently make conclusions."
+      bloom: analyze
+    - id: "7.1.3"
+      text: "Membina ogif bagi suatu set data terkumpul dan seterusnya menentukan kuartil."
+      text_en: "Construct ogive for a set of grouped data and subsequently determine quartiles."
+      bloom: apply
+    - id: "7.2.1"
+      text: "Menentukan julat, julat antara kuartil, varians dan sisihan piawai sebagai sukatan untuk menghuraikan serakan bagi data terkumpul."
+      text_en: "Determine range, interquartile range, variance and standard deviation as measures to describe dispersion for grouped data."
+      bloom: apply
+    - id: "7.2.2"
+      text: "Membina dan mentafsir plot kotak bagi suatu set data terkumpul."
+      text_en: "Construct and interpret box plot for a set of grouped data."
+      bloom: apply
+    - id: "7.2.3"
+      text: "Membanding dan mentafsir dua atau lebih set data terkumpul, berdasarkan sukatan serakan yang sesuai dan seterusnya membuat kesimpulan."
+      text_en: "Compare and interpret two or more sets of grouped data, based on appropriate measures of dispersion and subsequently make conclusions."
+      bloom: analyze
+    - id: "7.2.4"
+      text: "Menyelesaikan masalah yang melibatkan sukatan serakan bagi data terkumpul."
+      text_en: "Solve problems involving measures of dispersion for grouped data."
+      bloom: apply
+    - id: "7.2.5"
+      text: "Mereka bentuk dan melaksanakan suatu projek mini yang melibatkan penyiasatan statistik berdasarkan sukatan kecenderungan memusat dan sukatan serakan serta mentafsir dan mengkomunikasikan dapatan kajian."
+      text_en: "Design and implement a mini project involving statistical investigation based on measures of central tendency and measures of dispersion as well as interpret and communicate the findings of the study."
+      bloom: create
 prerequisites:
-  required: []
+    required: []
 bloom_levels:
-  - apply
-  - analyze
-  - create
+    - apply
+    - analyze
+    - create
 quality_level: 1
 provenance: ai-generated
 generated_at: "2026-03-27T13:54:52Z"
+teaching:
+    sequence:
+        - 'Step 1: Introduce histograms and frequency polygons (30 min)'
+        - 'Step 2: Explain ogives and quartiles (25 min)'
+        - 'Step 3: Teach measures of spread like range and standard deviation (40 min)'
+        - 'Step 4: Demonstrate constructing and interpreting box plots (35 min)'
+        - 'Step 5: Guide students in a mini-project on data spread (50 min)'
+    common_misconceptions:
+        - misconception: Histograms are the same as bar charts
+          remediation: 'Highlight differences: histograms for continuous data, bar charts for categorical data'
+        - misconception: Range is the only measure of spread
+          remediation: Discuss limitations of range and introduce variance and standard deviation
+engagement_hooks:
+    - Analyze local business sales trends using histograms
+    - Explore community demographic data to understand population spread

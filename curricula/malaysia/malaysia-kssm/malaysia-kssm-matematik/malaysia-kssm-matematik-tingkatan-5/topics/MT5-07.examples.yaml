@@ -1,0 +1,37 @@
+topic_id: MT5-07
+provenance: ai-generated
+description: "Worked examples for Sukatan Serakan Data Terkumpul"
+worked_examples:
+  - id: WE-01
+    topic: "Membina Histogram dan Poligon Kekerapan"
+    difficulty: easy
+    real_world_analogy: "Imagine arranging books on a shelf by their genres. Each genre is like a class interval, and the number of books in each genre represents the frequency."
+    misconception_alert: "Students often confuse the heights of bars in histograms with the actual values of data points, rather than understanding they represent frequencies."
+    scenario: "A teacher records the test scores of 30 students in intervals of 10 marks. Construct a histogram and a frequency polygon for the data."
+    working: |
+      Step 1: Organize the data into class intervals (e.g., 0-10, 11-20, etc.) and count the frequency for each interval.
+      Step 2: Draw the histogram by plotting each class interval on the x-axis and its corresponding frequency on the y-axis. Use bars to represent frequencies.
+      Step 3: Construct the frequency polygon by plotting points at the midpoint of each class interval at the height of its frequency, then connect the points with straight lines.
+
+  - id: WE-02
+    topic: "Membina dan Mentafsir Ogif"
+    difficulty: medium
+    real_world_analogy: "Think of an ogive as a graph showing how many students in a class have scored up to a certain mark, similar to a cumulative savings account balance over time."
+    misconception_alert: "A common mistake is forgetting that ogives represent cumulative frequencies, not the actual frequency of each class interval."
+    scenario: "Using the test scores data, construct an ogive and determine the median score."
+    working: |
+      Step 1: Calculate cumulative frequencies for each class interval.
+      Step 2: Plot the ogive by placing cumulative frequencies on the y-axis and the upper class boundaries on the x-axis.
+      Step 3: Determine the median by finding the point where the ogive crosses the line representing half the total number of data points.
+
+  - id: WE-03
+    topic: "Menentukan Julat, Varians dan Sisihan Piawai"
+    difficulty: hard
+    real_world_analogy: "Consider the spread of temperatures over a month. Range gives the difference between the hottest and coldest days, while variance and standard deviation tell us how spread out the daily temperatures are from the average."
+    misconception_alert: "Students often calculate variance by dividing by the number of data points instead of using the correct formula for a sample or population."
+    scenario: "Calculate the range, variance, and standard deviation of the test scores."
+    working: |
+      Step 1: Determine the range by subtracting the lowest test score from the highest.
+      Step 2: Calculate the mean of the test scores.
+      Step 3: Find the variance by summing the squared deviations from the mean and dividing by the number of scores.
+      Step 4: Calculate the standard deviation by taking the square root of the variance.
