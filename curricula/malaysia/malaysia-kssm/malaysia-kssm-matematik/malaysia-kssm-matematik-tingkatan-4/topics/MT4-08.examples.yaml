@@ -1,0 +1,40 @@
+topic_id: MT4-08
+provenance: ai-generated
+description: "Worked examples for SUKATAN SERAKAN DATA TAK TERKUMPUL"
+worked_examples:
+  - id: WE-01
+    topic: "Understanding and Explaining Dispersion"
+    difficulty: easy
+    real_world_analogy: "Imagine a group of students standing in a line based on their heights. Dispersion is like the spread of their heights—the more spread out they are, the greater the dispersion."
+    misconception_alert: "Students often confuse range with variance or standard deviation. Range only considers the smallest and largest values, not the spread of all data points."
+    scenario: "A teacher measures the height of 5 students: 150 cm, 155 cm, 160 cm, 165 cm, and 170 cm. Determine the range of their heights."
+    working: |
+      Step 1: Identify the smallest and largest values in the dataset. Here, the smallest height is 150 cm, and the largest is 170 cm.
+      Step 2: Calculate the range by subtracting the smallest value from the largest value: 170 cm - 150 cm.
+      Step 3: The range of the students' heights is 20 cm.
+
+  - id: WE-02
+    topic: "Comparing and Interpreting Dispersion with Box Plots"
+    difficulty: medium
+    real_world_analogy: "Consider two different types of fruit baskets, each containing a different variety of fruits in varying amounts. By comparing the baskets, you can see which one has more diversity (spread) in the types of fruits."
+    misconception_alert: "Students may assume that a smaller interquartile range (IQR) always means less variation, but they need to consider outliers and overall data distribution."
+    scenario: "Two classes took a math test. Class A: 70, 75, 80, 85, 90. Class B: 65, 70, 75, 85, 95. Compare the dispersion using the interquartile range (IQR)."
+    working: |
+      Step 1: Arrange each class's scores in ascending order (already done).
+      Step 2: For Class A, find Q1 (75) and Q3 (85). Calculate IQR: Q3 - Q1 = 85 - 75 = 10.
+      Step 3: For Class B, find Q1 (70) and Q3 (85). Calculate IQR: Q3 - Q1 = 85 - 70 = 15.
+      Step 4: Class B has a higher IQR, indicating more spread in their test scores compared to Class A.
+
+  - id: WE-03
+    topic: "Calculating and Analyzing Standard Deviation"
+    difficulty: hard
+    real_world_analogy: "Imagine a track team running a race. Standard deviation is like measuring how much each runner's time deviates from the average time."
+    misconception_alert: "Students often mistake standard deviation as a simple average of differences from the mean, rather than considering the squared differences."
+    scenario: "A researcher collects data on the daily step counts for a week: 4000, 5000, 6000, 7000, 8000, 9000, 10000. Calculate the standard deviation of the step counts."
+    working: |
+      Step 1: Find the mean of the dataset: (4000 + 5000 + 6000 + 7000 + 8000 + 9000 + 10000) / 7 = 7000.
+      Step 2: Subtract the mean from each data point and square the result: (4000-7000)^2, (5000-7000)^2, ..., (10000-7000)^2.
+      Step 3: (3000)^2, (2000)^2, (1000)^2, 0, 1000^2, 2000^2, 3000^2 = 9000000, 4000000, 1000000, 0, 1000000, 4000000, 9000000.
+      Step 4: Find the mean of these squared differences: (9000000+4000000+1000000+0+1000000+4000000+9000000) / 7 = 4000000.
+      Step 5: Take the square root of this mean to find the standard deviation: √4000000 = 2000.
+      Step 6: The standard deviation of the step counts is 2000 steps.

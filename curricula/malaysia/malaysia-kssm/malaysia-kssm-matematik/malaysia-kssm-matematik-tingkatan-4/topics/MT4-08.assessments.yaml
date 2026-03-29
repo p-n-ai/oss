@@ -1,0 +1,117 @@
+topic_id: MT4-08
+provenance: ai-generated
+
+questions:
+  # Group by learning objective
+  - id: Q1
+    text: "Jelaskan maksud serakan dalam konteks data tak terkumpul."
+    difficulty: medium
+    learning_objective: LO8.1.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Serakan adalah ukuran sejauh mana data tersebar dari nilai tengahnya. Ia membantu dalam memahami variasi dalam data."
+      working: |
+        Serakan menggambarkan penyebaran data sekitar nilai pusat. Ia menunjukkan sejauh mana data berbeza antara satu sama lain.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menjelaskan konsep serakan secara umum."
+      - marks: 1
+        criteria: "Mengaitkan serakan dengan variasi dalam data."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang bagaimana data mungkin berbeza dari nilai tengahnya."
+
+  - id: Q2
+    text: "Diberi dua set data berikut: A = {3, 7, 5, 9, 11} dan B = {4, 4, 6, 8, 10}. Bandingkan serakan kedua-dua set data."
+    difficulty: medium
+    learning_objective: LO8.1.2
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Set data A mempunyai serakan yang lebih besar kerana julatnya lebih luas berbanding set B."
+      working: |
+        Julat set A adalah 11 - 3 = 8 dan julat set B adalah 10 - 4 = 6. Oleh itu, set A lebih tersebar.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengira julat untuk set A."
+      - marks: 1
+        criteria: "Mengira julat untuk set B."
+      - marks: 1
+        criteria: "Membuat kesimpulan berdasarkan julat."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Jangan lupa untuk mengira julat bagi kedua-dua set data dahulu."
+
+  - id: Q3
+    text: "Hitung julat antara kuartil bagi set data berikut: {5, 7, 8, 12, 14, 18, 19}."
+    difficulty: medium
+    learning_objective: LO8.2.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "7"
+      working: |
+        Tentukan kuartil pertama (Q1) dan ketiga (Q3) bagi data. Q1 = 7, Q3 = 14. Julat antara kuartil = Q3 - Q1 = 14 - 7 = 7.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menentukan Q1 dengan betul."
+      - marks: 1
+        criteria: "Menentukan Q3 dengan betul."
+      - marks: 1
+        criteria: "Mengira julat antara kuartil dengan betul."
+    hints:
+      - level: 1
+        text: "Urutkan data dan cari kuartil pertama dan ketiga."
+
+  - id: Q4
+    text: "Terangkan satu kelebihan dan satu kekurangan menggunakan julat sebagai sukatan serakan."
+    difficulty: medium
+    learning_objective: LO8.2.2
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "Kelebihan: Mudah dikira. Kekurangan: Sangat dipengaruhi oleh nilai ekstrem."
+      working: |
+        Julat mengukur perbezaan antara nilai maksimum dan minimum. Kelebihannya adalah kesederhanaan; kekurangannya adalah sensitiviti terhadap pencilan.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Memberikan satu kelebihan dengan penjelasan yang jelas."
+      - marks: 1
+        criteria: "Memberikan satu kekurangan dengan penjelasan yang jelas."
+    hints:
+      - level: 1
+        text: "Pertimbangkan bagaimana julat dipengaruhi oleh data yang melampau."
+
+  - id: Q5
+    text: "Bina dan tafsirkan plot kotak bagi data tak terkumpul berikut: {2, 4, 6, 8, 10, 12, 14}."
+    difficulty: medium
+    learning_objective: LO8.2.3
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Plot kotak menunjukkan nilai minima 2, Q1 4, median 8, Q3 12, dan nilai maxima 14. Data adalah simetri di sekitar median."
+      working: |
+        1. Tentukan nilai minimum, Q1, median, Q3, dan maksimum.
+        2. Plotkan kotak dari Q1 ke Q3 dengan garis di median.
+        3. Tambahkan 'whiskers' dari minimum ke maksimum.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menentukan nilai minimum, Q1, median, Q3, dan maksimum dengan betul."
+      - marks: 2
+        criteria: "Membina plot kotak dengan betul."
+      - marks: 1
+        criteria: "Mentafsir plot kotak dengan kesimpulan yang betul."
+    hints:
+      - level: 1
+        text: "Pastikan anda menentukan semua kuartil dengan betul sebelum membina plot kotak."
