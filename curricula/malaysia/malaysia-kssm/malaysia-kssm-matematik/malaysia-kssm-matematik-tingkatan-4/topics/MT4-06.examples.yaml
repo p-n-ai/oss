@@ -1,0 +1,40 @@
+topic_id: MT4-06
+provenance: ai-generated
+description: "Worked examples for KETAKSAMAAN LINEAR DALAM DUA PEMBOLEH UBAH"
+worked_examples:
+  - id: WE-01
+    topic: "Ketaksamaan Linear dalam Dua Pemboleh Ubah"
+    difficulty: easy
+    real_world_analogy: "Imagine a fence that keeps cattle within a certain area. The fence represents the boundary of your inequality."
+    misconception_alert: "Students often forget that the inequality sign indicates which side of the line is shaded. Remember, '<' or '>' means not including the line itself, while '≤' or '≥' means including the line."
+    scenario: "A farmer wants to plant at least 20 trees but not more than 50 trees in a section of his orchard. If x represents the number of rowan trees and y represents the number of oak trees, write an inequality to represent this situation."
+    working: |
+      Step 1: Define the variables. Let x = number of rowan trees and y = number of oak trees.
+      Step 2: Write the inequality for the minimum number of trees: x + y ≥ 20.
+      Step 3: Write the inequality for the maximum number of trees: x + y ≤ 50.
+      Step 4: Combine these into a system of inequalities: 20 ≤ x + y ≤ 50.
+
+  - id: WE-02
+    topic: "Ketaksamaan Linear dalam Dua Pemboleh Ubah"
+    difficulty: medium
+    real_world_analogy: "Think of a shopping budget where you need to buy at least some items but can't exceed your budget."
+    misconception_alert: "Students may mistakenly reverse the inequality sign when subtracting terms from both sides. Always ensure the inequality sign remains correct after any operations."
+    scenario: "You have a budget of RM100 to buy pens and notebooks. Each pen costs RM3 and each notebook costs RM5. Write a system of inequalities that represents how many pens (p) and notebooks (n) you can buy."
+    working: |
+      Step 1: Define the cost equation. Cost of pens = 3p and cost of notebooks = 5n.
+      Step 2: Write the inequality for the budget: 3p + 5n ≤ 100.
+      Step 3: You need to buy at least one item. Write: p + n ≥ 1.
+      Step 4: The system of inequalities is: 3p + 5n ≤ 100 and p + n ≥ 1.
+
+  - id: WE-03
+    topic: "Sistem Ketaksamaan Linear dalam Dua Pemboleh Ubah"
+    difficulty: hard
+    real_world_analogy: "Balancing ingredients in a recipe where you have to stay within certain nutritional limits."
+    misconception_alert: "A common mistake is not checking if the solution satisfies all inequalities in the system, especially when graphing the solution region."
+    scenario: "A nutritionist wants to create a smoothie mix using apples and bananas. Each apple provides 3 units of Vitamin A and 2 units of Vitamin C. Each banana provides 2 units of Vitamin A and 1 unit of Vitamin C. She needs at least 12 units of Vitamin A and at least 8 units of Vitamin C. Determine the possible combinations of apples (a) and bananas (b) she can use."
+    working: |
+      Step 1: Define the Vitamin A inequality: 3a + 2b ≥ 12.
+      Step 2: Define the Vitamin C inequality: 2a + b ≥ 8.
+      Step 3: Graph the lines of both inequalities on a coordinate plane.
+      Step 4: Shade the region that satisfies both inequalities. This is where the two shaded regions overlap.
+      Step 5: Check corner points of the feasible region to ensure they satisfy both inequalities.

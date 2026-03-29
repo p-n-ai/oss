@@ -1,0 +1,151 @@
+topic_id: MT4-06
+provenance: ai-generated
+
+questions:
+  # Learning Objective 6.1.1
+  - id: Q1
+    text: "Nyatakan situasi berikut dalam bentuk ketaksamaan linear: Seorang petani mempunyai kurang daripada 40 ekar tanah untuk menanam padi dan gandum. Jika $x$ ekar digunakan untuk padi dan $y$ ekar digunakan untuk gandum, nyatakan ketaksamaan linear yang menggambarkan keadaan ini."
+    difficulty: medium
+    learning_objective: 6.1.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "x + y < 40"
+      working: |
+        Diberi $x$ ekar untuk padi dan $y$ ekar untuk gandum, jumlah tanah yang digunakan untuk menanam adalah $x + y$. Oleh kerana tanah yang tersedia kurang daripada 40 ekar, maka ketaksamaan yang terbentuk adalah $x + y < 40$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menulis jumlah tanah sebagai $x + y$."
+      - marks: 1
+        criteria: "Menulis ketaksamaan sebagai $x + y < 40$."
+    hints:
+      - level: 1
+        text: "Mulakan dengan menulis jumlah tanah yang digunakan."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Ingat bahawa 'kurang daripada' bermaksud '<', bukan '<='."
+
+  # Learning Objective 6.1.2
+  - id: Q2
+    text: "Tentukan sama ada titik (10, 25) terletak dalam rantau yang ditentukan oleh ketaksamaan $3x + 2y \leq 70$."
+    difficulty: medium
+    learning_objective: 6.1.2
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Ya, titik (10, 25) memenuhi ketaksamaan."
+      working: |
+        Masukkan nilai $x = 10$ dan $y = 25$ ke dalam ketaksamaan: \\
+        $3(10) + 2(25) = 30 + 50 = 80$. \\
+        Oleh kerana $80 \leq 70$ adalah salah, maka titik (10, 25) tidak memenuhi ketaksamaan. \\
+        Pembetulan: $80$ bukan kurang atau sama dengan $70$, oleh itu titik (10, 25) tidak terletak dalam rantau.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menggantikan nilai $x$ dan $y$ ke dalam ketaksamaan."
+      - marks: 1
+        criteria: "Mengira $3x + 2y$ dengan betul."
+      - marks: 1
+        criteria: "Menentukan bahawa $80 \leq 70$ adalah salah."
+    hints:
+      - level: 1
+        text: "Substitute $x = 10$ and $y = 25$ into the inequality."
+      - level: 2
+        text: "Calculate $3(10) + 2(25)$ and compare with 70."
+
+  # Learning Objective 6.1.3
+  - id: Q3
+    text: "Lorekkan rantau yang memuaskan ketaksamaan $2x - y > 4$ pada paksi koordinat."
+    difficulty: medium
+    learning_objective: 6.1.3
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Rantau di atas garis $y = 2x - 4$ dilorekkan."
+      working: |
+        Langkah 1: Lukis garis $y = 2x - 4$. \\
+        Langkah 2: Pilih titik uji, contohnya (0,0). \\
+        $2(0) - 0 = 0$, dan $0 \not> 4$, jadi (0,0) tidak dalam rantau. \\
+        Lorekkan rantau di atas garis kerana titik-titik di atas garis memenuhi $2x - y > 4$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Melukis garis $y = 2x - 4$ dengan betul."
+      - marks: 1
+        criteria: "Memilih titik uji untuk menentukan rantau."
+      - marks: 1
+        criteria: "Melorekkan rantau yang betul berdasarkan ujian."
+    hints:
+      - level: 1
+        text: "Start by drawing the line $y = 2x - 4$."
+      - level: 2
+        text: "Use a test point to determine which side of the line to shade."
+
+  # Learning Objective 6.2.1
+  - id: Q4
+    text: "Nyatakan situasi berikut dalam bentuk sistem ketaksamaan linear: Seorang pelajar boleh menggunakan sekurang-kurangnya 3 jam untuk belajar Matematik dan sekurang-kurangnya 2 jam untuk belajar Sains setiap minggu. Jumlah masa yang digunakan untuk kedua-dua subjek tidak boleh melebihi 10 jam. Jika $x$ ialah masa belajar Matematik dan $y$ ialah masa belajar Sains, nyatakan sistem ketaksamaan linear yang menggambarkan keadaan ini."
+    difficulty: medium
+    learning_objective: 6.2.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "$x \geq 3$, $y \geq 2$, $x + y \leq 10$"
+      working: |
+        Diberi syarat-syarat: \\
+        1. $x \geq 3$ (masa untuk Matematik sekurang-kurangnya 3 jam) \\
+        2. $y \geq 2$ (masa untuk Sains sekurang-kurangnya 2 jam) \\
+        3. $x + y \leq 10$ (jumlah masa tidak melebihi 10 jam) \\
+        Sistem ketaksamaan linear: $x \geq 3$, $y \geq 2$, $x + y \leq 10$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menulis ketaksamaan untuk Matematik."
+      - marks: 1
+        criteria: "Menulis ketaksamaan untuk Sains."
+      - marks: 1
+        criteria: "Menulis ketaksamaan untuk jumlah masa."
+    hints:
+      - level: 1
+        text: "Identify the constraints for each subject separately."
+      - level: 2
+        text: "Combine the constraints to form a system of inequalities."
+
+  # Learning Objective 6.2.4
+  - id: Q5
+    text: "Selesaikan masalah berikut: Seorang pelajar ingin membeli buku dan pen. Setiap buku berharga RM8 dan setiap pen berharga RM2. Pelajar itu mempunyai RM50 dan ingin membeli sekurang-kurangnya 3 buku. Jika $x$ ialah bilangan buku dan $y$ ialah bilangan pen, tentukan bilangan maksimum pen yang boleh dibeli."
+    difficulty: medium
+    learning_objective: 6.2.4
+    tp_level: 3
+    kbat: true
+    answer:
+      type: exact
+      value: "11"
+      working: |
+        Langkah 1: Nyatakan ketaksamaan berdasarkan maklumat: \\
+        $8x + 2y \leq 50$ (jumlah kos tidak melebihi RM50) \\
+        $x \geq 3$ (sekurang-kurangnya 3 buku) \\
+        Langkah 2: Cari $y$ maksimum apabila $x = 3$: \\
+        $8(3) + 2y \leq 50$ \\
+        $24 + 2y \leq 50$ \\
+        $2y \leq 26$ \\
+        $y \leq 13$ \\
+        Oleh itu, bilangan maksimum pen yang boleh dibeli ialah 13 apabila membeli 3 buku.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menulis ketaksamaan berdasarkan kos."
+      - marks: 1
+        criteria: "Menulis ketaksamaan untuk bilangan buku."
+      - marks: 1
+        criteria: "Mengira $y$ maksimum dengan betul."
+      - marks: 1
+        criteria: "Menentukan bilangan maksimum pen yang boleh dibeli."
+    hints:
+      - level: 1
+        text: "Start by writing the inequality for the total cost."
+      - level: 2
+        text: "Substitute $x = 3$ into the inequality to find the maximum $y$."
