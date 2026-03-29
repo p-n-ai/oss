@@ -1,0 +1,37 @@
+topic_id: MT5-03
+provenance: ai-generated
+description: "Worked examples for Matematik Pengguna: Insurans"
+worked_examples:
+  - id: WE-01
+    topic: "Understanding Risk and Insurance"
+    difficulty: easy
+    real_world_analogy: "Imagine you have a smartphone. You buy a case to protect it from accidental drops. The case is like insurance, a protection against potential damage."
+    misconception_alert: "Students often confuse insurance as an investment rather than protection. Insurance is primarily for risk management, not profit."
+    scenario: "Ali wants to protect his new car from potential accidents. He needs to understand the purpose of car insurance."
+    working: |
+      Step 1: Identify the risk - Ali's risk is potential damage from accidents.
+      Step 2: Understand insurance purpose - Car insurance provides financial protection against repair costs.
+      Step 3: Conclusion - Insurance helps Ali manage the financial risk associated with car accidents.
+
+  - id: WE-02
+    topic: "Calculating Insurance Premiums"
+    difficulty: medium
+    real_world_analogy: "Think of insurance premiums like a subscription fee for a service that protects you from large unexpected costs."
+    misconception_alert: "Students may think the cheapest premium is always the best. However, lower premiums often mean higher deductibles or less coverage."
+    scenario: "Aisyah is considering a health insurance plan that costs RM500 annually. She wants to calculate the monthly premium."
+    working: |
+      Step 1: Identify the annual premium cost - RM500.
+      Step 2: Calculate the monthly premium - Divide the annual cost by 12 months: RM500 / 12 = RM41.67.
+      Step 3: Conclusion - Aisyah will pay approximately RM41.67 per month for her health insurance.
+
+  - id: WE-03
+    topic: "Solving Insurance Problems with Deductibles"
+    difficulty: hard
+    real_world_analogy: "Consider a meal where you pay the first RM10 and the rest is covered by a friend. The RM10 is like a deductible in insurance."
+    misconception_alert: "Students might assume that after paying a deductible, all costs are covered. Remember, co-insurance may require sharing costs even after the deductible."
+    scenario: "Ravi's health insurance has a RM200 deductible and 20% co-insurance. He incurs a hospital bill of RM1,200. Calculate Ravi's total out-of-pocket expense."
+    working: |
+      Step 1: Pay the deductible - Subtract the deductible from the total bill: RM1,200 - RM200 = RM1,000.
+      Step 2: Calculate co-insurance - Ravi pays 20% of the remaining RM1,000: 0.20 * RM1,000 = RM200.
+      Step 3: Calculate total out-of-pocket - Add deductible and co-insurance: RM200 + RM200 = RM400.
+      Step 4: Conclusion - Ravi's total out-of-pocket expense is RM400.

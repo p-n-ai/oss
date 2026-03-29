@@ -1,0 +1,132 @@
+topic_id: MT5-03
+provenance: ai-generated
+
+questions:
+  # Learning Objective 3.1.1
+  - id: Q1
+    text: "Jelaskan kepentingan insurans hayat dan insurans am dalam melindungi risiko kewangan individu."
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: "Insurans hayat menyediakan perlindungan kewangan kepada ahli keluarga selepas kematian pemegang polisi, manakala insurans am melindungi aset dan liabiliti terhadap risiko tertentu seperti kebakaran, kemalangan, dan kecurian."
+      working: |
+        Insurans hayat adalah penting kerana ia memastikan keluarga mendapat sokongan kewangan setelah kehilangan pencari nafkah. Insurans am pula melindungi harta benda dan memberikan ganti rugi untuk kerugian yang tidak dijangka.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Menjelaskan kepentingan insurans hayat dengan contoh."
+      - marks: 2
+        criteria: "Menjelaskan kepentingan insurans am dengan contoh."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang bagaimana insurans dapat melindungi kewangan keluarga dan aset."
+      - level: 2
+        text: "Pertimbangkan perbezaan antara perlindungan individu dan aset."
+
+  # Learning Objective 3.1.2
+  - id: Q2
+    text: "Seorang individu ingin membeli insurans dengan kadar premium RM300 setahun. Jika syarikat insurans menawarkan diskaun 10% untuk pembayaran tahunan, berapakah jumlah yang perlu dibayar?"
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "RM270"
+      working: |
+        Diskaun yang diberikan adalah 10% daripada RM300.
+        Diskaun = 10/100 * RM300 = RM30.
+        Jumlah yang perlu dibayar = RM300 - RM30 = RM270.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengira jumlah diskaun dengan betul."
+      - marks: 2
+        criteria: "Menentukan jumlah akhir yang perlu dibayar selepas diskaun."
+    hints:
+      - level: 1
+        text: "Cari 10% daripada RM300."
+      - level: 2
+        text: "Kurangkan jumlah diskaun daripada premium asal."
+
+  # Learning Objective 3.1.2
+  - id: Q3
+    text: "Jika syarikat insurans mengenakan kadar premium RM500 setahun untuk insurans kereta, berapakah jumlah premium untuk tempoh 3 tahun?"
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "RM1500"
+      working: |
+        Kadar premium tahunan adalah RM500.
+        Untuk 3 tahun, jumlah premium = RM500 * 3 = RM1500.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Mengira jumlah premium untuk tempoh 3 tahun dengan betul."
+    hints:
+      - level: 1
+        text: "Berapa kali perlu anda gandakan premium tahunan untuk 3 tahun?"
+      - level: 2
+        text: "Pastikan anda mengalikan kadar tahunan dengan 3."
+
+  # Learning Objective 3.1.3
+  - id: Q4
+    text: "Sebuah polisi insurans kesihatan mempunyai deduktibel RM200 dan ko-insurans 20%. Jika bil perubatan adalah RM1000, berapakah jumlah yang perlu dibayar oleh pemegang polisi?"
+    difficulty: medium
+    learning_objective: LO3
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: "RM360"
+      working: |
+        Pertama, tolak deduktibel RM200 daripada bil perubatan RM1000.
+        RM1000 - RM200 = RM800.
+        Kemudian, hitung ko-insurans: 20% daripada RM800.
+        Ko-insurans = 20/100 * RM800 = RM160.
+        Jumlah yang perlu dibayar oleh pemegang polisi = Deduktibel + Ko-insurans = RM200 + RM160 = RM360.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Mengira amaun selepas deduktibel dengan betul."
+      - marks: 2
+        criteria: "Mengira dan menambah jumlah ko-insurans dengan betul."
+    hints:
+      - level: 1
+        text: "Tolak deduktibel dahulu sebelum mengira ko-insurans."
+      - level: 2
+        text: "Ko-insurans adalah peratusan daripada baki selepas tolak deduktibel."
+
+  # Learning Objective 3.1.3
+  - id: Q5
+    text: "Ali memegang polisi insurans kesihatan dengan deduktibel RM250 dan ko-insurans 15%. Jika kos rawatan adalah RM2000, hitung jumlah yang dibayar oleh syarikat insurans."
+    difficulty: medium
+    learning_objective: LO3
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: "RM1487.50"
+      working: |
+        Tolak deduktibel RM250 daripada kos rawatan RM2000.
+        RM2000 - RM250 = RM1750.
+        Hitung ko-insurans: 15% daripada RM1750.
+        Ko-insurans yang dibayar oleh Ali = 15/100 * RM1750 = RM262.50.
+        Oleh itu, jumlah yang dibayar oleh syarikat insurans = RM1750 - RM262.50 = RM1487.50.
+    marks: 5
+    rubric:
+      - marks: 2
+        criteria: "Mengira baki selepas deduktibel dengan betul."
+      - marks: 3
+        criteria: "Mengira dan menolak ko-insurans daripada baki dengan betul."
+    hints:
+      - level: 1
+        text: "Pastikan anda menolak deduktibel sebelum mengira ko-insurans."
+      - level: 2
+        text: "Ko-insurans perlu ditolak daripada baki selepas deduktibel."
