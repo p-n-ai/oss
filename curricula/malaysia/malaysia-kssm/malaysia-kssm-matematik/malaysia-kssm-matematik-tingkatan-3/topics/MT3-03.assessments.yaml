@@ -1,0 +1,130 @@
+topic_id: MT3-03
+provenance: ai-generated
+
+questions:
+  # LO 3.1.2: Membuat pengiraan yang melibatkan faedah mudah dan faedah kompaun
+  - id: Q1
+    text: "Ahmad menyimpan RM5,000 dalam akaun simpanan dengan faedah kompaun tahunan sebanyak 5%. Berapakah jumlah simpanan Ahmad selepas 3 tahun?"
+    difficulty: medium
+    learning_objective: 3.1.2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "RM5,788.13"
+      working: |
+        Gunakan formula faedah kompaun: 
+        $A = P(1 + \frac{r}{n})^{nt}$, 
+        di mana $P = 5000$, $r = 0.05$, $n = 1$, $t = 3$.
+        $A = 5000(1 + \frac{0.05}{1})^{1 \times 3} = 5000(1.05)^3 = 5788.13$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan formula faedah kompaun yang betul"
+      - marks: 1
+        criteria: "Menggantikan nilai yang betul dalam formula"
+      - marks: 1
+        criteria: "Mendapatkan jawapan akhir yang tepat"
+    hints:
+      - level: 1
+        text: "Gunakan formula faedah kompaun: $A = P(1 + \frac{r}{n})^{nt}$."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Pastikan anda menggunakan tempoh masa yang betul dalam tahun."
+
+  # LO 3.2.1: Menjelaskan maksud kredit dan hutang
+  - id: Q2
+    text: "Apakah perbezaan utama antara kredit dan hutang?"
+    difficulty: medium
+    learning_objective: 3.2.1
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: "Kredit merujuk kepada kemudahan untuk meminjam wang yang perlu dibayar balik, sementara hutang adalah jumlah wang yang dipinjam dan belum dibayar balik."
+      working: |
+        Kredit adalah kemudahan yang diberikan kepada pengguna untuk meminjam wang atau mendapatkan barangan dan perkhidmatan dengan bayaran kemudian. Hutang adalah jumlah sebenar yang dipinjam oleh seseorang dan perlu dibayar balik.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menjelaskan konsep kredit dengan betul"
+      - marks: 1
+        criteria: "Menjelaskan konsep hutang dengan betul"
+    hints:
+      - level: 1
+        text: "Kredit adalah tentang kemampuan untuk meminjam, sementara hutang adalah tentang jumlah yang telah dipinjam."
+
+  # LO 3.2.3: Kesan pembayaran minimum dan pembayaran lewat
+  - id: Q3
+    text: "Terangkan kesan membuat pembayaran minimum secara berterusan terhadap baki kad kredit seseorang."
+    difficulty: medium
+    learning_objective: 3.2.3
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "Pembayaran minimum secara berterusan meningkatkan jumlah faedah yang perlu dibayar dan memanjangkan tempoh masa untuk melunaskan hutang sepenuhnya."
+      working: |
+        Pembayaran minimum menyebabkan baki tertunggak dikenakan faedah yang tinggi. Akibatnya, jumlah faedah terkumpul dan tempoh masa untuk melunaskan hutang menjadi lebih panjang, yang akhirnya boleh menyebabkan beban kewangan yang lebih besar.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menghuraikan kesan terhadap faedah yang dikenakan"
+      - marks: 1
+        criteria: "Menghuraikan kesan terhadap tempoh masa pembayaran balik"
+      - marks: 1
+        criteria: "Menjelaskan potensi beban kewangan yang meningkat"
+    hints:
+      - level: 1
+        text: "Pertimbangkan bagaimana faedah ditambah kepada baki tertunggak apabila hanya pembayaran minimum dibuat."
+
+  # LO 3.2.5: Mengira jumlah bayaran balik pinjaman
+  - id: Q4
+    text: "Ali meminjam RM20,000 dengan kadar faedah tahunan 4% untuk tempoh 5 tahun. Berapakah jumlah bayaran balik keseluruhan jika faedah dikira secara mudah?"
+    difficulty: medium
+    learning_objective: 3.2.5
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "RM24,000"
+      working: |
+        Gunakan formula faedah mudah: 
+        $I = P \times r \times t$, 
+        di mana $P = 20,000$, $r = 0.04$, $t = 5$.
+        $I = 20,000 \times 0.04 \times 5 = 4,000$.
+        Jumlah bayaran balik = $P + I = 20,000 + 4,000 = 24,000$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan formula faedah mudah dengan betul"
+      - marks: 1
+        criteria: "Mengira faedah yang tepat"
+      - marks: 1
+        criteria: "Menjumlahkan pinjaman asal dengan faedah untuk jumlah bayaran balik"
+    hints:
+      - level: 1
+        text: "Faedah mudah boleh dikira dengan formula $I = P \times r \times t$."
+
+  # LO 3.1.4: Membanding dan membeza potensi risiko, pulangan dan kecairan
+  - id: Q5
+    text: "Bandingkan risiko, pulangan, dan kecairan antara simpanan tetap dan pelaburan saham."
+    difficulty: medium
+    learning_objective: 3.1.4
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "Simpanan tetap mempunyai risiko rendah dan pulangan yang lebih rendah tetapi kecairan yang terhad kerana wang dikunci untuk tempoh tertentu. Pelaburan saham mempunyai risiko yang lebih tinggi, potensi pulangan yang lebih tinggi, dan lebih cair kerana boleh dijual pada bila-bila masa di pasaran saham."
+      working: |
+        Simpanan tetap menawarkan keselamatan dengan risiko yang sangat rendah dan pulangan yang stabil tetapi rendah. Wang yang disimpan tidak boleh diambil sebelum tamat tempoh tanpa penalti. Pelaburan saham, sebaliknya, boleh memberikan pulangan yang lebih tinggi tetapi dengan risiko yang lebih besar kerana harga saham boleh turun. Saham lebih cair kerana boleh dijual pada bila-bila masa di pasaran terbuka.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menjelaskan risiko simpanan tetap dan pelaburan saham"
+      - marks: 1
+        criteria: "Menjelaskan pulangan simpanan tetap dan pelaburan saham"
+      - marks: 1
+        criteria: "Menjelaskan kecairan simpanan tetap dan pelaburan saham"
+    hints:
+      - level: 1
+        text: "Pertimbangkan bagaimana risiko dan pulangan berbeza berdasarkan jenis simpanan atau pelaburan."

@@ -1,0 +1,50 @@
+id: MT3-08
+official_ref: "Bab 8"
+name: "Lokus dalam Dua Dimensi"
+name_en: "Locus in Two Dimensions"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-3
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+learning_objectives:
+    - id: "8.1.1"
+      text: "Mengenal lokus dalam situasi kehidupan sebenar, dan seterusnya menerangkan maksud lokus."
+      text_en: "Recognize locus in real-life situations, and subsequently explain the meaning of locus."
+      bloom: understand
+    - id: "8.2.1"
+      text: "Memerihal lokus bagi titik yang (i) berjarak tetap dari satu titik tetap, (ii) berjarak sama dari dua titik tetap, (iii) berjarak tetap dari satu garis lurus, (iv) berjarak sama dari dua garis lurus yang selari, dan (v) berjarak sama dari dua garis lurus yang bersilang, dan seterusnya membina lokus tersebut."
+      text_en: "Describe the locus of a point that is (i) at a fixed distance from a fixed point, (ii) equidistant from two fixed points, (iii) at a fixed distance from a straight line, (iv) equidistant from two parallel lines, and (v) equidistant from two intersecting lines, and subsequently construct the locus."
+      bloom: apply
+    - id: "8.2.2"
+      text: "Menentukan lokus yang memenuhi dua atau lebih syarat."
+      text_en: "Determine the locus that satisfies two or more conditions."
+      bloom: apply
+    - id: "8.2.3"
+      text: "Menyelesaikan masalah yang melibatkan lokus."
+      text_en: "Solve problems involving locus."
+      bloom: apply
+prerequisites:
+    required: []
+bloom_levels:
+    - understand
+    - apply
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-03-29T15:27:23Z"
+teaching:
+    sequence:
+        - 'Step 1: Introduce the concept of locus with simple examples like a fixed distance from a point (15 min)'
+        - 'Step 2: Discuss different types of loci from fixed points and lines (20 min)'
+        - 'Step 3: Practice constructing loci using geometric tools (25 min)'
+        - 'Step 4: Solve practical problems involving loci (20 min)'
+    common_misconceptions:
+        - misconception: Locus is only related to circles
+          remediation: Provide varied examples with different locus shapes
+        - misconception: All loci are symmetrical
+          remediation: Show examples of non-symmetrical loci
+engagement_hooks:
+    - 'Use city planning examples: how architects determine building locations equidistant from two main roads'
+    - Discuss how engineers use loci in designing roadways and bridges

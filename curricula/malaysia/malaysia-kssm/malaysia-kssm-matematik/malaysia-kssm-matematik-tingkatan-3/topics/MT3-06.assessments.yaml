@@ -1,0 +1,113 @@
+topic_id: MT3-06
+provenance: ai-generated
+
+questions:
+  # Learning Objective: 6.1.1 (create)
+  - id: Q1
+    text: "Diberikan bulatan dengan pusat $O$ dan sudut $\angle ACB = 40^\circ$ pada lilitan. Tentukan sudut $\angle AOB$."
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 3
+    kbat: true
+    answer:
+      type: exact
+      value: "80^\circ"
+      working: |
+        Dalam bulatan, sudut pusat $\angle AOB$ adalah dua kali ganda sudut pada lilitan $\angle ACB$ yang dicangkum oleh lengkok yang sama. Oleh itu, $\angle AOB = 2 \times 40^\circ = 80^\circ$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan bahawa sudut pusat adalah dua kali ganda sudut pada lilitan."
+      - marks: 2
+        criteria: "Mengira sudut pusat dengan tepat."
+    hints:
+      - level: 1
+        text: "Ingat bahawa sudut pusat adalah dua kali ganda daripada sudut pada lilitan yang dicangkum oleh lengkok yang sama."
+
+  # Learning Objective: 6.1.2 (apply)
+  - id: Q2
+    text: "Dalam bulatan, sudut pada lilitan $\angle PRQ = 60^\circ$ dan sudut pusat $\angle POQ$ adalah dua kali sudut $\angle PRQ$. Cari sudut $\angle POQ$."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "120^\circ"
+      working: |
+        Diketahui sudut pusat adalah dua kali sudut pada lilitan, oleh itu $\angle POQ = 2 \times \angle PRQ = 2 \times 60^\circ = 120^\circ$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan hubungan antara sudut pusat dan sudut pada lilitan."
+      - marks: 1
+        criteria: "Mengira nilai sudut pusat dengan betul."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Jangan lupa bahawa sudut pusat adalah dua kali sudut pada lilitan."
+
+  # Learning Objective: 6.2.3 (apply)
+  - id: Q3
+    text: "Sisi empat kitaran $ABCD$ mempunyai sudut $\angle ABC = 70^\circ$ dan $\angle CDA = 110^\circ$. Tentukan $\angle BCD$."
+    difficulty: medium
+    learning_objective: LO3
+    tp_level: 3
+    kbat: true
+    answer:
+      type: exact
+      value: "110^\circ"
+      working: |
+        Dalam sisi empat kitaran, jumlah sudut bertentangan adalah $180^\circ$. Oleh itu, $\angle ABC + \angle CDA = 180^\circ$. Maka, $\angle BCD = 180^\circ - \angle ABC = 180^\circ - 70^\circ = 110^\circ$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenalpasti bahawa jumlah sudut bertentangan dalam sisi empat kitaran adalah $180^\circ$."
+      - marks: 2
+        criteria: "Mengira sudut $\angle BCD$ dengan tepat."
+    hints:
+      - level: 1
+        text: "Ingat bahawa dalam sisi empat kitaran, jumlah sudut bertentangan adalah $180^\circ$."
+
+  # Learning Objective: 6.3.2 (create)
+  - id: Q4
+    text: "Garis $AB$ adalah tangen kepada bulatan di titik $A$. Jejari $OA$ membentuk sudut $90^\circ$ dengan tangen. Jika sudut $\angle BAC = 30^\circ$, tentukan sudut $\angle OAC$."
+    difficulty: medium
+    learning_objective: LO4
+    tp_level: 3
+    kbat: true
+    answer:
+      type: exact
+      value: "60^\circ"
+      working: |
+        Sudut antara jejari dan tangen adalah $90^\circ$. Oleh itu, $\angle OAC = 90^\circ - \angle BAC = 90^\circ - 30^\circ = 60^\circ$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenalpasti bahawa sudut antara jejari dan tangen adalah $90^\circ$."
+      - marks: 2
+        criteria: "Mengira sudut $\angle OAC$ dengan tepat."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Jangan lupa bahawa sudut antara jejari dan tangen adalah $90^\circ$."
+
+  # Learning Objective: 6.3.3 (apply)
+  - id: Q5
+    text: "Dalam rajah, $PA$ dan $PB$ adalah tangen kepada bulatan dari titik luar $P$. Jika $PA = PB$ dan sudut $\angle APB = 40^\circ$, tentukan sudut $\angle PAB$."
+    difficulty: medium
+    learning_objective: LO5
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "70^\circ"
+      working: |
+        Tangen dari titik luar adalah sama panjang, oleh itu $\triangle PAB$ adalah segi tiga sama kaki. Sudut asas adalah sama, oleh itu $\angle PAB = \angle PBA = \frac{180^\circ - \angle APB}{2} = \frac{180^\circ - 40^\circ}{2} = 70^\circ$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenalpasti bahawa $\triangle PAB$ adalah segi tiga sama kaki."
+      - marks: 2
+        criteria: "Mengira sudut $\angle PAB$ dengan tepat."
+    hints:
+      - level: 1
+        text: "Ingat bahawa dalam segi tiga sama kaki, sudut asas adalah sama."

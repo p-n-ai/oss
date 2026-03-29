@@ -1,0 +1,68 @@
+id: MT3-05
+official_ref: "Bab 5"
+name: "Nisbah Trigonometri"
+name_en: "Trigonometric Ratios"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-3
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+learning_objectives:
+    - id: "5.1.1"
+      text: "Mengenal pasti sisi bertentangan dan sisi bersebelahan berdasarkan suatu sudut tirus dalam segi tiga bersudut tegak."
+      text_en: "Identify the opposite side and adjacent side based on an acute angle in a right-angled triangle."
+      bloom: remember
+    - id: "5.1.2"
+      text: "Membuat dan menentusahkan konjektur tentang hubungan antara sudut tirus dan nisbah sisi segi tiga bersudut tegak, dan seterusnya mentakrifkan sinus, kosinus dan tangen."
+      text_en: "Make and verify conjectures about the relationship between acute angles and the ratios of sides in a right-angled triangle, and subsequently define sine, cosine, and tangent."
+      bloom: understand
+    - id: "5.1.3"
+      text: "Membuat dan menentusahkan konjektur tentang kesan perubahan saiz sudut terhadap nilai sinus, kosinus dan tangen."
+      text_en: "Make and verify conjectures about the effect of changing the size of an angle on the values of sine, cosine, and tangent."
+      bloom: analyze
+    - id: "5.1.4"
+      text: "Menentukan nilai sinus, kosinus dan tangen suatu sudut tirus."
+      text_en: "Determine the values of sine, cosine, and tangent of an acute angle."
+      bloom: apply
+    - id: "5.1.5"
+      text: "Menentukan nilai sinus, kosinus dan tangen sudut 30°, 45° dan 60° tanpa menggunakan kalkulator."
+      text_en: "Determine the values of sine, cosine, and tangent of angles 30°, 45°, and 60° without using a calculator."
+      bloom: apply
+    - id: "5.1.6"
+      text: "Melakukan pengiraan yang melibatkan sinus, kosinus dan tangen."
+      text_en: "Perform calculations involving sine, cosine, and tangent."
+      bloom: apply
+    - id: "5.1.7"
+      text: "Menyelesaikan masalah yang melibatkan sinus, kosinus dan tangen."
+      text_en: "Solve problems involving sine, cosine, and tangent."
+      bloom: apply
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+prerequisites:
+    required: []
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-03-29T15:27:23Z"
+teaching:
+    sequence:
+        - 'Step 1: Introduce trigonometric ratios using labeled triangle diagrams (15 min)'
+        - 'Step 2: Guide students in formulating conjectures about angle changes (20 min)'
+        - 'Step 3: Teach calculation of trigonometric values for specific angles (25 min)'
+        - 'Step 4: Apply trigonometric ratios in problem-solving scenarios (30 min)'
+        - 'Step 5: Review and practice using real-world examples (20 min)'
+    common_misconceptions:
+        - misconception: Sine and cosine are always the same
+          remediation: Reinforce differences with examples and explanations
+        - misconception: Trigonometric ratios are only applicable to right triangles
+          remediation: Show broader applications in real-world problems
+        - misconception: Adjacent and opposite sides are interchangeable
+          remediation: Use diagrams to clarify side definitions
+engagement_hooks:
+    - Explore how trigonometry is used in designing the Petronas Towers
+    - Discuss the role of trigonometry in navigation and GPS technology
+    - Investigate how engineers use trigonometry in bridge construction

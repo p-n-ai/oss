@@ -1,0 +1,36 @@
+topic_id: MT3-02
+provenance: ai-generated
+description: "Worked examples for Bentuk Piawai"
+worked_examples:
+  - id: WE-01
+    topic: "Understanding Significant Figures"
+    difficulty: easy
+    real_world_analogy: "Think of significant figures as important details in a story. Just like you wouldn't leave out key parts of a story, you shouldn't leave out significant figures in a number."
+    misconception_alert: "Students often confuse significant figures with decimal places. Remember, significant figures are about the digits that carry meaning."
+    scenario: "Determine the number of significant figures in the number 0.005230."
+    working: |
+      Step 1: Identify the first non-zero digit, which is '5'.
+      Step 2: Count all digits from '5' to the end of the number, which are '5', '2', '3', and '0'.
+      Step 3: Therefore, the number 0.005230 has 4 significant figures.
+
+  - id: WE-02
+    topic: "Rounding to Significant Figures"
+    difficulty: medium
+    real_world_analogy: "Rounding numbers is like packing for a trip; you want to include the essentials but not overpack."
+    misconception_alert: "A common mistake is rounding too early in a multi-step problem, leading to inaccurate results. Always round at the end."
+    scenario: "Round the number 4567 to 2 significant figures."
+    working: |
+      Step 1: Identify the first two significant figures, '4' and '5'.
+      Step 2: Look at the next digit, which is '6'. Since '6' is 5 or more, round up the last significant figure.
+      Step 3: The number 4567 rounded to 2 significant figures is 4600.
+
+  - id: WE-03
+    topic: "Writing Numbers in Standard Form"
+    difficulty: hard
+    real_world_analogy: "Writing numbers in standard form is like organizing books in a library; you need a system to quickly find what you need."
+    misconception_alert: "Students often forget to adjust the exponent when moving the decimal point. Always count the moves to the left or right."
+    scenario: "Express the number 0.000345 in standard form."
+    working: |
+      Step 1: Move the decimal point to the right until you have a number between 1 and 10. This gives 3.45.
+      Step 2: Count the number of places you moved the decimal point, which is 4 places to the right.
+      Step 3: Express the number as 3.45 x 10^-4 in standard form.

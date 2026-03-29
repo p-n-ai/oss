@@ -1,0 +1,140 @@
+topic_id: MT3-05
+provenance: ai-generated
+
+questions:
+  # Learning Objective 5.1.2
+  - id: Q1
+    text: "Dalam segi tiga bersudut tegak, jika sudut tirus adalah 30°, apakah nilai nisbah sinus bagi sudut tersebut?"
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "0.5"
+      working: |
+        Sinus bagi sudut 30° adalah nisbah sisi bertentangan dengan hipotenus. 
+        Mengikut jadual nisbah trigonometri, $\sin 30^\circ = \frac{1}{2}$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menulis formula sinus dengan betul."
+      - marks: 1
+        criteria: "Menentukan nilai sinus 30° dengan betul."
+    hints:
+      - level: 1
+        text: "Ingat kembali nilai-nilai trigonometri istimewa untuk sudut 30°, 45°, dan 60°."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Sinus 30° adalah nisbah sisi bertentangan dengan hipotenus, bukan sisi bersebelahan."
+
+  # Learning Objective 5.1.3
+  - id: Q2
+    text: "Apakah kesan peningkatan saiz sudut tirus pada nilai kosinus dalam segi tiga bersudut tegak?"
+    difficulty: medium
+    learning_objective: LO3
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "Nilai kosinus akan berkurang apabila saiz sudut tirus meningkat."
+      working: |
+        Apabila sudut tirus meningkat, sisi bersebelahan akan menjadi lebih pendek berbanding hipotenus.
+        Oleh itu, nisbah kosinus, yang merupakan $\cos \theta = \frac{\text{sisi bersebelahan}}{\text{hipotenus}}$, akan berkurang.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyedari bahawa kosinus melibatkan sisi bersebelahan dan hipotenus."
+      - marks: 1
+        criteria: "Menentukan bahawa sisi bersebelahan menjadi lebih pendek."
+      - marks: 1
+        criteria: "Menjelaskan bahawa nilai kosinus berkurang."
+    hints:
+      - level: 1
+        text: "Pertimbangkan bagaimana perubahan sudut mempengaruhi panjang sisi dalam segi tiga."
+      - level: 2
+        text: "Apakah hubungan antara sisi bersebelahan dan sudut?"
+
+  # Learning Objective 5.1.4
+  - id: Q3
+    text: "Hitung nilai $\tan 45^\circ$ tanpa menggunakan kalkulator."
+    difficulty: medium
+    learning_objective: LO4
+    tp_level: 4
+    kbat: false
+    answer:
+      type: exact
+      value: "1"
+      working: |
+        $\tan 45^\circ = \frac{\text{sisi bertentangan}}{\text{sisi bersebelahan}}$. Dalam segi tiga bersudut 45°, kedua-dua sisi adalah sama panjang.
+        Oleh itu, $\tan 45^\circ = \frac{1}{1} = 1$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Memahami bahawa pada 45°, sisi bertentangan dan bersebelahan adalah sama."
+      - marks: 1
+        criteria: "Menghitung nisbah dengan betul."
+    hints:
+      - level: 1
+        text: "Ingat bahawa dalam segi tiga bersudut 45°, sisi-sisi yang tidak sama panjang adalah sama."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Pastikan anda menggunakan sisi yang betul untuk nisbah tangen."
+
+  # Learning Objective 5.1.6
+  - id: Q4
+    text: "Dalam segi tiga bersudut tegak, sisi bertentangan kepada sudut tirus 60° adalah 6 unit. Cari panjang hipotenus."
+    difficulty: medium
+    learning_objective: LO6
+    tp_level: 4
+    kbat: false
+    answer:
+      type: exact
+      value: "12"
+      working: |
+        Menggunakan $\sin 60^\circ = \frac{\text{sisi bertentangan}}{\text{hipotenus}}$.
+        $\sin 60^\circ = \frac{6}{h}$ dan $\sin 60^\circ = \frac{\sqrt{3}}{2}$.
+        Maka, $\frac{\sqrt{3}}{2} = \frac{6}{h}$.
+        Penyelesaian: $h = \frac{6 \times 2}{\sqrt{3}} = 12$ unit.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menulis formula sinus dengan betul."
+      - marks: 1
+        criteria: "Menggantikan nilai sinus 60° dengan betul."
+      - marks: 1
+        criteria: "Menghitung panjang hipotenus dengan betul."
+    hints:
+      - level: 1
+        text: "Gunakan formula sinus: $\sin \theta = \frac{\text{sisi bertentangan}}{\text{hipotenus}}$."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Pastikan anda menggunakan nisbah yang betul untuk sinus 60°."
+
+  # Learning Objective 5.1.7
+  - id: Q5
+    text: "Seorang pelajar melihat bendera di atas menara dari jarak 50 meter dengan sudut elevasi 30°. Berapakah ketinggian menara tersebut?"
+    difficulty: medium
+    learning_objective: LO7
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "28.87"
+      working: |
+        Menggunakan $\tan 30^\circ = \frac{\text{ketinggian}}{\text{jarak}}$, kita ada $\tan 30^\circ = \frac{h}{50}$.
+        $\tan 30^\circ = \frac{1}{\sqrt{3}} \approx 0.577$.
+        Oleh itu, $0.577 = \frac{h}{50}$.
+        Penyelesaian: $h = 0.577 \times 50 \approx 28.87$ meter.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menulis formula tangen dengan betul."
+      - marks: 1
+        criteria: "Menggantikan nilai tangen 30° dengan betul."
+      - marks: 1
+        criteria: "Menetapkan persamaan dengan jarak dengan betul."
+      - marks: 1
+        criteria: "Menghitung ketinggian dengan betul."
+    hints:
+      - level: 1
+        text: "Gunakan formula tangen: $\tan \theta = \frac{\text{ketinggian}}{\text{jarak}}$."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Perhatikan bahawa jarak adalah sisi bersebelahan, bukan hipotenus."

@@ -1,0 +1,36 @@
+topic_id: MT3-03
+provenance: ai-generated
+description: "Worked examples for Matematik Pengguna: Simpanan dan Pelaburan, Kredit dan Hutang"
+worked_examples:
+  - id: WE-01
+    topic: "Simpanan dan Faedah Mudah"
+    difficulty: easy
+    real_world_analogy: "Consider simpanan as planting a seed that grows into a tree over time with consistent watering."
+    misconception_alert: "Students often confuse faedah mudah with faedah kompaun, forgetting that faedah mudah is calculated only on the principal."
+    scenario: "Ahmad menyimpan RM1000 di dalam akaun simpanan dengan kadar faedah mudah 3% setahun. Berapakah jumlah wang dalam akaun selepas 2 tahun?"
+    working: |
+      Step 1: Identify the principal (P), rate (r), and time (t). Here, P = RM1000, r = 3% per annum, t = 2 years.
+      Step 2: Calculate the interest using the formula I = P * r * t. So, I = 1000 * 0.03 * 2 = RM60.
+      Step 3: Add the interest to the principal to find the total amount: Total = P + I = 1000 + 60 = RM1060.
+  
+  - id: WE-02
+    topic: "Pelaburan dan Faedah Kompaun"
+    difficulty: medium
+    real_world_analogy: "Think of faedah kompaun like a snowball rolling down a hill, picking up more snow and growing larger over time."
+    misconception_alert: "Students may forget that faedah kompaun is applied to the accumulated amount, not just the initial principal."
+    scenario: "Siti melabur RM5000 dalam akaun yang menawarkan faedah kompaun 4% setahun, dikompaunkan setiap tahun. Berapakah nilai pelaburan selepas 3 tahun?"
+    working: |
+      Step 1: Identify the principal (P), rate (r), time (t), and n (compounding frequency). Here, P = RM5000, r = 4% per annum, t = 3 years, n = 1.
+      Step 2: Use the compound interest formula A = P(1 + r/n)^(nt) to calculate the amount: A = 5000(1 + 0.04/1)^(1*3).
+      Step 3: Calculate A = 5000(1.04)^3 = 5000 * 1.124864 = RM5624.32. The investment amount after 3 years is RM5624.32.
+  
+  - id: WE-03
+    topic: "Kredit dan Bayaran Balik Pinjaman"
+    difficulty: hard
+    real_world_analogy: "Imagine taking a loan as renting a car; you pay to use it over time, but returning it late incurs extra charges."
+    misconception_alert: "Students might underestimate the total cost of a loan by focusing only on the monthly installment, not the long-term interest."
+    scenario: "Ali mengambil pinjaman peribadi RM20,000 dengan kadar faedah tetap 6% setahun untuk tempoh 5 tahun. Hitung jumlah bayaran balik keseluruhan."
+    working: |
+      Step 1: Determine the principal (P), annual interest rate (r), and loan term (t). Here, P = RM20,000, r = 6% per annum, t = 5 years.
+      Step 2: Calculate the total interest using the simple interest formula I = P * r * t. I = 20000 * 0.06 * 5 = RM6000.
+      Step 3: Add the total interest to the principal to find the total repayment: Total repayment = P + I = 20000 + 6000 = RM26000.

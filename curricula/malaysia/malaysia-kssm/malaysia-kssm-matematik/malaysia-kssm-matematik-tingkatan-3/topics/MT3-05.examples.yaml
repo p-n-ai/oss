@@ -1,0 +1,43 @@
+topic_id: MT3-05
+provenance: ai-generated
+description: "Worked examples for Nisbah Trigonometri"
+worked_examples:
+  - id: WE-01
+    topic: "Mengenal pasti sisi bertentangan dan sisi bersebelahan"
+    difficulty: easy
+    real_world_analogy: "Imagine you are looking at a tree from a distance. The tree is the opposite side, the ground between you and the tree is the adjacent side, and your line of sight is the hypotenuse."
+    misconception_alert: "Students often confuse the opposite and adjacent sides. Remember, the opposite side is always across from the angle you are considering."
+    scenario: "In a right-angled triangle, identify the opposite and adjacent sides relative to a given angle of 30°."
+    working: |
+      Step 1: Identify the right angle in the triangle.
+      Step 2: Locate the angle of interest, which is 30°.
+      Step 3: The side opposite the 30° angle is the opposite side.
+      Step 4: The side next to the 30° angle and the right angle is the adjacent side.
+      Step 5: Verify by ensuring the identified sides are correct in relation to the angle.
+
+  - id: WE-02
+    topic: "Konjektur dan takrif nisbah trigonometri"
+    difficulty: medium
+    real_world_analogy: "Think of a ladder leaning against a wall: the height the ladder reaches on the wall is similar to the opposite side, the distance from the wall to the base of the ladder is the adjacent side, and the ladder itself is the hypotenuse."
+    misconception_alert: "Students might think the longest side is always the adjacent side. It is crucial to recognize that the hypotenuse is always opposite the right angle."
+    scenario: "Given a right-angled triangle with a hypotenuse of 10 cm and an opposite side of 6 cm for an angle θ, determine the sine of θ."
+    working: |
+      Step 1: Recall the definition of sine: sin(θ) = opposite/hypotenuse.
+      Step 2: Substitute the given values into the formula: sin(θ) = 6/10.
+      Step 3: Simplify the fraction: sin(θ) = 0.6.
+      Step 4: Confirm understanding by checking that the calculated sine makes sense relative to the triangle's proportions.
+
+  - id: WE-03
+    topic: "Pengiraan nilai trigonometri"
+    difficulty: hard
+    real_world_analogy: "Consider a kite flying 30 meters above the ground, with the string making an angle of 45° with the ground. You need to find the length of the string."
+    misconception_alert: "A common error is misidentifying which trigonometric ratio to use based on the given angle and sides."
+    scenario: "A right triangle has an angle of 45°, and the opposite side is 30 meters long. Calculate the length of the hypotenuse."
+    working: |
+      Step 1: Use the sine ratio for the given angle: sin(45°) = opposite/hypotenuse.
+      Step 2: Recall that sin(45°) = √2/2 from trigonometric tables.
+      Step 3: Set up the equation: √2/2 = 30/hypotenuse.
+      Step 4: Solve for the hypotenuse: hypotenuse = 30 / (√2/2).
+      Step 5: Simplify: hypotenuse = 30 * (2/√2) = 30√2/2.
+      Step 6: Calculate the numerical value: hypotenuse ≈ 21.21 meters.
+      Step 7: Verify the calculated length by considering the triangle's properties and ensuring it makes sense contextually.

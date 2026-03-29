@@ -1,0 +1,55 @@
+id: MT3-02
+official_ref: "Bab 2"
+name: "Bentuk Piawai"
+name_en: "Standard Form"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-3
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+learning_objectives:
+    - id: "2.1.1"
+      text: "Menerangkan maksud angka bererti dan seterusnya menentukan bilangan angka bererti suatu nombor."
+      text_en: "Explain the meaning of significant figures and subsequently determine the number of significant figures of a number."
+      bloom: understand
+    - id: "2.1.2"
+      text: "Membundarkan suatu nombor kepada bilangan angka bererti yang tertentu."
+      text_en: "Round a number to a specified number of significant figures."
+      bloom: apply
+    - id: "2.2.1"
+      text: "Mengenal dan menulis nombor dalam bentuk piawai."
+      text_en: "Recognize and write numbers in standard form."
+      bloom: understand
+    - id: "2.2.2"
+      text: "Melaksanakan operasi asas aritmetik yang melibatkan nombor dalam bentuk piawai."
+      text_en: "Perform basic arithmetic operations involving numbers in standard form."
+      bloom: apply
+    - id: "2.2.3"
+      text: "Menyelesaikan masalah yang melibatkan nombor dalam bentuk piawai."
+      text_en: "Solve problems involving numbers in standard form."
+      bloom: apply
+prerequisites:
+    required: []
+bloom_levels:
+    - understand
+    - apply
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-03-29T15:27:23Z"
+teaching:
+    sequence:
+        - 'Step 1: Introduce significant figures and their importance (20 min)'
+        - 'Step 2: Teach rounding numbers to a specific number of significant figures (15 min)'
+        - 'Step 3: Demonstrate writing numbers in standard form (20 min)'
+        - 'Step 4: Guide students through basic arithmetic operations with standard form (25 min)'
+        - 'Step 5: Apply standard form in real-world problem-solving scenarios (30 min)'
+    common_misconceptions:
+        - misconception: All digits are significant figures
+          remediation: Clarify the difference between significant digits and significant figures with examples
+        - misconception: Standard form is just a decorative way to write numbers
+          remediation: Show practical applications and relevance in science and geography
+engagement_hooks:
+    - Compare city populations or distances between stars using standard form to highlight importance in science
+    - Discuss the relevance of standard form in calculating astronomical distances

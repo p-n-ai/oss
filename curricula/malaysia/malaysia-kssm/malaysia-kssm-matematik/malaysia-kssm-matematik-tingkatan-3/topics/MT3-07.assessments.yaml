@@ -1,0 +1,140 @@
+topic_id: MT3-07
+provenance: ai-generated
+
+questions:
+  # Learning Objective 7.1.1
+  - id: Q1
+    text: "Lukis unjuran ortogon bagi kubus dengan panjang sisi 4 cm."
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Unjuran ortogon dengan sisi 4 cm."
+      working: |
+        1. Lukis satu sisi kubus sebagai segi empat tepat dengan panjang dan lebar 4 cm.
+        2. Ulangi langkah untuk dua sisi lain yang berserenjang dengan sisi pertama.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Lukis satu sisi dengan betul."
+      - marks: 2
+        criteria: "Lukis dua sisi berserenjang dengan betul."
+      - marks: 3
+        criteria: "Lukis ketiga-tiga sisi dengan betul."
+    hints:
+      - level: 1
+        text: "Ingat bahawa unjuran ortogon melibatkan lukisan pandangan hadapan, sisi, dan atas."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Pastikan semua sisi berserenjang dilukis dengan ukuran tepat."
+
+  # Learning Objective 7.1.2
+  - id: Q2
+    text: "Bandingkan unjuran ortogon bagi prisma segitiga dengan unjuran ortogon bagi silinder. Nyatakan satu perbezaan utama."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Prisma segitiga mempunyai sisi rata dalam unjurannya, manakala silinder mempunyai sisi lengkung."
+      working: |
+        1. Lukis unjuran ortogon bagi prisma segitiga dan silinder.
+        2. Analisis bentuk sisi dalam unjuran.
+        3. Kenal pasti bahawa prisma segitiga mempunyai sisi rata, silinder mempunyai sisi lengkung.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan perbezaan dalam bentuk sisi unjuran."
+      - marks: 2
+        criteria: "Menyatakan perbezaan secara jelas antara sisi rata dan lengkung."
+    hints:
+      - level: 1
+        text: "Fokus kepada bentuk sisi dalam unjuran ortogon."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Jangan keliru antara sisi rata dan permukaan melengkung."
+
+  # Learning Objective 7.2.1
+  - id: Q3
+    text: "Lukis pelan dan dongakan bagi sebuah rumah kecil berbentuk segi empat tepat dengan ukuran panjang 8 m dan lebar 6 m. Gunakan skala 1:100."
+    difficulty: medium
+    learning_objective: LO3
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Pelan dan dongakan berskala 8 cm x 6 cm."
+      working: |
+        1. Hitung ukuran skala: 8 m = 8 cm, 6 m = 6 cm.
+        2. Lukis pelan dengan panjang 8 cm dan lebar 6 cm.
+        3. Lukis dongakan sisi dengan ukuran yang sama.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengira skala dengan betul."
+      - marks: 2
+        criteria: "Lukis pelan dengan ukuran skala."
+      - marks: 3
+        criteria: "Lukis pelan dan dongakan dengan ukuran skala."
+    hints:
+      - level: 1
+        text: "Pastikan anda memahami konsep skala 1:100."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Jangan gunakan ukuran sebenar, gunakan ukuran skala."
+
+  # Learning Objective 7.2.2
+  - id: Q4
+    text: "Sintesiskan pelan dan dongakan bagi objek berbentuk L dengan panjang 5 cm, lebar 3 cm, dan tinggi 2 cm. Lukis objek tersebut."
+    difficulty: medium
+    learning_objective: LO4
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "Objek berbentuk L yang dilukis berdasarkan pelan dan dongakan."
+      working: |
+        1. Lukis pelan dengan panjang 5 cm dan lebar 3 cm.
+        2. Tambah bahagian L yang melebar 3 cm.
+        3. Lukis dongakan dengan tinggi 2 cm.
+        4. Gabungkan pelan dan dongakan menjadi objek 3D.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Lukis pelan dengan betul."
+      - marks: 2
+        criteria: "Lukis dongakan dengan betul."
+      - marks: 3
+        criteria: "Gabungkan pelan dan dongakan dengan betul."
+      - marks: 4
+        criteria: "Melakar objek 3D dengan tepat."
+    hints:
+      - level: 1
+        text: "Perhatikan bahagian L yang lebih menonjol."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Jangan abaikan dimensi yang memberi bentuk kepada objek."
+
+  # Learning Objective 7.2.3
+  - id: Q5
+    text: "Selesaikan masalah berikut: Sebuah taman berbentuk segi empat tepat berukuran 20 m x 15 m hendak dilukis dalam pelan berskala 1:200. Berapakah luas dalam pelan?"
+    difficulty: medium
+    learning_objective: LO5
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "15 cm^2"
+      working: |
+        1. Hitung ukuran skala: 20 m = 10 cm, 15 m = 7.5 cm.
+        2. Kira luas pelan: 10 cm x 7.5 cm = 75 cm^2.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengira ukuran skala dengan betul."
+      - marks: 2
+        criteria: "Mengira luas pelan dengan betul."
+    hints:
+      - level: 1
+        text: "Fahami konsep skala dan bagaimana ia digunakan untuk mengira luas."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Pastikan anda menggunakan unit ukuran yang betul dalam pengiraan."

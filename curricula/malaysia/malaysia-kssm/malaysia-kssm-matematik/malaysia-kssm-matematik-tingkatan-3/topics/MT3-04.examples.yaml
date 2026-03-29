@@ -1,0 +1,37 @@
+topic_id: MT3-04
+provenance: ai-generated
+description: "Worked examples for Lukisan Berskala"
+worked_examples:
+  - id: WE-01
+    topic: "Understanding scale drawings"
+    difficulty: easy
+    real_world_analogy: "Imagine using a map to find a friend's house. The map is a smaller representation of the real distances."
+    misconception_alert: "Students often confuse the scale with the actual measurement, thinking 1:100 means 1 unit on the drawing equals 100 units in real life, without considering the units."
+    scenario: "A map uses a scale of 1:1000. If a park on the map measures 5 cm, what is the actual size of the park in meters?"
+    working: |
+      Step 1: Understand the scale. The scale 1:1000 means 1 cm on the map represents 1000 cm in real life.
+      Step 2: Calculate the real-life size by multiplying the map measurement by the scale factor: 5 cm x 1000 = 5000 cm.
+      Step 3: Convert the real-life measurement to meters: 5000 cm = 50 meters. So, the park is 50 meters in real life.
+
+  - id: WE-02
+    topic: "Interpreting and applying scale"
+    difficulty: medium
+    real_world_analogy: "Think of a toy model car. It looks exactly like the real car but at a much smaller size, maintaining proportions."
+    misconception_alert: "A common mistake is using wrong units for conversion; always ensure unit consistency between the drawing and real-life measurements."
+    scenario: "A building's blueprint uses a scale of 1:200. If a wall is 3 m on the blueprint, what is the actual length of the wall?"
+    working: |
+      Step 1: Recognize the scale 1:200, meaning 1 m on the blueprint equals 200 m in real life.
+      Step 2: Calculate the actual length by multiplying the blueprint measurement by the scale factor: 3 m x 200 = 600 m.
+      Step 3: The actual length of the wall is 600 m.
+
+  - id: WE-03
+    topic: "Solving scale drawing problems"
+    difficulty: hard
+    real_world_analogy: "Designing a miniature city model for a school project, where every building is a scaled version of real ones."
+    misconception_alert: "Students may struggle with reverse calculations; ensure understanding of converting real-life measurements back to scale."
+    scenario: "A model of a rectangular garden is drawn using a scale of 1:50. The model measures 4 cm by 6 cm. What are the actual dimensions of the garden?"
+    working: |
+      Step 1: Determine the scale 1:50, meaning each cm on the model represents 50 cm in real life.
+      Step 2: Calculate actual length: 4 cm x 50 = 200 cm = 2 m.
+      Step 3: Calculate actual width: 6 cm x 50 = 300 cm = 3 m.
+      Step 4: The actual dimensions of the garden are 2 meters by 3 meters.

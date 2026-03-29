@@ -1,0 +1,36 @@
+topic_id: MT3-08
+provenance: ai-generated
+description: "Worked examples for Lokus dalam Dua Dimensi"
+worked_examples:
+  - id: WE-01
+    topic: "Understanding Locus"
+    difficulty: easy
+    real_world_analogy: "Imagine a dog tied to a post with a leash. The area the dog can roam forms a circle, which is a locus of points equidistant from the post."
+    misconception_alert: "Students often think a locus is a single point rather than a set of points. It is important to understand that a locus represents all the points satisfying a given condition."
+    scenario: "Sarah wants to plant flowers in a circular bed such that every flower is 3 meters from the center of the garden. Describe this locus."
+    working: |
+      Step 1: Identify the fixed point, which is the center of the garden.
+      Step 2: The locus is the set of all points that are 3 meters away from the center.
+      Step 3: This forms a circle with a radius of 3 meters centered at the garden's center.
+      
+  - id: WE-02
+    topic: "Locus Equidistant from Two Points"
+    difficulty: medium
+    real_world_analogy: "Consider a movie director setting up cameras equally distant from two actors. The cameras must be placed along the perpendicular bisector of the line joining the two actors."
+    misconception_alert: "A common mistake is to assume the locus is a single line parallel to the line segment between two points. It is actually the perpendicular bisector."
+    scenario: "Find the locus of points that are equidistant from two trees located at coordinates (2, 3) and (8, 3) in a park."
+    working: |
+      Step 1: Identify the midpoint of the line segment joining the two points, which is ((2+8)/2, (3+3)/2) = (5, 3).
+      Step 2: The line segment is horizontal, so the perpendicular bisector is a vertical line.
+      Step 3: The equation of the vertical line (perpendicular bisector) is x = 5, which is the locus of points equidistant from the two trees.
+      
+  - id: WE-03
+    topic: "Locus of Points Equidistant from Two Lines"
+    difficulty: hard
+    real_world_analogy: "Think of a railway track that needs to be equidistant from two parallel roads. The railway line should be placed exactly in the middle of these roads."
+    misconception_alert: "Students sometimes confuse equidistant points from two lines with being equidistant from two points. The key is to understand the concept of bisecting angles or distance."
+    scenario: "Determine the locus of points equidistant from two parallel lines y = 2 and y = 8."
+    working: |
+      Step 1: Recognize that the lines are parallel and horizontal.
+      Step 2: Calculate the midpoint between the two lines: (y1 + y2)/2 = (2 + 8)/2 = 5.
+      Step 3: The locus is the line y = 5, which is equidistant from both lines y = 2 and y = 8.

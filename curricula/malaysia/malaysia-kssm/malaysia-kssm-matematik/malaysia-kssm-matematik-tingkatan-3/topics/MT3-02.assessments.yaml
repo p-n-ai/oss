@@ -1,0 +1,127 @@
+topic_id: MT3-02
+provenance: ai-generated
+
+questions:
+  # Group by learning objective 2.1.1
+  - id: Q1
+    text: "Nyatakan bilangan angka bererti untuk nombor 0.004560."
+    difficulty: medium
+    learning_objective: 2.1.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "4"
+      working: |
+        Angka bererti adalah digit yang memberikan makna kepada nombor tersebut. Dalam nombor 0.004560, angka bererti adalah 4, 5, 6, dan 0.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Menentukan dengan betul bilangan angka bererti sebagai 4."
+      - marks: 1
+        criteria: "Menentukan bilangan angka bererti dengan satu kesilapan."
+    hints:
+      - level: 1
+        text: "Ingat, hanya digit bukan sifar yang mendahului dianggap sebagai angka bererti."
+      - level: 2
+        text: "Perhatikan digit selepas sifar di hadapan."
+
+  # Group by learning objective 2.1.2
+  - id: Q2
+    text: "Bundarkan nombor 0.007845 kepada dua angka bererti."
+    difficulty: medium
+    learning_objective: 2.1.2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "0.0078"
+      working: |
+        Pertama, kenal pasti dua angka bererti pertama iaitu 7 dan 8. Oleh itu, nombor ini menjadi 0.0078 setelah dibundarkan.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Jawapan tepat dengan pembundaran kepada dua angka bererti."
+      - marks: 1
+        criteria: "Mengambil kira dua angka bererti tetapi dengan pembundaran yang salah."
+    hints:
+      - level: 1
+        text: "Fokus pada dua digit pertama yang bukan sifar."
+      - level: 2
+        text: "Periksa digit ketiga untuk melihat jika ia memerlukan pembundaran."
+
+  # Group by learning objective 2.2.1
+  - id: Q3
+    text: "Tulis nombor 3,200,000 dalam bentuk piawai."
+    difficulty: medium
+    learning_objective: 2.2.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "3.2 \\times 10^{6}"
+      working: |
+        Bentuk piawai adalah cara menulis nombor sebagai hasil darab satu angka bererti dengan 10 dipangkatkan kepada suatu nombor. Jadi, 3,200,000 = 3.2 \\times 10^{6}.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Menulis nombor dalam bentuk piawai dengan tepat."
+      - marks: 1
+        criteria: "Menentukan asas bentuk piawai tetapi salah dalam pangkat atau angka bererti."
+    hints:
+      - level: 1
+        text: "Cari angka bererti pertama dan tentukan pangkat 10."
+      - level: 2
+        text: "Ingat, bilangan digit selepas titik perpuluhan menandakan pangkat 10."
+
+  # Group by learning objective 2.2.2
+  - id: Q4
+    text: "Hitung hasil darab (3 \\times 10^4) \\times (2 \\times 10^3) dan nyatakan jawapan dalam bentuk piawai."
+    difficulty: medium
+    learning_objective: 2.2.2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "6 \\times 10^7"
+      working: |
+        (3 \\times 10^4) \\times (2 \\times 10^3) = (3 \\times 2) \\times (10^4 \\times 10^3) = 6 \\times 10^{4+3} = 6 \\times 10^7.
+    marks: 3
+    rubric:
+      - marks: 3
+        criteria: "Jawapan lengkap dan betul dalam bentuk piawai."
+      - marks: 2
+        criteria: "Mengalikan angka bererti dengan betul tetapi salah dalam pangkat 10."
+      - marks: 1
+        criteria: "Ada usaha untuk mengalikan tetapi terdapat kesilapan dalam kedua-dua bahagian."
+    hints:
+      - level: 1
+        text: "Gabungkan angka bererti dahulu kemudian selesaikan pangkat."
+      - level: 2
+        text: "Ingat bahawa ketika mendarab pangkat, pangkat ditambah."
+
+  # Group by learning objective 2.2.3
+  - id: Q5
+    text: "Seorang astronomi mengukur jarak ke bintang sebagai 4.2 \\times 10^{16} meter. Jika kapal angkasa bergerak pada kelajuan 2 \\times 10^8 meter per saat, kira berapa lama (dalam saat) yang diperlukan untuk sampai ke bintang tersebut."
+    difficulty: medium
+    learning_objective: 2.2.3
+    tp_level: 2
+    kbat: true
+    answer:
+      type: exact
+      value: "2.1 \\times 10^8"
+      working: |
+        Masa = Jarak / Kelajuan = (4.2 \\times 10^{16}) / (2 \\times 10^8) = (4.2 / 2) \\times 10^{16-8} = 2.1 \\times 10^8 saat.
+    marks: 3
+    rubric:
+      - marks: 3
+        criteria: "Jawapan lengkap dan betul dengan pertimbangan pembahagian dalam bentuk piawai."
+      - marks: 2
+        criteria: "Mengira dengan betul tetapi terdapat kesilapan kecil dalam pembahagian pangkat."
+      - marks: 1
+        criteria: "Menunjukkan usaha tetapi salah dalam angka bererti atau pangkat."
+    hints:
+      - level: 1
+        text: "Gunakan formula masa = jarak / kelajuan."
+      - level: 2
+        text: "Ingat cara membahagikan nombor dalam bentuk piawai melibatkan penolakan pangkat."

@@ -1,0 +1,36 @@
+topic_id: MT3-07
+provenance: ai-generated
+description: "Worked examples for Pelan dan Dongakan"
+worked_examples:
+  - id: WE-01
+    topic: "Unjuran Ortogon"
+    difficulty: easy
+    real_world_analogy: "Think of how a shadow is cast directly under an object when the sun is directly overhead."
+    misconception_alert: "Students often forget that orthogonal projections are always at right angles to the object."
+    scenario: "You need to draw the orthogonal projection of a cube sitting on a table."
+    working: |
+      Step 1: Place the cube on a flat surface and imagine the light source directly above it.
+      Step 2: Draw the outline on the paper where the shadow would appear; this is your orthogonal projection.
+      Step 3: Ensure all sides are equal in length to represent the cube accurately.
+
+  - id: WE-02
+    topic: "Pelan dan Dongakan"
+    difficulty: medium
+    real_world_analogy: "Imagine you are a bird flying over a house and you want to draw what you see from above."
+    misconception_alert: "Students often confuse the top view with the side view due to perspective differences."
+    scenario: "Draw the plan view of a rectangular swimming pool measuring 10m by 5m."
+    working: |
+      Step 1: Identify the dimensions of the swimming pool.
+      Step 2: On graph paper, draw a rectangle with the length and width matching the dimensions given, using an appropriate scale.
+      Step 3: Label the dimensions on your drawing to complete the plan view.
+
+  - id: WE-03
+    topic: "Menyelesaikan Masalah Pelan dan Dongakan"
+    difficulty: hard
+    real_world_analogy: "Designing a multi-level parking structure requires understanding both the aerial view and the side elevations."
+    misconception_alert: "Students may overlook the importance of scale in translating real-world dimensions to their drawings."
+    scenario: "A building has a rooftop garden that needs a stairway from the ground. Draw the elevation view showing the stairway."
+    working: |
+      Step 1: Determine the height of the building and the dimensions of the stairway.
+      Step 2: Using graph paper, draw the side elevation of the building, including the stairway, ensuring correct proportions using scale.
+      Step 3: Add details such as railings and steps to complete the elevation view.

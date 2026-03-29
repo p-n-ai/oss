@@ -1,0 +1,38 @@
+topic_id: MT3-06
+provenance: ai-generated
+description: "Worked examples for Sudut dan Tangen bagi Bulatan"
+worked_examples:
+  - id: WE-01
+    topic: "Sudut Pada Lilitan dan Sudut Pusat"
+    difficulty: easy
+    real_world_analogy: "Bayangkan sudut pada lilitan seperti menonton perarakan dari jauh, dan sudut pusat seperti menonton dari tengah-tengah perarakan."
+    misconception_alert: "Pelajar sering keliru bahawa sudut pada lilitan sama dengan sudut pusat, sedangkan sudut pusat sebenarnya dua kali sudut pada lilitan."
+    scenario: "Diberikan bulatan dengan pusat O, sudut AOB = 80°. Cari sudut ACB, di mana C adalah titik pada lilitan bulatan."
+    working: |
+      Step 1: Fahami bahawa sudut ACB adalah sudut pada lilitan, dan sudut AOB adalah sudut pusat.
+      Step 2: Gunakan fakta bahawa sudut pusat adalah dua kali sudut pada lilitan yang sama, iaitu AOB = 2 * ACB.
+      Step 3: Oleh itu, ACB = AOB / 2 = 80° / 2 = 40°. Jadi, sudut ACB ialah 40°.
+
+  - id: WE-02
+    topic: "Sisi Empat Kitaran"
+    difficulty: medium
+    real_world_analogy: "Anggaplah sisi empat kitaran seperti satu kumpulan pelajar yang duduk dalam bulatan, di mana sudut bertentangan dalam bulatan sentiasa menambahkan hingga 180°."
+    misconception_alert: "Pelajar mungkin berfikir bahawa semua sudut dalam sisi empat kitaran adalah sama, sedangkan sudut bertentangan menambahkan hingga 180°."
+    scenario: "Dalam sisi empat kitaran ABCD, sudut ABC = 110°. Cari sudut ADC."
+    working: |
+      Step 1: Ketahui sifat sisi empat kitaran bahawa sudut bertentangan menambahkan hingga 180°.
+      Step 2: Oleh itu, sudut ABC + sudut ADC = 180°.
+      Step 3: Masukkan nilai sudut yang diketahui, 110° + sudut ADC = 180°.
+      Step 4: Selesaikan persamaan untuk mencari sudut ADC, iaitu sudut ADC = 180° - 110° = 70°.
+
+  - id: WE-03
+    topic: "Tangen kepada Bulatan dan Sudut Berkaitan"
+    difficulty: hard
+    real_world_analogy: "Anggap tangen seperti tali yang menyentuh bulatan hanya pada satu titik, sama seperti manusia yang hanya bersentuhan dengan bumi pada tapak kaki mereka ketika berdiri tegak."
+    misconception_alert: "Kesalahan umum adalah menganggap tangen sebagai garis yang melintasi bulatan, sedangkan tangen hanya menyentuh bulatan pada satu titik."
+    scenario: "Diberikan bulatan dengan pusat O dan tangen AB pada titik T. Jika sudut OTA = 30°, cari sudut antara tangen AB dan jejari OT."
+    working: |
+      Step 1: Fahami bahawa sudut antara tangen dan jejari pada titik ketangenan adalah 90°.
+      Step 2: Oleh itu, sudut OTA + sudut antara tangen dan jejari = 90°.
+      Step 3: Masukkan nilai yang diketahui, 30° + sudut antara tangen dan jejari = 90°.
+      Step 4: Selesaikan persamaan untuk mencari sudut antara tangen dan jejari, iaitu sudut = 90° - 30° = 60°.

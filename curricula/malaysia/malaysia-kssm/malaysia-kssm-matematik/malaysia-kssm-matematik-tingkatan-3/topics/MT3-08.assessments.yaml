@@ -1,0 +1,128 @@
+topic_id: MT3-08
+provenance: ai-generated
+
+questions:
+
+  # Learning Objective 8.1.1
+  - id: Q1
+    text: "Seorang jurutera ingin membina taman bulat yang berjarak tetap 5 meter dari satu tiang pusat. Apakah bentuk kawasan yang diperlukan untuk taman tersebut?"
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Lingkaran"
+      working: |
+        Langkah 1: Kenal pasti lokus bagi titik yang berjarak tetap dari satu titik tetap.
+        Langkah 2: Lokus yang berjarak tetap dari satu titik tetap membentuk lingkaran.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menentukan bentuk lingkaran."
+      - marks: 1
+        criteria: "Menerangkan bahawa lingkaran berpusat pada tiang dengan jejari 5 meter."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang bentuk yang semua titiknya sama jarak dari pusat."
+
+  # Learning Objective 8.2.1
+  - id: Q2
+    text: "Tentukan dan bina lokus bagi titik yang berjarak sama dari dua titik tetap A dan B."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "Garis lurus yang merupakan paksi serenjang kepada garis AB."
+      working: |
+        Langkah 1: Kenal pasti titik tengah antara A dan B.
+        Langkah 2: Lukis paksi serenjang pada titik tengah ini.
+        Langkah 3: Paksi ini adalah lokus yang dicari.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menentukan titik tengah antara A dan B."
+      - marks: 1
+        criteria: "Melukis garis lurus serenjang pada titik tengah."
+      - marks: 1
+        criteria: "Menerangkan bahawa garis ini adalah lokus."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang garis yang berada di tengah-tengah antara dua titik."
+
+  # Learning Objective 8.2.1
+  - id: Q3
+    text: "Apakah lokus bagi titik yang berjarak tetap 3 cm dari satu garis lurus?"
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Dua garis lurus selari, setiap satu 3 cm dari garis asal."
+      working: |
+        Langkah 1: Kenal pasti garis asal.
+        Langkah 2: Lukis dua garis selari pada setiap sisi garis asal dengan jarak 3 cm.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menentukan bahawa terdapat dua garis selari."
+      - marks: 1
+        criteria: "Menyatakan jarak garis tersebut dari garis asal."
+    hints:
+      - level: 1
+        text: "Pertimbangkan bagaimana garis selari boleh berada pada jarak yang sama dari garis asal."
+
+  # Learning Objective 8.2.2
+  - id: Q4
+    text: "Tentukan lokus bagi titik yang berjarak sama dari titik A dan juga berjarak tetap 4 cm dari garis lurus L."
+    difficulty: medium
+    learning_objective: LO3
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Persilangan paksi serenjang kepada segmen A-L dan dua garis selari pada 4 cm dari L."
+      working: |
+        Langkah 1: Lukis paksi serenjang bagi segmen antara titik A dan satu titik pada garis L.
+        Langkah 2: Lukis dua garis selari pada 4 cm dari garis L.
+        Langkah 3: Lokasi yang memenuhi kedua-dua syarat adalah persilangan antara paksi serenjang dan garis selari.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Melukis paksi serenjang bagi segmen A-L."
+      - marks: 1
+        criteria: "Melukis dua garis selari pada 4 cm dari garis L."
+      - marks: 2
+        criteria: "Mengenal pasti persilangan yang memenuhi kedua-dua syarat."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Jangan lupa dua syarat berbeza mesti dipenuhi serentak."
+
+  # Learning Objective 8.2.3
+  - id: Q5
+    text: "Seorang pelajar diminta mencari titik yang berjarak sama dari dua garis lurus bersilang pada sudut 90 darjah. Bantu pelajar tersebut menentukan lokus."
+    difficulty: medium
+    learning_objective: LO4
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Dua garis lurus yang membentuk sudut bisection pada setiap sudut bersilang."
+      working: |
+        Langkah 1: Kenal pasti titik persilangan dua garis.
+        Langkah 2: Lukis garis bisection untuk setiap sudut yang terbentuk.
+        Langkah 3: Garis bisection ini adalah lokus yang berjarak sama dari kedua-dua garis.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menentukan titik persilangan dua garis."
+      - marks: 1
+        criteria: "Melukis garis bisection pada sudut bersilang."
+      - marks: 1
+        criteria: "Menerangkan bahawa garis bisection adalah lokus."
+    hints:
+      - level: 1
+        text: "Pertimbangkan bagaimana garis boleh membahagi dua sudut yang sama."
