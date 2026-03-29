@@ -1,0 +1,73 @@
+topic_id: MT5-02
+provenance: ai-generated
+description: "Worked examples for Matriks"
+worked_examples:
+  - id: WE-01
+    topic: "Mewakilkan maklumat situasi sebenar dalam bentuk matriks"
+    difficulty: easy
+    real_world_analogy: "Imagine you are creating a seating chart for a classroom where each row represents a different row of desks, and each column represents a different student."
+    misconception_alert: "Students often confuse rows and columns; remember that rows go horizontally and columns vertically."
+    scenario: "A classroom has 3 rows of desks with 4 desks per row. Represent the seating arrangement in matrix form."
+    working: |
+      Step 1: Identify the number of rows and columns. There are 3 rows and 4 columns.
+      Step 2: Construct a matrix with 3 rows and 4 columns. Each element can initially be represented by a placeholder (e.g., 0).
+      Step 3: The matrix is represented as:
+              \[
+              \begin{bmatrix}
+              0 & 0 & 0 & 0 \\
+              0 & 0 & 0 & 0 \\
+              0 & 0 & 0 & 0
+              \end{bmatrix}
+              \]
+  - id: WE-02
+    topic: "Menambah dan menolak matriks"
+    difficulty: medium
+    real_world_analogy: "Think of a matrix like a spreadsheet where each cell contains a value, and you're updating the spreadsheet by adding or subtracting values."
+    misconception_alert: "A common mistake is trying to add or subtract matrices of different dimensions."
+    scenario: "Given matrix A = \[\begin{bmatrix} 3 & 5 \\ 2 & 4 \end{bmatrix}\] and matrix B = \[\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}\], find A + B and A - B."
+    working: |
+      Step 1: Ensure matrices A and B have the same dimensions. Both are 2x2 matrices.
+      Step 2: Add corresponding elements of A and B for A + B:
+              \[
+              \begin{bmatrix}
+              3+1 & 5+2 \\
+              2+3 & 4+4
+              \end{bmatrix}
+              \]
+      Step 3: Simplify to get A + B:
+              \[
+              \begin{bmatrix}
+              4 & 7 \\
+              5 & 8
+              \end{bmatrix}
+              \]
+      Step 4: Subtract corresponding elements of B from A for A - B:
+              \[
+              \begin{bmatrix}
+              3-1 & 5-2 \\
+              2-3 & 4-4
+              \end{bmatrix}
+              \]
+      Step 5: Simplify to get A - B:
+              \[
+              \begin{bmatrix}
+              2 & 3 \\
+              -1 & 0
+              \end{bmatrix}
+              \]
+  - id: WE-03
+    topic: "Menyelesaikan masalah yang melibatkan matriks"
+    difficulty: hard
+    real_world_analogy: "Consider a situation where you need to determine the outcome of a sports tournament based on different criteria, using matrices to calculate scores and rankings."
+    misconception_alert: "Students sometimes forget that operations on matrices must respect matrix dimensions and properties."
+    scenario: "A sports tournament has two teams, X and Y, and their scores in two matches are represented by matrices. Determine the total scores and the winner if matrix X = \[\begin{bmatrix} 10 & 15 \\ 20 & 25 \end{bmatrix}\] and matrix Y = \[\begin{bmatrix} 12 & 14 \\ 18 & 22 \end{bmatrix}\]."
+    working: |
+      Step 1: Calculate the total score for team X by summing all elements of matrix X.
+              \[
+              Total\ Score\ X = 10 + 15 + 20 + 25 = 70
+              \]
+      Step 2: Calculate the total score for team Y by summing all elements of matrix Y.
+              \[
+              Total\ Score\ Y = 12 + 14 + 18 + 22 = 66
+              \]
+      Step 3: Compare the total scores. Since 70 > 66, team X is the winner of the tournament.
