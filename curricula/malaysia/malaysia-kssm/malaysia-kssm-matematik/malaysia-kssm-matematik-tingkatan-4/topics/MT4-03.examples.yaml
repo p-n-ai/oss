@@ -1,0 +1,37 @@
+topic_id: MT4-03
+provenance: ai-generated
+description: "Worked examples for PENAAKULAN LOGIK"
+worked_examples:
+  - id: WE-01
+    topic: "Menerangkan maksud pernyataan dan menentukan nilai kebenaran"
+    difficulty: easy
+    real_world_analogy: "Memastikan kebenaran kenyataan seperti memeriksa sama ada lampu isyarat berwarna merah sebelum berhenti."
+    misconception_alert: "Pelajar sering keliru antara pernyataan yang bersifat umum dengan pernyataan yang bersifat khusus."
+    scenario: "Ahmad menyatakan bahawa semua burung boleh terbang. Tentukan nilai kebenaran pernyataan ini."
+    working: |
+      Step 1: Kenal pasti pernyataan yang diberikan iaitu 'semua burung boleh terbang'.
+      Step 2: Fikirkan contoh burung yang tidak boleh terbang, seperti penguin dan burung unta.
+      Step 3: Oleh kerana terdapat burung yang tidak boleh terbang, pernyataan ini adalah palsu.
+
+  - id: WE-02
+    topic: "Menentukan nilai kebenaran suatu pernyataan majmuk"
+    difficulty: medium
+    real_world_analogy: "Menentukan kebenaran kombinasi pernyataan seperti memeriksa sama ada anda perlu membawa payung dan memakai baju hujan jika cuaca mendung dan ramalan mengatakan akan hujan."
+    misconception_alert: "Pelajar kadang-kadang menganggap pernyataan majmuk 'dan' sama dengan 'atau'."
+    scenario: "Pernyataan majmuk: 'Ali suka epal dan Ali suka pisang.' Jika Ali hanya suka epal, tentukan nilai kebenaran pernyataan ini."
+    working: |
+      Step 1: Kenal pasti pernyataan individu: 'Ali suka epal' dan 'Ali suka pisang'.
+      Step 2: Tentukan nilai kebenaran setiap pernyataan individu. 'Ali suka epal' adalah benar, tetapi 'Ali suka pisang' adalah palsu.
+      Step 3: Oleh kerana pernyataan majmuk menggunakan 'dan', kedua-dua pernyataan mesti benar. Oleh itu, pernyataan majmuk adalah palsu.
+
+  - id: WE-03
+    topic: "Membina dan membandingkan nilai kebenaran akas, songsangan dan kontrapositif"
+    difficulty: hard
+    real_world_analogy: "Memahami logik seperti memeriksa pelbagai laluan pulang dari sekolah untuk memastikan anda sentiasa mempunyai pilihan jika jalan utama ditutup."
+    misconception_alert: "Pelajar sering keliru antara songsangan dan kontrapositif, dan menganggap kedua-duanya adalah sama."
+    scenario: "Jika hujan, maka jalan basah. Bina dan bandingkan nilai kebenaran bagi akas, songsangan, dan kontrapositif."
+    working: |
+      Step 1: Kenal pasti implikasi asal: 'Jika hujan, maka jalan basah' (p → q).
+      Step 2: Bina akas: 'Jika jalan basah, maka hujan' (q → p) dan tentukan nilai kebenaran. Akas tidak semestinya benar.
+      Step 3: Bina songsangan: 'Jika tidak hujan, maka jalan tidak basah' (¬p → ¬q) dan tentukan nilai kebenaran. Songsangan tidak semestinya benar.
+      Step 4: Bina kontrapositif: 'Jika jalan tidak basah, maka tidak hujan' (¬q → ¬p) dan tentukan nilai kebenaran. Kontrapositif adalah benar jika implikasi asal benar.

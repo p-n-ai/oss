@@ -1,0 +1,130 @@
+topic_id: MT4-03
+provenance: ai-generated
+
+questions:
+  # Learning Objective 3.1.1
+  - id: Q1
+    text: "Tentukan nilai kebenaran pernyataan berikut: 'Jika hari ini hujan, maka esok adalah hari cuti.' Jika esok bukan hari cuti, apakah yang boleh kita simpulkan tentang cuaca hari ini?"
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Hari ini tidak hujan."
+      working: |
+        Pernyataan 'Jika p, maka q' adalah salah jika p benar dan q salah. Dalam kes ini, jika esok bukan hari cuti (q salah), maka hari ini tidak hujan (p juga salah) untuk membuat pernyataan asal benar.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan bahawa hari ini tidak hujan."
+      - marks: 1
+        criteria: "Mengaitkan dengan nilai kebenaran p dan q."
+    hints:
+      - level: 1
+        text: "Fokus pada komponen 'Jika p, maka q'."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Pastikan anda memahami bahawa pernyataan hanya salah jika p benar dan q salah."
+
+  # Learning Objective 3.1.2
+  - id: Q2
+    text: "Apakah penafian bagi pernyataan: 'Semua pelajar lulus ujian tersebut.'"
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Terdapat pelajar yang tidak lulus ujian tersebut."
+      working: |
+        Penafian bagi pernyataan 'Semua A adalah B' adalah 'Terdapat A yang bukan B'. Oleh itu, penafian bagi pernyataan ini ialah 'Terdapat pelajar yang tidak lulus ujian tersebut.'
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyedari bahawa penafian melibatkan 'Terdapat'."
+      - marks: 1
+        criteria: "Mengemukakan penafian yang tepat."
+    hints:
+      - level: 1
+        text: "Pikirkan tentang bagaimana menafikan pernyataan yang melibatkan 'semua'."
+      - level: 2
+        text: "MISCONCEPTION ALERT: 'Semua' dan 'tidak ada' sering dikelirukan dalam penafian."
+
+  # Learning Objective 3.1.4
+  - id: Q3
+    text: "Bina pernyataan dalam bentuk implikasi bagi situasi berikut: 'Untuk mendapatkan gred A, pelajar mesti mendapat sekurang-kurangnya 85 markah.'"
+    difficulty: medium
+    learning_objective: LO4
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Jika pelajar mendapat sekurang-kurangnya 85 markah, maka pelajar mendapat gred A."
+      working: |
+        Situasi ini boleh ditulis dalam bentuk implikasi: 'Jika p, maka q', di mana p adalah 'pelajar mendapat sekurang-kurangnya 85 markah' dan q adalah 'pelajar mendapat gred A.'
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Memilih p dan q yang sesuai."
+      - marks: 1
+        criteria: "Membentuk pernyataan implikasi yang betul."
+    hints:
+      - level: 1
+        text: "Identifikasikan p dan q dalam situasi ini."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Pastikan hubungan antara p dan q adalah searah."
+
+  # Learning Objective 3.2.2
+  - id: Q4
+    text: "Tentukan keesahan hujah berikut: 'Jika ia hujan, maka jalan basah. Jalan basah, maka ia hujan.'"
+    difficulty: medium
+    learning_objective: LO8
+    tp_level: 3
+    kbat: true
+    answer:
+      type: multiple_choice
+      choices:
+        - "Hujah deduktif yang sah"
+        - "Hujah deduktif yang tidak sah"
+        - "Hujah induktif yang sah"
+        - "Hujah induktif yang tidak sah"
+      value: "Hujah deduktif yang tidak sah"
+      working: |
+        Ini adalah hujah deduktif yang menggunakan kesalahan logik 'pengesahan akibat'. Hanya kerana jalan basah tidak bermakna ia pasti hujan. Hujah ini tidak sah.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti jenis hujah."
+      - marks: 1
+        criteria: "Menentukan keesahan hujah dengan betul."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang struktur logik 'Jika p, maka q'."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Jangan keliru antara hubungan sebab-akibat terbalik."
+
+  # Learning Objective 3.1.5
+  - id: Q5
+    text: "Bina dan bandingkan nilai kebenaran akas, songsangan, dan kontrapositif bagi implikasi: 'Jika dia seorang pelajar, maka dia mempunyai kad pelajar.'"
+    difficulty: medium
+    learning_objective: LO5
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Akas: Jika dia mempunyai kad pelajar, maka dia seorang pelajar. Songsangan: Jika dia bukan seorang pelajar, maka dia tidak mempunyai kad pelajar. Kontrapositif: Jika dia tidak mempunyai kad pelajar, maka dia bukan seorang pelajar."
+      working: |
+        Akas: Tukar kedudukan p dan q. Songsangan: Nafi kedua-dua p dan q. Kontrapositif: Nafi dan tukar kedudukan p dan q. Nilai kebenaran asal dan kontrapositif adalah sama, tetapi tidak semestinya untuk akas dan songsangan.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Membina akas dengan betul."
+      - marks: 1
+        criteria: "Membina songsangan dengan betul."
+      - marks: 1
+        criteria: "Membina kontrapositif dengan betul."
+    hints:
+      - level: 1
+        text: "Ingat definisi akas, songsangan, dan kontrapositif."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Jangan keliru antara akas dan kontrapositif."
