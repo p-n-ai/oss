@@ -1,0 +1,36 @@
+topic_id: MT5-05
+provenance: ai-generated
+description: "Worked examples for Kekongruenan, Pembesaran dan Gabungan Transformasi"
+worked_examples:
+  - id: WE-01
+    topic: "Kekongruenan Segi Tiga"
+    difficulty: easy
+    real_world_analogy: "Checking if two puzzle pieces are exactly the same shape and size to fit perfectly together."
+    misconception_alert: "Students often assume that similar shapes are congruent, but congruence requires identical size and shape."
+    scenario: "A teacher has two triangular cutouts and wants to determine if they are congruent."
+    working: |
+      Step 1: Measure the sides and angles of the first triangle.
+      Step 2: Measure the sides and angles of the second triangle.
+      Step 3: Compare corresponding sides and angles. If all are equal, the triangles are congruent. Answer: The triangles are congruent.
+
+  - id: WE-02
+    topic: "Pembesaran dan Keserupaan"
+    difficulty: medium
+    real_world_analogy: "Enlarging a photo while keeping the same proportions, like zooming in on a smartphone picture."
+    misconception_alert: "Students might confuse enlargement with stretching, which distorts proportions."
+    scenario: "A student enlarges a photo with a scale factor of 2 and wants to know the new dimensions."
+    working: |
+      Step 1: Identify the original dimensions of the photo.
+      Step 2: Multiply each dimension by the scale factor (2).
+      Step 3: The new dimensions are twice the original. Answer: The photo is enlarged proportionally to double its original size.
+
+  - id: WE-03
+    topic: "Gabungan Transformasi"
+    difficulty: hard
+    real_world_analogy: "Performing a dance move sequence where each move depends on the previous one, like a combination of spins and jumps."
+    misconception_alert: "Students may think the order of transformations doesn't matter, but the result can vary significantly."
+    scenario: "A figure on a grid undergoes a rotation followed by a reflection. Determine the final position of the figure."
+    working: |
+      Step 1: Apply the rotation to the figure using the given angle and center of rotation.
+      Step 2: Reflect the rotated figure across the specified axis.
+      Step 3: Confirm the final position. Answer: The figure's final position is determined by the ordered sequence of transformations.
