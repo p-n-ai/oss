@@ -1,0 +1,38 @@
+topic_id: MT4-09
+provenance: ai-generated
+description: "Worked examples for KEBARANGKALIAN PERISTIWA BERGABUNG"
+worked_examples:
+  - id: WE-01
+    topic: "Peristiwa Bergabung"
+    difficulty: easy
+    real_world_analogy: "Drawing two colored balls from a bag without replacing them."
+    misconception_alert: "Students often think events are independent when they are actually dependent."
+    scenario: "Satu beg mengandungi 3 bola merah dan 2 bola biru. Jika dua bola diambil berturut-turut tanpa pengembalian, apakah kebarangkalian kedua-dua bola adalah merah?"
+    working: |
+      Step 1: Tentukan kebarangkalian mengambil bola merah pertama. Terdapat 3 bola merah daripada 5 bola keseluruhan, jadi kebarangkalian adalah 3/5.
+      Step 2: Setelah mengambil satu bola merah, tinggal 2 bola merah daripada 4 bola keseluruhan. Jadi kebarangkalian untuk bola kedua juga merah adalah 2/4.
+      Step 3: Kebarangkalian kedua-dua bola adalah merah ialah (3/5) * (2/4) = 6/20 = 3/10.
+      
+  - id: WE-02
+    topic: "Peristiwa Bersandar dan Peristiwa Tak Bersandar"
+    difficulty: medium
+    real_world_analogy: "Marble selection with and without replacement."
+    misconception_alert: "Students may confuse dependent events with independent ones when dealing with replacement."
+    scenario: "Dalam satu kotak terdapat 4 gula-gula coklat dan 6 gula-gula strawberi. Jika dua gula-gula diambil satu demi satu dengan pengembalian, apakah kebarangkalian kedua-duanya adalah gula-gula coklat?"
+    working: |
+      Step 1: Kebarangkalian untuk mengambil gula-gula coklat pertama ialah 4/10.
+      Step 2: Oleh kerana gula-gula itu dikembalikan, kebarangkalian untuk gula-gula kedua juga coklat tetap 4/10.
+      Step 3: Kebarangkalian kedua-dua gula-gula adalah coklat ialah (4/10) * (4/10) = 16/100 = 0.16.
+      
+  - id: WE-03
+    topic: "Peristiwa Saling Eksklusif dan Tidak Saling Eksklusif"
+    difficulty: hard
+    real_world_analogy: "Choosing a king or a heart from a deck of cards."
+    misconception_alert: "Students may not recognize overlapping events and fail to subtract the intersection."
+    scenario: "Dalam satu set kad, apakah kebarangkalian memilih kad yang sama ada Raja atau Hati?"
+    working: |
+      Step 1: Kebarangkalian memilih Raja ialah 4/52 kerana terdapat 4 Raja dalam satu set kad.
+      Step 2: Kebarangkalian memilih Hati ialah 13/52 kerana terdapat 13 Hati.
+      Step 3: Kebarangkalian memilih Raja yang juga Hati (iaitu Raja Hati) ialah 1/52.
+      Step 4: Gunakan rumus kebarangkalian peristiwa bergabung: P(A ∪ B) = P(A) + P(B) - P(A ∩ B).
+      Step 5: Jadi, kebarangkalian memilih kad yang sama ada Raja atau Hati ialah (4/52) + (13/52) - (1/52) = 16/52 = 4/13.

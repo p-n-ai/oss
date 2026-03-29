@@ -1,0 +1,119 @@
+topic_id: MT4-09
+provenance: ai-generated
+
+questions:
+  # LO: Memerihalkan peristiwa bergabung dan menyenaraikan peristiwa bergabung yang mungkin
+  - id: Q1
+    text: "Dua dadu dilambungkan. Berapakah bilangan peristiwa bergabung yang mungkin jika kita melihat jumlah mata yang terhasil?"
+    difficulty: medium
+    learning_objective: 9.1.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "36"
+      working: |
+        Setiap dadu mempunyai 6 kemungkinan mata (1 hingga 6). Oleh itu, bilangan peristiwa bergabung yang mungkin adalah $6 \times 6 = 36$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengira bilangan kemungkinan bagi satu dadu."
+      - marks: 1
+        criteria: "Menggabungkan bilangan kemungkinan dua dadu."
+    hints:
+      - level: 1
+        text: "Fikirkan berapa banyak kemungkinan yang ada untuk setiap dadu."
+
+  # LO: Membezakan peristiwa bersandar dan peristiwa tak bersandar
+  - id: Q2
+    text: "Tentukan sama ada peristiwa berikut adalah peristiwa bersandar atau tak bersandar: Memilih dua kad berturut-turut dari dek tanpa menggantikan yang pertama."
+    difficulty: medium
+    learning_objective: 9.2.1
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Bersandar"
+      working: |
+        Apabila kad pertama dipilih dan tidak diganti, jumlah kad dalam dek berubah, mempengaruhi kebarangkalian memilih kad kedua. Oleh itu, ia adalah peristiwa bersandar.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Jawapan yang betul dengan justifikasi."
+    hints:
+      - level: 1
+        text: "Pertimbangkan jika tindakan pertama mempengaruhi set kemungkinan untuk tindakan kedua."
+
+  # LO: Membuat dan menentusahkan konjektur tentang rumus kebarangkalian peristiwa bergabung
+  - id: Q3
+    text: "Jika $P(A) = 0.4$ dan $P(B) = 0.5$, tuliskan konjektur tentang kebarangkalian peristiwa $A$ dan $B$ bergabung jika $A$ dan $B$ saling eksklusif."
+    difficulty: medium
+    learning_objective: 9.2.2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: "P(A \cup B) = P(A) + P(B)"
+      working: |
+        Oleh kerana $A$ dan $B$ saling eksklusif, $P(A \cap B) = 0$. Maka, $P(A \cup B) = P(A) + P(B) = 0.4 + 0.5 = 0.9$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan bahawa $P(A \cap B) = 0$ kerana saling eksklusif."
+      - marks: 1
+        criteria: "Menulis rumus untuk $P(A \cup B)$."
+      - marks: 1
+        criteria: "Menggantikan nilai dan mengira kebarangkalian."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Jangan lupa bahawa bagi peristiwa saling eksklusif, $P(A \cap B) = 0$."
+
+  # LO: Menentukan kebarangkalian peristiwa bergabung bagi peristiwa bersandar dan peristiwa tak bersandar
+  - id: Q4
+    text: "Dalam sebuah kotak terdapat 3 bola merah dan 2 bola biru. Jika dua bola diambil berturut-turut tanpa diganti, berapakah kebarangkalian kedua-duanya bola merah?"
+    difficulty: medium
+    learning_objective: 9.2.3
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "0.3"
+      working: |
+        Kebarangkalian mengambil bola merah pertama ialah $\frac{3}{5}$. Selepas mengambil satu bola merah, tinggal 2 bola merah daripada 4 bola keseluruhan. Jadi, kebarangkalian bola kedua juga merah ialah $\frac{2}{4}$. Maka, kebarangkalian kedua-duanya merah ialah $\frac{3}{5} \times \frac{2}{4} = \frac{6}{20} = 0.3$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengira kebarangkalian bola merah pertama."
+      - marks: 1
+        criteria: "Mengira kebarangkalian bola merah kedua selepas bola pertama diambil."
+      - marks: 1
+        criteria: "Mengalikan kebarangkalian untuk mendapatkan kebarangkalian bergabung."
+    hints:
+      - level: 1
+        text: "Ingat bahawa bilangan bola berubah selepas bola pertama diambil."
+
+  # LO: Menyelesaikan masalah yang melibatkan kebarangkalian peristiwa bergabung
+  - id: Q5
+    text: "Seorang pelajar memilih secara rawak satu nombor dari 1 hingga 10. Apakah kebarangkalian nombor yang dipilih adalah genap atau lebih besar daripada 8?"
+    difficulty: medium
+    learning_objective: 9.4.1
+    tp_level: 3
+    kbat: true
+    answer:
+      type: exact
+      value: "0.7"
+      working: |
+        Nombor genap dari 1 hingga 10 ialah 2, 4, 6, 8, 10 (5 nombor). Nombor lebih besar daripada 8 ialah 9, 10 (2 nombor). Nombor yang genap dan lebih besar daripada 8 ialah 10. Maka, $P(\text{genap} \cup \text{lebih besar daripada } 8) = \frac{5}{10} + \frac{2}{10} - \frac{1}{10} = \frac{7}{10} = 0.7$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti nombor genap."
+      - marks: 1
+        criteria: "Mengenal pasti nombor lebih besar daripada 8."
+      - marks: 1
+        criteria: "Mengenal pasti nombor yang memenuhi kedua-dua kriteria."
+      - marks: 1
+        criteria: "Mengira kebarangkalian bergabung dengan betul."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Pastikan anda tidak mengira dua kali nombor yang termasuk dalam kedua-dua kategori."

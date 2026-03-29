@@ -9,52 +9,68 @@ language: ms
 difficulty: intermediate
 tier: core
 learning_objectives:
-  - id: "9.1.1"
-    text: "Memerihalkan peristiwa bergabung dan menyenaraikan peristiwa bergabung yang mungkin."
-    text_en: "Describe combined events and list possible combined events."
-    bloom: remember
-  - id: "9.2.1"
-    text: "Membezakan peristiwa bersandar dan peristiwa tak bersandar."
-    text_en: "Differentiate between dependent and independent events."
-    bloom: understand
-  - id: "9.2.2"
-    text: "Membuat dan menentusahkan konjektur tentang rumus kebarangkalian peristiwa bergabung."
-    text_en: "Make and verify conjectures about the formula for probability of combined events."
-    bloom: apply
-  - id: "9.2.3"
-    text: "Menentukan kebarangkalian peristiwa bergabung bagi peristiwa bersandar dan peristiwa tak bersandar."
-    text_en: "Determine the probability of combined events for dependent and independent events."
-    bloom: apply
-  - id: "9.3.1"
-    text: "Membezakan peristiwa saling eksklusif dan peristiwa tidak saling eksklusif."
-    text_en: "Differentiate between mutually exclusive and non-mutually exclusive events."
-    bloom: understand
-  - id: "9.3.2"
-    text: "Mengesahkan rumus kebarangkalian peristiwa bergabung bagi peristiwa saling eksklusif dan peristiwa tidak saling eksklusif."
-    text_en: "Verify the formula for probability of combined events for mutually exclusive and non-mutually exclusive events."
-    bloom: evaluate
-  - id: "9.3.3"
-    text: "Menentukan kebarangkalian peristiwa bergabung bagi peristiwa saling eksklusif dan peristiwa tidak saling eksklusif."
-    text_en: "Determine the probability of combined events for mutually exclusive and non-mutually exclusive events."
-    bloom: apply
-  - id: "9.4.1"
-    text: "Menyelesaikan masalah yang melibatkan kebarangkalian peristiwa bergabung."
-    text_en: "Solve problems involving probability of combined events."
-    bloom: apply
+    - id: "9.1.1"
+      text: "Memerihalkan peristiwa bergabung dan menyenaraikan peristiwa bergabung yang mungkin."
+      text_en: "Describe combined events and list possible combined events."
+      bloom: remember
+    - id: "9.2.1"
+      text: "Membezakan peristiwa bersandar dan peristiwa tak bersandar."
+      text_en: "Differentiate between dependent and independent events."
+      bloom: understand
+    - id: "9.2.2"
+      text: "Membuat dan menentusahkan konjektur tentang rumus kebarangkalian peristiwa bergabung."
+      text_en: "Make and verify conjectures about the formula for probability of combined events."
+      bloom: apply
+    - id: "9.2.3"
+      text: "Menentukan kebarangkalian peristiwa bergabung bagi peristiwa bersandar dan peristiwa tak bersandar."
+      text_en: "Determine the probability of combined events for dependent and independent events."
+      bloom: apply
+    - id: "9.3.1"
+      text: "Membezakan peristiwa saling eksklusif dan peristiwa tidak saling eksklusif."
+      text_en: "Differentiate between mutually exclusive and non-mutually exclusive events."
+      bloom: understand
+    - id: "9.3.2"
+      text: "Mengesahkan rumus kebarangkalian peristiwa bergabung bagi peristiwa saling eksklusif dan peristiwa tidak saling eksklusif."
+      text_en: "Verify the formula for probability of combined events for mutually exclusive and non-mutually exclusive events."
+      bloom: evaluate
+    - id: "9.3.3"
+      text: "Menentukan kebarangkalian peristiwa bergabung bagi peristiwa saling eksklusif dan peristiwa tidak saling eksklusif."
+      text_en: "Determine the probability of combined events for mutually exclusive and non-mutually exclusive events."
+      bloom: apply
+    - id: "9.4.1"
+      text: "Menyelesaikan masalah yang melibatkan kebarangkalian peristiwa bergabung."
+      text_en: "Solve problems involving probability of combined events."
+      bloom: apply
 prerequisites:
-  required: []
-  recommended: []
+    required: []
+    recommended: []
 bloom_levels:
-  - remember
-  - understand
-  - apply
-  - evaluate
+    - remember
+    - understand
+    - apply
+    - evaluate
 mastery:
-  minimum_score: 0.75
-  assessment_count: 3
-  spaced_repetition:
-    initial_interval_days: 3
-    multiplier: 2.5
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
 ai_teaching_notes: "MT4-09.teaching.md"
 quality_level: 1
 provenance: ai-assisted
+teaching:
+    sequence:
+        - 'Step 1: Introduce the concept of combined events using dice roll examples (20 min)'
+        - 'Step 2: Explain the difference between dependent and independent events with card drawing examples (25 min)'
+        - 'Step 3: Discuss mutually exclusive vs. non-mutually exclusive events with real-life scenarios (20 min)'
+        - 'Step 4: Practice calculating probabilities for combined events (25 min)'
+        - 'Step 5: Solve real-world problems involving combined event probabilities (30 min)'
+    common_misconceptions:
+        - misconception: All events are mutually exclusive
+          remediation: Provide clear examples and conduct hands-on activities
+        - misconception: Dependent and independent events are the same
+          remediation: Use visual aids and real-life examples to highlight differences
+engagement_hooks:
+    - 'Connect with local lottery games: What''s the probability of winning?'
+    - 'Relate to local dice games: How does rolling two dice affect outcomes?'
+    - 'Discuss card games: How does drawing cards without replacement change probabilities?'
