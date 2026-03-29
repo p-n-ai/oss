@@ -1,0 +1,117 @@
+topic_id: MT4-05
+provenance: ai-generated
+
+questions:
+  # Group by learning objective
+  - id: Q1
+    text: "Jelaskan apa yang dimaksudkan dengan rangkaian dalam konteks teori graf."
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Rangkaian dalam teori graf adalah graf yang terdiri daripada simpul dan sisi, di mana sisi boleh mempunyai arah ataupun pemberat."
+      working: |
+        Rangkaian adalah representasi graf yang digunakan untuk memodelkan hubungan antara objek. Ia boleh terdiri daripada simpul (nodes) dan sisi (edges), dan boleh juga mempunyai arah atau pemberat.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Penerangan asas tentang graf sebagai rangkaian."
+      - marks: 1
+        criteria: "Menjelaskan terdapatnya arah atau pemberat dalam rangkaian."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang elemen asas yang membentuk graf."
+
+  - id: Q2
+    text: "Bandingkan antara graf terarah dengan graf tak terarah."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Graf terarah mempunyai sisi dengan arah, manakala graf tak terarah tidak mempunyai arah pada sisinya."
+      working: |
+        Dalam graf terarah, setiap sisi mempunyai arah yang menunjukkan hubungan dari satu simpul ke simpul lain. Sebaliknya, graf tak terarah, sisi hanya menghubungkan dua simpul tanpa arah tertentu.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menjelaskan ciri utama graf terarah."
+      - marks: 1
+        criteria: "Menjelaskan ciri utama graf tak terarah."
+    hints:
+      - level: 1
+        text: "Pertimbangkan arah sisi dalam kedua-dua jenis graf."
+
+  - id: Q3
+    text: "Lukiskan subgraf yang mungkin daripada graf berikut: $G(V, E)$ di mana $V = \\{A, B, C, D\\}$ dan $E = \\{(A, B), (B, C), (C, D)\\}$."
+    difficulty: medium
+    learning_objective: LO3
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: "Subgraf boleh terdiri daripada simpul dan sisi yang dipilih, contohnya $\\{A, B, C\\}$ dan $\\{(A, B), (B, C)\\}$."
+      working: |
+        Pilih subset simpul dan sisi daripada graf asal. Subgraf yang mungkin ialah $\\{A, B, C\\}$ dan $\\{(A, B), (B, C)\\}$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Memilih simpul yang betul untuk subgraf."
+      - marks: 1
+        criteria: "Memilih sisi yang betul untuk subgraf."
+      - marks: 1
+        criteria: "Melukis subgraf dengan betul."
+    hints:
+      - level: 1
+        text: "Pilih subset simpul dan sisi dari graf asal."
+      - level: 2
+        text: "Pastikan setiap sisi terhubung dengan simpul yang dipilih."
+
+  - id: Q4
+    text: "Representasikan maklumat berikut dalam bentuk rangkaian: Ali pergi ke sekolah melalui tiga jalan yang berbeza: Jalan A, Jalan B, dan Jalan C."
+    difficulty: medium
+    learning_objective: LO4
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: "Rangkaian terdiri daripada simpul Ali dan Sekolah, dengan tiga sisi: Jalan A, Jalan B, dan Jalan C."
+      working: |
+        Mewakilkan Ali dan Sekolah sebagai simpul, dan menggambarkan tiga jalan sebagai sisi yang menghubungkan simpul tersebut.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti simpul dalam rangkaian."
+      - marks: 1
+        criteria: "Melukis sisi yang betul antara simpul."
+    hints:
+      - level: 1
+        text: "Anggap Ali dan Sekolah sebagai simpul dalam graf."
+
+  - id: Q5
+    text: "Selesaikan masalah berikut menggunakan rangkaian: Tentukan laluan terpendek dari bandar A ke bandar D dalam graf berikut: $G(V, E)$ di mana $V = \\{A, B, C, D\\}$ dan $E = \\{(A, B, 2), (B, C, 3), (A, C, 1), (C, D, 4)\\}$."
+    difficulty: medium
+    learning_objective: LO5
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: "Laluan terpendek ialah A -> C -> D dengan panjang 5."
+      working: |
+        Dari A ke C mengambil 1 unit, dan dari C ke D mengambil 4 unit, maka jumlahnya adalah 5. Laluan lain mempunyai panjang lebih besar.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengira panjang jalan dari A ke C."
+      - marks: 1
+        criteria: "Mengira panjang jalan dari C ke D."
+      - marks: 1
+        criteria: "Menentukan laluan terpendek dengan betul."
+    hints:
+      - level: 1
+        text: "Pertimbangkan semua laluan yang mungkin dari A ke D."
+      - level: 2
+        text: "Kira panjang setiap laluan dan bandingkan."

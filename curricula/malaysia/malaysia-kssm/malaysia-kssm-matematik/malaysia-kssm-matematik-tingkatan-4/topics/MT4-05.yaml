@@ -9,39 +9,52 @@ language: ms
 difficulty: intermediate
 tier: core
 learning_objectives:
-  - id: "5.1.1"
-    text: "Mengenal dan menerangkan rangkaian sebagai graf."
-    text_en: "Recognise and describe networks as graphs."
-    bloom: understand
-  - id: "5.1.2"
-    text: "Membanding beza (i) Graf terarah dengan graf tak terarah. (ii) Graf berpemberat dengan graf tak berpemberat."
-    text_en: "Differentiate between (i) directed graphs and undirected graphs. (ii) weighted graphs and unweighted graphs."
-    bloom: analyze
-  - id: "5.1.3"
-    text: "Mengenal dan melukis subgraf dan pokok."
-    text_en: "Recognise and draw subgraphs and trees."
-    bloom: apply
-  - id: "5.1.4"
-    text: "Mewakilkan maklumat dalam bentuk rangkaian."
-    text_en: "Represent information in the form of networks."
-    bloom: apply
-  - id: "5.1.5"
-    text: "Menyelesaikan masalah yang melibatkan rangkaian."
-    text_en: "Solve problems involving networks."
-    bloom: analyze
+    - id: "5.1.1"
+      text: "Mengenal dan menerangkan rangkaian sebagai graf."
+      text_en: "Recognise and describe networks as graphs."
+      bloom: understand
+    - id: "5.1.2"
+      text: "Membanding beza (i) Graf terarah dengan graf tak terarah. (ii) Graf berpemberat dengan graf tak berpemberat."
+      text_en: "Differentiate between (i) directed graphs and undirected graphs. (ii) weighted graphs and unweighted graphs."
+      bloom: analyze
+    - id: "5.1.3"
+      text: "Mengenal dan melukis subgraf dan pokok."
+      text_en: "Recognise and draw subgraphs and trees."
+      bloom: apply
+    - id: "5.1.4"
+      text: "Mewakilkan maklumat dalam bentuk rangkaian."
+      text_en: "Represent information in the form of networks."
+      bloom: apply
+    - id: "5.1.5"
+      text: "Menyelesaikan masalah yang melibatkan rangkaian."
+      text_en: "Solve problems involving networks."
+      bloom: analyze
 prerequisites:
-  required: []
-  recommended: []
+    required: []
+    recommended: []
 bloom_levels:
-  - understand
-  - analyze
-  - apply
+    - understand
+    - analyze
+    - apply
 mastery:
-  minimum_score: 0.75
-  assessment_count: 3
-  spaced_repetition:
-    initial_interval_days: 3
-    multiplier: 2.5
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
 ai_teaching_notes: "MT4-05.teaching.md"
 quality_level: 1
 provenance: ai-assisted
+teaching:
+    sequence:
+        - 'Step 1: Introduce basic concepts of graphs including vertices and edges (15 min)'
+        - 'Step 2: Explain differences between directed and undirected graphs, and weighted and unweighted graphs (20 min)'
+        - 'Step 3: Teach how to identify and draw subgraphs and trees from larger graphs (25 min)'
+    common_misconceptions:
+        - misconception: All graphs are directed
+          remediation: Use real-life examples like social networks to show undirected graphs
+        - misconception: Weight is a mandatory property of all graphs
+          remediation: Clarify the concept of weighted and unweighted graphs with examples
+engagement_hooks:
+    - Use city maps or social networks to demonstrate real-world applications of graphs
+    - Discuss how computer networks function as directed graphs
