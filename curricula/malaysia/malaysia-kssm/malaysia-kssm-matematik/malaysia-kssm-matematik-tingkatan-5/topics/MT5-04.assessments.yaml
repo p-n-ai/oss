@@ -1,0 +1,120 @@
+topic_id: MT5-04
+provenance: ai-generated
+
+questions:
+  # Learning Objective 4.1.1
+  - id: Q1
+    text: "Apakah tujuan utama sistem percukaian diperkenalkan oleh kerajaan?"
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Membiayai perbelanjaan awam dan mengagihkan kekayaan."
+      working: |
+        Kerajaan menggunakan percukaian untuk mengumpul dana yang digunakan bagi perbelanjaan awam seperti infrastruktur, pendidikan, dan kesihatan. Percukaian juga berfungsi untuk mengagihkan kekayaan dalam masyarakat.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menjawab sebahagian daripada tujuan percukaian dengan betul."
+      - marks: 2
+        criteria: "Menjawab kedua-dua tujuan percukaian dengan betul."
+    hints:
+      - level: 1
+        text: "Pertimbangkan bagaimana kerajaan menggunakan hasil cukai."
+
+  # Learning Objective 4.1.2
+  - id: Q2
+    text: "Nyatakan dua jenis cukai yang dikenakan di Malaysia dan terangkan kesan pengelakan cukai dari aspek kewangan."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Cukai pendapatan dan cukai barang dan perkhidmatan (GST). Pengelakan cukai menyebabkan kerajaan kehilangan hasil yang boleh digunakan untuk perbelanjaan awam."
+      working: |
+        Cukai pendapatan dikenakan ke atas pendapatan individu dan syarikat, manakala GST dikenakan ke atas barang dan perkhidmatan. Pengelakan cukai mengurangkan hasil kerajaan, yang boleh menyebabkan kekurangan dalam dana bagi projek awam dan perkhidmatan.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan satu jenis cukai dengan betul."
+      - marks: 2
+        criteria: "Menyatakan dua jenis cukai dengan betul."
+      - marks: 1
+        criteria: "Menghuraikan kesan pengelakan cukai secara ringkas."
+      - marks: 2
+        criteria: "Menghuraikan kesan pengelakan cukai dengan jelas."
+    hints:
+      - level: 1
+        text: "Pertimbangkan jenis cukai yang anda pernah dengar dan kesan kepada kerajaan jika cukai tersebut dielakkan."
+
+  # Learning Objective 4.1.3
+  - id: Q3
+    text: "Jika Ali mempunyai pendapatan tahunan RM60,000, dan kadar cukai pendapatan adalah 15%, hitung jumlah cukai yang perlu dibayar oleh Ali."
+    difficulty: medium
+    learning_objective: LO3
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "RM9,000"
+      working: |
+        Jumlah cukai = Pendapatan tahunan x Kadar cukai
+        Jumlah cukai = RM60,000 x 0.15 = RM9,000
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan formula yang betul tetapi membuat kesilapan pengiraan."
+      - marks: 2
+        criteria: "Menggunakan formula yang betul dan mendapatkan jawapan yang tepat."
+    hints:
+      - level: 1
+        text: "Gunakan formula: Jumlah cukai = Pendapatan x Kadar cukai."
+
+  # Learning Objective 4.1.4
+  - id: Q4
+    text: "Seorang usahawan perlu membayar cukai korporat. Jika keuntungan syarikat adalah RM200,000 dan kadar cukai korporat adalah 20%, berapakah cukai yang perlu dibayar?"
+    difficulty: medium
+    learning_objective: LO4
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "RM40,000"
+      working: |
+        Cukai korporat = Keuntungan x Kadar cukai korporat
+        Cukai korporat = RM200,000 x 0.20 = RM40,000
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan formula yang betul tetapi membuat kesilapan pengiraan."
+      - marks: 2
+        criteria: "Menggunakan formula yang betul dan mendapatkan jawapan yang tepat."
+    hints:
+      - level: 1
+        text: "Ingat, cukai korporat = Keuntungan x Kadar cukai."
+
+  - id: Q5
+    text: "Seorang individu ingin mengelak cukai dengan cara yang tidak sah. Terangkan dua akibat perundangan yang boleh dihadapi oleh individu tersebut."
+    difficulty: medium
+    learning_objective: LO4
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Individu boleh didenda atau dipenjarakan kerana pengelakan cukai adalah kesalahan jenayah."
+      working: |
+        Pengelakan cukai yang tidak sah dianggap sebagai jenayah. Akibatnya, individu boleh dikenakan denda yang berat atau dihukum penjara. Ini bertujuan untuk menguatkuasakan undang-undang dan memastikan kepatuhan kepada sistem percukaian.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyebut satu akibat perundangan dengan betul."
+      - marks: 2
+        criteria: "Menyebut dua akibat perundangan dengan betul."
+      - marks: 3
+        criteria: "Menyebut dan menghuraikan dua akibat perundangan dengan betul."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Pengelakan cukai yang tidak sah adalah kesalahan yang serius. Pertimbangkan kesan undang-undang."
