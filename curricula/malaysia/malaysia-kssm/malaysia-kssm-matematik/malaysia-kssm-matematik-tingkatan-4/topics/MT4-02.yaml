@@ -9,34 +9,49 @@ language: ms
 difficulty: intermediate
 tier: core
 learning_objectives:
-  - id: "2.1.1"
-    text: "Mewakil dan menjelaskan nombor dalam pelbagai asas dari segi angka, nilai tempat, nilai digit dan nilai nombor berdasarkan proses pengumpulan."
-    text_en: "Represent and explain numbers in various bases in terms of numerals, place value, digit value and number value based on the grouping process."
-    bloom: understand
-  - id: "2.1.2"
-    text: "Menukar nombor daripada satu asas kepada asas yang lain menggunakan pelbagai kaedah."
-    text_en: "Convert numbers from one base to another using various methods."
-    bloom: apply
-  - id: "2.1.3"
-    text: "Membuat pengiraan yang melibatkan operasi tambah dan tolak bagi nombor dalam pelbagai asas."
-    text_en: "Perform calculations involving addition and subtraction operations for numbers in various bases."
-    bloom: apply
-  - id: "2.1.4"
-    text: "Menyelesaikan masalah yang melibatkan asas nombor."
-    text_en: "Solve problems involving number bases."
-    bloom: apply
+    - id: "2.1.1"
+      text: "Mewakil dan menjelaskan nombor dalam pelbagai asas dari segi angka, nilai tempat, nilai digit dan nilai nombor berdasarkan proses pengumpulan."
+      text_en: "Represent and explain numbers in various bases in terms of numerals, place value, digit value and number value based on the grouping process."
+      bloom: understand
+    - id: "2.1.2"
+      text: "Menukar nombor daripada satu asas kepada asas yang lain menggunakan pelbagai kaedah."
+      text_en: "Convert numbers from one base to another using various methods."
+      bloom: apply
+    - id: "2.1.3"
+      text: "Membuat pengiraan yang melibatkan operasi tambah dan tolak bagi nombor dalam pelbagai asas."
+      text_en: "Perform calculations involving addition and subtraction operations for numbers in various bases."
+      bloom: apply
+    - id: "2.1.4"
+      text: "Menyelesaikan masalah yang melibatkan asas nombor."
+      text_en: "Solve problems involving number bases."
+      bloom: apply
 prerequisites:
-  required: []
-  recommended: []
+    required: []
+    recommended: []
 bloom_levels:
-  - understand
-  - apply
+    - understand
+    - apply
 mastery:
-  minimum_score: 0.75
-  assessment_count: 3
-  spaced_repetition:
-    initial_interval_days: 3
-    multiplier: 2.5
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
 ai_teaching_notes: "MT4-02.teaching.md"
 quality_level: 1
 provenance: ai-assisted
+teaching:
+    sequence:
+        - 'Step 1: Introduce number bases using decimal as a foundation (20 min)'
+        - 'Step 2: Teach conversion methods between bases, focusing on base 10 conversions first (30 min)'
+        - 'Step 3: Practice addition and subtraction in different bases, primarily binary (30 min)'
+    common_misconceptions:
+        - misconception: All bases use the same numbers as decimal
+          remediation: Emphasize unique symbols used in bases like hexadecimal
+        - misconception: Converting between bases is arbitrary
+          remediation: Reinforce conversion methods with visual aids
+        - misconception: Arithmetic operations are the same in all bases
+          remediation: Practice operations with varied examples in different bases
+engagement_hooks:
+    - Discuss how computers use binary and hexadecimal systems
+    - Relate base systems to the coding behind digital screens or memory storage

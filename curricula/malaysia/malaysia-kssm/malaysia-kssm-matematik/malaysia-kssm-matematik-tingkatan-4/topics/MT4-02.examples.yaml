@@ -1,0 +1,44 @@
+topic_id: MT4-02
+provenance: ai-generated
+description: "Worked examples for Asas Nombor"
+worked_examples:
+  - id: WE-01
+    topic: "Understanding Number Bases"
+    difficulty: easy
+    real_world_analogy: "Think of number bases like different languages; just as 'hello' is 'hola' in Spanish, the number '10' in decimal is '1010' in binary."
+    misconception_alert: "Students often confuse the base of the number with its value. Remember, the base tells you how many digits you have to work with."
+    scenario: "Convert the decimal number 10 to binary."
+    working: |
+      Step 1: Identify the largest power of 2 less than 10. This is 2^3 = 8.
+      Step 2: Subtract 8 from 10, resulting in 2. So far, the binary number is 1_ _ _.
+      Step 3: Find the largest power of 2 less than or equal to 2, which is 2^1 = 2.
+      Step 4: Subtract 2 from 2, resulting in 0. Fill in the binary number as 1010.
+      Step 5: The decimal number 10 is 1010 in binary.
+
+  - id: WE-02
+    topic: "Converting Between Bases"
+    difficulty: medium
+    real_world_analogy: "Converting between bases is like converting between currencies, such as converting Ringgit to Dollars."
+    misconception_alert: "A common mistake is not aligning the place values correctly when converting to different bases."
+    scenario: "Convert the hexadecimal number 1A to decimal."
+    working: |
+      Step 1: Identify each digit's place value. In 1A, '1' is in the 16's place and 'A' is in the 1's place.
+      Step 2: Convert 'A' from hexadecimal to decimal, which is 10.
+      Step 3: Calculate the decimal value: (1 * 16) + (10 * 1) = 16 + 10.
+      Step 4: Add the values to find the total decimal number: 26.
+      Step 5: The hexadecimal number 1A is 26 in decimal.
+
+  - id: WE-03
+    topic: "Solving Problems Involving Number Bases"
+    difficulty: hard
+    real_world_analogy: "Imagine organizing a party where each table can only seat a certain number of guests, similar to how different bases have different digit limits."
+    misconception_alert: "Mistaking the operation required due to the unfamiliar base can lead to incorrect answers."
+    scenario: "Add the binary numbers 1101 and 1011."
+    working: |
+      Step 1: Write the numbers 1101 and 1011 in a column, aligning them by the rightmost digit.
+      Step 2: Add the rightmost column: 1 + 1 = 10 in binary. Write '0', carry over '1'.
+      Step 3: Move to the next column: 0 + 1 + 1 (carry) = 10. Write '0', carry over '1'.
+      Step 4: Move to the next column: 1 + 0 + 1 (carry) = 10. Write '0', carry over '1'.
+      Step 5: Move to the next column: 1 + 1 + 1 (carry) = 11. Write '1', carry over '1'.
+      Step 6: Write the carry over '1' in the next column to the left.
+      Step 7: The sum of 1101 and 1011 in binary is 11000.
