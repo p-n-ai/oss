@@ -1,0 +1,41 @@
+topic_id: MT5-06
+provenance: ai-generated
+description: "Worked examples for Nisbah dan Graf Fungsi Trigonometri"
+worked_examples:
+  - id: WE-01
+    topic: "Membuat dan menentusahkan konjektur tentang nilai sinus, kosinus dan tangen"
+    difficulty: easy
+    real_world_analogy: "Imagine you're using a compass to navigate. The angle you're turning affects your direction much like how the angle affects the sine, cosine, and tangent values."
+    misconception_alert: "Students often assume that the sine, cosine, and tangent values are always positive. Remember, these values depend on the quadrant in which the angle lies."
+    scenario: "Determine the sine, cosine, and tangent values for an angle of 150°."
+    working: |
+      Step 1: Identify the reference angle. Since 150° is in the second quadrant, the reference angle is 180° - 150° = 30°.
+      Step 2: Determine the sine value. In the second quadrant, sine is positive. So, sin 150° = sin 30° = 0.5.
+      Step 3: Determine the cosine value. In the second quadrant, cosine is negative. So, cos 150° = -cos 30° = -√3/2.
+      Step 4: Determine the tangent value. In the second quadrant, tangent is negative. So, tan 150° = -tan 30° = -1/√3.
+
+  - id: WE-02
+    topic: "Menentukan nilai sinus, kosinus dan tangen bagi sudut dalam sukuan II, III dan IV"
+    difficulty: medium
+    real_world_analogy: "Just as different routes can lead to the same destination, different angles can have the same sine, cosine, or tangent values due to their reference angles."
+    misconception_alert: "Students might forget that the sign of the trigonometric ratios changes in different quadrants. Always consider the quadrant to determine the sign."
+    scenario: "Find the cosine of 240°."
+    working: |
+      Step 1: Identify the quadrant. 240° is in the third quadrant.
+      Step 2: Find the reference angle. 240° - 180° = 60°.
+      Step 3: Determine the sign of cosine in the third quadrant. Cosine is negative in the third quadrant.
+      Step 4: Calculate the cosine value. Thus, cos 240° = -cos 60° = -1/2.
+
+  - id: WE-03
+    topic: "Menyelesaikan masalah yang melibatkan graf fungsi sinus, kosinus dan tangen"
+    difficulty: hard
+    real_world_analogy: "Consider the oscillation of a pendulum. Its motion is similar to the wave pattern formed by the sine and cosine graphs."
+    misconception_alert: "A common mistake is not properly adjusting for amplitude and phase shift when interpreting or drawing trigonometric graphs."
+    scenario: "Plot the graph of y = 2 sin(x) + 1 for 0° ≤ x ≤ 360° and identify its key characteristics."
+    working: |
+      Step 1: Understand the transformation. The graph is vertically stretched by a factor of 2 and shifted up by 1 unit.
+      Step 2: Identify the amplitude. The amplitude is 2, as the coefficient of sin(x) is 2.
+      Step 3: Determine the vertical shift. The graph is shifted upwards by 1 unit.
+      Step 4: Plot key points. Calculate y = 2 sin(x) + 1 for x = 0°, 90°, 180°, 270°, 360°.
+      Step 5: Draw the graph. Use the calculated points to sketch the graph over one complete cycle.
+      Step 6: Identify characteristics. The maximum is 3 (2 + 1) and the minimum is -1 (2 - 1). The period is 360°.
