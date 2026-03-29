@@ -1,0 +1,39 @@
+topic_id: MT4-01
+provenance: ai-generated
+description: "Worked examples for FUNGSI DAN PERSAMAAN KUADRATIK DALAM SATU PEMBOLEH UBAH"
+worked_examples:
+  - id: WE-01
+    topic: "Mengenal Pasti Ungkapan Kuadratik"
+    difficulty: easy
+    real_world_analogy: "Memikirkan fungsi kuadratik sebagai gelongsor di taman permainan yang mempunyai bentuk lengkung."
+    misconception_alert: "Pelajar sering keliru antara ungkapan linear dan kuadratik kerana kedua-duanya melibatkan x, tetapi x² dalam kuadratik memberikan lengkungan pada graf."
+    scenario: "Kenal pasti sama ada ungkapan 3x² + 2x + 5 adalah kuadratik."
+    working: |
+      Step 1: Periksa kuasa tertinggi dalam ungkapan.
+      Step 2: Ungkapan 3x² + 2x + 5 mempunyai kuasa tertinggi x².
+      Step 3: Oleh itu, ungkapan ini adalah kuadratik kerana kuasa tertingginya adalah 2.
+
+  - id: WE-02
+    topic: "Kesan Nilai a, b, dan c ke atas Graf Fungsi Kuadratik"
+    difficulty: medium
+    real_world_analogy: "Bayangkan sebuah padang bola yang berbentuk parabolik dengan bahagian atasnya sebagai titik maksimum atau minimum bergantung pada nilai a."
+    misconception_alert: "Pelajar mungkin terlepas pandang bahawa nilai a mempengaruhi arah lengkungan, bukan kedudukan titik minimum atau maksimum."
+    scenario: "Siasat kesan perubahan nilai a dalam fungsi f(x) = ax² + 2x + 3 dan bagaimana ia mempengaruhi graf."
+    working: |
+      Step 1: Tentukan nilai a yang positif (contoh: a = 1) dan lukis graf f(x) = x² + 2x + 3.
+      Step 2: Tukar nilai a kepada negatif (contoh: a = -1) dan lukis graf f(x) = -x² + 2x + 3.
+      Step 3: Perhatikan lengkungan graf berubah dari membuka ke atas apabila a positif kepada membuka ke bawah apabila a negatif.
+
+  - id: WE-03
+    topic: "Menentukan Punca Persamaan Kuadratik dengan Kaedah Pemfaktoran"
+    difficulty: hard
+    real_world_analogy: "Menemukan punca persamaan kuadratik adalah seperti mencari titik di mana bola memantul dari tanah apabila dilempar dari ketinggian tertentu."
+    misconception_alert: "Kesilapan biasa adalah tidak memeriksa semula pemfaktoran dengan mengembang semula untuk memastikan ketepatan."
+    scenario: "Tentukan punca persamaan kuadratik x² - 5x + 6 = 0 dengan kaedah pemfaktoran."
+    working: |
+      Step 1: Cari dua nombor yang darabnya sama dengan 6 dan jumlahnya sama dengan -5.
+      Step 2: Nombor tersebut ialah -2 dan -3 kerana (-2) * (-3) = 6 dan (-2) + (-3) = -5.
+      Step 3: Faktorkan persamaan menjadi (x - 2)(x - 3) = 0.
+      Step 4: Tetapkan setiap faktor sama dengan sifar: x - 2 = 0 atau x - 3 = 0.
+      Step 5: Selesaikan setiap persamaan: x = 2 atau x = 3.
+      Step 6: Oleh itu, punca persamaan kuadratik adalah x = 2 dan x = 3.

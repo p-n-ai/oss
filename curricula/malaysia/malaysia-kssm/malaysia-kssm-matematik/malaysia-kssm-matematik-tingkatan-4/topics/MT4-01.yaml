@@ -9,51 +9,68 @@ language: ms
 difficulty: intermediate
 tier: core
 learning_objectives:
-  - id: "1.1.1"
-    text: "Mengenal pasti dan menerangkan ciri-ciri ungkapan kuadratik dalam satu pemboleh ubah."
-    text_en: "Identify and describe the characteristics of quadratic expressions in one variable."
-    bloom: understand
-  - id: "1.1.2"
-    text: "Mengenal fungsi kuadratik sebagai hubungan banyak kepada satu, dan seterusnya memerihalkan ciri-ciri fungsi kuadratik."
-    text_en: "Recognize quadratic functions as many-to-one relations, and subsequently describe the characteristics of quadratic functions."
-    bloom: understand
-  - id: "1.1.3"
-    text: "Menyiasat dan membuat generalisasi tentang kesan perubahan nilai a, b dan c ke atas graf fungsi kuadratik, f(x)=ax²+bx+c."
-    text_en: "Investigate and make generalizations about the effect of changing values a, b, and c on the graph of quadratic functions, f(x)=ax²+bx+c."
-    bloom: analyze
-  - id: "1.1.4"
-    text: "Membentuk fungsi kuadratik berdasarkan suatu situasi dan seterusnya menghubungkaitkan dengan persamaan kuadratik."
-    text_en: "Form quadratic functions based on a situation and then relate them to quadratic equations."
-    bloom: apply
-  - id: "1.1.5"
-    text: "Menerangkan maksud punca suatu persamaan kuadratik."
-    text_en: "Explain the meaning of the roots of a quadratic equation."
-    bloom: understand
-  - id: "1.1.6"
-    text: "Menentukan punca suatu persamaan kuadratik dengan kaedah pemfaktoran."
-    text_en: "Determine the roots of a quadratic equation by factorization method."
-    bloom: apply
-  - id: "1.1.7"
-    text: "Melakar graf fungsi kuadratik."
-    text_en: "Sketch the graph of quadratic functions."
-    bloom: apply
-  - id: "1.1.8"
-    text: "Menyelesaikan masalah yang melibatkan persamaan kuadratik."
-    text_en: "Solve problems involving quadratic equations."
-    bloom: apply
+    - id: "1.1.1"
+      text: "Mengenal pasti dan menerangkan ciri-ciri ungkapan kuadratik dalam satu pemboleh ubah."
+      text_en: "Identify and describe the characteristics of quadratic expressions in one variable."
+      bloom: understand
+    - id: "1.1.2"
+      text: "Mengenal fungsi kuadratik sebagai hubungan banyak kepada satu, dan seterusnya memerihalkan ciri-ciri fungsi kuadratik."
+      text_en: "Recognize quadratic functions as many-to-one relations, and subsequently describe the characteristics of quadratic functions."
+      bloom: understand
+    - id: "1.1.3"
+      text: "Menyiasat dan membuat generalisasi tentang kesan perubahan nilai a, b dan c ke atas graf fungsi kuadratik, f(x)=ax²+bx+c."
+      text_en: "Investigate and make generalizations about the effect of changing values a, b, and c on the graph of quadratic functions, f(x)=ax²+bx+c."
+      bloom: analyze
+    - id: "1.1.4"
+      text: "Membentuk fungsi kuadratik berdasarkan suatu situasi dan seterusnya menghubungkaitkan dengan persamaan kuadratik."
+      text_en: "Form quadratic functions based on a situation and then relate them to quadratic equations."
+      bloom: apply
+    - id: "1.1.5"
+      text: "Menerangkan maksud punca suatu persamaan kuadratik."
+      text_en: "Explain the meaning of the roots of a quadratic equation."
+      bloom: understand
+    - id: "1.1.6"
+      text: "Menentukan punca suatu persamaan kuadratik dengan kaedah pemfaktoran."
+      text_en: "Determine the roots of a quadratic equation by factorization method."
+      bloom: apply
+    - id: "1.1.7"
+      text: "Melakar graf fungsi kuadratik."
+      text_en: "Sketch the graph of quadratic functions."
+      bloom: apply
+    - id: "1.1.8"
+      text: "Menyelesaikan masalah yang melibatkan persamaan kuadratik."
+      text_en: "Solve problems involving quadratic equations."
+      bloom: apply
 prerequisites:
-  required: []
-  recommended: []
+    required: []
+    recommended: []
 bloom_levels:
-  - understand
-  - apply
-  - analyze
+    - understand
+    - apply
+    - analyze
 mastery:
-  minimum_score: 0.75
-  assessment_count: 3
-  spaced_repetition:
-    initial_interval_days: 3
-    multiplier: 2.5
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
 ai_teaching_notes: "MT4-01.teaching.md"
 quality_level: 1
 provenance: ai-assisted
+teaching:
+    sequence:
+        - 'Step 1: Pengenalan kepada Persamaan Kuadratik (15 min)'
+        - 'Step 2: Memahami Fungsi Kuadratik (20 min)'
+        - 'Step 3: Menganalisis Kesan Parameter (30 min)'
+        - 'Step 4: Membentuk Fungsi Kuadratik Berdasarkan Situasi (25 min)'
+        - 'Step 5: Menentukan Punca dengan Pemfaktoran (20 min)'
+        - 'Step 6: Melakar Graf dan Menyelesaikan Masalah (30 min)'
+    common_misconceptions:
+        - misconception: Fungsi kuadratik sama dengan fungsi linear
+          remediation: Tekankan perbezaan graf dan bentuk ungkapan
+        - misconception: Punca persamaan adalah titik pada paksi x
+          remediation: Gunakan visualisasi graf untuk menunjukkan titik potong
+engagement_hooks:
+    - Mengaitkan fungsi kuadratik dengan trajektori objek dalam sukan seperti badminton
+    - Menyoal pelajar tentang bagaimana graf kuadratik boleh digunakan dalam reka bentuk jambatan
+    - Membincangkan aplikasi fungsi kuadratik dalam pengiraan jarak dan masa dalam perjalanan

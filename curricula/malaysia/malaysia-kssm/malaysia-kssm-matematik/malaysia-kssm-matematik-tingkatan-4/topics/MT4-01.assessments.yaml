@@ -1,0 +1,136 @@
+topic_id: MT4-01
+provenance: ai-generated
+
+questions:
+  # LO1.1.1 - Mengenal pasti dan menerangkan ciri-ciri ungkapan kuadratik dalam satu pemboleh ubah
+  - id: Q1
+    text: "Tentukan sama ada ungkapan berikut adalah kuadratik: $5x^2 + 3x - 7$"
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "A"
+      working: |
+        Satu ungkapan kuadratik mempunyai bentuk umum $ax^2 + bx + c$ di mana $a \neq 0$.
+        Dalam ungkapan $5x^2 + 3x - 7$, nilai $a = 5$, $b = 3$, dan $c = -7$. Oleh itu, ia adalah ungkapan kuadratik.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menentukan bentuk umum ungkapan kuadratik."
+      - marks: 1
+        criteria: "Mengenal pasti nilai $a$, $b$, dan $c$ dalam ungkapan yang diberikan."
+    hints:
+      - level: 1
+        text: "Ungkapan kuadratik mempunyai bentuk $ax^2 + bx + c$."
+      - level: 2
+        text: "Periksa sama ada $a \neq 0$ dalam ungkapan yang diberikan."
+
+  # LO1.1.3 - Menyiasat dan membuat generalisasi tentang kesan perubahan nilai a, b dan c ke atas graf fungsi kuadratik
+  - id: Q2
+    text: "Bagaimanakah perubahan nilai $a$ dalam fungsi kuadratik $f(x) = ax^2 + bx + c$ mempengaruhi bentuk graf?"
+    difficulty: medium
+    learning_objective: LO3
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Nilai $a$ yang lebih besar menghasilkan graf yang lebih 'sempit', manakala nilai $a$ yang lebih kecil (tetapi tidak negatif) menghasilkan graf yang lebih 'lebar'."
+      working: |
+        Graf fungsi kuadratik berbentuk parabola. Jika $a > 0$, parabola membuka ke atas; jika $a < 0$, parabola membuka ke bawah.
+        Perubahan pada nilai $a$ mempengaruhi 'kekurangan' atau 'kelebaran' parabola. Nilai $|a|$ yang lebih besar menjadikan parabola lebih sempit.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan arah parabola bergantung kepada tanda $a$."
+      - marks: 1
+        criteria: "Menjelaskan kesan nilai $|a|$ terhadap kelebaran parabola."
+      - marks: 1
+        criteria: "Mengaitkan perubahan nilai $a$ dengan bentuk graf."
+    hints:
+      - level: 1
+        text: "Perhatikan arah parabola jika $a$ positif atau negatif."
+      - level: 2
+        text: "Bagaimana nilai $|a|$ mempengaruhi kelebaran parabola?"
+
+  # LO1.1.5 - Menerangkan maksud punca suatu persamaan kuadratik
+  - id: Q3
+    text: "Jelaskan maksud punca dalam konteks persamaan kuadratik $ax^2 + bx + c = 0$."
+    difficulty: medium
+    learning_objective: LO5
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Punca adalah nilai-nilai $x$ yang menjadikan persamaan kuadratik sama dengan sifar."
+      working: |
+        Dalam persamaan kuadratik $ax^2 + bx + c = 0$, punca adalah nilai-nilai $x$ yang memuaskan persamaan tersebut.
+        Ini bermakna memasukkan nilai-nilai ini ke dalam persamaan menghasilkan hasil $0$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menjelaskan bahawa punca menjadikan persamaan sama dengan sifar."
+      - marks: 1
+        criteria: "Menghubungkan punca dengan nilai-nilai $x$ yang memuaskan persamaan."
+    hints:
+      - level: 1
+        text: "Apakah nilai $x$ yang menjadikan persamaan $ax^2 + bx + c = 0$ benar?"
+      - level: 2
+        text: "Punca adalah apabila hasil fungsi sama dengan sifar."
+
+  # LO1.1.6 - Menentukan punca suatu persamaan kuadratik dengan kaedah pemfaktoran
+  - id: Q4
+    text: "Tentukan punca bagi persamaan kuadratik $x^2 - 5x + 6 = 0$ dengan kaedah pemfaktoran."
+    difficulty: medium
+    learning_objective: LO6
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "x = 2, x = 3"
+      working: |
+        Persamaan $x^2 - 5x + 6 = 0$ boleh difaktorkan kepada $(x - 2)(x - 3) = 0$.
+        Dengan menetapkan setiap faktor kepada sifar, kita dapatkan $x - 2 = 0$ atau $x - 3 = 0$.
+        Maka, punca adalah $x = 2$ dan $x = 3$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Memfaktorkan persamaan kuadratik dengan betul."
+      - marks: 1
+        criteria: "Menentukan nilai $x$ dari setiap faktor."
+      - marks: 1
+        criteria: "Menulis punca dalam bentuk jawapan lengkap."
+    hints:
+      - level: 1
+        text: "Cuba faktorkan $x^2 - 5x + 6$ kepada dua binomial."
+      - level: 2
+        text: "Setiap faktor binomial harus sama dengan sifar untuk mencari punca."
+
+  # LO1.1.7 - Melakar graf fungsi kuadratik
+  - id: Q5
+    text: "Lakar graf fungsi kuadratik $f(x) = 2x^2 - 8x + 6$ dan tentukan titik minimum."
+    difficulty: medium
+    learning_objective: LO7
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: "Titik minimum ialah (2, -2)."
+      working: |
+        Untuk melakar graf, kita perlu mencari titik vertex. Gunakan formula $x = -\frac{b}{2a}$ untuk menentukan $x$ di titik vertex.
+        $x = -\frac{-8}{2(2)} = 2$. Kemudian, cari nilai $f(2) = 2(2)^2 - 8(2) + 6 = -2$.
+        Oleh itu, titik minimum adalah (2, -2).
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan formula $x = -\frac{b}{2a}$ dengan betul."
+      - marks: 1
+        criteria: "Menentukan $f(x)$ di titik $x = 2$."
+      - marks: 1
+        criteria: "Menulis titik minimum dengan betul."
+    hints:
+      - level: 1
+        text: "Gunakan formula $x = -\frac{b}{2a}$ untuk mencari nilai $x$ di titik vertex."
+      - level: 2
+        text: "Substitusi nilai $x$ ke dalam fungsi untuk mencari $f(x)$."
