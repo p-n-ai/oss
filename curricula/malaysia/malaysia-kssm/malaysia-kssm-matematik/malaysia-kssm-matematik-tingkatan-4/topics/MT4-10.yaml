@@ -9,26 +9,39 @@ language: ms
 difficulty: intermediate
 tier: core
 learning_objectives:
-  - id: "10.1.1"
-    text: "Menghuraikan proses pengurusan kewangan yang berkesan."
-    text_en: "Describe the process of effective financial management."
-    bloom: understand
-  - id: "10.1.2"
-    text: "Membina dan membentang pelan kewangan peribadi untuk mencapai matlamat kewangan jangka pendek dan jangka panjang, dan seterusnya menilai kebolehlaksanaan pelan kewangan tersebut."
-    text_en: "Construct and present a personal financial plan to achieve short-term and long-term financial goals, and subsequently evaluate the feasibility of the financial plan."
-    bloom: apply
+    - id: "10.1.1"
+      text: "Menghuraikan proses pengurusan kewangan yang berkesan."
+      text_en: "Describe the process of effective financial management."
+      bloom: understand
+    - id: "10.1.2"
+      text: "Membina dan membentang pelan kewangan peribadi untuk mencapai matlamat kewangan jangka pendek dan jangka panjang, dan seterusnya menilai kebolehlaksanaan pelan kewangan tersebut."
+      text_en: "Construct and present a personal financial plan to achieve short-term and long-term financial goals, and subsequently evaluate the feasibility of the financial plan."
+      bloom: apply
 prerequisites:
-  required: []
-  recommended: []
+    required: []
+    recommended: []
 bloom_levels:
-  - understand
-  - apply
+    - understand
+    - apply
 mastery:
-  minimum_score: 0.75
-  assessment_count: 3
-  spaced_repetition:
-    initial_interval_days: 3
-    multiplier: 2.5
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
 ai_teaching_notes: "MT4-10.teaching.md"
 quality_level: 1
 provenance: ai-assisted
+teaching:
+    sequence:
+        - 'Step 1: Introduce key elements in financial management using flowcharts (15 min)'
+        - 'Step 2: Guide students to build a personal financial plan with examples (20 min)'
+        - 'Step 3: Discuss short-term and long-term financial goals and their feasibility (20 min)'
+    common_misconceptions:
+        - misconception: All leftover money is savings
+          remediation: Explain the difference between savings and emergency funds
+        - misconception: Investments are only for the wealthy
+          remediation: Provide examples of small investments that can be started
+engagement_hooks:
+    - Discuss personal budgets of local celebrities to spark interest
+    - Share success stories of young Malaysian entrepreneurs to inspire

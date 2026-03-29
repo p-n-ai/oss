@@ -1,0 +1,136 @@
+topic_id: MT4-10
+provenance: ai-generated
+
+questions:
+  # Learning Objective 10.1.1
+  - id: Q1
+    text: "Jelaskan tiga langkah penting dalam proses pengurusan kewangan yang berkesan."
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Tiga langkah penting dalam pengurusan kewangan berkesan ialah: perancangan kewangan, pengawalan perbelanjaan, dan pemantauan serta penilaian prestasi kewangan."
+      working: |
+        Pengurusan kewangan yang berkesan melibatkan:
+        1. Perancangan kewangan: Menyediakan bajet dan menetapkan matlamat kewangan.
+        2. Pengawalan perbelanjaan: Memastikan perbelanjaan tidak melebihi bajet yang ditetapkan.
+        3. Pemantauan dan penilaian: Mengkaji semula bajet dan menilai pencapaian matlamat kewangan.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menjelaskan satu langkah dengan tepat."
+      - marks: 2
+        criteria: "Menjelaskan dua langkah dengan tepat."
+      - marks: 3
+        criteria: "Menjelaskan ketiga-tiga langkah dengan tepat."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang langkah-langkah asas dalam merancang dan mengurus kewangan."
+
+  - id: Q2
+    text: "Apakah tujuan utama merancang kewangan peribadi?"
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Tujuan utama merancang kewangan peribadi adalah untuk mencapai matlamat kewangan individu dengan cara yang sistematik dan terkawal."
+      working: |
+        Merancang kewangan peribadi membantu individu:
+        - Menetapkan dan mencapai matlamat kewangan jangka pendek dan jangka panjang.
+        - Mengurus pendapatan dan perbelanjaan dengan berkesan.
+        - Mempersiapkan diri untuk situasi kewangan yang tidak terduga.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menjelaskan satu tujuan dengan tepat."
+      - marks: 2
+        criteria: "Menjelaskan tujuan utama merancang kewangan secara menyeluruh."
+    hints:
+      - level: 1
+        text: "Pertimbangkan bagaimana perancangan kewangan membantu dalam mencapai matlamat kewangan."
+
+  # Learning Objective 10.1.2
+  - id: Q3
+    text: "Encik Azman ingin membeli sebuah kereta dalam tempoh 5 tahun. Apakah langkah-langkah yang perlu diambil dalam pelan kewangan peribadi beliau?"
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Langkah-langkah termasuk: menetapkan matlamat kewangan, menyimpan secara berkala, mengurangkan perbelanjaan tidak perlu, dan melabur dalam instrumen kewangan yang sesuai."
+      working: |
+        Untuk membeli kereta dalam 5 tahun, Encik Azman boleh:
+        1. Menetapkan matlamat kewangan dan jumlah simpanan yang diperlukan.
+        2. Menyediakan bajet bulanan yang merangkumi simpanan untuk kereta.
+        3. Mengkaji dan mengurangkan perbelanjaan tidak perlu.
+        4. Melabur dalam instrumen kewangan yang boleh memberikan pulangan yang baik.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Mengenalpasti satu langkah dengan tepat."
+      - marks: 2
+        criteria: "Mengenalpasti dua langkah dengan tepat."
+      - marks: 3
+        criteria: "Mengenalpasti tiga langkah dengan tepat."
+      - marks: 4
+        criteria: "Mengenalpasti dan menjelaskan keempat-empat langkah dengan tepat."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang langkah-langkah untuk menambah simpanan dan mengurangkan perbelanjaan."
+
+  - id: Q4
+    text: "Buat pelan kewangan jangka pendek untuk seorang pelajar yang ingin menyimpan RM500 dalam masa 6 bulan."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Pelan kewangan termasuk: menyimpan RM84 setiap bulan, mengurangkan perbelanjaan, dan menambah pendapatan melalui kerja sambilan."
+      working: |
+        Untuk menyimpan RM500 dalam 6 bulan:
+        1. Menyimpan RM500 ÷ 6 ≈ RM84 setiap bulan.
+        2. Memantau perbelanjaan untuk mengurangkan kos yang tidak perlu.
+        3. Mencari peluang untuk menambah pendapatan, seperti kerja sambilan.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyediakan satu langkah dengan tepat."
+      - marks: 2
+        criteria: "Menyediakan dua langkah dengan tepat."
+      - marks: 3
+        criteria: "Menyediakan pelan kewangan lengkap dengan semua langkah."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang jumlah yang perlu disimpan setiap bulan dan cara untuk menambah pendapatan."
+
+  - id: Q5
+    text: "Lina ingin menilai kebolehlaksanaan pelan kewangan jangka panjangnya. Apakah aspek yang perlu dipertimbangkan semasa penilaian ini?"
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Aspek yang perlu dipertimbangkan termasuk: konsistensi simpanan, perubahan dalam pendapatan, dan situasi kewangan semasa."
+      working: |
+        Untuk menilai kebolehlaksanaan pelan kewangan, Lina perlu mempertimbangkan:
+        1. Konsistensi dalam menyimpan wang mengikut pelan yang telah ditetapkan.
+        2. Sebarang perubahan dalam pendapatan atau pekerjaan yang mungkin mempengaruhi kemampuan menyimpan.
+        3. Situasi kewangan semasa seperti hutang atau perbelanjaan tidak terduga.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenalpasti satu aspek dengan tepat."
+      - marks: 2
+        criteria: "Mengenalpasti dua aspek dengan tepat."
+      - marks: 3
+        criteria: "Mengenalpasti dan menjelaskan semua aspek yang diperlukan."
+    hints:
+      - level: 1
+        text: "Pertimbangkan faktor-faktor yang boleh mengubah kemampuan seseorang untuk menyimpan atau melabur."

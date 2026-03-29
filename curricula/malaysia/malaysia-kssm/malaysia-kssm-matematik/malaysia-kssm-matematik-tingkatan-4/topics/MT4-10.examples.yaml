@@ -1,0 +1,36 @@
+topic_id: MT4-10
+provenance: ai-generated
+description: "Worked examples for MATEMATIK PENGGUNA: PENGURUSAN KEWANGAN"
+worked_examples:
+  - id: WE-01
+    topic: "Understanding Financial Management Processes"
+    difficulty: easy
+    real_world_analogy: "Managing your finances is like planning a road trip; you need a map (budget) to reach your destination (financial goal)."
+    misconception_alert: "Students often think that a budget is restrictive rather than a tool for achieving goals."
+    scenario: "Ali wants to save money for a new bicycle. He earns RM150 monthly from his part-time job and wants to save half of his earnings."
+    working: |
+      Step 1: Determine Ali's monthly savings goal by calculating half of his monthly earnings.
+      Step 2: Calculate 50% of RM150, which is RM75.
+      Step 3: Ali should save RM75 each month to reach his goal efficiently.
+
+  - id: WE-02
+    topic: "Building and Presenting a Personal Financial Plan"
+    difficulty: medium
+    real_world_analogy: "Creating a financial plan is like designing a house; a strong foundation (budget) supports future growth and stability."
+    misconception_alert: "Some students might overlook the need to account for unexpected expenses, leading to inaccurate plans."
+    scenario: "Fatimah plans to save for a university fund. She needs RM10,000 in 5 years and plans to save monthly. Her bank offers a 3% annual interest rate on savings."
+    working: |
+      Step 1: Use the future value formula for monthly savings: FV = Pmt * [((1 + r)^n - 1) / r]
+      Step 2: Rearrange to find Pmt, the monthly savings: Pmt = FV / [((1 + r)^n - 1) / r]
+      Step 3: Calculate using FV = RM10,000, r = 0.03/12, n = 5*12. Monthly savings required is approximately RM157.
+
+  - id: WE-03
+    topic: "Evaluating the Feasibility of a Financial Plan"
+    difficulty: hard
+    real_world_analogy: "Evaluating a financial plan is like conducting a health check-up to ensure everything is functioning correctly and adjustments can be made if necessary."
+    misconception_alert: "Students might assume their initial financial plan doesn't need adjustments over time, ignoring changes in income or expenses."
+    scenario: "Raja has a financial plan to save RM20,000 for a car in 8 years. He saves RM200 monthly, aiming to invest with a 5% annual interest rate. Evaluate if he can meet his goal."
+    working: |
+      Step 1: Calculate the future value of Raja's savings using the future value formula: FV = Pmt * [((1 + r)^n - 1) / r]
+      Step 2: With Pmt = RM200, r = 0.05/12, n = 8*12, calculate the future value.
+      Step 3: The future value amounts to approximately RM23,400, indicating Raja's plan is feasible and exceeds his goal.
