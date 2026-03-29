@@ -1,0 +1,156 @@
+topic_id: MT5-08
+provenance: ai-generated
+
+questions:
+  # Group by learning objective
+  - id: Q1
+    text: "Terangkan konsep pemodelan matematik dan berikan satu contoh aplikasi dalam kehidupan sebenar."
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: "Pemodelan matematik adalah proses menggunakan matematik untuk mewakili, menganalisis, dan membuat ramalan mengenai situasi dunia sebenar. Contoh: Menggunakan persamaan linear untuk meramalkan kos berdasarkan penggunaan bahan api."
+      working: |
+        Pemodelan matematik melibatkan:
+        1. Mengenalpasti masalah.
+        2. Membentuk model matematik (contoh: persamaan, fungsi).
+        3. Menganalisis model.
+        4. Menggunakan model untuk membuat keputusan atau ramalan.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menjelaskan konsep pemodelan matematik secara ringkas."
+      - marks: 1
+        criteria: "Memberikan contoh aplikasi yang sesuai."
+      - marks: 1
+        criteria: "Menghubungkan contoh dengan proses pemodelan matematik."
+    hints:
+      - level: 1
+        text: "Fikirkan bagaimana matematik boleh digunakan untuk menyelesaikan masalah harian."
+
+  - id: Q2
+    text: "Diberikan fungsi linear $f(x) = 3x + 2$. Selesaikan $f(x) = 11$."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "3"
+      working: |
+        Untuk menyelesaikan $f(x) = 11$, kita gantikan $f(x)$ dengan $3x + 2$:
+        \[
+        3x + 2 = 11
+        \]
+        Kurangkan 2 dari kedua-dua belah:
+        \[
+        3x = 9
+        \]
+        Bahagikan kedua-dua belah dengan 3:
+        \[
+        x = 3
+        \]
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menulis persamaan yang betul selepas menggantikan $f(x)$."
+      - marks: 1
+        criteria: "Mengira nilai $x$ dengan betul."
+    hints:
+      - level: 1
+        text: "Substitusi dahulu nilai $f(x)$ dalam fungsi yang diberikan."
+
+  - id: Q3
+    text: "Fungsi kuadratik $g(x) = x^2 - 4x - 5$ diberikan. Tentukan nilai $x$ di mana $g(x) = 0$."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: true
+    answer:
+      type: exact
+      value: "x = 5, x = -1"
+      working: |
+        Untuk mencari nilai $x$, kita perlu menyelesaikan persamaan $x^2 - 4x - 5 = 0$.
+        Faktor persamaan:
+        \[
+        (x - 5)(x + 1) = 0
+        \]
+        Jadi, $x = 5$ atau $x = -1$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menulis persamaan kuadratik yang betul."
+      - marks: 1
+        criteria: "Mengfaktor persamaan dengan betul."
+      - marks: 1
+        criteria: "Menentukan kedua-dua nilai $x$ dengan betul."
+    hints:
+      - level: 1
+        text: "Untuk menyelesaikan persamaan kuadratik, cuba memfaktorkan atau menggunakan formula kuadratik."
+
+  - id: Q4
+    text: "Andaikan anda mempunyai pelaburan yang meningkat secara eksponen dengan fungsi $P(t) = P_0 e^{0.05t}$, di mana $P_0$ adalah jumlah awal, tentukan masa yang diperlukan untuk menggandakan pelaburan."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: true
+    answer:
+      type: exact
+      value: "t \approx 13.86"
+      working: |
+        Kita perlu mencari $t$ apabila $P(t) = 2P_0$.
+        \[
+        2P_0 = P_0 e^{0.05t}
+        \]
+        Bahagikan kedua-dua belah dengan $P_0$:
+        \[
+        2 = e^{0.05t}
+        \]
+        Ambil logaritma semulajadi pada kedua-dua belah:
+        \[
+        \ln(2) = 0.05t
+        \]
+        Selesaikan untuk $t$:
+        \[
+        t = \frac{\ln(2)}{0.05} \approx 13.86
+        \]
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menulis persamaan eksponen yang betul."
+      - marks: 1
+        criteria: "Menggunakan logaritma untuk menyelesaikan persamaan."
+      - marks: 1
+        criteria: "Mengira nilai $t$ dengan betul."
+    hints:
+      - level: 1
+        text: "Gandakan pelaburan bermaksud $P(t) = 2P_0$. Gunakan logaritma untuk menyelesaikan eksponen."
+
+  - id: Q5
+    text: "Jelaskan bagaimana pemodelan matematik boleh membantu dalam perancangan bandar, dan nyatakan satu fungsi matematik yang mungkin digunakan."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Pemodelan matematik membantu dalam perancangan bandar dengan menganalisis data seperti populasi, lalu lintas, dan sumber untuk membuat keputusan yang berkesan. Fungsi eksponen boleh digunakan untuk meramalkan pertumbuhan populasi."
+      working: |
+        Pemodelan matematik dalam perancangan bandar melibatkan:
+        1. Pengumpulan data mengenai aspek-aspek penting.
+        2. Membina model untuk mensimulasikan senario berbeza.
+        3. Menggunakan model untuk membuat keputusan berasaskan bukti.
+        Contoh fungsi: Fungsi eksponen untuk meramalkan pertumbuhan populasi.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menjelaskan kepentingan pemodelan dalam perancangan bandar."
+      - marks: 1
+        criteria: "Menyatakan aspek yang boleh dianalisis dengan pemodelan."
+      - marks: 1
+        criteria: "Memberikan contoh fungsi matematik yang relevan."
+    hints:
+      - level: 1
+        text: "Pertimbangkan bagaimana data dan analisis digunakan dalam membuat keputusan untuk pembangunan bandar."

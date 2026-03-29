@@ -1,0 +1,38 @@
+topic_id: MT5-08
+provenance: ai-generated
+description: "Worked examples for Pemodelan Matematik"
+worked_examples:
+  - id: WE-01
+    topic: "Pengenalan kepada Pemodelan Matematik"
+    difficulty: easy
+    real_world_analogy: "Memikirkan model matematik seperti menggunakan peta untuk mencari jalan ke destinasi."
+    misconception_alert: "Pelajar sering menganggap model adalah jawapan muktamad, padahal ia adalah representasi yang dipermudahkan."
+    scenario: "Anda ingin mengetahui jumlah bayaran elektrik berdasarkan penggunaan dalam kilowatt-jam (kWh)."
+    working: |
+      Step 1: Kenal pasti pembolehubah. Anggap penggunaan elektrik sebagai x dan kos sebagai y.
+      Step 2: Bentuk persamaan linear y = mx + c, di mana m adalah kadar setiap kWh dan c adalah caj tetap.
+      Step 3: Jika m = RM0.50 dan c = RM10, maka y = 0.50x + 10. Jika x = 100 kWh, masukkan ke dalam persamaan: y = 0.50(100) + 10 = RM60.
+
+  - id: WE-02
+    topic: "Pemodelan Kuadratik dalam Kehidupan Seharian"
+    difficulty: medium
+    real_world_analogy: "Memodelkan laluan bola yang dilemparkan seperti melukis lengkung parabola."
+    misconception_alert: "Pelajar mungkin terkeliru antara titik maksimum dan akar persamaan."
+    scenario: "Mengira ketinggian maksimum bola yang dilemparkan ke udara dengan persamaan kuadratik h(t) = -5t^2 + 20t + 1."
+    working: |
+      Step 1: Kenal pasti bentuk umum persamaan kuadratik, h(t) = at^2 + bt + c.
+      Step 2: Cari masa ketinggian maksimum dengan formula t = -b/(2a).
+      Step 3: Masukkan a = -5 dan b = 20 ke dalam formula: t = -20/(2*(-5)) = 2 saat.
+      Step 4: Masukkan t = 2 ke dalam persamaan asal: h(2) = -5(2)^2 + 20(2) + 1 = 21 meter.
+
+  - id: WE-03
+    topic: "Pemodelan Eksponen untuk Pertumbuhan Populasi"
+    difficulty: hard
+    real_world_analogy: "Pertumbuhan populasi boleh difahami seperti bunga yang tumbuh lebih cepat apabila ia lebih besar."
+    misconception_alert: "Pelajar mungkin salah anggap bahawa kadar pertumbuhan adalah tetap sepanjang masa."
+    scenario: "Modelkan pertumbuhan populasi bakteria yang berlipat ganda setiap jam dari 1000 bakteria awal."
+    working: |
+      Step 1: Kenal pasti persamaan eksponen: P(t) = P0 * e^(kt).
+      Step 2: Diketahui P0 = 1000, dan bakteria berlipat ganda setiap jam, jadi k = ln(2).
+      Step 3: Cari populasi selepas 3 jam: P(3) = 1000 * e^(ln(2)*3).
+      Step 4: Selesaikan: P(3) = 1000 * 2^3 = 8000 bakteria.
