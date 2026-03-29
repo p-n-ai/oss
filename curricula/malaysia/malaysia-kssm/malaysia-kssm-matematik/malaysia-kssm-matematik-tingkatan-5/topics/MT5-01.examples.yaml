@@ -1,0 +1,38 @@
+topic_id: MT5-01
+provenance: ai-generated
+description: "Worked examples for Ubahan"
+worked_examples:
+  - id: WE-01
+    topic: "Ubahan Langsung"
+    difficulty: easy
+    real_world_analogy: "Consider a car traveling at constant speed; the distance traveled is directly proportional to the time spent driving."
+    misconception_alert: "Students often confuse direct variation with constant addition. Direct variation involves multiplication by a constant, not addition."
+    scenario: "Ali drives his car at a constant speed. If he travels 60 km in 1 hour, how far does he travel in 3 hours?"
+    working: |
+      Step 1: Identify the constant of proportionality, k. Here, distance = k × time. Given 60 km in 1 hour, k = 60.
+      Step 2: Use the relationship to find the distance for 3 hours. Distance = 60 × 3 = 180 km.
+      Step 3: Ali travels 180 km in 3 hours.
+
+  - id: WE-02
+    topic: "Ubahan Songsang"
+    difficulty: medium
+    real_world_analogy: "Imagine sharing a fixed amount of money among a group of friends; the more friends there are, the less money each person gets."
+    misconception_alert: "A common mistake is treating inverse variation like direct variation. Remember, as one variable increases, the other decreases."
+    scenario: "A water tank can be filled by a tap in 4 hours. If a second identical tap is used, how long will it take to fill the tank?"
+    working: |
+      Step 1: Define the relationship using inverse variation. Let t be the time taken with one tap. t = k/n, where n is the number of taps.
+      Step 2: Given t = 4 hours for 1 tap, find k. Thus, k = 4 × 1 = 4.
+      Step 3: With 2 taps, time t = 4/2 = 2 hours. It takes 2 hours with two taps.
+
+  - id: WE-03
+    topic: "Ubahan Bergabung"
+    difficulty: hard
+    real_world_analogy: "Cooking time for a recipe depends on both the quantity of ingredients and the power of the stove."
+    misconception_alert: "Students may forget to consider all variables. In combined variation, all variables need to be accounted for correctly."
+    scenario: "The brightness of a light bulb (B) varies directly with the voltage (V) and inversely with the square of the resistance (R). If B = 100 when V = 200 and R = 10, find the brightness when V = 250 and R = 20."
+    working: |
+      Step 1: Express the relationship as B = k * V / R².
+      Step 2: Use the given values to find k. 100 = k * 200 / 10², so k = 100 * 100 / 200 = 50.
+      Step 3: Substitute V = 250 and R = 20 into B = 50 * 250 / 20².
+      Step 4: Calculate B = 50 * 250 / 400 = 31.25.
+      Step 5: The brightness is 31.25 units.
