@@ -96,7 +96,7 @@ questions:
         criteria: "Mengira dengan tepat lilitan menggunakan nilai π yang diberikan."
     hints:
       - level: 1
-        text: "Gunakan formula lilitan $C = \pi d$."
+        text: 'Gunakan formula lilitan $C = \pi d$.'
 
   # Learning Objective 5.3.4
   - id: Q5

@@ -8,7 +8,27 @@ syllabus_id: malaysia-kssm
 country_id: malaysia
 language: ms
 difficulty: beginner
-learning_objectives: []
+learning_objectives:
+    - id: "6.1.1"
+      text: "Mengenal pasti bentuk geometri tiga dimensi termasuk prisma, silinder, kon, piramid dan sfera berdasarkan ciri dan sifat."
+      text_en: "Identify three-dimensional geometric shapes including prisms, cylinders, cones, pyramids and spheres based on properties and characteristics."
+      bloom: remember
+    - id: "6.1.2"
+      text: "Membina model bentuk geometri tiga dimensi menggunakan pelbagai bahan dan menerangkan ciri-cirinya."
+      text_en: "Construct models of three-dimensional geometric shapes using various materials and explain their characteristics."
+      bloom: apply
+    - id: "6.2.1"
+      text: "Menerbitkan rumus luas permukaan prisma, silinder, kon dan sfera serta membuat pengiraan yang berkaitan."
+      text_en: "Derive the formula for surface area of prisms, cylinders, cones and spheres, and perform related calculations."
+      bloom: apply
+    - id: "6.2.2"
+      text: "Menerbitkan rumus isi padu prisma, silinder, kon dan sfera serta membuat pengiraan yang berkaitan."
+      text_en: "Derive the formula for volume of prisms, cylinders, cones and spheres, and perform related calculations."
+      bloom: apply
+    - id: "6.2.3"
+      text: "Menyelesaikan masalah yang melibatkan bentuk geometri tiga dimensi."
+      text_en: "Solve problems involving three-dimensional geometric shapes."
+      bloom: apply
 prerequisites:
     required: []
 quality_level: 0

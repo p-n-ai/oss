@@ -11,7 +11,7 @@ questions:
     kbat: false
     answer:
       type: exact
-      value: "8 \, \text{m/s}"
+      value: '8 m/s'
       working: |
         \[
         \text{Laju} = \frac{\text{Jarak}}{\text{Masa}} = \frac{400 \, \text{m}}{50 \, \text{s}} = 8 \, \text{m/s}
@@ -60,7 +60,7 @@ questions:
     kbat: false
     answer:
       type: exact
-      value: "80 \, \text{km/j}"
+      value: '80 km/j'
       working: |
         \[
         \text{Jarak pertama} = 90 \, \text{km/j} \times 2 \, \text{jam} = 180 \, \text{km}
@@ -121,7 +121,7 @@ questions:
     kbat: false
     answer:
       type: exact
-      value: "5 \, \text{m/s}^2"
+      value: '5 m/s²'
       working: |
         \[
         \text{Pecutan} = \frac{\Delta \text{Laju}}{\Delta \text{Masa}} = \frac{25 \, \text{m/s} - 0 \, \text{m/s}}{5 \, \text{s}} = 5 \, \text{m/s}^2

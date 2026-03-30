@@ -25,7 +25,7 @@ questions:
         criteria: "Mengira nilai jarak dengan betul."
     hints:
       - level: 1
-        text: "Gunakan formula jarak: $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$."
+        text: 'Gunakan formula jarak: $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.'
       - level: 2
         text: "MISCONCEPTION ALERT: Pastikan anda mengkuadratkan perbezaan setiap komponen."
 
@@ -86,7 +86,7 @@ questions:
         criteria: "Mengira koordinat titik tengah dengan betul."
     hints:
       - level: 1
-        text: "Gunakan formula titik tengah: $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$."
+        text: 'Gunakan formula titik tengah: $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$.'
       - level: 2
         text: "MISCONCEPTION ALERT: Pastikan anda menambah koordinat yang sama jenis dulu sebelum membahagi dua."
 
@@ -113,7 +113,7 @@ questions:
         criteria: "Mengira koordinat titik tengah dengan betul."
     hints:
       - level: 1
-        text: "Gunakan formula titik tengah: $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$."
+        text: 'Gunakan formula titik tengah: $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$.'
       - level: 2
         text: "Pastikan anda menggunakan koordinat F dan G sahaja."
 

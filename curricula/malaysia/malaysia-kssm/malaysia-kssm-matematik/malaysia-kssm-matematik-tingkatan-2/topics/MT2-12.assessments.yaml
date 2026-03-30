@@ -107,7 +107,7 @@ questions:
     answer:
       type: multiple_choice
       value: "A"
-      choices:
+      options:
         - "A: Median"
         - "B: Min"
         - "C: Mod"
