@@ -1,0 +1,146 @@
+topic_id: MT1-13
+provenance: ai-generated
+
+questions:
+  # Group by learning objective
+  - id: Q1
+    text: "Dalam sebuah segi tiga bersudut tegak, panjang dua sisi tegaknya ialah 6 cm dan 8 cm. Tentukan panjang hipotenusnya."
+    difficulty: medium
+    learning_objective: 13.1.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "10 cm"
+      working: |
+        Menggunakan Teorem Pythagoras: $c^2 = a^2 + b^2$
+        $c^2 = 6^2 + 8^2$
+        $c^2 = 36 + 64$
+        $c^2 = 100$
+        $c = \sqrt{100} = 10$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menunjukkan pengiraan $c^2 = 6^2 + 8^2$"
+      - marks: 1
+        criteria: "Mengira $c^2 = 100$ dengan betul"
+      - marks: 1
+        criteria: "Menentukan $c = 10$"
+    hints:
+      - level: 1
+        text: "Ingat bahawa hipotenus adalah sisi yang paling panjang dalam segi tiga bersudut tegak."
+      - level: 2
+        text: "Gunakan Teorem Pythagoras: $c^2 = a^2 + b^2$."
+
+  - id: Q2
+    text: "Segi tiga ABC adalah segi tiga bersudut tegak di B. Jika panjang AB = 5 cm dan BC = 12 cm, apakah panjang AC?"
+    difficulty: medium
+    learning_objective: 13.1.2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "13 cm"
+      working: |
+        Menggunakan Teorem Pythagoras: $AC^2 = AB^2 + BC^2$
+        $AC^2 = 5^2 + 12^2$
+        $AC^2 = 25 + 144$
+        $AC^2 = 169$
+        $AC = \sqrt{169} = 13$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menunjukkan pengiraan $AC^2 = 5^2 + 12^2$"
+      - marks: 1
+        criteria: "Mengira $AC^2 = 169$ dengan betul"
+      - marks: 1
+        criteria: "Menentukan $AC = 13$"
+    hints:
+      - level: 1
+        text: "Tentukan hipotenus segi tiga bersudut tegak."
+      - level: 2
+        text: "Gunakan formula: $AC^2 = AB^2 + BC^2$."
+
+  - id: Q3
+    text: "Suatu segi tiga mempunyai panjang sisi 7 cm, 24 cm, dan 25 cm. Tentukan sama ada segi tiga ini adalah segi tiga bersudut tegak."
+    difficulty: medium
+    learning_objective: 13.2.1
+    tp_level: 3
+    kbat: true
+    answer:
+      type: multiple_choice
+      value: "Ya"
+      working: |
+        Menggunakan akas Teorem Pythagoras: $25^2 = 7^2 + 24^2$
+        $625 = 49 + 576$
+        $625 = 625$
+        Oleh itu, segi tiga ini adalah segi tiga bersudut tegak.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menentukan hipotenus sebagai 25 cm"
+      - marks: 1
+        criteria: "Menunjukkan pengiraan $25^2 = 7^2 + 24^2$"
+      - marks: 1
+        criteria: "Mengira dan membandingkan $625 = 625$"
+    hints:
+      - level: 1
+        text: "Periksa sama ada $c^2 = a^2 + b^2$."
+      - level: 2
+        text: "Gunakan nilai paling besar sebagai hipotenus."
+
+  - id: Q4
+    text: "Gabungan sebuah segi tiga bersudut tegak dan segi empat tepat membentuk satu bentuk geometri. Panjang segi empat tepat ialah 9 cm dan lebarnya 12 cm. Jika panjang sisi miring segi tiga ialah 15 cm, cari panjang sisi ketiga bagi segi tiga tersebut."
+    difficulty: medium
+    learning_objective: 13.1.3
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "12 cm"
+      working: |
+        Menggunakan Teorem Pythagoras: $15^2 = 9^2 + x^2$
+        $225 = 81 + x^2$
+        $x^2 = 144$
+        $x = \sqrt{144} = 12$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menentukan hipotenus sebagai 15 cm"
+      - marks: 1
+        criteria: "Menunjukkan pengiraan $15^2 = 9^2 + x^2$"
+      - marks: 1
+        criteria: "Mengira $x = 12$"
+    hints:
+      - level: 1
+        text: "Gunakan Teorem Pythagoras untuk segi tiga."
+      - level: 2
+        text: "Nilai 15 cm adalah hipotenus."
+
+  - id: Q5
+    text: "Seorang pekerja ingin memasang tangga yang membentuk sudut tegak dengan lantai. Jika jarak mendatar dari pangkal tangga ke dinding adalah 8 m dan panjang tangga adalah 17 m, berapa tinggi tangga di dinding?"
+    difficulty: medium
+    learning_objective: 13.1.4
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "15 m"
+      working: |
+        Menggunakan Teorem Pythagoras: $17^2 = 8^2 + h^2$
+        $289 = 64 + h^2$
+        $h^2 = 225$
+        $h = \sqrt{225} = 15$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menentukan hipotenus sebagai 17 m"
+      - marks: 1
+        criteria: "Menunjukkan pengiraan $17^2 = 8^2 + h^2$"
+      - marks: 1
+        criteria: "Mengira $h = 15$"
+    hints:
+      - level: 1
+        text: "Gunakan Teorem Pythagoras untuk mencari tinggi."
+      - level: 2
+        text: "Panjang tangga adalah hipotenus."

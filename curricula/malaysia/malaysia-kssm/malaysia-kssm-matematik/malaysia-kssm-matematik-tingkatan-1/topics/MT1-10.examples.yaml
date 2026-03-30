@@ -1,0 +1,44 @@
+topic_id: MT1-10
+provenance: ai-generated
+description: "Worked examples for Perimeter dan Luas"
+worked_examples:
+  - id: WE-01
+    topic: "Perimeter of Rectangles"
+    difficulty: easy
+    real_world_analogy: "Imagine you are putting a border around a rectangular garden."
+    misconception_alert: "Students often forget to add all sides or only add length and width once."
+    scenario: "Calculate the perimeter of a rectangular garden with length 8 meters and width 5 meters."
+    working: |
+      Step 1: Identify the formula for perimeter of a rectangle, which is P = 2(l + w).
+      Step 2: Substitute the given values into the formula: P = 2(8 + 5).
+      Step 3: Calculate the sum inside the brackets: 8 + 5 = 13.
+      Step 4: Multiply the sum by 2 to find the perimeter: 2 * 13 = 26 meters.
+      Step 5: Thus, the perimeter of the garden is 26 meters.
+  
+  - id: WE-02
+    topic: "Area of a Triangle"
+    difficulty: medium
+    real_world_analogy: "Finding the area of a triangular piece of land for planting."
+    misconception_alert: "Students might confuse the base and height, or use incorrect units of measurement."
+    scenario: "A triangular plot of land has a base of 12 meters and a height of 8 meters. Calculate its area."
+    working: |
+      Step 1: Recall the formula for the area of a triangle: A = 1/2 * base * height.
+      Step 2: Substitute the given values: A = 1/2 * 12 * 8.
+      Step 3: Multiply the base and height: 12 * 8 = 96.
+      Step 4: Divide the product by 2 to find the area: 96 / 2 = 48 square meters.
+      Step 5: Therefore, the area of the triangular plot is 48 square meters.
+
+  - id: WE-03
+    topic: "Perimeter and Area of Composite Shapes"
+    difficulty: hard
+    real_world_analogy: "Determining the total border and area of a park with multiple sections."
+    misconception_alert: "Students may not correctly separate the composite shape into simpler shapes or fail to account for all sides when calculating perimeter."
+    scenario: "A park is composed of a rectangle and a semicircle on one end. The rectangle is 20 meters long and 10 meters wide, and the semicircle has a diameter of 10 meters. Find the total perimeter and area."
+    working: |
+      Step 1: Calculate the perimeter of the rectangle: P_rect = 2(l + w) = 2(20 + 10) = 60 meters.
+      Step 2: Calculate the circumference of the semicircle: C_semi = π * r = π * 5 = 15.7 meters (approx).
+      Step 3: Add the perimeter of the rectangle and the semicircle to get the total perimeter: 60 + 15.7 = 75.7 meters.
+      Step 4: Calculate the area of the rectangle: A_rect = l * w = 20 * 10 = 200 square meters.
+      Step 5: Calculate the area of the semicircle: A_semi = 1/2 * π * r^2 = 1/2 * π * 5^2 = 39.25 square meters (approx).
+      Step 6: Add the areas of the rectangle and semicircle to get the total area: 200 + 39.25 = 239.25 square meters.
+      Step 7: The total perimeter of the park is approximately 75.7 meters, and the total area is approximately 239.25 square meters.

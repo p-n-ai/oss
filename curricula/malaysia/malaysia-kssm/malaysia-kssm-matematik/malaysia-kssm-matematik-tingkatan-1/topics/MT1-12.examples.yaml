@@ -1,0 +1,36 @@
+topic_id: MT1-12
+provenance: ai-generated
+description: "Worked examples for Pengendalian Data"
+worked_examples:
+  - id: WE-01
+    topic: "Menjana soalan statistik dan mengumpul data yang relevan"
+    difficulty: easy
+    real_world_analogy: "Collecting opinions from classmates about their favorite fruit."
+    misconception_alert: "Students might think they need to collect data in a complicated way, but simple surveys can be very effective."
+    scenario: "You want to find out the most popular fruit among your classmates."
+    working: |
+      Step 1: Formulate a clear question: "What is your favorite fruit?"
+      Step 2: Decide on the method of data collection. Choose a simple method like a survey.
+      Step 3: Ask each classmate and record their responses. Tally the results to determine the most popular fruit.
+
+  - id: WE-02
+    topic: "Mengklasifikasikan data kepada data kategori atau data numerik dan membina jadual kekerapan"
+    difficulty: medium
+    real_world_analogy: "Sorting your book collection into genres and counting how many books are in each genre."
+    misconception_alert: "Confusing categorical data with numerical data; remember, categorical data describes qualities or names."
+    scenario: "A teacher records the favorite sports of students in a class to find out which sport is most popular."
+    working: |
+      Step 1: Classify the data. Sports like 'Football', 'Basketball', and 'Badminton' are categorical data.
+      Step 2: Create a table with two columns: one for the type of sport and another for frequency.
+      Step 3: Count the number of students for each sport and fill in the frequency column. This is your frequency table.
+
+  - id: WE-03
+    topic: "Membina perwakilan data bagi data tak terkumpul dan menjustifikasikan kesesuaian suatu perwakilan data"
+    difficulty: hard
+    real_world_analogy: "Creating a pie chart to show the percentage of different types of food waste at a school canteen."
+    misconception_alert: "Thinking all data must be shown as a bar chart; sometimes pie charts better represent proportions."
+    scenario: "A school wants to represent the types of waste collected (paper, plastic, food) in a visual format for a recycling campaign."
+    working: |
+      Step 1: Calculate the total amount of waste collected and the percentage each category represents.
+      Step 2: Decide on the best type of representation. Since you want to show proportions, a pie chart is suitable.
+      Step 3: Construct the pie chart using the calculated percentages. Justify the choice by explaining how it shows the proportion of each waste type effectively.

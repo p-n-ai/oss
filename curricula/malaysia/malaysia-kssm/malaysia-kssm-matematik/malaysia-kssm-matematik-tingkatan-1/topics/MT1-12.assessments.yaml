@@ -1,0 +1,123 @@
+topic_id: MT1-12
+provenance: ai-generated
+
+questions:
+  # Learning objective 12.1.1: Menjana soalan statistik dan mengumpul data yang relevan
+  - id: Q1
+    text: "Anda diminta untuk mengumpul data mengenai masa yang diambil pelajar untuk ke sekolah. Nyatakan satu soalan statistik yang sesuai dan terangkan bagaimana anda akan mengumpul data tersebut."
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Soalan: Berapa lama masa yang diambil oleh pelajar untuk sampai ke sekolah? Pengumpulan data: Saya akan mengedarkan borang soal selidik kepada pelajar dengan kategori masa seperti kurang daripada 15 minit, 15-30 minit, dan lebih daripada 30 minit."
+      working: |
+        Untuk menjana soalan statistik yang sesuai, tentukan jenis maklumat yang diperlukan. Soalan statistik yang sesuai adalah yang menanyakan masa perjalanan. Data boleh dikumpul melalui soal selidik yang terstruktur.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Menjana soalan statistik yang sesuai."
+      - marks: 2
+        criteria: "Mengemukakan kaedah pengumpulan data yang relevan."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang aspek masa perjalanan yang ingin anda ketahui."
+      - level: 2
+        text: "Pertimbangkan cara yang mudah dan tepat untuk mengumpul maklumat masa perjalanan."
+
+  # Learning objective 12.1.2: Mengklasifikasikan data kepada data kategori atau data numerik dan membina jadual kekerapan
+  - id: Q2
+    text: "Diberikan set data berikut tentang bilangan buku yang dimiliki oleh 10 pelajar: 5, 7, 8, 3, 5, 7, 6, 9, 5, 7. Klasifikasikan data ini dan bina jadual kekerapan."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: "Data ini adalah data numerik. Jadual kekerapan: (5: 3 kali, 7: 3 kali, 8: 1 kali, 3: 1 kali, 6: 1 kali, 9: 1 kali)"
+      working: |
+        Klasifikasikan data sebagai numerik kerana ia adalah bilangan buku. Bina jadual kekerapan dengan mengira berapa kali setiap nombor muncul.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Mengklasifikasikan data dengan betul."
+      - marks: 3
+        criteria: "Membina jadual kekerapan yang betul."
+    hints:
+      - level: 1
+        text: "Adakah data ini boleh diukur atau dibilang?"
+      - level: 2
+        text: "Kira kekerapan setiap nombor dalam data."
+
+  # Learning objective 12.1.3: Membina perwakilan data bagi data tak terkumpul dan menjustifikasikan kesesuaian suatu perwakilan data
+  - id: Q3
+    text: "Diberikan jadual kekerapan berikut bagi bilangan jam pelajar belajar sehari: (1 jam: 2 pelajar, 2 jam: 5 pelajar, 3 jam: 4 pelajar, 4 jam: 3 pelajar). Bina carta batang bagi data ini dan jelaskan mengapa carta batang sesuai."
+    difficulty: medium
+    learning_objective: LO3
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "Carta batang: (1 jam: 2, 2 jam: 5, 3 jam: 4, 4 jam: 3). Carta batang sesuai kerana ia menunjukkan kekerapan dalam kumpulan data yang kecil dan memudahkan perbandingan."
+      working: |
+        Bina carta batang dengan setiap kategori (bilangan jam) pada paksi-x dan kekerapan pada paksi-y. Carta batang sesuai untuk data tak terkumpul kerana ia menyampaikan maklumat dengan jelas dan mudah difahami.
+    marks: 5
+    rubric:
+      - marks: 3
+        criteria: "Membina carta batang yang betul."
+      - marks: 2
+        criteria: "Menjustifikasikan kesesuaian penggunaan carta batang."
+    hints:
+      - level: 1
+        text: "Apakah jenis carta yang sesuai untuk data kekerapan?"
+      - level: 2
+        text: "Pertimbangkan bagaimana carta batang menunjukkan perbezaan kekerapan."
+
+  # Learning objective 12.1.4: Menukar satu perwakilan data kepada perwakilan lain yang sesuai serta memberi justifikasi
+  - id: Q4
+    text: "Tukarkan carta batang berikut ke dalam bentuk carta pai: (A: 30%, B: 25%, C: 20%, D: 25%). Terangkan mengapa carta pai sesuai untuk data ini."
+    difficulty: medium
+    learning_objective: LO4
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "Carta pai: Bahagian A (108°), B (90°), C (72°), D (90°). Carta pai sesuai kerana ia menunjukkan peratusan setiap kategori daripada keseluruhan."
+      working: |
+        Hitung sudut setiap kategori berdasarkan peratusan: A = 30% x 360° = 108°, B = 25% x 360° = 90°, C = 20% x 360° = 72°, D = 25% x 360° = 90°. Carta pai sesuai untuk menunjukkan bahagian setiap kategori dari keseluruhan.
+    marks: 5
+    rubric:
+      - marks: 3
+        criteria: "Menukar data dengan betul ke carta pai."
+      - marks: 2
+        criteria: "Memberi justifikasi kesesuaian carta pai."
+    hints:
+      - level: 1
+        text: "Bagaimana anda boleh menukar peratusan ke dalam sudut?"
+      - level: 2
+        text: "Apakah maklumat yang carta pai sampaikan dengan jelas?"
+
+  # Learning objective 12.1.6: Membincangkan kepentingan mewakilkan data secara beretika bagi mengelakkan kekeliruan
+  - id: Q5
+    text: "Kenapa penting untuk mewakilkan data secara beretika, dan bagaimana cara perwakilan yang salah boleh mengelirukan orang ramai?"
+    difficulty: medium
+    learning_objective: LO6
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: "Penting untuk mewakilkan data secara beretika agar tidak memanipulasi atau menyalahartikan fakta. Perwakilan salah, seperti grafik yang dimanipulasi, boleh mengelirukan orang dengan menunjukkan kesimpulan yang tidak tepat."
+      working: |
+        Data yang diwakilkan secara beretika memberikan gambaran sebenar dan mengelakkan salah tafsir. Perwakilan yang salah boleh membuat satu aspek kelihatan lebih penting daripada yang sebenarnya, menyebabkan salah faham.
+    marks: 5
+    rubric:
+      - marks: 3
+        criteria: "Menerangkan kepentingan mewakilkan data secara beretika."
+      - marks: 2
+        criteria: "Menjelaskan bagaimana perwakilan yang salah boleh mengelirukan."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang akibat memanipulasi skala dalam carta."
+      - level: 2
+        text: "Bagaimana perwakilan yang salah boleh menukar persepsi seseorang tentang data?"

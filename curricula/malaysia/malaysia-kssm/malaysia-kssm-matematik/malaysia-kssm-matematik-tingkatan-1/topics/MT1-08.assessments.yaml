@@ -1,0 +1,115 @@
+topic_id: MT1-08
+provenance: ai-generated
+
+questions:
+  # LO: Menentu dan menerangkan kekongruenan tembereng garis dan kekongruenan sudut.
+  - id: Q1
+    text: "Dua sudut pada satu garis lurus ialah $120^\\circ$ dan $60^\\circ$. Adakah sudut-sudut ini kongruen? Jelaskan jawapan anda."
+    difficulty: medium
+    learning_objective: 8.1.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Tidak, sudut-sudut ini tidak kongruen kerana mereka mempunyai ukuran yang berbeza."
+      working: |
+        Sudut kongruen mempunyai ukuran yang sama. Oleh kerana $120^\\circ \\neq 60^\\circ$, sudut-sudut ini tidak kongruen.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Memahami definisi sudut kongruen."
+      - marks: 1
+        criteria: "Menentukan bahawa sudut $120^\\circ$ dan $60^\\circ$ tidak kongruen."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Fikirkan tentang definisi sudut kongruen. Apakah syarat untuk dua sudut menjadi kongruen?"
+
+  # LO: Menyelesaikan masalah yang melibatkan sudut pelengkap, sudut penggenap dan sudut konjugat.
+  - id: Q2
+    text: "Jika sudut $A$ ialah $70^\\circ$, tentukan sudut konjugat kepada sudut $A$."
+    difficulty: medium
+    learning_objective: 8.1.5
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "290"
+      working: |
+        Sudut konjugat ialah $360^\\circ - 70^\\circ = 290^\\circ$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan formula sudut konjugat dengan betul."
+      - marks: 1
+        criteria: "Mengira nilai sudut konjugat dengan tepat."
+    hints:
+      - level: 1
+        text: "Apakah definisi sudut konjugat? Bagaimana ia berkaitan dengan $360^\\circ$?"
+
+  # LO: Menentukan nilai sudut yang berkaitan dengan garis bersilang apabila nilai sudut lain diberi.
+  - id: Q3
+    text: "Di dalam rajah, sudut $x$ bersebelahan dengan sudut $110^\\circ$. Hitung nilai sudut $x$."
+    difficulty: medium
+    learning_objective: 8.2.2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "70"
+      working: |
+        Sudut $x$ dan $110^\\circ$ adalah sudut bersebelahan yang menjumlahkan $180^\\circ$. Oleh itu, $x = 180^\\circ - 110^\\circ = 70^\\circ$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Memahami bahawa sudut bersebelahan menjumlahkan $180^\\circ$."
+      - marks: 1
+        criteria: "Mengira nilai sudut $x$ dengan betul."
+    hints:
+      - level: 1
+        text: "Ingat bahawa sudut bersebelahan pada garis lurus menjumlahkan $180^\\circ$."
+
+  # LO: Menentukan sama ada dua garis lurus adalah selari berdasarkan sifat-sifat sudut yang berkaitan dengan garis rentas lintang.
+  - id: Q4
+    text: "Diberi bahawa dua garis lurus dipotong oleh garis rentas lintang, dan sudut sepadan adalah $75^\\circ$ dan $105^\\circ$. Adakah garis-garis ini selari? Jelaskan."
+    difficulty: medium
+    learning_objective: 8.3.3
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "Tidak, garis-garis ini tidak selari kerana sudut sepadan tidak sama."
+      working: |
+        Sudut sepadan pada garis lurus selari adalah sama. Oleh kerana $75^\\circ \\neq 105^\\circ$, garis-garis ini tidak selari.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Memahami konsep sudut sepadan."
+      - marks: 1
+        criteria: "Mengetahui syarat sudut sepadan untuk garis selari."
+      - marks: 1
+        criteria: "Menentukan dengan betul bahawa garis-garis tidak selari."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Sudut sepadan pada garis selari mesti sama. Apa yang terjadi jika mereka tidak sama?"
+
+  # LO: Menyelesaikan masalah yang melibatkan sudut yang berkaitan dengan garis selari dan garis rentas lintang.
+  - id: Q5
+    text: "Dalam rajah, garis $AB$ dan $CD$ adalah selari dan dipotong oleh garis rentas lintang $EF$. Jika sudut $EFG = 120^\\circ$, cari nilai sudut $FGH$."
+    difficulty: medium
+    learning_objective: 8.3.6
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "60"
+      working: |
+        Sudut $EFG$ dan $FGH$ adalah sudut selang-seli yang menjumlahkan $180^\\circ$. Oleh itu, $FGH = 180^\\circ - 120^\\circ = 60^\\circ$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan sifat sudut selang-seli dengan betul."
+      - marks: 1
+        criteria: "Mengira nilai sudut $FGH$ dengan tepat."
+    hints:
+      - level: 1
+        text: "Apakah hubungan antara sudut selang-seli pada garis selari?"

@@ -1,0 +1,38 @@
+topic_id: MT1-09
+provenance: ai-generated
+description: "Worked examples for Poligon Asas"
+worked_examples:
+  - id: WE-01
+    topic: "Hubung Kait Sisi, Bucu dan Pepenjuru"
+    difficulty: easy
+    real_world_analogy: "Consider a playground slide with a ladder. The ladder, slide, and ground form a triangle."
+    misconception_alert: "Students often confuse the number of edges with the number of vertices."
+    scenario: "A triangle has 3 sides. How many vertices and diagonals does it have?"
+    working: |
+      Step 1: Identify the number of sides in the triangle, which is 3.
+      Step 2: Understand that a triangle, being a 3-sided polygon, has 3 vertices.
+      Step 3: Recognize that a triangle has no diagonals because all vertices are directly connected by the sides.
+      Step 4: Conclusion: The triangle has 3 vertices and 0 diagonals.
+
+  - id: WE-02
+    topic: "Melukis dan Menamakan Poligon"
+    difficulty: medium
+    real_world_analogy: "Imagine naming streets in a new neighborhood. Each street represents a side of the polygon."
+    misconception_alert: "Forgetting to label all vertices can lead to incorrect polygon naming."
+    scenario: "Draw a quadrilateral, label its vertices, and name it."
+    working: |
+      Step 1: Draw a four-sided shape on your paper.
+      Step 2: Label the vertices as A, B, C, and D in a clockwise or counterclockwise direction.
+      Step 3: Name the quadrilateral based on the labeled vertices: Quadrilateral ABCD.
+
+  - id: WE-03
+    topic: "Menghuraikan Sifat Geometri Sisi Empat"
+    difficulty: hard
+    real_world_analogy: "Think of a rectangular garden, where opposite sides must be equal for correct planting of rows."
+    misconception_alert: "Students may assume all sides must be equal for a shape to be a rectangle."
+    scenario: "Analyze the properties of a rectangle and classify it."
+    working: |
+      Step 1: Note that a rectangle is a quadrilateral with opposite sides being equal and all angles being 90 degrees.
+      Step 2: Verify all sides: Opposite sides are equal (lengths: AB = CD and AD = BC).
+      Step 3: Check all angles: Each angle is 90 degrees.
+      Step 4: Classify the shape: The given shape is confirmed as a rectangle based on its properties.

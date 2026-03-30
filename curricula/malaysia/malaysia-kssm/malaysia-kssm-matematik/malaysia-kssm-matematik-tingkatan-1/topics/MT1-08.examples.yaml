@@ -1,0 +1,36 @@
+topic_id: MT1-08
+provenance: ai-generated
+description: "Worked examples for Garis dan Sudut"
+worked_examples:
+  - id: WE-01
+    topic: "Kekongruenan Tembereng Garis"
+    difficulty: easy
+    real_world_analogy: "Think of two identical pieces of string; when placed one over the other, they appear as one."
+    misconception_alert: "Students often assume that lines are congruent if they appear visually similar, without measuring."
+    scenario: "Adik mempunyai dua batang kayu yang kelihatan sama panjang. Bagaimana Adik boleh memastikan kedua-dua batang kayu itu benar-benar sama panjang?"
+    working: |
+      Step 1: Letakkan kedua-dua batang kayu di atas satu sama lain.
+      Step 2: Perhatikan sama ada kedua-dua hujung batang kayu tersebut sejajar.
+      Step 3: Jika ya, ini bermakna kedua-dua batang kayu adalah kongruen.
+
+  - id: WE-02
+    topic: "Sudut Pelengkap dan Penggenap"
+    difficulty: medium
+    real_world_analogy: "A right angle is like a quarter slice of a pizza. Complementary angles complete it, while supplementary angles form a half pizza."
+    misconception_alert: "Students may confuse complementary angles (sum to 90°) with supplementary angles (sum to 180°)."
+    scenario: "Dalam sebuah bilik, terdapat dua sudut yang saling melengkapi. Jika salah satu sudut adalah 35°, berapakah nilai sudut yang satu lagi?"
+    working: |
+      Step 1: Kenal pasti bahawa sudut pelengkap jumlahnya adalah 90°.
+      Step 2: Tolak sudut yang diberi (35°) daripada 90°.
+      Step 3: 90° - 35° = 55°. Maka, nilai sudut yang satu lagi ialah 55°.
+
+  - id: WE-03
+    topic: "Garis Selari dan Garis Rentas Lintang"
+    difficulty: hard
+    real_world_analogy: "Imagine two train tracks running parallel; any crossroad will intersect them at the same angle."
+    misconception_alert: "Students might think that all intersecting lines with parallel lines are perpendicular, which is not the case unless specified."
+    scenario: "Dua jalan raya bergerak selari antara satu sama lain. Sebuah jalan yang merentasi kedua-dua jalan ini membentuk sudut 70° dengan salah satu jalan. Tentukan sudut yang terbentuk antara jalan rentas lintang dan jalan raya yang satu lagi."
+    working: |
+      Step 1: Ketahui bahawa sudut sepadan dalam garis selari dan rentas lintang adalah sama.
+      Step 2: Oleh kerana sudut antara jalan rentas lintang dan salah satu jalan raya ialah 70°, sudut sepadan dengan jalan yang satu lagi juga adalah 70°.
+      Step 3: Maka, sudut yang terbentuk antara jalan rentas lintang dan jalan raya yang satu lagi adalah 70°.

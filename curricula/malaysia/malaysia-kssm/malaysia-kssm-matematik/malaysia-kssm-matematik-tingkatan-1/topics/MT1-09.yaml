@@ -1,0 +1,80 @@
+id: MT1-09
+# official_ref: ""  # fill in if the source document assigns a chapter/section code
+name: "Poligon Asas"
+name_en: "Basic Polygons"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+learning_objectives:
+    - id: 9.1.1
+      text: "Menyatakan hubung kait antara bilangan sisi, bucu dan pepenjuru poligon."
+      text_en: "State the relationship between the number of sides, vertices, and diagonals of a polygon."
+      bloom: remember
+    - id: 9.1.2
+      text: "Melukis poligon, melabel bucu poligon dan menamakan poligon tersebut berdasarkan bucu yang telah dilabel."
+      text_en: "Draw polygons, label the vertices of polygons, and name the polygons based on the labeled vertices."
+      bloom: apply
+    - id: 9.2.1
+      text: "Mengenal dan menyenaraikan sifat geometri bagi pelbagai jenis segi tiga. Seterusnya mengkelaskan segi tiga berdasarkan sifat geometri."
+      text_en: "Recognize and list the geometric properties of various types of triangles. Then classify triangles based on geometric properties."
+      bloom: analyze
+    - id: 9.2.2
+      text: "Membuat dan mengesahkan konjektur tentang (i) hasil tambah sudut pedalaman, (ii) hasil tambah sudut pedalaman dan sudut peluaran bersebelahan, (iii) hubungan antara sudut peluaran dan hasil tambah sudut pedalaman yang bertentangan suatu segi tiga."
+      text_en: "Make and verify conjectures about (i) the sum of interior angles, (ii) the sum of interior angles and adjacent exterior angles, (iii) the relationship between exterior angle and the sum of opposite interior angles of a triangle."
+      bloom: evaluate
+    - id: 9.2.3
+      text: "Menyelesaikan masalah yang melibatkan segi tiga."
+      text_en: "Solve problems involving triangles."
+      bloom: apply
+    - id: 9.3.1
+      text: "Menghuraikan sifat geometri bagi pelbagai jenis sisi empat. Seterusnya mengkelaskan sisi empat berdasarkan sifat geometri."
+      text_en: "Describe the geometric properties of various types of quadrilaterals. Then classify quadrilaterals based on geometric properties."
+      bloom: analyze
+    - id: 9.3.2
+      text: "Membuat dan mengesahkan konjektur tentang (i) hasil tambah sudut pedalaman suatu sisi empat, (ii) hasil tambah sudut pedalaman dan sudut peluaran bersebelahan suatu sisi empat, dan (iii) hubungan antara sudut yang bertentangan dalam segi empat selari."
+      text_en: "Make and verify conjectures about (i) the sum of interior angles of a quadrilateral, (ii) the sum of interior angles and adjacent exterior angles of a quadrilateral, and (iii) the relationship between opposite angles in a parallelogram."
+      bloom: evaluate
+    - id: 9.3.3
+      text: "Menyelesaikan masalah yang melibatkan sisi empat."
+      text_en: "Solve problems involving quadrilaterals."
+      bloom: apply
+    - id: 9.3.4
+      text: "Menyelesaikan masalah yang melibatkan gabungan segi tiga dan sisi empat."
+      text_en: "Solve problems involving the combination of triangles and quadrilaterals."
+      bloom: apply
+prerequisites:
+    required: []
+bloom_levels:
+    - remember
+    - apply
+    - analyze
+    - evaluate
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-03-29T23:18:08Z"
+assessments_file: MT1-09.assessments.yaml
+ai_teaching_notes: MT1-09.teaching.md
+teaching:
+    sequence:
+        - 'Step 1: Introduce basic polygons and their properties using physical models (15 min)'
+        - 'Step 2: Discuss types of triangles and classify them using a chart (20 min)'
+        - 'Step 3: Explore quadrilaterals and their characteristics with digital apps (25 min)'
+    common_misconceptions:
+        - misconception: All polygons are regular
+          remediation: Show diverse examples of irregular polygons
+        - misconception: Triangles can have four angles
+          remediation: Reinforce triangle definition with clear visuals
+engagement_hooks:
+    - Relate polygons to traffic signs and tiles
+    - Discuss the use of triangles in engineering and architecture
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+examples_file: MT1-09.examples.yaml

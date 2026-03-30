@@ -1,0 +1,111 @@
+id: MT1-08
+name: "Garis dan Sudut"
+name_en: "Lines and Angles"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+learning_objectives:
+    - id: 8.1.1
+      text: "Menentu dan menerangkan kekongruenan tembereng garis dan kekongruenan sudut."
+      text_en: "Determine and explain the congruence of line segments and angles."
+      bloom: understand
+    - id: 8.1.2
+      text: "Menganggar dan mengukur saiz tembereng garis dan sudut serta menerangkan cara anggaran diperoleh."
+      text_en: "Estimate and measure the size of line segments and angles and explain how the estimation is obtained."
+      bloom: apply
+    - id: 8.1.3
+      text: "Mengenal, membanding beza dan menerangkan sifat sudut pada garis lurus, sudut refleks, dan sudut putaran lengkap."
+      text_en: "Identify, compare and explain the properties of angles on a straight line, reflex angles, and full rotation angles."
+      bloom: understand
+    - id: 8.1.4
+      text: "Memerihalkan sifat sudut pelengkap, sudut penggenap dan sudut konjugat."
+      text_en: "Describe the properties of complementary angles, supplementary angles, and conjugate angles."
+      bloom: understand
+    - id: 8.1.5
+      text: "Menyelesaikan masalah yang melibatkan sudut pelengkap, sudut penggenap dan sudut konjugat."
+      text_en: "Solve problems involving complementary angles, supplementary angles, and conjugate angles."
+      bloom: apply
+    - id: 8.1.6
+      text: "Membina (i) tembereng garis, (ii) pembahagi dua sama serenjang suatu tembereng garis, (iii) garis serenjang kepada suatu garis lurus, (iv) garis selari dan menerangkan rasional langkah-langkah pembinaan."
+      text_en: "Construct (i) line segments, (ii) perpendicular bisector of a line segment, (iii) perpendicular lines to a straight line, (iv) parallel lines and explain the rationale of the construction steps."
+      bloom: create
+    - id: 8.1.7
+      text: "Membina sudut dan pembahagi dua sama sudut serta menerangkan rasional langkah-langkah pembinaan."
+      text_en: "Construct angles and angle bisectors and explain the rationale of the construction steps."
+      bloom: create
+    - id: 8.2.1
+      text: "Mengenal pasti, menerangkan dan melukis sudut bertentang bucu dan sudut bersebelahan pada garis bersilang, termasuk garis serenjang."
+      text_en: "Identify, explain and draw vertically opposite angles and adjacent angles on intersecting lines, including perpendicular lines."
+      bloom: understand
+    - id: 8.2.2
+      text: "Menentukan nilai sudut yang berkaitan dengan garis bersilang apabila nilai sudut lain diberi."
+      text_en: "Determine the value of angles related to intersecting lines when other angles are given."
+      bloom: apply
+    - id: 8.2.3
+      text: "Menyelesaikan masalah yang melibatkan sudut yang berkaitan dengan garis bersilang."
+      text_en: "Solve problems involving angles related to intersecting lines."
+      bloom: apply
+    - id: 8.3.1
+      text: "Mengenal, menerangkan dan melukis garis selari dan garis rentas lintang."
+      text_en: "Identify, explain and draw parallel lines and transversals."
+      bloom: understand
+    - id: 8.3.2
+      text: "Mengenal, menerangkan dan melukis sudut sepadan, sudut selang-seli dan sudut pedalaman."
+      text_en: "Identify, explain and draw corresponding angles, alternate angles, and interior angles."
+      bloom: understand
+    - id: 8.3.3
+      text: "Menentukan sama ada dua garis lurus adalah selari berdasarkan sifat-sifat sudut yang berkaitan dengan garis rentas lintang."
+      text_en: "Determine whether two straight lines are parallel based on the properties of angles related to transversals."
+      bloom: analyze
+    - id: 8.3.4
+      text: "Menentukan nilai sudut yang berkaitan dengan garis selari dan garis rentas lintang apabila nilai sudut lain diberi."
+      text_en: "Determine the value of angles related to parallel lines and transversals when other angles are given."
+      bloom: apply
+    - id: 8.3.5
+      text: "Mengenal dan mewakilkan sudut dongak dan sudut tunduk dalam situasi kehidupan sebenar."
+      text_en: "Identify and represent angles of elevation and angles of depression in real-life situations."
+      bloom: understand
+    - id: 8.3.6
+      text: "Menyelesaikan masalah yang melibatkan sudut yang berkaitan dengan garis selari dan garis rentas lintang."
+      text_en: "Solve problems involving angles related to parallel lines and transversals."
+      bloom: apply
+prerequisites:
+    required: []
+bloom_levels:
+    - understand
+    - apply
+    - create
+    - analyze
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-03-29T23:18:08Z"
+assessments_file: MT1-08.assessments.yaml
+ai_teaching_notes: MT1-08.teaching.md
+examples_file: MT1-08.examples.yaml
+teaching:
+    sequence:
+        - 'Step 1: Introduce basic line and angle terminology and congruence (20 min)'
+        - 'Step 2: Guide students in measuring line segments and angles using tools (25 min)'
+        - 'Step 3: Explore angle properties and types through interactive activities (30 min)'
+        - 'Step 4: Construct line segments and angles using geometric tools (30 min)'
+        - 'Step 5: Solve problems involving complementary and supplementary angles (25 min)'
+    common_misconceptions:
+        - misconception: All angles are measured from the top of the protractor.
+          remediation: Demonstrate using both scales and practice with various angles.
+        - misconception: Congruent angles have to be in the same orientation.
+          remediation: Use physical manipulatives to show angles in different orientations.
+engagement_hooks:
+    - Discuss the role of angles in the stability and design of the Petronas Towers.
+    - Explore how lines and angles are used in traditional batik patterns.
+    - Investigate how angles are crucial in road design and traffic management.
+    - Examine the use of angles in sports strategies, such as in football or badminton.
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5

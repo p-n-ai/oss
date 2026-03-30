@@ -1,0 +1,129 @@
+topic_id: MT1-10
+provenance: ai-generated
+
+questions:
+  # Learning Objective 10.1.1: Menentukan perimeter pelbagai bentuk apabila panjang sisi diberi atau perlu diukur
+  - id: Q1
+    text: "Sebuah taman berbentuk segi empat tepat mempunyai panjang 20 meter dan lebar 15 meter. Hitung perimeter taman tersebut."
+    difficulty: medium
+    learning_objective: 10.1.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "70"
+      working: |
+        Perimeter sebuah segi empat tepat dikira dengan formula $P = 2(l + w)$, di mana $l$ adalah panjang dan $w$ adalah lebar.
+        Oleh itu, perimeter = $2(20 + 15) = 2(35) = 70$ meter.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan formula perimeter dengan betul."
+      - marks: 1
+        criteria: "Mengira perimeter dengan tepat."
+    hints:
+      - level: 1
+        text: "Gunakan formula perimeter untuk segi empat tepat: $P = 2(l + w)$."
+      - level: 2
+        text: "Tambah panjang dan lebar dahulu sebelum didarab dengan 2."
+
+  # Learning Objective 10.1.3: Menyelesaikan masalah yang melibatkan perimeter
+  - id: Q2
+    text: "Sebuah padang berbentuk segitiga sama sisi mempunyai perimeter 60 meter. Tentukan panjang setiap sisinya."
+    difficulty: medium
+    learning_objective: 10.1.3
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "20"
+      working: |
+        Untuk segitiga sama sisi, semua sisi adalah sama panjang. Oleh itu, jika perimeter ialah 60 meter, panjang setiap sisi ialah $60 \div 3 = 20$ meter.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengetahui bahawa segitiga sama sisi mempunyai sisi yang sama panjang."
+      - marks: 1
+        criteria: "Mengira panjang setiap sisi dengan tepat."
+    hints:
+      - level: 1
+        text: "Segitiga sama sisi mempunyai tiga sisi yang sama panjang."
+      - level: 2
+        text: "Bahagikan perimeter dengan 3 untuk mendapatkan panjang setiap sisi."
+
+  # Learning Objective 10.2.2: Menerbitkan rumus luas segi tiga, segi empat selari, lelayang dan trapezium berdasarkan luas segi empat tepat
+  - id: Q3
+    text: "Diberi bahawa luas segi empat tepat adalah $lw$. Terbitkan rumus luas untuk sebuah lelayang."
+    difficulty: medium
+    learning_objective: 10.2.2
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Luas lelayang ialah setengah hasil darab kedua-dua diagonalnya: $\\frac{1}{2}d_1d_2$."
+      working: |
+        Luas lelayang boleh diterbitkan dengan membahagikannya kepada dua segitiga yang sama, di mana setiap segitiga mempunyai luas $\\frac{1}{2} \\times \\text{base} \\times \\text{height}$. Oleh itu, luas lelayang ialah $\\frac{1}{2} \\times d_1 \\times d_2$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti bahawa lelayang boleh dibahagikan kepada dua segitiga sama."
+      - marks: 1
+        criteria: "Menggunakan konsep luas segi tiga untuk mendapatkan formula."
+      - marks: 1
+        criteria: "Menyatakan formula luas lelayang dengan tepat."
+    hints:
+      - level: 1
+        text: "Lelayang boleh dibahagikan kepada dua segitiga yang sama."
+      - level: 2
+        text: "Gunakan rumus luas segitiga: $\\frac{1}{2} \\times \\text{base} \\times \\text{height}$."
+
+  # Learning Objective 10.3.1: Membuat dan mengesahkan konjektur tentang perkaitan antara perimeter dan luas
+  - id: Q4
+    text: "Jika perimeter dua segi empat sama adalah sama, adakah luasnya juga pasti sama? Berikan penjelasan anda."
+    difficulty: medium
+    learning_objective: 10.3.1
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "Ya, kerana segi empat sama mempunyai sisi yang sama panjang, jika perimeter sama, luas juga pasti sama."
+      working: |
+        Dalam segi empat sama, semua sisi adalah sama panjang. Jika perimeter dua segi empat sama adalah sama, maka setiap sisi juga sama panjang. Oleh itu, luas kedua-dua segi empat sama adalah sama.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengaitkan sifat segi empat sama dengan perimeter dan luas."
+      - marks: 1
+        criteria: "Menyatakan hubungan antara perimeter dan luas dengan jelas."
+    hints:
+      - level: 1
+        text: "Pertimbangkan sifat unik segi empat sama."
+      - level: 2
+        text: "Jika semua sisi adalah sama panjang, bagaimana dengan luasnya?"
+
+  # Learning Objective 10.3.2: Menyelesaikan masalah yang melibatkan perimeter dan luas segi tiga, segi empat tepat, segi empat sama, segi empat selari, lelayang, trapezium dan gabungan bentuk-bentuk tersebut
+  - id: Q5
+    text: "Sebuah taman berbentuk trapezium mempunyai panjang tapak atas 10 meter, panjang tapak bawah 16 meter, dan tinggi 5 meter. Hitung luas taman tersebut."
+    difficulty: medium
+    learning_objective: 10.3.2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "65"
+      working: |
+        Luas trapezium dikira dengan rumus $A = \\frac{1}{2} \\times (b_1 + b_2) \\times h$, di mana $b_1$ dan $b_2$ adalah panjang tapak dan $h$ adalah tinggi.
+        Oleh itu, $A = \\frac{1}{2} \\times (10 + 16) \\times 5 = \\frac{1}{2} \\times 26 \\times 5 = 65$ meter persegi.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan rumus luas trapezium dengan betul."
+      - marks: 1
+        criteria: "Mengira jumlah panjang tapak dengan tepat."
+      - marks: 1
+        criteria: "Mengira luas dengan tepat."
+    hints:
+      - level: 1
+        text: "Gunakan rumus luas untuk trapezium: $A = \\frac{1}{2} \\times (b_1 + b_2) \\times h$."
+      - level: 2
+        text: "Tambahkan panjang tapak atas dan tapak bawah sebelum didarab dengan tinggi."

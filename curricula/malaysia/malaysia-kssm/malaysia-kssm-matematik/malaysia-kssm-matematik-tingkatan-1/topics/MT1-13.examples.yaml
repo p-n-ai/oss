@@ -1,0 +1,38 @@
+topic_id: MT1-13
+provenance: ai-generated
+description: "Worked examples for Teorem Pythagoras"
+worked_examples:
+  - id: WE-01
+    topic: "Mengenal pasti dan mendefinisikan hipotenus"
+    difficulty: easy
+    real_world_analogy: "Memikirkan hipotenus sebagai jalan terpendek menyeberangi padang dari satu sudut ke sudut bertentangan."
+    misconception_alert: "Sering kali, pelajar keliru mengenal pasti hipotenus dan menganggap sisi terpanjang adalah salah satu sisi tegak."
+    scenario: "Ahmad berdiri di satu sudut padang segi tiga bersudut tegak dan ingin menyeberang ke sudut bertentangan. Tentukan jalan terpendek yang Ahmad perlu ambil."
+    working: |
+      Step 1: Kenal pasti segi tiga bersudut tegak dan tentukan hipotenus sebagai sisi terpanjang.
+      Step 2: Dalam segi tiga bersudut tegak, sisi yang bertentangan dengan sudut tegak adalah hipotenus.
+      Step 3: Jalan terpendek untuk Ahmad adalah sepanjang hipotenus, iaitu sisi AB dalam segi tiga ABC bersudut tegak.
+
+  - id: WE-02
+    topic: "Menentukan panjang sisi yang tidak diketahui"
+    difficulty: medium
+    real_world_analogy: "Bayangkan menyusun jubin berbentuk segi tiga di lantai dan perlu mengukur sisi yang hilang untuk melengkapkan susunan."
+    misconception_alert: "Kesilapan biasa ialah menggunakan formula yang salah atau mengelirukan sisi yang diketahui dan tidak diketahui."
+    scenario: "Sebuah papan segi tiga bersudut tegak mempunyai sisi-sisi sepanjang 3 meter dan 4 meter. Cari panjang sisi yang tidak diketahui."
+    working: |
+      Step 1: Kenal pasti sisi segi tiga. Sisi 3 meter dan 4 meter adalah sisi tegak.
+      Step 2: Gunakan Teorem Pythagoras: c^2 = a^2 + b^2, di mana c adalah hipotenus.
+      Step 3: Gantikan nilai: c^2 = 3^2 + 4^2 = 9 + 16 = 25.
+      Step 4: Cari panjang hipotenus: c = √25 = 5 meter.
+
+  - id: WE-03
+    topic: "Menentukan sama ada suatu segi tiga adalah segi tiga bersudut tegak"
+    difficulty: hard
+    real_world_analogy: "Menguji sama ada sudut yang dibuat oleh tiga kayu adalah tepat 90 darjah untuk memastikan ia boleh dijadikan rangka pintu."
+    misconception_alert: "Pelajar kadang-kala mengabaikan langkah memeriksa semua pasangan panjang sisi dan terus membuat kesimpulan."
+    scenario: "Untuk memastikan rangka pintu yang betul, anda mempunyai tiga kayu sepanjang 6m, 8m, dan 10m. Adakah ini membentuk segi tiga bersudut tegak?"
+    working: |
+      Step 1: Urutkan panjang sisi dari terpendek ke terpanjang: 6m, 8m, 10m.
+      Step 2: Gunakan akas Teorem Pythagoras untuk memeriksa: 10^2 = 6^2 + 8^2.
+      Step 3: Hitung dan bandingkan: 100 = 36 + 64, 100 = 100.
+      Step 4: Oleh kerana persamaan benar, kayu tersebut membentuk segi tiga bersudut tegak.

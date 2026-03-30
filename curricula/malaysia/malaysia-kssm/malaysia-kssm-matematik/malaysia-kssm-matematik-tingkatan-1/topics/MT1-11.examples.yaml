@@ -1,0 +1,36 @@
+topic_id: MT1-11
+provenance: ai-generated
+description: "Worked examples for Pengenalan Set"
+worked_examples:
+  - id: WE-01
+    topic: "Understanding Set Description and Enumeration"
+    difficulty: easy
+    real_world_analogy: "Think of a set like a collection of books on a shelf. Each book is an element of the set."
+    misconception_alert: "Students often think that order matters in a set, but it does not."
+    scenario: "Ali has a set of fruits consisting of apples and oranges. Describe the set using enumeration and set-builder notation."
+    working: |
+      Step 1: Identify the elements of the set, which are apples and oranges.
+      Step 2: Use enumeration to list the set: {apple, orange}.
+      Step 3: Use set-builder notation to describe the set: {x | x is a fruit in Ali's collection}.
+
+  - id: WE-02
+    topic: "Identifying Elements and the Universal Set"
+    difficulty: medium
+    real_world_analogy: "Consider the universal set as a whole classroom and a subset as a group of students who wear glasses."
+    misconception_alert: "Some students confuse an element of a set with a subset. An element is a single item; a subset is a set within a set."
+    scenario: "In a school, the universal set consists of all students. Set A consists of students who play football. Determine if 'John' is an element of Set A. Represent the universal set and Set A using a Venn diagram."
+    working: |
+      Step 1: Determine if 'John' is a football player. If yes, then John ∈ A; otherwise, John ∉ A.
+      Step 2: Represent the universal set U (all students) and Set A (football players) with a Venn diagram. Draw a rectangle for U and a circle inside it for A.
+      Step 3: Place 'John' inside the circle if he is in Set A, otherwise outside the circle but within the rectangle for U.
+
+  - id: WE-03
+    topic: "Comparing Sets and Subsets"
+    difficulty: hard
+    real_world_analogy: "Imagine two drawers of socks. Each drawer represents a set, and the socks within can show if the drawers have the same contents."
+    misconception_alert: "Students often think that two sets are different if their elements are listed in a different order."
+    scenario: "Set B = {1, 2, 3} and Set C = {3, 2, 1}. Are these sets equal? Also, identify if Set D = {1, 2} is a subset of Set B and Set C."
+    working: |
+      Step 1: Compare elements of Set B and Set C. Since they contain the same elements, Set B = Set C.
+      Step 2: Check if each element of Set D is in Set B and Set C.
+      Step 3: Since 1 and 2 are in both Set B and Set C, Set D ⊆ Set B and Set D ⊆ Set C.

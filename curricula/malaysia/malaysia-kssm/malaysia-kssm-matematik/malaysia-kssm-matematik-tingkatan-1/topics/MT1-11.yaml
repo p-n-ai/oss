@@ -1,0 +1,87 @@
+id: MT1-11
+# official_ref: ""  # fill in if the source document assigns a chapter/section code
+name: "Pengenalan Set"
+name_en: "Introduction to Sets"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+learning_objectives:
+    - id: "11.1.1"
+      text: "Menerangkan maksud set."
+      text_en: "Explain the meaning of set."
+      bloom: understand
+    - id: "11.1.2"
+      text: "Menghuraikan suatu set dengan menggunakan: (i) perihalan, (ii) penyenaraian, dan (iii) tatatanda pembina set."
+      text_en: "Describe a set using: (i) description, (ii) listing, and (iii) set-builder notation."
+      bloom: understand
+    - id: "11.1.3"
+      text: "Mengenal pasti sama ada suatu objek adalah unsur kepada suatu set dan mewakilkan hubungan tersebut dengan simbol."
+      text_en: "Identify whether an object is an element of a set and represent the relationship with symbols."
+      bloom: remember
+    - id: "11.1.4"
+      text: "Menentukan bilangan unsur bagi suatu set dan mewakilkan bilangan unsur dengan simbol."
+      text_en: "Determine the number of elements in a set and represent the number of elements with a symbol."
+      bloom: apply
+    - id: "11.1.5"
+      text: "Membanding beza dan menerangkan sama ada dua atau lebih set adalah sama, dan seterusnya membuat generalisasi tentang kesamaan set."
+      text_en: "Compare and explain whether two or more sets are equal, and then make a generalization about the equality of sets."
+      bloom: analyze
+    - id: "11.2.1"
+      text: "Mengenal pasti dan menghuraikan set semesta dan pelengkap bagi suatu set."
+      text_en: "Identify and describe the universal set and the complement of a set."
+      bloom: understand
+    - id: "11.2.2"
+      text: "Mewakilkan (i) hubungan suatu set dengan set semesta, dan (ii) pelengkap bagi suatu set dengan gambar rajah Venn."
+      text_en: "Represent (i) the relationship of a set with the universal set, and (ii) the complement of a set with Venn diagrams."
+      bloom: apply
+    - id: "11.2.3"
+      text: "Mengenal pasti dan menghuraikan subset yang mungkin bagi suatu set."
+      text_en: "Identify and describe possible subsets of a set."
+      bloom: understand
+    - id: "11.2.4"
+      text: "Mewakilkan suatu subset dengan gambar rajah Venn."
+      text_en: "Represent a subset with a Venn diagram."
+      bloom: apply
+    - id: "11.2.5"
+      text: "Mewakilkan perkaitan antara set, subset, set semesta dan pelengkap bagi suatu set dengan gambar rajah Venn."
+      text_en: "Represent the relationship between set, subset, universal set, and complement of a set with Venn diagrams."
+      bloom: apply
+prerequisites:
+    required: []
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+ai_teaching_notes: MT1-11.teaching.md
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-03-29T23:18:08Z"
+assessments_file: MT1-11.assessments.yaml
+teaching:
+    sequence:
+        - 'Step 1: Introduction to the concept of sets using everyday examples (15 min)'
+        - 'Step 2: Describe sets using descriptions, listings, and set builder notation (20 min)'
+        - 'Step 3: Identify elements within a set and use symbols to represent them (15 min)'
+        - 'Step 4: Determine set equality and calculate number of elements (20 min)'
+        - 'Step 5: Explore universal sets and complements with classroom examples (20 min)'
+        - 'Step 6: Explain subsets and use Venn diagrams for representation (20 min)'
+    common_misconceptions:
+        - misconception: Students think sets can be ordered like lists
+          remediation: Reinforce the unordered nature of sets through repeated examples
+        - misconception: All elements must be numbers
+          remediation: Use varied examples like letters or objects to illustrate diversity in sets
+engagement_hooks:
+    - Create sets using items from a local market or grocery store
+    - Discuss the set of favorite sports or hobbies in the class to create relatable examples
+examples_file: MT1-11.examples.yaml

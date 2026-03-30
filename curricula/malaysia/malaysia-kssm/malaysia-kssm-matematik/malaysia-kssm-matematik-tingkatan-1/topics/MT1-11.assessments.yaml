@@ -1,0 +1,119 @@
+topic_id: MT1-11
+provenance: ai-generated
+
+questions:
+  # Learning Objective 11.1.1
+  - id: Q1
+    text: "Jelaskan maksud 'set' dalam konteks matematik."
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Set adalah kumpulan objek yang mempunyai sifat yang sama dan dinyatakan dengan jelas."
+      working: |
+        Set is defined as a collection of distinct objects, considered as an object in its own right. For example, the numbers 1, 2, 3 are distinct objects when considered separately, but when they are considered collectively as the set {1, 2, 3}, they form a single object.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Jawapan lengkap dengan huraian yang tepat tentang set."
+      - marks: 1
+        criteria: "Jawapan ada tetapi kurang huraian atau kurang tepat."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang kumpulan objek yang mempunyai ciri atau sifat yang sama."
+
+  # Learning Objective 11.1.2
+  - id: Q2
+    text: "Nyatakan set A yang terdiri daripada nombor ganjil kurang dari 10 dengan menggunakan: (i) perihalan, (ii) penyenaraian, dan (iii) tatatanda pembina set."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "(i) Set A terdiri daripada nombor-nombor ganjil kurang dari 10. (ii) A = {1, 3, 5, 7, 9}. (iii) A = \\{ x \\mid x \\text{ adalah nombor ganjil }, x < 10 \\}."
+      working: |
+        (i) Perihalan: Set A terdiri daripada nombor-nombor ganjil kurang dari 10.
+        (ii) Penyenaraian: A = {1, 3, 5, 7, 9}.
+        (iii) Tatatanda pembina set: A = \\{ x \\mid x \\text{ adalah nombor ganjil }, x < 10 \\}.
+    marks: 3
+    rubric:
+      - marks: 3
+        criteria: "Menjawab dengan betul semua tiga cara."
+      - marks: 2
+        criteria: "Menjawab dengan betul dua dari tiga cara."
+      - marks: 1
+        criteria: "Menjawab dengan betul salah satu cara."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Pastikan nombor yang disenaraikan adalah ganjil."
+      - level: 2
+        text: "Cuba mulakan dengan menulis nombor ganjil yang kurang dari 10."
+
+  # Learning Objective 11.1.4
+  - id: Q3
+    text: "Set B = \\{2, 4, 6, 8, 10\\}. Tentukan bilangan unsur dalam set B."
+    difficulty: medium
+    learning_objective: LO4
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "5"
+      working: |
+        Set B = \\{2, 4, 6, 8, 10\\} mempunyai 5 unsur, iaitu 2, 4, 6, 8, dan 10.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Jawapan yang betul dengan bilangan unsur yang tepat."
+    hints:
+      - level: 1
+        text: "Kira berapa banyak nombor dalam set B."
+
+  # Learning Objective 11.1.5
+  - id: Q4
+    text: "Bandingkan set X = \\{a, b, c\\} dan set Y = \\{c, a, b\\}. Adakah kedua-dua set ini sama? Jelaskan."
+    difficulty: medium
+    learning_objective: LO5
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Ya, kedua-dua set adalah sama kerana mereka mengandungi unsur yang sama walaupun dalam susunan yang berbeza."
+      working: |
+        Set X = \\{a, b, c\\} dan Y = \\{c, a, b\\} mengandungi unsur yang sama: a, b, dan c. Dalam set, susunan tidak penting, jadi kedua-dua set adalah sama.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Jawapan lengkap dengan penjelasan yang betul tentang kesamaan set."
+      - marks: 1
+        criteria: "Jawapan betul tetapi penjelasan kurang tepat."
+    hints:
+      - level: 1
+        text: "Ingat, dalam set, susunan unsur tidak mempengaruhi kesamaan set."
+      - level: 2
+        text: "Bandingkan unsur dalam kedua-dua set secara individu."
+
+  # Learning Objective 11.2.1
+  - id: Q5
+    text: "Diberi set semesta U = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\} dan set A = \\{1, 3, 5, 7\\}. Huraikan pelengkap bagi set A."
+    difficulty: medium
+    learning_objective: LO2.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Pelengkap bagi set A ialah \\{2, 4, 6, 8, 9\\}."
+      working: |
+        Pelengkap bagi set A terdiri daripada semua unsur dalam set semesta U yang tidak termasuk dalam A. Oleh itu, pelengkap bagi A adalah \\{2, 4, 6, 8, 9\\}.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Jawapan betul dengan semua unsur pelengkap disenaraikan."
+      - marks: 1
+        criteria: "Jawapan betul tetapi ada unsur yang tertinggal atau ditambah."
+    hints:
+      - level: 1
+        text: "Cari unsur dalam U yang tidak terdapat dalam A."

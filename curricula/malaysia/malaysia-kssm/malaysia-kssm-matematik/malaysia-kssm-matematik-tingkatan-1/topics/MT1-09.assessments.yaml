@@ -1,0 +1,131 @@
+topic_id: MT1-09
+provenance: ai-generated
+
+questions:
+  # Learning Objective 9.1.1
+  - id: Q1
+    text: "Sebuah poligon mempunyai 8 sisi. Berapakah bilangan pepenjuru dalam poligon tersebut?"
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "20"
+      working: |
+        Formula untuk bilangan pepenjuru dalam poligon adalah $\frac{n(n-3)}{2}$ di mana $n$ ialah bilangan sisi.
+        Oleh itu, $\frac{8(8-3)}{2} = \frac{8 \times 5}{2} = 20$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menulis formula untuk bilangan pepenjuru."
+      - marks: 1
+        criteria: "Mengira bilangan pepenjuru dengan tepat."
+    hints:
+      - level: 1
+        text: "Ingat formula untuk bilangan pepenjuru: $\frac{n(n-3)}{2}$."
+      - level: 2
+        text: "Substitusi $n = 8$ ke dalam formula tersebut."
+
+  # Learning Objective 9.1.2
+  - id: Q2
+    text: "Lukis dan labelkan sebuah poligon dengan 6 bucu. Namakan poligon tersebut berdasarkan bucu yang telah dilabel."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Heksagon"
+      working: |
+        Mula dengan melukis 6 bucu yang bersambung.
+        Kemudian, labelkan bucu secara berturutan sebagai $A, B, C, D, E, F$.
+        Nama poligon berdasarkan bilangan bucu ialah Heksagon.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Lukis poligon dengan 6 bucu."
+      - marks: 1
+        criteria: "Labelkan bucu poligon dengan betul."
+      - marks: 1
+        criteria: "Menamakan poligon sebagai Heksagon."
+    hints:
+      - level: 1
+        text: "Mulakan dengan melukis bulatan dan tandakan 6 titik sekelilingnya."
+      - level: 2
+        text: "Label setiap bucu dari $A$ hingga $F$."
+
+  # Learning Objective 9.2.1
+  - id: Q3
+    text: "Klasifikasikan segi tiga berdasarkan sifat geometri jika ia mempunyai dua sisi sama panjang."
+    difficulty: medium
+    learning_objective: LO3
+    tp_level: 3
+    kbat: true
+    answer:
+      type: multiple_choice
+      value: "Segi tiga sama kaki"
+      working: |
+        Segi tiga dengan dua sisi sama panjang dikenali sebagai segi tiga sama kaki.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Mengklasifikasikan dengan betul sebagai segi tiga sama kaki."
+    hints:
+      - level: 1
+        text: "Segi tiga dengan dua sisi sama panjang mempunyai nama khusus."
+      - level: 2
+        text: "Ingat istilah 'sama kaki' untuk dua sisi yang sama."
+
+  # Learning Objective 9.2.3
+  - id: Q4
+    text: "Selesaikan masalah: Jika $AB = 5$ cm dan $AC = 7$ cm dalam segi tiga $ABC$, cari panjang $BC$ jika segi tiga itu segi tiga sama kaki."
+    difficulty: medium
+    learning_objective: LO4
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "5 cm"
+      working: |
+        Dalam segi tiga sama kaki, dua sisi adalah sama panjang.
+        Oleh itu, jika $AB = 5$ cm dan $AC = 7$ cm, maka $BC$ mesti sama dengan $AB$.
+        Oleh itu, panjang $BC$ adalah 5 cm.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menentukan dua sisi yang sama panjang dalam segi tiga sama kaki."
+      - marks: 1
+        criteria: "Mengira panjang $BC$ dengan betul."
+    hints:
+      - level: 1
+        text: "Dalam segi tiga sama kaki, dua sisi adalah sama panjang."
+      - level: 2
+        text: "Bandingkan panjang $AB$ dan $AC$."
+
+  # Learning Objective 9.3.3
+  - id: Q5
+    text: "Selesaikan masalah yang melibatkan sisi empat: Jika dalam sebuah trapezium, panjang dua sisi selari adalah 10 cm dan 6 cm, dan jarak antara sisi selari adalah 4 cm, cari luas trapezium tersebut."
+    difficulty: medium
+    learning_objective: LO5
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "32 cm^2"
+      working: |
+        Luas bagi trapezium boleh dikira dengan formula $\frac{1}{2} \times (a + b) \times h$, di mana $a$ dan $b$ adalah panjang sisi selari dan $h$ adalah jarak antara sisi selari.
+        Oleh itu, luas = $\frac{1}{2} \times (10 + 6) \times 4 = 32$ cm².
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menulis formula untuk luas trapezium."
+      - marks: 1
+        criteria: "Menjumlahkan panjang sisi selari dengan betul."
+      - marks: 1
+        criteria: "Mengira luas dengan betul."
+    hints:
+      - level: 1
+        text: "Ingat formula untuk luas trapezium: $\frac{1}{2} \times (a + b) \times h$."
+      - level: 2
+        text: "Substitusi nilai $a = 10$, $b = 6$, dan $h = 4$ ke dalam formula."
