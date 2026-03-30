@@ -1,0 +1,129 @@
+topic_id: MT1-03
+provenance: ai-generated
+
+questions:
+  # Learning Objective: 3.1.2 - Menentukan sama ada suatu nombor adalah kuasa dua sempurna
+  - id: Q1
+    text: "Adakah 144 adalah kuasa dua sempurna? Jelaskan jawapan anda."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "Ya, 144 adalah kuasa dua sempurna kerana $12^2 = 144$."
+      working: |
+        Untuk menentukan sama ada 144 adalah kuasa dua sempurna, kita perlu mencari nombor yang didarabkan dengan dirinya sendiri untuk mendapatkan 144.
+        Nombor tersebut adalah 12, kerana $12 \times 12 = 144$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menjawab 'Ya' tetapi tidak memberikan penjelasan yang lengkap."
+      - marks: 1
+        criteria: "Memberikan penjelasan yang lengkap dengan pengiraan yang betul."
+    hints:
+      - level: 1
+        text: "Cuba cari nombor yang jika didarabkan dengan dirinya sendiri menghasilkan 144."
+      - level: 2
+        text: "Pecahkan 144 kepada faktor-faktor asalnya untuk memudahkan pengiraan."
+
+  # Learning Objective: 3.1.9 - Mengemuka dan menyelesaikan masalah yang melibatkan kuasa dua dan punca kuasa dua
+  - id: Q2
+    text: "Jika panjang sisi sebuah segi empat sama adalah 7 cm, tentukan luas segi empat sama tersebut."
+    difficulty: medium
+    learning_objective: LO9
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "49 cm²"
+      working: |
+        Luas segi empat sama dikira dengan menggunakan formula: panjang sisi × panjang sisi.
+        Oleh itu, luas = $7 \times 7 = 49 \text{ cm}^2$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menentukan panjang sisi tetapi salah dalam pengiraan luas."
+      - marks: 1
+        criteria: "Mengira luas dengan betul menggunakan formula yang sesuai."
+    hints:
+      - level: 1
+        text: "Luas segi empat sama boleh didapati dengan mengkuasakan dua panjang sisinya."
+      - level: 2
+        text: "Ingat formula: luas = panjang sisi × panjang sisi."
+
+  # Learning Objective: 3.2.2 - Menentukan sama ada suatu nombor adalah kuasa tiga sempurna
+  - id: Q3
+    text: "Adakah 64 adalah kuasa tiga sempurna? Sertakan pengiraan anda."
+    difficulty: medium
+    learning_objective: LO12
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "Ya, 64 adalah kuasa tiga sempurna kerana $4^3 = 64$."
+      working: |
+        Untuk menentukan sama ada 64 adalah kuasa tiga sempurna, kita perlu mencari nombor yang didarabkan tiga kali dengan dirinya sendiri untuk mendapatkan 64.
+        Nombor tersebut adalah 4, kerana $4 \times 4 \times 4 = 64$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menjawab 'Ya' tanpa pengiraan yang betul."
+      - marks: 1
+        criteria: "Pengiraan yang betul dengan penjelasan yang lengkap."
+    hints:
+      - level: 1
+        text: "Cuba cari nombor yang jika didarabkan tiga kali dengan dirinya sendiri menghasilkan 64."
+      - level: 2
+        text: "Ingat bahawa kuasa tiga melibatkan pendaraban nombor dengan dirinya sendiri tiga kali."
+
+  # Learning Objective: 3.2.5 - Menentukan punca kuasa tiga suatu nombor tanpa menggunakan alat teknologi
+  - id: Q4
+    text: "Tentukan punca kuasa tiga bagi 27 tanpa menggunakan kalkulator."
+    difficulty: medium
+    learning_objective: LO15
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "3"
+      working: |
+        Punca kuasa tiga bagi 27 adalah nombor yang didarabkan tiga kali dengan dirinya sendiri untuk mendapatkan 27.
+        Oleh kerana $3 \times 3 \times 3 = 27$, maka punca kuasa tiga bagi 27 ialah 3.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan nombor yang salah tetapi menunjukkan pengiraan."
+      - marks: 1
+        criteria: "Pengiraan yang betul dan memberikan jawapan yang tepat."
+    hints:
+      - level: 1
+        text: "Cari nombor yang jika didarabkan tiga kali dengan dirinya sendiri menghasilkan 27."
+      - level: 2
+        text: "Ingat bahawa punca kuasa tiga adalah nombor yang didarabkan tiga kali dengan dirinya sendiri."
+
+  # Learning Objective: 3.2.7 - Menganggar kuasa tiga suatu nombor
+  - id: Q5
+    text: "Anggarkan nilai bagi $5^3$."
+    difficulty: medium
+    learning_objective: LO17
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "125"
+      working: |
+        Mengira $5^3$ melibatkan pendaraban 5 dengan dirinya sendiri sebanyak tiga kali.
+        Oleh itu, $5 \times 5 = 25$ dan kemudian $25 \times 5 = 125$.
+        Maka, $5^3 = 125$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengira $5^2$ dengan betul tetapi tidak menyelesaikan kuasa tiga."
+      - marks: 1
+        criteria: "Pengiraan yang lengkap dan memberikan jawapan yang tepat."
+    hints:
+      - level: 1
+        text: "Mulakan dengan menghitung $5 \times 5$ terlebih dahulu."
+      - level: 2
+        text: "Selepas mendapatkan $5^2$, darabkan hasilnya dengan 5 sekali lagi."

@@ -9,92 +9,107 @@ language: ms
 difficulty: beginner
 tier: core
 learning_objectives:
-  - id: 3.1.1
-    text: "Menerangkan maksud kuasa dua dan kuasa dua sempurna."
-    text_en: "Explain the meaning of square and perfect square."
-    bloom: understand
-  - id: 3.1.2
-    text: "Menentukan sama ada suatu nombor adalah kuasa dua sempurna."
-    text_en: "Determine whether a number is a perfect square."
-    bloom: apply
-  - id: 3.1.3
-    text: "Menyatakan hubungan antara kuasa dua dan punca kuasa dua."
-    text_en: "State the relationship between square and square root."
-    bloom: understand
-  - id: 3.1.4
-    text: "Menentukan kuasa dua suatu nombor tanpa dan dengan menggunakan alat teknologi."
-    text_en: "Determine the square of a number without and with the use of technological tools."
-    bloom: apply
-  - id: 3.1.5
-    text: "Menentukan punca kuasa dua suatu nombor tanpa menggunakan alat teknologi."
-    text_en: "Determine the square root of a number without using technological tools."
-    bloom: apply
-  - id: 3.1.6
-    text: "Menentukan punca kuasa dua suatu nombor positif dengan menggunakan alat teknologi."
-    text_en: "Determine the square root of a positive number using technological tools."
-    bloom: apply
-  - id: 3.1.7
-    text: "Menganggar (i) kuasa dua suatu nombor, (ii) punca kuasa dua suatu nombor."
-    text_en: "Estimate (i) the square of a number, (ii) the square root of a number."
-    bloom: apply
-  - id: 3.1.8
-    text: "Membuat generalisasi tentang pendaraban yang melibatkan (i) punca kuasa dua nombor yang sama, (ii) punca kuasa dua nombor yang berbeza."
-    text_en: "Make generalizations about multiplication involving (i) square roots of the same number, (ii) square roots of different numbers."
-    bloom: analyze
-  - id: 3.1.9
-    text: "Mengemuka dan menyelesaikan masalah yang melibatkan kuasa dua dan punca kuasa dua."
-    text_en: "Pose and solve problems involving squares and square roots."
-    bloom: apply
-  - id: 3.2.1
-    text: "Menerangkan maksud kuasa tiga dan kuasa tiga sempurna."
-    text_en: "Explain the meaning of cube and perfect cube."
-    bloom: understand
-  - id: 3.2.2
-    text: "Menentukan sama ada suatu nombor adalah kuasa tiga sempurna."
-    text_en: "Determine whether a number is a perfect cube."
-    bloom: apply
-  - id: 3.2.3
-    text: "Menyatakan hubungan antara kuasa tiga dan punca kuasa tiga."
-    text_en: "State the relationship between cube and cube root."
-    bloom: understand
-  - id: 3.2.4
-    text: "Menentukan kuasa tiga suatu nombor tanpa dan dengan menggunakan alat teknologi."
-    text_en: "Determine the cube of a number without and with the use of technological tools."
-    bloom: apply
-  - id: 3.2.5
-    text: "Menentukan punca kuasa tiga suatu nombor tanpa menggunakan alat teknologi."
-    text_en: "Determine the cube root of a number without using technological tools."
-    bloom: apply
-  - id: 3.2.6
-    text: "Menentukan punca kuasa tiga suatu nombor dengan menggunakan alat teknologi."
-    text_en: "Determine the cube root of a number using technological tools."
-    bloom: apply
-  - id: 3.2.7
-    text: "Menganggar (i) kuasa tiga suatu nombor, (ii) punca kuasa tiga suatu nombor."
-    text_en: "Estimate (i) the cube of a number, (ii) the cube root of a number."
-    bloom: apply
-  - id: 3.2.8
-    text: "Menyelesaikan masalah yang melibatkan kuasa tiga dan punca kuasa tiga."
-    text_en: "Solve problems involving cubes and cube roots."
-    bloom: apply
-  - id: 3.2.9
-    text: "Menjalankan pengiraan yang melibatkan penambahan, penolakan, pendaraban, pembahagian dan gabungan operasi tersebut ke atas kuasa dua, punca kuasa dua, kuasa tiga dan punca kuasa tiga."
-    text_en: "Perform calculations involving addition, subtraction, multiplication, division and combination of these operations on squares, square roots, cubes and cube roots."
-    bloom: apply
+    - id: 3.1.1
+      text: "Menerangkan maksud kuasa dua dan kuasa dua sempurna."
+      text_en: "Explain the meaning of square and perfect square."
+      bloom: understand
+    - id: 3.1.2
+      text: "Menentukan sama ada suatu nombor adalah kuasa dua sempurna."
+      text_en: "Determine whether a number is a perfect square."
+      bloom: apply
+    - id: 3.1.3
+      text: "Menyatakan hubungan antara kuasa dua dan punca kuasa dua."
+      text_en: "State the relationship between square and square root."
+      bloom: understand
+    - id: 3.1.4
+      text: "Menentukan kuasa dua suatu nombor tanpa dan dengan menggunakan alat teknologi."
+      text_en: "Determine the square of a number without and with the use of technological tools."
+      bloom: apply
+    - id: 3.1.5
+      text: "Menentukan punca kuasa dua suatu nombor tanpa menggunakan alat teknologi."
+      text_en: "Determine the square root of a number without using technological tools."
+      bloom: apply
+    - id: 3.1.6
+      text: "Menentukan punca kuasa dua suatu nombor positif dengan menggunakan alat teknologi."
+      text_en: "Determine the square root of a positive number using technological tools."
+      bloom: apply
+    - id: 3.1.7
+      text: "Menganggar (i) kuasa dua suatu nombor, (ii) punca kuasa dua suatu nombor."
+      text_en: "Estimate (i) the square of a number, (ii) the square root of a number."
+      bloom: apply
+    - id: 3.1.8
+      text: "Membuat generalisasi tentang pendaraban yang melibatkan (i) punca kuasa dua nombor yang sama, (ii) punca kuasa dua nombor yang berbeza."
+      text_en: "Make generalizations about multiplication involving (i) square roots of the same number, (ii) square roots of different numbers."
+      bloom: analyze
+    - id: 3.1.9
+      text: "Mengemuka dan menyelesaikan masalah yang melibatkan kuasa dua dan punca kuasa dua."
+      text_en: "Pose and solve problems involving squares and square roots."
+      bloom: apply
+    - id: 3.2.1
+      text: "Menerangkan maksud kuasa tiga dan kuasa tiga sempurna."
+      text_en: "Explain the meaning of cube and perfect cube."
+      bloom: understand
+    - id: 3.2.2
+      text: "Menentukan sama ada suatu nombor adalah kuasa tiga sempurna."
+      text_en: "Determine whether a number is a perfect cube."
+      bloom: apply
+    - id: 3.2.3
+      text: "Menyatakan hubungan antara kuasa tiga dan punca kuasa tiga."
+      text_en: "State the relationship between cube and cube root."
+      bloom: understand
+    - id: 3.2.4
+      text: "Menentukan kuasa tiga suatu nombor tanpa dan dengan menggunakan alat teknologi."
+      text_en: "Determine the cube of a number without and with the use of technological tools."
+      bloom: apply
+    - id: 3.2.5
+      text: "Menentukan punca kuasa tiga suatu nombor tanpa menggunakan alat teknologi."
+      text_en: "Determine the cube root of a number without using technological tools."
+      bloom: apply
+    - id: 3.2.6
+      text: "Menentukan punca kuasa tiga suatu nombor dengan menggunakan alat teknologi."
+      text_en: "Determine the cube root of a number using technological tools."
+      bloom: apply
+    - id: 3.2.7
+      text: "Menganggar (i) kuasa tiga suatu nombor, (ii) punca kuasa tiga suatu nombor."
+      text_en: "Estimate (i) the cube of a number, (ii) the cube root of a number."
+      bloom: apply
+    - id: 3.2.8
+      text: "Menyelesaikan masalah yang melibatkan kuasa tiga dan punca kuasa tiga."
+      text_en: "Solve problems involving cubes and cube roots."
+      bloom: apply
+    - id: 3.2.9
+      text: "Menjalankan pengiraan yang melibatkan penambahan, penolakan, pendaraban, pembahagian dan gabungan operasi tersebut ke atas kuasa dua, punca kuasa dua, kuasa tiga dan punca kuasa tiga."
+      text_en: "Perform calculations involving addition, subtraction, multiplication, division and combination of these operations on squares, square roots, cubes and cube roots."
+      bloom: apply
 prerequisites:
-  required: []
-  recommended: []
+    required: []
+    recommended: []
 bloom_levels:
-  - understand
-  - apply
-  - analyze
+    - understand
+    - apply
+    - analyze
 mastery:
-  minimum_score: 0.75
-  assessment_count: 3
-  spaced_repetition:
-    initial_interval_days: 3
-    multiplier: 2.5
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
 ai_teaching_notes: MT1-03.teaching.md
 quality_level: 1
 provenance: ai-assisted
 assessments_file: MT1-03.assessments.yaml
+examples_file: MT1-03.examples.yaml
+teaching:
+    sequence:
+        - 'Step 1: Introduce the concept of squares and square roots with examples (20 min)'
+        - 'Step 2: Discuss identifying perfect squares and provide examples (15 min)'
+        - 'Step 3: Explain cubes and cube roots using physical models (20 min)'
+        - 'Step 4: Solve real-world problems involving squares and cubes (25 min)'
+    common_misconceptions:
+        - misconception: Square root is half the number
+          remediation: Reinforce the inverse relationship of squaring
+        - misconception: Only integers can be perfect squares or cubes
+          remediation: Provide fractional and decimal examples
+engagement_hooks:
+    - Discuss the use of square roots in architecture, such as calculating diagonal distances in square rooms
+    - Explore how cubes are used in packaging design to maximize space

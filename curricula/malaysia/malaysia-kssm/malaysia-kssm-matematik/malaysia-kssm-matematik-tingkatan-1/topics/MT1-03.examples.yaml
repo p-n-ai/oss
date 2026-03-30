@@ -1,0 +1,36 @@
+topic_id: MT1-03
+provenance: ai-generated
+description: "Worked examples for KUASA DUA, PUNCA KUASA DUA, KUASA TIGA DAN PUNCA KUASA TIGA"
+worked_examples:
+  - id: WE-01
+    topic: "Kuasa Dua dan Kuasa Dua Sempurna"
+    difficulty: easy
+    real_world_analogy: "Finding the area of a square plot of land."
+    misconception_alert: "Students may confuse the process of squaring with doubling the number."
+    scenario: "Find the area of a square garden whose side length is 6 meters."
+    working: |
+      Step 1: To find the area of the square, calculate the square of the side length.
+      Step 2: The side length is 6 meters, so calculate 6^2.
+      Step 3: 6^2 = 6 × 6 = 36. Therefore, the area of the square is 36 square meters.
+
+  - id: WE-02
+    topic: "Punca Kuasa Dua"
+    difficulty: medium
+    real_world_analogy: "Finding the length of one side of a square given its area."
+    misconception_alert: "Students often forget that the square root of a number is both positive and negative."
+    scenario: "A square-shaped mural has an area of 49 square meters. Find the length of one side of the mural."
+    working: |
+      Step 1: To find the length of one side, calculate the square root of the area.
+      Step 2: The area of the mural is 49 square meters, so calculate √49.
+      Step 3: √49 = 7 because 7 × 7 = 49. Therefore, the length of one side of the mural is 7 meters.
+
+  - id: WE-03
+    topic: "Kuasa Tiga dan Punca Kuasa Tiga"
+    difficulty: hard
+    real_world_analogy: "Determining the edge length of a cube given its volume."
+    misconception_alert: "Students might incorrectly assume that the cube root operation is similar to division by three."
+    scenario: "An ice cube has a volume of 125 cubic centimeters. What is the length of one edge of the ice cube?"
+    working: |
+      Step 1: To find the length of one edge, calculate the cube root of the volume.
+      Step 2: The volume of the ice cube is 125 cubic centimeters, so calculate ∛125.
+      Step 3: ∛125 = 5 because 5 × 5 × 5 = 125. Therefore, the length of one edge of the ice cube is 5 centimeters.
