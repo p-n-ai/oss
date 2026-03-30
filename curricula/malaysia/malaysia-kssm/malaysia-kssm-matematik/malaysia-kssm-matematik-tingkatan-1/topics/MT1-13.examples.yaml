@@ -5,34 +5,38 @@ worked_examples:
   - id: WE-01
     topic: "Mengenal pasti dan mendefinisikan hipotenus"
     difficulty: easy
-    real_world_analogy: "Memikirkan hipotenus sebagai jalan terpendek menyeberangi padang dari satu sudut ke sudut bertentangan."
-    misconception_alert: "Sering kali, pelajar keliru mengenal pasti hipotenus dan menganggap sisi terpanjang adalah salah satu sisi tegak."
-    scenario: "Ahmad berdiri di satu sudut padang segi tiga bersudut tegak dan ingin menyeberang ke sudut bertentangan. Tentukan jalan terpendek yang Ahmad perlu ambil."
+    real_world_analogy: "Berjalan dari satu titik ke titik lain secara lurus adalah lebih pendek daripada mengambil jalan berbentuk 'L'."
+    misconception_alert: "Ramai pelajar keliru antara hipotenus dan sisi-sisi lain dalam segi tiga bersudut tegak. Hipotenus ialah sisi yang paling panjang."
+    scenario: "Dalam sebuah segi tiga bersudut tegak, sisi a dan b adalah 3 cm dan 4 cm. Tentukan panjang hipotenus."
     working: |
-      Step 1: Kenal pasti segi tiga bersudut tegak dan tentukan hipotenus sebagai sisi terpanjang.
-      Step 2: Dalam segi tiga bersudut tegak, sisi yang bertentangan dengan sudut tegak adalah hipotenus.
-      Step 3: Jalan terpendek untuk Ahmad adalah sepanjang hipotenus, iaitu sisi AB dalam segi tiga ABC bersudut tegak.
+      Step 1: Kenal pasti hipotenus sebagai sisi terpanjang dalam segi tiga bersudut tegak.
+      Step 2: Gunakan Teorem Pythagoras: $c^2 = a^2 + b^2$.
+      Step 3: Substitusi nilai: $c^2 = 3^2 + 4^2 = 9 + 16 = 25$.
+      Step 4: Cari nilai c: $c = \sqrt{25} = 5$.
+      Step 5: Jadi, panjang hipotenus ialah 5 cm.
 
   - id: WE-02
-    topic: "Menentukan panjang sisi yang tidak diketahui"
+    topic: "Menentukan hubungan antara sisi segi tiga bersudut tegak"
     difficulty: medium
-    real_world_analogy: "Bayangkan menyusun jubin berbentuk segi tiga di lantai dan perlu mengukur sisi yang hilang untuk melengkapkan susunan."
-    misconception_alert: "Kesilapan biasa ialah menggunakan formula yang salah atau mengelirukan sisi yang diketahui dan tidak diketahui."
-    scenario: "Sebuah papan segi tiga bersudut tegak mempunyai sisi-sisi sepanjang 3 meter dan 4 meter. Cari panjang sisi yang tidak diketahui."
+    real_world_analogy: "Menggunakan tangga untuk mencapai tempat lebih tinggi, di mana tangga adalah hipotenus dan dinding serta tanah adalah sisi segi tiga."
+    misconception_alert: "Pelajar sering terlupa untuk mengkuadratkan sisi sebelum menambahkannya."
+    scenario: "Sebuah tangga bersandar pada dinding setinggi 6 m dan kaki tangga berada 8 m dari dinding. Berapakah panjang tangga?"
     working: |
-      Step 1: Kenal pasti sisi segi tiga. Sisi 3 meter dan 4 meter adalah sisi tegak.
-      Step 2: Gunakan Teorem Pythagoras: c^2 = a^2 + b^2, di mana c adalah hipotenus.
-      Step 3: Gantikan nilai: c^2 = 3^2 + 4^2 = 9 + 16 = 25.
-      Step 4: Cari panjang hipotenus: c = √25 = 5 meter.
+      Step 1: Tentukan bahawa tangga adalah hipotenus segi tiga bersudut tegak.
+      Step 2: Gunakan Teorem Pythagoras: $c^2 = a^2 + b^2$.
+      Step 3: Substitusi nilai: $c^2 = 6^2 + 8^2 = 36 + 64 = 100$.
+      Step 4: Cari nilai c: $c = \sqrt{100} = 10$.
+      Step 5: Panjang tangga ialah 10 m.
 
   - id: WE-03
-    topic: "Menentukan sama ada suatu segi tiga adalah segi tiga bersudut tegak"
+    topic: "Menyelesaikan masalah yang melibatkan Teorem Pythagoras"
     difficulty: hard
-    real_world_analogy: "Menguji sama ada sudut yang dibuat oleh tiga kayu adalah tepat 90 darjah untuk memastikan ia boleh dijadikan rangka pintu."
-    misconception_alert: "Pelajar kadang-kala mengabaikan langkah memeriksa semua pasangan panjang sisi dan terus membuat kesimpulan."
-    scenario: "Untuk memastikan rangka pintu yang betul, anda mempunyai tiga kayu sepanjang 6m, 8m, dan 10m. Adakah ini membentuk segi tiga bersudut tegak?"
+    real_world_analogy: "Menyusuri jalan pintas melalui taman yang berbentuk segi tiga untuk mengurangkan jarak perjalanan."
+    misconception_alert: "Kesalahan yang kerap berlaku ialah tidak memastikan bahawa segi tiga adalah bersudut tegak sebelum menggunakan Teorem Pythagoras."
+    scenario: "Ali ingin berjalan dari sudut A ke sudut C melalui sudut B di sebuah taman berbentuk segi tiga bersudut tegak. Panjang AB adalah 5 m dan BC adalah 12 m. Berapakah jarak langsung dari A ke C?"
     working: |
-      Step 1: Urutkan panjang sisi dari terpendek ke terpanjang: 6m, 8m, 10m.
-      Step 2: Gunakan akas Teorem Pythagoras untuk memeriksa: 10^2 = 6^2 + 8^2.
-      Step 3: Hitung dan bandingkan: 100 = 36 + 64, 100 = 100.
-      Step 4: Oleh kerana persamaan benar, kayu tersebut membentuk segi tiga bersudut tegak.
+      Step 1: Kenal pasti bahawa AC adalah hipotenus.
+      Step 2: Gunakan Teorem Pythagoras: $AC^2 = AB^2 + BC^2$.
+      Step 3: Substitusi nilai: $AC^2 = 5^2 + 12^2 = 25 + 144 = 169$.
+      Step 4: Cari nilai AC: $AC = \sqrt{169} = 13$.
+      Step 5: Jarak langsung dari A ke C ialah 13 m.
