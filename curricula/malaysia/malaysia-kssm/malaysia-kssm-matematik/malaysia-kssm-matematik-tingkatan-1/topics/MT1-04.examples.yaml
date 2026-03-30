@@ -1,0 +1,46 @@
+topic_id: MT1-04
+provenance: ai-generated
+description: "Worked examples for Nisbah, Kadar dan Kadaran"
+worked_examples:
+  - id: WE-01
+    topic: "Nisbah antara tiga kuantiti"
+    difficulty: easy
+    real_world_analogy: "Think of sharing a chocolate bar among three friends in different portions."
+    misconception_alert: "Students often confuse the order of quantities in a ratio, leading to incorrect representation."
+    scenario: "Ali, Bala, dan Chan berkongsi 24 gula-gula dalam nisbah 3:2:1. Berapakah gula-gula yang diterima oleh setiap seorang?"
+    working: |
+      Step 1: Jumlah bahagian nisbah ialah 3 + 2 + 1 = 6.
+      Step 2: Bahagikan jumlah gula-gula, 24, dengan jumlah bahagian nisbah: 24 ÷ 6 = 4.
+      Step 3: Darabkan setiap bahagian nisbah dengan 4: 
+              Ali: 3 × 4 = 12 
+              Bala: 2 × 4 = 8 
+              Chan: 1 × 4 = 4.
+      Jawapan: Ali menerima 12, Bala menerima 8, dan Chan menerima 4 gula-gula.
+
+  - id: WE-02
+    topic: "Menentukan nisbah setara"
+    difficulty: medium
+    real_world_analogy: "Comparing the speed of two cars to determine which one is faster."
+    misconception_alert: "A common mistake is not simplifying ratios to their simplest form."
+    scenario: "Dua buah kereta bergerak dengan kelajuan 60 km/j dan 90 km/j. Tentukan nisbah kelajuan antara kereta pertama dan kedua dalam bentuk termudah."
+    working: |
+      Step 1: Tuliskan kelajuan dalam bentuk nisbah: 60 : 90.
+      Step 2: Cari faktor sepunya terbesar (FST) bagi 60 dan 90, iaitu 30.
+      Step 3: Bahagikan setiap nilai dengan FST: 
+              60 ÷ 30 = 2 
+              90 ÷ 30 = 3.
+      Step 4: Nisbah setara ialah 2 : 3.
+      Jawapan: Nisbah kelajuan antara kereta pertama dan kedua ialah 2 : 3.
+
+  - id: WE-03
+    topic: "Menyelesaikan masalah melibatkan kadaran"
+    difficulty: hard
+    real_world_analogy: "Using a recipe to scale up the ingredients for a larger party."
+    misconception_alert: "Students may incorrectly assume that all quantities scale linearly without considering proportionality."
+    scenario: "Sebuah resipi memerlukan 4 cawan tepung untuk membuat 20 kek. Berapa cawan tepung diperlukan untuk membuat 50 kek?"
+    working: |
+      Step 1: Tentukan nisbah asal tepung kepada kek: 4 cawan : 20 kek.
+      Step 2: Cari kadar tepung per kek: 4 ÷ 20 = 0.2 cawan/kek.
+      Step 3: Gandakan kadar dengan jumlah kek yang dikehendaki: 
+              0.2 × 50 = 10 cawan.
+      Jawapan: Anda memerlukan 10 cawan tepung untuk membuat 50 kek.

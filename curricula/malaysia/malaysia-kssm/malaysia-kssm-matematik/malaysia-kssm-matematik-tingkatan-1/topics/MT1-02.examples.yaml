@@ -1,0 +1,38 @@
+topic_id: MT1-02
+provenance: ai-generated
+description: "Worked examples for Faktor dan Gandaan"
+worked_examples:
+  - id: WE-01
+    topic: "Faktor dan Faktor Perdana"
+    difficulty: easy
+    real_world_analogy: "Finding factors is like determining all possible ways to arrange a certain number of chairs in rows and columns."
+    misconception_alert: "Students often confuse factors with multiples, thinking they mean the same thing."
+    scenario: "You have 12 chairs and want to arrange them in rows without any chairs left over. How many different ways can you arrange these chairs?"
+    working: |
+      Step 1: List all pairs of numbers that multiply to 12: (1, 12), (2, 6), (3, 4).
+      Step 2: The factors of 12 are the numbers in the pairs: 1, 2, 3, 4, 6, 12.
+      Step 3: Thus, there are 6 different ways to arrange the chairs.
+
+  - id: WE-02
+    topic: "Faktor Sepunya Terbesar (FSTB)"
+    difficulty: medium
+    real_world_analogy: "Finding the FSTB is like finding the largest common ingredient needed in two different recipes."
+    misconception_alert: "A common mistake is to choose the largest number from the list without checking if it is a common factor."
+    scenario: "You have two pieces of ribbon, one 18 meters and the other 24 meters long. You want to cut both ribbons into pieces of equal length, without any ribbon left over. What is the longest possible length of each piece?"
+    working: |
+      Step 1: List the factors of 18: 1, 2, 3, 6, 9, 18.
+      Step 2: List the factors of 24: 1, 2, 3, 4, 6, 8, 12, 24.
+      Step 3: Identify the common factors: 1, 2, 3, 6.
+      Step 4: The largest common factor is 6. So, the longest possible length of each piece is 6 meters.
+
+  - id: WE-03
+    topic: "Gandaan Sepunya Terkecil (GSTK)"
+    difficulty: hard
+    real_world_analogy: "Finding GSTK is like finding the earliest time two buses will arrive at the same bus stop if they have different schedules."
+    misconception_alert: "Students may mistakenly add the numbers instead of finding multiples."
+    scenario: "Bus A arrives every 15 minutes, and Bus B arrives every 20 minutes. If they both arrive at the bus stop at 9:00 AM, when will they next arrive together?"
+    working: |
+      Step 1: List multiples of 15: 15, 30, 45, 60, 75, 90.
+      Step 2: List multiples of 20: 20, 40, 60, 80, 100.
+      Step 3: Identify the common multiples: 60, 120.
+      Step 4: The smallest common multiple is 60. So, they will next arrive together at 10:00 AM.

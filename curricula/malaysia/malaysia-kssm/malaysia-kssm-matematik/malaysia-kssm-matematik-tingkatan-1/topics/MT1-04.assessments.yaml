@@ -1,0 +1,127 @@
+topic_id: MT1-04
+provenance: ai-generated
+
+questions:
+  # Group for learning objective 4.1.2
+  - id: Q1
+    text: "Diberi nisbah panjang kepada lebar bagi sebuah segiempat tepat ialah 4:3. Jika panjang segiempat tepat itu ialah 20 cm, tentukan lebarnya."
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "15 cm"
+      working: |
+        Nisbah panjang kepada lebar = 4:3. Jika panjang = 20 cm, maka lebar = (3/4) × 20 = 15 cm.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menentukan bentuk nisbah setara 4:3."
+      - marks: 2
+        criteria: "Mengira lebar dengan menggunakan nisbah yang diberikan."
+    hints:
+      - level: 1
+        text: "Fikirkan bagaimana nisbah 4:3 boleh digunakan untuk mencari lebar."
+      - level: 2
+        text: "Perhatikan bahawa panjang adalah 4 bahagian dan lebar adalah 3 bahagian."
+
+  # Group for learning objective 4.3.2
+  - id: Q2
+    text: "Jika 5 kg tepung dan 8 kg gula memerlukan RM60, berapakah kos bagi 15 kg tepung dan 24 kg gula?"
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 2
+    kbat: true
+    answer:
+      type: exact
+      value: "RM180"
+      working: |
+        Nisbah tepung dan gula adalah 5:8. Jika 5 kg tepung dan 8 kg gula kosnya RM60, maka 15 kg tepung dan 24 kg gula akan kos 3 kali ganda lebih, iaitu 3 × RM60 = RM180.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menentukan nisbah asal 5:8."
+      - marks: 1
+        criteria: "Menentukan bahawa jumlah bahan yang diperlukan adalah 3 kali ganda."
+      - marks: 2
+        criteria: "Mengira kos berdasarkan nisbah 3 kali ganda."
+    hints:
+      - level: 1
+        text: "Pertimbangkan bagaimana nisbah mempengaruhi jumlah kos."
+      - level: 2
+        text: "Misalkan jumlah tepung dan gula meningkat 3 kali ganda, bagaimana kos berubah?"
+
+  # Group for learning objective 4.4.4
+  - id: Q3
+    text: "Seorang pelari berlari dengan kelajuan 12 km/j. Berapakah jarak yang boleh dilalui dalam masa 2.5 jam?"
+    difficulty: medium
+    learning_objective: LO3
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "30 km"
+      working: |
+        Jarak = kelajuan × masa. Oleh itu, jarak = 12 km/j × 2.5 j = 30 km.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan formula jarak = kelajuan × masa."
+      - marks: 2
+        criteria: "Mengira jarak dengan betul."
+    hints:
+      - level: 1
+        text: "Ingat formula asas untuk jarak?"
+      - level: 2
+        text: "Kalikan kelajuan dengan masa untuk mendapatkan jarak."
+
+  # Group for learning objective 4.5.2
+  - id: Q4
+    text: "Jika nisbah antara jumlah pelajar lelaki kepada perempuan dalam kelas ialah 3:2, berapakah peratusan pelajar lelaki dalam kelas tersebut?"
+    difficulty: medium
+    learning_objective: LO4
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "60%"
+      working: |
+        Jumlah bahagian = 3 + 2 = 5. Peratusan pelajar lelaki = (3/5) × 100% = 60%.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menentukan jumlah bahagian dalam nisbah."
+      - marks: 2
+        criteria: "Mengira peratusan pelajar lelaki dengan tepat."
+    hints:
+      - level: 1
+        text: "Berapa jumlah bahagian dalam nisbah?"
+      - level: 2
+        text: "Bagaimana nisbah 3:2 boleh diterjemahkan kepada peratusan?"
+
+  # Group for learning objective 4.5.3
+  - id: Q5
+    text: "Dalam sebuah pertandingan, 40% peserta adalah perempuan. Jika terdapat 120 peserta lelaki, berapakah jumlah peserta dalam pertandingan tersebut?"
+    difficulty: medium
+    learning_objective: LO5
+    tp_level: 3
+    kbat: true
+    answer:
+      type: exact
+      value: "200"
+      working: |
+        Jika 40% adalah perempuan, maka 60% adalah lelaki. Oleh itu, 0.6 × jumlah peserta = 120. Maka jumlah peserta = 120 ÷ 0.6 = 200.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menentukan peratusan lelaki."
+      - marks: 1
+        criteria: "Menulis persamaan untuk jumlah peserta lelaki."
+      - marks: 2
+        criteria: "Mengira jumlah peserta dengan tepat."
+    hints:
+      - level: 1
+        text: "Jika 40% adalah perempuan, berapa peratusan lelaki?"
+      - level: 2
+        text: "Gunakan peratusan lelaki untuk mencari jumlah keseluruhan peserta."
