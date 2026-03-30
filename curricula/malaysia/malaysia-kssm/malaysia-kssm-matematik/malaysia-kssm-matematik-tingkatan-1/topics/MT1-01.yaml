@@ -11,6 +11,8 @@ quality_level: 3
 provenance: ai-generated
 difficulty: beginner
 tier: core
+prerequisites:
+  required: []
 bloom_levels:
     - remember
     - understand
@@ -101,22 +103,20 @@ examples_file: MT1-01.examples.yaml
 ai_teaching_notes: MT1-01.teaching.md
 teaching:
     sequence:
-        - 'Step 1: Introduce positive and negative numbers with real-life examples (10 min)'
-        - 'Step 2: Explain and describe integers using a number line (15 min)'
-        - 'Step 3: Demonstrate arithmetic operations with integers using number line (20 min)'
-        - 'Step 4: Discuss and apply arithmetic laws with examples (15 min)'
-        - 'Step 5: Solve problems involving fractions and decimals on a number line (20 min)'
+        - 'Step 1: Introduce the concept of rational numbers with simple examples (15 min)'
+        - 'Step 2: Demonstrate placing rational numbers on a number line (10 min)'
+        - 'Step 3: Practice basic operations with rational numbers using manipulatives (20 min)'
+        - 'Step 4: Solve real-life problems involving rational numbers (15 min)'
+        - 'Step 5: Review and assess understanding through a quiz (10 min)'
     common_misconceptions:
-        - misconception: Students may think negative numbers are always smaller than zero
-          remediation: Use a number line to show negative numbers' relative positions
-        - misconception: Confusion between fraction and decimal representation
-          remediation: Provide examples showing equivalence and conversion methods
-        - misconception: Belief that multiplication always results in a larger number
-          remediation: Show examples of multiplication with fractions and negative numbers
+        - misconception: All fractions are rational numbers
+          remediation: Emphasize the condition that the denominator cannot be zero
+        - misconception: Rational numbers are always positive
+          remediation: Provide examples of negative rational numbers, like -3/4
 engagement_hooks:
-    - Discuss temperatures in different regions to illustrate positive and negative numbers
-    - Use bank account balances to explain positive and negative values
-    - Discuss sports scores to demonstrate integer operations
+    - Discuss how rational numbers are used in currency exchange rates
+    - Explore the use of fractions in cooking recipes and dividing food portions
+    - Connect to sports statistics, like batting averages in baseball
 mastery:
     minimum_score: 0.75
     assessment_count: 3

@@ -3,38 +3,40 @@ provenance: ai-generated
 description: "Worked examples for Nombor Nisbah"
 worked_examples:
   - id: WE-01
-    topic: "Mengenal dan memerihalkan nombor nisbah"
+    topic: "Mengenal dan Memerihalkan Nombor Nisbah"
     difficulty: easy
-    real_world_analogy: "Consider a pizza that can be divided into equal slices. Each slice represents a part of the whole, similar to a fraction."
-    misconception_alert: "Students often think that a larger denominator means a larger fraction, but it's actually the opposite."
-    scenario: "In a pizza party, there are 8 slices of pizza. If you eat 3 slices, what fraction of the pizza have you eaten?"
+    real_world_analogy: "Consider a pizza divided into equal parts. Each part represents a fraction of the whole pizza, similar to how rational numbers represent parts of a whole."
+    misconception_alert: "Students often confuse a rational number with a whole number. Remember, rational numbers can be fractions or decimals."
+    scenario: "Kamal cuts a pizza into 8 equal slices and eats 3 slices. Represent the part of the pizza Kamal ate as a rational number."
     working: |
-      Step 1: Determine the total number of slices, which is 8.
-      Step 2: Determine the number of slices eaten, which is 3.
-      Step 3: Write the fraction representing the part of the pizza eaten as 3/8.
-      
+      Step 1: Define the total number of slices as the denominator, which is 8.
+      Step 2: Define the number of slices eaten by Kamal as the numerator, which is 3.
+      Step 3: Express the part of the pizza eaten as a fraction: \(\frac{3}{8}\).
+
   - id: WE-02
-    topic: "Membuat pengiraan yang melibatkan gabungan operasi asas aritmetik bagi nombor nisbah"
+    topic: "Membanding dan Menyusun Pecahan Positif dan Pecahan Negatif"
     difficulty: medium
-    real_world_analogy: "Imagine you are shopping and need to calculate discounts on items. The discounts can be seen as fractions of the original prices."
-    misconception_alert: "Students might add fractions without finding a common denominator, leading to incorrect results."
-    scenario: "Sara bought 1/2 meter of fabric and then bought another 3/4 meter. How much fabric does she have in total?"
+    real_world_analogy: "Imagine you are comparing the heights of two mountains, one above sea level and one below sea level. The mountain above sea level is a positive fraction, while the one below is negative."
+    misconception_alert: "Students may assume negative fractions are larger because of their absolute value. Remember, negative fractions are always less than positive ones."
+    scenario: 'Compare and arrange the following fractions in ascending order: \(-\frac{1}{4}, \frac{2}{3}, \frac{1}{2}\).'
     working: |
-      Step 1: Identify the fractions: 1/2 and 3/4.
-      Step 2: Find a common denominator. The least common multiple of 2 and 4 is 4.
-      Step 3: Convert 1/2 to 2/4.
-      Step 4: Add the fractions: 2/4 + 3/4 = 5/4.
-      Step 5: Convert the improper fraction to a mixed number: 5/4 = 1 1/4 meters.
+      Step 1: Identify the signs of the fractions. \(-\frac{1}{4}\) is negative, \(\frac{2}{3}\) and \(\frac{1}{2}\) are positive.
+      Step 2: Realize that negative fractions are smaller than positive ones.
+      Step 3: Compare the positive fractions: \(\frac{2}{3} > \frac{1}{2}\).
+      Step 4: Arrange the fractions in ascending order: \(-\frac{1}{4}, \frac{1}{2}, \frac{2}{3}\).
 
   - id: WE-03
-    topic: "Menyelesaikan masalah yang melibatkan pecahan positif dan pecahan negatif"
+    topic: "Membuat Pengiraan Melibatkan Gabungan Operasi Asas Aritmetik bagi Nombor Nisbah"
     difficulty: hard
-    real_world_analogy: "Think of a bank account where deposits and withdrawals can be represented as positive and negative fractions of total funds."
-    misconception_alert: "Students may forget to apply the negative sign when dealing with subtractions, which can lead to incorrect calculations."
-    scenario: "Ali has 7/8 of a cake. He gave away 1/3 of the cake to his friend. What fraction of the cake does Ali have left?"
+    real_world_analogy: "Think about managing money where you have debts (negative amounts) and savings (positive amounts). Calculating your net worth involves adding and subtracting these amounts."
+    misconception_alert: "A common mistake is to overlook the order of operations when performing calculations involving multiple operations."
+    scenario: 'Calculate the result of \(\frac{3}{4} - \frac{2}{3} \times \left( -\frac{3}{5} \right) + \frac{1}{2}\).'
     working: |
-      Step 1: Identify the fractions: 7/8 (cake Ali has) and 1/3 (cake given away).
-      Step 2: Find a common denominator for 8 and 3, which is 24.
-      Step 3: Convert fractions: 7/8 = 21/24 and 1/3 = 8/24.
-      Step 4: Subtract the fractions: 21/24 - 8/24 = 13/24.
-      Step 5: Ali has 13/24 of the cake left.
+      Step 1: Apply the multiplication first according to the order of operations: \(\frac{2}{3} \times \left( -\frac{3}{5} \right) = -\frac{6}{15}\).
+      Step 2: Simplify \(-\frac{6}{15}\) to \(-\frac{2}{5}\).
+      Step 3: Substitute back into the expression: \(\frac{3}{4} - \left( -\frac{2}{5} \right) + \frac{1}{2}\).
+      Step 4: Convert all fractions to have a common denominator, e.g., 20.
+      Step 5: Calculate: \(\frac{15}{20} + \frac{8}{20} + \frac{10}{20}\).
+      Step 6: Add the fractions: \(\frac{15}{20} + \frac{8}{20} = \frac{23}{20}\).
+      Step 7: Add the last fraction: \(\frac{23}{20} + \frac{10}{20} = \frac{33}{20}\).
+      Step 8: Express the result as a mixed number: \(1 \frac{13}{20}\).
