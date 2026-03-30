@@ -57,6 +57,19 @@
               "working": {
                 "type": "string",
                 "description": "Step-by-step solution"
+              },
+              "options": {
+                "description": "Answer options for multiple_choice questions",
+                "oneOf": [
+                  {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": { "type": "string" }
+                  }
+                ]
               }
             },
             "additionalProperties": false
