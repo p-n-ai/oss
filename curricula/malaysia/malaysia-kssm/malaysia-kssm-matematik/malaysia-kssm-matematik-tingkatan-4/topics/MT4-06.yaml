@@ -54,14 +54,16 @@ quality_level: 1
 provenance: ai-assisted
 teaching:
     sequence:
-        - 'Step 1: Introduce linear inequalities with real-world examples (15 min)'
-        - 'Step 2: Demonstrate graphing of linear inequalities and shading regions (20 min)'
-        - 'Step 3: Explore systems of linear inequalities with overlapping regions (25 min)'
+        - 'Step 1: Introduce linear inequalities with real-life scenarios (15 min)'
+        - 'Step 2: Teach graphing linear inequalities and shading regions (20 min)'
+        - 'Step 3: Explain systems of linear inequalities and overlapping regions (25 min)'
     common_misconceptions:
         - misconception: All inequality lines are the same as equation lines
-          remediation: Emphasize the difference using graph exercises
-        - misconception: Shaded region can be chosen randomly
-          remediation: Use practical graph shading activities to clarify
+          remediation: Emphasize the difference with graph exercises
+        - misconception: Shaded region is chosen randomly
+          remediation: Use practical graph shading activities
 engagement_hooks:
-    - Use a small business scenario in Malaysia to discuss resource limitations
-    - Pose a budgeting challenge to maximize savings under given constraints
+    - Use a small business scenario in Malaysia to calculate maximum profit with resource constraints
+    - Discuss budgeting for a school event with limitations on expenses
+assessments_file: MT4-06.assessments.yaml
+examples_file: MT4-06.examples.yaml

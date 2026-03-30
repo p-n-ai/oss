@@ -2,135 +2,116 @@ topic_id: MT4-01
 provenance: ai-generated
 
 questions:
-  # LO1.1.1 - Mengenal pasti dan menerangkan ciri-ciri ungkapan kuadratik dalam satu pemboleh ubah
+  # Learning Objective 1.1.1
   - id: Q1
-    text: "Tentukan sama ada ungkapan berikut adalah kuadratik: $5x^2 + 3x - 7$"
+    text: 'Tentukan sama ada ungkapan $3x^2 - 5x + 2$ adalah ungkapan kuadratik dalam satu pemboleh ubah dan terangkan sebabnya.'
     difficulty: medium
-    learning_objective: LO1
+    learning_objective: 1.1.1
     tp_level: 2
     kbat: false
     answer:
-      type: multiple_choice
-      value: "A"
+      type: free_text
+      value: 'Ya, ungkapan ini adalah ungkapan kuadratik dalam satu pemboleh ubah kerana ia mempunyai bentuk $ax^2 + bx + c$.'
       working: |
-        Satu ungkapan kuadratik mempunyai bentuk umum $ax^2 + bx + c$ di mana $a \neq 0$.
-        Dalam ungkapan $5x^2 + 3x - 7$, nilai $a = 5$, $b = 3$, dan $c = -7$. Oleh itu, ia adalah ungkapan kuadratik.
+        Ungkapan $3x^2 - 5x + 2$ adalah dalam bentuk $ax^2 + bx + c$ di mana $a = 3$, $b = -5$, dan $c = 2$. Oleh itu, ia adalah ungkapan kuadratik.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menentukan bentuk umum ungkapan kuadratik."
+        criteria: "Mengenal pasti bahawa ungkapan adalah dalam bentuk kuadratik."
       - marks: 1
-        criteria: "Mengenal pasti nilai $a$, $b$, dan $c$ dalam ungkapan yang diberikan."
+        criteria: "Memberikan penjelasan yang betul."
     hints:
       - level: 1
-        text: "Ungkapan kuadratik mempunyai bentuk $ax^2 + bx + c$."
-      - level: 2
-        text: "Periksa sama ada $a \neq 0$ dalam ungkapan yang diberikan."
+        text: "Periksa bentuk umum ungkapan kuadratik $ax^2 + bx + c$."
 
-  # LO1.1.3 - Menyiasat dan membuat generalisasi tentang kesan perubahan nilai a, b dan c ke atas graf fungsi kuadratik
+  # Learning Objective 1.1.2
   - id: Q2
-    text: "Bagaimanakah perubahan nilai $a$ dalam fungsi kuadratik $f(x) = ax^2 + bx + c$ mempengaruhi bentuk graf?"
+    text: 'Pilih ciri-ciri berikut yang betul untuk fungsi kuadratik: (A) Graf berbentuk parabola, (B) Mempunyai satu titik puncak, (C) Simetri tentang paksi-$x$.'
     difficulty: medium
-    learning_objective: LO3
+    learning_objective: 1.1.2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice      
+      value: 'A, B'
+      working: |
+        Fungsi kuadratik mempunyai graf berbentuk parabola dan satu titik puncak. Ia adalah simetri tentang paksi-$y$, bukan paksi-$x$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Memilih ciri (A) dan (B) dengan betul."
+      - marks: 1
+        criteria: "Mengelakkan pilihan yang salah."
+    hints:
+      - level: 1
+        text: "Ingat bahawa fungsi kuadratik mempunyai simetri tentang paksi menegak, bukan mendatar."
+
+  # Learning Objective 1.1.3
+  - id: Q3
+    text: 'Analisis kesan peningkatan nilai $a$ dalam fungsi kuadratik $f(x) = ax^2 + bx + c$ terhadap bentuk graf.'
+    difficulty: medium
+    learning_objective: 1.1.3
     tp_level: 3
     kbat: true
     answer:
       type: free_text
-      value: "Nilai $a$ yang lebih besar menghasilkan graf yang lebih 'sempit', manakala nilai $a$ yang lebih kecil (tetapi tidak negatif) menghasilkan graf yang lebih 'lebar'."
+      value: 'Peningkatan nilai $a$ menyebabkan parabola menjadi lebih sempit.'
       working: |
-        Graf fungsi kuadratik berbentuk parabola. Jika $a > 0$, parabola membuka ke atas; jika $a < 0$, parabola membuka ke bawah.
-        Perubahan pada nilai $a$ mempengaruhi 'kekurangan' atau 'kelebaran' parabola. Nilai $|a|$ yang lebih besar menjadikan parabola lebih sempit.
+        Apabila nilai $a$ meningkat, pekali bagi $x^2$ menjadi lebih besar, menyebabkan parabola menjadi lebih sempit kerana kadar perubahan menegak meningkat.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menyatakan arah parabola bergantung kepada tanda $a$."
+        criteria: "Memahami bahawa $a$ mempengaruhi bentuk graf."
       - marks: 1
-        criteria: "Menjelaskan kesan nilai $|a|$ terhadap kelebaran parabola."
+        criteria: "Menggambarkan kesan peningkatan $a$ dengan tepat."
       - marks: 1
-        criteria: "Mengaitkan perubahan nilai $a$ dengan bentuk graf."
+        criteria: "Menggunakan terminologi matematik yang betul."
     hints:
       - level: 1
-        text: "Perhatikan arah parabola jika $a$ positif atau negatif."
-      - level: 2
-        text: "Bagaimana nilai $|a|$ mempengaruhi kelebaran parabola?"
+        text: "MISCONCEPTION ALERT: Perubahan pada $a$ tidak mengubah arah parabola jika tetap positif."
 
-  # LO1.1.5 - Menerangkan maksud punca suatu persamaan kuadratik
-  - id: Q3
-    text: "Jelaskan maksud punca dalam konteks persamaan kuadratik $ax^2 + bx + c = 0$."
+  # Learning Objective 1.1.4
+  - id: Q4
+    text: 'Suatu objek dilemparkan ke atas dan ketinggiannya $h$ dalam meter selepas $t$ saat diberikan oleh $h(t) = -5t^2 + 20t + 2$. Bentukkan fungsi kuadratik berdasarkan situasi ini.'
     difficulty: medium
-    learning_objective: LO5
-    tp_level: 2
+    learning_objective: 1.1.4
+    tp_level: 3
     kbat: false
     answer:
       type: free_text
-      value: "Punca adalah nilai-nilai $x$ yang menjadikan persamaan kuadratik sama dengan sifar."
+      value: 'Fungsi kuadratik sudah diberikan sebagai $h(t) = -5t^2 + 20t + 2$.'
       working: |
-        Dalam persamaan kuadratik $ax^2 + bx + c = 0$, punca adalah nilai-nilai $x$ yang memuaskan persamaan tersebut.
-        Ini bermakna memasukkan nilai-nilai ini ke dalam persamaan menghasilkan hasil $0$.
+        Situasi ini mewakili pergerakan menegak objek dengan fungsi kuadratik $h(t) = -5t^2 + 20t + 2$, yang menunjukkan ketinggian bergantung kepada masa.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menjelaskan bahawa punca menjadikan persamaan sama dengan sifar."
+        criteria: "Menggambarkan situasi sebagai fungsi kuadratik."
       - marks: 1
-        criteria: "Menghubungkan punca dengan nilai-nilai $x$ yang memuaskan persamaan."
+        criteria: "Memberikan fungsi yang tepat."
     hints:
       - level: 1
-        text: "Apakah nilai $x$ yang menjadikan persamaan $ax^2 + bx + c = 0$ benar?"
-      - level: 2
-        text: "Punca adalah apabila hasil fungsi sama dengan sifar."
+        text: "Perhatikan bahawa fungsi ketinggian telah diberikan dalam bentuk kuadratik."
 
-  # LO1.1.6 - Menentukan punca suatu persamaan kuadratik dengan kaedah pemfaktoran
-  - id: Q4
-    text: "Tentukan punca bagi persamaan kuadratik $x^2 - 5x + 6 = 0$ dengan kaedah pemfaktoran."
+  # Learning Objective 1.1.6
+  - id: Q5
+    text: 'Cari punca persamaan kuadratik $x^2 - 3x - 10 = 0$ dengan kaedah pemfaktoran.'
     difficulty: medium
-    learning_objective: LO6
+    learning_objective: 1.1.6
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "x = 2, x = 3"
+      value: "x = 5, x = -2"
       working: |
-        Persamaan $x^2 - 5x + 6 = 0$ boleh difaktorkan kepada $(x - 2)(x - 3) = 0$.
-        Dengan menetapkan setiap faktor kepada sifar, kita dapatkan $x - 2 = 0$ atau $x - 3 = 0$.
-        Maka, punca adalah $x = 2$ dan $x = 3$.
+        Untuk memfaktorkan: 
+        $x^2 - 3x - 10 = (x - 5)(x + 2) = 0$. 
+        Maka, punca adalah $x = 5$ dan $x = -2$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Memfaktorkan persamaan kuadratik dengan betul."
-      - marks: 1
-        criteria: "Menentukan nilai $x$ dari setiap faktor."
-      - marks: 1
-        criteria: "Menulis punca dalam bentuk jawapan lengkap."
+        criteria: "Memfaktorkan persamaan dengan betul."
+      - marks: 2
+        criteria: "Menentukan kedua-dua punca dengan tepat."
     hints:
       - level: 1
-        text: "Cuba faktorkan $x^2 - 5x + 6$ kepada dua binomial."
-      - level: 2
-        text: "Setiap faktor binomial harus sama dengan sifar untuk mencari punca."
-
-  # LO1.1.7 - Melakar graf fungsi kuadratik
-  - id: Q5
-    text: "Lakar graf fungsi kuadratik $f(x) = 2x^2 - 8x + 6$ dan tentukan titik minimum."
-    difficulty: medium
-    learning_objective: LO7
-    tp_level: 3
-    kbat: false
-    answer:
-      type: free_text
-      value: "Titik minimum ialah (2, -2)."
-      working: |
-        Untuk melakar graf, kita perlu mencari titik vertex. Gunakan formula $x = -\frac{b}{2a}$ untuk menentukan $x$ di titik vertex.
-        $x = -\frac{-8}{2(2)} = 2$. Kemudian, cari nilai $f(2) = 2(2)^2 - 8(2) + 6 = -2$.
-        Oleh itu, titik minimum adalah (2, -2).
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Menggunakan formula $x = -\frac{b}{2a}$ dengan betul."
-      - marks: 1
-        criteria: "Menentukan $f(x)$ di titik $x = 2$."
-      - marks: 1
-        criteria: "Menulis titik minimum dengan betul."
-    hints:
-      - level: 1
-        text: "Gunakan formula $x = -\frac{b}{2a}$ untuk mencari nilai $x$ di titik vertex."
-      - level: 2
-        text: "Substitusi nilai $x$ ke dalam fungsi untuk mencari $f(x)$."
+        text: "Cari dua nombor yang hasil darabnya -10 dan jumlahnya -3."

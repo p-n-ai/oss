@@ -1,5 +1,5 @@
 id: MT2-13
-official_ref: "Bab 13" # as printed in KSSM DSKP document
+official_ref: "Bab 13"
 name: "Kebarangkalian Mudah"
 name_en: "Simple Probability"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-2
@@ -8,28 +8,61 @@ syllabus_id: malaysia-kssm
 country_id: malaysia
 language: ms
 difficulty: beginner
-learning_objectives: []
+tier: core
+learning_objectives:
+    - id: "13.1.1"
+      text: "Melaksanakan eksperimen kebarangkalian mudah, dan seterusnya menentukan nisbah kekerapan berlakunya suatu peristiwa kepada bilangan cubaan sebagai kebarangkalian eksperimen bagi suatu peristiwa."
+      text_en: "Perform simple probability experiments, and then determine the ratio of the frequency of occurrence of an event to the number of trials as the experimental probability of an event."
+      bloom: apply
+    - id: "13.1.2"
+      text: "Membuat kesimpulan tentang kebarangkalian eksperimen suatu peristiwa apabila bilangan cubaan cukup besar."
+      text_en: "Make conclusions about the experimental probability of an event when the number of trials is sufficiently large."
+      bloom: analyze
+    - id: "13.2.1"
+      text: "Menentukan ruang sampel dan peristiwa bagi suatu eksperimen."
+      text_en: "Determine the sample space and event for an experiment."
+      bloom: understand
+    - id: "13.2.2"
+      text: "Membina model kebarangkalian suatu peristiwa, dan seterusnya membuat perkaitan antara kebarangkalian teori dengan kebarangkalian eksperimen."
+      text_en: "Construct a probability model of an event, and then make a connection between theoretical probability and experimental probability."
+      bloom: analyze
+    - id: "13.2.3"
+      text: "Menentukan kebarangkalian suatu peristiwa."
+      text_en: "Determine the probability of an event."
+      bloom: apply
+    - id: "13.3.1"
+      text: "Memerihalkan peristiwa pelengkap dalam perkataan dan dengan menggunakan tatatanda set."
+      text_en: "Describe complementary events in words and using set notation."
+      bloom: understand
+    - id: "13.3.2"
+      text: "Menentukan kebarangkalian peristiwa pelengkap."
+      text_en: "Determine the probability of complementary events."
+      bloom: apply
+    - id: "13.4.1"
+      text: "Menyelesaikan masalah yang melibatkan kebarangkalian suatu peristiwa."
+      text_en: "Solve problems involving the probability of an event."
+      bloom: apply
 prerequisites:
     required: []
-quality_level: 0
+bloom_levels:
+    - understand
+    - apply
+    - analyze
+quality_level: 1
 provenance: ai-generated
 generated_at: "2026-03-29T16:00:08Z"
 teaching:
     sequence:
-        - 'Step 1: Introduce probability as a measure between 0 and 1 using a number line (10 min)'
-        - 'Step 2: Explain probability with real-life examples like coin tosses (10 min)'
-        - 'Step 3: Guide students in calculating simple probabilities with dice (15 min)'
-        - 'Step 4: Practice with cards to determine the probability of drawing a specific card (15 min)'
-        - 'Step 5: Discuss common misconceptions and clarify using visual aids (10 min)'
+        - 'Step 1: Introduce probability concept using number line (10 min)'
+        - 'Step 2: Demonstrate calculating simple probability with dice (15 min)'
+        - 'Step 3: Explore sample space and events through card games (15 min)'
+        - 'Step 4: Discuss theoretical vs experimental probability with examples (15 min)'
+        - 'Step 5: Solve probability problems collaboratively (20 min)'
     common_misconceptions:
-        - misconception: Probability can be more than 1
-          remediation: Reinforce the concept that probability is always between 0 and 1
-        - misconception: Probability is always a whole number
-          remediation: Use visual aids to demonstrate probability as parts of a whole
-engagement_hooks:
-    - Discuss the probability of rain affecting local plans
-    - Relate probability to winning a prize in a school raffle
-    - Talk about the chances of favorite sports teams winning their next match
+        - misconception: Probability over 1
+          remediation: Emphasize that probability is always between 0 and 1
+        - misconception: Probability as a whole number
+          remediation: Use visual aids to show probability as parts of a whole
 ai_teaching_notes: MT2-13.teaching.md
 examples_file: MT2-13.examples.yaml
 mastery:
@@ -39,3 +72,7 @@ mastery:
         initial_interval_days: 3
         multiplier: 2.5
 assessments_file: MT2-13.assessments.yaml
+engagement_hooks:
+    - Discuss the probability of rain affecting local events
+    - Relate probability to sports outcomes like winning a match
+    - Explore probability in everyday decisions like choosing a meal

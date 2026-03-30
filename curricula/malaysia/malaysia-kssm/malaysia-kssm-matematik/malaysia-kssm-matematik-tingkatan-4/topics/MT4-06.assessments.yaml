@@ -2,150 +2,118 @@ topic_id: MT4-06
 provenance: ai-generated
 
 questions:
-  # Learning Objective 6.1.1
+  # Learning Objective: 6.1.1 (apply)
   - id: Q1
-    text: "Nyatakan situasi berikut dalam bentuk ketaksamaan linear: Seorang petani mempunyai kurang daripada 40 ekar tanah untuk menanam padi dan gandum. Jika $x$ ekar digunakan untuk padi dan $y$ ekar digunakan untuk gandum, nyatakan ketaksamaan linear yang menggambarkan keadaan ini."
+    text: 'Mewakilkan situasi berikut dalam bentuk ketaksamaan linear: Seorang pelajar perlu mengumpulkan sekurang-kurangnya 50 markah dalam ujian matematik dan sains. Jika markah matematik diwakili oleh $x$ dan markah sains diwakili oleh $y$, nyatakan ketaksamaan yang mewakili situasi ini.'
     difficulty: medium
     learning_objective: 6.1.1
     tp_level: 2
     kbat: false
     answer:
       type: exact
-      value: "x + y < 40"
+      value: 'x + y \geq 50'
       working: |
-        Diberi $x$ ekar untuk padi dan $y$ ekar untuk gandum, jumlah tanah yang digunakan untuk menanam adalah $x + y$. Oleh kerana tanah yang tersedia kurang daripada 40 ekar, maka ketaksamaan yang terbentuk adalah $x + y < 40$.
+        Untuk mengumpulkan sekurang-kurangnya 50 markah, jumlah markah matematik dan sains mesti lebih atau sama dengan 50. Oleh itu, ketaksamaan linear adalah $x + y \geq 50$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menulis jumlah tanah sebagai $x + y$."
+        criteria: 'Menulis bentuk ketaksamaan $x + y \geq 50$ dengan betul.'
       - marks: 1
-        criteria: "Menulis ketaksamaan sebagai $x + y < 40$."
+        criteria: "Memahami keperluan 'sekurang-kurangnya' dalam situasi dan menerapkannya dengan betul."
     hints:
       - level: 1
-        text: "Mulakan dengan menulis jumlah tanah yang digunakan."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Ingat bahawa 'kurang daripada' bermaksud '<', bukan '<='."
+        text: "Pertimbangkan apa yang dimaksudkan dengan 'sekurang-kurangnya' dalam konteks ketaksamaan."
 
-  # Learning Objective 6.1.2
+  # Learning Objective: 6.1.2 (analyze)
   - id: Q2
-    text: "Tentukan sama ada titik (10, 25) terletak dalam rantau yang ditentukan oleh ketaksamaan $3x + 2y \leq 70$."
+    text: 'Berdasarkan ketaksamaan $2x + 3y < 12$, tentukan jika titik (2, 3) berada dalam rantau penyelesaian.'
     difficulty: medium
     learning_objective: 6.1.2
     tp_level: 3
     kbat: true
     answer:
       type: free_text
-      value: "Ya, titik (10, 25) memenuhi ketaksamaan."
+      value: 'Titik (2, 3) tidak berada dalam rantau penyelesaian kerana $2(2) + 3(3) = 13$, yang tidak < 12.'
       working: |
-        Masukkan nilai $x = 10$ dan $y = 25$ ke dalam ketaksamaan: \\
-        $3(10) + 2(25) = 30 + 50 = 80$. \\
-        Oleh kerana $80 \leq 70$ adalah salah, maka titik (10, 25) tidak memenuhi ketaksamaan. \\
-        Pembetulan: $80$ bukan kurang atau sama dengan $70$, oleh itu titik (10, 25) tidak terletak dalam rantau.
+        Substitusi $x = 2$ dan $y = 3$ ke dalam ketaksamaan: $2(2) + 3(3) = 4 + 9 = 13$. Oleh kerana 13 tidak kurang daripada 12, titik (2, 3) tidak berada dalam rantau penyelesaian.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menggantikan nilai $x$ dan $y$ ke dalam ketaksamaan."
+        criteria: "Substitusi nilai $x$ dan $y$ dengan betul."
       - marks: 1
-        criteria: "Mengira $3x + 2y$ dengan betul."
+        criteria: "Mengira hasil $2x + 3y$ dengan betul."
       - marks: 1
-        criteria: "Menentukan bahawa $80 \leq 70$ adalah salah."
+        criteria: "Menentukan jika hasil memenuhi ketaksamaan."
     hints:
       - level: 1
-        text: "Substitute $x = 10$ and $y = 25$ into the inequality."
-      - level: 2
-        text: "Calculate $3(10) + 2(25)$ and compare with 70."
+        text: "Substitusi nilai $x$ dan $y$ ke dalam ketaksamaan dan periksa sama ada syarat ketaksamaan dipenuhi."
 
-  # Learning Objective 6.1.3
+  # Learning Objective: 6.1.3 (apply)
   - id: Q3
-    text: "Lorekkan rantau yang memuaskan ketaksamaan $2x - y > 4$ pada paksi koordinat."
+    text: 'Lorekkan rantau yang memuaskan ketaksamaan $y \leq 2x + 1$ pada paksi kartesian.'
     difficulty: medium
     learning_objective: 6.1.3
     tp_level: 2
     kbat: false
     answer:
       type: free_text
-      value: "Rantau di atas garis $y = 2x - 4$ dilorekkan."
+      value: 'Rantau di bawah garis $y = 2x + 1$ dilorekkan.'
       working: |
-        Langkah 1: Lukis garis $y = 2x - 4$. \\
-        Langkah 2: Pilih titik uji, contohnya (0,0). \\
-        $2(0) - 0 = 0$, dan $0 \not> 4$, jadi (0,0) tidak dalam rantau. \\
-        Lorekkan rantau di atas garis kerana titik-titik di atas garis memenuhi $2x - y > 4$.
+        Pertama, lukis garis $y = 2x + 1$. Kemudian, pilih titik uji seperti (0,0) untuk menentukan rantau. Substitusi (0,0) ke dalam ketaksamaan: $0 \leq 2(0) + 1$, yang benar. Oleh itu, lorekkan rantau di bawah garis tersebut.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Melukis garis $y = 2x - 4$ dengan betul."
+        criteria: "Melukis garis $y = 2x + 1$ dengan betul."
       - marks: 1
-        criteria: "Memilih titik uji untuk menentukan rantau."
+        criteria: "Memilih titik uji yang sesuai."
       - marks: 1
-        criteria: "Melorekkan rantau yang betul berdasarkan ujian."
+        criteria: "Melorek rantau yang betul berdasarkan titik uji."
     hints:
       - level: 1
-        text: "Start by drawing the line $y = 2x - 4$."
-      - level: 2
-        text: "Use a test point to determine which side of the line to shade."
+        text: "Lukis garis dahulu dan kemudian gunakan titik uji untuk menentukan rantau yang perlu dilorek."
 
-  # Learning Objective 6.2.1
+  # Learning Objective: 6.2.1 (apply)
   - id: Q4
-    text: "Nyatakan situasi berikut dalam bentuk sistem ketaksamaan linear: Seorang pelajar boleh menggunakan sekurang-kurangnya 3 jam untuk belajar Matematik dan sekurang-kurangnya 2 jam untuk belajar Sains setiap minggu. Jumlah masa yang digunakan untuk kedua-dua subjek tidak boleh melebihi 10 jam. Jika $x$ ialah masa belajar Matematik dan $y$ ialah masa belajar Sains, nyatakan sistem ketaksamaan linear yang menggambarkan keadaan ini."
+    text: 'Mewakilkan situasi berikut dalam bentuk sistem ketaksamaan linear: Seorang pembuat kek perlu membuat sekurang-kurangnya 20 kek coklat dan tidak lebih daripada 30 kek vanila. Jika $x$ adalah bilangan kek coklat dan $y$ adalah bilangan kek vanila, nyatakan sistem ketaksamaan.'
     difficulty: medium
     learning_objective: 6.2.1
     tp_level: 2
     kbat: false
     answer:
       type: exact
-      value: "$x \geq 3$, $y \geq 2$, $x + y \leq 10$"
+      value: 'x \geq 20, y \leq 30'
       working: |
-        Diberi syarat-syarat: \\
-        1. $x \geq 3$ (masa untuk Matematik sekurang-kurangnya 3 jam) \\
-        2. $y \geq 2$ (masa untuk Sains sekurang-kurangnya 2 jam) \\
-        3. $x + y \leq 10$ (jumlah masa tidak melebihi 10 jam) \\
-        Sistem ketaksamaan linear: $x \geq 3$, $y \geq 2$, $x + y \leq 10$.
-    marks: 3
+        Untuk sekurang-kurangnya 20 kek coklat, $x \geq 20$. Untuk tidak lebih daripada 30 kek vanila, $y \leq 30$. Sistem ketaksamaan adalah $x \geq 20, y \leq 30$.
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Menulis ketaksamaan untuk Matematik."
+        criteria: 'Menulis ketaksamaan $x \geq 20$ dengan betul.'
       - marks: 1
-        criteria: "Menulis ketaksamaan untuk Sains."
-      - marks: 1
-        criteria: "Menulis ketaksamaan untuk jumlah masa."
+        criteria: 'Menulis ketaksamaan $y \leq 30$ dengan betul.'
     hints:
       - level: 1
-        text: "Identify the constraints for each subject separately."
-      - level: 2
-        text: "Combine the constraints to form a system of inequalities."
+        text: "Fikirkan tentang syarat 'sekurang-kurangnya' dan 'tidak lebih daripada'."
 
-  # Learning Objective 6.2.4
+  # Learning Objective: 6.2.4 (apply)
   - id: Q5
-    text: "Selesaikan masalah berikut: Seorang pelajar ingin membeli buku dan pen. Setiap buku berharga RM8 dan setiap pen berharga RM2. Pelajar itu mempunyai RM50 dan ingin membeli sekurang-kurangnya 3 buku. Jika $x$ ialah bilangan buku dan $y$ ialah bilangan pen, tentukan bilangan maksimum pen yang boleh dibeli."
+    text: 'Seorang usahawan menjual dua jenis produk, A dan B. Dia mempunyai masa maksimum 40 jam seminggu untuk mengeluarkan produk tersebut. Produk A memerlukan 2 jam dan produk B memerlukan 1 jam untuk dikeluarkan. Tulis sistem ketaksamaan yang mewakili situasi ini dan tentukan bilangan maksimum produk A yang boleh dikeluarkan jika dia tidak mengeluarkan sebarang produk B.'
     difficulty: medium
     learning_objective: 6.2.4
     tp_level: 3
     kbat: true
     answer:
       type: exact
-      value: "11"
+      value: '2x + y \leq 40; x = 20'
       working: |
-        Langkah 1: Nyatakan ketaksamaan berdasarkan maklumat: \\
-        $8x + 2y \leq 50$ (jumlah kos tidak melebihi RM50) \\
-        $x \geq 3$ (sekurang-kurangnya 3 buku) \\
-        Langkah 2: Cari $y$ maksimum apabila $x = 3$: \\
-        $8(3) + 2y \leq 50$ \\
-        $24 + 2y \leq 50$ \\
-        $2y \leq 26$ \\
-        $y \leq 13$ \\
-        Oleh itu, bilangan maksimum pen yang boleh dibeli ialah 13 apabila membeli 3 buku.
-    marks: 4
+        Sistem ketaksamaan adalah $2x + y \leq 40$. Jika $y = 0$, maka $2x \leq 40$. Oleh itu, $x \leq 20$. Maka, bilangan maksimum produk A yang boleh dikeluarkan adalah 20.
+    marks: 3
     rubric:
       - marks: 1
-        criteria: "Menulis ketaksamaan berdasarkan kos."
+        criteria: "Menulis sistem ketaksamaan dengan betul."
       - marks: 1
-        criteria: "Menulis ketaksamaan untuk bilangan buku."
+        criteria: "Menentukan ketaksamaan dengan tiada produk B ($y = 0$)."
       - marks: 1
-        criteria: "Mengira $y$ maksimum dengan betul."
-      - marks: 1
-        criteria: "Menentukan bilangan maksimum pen yang boleh dibeli."
+        criteria: "Mengira bilangan maksimum produk A dengan betul."
     hints:
       - level: 1
-        text: "Start by writing the inequality for the total cost."
-      - level: 2
-        text: "Substitute $x = 3$ into the inequality to find the maximum $y$."
+        text: "Pertimbangkan masa maksimum yang tersedia dan bagaimana ia boleh digunakan sepenuhnya untuk produk A."

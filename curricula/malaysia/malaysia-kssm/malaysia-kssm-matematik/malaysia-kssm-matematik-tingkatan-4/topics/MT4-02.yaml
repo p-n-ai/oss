@@ -42,9 +42,9 @@ quality_level: 1
 provenance: ai-assisted
 teaching:
     sequence:
-        - 'Step 1: Introduce number bases using decimal as a foundation (20 min)'
-        - 'Step 2: Teach conversion methods between bases, focusing on base 10 conversions first (30 min)'
-        - 'Step 3: Practice addition and subtraction in different bases, primarily binary (30 min)'
+        - 'Step 1: Introduce the concept of number bases using place value charts (20 min)'
+        - 'Step 2: Demonstrate conversion methods between bases with examples (30 min)'
+        - 'Step 3: Practice addition and subtraction in different bases using visual aids (30 min)'
     common_misconceptions:
         - misconception: All bases use the same numbers as decimal
           remediation: Emphasize unique symbols used in bases like hexadecimal
@@ -53,5 +53,7 @@ teaching:
         - misconception: Arithmetic operations are the same in all bases
           remediation: Practice operations with varied examples in different bases
 engagement_hooks:
-    - Discuss how computers use binary and hexadecimal systems
-    - Relate base systems to the coding behind digital screens or memory storage
+    - Discuss how computers use binary and hexadecimal systems in technology
+    - Relate number bases to coding behind digital screens or memory storage
+assessments_file: MT4-02.assessments.yaml
+examples_file: MT4-02.examples.yaml

@@ -2,118 +2,146 @@ topic_id: MT4-09
 provenance: ai-generated
 
 questions:
-  # LO: Memerihalkan peristiwa bergabung dan menyenaraikan peristiwa bergabung yang mungkin
+  # Learning Objective 9.1.1
   - id: Q1
-    text: "Dua dadu dilambungkan. Berapakah bilangan peristiwa bergabung yang mungkin jika kita melihat jumlah mata yang terhasil?"
+    text: "Dalam satu kotak terdapat 3 bola merah dan 2 bola biru. Senaraikan semua peristiwa bergabung yang mungkin apabila dua bola dipilih secara rawak."
     difficulty: medium
     learning_objective: 9.1.1
     tp_level: 2
     kbat: false
     answer:
-      type: exact
-      value: "36"
+      type: free_text
+      value: "MM, MB, BM, BB"
       working: |
-        Setiap dadu mempunyai 6 kemungkinan mata (1 hingga 6). Oleh itu, bilangan peristiwa bergabung yang mungkin adalah $6 \times 6 = 36$.
+        Terdapat dua jenis bola, merah (M) dan biru (B). Apabila dua bola dipilih:
+        1. Pilihan pertama: 3 M dan 2 B.
+        2. Pilihan kedua: 2 M dan 1 B (jika M dipilih dahulu) atau 3 M dan 1 B (jika B dipilih dahulu).
+        Jadi, peristiwa bergabung yang mungkin: MM, MB, BM, BB.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Mengira bilangan kemungkinan bagi satu dadu."
+        criteria: "Menyenaraikan dua peristiwa yang betul."
       - marks: 1
-        criteria: "Menggabungkan bilangan kemungkinan dua dadu."
+        criteria: "Menyenaraikan semua peristiwa bergabung yang mungkin."
     hints:
       - level: 1
-        text: "Fikirkan berapa banyak kemungkinan yang ada untuk setiap dadu."
-
-  # LO: Membezakan peristiwa bersandar dan peristiwa tak bersandar
+        text: "Ingat bahawa urutan pemilihan bola adalah penting."
+  
+  # Learning Objective 9.2.2
   - id: Q2
-    text: "Tentukan sama ada peristiwa berikut adalah peristiwa bersandar atau tak bersandar: Memilih dua kad berturut-turut dari dek tanpa menggantikan yang pertama."
-    difficulty: medium
-    learning_objective: 9.2.1
-    tp_level: 3
-    kbat: false
-    answer:
-      type: multiple_choice
-      value: "Bersandar"
-      working: |
-        Apabila kad pertama dipilih dan tidak diganti, jumlah kad dalam dek berubah, mempengaruhi kebarangkalian memilih kad kedua. Oleh itu, ia adalah peristiwa bersandar.
-    marks: 2
-    rubric:
-      - marks: 2
-        criteria: "Jawapan yang betul dengan justifikasi."
-    hints:
-      - level: 1
-        text: "Pertimbangkan jika tindakan pertama mempengaruhi set kemungkinan untuk tindakan kedua."
-
-  # LO: Membuat dan menentusahkan konjektur tentang rumus kebarangkalian peristiwa bergabung
-  - id: Q3
-    text: "Jika $P(A) = 0.4$ dan $P(B) = 0.5$, tuliskan konjektur tentang kebarangkalian peristiwa $A$ dan $B$ bergabung jika $A$ dan $B$ saling eksklusif."
+    text: "Dua dadu dilambung serentak. Apakah kebarangkalian bahawa salah satu dadu menunjukkan nombor 6?"
     difficulty: medium
     learning_objective: 9.2.2
     tp_level: 3
     kbat: false
     answer:
-      type: free_text
-      value: "P(A \cup B) = P(A) + P(B)"
+      type: exact
+      value: "11/36"
       working: |
-        Oleh kerana $A$ dan $B$ saling eksklusif, $P(A \cap B) = 0$. Maka, $P(A \cup B) = P(A) + P(B) = 0.4 + 0.5 = 0.9$.
+        Kebarangkalian satu dadu menunjukkan 6 adalah 1/6.
+        Oleh itu, kebarangkalian salah satu dadu menunjukkan nombor 6 adalah:
+        P(A atau B) = P(A) + P(B) - P(A dan B)
+        = 1/6 + 1/6 - 1/36
+        = 11/36
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menyatakan bahawa $P(A \cap B) = 0$ kerana saling eksklusif."
+        criteria: "Mengira kebarangkalian satu dadu menunjukkan 6."
       - marks: 1
-        criteria: "Menulis rumus untuk $P(A \cup B)$."
+        criteria: "Menggunakan rumus P(A atau B) dengan betul."
       - marks: 1
-        criteria: "Menggantikan nilai dan mengira kebarangkalian."
+        criteria: "Mengira kebarangkalian akhir dengan betul."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Jangan lupa bahawa bagi peristiwa saling eksklusif, $P(A \cap B) = 0$."
+        text: "MISCONCEPTION ALERT: Pastikan untuk tolak kebarangkalian kedua-dua dadu menunjukkan 6."
 
-  # LO: Menentukan kebarangkalian peristiwa bergabung bagi peristiwa bersandar dan peristiwa tak bersandar
-  - id: Q4
-    text: "Dalam sebuah kotak terdapat 3 bola merah dan 2 bola biru. Jika dua bola diambil berturut-turut tanpa diganti, berapakah kebarangkalian kedua-duanya bola merah?"
+  # Learning Objective 9.2.3
+  - id: Q3
+    text: "Dalam satu permainan, jika anda memenangi pusingan pertama, kebarangkalian anda memenangi pusingan kedua adalah 0.7. Jika anda kalah dalam pusingan pertama, kebarangkalian anda memenangi pusingan kedua adalah 0.4. Apakah kebarangkalian anda memenangi pusingan kedua?"
     difficulty: medium
     learning_objective: 9.2.3
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "0.3"
+      value: "0.55"
       working: |
-        Kebarangkalian mengambil bola merah pertama ialah $\frac{3}{5}$. Selepas mengambil satu bola merah, tinggal 2 bola merah daripada 4 bola keseluruhan. Jadi, kebarangkalian bola kedua juga merah ialah $\frac{2}{4}$. Maka, kebarangkalian kedua-duanya merah ialah $\frac{3}{5} \times \frac{2}{4} = \frac{6}{20} = 0.3$.
+        Diberi:
+        P(Menang P1) = 0.5, P(Menang P2 | Menang P1) = 0.7
+        P(Kalah P1) = 0.5, P(Menang P2 | Kalah P1) = 0.4
+        Kebarangkalian memenangi pusingan kedua adalah:
+        P(Menang P2) = P(Menang P2 | Menang P1) × P(Menang P1) + P(Menang P2 | Kalah P1) × P(Kalah P1)
+        = 0.7 × 0.5 + 0.4 × 0.5
+        = 0.35 + 0.2
+        = 0.55
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Mengira kebarangkalian bola merah pertama."
+        criteria: "Menentukan kebarangkalian memenangi pusingan pertama."
       - marks: 1
-        criteria: "Mengira kebarangkalian bola merah kedua selepas bola pertama diambil."
+        criteria: "Menggunakan rumus kebarangkalian bersyarat dengan betul."
       - marks: 1
-        criteria: "Mengalikan kebarangkalian untuk mendapatkan kebarangkalian bergabung."
+        criteria: "Menentukan kebarangkalian akhir dengan betul."
     hints:
       - level: 1
-        text: "Ingat bahawa bilangan bola berubah selepas bola pertama diambil."
+        text: "Pertimbangkan dua senario: menang dan kalah dalam pusingan pertama."
 
-  # LO: Menyelesaikan masalah yang melibatkan kebarangkalian peristiwa bergabung
-  - id: Q5
-    text: "Seorang pelajar memilih secara rawak satu nombor dari 1 hingga 10. Apakah kebarangkalian nombor yang dipilih adalah genap atau lebih besar daripada 8?"
+  # Learning Objective 9.3.2
+  - id: Q4
+    text: "Apakah kebarangkalian sekurang-kurangnya satu daripada dua kad yang dipilih dari dek 52 kad adalah hati?"
     difficulty: medium
-    learning_objective: 9.4.1
-    tp_level: 3
+    learning_objective: 9.3.2
+    tp_level: 4
     kbat: true
     answer:
       type: exact
-      value: "0.7"
+      value: "0.6243"
       working: |
-        Nombor genap dari 1 hingga 10 ialah 2, 4, 6, 8, 10 (5 nombor). Nombor lebih besar daripada 8 ialah 9, 10 (2 nombor). Nombor yang genap dan lebih besar daripada 8 ialah 10. Maka, $P(\text{genap} \cup \text{lebih besar daripada } 8) = \frac{5}{10} + \frac{2}{10} - \frac{1}{10} = \frac{7}{10} = 0.7$.
-    marks: 4
+        Kebarangkalian tiada kad hati dipilih:
+        P(Tiada hati) = (39/52) × (38/51)
+        = 0.5588
+        Oleh itu, kebarangkalian sekurang-kurangnya satu hati dipilih:
+        P(Sekurang-kurangnya satu hati) = 1 - P(Tiada hati)
+        = 1 - 0.5588
+        = 0.4412
+        = 0.6243
+    marks: 3
     rubric:
       - marks: 1
-        criteria: "Mengenal pasti nombor genap."
+        criteria: "Mengira kebarangkalian tiada kad hati dipilih."
       - marks: 1
-        criteria: "Mengenal pasti nombor lebih besar daripada 8."
+        criteria: "Menggunakan konsep pelengkap untuk kebarangkalian."
       - marks: 1
-        criteria: "Mengenal pasti nombor yang memenuhi kedua-dua kriteria."
-      - marks: 1
-        criteria: "Mengira kebarangkalian bergabung dengan betul."
+        criteria: "Mengira kebarangkalian akhir dengan tepat."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Pastikan anda tidak mengira dua kali nombor yang termasuk dalam kedua-dua kategori."
+        text: "Gunakan pelengkap dan kira kebarangkalian tiada kad hati dipilih dahulu."
+
+  # Learning Objective 9.4.1
+  - id: Q5
+    text: "Ali dan Abu bermain dadu. Jika Ali mendapat nombor ganjil, dia menang. Jika Abu mendapat nombor lebih besar dari 4, dia menang. Apakah kebarangkalian kedua-dua mereka menang?"
+    difficulty: medium
+    learning_objective: 9.4.1
+    tp_level: 4
+    kbat: false
+    answer:
+      type: exact
+      value: "1/12"
+      working: |
+        Kebarangkalian Ali menang (nombor ganjil): P(Ali) = 3/6 = 1/2
+        Kebarangkalian Abu menang (nombor lebih besar dari 4): P(Abu) = 2/6 = 1/3
+        Kebarangkalian kedua-duanya menang:
+        P(Ali dan Abu) = P(Ali) × P(Abu)
+        = (1/2) × (1/3)
+        = 1/6
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengira kebarangkalian Ali menang."
+      - marks: 1
+        criteria: "Mengira kebarangkalian Abu menang."
+      - marks: 1
+        criteria: "Mengira kebarangkalian kedua-duanya menang dengan betul."
+    hints:
+      - level: 1
+        text: "Pertimbangkan kebarangkalian setiap pemain menang secara terpisah dahulu."

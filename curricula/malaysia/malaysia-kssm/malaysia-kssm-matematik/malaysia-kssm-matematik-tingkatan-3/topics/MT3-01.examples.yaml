@@ -1,87 +1,36 @@
 topic_id: MT3-01
-provenance: ai-assisted
+provenance: ai-generated
+description: "Worked examples for Indeks"
 worked_examples:
-  ### ---------------------------------------------------------
-  ### WORKED EXAMPLES: Indeks (Indices)
-  ### ---------------------------------------------------------
   - id: WE-01
-    topic: "Translating to Index Notation (1.1.1)"
-    scenario: "Write the following repeated multiplication in index form: 4 x 4 x 4 x 4 x 4 x 4"
+    topic: "Understanding Index Form"
     difficulty: easy
-    tp_level: 1
-    kbat: false
-    learning_objective: 1.1.1
-    real_world_analogy: >-
-      Imagine you have 6 boxes, and each box contains the number 4. Instead of writing out the number 4 six times, we use a shortcut. The big number (base) is the number inside the box, and the tiny number floating at the top (index) tells us how many boxes we have.
-    misconception_alert: >-
-      A very common trap is to multiply the base by the index! 4^6 IS NOT 4 * 6 = 24. It means 4 multiplied by itself 6 times!
+    real_world_analogy: "Think of index form as packing identical boxes. If each box contains 3 apples, and you have 4 boxes, you can express it as 3 to the power of 4."
+    misconception_alert: "Students often confuse the base with the index, thinking 3^4 means adding 3 four times instead of multiplying."
+    scenario: "Express the repeated multiplication as an index: 5 * 5 * 5."
     working: |
-      Step 1: Identify the base (the number that is being repeated). The base is 4.
-      Step 2: Count how many times the number 4 is written in the multiplication. It appears 6 times.
-      Step 3: Write the base, and place the count as a small number at the top right.
-      Final Answer: 4^6
+      Step 1: Identify the base, which is the number being multiplied repeatedly. Here, it is 5.
+      Step 2: Count how many times the base is multiplied. Here, 5 is used three times.
+      Step 3: Write the expression in index form: 5^3.
 
   - id: WE-02
-    topic: "Law of Indices - Division (1.2.2)"
-    scenario: "Simplify the expression using the laws of indices: p^8 / p^3"
+    topic: "Laws of Indices - Multiplication"
     difficulty: medium
-    tp_level: 3
-    kbat: false
-    learning_objective: 1.2.2
-    real_world_analogy: >-
-      Think of division as a battle between the top floor and the bottom floor. The base is the type of soldier (p). You have 8 soldiers upstairs and 3 soldiers downstairs. When they fight, 1-on-1, the 3 downstairs soldiers take out 3 upstairs soldiers. You are left with 5 soldiers upstairs!
-    misconception_alert: >-
-      When dividing, you SUBTRACT the indices. You DO NOT divide the indices! 8 divided by 3 is wrong. The rule is top index MINUS bottom index.
+    real_world_analogy: "Imagine stacking identical boxes. If you have a stack of 3 boxes and another stack of 2 boxes, combining them follows the rule of adding indices."
+    misconception_alert: "A common mistake is multiplying the indices rather than adding them when bases are the same."
+    scenario: "Simplify the expression: 2^3 * 2^2."
     working: |
-      Step 1: Verify that both terms have the same base. Both bases are 'p'.
-      Step 2: Apply the law of division: a^m / a^n = a^(m - n).
-      Step 3: Subtract the bottom index from the top index: 8 - 3 = 5.
-      Final Answer: p^5
+      Step 1: Identify that the base is the same for both terms, which is 2.
+      Step 2: Apply the multiplication law of indices: add the indices (3 + 2).
+      Step 3: Write the result: 2^(3+2) = 2^5 = 32.
 
   - id: WE-03
-    topic: "Solving Index Equations (1.2.7)"
-    scenario: "Find the value of x if 2^x * 8 = 32"
+    topic: "Solving Problems with Indices"
     difficulty: hard
-    tp_level: 5
-    kbat: true
-    learning_objective: 1.2.7
-    real_world_analogy: >-
-      To compare their power, everyone must speak the same language! Right now, the numbers 2, 8, and 32 are speaking different languages. We need to convert them all into their 'base 2' form before we can equate them.
-    misconception_alert: >-
-      You cannot multiply 2^x by 8 to get 16^x! That is mathematically illegal. You MUST change the '8' and '32' into bases of 2 first so that the entire equation uses base 2.
+    real_world_analogy: "Solving complex index problems is like calculating compound interest where repeated multiplication over time must be simplified."
+    misconception_alert: "Students might incorrectly apply laws of indices, especially with negative or fractional indices."
+    scenario: "Simplify: (3^4 * 3^-2) / 3^3."
     working: |
-      Step 1: Convert all constants to base 2.
-      We know that 8 = 2^3
-      We know that 32 = 2^5
-      Step 2: Substitute these back into the equation.
-      2^x * 2^3 = 2^5
-      Step 3: Combine the left side using the multiplication law (add indices).
-      2^(x + 3) = 2^5
-      Step 4: Since the bases are exactly the same on both sides, their indices must be exactly equal too. Drop the bases and solve!
-      x + 3 = 5
-      x = 5 - 3
-      Final Answer: x = 2
-
-  - id: WE-04
-    topic: "Indeks Negatif & Pecahan Algebra (Negative Indices) (1.2.4 & 1.2.6)"
-    scenario: "Simplify the algebraic expression: \\frac{(2x^2 y^{-3})^3}{4x^{-1} y^4}. Express your final answer with POSITIVE indices."
-    difficulty: hard
-    tp_level: 4
-    kbat: false
-    learning_objective: 1.2.6
-    real_world_analogy: >-
-      Think of a negative index as holding a 'wrong floor' ticket on a double-decker bus. If a passenger on the top floor (numerator) has a negative ticket, they must move to the bottom floor (denominator) to make it positive. If a bottom floor passenger has a negative ticket, they move upstairs!
-    misconception_alert: >-
-      READ THE INSTRUCTIONS CAREFULLY! If a question asks for "positive indices", leaving your final answer as 2x^7 y^{-13} will lose you the final mark in exams, even if the math is correct. You MUST convert any negative powers into positive powers by moving them to the denominator: 2x^7 / y^{13}.
-    working: |
-      Step 1: Distribute the outer power of 3 to every term in the top bracket:
-      2^3 * x^(2 * 3) * y^{-3 * 3}
-      = 8x^6 y^{-9}
-      Step 2: Combine with the denominator and divide the normal numbers:
-      Numbers: 8 / 4 = 2
-      Step 3: Subtract the bottom indices from the top indices for matching bases:
-      x index: 6 - (-1) = 6 + 1 = 7
-      y index: -9 - 4 = -13
-      Combined result: 2x^7 y^{-13}
-      Step 4: The instruction strictly requires POSITIVE indices. Since y has a negative index, move it to the bottom!
-      Final Answer: \\frac{2x^7}{y^{13}}
+      Step 1: Apply the multiplication law of indices: 3^4 * 3^-2 = 3^(4-2) = 3^2.
+      Step 2: Now simplify the division: 3^2 / 3^3 = 3^(2-3).
+      Step 3: Simplify further: 3^(2-3) = 3^-1 = 1/3.

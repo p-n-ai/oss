@@ -3,34 +3,34 @@ provenance: ai-generated
 description: "Worked examples for RANGKAIAN DALAM TEORI GRAF"
 worked_examples:
   - id: WE-01
-    topic: "Mengenal dan menerangkan rangkaian sebagai graf"
+    topic: "Pengenalan kepada Rangkaian dan Graf"
     difficulty: easy
-    real_world_analogy: "Bayangkan rangkaian jalan raya di sebuah bandar di mana setiap jalan adalah satu hubungan antara dua lokasi."
-    misconception_alert: "Pelajar sering menyangka setiap titik mesti mempunyai bilangan tepi yang sama, tetapi tidak semestinya."
-    scenario: "Anda diminta untuk mengenal pasti rangkaian jalan di dalam kawasan perumahan baru sebagai graf."
+    real_world_analogy: "Memikirkan rangkaian sebagai peta jalan di mana simpul adalah bandar dan tepi adalah jalan yang menghubungkan bandar-bandar tersebut."
+    misconception_alert: "Kesalahan umum adalah menganggap semua graf adalah sama, sedangkan terdapat graf terarah dan tak terarah yang mempunyai sifat berbeza."
+    scenario: "Andaikan kita mempunyai 3 bandar (A, B, C) yang saling dihubungkan. Tentukan jika graf ini adalah terarah atau tidak terarah."
     working: |
-      Step 1: Kenal pasti lokasi utama seperti rumah, taman, dan kedai sebagai nod dalam graf.
-      Step 2: Hubungkan setiap nod dengan jalan yang wujud di antara mereka sebagai tepi.
-      Step 3: Pastikan semua lokasi dan jalan diwakili dengan betul dalam graf. Graf selesai apabila semua hubungan dijelaskan.
+      Step 1: Kenal pasti sama ada tepi di antara bandar-bandar mempunyai arah tertentu.
+      Step 2: Jika tepi mempunyai arah, graf tersebut adalah graf terarah.
+      Step 3: Dalam senario ini, tepi tidak mempunyai arah, maka graf ini adalah graf tak terarah.
 
   - id: WE-02
-    topic: "Membanding beza graf terarah dengan graf tak terarah"
+    topic: "Mengenal dan Melukis Subgraf dan Pokok"
     difficulty: medium
-    real_world_analogy: "Fikirkan tentang aliran trafik di mana jalan sehala mewakili graf terarah dan jalan dua hala mewakili graf tak terarah."
-    misconception_alert: "Kesilapan biasa ialah menganggap semua graf boleh menjadi terarah atau tak terarah dengan mudah, tetapi sifat hubungan menentukan arahnya."
-    scenario: "Bandingkan antara rangkaian trafik yang menggunakan graf terarah dengan sistem komunikasi dua hala yang menggunakan graf tak terarah."
+    real_world_analogy: "Bayangkan pokok sebagai sebuah rangkaian jalan tanpa lingkaran seperti jalan yang tidak membolehkan kita berpatah balik ke asal tanpa memutar seluruh kawasan."
+    misconception_alert: "Seringkali, pelajar menganggap semua rangkaian yang tidak lengkap adalah subgraf, tetapi subgraf mesti mengandungi sebahagian daripada simpul dan tepi asal sahaja."
+    scenario: "Diberikan graf lengkap dengan 4 simpul, lukiskan semua subgraf yang mungkin dengan 3 simpul dan kenal pasti mana satu yang merupakan pokok."
     working: |
-      Step 1: Kenal pasti sifat hubungan dalam setiap situasi. Untuk trafik, hubungan adalah sehala; untuk komunikasi, ia adalah dua hala.
-      Step 2: Lakarkan graf terarah untuk aliran trafik di mana setiap jalan menunjukkan arah aliran.
-      Step 3: Lukiskan graf tak terarah untuk komunikasi di mana setiap sambungan adalah dua hala, dan tiada arah perlu ditentukan.
+      Step 1: Pilih 3 simpul dari 4 simpul yang ada. Contohnya, pilih simpul A, B, dan C.
+      Step 2: Lukiskan semua tepi yang mungkin di antara 3 simpul yang dipilih. Contohnya, tepi AB, BC, dan AC.
+      Step 3: Kenal pasti pokok dengan memastikan tiada lingkaran dalam subgraf. Jika terdapat tepi AB dan BC, tetapi bukan AC, maka ia adalah pokok sebab tiada lingkaran.
 
   - id: WE-03
-    topic: "Menyelesaikan masalah yang melibatkan rangkaian"
+    topic: "Menyelesaikan Masalah Melibatkan Rangkaian"
     difficulty: hard
-    real_world_analogy: "Bayangkan mencari laluan terpendek untuk penghantaran barang dari satu tempat ke tempat lain melalui jaringan jalan."
-    misconception_alert: "Pelajar mungkin tersilap memilih laluan yang kelihatan terpendek secara visual tanpa mempertimbangkan pemberat sebenar pada tepi."
-    scenario: "Cari laluan terpendek dari kilang ke kedai menggunakan rangkaian jalan yang mempunyai jarak berlainan antara titik."
+    real_world_analogy: "Memikirkan rangkaian sebagai sistem pengedaran di mana kita perlu mengoptimumkan laluan untuk mengurangkan kos atau masa."
+    misconception_alert: "Kesilapan biasa adalah mengambil laluan pertama yang ditemui tanpa mempertimbangkan jalan yang lebih pendek atau lebih efisien."
+    scenario: "Seorang penghantar barang perlu menghantar ke 5 lokasi berbeza. Tentukan laluan paling pendek menggunakan algoritma Dijkstra."
     working: |
-      Step 1: Tentukan semua nod dan tepi serta jarak antara setiap nod dalam rangkaian.
-      Step 2: Gunakan algoritma Dijkstra untuk mengira jarak terpendek dari kilang ke setiap nod lain.
-      Step 3: Jejaki laluan dari kilang ke kedai dengan jarak terkumpul paling rendah untuk mendapatkan laluan terpendek.
+      Step 1: Tentukan titik permulaan, contohnya lokasi A.
+      Step 2: Kira jarak terpendek dari A ke setiap lokasi lain menggunakan algoritma Dijkstra, dengan mengemas kini jarak minimum ketika jalan lebih pendek ditemui.
+      Step 3: Jejak semula laluan dari destinasi akhir ke titik permulaan menggunakan jarak minimum yang telah dihitung untuk mendapatkan laluan paling pendek.

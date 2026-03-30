@@ -60,15 +60,17 @@ quality_level: 1
 provenance: ai-assisted
 teaching:
     sequence:
-        - 'Step 1: Introduce the concept of dispersion and its importance in data analysis (15 min)'
-        - 'Step 2: Teach how to calculate range, interquartile range, variance, and standard deviation (20 min)'
-        - 'Step 3: Explore the effects of data changes on dispersion using hypothetical data sets (25 min)'
-        - 'Step 4: Guide students in creating and interpreting box plots (20 min)'
+        - 'Step 1: Introduction to dispersion and its importance in data analysis (15 min)'
+        - 'Step 2: Calculation of range, interquartile range, variance, and standard deviation (20 min)'
+        - 'Step 3: Analyze the effect of data changes on dispersion (25 min)'
+        - 'Step 4: Construct and interpret box plots (20 min)'
     common_misconceptions:
         - misconception: Dispersion is the same as central tendency
           remediation: Clarify with examples showing the difference between spread and center
         - misconception: Variance and standard deviation are interchangeable
-          remediation: Highlight the calculation steps and meanings of each measure
+          remediation: Highlight the calculation steps and distinct meanings of each measure
 engagement_hooks:
     - Use local weather data to demonstrate real-world applications of dispersion
     - Compare exam scores of different classes to discuss performance spread
+assessments_file: MT4-08.assessments.yaml
+examples_file: MT4-08.examples.yaml

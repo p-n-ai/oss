@@ -3,38 +3,37 @@ provenance: ai-generated
 description: "Worked examples for KETAKSAMAAN LINEAR DALAM DUA PEMBOLEH UBAH"
 worked_examples:
   - id: WE-01
-    topic: "Ketaksamaan Linear dalam Dua Pemboleh Ubah"
+    topic: "Representing Linear Inequalities"
     difficulty: easy
-    real_world_analogy: "Imagine a fence that keeps cattle within a certain area. The fence represents the boundary of your inequality."
-    misconception_alert: "Students often forget that the inequality sign indicates which side of the line is shaded. Remember, '<' or '>' means not including the line itself, while '≤' or '≥' means including the line."
-    scenario: "A farmer wants to plant at least 20 trees but not more than 50 trees in a section of his orchard. If x represents the number of rowan trees and y represents the number of oak trees, write an inequality to represent this situation."
+    real_world_analogy: "Imagine a person who cannot carry more than 10 kg. This can be represented as an inequality where the total weight must be less than or equal to 10 kg."
+    misconception_alert: "Students often confuse the inequality symbols, mistaking '<' for '>' and vice versa."
+    scenario: "A fruit vendor has apples (x kg) and bananas (y kg). The total weight of fruits must not exceed 15 kg. Represent this scenario as a linear inequality."
     working: |
-      Step 1: Define the variables. Let x = number of rowan trees and y = number of oak trees.
-      Step 2: Write the inequality for the minimum number of trees: x + y ≥ 20.
-      Step 3: Write the inequality for the maximum number of trees: x + y ≤ 50.
-      Step 4: Combine these into a system of inequalities: 20 ≤ x + y ≤ 50.
+      Step 1: Identify the total weight constraint. The total weight of apples and bananas should not exceed 15 kg.
+      Step 2: Express the situation in terms of an inequality: x + y ≤ 15.
+      Step 3: The inequality x + y ≤ 15 represents the condition where the combined weight of apples and bananas is at most 15 kg.
 
   - id: WE-02
-    topic: "Ketaksamaan Linear dalam Dua Pemboleh Ubah"
+    topic: "Analyzing Solutions to a Linear Inequality"
     difficulty: medium
-    real_world_analogy: "Think of a shopping budget where you need to buy at least some items but can't exceed your budget."
-    misconception_alert: "Students may mistakenly reverse the inequality sign when subtracting terms from both sides. Always ensure the inequality sign remains correct after any operations."
-    scenario: "You have a budget of RM100 to buy pens and notebooks. Each pen costs RM3 and each notebook costs RM5. Write a system of inequalities that represents how many pens (p) and notebooks (n) you can buy."
+    real_world_analogy: "Consider a bus that can seat a maximum of 40 passengers. We can represent the number of passengers as an inequality."
+    misconception_alert: "Students may think that all points on the line are solutions, but only those within the shaded region satisfy the inequality."
+    scenario: "Determine if the point (8, 5) is within the solution set for the inequality 3x + 2y < 30."
     working: |
-      Step 1: Define the cost equation. Cost of pens = 3p and cost of notebooks = 5n.
-      Step 2: Write the inequality for the budget: 3p + 5n ≤ 100.
-      Step 3: You need to buy at least one item. Write: p + n ≥ 1.
-      Step 4: The system of inequalities is: 3p + 5n ≤ 100 and p + n ≥ 1.
+      Step 1: Substitute x = 8 and y = 5 into the inequality: 3(8) + 2(5).
+      Step 2: Calculate the left-hand side: 24 + 10 = 34.
+      Step 3: Compare 34 with 30. Since 34 is not less than 30, the point (8, 5) does not satisfy the inequality 3x + 2y < 30.
 
   - id: WE-03
-    topic: "Sistem Ketaksamaan Linear dalam Dua Pemboleh Ubah"
+    topic: "Solving a System of Linear Inequalities"
     difficulty: hard
-    real_world_analogy: "Balancing ingredients in a recipe where you have to stay within certain nutritional limits."
-    misconception_alert: "A common mistake is not checking if the solution satisfies all inequalities in the system, especially when graphing the solution region."
-    scenario: "A nutritionist wants to create a smoothie mix using apples and bananas. Each apple provides 3 units of Vitamin A and 2 units of Vitamin C. Each banana provides 2 units of Vitamin A and 1 unit of Vitamin C. She needs at least 12 units of Vitamin A and at least 8 units of Vitamin C. Determine the possible combinations of apples (a) and bananas (b) she can use."
+    real_world_analogy: "Imagine planning a party with budget constraints. You have to ensure food and decoration costs do not exceed a certain budget."
+    misconception_alert: "Students often forget that the solution is the intersection of the regions satisfying each inequality in the system."
+    scenario: "A company produces two products, A and B. The production constraints are: 2x + 3y ≤ 60 and x + y ≥ 20. Find the feasible region and determine if producing 10 units of A and 15 units of B is feasible."
     working: |
-      Step 1: Define the Vitamin A inequality: 3a + 2b ≥ 12.
-      Step 2: Define the Vitamin C inequality: 2a + b ≥ 8.
-      Step 3: Graph the lines of both inequalities on a coordinate plane.
-      Step 4: Shade the region that satisfies both inequalities. This is where the two shaded regions overlap.
-      Step 5: Check corner points of the feasible region to ensure they satisfy both inequalities.
+      Step 1: Graph the first inequality 2x + 3y ≤ 60.
+      Step 2: Graph the second inequality x + y ≥ 20.
+      Step 3: Identify the intersection of the two regions. This intersection is the feasible region.
+      Step 4: Check if the point (10, 15) lies within this region. Substitute x = 10 and y = 15 into both inequalities.
+      Step 5: For 2x + 3y ≤ 60: 2(10) + 3(15) = 20 + 45 = 65, which does not satisfy the inequality.
+      Step 6: Conclusion: Producing 10 units of A and 15 units of B is not feasible within the given constraints.

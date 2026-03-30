@@ -3,35 +3,34 @@ provenance: ai-generated
 description: "Worked examples for PENAAKULAN LOGIK"
 worked_examples:
   - id: WE-01
-    topic: "Menerangkan maksud pernyataan dan menentukan nilai kebenaran"
+    topic: "Maksud Pernyataan dan Nilai Kebenaran"
     difficulty: easy
-    real_world_analogy: "Memastikan kebenaran kenyataan seperti memeriksa sama ada lampu isyarat berwarna merah sebelum berhenti."
-    misconception_alert: "Pelajar sering keliru antara pernyataan yang bersifat umum dengan pernyataan yang bersifat khusus."
-    scenario: "Ahmad menyatakan bahawa semua burung boleh terbang. Tentukan nilai kebenaran pernyataan ini."
+    real_world_analogy: "Memeriksa sama ada lampu isyarat merah, kuning, atau hijau sebelum melintas jalan."
+    misconception_alert: "Pelajar sering keliru antara pernyataan yang benar dan salah apabila tidak mempertimbangkan konteks sepenuhnya."
+    scenario: "Tentukan nilai kebenaran pernyataan: 'Semua pelajar di dalam kelas memakai baju biru.'"
     working: |
-      Step 1: Kenal pasti pernyataan yang diberikan iaitu 'semua burung boleh terbang'.
-      Step 2: Fikirkan contoh burung yang tidak boleh terbang, seperti penguin dan burung unta.
-      Step 3: Oleh kerana terdapat burung yang tidak boleh terbang, pernyataan ini adalah palsu.
+      Step 1: Periksa setiap pelajar dalam kelas untuk melihat warna baju mereka.
+      Step 2: Jika terdapat walau seorang pelajar yang tidak memakai baju biru, maka pernyataan itu adalah salah.
+      Step 3: Jika semua pelajar memakai baju biru, maka pernyataan itu adalah benar. Jawapan: Nilai kebenaran adalah salah jika ada pelajar tidak memakai baju biru.
 
   - id: WE-02
-    topic: "Menentukan nilai kebenaran suatu pernyataan majmuk"
+    topic: "Pernyataan Implikasi dan Songsangan"
     difficulty: medium
-    real_world_analogy: "Menentukan kebenaran kombinasi pernyataan seperti memeriksa sama ada anda perlu membawa payung dan memakai baju hujan jika cuaca mendung dan ramalan mengatakan akan hujan."
-    misconception_alert: "Pelajar kadang-kadang menganggap pernyataan majmuk 'dan' sama dengan 'atau'."
-    scenario: "Pernyataan majmuk: 'Ali suka epal dan Ali suka pisang.' Jika Ali hanya suka epal, tentukan nilai kebenaran pernyataan ini."
+    real_world_analogy: "Jika kita menanam benih, maka pokok akan tumbuh, tetapi ini tidak bermakna jika pokok tumbuh, kita pasti menanam benih."
+    misconception_alert: "Pelajar sering salah faham bahawa implikasi songsangan adalah sama dengan implikasi asal."
+    scenario: "Jika hujan, jalan akan basah. Bina pernyataan songsangan dan tentukan nilai kebenaran."
     working: |
-      Step 1: Kenal pasti pernyataan individu: 'Ali suka epal' dan 'Ali suka pisang'.
-      Step 2: Tentukan nilai kebenaran setiap pernyataan individu. 'Ali suka epal' adalah benar, tetapi 'Ali suka pisang' adalah palsu.
-      Step 3: Oleh kerana pernyataan majmuk menggunakan 'dan', kedua-dua pernyataan mesti benar. Oleh itu, pernyataan majmuk adalah palsu.
+      Step 1: Pernyataan asal: Jika hujan, maka jalan akan basah.
+      Step 2: Pernyataan songsangan: Jika jalan basah, maka hujan.
+      Step 3: Tentukan nilai kebenaran pernyataan songsangan dengan memeriksa situasi lain seperti penyiraman air ke jalan. Jawapan: Songsangan adalah tidak semestinya benar kerana jalan boleh basah tanpa hujan.
 
   - id: WE-03
-    topic: "Membina dan membandingkan nilai kebenaran akas, songsangan dan kontrapositif"
+    topic: "Hujah Deduktif dan Induktif"
     difficulty: hard
-    real_world_analogy: "Memahami logik seperti memeriksa pelbagai laluan pulang dari sekolah untuk memastikan anda sentiasa mempunyai pilihan jika jalan utama ditutup."
-    misconception_alert: "Pelajar sering keliru antara songsangan dan kontrapositif, dan menganggap kedua-duanya adalah sama."
-    scenario: "Jika hujan, maka jalan basah. Bina dan bandingkan nilai kebenaran bagi akas, songsangan, dan kontrapositif."
+    real_world_analogy: "Menggunakan bukti DNA untuk menentukan sama ada seseorang adalah suspek dalam kes jenayah adalah seperti hujah deduktif."
+    misconception_alert: "Pelajar kadang-kadang menyamakan hujah deduktif dengan induktif tanpa mempertimbangkan struktur dan bukti yang terlibat."
+    scenario: "Bina hujah deduktif untuk menentukan sama ada seorang pelajar layak mendapat anugerah berdasarkan kriteria tertentu."
     working: |
-      Step 1: Kenal pasti implikasi asal: 'Jika hujan, maka jalan basah' (p → q).
-      Step 2: Bina akas: 'Jika jalan basah, maka hujan' (q → p) dan tentukan nilai kebenaran. Akas tidak semestinya benar.
-      Step 3: Bina songsangan: 'Jika tidak hujan, maka jalan tidak basah' (¬p → ¬q) dan tentukan nilai kebenaran. Songsangan tidak semestinya benar.
-      Step 4: Bina kontrapositif: 'Jika jalan tidak basah, maka tidak hujan' (¬q → ¬p) dan tentukan nilai kebenaran. Kontrapositif adalah benar jika implikasi asal benar.
+      Step 1: Kenal pasti kriteria: Pelajar mesti mendapat A dalam semua subjek dan terlibat dalam aktiviti kokurikulum.
+      Step 2: Kumpulkan maklumat: Semak rekod akademik dan rekod kokurikulum pelajar tersebut.
+      Step 3: Analisis maklumat: Jika pelajar memenuhi kedua-dua kriteria, maka pelajar layak untuk anugerah tersebut. Jika tidak, pelajar tidak layak. Jawapan: Hujah deduktif menunjukkan pelajar layak jika dan hanya jika memenuhi semua kriteria.

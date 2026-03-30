@@ -2,129 +2,120 @@ topic_id: MT4-07
 provenance: ai-generated
 
 questions:
-  # LO 7.1.1 - Melukis graf jarak-masa
+  # Learning objective 7.1.1: Melukis graf jarak-masa
   - id: Q1
-    text: "Lukis graf jarak-masa bagi sebuah kereta yang bergerak dengan laju seragam 60 km/j selama 3 jam."
+    text: 'Rajah menunjukkan perjalanan seorang pelari dalam 2 jam. Lakarkan graf jarak-masa jika pelari itu mengekalkan halaju sepanjang masa.'
     difficulty: medium
-    learning_objective: LO1
-    tp_level: 2
+    learning_objective: 7.1.1
+    tp_level: 3
     kbat: false
     answer:
       type: free_text
-      value: "Graf jarak-masa dengan garis lurus dari (0,0) ke (3,180)."
+      value: "Graf yang menunjukkan garis lurus yang menaik secara seragam."
       working: |
-        Kereta bergerak dengan laju 60 km/j, jadi dalam 3 jam, ia akan bergerak 60 km/j * 3 jam = 180 km.
-        Oleh itu, titik akhir graf adalah pada (3, 180) dengan garis lurus dari (0, 0).
+        Pelari bergerak dengan halaju tetap, jadi graf jarak-masa adalah garis lurus yang menunjukkan kenaikan jarak yang seragam dari masa ke masa.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menentukan jarak keseluruhan yang dilalui."
-      - marks: 1
-        criteria: "Melukis garis lurus yang betul."
-      - marks: 1
-        criteria: "Menetapkan titik akhir graf dengan betul."
+        criteria: "Graf menunjukkan garis lurus."
+      - marks: 2
+        criteria: "Graf menunjukkan kenaikan jarak yang seragam."
+      - marks: 3
+        criteria: "Graf menunjukkan kenaikan linear dan diperlabelkan dengan betul."
     hints:
       - level: 1
-        text: "Pertimbangkan laju kereta dan masa pergerakan untuk menentukan jarak."
+        text: "Ingatlah bahawa halaju tetap bermaksud jarak bertambah secara sekata."
 
-  # LO 7.1.2 - Mentafsir graf jarak-masa
+  # Learning objective 7.1.2: Mentafsir graf jarak-masa
   - id: Q2
-    text: "Graf jarak-masa menunjukkan sebuah bas berhenti selama 30 minit sebelum meneruskan perjalanan. Terangkan gerakan bas tersebut."
+    text: 'Graf jarak-masa menunjukkan sebuah kereta bergerak dari titik A ke B dalam 3 jam. Apakah kelajuan purata kereta tersebut?'
     difficulty: medium
-    learning_objective: LO2
-    tp_level: 2
-    kbat: false
-    answer:
-      type: free_text
-      value: "Bas berhenti selama 30 minit apabila graf mendatar, sebelum meneruskan perjalanan."
-      working: |
-        Graf mendatar menunjukkan tiada perubahan dalam jarak, menandakan bas berhenti.
-        Selepas 30 minit, graf mula menaik semula menunjukkan bas meneruskan perjalanan.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Menyedari bahagian mendatar menunjukkan bas berhenti."
-      - marks: 1
-        criteria: "Mengetahui tempoh masa bas berhenti."
-      - marks: 1
-        criteria: "Menghuraikan pergerakan selepas berhenti."
-    hints:
-      - level: 1
-        text: "Graf mendatar menunjukkan tiada perubahan jarak. Apakah maksudnya dalam konteks ini?"
-
-  # LO 7.1.3 - Menyelesaikan masalah yang melibatkan graf jarak-masa
-  - id: Q3
-    text: "Sebuah lori bergerak dengan laju seragam 80 km/j selama 4 jam dan berhenti selama 1 jam sebelum meneruskan perjalanan dengan laju seragam 60 km/j selama 3 jam lagi. Hitung jumlah jarak yang dilalui oleh lori."
-    difficulty: medium
-    learning_objective: LO3
-    tp_level: 2
+    learning_objective: 7.1.2
+    tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "500 km"
+      value: 'Kelajuan purata = $\frac{\text{Jarak keseluruhan}}{\text{Masa keseluruhan}}$'
       working: |
-        Jarak semasa bergerak pertama: 80 km/j * 4 jam = 320 km.
-        Jarak semasa bergerak kedua: 60 km/j * 3 jam = 180 km.
-        Jumlah jarak = 320 km + 180 km = 500 km.
+        Kelajuan purata boleh dikira dengan formula $\frac{\text{Jarak keseluruhan}}{\text{Masa keseluruhan}}$. Jika jarak dari A ke B adalah 150 km, maka $v = \frac{150 \text{ km}}{3 \text{ jam}} = 50 \text{ km/j}$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan formula kelajuan purata dengan betul."
+      - marks: 2
+        criteria: "Mengira kelajuan purata dengan betul."
+    hints:
+      - level: 1
+        text: 'Gunakan formula kelajuan purata: $\frac{\text{Jarak}}{\text{Masa}}$.'
+
+  # Learning objective 7.1.3: Menyelesaikan masalah graf jarak-masa
+  - id: Q3
+    text: 'Seorang pelari bergerak dengan kelajuan tetap 10 m/s. Berapakah jarak yang dilalui selepas 5 minit?'
+    difficulty: medium
+    learning_objective: 7.1.3
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "3000 m"
+      working: |
+        Jarak = Kelajuan x Masa. Masa = 5 minit = 300 saat. Jadi, Jarak = 10 m/s x 300 s = 3000 m.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Mengira jarak pergerakan pertama dengan betul."
-      - marks: 1
-        criteria: "Mengira jarak pergerakan kedua dengan betul."
-      - marks: 1
-        criteria: "Menjumlahkan kedua-dua jarak dengan betul."
+        criteria: "Menukar masa dari minit ke saat dengan betul."
+      - marks: 2
+        criteria: "Menggunakan formula Jarak = Kelajuan x Masa dengan betul."
+      - marks: 3
+        criteria: "Mengira jarak dengan betul."
     hints:
       - level: 1
-        text: "Hitung jarak untuk setiap segmen pergerakan secara berasingan dan jumlahkan."
+        text: "Pastikan untuk menukar masa ke dalam saat sebelum menggunakan formula."
 
-  # LO 7.2.1 - Melukis graf laju-masa
+  # Learning objective 7.2.1: Melukis graf laju-masa
   - id: Q4
-    text: "Lukis graf laju-masa bagi sebuah kereta yang bergerak dengan laju 90 km/j selama 2 jam, kemudian berhenti selama 1 jam, dan terus bergerak dengan laju 70 km/j selama 2 jam lagi."
+    text: 'Lukiskan graf laju-masa untuk sebuah kenderaan yang memulakan pergerakan dari keadaan pegun dan mencapai kelajuan 20 m/s dalam masa 10 saat.'
     difficulty: medium
-    learning_objective: LO4
-    tp_level: 2
+    learning_objective: 7.2.1
+    tp_level: 3
     kbat: false
     answer:
       type: free_text
-      value: "Graf laju-masa dengan dua segmen mendatar pada 90 dan 70 km/j, dan satu segmen mendatar pada 0 km/j."
+      value: "Graf menunjukkan garis lurus menaik dari (0,0) ke (10,20)."
       working: |
-        Pertama, lukis garis mendatar pada 90 km/j dari t=0 hingga t=2.
-        Kemudian, lukis garis mendatar pada 0 km/j dari t=2 hingga t=3.
-        Akhir sekali, lukis garis mendatar pada 70 km/j dari t=3 hingga t=5.
+        Kenderaan memulakan pergerakan dari keadaan pegun, jadi graf bermula dari titik asal (0,0). Garis menaik secara linear ke (10,20) menunjukkan percepatan tetap.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Melukis segmen pertama dengan betul pada 90 km/j."
-      - marks: 1
-        criteria: "Melukis segmen kedua dengan betul pada 0 km/j."
-      - marks: 1
-        criteria: "Melukis segmen ketiga dengan betul pada 70 km/j."
+        criteria: "Graf bermula dari titik asal (0,0)."
+      - marks: 2
+        criteria: "Graf menunjukkan garis lurus menaik."
+      - marks: 3
+        criteria: "Graf mencapai (10,20) dan diperlabelkan dengan betul."
     hints:
       - level: 1
-        text: "Setiap segmen masa mewakili satu kelajuan yang berbeza. Pastikan segmen mendatar."
+        text: "Percepatan tetap menghasilkan garis lurus dalam graf laju-masa."
 
-  # LO 7.2.2 - Membuat perkaitan antara luas di bawah graf laju-masa dengan jarak
+  # Learning objective 7.2.2: Membuat perkaitan luas di bawah graf laju-masa dengan jarak
   - id: Q5
-    text: "Graf laju-masa bagi sebuah motosikal menunjukkan pergerakan selama 3 jam dengan laju seragam 50 km/j. Hitung jarak yang dilalui menggunakan graf tersebut."
+    text: 'Graf laju-masa menunjukkan sebuah kereta bergerak dengan halaju tetap 15 m/s selama 4 saat. Berapakah jarak yang dilalui kereta itu?'
     difficulty: medium
-    learning_objective: LO5
-    tp_level: 2
+    learning_objective: 7.2.2
+    tp_level: 4
     kbat: true
     answer:
       type: exact
-      value: "150 km"
+      value: "60 m"
       working: |
-        Luas di bawah graf laju-masa mewakili jarak yang dilalui.
-        Luas segi empat tepat = panjang * lebar = 50 km/j * 3 jam = 150 km.
+        Jarak yang dilalui adalah sama dengan luas di bawah graf laju-masa. Luas tersebut boleh dikira sebagai kawasan segiempat tepat: 15 m/s x 4 s = 60 m.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menyedari bahawa luas di bawah graf mewakili jarak."
-      - marks: 1
-        criteria: "Menggunakan nilai laju dan masa yang diberikan dengan betul."
-      - marks: 1
-        criteria: "Mengira luas dengan betul untuk menentukan jarak."
+        criteria: "Mengenal pasti bahawa jarak adalah luas di bawah graf."
+      - marks: 2
+        criteria: "Mengira luas segiempat tepat dengan betul."
+      - marks: 3
+        criteria: "Menyatakan jarak dengan betul."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Luas di bawah graf laju-masa bukan hanya laju kali masa. Pastikan anda mengira luas dengan betul."
+        text: "MISCONCEPTION ALERT: Pastikan untuk mengaitkan luas di bawah graf dengan jarak."

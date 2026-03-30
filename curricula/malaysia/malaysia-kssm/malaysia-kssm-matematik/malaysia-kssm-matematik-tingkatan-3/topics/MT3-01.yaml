@@ -1,5 +1,5 @@
 id: MT3-01
-official_ref: "Bab 1"  # as printed in KSSM DSKP document
+official_ref: "Bab 1" # as printed in KSSM DSKP document
 name: "Indeks"
 name_en: "Indices"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-3
@@ -9,57 +9,73 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
-
 learning_objectives:
-  - id: 1.1.1
-    text: "Represent repeated multiplication in index form and explain the meaning of base and index (SP 1.1.1)."
-    bloom: understand
-  - id: 1.1.2
-    text: "Convert between ordinary numerical expressions and index form accurately (SP 1.1.2)."
-    bloom: apply
-  - id: 1.2.1
-    text: "Generalize the law for multiplying numbers in index form with the same base from repeated multiplication patterns (SP 1.2.1)."
-    bloom: analyze
-  - id: 1.2.2
-    text: "Generalize the law for dividing numbers in index form with the same base from repeated multiplication patterns (SP 1.2.2)."
-    bloom: analyze
-  - id: 1.2.3
-    text: "Relate powers of numbers in index form to repeated multiplication and use the pattern to form a rule (SP 1.2.3)."
-    bloom: analyze
-  - id: 1.2.4
-    text: "Verify and use the meanings of zero and negative indices for non-zero bases (SP 1.2.4)."
-    bloom: apply
-  - id: 1.2.5
-    text: "Connect fractional indices with roots and powers in equivalent forms (SP 1.2.5)."
-    bloom: analyze
-  - id: 1.2.6
-    text: "Perform calculations involving the laws of indices accurately (SP 1.2.6)."
-    bloom: apply
-  - id: 1.2.7
-    text: "Solve contextual and non-routine problems involving the laws of indices with justified working (SP 1.2.7)."
-    bloom: analyze
-
+    - id: 1.1.1
+      text: "Represent repeated multiplication in index form and explain the meaning of base and index (SP 1.1.1)."
+      bloom: understand
+    - id: 1.1.2
+      text: "Convert between ordinary numerical expressions and index form accurately (SP 1.1.2)."
+      bloom: apply
+    - id: 1.2.1
+      text: "Generalize the law for multiplying numbers in index form with the same base from repeated multiplication patterns (SP 1.2.1)."
+      bloom: analyze
+    - id: 1.2.2
+      text: "Generalize the law for dividing numbers in index form with the same base from repeated multiplication patterns (SP 1.2.2)."
+      bloom: analyze
+    - id: 1.2.3
+      text: "Relate powers of numbers in index form to repeated multiplication and use the pattern to form a rule (SP 1.2.3)."
+      bloom: analyze
+    - id: 1.2.4
+      text: "Verify and use the meanings of zero and negative indices for non-zero bases (SP 1.2.4)."
+      bloom: apply
+    - id: 1.2.5
+      text: "Connect fractional indices with roots and powers in equivalent forms (SP 1.2.5)."
+      bloom: analyze
+    - id: 1.2.6
+      text: "Perform calculations involving the laws of indices accurately (SP 1.2.6)."
+      bloom: apply
+    - id: 1.2.7
+      text: "Solve contextual and non-routine problems involving the laws of indices with justified working (SP 1.2.7)."
+      bloom: analyze
 prerequisites:
-  required:
-    - MT1-05
-    - MT1-06
-    - MT2-02
-  recommended:
-    - MT2-03
-
+    required:
+        - MT1-05
+        - MT1-06
+        - MT2-02
+    recommended:
+        - MT2-03
 bloom_levels:
-  - understand
-  - apply
-  - analyze
-
+    - understand
+    - apply
+    - analyze
 mastery:
-  minimum_score: 0.75
-  assessment_count: 3
-  spaced_repetition:
-    initial_interval_days: 3
-    multiplier: 2.5
-
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
 ai_teaching_notes: "MT3-01.teaching.md"
 assessments_file: "MT3-01.assessments.yaml"
 quality_level: 2
 provenance: ai-assisted
+examples_file: MT3-01.examples.yaml
+teaching:
+    sequence:
+        - 'Step 1: Introduce index notation with real-world examples (20 min)'
+        - 'Step 2: Discover multiplication and division laws through expansion (25 min)'
+        - 'Step 3: Teach power of a power and combined operations (25 min)'
+        - 'Step 4: Explain zero, negative, and fractional indices with patterns (30 min)'
+        - 'Step 5: Solve contextual problems using laws of indices (30 min)'
+    common_misconceptions:
+        - misconception: Students think a^n = a * n
+          remediation: Use expanded form to show a^n as repeated multiplication
+        - misconception: Students apply a^m * a^n = a^(m * n)
+          remediation: Demonstrate that indices are added, not multiplied
+        - misconception: Students believe a^0 = 0
+          remediation: Show division law a^n / a^n = 1 to explain a^0 = 1
+        - misconception: Students confuse a^-n with -a^n
+          remediation: Explain negative index as reciprocal, not negative value
+engagement_hooks:
+    - Discuss digital storage capacities following 2^n pattern
+    - Use Pascal's Triangle to show sums as powers of 2
+    - Relate Kenyir Lake's volume to index notation for large numbers

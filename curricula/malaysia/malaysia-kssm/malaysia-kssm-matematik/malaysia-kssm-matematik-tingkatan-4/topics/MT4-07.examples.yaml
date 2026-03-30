@@ -3,43 +3,45 @@ provenance: ai-generated
 description: "Worked examples for GRAF GERAKAN"
 worked_examples:
   - id: WE-01
-    topic: "Graf Jarak-Masa"
+    topic: "Melukis dan Mentafsir Graf Jarak-Masa"
     difficulty: easy
-    real_world_analogy: "Imagine you are riding a bicycle along a straight road. The distance you cover over time can be represented on a graph."
-    misconception_alert: "Students often confuse distance with speed. Remember, distance is how far you travel, whereas speed is how fast you are traveling."
-    scenario: "Ali rides his bicycle at a constant speed along a straight path. He rides 4 km in 1 hour. Draw the distance-time graph for 3 hours."
+    real_world_analogy: "Imagine timing how long it takes to walk to school and noting the distance covered at various times."
+    misconception_alert: "Students often confuse the axes, plotting time on the vertical axis instead of the horizontal axis."
+    scenario: "Siti berjalan dari rumah ke sekolah yang berjarak 3 km. Dia mengambil masa 30 minit untuk sampai. Lukis graf jarak-masa dan tafsirkan gerakannya."
     working: |
-      Step 1: Identify the variables. The x-axis represents time (hours) and the y-axis represents distance (km).
-      Step 2: Plot the initial point (0 hours, 0 km) on the graph.
-      Step 3: For each hour, Ali covers 4 km. Plot the points (1, 4), (2, 8), and (3, 12) on the graph.
-      Step 4: Draw a straight line through these points. This is the distance-time graph.
-      Step 5: The slope of the line represents a constant speed of 4 km/h.
+      Step 1: Plot time on the horizontal axis and distance on the vertical axis.
+      Step 2: Mark the point where Siti starts from home at (0, 0).
+      Step 3: Mark the point where Siti reaches school at (30, 3).
+      Step 4: Draw a straight line connecting these two points.
+      Step 5: Interpretation: The graph shows a constant speed since the line is straight, indicating uniform movement.
 
   - id: WE-02
-    topic: "Graf Laju-Masa"
+    topic: "Menyelesaikan Masalah Menggunakan Graf Jarak-Masa"
     difficulty: medium
-    real_world_analogy: "Think of a car journey where you accelerate, maintain speed, and then decelerate. This change in speed over time is shown in a speed-time graph."
-    misconception_alert: "Students might confuse the area under the graph with speed. It actually represents the distance traveled."
-    scenario: "A car accelerates uniformly from rest to 60 km/h in 10 seconds, maintains this speed for 20 seconds, and then decelerates to rest in 10 seconds. Draw the speed-time graph and calculate the total distance traveled."
+    real_world_analogy: "Think of a bus trip where you stop to rest, and then continue at a different speed."
+    misconception_alert: "Students might assume speed is constant if they're not careful with sections of the graph that are horizontal."
+    scenario: "Ali memandu sejauh 100 km ke bandar. Dia berhenti rehat setelah 40 km selama 30 minit sebelum meneruskan perjalanan. Lukis dan tafsirkan graf jarak-masa."
     working: |
-      Step 1: Identify the stages of motion: acceleration, constant speed, and deceleration.
-      Step 2: Plot the speed-time graph: start from (0, 0), rise to (10, 60), maintain at (30, 60), and fall back to (40, 0).
-      Step 3: Calculate the area under the graph: 
-        - Triangle during acceleration: (1/2) * 10 * 60 = 300 km
-        - Rectangle during constant speed: 20 * 60 = 1200 km
-        - Triangle during deceleration: (1/2) * 10 * 60 = 300 km
-      Step 4: Add these areas to find total distance: 300 + 1200 + 300 = 1800 km
+      Step 1: Plot time on the horizontal axis and distance on the vertical axis.
+      Step 2: Draw a line from (0, 0) to (1, 40) to represent the first part of the journey.
+      Step 3: Draw a horizontal line from (1, 40) to (1.5, 40) to represent the rest period.
+      Step 4: Continue the line from (1.5, 40) to (3, 100) to complete the journey.
+      Step 5: Interpretation: The graph shows two segments with different slopes, indicating different speeds, and a horizontal segment indicating a rest period.
 
   - id: WE-03
-    topic: "Menyelesaikan Masalah Graf Laju-Masa"
+    topic: "Membuat Perkaitan dan Mentafsir Graf Laju-Masa"
     difficulty: hard
-    real_world_analogy: "Consider a marathon runner who has to pace themselves differently at various stages of a race. Understanding speed-time graphs can help in strategizing the race."
-    misconception_alert: "Students often overlook the significance of the total area under the graph, which provides insights into the total distance."
-    scenario: "A runner starts with a jog at 5 m/s for 10 seconds, increases speed to 10 m/s for the next 10 seconds, and finally sprints at 15 m/s for 5 seconds. Calculate the total distance covered during the entire run."
+    real_world_analogy: "Consider a cycling race where the cyclist speeds up, maintains speed, and then slows down."
+    misconception_alert: "Students may overlook the fact that the area under the speed-time graph represents distance."
+    scenario: "Seorang pelumba basikal bergerak dengan laju 5 m/s selama 20 saat, kemudian memecut hingga 10 m/s dalam masa 10 saat, dan akhirnya memperlahankan hingga berhenti dalam 5 saat. Lukis dan tafsirkan graf laju-masa serta hitung jarak yang dilalui."
     working: |
-      Step 1: Plot the speed-time graph with the given speeds and time intervals.
-      Step 2: Calculate the area under each segment of the graph to find distances:
-        - First segment (rectangle): 5 m/s * 10 s = 50 m
-        - Second segment (rectangle): 10 m/s * 10 s = 100 m
-        - Third segment (rectangle): 15 m/s * 5 s = 75 m
-      Step 3: Sum the areas to get the total distance: 50 m + 100 m + 75 m = 225 m
+      Step 1: Plot time on the horizontal axis and speed on the vertical axis.
+      Step 2: Draw a horizontal line at 5 m/s from (0, 0) to (20, 5).
+      Step 3: Draw a line increasing from (20, 5) to (30, 10) to represent acceleration.
+      Step 4: Draw a line decreasing from (30, 10) to (35, 0) to represent deceleration.
+      Step 5: Calculate the total distance by finding the area under each section:
+        - Rectangle (0 to 20s): 5 m/s * 20 s = 100 m
+        - Trapezium (20 to 30s): 0.5 * (5 + 10) * 10 s = 75 m
+        - Triangle (30 to 35s): 0.5 * 10 * 5 s = 25 m
+      Step 6: Sum the areas: 100 m + 75 m + 25 m = 200 m
+      Step 7: Interpretation: The graph shows different phases of motion, and the total distance covered is 200 meters.

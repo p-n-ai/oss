@@ -76,16 +76,18 @@ quality_level: 1
 provenance: ai-assisted
 teaching:
     sequence:
-        - 'Step 1: Memahami pernyataan logik dan nilai kebenaran (20 min)'
-        - 'Step 2: Menukar dan menafikan pernyataan menggunakan ''bukan'' dan ''tidak'' (15 min)'
-        - 'Step 3: Menilai pernyataan majmuk dengan contoh gabungan ''dan'' & ''atau'' (15 min)'
-        - 'Step 4: Memahami implikasi dan bentuk ''Jika p, maka q'' (20 min)'
-        - 'Step 5: Analisis implikasi songsangan dan kontrapositif (20 min)'
+        - 'Step 1: Introduce types and truth values of logical statements (20 min)'
+        - 'Step 2: Teach negation using ''not'' and ''no'' (15 min)'
+        - 'Step 3: Evaluate compound statements for truth values (15 min)'
+        - 'Step 4: Explain implications and their forms (20 min)'
+        - 'Step 5: Compare converse and contrapositive implications (20 min)'
     common_misconceptions:
-        - misconception: Semua pernyataan adalah benar jika tidak disebutkan sebaliknya
-          remediation: Gunakan aktiviti analisis kritikal dan perbincangan untuk menjelaskan
-        - misconception: Implikasi yang benar mesti mempunyai akibat yang benar
-          remediation: Berikan contoh-contoh bertentangan untuk menjelaskan konsep
+        - misconception: All statements are true unless stated otherwise
+          remediation: Use critical analysis activities and discussions
+        - misconception: A true implication must have a true consequence
+          remediation: Provide counterexamples to clarify the concept
 engagement_hooks:
-    - Kaitkan dengan membuat keputusan harian seperti memilih laluan terbaik ke sekolah
-    - Gunakan berita trafik sebagai contoh untuk membincangkan implikasi dan keputusan
+    - Relate to daily decision-making, like choosing the best route to school based on traffic news
+    - Discuss logical reasoning in popular detective stories or puzzles
+assessments_file: MT4-03.assessments.yaml
+examples_file: MT4-03.examples.yaml

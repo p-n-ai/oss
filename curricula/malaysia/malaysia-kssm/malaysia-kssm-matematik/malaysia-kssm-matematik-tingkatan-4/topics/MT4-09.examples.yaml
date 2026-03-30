@@ -3,36 +3,37 @@ provenance: ai-generated
 description: "Worked examples for KEBARANGKALIAN PERISTIWA BERGABUNG"
 worked_examples:
   - id: WE-01
-    topic: "Peristiwa Bergabung"
+    topic: "Memerihalkan peristiwa bergabung"
     difficulty: easy
-    real_world_analogy: "Drawing two colored balls from a bag without replacing them."
-    misconception_alert: "Students often think events are independent when they are actually dependent."
-    scenario: "Satu beg mengandungi 3 bola merah dan 2 bola biru. Jika dua bola diambil berturut-turut tanpa pengembalian, apakah kebarangkalian kedua-dua bola adalah merah?"
+    real_world_analogy: "Imagine you have a bag with different colored marbles and you draw one marble at a time."
+    misconception_alert: "Students often think that combined events are independent when they may actually influence each other."
+    scenario: "Anda mempunyai sebuah beg yang mengandungi 3 bola merah dan 2 bola biru. Apakah kebarangkalian untuk memilih bola merah diikuti oleh bola biru tanpa menggantikan bola merah?"
     working: |
-      Step 1: Tentukan kebarangkalian mengambil bola merah pertama. Terdapat 3 bola merah daripada 5 bola keseluruhan, jadi kebarangkalian adalah 3/5.
-      Step 2: Setelah mengambil satu bola merah, tinggal 2 bola merah daripada 4 bola keseluruhan. Jadi kebarangkalian untuk bola kedua juga merah adalah 2/4.
-      Step 3: Kebarangkalian kedua-dua bola adalah merah ialah (3/5) * (2/4) = 6/20 = 3/10.
-      
+      Step 1: Kenal pasti bilangan keseluruhan bola. Terdapat 5 bola (3 merah + 2 biru).
+      Step 2: Kebarangkalian memilih bola merah pertama kali ialah 3 daripada 5, iaitu P(Merah) = 3/5.
+      Step 3: Selepas memilih bola merah, terdapat 4 bola yang tinggal. Kebarangkalian memilih bola biru ialah 2 daripada 4, iaitu P(Biru|Merah) = 2/4 = 1/2.
+      Step 4: Kebarangkalian memilih bola merah diikuti oleh bola biru ialah P(Merah dan Biru) = P(Merah) × P(Biru|Merah) = (3/5) × (1/2) = 3/10.
+
   - id: WE-02
-    topic: "Peristiwa Bersandar dan Peristiwa Tak Bersandar"
+    topic: "Membezakan peristiwa bersandar dan peristiwa tak bersandar"
     difficulty: medium
-    real_world_analogy: "Marble selection with and without replacement."
-    misconception_alert: "Students may confuse dependent events with independent ones when dealing with replacement."
-    scenario: "Dalam satu kotak terdapat 4 gula-gula coklat dan 6 gula-gula strawberi. Jika dua gula-gula diambil satu demi satu dengan pengembalian, apakah kebarangkalian kedua-duanya adalah gula-gula coklat?"
+    real_world_analogy: "Consider the probability of it raining today and the probability of you needing an umbrella."
+    misconception_alert: "Confusing dependent events with independent ones, like assuming the probability of rain affects the likelihood of finding an umbrella."
+    scenario: "Seorang pelajar mempunyai 5 pensel di dalam kotak iaitu 3 pensel biru dan 2 pensel hijau. Pelajar tersebut memilih satu pensel, menulis, dan kemudian memilih satu lagi pensel. Apakah kebarangkalian memilih pensel biru diikuti oleh pensel hijau?"
     working: |
-      Step 1: Kebarangkalian untuk mengambil gula-gula coklat pertama ialah 4/10.
-      Step 2: Oleh kerana gula-gula itu dikembalikan, kebarangkalian untuk gula-gula kedua juga coklat tetap 4/10.
-      Step 3: Kebarangkalian kedua-dua gula-gula adalah coklat ialah (4/10) * (4/10) = 16/100 = 0.16.
-      
+      Step 1: Tentukan kebarangkalian memilih pensel biru pertama kali. Terdapat 3 pensel biru daripada 5, jadi P(Biru) = 3/5.
+      Step 2: Selepas memilih pensel biru, tinggal 4 pensel. Kebarangkalian memilih pensel hijau adalah 2 daripada 4, iaitu P(Hijau|Biru) = 2/4 = 1/2.
+      Step 3: Kebarangkalian untuk memilih pensel biru diikuti oleh pensel hijau adalah P(Biru dan Hijau) = P(Biru) × P(Hijau|Biru) = (3/5) × (1/2) = 3/10.
+
   - id: WE-03
-    topic: "Peristiwa Saling Eksklusif dan Tidak Saling Eksklusif"
+    topic: "Menyelesaikan masalah yang melibatkan kebarangkalian peristiwa bergabung"
     difficulty: hard
-    real_world_analogy: "Choosing a king or a heart from a deck of cards."
-    misconception_alert: "Students may not recognize overlapping events and fail to subtract the intersection."
-    scenario: "Dalam satu set kad, apakah kebarangkalian memilih kad yang sama ada Raja atau Hati?"
+    real_world_analogy: "Think of organizing a raffle where there are multiple prizes and you want to know the probability of winning at least one."
+    misconception_alert: "Students might assume all events are mutually exclusive when some might overlap, affecting the total probability."
+    scenario: "Dalam sebuah undian, terdapat 6 tiket merah dan 4 tiket biru. Dua tiket diambil secara rawak tanpa menggantikan. Apakah kebarangkalian kedua-dua tiket berwarna merah atau kedua-dua tiket berwarna biru?"
     working: |
-      Step 1: Kebarangkalian memilih Raja ialah 4/52 kerana terdapat 4 Raja dalam satu set kad.
-      Step 2: Kebarangkalian memilih Hati ialah 13/52 kerana terdapat 13 Hati.
-      Step 3: Kebarangkalian memilih Raja yang juga Hati (iaitu Raja Hati) ialah 1/52.
-      Step 4: Gunakan rumus kebarangkalian peristiwa bergabung: P(A ∪ B) = P(A) + P(B) - P(A ∩ B).
-      Step 5: Jadi, kebarangkalian memilih kad yang sama ada Raja atau Hati ialah (4/52) + (13/52) - (1/52) = 16/52 = 4/13.
+      Step 1: Kebarangkalian memilih dua tiket merah tanpa menggantikan. P(Merah pertama) = 6/10 dan P(Merah kedua|Merah pertama) = 5/9. Jadi, P(Dua Merah) = (6/10) × (5/9) = 30/90 = 1/3.
+      Step 2: Kebarangkalian memilih dua tiket biru tanpa menggantikan. P(Biru pertama) = 4/10 dan P(Biru kedua|Biru pertama) = 3/9. Jadi, P(Dua Biru) = (4/10) × (3/9) = 12/90 = 2/15.
+      Step 3: Kebarangkalian keseluruhan untuk kedua-dua tiket merah atau kedua-dua tiket biru ialah P(Dua Merah atau Dua Biru) = P(Dua Merah) + P(Dua Biru) = 1/3 + 2/15.
+      Step 4: Cari penyebut yang sama untuk menambah pecahan. 1/3 = 5/15, jadi 5/15 + 2/15 = 7/15.
+      Step 5: Oleh itu, kebarangkalian kedua-dua tiket berwarna merah atau kedua-dua tiket berwarna biru ialah 7/15.

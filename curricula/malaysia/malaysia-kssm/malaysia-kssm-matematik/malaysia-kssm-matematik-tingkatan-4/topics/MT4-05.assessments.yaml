@@ -2,116 +2,121 @@ topic_id: MT4-05
 provenance: ai-generated
 
 questions:
-  # Group by learning objective
+  # Learning Objective 5.1.1
   - id: Q1
-    text: "Jelaskan apa yang dimaksudkan dengan rangkaian dalam konteks teori graf."
+    text: 'Tentukan sama ada graf berikut merupakan rangkaian dan terangkan jawapan anda.'
     difficulty: medium
-    learning_objective: LO1
-    tp_level: 2
-    kbat: false
-    answer:
-      type: free_text
-      value: "Rangkaian dalam teori graf adalah graf yang terdiri daripada simpul dan sisi, di mana sisi boleh mempunyai arah ataupun pemberat."
-      working: |
-        Rangkaian adalah representasi graf yang digunakan untuk memodelkan hubungan antara objek. Ia boleh terdiri daripada simpul (nodes) dan sisi (edges), dan boleh juga mempunyai arah atau pemberat.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Penerangan asas tentang graf sebagai rangkaian."
-      - marks: 1
-        criteria: "Menjelaskan terdapatnya arah atau pemberat dalam rangkaian."
-    hints:
-      - level: 1
-        text: "Fikirkan tentang elemen asas yang membentuk graf."
-
-  - id: Q2
-    text: "Bandingkan antara graf terarah dengan graf tak terarah."
-    difficulty: medium
-    learning_objective: LO2
+    learning_objective: 5.1.1
     tp_level: 3
     kbat: true
     answer:
       type: free_text
-      value: "Graf terarah mempunyai sisi dengan arah, manakala graf tak terarah tidak mempunyai arah pada sisinya."
+      value: 'Graf ini merupakan rangkaian kerana ia terdiri daripada nod dan arka yang menghubungkan nod-nod tersebut.'
       working: |
-        Dalam graf terarah, setiap sisi mempunyai arah yang menunjukkan hubungan dari satu simpul ke simpul lain. Sebaliknya, graf tak terarah, sisi hanya menghubungkan dua simpul tanpa arah tertentu.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menjelaskan ciri utama graf terarah."
-      - marks: 1
-        criteria: "Menjelaskan ciri utama graf tak terarah."
-    hints:
-      - level: 1
-        text: "Pertimbangkan arah sisi dalam kedua-dua jenis graf."
-
-  - id: Q3
-    text: "Lukiskan subgraf yang mungkin daripada graf berikut: $G(V, E)$ di mana $V = \\{A, B, C, D\\}$ dan $E = \\{(A, B), (B, C), (C, D)\\}$."
-    difficulty: medium
-    learning_objective: LO3
-    tp_level: 3
-    kbat: false
-    answer:
-      type: free_text
-      value: "Subgraf boleh terdiri daripada simpul dan sisi yang dipilih, contohnya $\\{A, B, C\\}$ dan $\\{(A, B), (B, C)\\}$."
-      working: |
-        Pilih subset simpul dan sisi daripada graf asal. Subgraf yang mungkin ialah $\\{A, B, C\\}$ dan $\\{(A, B), (B, C)\\}$.
+        Untuk menentukan sama ada graf adalah rangkaian, kita perlu memastikan terdapat nod dan arka yang menghubungkannya. 
+        Contoh: Jika graf mempunyai nod A, B, C dan arka AB, BC, maka ia adalah rangkaian.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Memilih simpul yang betul untuk subgraf."
-      - marks: 1
-        criteria: "Memilih sisi yang betul untuk subgraf."
-      - marks: 1
-        criteria: "Melukis subgraf dengan betul."
+        criteria: "Mengidentifikasi nod dan arka dalam graf."
+      - marks: 2
+        criteria: "Memberi penjelasan kenapa graf tersebut adalah rangkaian."
     hints:
       - level: 1
-        text: "Pilih subset simpul dan sisi dari graf asal."
-      - level: 2
-        text: "Pastikan setiap sisi terhubung dengan simpul yang dipilih."
+        text: "Pastikan graf mempunyai nod dan arka."
 
-  - id: Q4
-    text: "Representasikan maklumat berikut dalam bentuk rangkaian: Ali pergi ke sekolah melalui tiga jalan yang berbeza: Jalan A, Jalan B, dan Jalan C."
+  # Learning Objective 5.1.2
+  - id: Q2
+    text: 'Bandingkan graf terarah dengan graf tak terarah dari segi struktur dan maklumat yang disampaikan.'
     difficulty: medium
-    learning_objective: LO4
+    learning_objective: 5.1.2
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: 'Graf terarah mempunyai arka yang mempunyai arah, menunjukkan hubungan satu arah. Graf tak terarah tidak mempunyai arah pada arka, menunjukkan hubungan dua arah.'
+      working: |
+        Dalam graf terarah, setiap arka mempunyai arah tertentu, menunjukkan hubungan atau aliran dari satu nod ke nod lain. 
+        Sebaliknya, dalam graf tak terarah, arka tidak mempunyai arah, menunjukkan hubungan dua hala.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan ciri graf terarah."
+      - marks: 1
+        criteria: "Menyatakan ciri graf tak terarah."
+      - marks: 1
+        criteria: "Membandingkan kedua-dua jenis graf."
+    hints:
+      - level: 1
+        text: "Perhatikan arah arka dalam graf terarah."
+
+  # Learning Objective 5.1.3
+  - id: Q3
+    text: 'Lukiskan subgraf dan pokok bagi graf berikut yang mempunyai nod A, B, C, D dan arka AB, BC, CD, DA.'
+    difficulty: medium
+    learning_objective: 5.1.3
     tp_level: 3
     kbat: false
     answer:
       type: free_text
-      value: "Rangkaian terdiri daripada simpul Ali dan Sekolah, dengan tiga sisi: Jalan A, Jalan B, dan Jalan C."
+      value: 'Subgraf: Nod A, B, C dan arka AB, BC. Pokok: Nod A, B, C, D dan arka AB, BC, CD.'
       working: |
-        Mewakilkan Ali dan Sekolah sebagai simpul, dan menggambarkan tiga jalan sebagai sisi yang menghubungkan simpul tersebut.
+        Subgraf adalah sebahagian dari graf asal. Pilih beberapa nod dan arka yang menghubungkannya. 
+        Pokok adalah graf yang menghubungkan semua nod tanpa membentuk kitaran. Pilih arka yang menghubungkan semua nod.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Melukis subgraf dengan betul."
+      - marks: 2
+        criteria: "Melukis pokok dengan betul."
+    hints:
+      - level: 1
+        text: "Subgraf hanya perlu sebahagian dari graf asal. Pokok mesti menghubungkan semua nod."
+
+  # Learning Objective 5.1.4
+  - id: Q4
+    text: 'Diberikan maklumat: Alice berkawan dengan Bob, dan Bob berkawan dengan Charlie. Lukiskan ini sebagai rangkaian.'
+    difficulty: medium
+    learning_objective: 5.1.4
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: 'Nod: Alice, Bob, Charlie. Arka: Alice-Bob, Bob-Charlie.'
+      working: |
+        Setiap orang menjadi nod dalam graf. Hubungan persahabatan menjadi arka yang menghubungkan nod.
+        Alice dan Bob dihubungkan dengan arka, dan Bob dan Charlie dihubungkan dengan arka lain.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Mengenal pasti simpul dalam rangkaian."
+        criteria: "Mewakilkan setiap individu sebagai nod."
       - marks: 1
-        criteria: "Melukis sisi yang betul antara simpul."
+        criteria: "Menghubungkan nod-nod yang berkaitan dengan arka."
     hints:
       - level: 1
-        text: "Anggap Ali dan Sekolah sebagai simpul dalam graf."
+        text: "Setiap hubungan diwakili sebagai arka antara dua nod."
 
+  # Learning Objective 5.1.5
   - id: Q5
-    text: "Selesaikan masalah berikut menggunakan rangkaian: Tentukan laluan terpendek dari bandar A ke bandar D dalam graf berikut: $G(V, E)$ di mana $V = \\{A, B, C, D\\}$ dan $E = \\{(A, B, 2), (B, C, 3), (A, C, 1), (C, D, 4)\\}$."
+    text: 'Selesaikan masalah berikut: Cari laluan terpendek dari nod A ke nod D dalam graf berpemberat yang mempunyai arka AB (2), BC (3), CD (1), dan AD (4).'
     difficulty: medium
-    learning_objective: LO5
+    learning_objective: 5.1.5
     tp_level: 4
     kbat: true
     answer:
       type: exact
-      value: "Laluan terpendek ialah A -> C -> D dengan panjang 5."
+      value: 'Laluan terpendek: A-B-C-D, dengan panjang 6.'
       working: |
-        Dari A ke C mengambil 1 unit, dan dari C ke D mengambil 4 unit, maka jumlahnya adalah 5. Laluan lain mempunyai panjang lebih besar.
-    marks: 3
+        Melalui laluan A-B-C-D, beratnya adalah 2 + 3 + 1 = 6. Laluan A-D mempunyai berat 4, tetapi tidak lebih pendek. 
+        Laluan ini adalah yang terpendek.
+    marks: 4
     rubric:
       - marks: 1
-        criteria: "Mengira panjang jalan dari A ke C."
+        criteria: "Menentukan berat setiap laluan."
+      - marks: 2
+        criteria: "Mengira jumlah berat bagi setiap laluan."
       - marks: 1
-        criteria: "Mengira panjang jalan dari C ke D."
-      - marks: 1
-        criteria: "Menentukan laluan terpendek dengan betul."
+        criteria: "Memilih laluan dengan berat terpendek."
     hints:
       - level: 1
-        text: "Pertimbangkan semua laluan yang mungkin dari A ke D."
-      - level: 2
-        text: "Kira panjang setiap laluan dan bandingkan."
+        text: "Periksa semua laluan dari A ke D dan bandingkan jumlah beratnya."

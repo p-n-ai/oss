@@ -2,129 +2,128 @@ topic_id: MT4-03
 provenance: ai-generated
 
 questions:
-  # Learning Objective 3.1.1
+  # Learning Objective: 3.1.1
   - id: Q1
-    text: "Tentukan nilai kebenaran pernyataan berikut: 'Jika hari ini hujan, maka esok adalah hari cuti.' Jika esok bukan hari cuti, apakah yang boleh kita simpulkan tentang cuaca hari ini?"
+    text: 'Tentukan nilai kebenaran bagi pernyataan berikut: "Semua pelajar di kelas ini pandai."'
     difficulty: medium
-    learning_objective: LO1
+    learning_objective: 3.1.1
     tp_level: 2
     kbat: false
-    answer:
-      type: free_text
-      value: "Hari ini tidak hujan."
-      working: |
-        Pernyataan 'Jika p, maka q' adalah salah jika p benar dan q salah. Dalam kes ini, jika esok bukan hari cuti (q salah), maka hari ini tidak hujan (p juga salah) untuk membuat pernyataan asal benar.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menyatakan bahawa hari ini tidak hujan."
-      - marks: 1
-        criteria: "Mengaitkan dengan nilai kebenaran p dan q."
-    hints:
-      - level: 1
-        text: "Fokus pada komponen 'Jika p, maka q'."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Pastikan anda memahami bahawa pernyataan hanya salah jika p benar dan q salah."
-
-  # Learning Objective 3.1.2
-  - id: Q2
-    text: "Apakah penafian bagi pernyataan: 'Semua pelajar lulus ujian tersebut.'"
-    difficulty: medium
-    learning_objective: LO2
-    tp_level: 2
-    kbat: false
-    answer:
-      type: free_text
-      value: "Terdapat pelajar yang tidak lulus ujian tersebut."
-      working: |
-        Penafian bagi pernyataan 'Semua A adalah B' adalah 'Terdapat A yang bukan B'. Oleh itu, penafian bagi pernyataan ini ialah 'Terdapat pelajar yang tidak lulus ujian tersebut.'
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menyedari bahawa penafian melibatkan 'Terdapat'."
-      - marks: 1
-        criteria: "Mengemukakan penafian yang tepat."
-    hints:
-      - level: 1
-        text: "Pikirkan tentang bagaimana menafikan pernyataan yang melibatkan 'semua'."
-      - level: 2
-        text: "MISCONCEPTION ALERT: 'Semua' dan 'tidak ada' sering dikelirukan dalam penafian."
-
-  # Learning Objective 3.1.4
-  - id: Q3
-    text: "Bina pernyataan dalam bentuk implikasi bagi situasi berikut: 'Untuk mendapatkan gred A, pelajar mesti mendapat sekurang-kurangnya 85 markah.'"
-    difficulty: medium
-    learning_objective: LO4
-    tp_level: 2
-    kbat: false
-    answer:
-      type: free_text
-      value: "Jika pelajar mendapat sekurang-kurangnya 85 markah, maka pelajar mendapat gred A."
-      working: |
-        Situasi ini boleh ditulis dalam bentuk implikasi: 'Jika p, maka q', di mana p adalah 'pelajar mendapat sekurang-kurangnya 85 markah' dan q adalah 'pelajar mendapat gred A.'
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Memilih p dan q yang sesuai."
-      - marks: 1
-        criteria: "Membentuk pernyataan implikasi yang betul."
-    hints:
-      - level: 1
-        text: "Identifikasikan p dan q dalam situasi ini."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Pastikan hubungan antara p dan q adalah searah."
-
-  # Learning Objective 3.2.2
-  - id: Q4
-    text: "Tentukan keesahan hujah berikut: 'Jika ia hujan, maka jalan basah. Jalan basah, maka ia hujan.'"
-    difficulty: medium
-    learning_objective: LO8
-    tp_level: 3
-    kbat: true
     answer:
       type: multiple_choice
-      choices:
-        - "Hujah deduktif yang sah"
-        - "Hujah deduktif yang tidak sah"
-        - "Hujah induktif yang sah"
-        - "Hujah induktif yang tidak sah"
-      value: "Hujah deduktif yang tidak sah"
+      value: "A"
       working: |
-        Ini adalah hujah deduktif yang menggunakan kesalahan logik 'pengesahan akibat'. Hanya kerana jalan basah tidak bermakna ia pasti hujan. Hujah ini tidak sah.
+        Jika terdapat sekurang-kurangnya seorang pelajar yang tidak pandai, maka pernyataan itu adalah palsu. Jika semua pelajar memang pandai, maka pernyataan ini adalah benar.
     marks: 2
     rubric:
+      - marks: 2
+        criteria: "Menentukan nilai kebenaran dengan memberikan alasan yang betul."
       - marks: 1
-        criteria: "Mengenal pasti jenis hujah."
-      - marks: 1
-        criteria: "Menentukan keesahan hujah dengan betul."
+        criteria: "Menentukan nilai kebenaran tanpa alasan."
     hints:
       - level: 1
-        text: "Fikirkan tentang struktur logik 'Jika p, maka q'."
+        text: "MISCONCEPTION ALERT: Ingat bahawa 'semua' bermakna tiada pengecualian."
       - level: 2
-        text: "MISCONCEPTION ALERT: Jangan keliru antara hubungan sebab-akibat terbalik."
+        text: "Pertimbangkan situasi di mana seorang pelajar tidak pandai."
 
-  # Learning Objective 3.1.5
-  - id: Q5
-    text: "Bina dan bandingkan nilai kebenaran akas, songsangan, dan kontrapositif bagi implikasi: 'Jika dia seorang pelajar, maka dia mempunyai kad pelajar.'"
+  # Learning Objective: 3.1.3
+  - id: Q2
+    text: 'Tentukan nilai kebenaran bagi pernyataan majmuk: "Jika hari hujan, maka tanah basah dan langit cerah."'
     difficulty: medium
-    learning_objective: LO5
+    learning_objective: 3.1.3
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "Palsu"
+      working: |
+        Pernyataan ini adalah majmuk kerana mengandungi dua klausa: "tanah basah" dan "langit cerah". Jika hujan, tanah basah adalah benar, tetapi langit cerah adalah palsu. Oleh itu, pernyataan majmuk ini adalah palsu.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Menentukan nilai kebenaran dengan justifikasi yang tepat."
+      - marks: 1
+        criteria: "Menentukan nilai kebenaran tetapi dengan alasan yang kurang tepat."
+    hints:
+      - level: 1
+        text: "Pertimbangkan kedua-dua klausa dalam pernyataan majmuk."
+      - level: 2
+        text: "Bagaimana mungkin langit cerah jika hari hujan?"
+
+  # Learning Objective: 3.1.4
+  - id: Q3
+    text: 'Bina pernyataan dalam bentuk implikasi bagi situasi berikut: "Semua kucing boleh memanjat pokok."'
+    difficulty: medium
+    learning_objective: 3.1.4
     tp_level: 3
     kbat: true
     answer:
       type: free_text
-      value: "Akas: Jika dia mempunyai kad pelajar, maka dia seorang pelajar. Songsangan: Jika dia bukan seorang pelajar, maka dia tidak mempunyai kad pelajar. Kontrapositif: Jika dia tidak mempunyai kad pelajar, maka dia bukan seorang pelajar."
+      value: "Jika seekor haiwan adalah kucing, maka ia boleh memanjat pokok."
       working: |
-        Akas: Tukar kedudukan p dan q. Songsangan: Nafi kedua-dua p dan q. Kontrapositif: Nafi dan tukar kedudukan p dan q. Nilai kebenaran asal dan kontrapositif adalah sama, tetapi tidak semestinya untuk akas dan songsangan.
+        Diberikan bahawa semua kucing mempunyai kebolehan memanjat pokok, implikasi yang sesuai adalah: "Jika seekor haiwan adalah kucing, maka ia boleh memanjat pokok."
     marks: 3
     rubric:
+      - marks: 3
+        criteria: "Membina pernyataan implikasi dengan struktur yang betul."
+      - marks: 2
+        criteria: "Membina pernyataan implikasi dengan sedikit kesalahan struktur."
       - marks: 1
-        criteria: "Membina akas dengan betul."
-      - marks: 1
-        criteria: "Membina songsangan dengan betul."
-      - marks: 1
-        criteria: "Membina kontrapositif dengan betul."
+        criteria: "Membina pernyataan yang tidak lengkap."
     hints:
       - level: 1
-        text: "Ingat definisi akas, songsangan, dan kontrapositif."
+        text: "Ingat format implikasi: 'Jika p, maka q'."
       - level: 2
-        text: "MISCONCEPTION ALERT: Jangan keliru antara akas dan kontrapositif."
+        text: "Misalnya, 'Jika sesuatu adalah kucing, maka ia...'."
+
+  # Learning Objective: 3.1.6
+  - id: Q4
+    text: 'Selesaikan masalah ini menggunakan penaakulan logik: "Ali, Ben, dan Chan mengambil bahagian dalam pertandingan. Jika Ali menang, Ben akan sedih. Ali tidak menang. Apakah emosi Ben?"'
+    difficulty: medium
+    learning_objective: 3.1.6
+    tp_level: 3
+    kbat: true
+    answer:
+      type: exact
+      value: "Tidak sedih"
+      working: |
+        Berdasarkan pernyataan implikasi: "Jika Ali menang, Ben akan sedih." Diketahui bahawa Ali tidak menang, maka tidak ada alasan bagi Ben untuk sedih.
+    marks: 3
+    rubric:
+      - marks: 3
+        criteria: "Menggunakan penaakulan logik dengan tepat untuk menyelesaikan masalah."
+      - marks: 2
+        criteria: "Menggunakan penaakulan logik tetapi dengan kesalahan kecil."
+      - marks: 1
+        criteria: "Kesimpulan yang betul tanpa penjelasan logik."
+    hints:
+      - level: 1
+        text: "Fokus pada pernyataan implikasi dan fakta yang diberikan."
+      - level: 2
+        text: "Apa berlaku jika Ali tidak menang berdasarkan pernyataan yang diberikan?"
+
+  # Learning Objective: 3.2.3
+  - id: Q5
+    text: 'Bentuk hujah deduktif yang sah: "Semua manusia memerlukan oksigen untuk hidup. Anna adalah manusia. Oleh itu, ..."'
+    difficulty: medium
+    learning_objective: 3.2.3
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Anna memerlukan oksigen untuk hidup."
+      working: |
+        Berdasarkan premis deduktif: "Semua manusia memerlukan oksigen untuk hidup" dan fakta bahawa "Anna adalah manusia", kita boleh membuat kesimpulan bahawa "Anna memerlukan oksigen untuk hidup."
+    marks: 3
+    rubric:
+      - marks: 3
+        criteria: "Membentuk hujah deduktif yang lengkap dan tepat."
+      - marks: 2
+        criteria: "Hujah deduktif dengan sedikit kesalahan."
+      - marks: 1
+        criteria: "Hujah deduktif yang tidak lengkap."
+    hints:
+      - level: 1
+        text: "Ingat bahawa deduktif melibatkan pengambilan kesimpulan langsung dari premis."
+      - level: 2
+        text: "Apa yang perlu semua manusia, termasuk Anna, untuk hidup?"

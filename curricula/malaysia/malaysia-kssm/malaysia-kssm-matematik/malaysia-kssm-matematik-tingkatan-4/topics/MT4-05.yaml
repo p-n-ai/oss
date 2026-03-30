@@ -47,14 +47,16 @@ quality_level: 1
 provenance: ai-assisted
 teaching:
     sequence:
-        - 'Step 1: Introduce basic concepts of graphs including vertices and edges (15 min)'
-        - 'Step 2: Explain differences between directed and undirected graphs, and weighted and unweighted graphs (20 min)'
-        - 'Step 3: Teach how to identify and draw subgraphs and trees from larger graphs (25 min)'
+        - 'Step 1: Introduce basic concepts of graphs, vertices, and edges (15 min)'
+        - 'Step 2: Explain directed vs undirected graphs and weighted vs unweighted graphs with examples (20 min)'
+        - 'Step 3: Teach identifying and drawing subgraphs and trees from larger graphs (25 min)'
     common_misconceptions:
         - misconception: All graphs are directed
-          remediation: Use real-life examples like social networks to show undirected graphs
-        - misconception: Weight is a mandatory property of all graphs
-          remediation: Clarify the concept of weighted and unweighted graphs with examples
+          remediation: Use clear examples of undirected graphs like social networks
+        - misconception: All graphs must be weighted
+          remediation: Clarify with examples of unweighted graphs, such as basic maps
 engagement_hooks:
-    - Use city maps or social networks to demonstrate real-world applications of graphs
-    - Discuss how computer networks function as directed graphs
+    - Explore a city map to identify routes as undirected graphs
+    - Discuss social media connections as examples of real-world network graphs
+assessments_file: MT4-05.assessments.yaml
+examples_file: MT4-05.examples.yaml

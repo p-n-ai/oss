@@ -3,38 +3,38 @@ provenance: ai-generated
 description: "Worked examples for SUKATAN SERAKAN DATA TAK TERKUMPUL"
 worked_examples:
   - id: WE-01
-    topic: "Understanding and Explaining Dispersion"
+    topic: "Understanding and Explaining Serakan"
     difficulty: easy
-    real_world_analogy: "Imagine a group of students standing in a line based on their heights. Dispersion is like the spread of their heights—the more spread out they are, the greater the dispersion."
-    misconception_alert: "Students often confuse range with variance or standard deviation. Range only considers the smallest and largest values, not the spread of all data points."
-    scenario: "A teacher measures the height of 5 students: 150 cm, 155 cm, 160 cm, 165 cm, and 170 cm. Determine the range of their heights."
+    real_world_analogy: "Imagine a group of students standing at different distances from a teacher. The spread of students represents data spread or 'serakan'."
+    misconception_alert: "Students often confuse 'serakan' with 'kecenderungan memusat'. Serakan describes how spread out the data is, not the center."
+    scenario: "In a class of 10 students, their heights in cm are: 150, 152, 153, 155, 157, 160, 162, 163, 165, 170. Explain the concept of serakan using this data."
     working: |
-      Step 1: Identify the smallest and largest values in the dataset. Here, the smallest height is 150 cm, and the largest is 170 cm.
-      Step 2: Calculate the range by subtracting the smallest value from the largest value: 170 cm - 150 cm.
-      Step 3: The range of the students' heights is 20 cm.
+      Step 1: Observe the given data set. The heights are spread from 150 cm to 170 cm.
+      Step 2: The difference between the highest and lowest value is 170 - 150 = 20 cm.
+      Step 3: The range is 20 cm, representing the serakan or spread of the data.
+      Conclusion: The data is fairly spread over a range of 20 cm, indicating moderate serakan.
 
   - id: WE-02
-    topic: "Comparing and Interpreting Dispersion with Box Plots"
+    topic: "Analyzing and Comparing Data Sets"
     difficulty: medium
-    real_world_analogy: "Consider two different types of fruit baskets, each containing a different variety of fruits in varying amounts. By comparing the baskets, you can see which one has more diversity (spread) in the types of fruits."
-    misconception_alert: "Students may assume that a smaller interquartile range (IQR) always means less variation, but they need to consider outliers and overall data distribution."
-    scenario: "Two classes took a math test. Class A: 70, 75, 80, 85, 90. Class B: 65, 70, 75, 85, 95. Compare the dispersion using the interquartile range (IQR)."
+    real_world_analogy: "Think of two different brands of chips with different levels of saltiness. Comparing their salt content helps decide which is healthier."
+    misconception_alert: "Students often neglect the importance of comparing both the central tendency and the spread for a proper analysis."
+    scenario: "Two groups of students took a math test. Group A scores are: 55, 60, 65, 70, 75. Group B scores are: 50, 60, 70, 80, 90. Compare the serakan of these scores."
     working: |
-      Step 1: Arrange each class's scores in ascending order (already done).
-      Step 2: For Class A, find Q1 (75) and Q3 (85). Calculate IQR: Q3 - Q1 = 85 - 75 = 10.
-      Step 3: For Class B, find Q1 (70) and Q3 (85). Calculate IQR: Q3 - Q1 = 85 - 70 = 15.
-      Step 4: Class B has a higher IQR, indicating more spread in their test scores compared to Class A.
+      Step 1: Calculate the range for Group A: 75 - 55 = 20.
+      Step 2: Calculate the range for Group B: 90 - 50 = 40.
+      Step 3: Compare the ranges: Group B has a larger range, indicating more serakan.
+      Conclusion: Although both groups have similar central scores, Group B's scores are more spread out.
 
   - id: WE-03
-    topic: "Calculating and Analyzing Standard Deviation"
+    topic: "Applying Measures of Spread"
     difficulty: hard
-    real_world_analogy: "Imagine a track team running a race. Standard deviation is like measuring how much each runner's time deviates from the average time."
-    misconception_alert: "Students often mistake standard deviation as a simple average of differences from the mean, rather than considering the squared differences."
-    scenario: "A researcher collects data on the daily step counts for a week: 4000, 5000, 6000, 7000, 8000, 9000, 10000. Calculate the standard deviation of the step counts."
+    real_world_analogy: "Consider a group of marathon runners where some are much faster than others. The variability in their finish times shows the spread of their performance."
+    misconception_alert: "Students might miscalculate variance and standard deviation by not squaring the differences from the mean."
+    scenario: "A data set of students' test scores: 68, 70, 72, 75, 78, 80, needs analysis for variance and standard deviation."
     working: |
-      Step 1: Find the mean of the dataset: (4000 + 5000 + 6000 + 7000 + 8000 + 9000 + 10000) / 7 = 7000.
-      Step 2: Subtract the mean from each data point and square the result: (4000-7000)^2, (5000-7000)^2, ..., (10000-7000)^2.
-      Step 3: (3000)^2, (2000)^2, (1000)^2, 0, 1000^2, 2000^2, 3000^2 = 9000000, 4000000, 1000000, 0, 1000000, 4000000, 9000000.
-      Step 4: Find the mean of these squared differences: (9000000+4000000+1000000+0+1000000+4000000+9000000) / 7 = 4000000.
-      Step 5: Take the square root of this mean to find the standard deviation: √4000000 = 2000.
-      Step 6: The standard deviation of the step counts is 2000 steps.
+      Step 1: Calculate the mean: (68 + 70 + 72 + 75 + 78 + 80) / 6 = 73.83.
+      Step 2: Find the squared differences from the mean and calculate variance:
+              (68-73.83)^2 + (70-73.83)^2 + (72-73.83)^2 + (75-73.83)^2 + (78-73.83)^2 + (80-73.83)^2 / 6 = 17.14.
+      Step 3: Calculate the standard deviation: √17.14 ≈ 4.14.
+      Conclusion: The standard deviation is 4.14, indicating a moderate spread of scores around the mean.

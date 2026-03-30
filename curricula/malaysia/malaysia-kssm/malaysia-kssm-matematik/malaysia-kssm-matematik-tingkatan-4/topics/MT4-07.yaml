@@ -55,17 +55,19 @@ quality_level: 1
 provenance: ai-assisted
 teaching:
     sequence:
-        - 'Step 1: Introduce distance-time graphs with a simple story (20 min)'
-        - 'Step 2: Interpret distance-time graphs through group activities (25 min)'
-        - 'Step 3: Solve problems using distance-time graphs with real scenarios (20 min)'
-        - 'Step 4: Introduce speed-time graphs using kinesthetic activities (20 min)'
-        - 'Step 5: Interpret speed-time graphs using graphing software (25 min)'
-        - 'Step 6: Solve problems using speed-time graphs and area calculations (20 min)'
+        - 'Step 1: Introduce distance-time graphs and plot a simple story (20 min)'
+        - 'Step 2: Interpret distance-time graphs focusing on slopes (25 min)'
+        - 'Step 3: Solve problems using distance-time graphs (20 min)'
+        - 'Step 4: Introduce speed-time graphs and their differences (20 min)'
+        - 'Step 5: Interpret speed-time graphs with constant and changing speeds (25 min)'
+        - 'Step 6: Solve problems using speed-time graphs, including area for distance (20 min)'
     common_misconceptions:
         - misconception: Distance-time graphs show speed
           remediation: Clarify axes and label slopes clearly
         - misconception: Flat lines mean stopping
           remediation: Use examples of uniform motion
 engagement_hooks:
-    - Discuss how athletes use these graphs to analyze performance
+    - Discuss how athletes use these graphs to analyze their performance
     - Use local transportation data to create relatable graph scenarios
+assessments_file: MT4-07.assessments.yaml
+examples_file: MT4-07.examples.yaml

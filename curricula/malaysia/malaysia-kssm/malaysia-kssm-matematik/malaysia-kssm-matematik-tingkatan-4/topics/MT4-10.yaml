@@ -34,14 +34,18 @@ quality_level: 1
 provenance: ai-assisted
 teaching:
     sequence:
-        - 'Step 1: Introduce key elements in financial management using flowcharts (15 min)'
-        - 'Step 2: Guide students to build a personal financial plan with examples (20 min)'
-        - 'Step 3: Discuss short-term and long-term financial goals and their feasibility (20 min)'
+        - 'Step 1: Introduce key elements of financial management such as income, expenses, savings, and investments (15 min)'
+        - 'Step 2: Use flowcharts to demonstrate how money flows in financial management (10 min)'
+        - 'Step 3: Guide students in building a personal financial plan with short and long-term goals (20 min)'
+        - 'Step 4: Provide examples of financial plans and encourage students to create their own (15 min)'
+        - 'Step 5: Discuss the importance of realistic goal-setting in financial planning (10 min)'
     common_misconceptions:
         - misconception: All leftover money is savings
-          remediation: Explain the difference between savings and emergency funds
+          remediation: Explain the difference between savings and deferred spending
         - misconception: Investments are only for the wealthy
-          remediation: Provide examples of small investments that can be started
+          remediation: Introduce small-scale investment options accessible to everyone
 engagement_hooks:
-    - Discuss personal budgets of local celebrities to spark interest
-    - Share success stories of young Malaysian entrepreneurs to inspire
+    - Discuss local celebrity budgets or young Malaysian entrepreneur success stories
+    - Analyze a case study of a typical Malaysian household budget to identify financial management strategies
+assessments_file: MT4-10.assessments.yaml
+examples_file: MT4-10.examples.yaml

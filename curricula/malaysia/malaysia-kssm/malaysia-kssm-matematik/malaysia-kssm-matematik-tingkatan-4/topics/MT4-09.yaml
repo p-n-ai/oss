@@ -61,16 +61,17 @@ provenance: ai-assisted
 teaching:
     sequence:
         - 'Step 1: Introduce the concept of combined events using dice roll examples (20 min)'
-        - 'Step 2: Explain the difference between dependent and independent events with card drawing examples (25 min)'
-        - 'Step 3: Discuss mutually exclusive vs. non-mutually exclusive events with real-life scenarios (20 min)'
-        - 'Step 4: Practice calculating probabilities for combined events (25 min)'
-        - 'Step 5: Solve real-world problems involving combined event probabilities (30 min)'
+        - 'Step 2: Explain dependent and independent events with card drawing examples (25 min)'
+        - 'Step 3: Distinguish between mutually exclusive and not mutually exclusive events (20 min)'
+        - 'Step 4: Calculate probabilities for combined events using examples (30 min)'
+        - 'Step 5: Solve real-world problems involving combined event probabilities (25 min)'
     common_misconceptions:
         - misconception: All events are mutually exclusive
           remediation: Provide clear examples and conduct hands-on activities
         - misconception: Dependent and independent events are the same
-          remediation: Use visual aids and real-life examples to highlight differences
+          remediation: Use visual aids and real-life examples to show differences
 engagement_hooks:
-    - 'Connect with local lottery games: What''s the probability of winning?'
-    - 'Relate to local dice games: How does rolling two dice affect outcomes?'
-    - 'Discuss card games: How does drawing cards without replacement change probabilities?'
+    - Connect with local lottery games to discuss probability of winning
+    - Use local dice games to illustrate combined event probabilities
+assessments_file: MT4-09.assessments.yaml
+examples_file: MT4-09.examples.yaml

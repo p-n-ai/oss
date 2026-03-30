@@ -2,135 +2,107 @@ topic_id: MT4-10
 provenance: ai-generated
 
 questions:
-  # Learning Objective 10.1.1
+  # Group by learning objective
   - id: Q1
-    text: "Jelaskan tiga langkah penting dalam proses pengurusan kewangan yang berkesan."
+    text: 'Apakah langkah pertama yang perlu diambil dalam proses pengurusan kewangan yang berkesan?'
     difficulty: medium
-    learning_objective: LO1
+    learning_objective: 10.1.1
     tp_level: 2
     kbat: false
     answer:
       type: free_text
-      value: "Tiga langkah penting dalam pengurusan kewangan berkesan ialah: perancangan kewangan, pengawalan perbelanjaan, dan pemantauan serta penilaian prestasi kewangan."
+      value: "Menetapkan matlamat kewangan yang jelas."
       working: |
-        Pengurusan kewangan yang berkesan melibatkan:
-        1. Perancangan kewangan: Menyediakan bajet dan menetapkan matlamat kewangan.
-        2. Pengawalan perbelanjaan: Memastikan perbelanjaan tidak melebihi bajet yang ditetapkan.
-        3. Pemantauan dan penilaian: Mengkaji semula bajet dan menilai pencapaian matlamat kewangan.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Menjelaskan satu langkah dengan tepat."
-      - marks: 2
-        criteria: "Menjelaskan dua langkah dengan tepat."
-      - marks: 3
-        criteria: "Menjelaskan ketiga-tiga langkah dengan tepat."
-    hints:
-      - level: 1
-        text: "Fikirkan tentang langkah-langkah asas dalam merancang dan mengurus kewangan."
-
-  - id: Q2
-    text: "Apakah tujuan utama merancang kewangan peribadi?"
-    difficulty: medium
-    learning_objective: LO1
-    tp_level: 2
-    kbat: false
-    answer:
-      type: free_text
-      value: "Tujuan utama merancang kewangan peribadi adalah untuk mencapai matlamat kewangan individu dengan cara yang sistematik dan terkawal."
-      working: |
-        Merancang kewangan peribadi membantu individu:
-        - Menetapkan dan mencapai matlamat kewangan jangka pendek dan jangka panjang.
-        - Mengurus pendapatan dan perbelanjaan dengan berkesan.
-        - Mempersiapkan diri untuk situasi kewangan yang tidak terduga.
+        Langkah pertama dalam pengurusan kewangan ialah menetapkan matlamat kewangan yang jelas untuk mengarahkan aliran kewangan ke arah yang diinginkan.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menjelaskan satu tujuan dengan tepat."
+        criteria: "Menjawab menetapkan matlamat kewangan."
       - marks: 2
-        criteria: "Menjelaskan tujuan utama merancang kewangan secara menyeluruh."
+        criteria: "Menjawab menetapkan matlamat kewangan yang jelas dan terperinci."
     hints:
       - level: 1
-        text: "Pertimbangkan bagaimana perancangan kewangan membantu dalam mencapai matlamat kewangan."
+        text: "Pertimbangkan apa yang anda ingin capai dengan wang anda."
 
-  # Learning Objective 10.1.2
-  - id: Q3
-    text: "Encik Azman ingin membeli sebuah kereta dalam tempoh 5 tahun. Apakah langkah-langkah yang perlu diambil dalam pelan kewangan peribadi beliau?"
+  - id: Q2
+    text: 'Pilih pernyataan yang benar mengenai pengurusan kewangan yang berkesan.'
     difficulty: medium
-    learning_objective: LO2
+    learning_objective: 10.1.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "B. Mengkaji dan menilai aliran tunai secara berkala."
+      working: |
+        Pengurusan kewangan yang berkesan melibatkan pengkajian dan penilaian aliran tunai secara berkala untuk memastikan matlamat kewangan dicapai.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Memilih pernyataan yang benar mengenai pengurusan kewangan."
+    hints:
+      - level: 1
+        text: "Fokus pada tindakan yang membantu menilai keadaan kewangan semasa."
+
+  - id: Q3
+    text: 'Anda ingin membeli sebuah kereta dalam masa 5 tahun. Apakah elemen yang perlu dimasukkan dalam pelan kewangan anda?'
+    difficulty: medium
+    learning_objective: 10.1.2
     tp_level: 3
     kbat: true
     answer:
       type: free_text
-      value: "Langkah-langkah termasuk: menetapkan matlamat kewangan, menyimpan secara berkala, mengurangkan perbelanjaan tidak perlu, dan melabur dalam instrumen kewangan yang sesuai."
+      value: "Anggaran kos kereta, tabungan bulanan, pelaburan, jangka masa, dan risiko."
       working: |
-        Untuk membeli kereta dalam 5 tahun, Encik Azman boleh:
-        1. Menetapkan matlamat kewangan dan jumlah simpanan yang diperlukan.
-        2. Menyediakan bajet bulanan yang merangkumi simpanan untuk kereta.
-        3. Mengkaji dan mengurangkan perbelanjaan tidak perlu.
-        4. Melabur dalam instrumen kewangan yang boleh memberikan pulangan yang baik.
-    marks: 4
+        Untuk mencapai matlamat ini, masukkan anggaran kos kereta, jumlah yang boleh disimpan setiap bulan, pilihan pelaburan, jangka masa, dan risiko kewangan yang mungkin dihadapi.
+    marks: 3
     rubric:
       - marks: 1
-        criteria: "Mengenalpasti satu langkah dengan tepat."
+        criteria: "Menjawab satu elemen dengan betul."
       - marks: 2
-        criteria: "Mengenalpasti dua langkah dengan tepat."
+        criteria: "Menjawab dua hingga tiga elemen dengan betul."
       - marks: 3
-        criteria: "Mengenalpasti tiga langkah dengan tepat."
-      - marks: 4
-        criteria: "Mengenalpasti dan menjelaskan keempat-empat langkah dengan tepat."
+        criteria: "Menjawab kesemua elemen dengan betul."
     hints:
       - level: 1
-        text: "Fikirkan tentang langkah-langkah untuk menambah simpanan dan mengurangkan perbelanjaan."
+        text: "Pertimbangkan semua aspek kewangan yang terlibat dalam pembelian kereta."
 
   - id: Q4
-    text: "Buat pelan kewangan jangka pendek untuk seorang pelajar yang ingin menyimpan RM500 dalam masa 6 bulan."
+    text: 'Seorang pelajar ingin menabung untuk laptop baharu dalam masa 2 tahun. Jika harga laptop adalah RM3000, berapakah jumlah bulanan yang perlu disimpan tanpa faedah?'
     difficulty: medium
-    learning_objective: LO2
+    learning_objective: 10.1.2
     tp_level: 3
-    kbat: true
+    kbat: false
     answer:
-      type: free_text
-      value: "Pelan kewangan termasuk: menyimpan RM84 setiap bulan, mengurangkan perbelanjaan, dan menambah pendapatan melalui kerja sambilan."
+      type: exact
+      value: "RM125"
       working: |
-        Untuk menyimpan RM500 dalam 6 bulan:
-        1. Menyimpan RM500 ÷ 6 ≈ RM84 setiap bulan.
-        2. Memantau perbelanjaan untuk mengurangkan kos yang tidak perlu.
-        3. Mencari peluang untuk menambah pendapatan, seperti kerja sambilan.
-    marks: 3
+        Jumlah tabungan bulanan = Total harga laptop / (Bilangan bulan)
+        Jumlah tabungan bulanan = RM3000 / (2 tahun x 12 bulan/tahun) = RM125
+    marks: 2
     rubric:
-      - marks: 1
-        criteria: "Menyediakan satu langkah dengan tepat."
       - marks: 2
-        criteria: "Menyediakan dua langkah dengan tepat."
-      - marks: 3
-        criteria: "Menyediakan pelan kewangan lengkap dengan semua langkah."
+        criteria: "Mengira jumlah bulanan yang tepat."
     hints:
       - level: 1
-        text: "Fikirkan tentang jumlah yang perlu disimpan setiap bulan dan cara untuk menambah pendapatan."
+        text: "Bahagikan jumlah harga laptop dengan jumlah bulan."
 
   - id: Q5
-    text: "Lina ingin menilai kebolehlaksanaan pelan kewangan jangka panjangnya. Apakah aspek yang perlu dipertimbangkan semasa penilaian ini?"
+    text: 'Nyatakan satu risiko yang boleh menghalang pencapaian matlamat kewangan jangka panjang.'
     difficulty: medium
-    learning_objective: LO2
+    learning_objective: 10.1.2
     tp_level: 3
     kbat: true
     answer:
       type: free_text
-      value: "Aspek yang perlu dipertimbangkan termasuk: konsistensi simpanan, perubahan dalam pendapatan, dan situasi kewangan semasa."
+      value: "Inflasi."
       working: |
-        Untuk menilai kebolehlaksanaan pelan kewangan, Lina perlu mempertimbangkan:
-        1. Konsistensi dalam menyimpan wang mengikut pelan yang telah ditetapkan.
-        2. Sebarang perubahan dalam pendapatan atau pekerjaan yang mungkin mempengaruhi kemampuan menyimpan.
-        3. Situasi kewangan semasa seperti hutang atau perbelanjaan tidak terduga.
-    marks: 3
+        Inflasi boleh mengurangkan nilai wang simpanan dari masa ke masa, menjadikannya lebih sukar untuk mencapai matlamat kewangan jangka panjang.
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Mengenalpasti satu aspek dengan tepat."
+        criteria: "Menyatakan risiko umum tanpa penjelasan."
       - marks: 2
-        criteria: "Mengenalpasti dua aspek dengan tepat."
-      - marks: 3
-        criteria: "Mengenalpasti dan menjelaskan semua aspek yang diperlukan."
+        criteria: "Menyatakan dan menjelaskan risiko inflasi."
     hints:
       - level: 1
-        text: "Pertimbangkan faktor-faktor yang boleh mengubah kemampuan seseorang untuk menyimpan atau melabur."
+        text: "Fikirkan tentang faktor yang boleh menurunkan nilai simpanan anda."

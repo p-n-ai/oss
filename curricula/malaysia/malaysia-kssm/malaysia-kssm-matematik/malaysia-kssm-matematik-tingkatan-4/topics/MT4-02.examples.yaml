@@ -5,40 +5,41 @@ worked_examples:
   - id: WE-01
     topic: "Understanding Number Bases"
     difficulty: easy
-    real_world_analogy: "Think of number bases like different languages; just as 'hello' is 'hola' in Spanish, the number '10' in decimal is '1010' in binary."
-    misconception_alert: "Students often confuse the base of the number with its value. Remember, the base tells you how many digits you have to work with."
-    scenario: "Convert the decimal number 10 to binary."
+    real_world_analogy: "Think of number bases like different languages. Just as the word for 'one' is different in English and Malay (one and satu), a number can look different in base 10 and base 2."
+    misconception_alert: "Students often think that the digits in bases greater than 10 work like base 10, but they need to understand that each base has its own set of symbols and rules."
+    scenario: "Convert the decimal number 18 into base 2."
     working: |
-      Step 1: Identify the largest power of 2 less than 10. This is 2^3 = 8.
-      Step 2: Subtract 8 from 10, resulting in 2. So far, the binary number is 1_ _ _.
-      Step 3: Find the largest power of 2 less than or equal to 2, which is 2^1 = 2.
-      Step 4: Subtract 2 from 2, resulting in 0. Fill in the binary number as 1010.
-      Step 5: The decimal number 10 is 1010 in binary.
+      Step 1: Divide the number 18 by 2. The quotient is 9 and the remainder is 0.
+      Step 2: Divide 9 by 2. The quotient is 4 and the remainder is 1.
+      Step 3: Divide 4 by 2. The quotient is 2 and the remainder is 0.
+      Step 4: Divide 2 by 2. The quotient is 1 and the remainder is 0.
+      Step 5: Divide 1 by 2. The quotient is 0 and the remainder is 1.
+      Step 6: Write down the remainders in reverse order: 10010. Therefore, 18 in base 10 is 10010 in base 2.
 
   - id: WE-02
-    topic: "Converting Between Bases"
+    topic: "Operations in Different Bases"
     difficulty: medium
-    real_world_analogy: "Converting between bases is like converting between currencies, such as converting Ringgit to Dollars."
-    misconception_alert: "A common mistake is not aligning the place values correctly when converting to different bases."
-    scenario: "Convert the hexadecimal number 1A to decimal."
+    real_world_analogy: "Imagine you are adding time in hours and minutes. You have to remember that 60 minutes make an hour, just like in base 5, after reaching 4, you carry over to the next digit."
+    misconception_alert: "A common mistake is applying base 10 rules to other bases, like carrying over after 9, which doesn't apply in bases like 5 or 8."
+    scenario: "Add the numbers 243 (base 5) and 134 (base 5)."
     working: |
-      Step 1: Identify each digit's place value. In 1A, '1' is in the 16's place and 'A' is in the 1's place.
-      Step 2: Convert 'A' from hexadecimal to decimal, which is 10.
-      Step 3: Calculate the decimal value: (1 * 16) + (10 * 1) = 16 + 10.
-      Step 4: Add the values to find the total decimal number: 26.
-      Step 5: The hexadecimal number 1A is 26 in decimal.
+      Step 1: Align the numbers by their place values:
+              243
+            + 134
+      Step 2: Add the rightmost digits: 3 + 4 = 7. In base 5, 7 is written as 12 (1 carry).
+      Step 3: Add the next column: 4 + 3 = 7. Add the carry 1: 7 + 1 = 8, which is 13 in base 5 (1 carry).
+      Step 4: Add the leftmost column: 2 + 1 = 3. Add the carry 1: 3 + 1 = 4.
+      Step 5: The result is 413 in base 5.
 
   - id: WE-03
-    topic: "Solving Problems Involving Number Bases"
+    topic: "Problem Solving with Number Bases"
     difficulty: hard
-    real_world_analogy: "Imagine organizing a party where each table can only seat a certain number of guests, similar to how different bases have different digit limits."
-    misconception_alert: "Mistaking the operation required due to the unfamiliar base can lead to incorrect answers."
-    scenario: "Add the binary numbers 1101 and 1011."
+    real_world_analogy: "Consider sending a coded message where each letter represents a number in a different base system. Decoding it correctly is crucial for understanding."
+    misconception_alert: "When dealing with complex multi-step base conversions, students often forget to verify their steps, leading to errors in the final result."
+    scenario: "A computer system stores data in base 16. Convert the hexadecimal number 1A3 into decimal and then subtract 100 (base 10) from it."
     working: |
-      Step 1: Write the numbers 1101 and 1011 in a column, aligning them by the rightmost digit.
-      Step 2: Add the rightmost column: 1 + 1 = 10 in binary. Write '0', carry over '1'.
-      Step 3: Move to the next column: 0 + 1 + 1 (carry) = 10. Write '0', carry over '1'.
-      Step 4: Move to the next column: 1 + 0 + 1 (carry) = 10. Write '0', carry over '1'.
-      Step 5: Move to the next column: 1 + 1 + 1 (carry) = 11. Write '1', carry over '1'.
-      Step 6: Write the carry over '1' in the next column to the left.
-      Step 7: The sum of 1101 and 1011 in binary is 11000.
+      Step 1: Convert 1A3 (base 16) to decimal. Break it down: 1 * 16^2 + 10 * 16^1 + 3 * 16^0.
+      Step 2: Calculate each term: 1 * 256 = 256, 10 * 16 = 160, and 3 * 1 = 3.
+      Step 3: Add them up: 256 + 160 + 3 = 419 in decimal.
+      Step 4: Subtract 100 from 419: 419 - 100 = 319.
+      Step 5: The final answer in decimal is 319.

@@ -13,10 +13,10 @@ questions:
     answer:
       type: exact
       value: "Gradient = 3, y-intercept = -4"
-    working: |
-      Compare the given equation $y = 3x - 4$ with the general form $y = mx + c$.
-      The coefficient of $x$ is the gradient ($m$), so $m = 3$.
-      The constant term is the y-intercept ($c$), so $c = -4$.
+      working: |
+        Compare the given equation $y = 3x - 4$ with the general form $y = mx + c$.
+        The coefficient of $x$ is the gradient ($m$), so $m = 3$.
+        The constant term is the y-intercept ($c$), so $c = -4$.
     marks: 2
     rubric:
       - marks: 1
@@ -38,10 +38,10 @@ questions:
     answer:
       type: exact
       value: "y = 6"
-    working: |
-      A straight line parallel to the x-axis has a gradient of 0 and takes the form $y = k$.
-      Since the line passes through $P(-2, 6)$, the y-coordinate is consistently 6.
-      Thus, the equation is $y = 6$.
+      working: |
+        A straight line parallel to the x-axis has a gradient of 0 and takes the form $y = k$.
+        Since the line passes through $P(-2, 6)$, the y-coordinate is consistently 6.
+        Thus, the equation is $y = 6$.
     marks: 2
     rubric:
       - marks: 1
@@ -63,10 +63,10 @@ questions:
     answer:
       type: exact
       value: "x = 4"
-    working: |
-      A straight line parallel to the y-axis is a vertical line and takes the form $x = h$.
-      Since the line passes through $Q(4, -3)$, the x-coordinate is consistently 4.
-      Thus, the equation is $x = 4$.
+      working: |
+        A straight line parallel to the y-axis is a vertical line and takes the form $x = h$.
+        Since the line passes through $Q(4, -3)$, the x-coordinate is consistently 4.
+        Thus, the equation is $x = 4$.
     marks: 2
     rubric:
       - marks: 1
@@ -89,12 +89,12 @@ questions:
     answer:
       type: exact
       value: "y = 3/5 x - 3"
-    working: |
-      $3x - 5y = 15$
-      $-5y = -3x + 15$
-      Divide the entire equation by $-5$ to isolate $y$:
-      $y = \displaystyle\frac{-3}{-5}x + \displaystyle\frac{15}{-5}$
-      $y = \displaystyle\frac{3}{5}x - 3$
+      working: |
+        $3x - 5y = 15$
+        $-5y = -3x + 15$
+        Divide the entire equation by $-5$ to isolate $y$:
+        $y = \displaystyle\frac{-3}{-5}x + \displaystyle\frac{15}{-5}$
+        $y = \displaystyle\frac{3}{5}x - 3$
     marks: 2
     rubric:
       - marks: 1
@@ -116,10 +116,10 @@ questions:
     answer:
       type: exact
       value: "x-intercept = 6, y-intercept = 3"
-    working: |
-      Compare the given equation with the intercept form: $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$.
-      Here, $a$ is the x-intercept and $b$ is the y-intercept.
-      Therefore, x-intercept = 6 and y-intercept = 3.
+      working: |
+        Compare the given equation with the intercept form: $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$.
+        Here, $a$ is the x-intercept and $b$ is the y-intercept.
+        Therefore, x-intercept = 6 and y-intercept = 3.
     marks: 2
     rubric:
       - marks: 1
@@ -141,13 +141,13 @@ questions:
     answer:
       type: exact
       value: "15"
-    working: |
-      For points that lie on the x-axis, the value of the y-coordinate is zero.
-      Substitute $y = 0$ into the equation:
-      $2x + 5(0) = 30$
-      $2x = 30$
-      $x = 15$
-      Therefore, the x-intercept is 15.
+      working: |
+        For points that lie on the x-axis, the value of the y-coordinate is zero.
+        Substitute $y = 0$ into the equation:
+        $2x + 5(0) = 30$
+        $2x = 30$
+        $x = 15$
+        Therefore, the x-intercept is 15.
     marks: 2
     rubric:
       - marks: 1
@@ -170,11 +170,11 @@ questions:
     answer:
       type: exact
       value: "x/4 - y/7 = 1"
-    working: |
-      The formula for the intercept form is $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$.
-      Substitute $a = 4$ (x-intercept) and $b = -7$ (y-intercept).
-      $\displaystyle\frac{x}{4} + \displaystyle\frac{y}{-7} = 1$
-      $\displaystyle\frac{x}{4} - \displaystyle\frac{y}{7} = 1$
+      working: |
+        The formula for the intercept form is $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$.
+        Substitute $a = 4$ (x-intercept) and $b = -7$ (y-intercept).
+        $\displaystyle\frac{x}{4} + \displaystyle\frac{y}{-7} = 1$
+        $\displaystyle\frac{x}{4} - \displaystyle\frac{y}{7} = 1$
     marks: 2
     rubric:
       - marks: 1
@@ -199,12 +199,12 @@ questions:
     answer:
       type: exact
       value: "Yes"
-    working: |
-      Substitute $x = 2$ and $y = 8$ into the equation $y = 3x + 2$.
-      Left side: $y = 8$
-      Right side: $3(2) + 2 = 6 + 2 = 8$
-      Since Left side = Right side, the point $P(2, 8)$ satisfies the equation.
-      Therefore, $P(2, 8)$ lies on the straight line.
+      working: |
+        Substitute $x = 2$ and $y = 8$ into the equation $y = 3x + 2$.
+        Left side: $y = 8$
+        Right side: $3(2) + 2 = 6 + 2 = 8$
+        Since Left side = Right side, the point $P(2, 8)$ satisfies the equation.
+        Therefore, $P(2, 8)$ lies on the straight line.
     marks: 2
     rubric:
       - marks: 1
@@ -228,12 +228,12 @@ questions:
     answer:
       type: free_text
       value: "Point R does not lie on the straight line x + 2y = 4 because its coordinates do not satisfy the equation."
-    working: |
-      Substitute $x = 1, y = 2$ into the left side of $x + 2y = 4$.
-      Left side = $1 + 2(2) = 5$
-      Right side = $4$
-      Since Left side $\neq$ Right side, the coordinates do not satisfy the equation.
-      Thus, the point does not lie on the line.
+      working: |
+        Substitute $x = 1, y = 2$ into the left side of $x + 2y = 4$.
+        Left side = $1 + 2(2) = 5$
+        Right side = $4$
+        Since Left side $\neq$ Right side, the coordinates do not satisfy the equation.
+        Thus, the point does not lie on the line.
     marks: 2
     rubric:
       - marks: 1
@@ -255,14 +255,14 @@ questions:
     answer:
       type: exact
       value: "y = 1/2 x + 5"
-    working: |
-      Given gradient, $m = 1/2$.
-      Substitute $m = 1/2, x = 6$, and $y = 8$ into $y = mx + c$ to find $c$.
-      $8 = (\displaystyle\frac{1}{2})(6) + c$
-      $8 = 3 + c$
-      $c = 8 - 3$
-      $c = 5$
-      Therefore, the equation of the straight line is $y = \displaystyle\frac{1}{2}x + 5$.
+      working: |
+        Given gradient, $m = 1/2$.
+        Substitute $m = 1/2, x = 6$, and $y = 8$ into $y = mx + c$ to find $c$.
+        $8 = (\displaystyle\frac{1}{2})(6) + c$
+        $8 = 3 + c$
+        $c = 8 - 3$
+        $c = 5$
+        Therefore, the equation of the straight line is $y = \displaystyle\frac{1}{2}x + 5$.
     marks: 3
     rubric:
       - marks: 1
@@ -288,14 +288,14 @@ questions:
     answer:
       type: exact
       value: "Yes, they are parallel."
-    working: |
-      For the first line, $y = 3x + 5$, the gradient is $3$.
-      For the second line, convert $6x - 2y = 9$ into the form $y = mx + c$:
-      $-2y = -6x + 9$
-      $y = \displaystyle\frac{-6}{-2}x + \displaystyle\frac{9}{-2}$
-      $y = 3x - 4.5$
-      The gradient of the second line is also $3$.
-      Since both lines have the same gradient ($m = 3$), they are parallel.
+      working: |
+        For the first line, $y = 3x + 5$, the gradient is $3$.
+        For the second line, convert $6x - 2y = 9$ into the form $y = mx + c$:
+        $-2y = -6x + 9$
+        $y = \displaystyle\frac{-6}{-2}x + \displaystyle\frac{9}{-2}$
+        $y = 3x - 4.5$
+        The gradient of the second line is also $3$.
+        Since both lines have the same gradient ($m = 3$), they are parallel.
     marks: 3
     rubric:
       - marks: 1
@@ -318,19 +318,19 @@ questions:
     answer:
       type: exact
       value: "(3, -1)"
-    working: |
-      Using the substitution method:
-      From the first equation: $y = 5 - 2x$  --- (1)
-      Substitute (1) into the second equation:
-      $x + 2(5 - 2x) = 1$
-      $x + 10 - 4x = 1$
-      $-3x = -9$
-      $x = 3$
-      Substitute $x = 3$ into (1):
-      $y = 5 - 2(3)$
-      $y = 5 - 6$
-      $y = -1$
-      Thus, the point of intersection is $(3, -1)$.
+      working: |
+        Using the substitution method:
+        From the first equation: $y = 5 - 2x$  --- (1)
+        Substitute (1) into the second equation:
+        $x + 2(5 - 2x) = 1$
+        $x + 10 - 4x = 1$
+        $-3x = -9$
+        $x = 3$
+        Substitute $x = 3$ into (1):
+        $y = 5 - 2(3)$
+        $y = 5 - 6$
+        $y = -1$
+        Thus, the point of intersection is $(3, -1)$.
     marks: 4
     rubric:
       - marks: 1
@@ -354,14 +354,14 @@ questions:
     answer:
       type: exact
       value: "(5, -8)"
-    working: |
-      Since the first equation gives $y = -8$, substitute this directly into the second equation:
-      $-8 = -4x + 12$
-      $4x = 12 + 8$
-      $4x = 20$
-      $x = 5$
-      The y-coordinate is already known to be $-8$.
-      Therefore, the point of intersection is $(5, -8)$.
+      working: |
+        Since the first equation gives $y = -8$, substitute this directly into the second equation:
+        $-8 = -4x + 12$
+        $4x = 12 + 8$
+        $4x = 20$
+        $x = 5$
+        The y-coordinate is already known to be $-8$.
+        Therefore, the point of intersection is $(5, -8)$.
     marks: 3
     rubric:
       - marks: 1
@@ -389,17 +389,17 @@ questions:
     answer:
       type: exact
       value: "8"
-    working: |
-      Since PQRS is a parallelogram, PQ is parallel to SR, so their gradients are equal.
-      Gradient $PQ = \displaystyle\frac{1}{2}$
-      Using the coordinates $P(-4, 6)$ and $Q(0, h)$ to calculate the gradient:
-      $\displaystyle\frac{h - 6}{0 - (-4)} = \displaystyle\frac{1}{2}$
-      $\displaystyle\frac{h - 6}{4} = \displaystyle\frac{1}{2}$
-      Cross-multiply:
-      $2(h - 6) = 4(1)$
-      $2h - 12 = 4$
-      $2h = 16$
-      $h = 8$
+      working: |
+        Since PQRS is a parallelogram, PQ is parallel to SR, so their gradients are equal.
+        Gradient $PQ = \displaystyle\frac{1}{2}$
+        Using the coordinates $P(-4, 6)$ and $Q(0, h)$ to calculate the gradient:
+        $\displaystyle\frac{h - 6}{0 - (-4)} = \displaystyle\frac{1}{2}$
+        $\displaystyle\frac{h - 6}{4} = \displaystyle\frac{1}{2}$
+        Cross-multiply:
+        $2(h - 6) = 4(1)$
+        $2h - 12 = 4$
+        $2h = 16$
+        $h = 8$
     marks: 3
     rubric:
       - marks: 1
@@ -426,18 +426,18 @@ questions:
     answer:
       type: exact
       value: "y = 2/5 x + 9/5"
-    working: |
-      Step 1: Calculate the gradient ($m$) using $E(-7, -1)$ and $F(3, 3)$.
-      $m = \displaystyle\frac{3 - (-1)}{3 - (-7)} = \displaystyle\frac{4}{10} = \displaystyle\frac{2}{5}$
-      
-      Step 2: Determine the y-intercept ($c$) by substituting point $F(3, 3)$ into $y = mx + c$.
-      $3 = (\displaystyle\frac{2}{5})(3) + c$
-      $3 = \displaystyle\frac{6}{5} + c$
-      $c = 3 - \displaystyle\frac{6}{5}$
-      $c = \displaystyle\frac{15}{5} - \displaystyle\frac{6}{5} = \displaystyle\frac{9}{5}$
-      
-      Step 3: Write the equation.
-      $y = \displaystyle\frac{2}{5}x + \displaystyle\frac{9}{5}$
+      working: |
+        Step 1: Calculate the gradient ($m$) using $E(-7, -1)$ and $F(3, 3)$.
+        $m = \displaystyle\frac{3 - (-1)}{3 - (-7)} = \displaystyle\frac{4}{10} = \displaystyle\frac{2}{5}$
+        
+        Step 2: Determine the y-intercept ($c$) by substituting point $F(3, 3)$ into $y = mx + c$.
+        $3 = (\displaystyle\frac{2}{5})(3) + c$
+        $3 = \displaystyle\frac{6}{5} + c$
+        $c = 3 - \displaystyle\frac{6}{5}$
+        $c = \displaystyle\frac{15}{5} - \displaystyle\frac{6}{5} = \displaystyle\frac{9}{5}$
+        
+        Step 3: Write the equation.
+        $y = \displaystyle\frac{2}{5}x + \displaystyle\frac{9}{5}$
     marks: 4
     rubric:
       - marks: 1
@@ -468,22 +468,22 @@ questions:
     answer:
       type: exact
       value: "x - 2y = 4"
-    working: |
-      Step 1: Identify coordinates from intercepts.
-      x-intercept is 4, so point is (4, 0).
-      y-intercept is -2, so point is (0, -2). Therefore, c = -2.
-      
-      Step 2: Calculate the gradient (m).
-      $m = \displaystyle\frac{-2 - 0}{0 - 4} = \displaystyle\frac{-2}{-4} = \displaystyle\frac{1}{2}$
-      
-      Step 3: Form the equation in y = mx + c.
-      $y = \displaystyle\frac{1}{2}x - 2$
-      
-      Step 4: Convert into ax + by = c format (integers only).
-      Multiply entire equation by 2 to clear fraction:
-      $2y = x - 4$
-      Rearrange into standard integer form:
-      $x - 2y = 4$ (or $-x + 2y = -4$)
+      working: |
+        Step 1: Identify coordinates from intercepts.
+        x-intercept is 4, so point is (4, 0).
+        y-intercept is -2, so point is (0, -2). Therefore, c = -2.
+        
+        Step 2: Calculate the gradient (m).
+        $m = \displaystyle\frac{-2 - 0}{0 - 4} = \displaystyle\frac{-2}{-4} = \displaystyle\frac{1}{2}$
+        
+        Step 3: Form the equation in y = mx + c.
+        $y = \displaystyle\frac{1}{2}x - 2$
+        
+        Step 4: Convert into ax + by = c format (integers only).
+        Multiply entire equation by 2 to clear fraction:
+        $2y = x - 4$
+        Rearrange into standard integer form:
+        $x - 2y = 4$ (or $-x + 2y = -4$)
     marks: 4
     rubric:
       - marks: 1
@@ -511,12 +511,12 @@ questions:
     answer:
       type: exact
       value: "Not parallel. Point of intersection is (-R, -R) / Wait, let's solve: (-(something)...) Actually, let the working speak for itself"
+      working: |
+        Step 1: Find the equation of line CD.
+        Gradient $m = \displaystyle\frac{-12 - (-6)}{-2 - 0} = \displaystyle\frac{-6}{-2} = 3$.
+        Since the gradient of CD (3) equals the gradient of AB (3), the lines ARE parallel.
+        Parallel lines never intersect! So there is no point of intersection.
       # Correcting the value locally below
-    working: |
-      Step 1: Find the equation of line CD.
-      Gradient $m = \displaystyle\frac{-12 - (-6)}{-2 - 0} = \displaystyle\frac{-6}{-2} = 3$.
-      Since the gradient of CD (3) equals the gradient of AB (3), the lines ARE parallel.
-      Parallel lines never intersect! So there is no point of intersection.
     marks: 4
     rubric:
       - marks: 1

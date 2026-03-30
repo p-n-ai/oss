@@ -3,34 +3,36 @@ provenance: ai-generated
 description: "Worked examples for Kebarangkalian Mudah"
 worked_examples:
   - id: WE-01
-    topic: "Kebarangkalian Memilih Kad"
+    topic: "Menentukan Ruang Sampel dan Peristiwa"
     difficulty: easy
-    real_world_analogy: "Choosing a random card from a standard deck of cards is like selecting a random book from a library shelf."
-    misconception_alert: "Students often think that all cards have the same probability of being drawn, even when the question specifies a particular suit or number."
-    scenario: "What is the probability of drawing an Ace from a standard deck of 52 playing cards?"
+    real_world_analogy: "Memilih warna guli daripada beg sebagai perwakilan ruang sampel dalam eksperimen"
+    misconception_alert: "Pelajar sering mengelirukan ruang sampel dengan peristiwa tertentu. Ingat bahawa ruang sampel merangkumi semua kemungkinan hasil."
+    scenario: "Anda mempunyai beg yang mengandungi 3 guli merah, 2 guli hijau, dan 1 guli biru. Nyatakan ruang sampel dan satu peristiwa jika seorang pelajar memilih satu guli secara rawak."
     working: |
-      Step 1: Identify the total number of possible outcomes, which is 52 (since there are 52 cards in a deck).
-      Step 2: Count the number of favorable outcomes, which are the 4 Aces in the deck.
-      Step 3: Calculate the probability using the formula P = (Number of favorable outcomes) / (Total number of possible outcomes) = 4/52 = 1/13.
+      Step 1: Tentukan ruang sampel. Ruang sampel adalah semua hasil yang mungkin. Dalam kes ini, ruang sampel adalah {merah, merah, merah, hijau, hijau, biru}.
+      Step 2: Nyatakan peristiwa. Contohnya, peristiwa mendapatkan guli merah adalah {merah, merah, merah}.
+      Step 3: Simpulkan bahawa ruang sampel mewakili semua kemungkinan, manakala peristiwa adalah subset daripada ruang sampel.
 
   - id: WE-02
-    topic: "Kebarangkalian Memilih Warna"
+    topic: "Menentukan Kebarangkalian Peristiwa"
     difficulty: medium
-    real_world_analogy: "Choosing a red marble from a jar is like picking a red apple from a basket of mixed fruits."
-    misconception_alert: "Students might forget to count the total number of marbles correctly, leading to incorrect probability calculation."
-    scenario: "A jar contains 5 red marbles, 3 blue marbles, and 2 green marbles. What is the probability of randomly selecting a red marble?"
+    real_world_analogy: "Melempar syiling dan berharap akan mendapat kepala sebagai contoh peristiwa"
+    misconception_alert: "Ada yang menganggap kebarangkalian tidak berubah walaupun bilangan cubaan berubah. Ingat, kebarangkalian teori tidak berubah tetapi kebarangkalian eksperimen boleh berubah dengan bilangan cubaan."
+    scenario: "Seorang pelajar melemparkan satu dadu biasa sebanyak 30 kali. Berapakah kebarangkalian teori untuk mendapatkan nombor genap?"
     working: |
-      Step 1: Calculate the total number of marbles, which is 5 + 3 + 2 = 10.
-      Step 2: Determine the number of favorable outcomes, which is 5 (the number of red marbles).
-      Step 3: Use the probability formula P = (Number of favorable outcomes) / (Total number of possible outcomes) = 5/10 = 1/2.
+      Step 1: Tentukan ruang sampel. Dadu biasa mempunyai 6 sisi, jadi ruang sampel adalah {1, 2, 3, 4, 5, 6}.
+      Step 2: Tentukan peristiwa mendapatkan nombor genap. Nombor genap adalah {2, 4, 6}.
+      Step 3: Hitung kebarangkalian teori. Kebarangkalian teori = bilangan hasil peristiwa / bilangan hasil dalam ruang sampel = 3/6 = 1/2.
+      Step 4: Oleh itu, kebarangkalian teori untuk mendapatkan nombor genap adalah 0.5 atau 50%.
 
   - id: WE-03
-    topic: "Kebarangkalian Memilih Gula-Gula"
+    topic: "Menentukan Kebarangkalian Peristiwa Pelengkap"
     difficulty: hard
-    real_world_analogy: "Choosing a chocolate candy from a mixed bowl is like selecting a specific type of fruit from a mixed fruit salad."
-    misconception_alert: "Students may assume that replacing an item affects subsequent selections, even when it doesn't."
-    scenario: "In a bowl, there are 4 chocolate candies, 6 strawberry candies, and 10 mint candies. If a candy is chosen at random, what is the probability that it is not a mint candy?"
+    real_world_analogy: "Memikirkan tentang tidak mendapat hujan apabila ramalan cuaca mengatakan ada 70% kebarangkalian hujan"
+    misconception_alert: "Pelajar mungkin lupa bahawa kebarangkalian peristiwa pelengkap dan peristiwa asal mesti berjumlah 1."
+    scenario: "Dalam satu ujian, kebarangkalian untuk lulus ialah 0.7. Hitung kebarangkalian untuk gagal."
     working: |
-      Step 1: Calculate the total number of candies, which is 4 + 6 + 10 = 20.
-      Step 2: Determine the number of non-mint candies, which is 4 (chocolate) + 6 (strawberry) = 10.
-      Step 3: Use the probability formula P = (Number of favorable outcomes) / (Total number of possible outcomes) = 10/20 = 1/2.
+      Step 1: Kenal pasti kebarangkalian peristiwa pelengkap. Peristiwa pelengkap ialah kemungkinan untuk gagal.
+      Step 2: Gunakan formula kebarangkalian pelengkap: P(gagal) = 1 - P(lulus).
+      Step 3: Hitung kebarangkalian untuk gagal: P(gagal) = 1 - 0.7 = 0.3.
+      Step 4: Oleh itu, kebarangkalian untuk gagal dalam ujian tersebut adalah 0.3 atau 30%.

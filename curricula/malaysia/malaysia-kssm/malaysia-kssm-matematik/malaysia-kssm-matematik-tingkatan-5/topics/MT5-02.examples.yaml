@@ -24,7 +24,7 @@ worked_examples:
     difficulty: medium
     real_world_analogy: "Think of a matrix like a spreadsheet where each cell contains a value, and you're updating the spreadsheet by adding or subtracting values."
     misconception_alert: "A common mistake is trying to add or subtract matrices of different dimensions."
-    scenario: "Given matrix A = \[\begin{bmatrix} 3 & 5 \\ 2 & 4 \end{bmatrix}\] and matrix B = \[\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}\], find A + B and A - B."
+    scenario: 'Given matrix A = \[\begin{bmatrix} 3 & 5 \\ 2 & 4 \end{bmatrix}\] and matrix B = \[\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}\], find A + B and A - B.'
     working: |
       Step 1: Ensure matrices A and B have the same dimensions. Both are 2x2 matrices.
       Step 2: Add corresponding elements of A and B for A + B:
@@ -60,7 +60,7 @@ worked_examples:
     difficulty: hard
     real_world_analogy: "Consider a situation where you need to determine the outcome of a sports tournament based on different criteria, using matrices to calculate scores and rankings."
     misconception_alert: "Students sometimes forget that operations on matrices must respect matrix dimensions and properties."
-    scenario: "A sports tournament has two teams, X and Y, and their scores in two matches are represented by matrices. Determine the total scores and the winner if matrix X = \[\begin{bmatrix} 10 & 15 \\ 20 & 25 \end{bmatrix}\] and matrix Y = \[\begin{bmatrix} 12 & 14 \\ 18 & 22 \end{bmatrix}\]."
+    scenario: 'A sports tournament has two teams, X and Y, and their scores in two matches are represented by matrices. Determine the total scores and the winner if matrix X = \[\begin{bmatrix} 10 & 15 \\ 20 & 25 \end{bmatrix}\] and matrix Y = \[\begin{bmatrix} 12 & 14 \\ 18 & 22 \end{bmatrix}\].'
     working: |
       Step 1: Calculate the total score for team X by summing all elements of matrix X.
               \[

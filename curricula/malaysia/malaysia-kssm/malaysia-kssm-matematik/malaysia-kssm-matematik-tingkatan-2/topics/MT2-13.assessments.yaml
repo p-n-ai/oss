@@ -2,126 +2,125 @@ topic_id: MT2-13
 provenance: ai-generated
 
 questions:
-  # Learning Objective: Understand and calculate simple probabilities
+  # Learning Objective 13.1.1
   - id: Q1
-    text: "Dalam satu kotak terdapat 5 bola merah dan 3 bola biru. Jika satu bola dipilih secara rawak, apakah kebarangkalian untuk memilih bola merah?"
+    text: "Ahmad melontar sebuah dadu sebanyak 60 kali dan mencatatkan bahawa nombor 6 muncul sebanyak 10 kali. Tentukan kebarangkalian eksperimen bagi nombor 6 muncul."
     difficulty: medium
-    learning_objective: LO1
-    tp_level: 2
+    learning_objective: 13.1.1
+    tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "5/8"
+      value: "0.1667"
       working: |
-        Bilangan bola merah = 5
-        Bilangan bola biru = 3
-        Jumlah bola = 5 + 3 = 8
-        Kebarangkalian memilih bola merah = 5/8
+        Kebarangkalian eksperimen = (Bilangan kejadian yang diingini) / (Bilangan cubaan)
+        = 10 / 60
+        = 0.1667
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Mengira jumlah bola dengan betul."
+        criteria: "Menentukan bilangan kejadian yang diingini dan bilangan cubaan."
       - marks: 1
-        criteria: "Mengira kebarangkalian dengan betul."
+        criteria: "Mengira kebarangkalian eksperimen dengan betul."
     hints:
       - level: 1
-        text: "Ingat bahawa kebarangkalian adalah nisbah antara kejadian yang diingini dengan jumlah kemungkinan."
-
-  # Learning Objective: Apply probability concepts to solve real-world problems
+        text: "Ingat bahawa kebarangkalian eksperimen ialah nisbah antara bilangan kejadian yang diingini dengan bilangan cubaan."
+  
+  # Learning Objective 13.1.2
   - id: Q2
-    text: "Dalam permainan dadu, apakah kebarangkalian untuk mendapatkan nombor ganjil apabila dadu dilambung?"
+    text: "Satu duit syiling dilambungkan sebanyak 1000 kali dan hasilnya menunjukkan 520 kali kepala dan 480 kali ekor. Apakah kesimpulan yang boleh dibuat tentang kebarangkalian eksperimen ini?"
     difficulty: medium
-    learning_objective: LO2
-    tp_level: 3
-    kbat: true
-    answer:
-      type: exact
-      value: "1/2"
-      working: |
-        Nombor ganjil pada dadu: 1, 3, 5
-        Jumlah nombor pada dadu: 1, 2, 3, 4, 5, 6
-        Kebarangkalian mendapatkan nombor ganjil = 3/6 = 1/2
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menyenaraikan nombor ganjil dengan betul."
-      - marks: 1
-        criteria: "Mengira kebarangkalian dengan betul."
-    hints:
-      - level: 1
-        text: "MISCONCEPTION ALERT: Pastikan anda menyenaraikan semua nombor dari dadu terlebih dahulu."
-
-  # Learning Objective: Analyze probability situations
-  - id: Q3
-    text: "Seorang pelajar memilih satu kad dari set kad bernombor 1 hingga 10. Apakah kebarangkalian bahawa nombor pada kad adalah lebih besar daripada 7?"
-    difficulty: medium
-    learning_objective: LO3
-    tp_level: 3
-    kbat: true
-    answer:
-      type: exact
-      value: "3/10"
-      working: |
-        Nombor lebih besar daripada 7: 8, 9, 10
-        Jumlah nombor kad: 10
-        Kebarangkalian = 3/10
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menyenaraikan nombor yang lebih besar daripada 7 dengan betul."
-      - marks: 1
-        criteria: "Mengira kebarangkalian dengan betul."
-    hints:
-      - level: 1
-        text: "Fikirkan tentang nombor yang melebihi 7 dari set 1 hingga 10."
-
-  # Learning Objective: Use tree diagrams to solve probability problems
-  - id: Q4
-    text: "Dalam satu eksperimen, dua koin dilambungkan. Gunakan rajah pokok untuk menentukan kebarangkalian mendapatkan sekurang-kurangnya satu kepala."
-    difficulty: medium
-    learning_objective: LO4
+    learning_objective: 13.1.2
     tp_level: 4
     kbat: true
     answer:
       type: free_text
-      value: "3/4"
+      value: "Kesimpulan yang boleh dibuat ialah kebarangkalian eksperimen menghampiri 0.5 apabila bilangan cubaan adalah besar, menunjukkan bahawa duit syiling adalah seimbang."
       working: |
-        Peluang: KK, KE, EK, EE
-        Kebarangkalian sekurang-kurangnya satu kepala = 3/4 (KE, EK, KK)
+        Apabila bilangan cubaan cukup besar, kebarangkalian eksperimen akan menghampiri kebarangkalian teori. Di sini, kebarangkalian eksperimen untuk kepala ialah 520/1000 = 0.52 dan untuk ekor ialah 480/1000 = 0.48, yang hampir dengan 0.5.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Melukis rajah pokok dengan betul."
+        criteria: "Mengira kebarangkalian eksperimen untuk kepala dan ekor."
       - marks: 1
-        criteria: "Mengenalpasti peluang yang sesuai."
+        criteria: "Membandingkan kebarangkalian eksperimen dengan kebarangkalian teori."
       - marks: 1
-        criteria: "Mengira kebarangkalian dengan betul."
+        criteria: "Menarik kesimpulan tentang kebarangkalian eksperimen."
     hints:
       - level: 1
-        text: "Lukiskan rajah pokok untuk melihat semua kemungkinan hasil."
-
-  # Learning Objective: Evaluate probability in compound events
-  - id: Q5
-    text: "Sebuah beg mengandungi 4 gula-gula merah, 5 gula-gula hijau dan 2 gula-gula biru. Dua gula-gula diambil secara berturut-turut tanpa penggantian. Apakah kebarangkalian bahawa kedua-dua gula-gula adalah hijau?"
+        text: "MISCONCEPTION ALERT: Kebarangkalian eksperimen sepatutnya menghampiri kebarangkalian teori apabila bilangan cubaan adalah besar."
+  
+  # Learning Objective 13.2.1
+  - id: Q3
+    text: "Nyatakan ruang sampel apabila sebuah dadu dan sebuah duit syiling dilambungkan serentak."
     difficulty: medium
-    learning_objective: LO5
+    learning_objective: 13.2.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "{(1,H), (1,T), (2,H), (2,T), (3,H), (3,T), (4,H), (4,T), (5,H), (5,T), (6,H), (6,T)}"
+      working: |
+        Ruang sampel adalah semua kemungkinan pasangan hasil daripada melambungkan dadu dan duit syiling.
+        Dadu: 1, 2, 3, 4, 5, 6
+        Duit syiling: H (kepala), T (ekor)
+        Ruang sampel = {(1,H), (1,T), (2,H), (2,T), (3,H), (3,T), (4,H), (4,T), (5,H), (5,T), (6,H), (6,T)}
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menulis semua hasil kemungkinan bagi dadu."
+      - marks: 1
+        criteria: "Menggabungkan hasil kemungkinan dadu dengan duit syiling untuk membentuk ruang sampel."
+    hints:
+      - level: 1
+        text: "Ingat bahawa ruang sampel adalah semua hasil yang mungkin daripada dua eksperimen."
+
+  # Learning Objective 13.2.2
+  - id: Q4
+    text: "Seorang pelajar ingin membina model kebarangkalian untuk melambungkan dua dadu. Apakah kebarangkalian teori mendapatkan jumlah mata 7?"
+    difficulty: medium
+    learning_objective: 13.2.2
     tp_level: 4
     kbat: true
     answer:
       type: exact
-      value: "5/33"
+      value: "0.1667"
       working: |
-        Peluang pertama: 5/11 (pilih gula-gula hijau pertama)
-        Peluang kedua: 4/10 (pilih gula-gula hijau kedua)
-        Kebarangkalian = 5/11 * 4/10 = 20/110 = 5/33
+        Kebarangkalian teori = (Bilangan cara mendapatkan jumlah 7) / (Jumlah hasil dalam ruang sampel)
+        Hasil untuk jumlah 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6 cara
+        Jumlah hasil dalam ruang sampel = 6 * 6 = 36
+        Kebarangkalian teori = 6 / 36 = 0.1667
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Mengira kebarangkalian pengambilan pertama dengan betul."
+        criteria: "Mengira bilangan cara untuk mendapatkan jumlah mata 7."
       - marks: 1
-        criteria: "Mengira kebarangkalian pengambilan kedua dengan betul."
+        criteria: "Menentukan jumlah hasil dalam ruang sampel."
       - marks: 1
-        criteria: "Menggabungkan kebarangkalian dengan betul."
+        criteria: "Mengira kebarangkalian teori dengan betul."
     hints:
       - level: 1
-        text: "Ingat bahawa gula-gula tidak dikembalikan selepas diambil."
+        text: "MISCONCEPTION ALERT: Ingat bahawa setiap dadu mempunyai 6 kemungkinan dan ruang sampel terdiri daripada semua pasangan ini."
+
+  # Learning Objective 13.3.2
+  - id: Q5
+    text: "Dalam satu permainan, sebuah kad ditarik daripada satu dek penuh. Apakah kebarangkalian menarik bukan kad hati?"
+    difficulty: medium
+    learning_objective: 13.3.2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "0.75"
+      working: |
+        Kebarangkalian menarik kad hati = 13/52
+        Kebarangkalian menarik bukan kad hati = 1 - (13/52) = 39/52 = 0.75
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menentukan kebarangkalian menarik kad hati."
+      - marks: 1
+        criteria: "Mengira kebarangkalian peristiwa pelengkap dengan betul."
+    hints:
+      - level: 1
+        text: "Ingat bahawa kebarangkalian peristiwa pelengkap adalah 1 tolak kebarangkalian peristiwa asal."

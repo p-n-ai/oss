@@ -28,7 +28,7 @@ questions:
 
   # LO1.1.2 - Menentukan hubungan antara dua pemboleh ubah bagi suatu ubahan langsung
   - id: Q2
-    text: "Diberi bahawa \( y \) berkadar terus dengan \( x \) dan \( y = 10 \) apabila \( x = 2 \). Cari nilai \( y \) apabila \( x = 5 \)."
+    text: 'Diberi bahawa \( y \) berkadar terus dengan \( x \) dan \( y = 10 \) apabila \( x = 2 \). Cari nilai \( y \) apabila \( x = 5 \).'
     difficulty: medium
     learning_objective: LO1.1.2
     tp_level: 2
@@ -42,16 +42,16 @@ questions:
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Mengira nilai \( k \) dengan betul."
+        criteria: 'Mengira nilai \( k \) dengan betul.'
       - marks: 1
-        criteria: "Menggunakan nilai \( k \) untuk menentukan nilai \( y \) apabila \( x = 5 \)."
+        criteria: 'Menggunakan nilai \( k \) untuk menentukan nilai \( y \) apabila \( x = 5 \).'
     hints:
       - level: 1
-        text: "Cari nilai pemalar \( k \) terlebih dahulu dari maklumat yang diberi."
+        text: 'Cari nilai pemalar \( k \) terlebih dahulu dari maklumat yang diberi.'
 
   # LO1.1.3 - Menentukan hubungan antara tiga atau lebih pemboleh ubah bagi suatu ubahan tercantum
   - id: Q3
-    text: "Jika \( y \) berkadar terus dengan \( x \) dan \( z \) secara serentak, dan \( y = 24 \) apabila \( x = 2 \) dan \( z = 3 \), cari nilai \( y \) apabila \( x = 4 \) dan \( z = 6 \)."
+    text: 'Jika \( y \) berkadar terus dengan \( x \) dan \( z \) secara serentak, dan \( y = 24 \) apabila \( x = 2 \) dan \( z = 3 \), cari nilai \( y \) apabila \( x = 4 \) dan \( z = 6 \).'
     difficulty: medium
     learning_objective: LO1.1.3
     tp_level: 2
@@ -69,16 +69,16 @@ questions:
       - marks: 1
         criteria: "Menulis persamaan yang betul untuk ubahan tercantum."
       - marks: 1
-        criteria: "Mengira nilai \( k \) dengan betul."
+        criteria: 'Mengira nilai \( k \) dengan betul.'
       - marks: 1
-        criteria: "Menggunakan nilai \( k \) untuk menentukan nilai \( y \) yang baru."
+        criteria: 'Menggunakan nilai \( k \) untuk menentukan nilai \( y \) yang baru.'
     hints:
       - level: 1
-        text: "Tentukan nilai pemalar \( k \) dahulu sebelum menyelesaikan untuk keadaan baru."
+        text: 'Tentukan nilai pemalar \( k \) dahulu sebelum menyelesaikan untuk keadaan baru.'
 
   # LO1.2.2 - Menentukan hubungan antara dua pemboleh ubah bagi suatu ubahan songsang
   - id: Q4
-    text: "Jika \( y \) berkadar songsang dengan \( x \) dan \( y = 8 \) apabila \( x = 5 \), cari nilai \( y \) apabila \( x = 10 \)."
+    text: 'Jika \( y \) berkadar songsang dengan \( x \) dan \( y = 8 \) apabila \( x = 5 \), cari nilai \( y \) apabila \( x = 10 \).'
     difficulty: medium
     learning_objective: LO1.2.2
     tp_level: 2
@@ -94,16 +94,16 @@ questions:
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Mengira nilai pemalar \( k \) dengan betul."
+        criteria: 'Mengira nilai pemalar \( k \) dengan betul.'
       - marks: 1
-        criteria: "Menggunakan nilai \( k \) untuk menentukan nilai \( y \) apabila \( x = 10 \)."
+        criteria: 'Menggunakan nilai \( k \) untuk menentukan nilai \( y \) apabila \( x = 10 \).'
     hints:
       - level: 1
-        text: "Ingat bahawa dalam ubahan songsang, \( y \times x = k \) adalah pemalar."
+        text: 'Ingat bahawa dalam ubahan songsang, \( y \times x = k \) adalah pemalar.'
 
   # LO1.3.2 - Menyelesaikan masalah yang melibatkan ubahan bergabung
   - id: Q5
-    text: "Dalam satu eksperimen, \( y \) berkadar terus dengan \( x \) dan berkadar songsang dengan kuasa dua \( z \). Jika \( y = 10 \) apabila \( x = 4 \) dan \( z = 2 \), hitung \( y \) apabila \( x = 8 \) dan \( z = 4 \)."
+    text: 'Dalam satu eksperimen, \( y \) berkadar terus dengan \( x \) dan berkadar songsang dengan kuasa dua \( z \). Jika \( y = 10 \) apabila \( x = 4 \) dan \( z = 2 \), hitung \( y \) apabila \( x = 8 \) dan \( z = 4 \).'
     difficulty: medium
     learning_objective: LO1.3.2
     tp_level: 3
@@ -121,9 +121,9 @@ questions:
       - marks: 1
         criteria: "Menulis persamaan yang betul untuk ubahan bergabung."
       - marks: 1
-        criteria: "Mengira nilai pemalar \( k \) dengan betul."
+        criteria: 'Mengira nilai pemalar \( k \) dengan betul.'
       - marks: 1
-        criteria: "Menggunakan nilai \( k \) untuk menentukan nilai \( y \) yang baru."
+        criteria: 'Menggunakan nilai \( k \) untuk menentukan nilai \( y \) yang baru.'
     hints:
       - level: 1
-        text: "Perhatikan bahawa hubungan antara \( y \), \( x \), dan \( z \) melibatkan kedua-dua ubahan langsung dan songsang."
+        text: 'Perhatikan bahawa hubungan antara \( y \), \( x \), dan \( z \) melibatkan kedua-dua ubahan langsung dan songsang.'

@@ -56,7 +56,7 @@ questions:
 
   # Learning Objective 5.1.4
   - id: Q3
-    text: "Hitung nilai $\tan 45^\circ$ tanpa menggunakan kalkulator."
+    text: 'Hitung nilai $\tan 45^\circ$ tanpa menggunakan kalkulator.'
     difficulty: medium
     learning_objective: LO4
     tp_level: 4
@@ -104,7 +104,7 @@ questions:
         criteria: "Menghitung panjang hipotenus dengan betul."
     hints:
       - level: 1
-        text: "Gunakan formula sinus: $\sin \theta = \frac{\text{sisi bertentangan}}{\text{hipotenus}}$."
+        text: 'Gunakan formula sinus: $\sin \theta = \frac{\text{sisi bertentangan}}{\text{hipotenus}}$.'
       - level: 2
         text: "MISCONCEPTION ALERT: Pastikan anda menggunakan nisbah yang betul untuk sinus 60°."
 

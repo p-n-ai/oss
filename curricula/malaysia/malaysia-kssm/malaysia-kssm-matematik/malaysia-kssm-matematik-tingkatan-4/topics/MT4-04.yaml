@@ -64,12 +64,14 @@ teaching:
     sequence:
         - 'Step 1: Introduce intersection of sets using Venn diagrams (20 min)'
         - 'Step 2: Explain union of sets with visual aids (20 min)'
-        - 'Step 3: Demonstrate combined set operations with examples (25 min)'
+        - 'Step 3: Demonstrate combined operations step-by-step (25 min)'
     common_misconceptions:
         - misconception: Intersection is larger than either set
-          remediation: Use examples with non-overlapping sets to show true intersection size
+          remediation: Use examples with non-overlapping sets to clarify
         - misconception: Union requires overlap
-          remediation: Clarify with sets that have no common elements
+          remediation: Use sets with no common elements to explain union
 engagement_hooks:
-    - Discuss organizing a party with common and unique guest lists
-    - Relate to combining different sports teams' members for a match
+    - Use examples like combining favorite foods to explain union and intersection
+    - Relate set operations to organizing groups of friends with common and distinct interests
+assessments_file: MT4-04.assessments.yaml
+examples_file: MT4-04.examples.yaml

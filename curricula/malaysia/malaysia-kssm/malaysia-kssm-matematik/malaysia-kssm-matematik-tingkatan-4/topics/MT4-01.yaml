@@ -59,18 +59,16 @@ quality_level: 1
 provenance: ai-assisted
 teaching:
     sequence:
-        - 'Step 1: Pengenalan kepada Persamaan Kuadratik (15 min)'
-        - 'Step 2: Memahami Fungsi Kuadratik (20 min)'
-        - 'Step 3: Menganalisis Kesan Parameter (30 min)'
-        - 'Step 4: Membentuk Fungsi Kuadratik Berdasarkan Situasi (25 min)'
-        - 'Step 5: Menentukan Punca dengan Pemfaktoran (20 min)'
-        - 'Step 6: Melakar Graf dan Menyelesaikan Masalah (30 min)'
+        - 'Step 1: Introduce the general form of quadratic equations (15 min)'
+        - 'Step 2: Explain quadratic functions and one-to-many relationships (20 min)'
+        - 'Step 3: Analyze effects of changing a, b, c on graph shape (30 min)'
     common_misconceptions:
-        - misconception: Fungsi kuadratik sama dengan fungsi linear
-          remediation: Tekankan perbezaan graf dan bentuk ungkapan
-        - misconception: Punca persamaan adalah titik pada paksi x
-          remediation: Gunakan visualisasi graf untuk menunjukkan titik potong
+        - misconception: Quadratic functions are the same as linear functions
+          remediation: Emphasize differences in graph shapes and expression forms
+        - misconception: Roots of the equation are points on the x-axis
+          remediation: Use graph visualization to show intersection points
 engagement_hooks:
-    - Mengaitkan fungsi kuadratik dengan trajektori objek dalam sukan seperti badminton
-    - Menyoal pelajar tentang bagaimana graf kuadratik boleh digunakan dalam reka bentuk jambatan
-    - Membincangkan aplikasi fungsi kuadratik dalam pengiraan jarak dan masa dalam perjalanan
+    - Relate quadratic functions to the trajectory of a badminton shuttle
+    - Discuss the parabolic path of a football during a free kick
+examples_file: MT4-01.examples.yaml
+assessments_file: MT4-01.assessments.yaml

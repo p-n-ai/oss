@@ -3,34 +3,41 @@ provenance: ai-generated
 description: "Worked examples for MATEMATIK PENGGUNA: PENGURUSAN KEWANGAN"
 worked_examples:
   - id: WE-01
-    topic: "Understanding Financial Management Processes"
+    topic: "Pengurusan Kewangan Asas"
     difficulty: easy
-    real_world_analogy: "Managing your finances is like planning a road trip; you need a map (budget) to reach your destination (financial goal)."
-    misconception_alert: "Students often think that a budget is restrictive rather than a tool for achieving goals."
-    scenario: "Ali wants to save money for a new bicycle. He earns RM150 monthly from his part-time job and wants to save half of his earnings."
+    real_world_analogy: "Menguruskan kewangan adalah seperti merancang perjalanan. Anda perlu tahu destinasi dan bagaimana untuk sampai ke sana."
+    misconception_alert: "Ramai pelajar berfikir mereka boleh mencapai matlamat kewangan tanpa perancangan yang teliti, tetapi tanpa pelan, mereka mungkin akan berbelanja lebih daripada kemampuan."
+    scenario: "Ahmad ingin membeli telefon baru yang berharga RM1,200. Dia merancang untuk menyimpan RM100 setiap bulan. Berapa lama masa yang diperlukan untuk mencapai matlamat tersebut?"
     working: |
-      Step 1: Determine Ali's monthly savings goal by calculating half of his monthly earnings.
-      Step 2: Calculate 50% of RM150, which is RM75.
-      Step 3: Ali should save RM75 each month to reach his goal efficiently.
+      Step 1: Tentukan jumlah wang yang diperlukan untuk membeli telefon, iaitu RM1,200.
+      Step 2: Ahmad bercadang untuk menyimpan RM100 setiap bulan.
+      Step 3: Bahagikan jumlah wang yang diperlukan dengan simpanan bulanan: RM1,200 ÷ RM100 = 12 bulan.
+      Step 4: Oleh itu, Ahmad memerlukan 12 bulan untuk mencapai matlamatnya.
 
   - id: WE-02
-    topic: "Building and Presenting a Personal Financial Plan"
+    topic: "Pelan Kewangan Jangka Pendek"
     difficulty: medium
-    real_world_analogy: "Creating a financial plan is like designing a house; a strong foundation (budget) supports future growth and stability."
-    misconception_alert: "Some students might overlook the need to account for unexpected expenses, leading to inaccurate plans."
-    scenario: "Fatimah plans to save for a university fund. She needs RM10,000 in 5 years and plans to save monthly. Her bank offers a 3% annual interest rate on savings."
+    real_world_analogy: "Membuat pelan kewangan adalah seperti membuat jadual belajar. Anda perlu mengatur masa dan sumber dengan bijak untuk mencapai keputusan yang diinginkan."
+    misconception_alert: "Pelajar kadang kala mengabaikan perbelanjaan kecil harian yang boleh terkumpul menjadi jumlah yang besar tanpa disedari."
+    scenario: "Siti ingin menabung untuk percutian yang berharga RM2,400 dalam masa dua tahun. Dia juga mempunyai perbelanjaan bulanan sebanyak RM200. Bagaimana dia boleh membuat pelan kewangan untuk mencapai matlamat ini?"
     working: |
-      Step 1: Use the future value formula for monthly savings: FV = Pmt * [((1 + r)^n - 1) / r]
-      Step 2: Rearrange to find Pmt, the monthly savings: Pmt = FV / [((1 + r)^n - 1) / r]
-      Step 3: Calculate using FV = RM10,000, r = 0.03/12, n = 5*12. Monthly savings required is approximately RM157.
+      Step 1: Tentukan jumlah simpanan yang diperlukan: RM2,400.
+      Step 2: Tentukan tempoh simpanan: 2 tahun (24 bulan).
+      Step 3: Kira simpanan bulanan yang diperlukan: RM2,400 ÷ 24 bulan = RM100 sebulan.
+      Step 4: Kira jumlah perbelanjaan bulanan: RM200.
+      Step 5: Jumlah yang perlu disimpan dan dibelanjakan setiap bulan: RM100 + RM200 = RM300.
+      Step 6: Jika Siti mampu menyimpan RM300 sebulan, dia akan mencapai matlamatnya dalam 2 tahun.
 
   - id: WE-03
-    topic: "Evaluating the Feasibility of a Financial Plan"
+    topic: "Pelan Kewangan Jangka Panjang"
     difficulty: hard
-    real_world_analogy: "Evaluating a financial plan is like conducting a health check-up to ensure everything is functioning correctly and adjustments can be made if necessary."
-    misconception_alert: "Students might assume their initial financial plan doesn't need adjustments over time, ignoring changes in income or expenses."
-    scenario: "Raja has a financial plan to save RM20,000 for a car in 8 years. He saves RM200 monthly, aiming to invest with a 5% annual interest rate. Evaluate if he can meet his goal."
+    real_world_analogy: "Memenuhi matlamat kewangan jangka panjang adalah seperti menamatkan maraton. Ia memerlukan ketekunan, disiplin, dan strategi yang berkesan."
+    misconception_alert: "Pelajar kadang-kadang mengabaikan kesan inflasi dan peningkatan kos hidup dalam perancangan kewangan jangka panjang."
+    scenario: "Ali ingin memiliki rumah sendiri yang dianggarkan berharga RM300,000 dalam masa 10 tahun. Dengan kadar simpanan tahunan sebanyak RM15,000, bolehkah Ali mencapai matlamat ini?"
     working: |
-      Step 1: Calculate the future value of Raja's savings using the future value formula: FV = Pmt * [((1 + r)^n - 1) / r]
-      Step 2: With Pmt = RM200, r = 0.05/12, n = 8*12, calculate the future value.
-      Step 3: The future value amounts to approximately RM23,400, indicating Raja's plan is feasible and exceeds his goal.
+      Step 1: Tentukan jumlah yang diperlukan untuk membeli rumah: RM300,000.
+      Step 2: Tentukan kadar simpanan tahunan: RM15,000.
+      Step 3: Tentukan tempoh masa simpanan: 10 tahun.
+      Step 4: Kira jumlah simpanan selepas 10 tahun: RM15,000 × 10 = RM150,000.
+      Step 5: Bandingkan jumlah simpanan dengan harga rumah: RM150,000 < RM300,000.
+      Step 6: Ali perlu mencari jalan untuk meningkatkan simpanannya atau mempertimbangkan pinjaman untuk mencapai matlamatnya.
