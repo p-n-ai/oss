@@ -1,0 +1,117 @@
+topic_id: MT2-08
+provenance: ai-generated
+
+questions:
+  # LO1: Menerangkan maksud fungsi
+  - id: Q1
+    text: "Apakah maksud fungsi dalam matematik dan bagaimana ia berbeza daripada hubungan biasa?"
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Fungsi adalah hubungan antara dua set di mana setiap elemen dalam set pertama dikaitkan dengan tepat satu elemen dalam set kedua."
+      working: |
+        A function describes a relationship where each input corresponds to exactly one output. In contrast, a general relation might allow multiple outputs for a single input.
+    marks: 3
+    rubric:
+      - marks: 2
+        criteria: "Menjelaskan fungsi sebagai hubungan dengan satu output tepat untuk setiap input."
+      - marks: 1
+        criteria: "Menyatakan perbezaan antara fungsi dan hubungan umum."
+    hints:
+      - level: 1
+        text: "Pertimbangkan bagaimana setiap input dalam fungsi mesti menghasilkan hanya satu output."
+
+  # LO2: Mengenal pasti fungsi dan memberi justifikasi berdasarkan perwakilan fungsi
+  - id: Q2
+    text: "Diberi satu set pasangan tertib: \\((1, 2), (2, 3), (3, 2), (4, 5)\\). Adakah ini mewakili fungsi? Berikan justifikasi anda."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Ya, ini adalah fungsi kerana setiap elemen dalam domain mempunyai tepat satu imej dalam kodomain."
+      working: |
+        Check each input value in the set of ordered pairs. Each input (1, 2, 3, 4) maps to only one output (2, 3, 2, 5), confirming it is a function.
+    marks: 3
+    rubric:
+      - marks: 2
+        criteria: "Menyatakan bahawa setiap input mempunyai satu output sahaja."
+      - marks: 1
+        criteria: "Menyenaraikan pasangan tertib dan menunjukkan tiada input berkaitan dengan lebih daripada satu output."
+    hints:
+      - level: 1
+        text: "Periksa sama ada terdapat input yang mempunyai lebih daripada satu output."
+
+  # LO3: Membina jadual nilai bagi fungsi linear dan bukan linear
+  - id: Q3
+    text: "Bina jadual nilai bagi fungsi \\(f(x) = x^2 + 2x + 1\\) untuk \\(x = -2, -1, 0, 1, 2\\)."
+    difficulty: medium
+    learning_objective: LO3
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "(-2, 3), (-1, 0), (0, 1), (1, 4), (2, 9)"
+      working: |
+        Calculate each value: 
+        For \(x = -2\), \(f(x) = (-2)^2 + 2(-2) + 1 = 4 - 4 + 1 = 1\).
+        For \(x = -1\), \(f(x) = (-1)^2 + 2(-1) + 1 = 1 - 2 + 1 = 0\).
+        For \(x = 0\), \(f(x) = 0^2 + 2(0) + 1 = 1\).
+        For \(x = 1\), \(f(x) = 1^2 + 2(1) + 1 = 4\).
+        For \(x = 2\), \(f(x) = 2^2 + 2(2) + 1 = 9\).
+    marks: 5
+    rubric:
+      - marks: 1
+        criteria: "Mengira nilai f(x) yang betul untuk setiap x."
+    hints:
+      - level: 1
+        text: "Gunakan persamaan fungsi untuk setiap nilai x."
+      - level: 2
+        text: "Ingat urutan operasi: kuasa, darab, tambah."
+
+  # LO4: Mentafsir graf fungsi
+  - id: Q4
+    text: "Graf fungsi \\(y = 2x + 3\\) dilukis pada bidang koordinat. Apakah makna titik potong-y graf ini?"
+    difficulty: medium
+    learning_objective: LO4
+    tp_level: 4
+    kbat: true
+    answer:
+      type: multiple_choice
+      value: "Titik di mana graf memotong paksi-y adalah (0, 3). Ini menunjukkan nilai awal atau nilai y apabila x = 0."
+      working: |
+        The y-intercept in the equation \(y = mx + c\) is represented by \(c\). For this function, \(c = 3\), indicating the graph crosses the y-axis at (0, 3).
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Menjelaskan bahawa titik potong-y adalah nilai pada paksi-y apabila x = 0."
+    hints:
+      - level: 1
+        text: "Titik potong-y adalah nilai y ketika x = 0."
+
+  # LO5: Menyelesaikan masalah yang melibatkan graf fungsi
+  - id: Q5
+    text: "Ali dan Bakar bermain bola. Graf jarak (dalam meter) terhadap masa (dalam saat) bagi pergerakan bola mereka diwakili oleh fungsi \\(d(t) = 4t + 2\\). Berapakah jarak bola selepas 5 saat?"
+    difficulty: medium
+    learning_objective: LO5
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: "22 meter"
+      working: |
+        Substitute \(t = 5\) into the function: 
+        \(d(5) = 4(5) + 2 = 20 + 2 = 22\).
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Menggantikan nilai t ke dalam fungsi dan mengira jarak dengan betul."
+    hints:
+      - level: 1
+        text: "Gantikan nilai t dengan 5 dalam fungsi untuk mencari jarak."
+      - level: 2
+        text: "Pastikan anda mengalikan dahulu sebelum menambah dalam persamaan."

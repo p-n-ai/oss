@@ -1,0 +1,161 @@
+topic_id: MT2-04
+provenance: ai-generated
+
+questions:
+  # LO1: Menghuraikan sifat geometri poligon sekata menggunakan pelbagai perwakilan
+  - id: Q1
+    text: "Sebuah poligon sekata mempunyai 8 sisi. Apakah nama poligon tersebut?"
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Oktagon"
+      options:
+        - "Segitiga"
+        - "Oktagon"
+        - "Heksagon"
+        - "Dekagon"
+      working: |
+        Sebuah poligon sekata dengan 8 sisi dikenali sebagai oktagon.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Jawapan betul: Oktagon"
+      - marks: 1
+        criteria: "Memilih heksagon atau dekagon"
+    hints:
+      - level: 1
+        text: "Ingat bahawa 'okta' bermaksud lapan."
+      - level: 2
+        text: "Misconception Alert: Jangan keliru antara 'hexa' dan 'octa.'"
+
+  # LO2: Membina poligon sekata menggunakan pelbagai kaedah dan menerangkan rasional langkah-langkah pembinaan
+  - id: Q2
+    text: "Bina sebuah heksagon sekata dan terangkan langkah-langkah pembinaan menggunakan jangka lukis dan pembaris."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Langkah-langkah pembinaan heksagon sekata"
+      working: |
+        1. Lukis satu bulatan dengan pusat O dan radius r.
+        2. Letakkan jangka lukis dengan radius r di atas pembaris.
+        3. Tandakan 6 titik pada lilitan bulatan dengan jarak yang sama.
+        4. Sambungkan titik-titik tersebut untuk membentuk heksagon sekata.
+    marks: 4
+    rubric:
+      - marks: 4
+        criteria: "Pembinaan lengkap dengan penjelasan yang jelas."
+      - marks: 2
+        criteria: "Pembinaan betul tetapi penjelasan tidak lengkap."
+      - marks: 1
+        criteria: "Hanya pemilihan titik yang betul."
+    hints:
+      - level: 1
+        text: "Pertimbangkan simetri bulatan untuk pembinaan."
+      - level: 2
+        text: "Misconception Alert: Pastikan semua sisi adalah sama panjang."
+
+  # LO3: Menerbitkan rumus hasil tambah sudut pedalaman suatu poligon
+  - id: Q3
+    text: "Terbitkan rumus bagi hasil tambah sudut pedalaman sebuah poligon dengan n sisi."
+    difficulty: medium
+    learning_objective: LO3
+    tp_level: 3
+    kbat: true
+    answer:
+      type: exact
+      value: "$(n-2) \times 180°$"
+      working: |
+        Hasil tambah sudut pedalaman poligon boleh diterbitkan dengan membahagi poligon kepada (n-2) segitiga.
+        Setiap segitiga mempunyai jumlah sudut pedalaman 180°.
+        Oleh itu, hasil tambah sudut pedalaman poligon ialah $(n-2) \times 180°$.
+    marks: 3
+    rubric:
+      - marks: 3
+        criteria: "Jawapan lengkap dengan penerbitan yang betul."
+      - marks: 2
+        criteria: "Jawapan betul tetapi penerbitan kurang jelas."
+      - marks: 1
+        criteria: "Hanya memberikan rumus tanpa penerbitan."
+    hints:
+      - level: 1
+        text: "Cuba bahagikan poligon kepada segitiga."
+      - level: 2
+        text: "Misconception Alert: Jangan lupa setiap segitiga mempunyai 180°."
+
+  # LO4: Membuat dan mengesahkan konjektur tentang hasil tambah sudut peluaran poligon
+  - id: Q4
+    text: "Nyatakan dan sahkan konjektur mengenai jumlah sudut peluaran mana-mana poligon."
+    difficulty: medium
+    learning_objective: LO4
+    tp_level: 3
+    kbat: true
+    answer:
+      type: exact
+      value: "360°"
+      working: |
+        Konjektur: Jumlah sudut peluaran mana-mana poligon ialah 360°.
+        Pengesahan: Setiap sudut peluaran adalah sudut luar yang membentuk garis lurus dengan sudut pedalaman.
+        Oleh itu, apabila semua sudut peluaran ditambah, hasilnya ialah satu pusingan penuh, iaitu 360°.
+    marks: 3
+    rubric:
+      - marks: 3
+        criteria: "Konjektur dan pengesahan lengkap."
+      - marks: 2
+        criteria: "Konjektur betul tetapi pengesahan kurang lengkap."
+      - marks: 1
+        criteria: "Menyatakan konjektur tetapi tiada pengesahan."
+    hints:
+      - level: 1
+        text: "Ingat bahawa sudut peluaran adalah bahagian dari satu pusingan penuh."
+      - level: 2
+        text: "Misconception Alert: Jangan campur adukkan dengan jumlah sudut pedalaman."
+
+  # LO5: Menentukan nilai sudut pedalaman, sudut peluaran dan bilangan sisi suatu poligon
+  - id: Q5
+    text: "Suatu poligon sekata mempunyai sudut pedalaman berukuran 120°. Berapakah bilangan sisi poligon tersebut?"
+    difficulty: medium
+    learning_objective: LO5
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "6"
+      working: |
+        Sudut pedalaman untuk poligon sekata dengan n sisi ialah $\\frac{(n-2) \times 180°}{n}$.
+        Diberi sudut pedalaman ialah 120°:
+        \[
+        \\frac{(n-2) \times 180°}{n} = 120°
+        \]
+        Menyelesaikan persamaan ini:
+        \[
+        (n-2) \times 180° = 120° \times n
+        \]
+        \[
+        180n - 360 = 120n
+        \]
+        \[
+        60n = 360
+        \]
+        \[
+        n = 6
+        \]
+        Oleh itu, poligon tersebut adalah heksagon.
+    marks: 4
+    rubric:
+      - marks: 4
+        criteria: "Jawapan betul dengan penyelesaian lengkap."
+      - marks: 2
+        criteria: "Jawapan betul tetapi penyelesaian tidak lengkap."
+      - marks: 1
+        criteria: "Hanya memberikan jawapan tanpa penyelesaian."
+    hints:
+      - level: 1
+        text: "Gunakan rumus untuk sudut pedalaman poligon sekata."
+      - level: 2
+        text: "Misconception Alert: Pastikan untuk menyelesaikan persamaan dengan betul."

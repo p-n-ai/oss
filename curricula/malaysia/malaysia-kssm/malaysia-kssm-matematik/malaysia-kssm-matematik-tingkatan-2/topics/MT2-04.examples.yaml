@@ -1,0 +1,36 @@
+topic_id: MT2-04
+provenance: ai-generated
+description: "Worked examples for Poligon"
+worked_examples:
+  - id: WE-01
+    topic: "Sifat Geometri Poligon Sekata"
+    difficulty: easy
+    real_world_analogy: "Consider a regular hexagon as the shape of a honeycomb cell."
+    misconception_alert: "Students often confuse the number of sides with the sum of interior angles."
+    scenario: "Describe the geometric properties of a regular hexagon."
+    working: |
+      Step 1: Recognize that a regular hexagon has all sides and angles equal.
+      Step 2: Note that the hexagon can be divided into 6 equilateral triangles.
+      Step 3: Calculate the interior angle using the formula (n-2) * 180° / n, where n is the number of sides. For a hexagon (n=6), each interior angle is (6-2) * 180° / 6 = 120°.
+
+  - id: WE-02
+    topic: "Membina Poligon Sekata"
+    difficulty: medium
+    real_world_analogy: "Building a stop sign requires constructing a regular octagon."
+    misconception_alert: "Assuming all angles are 90° because they are equal."
+    scenario: "Construct a regular octagon using a compass and straightedge."
+    working: |
+      Step 1: Draw a circle with a compass to define the boundary for the octagon.
+      Step 2: Use a protractor to mark equal angles of 45° on the circumference.
+      Step 3: Connect the points marked on the circle to form an octagon.
+
+  - id: WE-03
+    topic: "Hasil Tambah Sudut Pedalaman Poligon"
+    difficulty: hard
+    real_world_analogy: "Imagine the angles of a pentagon as pieces of a pie chart, each slice representing part of a whole."
+    misconception_alert: "Thinking the sum of interior angles is always 360° regardless of the sides."
+    scenario: "Calculate the sum of the interior angles of a dodecagon (12-sided polygon)."
+    working: |
+      Step 1: Recall that the sum of interior angles formula is (n-2) * 180°, where n is the number of sides.
+      Step 2: For a dodecagon, n = 12, so substitute into the formula: (12-2) * 180°.
+      Step 3: Calculate (10 * 180°) = 1800°. Therefore, the sum of the interior angles of a dodecagon is 1800°.

@@ -1,0 +1,38 @@
+id: MT2-06
+official_ref: "Bab 6" # as printed in KSSM DSKP document
+name: "Bentuk Geometri Tiga Dimensi"
+name_en: "Three-Dimensional Geometric Shapes"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+learning_objectives: []
+prerequisites:
+    required: []
+quality_level: 0
+provenance: ai-generated
+generated_at: "2026-03-29T16:00:08Z"
+teaching:
+    sequence:
+        - 'Step 1: Introduce 3D shapes using real objects like boxes and balls (15 min)'
+        - 'Step 2: Discuss properties such as faces, edges, and vertices with visual aids (20 min)'
+        - 'Step 3: Practice drawing and constructing 3D shapes using paper or clay (25 min)'
+    common_misconceptions:
+        - misconception: A sphere has edges and vertices
+          remediation: Use balls to demonstrate that spheres have only a surface
+        - misconception: 3D shapes are just like their 2D counterparts
+          remediation: Emphasize the concept of depth in 3D shapes
+engagement_hooks:
+    - Relate 3D shapes to local architecture like the Petronas Towers
+    - Discuss the shapes found in traditional Malay houses
+examples_file: MT2-06.examples.yaml
+ai_teaching_notes: MT2-06.teaching.md
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+assessments_file: MT2-06.assessments.yaml

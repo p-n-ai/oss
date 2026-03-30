@@ -1,0 +1,73 @@
+id: MT2-12
+official_ref: "Bab 12" # as printed in KSSM DSKP document
+name: "Sukatan Kecenderungan Memusat"
+name_en: "Measures of Central Tendency"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+learning_objectives:
+    - id: "12.1.1"
+      text: "Menentukan mod, min dan median bagi suatu set data tak terkumpul."
+      text_en: "Determine the mode, mean and median for a set of ungrouped data."
+      bloom: apply
+    - id: "12.1.2"
+      text: "Membuat kesimpulan tentang kesan perubahan suatu set data terhadap nilai mod, min dan median."
+      text_en: "Make conclusions about the effect of changes in a set of data on the values of mode, mean and median."
+      bloom: analyze
+    - id: "12.1.3"
+      text: "Mengumpul data, membina dan mentafsir jadual kekerapan bagi data terkumpul."
+      text_en: "Collect data, construct and interpret frequency tables for grouped data."
+      bloom: apply
+    - id: "12.1.4"
+      text: "Menentukan kelas mod dan min bagi suatu set data terkumpul."
+      text_en: "Determine the modal class and mean for a set of grouped data."
+      bloom: apply
+    - id: "12.1.5"
+      text: "Memilih dan menjustifikasikan sukatan kecenderungan memusat yang sesuai untuk memerihal taburan suatu set data, termasuk set data yang mempunyai nilai ekstrem."
+      text_en: "Select and justify the appropriate measure of central tendency to describe the distribution of a set of data, including data sets with extreme values."
+      bloom: evaluate
+    - id: "12.1.6"
+      text: "Menentukan mod, min dan median daripada perwakilan data."
+      text_en: "Determine the mode, mean and median from data representations."
+      bloom: apply
+    - id: "12.1.7"
+      text: "Mengaplikasikan kefahaman tentang sukatan kecenderungan memusat untuk membuat ramalan, membentuk hujah yang meyakinkan dan membuat kesimpulan."
+      text_en: "Apply understanding of measures of central tendency to make predictions, form convincing arguments and draw conclusions."
+      bloom: apply
+prerequisites:
+    required: []
+bloom_levels:
+    - apply
+    - analyze
+    - evaluate
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-03-29T16:00:08Z"
+teaching:
+    sequence:
+        - 'Step 1: Introduce the concept of central tendency and its importance (15 min)'
+        - 'Step 2: Guide students through calculating mode, mean, and median for ungrouped data (25 min)'
+        - 'Step 3: Discuss constructing frequency tables and central tendencies for grouped data (30 min)'
+    common_misconceptions:
+        - misconception: Mode is the same as mean
+          remediation: Use clear, distinct examples to show differences
+        - misconception: Median is always the middle
+          remediation: Emphasize ordering the data before finding median
+        - misconception: Mean is unaffected by outliers
+          remediation: Demonstrate with examples showing outlier impact
+engagement_hooks:
+    - Discuss how average rainfall affects agriculture decisions
+    - Explore how sports teams use these measures to analyze player performance
+ai_teaching_notes: MT2-12.teaching.md
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+assessments_file: MT2-12.assessments.yaml
+examples_file: MT2-12.examples.yaml

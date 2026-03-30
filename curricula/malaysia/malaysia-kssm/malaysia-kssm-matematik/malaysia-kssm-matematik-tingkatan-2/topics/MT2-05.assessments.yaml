@@ -1,0 +1,125 @@
+topic_id: MT2-05
+provenance: ai-generated
+
+questions:
+  # Learning Objective 5.1.1
+  - id: Q1
+    text: "Tentukan dan terangkan bahagian bulatan yang dikenali sebagai 'sektor' dan bagaimana ia berbeza dari 'segment'."
+    difficulty: medium
+    learning_objective: 5.1.1
+    tp_level: 2
+    kbat: true
+    answer:
+      type: free_text
+      value: "Sektor ialah kawasan dalam bulatan yang dibatasi oleh dua jejari dan lengkok, manakala segmen dibatasi oleh satu perentas dan lengkok."
+      working: |
+        Sektor adalah kawasan yang dibatasi oleh dua jejari dan satu lengkok. 
+        Segmen adalah kawasan yang dibatasi oleh satu perentas dan satu lengkok.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti salah satu bahagian dengan betul."
+      - marks: 2
+        criteria: "Menerangkan kedua-dua bahagian dengan betul."
+      - marks: 3
+        criteria: "Menerangkan perbezaan antara sektor dan segmen dengan tepat."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang bagaimana jejari dan perentas membahagi bulatan."
+
+  # Learning Objective 5.1.2
+  - id: Q2
+    text: "Bina suatu bulatan dengan jejari 5 cm dan tandakan satu perentas yang panjangnya 8 cm. Apakah sifat yang ditunjukkan oleh perentas ini?"
+    difficulty: medium
+    learning_objective: 5.1.2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Perentas lebih panjang daripada diameter, menunjukkan ia bukan perentas sebuah bulatan sempurna."
+      working: |
+        Diameter bulatan dengan jejari 5 cm adalah 10 cm.
+        Perentas yang lebih pendek daripada diameter menunjukkan sifat bahawa ia tidak melalui pusat.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Membina bulatan dan perentas dengan betul."
+      - marks: 1
+        criteria: "Menerangkan sifat perentas."
+    hints:
+      - level: 1
+        text: "Pertimbangkan panjang perentas relatif kepada diameter bulatan."
+
+  # Learning Objective 5.2.1
+  - id: Q3
+    text: "Diberikan dua perentas sama panjang dalam satu bulatan. Apakah hubungan antara jarak perentas tersebut dari pusat bulatan?"
+    difficulty: medium
+    learning_objective: 5.2.1
+    tp_level: 2
+    kbat: true
+    answer:
+      type: multiple_choice
+      value: "C"
+      options:
+        A: "Mereka berada lebih dekat ke pusat."
+        B: "Satu lebih dekat daripada yang lain."
+        C: "Mereka berada pada jarak yang sama dari pusat."
+        D: "Salah satu melalui pusat, yang lain tidak."
+      working: |
+        Perentas yang sama panjang berada pada jarak yang sama dari pusat bulatan.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Jawapan tepat dan memahami hubungan antara perentas dan pusat."
+    hints:
+      - level: 1
+        text: "Ingat bahawa perentas yang sama panjang menunjukkan simetri dalam bulatan."
+
+  # Learning Objective 5.3.1
+  - id: Q4
+    text: "Jika diameter bulatan ialah 14 cm, hitung lilitan bulatan tersebut. Gunakan π ≈ 3.14."
+    difficulty: medium
+    learning_objective: 5.3.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "43.96 cm"
+      working: |
+        Lilitan bulatan adalah diberikan oleh formula $C = \pi d$.
+        Dengan $d = 14$ cm dan $\pi \approx 3.14$, lilitan $C = 3.14 \times 14 = 43.96$ cm.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Memasukkan nilai dengan betul ke dalam formula lilitan."
+      - marks: 1
+        criteria: "Mengira dengan tepat lilitan menggunakan nilai π yang diberikan."
+    hints:
+      - level: 1
+        text: "Gunakan formula lilitan $C = \pi d$."
+
+  # Learning Objective 5.3.4
+  - id: Q5
+    text: "Sebuah taman berbentuk bulatan mempunyai lilitan 31.4 meter. Hitung jejari taman tersebut. (Gunakan π ≈ 3.14)"
+    difficulty: medium
+    learning_objective: 5.3.4
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "5 m"
+      working: |
+        Gunakan formula lilitan $C = 2\pi r$.
+        Diberikan $C = 31.4$ m dan $\pi \approx 3.14$, kita dapati $31.4 = 2(3.14)r$.
+        Jadi $r = \frac{31.4}{6.28} = 5$ meter.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menulis formula lilitan yang betul."
+      - marks: 1
+        criteria: "Substitusi nilai dengan betul ke dalam formula."
+      - marks: 1
+        criteria: "Mengira jejari dengan tepat."
+    hints:
+      - level: 1
+        text: "Pikirkan bagaimana untuk membalikkan formula lilitan untuk mendapatkan jejari."

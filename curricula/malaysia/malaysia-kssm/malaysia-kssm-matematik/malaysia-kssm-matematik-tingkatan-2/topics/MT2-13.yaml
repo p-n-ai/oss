@@ -1,0 +1,41 @@
+id: MT2-13
+official_ref: "Bab 13" # as printed in KSSM DSKP document
+name: "Kebarangkalian Mudah"
+name_en: "Simple Probability"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+learning_objectives: []
+prerequisites:
+    required: []
+quality_level: 0
+provenance: ai-generated
+generated_at: "2026-03-29T16:00:08Z"
+teaching:
+    sequence:
+        - 'Step 1: Introduce probability as a measure between 0 and 1 using a number line (10 min)'
+        - 'Step 2: Explain probability with real-life examples like coin tosses (10 min)'
+        - 'Step 3: Guide students in calculating simple probabilities with dice (15 min)'
+        - 'Step 4: Practice with cards to determine the probability of drawing a specific card (15 min)'
+        - 'Step 5: Discuss common misconceptions and clarify using visual aids (10 min)'
+    common_misconceptions:
+        - misconception: Probability can be more than 1
+          remediation: Reinforce the concept that probability is always between 0 and 1
+        - misconception: Probability is always a whole number
+          remediation: Use visual aids to demonstrate probability as parts of a whole
+engagement_hooks:
+    - Discuss the probability of rain affecting local plans
+    - Relate probability to winning a prize in a school raffle
+    - Talk about the chances of favorite sports teams winning their next match
+ai_teaching_notes: MT2-13.teaching.md
+examples_file: MT2-13.examples.yaml
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+assessments_file: MT2-13.assessments.yaml

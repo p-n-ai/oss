@@ -1,0 +1,40 @@
+topic_id: MT2-12
+provenance: ai-generated
+description: "Worked examples for Sukatan Kecenderungan Memusat"
+worked_examples:
+  - id: WE-01
+    topic: "Determining Mode, Mean, and Median of Ungrouped Data"
+    difficulty: easy
+    real_world_analogy: "Finding the most popular type of fruit in a basket is similar to finding the mode in a data set."
+    misconception_alert: "Students often confuse mode with mean, thinking both are average values. Mode is simply the most frequent item."
+    scenario: "A teacher records the number of books read by her students in a month: 2, 4, 4, 5, 3, 2, 4. Determine the mode, mean, and median."
+    working: |
+      Step 1: Identify the mode by finding the most frequent number in the data set. The number 4 appears most frequently.
+      Step 2: Calculate the mean by summing all the numbers and dividing by the count of numbers. Mean = (2 + 4 + 4 + 5 + 3 + 2 + 4) / 7 = 3.43.
+      Step 3: To find the median, arrange the numbers in ascending order: 2, 2, 3, 4, 4, 4, 5. The median, being the middle value, is 4.
+
+  - id: WE-02
+    topic: "Analyzing the Effect of Data Changes on Measures of Central Tendency"
+    difficulty: medium
+    real_world_analogy: "Changing a recipe ingredient can alter the taste of the dish, just like how data changes can affect central tendency measures."
+    misconception_alert: "Students might think that adding or removing a data point always shifts all measures equally. Instead, each measure reacts differently."
+    scenario: "An athlete's weekly running distances (in km) are: 5, 6, 5, 8, 10. If he runs 12 km next week, analyze the effect on the mode, mean, and median."
+    working: |
+      Step 1: Initial mode is 5; the mean is (5 + 6 + 5 + 8 + 10) / 5 = 6.8; the median is 6.
+      Step 2: With the new data point 12, the data set becomes: 5, 5, 6, 8, 10, 12.
+      Step 3: Mode remains 5. New mean = (5 + 6 + 5 + 8 + 10 + 12) / 6 = 7.67.
+      Step 4: New median, with even data points, is the average of the 3rd and 4th values: (6 + 8) / 2 = 7.
+      Step 5: The new data point increased the mean and median; mode is unaffected.
+
+  - id: WE-03
+    topic: "Selecting Suitable Measure of Central Tendency"
+    difficulty: hard
+    real_world_analogy: "Choosing the best car for a journey involves considering speed, comfort, and fuel efficiency, similar to choosing the best central tendency measure."
+    misconception_alert: "Students may assume that the mean is always the best measure, not recognizing that outliers can skew it."
+    scenario: "A company has salaries (in RM thousands): 30, 35, 40, 45, 50, 300. Determine the best measure of central tendency to describe the typical salary."
+    working: |
+      Step 1: Identify the data set: 30, 35, 40, 45, 50, 300.
+      Step 2: Calculate the mean: (30 + 35 + 40 + 45 + 50 + 300) / 6 = 83.33.
+      Step 3: Calculate the median by arranging and identifying the middle value(s): Median = (40 + 45) / 2 = 42.5.
+      Step 4: Identify the mode (no repeating values): Mode is non-existent.
+      Step 5: Evaluate: Mean is skewed by the outlier (300). Median better represents the typical salary since it's unaffected by the outlier.

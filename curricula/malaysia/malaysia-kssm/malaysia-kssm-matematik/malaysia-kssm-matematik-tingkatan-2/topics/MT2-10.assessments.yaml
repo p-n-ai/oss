@@ -1,0 +1,119 @@
+topic_id: MT2-10
+provenance: ai-generated
+
+questions:
+  # Learning Objective 10.1.1
+  - id: Q1
+    text: "Dalam sebuah peta, jalan A ke B mempunyai panjang mencancang 3 km dan panjang mengufuk 4 km. Apakah kecerunan jalan tersebut?"
+    difficulty: medium
+    learning_objective: LO1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "0.75"
+      working: |
+        Kecerunan, $m = \frac{\text{jarak mencancang}}{\text{jarak mengufuk}} = \frac{3}{4} = 0.75$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menentukan jarak mencancang dan mengufuk dengan betul."
+      - marks: 1
+        criteria: "Mengira kecerunan dengan betul."
+    hints:
+      - level: 1
+        text: "Kecerunan adalah nisbah antara jarak mencancang dan jarak mengufuk."
+
+  # Learning Objective 10.1.2
+  - id: Q2
+    text: "Diberi dua titik pada satah Cartes, $A(2, 3)$ dan $B(5, 7)$. Terbitkan rumus untuk mencari kecerunan garis lurus melalui titik-titik ini."
+    difficulty: medium
+    learning_objective: LO2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: "m = \\frac{7 - 3}{5 - 2} = \\frac{4}{3}"
+      working: |
+        Rumus kecerunan: $m = \frac{y_2 - y_1}{x_2 - x_1}$.
+        Substitusi nilai: $m = \frac{7 - 3}{5 - 2} = \frac{4}{3}$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan rumus kecerunan yang betul."
+      - marks: 1
+        criteria: "Mengira kecerunan dengan betul menggunakan nilai yang diberi."
+    hints:
+      - level: 1
+        text: "Gunakan rumus $m = \\frac{y_2 - y_1}{x_2 - x_1}$ untuk mencari kecerunan."
+
+  # Learning Objective 10.1.3
+  - id: Q3
+    text: "Analisiskan kecerunan garis lurus yang melalui titik-titik $C(1, 2)$ dan $D(4, 8)$. Adakah garis tersebut menaik atau menurun?"
+    difficulty: medium
+    learning_objective: LO3
+    tp_level: 4
+    kbat: true
+    answer:
+      type: multiple_choice
+      value: "menaik"
+      options:
+        - "menaik"
+        - "menurun"
+        - "mendatar"
+        - "menegak"
+      working: |
+        Kecerunan, $m = \frac{8 - 2}{4 - 1} = \frac{6}{3} = 2$. Oleh kerana kecerunan adalah positif, garis tersebut menaik.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengira kecerunan dengan betul."
+      - marks: 1
+        criteria: "Menentukan arah kecondongan garis berdasarkan kecerunan."
+    hints:
+      - level: 1
+        text: "Jika kecerunan positif, garis menaik. Jika negatif, garis menurun."
+
+  # Learning Objective 10.1.4
+  - id: Q4
+    text: "Cari kecerunan garis yang melalui titik $E(-3, 4)$ dan $F(2, -1)$."
+    difficulty: medium
+    learning_objective: LO4
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "-1"
+      working: |
+        Kecerunan, $m = \frac{-1 - 4}{2 - (-3)} = \frac{-5}{5} = -1$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan rumus kecerunan yang betul."
+      - marks: 1
+        criteria: "Mengira nilai kecerunan dengan tepat."
+    hints:
+      - level: 1
+        text: "Gunakan rumus $m = \\frac{y_2 - y_1}{x_2 - x_1}$ dan berhati-hati dengan tanda negatif."
+
+  # Learning Objective 10.1.5
+  - id: Q5
+    text: "Sebuah jambatan mempunyai kecerunan 0.5. Jika panjang mengufuk jambatan ialah 100 meter, hitung ketinggian jambatan tersebut."
+    difficulty: medium
+    learning_objective: LO5
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "50"
+      working: |
+        Ketinggian, $h = m \times \text{jarak mengufuk} = 0.5 \times 100 = 50$ meter.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan kecerunan dengan betul untuk mencari ketinggian."
+      - marks: 1
+        criteria: "Mengira ketinggian dengan tepat."
+    hints:
+      - level: 1
+        text: "Kecerunan adalah nisbah jarak mencancang kepada jarak mengufuk. Gunakan ini untuk mencari ketinggian."

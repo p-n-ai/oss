@@ -1,0 +1,36 @@
+topic_id: MT2-13
+provenance: ai-generated
+description: "Worked examples for Kebarangkalian Mudah"
+worked_examples:
+  - id: WE-01
+    topic: "Kebarangkalian Memilih Kad"
+    difficulty: easy
+    real_world_analogy: "Choosing a random card from a standard deck of cards is like selecting a random book from a library shelf."
+    misconception_alert: "Students often think that all cards have the same probability of being drawn, even when the question specifies a particular suit or number."
+    scenario: "What is the probability of drawing an Ace from a standard deck of 52 playing cards?"
+    working: |
+      Step 1: Identify the total number of possible outcomes, which is 52 (since there are 52 cards in a deck).
+      Step 2: Count the number of favorable outcomes, which are the 4 Aces in the deck.
+      Step 3: Calculate the probability using the formula P = (Number of favorable outcomes) / (Total number of possible outcomes) = 4/52 = 1/13.
+
+  - id: WE-02
+    topic: "Kebarangkalian Memilih Warna"
+    difficulty: medium
+    real_world_analogy: "Choosing a red marble from a jar is like picking a red apple from a basket of mixed fruits."
+    misconception_alert: "Students might forget to count the total number of marbles correctly, leading to incorrect probability calculation."
+    scenario: "A jar contains 5 red marbles, 3 blue marbles, and 2 green marbles. What is the probability of randomly selecting a red marble?"
+    working: |
+      Step 1: Calculate the total number of marbles, which is 5 + 3 + 2 = 10.
+      Step 2: Determine the number of favorable outcomes, which is 5 (the number of red marbles).
+      Step 3: Use the probability formula P = (Number of favorable outcomes) / (Total number of possible outcomes) = 5/10 = 1/2.
+
+  - id: WE-03
+    topic: "Kebarangkalian Memilih Gula-Gula"
+    difficulty: hard
+    real_world_analogy: "Choosing a chocolate candy from a mixed bowl is like selecting a specific type of fruit from a mixed fruit salad."
+    misconception_alert: "Students may assume that replacing an item affects subsequent selections, even when it doesn't."
+    scenario: "In a bowl, there are 4 chocolate candies, 6 strawberry candies, and 10 mint candies. If a candy is chosen at random, what is the probability that it is not a mint candy?"
+    working: |
+      Step 1: Calculate the total number of candies, which is 4 + 6 + 10 = 20.
+      Step 2: Determine the number of non-mint candies, which is 4 (chocolate) + 6 (strawberry) = 10.
+      Step 3: Use the probability formula P = (Number of favorable outcomes) / (Total number of possible outcomes) = 10/20 = 1/2.

@@ -1,0 +1,153 @@
+topic_id: MT2-07
+provenance: ai-generated
+
+questions:
+  # Questions for learning objective 7.1.3
+  - id: Q1
+    text: "Dua titik pada satah Cartes ialah A(2, 3) dan B(5, 7). Hitung jarak antara dua titik ini."
+    difficulty: medium
+    learning_objective: 7.1.3
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "5"
+      working: |
+        Menggunakan rumus jarak antara dua titik, $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.
+        Substitusikan koordinat, $d = \sqrt{(5 - 2)^2 + (7 - 3)^2} = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menulis rumus jarak antara dua titik."
+      - marks: 1
+        criteria: "Substitusi koordinat ke dalam rumus."
+      - marks: 1
+        criteria: "Mengira nilai jarak dengan betul."
+    hints:
+      - level: 1
+        text: "Gunakan formula jarak: $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Pastikan anda mengkuadratkan perbezaan setiap komponen."
+
+  # Questions for learning objective 7.1.4
+  - id: Q2
+    text: "Jika panjang garis antara P(-1, -2) dan Q(x, 4) adalah 10, cari nilai x."
+    difficulty: medium
+    learning_objective: 7.1.4
+    tp_level: 2
+    kbat: true
+    answer:
+      type: exact
+      value: "7"
+      working: |
+        Menggunakan rumus jarak, $d = \sqrt{(x - (-1))^2 + (4 - (-2))^2} = 10$.
+        Jadi, $\sqrt{(x + 1)^2 + 6^2} = 10$.
+        Oleh itu, $(x + 1)^2 + 36 = 100$.
+        $(x + 1)^2 = 64$.
+        $x + 1 = \pm 8$.
+        Jadi, $x = 7$ atau $x = -9$.
+        Nilai $x = 7$ dipilih kerana ia memuaskan keadaan soalan.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menulis persamaan berdasarkan rumus jarak."
+      - marks: 1
+        criteria: "Mengembangkan persamaan dengan betul."
+      - marks: 1
+        criteria: "Mengira nilai $x$ dengan betul."
+      - marks: 1
+        criteria: "Memilih nilai $x$ yang sesuai dengan konteks."
+    hints:
+      - level: 1
+        text: "Gunakan rumus jarak dan substitusi nilai yang diketahui."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Ingat untuk menyelesaikan persamaan kuadrat dengan betul."
+
+  # Questions for learning objective 7.2.3
+  - id: Q3
+    text: "Cari koordinat titik tengah bagi garis yang menyambungkan titik C(4, 8) dan D(10, 2)."
+    difficulty: medium
+    learning_objective: 7.2.3
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "(7, 5)"
+      working: |
+        Menggunakan rumus titik tengah, $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$.
+        Substitusikan koordinat, $M = \left(\frac{4 + 10}{2}, \frac{8 + 2}{2}\right) = \left(\frac{14}{2}, \frac{10}{2}\right) = (7, 5)$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menulis rumus titik tengah."
+      - marks: 1
+        criteria: "Substitusi koordinat ke dalam rumus."
+      - marks: 1
+        criteria: "Mengira koordinat titik tengah dengan betul."
+    hints:
+      - level: 1
+        text: "Gunakan formula titik tengah: $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$."
+      - level: 2
+        text: "MISCONCEPTION ALERT: Pastikan anda menambah koordinat yang sama jenis dulu sebelum membahagi dua."
+
+  # Questions for learning objective 7.2.4
+  - id: Q4
+    text: "Sebuah segitiga mempunyai titik sudut di E(-3, 5), F(1, -1), dan G(5, 3). Tentukan koordinat titik tengah bagi garis yang menyambungkan F dan G."
+    difficulty: medium
+    learning_objective: 7.2.4
+    tp_level: 2
+    kbat: true
+    answer:
+      type: exact
+      value: "(3, 1)"
+      working: |
+        Menggunakan rumus titik tengah, $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$.
+        Substitusikan koordinat F dan G, $M = \left(\frac{1 + 5}{2}, \frac{-1 + 3}{2}\right) = \left(\frac{6}{2}, \frac{2}{2}\right) = (3, 1)$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menulis rumus titik tengah."
+      - marks: 1
+        criteria: "Substitusi koordinat F dan G ke dalam rumus."
+      - marks: 1
+        criteria: "Mengira koordinat titik tengah dengan betul."
+    hints:
+      - level: 1
+        text: "Gunakan formula titik tengah: $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$."
+      - level: 2
+        text: "Pastikan anda menggunakan koordinat F dan G sahaja."
+
+  # Questions for learning objective 7.3.1
+  - id: Q5
+    text: "Dalam sebuah sistem koordinat, P(2, -3) dan Q adalah dua titik dengan jarak 13 unit antara satu sama lain. Jika koordinat x bagi Q ialah 10, cari koordinat y bagi Q."
+    difficulty: medium
+    learning_objective: 7.3.1
+    tp_level: 2
+    kbat: true
+    answer:
+      type: free_text
+      value: "y = 9 or y = -15"
+      working: |
+        Menggunakan rumus jarak, $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} = 13$.
+        Substitusi $x_2 = 10$, $x_1 = 2$, $y_1 = -3$: 
+        $\sqrt{(10 - 2)^2 + (y + 3)^2} = 13$.
+        $\sqrt{64 + (y + 3)^2} = 13$.
+        $(y + 3)^2 = 105$.
+        $y + 3 = \pm \sqrt{105}$.
+        Jadi, $y = \sqrt{105} - 3$ atau $y = -\sqrt{105} - 3$.
+        $y \approx 9$ atau $y \approx -15$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menulis persamaan berdasarkan rumus jarak."
+      - marks: 1
+        criteria: "Mengembangkan persamaan dengan betul."
+      - marks: 1
+        criteria: "Mengira nilai $y$ dengan betul."
+      - marks: 1
+        criteria: "Mengetahui bahawa terdapat dua kemungkinan penyelesaian."
+    hints:
+      - level: 1
+        text: "Gunakan rumus jarak dan substitusi nilai yang diketahui."
+      - level: 2
+        text: "Perhatikan bahawa persamaan kuadrat akan memberi dua penyelesaian."

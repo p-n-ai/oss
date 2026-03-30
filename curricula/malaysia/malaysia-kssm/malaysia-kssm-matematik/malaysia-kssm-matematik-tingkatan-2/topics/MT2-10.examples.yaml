@@ -1,0 +1,39 @@
+topic_id: MT2-10
+provenance: ai-generated
+description: "Worked examples for Kecerunan Garis Lurus"
+worked_examples:
+  - id: WE-01
+    topic: "Understanding Slope"
+    difficulty: easy
+    real_world_analogy: "Imagine riding a bicycle up a hill. The steeper the hill, the harder it is to pedal. This is similar to the slope of a line."
+    misconception_alert: "Students often confuse the rise and run. Remember, 'rise' is the vertical change, and 'run' is the horizontal change."
+    scenario: "A hill rises 5 meters over a horizontal distance of 20 meters. What is the slope of the hill?"
+    working: |
+      Step 1: Identify the vertical change (rise) and horizontal change (run). Here, rise = 5 meters, run = 20 meters.
+      Step 2: Use the formula for slope, which is rise over run: slope = rise/run.
+      Step 3: Substitute the values into the formula: slope = 5/20 = 0.25. Thus, the slope of the hill is 0.25.
+
+  - id: WE-02
+    topic: "Slope on the Cartesian Plane"
+    difficulty: medium
+    real_world_analogy: "Think of a playground slide. The angle of the slide can be represented as a line on a graph, where the slope determines how steep the slide is."
+    misconception_alert: "When calculating slope from two points, students might mix up the order of subtraction. Consistency is key: always subtract y-coordinates in the same order as x-coordinates."
+    scenario: "Determine the slope of the line passing through points A(2, 3) and B(6, 11)."
+    working: |
+      Step 1: Identify coordinates of points A and B: A(2, 3) and B(6, 11).
+      Step 2: Use the slope formula (m = (y2 - y1) / (x2 - x1)): m = (11 - 3) / (6 - 2).
+      Step 3: Calculate the differences: y2 - y1 = 8 and x2 - x1 = 4.
+      Step 4: Substitute the differences into the formula: m = 8/4 = 2. Therefore, the slope of the line is 2.
+
+  - id: WE-03
+    topic: "Solving Real-World Problems with Slope"
+    difficulty: hard
+    real_world_analogy: "Consider a highway engineer planning a road between two points at different elevations. Understanding slope helps in designing a road that vehicles can traverse safely."
+    misconception_alert: "Students may assume that slope is only positive. However, slope can be negative if the line descends from left to right."
+    scenario: "A bridge is to be built between two points, one at a height of 10 meters and another at 2 meters, over a horizontal distance of 16 meters. What is the slope of the bridge?"
+    working: |
+      Step 1: Determine the vertical change (rise) and horizontal change (run). Calculate rise: final height - initial height = 2 - 10 = -8 meters.
+      Step 2: Identify the horizontal change: run = 16 meters.
+      Step 3: Apply the slope formula: slope = rise/run = -8/16.
+      Step 4: Simplify the fraction: slope = -1/2.
+      Step 5: Conclude that the slope of the bridge is -0.5, indicating it descends as it spans the horizontal distance.

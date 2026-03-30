@@ -1,0 +1,43 @@
+topic_id: MT2-11
+provenance: ai-generated
+description: "Worked examples for Transformasi Isometri"
+worked_examples:
+  - id: WE-01
+    topic: "Translasi"
+    difficulty: easy
+    real_world_analogy: "Imagine sliding a book across a table without lifting it; the book's position changes, but its orientation and size remain the same."
+    misconception_alert: "Students often confuse translation with rotation; translation does not involve any turning or flipping."
+    scenario: "A point P(2, 3) is translated by the vector (4, -2). Determine the new coordinates of point P."
+    working: |
+      Step 1: Identify the translation vector, which is (4, -2).
+      Step 2: Apply the translation to point P by adding the vector components to the point's coordinates.
+              New x-coordinate = 2 + 4 = 6
+              New y-coordinate = 3 - 2 = 1
+      Step 3: The new coordinates of point P are (6, 1).
+
+  - id: WE-02
+    topic: "Pantulan"
+    difficulty: medium
+    real_world_analogy: "Reflecting your face in a mirror; your face appears reversed but maintains its size and shape."
+    misconception_alert: "Students may assume reflection changes the object's size; however, it only changes the orientation."
+    scenario: "Reflect triangle ABC with vertices A(1, 2), B(4, 2), C(4, 5) across the y-axis. Determine the coordinates of the reflected triangle A'B'C'."
+    working: |
+      Step 1: Identify that reflection across the y-axis will change the sign of x-coordinates.
+      Step 2: Reflect each vertex across the y-axis:
+              A(1, 2) becomes A'(-1, 2)
+              B(4, 2) becomes B'(-4, 2)
+              C(4, 5) becomes C'(-4, 5)
+      Step 3: The coordinates of the reflected triangle A'B'C' are A'(-1, 2), B'(-4, 2), C'(-4, 5).
+
+  - id: WE-03
+    topic: "Putaran"
+    difficulty: hard
+    real_world_analogy: "Rotating a key to unlock a door; the key turns around a fixed point (the lock) while maintaining its shape."
+    misconception_alert: "A rotation is not the same as a translation; rotation involves turning around a fixed point, not moving in a straight line."
+    scenario: "Rotate point D(3, 4) 90 degrees counterclockwise about the origin. Determine the coordinates of the new point D'."
+    working: |
+      Step 1: Understand that a 90-degree counterclockwise rotation about the origin swaps the coordinates and changes the sign of the new x-coordinate.
+      Step 2: Apply the rotation rule:
+              Original coordinates: D(3, 4)
+              New coordinates after rotation: D'(-4, 3)
+      Step 3: The coordinates of the point D after the rotation are D'(-4, 3).

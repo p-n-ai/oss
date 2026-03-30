@@ -1,0 +1,36 @@
+topic_id: MT2-06
+provenance: ai-generated
+description: "Worked examples for Bentuk Geometri Tiga Dimensi"
+worked_examples:
+  - id: WE-01
+    topic: "Volume of Cubes"
+    difficulty: easy
+    real_world_analogy: "Imagine filling a box with small cubes to see how much it can hold."
+    misconception_alert: "Students often confuse the formula for volume with surface area."
+    scenario: "Calculate the volume of a cube with a side length of 5 cm."
+    working: |
+      Step 1: Identify the formula for the volume of a cube, which is side^3.
+      Step 2: Substitute the side length into the formula: 5^3.
+      Step 3: Calculate the volume: 5 * 5 * 5 = 125 cm³. Thus, the volume of the cube is 125 cm³.
+  
+  - id: WE-02
+    topic: "Surface Area of a Cylinder"
+    difficulty: medium
+    real_world_analogy: "Visualize wrapping a cylindrical can with paper to cover its surface."
+    misconception_alert: "Students may forget to include the area of the top and bottom circles."
+    scenario: "Find the surface area of a cylinder with a radius of 3 cm and a height of 7 cm."
+    working: |
+      Step 1: Identify the formula: Surface Area = 2πr(h + r).
+      Step 2: Substitute the values into the formula: 2π(3)(7 + 3).
+      Step 3: Calculate: 2π(3)(10) = 60π cm². Thus, the surface area is approximately 188.4 cm².
+  
+  - id: WE-03
+    topic: "Volume of a Cone"
+    difficulty: hard
+    real_world_analogy: "Think about how much ice cream can fill a cone."
+    misconception_alert: "Students may use the wrong height when calculating the volume of a cone."
+    scenario: "Calculate the volume of a cone with a radius of 4 cm and a height of 9 cm."
+    working: |
+      Step 1: Identify the formula for the volume of a cone: (1/3)πr²h.
+      Step 2: Substitute the values into the formula: (1/3)π(4)²(9).
+      Step 3: Calculate: (1/3)π(16)(9) = 48π cm³. Thus, the volume of the cone is approximately 150.8 cm³.

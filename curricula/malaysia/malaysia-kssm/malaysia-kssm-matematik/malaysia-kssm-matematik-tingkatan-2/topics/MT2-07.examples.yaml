@@ -1,0 +1,45 @@
+topic_id: MT2-07
+provenance: ai-generated
+description: "Worked examples for Koordinat"
+worked_examples:
+  - id: WE-01
+    topic: "Jarak antara dua titik pada satah Cartes"
+    difficulty: easy
+    real_world_analogy: "Bayangkan dua kedai di sepanjang jalan lurus. Kita ingin tahu berapa jauh antara kedua-dua kedai tersebut."
+    misconception_alert: "Pelajar sering tersilap dengan menambah koordinat secara langsung tanpa menggunakan formula jarak."
+    scenario: "Diberikan dua titik A(2, 3) dan B(5, 7) pada satah Cartes. Tentukan jarak antara dua titik tersebut."
+    working: |
+      Step 1: Kenal pasti koordinat titik A dan B. Titik A adalah (2, 3) dan titik B adalah (5, 7).
+      Step 2: Gunakan formula jarak: √((x2 - x1)² + (y2 - y1)²).
+      Step 3: Gantikan nilai ke dalam formula: √((5 - 2)² + (7 - 3)²) = √(3² + 4²) = √(9 + 16) = √25 = 5.
+      Step 4: Oleh itu, jarak antara titik A dan B ialah 5 unit.
+
+  - id: WE-02
+    topic: "Titik tengah antara dua titik pada satah Cartes"
+    difficulty: medium
+    real_world_analogy: "Bayangkan anda dan rakan bertemu di titik tengah antara rumah anda berdua. Di mana lokasi tepatnya?"
+    misconception_alert: "Pelajar kadang-kadang keliru antara formula jarak dan formula titik tengah."
+    scenario: "Cari koordinat titik tengah antara titik C(-2, 4) dan D(4, -6)."
+    working: |
+      Step 1: Kenal pasti koordinat titik C dan D. Titik C adalah (-2, 4) dan titik D adalah (4, -6).
+      Step 2: Gunakan formula titik tengah: ((x1 + x2)/2, (y1 + y2)/2).
+      Step 3: Gantikan nilai ke dalam formula: ((-2 + 4)/2, (4 - 6)/2) = (2/2, -2/2) = (1, -1).
+      Step 4: Oleh itu, koordinat titik tengah antara C dan D ialah (1, -1).
+
+  - id: WE-03
+    topic: "Menyelesaikan masalah dalam sistem koordinat Cartes"
+    difficulty: hard
+    real_world_analogy: "Bayangkan anda bekerja sebagai perancang bandar yang perlu menentukan lokasi yang tepat untuk membina taman di antara empat kawasan perumahan."
+    misconception_alert: "Pelajar mungkin mengabaikan satu atau lebih langkah dalam proses menentukan titik yang memenuhi semua syarat."
+    scenario: "Diberikan empat titik: E(1, 2), F(5, 2), G(5, 6), dan H(1, 6). Tentukan jika keempat-empat titik ini membentuk sebuah segiempat tepat."
+    working: |
+      Step 1: Tentukan jarak antara setiap pasangan titik bersebelahan: 
+              EF: √((5 - 1)² + (2 - 2)²) = √(4² + 0²) = 4
+              FG: √((5 - 5)² + (6 - 2)²) = √(0² + 4²) = 4
+              GH: √((1 - 5)² + (6 - 6)²) = √(4² + 0²) = 4
+              HE: √((1 - 1)² + (6 - 2)²) = √(0² + 4²) = 4
+      Step 2: Pastikan bahwa EF = GH dan FG = HE. Semua sisi sama panjang menunjukkan segiempat.
+      Step 3: Periksa pepenjuru untuk memastikan ia adalah segiempat tepat:
+              EG: √((5 - 1)² + (6 - 2)²) = √(4² + 4²) = √32
+              FH: √((1 - 5)² + (2 - 6)²) = √(4² + 4²) = √32
+      Step 4: Kerana pepenjuru adalah sama panjang, keempat-empat titik membentuk sebuah segiempat tepat.

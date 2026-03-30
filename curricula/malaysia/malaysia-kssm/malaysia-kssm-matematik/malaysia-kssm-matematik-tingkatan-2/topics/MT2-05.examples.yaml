@@ -1,0 +1,42 @@
+topic_id: MT2-05
+provenance: ai-generated
+description: "Worked examples for Bulatan"
+worked_examples:
+  - id: WE-01
+    topic: "Mengenal bahagian bulatan"
+    difficulty: easy
+    real_world_analogy: "Imagine a pizza where the crust is the circumference and the slice is a sector of the circle."
+    misconception_alert: "Students often confuse diameter with radius, thinking they are the same."
+    scenario: "Ali has a circular garden. He wants to know if a straight path crossing the garden is the diameter."
+    working: |
+      Step 1: Understand that the diameter is a straight line passing through the center of the circle.
+      Step 2: Measure the path and verify if it is passing through the center.
+      Step 3: If it is, then the path is the diameter; otherwise, it is just a chord.
+
+  - id: WE-02
+    topic: "Menentukan pusat dan panjang jejari"
+    difficulty: medium
+    real_world_analogy: "Think of a bicycle wheel. The hub is the center, and the spokes are like radii."
+    misconception_alert: "A common mistake is assuming the radius is half of any random chord, not specifically the diameter."
+    scenario: "A circular pond has a rope stretched across it, and it measures 10 meters. Find the center and the radius."
+    working: |
+      Step 1: Identify the rope as a chord of the circle.
+      Step 2: Construct a perpendicular bisector of the chord.
+      Step 3: The intersection of the bisector with the chord is the center.
+      Step 4: Measure from the center to any point on the circle to find the radius.
+      Step 5: Calculate the radius: radius = 5 meters.
+
+  - id: WE-03
+    topic: "Menyelesaikan masalah melibatkan bulatan"
+    difficulty: hard
+    real_world_analogy: "Consider a coin being tossed into a circular hole. The coin must fit perfectly, which relates to diameter and circumference."
+    misconception_alert: "Students might incorrectly use the diameter instead of the radius when calculating the circumference."
+    scenario: "A circular track has a diameter of 50 meters. Calculate the track's circumference and area."
+    working: |
+      Step 1: Use the formula for circumference: C = πd.
+      Step 2: Substitute the diameter: C = π(50).
+      Step 3: Calculate the circumference: C ≈ 157.08 meters.
+      Step 4: Use the formula for area: A = πr².
+      Step 5: Find the radius: r = 25 meters.
+      Step 6: Substitute the radius: A = π(25)².
+      Step 7: Calculate the area: A ≈ 1963.5 square meters.

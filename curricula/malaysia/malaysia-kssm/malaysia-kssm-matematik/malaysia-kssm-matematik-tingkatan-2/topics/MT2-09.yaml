@@ -1,0 +1,71 @@
+id: MT2-09
+official_ref: "Bab 9"
+name: "Laju dan Pecutan"
+name_en: "Speed and Acceleration"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+learning_objectives:
+    - id: "9.1.1"
+      text: "Menerangkan maksud laju sebagai suatu kadar yang melibatkan jarak dan masa."
+      text_en: "Explain the meaning of speed as a rate involving distance and time."
+      bloom: understand
+    - id: "9.1.2"
+      text: "Memerihal perbezaan antara laju seragam dan laju tak seragam."
+      text_en: "Describe the difference between uniform speed and non-uniform speed."
+      bloom: understand
+    - id: "9.1.3"
+      text: "Melaksanakan pengiraan yang melibatkan laju dan laju purata termasuk penukaran unit."
+      text_en: "Perform calculations involving speed and average speed including unit conversion."
+      bloom: apply
+    - id: "9.1.4"
+      text: "Menyelesaikan masalah yang melibatkan laju."
+      text_en: "Solve problems involving speed."
+      bloom: apply
+    - id: "9.2.1"
+      text: "Menerangkan maksud pecutan dan nyahpecutan sebagai suatu kadar yang melibatkan laju dan masa."
+      text_en: "Explain the meaning of acceleration and deceleration as a rate involving speed and time."
+      bloom: understand
+    - id: "9.2.2"
+      text: "Melaksanakan pengiraan yang melibatkan pecutan termasuk penukaran unit."
+      text_en: "Perform calculations involving acceleration including unit conversion."
+      bloom: apply
+    - id: "9.2.3"
+      text: "Menyelesaikan masalah yang melibatkan pecutan."
+      text_en: "Solve problems involving acceleration."
+      bloom: apply
+prerequisites:
+    required: []
+bloom_levels:
+    - understand
+    - apply
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+ai_teaching_notes: "MT2-09.teaching.md"
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-03-29T16:00:08Z"
+teaching:
+    sequence:
+        - 'Step 1: Introduce the concept of speed as distance over time (20 min)'
+        - 'Step 2: Explain uniform vs. non-uniform speed with graphs (15 min)'
+        - 'Step 3: Guide through average speed calculations with examples (20 min)'
+        - 'Step 4: Define acceleration and its formula, use animations (20 min)'
+    common_misconceptions:
+        - misconception: Speed is the same as velocity
+          remediation: Emphasize the directionality aspect of velocity
+        - misconception: Average speed is the average of speeds
+          remediation: Use multiple examples to clarify calculation
+engagement_hooks:
+    - Relate speed and acceleration to local sports such as cycling
+    - Discuss the importance of speed limits on roads and enforcement
+assessments_file: MT2-09.assessments.yaml
+examples_file: MT2-09.examples.yaml

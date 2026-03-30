@@ -1,0 +1,40 @@
+topic_id: MT2-09
+provenance: ai-generated
+description: "Worked examples for Laju dan Pecutan"
+worked_examples:
+  - id: WE-01
+    topic: "Understanding Laju"
+    difficulty: easy
+    real_world_analogy: "Think of laju as the speed of a car traveling along a highway."
+    misconception_alert: "Students often confuse laju with distance. Laju is how fast something is moving, not how far it has traveled."
+    scenario: "A car travels 150 km in 3 hours. What is the laju of the car?"
+    working: |
+      Step 1: Identify the total distance traveled, which is 150 km.
+      Step 2: Identify the total time taken, which is 3 hours.
+      Step 3: Calculate the laju using the formula laju = jarak / masa.
+      Step 4: Substitute the values into the formula: laju = 150 km / 3 hours.
+      Step 5: Simplify to find laju = 50 km/h.
+  - id: WE-02
+    topic: "Applying Laju Purata"
+    difficulty: medium
+    real_world_analogy: "Consider laju purata as the average speed of a runner completing a marathon."
+    misconception_alert: "Students might think laju purata is simply the average of two speeds. It actually involves the total distance and total time, not just averaging speeds."
+    scenario: "A cyclist covers 60 km in 2 hours and then 90 km in 3 hours. Calculate the laju purata for the entire journey."
+    working: |
+      Step 1: Calculate the total distance traveled: 60 km + 90 km = 150 km.
+      Step 2: Calculate the total time taken: 2 hours + 3 hours = 5 hours.
+      Step 3: Use the laju purata formula: laju purata = jumlah jarak / jumlah masa.
+      Step 4: Substitute the values into the formula: laju purata = 150 km / 5 hours.
+      Step 5: Simplify to find laju purata = 30 km/h.
+  - id: WE-03
+    topic: "Understanding and Applying Pecutan"
+    difficulty: hard
+    real_world_analogy: "Imagine pecutan as the way a roller coaster speeds up as it descends a steep hill."
+    misconception_alert: "A common mistake is confusing pecutan with laju. Pecutan is the rate of change of laju, not laju itself."
+    scenario: "An athlete accelerates from rest to a speed of 8 m/s in 4 seconds. Calculate the pecutan."
+    working: |
+      Step 1: Recognize that the initial laju (u) is 0 m/s since the athlete starts from rest.
+      Step 2: Note that the final laju (v) is 8 m/s and the time (t) is 4 seconds.
+      Step 3: Use the pecutan formula: pecutan (a) = (v - u) / t.
+      Step 4: Substitute the known values into the formula: a = (8 m/s - 0 m/s) / 4 s.
+      Step 5: Calculate to find a = 8 m/s / 4 s = 2 m/s², which is the pecutan.

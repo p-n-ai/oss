@@ -6,8 +6,19 @@ syllabus_id: malaysia-kssm
 grade_id: tingkatan-2
 country_id: malaysia
 language: ms
-description: "KSSM Matematik Tingkatan 2 merangkumi topik algebra, poligon, bulatan, koordinat, graf fungsi dan statistik"
+provenance: ai-generated
+generated_at: "2026-03-29T16:00:08Z"
 topics:
   - MT2-01
   - MT2-02
   - MT2-03
+  - MT2-04
+  - MT2-05
+  - MT2-06
+  - MT2-07
+  - MT2-08
+  - MT2-09
+  - MT2-10
+  - MT2-11
+  - MT2-12
+  - MT2-13

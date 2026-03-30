@@ -1,0 +1,64 @@
+id: MT2-08
+official_ref: "Bab 8" # as printed in KSSM DSKP document
+name: "Graf Fungsi"
+name_en: "Function Graph"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+learning_objectives:
+    - id: 8.1.1
+      text: "Menerangkan maksud fungsi."
+      text_en: "Explain the meaning of function."
+      bloom: understand
+    - id: 8.1.2
+      text: "Mengenal pasti fungsi dan memberi justifikasi berdasarkan perwakilan fungsi dalam bentuk pasangan tertib, jadual, graf dan persamaan."
+      text_en: "Identify functions and provide justification based on the representation of functions in the form of ordered pairs, tables, graphs, and equations."
+      bloom: understand
+    - id: 8.2.1
+      text: "Membina jadual nilai bagi fungsi linear dan bukan linear, dan seterusnya melukis graf menggunakan skala yang diberi."
+      text_en: "Construct tables of values for linear and non-linear functions, and subsequently draw graphs using the given scale."
+      bloom: apply
+    - id: 8.2.2
+      text: "Mentafsir graf fungsi."
+      text_en: "Interpret graphs of functions."
+      bloom: analyze
+    - id: 8.2.3
+      text: "Menyelesaikan masalah yang melibatkan graf fungsi."
+      text_en: "Solve problems involving graphs of functions."
+      bloom: apply
+prerequisites:
+    required: []
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-03-29T16:00:08Z"
+bloom_levels:
+    - understand
+    - apply
+    - analyze
+teaching:
+    sequence:
+        - 'Step 1: Introduce functions as special relations (15 min)'
+        - 'Step 2: Identify functions using ordered pairs and graphs (20 min)'
+        - 'Step 3: Construct value tables and plot graphs (25 min)'
+        - 'Step 4: Interpret function graphs in real-world contexts (20 min)'
+        - 'Step 5: Solve problems using function graphs (20 min)'
+    common_misconceptions:
+        - misconception: All graphs are functions
+          remediation: Use the vertical line test to distinguish functions
+        - misconception: Functions can have multiple outputs for one input
+          remediation: Reinforce the rule of one input-one output
+engagement_hooks:
+    - Explore local bus schedules to understand functions in time management
+    - Discuss how online shopping uses functions to calculate total costs
+ai_teaching_notes: MT2-08.teaching.md
+examples_file: MT2-08.examples.yaml
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+assessments_file: MT2-08.assessments.yaml
