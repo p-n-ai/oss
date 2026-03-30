@@ -101,9 +101,9 @@ assessments_file: MT1-03.assessments.yaml
 examples_file: MT1-03.examples.yaml
 teaching:
     sequence:
-        - 'Step 1: Introduce the concept of squares and square roots with examples (20 min)'
-        - 'Step 2: Discuss identifying perfect squares and provide examples (15 min)'
-        - 'Step 3: Explain cubes and cube roots using physical models (20 min)'
+        - 'Step 1: Introduce the concept of squares and square roots using visual aids (20 min)'
+        - 'Step 2: Practice identifying perfect squares through examples and exercises (15 min)'
+        - 'Step 3: Explain cubes and cube roots with physical representations (20 min)'
         - 'Step 4: Solve real-world problems involving squares and cubes (25 min)'
     common_misconceptions:
         - misconception: Square root is half the number
@@ -112,4 +112,4 @@ teaching:
           remediation: Provide fractional and decimal examples
 engagement_hooks:
     - Discuss the use of square roots in architecture, such as calculating diagonal distances in square rooms
-    - Explore how cubes are used in packaging design to maximize space
+    - Explore the concept of volume using cubes to relate to real-life objects like dice or building blocks

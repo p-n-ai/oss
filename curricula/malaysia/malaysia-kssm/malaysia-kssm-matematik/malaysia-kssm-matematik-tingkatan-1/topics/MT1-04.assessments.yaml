@@ -2,126 +2,149 @@ topic_id: MT1-04
 provenance: ai-generated
 
 questions:
-  # Group for learning objective 4.1.2
+  # Learning Objective 4.1.1
   - id: Q1
-    text: "Diberi nisbah panjang kepada lebar bagi sebuah segiempat tepat ialah 4:3. Jika panjang segiempat tepat itu ialah 20 cm, tentukan lebarnya."
+    text: "Sebuah pasukan terdiri daripada 12 pemain bola sepak, 8 pemain bola tampar dan 4 pemain bola keranjang. Nyatakan nisbah pemain bola sepak kepada pemain bola tampar kepada pemain bola keranjang."
     difficulty: medium
-    learning_objective: LO1
+    learning_objective: 4.1.1
     tp_level: 2
     kbat: false
     answer:
       type: exact
-      value: "15 cm"
+      value: "3:2:1"
       working: |
-        Nisbah panjang kepada lebar = 4:3. Jika panjang = 20 cm, maka lebar = (3/4) × 20 = 15 cm.
-    marks: 3
+        Nisbah pemain bola sepak kepada pemain bola tampar kepada pemain bola keranjang:
+        \[
+        \frac{12}{4} : \frac{8}{4} : \frac{4}{4} = 3:2:1
+        \]
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Menentukan bentuk nisbah setara 4:3."
-      - marks: 2
-        criteria: "Mengira lebar dengan menggunakan nisbah yang diberikan."
+        criteria: "Mengira nisbah setiap pasangan kuantiti."
+      - marks: 1
+        criteria: "Menulis nisbah dalam bentuk termudah."
     hints:
       - level: 1
-        text: "Fikirkan bagaimana nisbah 4:3 boleh digunakan untuk mencari lebar."
+        text: "Kira nisbah setiap pasangan kuantiti berbanding nilai terkecil."
       - level: 2
-        text: "Perhatikan bahawa panjang adalah 4 bahagian dan lebar adalah 3 bahagian."
+        text: "Bahagikan setiap kuantiti dengan nombor terkecil, iaitu 4."
 
-  # Group for learning objective 4.3.2
+  # Learning Objective 4.1.3
   - id: Q2
-    text: "Jika 5 kg tepung dan 8 kg gula memerlukan RM60, berapakah kos bagi 15 kg tepung dan 24 kg gula?"
+    text: "Ungkapkan nisbah 24:36 dalam bentuk termudah."
     difficulty: medium
-    learning_objective: LO2
+    learning_objective: 4.1.3
     tp_level: 2
-    kbat: true
+    kbat: false
     answer:
       type: exact
-      value: "RM180"
+      value: "2:3"
       working: |
-        Nisbah tepung dan gula adalah 5:8. Jika 5 kg tepung dan 8 kg gula kosnya RM60, maka 15 kg tepung dan 24 kg gula akan kos 3 kali ganda lebih, iaitu 3 × RM60 = RM180.
-    marks: 4
+        Faktor sepunya terbesar bagi 24 dan 36 ialah 12.
+        \[
+        \frac{24}{12} : \frac{36}{12} = 2:3
+        \]
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Menentukan nisbah asal 5:8."
+        criteria: "Menentukan faktor sepunya terbesar bagi kedua-dua nombor."
       - marks: 1
-        criteria: "Menentukan bahawa jumlah bahan yang diperlukan adalah 3 kali ganda."
-      - marks: 2
-        criteria: "Mengira kos berdasarkan nisbah 3 kali ganda."
+        criteria: "Membahagikan kedua-dua nombor dengan faktor sepunya terbesar."
     hints:
       - level: 1
-        text: "Pertimbangkan bagaimana nisbah mempengaruhi jumlah kos."
+        text: "Cari faktor sepunya terbesar bagi 24 dan 36."
       - level: 2
-        text: "Misalkan jumlah tepung dan gula meningkat 3 kali ganda, bagaimana kos berubah?"
+        text: "Bahagikan kedua-dua nombor dengan faktor sepunya terbesar."
 
-  # Group for learning objective 4.4.4
+  # Learning Objective 4.2.1
   - id: Q3
-    text: "Seorang pelari berlari dengan kelajuan 12 km/j. Berapakah jarak yang boleh dilalui dalam masa 2.5 jam?"
+    text: "Jika nisbah antara dua kuantiti ialah 5:9 dan kadar bagi kuantiti pertama ialah 20 unit, tentukan kadar bagi kuantiti kedua."
     difficulty: medium
-    learning_objective: LO3
+    learning_objective: 4.2.1
     tp_level: 2
     kbat: false
     answer:
       type: exact
-      value: "30 km"
+      value: "36 unit"
       working: |
-        Jarak = kelajuan × masa. Oleh itu, jarak = 12 km/j × 2.5 j = 30 km.
+        Nisbah 5:9 bermakna setiap 5 unit kuantiti pertama, ada 9 unit kuantiti kedua.
+        Jika kuantiti pertama ialah 20 unit, gunakan kadaran:
+        \[
+        \frac{5}{9} = \frac{20}{x} \implies 5x = 180 \implies x = 36
+        \]
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menggunakan formula jarak = kelajuan × masa."
-      - marks: 2
-        criteria: "Mengira jarak dengan betul."
+        criteria: "Membentuk persamaan berdasarkan nisbah dan kadar yang diberi."
+      - marks: 1
+        criteria: "Menggunakan kadaran untuk mencari nilai x."
+      - marks: 1
+        criteria: "Mengira kadar bagi kuantiti kedua."
     hints:
       - level: 1
-        text: "Ingat formula asas untuk jarak?"
+        text: "Gunakan persamaan nisbah untuk membentuk kadaran."
       - level: 2
-        text: "Kalikan kelajuan dengan masa untuk mendapatkan jarak."
+        text: "Bahagikan untuk mencari nilai x."
 
-  # Group for learning objective 4.5.2
+  # Learning Objective 4.3.2
   - id: Q4
-    text: "Jika nisbah antara jumlah pelajar lelaki kepada perempuan dalam kelas ialah 3:2, berapakah peratusan pelajar lelaki dalam kelas tersebut?"
+    text: "Dalam kadaran 3:4:5, jika nilai kuantiti pertama ialah 18, tentukan nilai kuantiti ketiga."
     difficulty: medium
-    learning_objective: LO4
-    tp_level: 3
+    learning_objective: 4.3.2
+    tp_level: 2
     kbat: false
     answer:
       type: exact
-      value: "60%"
+      value: "30"
       working: |
-        Jumlah bahagian = 3 + 2 = 5. Peratusan pelajar lelaki = (3/5) × 100% = 60%.
+        Nisbah bagi kuantiti pertama kepada ketiga ialah 3:5.
+        Jadi, jika kuantiti pertama ialah 18, gunakan kadaran:
+        \[
+        \frac{3}{5} = \frac{18}{x} \implies 3x = 90 \implies x = 30
+        \]
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menentukan jumlah bahagian dalam nisbah."
-      - marks: 2
-        criteria: "Mengira peratusan pelajar lelaki dengan tepat."
+        criteria: "Mengenal pasti nisbah yang berkaitan."
+      - marks: 1
+        criteria: "Membentuk persamaan kadaran."
+      - marks: 1
+        criteria: "Mengira nilai kuantiti ketiga."
     hints:
       - level: 1
-        text: "Berapa jumlah bahagian dalam nisbah?"
+        text: "Cari nisbah kuantiti pertama kepada ketiga."
       - level: 2
-        text: "Bagaimana nisbah 3:2 boleh diterjemahkan kepada peratusan?"
+        text: "Gunakan kadaran untuk mencari nilai kuantiti ketiga."
 
-  # Group for learning objective 4.5.3
+  # Learning Objective 4.5.2
   - id: Q5
-    text: "Dalam sebuah pertandingan, 40% peserta adalah perempuan. Jika terdapat 120 peserta lelaki, berapakah jumlah peserta dalam pertandingan tersebut?"
+    text: "Jika sebuah beg mengandungi 60 gula-gula dan nisbah gula-gula merah kepada gula-gula biru ialah 2:3, tentukan peratusan gula-gula merah."
     difficulty: medium
-    learning_objective: LO5
-    tp_level: 3
-    kbat: true
+    learning_objective: 4.5.2
+    tp_level: 2
+    kbat: false
     answer:
       type: exact
-      value: "200"
+      value: "40%"
       working: |
-        Jika 40% adalah perempuan, maka 60% adalah lelaki. Oleh itu, 0.6 × jumlah peserta = 120. Maka jumlah peserta = 120 ÷ 0.6 = 200.
-    marks: 4
+        Jika nisbah gula-gula merah kepada gula-gula biru ialah 2:3, bilangan gula-gula merah ialah:
+        \[
+        \frac{2}{5} \times 60 = 24
+        \]
+        Peratusan gula-gula merah ialah:
+        \[
+        \frac{24}{60} \times 100\% = 40\%
+        \]
+    marks: 3
     rubric:
       - marks: 1
-        criteria: "Menentukan peratusan lelaki."
+        criteria: "Mengira bilangan gula-gula merah."
       - marks: 1
-        criteria: "Menulis persamaan untuk jumlah peserta lelaki."
-      - marks: 2
-        criteria: "Mengira jumlah peserta dengan tepat."
+        criteria: "Mengira peratusan gula-gula merah."
+      - marks: 1
+        criteria: "Menulis jawapan dalam bentuk peratusan."
     hints:
       - level: 1
-        text: "Jika 40% adalah perempuan, berapa peratusan lelaki?"
+        text: "Tentukan bilangan gula-gula merah menggunakan nisbah."
       - level: 2
-        text: "Gunakan peratusan lelaki untuk mencari jumlah keseluruhan peserta."
+        text: "Hitung peratusan berdasarkan jumlah gula-gula keseluruhan."

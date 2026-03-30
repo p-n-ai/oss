@@ -2,128 +2,132 @@ topic_id: MT1-03
 provenance: ai-generated
 
 questions:
-  # Learning Objective: 3.1.2 - Menentukan sama ada suatu nombor adalah kuasa dua sempurna
+  # Questions for LO 3.1.3
   - id: Q1
-    text: "Adakah 144 adalah kuasa dua sempurna? Jelaskan jawapan anda."
+    text: "Jika $x^2 = 49$, apakah nilai $x$?"
     difficulty: medium
-    learning_objective: LO2
-    tp_level: 3
+    learning_objective: 3.1.3
+    tp_level: 2
     kbat: false
     answer:
       type: exact
-      value: "Ya, 144 adalah kuasa dua sempurna kerana $12^2 = 144$."
+      value: 'x = 7 \text{ atau } x = -7'
       working: |
-        Untuk menentukan sama ada 144 adalah kuasa dua sempurna, kita perlu mencari nombor yang didarabkan dengan dirinya sendiri untuk mendapatkan 144.
-        Nombor tersebut adalah 12, kerana $12 \times 12 = 144$.
+        Untuk mencari $x$, kita perlu mencari punca kuasa dua bagi 49.
+        $x^2 = 49$
+        Maka, $x = \pm \sqrt{49}$
+        $x = \pm 7$
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menjawab 'Ya' tetapi tidak memberikan penjelasan yang lengkap."
+        criteria: "Menjawab sama ada $x = 7$ atau $x = -7$."
       - marks: 1
-        criteria: "Memberikan penjelasan yang lengkap dengan pengiraan yang betul."
+        criteria: "Menjawab kedua-dua nilai $x = 7$ dan $x = -7$."
     hints:
       - level: 1
-        text: "Cuba cari nombor yang jika didarabkan dengan dirinya sendiri menghasilkan 144."
+        text: "Ingat bahawa $x^2 = 49$ bermakna $x$ boleh menjadi positif atau negatif."
       - level: 2
-        text: "Pecahkan 144 kepada faktor-faktor asalnya untuk memudahkan pengiraan."
+        text: "MISCONCEPTION ALERT: Jangan lupa bahawa punca kuasa dua mempunyai dua nilai; positif dan negatif."
 
-  # Learning Objective: 3.1.9 - Mengemuka dan menyelesaikan masalah yang melibatkan kuasa dua dan punca kuasa dua
+  # Questions for LO 3.1.9
   - id: Q2
-    text: "Jika panjang sisi sebuah segi empat sama adalah 7 cm, tentukan luas segi empat sama tersebut."
+    text: "Ali mempunyai sekeping tanah berbentuk persegi. Jika luas tanah tersebut ialah 144 m², berapakah panjang setiap sisi tanah tersebut?"
     difficulty: medium
-    learning_objective: LO9
+    learning_objective: 3.1.9
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "49 cm²"
+      value: '12 \text{ m}'
       working: |
-        Luas segi empat sama dikira dengan menggunakan formula: panjang sisi × panjang sisi.
-        Oleh itu, luas = $7 \times 7 = 49 \text{ cm}^2$.
+        Luas persegi diberi oleh formula $s^2 = \text{luas}$. 
+        Oleh itu, $s^2 = 144$. 
+        Maka, $s = \sqrt{144} = 12$ m.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menentukan panjang sisi tetapi salah dalam pengiraan luas."
+        criteria: "Menulis persamaan $s^2 = 144$."
       - marks: 1
-        criteria: "Mengira luas dengan betul menggunakan formula yang sesuai."
+        criteria: "Mengira panjang sisi sebagai 12 m."
     hints:
       - level: 1
-        text: "Luas segi empat sama boleh didapati dengan mengkuasakan dua panjang sisinya."
+        text: "Luas persegi adalah $s^2$, di mana $s$ adalah panjang sisi."
       - level: 2
-        text: "Ingat formula: luas = panjang sisi × panjang sisi."
+        text: "Cari punca kuasa dua bagi 144 untuk mendapatkan panjang sisi."
 
-  # Learning Objective: 3.2.2 - Menentukan sama ada suatu nombor adalah kuasa tiga sempurna
+  # Questions for LO 3.2.2
   - id: Q3
-    text: "Adakah 64 adalah kuasa tiga sempurna? Sertakan pengiraan anda."
+    text: "Antara nombor berikut, yang manakah merupakan kuasa tiga sempurna? A) 8 B) 15 C) 27 D) 64"
     difficulty: medium
-    learning_objective: LO12
-    tp_level: 3
+    learning_objective: 3.2.2
+    tp_level: 2
     kbat: false
     answer:
-      type: exact
-      value: "Ya, 64 adalah kuasa tiga sempurna kerana $4^3 = 64$."
+      type: multiple_choice
+      value: "A, C, D"
       working: |
-        Untuk menentukan sama ada 64 adalah kuasa tiga sempurna, kita perlu mencari nombor yang didarabkan tiga kali dengan dirinya sendiri untuk mendapatkan 64.
-        Nombor tersebut adalah 4, kerana $4 \times 4 \times 4 = 64$.
-    marks: 2
+        $8 = 2^3$, $27 = 3^3$, $64 = 4^3$. 
+        Oleh itu, 8, 27, dan 64 adalah kuasa tiga sempurna.
+    marks: 3
     rubric:
       - marks: 1
-        criteria: "Menjawab 'Ya' tanpa pengiraan yang betul."
-      - marks: 1
-        criteria: "Pengiraan yang betul dengan penjelasan yang lengkap."
+        criteria: "Memilih satu nombor yang betul."
+      - marks: 2
+        criteria: "Memilih dua nombor yang betul."
+      - marks: 3
+        criteria: "Memilih semua nombor yang betul."
     hints:
       - level: 1
-        text: "Cuba cari nombor yang jika didarabkan tiga kali dengan dirinya sendiri menghasilkan 64."
+        text: "Ingat bahawa kuasa tiga sempurna adalah hasil darab nombor dengan dirinya dua kali lagi."
       - level: 2
-        text: "Ingat bahawa kuasa tiga melibatkan pendaraban nombor dengan dirinya sendiri tiga kali."
+        text: "Periksa setiap nombor dan tentukan sama ada ia boleh dinyatakan sebagai $n^3$ untuk beberapa integer $n$."
 
-  # Learning Objective: 3.2.5 - Menentukan punca kuasa tiga suatu nombor tanpa menggunakan alat teknologi
+  # Questions for LO 3.2.4
   - id: Q4
-    text: "Tentukan punca kuasa tiga bagi 27 tanpa menggunakan kalkulator."
+    text: "Tentukan kuasa tiga bagi nombor 5."
     difficulty: medium
-    learning_objective: LO15
-    tp_level: 3
-    kbat: false
-    answer:
-      type: exact
-      value: "3"
-      working: |
-        Punca kuasa tiga bagi 27 adalah nombor yang didarabkan tiga kali dengan dirinya sendiri untuk mendapatkan 27.
-        Oleh kerana $3 \times 3 \times 3 = 27$, maka punca kuasa tiga bagi 27 ialah 3.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menyatakan nombor yang salah tetapi menunjukkan pengiraan."
-      - marks: 1
-        criteria: "Pengiraan yang betul dan memberikan jawapan yang tepat."
-    hints:
-      - level: 1
-        text: "Cari nombor yang jika didarabkan tiga kali dengan dirinya sendiri menghasilkan 27."
-      - level: 2
-        text: "Ingat bahawa punca kuasa tiga adalah nombor yang didarabkan tiga kali dengan dirinya sendiri."
-
-  # Learning Objective: 3.2.7 - Menganggar kuasa tiga suatu nombor
-  - id: Q5
-    text: "Anggarkan nilai bagi $5^3$."
-    difficulty: medium
-    learning_objective: LO17
-    tp_level: 3
+    learning_objective: 3.2.4
+    tp_level: 2
     kbat: false
     answer:
       type: exact
       value: "125"
       working: |
-        Mengira $5^3$ melibatkan pendaraban 5 dengan dirinya sendiri sebanyak tiga kali.
-        Oleh itu, $5 \times 5 = 25$ dan kemudian $25 \times 5 = 125$.
-        Maka, $5^3 = 125$.
+        Kuasa tiga bagi nombor 5 adalah $5^3 = 5 \times 5 \times 5 = 125$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Mengira $5^2$ dengan betul tetapi tidak menyelesaikan kuasa tiga."
+        criteria: "Menulis persamaan $5^3$ dengan betul."
       - marks: 1
-        criteria: "Pengiraan yang lengkap dan memberikan jawapan yang tepat."
+        criteria: "Mengira jawapan akhir sebagai 125."
     hints:
       - level: 1
-        text: "Mulakan dengan menghitung $5 \times 5$ terlebih dahulu."
+        text: "Kuasa tiga bermaksud darabkan nombor dengan dirinya sendiri dua kali lagi."
       - level: 2
-        text: "Selepas mendapatkan $5^2$, darabkan hasilnya dengan 5 sekali lagi."
+        text: 'Lakukan pengiraan $5 \times 5 \times 5$ secara berperingkat.'
+
+  # Questions for LO 3.2.8
+  - id: Q5
+    text: "Selesaikan masalah berikut: Jika $x^3 = 343$, apakah nilai $x$?"
+    difficulty: medium
+    learning_objective: 3.2.8
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "x = 7"
+      working: |
+        Untuk mencari $x$, kita perlu mencari punca kuasa tiga bagi 343.
+        $x^3 = 343$
+        Maka, $x = \sqrt[3]{343} = 7$
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: 'Menulis persamaan $x = \sqrt[3]{343}$.'
+      - marks: 1
+        criteria: "Mengira jawapan akhir sebagai 7."
+    hints:
+      - level: 1
+        text: "Ingat bahawa $x^3 = 343$ bermaksud kita perlu mencari punca kuasa tiga."
+      - level: 2
+        text: "Lihat kepada nombor 343 dan cuba lihat jika ia adalah kuasa tiga suatu nombor."

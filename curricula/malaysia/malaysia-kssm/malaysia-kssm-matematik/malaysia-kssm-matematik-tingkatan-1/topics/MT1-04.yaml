@@ -80,16 +80,20 @@ generated_at: "2026-03-29T23:18:08Z"
 assessments_file: MT1-04.assessments.yaml
 teaching:
     sequence:
-        - 'Step 1: Introduce the concept of ratios and use visual aids to compare quantities (15 min)'
-        - 'Step 2: Teach finding and simplifying equivalent ratios using examples (20 min)'
-        - 'Step 3: Explain the relationship between ratios and rates with real-life examples (20 min)'
-        - 'Step 4: Demonstrate solving proportions through cross-multiplication (25 min)'
+        - 'Step 1: Introduce the concept of ratio using real-world examples (15 min)'
+        - 'Step 2: Explore equivalent ratios through scaling activities (20 min)'
+        - 'Step 3: Discuss the relationship between ratios and rates using practical scenarios (20 min)'
+        - 'Step 4: Teach solving proportions with cross-multiplication technique (25 min)'
+        - 'Step 5: Apply ratios, rates, and proportions to solve real-world problems (30 min)'
     common_misconceptions:
-        - misconception: Ratios and fractions are the same
-          remediation: Highlight differences using context and examples
-        - misconception: Order in ratios doesn't matter
-          remediation: Practice with examples that change meaning when order is swapped
+        - misconception: Ratios and fractions are the same.
+          remediation: Clarify differences using context and examples.
+        - misconception: Order in ratios doesn't matter.
+          remediation: Emphasize significance through practice examples.
+        - misconception: Units are irrelevant in rates.
+          remediation: Stress the importance of units in rate calculations.
 engagement_hooks:
-    - Use local market scenarios, such as comparing prices of goods
-    - Discuss distances between cities to illustrate rates
+    - Compare prices of different products in a local market to illustrate ratios.
+    - Discuss travel times between cities to explain rates and proportions.
+    - Use sports statistics to engage students with ratios and percentages.
 examples_file: MT1-04.examples.yaml

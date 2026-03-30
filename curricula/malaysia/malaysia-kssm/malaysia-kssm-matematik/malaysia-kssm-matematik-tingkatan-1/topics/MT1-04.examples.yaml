@@ -3,44 +3,39 @@ provenance: ai-generated
 description: "Worked examples for Nisbah, Kadar dan Kadaran"
 worked_examples:
   - id: WE-01
-    topic: "Nisbah antara tiga kuantiti"
+    topic: "Nisbah Tiga Kuantiti"
     difficulty: easy
-    real_world_analogy: "Think of sharing a chocolate bar among three friends in different portions."
-    misconception_alert: "Students often confuse the order of quantities in a ratio, leading to incorrect representation."
-    scenario: "Ali, Bala, dan Chan berkongsi 24 gula-gula dalam nisbah 3:2:1. Berapakah gula-gula yang diterima oleh setiap seorang?"
+    real_world_analogy: "Consider sharing a pizza among three friends in such a way that Friend A gets twice as much as Friend B, and Friend C gets three times as much as Friend B."
+    misconception_alert: "Students often mistake the order of the ratio, leading to incorrect distribution of quantities."
+    scenario: "Ali, Ben, and Chan share 36 candies in a ratio of 2:1:3. How many candies does each person get?"
     working: |
-      Step 1: Jumlah bahagian nisbah ialah 3 + 2 + 1 = 6.
-      Step 2: Bahagikan jumlah gula-gula, 24, dengan jumlah bahagian nisbah: 24 ÷ 6 = 4.
-      Step 3: Darabkan setiap bahagian nisbah dengan 4: 
-              Ali: 3 × 4 = 12 
-              Bala: 2 × 4 = 8 
-              Chan: 1 × 4 = 4.
-      Jawapan: Ali menerima 12, Bala menerima 8, dan Chan menerima 4 gula-gula.
+      Step 1: Let the ratio be represented as 2x for Ali, x for Ben, and 3x for Chan.
+      Step 2: The total number of parts in the ratio is 2x + x + 3x = 6x.
+      Step 3: Set up the equation 6x = 36 candies.
+      Step 4: Solve for x by dividing both sides by 6, giving x = 6.
+      Step 5: Substitute x back into the ratio: Ali gets 2x = 12 candies, Ben gets x = 6 candies, and Chan gets 3x = 18 candies.
 
   - id: WE-02
-    topic: "Menentukan nisbah setara"
+    topic: "Nisbah dan Kadar"
     difficulty: medium
-    real_world_analogy: "Comparing the speed of two cars to determine which one is faster."
-    misconception_alert: "A common mistake is not simplifying ratios to their simplest form."
-    scenario: "Dua buah kereta bergerak dengan kelajuan 60 km/j dan 90 km/j. Tentukan nisbah kelajuan antara kereta pertama dan kedua dalam bentuk termudah."
+    real_world_analogy: "Think of a car traveling at a constant speed. The ratio between distance and time is like the car's speed."
+    misconception_alert: "Confusing speed (a rate) with distance or time (quantities)."
+    scenario: "A car travels 150 km in 3 hours. What is the speed of the car in km/h?"
     working: |
-      Step 1: Tuliskan kelajuan dalam bentuk nisbah: 60 : 90.
-      Step 2: Cari faktor sepunya terbesar (FST) bagi 60 dan 90, iaitu 30.
-      Step 3: Bahagikan setiap nilai dengan FST: 
-              60 ÷ 30 = 2 
-              90 ÷ 30 = 3.
-      Step 4: Nisbah setara ialah 2 : 3.
-      Jawapan: Nisbah kelajuan antara kereta pertama dan kedua ialah 2 : 3.
+      Step 1: Identify the quantities given: distance = 150 km, time = 3 hours.
+      Step 2: Speed is the ratio of distance to time, calculated as distance ÷ time.
+      Step 3: Substitute the values: speed = 150 km ÷ 3 hours = 50 km/h.
+      Step 4: Thus, the speed of the car is 50 km/h.
 
   - id: WE-03
-    topic: "Menyelesaikan masalah melibatkan kadaran"
+    topic: "Kadaran dan Penyelesaian Masalah"
     difficulty: hard
-    real_world_analogy: "Using a recipe to scale up the ingredients for a larger party."
-    misconception_alert: "Students may incorrectly assume that all quantities scale linearly without considering proportionality."
-    scenario: "Sebuah resipi memerlukan 4 cawan tepung untuk membuat 20 kek. Berapa cawan tepung diperlukan untuk membuat 50 kek?"
+    real_world_analogy: "Scaling a recipe up or down based on the number of servings needed."
+    misconception_alert: "Failing to maintain the proportion when one of the quantities changes."
+    scenario: "A recipe requires 2 cups of flour for every 3 cups of sugar. If you have 12 cups of sugar, how much flour is needed?"
     working: |
-      Step 1: Tentukan nisbah asal tepung kepada kek: 4 cawan : 20 kek.
-      Step 2: Cari kadar tepung per kek: 4 ÷ 20 = 0.2 cawan/kek.
-      Step 3: Gandakan kadar dengan jumlah kek yang dikehendaki: 
-              0.2 × 50 = 10 cawan.
-      Jawapan: Anda memerlukan 10 cawan tepung untuk membuat 50 kek.
+      Step 1: Understand the ratio given: 2 cups of flour for every 3 cups of sugar.
+      Step 2: Set up the proportion: 2/3 = x/12, where x is the cups of flour needed.
+      Step 3: Cross-multiply to find x: 3x = 2 * 12.
+      Step 4: Solve for x by dividing both sides by 3: x = 24/3 = 8.
+      Step 5: Therefore, 8 cups of flour are needed to maintain the ratio.
