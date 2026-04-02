@@ -232,7 +232,7 @@ Form 5 Full DSKP (8 topics — Bab 1–8) [Added via OSS Bot]
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W3D14-1` | 🧑🤖 Translate Form 2 topics + teaching notes to BM | Collaborative | ⬜ | |
+| `O-W3D14-1` | 🧑🤖 Translate Form 2 topics + teaching notes to BM | Collaborative | ✅ | Full standardization to "Golden Format" v2 + KPM DSKP metadata alignment. |
 | `O-W3D14-2` | 🧑🤖 Translate Form 3 topics + teaching notes to BM | Collaborative | ⬜ | |
 | `O-W3D14-3` | 🧑 Native speaker review of all BM translations — correct mathematical terminology | 🧑 Education Lead | ⬜ | |
 
