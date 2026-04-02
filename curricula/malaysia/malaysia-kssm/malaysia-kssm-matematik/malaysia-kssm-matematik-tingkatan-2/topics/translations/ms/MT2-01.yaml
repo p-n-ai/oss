@@ -1,0 +1,41 @@
+id: MT2-01
+official_ref: "Bab 1"
+name: "Pola dan Jujukan (Patterns and Sequences)"
+subject_id: malaysia-kssm-matematik-tingkatan-2
+syllabus_id: malaysia-kssm
+
+content_standards:
+  - id: 1.1
+    text: "Pola"
+  - id: 1.2
+    text: "Jujukan"
+  - id: 1.3
+    text: "Pola dan Jujukan"
+
+learning_objectives:
+  - id: 1.1.1
+    text: "Mengenal dan memerihalkan pola pelbagai set nombor dan objek dalam kehidupan sebenar, dan seterusnya membuat rumusan tentang pola."
+  - id: 1.2.1
+    text: "Menerangkan maksud jujukan."
+  - id: 1.2.2
+    text: "Mengenal pasti dan memerihalkan pola suatu jujukan, dan seterusnya melengkapkan dan melanjutkan jujukan tersebut."
+  - id: 1.3.1
+    text: "Membuat generalisasi tentang pola suatu jujukan menggunakan nombor, perkataan dan ungkapan algebra."
+  - id: 1.3.2
+    text: "Menentukan sebutan tertentu bagi suatu jujukan."
+  - id: 1.3.3
+    text: "Menyelesaikan masalah yang melibatkan jujukan."
+
+performance_standards:
+  - id: TP1
+    text: "Mempamerkan pengetahuan asas tentang jujukan."
+  - id: TP2
+    text: "Mempamerkan kefahaman tentang pola dan jujukan."
+  - id: TP3
+    text: "Mengaplikasikan kefahaman tentang pola dan jujukan untuk melaksanakan tugasan mudah."
+  - id: TP4
+    text: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang pola dan jujukan dalam konteks penyelesaian masalah rutin yang mudah."
+  - id: TP5
+    text: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang pola dan jujukan dalam konteks penyelesaian masalah rutin yang kompleks."
+  - id: TP6
+    text: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang pola dan jujukan dalam konteks penyelesaian masalah bukan rutin secara kreatif."

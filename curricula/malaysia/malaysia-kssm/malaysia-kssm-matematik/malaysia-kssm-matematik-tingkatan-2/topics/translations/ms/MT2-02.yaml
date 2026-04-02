@@ -1,0 +1,49 @@
+id: MT2-02
+official_ref: "Bab 2"
+name: "Pemfaktoran dan Pecahan Algebra (Factorisation and Algebraic Fractions)"
+subject_id: malaysia-kssm-matematik-tingkatan-2
+syllabus_id: malaysia-kssm
+
+content_standards:
+  - id: 2.1
+    text: "Kembangan"
+  - id: 2.2
+    text: "Pemfaktoran"
+  - id: 2.3
+    text: "Ungkapan Algebra dan Hukum Operasi Asas Aritmetik"
+
+learning_objectives:
+  - id: 2.1.1
+    text: "Menerangkan maksud kembangan dua ungkapan algebra."
+  - id: 2.1.2
+    text: "Melaksanakan kembangan dua ungkapan algebra."
+  - id: 2.1.3
+    text: "Mempermudahkan ungkapan algebra yang melibatkan gabungan operasi termasuk kembangan."
+  - id: 2.1.4
+    text: "Menyelesaikan masalah yang melibatkan kembangan dua ungkapan algebra."
+  - id: 2.2.1
+    text: "Menghubungkaitkan pendaraban ungkapan algebra dengan konsep faktor dan pemfaktoran, dan seterusnya menyenaraikan faktor bagi hasil darab ungkapan algebra tersebut."
+  - id: 2.2.2
+    text: "Memfaktorkan ungkapan algebra dengan pelbagai kaedah."
+  - id: 2.2.3
+    text: "Menyelesaikan masalah yang melibatkan pemfaktoran."
+  - id: 2.3.1
+    text: "Melaksanakan penambahan dan penolakan ungkapan algebra yang melibatkan kembangan dan pemfaktoran."
+  - id: 2.3.2
+    text: "Melaksanakan pendaraban dan pembahagian ungkapan algebra yang melibatkan kembangan dan pemfaktoran."
+  - id: 2.3.3
+    text: "Melaksanakan gabungan operasi ungkapan algebra yang melibatkan kembangan dan pemfaktoran."
+
+performance_standards:
+  - id: TP1
+    text: "Mempamerkan pengetahuan asas tentang faktor."
+  - id: TP2
+    text: "Mempamerkan kefahaman tentang konsep kembangan dan pemfaktoran."
+  - id: TP3
+    text: "Mengaplikasikan kefahaman tentang kembangan dan pemfaktoran untuk melaksanakan tugasan mudah."
+  - id: TP4
+    text: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang kembangan dan pemfaktoran dalam konteks penyelesaian masalah rutin yang mudah."
+  - id: TP5
+    text: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang kembangan dan pemfaktoran dalam konteks penyelesaian masalah rutin yang kompleks."
+  - id: TP6
+    text: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang kembangan dan pemfaktoran dalam konteks penyelesaian masalah bukan rutin secara kreatif."

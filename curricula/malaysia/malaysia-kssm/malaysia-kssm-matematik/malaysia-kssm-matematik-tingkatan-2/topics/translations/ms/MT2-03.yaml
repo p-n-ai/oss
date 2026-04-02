@@ -1,0 +1,33 @@
+id: MT2-03
+official_ref: "Bab 3"
+name: "Rumus Algebra (Algebraic Formulae)"
+subject_id: malaysia-kssm-matematik-tingkatan-2
+syllabus_id: malaysia-kssm
+
+content_standards:
+  - id: 3.1
+    text: "Rumus Algebra"
+
+learning_objectives:
+  - id: 3.1.1
+    text: "Membentuk rumus berdasarkan suatu situasi."
+  - id: 3.1.2
+    text: "Menukar perkara rumus bagi suatu persamaan algebra."
+  - id: 3.1.3
+    text: "Menentukan nilai suatu pemboleh ubah apabila nilai pemboleh ubah lain diberi."
+  - id: 3.1.4
+    text: "Menyelesaikan masalah yang melibatkan rumus."
+
+performance_standards:
+  - id: TP1
+    text: "Mempamerkan pengetahuan asas tentang rumus."
+  - id: TP2
+    text: "Mempamerkan kefahaman tentang rumus."
+  - id: TP3
+    text: "Mengaplikasikan kefahaman tentang rumus untuk melaksanakan tugasan mudah."
+  - id: TP4
+    text: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang rumus dalam konteks penyelesaian masalah rutin yang mudah."
+  - id: TP5
+    text: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang rumus dalam konteks penyelesaian masalah rutin yang kompleks."
+  - id: TP6
+    text: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang rumus dalam konteks penyelesaian masalah bukan rutin secara kreatif."
