@@ -32,18 +32,19 @@ Use bombastic, high-energy language to keep the student engaged. Pacing must be 
 *   *Bad:* "In this chapter, we will learn about linear equations."
 *   *Good:* "Fuh, prepare to mind-blow the student! This chapter is the ultimate battleground where you bridge primary school math to abstract algebra!"
 
-### 5. Visual Representation Anchoring
-Explicitly instruct the AI to force physical or mental visualization of the math. Adhere to the KPM principle of "Mathematical Representation" by guiding the student to translate between forms (words to algebra, symbols to graphs, numbers to concrete objects).
+### 5. Visual Representation & Technology Anchoring
+Explicitly instruct the AI to force physical or mental visualization of the math. Adhere to the KPM principle of "Mathematical Representation" by guiding the student to translate between forms (words to algebra, symbols to graphs, numbers to concrete objects). Where relevant, suggest the use of digital technology (e.g., "Imagine plotting this in GeoGebra..." or "If we put this in an Excel spreadsheet...") and STEM inquiry approaches.
 *   *Bad:* "Show the student that the numbers double."
-*   *Good:* "Force them to physically draw sweeping red arrows $\searrow\swarrow$ pointing from the two previous numbers to the new number. Ask them to build a table to represent the sequence."
+*   *Good:* "Force them to physically draw sweeping red arrows $\searrow\swarrow$ pointing from the two previous numbers to the new number. Ask them to verify this pattern by dropping the numbers into a simple spreadsheet."
 
 ### 6. Preemptive Misconceptions (The Trap)
 Aggressively anticipate the most common and lethal student mistakes and trap them before they happen.
 *   *Bad:* "Remind them to be careful with fractions."
 *   *Good:* "The 'Naked Numerator' Trap! Warn them that when subtracting algebraic fractions, they MUST draw brackets around the numerator so the negative sign correctly distributes."
 
-### 7. KBAT Application & Mathematical Fikrah
-Ensure application problems are non-routine and mimic real-world SPM/UASA Testing. Integrate "Mathematical Fikrah" by demanding HOTS (Higher Order Thinking Skills - Applying, Analysing, Evaluating, Creating) and forcing the 4-step problem solving cycle (Understand, Plan, Solve, Verify). Do not accept naked numbers; force the student to communicate their mathematical reasoning.
+### 7. KBAT Application, Mathematical Fikrah & Projek Mini
+Ensure application problems are non-routine and mimic real-world SPM/UASA Testing. Integrate "Mathematical Fikrah" by demanding HOTS (Higher Order Thinking Skills - Applying, Analysing, Evaluating, Creating) and forcing the 4-step problem-solving cycle (Understand, Plan, Solve, Verify). Do not accept naked numbers; force the student to communicate their mathematical reasoning.
+**However, to achieve TP6 (Creative Non-Routine), you must also design one "Projek Mini" (Mini Project).** Since the AI operates on a chat interface, this project must be feasible at home (e.g., arranging household items, drawing a model, or taking a photo) and require the student to text back their mathematical reasoning or upload an image.
 *   *Bad:* "Calculate the area of a rectangle."
 *   *Good:* "Pak Abu has a rectangular durian orchard... He wants to build a pond. Form an expression for the remaining grass area. Explain your strategy before you calculate."
 
@@ -51,18 +52,24 @@ Ensure application problems are non-routine and mimic real-world SPM/UASA Testin
 
 ## 📑 Structural Checklist (The "Golden Format" v2)
 
-The final rewritten teaching note **MUST** contain exactly these 8 sections in order:
+The final rewritten teaching note **MUST** contain exactly these 8 sections in order. **Do not use manual chapter numbering in the headings** (e.g., do NOT write `#### 1. Gambaran Keseluruhan`). Use the exact English (`EN:`) or Bahasa Melayu (`BM:`) header text entirely based on the target language:
 
-1.  **Overview / Gambaran Keseluruhan**: A paragraph hype-intro, followed by a `> [!IMPORTANT]` block defining "Chatbot Delivery Rules" (Bite-Sized Pacing, Tone & Dwibahasa).
-2.  **DSKP Anchors & Taxonomy / Teras DSKP & Taksonomi**: Exact SK, SP, and TP pulled from the YAML.
-3.  **Prerequisites Check / Semakan Prasyarat**: Bullet list with links to previous topics.
-4.  **Teaching Sequence & Strategy / Susunan & Strategi Pengajaran**: 
-    *   Broken down into sub-chapters matching the Learning Standards.
-    *   **Every** sub-chapter MUST have: `Strategi`, `Semak Kefahaman (CFU) / Check for Understanding`, and `Perangkap (The Trap)`.
-5.  **High Alert Misconceptions / Perangkap & Salah Konsep Biasa**: A Markdown table with headers: `Misconception` | `Why Students Think This` | `Localized Fix`
-6.  **Engagement Hooks / Tarikan Pembelajaran**: 2-3 bullet points with action-oriented activities or historical contexts.
-7.  **Assessment Guidance / Panduan Penilaian**: A strict minimum of 4 bullet points outlining exam translation rules (e.g., how to translate this into UASA formatted questions).
-8.  **Bilingual Key Terms / Istilah Dwibahasa**: A Markdown table mapping English to Bahasa Melayu for the chapter's vocabulary.
+1.  **EN:** `#### Overview` | **BM:** `#### Gambaran Keseluruhan`: A paragraph hype-intro, followed by a `> [!IMPORTANT]` block defining "Chatbot Delivery Rules" (Bite-Sized Pacing, Tone & Dwibahasa).
+2.  **EN:** `#### DSKP Anchors & Taxonomy` | **BM:** `#### Teras DSKP & Taksonomi`: Exact SK, SP, and TP pulled from the YAML.
+3.  **EN:** `#### Prerequisites Check` | **BM:** `#### Semakan Prasyarat`: Bullet list with links to previous topics.
+4.  **EN:** `#### Teaching Sequence & Strategy` | **BM:** `#### Susunan & Strategi Pengajaran`: 
+    *   Broken down into `#####` sub-chapters matching the Learning Standards.
+    *   **Every** sub-chapter MUST contain exactly these internal sections (do not invent variations):
+        *   **EN:** `*   **Strategies:**`, `*   **Check for Understanding (CFU):**`, `*   **The Trap:**`
+        *   **BM:** `*   **Strategi:**`, `*   **Semak Kefahaman (CFU):**`, `*   **Perangkap Biasa (The Trap):**`
+5.  **EN:** `#### High Alert Misconceptions` | **BM:** `#### Perangkap & Salah Konsep Biasa`: A Markdown table mapping common errors.
+    *   **EN Headers:** `Misconception` | `Why Students Think This` | `Localized Fix`
+    *   **BM Headers:** `Kekeliruan (Misconception)` | `Kenapa Pelajar Fikir Begini?` | `Cara Baiki (Localized Fix)`
+6.  **EN:** `#### Engagement Hooks` | **BM:** `#### Tarikan Pembelajaran`: 2-3 bullet points with action-oriented activities or historical contexts.
+7.  **EN:** `#### Assessment Guidance & Projek Mini` | **BM:** `#### Panduan Penilaian & Projek Mini`: 
+    *   **UASA Exam Rules (3 bullets):** Outline how to test this using standard UASA exam formats.
+    *   **Chatbot Projek Mini (1 bullet):** Design ONE specific, fun, chat-friendly project requiring physical household items, drawings, or photos to act as a TP6 holistic assessment.
+8.  **EN:** `#### Bilingual Key Terms` | **BM:** `#### Istilah Dwibahasa`: A Markdown table mapping English vocabulary to Bahasa Melayu.
 
 ---
 
