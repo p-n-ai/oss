@@ -37,8 +37,10 @@ The `working` field is the script the AI uses to show the student how to solve t
 Ensure that there is a logical progression of difficulty (`easy` -> `medium` -> `hard`). 
 For `hard`/KBAT examples, ensure the `scenario` forces the student to apply Mathematical Fikrah (Higher Order Thinking Skills like Evaluating and Creating), rather than just plugging numbers into a formula.
 
-### 5. Bilingual Standard
-Since KSSM Mathematics is taught in Malay, ensure that the textual explanations within the `scenario`, `working`, and `misconception_alert` use natural, textbook-accurate Bahasa Melayu (unless strictly dealing with an English locale).
+### 5. Strict Language Enforcement (Root = English)
+The ROOT (master) `examples.yaml` file MUST be written 100% in **English**. This includes ALL content: `scenario`, `working` steps, `misconception_alert`, and analogies. 
+*   **Source of Truth:** The root file must pull from the `text_en` values of the master `[ID].yaml`.
+*   **Translation Folder:** The Bahasa Melayu version must ONLY be requested for the `translations/ms/` directory and should pull from the `text` values of the translated `translations/ms/[ID].yaml`.
 
 ---
 

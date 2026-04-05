@@ -1,0 +1,86 @@
+id: MT3-01
+official_ref: "Bab 1"
+name: "Indeks"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-3
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+
+content_standards:
+  - id: "1.1"
+    text: "Tatatanda Indeks"
+  - id: "1.2"
+    text: "Hukum Indeks"
+
+learning_objectives:
+  - id: 1.1.1
+    text: "Mewakilkan pendaraban berulang dalam bentuk indeks dan menghuraikan maksudnya."
+    bloom: understand
+  - id: 1.1.2
+    text: "Menukar suatu nombor kepada nombor dalam bentuk indeks dan sebaliknya."
+    bloom: apply
+  - id: 1.2.1
+    text: "Menghubung kait pendaraban nombor dalam bentuk indeks yang mempunyai asas yang sama dengan pendaraban berulang, dan seterusnya membuat generalisasi."
+    bloom: analyze
+  - id: 1.2.2
+    text: "Menghubung kait pembahagian nombor dalam bentuk indeks yang mempunyai asas yang sama dengan pendaraban berulang, dan seterusnya membuat generalisasi."
+    bloom: analyze
+  - id: 1.2.3
+    text: "Menghubung kait nombor dalam bentuk indeks yang dikuasakan dengan pendaraban berulang, dan seterusnya membuat generalisasi."
+    bloom: analyze
+  - id: 1.2.4
+    text: "Menentusahkan a^0 = 1 dan a^-n = 1/a^n ; a ≠ 0."
+    bloom: understand
+  - id: 1.2.5
+    text: "Menentu dan menyatakan hubungan antara indeks pecahan dengan punca kuasa dan kuasa."
+    bloom: apply
+  - id: 1.2.6
+    text: "Melaksanakan operasi yang melibatkan hukum indeks."
+    bloom: apply
+  - id: 1.2.7
+    text: "Menyelesaikan masalah yang melibatkan hukum indeks."
+    bloom: apply
+
+prerequisites:
+  required: 
+    - "MT1-03"
+    - "MT1-05"
+  recommended: 
+    - "MT2-02"
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Langkah 1: Pengenalan Tatatanda Indeks (20 min)"
+    - "Langkah 2: Menemui Hukum Pendaraban & Pembahagian (25 min)"
+    - "Langkah 3: Kuasa bagi Suatu Kuasa & Operasi Bercampur (25 min)"
+    - "Langkah 4: Indeks Sifar, Negatif & Pecahan (30 min)"
+    - "Langkah 5: Penyelesaian Masalah (30 min)"
+  common_misconceptions:
+    - misconception: "Keliru tatatanda indeks dengan pendaraban linear (cth: a^n = a * n)."
+      remediation: "Paksa pelajar tulis kembangan penuh dahulu. Buktikan 4^3 = 4 * 4 * 4 = 64, bukan 4 * 3 = 12."
+    - misconception: "Menambah asas, bukannya indeks, atau salah guna pendaraban pada indeks (cth: a^m * a^n = a^(m*n))."
+      remediation: "Buktikan melalui kembangan bahawa indeks mewakili 'bilangan' asas. Mengira bilangan memerlukan penambahan, bukan pendaraban."
+    - misconception: "Percaya bahawa a^0 = 0 disebabkan 'Sifat Sifar' dalam pendaraban."
+      remediation: "Tunjukkan a^n / a^n = 1 menggunakan hukum pembahagian untuk membuktikan secara logik kenapa a^0 mestilah 1."
+    - misconception: "Menganggap indeks negatif (a^-n) menghasilkan nilai matematik negatif (-a^n)."
+      remediation: "Tunjukkan bahawa indeks negatif hanyalah arahan 'posisi' untuk membawa asas ke penyebut (salingan)."
+  engagement_hooks:
+    - "Tarikan Storan Mamak (STEM): Bincangkan telefon pintar atau pendrive (8GB, 16GB, 32GB, 64GB, 128GB). Tunjukkan memori teknologi dibina tepat mengikut corak Indeks Asas 2 (2^n)."
+    - "Banjir Tasik Kenyir: Gunakan jumlah tadahan (13,600 juta meter padu) untuk tunjuk kenapa jurutera guna bentuk piawai dan indeks berbanding tulis sifar yang banyak."
+    - "Rahsia Segitiga Pascal: Tunjukkan jumlah nombor dalam setiap baris Segitiga Pascal (1, 2, 4, 8, 16...) menghasilkan turutan indeks 2^n dengan sempurna!"
+
+quality_level: 3
+provenance: ai-assisted
+ai_teaching_notes: "MT3-01.teaching.md"
+assessments_file: "MT3-01.assessments.yaml"
+examples_file: "MT3-01.examples.yaml"

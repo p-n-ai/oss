@@ -1,0 +1,516 @@
+topic_id: MT3-01
+provenance: ai-assisted
+questions:
+  - id: Q1
+    text: "Wakilkan pendaraban berulang berikut dalam bentuk indeks: $m \times m \times m \times m \times m \times m \times m$. Kemudian, nyatakan asas dan indeks."
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: 1.1.1
+    answer:
+      type: exact
+      value: "m^7; asas = m; indeks = 7"
+      working: |
+        Faktor m didarab dengan dirinya sendiri sebanyak 7 kali.
+        Dalam bentuk indeks, ia ditulis sebagai m kuasa 7 ($m^7$).
+        'Asas' ialah faktor yang berulang, iaitu m.
+        'Indeks' ialah bilangan kali faktor itu diulang, iaitu 7.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menulis ungkapan dalam bentuk indeks yang betul iaitu m^7."
+      - marks: 1
+        criteria: "Mengenal pasti 'asas' sebagai m dan 'indeks' sebagai 7 dengan tepat."
+    hints:
+      - level: 1
+        text: "Ingat, nombor/huruf yang besar ialah asas (item yang didarab), dan nombor kecil yang terapung ialah indeks (berapa kali ia muncul)."
+
+  - id: Q2
+    text: "Antara berikut, yang manakah mewakili $5 \times 5 \times 5 \times 5$ dalam tatatanda indeks?"
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: 1.1.1
+    answer:
+      type: multiple_choice
+      value: "5^4"
+      working: |
+        Asas ialah 5.
+        Ia didarab dengan dirinya sendiri sebanyak 4 kali.
+        Oleh itu, tatatanda indeks ialah $5^4$.
+    distractors:
+      - value: "4^5"
+        feedback: "Anda tertukar kedudukan asas dan indeks! Nombor yang didarab berulang kali ialah asas."
+      - value: "20"
+        feedback: "Anda mendarab asas dengan indeks. Indeks mewakili pendaraban berulang, bukan pendaraban linear!"
+      - value: "54"
+        feedback: "Anda hanya menggabungkan nombor tersebut. Indeks mesti ditulis sebagai superskrip (nombor kecil di atas)!"
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan 5^4 dengan betul."
+    hints:
+      - level: 1
+        text: "Kenal pasti nombor utamanya dahulu, kemudian kira berapa kali nombor itu muncul dalam pendaraban."
+
+  - id: Q3
+    text: "Tuliskan 64 dalam bentuk indeks dengan menggunakan asas 2. Tunjukkan jalan kerja anda menggunakan kaedah pembahagian berulang."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.1.2
+    answer:
+      type: exact
+      value: "2^6"
+      working: |
+        Bahagi 64 secara berulang dengan 2:
+        64 ÷ 2 = 32
+        32 ÷ 2 = 16
+        16 ÷ 2 = 8
+        8 ÷ 2 = 4
+        4 ÷ 2 = 2
+        2 ÷ 2 = 1
+        Nombor 2 dibahagi sebanyak 6 kali (n = 6).
+        Maka, $64 = 2^6$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menunjukkan kaedah pembahagian berulang dengan 2 yang betul."
+      - marks: 1
+        criteria: "Menyatakan bentuk indeks akhir sebagai 2^6 dengan betul."
+    hints:
+      - level: 1
+        text: "Bina satu tangga pembahagian. Teruskan membahagi 64 dengan 2 sehinggalah anda mendapat hasil bahagi akhir 1."
+
+  - id: Q4
+    text: "Hitung nilai bagi $(-3)^3$."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.1.2
+    answer:
+      type: multiple_choice
+      value: "-27"
+      working: |
+        $(-3)^3 = (-3) \times (-3) \times (-3)$
+        $(-3) \times (-3) = 9$
+        $9 \times (-3) = -27$
+    distractors:
+      - value: "27"
+        feedback: "Hati-hati dengan tanda negatif! Asas negatif yang dikuasakan dengan nombor ganjil akan kekal negatif."
+      - value: "-9"
+        feedback: "Anda mendarab -3 dengan indeks 3. Anda perlu mendarab -3 dengan dirinya sendiri sebanyak 3 kali!"
+      - value: "9"
+        feedback: "Anda mengkuasaduakan nombor tersebut dan bukannya mengkuasatigakan nombor itu."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Menilai jawapan dengan betul iaitu -27."
+    hints:
+      - level: 1
+        text: "Kembangkan bentuk indeks ini kepada ayat pendaraban berulang dan selesaikan langkah demi langkah dari kiri ke kanan."
+
+  - id: Q5
+    text: "Permudahkan ungkapan berikut menggunakan hukum indeks: $3^2 \times 3^5$."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 1.2.1
+    answer:
+      type: exact
+      value: "3^7"
+      working: |
+        Apabila mendarab nombor dalam bentuk indeks yang mempunyai asas yang sama, tambahkan indeksnya.
+        Hukum: $a^m \times a^n = a^{m+n}$
+        $3^2 \times 3^5 = 3^{2+5} = 3^7$
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengekalkan asas 3 dengan betul."
+      - marks: 1
+        criteria: "Menambahkan indeks dengan betul untuk mendapat 7."
+    hints:
+      - level: 1
+        text: "Lihat operasi yang digunakan. Untuk operasi pendaraban asas yang sama, apakah jalan pintas untuk menggabungkan indeksnya?"
+
+  - id: Q6
+    text: "Permudahkan ungkapan berikut menggunakan hukum indeks: $2^6 \div 2^2$."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 1.2.2
+    answer:
+      type: exact
+      value: "2^4"
+      working: |
+        Apabila membahagi nombor dalam bentuk indeks yang mempunyai asas yang sama, tolakkan indeksnya.
+        Hukum: $a^m \div a^n = a^{m-n}$
+        $2^6 \div 2^2 = 2^{6-2} = 2^4$
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan hukum penolakan indeks untuk pembahagian dengan betul."
+      - marks: 1
+        criteria: "Menyatakan jawapan yang telah dipermudahkan sebagai 2^4."
+    hints:
+      - level: 1
+        text: "Pembahagian asas yang sama bermaksud kita mengurangkan bilangan faktor berulang. Operasi matematik manakah yang mencerminkan pengurangan?"
+
+  - id: Q7
+    text: "Tentukan sama ada pernyataan berikut adalah Benar atau Palsu: $(3^2)^4 = 3^6$."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 1.2.3
+    answer:
+      type: multiple_choice
+      value: "Palsu"
+      working: |
+        Hukum: $(a^m)^n = a^{m \times n}$
+        $(3^2)^4 = 3^{2 \times 4} = 3^8$.
+        Oleh kerana $3^8 \neq 3^6$, pernyataan tersebut adalah Palsu.
+    distractors:
+      - value: "Benar"
+        feedback: "Apabila nombor dalam bentuk indeks dikuasakan, anda mesti MENDARAB indeks tersebut, bukan menambahnya!"
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti pernyataan tersebut sebagai Palsu dengan tepat."
+    hints:
+      - level: 1
+        text: "Ingat kembali hukum kurungan untuk indeks. Apabila kuasa berada di luar kurungan, adakah anda menambah atau mendarabnya dengan kuasa di dalam?"
+
+  - id: Q8
+    text: "Permudahkan $4^{-2}$. Nyatakan jawapan anda sebagai pecahan wajar."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 1.2.4
+    answer:
+      type: multiple_choice
+      value: "1/16"
+      working: |
+        Indeks negatif bermaksud salingan (reciprocal).
+        Hukum: $a^{-n} = \displaystyle\frac{1}{a^n}$
+        $4^{-2} = \displaystyle\frac{1}{4^2}$
+        Hitung nilainya: \displaystyle\frac{1}{4 \times 4} = \displaystyle\frac{1}{16}
+    distractors:
+      - value: "-16"
+        feedback: "Indeks negatif tidak bermaksud jawapannya akan menjadi nombor negatif! Ia menunjukkan salingan (memindahkannya ke penyebut)."
+      - value: "-8"
+        feedback: "Anda mendarab 4 dengan -2. Indeks negatif akan membentuk pecahan!"
+      - value: "1/8"
+        feedback: "Anda memindahkannya ke kedudukan penyebut dengan betul, tetapi anda telah mendarab 4 dengan 2 dan bukannya mengkuasaduakannya."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti pecahan 1/16 dengan tepat."
+    hints:
+      - level: 1
+        text: "Pindahkan asas ke 'tingkat bawah' (penyebut) supaya indeks menjadi positif. Kemudian selesaikan macam biasa."
+
+  - id: Q9
+    text: "Tukarkan nombor berikut kpd bentuk $\sqrt[n]{a^m}$: $125^{2/3}$. Kemudian, hitung nilai akhirnya tanpa menggunakan kalkulator."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 1.2.5
+    answer:
+      type: exact
+      value: "(\\sqrt[3]{125})^2; 25"
+      working: |
+        Menggunakan hubungan $a^{m/n} = (\sqrt[n]{a})^m$:
+        $125^{2/3} = (\sqrt[3]{125})^2$
+        Hitung punca kuasa tiga dahulu:
+        $\sqrt[3]{125} = 5$
+        Hitung kuasa dua:
+        $5^2 = 25$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti penyebut (3) sebagai punca kuasa dan pengangka (2) sebagai kuasa dengan betul."
+      - marks: 1
+        criteria: "Menghitung punca kuasa tiga bagi 125 sebagai 5."
+      - marks: 1
+        criteria: "Mengkuasaduaka nilai 5 untuk mendapat jawapan akhir 25."
+    hints:
+      - level: 1
+        text: "Dalam indeks pecahan, penyebut adalah 'punca' pokoknya, dan pengangka adalah 'kuasa' pada dahan."
+
+  - id: Q10
+    text: "Permudahkan ungkapan berikut menggunakan hukum indeks: $\displaystyle\frac{(2^3 \times 3^2)^2}{2^4 \times 3^3}$."
+    difficulty: medium
+    tp_level: 4
+    kbat: false
+    learning_objective: 1.2.6
+    answer:
+      type: exact
+      value: "12"
+      working: |
+        Gunakan hukum $(a^m b^n)^q = a^{mq} b^{nq}$ untuk mengembangkan pengangka:
+        $(2^3 \times 3^2)^2 = 2^{3 \times 2} \times 3^{2 \times 2} = 2^6 \times 3^4$
+        Gunakan hukum pembahagian $a^m / a^n = a^{m-n}$:
+        $\displaystyle\frac{2^6 \times 3^4}{2^4 \times 3^3} = 2^{6-4} \times 3^{4-3}$
+        Permudahkan indeks:
+        $= 2^2 \times 3^1$
+        Hitung nilai akhir:
+        $= 4 \times 3 = 12$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengembangkan kurungan pada bahagian pengangka dengan betul."
+      - marks: 1
+        criteria: "Menggunakan hukum pembahagian secara menolak indeks bagi asas yang sama."
+      - marks: 1
+        criteria: "Menilai nilai angka akhir dengan tepat sebagai 12."
+    hints:
+      - level: 1
+        text: "Mula-mula, kembangkan kuasa di luar kurungan (2) kepada indeks-indeks di dalam kurungan. Kemudian, kumpulkan asas 2 dan 3 secara berasingan."
+
+  - id: Q11
+    text: "Permudahkan ungkapan berikut: $\displaystyle\frac{(2x^2 y^{-3})^3}{4x^{-1} y^4}$. Nyatakan jawapan anda dengan indeks positif."
+    difficulty: hard
+    tp_level: 4
+    kbat: false
+    learning_objective: 1.2.6
+    answer:
+      type: exact
+      value: "2x^7 / y^13"
+      working: |
+        Kembangkan pengangka:
+        $(2x^2 y^{-3})^3 = 2^3 x^{2 \times 3} y^{-3 \times 3} = 8x^6 y^{-9}$
+        Ungkapan tersebut menjadi:
+        $\displaystyle\frac{8x^6 y^{-9}}{4x^{-1} y^4}$
+        Bahagikan pekali: $8 / 4 = 2$.
+        Tolak indeks bagi asas x: $6 - (-1) = 6 + 1 = 7$.
+        Tolak indeks bagi asas y: $-9 - 4 = -13$.
+        Gabungkan sebutan: $2x^7 y^{-13}$.
+        Tukar kepada bentuk indeks positif: $\displaystyle\frac{2x^7}{y^{13}}$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengembangkan pengangka kepada 8x^6 y^-9 dengan betul."
+      - marks: 1
+        criteria: "Melaksanakan hukum pembahagian pada pemboleh ubah dengan tepat, menghasilkan x^7 dan y^-13."
+      - marks: 1
+        criteria: "Menyatakan jawapan akhir dalam bentuk indeks positif."
+    hints:
+      - level: 1
+        text: "Pastikan kuasa di luar kurungan diaplikasikan kepada pekali (2) juga! Semasa membahagikan pemboleh ubah, tolakkan indeks bawah daripada indeks atas."
+
+  - id: Q12
+    text: "Permudahkan ungkapan berikut yang melibatkan indeks pecahan dan indeks negatif: $\displaystyle\frac{(16p^8q^4)^{1/4}}{(p^{-2}q^3)^2}$."
+    difficulty: hard
+    tp_level: 4
+    kbat: false
+    learning_objective: 1.2.6
+    answer:
+      type: exact
+      value: "2p^6 / q^5"
+      working: |
+        Kembangkan pengangka dengan mendarab indeks dengan 1/4:
+        $(16p^8q^4)^{1/4} = 16^{1/4} p^{8/4} q^{4/4} = 2p^2q^1$
+        Kembangkan penyebut dengan mendarab indeks dengan 2:
+        $(p^{-2}q^3)^2 = p^{-2 \times 2} q^{3 \times 2} = p^{-4} q^6$
+        Bahagikan pengangka dengan penyebut:
+        $\displaystyle\frac{2p^2q^1}{p^{-4} q^6}$
+        Asas p: $2 - (-4) = 2 + 4 = 6$.
+        Asas q: $1 - 6 = -5$.
+        Hasil: $2p^6 q^{-5} = \displaystyle\frac{2p^6}{q^5}$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengira bahagian pengangka dengan tepat sebagai 2p^2q^1."
+      - marks: 1
+        criteria: "Mengira bahagian penyebut dengan tepat sebagai p^-4 q^6."
+      - marks: 1
+        criteria: "Membahagikan dengan tepat dan menukarkan jawapan akhir ke bentuk indeks positif."
+    hints:
+      - level: 1
+        text: "Kuasa $1/4$ bermaksud punca kuasa empat. Cari punca kuasa empat bagi 16, dan darabkan indeks-indeks pemboleh ubah dengan $1/4$."
+
+  - id: Q13
+    text: "Hitung nilai $x$ bagi persamaan berikut: $3^x \times 9^{x-1} = 27$."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 1.2.7
+    answer:
+      type: exact
+      value: "5/3"
+      working: |
+        Tukar semua nombor kepada asas perdana yang sama (asas 3):
+        $9 = 3^2$, jadi $9^{x-1} = (3^2)^{x-1} = 3^{2x-2}$
+        $27 = 3^3$
+        Gantikan nilai ini ke dalam persamaan:
+        $3^x \times 3^{2x-2} = 3^3$
+        Gunakan hukum pendaraban (tambah indeks di sebelah kiri):
+        $3^{x + 2x - 2} = 3^3$
+        $3^{3x - 2} = 3^3$
+        Samakan indeks (memandangkan nilai asasnya adalah sama):
+        $3x - 2 = 3$
+        $3x = 5$
+        $x = \displaystyle\frac{5}{3}$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menukar semua sebutan (9 dan 27) kepada asas sepunya iaitu 3."
+      - marks: 1
+        criteria: "Menggabungkan indeks dengan tepat dan membentuk persamaan linear (3x - 2 = 3)."
+      - marks: 1
+        criteria: "Menyelesaikan persamaan untuk mendapatkan nilai x dengan tepat sebagai 5/3."
+    hints:
+      - level: 1
+        text: "Tulis semula 9 dan 27 sebagai kuasa bagi 3. Setelah asasnya semua sama, anda boleh mengabaikan asas tersebut dan selesaikan bahagian indeksnya seperti persamaan algebra biasa."
+
+  - id: Q14
+    text: "Selesaikan persamaan serentak berikut untuk mencari nilai $x$ dan $y$:\n$8^x \times 2^y = 32$\n$3^x \div 9^y = \displaystyle\frac{1}{27}$"
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 1.2.7
+    answer:
+      type: exact
+      value: "x = 1, y = 2"
+      working: |
+        Persamaan 1 (Tukar kepada asas 2):
+        $(2^3)^x \times 2^y = 2^5$
+        $2^{3x+y} = 2^5$
+        $3x + y = 5$  --- (Persamaan 1)
+
+        Persamaan 2 (Tukar kepada asas 3):
+        $3^x \div (3^2)^y = 3^{-3}$
+        $3^{x-2y} = 3^{-3}$
+        $x - 2y = -3$ --- (Persamaan 2)
+
+        Selesaikan menggunakan kaedah penggantian. Dari Persamaan 1:
+        $y = 5 - 3x$ --- (Persamaan 3)
+        Gantikan Persamaan 3 ke dalam Persamaan 2:
+        $x - 2(5 - 3x) = -3$
+        $x - 10 + 6x = -3$
+        $7x = 7 \Rightarrow x = 1$
+
+        Gantikan x=1 ke dalam Persamaan 3:
+        $y = 5 - 3(1) = 2$
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menukar Persamaan 1 sepenuhnya kepada asas 2 untuk membentuk persamaan linear 3x + y = 5."
+      - marks: 1
+        criteria: "Menukar Persamaan 2 sepenuhnya kepada asas 3 untuk membentuk persamaan linear x - 2y = -3."
+      - marks: 1
+        criteria: "Mendapat nilai x yang betul iaitu 1 menggunakan kaedah penggantian atau penghapusan yang sah."
+      - marks: 1
+        criteria: "Mendapat nilai y yang betul iaitu 2."
+    hints:
+      - level: 1
+        text: "Tukarkan semua asas dalam persamaan pertama kepada asas 2 and semua asas dalam persamaan kedua kepada asas 3. Ini akan menghasilkan dua persamaan linear mudah yang boleh diselesaikan."
+
+  - id: Q15
+    text: "Dalam satu eksperimen yang dijalankan oleh Susan, didapati suhu sejenis logam meningkat daripada $25^{\circ}C$ kepada $T^{\circ}C$ mengikut persamaan $T = 25(1.2)^m$ apabila logam tersebut dipanaskan selama $m$ saat. Hitung beza suhu di antara saat kelima dengan saat keenam, dalam darjah Celsius terdekat."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 1.2.7
+    answer:
+      type: exact
+      value: "12"
+      working: |
+        Hitung suhu pada saat kelima ($m = 5$):
+        $T_5 = 25(1.2)^5 = 25(2.48832) = 62.208^{\circ}C$
+
+        Hitung suhu pada saat keenam ($m = 6$):
+        $T_6 = 25(1.2)^6 = 25(2.985984) = 74.6496^{\circ}C$
+
+        Hitung beza suhu:
+        Beza = $T_6 - T_5$
+        $= 74.6496 - 62.208 = 12.4416^{\circ}C$
+
+        Bundarkan kepada darjah Celsius terdekat:
+        $= 12^{\circ}C$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menggantikan m=5 dan m=6 dengan tepat ke dalam formula untuk mencari dua suhu spesifik."
+      - marks: 1
+        criteria: "Mencari beza yang tepat antara kedua-dua suhu tersebut (12.4416)."
+      - marks: 1
+        criteria: "Membundarkan jawapan kepada nombor bulat terdekat (12)."
+    hints:
+      - level: 1
+        text: "Gantikan nilai $m = 5$ ke dalam persamaan untuk mencari suhu pada saat ke-5. Lakukan perkara yang sama untuk $m = 6$, dan kemudian tolakkan nilai yang kecil daripada nilai yang lebih besar."
+
+  - id: Q16
+    text: "Puan Kiran Kaur menyimpan RM50 000 pada 1 Mac 2019 di sebuah bank tempatan dengan faedah 3.5% setahun. Selepas $t$ tahun, jumlah simpanan Puan Kiran Kaur dalam RM ialah $50 000(1.035)^t$. Hitung jumlah simpanan pada 1 Mac 2025, jika Puan Kiran Kaur tidak pernah mengeluarkan wang simpanannya. Bundarkan jawapan anda kepada RM terdekat."
+    difficulty: hard
+    tp_level: 6
+    kbat: true
+    learning_objective: 1.2.7
+    answer:
+      type: exact
+      value: "61463"
+      working: |
+        Tentukan nilai t (bilangan tahun dari 2019 ke 2025):
+        t = 2025 - 2019 = 6.
+        Gantikan t = 6 ke dalam formula yang diberi:
+        Simpanan = $50 000(1.035)^6$
+        Hitung nilai indeks:
+        $(1.035)^6 \approx 1.229255$
+        Darabkan dengan nilai asas:
+        $50 000 \times 1.229255 = 61462.75$
+        Bundarkan kepada RM terdekat:
+        RM61463
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti t = 6 dengan tepat."
+      - marks: 1
+        criteria: "Menggantikan t=6 ke dalam formula dan membuat pengiraan nilai mentah (kira-kira 61462.75)."
+      - marks: 1
+        criteria: "Membundarkan jawapan akhir dengan betul kepada nombor bulat terdekat (61463)."
+    hints:
+      - level: 1
+        text: "Mula-mula, cari berapa tahunkah yang telah berlalu antara tahun 2019 dan 2025. Kemudian, gantikan 't' dalam formula dengan bilangan tahun tersebut."
+
+  - id: Q17
+    text: "Chong dan Navin menjalankan dua uji kaji untuk menentukan hubungan antara pemboleh ubah $x$ dan $y$. Persamaan yang diperoleh oleh Chong ialah $16(4^x) = 16^y$, sementara Navin mendapat $3(9^x) = 27^y$ sebagai dapatan uji kaji yang dijalankan. Hitung nilai x dan y yang memuaskan kedua-dua uji kaji tersebut."
+    difficulty: hard
+    tp_level: 6
+    kbat: true
+    learning_objective: 1.2.7
+    answer:
+      type: exact
+      value: "x = 4, y = 3"
+      working: |
+        Persamaan 1 (Chong): $16(4^x) = 16^y$
+        Tukar 16 kepada asas 4: $4^2(4^x) = (4^2)^y$
+        $4^{2+x} = 4^{2y}$
+        Samakan indeks: $2 + x = 2y$  --- (Persamaan 1)
+
+        Persamaan 2 (Navin): $3(9^x) = 27^y$
+        Tukar 9 dan 27 kepada asas 3: $3^1(3^2)^x = (3^3)^y$
+        $3^{1+2x} = 3^{3y}$
+        Samakan indeks: $1 + 2x = 3y$ --- (Persamaan 2)
+
+        Selesaikan persamaan serentak menggunakan kaedah penggantian:
+        Dari Persamaan 1: $x = 2y - 2$
+        Gantikan ke dalam Persamaan 2:
+        $1 + 2(2y - 2) = 3y$
+        $1 + 4y - 4 = 3y$
+        $4y - 3 = 3y \Rightarrow y = 3$
+
+        Gantikan y = 3 ke dalam $x = 2y - 2$:
+        $x = 2(3) - 2 = 6 - 2 = 4$
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Membentuk persamaan linear pertama (2 + x = 2y) dengan menukar asas kepada 4 atau 2."
+      - marks: 1
+        criteria: "Membentuk persamaan linear kedua (1 + 2x = 3y) dengan menukar asas kepada 3."
+      - marks: 1
+        criteria: "Mendapat nilai y yang betul iaitu 3."
+      - marks: 1
+        criteria: "Mendapat nilai x yang betul iaitu 4."
+    hints:
+      - level: 1
+        text: "Anda mempunyai dua persamaan. Untuk yang pertama, tukarkan semua nombor kepada asas 4. Bagi yang kedua, tukarkan semua nombor kepada asas 3. Kemudian, selesaikan kedua-dua persamaan indeks tersebut secara serentak."

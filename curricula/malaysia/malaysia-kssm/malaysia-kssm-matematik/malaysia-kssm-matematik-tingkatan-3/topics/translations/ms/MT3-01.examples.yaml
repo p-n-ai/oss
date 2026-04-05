@@ -1,0 +1,55 @@
+topic_id: MT3-01
+provenance: ai-assisted
+worked_examples:
+  - id: WE-01
+    topic: "Memahami Tatatanda Indeks"
+    scenario: "Nyatakan pendaraban berulang berikut dalam bentuk indeks: $5 \times 5 \times 5$."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.1.1
+    real_world_analogy: >-
+      Bayangkan bentuk indeks ini sebagai jalan pintas untuk menulis senarai klon yang sama. Jika anda ada 3 klon nombor 5 yang serupa, 'asas' ialah klon itu sendiri (5), dan 'indeks' ialah jumlah bilangan klon yang wujud (3).
+    misconception_alert: >-
+      PERANGKAP KRITIKAL: Pelajar kerap mendarabkan asas dengan indeks! Ingatkan mereka dengan tegas bahawa $5^3$ BUKAN $5 \times 3 = 15$. Ia bermaksud 5 didarab dengan dirinya sendiri sebanyak tiga kali ($5 \times 5 \times 5 = 125$).
+    working: |
+      Langkah 1: Kenal pasti nombor utama yang diulang (ini adalah 'asas'). Asasnya ialah 5.
+      Langkah 2: Kira berapa kali asas itu didarab dengan dirinya sendiri. Ia muncul 3 kali.
+      Langkah 3: Tulis asas, dan letakkan bilangan tersebut sebagai nombor superskrip kecil di bahagian atas kanan.
+      Jawapan Akhir: $5^3$
+
+  - id: WE-02
+    topic: "Hukum Indeks - Pendaraban"
+    scenario: "Permudahkan ungkapan berikut: $2^3 \times 2^2$."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 1.2.1
+    real_world_analogy: >-
+      Bayangkan dua kumpulan orang yang berkongsi DNA yang sama (asas 2). Kumpulan pertama ada 3 orang, dan kumpulan kedua ada 2 orang. Apabila mereka bergabung dalam satu bilik, anda tidak mendarabkan orang-orang tersebut; anda cuma mengira jumlah keseluruhan dengan menambah mereka: 3 + 2 = 5.
+    misconception_alert: >-
+      PERANGKAP KRITIKAL: Pelajar selalu mendarabkan indeks dan bukannya menambahnya! Ingatkan mereka bahawa bagi pendaraban ASAS YANG SAMA, indeks ditambah ($3 + 2$), bukan didarab ($3 \times 2$). Selain itu, pastikan mereka tidak secara tidak sengaja mendarabkan asas untuk menjadi $4^5$.
+    working: |
+      Langkah 1: Pastikan kedua-dua sebutan mempunyai asas yang sama. Kedua-dua asas adalah 2.
+      Langkah 2: Gunakan hukum pendaraban indeks: $a^m \times a^n = a^{m+n}$.
+      Langkah 3: Kekalkan asas sebagai 2, dan tambahkan kedua-dua indeks: $3 + 2 = 5$.
+      Jawapan Akhir: $2^5$
+
+  - id: WE-03
+    topic: "Menyelesaikan Persamaan Indeks"
+    scenario: "Cari nilai $x$ bagi persamaan berikut: $3^x \times 9 = 81$."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 1.2.7
+    real_world_analogy: >-
+      Untuk membandingkan kuasa mereka, semua orang dalam persamaan mesti bercakap bahasa yang sama! Sekarang, 3, 9, dan 81 bercakap bahasa yang berbeza. Kita perlu menukar 9 dan 81 ke dalam bentuk kamus 'asas 3' sebelum mereka boleh berkomunikasi dan diselesaikan.
+    misconception_alert: >-
+      PERANGKAP KRITIKAL: Pelajar akan cuba membahagikan 81 dengan 9 secara langsung atau mendarab 3 dengan 9. Ini menyalahi hukum matematik apabila indeks yang tidak diketahui (pemboleh ubah) terlibat! Anda MESTI menukar semuanya kepada asas perdana yang sama terlebih dahulu.
+    working: |
+      Langkah 1: Tukar semua nombor kepada asas perdana terkecil yang sepunya (asas 3). Kita tahu bahawa $9 = 3^2$ and $81 = 3^4$.
+      Langkah 2: Gantikan kembali nombor-nombor ini ke dalam persamaan asal: $3^x \times 3^2 = 3^4$.
+      Langkah 3: Gabungkan sebelah kiri menggunakan hukum pendaraban indeks (tambah indeks): $3^{x+2} = 3^4$.
+      Langkah 4: Memandangkan asas adalah sama pada kedua-dua belah (asas 3), indeks mereka mesti sama persis. Abaikan asas untuk membentuk persamaan linear yang mudah: $x + 2 = 4$.
+      Langkah 5: Selesaikan untuk $x$ dengan menolak 2 dari kedua-dua belah: $x = 4 - 2$.
+      Jawapan Akhir: $x = 2$

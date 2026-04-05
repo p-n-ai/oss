@@ -1,115 +1,516 @@
 topic_id: MT3-01
-provenance: ai-generated
-
+provenance: ai-assisted
 questions:
-  # Group by learning objective 1.1.1
   - id: Q1
-    text: 'Express $3 \times 3 \times 3 \times 3$ in index form and identify the base and index.'
-    difficulty: medium
-    learning_objective: 1.1.1
-    tp_level: 2
+    text: "Represent the following repeated multiplication in index form: $m \times m \times m \times m \times m \times m \times m$. Then, state the base and the index."
+    difficulty: easy
+    tp_level: 1
     kbat: false
+    learning_objective: 1.1.1
     answer:
       type: exact
-      value: '3^4'
+      value: "m^7; base = m; index = 7"
       working: |
-        $3 \times 3 \times 3 \times 3$ can be written as $3^4$, where 3 is the base and 4 is the index.
+        The factor m is multiplied by itself 7 times.
+        In index form, this is written as m to the power of 7 ($m^7$).
+        The 'base' is the repeated factor, which is m.
+        The 'index' is the number of times the factor is repeated, which is 7.
     marks: 2
     rubric:
       - marks: 1
-        criteria: 'Correctly writes $3 \times 3 \times 3 \times 3$ as $3^4$.'
+        criteria: "Correctly writes the expression in index form as m^7."
       - marks: 1
-        criteria: 'Correctly identifies 3 as the base and 4 as the index.'
+        criteria: "Correctly identifies both the 'base' as m and the 'index' as 7."
     hints:
       - level: 1
-        text: 'Count the number of times 3 is multiplied by itself.'
+        text: "Remember, the large number/letter is the item being multiplied, and the small floating number is how many times it appears."
 
-  # Group by learning objective 1.1.2
   - id: Q2
-    text: 'Convert $2^5$ into an ordinary numerical expression.'
-    difficulty: medium
-    learning_objective: 1.1.2
-    tp_level: 2
+    text: "Which of the following represents $5 \times 5 \times 5 \times 5$ in index notation?"
+    difficulty: easy
+    tp_level: 1
     kbat: false
+    learning_objective: 1.1.1
     answer:
-      type: exact
-      value: '32'
+      type: multiple_choice
+      value: "5^4"
       working: |
-        $2^5$ means $2 \times 2 \times 2 \times 2 \times 2 = 32$.
+        The base is 5.
+        It is multiplied by itself 4 times.
+        Therefore, the index notation is $5^4$.
+    distractors:
+      - value: "4^5"
+        feedback: "You swapped the base and the index! The number being repeatedly multiplied is the base."
+      - value: "20"
+        feedback: "You multiplied the base by the index. Indices represent repeated multiplication, not linear multiplication!"
+      - value: "54"
+        feedback: "You just combined the numbers. The index must be written as a small superscript!"
     marks: 1
     rubric:
       - marks: 1
-        criteria: 'Correctly evaluates $2^5$ to 32.'
+        criteria: "Correctly states 5^4."
     hints:
       - level: 1
-        text: 'Calculate $2 \times 2$, and continue multiplying by 2 until done.'
+        text: "Identify what the main number is, and then count how many times you see it in the multiplication."
 
-  # Group by learning objective 1.2.1
   - id: Q3
-    text: 'Simplify $(3^4) \times (3^2)$ using the laws of indices.'
-    difficulty: medium
-    learning_objective: 1.2.1
-    tp_level: 3
-    kbat: true
+    text: "Write 64 in index form using base 2. Show your working using the repeated division method."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.1.2
     answer:
       type: exact
-      value: '3^6'
+      value: "2^6"
       working: |
-        Using the law of indices, $(a^m) \times (a^n) = a^{m+n}$, we have $(3^4) \times (3^2) = 3^{4+2} = 3^6$.
+        Divide 64 repeatedly by 2:
+        64 ÷ 2 = 32
+        32 ÷ 2 = 16
+        16 ÷ 2 = 8
+        8 ÷ 2 = 4
+        4 ÷ 2 = 2
+        2 ÷ 2 = 1
+        The number 2 is divided 6 times (n = 6).
+        Hence, $64 = 2^6$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: 'Applies the correct law of indices to add the indices.'
+        criteria: "Shows the correct repeated division by 2."
       - marks: 1
-        criteria: 'Correctly calculates $3^6$.'
+        criteria: "Correctly states the final index form as 2^6."
     hints:
       - level: 1
-        text: 'MISCONCEPTION ALERT: Remember, multiply bases, add indices.'
+        text: "Set up a division ladder. Keep dividing 64 by 2 until you reach a final quotient of 1."
 
-  # Group by learning objective 1.2.4
   - id: Q4
-    text: 'Evaluate $5^0$ and explain why any non-zero number to the power of 0 is 1.'
-    difficulty: medium
-    learning_objective: 1.2.4
-    tp_level: 3
-    kbat: true
+    text: "Calculate the value of $(-3)^3$."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.1.2
     answer:
-      type: free_text
-      value: '1'
+      type: multiple_choice
+      value: "-27"
       working: |
-        Any number to the power of 0 is 1 because as we decrease the index by 1, we divide by the base, and dividing by the base eventually scales to 1.
+        $(-3)^3 = (-3) \times (-3) \times (-3)$
+        $(-3) \times (-3) = 9$
+        $9 \times (-3) = -27$
+    distractors:
+      - value: "27"
+        feedback: "Be careful with the signs! A negative base raised to an odd power remains negative."
+      - value: "-9"
+        feedback: "You multiplied -3 by the index 3. You need to multiply -3 by itself 3 times!"
+      - value: "9"
+        feedback: "You squared the number instead of cubing it."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly evaluates to -27."
+    hints:
+      - level: 1
+        text: "Expand the index form into a multiplication sentence and solve it step-by-step from left to right."
+
+  - id: Q5
+    text: "Simplify the following expression using the laws of indices: $3^2 \times 3^5$."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 1.2.1
+    answer:
+      type: exact
+      value: "3^7"
+      working: |
+        When multiplying numbers in index form with the same base, add the indices.
+        Rule: $a^m \times a^n = a^{m+n}$
+        $3^2 \times 3^5 = 3^{2+5} = 3^7$
     marks: 2
     rubric:
       - marks: 1
-        criteria: 'Correctly evaluates $5^0$ as 1.'
+        criteria: "Keeps the base correctly as 3."
       - marks: 1
-        criteria: 'Provides a logical explanation for why any non-zero number to the power of 0 is 1.'
+        criteria: "Adds the indices correctly to obtain 7."
     hints:
       - level: 1
-        text: 'Consider what happens when you reduce the power by 1 each time.'
+        text: "Look at the operation. For multiplication of the same base, what is the shortcut for combining their indices?"
 
-  # Group by learning objective 1.2.5
-  - id: Q5
-    text: 'Express $\sqrt[3]{8}$ using a fractional index and simplify.'
+  - id: Q6
+    text: "Simplify the following expression using the laws of indices: $2^6 \div 2^2$."
     difficulty: medium
-    learning_objective: 1.2.5
     tp_level: 3
-    kbat: true
+    kbat: false
+    learning_objective: 1.2.2
     answer:
       type: exact
-      value: '2'
+      value: "2^4"
       working: |
-        $\sqrt[3]{8}$ can be written as $8^{1/3}$. Since $8 = 2^3$, we have $8^{1/3} = (2^3)^{1/3} = 2^{3 \times (1/3)} = 2^1 = 2$.
+        When dividing numbers in index form with the same base, subtract the indices.
+        Rule: $a^m \div a^n = a^{m-n}$
+        $2^6 \div 2^2 = 2^{6-2} = 2^4$
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Uses the subtraction rule for division of indices correctly."
+      - marks: 1
+        criteria: "States the simplified answer as 2^4."
+    hints:
+      - level: 1
+        text: "Division with the same base means reducing the number of repeated factors. Which mathematical operation reflects reduction?"
+
+  - id: Q7
+    text: "Determine whether the following statement is True or False: $(3^2)^4 = 3^6$."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 1.2.3
+    answer:
+      type: multiple_choice
+      value: "False"
+      working: |
+        Rule: $(a^m)^n = a^{m \times n}$
+        $(3^2)^4 = 3^{2 \times 4} = 3^8$.
+        Since $3^8 \neq 3^6$, the statement is False.
+    distractors:
+      - value: "True"
+        feedback: "When a number in index form is raised to a power, you must MULTIPLY the indices, not add them!"
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifies the statement as False."
+    hints:
+      - level: 1
+        text: "Recall the bracket law for indices. When a power is outside the bracket, do you add or multiply it with the power inside?"
+
+  - id: Q8
+    text: "Simplify $4^{-2}$. Express your answer as a proper fraction."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 1.2.4
+    answer:
+      type: multiple_choice
+      value: "1/16"
+      working: |
+        A negative index indicates a reciprocal.
+        Rule: $a^{-n} = \displaystyle\frac{1}{a^n}$
+        $4^{-2} = \displaystyle\frac{1}{4^2}$
+        Calculate the value: $\displaystyle\frac{1}{4 \times 4} = \displaystyle\frac{1}{16}$
+    distractors:
+      - value: "-16"
+        feedback: "A negative index does not mean the answer is negative! It indicates a reciprocal (moving it to the denominator)."
+      - value: "-8"
+        feedback: "You multiplied 4 by -2. A negative index creates a fraction!"
+      - value: "1/8"
+        feedback: "You moved it to the denominator but multiplied 4 by 2 instead of squaring it."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifies the fraction 1/16."
+    hints:
+      - level: 1
+        text: "Move the base to the bottom floor (denominator) to make the index positive. Then solve it normally."
+
+  - id: Q9
+    text: "Express the following number in the form $\sqrt[n]{a^m}$: $125^{2/3}$. Then, calculate its final value without using a calculator."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 1.2.5
+    answer:
+      type: exact
+      value: "(\\sqrt[3]{125})^2; 25"
+      working: |
+        Using the relationship $a^{m/n} = (\sqrt[n]{a})^m$:
+        $125^{2/3} = (\sqrt[3]{125})^2$
+        Calculate the cube root first:
+        $\sqrt[3]{125} = 5$
+        Calculate the square:
+        $5^2 = 25$
     marks: 3
     rubric:
       - marks: 1
-        criteria: 'Correctly expresses $\sqrt[3]{8}$ as $8^{1/3}$.'
+        criteria: "Correctly identifies the denominator (3) as the root and the numerator (2) as the power."
       - marks: 1
-        criteria: 'Simplifies $8^{1/3}$ to $2$.'
+        criteria: "Calculates the cube root of 125 as 5."
       - marks: 1
-        criteria: 'Correctly interprets the fractional index.'
+        criteria: "Squares the 5 to get the final answer 25."
     hints:
       - level: 1
-        text: 'Express 8 as a power of 2 first.'
-      - level: 2
-        text: 'Apply the property $(a^m)^n = a^{m \times n}$.'
+        text: "In a fractional index, the denominator is the root of the tree, and the numerator is the power in the branches."
+
+  - id: Q10
+    text: "Simplify the following expression using the laws of indices: $\displaystyle\frac{(2^3 \times 3^2)^2}{2^4 \times 3^3}$."
+    difficulty: medium
+    tp_level: 4
+    kbat: false
+    learning_objective: 1.2.6
+    answer:
+      type: exact
+      value: "12"
+      working: |
+        Apply the law $(a^m b^n)^q = a^{mq} b^{nq}$ to expand the numerator:
+        $(2^3 \times 3^2)^2 = 2^{3 \times 2} \times 3^{2 \times 2} = 2^6 \times 3^4$
+        Apply the division law $a^m / a^n = a^{m-n}$:
+        $\displaystyle\frac{2^6 \times 3^4}{2^4 \times 3^3} = 2^{6-4} \times 3^{4-3}$
+        Simplify indices:
+        $= 2^2 \times 3^1$
+        Calculate final value:
+        $= 4 \times 3 = 12$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly expands the brackets in the numerator."
+      - marks: 1
+        criteria: "Correctly applies the division law by subtracting indices for identical bases."
+      - marks: 1
+        criteria: "Evaluates the final numerical value accurately as 12."
+    hints:
+      - level: 1
+        text: "First, distribute the outside power (2) to the indices inside the bracket. Then, group the bases 2 and 3 separately."
+
+  - id: Q11
+    text: "Simplify the following expression: $\displaystyle\frac{(2x^2 y^{-3})^3}{4x^{-1} y^4}$. Express your answer with positive indices."
+    difficulty: hard
+    tp_level: 4
+    kbat: false
+    learning_objective: 1.2.6
+    answer:
+      type: exact
+      value: "2x^7 / y^13"
+      working: |
+        Expand the numerator:
+        $(2x^2 y^{-3})^3 = 2^3 x^{2 \times 3} y^{-3 \times 3} = 8x^6 y^{-9}$
+        The expression becomes:
+        $\displaystyle\frac{8x^6 y^{-9}}{4x^{-1} y^4}$
+        Divide the coefficients: $8 / 4 = 2$.
+        Subtract the indices for base x: $6 - (-1) = 6 + 1 = 7$.
+        Subtract the indices for base y: $-9 - 4 = -13$.
+        Combine terms: $2x^7 y^{-13}$.
+        Convert to positive indices: $\displaystyle\frac{2x^7}{y^{13}}$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly expands the numerator to 8x^6 y^{-9}."
+      - marks: 1
+        criteria: "Correctly applies the division law to the variables, resulting in x^7 and y^{-13}."
+      - marks: 1
+        criteria: "Expresses the final answer with positive indices."
+    hints:
+      - level: 1
+        text: "Apply the power outside the bracket to the coefficient (2) as well! When dividing variables, subtract the bottom index from the top index."
+
+  - id: Q12
+    text: "Simplify the following expression involving fractional and negative indices: $\displaystyle\frac{(16p^8q^4)^{1/4}}{(p^{-2}q^3)^2}$."
+    difficulty: hard
+    tp_level: 4
+    kbat: false
+    learning_objective: 1.2.6
+    answer:
+      type: exact
+      value: "2p^6 / q^5"
+      working: |
+        Expand the numerator by multiplying indices by 1/4:
+        $(16p^8q^4)^{1/4} = 16^{1/4} p^{8/4} q^{4/4} = 2p^2q^1$
+        Expand the denominator by multiplying indices by 2:
+        $(p^{-2}q^3)^2 = p^{-2 \times 2} q^{3 \times 2} = p^{-4} q^6$
+        Divide the numerator by the denominator:
+        $\displaystyle\frac{2p^2q^1}{p^{-4} q^6}$
+        Base p: $2 - (-4) = 2 + 4 = 6$.
+        Base q: $1 - 6 = -5$.
+        Result: $2p^6 q^{-5} = \displaystyle\frac{2p^6}{q^5}$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly calculates the numerator as 2p^2q^1."
+      - marks: 1
+        criteria: "Correctly calculates the denominator as p^{-4} q^6."
+      - marks: 1
+        criteria: "Divides accurately and converts the final answer to positive indices."
+    hints:
+      - level: 1
+        text: "The power $1/4$ means the 4th root. Find the 4th root of 16, and multiply the indices of the variables by $1/4$."
+
+  - id: Q13
+    text: "Calculate the value of $x$ for the following equation: $3^x \times 9^{x-1} = 27$."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 1.2.7
+    answer:
+      type: exact
+      value: "5/3"
+      working: |
+        Convert all numbers to a common prime base (base 3):
+        $9 = 3^2$, so $9^{x-1} = (3^2)^{x-1} = 3^{2x-2}$
+        $27 = 3^3$
+        Substitute these into the equation:
+        $3^x \times 3^{2x-2} = 3^3$
+        Apply the multiplication law (add indices on the left side):
+        $3^{x + 2x - 2} = 3^3$
+        $3^{3x - 2} = 3^3$
+        Equate the indices (since bases are identical):
+        $3x - 2 = 3$
+        $3x = 5$
+        $x = \displaystyle\frac{5}{3}$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Expresses all terms (9 and 27) in the common base of 3."
+      - marks: 1
+        criteria: "Correctly combines the indices and forms a linear equation (3x - 2 = 3)."
+      - marks: 1
+        criteria: "Solves for x accurately to get 5/3."
+    hints:
+      - level: 1
+        text: "Rewrite 9 and 27 as powers of 3. Once all the bases match, you can drop them and solve the indices as a standard algebra equation."
+
+  - id: Q14
+    text: "Solve the following simultaneous equations to find the values of $x$ and $y$:\n$8^x \times 2^y = 32$\n$3^x \div 9^y = \displaystyle\frac{1}{27}$"
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 1.2.7
+    answer:
+      type: exact
+      value: "x = 1, y = 2"
+      working: |
+        Equation 1 (Convert to base 2):
+        $(2^3)^x \times 2^y = 2^5$
+        $2^{3x+y} = 2^5$
+        $3x + y = 5$  --- (Eq 1)
+
+        Equation 2 (Convert to base 3):
+        $3^x \div (3^2)^y = 3^{-3}$
+        $3^{x-2y} = 3^{-3}$
+        $x - 2y = -3$ --- (Eq 2)
+
+        Solve using substitution method. From Eq 1:
+        $y = 5 - 3x$ --- (Eq 3)
+        Substitute Eq 3 into Eq 2:
+        $x - 2(5 - 3x) = -3$
+        $x - 10 + 6x = -3$
+        $7x = 7 \Rightarrow x = 1$
+
+        Substitute x=1 into Eq 3:
+        $y = 5 - 3(1) = 2$
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Converts the first equation entirely to base 2 to form the linear equation 3x + y = 5."
+      - marks: 1
+        criteria: "Converts the second equation entirely to base 3 to form the linear equation x - 2y = -3."
+      - marks: 1
+        criteria: "Correctly identifies the value of x as 1 using a valid elimination or substitution method."
+      - marks: 1
+        criteria: "Correctly identifies the value of y as 2."
+    hints:
+      - level: 1
+        text: "Convert all bases in the first equation to base 2 and all bases in the second equation to base 3. This will give you two simple linear equations you can solve together."
+
+  - id: Q15
+    text: "In an experiment performed by Susan, the temperature of a metal rose from $25^{\circ}C$ to $T^{\circ}C$ according to the equation $T = 25(1.2)^m$ when the metal was heated for $m$ seconds. Calculate the difference in temperature between the fifth second and the sixth second, to the nearest degree Celsius."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 1.2.7
+    answer:
+      type: exact
+      value: "12"
+      working: |
+        Calculate the temperature at the fifth second ($m = 5$):
+        $T_5 = 25(1.2)^5 = 25(2.48832) = 62.208^{\circ}C$
+
+        Calculate the temperature at the sixth second ($m = 6$):
+        $T_6 = 25(1.2)^6 = 25(2.985984) = 74.6496^{\circ}C$
+
+        Calculate the difference in temperature:
+        Difference = $T_6 - T_5$
+        $= 74.6496 - 62.208 = 12.4416^{\circ}C$
+
+        Round to the nearest degree Celsius:
+        $= 12^{\circ}C$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly substitutes m=5 and m=6 into the formula to find the two specific temperatures."
+      - marks: 1
+        criteria: "Finds the exact difference between the two temperatures (12.4416)."
+      - marks: 1
+        criteria: "Correctly rounds the answer to the nearest whole number (12)."
+    hints:
+      - level: 1
+        text: "Substitute $m = 5$ into the equation to find the temperature at the 5th second. Do the same for $m = 6$, and then subtract the smaller value from the larger one."
+
+  - id: Q16
+    text: "Mrs Kiran Kaur saved RM50 000 on 1 March 2019 in a local bank with an interest of 3.5% per annum. After $t$ years, her total savings, in RM, is given by the formula $50 000(1.035)^t$. Calculate her total savings on 1 March 2025, if she does not withdraw her savings. Round your answer to the nearest RM."
+    difficulty: hard
+    tp_level: 6
+    kbat: true
+    learning_objective: 1.2.7
+    answer:
+      type: exact
+      value: "61463"
+      working: |
+        Determine the value of t (number of years from 2019 to 2025):
+        t = 2025 - 2019 = 6.
+        Substitute t = 6 into the given formula:
+        Savings = $50 000(1.035)^6$
+        Calculate the value of the index:
+        $(1.035)^6 \approx 1.229255$
+        Multiply by the base amount:
+        $50 000 \times 1.229255 = 61462.75$
+        Round to the nearest RM:
+        RM61463
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifies t = 6."
+      - marks: 1
+        criteria: "Substitutes t=6 into the formula and calculates the raw value (approx 61462.75)."
+      - marks: 1
+        criteria: "Rounds the final answer correctly to the nearest whole number (61463)."
+    hints:
+      - level: 1
+        text: "First, find out how many years have passed between 2019 and 2025. Then, replace 't' in the formula with that number."
+
+  - id: Q17
+    text: "Chong and Navin performed an experiment to determine the relationship between variables $x$ and $y$. The equation Chong obtained was $16(4^x) = 16^y$, while the equation Navin got was $3(9^x) = 27^y$. Calculate the values of $x$ and $y$ which satisfy both experiments."
+    difficulty: hard
+    tp_level: 6
+    kbat: true
+    learning_objective: 1.2.7
+    answer:
+      type: exact
+      value: "x = 4, y = 3"
+      working: |
+        Equation 1 (Chong): $16(4^x) = 16^y$
+        Convert 16 to base 4: $4^2(4^x) = (4^2)^y$
+        $4^{2+x} = 4^{2y}$
+        Equate indices: $2 + x = 2y$  --- (Eq 1)
+
+        Equation 2 (Navin): $3(9^x) = 27^y$
+        Convert 9 and 27 to base 3: $3^1(3^2)^x = (3^3)^y$
+        $3^{1+2x} = 3^{3y}$
+        Equate indices: $1 + 2x = 3y$ --- (Eq 2)
+
+        Solve simultaneous equations using substitution:
+        From Eq 1: $x = 2y - 2$
+        Substitute into Eq 2:
+        $1 + 2(2y - 2) = 3y$
+        $1 + 4y - 4 = 3y$
+        $4y - 3 = 3y \Rightarrow y = 3$
+
+        Substitute y = 3 into x = 2y - 2:
+        $x = 2(3) - 2 = 6 - 2 = 4$
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Forms the first linear equation (2 + x = 2y) by converting bases to 4 or 2."
+      - marks: 1
+        criteria: "Forms the second linear equation (1 + 2x = 3y) by converting bases to 3."
+      - marks: 1
+        criteria: "Correctly finds the value of y as 3."
+      - marks: 1
+        criteria: "Correctly finds the value of x as 4."
+    hints:
+      - level: 1
+        text: "You have two equations. For the first one, convert all numbers to base 4. For the second, convert all numbers to base 3. Then, solve the two index equations simultaneously."

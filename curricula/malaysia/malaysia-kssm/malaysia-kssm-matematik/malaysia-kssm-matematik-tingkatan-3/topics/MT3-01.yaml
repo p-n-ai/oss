@@ -1,81 +1,86 @@
 id: MT3-01
-official_ref: "Bab 1" # as printed in KSSM DSKP document
-name: "Indeks"
+official_ref: "Bab 1"
 name_en: "Indices"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-3
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: intermediate
 tier: core
+
+content_standards:
+  - id: "1.1"
+    text_en: "Index Notation"
+  - id: "1.2"
+    text_en: "Law of Indices"
+
 learning_objectives:
-    - id: 1.1.1
-      text: "Represent repeated multiplication in index form and explain the meaning of base and index (SP 1.1.1)."
-      bloom: understand
-    - id: 1.1.2
-      text: "Convert between ordinary numerical expressions and index form accurately (SP 1.1.2)."
-      bloom: apply
-    - id: 1.2.1
-      text: "Generalize the law for multiplying numbers in index form with the same base from repeated multiplication patterns (SP 1.2.1)."
-      bloom: analyze
-    - id: 1.2.2
-      text: "Generalize the law for dividing numbers in index form with the same base from repeated multiplication patterns (SP 1.2.2)."
-      bloom: analyze
-    - id: 1.2.3
-      text: "Relate powers of numbers in index form to repeated multiplication and use the pattern to form a rule (SP 1.2.3)."
-      bloom: analyze
-    - id: 1.2.4
-      text: "Verify and use the meanings of zero and negative indices for non-zero bases (SP 1.2.4)."
-      bloom: apply
-    - id: 1.2.5
-      text: "Connect fractional indices with roots and powers in equivalent forms (SP 1.2.5)."
-      bloom: analyze
-    - id: 1.2.6
-      text: "Perform calculations involving the laws of indices accurately (SP 1.2.6)."
-      bloom: apply
-    - id: 1.2.7
-      text: "Solve contextual and non-routine problems involving the laws of indices with justified working (SP 1.2.7)."
-      bloom: analyze
+  - id: 1.1.1
+    text_en: "Represent repeated multiplication in index form and describe its meaning."
+    bloom: understand
+  - id: 1.1.2
+    text_en: "Rewrite a number in index form and vice versa."
+    bloom: apply
+  - id: 1.2.1
+    text_en: "Relate the multiplication of numbers in index form with the same base, to repeated multiplications, and hence make generalisation."
+    bloom: analyze
+  - id: 1.2.2
+    text_en: "Relate the division of numbers in index form with the same base, to repeated multiplications, and hence make generalisation."
+    bloom: analyze
+  - id: 1.2.3
+    text_en: "Relate the numbers in index form raised to a power, to repeated multiplication, and hence make generalisation."
+    bloom: analyze
+  - id: 1.2.4
+    text_en: "Verify that a^0 = 1 and a^-n = 1/a^n ; a ≠ 0."
+    bloom: understand
+  - id: 1.2.5
+    text_en: "Determine and state the relationship between fractional indices and roots and powers."
+    bloom: apply
+  - id: 1.2.6
+    text_en: "Perform operations involving laws of indices."
+    bloom: apply
+  - id: 1.2.7
+    text_en: "Solve problems involving laws of indices."
+    bloom: apply
+
 prerequisites:
-    required:
-        - MT1-05
-        - MT1-06
-        - MT2-02
-    recommended:
-        - MT2-03
-bloom_levels:
-    - understand
-    - apply
-    - analyze
+  required: 
+    - "MT1-03"
+    - "MT1-05"
+  recommended: 
+    - "MT2-02"
+
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Step 1: Introduction to Index Notation (20 min)"
+    - "Step 2: Discovering Multiplication & Division Laws (25 min)"
+    - "Step 3: Power of a Power & Combined Operations (25 min)"
+    - "Step 4: Zero, Negative & Fractional Indices (30 min)"
+    - "Step 5: Problem Solving (30 min)"
+  common_misconceptions:
+    - misconception: "Confusing index notation with linear multiplication (e.g., a^n = a * n)."
+      remediation: "Force the student to write out the expanded form first. Prove that 4^3 = 4 * 4 * 4 = 64, not 4 * 3 = 12."
+    - misconception: "Adding bases instead of indices, or misapplying multiplication to indices (e.g., a^m * a^n = a^(m*n))."
+      remediation: "Prove via expansion that indices represent a count of the base. Counting requires addition, not multiplication."
+    - misconception: "Believing that a^0 = 0 due to the 'Zero Property' of multiplication."
+      remediation: "Demonstrate a^n / a^n = 1 using division laws to logically prove why a^0 must equal 1."
+    - misconception: "Thinking a negative index (a^-n) results in a negative mathematical value (-a^n)."
+      remediation: "Demonstrate that a negative index is simply a 'positional' instruction to move the base to the denominator (reciprocal)."
+  engagement_hooks:
+    - "Digital Storage Pattern: Discuss how smartphone memory and pendrives follow the base 2 index pattern (2^n)."
+    - "The Kenyir Lake Catchment: Use indices to express massive volumes of water (13,600 million cubic metres)."
+    - "Pascal's Triangle Link: Connect the sum of rows in Pascal's Triangle to the 2^n sequence."
+
+quality_level: 3
+provenance: ai-assisted
 ai_teaching_notes: "MT3-01.teaching.md"
 assessments_file: "MT3-01.assessments.yaml"
-quality_level: 2
-provenance: ai-assisted
-examples_file: MT3-01.examples.yaml
-teaching:
-    sequence:
-        - 'Step 1: Introduce index notation with real-world examples (20 min)'
-        - 'Step 2: Discover multiplication and division laws through expansion (25 min)'
-        - 'Step 3: Teach power of a power and combined operations (25 min)'
-        - 'Step 4: Explain zero, negative, and fractional indices with patterns (30 min)'
-        - 'Step 5: Solve contextual problems using laws of indices (30 min)'
-    common_misconceptions:
-        - misconception: Students think a^n = a * n
-          remediation: Use expanded form to show a^n as repeated multiplication
-        - misconception: Students apply a^m * a^n = a^(m * n)
-          remediation: Demonstrate that indices are added, not multiplied
-        - misconception: Students believe a^0 = 0
-          remediation: Show division law a^n / a^n = 1 to explain a^0 = 1
-        - misconception: Students confuse a^-n with -a^n
-          remediation: Explain negative index as reciprocal, not negative value
-engagement_hooks:
-    - Discuss digital storage capacities following 2^n pattern
-    - Use Pascal's Triangle to show sums as powers of 2
-    - Relate Kenyir Lake's volume to index notation for large numbers
+examples_file: "MT3-01.examples.yaml"

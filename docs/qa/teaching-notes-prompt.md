@@ -5,8 +5,11 @@
 
 ## ⚠️ Input Context Constraints
 Before you audit or rewrite anything, you **MUST** be provided with the corresponding topic metadata file (e.g., `MT2-01.yaml`). 
-*   **The YAML represents the Ground Truth.** All *Standard Kandungan* (Content Standards), *Standard Pembelajaran* (Learning Standards), and *Tahap Penguasaan* (Performance Standards) in the final teaching notes must be a strict, word-for-word copy from the provided YAML file. Do not summarize or invent your own standard descriptions.
-*   **Tutor Perspective Alignment.** The Teaching Notes are instructions *for the AI Tutor* on how to teach the student. Do NOT address the reader of the note as a human teacher (e.g., do not say "prepare your students, Cikgu!"). Instead, direct the AI to teach *the student* (e.g., "prepare to mind-blow the student!").
+*   **The YAML represents the Ground Truth.** All *Standard Kandungan* (Content Standards), *Standard Pembelajaran* (Learning Standards), and *Tahap Penguasaan* (Performance Standards) in the final teaching notes must be a strict copy from the provided YAML file. 
+    *   **The English `.teaching.md` (Root)** must pull strictly from the `text_en` values of the master `[ID].yaml`.
+    *   **The Bahasa Melayu `.teaching.md` (Translation)** must pull strictly from the `text` values of the translated `translations/ms/[ID].yaml`.
+*   **Strict Language Enforcement (Root = English):** The ROOT `.teaching.md` file MUST be written 100% in **English**. All tactical instructions, DSKP translations, headers, and descriptions must be English. The ONLY exception is the specific chatbot delivery dialog/analogies, which should use conversational "Manglish" (mixed Malay-English) as the student will read it.
+*   **Tutor Perspective Alignment.** The Teaching Notes are instructions *for the AI Tutor* on how to teach the student. Do NOT address the reader of the note as a human teacher. Instead, direct the AI to teach *the student* (e.g., "prepare to mind-blow the student!").
 
 ---
 
@@ -58,8 +61,9 @@ The final rewritten teaching note **MUST** contain exactly these 8 sections in o
 2.  **EN:** `#### DSKP Anchors & Taxonomy` | **BM:** `#### Teras DSKP & Taksonomi`: Exact SK, SP, and TP pulled from the YAML.
 3.  **EN:** `#### Prerequisites Check` | **BM:** `#### Semakan Prasyarat`: Bullet list with links to previous topics.
 4.  **EN:** `#### Teaching Sequence & Strategy` | **BM:** `#### Susunan & Strategi Pengajaran`: 
-    *   Broken down into `#####` sub-chapters matching the Learning Standards.
-    *   **Every** sub-chapter MUST contain exactly these internal sections (do not invent variations):
+    *   **Subchapters (Standard Kandungan):** The sequence MUST be grouped under the respective Content Standard. Use the ID and title provided in `content_standards` from the YAML (e.g. `##### 1.1 Tatatanda Indeks`).
+    *   Under each Subchapter, list the instructional steps.
+    *   **Every** step MUST contain exactly these internal sections:
         *   **EN:** `*   **Strategies:**`, `*   **Check for Understanding (CFU):**`, `*   **The Trap:**`
         *   **BM:** `*   **Strategi:**`, `*   **Semak Kefahaman (CFU):**`, `*   **Perangkap Biasa (The Trap):**`
 5.  **EN:** `#### High Alert Misconceptions` | **BM:** `#### Perangkap & Salah Konsep Biasa`: A Markdown table mapping common errors.

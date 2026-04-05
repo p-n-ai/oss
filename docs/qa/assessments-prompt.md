@@ -35,13 +35,23 @@ The rubric explicitly states what criteria earn a mark. The **`hints` array must
 *   **Rule:** The AI must use the hints to instruct the student on *how* to achieve the rubric criteria without giving away the final number.
 
 ### 4. Distractor Logic & Error Feedback
-For multiple-choice or objective questions, the `distractors` array is critical. 
+For multiple-choice or objective questions, the `answer` block must include the `working` field:
+    type: [exact|range|multiple_choice|free_text]
+    value: "[Correct Answer]"
+    working: |
+      Step 1: [Calculation]
+      Step 2: [Result]
+  distractors: # Required only for multiple_choice
+    - value: "[Wrong Choice 1]"
+      feedback: "[Specific pedagogical feedback on why this is wrong]"
 *   Every distractor `value` must be a mathematically plausible wrong answer resulting from a specific, common misconception.
 *   The `feedback` field must explicitly tell the chatbot how to correct the misconception.
 *   *Example Distractor Feedback:* "You forgot to distribute the negative sign to the second term inside the bracket. Remember the 'Naked Numerator' trap!"
 
-### 5. Bilingual Standard 
-Because KSSM Mathematics is taught in Malay, ensure that all mathematical context, `text`, `hints`, `rubrics`, and `distractors` are perfectly translated into natural, KSSM-standard Bahasa Melayu (unless the file is strictly an English locale version).
+### 5. Strict Language Enforcement (Root = English)
+The ROOT (master) `assessments.yaml` file MUST be written 100% in **English**. This includes ALL content: `text`, `hints`, `rubrics`, `distractors`, and `feedback`. 
+*   **Source of Truth:** The root file must pull from the `text_en` values of the master `[ID].yaml`.
+*   **Translation Folder:** The Bahasa Melayu version must ONLY be requested for the `translations/ms/` directory and should pull from the `text` values of the translated `translations/ms/[ID].yaml`.
 
 ---
 
@@ -57,4 +67,9 @@ Evaluate the draft against the Checklist.
 Write "🚨 PASS" or "❌ FAIL" followed by a 1-sentence justification for each pillar. Analyze where the draft fell short.
 
 ### Phase 2: The Golden Version
-Output the fully rewritten `assessments.yaml` file enclosed in a single yaml code block (` ```yaml ... ``` `). Do not invent new learning objectives that do not exist in the source syllabus.
+Output the fully rewritten `assessments.yaml` file enclosed in a single yaml code block (` ```yaml ... ``` `). 
+
+> [!IMPORTANT]
+> **Nested Structure Rule:** You MUST nest the `working` field inside the `answer` object. Do NOT place it as a root property of the question.
+
+Do not invent new learning objectives that do not exist in the source syllabus.
