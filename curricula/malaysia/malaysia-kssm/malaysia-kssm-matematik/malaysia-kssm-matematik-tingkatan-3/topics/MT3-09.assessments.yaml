@@ -1,47 +1,54 @@
 topic_id: MT3-09
 provenance: ai-assisted
 questions:
-  # ---------------------------------------------------------
-  # SUBCHAPTER 9.1.1: Mengenal Persamaan Garis Lurus
-  # ---------------------------------------------------------
+##### ---------------------------------------------------------
+##### SUBCHAPTER 9.1.1: Understanding the Equation of a Straight Line
+##### ---------------------------------------------------------
   - id: Q1
-    text: "For the straight line $y = 3x - 4$, state the gradient and the y-intercept."
+    text: "For the straight line $2y = 6x - 4$, identify the gradient and the y-intercept."
     difficulty: easy
     tp_level: 1
     kbat: false
     learning_objective: 9.1.1
-    answer:
-      type: exact
-      value: "Gradient = 3, y-intercept = -4"
+    answer: 
+      type: multiple_choice
+      value: "Gradient = 3, y-intercept = -2"
+      distractors:
+        - value: "Gradient = 6, y-intercept = -4"
+          feedback: "The 'Fake Gradient' Trap! You must divide the entire equation by 2 so that $y$ is completely alone before reading $m$ and $c$."
+        - value: "Gradient = -3, y-intercept = 2"
+          feedback: "Watch your signs! You are dividing by a positive 2, so the signs do not flip."
+        - value: "Gradient = 3, y-intercept = -4"
+          feedback: "You divided the $x$ term by 2, but you forgot to divide the constant term at the end by 2 as well."
       working: |
-        Compare the given equation $y = 3x - 4$ with the general form $y = mx + c$.
-        The coefficient of $x$ is the gradient ($m$), so $m = 3$.
-        The constant term is the y-intercept ($c$), so $c = -4$.
+        Compare the equation 2y = 6x - 4 with the general form y = mx + c.
+        Divide the entire equation by 2 to isolate y:
+        y = (6/2)x - (4/2)
+        y = 3x - 2
+        The gradient (m) is 3, and the y-intercept (c) is -2.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Correctly identifies the gradient as 3."
+        criteria: "Correctly identifies the gradient by dividing by 2."
       - marks: 1
-        criteria: "Correctly identifies the y-intercept as -4. Accept these facts in any order."
+        criteria: "Correctly identifies the y-intercept by dividing by 2."
     hints:
       - level: 1
-        text: "Match the equation with the standard form $y = mx + c$, where $m$ is the gradient and $c$ is the y-intercept."
+        text: "Before you can read the gradient, $y$ must be completely alone. What do you need to divide the whole equation by?"
 
   - id: Q2
-    text: >-
-      State the equation of a straight line that is parallel to the x-axis and passes
-      through the point $P(-2, 6)$.
+    text: "State the equation of a straight line that is parallel to the x-axis and passes through the point $P(-2, 6)$."
     difficulty: easy
     tp_level: 2
     kbat: false
     learning_objective: 9.1.1
-    answer:
+    answer: 
       type: exact
       value: "y = 6"
       working: |
-        A straight line parallel to the x-axis has a gradient of 0 and takes the form $y = k$.
-        Since the line passes through $P(-2, 6)$, the y-coordinate is consistently 6.
-        Thus, the equation is $y = 6$.
+        A straight line parallel to the x-axis has a gradient of 0 and takes the form y = k.
+        Since the line passes through P(-2, 6), the y-coordinate is consistently 6.
+        Thus, the equation is y = 6.
     marks: 2
     rubric:
       - marks: 1
@@ -50,23 +57,21 @@ questions:
         criteria: "Correctly states the equation as y = 6."
     hints:
       - level: 1
-        text: "A line parallel to the x-axis is perfectly horizontal, meaning its y-value never changes."
+        text: "A line parallel to the x-axis is perfectly horizontal, meaning its y-value never changes regardless of where you are on the line."
 
   - id: Q3
-    text: >-
-      A straight line is parallel to the y-axis and passes through the point $Q(4, -3)$.
-      What is the equation of this straight line?
+    text: "A straight line is parallel to the y-axis and passes through the point $Q(4, -3)$. What is the equation of this straight line?"
     difficulty: easy
     tp_level: 2
     kbat: false
     learning_objective: 9.1.1
-    answer:
+    answer: 
       type: exact
       value: "x = 4"
       working: |
-        A straight line parallel to the y-axis is a vertical line and takes the form $x = h$.
-        Since the line passes through $Q(4, -3)$, the x-coordinate is consistently 4.
-        Thus, the equation is $x = 4$.
+        A straight line parallel to the y-axis is a vertical line and takes the form x = h.
+        Since the line passes through Q(4, -3), the x-coordinate is consistently 4.
+        Thus, the equation is x = 4.
     marks: 2
     rubric:
       - marks: 1
@@ -75,62 +80,64 @@ questions:
         criteria: "Correctly states the equation as x = 4."
     hints:
       - level: 1
-        text: "A line parallel to the y-axis is perfectly vertical, meaning its x-value never changes."
+        text: "A line parallel to the y-axis is perfectly vertical, meaning its x-value is locked."
 
-  # ---------------------------------------------------------
-  # SUBCHAPTER 9.1.2: Menukar Bentuk Persamaan
-  # ---------------------------------------------------------
+##### ---------------------------------------------------------
+##### SUBCHAPTER 9.1.2: Converting Equation Forms
+##### ---------------------------------------------------------
   - id: Q4
-    text: "Change the equation of the straight line $3x - 5y = 15$ to the form $y = mx + c$."
+    text: "State the x-intercept and y-intercept for the straight line $\\frac{x}{6} + \\frac{y}{3} = 1$."
     difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 9.1.2
+    answer: 
+      type: multiple_choice
+      value: "x-intercept = 6, y-intercept = 3"
+      distractors:
+        - value: "x-intercept = 3, y-intercept = 6"
+          feedback: "Remember the 'Underneath Rule'! The number directly under $x$ is the x-intercept, and the number under $y$ is the y-intercept."
+        - value: "x-intercept = -6, y-intercept = -3"
+          feedback: "The equation has positive denominators. You do not need to flip the signs."
+      working: |
+        Compare the given equation with the intercept form: \frac{x}{a} + \frac{y}{b} = 1.
+        Here, a is the x-intercept and b is the y-intercept.
+        Therefore, x-intercept = 6 and y-intercept = 3.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly maps the a-denominator to the x-intercept."
+      - marks: 1
+        criteria: "Correctly maps the b-denominator to the y-intercept."
+    hints:
+      - level: 1
+        text: "Look at the standard intercept format: $\\frac{x}{a} + \\frac{y}{b} = 1$. What do $a$ and $b$ represent?"
+
+  - id: Q5
+    text: "Change the equation of the straight line $3x - 5y = 15$ to the form $y = mx + c$."
+    difficulty: medium
     tp_level: 3
     kbat: false
     learning_objective: 9.1.2
-    answer:
+    answer: 
       type: exact
-      value: "y = 3/5 x - 3"
+      value: "y = \\frac{3}{5}x - 3"
       working: |
-        $3x - 5y = 15$
-        $-5y = -3x + 15$
-        Divide the entire equation by $-5$ to isolate $y$:
-        $y = \displaystyle\frac{-3}{-5}x + \displaystyle\frac{15}{-5}$
-        $y = \displaystyle\frac{3}{5}x - 3$
+        3x - 5y = 15
+        Move the x term to the right side:
+        -5y = -3x + 15
+        Divide the entire equation by -5 to isolate y:
+        y = \frac{-3}{-5}x + \frac{15}{-5}
+        y = \frac{3}{5}x - 3
     marks: 2
     rubric:
       - marks: 1
         criteria: "Rearranges the terms to place y on one side and x on the other (-5y = -3x + 15)."
       - marks: 1
-        criteria: "Divides by -5 correctly to state the final equation in y = mx + c form. Accept equivalent decimal forms like y = 0.6x - 3."
+        criteria: "Divides by -5 correctly to state the final equation. Accept decimal forms like y = 0.6x - 3."
     hints:
       - level: 1
-        text: "You need to make $y$ the subject of the formula. Start by moving the $x$ term to the right side."
-
-  - id: Q5
-    text: >-
-      State the x-intercept and y-intercept for the straight line
-      $\displaystyle\frac{x}{6} + \displaystyle\frac{y}{3} = 1$.
-    difficulty: easy
-    tp_level: 2
-    kbat: false
-    learning_objective: 9.1.2
-    answer:
-      type: exact
-      value: "x-intercept = 6, y-intercept = 3"
-      working: |
-        Compare the given equation with the intercept form: $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$.
-        Here, $a$ is the x-intercept and $b$ is the y-intercept.
-        Therefore, x-intercept = 6 and y-intercept = 3.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Correctly states the x-intercept is 6."
-      - marks: 1
-        criteria: "Correctly states the y-intercept is 3."
-    hints:
-      - level: 1
-        text: >-
-          Look at the denominators in the equation format
-          $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$.
+        text: "You need to make $y$ the subject of the formula. Start by moving the $x$ term over to the right side."
 
   - id: Q6
     text: "Given the equation of a straight line is $2x + 5y = 30$, determine the x-intercept."
@@ -138,131 +145,99 @@ questions:
     tp_level: 3
     kbat: false
     learning_objective: 9.1.2
-    answer:
+    answer: 
       type: exact
       value: "15"
       working: |
-        For points that lie on the x-axis, the value of the y-coordinate is zero.
-        Substitute $y = 0$ into the equation:
-        $2x + 5(0) = 30$
-        $2x = 30$
-        $x = 15$
+        For points that lie exactly on the x-axis, the value of the y-coordinate is strictly zero.
+        Substitute y = 0 into the equation:
+        2x + 5(0) = 30
+        2x = 30
+        x = 15
         Therefore, the x-intercept is 15.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Substitutes y = 0 into the given equation."
+        criteria: "Recognizes that at the x-intercept, y = 0, and substitutes this into the equation."
       - marks: 1
         criteria: "Correctly calculates x = 15."
     hints:
       - level: 1
-        text: "The x-intercept is the point where the line crosses the x-axis. What is the value of $y$ at that exact point?"
+        text: "The x-intercept is the exact point where the line crashes into the x-axis. What must the value of $y$ be at that exact point?"
 
+##### ---------------------------------------------------------
+##### SUBCHAPTER 9.1.3 & 9.1.5: Points on Straight Lines & Constructing Equations
+##### ---------------------------------------------------------
   - id: Q7
-    # EXAM: UASA Bahagian A (OAP)
-    text: >-
-      Write the equation of the straight line in the form $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$
-      given that its x-intercept is 4 and its y-intercept is -7.
-    difficulty: easy
-    tp_level: 2
-    kbat: false
-    learning_objective: 9.1.2
-    answer:
-      type: exact
-      value: "x/4 - y/7 = 1"
-      working: |
-        The formula for the intercept form is $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$.
-        Substitute $a = 4$ (x-intercept) and $b = -7$ (y-intercept).
-        $\displaystyle\frac{x}{4} + \displaystyle\frac{y}{-7} = 1$
-        $\displaystyle\frac{x}{4} - \displaystyle\frac{y}{7} = 1$
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Substitutes the intercepts into the correct denominators."
-      - marks: 1
-        criteria: "Expresses the final equation correctly, handling the negative sign properly. Accept forms with added spaces like x/4 - y/7 = 1."
-    hints:
-      - level: 1
-        text: >-
-          In the formula $\displaystyle\frac{x}{a} + \displaystyle\frac{y}{b} = 1$,
-          $a$ represents the x-intercept and $b$ represents the y-intercept.
-
-  # ---------------------------------------------------------
-  # SUBCHAPTER 9.1.3 & 9.1.5: Titik pada Garis Lurus & Membina Persamaan
-  # ---------------------------------------------------------
-  - id: Q8
-    text: "Determine whether the point $P(2, 8)$ lies on the straight line $y = 3x + 2$."
+    text: "Which of the following points lies on the straight line $y = 3x + 2$?"
     difficulty: medium
     tp_level: 3
     kbat: false
     learning_objective: 9.1.3
-    answer:
-      type: exact
-      value: "Yes"
+    answer: 
+      type: multiple_choice
+      value: "(2, 8)"
+      distractors:
+        - value: "(1, 6)"
+          feedback: "If $x=1$, then $3(1) + 2 = 5$, not 6. The left side does not equal the right side."
+        - value: "(3, 10)"
+          feedback: "If $x=3$, then $3(3) + 2 = 11$, not 10. The point does not satisfy the equation."
       working: |
-        Substitute $x = 2$ and $y = 8$ into the equation $y = 3x + 2$.
-        Left side: $y = 8$
-        Right side: $3(2) + 2 = 6 + 2 = 8$
-        Since Left side = Right side, the point $P(2, 8)$ satisfies the equation.
-        Therefore, $P(2, 8)$ lies on the straight line.
+        Test point (2, 8) by substituting x = 2 and y = 8 into y = 3x + 2.
+        Left side: y = 8
+        Right side: 3(2) + 2 = 6 + 2 = 8
+        Since Left side = Right side, the point (2, 8) perfectly satisfies the equation.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Substitutes x = 2 into the expression 3x + 2 and calculates 8."
+        criteria: "Substitutes the x and y values of the options into the equation."
       - marks: 1
-        criteria: "Makes the correct conclusion that the point lies on the line."
+        criteria: "Correctly identifies (2, 8) as the balancing point."
     hints:
       - level: 1
-        text: "Substitute the x-coordinate of the point into the equation. Does it give you the same value as the y-coordinate?"
+        text: "For a point to 'lie on a line', plugging its $x$ coordinate into the equation must produce its exact $y$ coordinate."
 
-  - id: Q9
-    # EXAM: UASA Bahagian B (OPB)
-    text: >-
-      Ali substitutes the coordinates of point $R(1, 2)$ into the straight line equation $x + 2y = 4$.
-      He finds that the left side equals $5$, while the right side equals $4$. Explain what this means
-      regarding the position of point $R$.
+  - id: Q8
+    text: "Ali substitutes the coordinates of point $R(1, 2)$ into the straight line equation $x + 2y = 4$. He finds that the left side equals $5$, while the right side equals $4$. Explain what this means regarding the position of point $R$."
     difficulty: medium
     tp_level: 3
     kbat: true
     learning_objective: 9.1.3
-    answer:
+    answer: 
       type: free_text
       value: "Point R does not lie on the straight line x + 2y = 4 because its coordinates do not satisfy the equation."
       working: |
-        Substitute $x = 1, y = 2$ into the left side of $x + 2y = 4$.
-        Left side = $1 + 2(2) = 5$
-        Right side = $4$
-        Since Left side $\neq$ Right side, the coordinates do not satisfy the equation.
+        Left side = 1 + 2(2) = 5
+        Right side = 4
+        Since Left side ≠ Right side, the coordinates do not satisfy the equation.
         Thus, the point does not lie on the line.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Notes that the values indicate the coordinates do not satisfy the equation (Left $\neq$ Right)."
+        criteria: "Notes that the values indicate the coordinates do not satisfy the equation (Left ≠ Right)."
       - marks: 1
         criteria: "Makes the final inference that point R does not lie on the straight line."
     hints:
       - level: 1
-        text: "For a point to be on a line, both sides of the equation must be perfectly equal. What happens if they are not?"
+        text: "Think about the 'club rules'. For a point to be allowed on a line, both sides of the equation must be perfectly equal. What happens if they are out of balance?"
 
-  - id: Q10
-    text: >-
-      Determine the equation of a straight line with a gradient of $\displaystyle\frac{1}{2}$
-      and that passes through point $P(6, 8)$.
+  - id: Q9
+    text: "Determine the equation of a straight line with a gradient of $\\frac{1}{2}$ and that passes through point $P(6, 8)$."
     difficulty: medium
     tp_level: 4
     kbat: false
     learning_objective: 9.1.5
-    answer:
+    answer: 
       type: exact
-      value: "y = 1/2 x + 5"
+      value: "y = \\frac{1}{2}x + 5"
       working: |
-        Given gradient, $m = 1/2$.
-        Substitute $m = 1/2, x = 6$, and $y = 8$ into $y = mx + c$ to find $c$.
-        $8 = (\displaystyle\frac{1}{2})(6) + c$
-        $8 = 3 + c$
-        $c = 8 - 3$
-        $c = 5$
-        Therefore, the equation of the straight line is $y = \displaystyle\frac{1}{2}x + 5$.
+        Given gradient, m = 1/2.
+        Substitute m = 1/2, x = 6, and y = 8 into y = mx + c to find c.
+        8 = (\frac{1}{2})(6) + c
+        8 = 3 + c
+        c = 8 - 3
+        c = 5
+        Therefore, the equation of the straight line is y = \frac{1}{2}x + 5.
     marks: 3
     rubric:
       - marks: 1
@@ -270,67 +245,96 @@ questions:
       - marks: 1
         criteria: "Substitutes the coordinates (6, 8) and correctly solves for c = 5."
       - marks: 1
-        criteria: "States the full correct final equation. Accept decimal equivalents like y = 0.5x + 5."
+        criteria: "States the full correct final equation."
     hints:
       - level: 1
-        text: "You have $m$, $x$, and $y$. Plug them into $y = mx + c$ to find the missing intercept, $c$."
+        text: "You have your ingredients: $m$, $x$, and $y$. Plug them all into the oven formula $y = mx + c$ to hunt for the missing intercept, $c$."
 
-  # ---------------------------------------------------------
-  # SUBCHAPTER 9.1.4 & 9.1.6: Garis Selari & Titik Persilangan
-  # ---------------------------------------------------------
-  - id: Q11
-    # EXAM: UASA Bahagian A (OAP)
-    text: "Determine whether the straight line $y = 3x + 5$ is parallel to the straight line $6x - 2y = 9$."
+##### ---------------------------------------------------------
+##### SUBCHAPTER 9.1.4 & 9.1.6: Parallel Lines & Point of Intersection
+##### ---------------------------------------------------------
+  - id: Q10
+    text: "Which of the following straight lines is parallel to $y = 3x + 5$?"
     difficulty: medium
     tp_level: 4
     kbat: false
     learning_objective: 9.1.4
-    answer:
-      type: exact
-      value: "Yes, they are parallel."
+    answer: 
+      type: multiple_choice
+      value: "$6x - 2y = 9$"
+      distractors:
+        - value: "$y = -3x + 5$"
+          feedback: "Parallel lines must have the EXACT same gradient, not the negative version."
+        - value: "$3x + y = 5$"
+          feedback: "If you rearrange this to $y = mx + c$, it becomes $y = -3x + 5$. The gradient is -3, not 3!"
       working: |
-        For the first line, $y = 3x + 5$, the gradient is $3$.
-        For the second line, convert $6x - 2y = 9$ into the form $y = mx + c$:
-        $-2y = -6x + 9$
-        $y = \displaystyle\frac{-6}{-2}x + \displaystyle\frac{9}{-2}$
-        $y = 3x - 4.5$
-        The gradient of the second line is also $3$.
-        Since both lines have the same gradient ($m = 3$), they are parallel.
+        For the first line, y = 3x + 5, the gradient is 3.
+        Convert the options to y = mx + c format to find which one has a gradient of 3.
+        6x - 2y = 9
+        -2y = -6x + 9
+        y = 3x - 4.5
+        The gradient of this line is 3. Since the gradients match, they are parallel.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Identifies the target gradient is 3."
+      - marks: 1
+        criteria: "Correctly identifies the equation that simplifies to a gradient of 3."
+    hints:
+      - level: 1
+        text: "Parallel lines must have the exact same gradient. Convert the options to $y = mx + c$ format to strip away their disguises and check their gradients."
+
+  - id: Q11
+    text: "Determine the point of intersection of the straight lines $y = -8$ and $y = -4x + 12$."
+    difficulty: medium
+    tp_level: 4
+    kbat: false
+    learning_objective: 9.1.6
+    answer: 
+      type: exact
+      value: "(5, -8)"
+      working: |
+        Since the first equation explicitly gives y = -8, substitute this directly into the second equation:
+        -8 = -4x + 12
+        4x = 12 + 8
+        4x = 20
+        x = 5
+        The y-coordinate is already known to be -8.
+        Therefore, the point of intersection is (5, -8).
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Identifies the gradient of the first line is 3."
+        criteria: "Substitutes y = -8 into the second equation."
       - marks: 1
-        criteria: "Rearranges the second equation and correctly identifies its gradient is 3."
+        criteria: "Solves for x accurately to get x = 5."
       - marks: 1
-        criteria: "Concludes they are parallel based on having equal gradients."
+        criteria: "Writes the final point of intersection as proper coordinates (5, -8)."
     hints:
       - level: 1
-        text: "Parallel lines must have the exact same gradient. Convert the second equation to $y = mx + c$ to check its gradient."
+        text: "You already know the exact value of $y$ from the first equation! Just drop it straight into the second equation to find $x$."
 
   - id: Q12
-    # EXAM: UASA Bahagian C (Subjektif)
     text: "Find the point of intersection of the straight lines $2x + y = 5$ and $x + 2y = 1$."
     difficulty: hard
     tp_level: 5
     kbat: true
     learning_objective: 9.1.6
-    answer:
+    answer: 
       type: exact
       value: "(3, -1)"
       working: |
         Using the substitution method:
-        From the first equation: $y = 5 - 2x$  --- (1)
+        From the first equation: y = 5 - 2x  --- (1)
         Substitute (1) into the second equation:
-        $x + 2(5 - 2x) = 1$
-        $x + 10 - 4x = 1$
-        $-3x = -9$
-        $x = 3$
-        Substitute $x = 3$ into (1):
-        $y = 5 - 2(3)$
-        $y = 5 - 6$
-        $y = -1$
-        Thus, the point of intersection is $(3, -1)$.
+        x + 2(5 - 2x) = 1
+        x + 10 - 4x = 1
+        -3x = -9
+        x = 3
+        Substitute x = 3 into (1):
+        y = 5 - 2(3)
+        y = 5 - 6
+        y = -1
+        Thus, the point of intersection is (3, -1).
     marks: 4
     rubric:
       - marks: 1
@@ -343,101 +347,64 @@ questions:
         criteria: "Correctly solves for the second variable and states the coordinate point (3, -1)."
     hints:
       - level: 1
-        text: "Use simultaneous equations. Try expressing $y$ from the first equation and substituting it into the second."
+        text: "You need to solve this as simultaneous equations. Try making $y$ the subject in the first equation, then substitute it into the second."
 
+##### ---------------------------------------------------------
+##### SUBCHAPTER 9.1.7: Solving Problems
+##### ---------------------------------------------------------
   - id: Q13
-    text: "Determine the point of intersection of the straight lines $y = -8$ and $y = -4x + 12$."
-    difficulty: medium
-    tp_level: 4
-    kbat: false
-    learning_objective: 9.1.6
-    answer:
-      type: exact
-      value: "(5, -8)"
-      working: |
-        Since the first equation gives $y = -8$, substitute this directly into the second equation:
-        $-8 = -4x + 12$
-        $4x = 12 + 8$
-        $4x = 20$
-        $x = 5$
-        The y-coordinate is already known to be $-8$.
-        Therefore, the point of intersection is $(5, -8)$.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Substitutes y = -8 into the second equation."
-      - marks: 1
-        criteria: "Solves for x accurately to get x = 5."
-      - marks: 1
-        criteria: "Writes the final point of intersection as coordinates (5, -8)."
-    hints:
-      - level: 1
-        text: "You already know the exact value of $y$ from the first equation. Plug it into the second equation to find $x$."
-
-  # ---------------------------------------------------------
-  # SUBCHAPTER 9.1.7: Penyelesaian Masalah
-  # ---------------------------------------------------------
-  - id: Q14
-    # EXAM: UASA Bahagian C (Subjektif)
-    text: >-
-      In a parallelogram $PQRS$, the gradient of $PQ$ is the same as $SR$, which is $\displaystyle\frac{1}{2}$.
-      If $Q$ is $(0, h)$ and $P$ is $(-4, 6)$, determine the value of $h$.
+    text: "In a parallelogram $PQRS$, the gradient of $PQ$ is the same as $SR$, which is $\\frac{1}{2}$. If $Q$ is $(0, h)$ and $P$ is $(-4, 6)$, determine the value of $h$."
     difficulty: hard
     tp_level: 5
     kbat: true
     learning_objective: 9.1.7
-    answer:
+    answer: 
       type: exact
       value: "8"
       working: |
         Since PQRS is a parallelogram, PQ is parallel to SR, so their gradients are equal.
-        Gradient $PQ = \displaystyle\frac{1}{2}$
-        Using the coordinates $P(-4, 6)$ and $Q(0, h)$ to calculate the gradient:
-        $\displaystyle\frac{h - 6}{0 - (-4)} = \displaystyle\frac{1}{2}$
-        $\displaystyle\frac{h - 6}{4} = \displaystyle\frac{1}{2}$
+        Gradient PQ = 1/2
+        Using the coordinates P(-4, 6) and Q(0, h) to calculate the gradient algebraically:
+        \frac{h - 6}{0 - (-4)} = \frac{1}{2}
+        \frac{h - 6}{4} = \frac{1}{2}
         Cross-multiply:
-        $2(h - 6) = 4(1)$
-        $2h - 12 = 4$
-        $2h = 16$
-        $h = 8$
+        2(h - 6) = 4(1)
+        2h - 12 = 4
+        2h = 16
+        h = 8
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Applies the gradient formula correctly: (h - 6) / (0 - (-4))."
+        criteria: "Applies the gradient formula correctly using the coordinates: (h - 6) / (0 - (-4))."
       - marks: 1
         criteria: "Equates the gradient formula to 1/2."
       - marks: 1
         criteria: "Solves the equation correctly to find h = 8."
     hints:
       - level: 1
-        text: >-
-          Use the formula for gradient $m = \displaystyle\frac{y_2 - y_1}{x_2 - x_1}$
-          with the points P and Q, and set it equal to $\displaystyle\frac{1}{2}$.
+        text: "Use the formula for gradient $m = \\frac{y_2 - y_1}{x_2 - x_1}$ with the points P and Q, and set it equal to your known gradient."
 
-  - id: Q15
-    # EXAM: UASA Bahagian C (Subjektif)
-    text: >-
-      A straight road connects town E $(-7, -1)$ and town F $(3, 3)$ on a Cartesian map.
-      Determine the equation of the straight road connecting the two towns.
+  - id: Q14
+    text: "A straight road connects town E $(-7, -1)$ and town F $(3, 3)$ on a Cartesian map. Determine the equation of the straight road connecting the two towns."
     difficulty: hard
-    tp_level: 5
+    tp_level: 6
     kbat: true
     learning_objective: 9.1.7
-    answer:
+    answer: 
       type: exact
-      value: "y = 2/5 x + 9/5"
+      value: "y = \\frac{2}{5}x + \\frac{9}{5}"
       working: |
-        Step 1: Calculate the gradient ($m$) using $E(-7, -1)$ and $F(3, 3)$.
-        $m = \displaystyle\frac{3 - (-1)}{3 - (-7)} = \displaystyle\frac{4}{10} = \displaystyle\frac{2}{5}$
+        Step 1: Calculate the gradient (m) using E(-7, -1) and F(3, 3).
+        m = \frac{3 - (-1)}{3 - (-7)} = \frac{4}{10} = \frac{2}{5}
         
-        Step 2: Determine the y-intercept ($c$) by substituting point $F(3, 3)$ into $y = mx + c$.
-        $3 = (\displaystyle\frac{2}{5})(3) + c$
-        $3 = \displaystyle\frac{6}{5} + c$
-        $c = 3 - \displaystyle\frac{6}{5}$
-        $c = \displaystyle\frac{15}{5} - \displaystyle\frac{6}{5} = \displaystyle\frac{9}{5}$
+        Step 2: Determine the y-intercept (c) by substituting point F(3, 3) into y = mx + c.
+        3 = (\frac{2}{5})(3) + c
+        3 = \frac{6}{5} + c
+        c = 3 - \frac{6}{5}
+        c = \frac{15}{5} - \frac{6}{5} = \frac{9}{5}
         
         Step 3: Write the equation.
-        $y = \displaystyle\frac{2}{5}x + \displaystyle\frac{9}{5}$
+        y = \frac{2}{5}x + \frac{9}{5}
     marks: 4
     rubric:
       - marks: 1
@@ -445,27 +412,20 @@ questions:
       - marks: 1
         criteria: "Calculates the gradient correctly as 2/5 (or 0.4)."
       - marks: 1
-        criteria: "Substitutes one of the points and the gradient to solve for c = 9/5 (or 1.8)."
+        criteria: "Substitutes one of the points and the gradient to solve for c."
       - marks: 1
-        criteria: "Constructs the final equation y = 2/5x + 9/5. Accept decimal equivalent like y = 0.4x + 1.8."
+        criteria: "Constructs the final equation y = 2/5x + 9/5. Accept decimal equivalents like y = 0.4x + 1.8."
     hints:
       - level: 1
-        text: "You have two points. First, find the gradient between them. Then, use one of the points to find the y-intercept."
+        text: "You have two points. First, find the gradient between them. Once you have that, use one of the points to find the y-intercept!"
 
-  ### ---------------------------------------------------------
-  ### NEW ADDITIONS TO MEET 5-5-5 POOL MINIMUM
-  ### ---------------------------------------------------------
-  - id: Q16
-    # EXAM: UASA Bahagian C (Subjektif)
-    # RATIONALE: High-level geometry problem requiring the calculation of equation given only x-intercept and y-intercept coordinates.
-    text: >-
-      The straight line $RS$ cuts the x-axis at $x = 4$ and the y-axis at $y = -2$. 
-      Find the equation of the straight line $RS$ in the form $ax + by = c$, where a, b, and c are integers.
+  - id: Q15
+    text: "The straight line $RS$ cuts the x-axis at $x = 4$ and the y-axis at $y = -2$. Find the equation of the straight line $RS$ in the form $ax + by = c$, where a, b, and c are integers."
     difficulty: hard
     tp_level: 6
     kbat: true
     learning_objective: 9.1.5
-    answer:
+    answer: 
       type: exact
       value: "x - 2y = 4"
       working: |
@@ -474,59 +434,54 @@ questions:
         y-intercept is -2, so point is (0, -2). Therefore, c = -2.
         
         Step 2: Calculate the gradient (m).
-        $m = \displaystyle\frac{-2 - 0}{0 - 4} = \displaystyle\frac{-2}{-4} = \displaystyle\frac{1}{2}$
+        m = \frac{-2 - 0}{0 - 4} = \frac{-2}{-4} = \frac{1}{2}
         
         Step 3: Form the equation in y = mx + c.
-        $y = \displaystyle\frac{1}{2}x - 2$
+        y = \frac{1}{2}x - 2
         
         Step 4: Convert into ax + by = c format (integers only).
         Multiply entire equation by 2 to clear fraction:
-        $2y = x - 4$
+        2y = x - 4
         Rearrange into standard integer form:
-        $x - 2y = 4$ (or $-x + 2y = -4$)
+        x - 2y = 4 (or -x + 2y = -4)
     marks: 4
     rubric:
       - marks: 1
-        criteria: "Correctly formulates coordinates (4, 0) and (0, -2) from the words."
+        criteria: "Correctly formulates coordinates (4, 0) and (0, -2) from the text."
       - marks: 1
         criteria: "Calculates the gradient correctly as 1/2."
       - marks: 1
-        criteria: "Forms the equation y = 1/2 x - 2."
+        criteria: "Forms the base equation y = 1/2 x - 2."
       - marks: 1
         criteria: "Converts to the correct integer linear form (e.g., x - 2y = 4)."
     hints:
       - level: 1
-        text: "Convert the intercepts into full coordinates like (4, 0) and (0, -2). Next, find the gradient. Finally, get rid of fractions by multiplying the entire equation!"
+        text: "Convert the intercepts into full coordinates like (4, 0) and (0, -2). Find the gradient, write the $y=mx+c$ equation, and finally multiply everything to get rid of fractions!"
 
-  - id: Q17
-    # EXAM: UASA Bahagian C (Subjektif)
-    # RATIONALE: Tests multiple algebraic concepts sequentially: forming equation, checking parallel status, and simultaneous substitution.
-    text: >-
-      Straight line $AB$ has equation $y = 3x - 1$. A second straight line $CD$, which passes through $P(0, -6)$ and $Q(-2, -12)$, intersects line $AB$. 
-      Are the lines parallel? If not, state the coordinates of their intersection point.
+  - id: Q16
+    text: "Straight line $AB$ has equation $y = 3x - 1$. A second straight line $CD$, which passes through $P(0, -6)$ and $Q(-2, -12)$, intersects line $AB$. Are the lines parallel? If not, state the coordinates of their intersection point."
     difficulty: hard
     tp_level: 6
     kbat: true
     learning_objective: 9.1.6
-    answer:
-      type: exact
-      value: "Not parallel. Point of intersection is (-R, -R) / Wait, let's solve: (-(something)...) Actually, let the working speak for itself"
+    answer: 
+      type: free_text
+      value: "The lines are parallel, so there is no point of intersection."
       working: |
         Step 1: Find the equation of line CD.
-        Gradient $m = \displaystyle\frac{-12 - (-6)}{-2 - 0} = \displaystyle\frac{-6}{-2} = 3$.
+        Gradient m = \frac{-12 - (-6)}{-2 - 0} = \frac{-6}{-2} = 3.
         Since the gradient of CD (3) equals the gradient of AB (3), the lines ARE parallel.
-        Parallel lines never intersect! So there is no point of intersection.
-      # Correcting the value locally below
+        Parallel lines never intersect. Therefore, there is no point of intersection.
     marks: 4
     rubric:
       - marks: 1
-        criteria: "Calculates the gradient of the second line mathematically."
+        criteria: "Attempts to calculate the gradient of the second line mathematically."
       - marks: 1
-        criteria: "Finds the gradient is 3."
+        criteria: "Finds the gradient of the second line is exactly 3."
       - marks: 1
-        criteria: "Makes the critical realization that both lines have gradient 3."
+        criteria: "Makes the critical realization that both lines share the same gradient."
       - marks: 1
         criteria: "States correctly that the lines are parallel and therefore have no point of intersection."
     hints:
       - level: 1
-        text: "Before doing anything complicated, calculate the gradient of the second line using points P and Q. Check how it compares to the first line's gradient!"
+        text: "Before doing complicated simultaneous equations, calculate the gradient of the second line using points P and Q. How does it compare to the first line's gradient?"

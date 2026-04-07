@@ -1,47 +1,46 @@
 id: MT3-09
 official_ref: "Bab 9"
 name: "Garis Lurus"
-name_en: "Straight Lines"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-3
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: en
+language: ms
 difficulty: intermediate
 tier: core
 
 content_standards:
   - id: 9.1
-    text_en: "Straight Lines"
+    text: "Garis Lurus"
 
 learning_objectives:
   - id: 9.1.1
     content_standard_id: 9.1
-    text_en: "Make connection between the equation, y = mx + c, and the gradient and y-intercept, and hence make generalisation about the equation of a straight line."
+    text: "Membuat perkaitan antara persamaan, y = mx + c, dengan kecerunan dan pintasan-y, dan seterusnya membuat generalisasi tentang persamaan garis lurus."
     bloom: understand
   - id: 9.1.2
     content_standard_id: 9.1
-    text_en: "Investigate and interpret the equations of straight lines in other forms such as ax + by = c and x/a + y/b = 1, and change to the form of y = mx + c, and vice versa."
+    text: "Menyiasat dan mentafsir persamaan garis lurus dalam bentuk lain seperti ax + by = c dan x/a + y/b = 1, serta menukarkan kepada bentuk y = mx + c dan sebaliknya."
     bloom: apply
   - id: 9.1.3
     content_standard_id: 9.1
-    text_en: "Investigate and make inference about the relationship between the points on a straight line and the equation of the line."
+    text: "Menyiasat dan membuat inferens tentang hubungan antara titik pada garis lurus dengan persamaan garis lurus tersebut."
     bloom: analyze
   - id: 9.1.4
     content_standard_id: 9.1
-    text_en: "Investigate and make inference about the gradients of parallel lines."
+    text: "Menyiasat dan membuat inferens tentang kecerunan garis selari."
     bloom: analyze
   - id: 9.1.5
     content_standard_id: 9.1
-    text_en: "Determine the equation of a straight line."
+    text: "Menentukan persamaan suatu garis lurus."
     bloom: apply
   - id: 9.1.6
     content_standard_id: 9.1
-    text_en: "Determine the point of intersection of two straight lines."
+    text: "Menentukan titik persilangan bagi dua garis lurus."
     bloom: apply
   - id: 9.1.7
     content_standard_id: 9.1
-    text_en: "Solve problems involving straight lines."
+    text: "Menyelesaikan masalah yang melibatkan garis lurus."
     bloom: apply
 
 prerequisites:

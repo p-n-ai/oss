@@ -106,4 +106,4 @@ Topics move from Level 2 to Level 3 only after passing the 4 core auditor prompt
 | MT3-06 | 1️⃣ | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ |
 | MT3-11 | 1️⃣ | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ |
 | MT3-08 | 1️⃣ | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ |
-| MT3-09 | 2️⃣ | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ |
+| MT3-09 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |

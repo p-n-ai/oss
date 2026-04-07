@@ -1,0 +1,487 @@
+topic_id: MT3-09
+provenance: ai-assisted
+questions:
+##### ---------------------------------------------------------
+##### SUBCHAPTER 9.1.1: Mengenal Persamaan Garis Lurus
+##### ---------------------------------------------------------
+  - id: Q1
+    text: "Bagi garis lurus $2y = 6x - 4$, kenal pasti kecerunan dan pintasan-y."
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: 9.1.1
+    answer: 
+      type: multiple_choice
+      value: "Kecerunan = 3, pintasan-y = -2"
+      distractors:
+        - value: "Kecerunan = 6, pintasan-y = -4"
+          feedback: "Perangkap 'Kecerunan Palsu'! Anda mesti membahagikan keseluruhan persamaan dengan 2 supaya $y$ tinggal keseorangan sebelum membaca nilai $m$ dan $c$."
+        - value: "Kecerunan = -3, pintasan-y = 2"
+          feedback: "Hati-hati dengan tanda! Anda membahagi dengan nilai positif 2, jadi tandanya tidak berubah."
+        - value: "Kecerunan = 3, pintasan-y = -4"
+          feedback: "Anda membahagikan sebutan $x$ dengan 2, tetapi terlupa untuk membahagikan pemalar di hujung dengan 2 juga."
+      working: |
+        Bandingkan persamaan 2y = 6x - 4 dengan bentuk am y = mx + c.
+        Bahagikan keseluruhan persamaan dengan 2 untuk menjadikan y sebagai perkara rumus:
+        y = (6/2)x - (4/2)
+        y = 3x - 2
+        Kecerunan (m) ialah 3, dan pintasan-y (c) ialah -2.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti kecerunan dengan betul selepas membahagi dengan 2."
+      - marks: 1
+        criteria: "Mengenal pasti pintasan-y dengan betul selepas membahagi dengan 2."
+    hints:
+      - level: 1
+        text: "Sebelum anda boleh membaca kecerunan, $y$ mesti single (tiada nombor di depannya). Apakah yang anda perlu bahagikan pada keseluruhan persamaan?"
+
+  - id: Q2
+    text: "Nyatakan persamaan garis lurus yang selari dengan paksi-x dan melalui titik $P(-2, 6)$."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 9.1.1
+    answer: 
+      type: exact
+      value: "y = 6"
+      working: |
+        Garis lurus yang selari dengan paksi-x mempunyai kecerunan 0 dan berbentuk y = k.
+        Oleh kerana garis ini melalui P(-2, 6), koordinat-y sentiasa tetap pada nilai 6.
+        Maka, persamaannya ialah y = 6.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti bahawa garis selari dengan paksi-x mempunyai bentuk y = k."
+      - marks: 1
+        criteria: "Menyatakan persamaan yang betul sebagai y = 6."
+    hints:
+      - level: 1
+        text: "Garis yang selari dengan paksi-x adalah mendatar lurus, bermaksud nilai $y$ tidak akan pernah berubah walau di mana pun anda berada pada garis tersebut."
+
+  - id: Q3
+    text: "Satu garis lurus adalah selari dengan paksi-y dan melalui titik $Q(4, -3)$. Apakah persamaan garis lurus ini?"
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 9.1.1
+    answer: 
+      type: exact
+      value: "x = 4"
+      working: |
+        Garis lurus yang selari dengan paksi-y ialah garis mencancang (tegak) dan berbentuk x = h.
+        Oleh kerana garis ini melalui Q(4, -3), koordinat-x sentiasa tetap pada nilai 4.
+        Maka, persamaannya ialah x = 4.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti bahawa garis selari dengan paksi-y mempunyai bentuk x = h."
+      - marks: 1
+        criteria: "Menyatakan persamaan yang betul sebagai x = 4."
+    hints:
+      - level: 1
+        text: "Garis yang selari dengan paksi-y adalah mencancang (tegak lurus), bermaksud nilai $x$ adalah terkunci."
+
+##### ---------------------------------------------------------
+##### SUBCHAPTER 9.1.2: Menukar Bentuk Persamaan
+##### ---------------------------------------------------------
+  - id: Q4
+    text: "Nyatakan pintasan-x dan pintasan-y bagi garis lurus $\frac{x}{6} + \frac{y}{3} = 1$."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 9.1.2
+    answer: 
+      type: multiple_choice
+      value: "pintasan-x = 6, pintasan-y = 3"
+      distractors:
+        - value: "pintasan-x = 3, pintasan-y = 6"
+          feedback: "Ingat 'Hukum Bawah'! Nombor tepat di bawah $x$ ialah pintasan-x, dan nombor di bawah $y$ ialah pintasan-y."
+        - value: "pintasan-x = -6, pintasan-y = -3"
+          feedback: "Persamaan ini mempunyai penyebut (nombor di bawah) yang positif. Anda tidak perlu menukar tandanya."
+      working: |
+        Bandingkan persamaan yang diberi dengan bentuk pintasan: \frac{x}{a} + \frac{y}{b} = 1.
+        Di sini, a ialah pintasan-x dan b ialah pintasan-y.
+        Oleh itu, pintasan-x = 6 dan pintasan-y = 3.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Memadankan penyebut 'a' dengan betul kepada pintasan-x."
+      - marks: 1
+        criteria: "Memadankan penyebut 'b' dengan betul kepada pintasan-y."
+    hints:
+      - level: 1
+        text: "Lihat kepada format standard pintasan: $\frac{x}{a} + \frac{y}{b} = 1$. Apakah yang diwakili oleh nilai $a$ dan $b$?"
+
+  - id: Q5
+    text: "Tukarkan persamaan garis lurus $3x - 5y = 15$ kepada bentuk $y = mx + c$."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 9.1.2
+    answer: 
+      type: exact
+      value: "y = \frac{3}{5}x - 3"
+      working: |
+        3x - 5y = 15
+        Pindahkan sebutan x ke sebelah kanan:
+        -5y = -3x + 15
+        Bahagikan keseluruhan persamaan dengan -5 untuk mendapatkan y:
+        y = \frac{-3}{-5}x + \frac{15}{-5}
+        y = \frac{3}{5}x - 3
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyusun semula sebutan supaya y berada di satu sisi dan x di sisi yang lain (-5y = -3x + 15)."
+      - marks: 1
+        criteria: "Membahagikan dengan -5 secara betul. (Terima bentuk perpuluhan seperti y = 0.6x - 3)."
+    hints:
+      - level: 1
+        text: "Anda perlu menjadikan $y$ sebagai perkara rumus. Mulakan dengan memindahkan sebutan $x$ ke sebelah kanan."
+
+  - id: Q6
+    text: "Diberi persamaan suatu garis lurus ialah $2x + 5y = 30$, tentukan pintasan-x."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 9.1.2
+    answer: 
+      type: exact
+      value: "15"
+      working: |
+        Bagi titik-titik yang terletak tepat pada paksi-x, nilai koordinat-y adalah sifar.
+        Gantikan y = 0 ke dalam persamaan:
+        2x + 5(0) = 30
+        2x = 30
+        x = 15
+        Maka, pintasan-x ialah 15.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyedari bahawa pada pintasan-x, y = 0, lalu menggantikannya ke dalam persamaan."
+      - marks: 1
+        criteria: "Mengira x = 15 dengan betul."
+    hints:
+      - level: 1
+        text: "Pintasan-x ialah titik tepat di mana garis memotong paksi-x. Pada titik tersebut, apakah nilai bagi $y$?"
+
+##### ---------------------------------------------------------
+##### SUBCHAPTER 9.1.3 & 9.1.5: Titik pada Garis Lurus & Membina Persamaan
+##### ---------------------------------------------------------
+  - id: Q7
+    text: "Antara titik berikut, yang manakah terletak pada garis lurus $y = 3x + 2$?"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 9.1.3
+    answer: 
+      type: multiple_choice
+      value: "(2, 8)"
+      distractors:
+        - value: "(1, 6)"
+          feedback: "Jika $x=1$, maka $3(1) + 2 = 5$, bukan 6. Nilai kiri tidak sama dengan kanan."
+        - value: "(3, 10)"
+          feedback: "Jika $x=3$, maka $3(3) + 2 = 11$, bukan 10. Titik ini tidak memuaskan persamaan."
+      working: |
+        Uji titik (2, 8) dengan menggantikan x = 2 and y = 8 ke dalam y = 3x + 2.
+        Kiri: y = 8
+        Kanan: 3(2) + 2 = 6 + 2 = 8
+        Oleh kerana Kiri = Kanan, titik (2, 8) memuaskan persamaan.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menggantikan nilai x dan y bagi setiap pilihan ke dalam persamaan."
+      - marks: 1
+        criteria: "Mengenal pasti (2, 8) sebagai titik yang menyeimbangkan persamaan dengan betul."
+    hints:
+      - level: 1
+        text: "Untuk sesuatu titik 'terletak pada garis', jika kita masukkan nilai $x$ ke dalam persamaan, jawapannya mesti menghasilkan koordinat $y$ yang tepat."
+
+  - id: Q8
+    text: "Ali menggantikan koordinat titik $R(1, 2)$ ke dalam persamaan garis lurus $x + 2y = 4$. Dia mendapati sebelah kiri bersamaan dengan $5$, manakala sebelah kanan bersamaan dengan $4$. Terangkan apa maksudnya tentang kedudukan titik $R$."
+    difficulty: medium
+    tp_level: 3
+    kbat: true
+    learning_objective: 9.1.3
+    answer: 
+      type: free_text
+      value: "Titik R tidak terletak pada garis lurus x + 2y = 4 kerana koordinatnya tidak memuaskan persamaan tersebut."
+      working: |
+        Kiri = 1 + 2(2) = 5
+        Kanan = 4
+        Oleh kerana nilai Kiri ≠ Kanan, koordinat titik tidak memuaskan persamaan.
+        Maka, titik R tidak terletak pada garis lurus itu.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan bahawa nilai-nilai tersebut menunjukkan koordinat tidak memuaskan persamaan (Kiri ≠ Kanan)."
+      - marks: 1
+        criteria: "Membuat inferens akhir bahawa titik R tidak terletak pada garis lurus."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang 'peraturan kelab'. Untuk satu titik dibenarkan masuk ke atas garis, kedua-dua belah persamaan mesti seimbang. Apa terjadi jika ia tidak seimbang?"
+
+  - id: Q9
+    text: "Tentukan persamaan suatu garis lurus dengan kecerunan $\frac{1}{2}$ and melalui titik $P(6, 8)$."
+    difficulty: medium
+    tp_level: 4
+    kbat: false
+    learning_objective: 9.1.5
+    answer: 
+      type: exact
+      value: "y = \frac{1}{2}x + 5"
+      working: |
+        Diberi kecerunan, m = 1/2.
+        Gantikan m = 1/2, x = 6, and y = 8 ke dalam y = mx + c untuk mencari c.
+        8 = (\frac{1}{2})(6) + c
+        8 = 3 + c
+        c = 8 - 3
+        c = 5
+        Oleh itu, persamaan garis lurus tersebut ialah y = \frac{1}{2}x + 5.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menggantikan kecerunan m = 1/2 ke dalam persamaan am dengan betul."
+      - marks: 1
+        criteria: "Menggantikan koordinat (6, 8) and menyelesaikan c = 5 dengan betul."
+      - marks: 1
+        criteria: "Menyatakan persamaan akhir yang lengkap."
+    hints:
+      - level: 1
+        text: "Anda sudah ada ramuan: $m$, $x$, and $y$. Masukkan semuanya ke dalam formula pembakar $y = mx + c$ untuk memburu pintasan yang hilang, $c$."
+
+##### ---------------------------------------------------------
+##### SUBCHAPTER 9.1.4 & 9.1.6: Garis Selari & Titik Persilangan
+##### ---------------------------------------------------------
+  - id: Q10
+    text: "Antara garis lurus berikut, yang manakah selari dengan $y = 3x + 5$?"
+    difficulty: medium
+    tp_level: 4
+    kbat: false
+    learning_objective: 9.1.4
+    answer: 
+      type: multiple_choice
+      value: "$6x - 2y = 9$"
+      distractors:
+        - value: "$y = -3x + 5$"
+          feedback: "Garis selari mesti mempunyai kecerunan yang SEBIJI SAMA, bukan versi negatif."
+        - value: "$3x + y = 5$"
+          feedback: "Jika anda susun semula ini kepada $y = mx + c$, ia menjadi $y = -3x + 5$. Kecerunannya ialah -3, bukan 3!"
+      working: |
+        Bagi garis pertama, y = 3x + 5, kecerunannya ialah 3.
+        Tukar pilihan jawapan kepada bentuk y = mx + c untuk mencari mana yang mempunyai kecerunan 3.
+        6x - 2y = 9
+        -2y = -6x + 9
+        y = 3x - 4.5
+        Kecerunan bagi garis ini ialah 3. Memandangkan kecerunannya sama, ia adalah selari.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti kecerunan sasaran ialah 3."
+      - marks: 1
+        criteria: "Mengenal pasti persamaan yang boleh dipermudahkan menjadi kecerunan 3 dengan betul."
+    hints:
+      - level: 1
+        text: "Garis selari MESTI mempunyai kecerunan yang sama. Tukar pilihan jawapan kepada format $y = mx + c$ untuk tanggalkan penyamarannya and semak kecerunannya."
+
+  - id: Q11
+    text: "Tentukan titik persilangan bagi garis lurus $y = -8$ and $y = -4x + 12$."
+    difficulty: medium
+    tp_level: 4
+    kbat: false
+    learning_objective: 9.1.6
+    answer: 
+      type: exact
+      value: "(5, -8)"
+      working: |
+        Oleh kerana persamaan pertama dengan jelas memberikan y = -8, gantikan nilai ini terus ke dalam persamaan kedua:
+        -8 = -4x + 12
+        4x = 12 + 8
+        4x = 20
+        x = 5
+        Koordinat-y telah pun diketahui iaitu -8.
+        Oleh itu, titik persilangan ialah (5, -8).
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menggantikan y = -8 ke dalam persamaan kedua."
+      - marks: 1
+        criteria: "Menyelesaikan nilai x secara tepat untuk mendapat x = 5."
+      - marks: 1
+        criteria: "Menulis titik persilangan akhir sebagai bentuk koordinat (5, -8)."
+    hints:
+      - level: 1
+        text: "Anda sudah tahu nilai tepat bagi $y$ dari persamaan pertama! Masukkan ia terus ke dalam persamaan kedua untuk mencari $x$."
+
+  - id: Q12
+    text: "Cari titik persilangan bagi garis lurus $2x + y = 5$ and $x + 2y = 1$."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 9.1.6
+    answer: 
+      type: exact
+      value: "(3, -1)"
+      working: |
+        Menggunakan kaedah penggantian:
+        Dari persamaan pertama: y = 5 - 2x  --- (1)
+        Gantikan (1) ke dalam persamaan kedua:
+        x + 2(5 - 2x) = 1
+        x + 10 - 4x = 1
+        -3x = -9
+        x = 3
+        Gantikan x = 3 ke dalam (1):
+        y = 5 - 2(3)
+        y = 5 - 6
+        y = -1
+        Maka, titik persilangan ialah (3, -1).
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menebat satu pemboleh ubah dengan betul (cth. y = 5 - 2x) ATAU menyamakan pekali untuk penghapusan."
+      - marks: 1
+        criteria: "Menggantikan ke dalam persamaan lain untuk membentuk persamaan satu pemboleh ubah."
+      - marks: 1
+        criteria: "Menyelesaikan pemboleh ubah pertama dengan betul (x = 3)."
+      - marks: 1
+        criteria: "Menyelesaikan pemboleh ubah kedua dengan betul and menyatakan koordinat (3, -1)."
+    hints:
+      - level: 1
+        text: "Anda perlu selesaikan ini sebagai persamaan serentak. Cuba jadikan $y$ sebagai perkara rumus dalam persamaan pertama, kemudian gantikan ia ke dalam persamaan kedua."
+
+##### ---------------------------------------------------------
+##### SUBCHAPTER 9.1.7: Penyelesaian Masalah
+##### ---------------------------------------------------------
+  - id: Q13
+    text: "Dalam sebuah segi empat selari $PQRS$, kecerunan $PQ$ adalah sama dengan $SR$, iaitu $\frac{1}{2}$. Jika $Q$ ialah $(0, h)$ and $P$ ialah $(-4, 6)$, tentukan nilai $h$."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 9.1.7
+    answer: 
+      type: exact
+      value: "8"
+      working: |
+        Oleh kerana PQRS ialah segi empat selari, PQ adalah selari dengan SR, jadi kecerunannya sama.
+        Kecerunan PQ = 1/2
+        Menggunakan koordinat P(-4, 6) and Q(0, h) untuk mengira kecerunan secara algebra:
+        \frac{h - 6}{0 - (-4)} = \frac{1}{2}
+        \frac{h - 6}{4} = \frac{1}{2}
+        Pendaraban silang:
+        2(h - 6) = 4(1)
+        2h - 12 = 4
+        2h = 16
+        h = 8
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan rumus kecerunan dengan betul: (h - 6) / (0 - (-4))."
+      - marks: 1
+        criteria: "Menyamakan rumus kecerunan kepada 1/2."
+      - marks: 1
+        criteria: "Menyelesaikan persamaan dengan betul untuk mencari h = 8."
+    hints:
+      - level: 1
+        text: "Gunakan rumus kecerunan $m = \frac{y_2 - y_1}{x_2 - x_1}$ dengan koordinat P and Q, lalu samakan dengan kecerunan yang telah diberi."
+
+  - id: Q14
+    text: "Sejalur jalan lurus menghubungkan bandar E $(-7, -1)$ and bandar F $(3, 3)$ di atas peta Cartes. Tentukan persamaan jalan lurus yang menghubungkan kedua-dua bandar tersebut."
+    difficulty: hard
+    tp_level: 6
+    kbat: true
+    learning_objective: 9.1.7
+    answer: 
+      type: exact
+      value: "y = \frac{2}{5}x + \frac{9}{5}"
+      working: |
+        Langkah 1: Kira kecerunan (m) menggunakan E(-7, -1) and F(3, 3).
+        m = \frac{3 - (-1)}{3 - (-7)} = \frac{4}{10} = \frac{2}{5}
+        
+        Langkah 2: Tentukan pintasan-y (c) dengan menggantikan titik F(3, 3) ke dalam y = mx + c.
+        3 = (\frac{2}{5})(3) + c
+        3 = \frac{6}{5} + c
+        c = 3 - \frac{6}{5}
+        c = \frac{15}{5} - \frac{6}{5} = \frac{9}{5}
+        
+        Langkah 3: Tuliskan persamaan.
+        y = \frac{2}{5}x + \frac{9}{5}
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti keperluan untuk mencari kecerunan antara dua titik."
+      - marks: 1
+        criteria: "Mengira kecerunan dengan betul sebagai 2/5 (atau 0.4)."
+      - marks: 1
+        criteria: "Menggantikan salah satu titik and kecerunan untuk mencari nilai c."
+      - marks: 1
+        criteria: "Membentuk persamaan akhir y = 2/5x + 9/5. Terima nilai perpuluhan e.g. y = 0.4x + 1.8."
+    hints:
+      - level: 1
+        text: "Anda mempunyai dua titik. Mula-mula, cari kecerunan antaranya. Selepas anda dapat, gunakan salah satu titik tersebut untuk mencari pintasan-y!"
+
+  - id: Q15
+    text: "Garis lurus $RS$ memotong paksi-x pada $x = 4$ and paksi-y pada $y = -2$. Cari persamaan garis lurus $RS$ dalam bentuk $ax + by = c$, dengan keadaan a, b, and c ialah integer."
+    difficulty: hard
+    tp_level: 6
+    kbat: true
+    learning_objective: 9.1.5
+    answer: 
+      type: exact
+      value: "x - 2y = 4"
+      working: |
+        Langkah 1: Kenal pasti koordinat dari pintasan.
+        Pintasan-x ialah 4, jadi koordinatnya (4, 0).
+        Pintasan-y ialah -2, jadi koordinatnya (0, -2). Maka, c = -2.
+        
+        Langkah 2: Kira kecerunan (m).
+        m = \frac{-2 - 0}{0 - 4} = \frac{-2}{-4} = \frac{1}{2}
+        
+        Langkah 3: Bentuk persamaan dalam format y = mx + c.
+        y = \frac{1}{2}x - 2
+        
+        Langkah 4: Tukar kepada bentuk ax + by = c (integer sahaja).
+        Darabkan keseluruhan persamaan dengan 2 untuk hapuskan pecahan:
+        2y = x - 4
+        Susun semula kepada bentuk piawai integer:
+        x - 2y = 4 (atau -x + 2y = -4)
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Merumuskan koordinat (4, 0) and (0, -2) dari petikan dengan betul."
+      - marks: 1
+        criteria: "Mengira kecerunan dengan betul sebagai 1/2."
+      - marks: 1
+        criteria: "Membentuk persamaan asas y = 1/2 x - 2."
+      - marks: 1
+        criteria: "Menukarkan kepada bentuk linear integer yang betul (contohnya, x - 2y = 4)."
+    hints:
+      - level: 1
+        text: "Tukarkan pintasan tersebut kepada koordinat penuh seperti (4, 0) and (0, -2). Cari kecerunan, tulis persamaan $y=mx+c$, and akhirnya darabkan keseluruhannya untuk hapuskan pecahan!"
+
+  - id: Q16
+    text: "Garis lurus $AB$ mempunyai persamaan $y = 3x - 1$. Garis lurus kedua $CD$, yang melalui $P(0, -6)$ and $Q(-2, -12)$, bersilang dengan garis $AB$. Adakah kedua-dua garis tersebut selari? Jika tidak, nyatakan koordinat titik persilangannya."
+    difficulty: hard
+    tp_level: 6
+    kbat: true
+    learning_objective: 9.1.6
+    answer: 
+      type: free_text
+      value: "Garis-garis tersebut adalah selari, maka tiada titik persilangan."
+      working: |
+        Langkah 1: Cari kecerunan garis CD.
+        Kecerunan m = \frac{-12 - (-6)}{-2 - 0} = \frac{-6}{-2} = 3.
+        Oleh kerana kecerunan CD (3) bersamaan dengan kecerunan AB (3), garis-garis tersebut ADALAH selari.
+        Garis selari tidak akan pernah bersilang. Oleh itu, tiada titik persilangan.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Cuba untuk mengira kecerunan garis kedua secara matematik."
+      - marks: 1
+        criteria: "Mendapati kecerunan garis kedua adalah tepat 3."
+      - marks: 1
+        criteria: "Membuat kesedaran kritis bahawa kedua-dua garis berkongsi kecerunan yang sama."
+      - marks: 1
+        criteria: "Menyatakan dengan betul bahawa garis tersebut selari and oleh itu tidak mempunyai titik persilangan."
+    hints:
+      - level: 1
+        text: "Sebelum mengira persamaan serentak yang panjang, cuba kira dahulu kecerunan garis kedua menggunakan titik P and Q. Bandingkan dengan kecerunan garis pertama!"

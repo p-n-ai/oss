@@ -1,0 +1,77 @@
+topic_id: MT3-09
+provenance: ai-assisted
+worked_examples:
+##### ---------------------------------------------------------
+##### WORKED EXAMPLES: Garis Lurus (Straight Lines)
+##### ---------------------------------------------------------
+  - id: WE-01
+    topic: "Mengenal Pasti Kecerunan dan Pintasan-y (9.1.1)"
+    scenario: "Bagi garis lurus $2y = 8x - 10$, nyatakan kecerunan dan pintasan-y."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 9.1.1
+    real_world_analogy: >-
+      Bayangkan persamaan $y = mx + c$ sebagai tiket VIP. Untuk nombor $m$ dan $c$ mendedahkan identiti sebenar mereka, pemboleh ubah $y$ MESTI berada keseorangan di pintu masuk utama. Jika $y$ ada kawan (seperti nombor $2$ yang melekat padanya), anda mesti suruh kawannya pergi dahulu sebelum anda boleh membaca tiket tersebut!
+    misconception_alert: >-
+      Perangkap yang sangat biasa ialah pelajar terus melihat nombor di sebelah $x$ dan memanggilnya kecerunan. Jika persamaan ialah $2y = 8x - 10$, kecerunan BUKAN 8! Anda MESTI bahagikan semuanya dengan $2$ terlebih dahulu untuk menjadikan $y$ keseorangan.
+    working: |
+      Langkah 1: Semak jika $y$ keseorangan dengan pekali tepat $1$. Dalam $2y = 8x - 10$, $y$ mempunyai pekali $2$.
+      Langkah 2: Bahagikan KESELURUHAN persamaan dengan $2$ untuk menjadikan $y$ sebagai perkara rumus (subjek).
+      $\frac{2y}{2} = \frac{8x}{2} - \frac{10}{2}$
+      $y = 4x - 5$
+      Langkah 3: Sekarang bandingkannya dengan format tiket VIP am: $y = mx + c$.
+      $m$ (kecerunan) ialah nombor yang melekat pada $x$, iaitu $4$.
+      $c$ (pintasan-y) ialah nombor yang terapung keseorangan di hujung, iaitu $-5$.
+      Jawapan Akhir: Kecerunan = $4$, pintasan-y = $-5$
+
+  - id: WE-02
+    topic: "Menentukan Persamaan Garis Lurus (9.1.5)"
+    scenario: "Tentukan persamaan suatu garis lurus jika kecerunannya ialah $-3$ dan ia melalui titik $A(2, 5)$."
+    difficulty: medium
+    tp_level: 4
+    kbat: false
+    learning_objective: 9.1.5
+    real_world_analogy: >-
+      Membina persamaan adalah seperti membakar kek di mana anda hanya tahu dua bahan (kecerunan dan satu titik) tetapi kehilangan bahan ketiga (pintasan-y). Anda perlu mencampurkan bahan yang anda ada ke dalam 'ketuhar' persamaan ($y = mx + c$) untuk memburu bahan yang hilang! Selepas anda menjumpainya, anda boleh menulis resipi yang lengkap.
+    misconception_alert: >-
+      Jangan tertukar koordinat $x$ dan $y$ anda semasa melakukan penggantian! Ingat, susunan koordinat sentiasa mengikut abjad iaitu $(x, y)$. Pada titik $A(2, 5)$, $x$ ialah $2$ dan $y$ ialah $5$.
+    working: |
+      Langkah 1: Tuliskan persamaan ketuhar am: $y = mx + c$
+      Langkah 2: Kenal pasti 'bahan-bahan' yang diberi.
+      Kecerunan ($m$) = $-3$
+      $x = 2$
+      $y = 5$
+      Langkah 3: Gantikan ketiga-tiga nilai ini ke dalam persamaan untuk memburu nilai $c$ yang hilang.
+      $5 = (-3)(2) + c$
+      $5 = -6 + c$
+      Langkah 4: Selesaikan nilai $c$ dengan menambahkan $6$ kepada kedua-dua belah persamaan untuk menghapuskan $-6$.
+      $5 + 6 = -6 + 6 + c$
+      $11 = c$
+      Langkah 5: Tuliskan persamaan resipi akhir, biarkan $x$ dan $y$ sebagai huruf tetapi kuncikan nilai $m$ dan $c$.
+      Jawapan Akhir: $y = -3x + 11$
+
+  - id: WE-03
+    topic: "Garis Selari (9.1.4)"
+    scenario: "Tentukan sama ada Garis 1 ($y = 5x + 2$) dan Garis 2 ($10x - 2y = -6$) adalah selari."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 9.1.4
+    real_world_analogy: >-
+      Garis selari adalah ibarat dua landasan keretapi. Ia tidak akan pernah bertembung asalkan menghala ke arah yang SEBIJI SAMA (ia mesti mempunyai kecerunan yang tepat sama). Jika satu landasan condong sedikit berbeza, keretapi akhirnya akan bertembung!
+    misconception_alert: >-
+      Anda tidak boleh mencari kecerunan Garis 2 hanya dengan melihat pada nilai $10x$! Ia sedang menyamar. Anda mesti menyusun semula persamaan ke dalam format $y = mx + c$ untuk mendedahkan kecerunan yang sebenar sebelum anda boleh membandingkannya dengan Garis 1.
+    working: |
+      Langkah 1: Cari kecerunan Garis 1. Garis 1 sudah berada dalam format $y = mx + c$. Kecerunannya ($m_1$) ialah $5$.
+      Langkah 2: Ambil Garis 2 dan bersedia untuk menyusunnya semula.
+      $10x - 2y = -6$
+      Langkah 3: Pindahkan $10x$ ke sebelah kanan dengan menolak $10x$ daripada kedua-dua belah persamaan.
+      $10x - 10x - 2y = -10x - 6$
+      $-2y = -10x - 6$
+      Langkah 4: Bahagikan segalanya dengan $-2$ untuk menjadikan $y$ sebagai perkara rumus.
+      $\frac{-2y}{-2} = \frac{-10x}{-2} - \frac{6}{-2}$
+      $y = 5x + 3$
+      Langkah 5: Kenal pasti kecerunan Garis 2. Kecerunannya ($m_2$) ialah $5$.
+      Langkah 6: Bandingkan kedua-dua kecerunan. Oleh kerana $m_1 = m_2 = 5$, garis-garis tersebut adalah selari!
+      Jawapan Akhir: Ya, garis-garis tersebut adalah selari kerana mempunyai kecerunan yang sama.
