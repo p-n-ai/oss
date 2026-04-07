@@ -1,132 +1,220 @@
-topic_id: MT1-01
-provenance: ai-generated
-
+id: "MT1-01"
+topic_id: "MT1-01"
 questions:
-  # Learning objective 1.1.2 (understand): Mengenal dan memerihalkan integer
-  - id: Q1
-    text: "Nyatakan sama ada setiap nombor berikut ialah integer: -5, 0.75, 3, -2.1, 7."
-    difficulty: medium
-    learning_objective: 1.1.2
-    tp_level: 2
+  # 1.1 Integers (TP1 - OAP)
+  - id: "Q1"
+    text: "Which of the following numbers is an integer?"
+    difficulty: "easy"
+    learning_objective: "1.1.2"
+    tp_level: 1
     kbat: false
+    type: "multiple_choice"
+    options:
+      A: "0.75"
+      B: "-5"
+      C: "3/4"
+      D: "2.1"
     answer:
-      type: free_text
-      value: "-5, 3, 7"
-      working: |
-        Integer adalah nombor bulat yang boleh positif, negatif, atau sifar. Oleh itu, -5, 3, dan 7 adalah integer, manakala 0.75 dan -2.1 bukan integer.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Mengenalpasti satu nombor sebagai integer dengan betul."
-      - marks: 2
-        criteria: "Mengenalpasti dua nombor sebagai integer dengan betul."
-      - marks: 3
-        criteria: "Mengenalpasti semua integer dengan betul."
+      type: "multiple_choice"
+      value: "B"
+    distractors:
+      - value: "A"
+        feedback: "You chose a decimal. Remember, integers must be whole numbers without fractional parts."
+      - value: "C"
+        feedback: "This is a fraction. An integer (integer) cannot be a proper fraction like this."
+      - value: "D"
+        feedback: "Decimals are not integers. Think of the lift levels: Aras G, B1, B2... those are integers!"
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Ingat bahawa integer tidak mempunyai bahagian perpuluhan."
+        text: "Think about the definition of integers from our 'Secret Club'. Does it allow decimals or fractions?"
+    marks: 1
 
-  # Learning objective 1.1.4 (analyze): Membanding dan menyusun integer mengikut tertib
-  - id: Q2
-    text: "Susun integer berikut mengikut tertib menaik: -3, 5, -1, 0, 4."
-    difficulty: medium
-    learning_objective: 1.1.4
+  # 1.1 Integers (TP3 - Subjective)
+  - id: "Q2"
+    text: "Arrange the following integers in ascending order: -3, 5, -1, 0, 4."
+    difficulty: "medium"
+    learning_objective: "1.1.4"
     tp_level: 3
-    kbat: true
+    kbat: false
+    type: "subjective"
     answer:
-      type: exact
+      type: "exact"
       value: "-3, -1, 0, 4, 5"
       working: |
-        Untuk menyusun integer mengikut tertib menaik, mula dengan nombor yang paling kecil. Dalam senarai ini, -3 adalah yang paling kecil, diikuti oleh -1, 0, 4, dan akhirnya 5.
+        1. Identify the smallest negative number: -3.
+        2. Identify the next negative number closer to zero: -1.
+        3. Place zero.
+        4. Arrange positive numbers: 4, then 5.
+        5. Final order: -3, -1, 0, 4, 5.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menyusun dua nombor pertama dengan betul."
-      - marks: 2
-        criteria: "Menyusun hingga nombor ketiga dengan betul."
-      - marks: 3
-        criteria: "Menyusun semua nombor dengan betul."
-    hints:
-      - level: 1
-        text: "Bandingkan setiap nombor dengan melihat kedudukannya pada garis nombor."
-
-  # Learning objective 1.2.1 (apply): Menambah dan menolak integer menggunakan garis nombor atau kaedah lain yang sesuai 
-  - id: Q3
-    text: "Hitung hasil operasi $-7 + 5 - 3$."
-    difficulty: medium
-    learning_objective: 1.2.1
-    tp_level: 2
-    kbat: false
-    answer:
-      type: exact
-      value: "-5"
-      working: |
-        Mula dengan $-7 + 5$: 
-        $-7 + 5 = -2$.
-        Kemudian, $-2 - 3 = -5$.
-        Oleh itu, jawapan adalah $-5$.
-    marks: 3
-    rubric:
+        criteria: "Correctly identify -3 as the smallest value."
       - marks: 1
-        criteria: "Kira $-7 + 5$ dengan betul."
-      - marks: 2
-        criteria: "Kira $-2 - 3$ dengan betul selepas langkah pertama."
-      - marks: 3
-        criteria: "Mengira keseluruhan operasi dengan betul."
+        criteria: "Correctly place negative numbers and zero in the sequence."
+      - marks: 1
+        criteria: "Complete the full sequence correctly."
     hints:
       - level: 1
-        text: "Cuba pecahkan setiap operasi satu per satu dan gunakan garis nombor jika perlu."
+        text: "Imagine a number line. Which number is furthest to the left?"
+      - level: 2
+        text: "Remember the 'Debt Logic': is it better to owe RM3 (-3) or RM1 (-1)? Use that to find the smaller number."
 
-  # Learning objective 1.2.3 (apply): Membuat pengiraan yang melibatkan gabungan operasi asas aritmetik bagi integer mengikut tertib operasi
-  - id: Q4
-    text: 'Kira hasil operasi berikut: $6 \times (-2) + 4 \div 2$.'
-    difficulty: medium
-    learning_objective: 1.2.3
+  # 1.2 Operations (TP3 - Subjective)
+  - id: "Q3"
+    text: "Calculate the value of: $6 \times (-2) + 4 \div 2$."
+    difficulty: "medium"
+    learning_objective: "1.2.3"
     tp_level: 3
     kbat: false
+    type: "subjective"
     answer:
-      type: exact
+      type: "exact"
       value: "-10"
       working: |
-        Mengikut tertib operasi, lakukan pendaraban dan pembahagian dahulu:
-        $6 \times (-2) = -12$.
-        $4 \div 2 = 2$.
-        Kemudian, $-12 + 2 = -10$.
+        1. Perform multiplication: $6 \times (-2) = -12$.
+        2. Perform division: $4 \div 2 = 2$.
+        3. Combine results: $-12 + 2 = -10$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: 'Kira hasil $6 \times (-2)$ dengan betul.'
-      - marks: 2
-        criteria: 'Kira hasil $4 \div 2$ dengan betul.'
-      - marks: 3
-        criteria: "Mengira keseluruhan operasi dengan betul."
+        criteria: "Perform multiplication correctly using sign rules."
+      - marks: 1
+        criteria: "Perform division correctly."
+      - marks: 1
+        criteria: "Apply the order of operations (BODMAS) to get the final answer."
     hints:
       - level: 1
-        text: "Ingat untuk mendahulukan operasi pendaraban dan pembahagian sebelum penambahan dan penolakan."
+        text: "Which operations should you do first? Remember the priority of multiplication and division over addition!"
 
-  # Learning objective 1.5.1 (understand): Mengenal dan memerihalkan nombor nisbah
-  - id: Q5
-    text: 'Antara nombor berikut, yang manakah adalah nombor nisbah? $\frac{1}{2}, \sqrt{2}, 0.333, -8$'
-    difficulty: medium
-    learning_objective: 1.5.1
-    tp_level: 2
+  # 1.3 Fractions (TP3 - OPB)
+  - id: "Q4"
+    text: "State whether the following statement is TRUE or FALSE: $-\frac{3}{4}$ is larger than $-\frac{1}{2}$."
+    difficulty: "medium"
+    learning_objective: "1.3.2"
+    tp_level: 3
     kbat: false
+    type: "objective_diverse"
     answer:
-      type: multiple_choice
-      value: "A, C, D"
-      options:
-        A: '$\frac{1}{2}$'
-        B: '$\sqrt{2}$'
-        C: '0.333'
-        D: '-8'
+      type: "boolean"
+      value: false
       working: |
-        Nombor nisbah adalah nombor yang boleh dinyatakan sebagai pecahan dua integer. $\frac{1}{2}$ dan -8 adalah jelas pecahan atau integer, manakala 0.333 adalah perpuluhan yang boleh dinyatakan sebagai pecahan (333/1000). $\sqrt{2}$ tidak boleh dinyatakan sebagai pecahan dua integer.
+        1. Equate denominators: $-\frac{3}{4}$ and $-\frac{2}{4}$.
+        2. Compare: $-3$ is smaller than $-2$ on a number line.
+        3. Therefore, $-\frac{3}{4} < $-\frac{1}{2}$.
     marks: 2
+    hints:
+      - level: 1
+        text: "Try equating the denominators first. Is $-\frac{3}{4}$ further left or right compared to $-\frac{2}{4}$ on the number line?"
+
+  # 1.4 Decimals (TP4 - Subjective/Simple Routine)
+  - id: "Q5"
+    text: "Aisah bought a shirt for RM19.90 and two pairs of trousers for the same price. She paid RM55 and received RM5.40 in change. Calculate the price of one pair of trousers."
+    difficulty: "medium"
+    learning_objective: "1.4.4"
+    tp_level: 4
+    kbat: true
+    type: "subjective"
+    answer:
+      type: "exact"
+      value: "14.85"
+      working: |
+        1. Total spent = $55.00 - 5.40 = 49.60$.
+        2. Cost of 2 trousers = $49.60 - 19.90 = 29.70$.
+        3. Price of 1 trouser = $29.70 \div 2 = 14.85$.
+    marks: 4
     rubric:
       - marks: 1
-        criteria: "Memilih dua nombor nisbah dengan betul."
+        criteria: "Calculate total expenditure correctly."
+      - marks: 1
+        criteria: "Subtract shirt price to find cost of trousers."
       - marks: 2
-        criteria: "Memilih semua nombor nisbah dengan betul."
+        criteria: "Divide by 2 to find the correct unit price."
     hints:
       - level: 1
-        text: "Periksa sama ada setiap nombor boleh dinyatakan sebagai pecahan dua integer."
+        text: "Start by finding out how much Aisah actually spent. If she gave RM55 and got RM5.40 back, what was the total bill?"
+
+  # 1.5 Rational Numbers (TP2 - OAP)
+  - id: "Q6"
+    text: "Which of the following is NOT a rational number?"
+    difficulty: "hard"
+    learning_objective: "1.5.1"
+    tp_level: 2
+    kbat: false
+    type: "multiple_choice"
+    options:
+      A: "0.333..."
+      B: "-8"
+      C: "$\frac{5}{0}$"
+      D: "1.25"
+    answer:
+      type: "multiple_choice"
+      value: "C"
+    distractors:
+      - value: "A"
+        feedback: "Recurring decimals can be written as fractions, so they ARE rational."
+      - value: "B"
+        feedback: "Integers can be written as $x/1$. This is rational."
+      - value: "D"
+        feedback: "1.25 is $5/4$. Since it can be a fraction, it is rational."
+    hints:
+      - level: 1
+        text: "Look for the 'Zero Destroyer' trap! What happens if the denominator is zero?"
+    marks: 2
+
+  # 1.2 Integers (TP5 - Complex Routine)
+  - id: "Q7"
+    text: "A shop made a profit of RM16,800 in the first year and a loss of RM6,500 each year for the next two years. In the fourth year, the loss was twice the loss of the second year. Calculate the total profit or loss after four years."
+    difficulty: "hard"
+    learning_objective: "1.2.6"
+    tp_level: 5
+    kbat: true
+    type: "subjective"
+    answer:
+      type: "exact"
+      value: "-9200"
+      working: |
+        1. Year 1: $+16800$.
+        2. Year 2 & 3: $2 \times (-6500) = -13000$.
+        3. Year 4: $2 \times (-6500) = -13000$.
+        4. Total: $16800 - 13000 - 13000 = -9200$.
+        5. Result: A loss of RM9,200.
+    marks: 5
+    rubric:
+      - marks: 2
+        criteria: "Represent profits as positive and losses as negative integers."
+      - marks: 2
+        criteria: "Calculate the fourth-year loss correctly."
+      - marks: 1
+        criteria: "Find the final net result correctly."
+    hints:
+      - level: 1
+        text: "Assign + for profit and - for loss. How much was the total loss for years 2, 3, and 4 combined?"
+
+  # 1.5 Rational Numbers (TP6 - Non-Routine)
+  - id: "Q8"
+    text: "Noriah donates $\frac{3}{8}$ of her RM120 savings. She then buys shoes for RM25.60. Using rational number operations, explain if her remaining balance is enough to buy a book costing RM50."
+    difficulty: "hard"
+    learning_objective: "1.5.3"
+    tp_level: 6
+    kbat: true
+    type: "subjective"
+    answer:
+      type: "free_text"
+      value: "No, she only has RM49.40 left."
+      working: |
+        1. Donation: $\frac{3}{8} \times 120 = 45$.
+        2. Remaining after donation: $120 - 45 = 75$.
+        3. After shoes: $75 - 25.60 = 49.40$.
+        4. Comparison: $49.40 < 50.00$.
+    marks: 6
+    rubric:
+      - marks: 2
+        criteria: "Calculate donation amount correctly."
+      - marks: 2
+        criteria: "Calculate remaining balance after both expenses."
+      - marks: 2
+        criteria: "Provide logical reasoning comparing balance to book price."
+    hints:
+      - level: 1
+        text: "Calculate her balance step-by-step. Does she have more or less than RM50 at the end?"

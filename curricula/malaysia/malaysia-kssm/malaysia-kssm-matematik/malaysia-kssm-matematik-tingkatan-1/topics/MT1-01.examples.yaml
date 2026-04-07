@@ -1,42 +1,72 @@
-topic_id: MT1-01
-provenance: ai-generated
-description: "Worked examples for Nombor Nisbah"
-worked_examples:
-  - id: WE-01
-    topic: "Mengenal dan Memerihalkan Nombor Nisbah"
-    difficulty: easy
-    real_world_analogy: "Consider a pizza divided into equal parts. Each part represents a fraction of the whole pizza, similar to how rational numbers represent parts of a whole."
-    misconception_alert: "Students often confuse a rational number with a whole number. Remember, rational numbers can be fractions or decimals."
-    scenario: "Kamal cuts a pizza into 8 equal slices and eats 3 slices. Represent the part of the pizza Kamal ate as a rational number."
+id: "MT1-01"
+examples:
+  - id: "WE-01"
+    topic: "Integers in Real-Life Situations"
+    difficulty: "easy"
+    real_world_analogy: "Think of a condominium lift. Aras G is 0. Floors above are positive (+1, +2), and basement parking levels are negative (-1, -2)."
+    misconception_alert: "Students often think -2 is larger than -1 because 2 is larger than 1. Remind them that in the basement, B2 is deeper (lower) than B1."
+    scenario: "A submarine is located 250 m below sea level. Represent this position as an integer."
     working: |
-      Step 1: Define the total number of slices as the denominator, which is 8.
-      Step 2: Define the number of slices eaten by Kamal as the numerator, which is 3.
-      Step 3: Express the part of the pizza eaten as a fraction: \(\frac{3}{8}\).
+      1. Identify the reference point: Sea level is represented by the integer 0.
+      2. Determine the direction: 'Below sea level' indicates a negative direction.
+      3. Combine the sign and the magnitude: The magnitude is 250.
+      4. Final Answer: $-250$.
+    learning_objective: "1.1.1"
 
-  - id: WE-02
-    topic: "Membanding dan Menyusun Pecahan Positif dan Pecahan Negatif"
-    difficulty: medium
-    real_world_analogy: "Imagine you are comparing the heights of two mountains, one above sea level and one below sea level. The mountain above sea level is a positive fraction, while the one below is negative."
-    misconception_alert: "Students may assume negative fractions are larger because of their absolute value. Remember, negative fractions are always less than positive ones."
-    scenario: 'Compare and arrange the following fractions in ascending order: \(-\frac{1}{4}, \frac{2}{3}, \frac{1}{2}\).'
+  - id: "WE-02"
+    topic: "Basic Arithmetic Operations involving Integers"
+    difficulty: "medium"
+    real_world_analogy: "The 'Friend of my Enemy' rule. Adding a negative number is like losing money (subtraction). Subtracting a negative number is like having a debt cancelled (addition)."
+    misconception_alert: "The Double Negative Panic. Students often forget that $-(-x)$ becomes $+x$. Force the rewrite of the signs first."
+    scenario: "Evaluate the following: $-8 + (-2) - (-10)$."
     working: |
-      Step 1: Identify the signs of the fractions. \(-\frac{1}{4}\) is negative, \(\frac{2}{3}\) and \(\frac{1}{2}\) are positive.
-      Step 2: Realize that negative fractions are smaller than positive ones.
-      Step 3: Compare the positive fractions: \(\frac{2}{3} > \frac{1}{2}\).
-      Step 4: Arrange the fractions in ascending order: \(-\frac{1}{4}, \frac{1}{2}, \frac{2}{3}\).
+      1. Rewrite the expression by simplifying the double signs:
+         $-8 - 2 + 10$
+      2. Perform the operation from left to right:
+         Calculate $-8 - 2 = -10$
+      3. Substitute back into the expression:
+         $-10 + 10$
+      4. Final Calculation: 
+         $-10 + 10 = 0$
+      5. Final Answer: $0$.
+    learning_objective: "1.2.1"
 
-  - id: WE-03
-    topic: "Membuat Pengiraan Melibatkan Gabungan Operasi Asas Aritmetik bagi Nombor Nisbah"
-    difficulty: hard
-    real_world_analogy: "Think about managing money where you have debts (negative amounts) and savings (positive amounts). Calculating your net worth involves adding and subtracting these amounts."
-    misconception_alert: "A common mistake is to overlook the order of operations when performing calculations involving multiple operations."
-    scenario: 'Calculate the result of \(\frac{3}{4} - \frac{2}{3} \times \left( -\frac{3}{5} \right) + \frac{1}{2}\).'
+  - id: "WE-03"
+    topic: "Combined Operations of Positive and Negative Fractions"
+    difficulty: "medium"
+    real_world_analogy: "BODMAS is like a VIP line at a concert. Brackets, Multiplication, and Division get to go first before Addition and Subtraction."
+    misconception_alert: "The 'Naked Numerator' Trap. When subtracting fractions with negative signs, students often fail to distribute the sign to the whole numerator."
+    scenario: "Calculate the value of: $\\frac{1}{2} + \\left( -\\frac{3}{4} \\right) \\times \\frac{2}{3}$."
     working: |
-      Step 1: Apply the multiplication first according to the order of operations: \(\frac{2}{3} \times \left( -\frac{3}{5} \right) = -\frac{6}{15}\).
-      Step 2: Simplify \(-\frac{6}{15}\) to \(-\frac{2}{5}\).
-      Step 3: Substitute back into the expression: \(\frac{3}{4} - \left( -\frac{2}{5} \right) + \frac{1}{2}\).
-      Step 4: Convert all fractions to have a common denominator, e.g., 20.
-      Step 5: Calculate: \(\frac{15}{20} + \frac{8}{20} + \frac{10}{20}\).
-      Step 6: Add the fractions: \(\frac{15}{20} + \frac{8}{20} = \frac{23}{20}\).
-      Step 7: Add the last fraction: \(\frac{23}{20} + \frac{10}{20} = \frac{33}{20}\).
-      Step 8: Express the result as a mixed number: \(1 \frac{13}{20}\).
+      1. Identify the order of operations: Multiplication must be performed before addition.
+      2. Multiply the fractions:
+         $-\\frac{3}{4} \\times \\frac{2}{3} = -\\frac{3 \\times 2}{4 \\times 3}$
+      3. Simplify the product:
+         $-\\frac{6}{12} = -\\frac{1}{2}$
+      4. Rewrite the full expression with the result:
+         $\\frac{1}{2} + \\left( -\\frac{1}{2} \\right)$
+      5. Simplify signs:
+         $\\frac{1}{2} - \\frac{1}{2}$
+      6. Final Answer: $0$.
+    learning_objective: "1.3.3"
+
+  - id: "WE-04"
+    topic: "Solving Problems involving Rational Numbers"
+    difficulty: "hard"
+    real_world_analogy: "Managing a bank account. Deposits are positive, while withdrawals and bank fees are negative rational numbers."
+    misconception_alert: "Skipping the 'Verification' step. In non-routine problems, students often provide a number without checking if it makes sense in the context (e.g., negative length)."
+    scenario: "Luqman's credit card account showed a balance of RM230 (debt). He bought 3 books costing RM120 each. A week later, he was charged RM3 in interest and he made a payment of RM400. What is his final account balance?"
+    working: |
+      1. Represent the debt as a negative integer: $-230$.
+      2. Calculate total book expenses: $3 \\times (-120) = -360$.
+      3. Represent interest charged as a negative value: $-3$.
+      4. Represent payment made as a positive value: $+400$.
+      5. Form the combined operation:
+         $-230 + (-360) + (-3) + 400$
+      6. Solve step-by-step:
+         $-230 - 360 = -590$
+         $-590 - 3 = -593$
+         $-593 + 400 = -193$
+      7. Interpret the result: The balance is $-193$, which means a debt of RM193.
+      8. Final Answer: RM193 (debt).
+    learning_objective: "1.5.3"

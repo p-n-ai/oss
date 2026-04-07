@@ -63,8 +63,23 @@ content_standards:
 
 learning_objectives:
   - id: [SP ID]
+    content_standard_id: "[SK ID]" # Mandatory: Map to the SK ID above
     text_en: "[Translated EN SP Text]"
     bloom: [understand|apply|analyze|etc]
+
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate the basic knowledge of [topic items]."
+  - level: 2
+    descriptor_en: "Demonstrate the understanding of [topic concept]."
+  - level: 3
+    descriptor_en: "Apply the understanding of [topic] to perform basic operations."
+  - level: 4
+    descriptor_en: "Apply appropriate knowledge and skills of [topic] in the context of simple routine problem solving."
+  - level: 5
+    descriptor_en: "Apply appropriate knowledge and skills of [topic] in the context of complex routine problem solving."
+  - level: 6
+    descriptor_en: "Apply appropriate knowledge and skills of [topic] in the context of non-routine problem solving."
 
 prerequisites:
   required: []
@@ -112,8 +127,23 @@ content_standards:
 
 learning_objectives:
   - id: [SP ID]
+    content_standard_id: "[SK ID]"
     text: "[Exact MS SP Text]"
     bloom: [understand|apply|analyze|etc]
+
+performance_standards:
+  - level: 1
+    descriptor: "[Exact MS TP1 Text]"
+  - level: 2
+    descriptor: "[Exact MS TP2 Text]"
+  - level: 3
+    descriptor: "[Exact MS TP3 Text]"
+  - level: 4
+    descriptor: "[Exact MS TP4 Text]"
+  - level: 5
+    descriptor: "[Exact MS TP5 Text]"
+  - level: 6
+    descriptor: "[Exact MS TP6 Text]"
 
 # Same teaching strategies as master, but translated
 teaching:

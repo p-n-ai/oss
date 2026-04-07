@@ -62,7 +62,7 @@ Topics move from Level 2 to Level 3 only after passing the 4 core auditor prompt
 
 | Chapter | Meta (EN) | Meta (MS) | Teach (EN) | Teach (MS) | Assess (EN) | Assess (MS) | Exam (EN) | Exam (MS) |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| MT1-01 | 1️⃣ | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ |
+| MT1-01 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | MT1-02 | 1️⃣ | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ |
 | MT1-03 | 1️⃣ | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ |
 | MT1-04 | 1️⃣ | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ |

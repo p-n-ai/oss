@@ -1,0 +1,220 @@
+id: "MT1-01"
+topic_id: "MT1-01"
+questions:
+  # 1.1 Integer (TP1 - OAP)
+  - id: "Q1"
+    text: "Antara nombor berikut, yang manakah merupakan integer?"
+    difficulty: "easy"
+    learning_objective: "1.1.2"
+    tp_level: 1
+    kbat: false
+    type: "multiple_choice"
+    options:
+      A: "0.75"
+      B: "-5"
+      C: "3/4"
+      D: "2.1"
+    answer:
+      type: "multiple_choice"
+      value: "B"
+    distractors:
+      - value: "A"
+        feedback: "Anda memilih perpuluhan. Ingat, integer mestilah nombor bulat tanpa bahagian pecahan."
+      - value: "C"
+        feedback: "Ini adalah pecahan. Integer tidak boleh dalam bentuk pecahan wajar seperti ini."
+      - value: "D"
+        feedback: "Perpuluhan bukan integer. Fikirkan tentang aras lif: Aras G, B1, B2... itu semua adalah integer!"
+    hints:
+      - level: 1
+        text: "Fikirkan tentang definisi integer dalam 'Kelab Rahsia' kita. Adakah ia membenarkan perpuluhan atau pecahan?"
+    marks: 1
+
+  # 1.1 Integer (TP3 - Subjektif)
+  - id: "Q2"
+    text: "Susun integer berikut mengikut tertib menaik: -3, 5, -1, 0, 4."
+    difficulty: "medium"
+    learning_objective: "1.1.4"
+    tp_level: 3
+    kbat: false
+    type: "subjective"
+    answer:
+      type: "exact"
+      value: "-3, -1, 0, 4, 5"
+      working: |
+        1. Kenal pasti nombor negatif yang paling kecil (paling jauh ke kiri): -3.
+        2. Kenal pasti nombor negatif seterusnya yang lebih dekat dengan sifar: -1.
+        3. Letakkan sifar.
+        4. Susun nombor positif: 4, kemudian 5.
+        5. Urutan akhir: -3, -1, 0, 4, 5.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti -3 sebagai nilai terkecil dengan betul."
+      - marks: 1
+        criteria: "Menyusun nombor negatif dan sifar dalam urutan yang betul."
+      - marks: 1
+        criteria: "Melengkapkan keseluruhan urutan dengan betul."
+    hints:
+      - level: 1
+        text: "Bayangkan garis nombor. Nombor manakah yang berada paling jauh ke kiri?"
+      - level: 2
+        text: "Gunakan 'Logik Hutang': Adakah lebih baik berhutang RM3 (-3) atau RM1 (-1)? Gunakan itu untuk mencari nombor yang lebih kecil."
+
+  # 1.2 Operasi (TP3 - Subjektif)
+  - id: "Q3"
+    text: "Hitung nilai bagi: $6 \times (-2) + 4 \div 2$."
+    difficulty: "medium"
+    learning_objective: "1.2.3"
+    tp_level: 3
+    kbat: false
+    type: "subjective"
+    answer:
+      type: "exact"
+      value: "-10"
+      working: |
+        1. Lakukan pendaraban dahulu: $6 \times (-2) = -12$.
+        2. Lakukan pembahagian: $4 \div 2 = 2$.
+        3. Gabungkan hasil: $-12 + 2 = -10$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Melakukan pendaraban dengan betul mengikut peraturan tanda."
+      - marks: 1
+        criteria: "Melakukan pembahagian dengan betul."
+      - marks: 1
+        criteria: "Mengaplikasikan tertib operasi (BODMAS) untuk mendapatkan jawapan akhir."
+    hints:
+      - level: 1
+        text: "Operasi manakah yang perlu dilakukan dahulu? Ingat keutamaan pendaraban dan pembahagian berbanding penambahan!"
+
+  # 1.3 Pecahan (TP3 - OPB)
+  - id: "Q4"
+    text: "Nyatakan sama ada pernyataan berikut BENAR atau PALSU: $-\frac{3}{4}$ adalah lebih besar daripada $-\frac{1}{2}$."
+    difficulty: "medium"
+    learning_objective: "1.3.2"
+    tp_level: 3
+    kbat: false
+    type: "objective_diverse"
+    answer:
+      type: "boolean"
+      value: false
+      working: |
+        1. Samakan penyebut: $-\frac{3}{4}$ dan $-\frac{2}{4}$.
+        2. Bandingkan: $-3$ adalah lebih kecil daripada $-2$ pada garis nombor.
+        3. Oleh itu, $-\frac{3}{4} < -\frac{1}{2}$.
+    marks: 2
+    hints:
+      - level: 1
+        text: "Cuba samakan penyebut dahulu. Adakah $-\frac{3}{4}$ berada lebih ke kiri atau ke kanan berbanding $-\frac{2}{4}$ pada garis nombor?"
+
+  # 1.4 Perpuluhan (TP4 - Subjektif/Rutin Mudah)
+  - id: "Q5"
+    text: "Aisah membeli sehelai baju dengan harga RM19.90 dan dua helai seluar panjang dengan harga yang sama. Dia membayar RM55 dan menerima baki RM5.40. Hitung harga sehelai seluar panjang tersebut."
+    difficulty: "medium"
+    learning_objective: "1.4.4"
+    tp_level: 4
+    kbat: true
+    type: "subjective"
+    answer:
+      type: "exact"
+      value: "14.85"
+      working: |
+        1. Jumlah belanja = $55.00 - 5.40 = 49.60$.
+        2. Kos 2 helai seluar = $49.60 - 19.90 = 29.70$.
+        3. Harga sehelai seluar = $29.70 \div 2 = 14.85$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menghitung jumlah perbelanjaan dengan betul."
+      - marks: 1
+        criteria: "Menolak harga baju untuk mencari kos seluar."
+      - marks: 2
+        criteria: "Membahagi dengan 2 untuk mencari harga seunit yang betul."
+    hints:
+      - level: 1
+        text: "Mulakan dengan mencari jumlah yang sebenarnya dibelanjakan oleh Aisah. Jika dia memberi RM55 dan mendapat baki RM5.40, berapakah jumlah bilnya?"
+
+  # 1.5 Nombor Nisbah (TP2 - OAP)
+  - id: "Q6"
+    text: "Antara berikut, yang manakah BUKAN nombor nisbah?"
+    difficulty: "hard"
+    learning_objective: "1.5.1"
+    tp_level: 2
+    kbat: false
+    type: "multiple_choice"
+    options:
+      A: "0.333..."
+      B: "-8"
+      C: "$\frac{5}{0}$"
+      D: "1.25"
+    answer:
+      type: "multiple_choice"
+      value: "C"
+    distractors:
+      - value: "A"
+        feedback: "Perpuluhan berulang boleh ditulis sebagai pecahan, jadi ia ADALAH nombor nisbah."
+      - value: "B"
+        feedback: "Integer boleh ditulis sebagai $x/1$. Ini adalah nombor nisbah."
+      - value: "D"
+        feedback: "1.25 adalah $5/4$. Oleh kerana ia boleh menjadi pecahan, ia adalah nombor nisbah."
+    hints:
+      - level: 1
+        text: "Cari perangkap 'Pemusnah Sifar'! Apa yang berlaku jika penyebut adalah sifar?"
+    marks: 2
+
+  # 1.2 Integer (TP5 - Rutin Kompleks)
+  - id: "Q7"
+    text: "Sebuah kedai mendapat keuntungan RM16,800 pada tahun pertama dan mengalami kerugian RM6,500 setiap tahun bagi dua tahun berturut-turut. Pada tahun keempat, kerugian adalah dua kali ganda kerugian tahun kedua. Hitung jumlah keuntungan atau kerugian selepas empat tahun."
+    difficulty: "hard"
+    learning_objective: "1.2.6"
+    tp_level: 5
+    kbat: true
+    type: "subjective"
+    answer:
+      type: "exact"
+      value: "-9200"
+      working: |
+        1. Tahun 1: $+16800$.
+        2. Tahun 2 & 3: $2 \times (-6500) = -13000$.
+        3. Tahun 4: $2 \times (-6500) = -13000$.
+        4. Jumlah: $16800 - 13000 - 13000 = -9200$.
+        5. Keputusan: Kerugian sebanyak RM9,200.
+    marks: 5
+    rubric:
+      - marks: 2
+        criteria: "Mewakili keuntungan sebagai integer positif dan kerugian sebagai integer negatif."
+      - marks: 2
+        criteria: "Menghitung kerugian tahun keempat dengan betul."
+      - marks: 1
+        criteria: "Mencari hasil bersih akhir dengan betul."
+    hints:
+      - level: 1
+        text: "Tetapkan tanda + untuk untung dan - untuk rugi. Berapakah jumlah kerugian untuk tahun 2, 3, dan 4 digabungkan?"
+
+  # 1.5 Nombor Nisbah (TP6 - Bukan Rutin)
+  - id: "Q8"
+    text: "Noriah menderma $\frac{3}{8}$ daripada simpanannya yang berjumlah RM120. Dia kemudian membeli kasut sekolah berharga RM25.60. Menggunakan operasi nombor nisbah, terangkan sama ada baki wangnya mencukupi untuk membeli buku yang berharga RM50."
+    difficulty: "hard"
+    learning_objective: "1.5.3"
+    tp_level: 6
+    kbat: true
+    type: "subjective"
+    answer:
+      type: "free_text"
+      value: "Tidak mencukupi, dia hanya mempunyai baki RM49.40."
+      working: |
+        1. Derma: $\frac{3}{8} \times 120 = 45$.
+        2. Baki selepas derma: $120 - 45 = 75$.
+        3. Baki selepas kasut: $75 - 25.60 = 49.40$.
+        4. Perbandingan: $49.40 < 50.00$.
+    marks: 6
+    rubric:
+      - marks: 2
+        criteria: "Menghitung jumlah derma dengan betul."
+      - marks: 2
+        criteria: "Menghitung baki akhir selepas kedua-dua perbelanjaan."
+      - marks: 2
+        criteria: "Memberikan alasan logik dengan membandingkan baki dan harga buku."
+    hints:
+      - level: 1
+        text: "Hitung bakinya langkah demi langkah. Adakah dia mempunyai lebih atau kurang daripada RM50 pada akhirnya?"

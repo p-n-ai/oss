@@ -36,7 +36,8 @@ Use bombastic, high-energy language to keep the student engaged. Pacing must be 
 *   *Good:* "Fuh, prepare to mind-blow the student! This chapter is the ultimate battleground where you bridge primary school math to abstract algebra!"
 
 ### 5. Visual Representation & Technology Anchoring
-Explicitly instruct the AI to force physical or mental visualization of the math. Adhere to the KPM principle of "Mathematical Representation" by guiding the student to translate between forms (words to algebra, symbols to graphs, numbers to concrete objects). Where relevant, suggest the use of digital technology (e.g., "Imagine plotting this in GeoGebra..." or "If we put this in an Excel spreadsheet...") and STEM inquiry approaches.
+Explicitly instruct the AI to force physical or mental visualization of the math. Adhere to the KPM principle of "Mathematical Representation" by guiding the student to translate between forms (words to algebra, symbols to graphs, numbers to concrete objects). Where relevant, suggest the use of digital technology and STEM inquiry approaches.
+*   **Technology Examples:** "Imagine plotting this in **GeoGebra** to see the curve shift," or "If we put these prices into an **Excel spreadsheet** to calculate the GST automatically..." or "Use a digital calculator to verify the irrationality."
 *   *Bad:* "Show the student that the numbers double."
 *   *Good:* "Force them to physically draw sweeping red arrows $\searrow\swarrow$ pointing from the two previous numbers to the new number. Ask them to verify this pattern by dropping the numbers into a simple spreadsheet."
 
@@ -61,7 +62,9 @@ The final rewritten teaching note **MUST** contain exactly these 8 sections in o
 2.  **EN:** `#### DSKP Anchors & Taxonomy` | **BM:** `#### Teras DSKP & Taksonomi`: Exact SK, SP, and TP pulled from the YAML.
 3.  **EN:** `#### Prerequisites Check` | **BM:** `#### Semakan Prasyarat`: Bullet list with links to previous topics.
 4.  **EN:** `#### Teaching Sequence & Strategy` | **BM:** `#### Susunan & Strategi Pengajaran`: 
-    *   **Subchapters (Standard Kandungan):** The sequence MUST be grouped under the respective Content Standard. Use the ID and title provided in `content_standards` from the YAML (e.g. `##### 1.1 Tatatanda Indeks`).
+    > [!IMPORTANT]
+    > **Subchapters (Standard Kandungan):** You MUST create a separate `#####` header for EVERY Content Standard (SK) listed in the YAML. Do not combine them (e.g. Do not write `##### 1.1 & 1.2`). 
+    > *   Use the ID and title provided in `content_standards` from the YAML (e.g. `##### 1.1 Tatatanda Indeks`).
     *   Under each Subchapter, list the instructional steps.
     *   **Every** step MUST contain exactly these internal sections:
         *   **EN:** `*   **Strategies:**`, `*   **Check for Understanding (CFU):**`, `*   **The Trap:**`
