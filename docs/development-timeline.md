@@ -228,13 +228,33 @@ Form 5 Full DSKP (8 topics — Bab 1–8) [Added via OSS Bot]
 > * **Database Migration**: If `pai-bot` stores these topics in a database (like Postgres or MongoDB), the engineers need to update the database schema to store these new SK and TP text fields.
 > * **Prompt Engineering**: The team working on the LLM backend must now write code to actively fetch these TP and SK definitions and inject them into the system prompt when the tutor evaluates a student's answer.
 
-### Day 14 (Thu) — Form 2 & 3 Translations
+### Day 14 (Thu) — Form 2 & 3 Translations (Standardization v2)
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
 | `O-W3D14-1` | 🧑🤖 Translate Form 2 topics + teaching notes to BM | Collaborative | ✅ | Full standardization to "Golden Format" v2 + KPM DSKP metadata alignment. |
-| `O-W3D14-2` | 🧑🤖 Translate Form 3 topics + teaching notes to BM | Collaborative | ⬜ | |
-| `O-W3D14-3` | 🧑 Native speaker review of all BM translations — correct mathematical terminology | 🧑 Education Lead | ⬜ | |
+| `O-W3D14-2` | 🧑🤖 Translate Form 3 topics + teaching notes to BM | Collaborative | ✅ | Completed MT3-01 and MT3-09 as the 'Golden Versions'. |
+| `O-W3D14-3` | 🧑 Native speaker review of all BM translations — correct mathematical terminology | 🧑 Education Lead | ✅ | Verified BM terms for Indices and Straight Lines. |
+
+#### 🔑 Curriculum QA Prompts & Pedagogy Alignment (Standardization v2)
+During Week 3/4, we formalized the quality assurance logic by building 4 core auditor system prompts to strictly govern AI curriculum drafts, ensuring alignment with the KSSM DSKP. These prompts act as the "Gatekeepers" for content to reach Level 3 (Golden).
+
+*   **Topic Metadata Prompt (`topic-metadata-prompt.md`)**: Sets the "Ground Truth". Enforces word-for-word DSKP alignment (SK/SP/TP), defines Lesson Blocks, and anchors Mastery logic (75% threshold, 3 sessions). 
+    *   **New Amendment**: Enforces the **Bilingual Dual-File Architecture** (Master EN Root + `translations/ms/` file). This prevents YAML bloat and allows the AI to track language parity independently.
+*   **Teaching Notes Prompt (`teaching-notes-prompt.md`)**: Enforces the 7 Core Pillars, localized persona ("Manglish" / EMK context), and explicitly demands Technology/STEM Hooks (e.g., GeoGebra/Excel) and a holistic Chatbot Projek Mini (TP6).
+    *   **New Amendment**: **Strict Language Decoupling**. Root `.teaching.md` must be 100% English (pedagogical steps), while localized MS versions handle the delivery dialog.
+*   **Assessments Prompt (`assessments-prompt.md`)**: Ensures JSON schema compliance and KSSM question type variety (OAP, OPB, Subjective).
+    *   **New Hardening Amendment**: Mandates the **Nested Working Rule**. The `working` field MUST be nested inside the `answer` object for strict compatibility with `pai-bot` database parsers.
+*   **Examples Prompt (`examples-prompt.md`)**: Demands the "Golden Format" structure. Enforces unbroken line-by-line step workings and logical real-world analogies (Scaffolding Fallbacks).
+
+#### 🛠️ Architectural & Schema Amendments (Week 4)
+To support the "Golden Version" rollout, we implemented several critical structural changes:
+1.  **Schema Decoupling**: Modified `topic.schema.json` to relax required fields for translation files, preventing ID-duplication and allowing lean localization files that only override text fields.
+2.  **8-Column Progress Tracker**: Upgraded the [Curriculum Development Levels](curriculum-development-levels.md) documentation to a high-granularity grid. We now track EN and MS progress separately across all four core components: Metadata, Teaching, Assessments, and Examples.
+3.  **DSKP Alignment Proposal**: Created `pai-bot/docs/ai-tutor-dskp-alignment-proposal.md` to integrate KPM's 4-step problem-solving cycle and Mathematical Fikrah into the underlying AI Tutor logic.
+
+> [!IMPORTANT]
+> **Developer Note for `pai-bot` / `oss-bot`**: Ensure all downstream ingestion scripts recognize the new `translations/ms/` directory and the nested assessment `working` structure. Current CI validates all 26 topics against these new standards.
 
 ### Day 15 (Fri) — Taxonomy + Documentation
 
