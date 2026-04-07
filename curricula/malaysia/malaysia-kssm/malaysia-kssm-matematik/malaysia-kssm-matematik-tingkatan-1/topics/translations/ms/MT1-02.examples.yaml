@@ -1,0 +1,92 @@
+topic_id: MT1-02
+provenance: "expert-curated"
+worked_examples:
+  - id: WE-01
+    topic: "Faktor dan Faktor Perdana"
+    learning_objective: "2.1.1"
+    difficulty: "easy"
+    real_world_analogy: "Mencari faktor adalah seperti mencari semua cara untuk membungkus jumlah barang yang sama ke dalam kotak bersaiz sama. Jika anda ada 12 biji donat, bolehkah anda masukkan ke dalam kotak berisi 5? Tak boleh, sebab akan ada baki!"
+    misconception_alert: "Pelajar selalu keliru faktor dengan gandaan. Ingat 'Peraturan DNA': DNA sentiasa berada di DALAM badan, jadi saiznya mesti lebih kecil atau sama dengan nombor asal!"
+    scenario: "Anda mempunyai 12 biji kerusi untuk satu majlis. Senaraikan semua bilangan kerusi yang mungkin dalam satu baris supaya setiap baris mempunyai bilangan kerusi yang sama tanpa ada baki."
+    working: |
+      1. Untuk mencari faktor, kita cari pasangan nombor bulat yang apabila didarabkan menghasilkan 12:
+         - $1 \times 12 = 12$
+         - $2 \times 6 = 12$
+         - $3 \times 4 = 12$
+      2. Senaraikan setiap nombor unik daripada pasangan tersebut: $1, 2, 3, 4, 6, 12$.
+      3. Kesimpulan: Kerusi boleh disusun dalam barisan berisi $1, 2, 3, 4, 6,$ atau $12$ biji kerusi.
+    
+  - id: WE-02
+    topic: "Pemfaktoran Perdana"
+    learning_objective: "2.1.2"
+    difficulty: "medium"
+    real_world_analogy: "Pemfaktoran perdana adalah seperti mencari 'elemen atom' bagi sesuatu nombor. Seperti mana air diperbuat daripada Hidrogen dan Oksigen ($H_2O$), nombor 60 diperbuat daripada 'atom' 2, 3, dan 5."
+    misconception_alert: "Pelajar sering memasukkan nombor 1 dalam pemfaktoran perdana. Ingatkan mereka: '1 ialah faktor, tapi BUKAN faktor perdana kerana 1 bukan nombor perdana!'"
+    scenario: "Ungkapkan nombor 60 dalam bentuk pemfaktoran perdana menggunakan kaedah pokok faktor."
+    working: |
+      1. Mula dengan nombor $60$ dan pecahkan kepada mana-mana dua faktor: $60 = 6 \times 10$.
+      2. Pecahkan $6$ kepada faktor perdananya: $6 = 2 \times 3$. (Kedua-dua $2$ dan $3$ adalah perdana).
+      3. Pecahkan $10$ kepada faktor perdananya: $10 = 2 \times 5$. (Kedua-dua $2$ dan $5$ adalah perdana).
+      4. Kumpulkan semua 'daun' di hujung pokok: $2, 3, 2, 5$.
+      5. Susun mengikut tertib menaik dan gunakan tatatanda indeks: $2 \times 2 \times 3 \times 5 = 2^2 \times 3 \times 5$.
+
+  - id: WE-03
+    topic: "Faktor Sepunya Terbesar (FSTB)"
+    learning_objective: "2.1.4"
+    difficulty: "medium"
+    real_world_analogy: "Mencari FSTB adalah seperti mencari pembahagi 'Big Boss'. Ia adalah saiz terbesar yang boleh membahagi dua kumpulan berbeza dengan tepat, seperti mencari jubin terbesar untuk menutupi lantai (Buku Teks ms. 30)."
+    misconception_alert: "Pelajar kadang-kadang mengira GSTK dan bukannya FSTB kerana perkataan 'Terbesar' kedengaran seperti nombor yang besar. Ingatkan: 'FSTB ialah pembahagi, jadi jawapannya mesti lebih kecil!'"
+    scenario: "Cari Faktor Sepunya Terbesar (FSTB) bagi 18 dan 24 menggunakan kaedah pembahagian berulang."
+    working: |
+      1. Tulis $18$ dan $24$ dalam rangka pembahagian.
+      2. Bahagi kedua-duanya dengan faktor perdana sepunya terkecil, iaitu $2$:
+         - $18 \div 2 = 9$
+         - $24 \div 2 = 12$
+      3. Bahagi hasil bahagi ($9, 12$) dengan faktor perdana sepunya seterusnya, iaitu $3$:
+         - $9 \div 3 = 3$
+         - $12 \div 3 = 4$
+      4. Oleh sebab $3$ dan $4$ tidak mempunyai faktor sepunya lagi, berhenti di sini.
+      5. Darabkan semua pembahagi di sebelah kiri: $FSTB = 2 \times 3 = 6$.
+
+  - id: WE-04
+    topic: "Gandaan Sepunya Terkecil (GSTK)"
+    learning_objective: "2.2.2"
+    difficulty: "medium"
+    real_world_analogy: "Mencari GSTK adalah seperti mencari 'tempat pertemuan' pertama bagi dua kawan yang berjalan dengan kelajuan berbeza. Jika kawan A ambil 2 langkah dan kawan B ambil 3 langkah, mereka akan bertemu setiap 6 langkah!"
+    misconception_alert: "Pelajar sering lupa untuk meneruskan pembahagian sehingga semua hasil bahagi menjadi 1 dalam kaedah pembahagian berulang untuk GSTK."
+    scenario: "Cari Gandaan Sepunya Terkecil (GSTK) bagi 3, 6, dan 9."
+    working: |
+      1. Tulis $3, 6, 9$ dalam rangka pembahagian.
+      2. Bahagi dengan faktor perdana terkecil yang boleh membahagi sekurang-kurangnya satu nombor, iaitu $2$:
+         - $3$ tidak boleh dibahagi $2$, tulis semula $3$.
+         - $6 \div 2 = 3$.
+         - $9$ tidak boleh dibahagi $2$, tulis semula $9$.
+         - Senarai sekarang: $3, 3, 9$.
+      3. Bahagi dengan faktor perdana seterusnya, $3$:
+         - $3 \div 3 = 1$.
+         - $3 \div 3 = 1$.
+         - $9 \div 3 = 3$.
+         - Senarai sekarang: $1, 1, 3$.
+      4. Bahagi dengan $3$ sekali lagi:
+         - Tulis semula $1, 1$.
+         - $3 \div 3 = 1$.
+         - Senarai sekarang: $1, 1, 1$. Berhenti.
+      5. Darabkan semua pembahagi: $GSTK = 2 \times 3 \times 3 = 18$.
+
+  - id: WE-05
+    topic: "Penyelesaian Masalah GSTK"
+    learning_objective: "2.2.3"
+    difficulty: "hard"
+    real_world_analogy: "Ini seperti menyelaraskan rentak muzik. Jika pemain dram memukul dram setiap 4 bit dan simbal setiap 6 bit, GSTK memberitahu bila kedua-duanya akan berbunyi serentak!"
+    misconception_alert: "Pelajar mungkin cuba menambah selang masa ($15 + 20 = 35$) dan bukannya mencari gandaan. Amaran: 'Menambah hanya memberitahu jumlah masa, bukan titik pertemuan!'"
+    scenario: "Bas A sampai setiap 15 minit, dan Bas B sampai setiap 20 minit. Jika kedua-dua bas sampai di terminal pada pukul 9:00 a.m., pukul berapakah mereka akan sampai bersama-sama sekali lagi?"
+    working: |
+      1. Fahami masalah: Kita perlu mencari masa pertama kedua-dua selang masa bertemu. Ini masalah GSTK.
+      2. Cari GSTK bagi $15$ dan $20$ menggunakan pembahagian berulang:
+         - Bahagi $2$: $15, 10$
+         - Bahagi $2$: $15, 5$
+         - Bahagi $3$: $5, 5$
+         - Bahagi $5$: $1, 1$
+      3. Kira GSTK: $2 \times 2 \times 3 \times 5 = 60$ minit.
+      4. Tukar unit: $60$ minit bersamaan $1$ jam.
+      5. Jawapan Akhir: $9:00 \text{ a.m.} + 1 \text{ jam} = 10:00 \text{ a.m.}$

@@ -1,0 +1,161 @@
+topic_id: MT1-02
+provenance: "expert-curated"
+questions:
+  - id: Q1
+    text: "Antara berikut, yang manakah merupakan faktor bagi $30$?"
+    difficulty: "easy"
+    learning_objective: "2.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "6"
+      working: |
+        Faktor ialah nombor yang boleh membahagi nombor asal dengan tepat.
+        $30 \div 6 = 5$.
+        Oleh itu, $6$ ialah faktor bagi $30$.
+      distractors:
+        - value: "4"
+          feedback: "Salah. $30 \div 4 = 7$ baki $2$. Faktor mestilah membahagi tanpa baki."
+        - value: "7"
+          feedback: "Salah. $7$ tidak ada dalam sifir yang menghasilkan $30$. Cuba senaraikan pasangan faktor: $(1, 30), (2, 15), (3, 10), (5, 6)$."
+        - value: "60"
+          feedback: "Ini adalah gandaan! Ingat 'Peraturan DNA': Faktor mestilah lebih kecil atau sama dengan nombor asal."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Cari nombor dalam pilihan jawapan yang boleh membahagi $30$ tanpa mempunyai baki."
+
+  - id: Q2
+    text: "Ungkapkan $60$ dalam bentuk pemfaktoran perdana."
+    difficulty: "medium"
+    learning_objective: "2.1.2"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: "exact"
+      value: "2^2 \times 3 \times 5"
+      working: |
+        Gunakan kaedah pembahagian berulang dengan nombor perdana:
+        $60 \div 2 = 30$
+        $30 \div 2 = 15$
+        $15 \div 3 = 5$
+        $5 \div 5 = 1$
+        Maka, $60 = 2 \times 2 \times 3 \times 5 = 2^2 \times 3 \times 5$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti sekurang-kurangnya dua faktor perdana ($2, 3$ atau $5$)."
+      - marks: 2
+        criteria: "Menunjukkan proses pembahagian berulang atau pokok faktor yang lengkap."
+      - marks: 3
+        criteria: "Menulis jawapan akhir dalam bentuk tatatanda indeks dengan betul."
+    hints:
+      - level: 1
+        text: "Mula membahagi $60$ dengan nombor perdana terkecil, iaitu $2$. Teruskan sehingga hasil bahagi menjadi $1$."
+
+  - id: Q3
+    text: "Cari Faktor Sepunya Terbesar (FSTB) bagi $18$ dan $24$."
+    difficulty: "medium"
+    learning_objective: "2.1.4"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "6"
+      working: |
+        Gunakan pembahagian berulang:
+        Bahagi $18, 24$ dengan $2 \rightarrow 9, 12$
+        Bahagi $9, 12$ dengan $3 \rightarrow 3, 4$
+        Tiada lagi faktor sepunya.
+        FSTB = $2 \times 3 = 6$.
+      distractors:
+        - value: "2"
+          feedback: "Ini faktor sepunya, tapi bukan yang 'Terbesar'. Teruskan membahagi sehingga tiada nombor sepunya lagi."
+        - value: "72"
+          feedback: "Anda mencari GSTK (Gandaan)! FSTB mestilah nombor yang membahagi, jadi nilainya lebih kecil."
+        - value: "3"
+          feedback: "Ini faktor sepunya, tapi anda perlu mendarabkan semua pembahagi sepunya di sebelah kiri ($2 \times 3$)."
+    marks: 2
+    hints:
+      - level: 1
+        text: "Gunakan kaedah pembahagian berulang. Bahagi kedua-dua nombor dengan nombor perdana yang boleh membahagi kedua-duanya serentak."
+
+  - id: Q4
+    text: "Seorang jurubina ingin menutupi lantai berukuran $7.5 \text{ m} \times 9.6 \text{ m}$ dengan jubin segi empat sama. Berapakah saiz terbesar jubin itu, dalam cm, supaya lantai itu ditutupi sepenuhnya?"
+    difficulty: "hard"
+    learning_objective: "2.1.5"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: "exact"
+      value: "30"
+      working: |
+        Langkah 1: Tukar unit kepada cm. $750 \text{ cm}$ dan $960 \text{ cm}$.
+        Langkah 2: Cari FSTB bagi $750$ dan $960$.
+        Bahagi dengan $10 \rightarrow 75, 96$
+        Bahagi dengan $3 \rightarrow 25, 32$
+        FSTB = $10 \times 3 = 30$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menukar unit meter kepada sentimeter dengan betul."
+      - marks: 1
+        criteria: "Mengenal pasti keperluan mencari FSTB."
+      - marks: 2
+        criteria: "Menunjukkan langkah pengiraan FSTB yang lengkap dan memberikan jawapan $30 \text{ cm}$."
+    hints:
+      - level: 1
+        text: "Lantai mesti ditutup 'tanpa baki'. Ini bermakna saiz jubin mesti membahagi panjang dan lebar dengan tepat. Cari FSTB bagi ukuran tersebut dalam unit cm."
+
+  - id: Q5
+    text: "Lampu neon A berkelip setiap $9$ saat manakala lampu neon B setiap $12$ saat. Selepas berapa saatkah kedua-dua lampu itu akan berkelip serentak semula?"
+    difficulty: "hard"
+    learning_objective: "2.2.3"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: "multiple_choice"
+      value: "36"
+      working: |
+        Cari Gandaan Sepunya Terkecil (GSTK) bagi $9$ dan $12$:
+        Gandaan $9: 9, 18, 27, 36, 45...$
+        Gandaan $12: 12, 24, 36, 48...$
+        GSTK = $36$.
+      distractors:
+        - value: "3"
+          feedback: "Ini adalah FSTB. Untuk peristiwa yang berulang dan akan 'bertemu semula', kita perlu mencari GSTK."
+        - value: "108"
+          feedback: "Ini adalah gandaan sepunya, tetapi bukan yang 'Terkecil'. Lampu akan berkelip serentak lebih awal daripada ini."
+        - value: "21"
+          feedback: "Anda hanya menambah $9 + 12$. GSTK memerlukan anda mencari gandaan yang sama."
+    marks: 3
+    hints:
+      - level: 1
+        text: "Bila soalan tanya bila peristiwa akan berlaku 'serentak semula', itu petanda anda perlu mencari Gandaan Sepunya Terkecil (GSTK)."
+
+  - id: Q6
+    text: "Sebuah bakeri menerima tempahan $7$ biji kek yang sama. Pelanggan meminta kek itu dipotong dan dibahagikan secara adil ke dalam $12$ buah kotak kecil dengan setiap kotak mengandungi dua potongan kek. Jelaskan bagaimana anda menggunakan konsep faktor dan gandaan untuk menyelesaikan masalah ini."
+    difficulty: "hard"
+    learning_objective: "2.2.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: "free_text"
+      value: "Potong 3 biji kek kepada 4 bahagian setiap satu, dan 4 biji kek kepada 3 bahagian setiap satu."
+      working: |
+        Jumlah kotak = $12$. Setiap kotak ada $2$ potong, jadi jumlah potongan = $24$.
+        Jumlah kek = $7$. Kita perlu bahagi $7$ kek jadi $24$ potong secara adil.
+        Konsep GSTK bagi $3$ dan $4$ ialah $12$.
+        $3$ biji kek dipotong $4 \rightarrow 12$ potong (Setiap kotak dapat $1$ potong saiz $1/4$).
+        $4$ biji kek dipotong $3 \rightarrow 12$ potong (Setiap kotak dapat $1$ potong saiz $1/3$).
+        Jumlah potongan = $12 + 12 = 24$. Setiap kotak dapat $2$ potong yang adil.
+    marks: 5
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan jumlah potongan yang diperlukan ($24$ potongan)."
+      - marks: 4
+        criteria: "Memberikan penjelasan logik menggunakan konsep GSTK atau pembahagian pecahan yang menghasilkan $24$ bahagian daripada $7$ kek untuk $12$ kotak."
+    hints:
+      - level: 1
+        text: "Lihat hubung kait antara bilangan kotak ($12$) and bilangan kek ($7$). Bagaimana anda boleh menghasilkan $24$ potongan daripada $7$ kek supaya setiap kotak dapat $2$ jenis potongan yang konsisten?"

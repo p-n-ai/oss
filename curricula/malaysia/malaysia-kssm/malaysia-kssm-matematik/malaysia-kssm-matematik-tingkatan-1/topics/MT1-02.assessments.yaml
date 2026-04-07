@@ -1,143 +1,163 @@
 topic_id: MT1-02
-provenance: ai-generated
-
+provenance: "expert-curated"
 questions:
-  # Learning Objective 2.1.1
   - id: Q1
-    text: "Senaraikan semua faktor bagi nombor 36."
-    difficulty: medium
-    learning_objective: LO1
-    tp_level: 2
+    text: "Which of the following is a factor of $30$?"
+    difficulty: "easy"
+    learning_objective: "2.1.1"
+    tp_level: 1
     kbat: false
     answer:
-      type: exact
-      value: "[1, 2, 3, 4, 6, 9, 12, 18, 36]"
+      type: "multiple_choice"
+      value: "6"
       working: |
-        Faktor bagi 36 adalah nombor yang membahagikan 36 tanpa baki:
-        - 1, kerana $36 \div 1 = 36$
-        - 2, kerana $36 \div 2 = 18$
-        - 3, kerana $36 \div 3 = 12$
-        - 4, kerana $36 \div 4 = 9$
-        - 6, kerana $36 \div 6 = 6$
-        - 9, kerana $36 \div 9 = 4$
-        - 12, kerana $36 \div 12 = 3$
-        - 18, kerana $36 \div 18 = 2$
-        - 36, kerana $36 \div 36 = 1$
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Senaraikan sekurang-kurangnya 5 faktor yang betul."
-      - marks: 2
-        criteria: "Senaraikan semua 9 faktor yang betul."
+        A factor must divide the number completely without a remainder.
+        $30 \div 6 = 5$.
+        Since there is no remainder, $6$ is a factor.
+      distractors:
+        - value: "4"
+          feedback: "Check your division. $30 \div 4 = 7$ with a remainder of $2$. Factors must divide the number perfectly."
+        - value: "7"
+          feedback: "Remember that $7$ is not a divisor of $30$. Try listing the pairs of numbers that multiply to $30$ ($1 \times 30, 2 \times 15, 3 \times 10, 5 \times 6$)."
+        - value: "60"
+          feedback: "You might be thinking of multiples! Factors are divisors and are always smaller than or equal to the original number (the 'DNA' rule)."
+    marks: 1
     hints:
       - level: 1
-        text: "Ingat bahawa faktor adalah nombor yang membahagi nombor asal tanpa baki."
+        text: "Think about the multiplication tables. Which number can divide $30$ exactly?"
 
-  # Learning Objective 2.1.2
   - id: Q2
-    text: "Tentukan faktor perdana bagi nombor 60 dan ungkapkan dalam bentuk pemfaktoran perdana."
-    difficulty: medium
-    learning_objective: LO2
+    text: "Express $60$ in the form of prime factorisation."
+    difficulty: "medium"
+    learning_objective: "2.1.2"
     tp_level: 2
     kbat: false
     answer:
-      type: exact
+      type: "exact"
       value: "2^2 \times 3 \times 5"
       working: |
-        60 boleh dibahagikan oleh faktor perdana:
-        - $60 \div 2 = 30$
-        - $30 \div 2 = 15$
-        - $15 \div 3 = 5$
-        - $5 \div 5 = 1$
-        Maka, pemfaktoran perdana bagi 60 adalah $2^2 \times 3 \times 5$.
+        Step 1: Perform repeated division by the smallest prime number.
+        $60 \div 2 = 30$
+        $30 \div 2 = 15$
+        $15 \div 3 = 5$
+        $5 \div 5 = 1$
+        Step 2: Collect the prime factors: $2 \times 2 \times 3 \times 5 = 2^2 \times 3 \times 5$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Tentukan satu faktor perdana yang betul."
+        criteria: "Correctly identifies at least two prime factors ($2, 3, \text{ or } 5$)."
       - marks: 2
-        criteria: "Ungkapkan faktor perdana dengan satu kesilapan kecil dalam pemfaktoran."
+        criteria: "Shows the complete repeated division or factor tree process."
       - marks: 3
-        criteria: "Ungkapkan faktor perdana dengan betul sepenuhnya."
+        criteria: "Expresses the final answer correctly in index notation."
     hints:
       - level: 1
-        text: "Mula dengan membahagikan nombor oleh faktor perdana terkecil."
+        text: "Start by dividing $60$ by the smallest prime number, which is $2$. Keep dividing the results until you reach $1$."
 
-  # Learning Objective 2.1.3
   - id: Q3
-    text: "Nyatakan faktor sepunya terbesar (FSTB) bagi 48 dan 64."
-    difficulty: medium
-    learning_objective: LO3
-    tp_level: 2
-    kbat: false
-    answer:
-      type: exact
-      value: "16"
-      working: |
-        Faktor bagi 48: [1, 2, 3, 4, 6, 8, 12, 16, 24, 48]
-        Faktor bagi 64: [1, 2, 4, 8, 16, 32, 64]
-        Faktor sepunya: [1, 2, 4, 8, 16]
-        FSTB adalah 16.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Betul menyenaraikan faktor sepunya tetapi salah menentukan FSTB."
-      - marks: 2
-        criteria: "Menentukan FSTB dengan betul."
-    hints:
-      - level: 1
-        text: "Mula dengan mencari faktor setiap nombor dan lihat persamaan."
-
-  # Learning Objective 2.2.2
-  - id: Q4
-    text: "Cari gandaan sepunya terkecil (GSTK) bagi 15 dan 20."
-    difficulty: medium
-    learning_objective: LO4
-    tp_level: 2
-    kbat: false
-    answer:
-      type: exact
-      value: "60"
-      working: |
-        Gandaan bagi 15: [15, 30, 45, 60, 75, ...]
-        Gandaan bagi 20: [20, 40, 60, 80, ...]
-        Gandaan sepunya: [60, ...]
-        Oleh itu, GSTK adalah 60.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Betul menyenaraikan gandaan tetapi salah menentukan GSTK."
-      - marks: 2
-        criteria: "Menentukan GSTK dengan betul."
-    hints:
-      - level: 1
-        text: "Mula dengan menyenaraikan gandaan kedua-dua nombor hingga anda menemukan yang sama."
-
-  # Learning Objective 2.2.3
-  - id: Q5
-    text: "Seorang pengeluar membuat bungkusan yang mengandungi 12 biskut atau 18 gula-gula. Berapa bilangan minimum bungkusan setiap jenis yang perlu digabungkan supaya terdapat sama banyak biskut dan gula-gula?"
-    difficulty: medium
-    learning_objective: LO5
+    text: "Find the Highest Common Factor (HCF) of $18$ and $24$."
+    difficulty: "medium"
+    learning_objective: "2.1.4"
     tp_level: 3
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "6"
+      working: |
+        Using repeated division:
+        Divide $18$ and $24$ by $2 \rightarrow 9, 12$
+        Divide $9$ and $12$ by $3 \rightarrow 3, 4$
+        No more common prime factors.
+        HCF = $2 \times 3 = 6$.
+      distractors:
+        - value: "2"
+          feedback: "This is a common factor, but it is not the highest. Keep dividing until there are no more common factors left!"
+        - value: "72"
+          feedback: "You calculated the Lowest Common Multiple (LCM) instead of the HCF! HCF should be a divisor of the numbers, making it smaller than or equal to them."
+        - value: "3"
+          feedback: "This is a common factor, but it is not the 'Big Boss' divisor. Try multiplying all the common prime divisors together."
+    marks: 2
+    hints:
+      - level: 1
+        text: "You can use the repeated division method. Only divide by prime numbers that can divide BOTH $18$ and $24$ simultaneously."
+
+  - id: Q4
+    text: "A construction worker needs to cover a floor measuring $7.5\text{ m} \times 9.6\text{ m}$ with square tiles. What is the biggest size, in cm, of the tiles so that the floor is fully covered without leftovers?"
+    difficulty: "hard"
+    learning_objective: "2.1.5"
+    tp_level: 4
     kbat: true
     answer:
-      type: free_text
-      value: "6 bungkusan biskut dan 4 bungkusan gula-gula"
+      type: "exact"
+      value: "30"
       working: |
-        GSTK bagi 12 dan 18 adalah 36.
-        36 biskut memerlukan 36/12 = 3 bungkusan biskut.
-        36 gula-gula memerlukan 36/18 = 2 bungkusan gula-gula.
-        Untuk mencapai GSTK dengan bilangan yang sama:
-        - 12 biskut per bungkusan dan 18 gula-gula per bungkusan.
-        - $12 \times 6 = 72$ biskut dan $18 \times 4 = 72$ gula-gula.
-        Jadi, 6 bungkusan biskut dan 4 bungkusan gula-gula diperlukan.
-    marks: 3
+        Step 1: Convert units to cm. $7.5\text{ m} = 750\text{ cm}$; $9.6\text{ m} = 960\text{ cm}$.
+        Step 2: Find HCF of $750$ and $960$.
+        Divide by $10 \rightarrow 75, 96$
+        Divide by $3 \rightarrow 25, 32$
+        No more common factors.
+        HCF = $10 \times 3 = 30$.
+    marks: 4
     rubric:
       - marks: 1
-        criteria: "Menggunakan konsep GSTK tetapi salah dalam pengiraan."
+        criteria: "Correctly converts meters to centimeters ($750\text{ cm}$ and $960\text{ cm}$)."
       - marks: 2
-        criteria: "Betul menentukan GSTK tetapi salah dalam menyusun bungkusan."
-      - marks: 3
-        criteria: "Menggunakan GSTK dan menentukan bungkusan dengan betul."
+        criteria: "Identifies that the problem requires finding the HCF (Highest Common Factor)."
+      - marks: 4
+        criteria: "Correctly calculates the HCF as $30\text{ cm}$ with clear working steps."
     hints:
       - level: 1
-        text: "Cari GSTK bagi bilangan biskut dan gula-gula dahulu sebelum menentukan jumlah bungkusan."
+        text: "The floor must be covered perfectly with square tiles. This means the tile side must divide both the length and width exactly. Should you find HCF or LCM?"
+
+  - id: Q5
+    text: "Canned coffee is sold in $6$ cans per box and canned tea is sold in $9$ cans per box. Ainun wishes to buy the same number of canned coffee and tea for a party. What is the minimum number of boxes of each type she needs to buy?"
+    difficulty: "hard"
+    learning_objective: "2.2.3"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: "free_text"
+      value: "3 boxes of coffee and 2 boxes of tea"
+      working: |
+        Step 1: Find the LCM of $6$ and $9$ to determine the total number of cans.
+        Multiples of $6: 6, 12, 18, 24...$
+        Multiples of $9: 9, 18, 27...$
+        LCM = $18$ cans.
+        Step 2: Calculate number of boxes.
+        Coffee: $18 \div 6 = 3$ boxes.
+        Tea: $18 \div 9 = 2$ boxes.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Correctly identifies the LCM of $6$ and $9$ as $18$."
+      - marks: 4
+        criteria: "Correctly determines the number of boxes for both coffee ($3$) and tea ($2$)."
+    hints:
+      - level: 1
+        text: "We need the 'minimum' number where both counts meet. This is a Lowest Common Multiple (LCM) problem. Find the LCM of $6$ and $9$ first."
+
+  - id: Q6
+    text: "A bakery received an order for $7$ similar cakes. The customer requested that the cakes be cut and packed equally in $12$ small boxes. Explain how you would divide the cakes so each box contains two slices."
+    difficulty: "hard"
+    learning_objective: "2.2.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: "free_text"
+      value: "Cut 3 cakes into 4 parts each and 4 cakes into 3 parts each."
+      working: |
+        Total boxes = $12$. Total slices needed = $12 \times 2 = 24$ slices.
+        Total cakes = $7$.
+        Using LCM of $3$ and $4$ ($12$):
+        $3$ cakes cut into $4$ parts = $12$ slices (Each box gets $1$ slice of $1/4$ size).
+        $4$ cakes cut into $3$ parts = $12$ slices (Each box gets $1$ slice of $1/3$ size).
+        Total slices = $12 + 12 = 24$. Each of the $12$ boxes gets $1$ slice from each group.
+    marks: 5
+    rubric:
+      - marks: 2
+        criteria: "Determines the total number of slices needed ($24$)."
+      - marks: 5
+        criteria: "Provides a logical explanation of how to divide the cakes using common multiples to ensure $24$ equal portions across $12$ boxes."
+    hints:
+      - level: 1
+        text: "This is a creative non-routine problem. Look at the number of boxes ($12$) and cakes ($7$). How can you relate these using factors or multiples of $12$?"

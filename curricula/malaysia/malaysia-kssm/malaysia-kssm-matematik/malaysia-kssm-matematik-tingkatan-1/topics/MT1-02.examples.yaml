@@ -1,38 +1,93 @@
 topic_id: MT1-02
-provenance: ai-generated
-description: "Worked examples for Faktor dan Gandaan"
+provenance: "expert-curated"
 worked_examples:
   - id: WE-01
-    topic: "Faktor dan Faktor Perdana"
-    difficulty: easy
-    real_world_analogy: "Finding factors is like determining all possible ways to arrange a certain number of chairs in rows and columns."
-    misconception_alert: "Students often confuse factors with multiples, thinking they mean the same thing."
-    scenario: "You have 12 chairs and want to arrange them in rows without any chairs left over. How many different ways can you arrange these chairs?"
+    topic: "Factors and Prime Factors"
+    learning_objective: "2.1.1"
+    difficulty: "easy"
+    real_world_analogy: "Finding factors is like figuring out all the different ways to pack a set number of items into equal-sized boxes. If you have 12 donuts, can you put them in boxes of 5? No, because there will be leftovers!"
+    misconception_alert: "Students often think that factors are larger than the original number because they confuse them with multiples. Remember the 'DNA' rule: DNA stays inside the body, so it must be smaller or equal!"
+    scenario: "You have 12 chairs for a small event. List all the possible numbers of chairs you can have in a row so that every row has the same number of chairs and none are left over."
     working: |
-      Step 1: List all pairs of numbers that multiply to 12: (1, 12), (2, 6), (3, 4).
-      Step 2: The factors of 12 are the numbers in the pairs: 1, 2, 3, 4, 6, 12.
-      Step 3: Thus, there are 6 different ways to arrange the chairs.
+      1. To find the factors, we find all pairs of whole numbers that multiply to 12:
+         - $1 \times 12 = 12$
+         - $2 \times 6 = 12$
+         - $3 \times 4 = 12$
+      2. List every unique number used in these pairs: $1, 2, 3, 4, 6, 12$.
+      3. Conclusion: The chairs can be arranged in rows of $1, 2, 3, 4, 6,$ or $12$.
 
   - id: WE-02
-    topic: "Faktor Sepunya Terbesar (FSTB)"
-    difficulty: medium
-    real_world_analogy: "Finding the FSTB is like finding the largest common ingredient needed in two different recipes."
-    misconception_alert: "A common mistake is to choose the largest number from the list without checking if it is a common factor."
-    scenario: "You have two pieces of ribbon, one 18 meters and the other 24 meters long. You want to cut both ribbons into pieces of equal length, without any ribbon left over. What is the longest possible length of each piece?"
+    topic: "Prime Factorisation"
+    learning_objective: "2.1.2"
+    difficulty: "medium"
+    real_world_analogy: "Prime factorisation is like finding the 'atomic elements' of a number. Just as water is made of Hydrogen and Oxygen ($H_2O$), the number 60 is made of the 'atoms' 2, 3, and 5."
+    misconception_alert: "Students often include the number 1 in prime factorisation. Warn them: '1 is a factor, but NOT a prime factor because 1 is not a prime number!'"
+    scenario: "Express the number 60 in the form of prime factorisation using the factor tree method."
     working: |
-      Step 1: List the factors of 18: 1, 2, 3, 6, 9, 18.
-      Step 2: List the factors of 24: 1, 2, 3, 4, 6, 8, 12, 24.
-      Step 3: Identify the common factors: 1, 2, 3, 6.
-      Step 4: The largest common factor is 6. So, the longest possible length of each piece is 6 meters.
+      1. Start with the number $60$ and split it into any two factors: $60 = 6 \times 10$.
+      2. Split $6$ into its prime factors: $6 = 2 \times 3$. (Both $2$ and $3$ are prime).
+      3. Split $10$ into its prime factors: $10 = 2 \times 5$. (Both $2$ and $5$ are prime).
+      4. Collect all the 'leaves' at the bottom of the tree: $2, 3, 2, 5$.
+      5. Arrange them in ascending order and use index notation: $2 \times 2 \times 3 \times 5 = 2^2 \times 3 \times 5$.
 
   - id: WE-03
-    topic: "Gandaan Sepunya Terkecil (GSTK)"
-    difficulty: hard
-    real_world_analogy: "Finding GSTK is like finding the earliest time two buses will arrive at the same bus stop if they have different schedules."
-    misconception_alert: "Students may mistakenly add the numbers instead of finding multiples."
-    scenario: "Bus A arrives every 15 minutes, and Bus B arrives every 20 minutes. If they both arrive at the bus stop at 9:00 AM, when will they next arrive together?"
+    topic: "Highest Common Factor (HCF)"
+    learning_objective: "2.1.4"
+    difficulty: "medium"
+    real_world_analogy: "Finding the HCF is like finding the 'Big Boss' divisor. It is the largest possible size that can divide two different groups perfectly, like finding the biggest square tile to cover a floor (Textbook p. 30)."
+    misconception_alert: "Students sometimes calculate the LCM instead of HCF because 'Highest' sounds like it should be a large number. Remind them: 'HCF is a divider, so it makes numbers smaller!'"
+    scenario: "Find the Highest Common Factor (HCF) of 18 and 24 using the repeated division method."
     working: |
-      Step 1: List multiples of 15: 15, 30, 45, 60, 75, 90.
-      Step 2: List multiples of 20: 20, 40, 60, 80, 100.
-      Step 3: Identify the common multiples: 60, 120.
-      Step 4: The smallest common multiple is 60. So, they will next arrive together at 10:00 AM.
+      1. Write $18$ and $24$ in a division frame.
+      2. Divide both by the smallest common prime factor, which is $2$:
+         - $18 \div 2 = 9$
+         - $24 \div 2 = 12$
+      3. Divide the results ($9, 12$) by their next common prime factor, which is $3$:
+         - $9 \div 3 = 3$
+         - $12 \div 3 = 4$
+      4. Since $3$ and $4$ have no more common factors, stop here.
+      5. Multiply the divisors on the left: $HCF = 2 \times 3 = 6$.
+
+  - id: WE-04
+    topic: "Lowest Common Multiple (LCM)"
+    learning_objective: "2.2.2"
+    difficulty: "medium"
+    real_world_analogy: "Finding the LCM is like finding the first 'meeting point' for two friends walking at different speeds. If Friend A takes 2 steps and Friend B takes 3 steps, they will meet every 6 steps!"
+    misconception_alert: "Students often forget to continue dividing until all quotients become 1 in the repeated division method for LCM."
+    scenario: "Find the Lowest Common Multiple (LCM) of 3, 6, and 9."
+    working: |
+      1. Write $3, 6, 9$ in the division frame.
+      2. Divide by the smallest prime factor that can divide at least one number, which is $2$:
+         - $3$ cannot be divided by $2$, so bring it down.
+         - $6 \div 2 = 3$.
+         - $9$ cannot be divided by $2$, so bring it down.
+         - Current list: $3, 3, 9$.
+      3. Divide by the next prime factor, $3$:
+         - $3 \div 3 = 1$.
+         - $3 \div 3 = 1$.
+         - $9 \div 3 = 3$.
+         - Current list: $1, 1, 3$.
+      4. Divide by $3$ again:
+         - Bring down $1, 1$.
+         - $3 \div 3 = 1$.
+         - Current list: $1, 1, 1$. Stop here.
+      5. Multiply all divisors: $LCM = 2 \times 3 \times 3 = 18$.
+
+  - id: WE-05
+    topic: "Solving Problems involving LCM"
+    learning_objective: "2.2.3"
+    difficulty: "hard"
+    real_world_analogy: "This is like synchronizing rhythms. If a drummer hits the snare every 4 beats and the cymbal every 6 beats, the LCM tells us when they will hit both at the exact same time!"
+    misconception_alert: "Students may try to add the intervals together ($15 + 20 = 35$) instead of finding multiples. Warn them: 'Adding only tells you the total time, not the meeting point!'"
+    scenario: "Bus A arrives every 15 minutes, and Bus B arrives every 20 minutes. If they both arrive at the terminal at 9:00 AM, at what time will they next arrive together?"
+    working: |
+      1. Understand the problem: We need the first time both intervals meet. This is an LCM problem.
+      2. Plan: Find the LCM of $15$ and $20$.
+      3. Solve using repeated division:
+         - Divide by $2$: $15$ (remains), $20 \div 2 = 10$.
+         - Divide by $2$: $15$ (remains), $10 \div 2 = 5$.
+         - Divide by $3$: $15 \div 3 = 5, 5$ (remains).
+         - Divide by $5$: $5 \div 5 = 1, 5 \div 5 = 1$.
+      4. Calculate LCM: $2 \times 2 \times 3 \times 5 = 60$ minutes.
+      5. Verify: $60$ minutes is equal to $1$ hour.
+      6. Final Answer: $9:00 \text{ AM} + 1 \text{ hour} = 10:00 \text{ AM}$.

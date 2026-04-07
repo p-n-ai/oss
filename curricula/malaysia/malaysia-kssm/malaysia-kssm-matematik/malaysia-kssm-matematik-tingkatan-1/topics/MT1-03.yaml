@@ -1,115 +1,141 @@
 id: MT1-03
 official_ref: "3"
-name: "KUASA DUA, PUNCA KUASA DUA, KUASA TIGA DAN PUNCA KUASA TIGA"
 name_en: "Squares, Square Roots, Cubes and Cube Roots"
-subject_id: malaysia-kssm-matematik-tingkatan-1
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: beginner
-tier: core
+subject_grade_id: "malaysia-kssm-matematik-tingkatan-1"
+subject_id: "malaysia-kssm-matematik"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "en"
+difficulty: "beginner"
+tier: "core"
+content_standards:
+  - id: "3.1"
+    text_en: "Squares and square roots"
+  - id: "3.2"
+    text_en: "Cubes and cube roots"
 learning_objectives:
-    - id: 3.1.1
-      text: "Menerangkan maksud kuasa dua dan kuasa dua sempurna."
-      text_en: "Explain the meaning of square and perfect square."
-      bloom: understand
-    - id: 3.1.2
-      text: "Menentukan sama ada suatu nombor adalah kuasa dua sempurna."
-      text_en: "Determine whether a number is a perfect square."
-      bloom: apply
-    - id: 3.1.3
-      text: "Menyatakan hubungan antara kuasa dua dan punca kuasa dua."
-      text_en: "State the relationship between square and square root."
-      bloom: understand
-    - id: 3.1.4
-      text: "Menentukan kuasa dua suatu nombor tanpa dan dengan menggunakan alat teknologi."
-      text_en: "Determine the square of a number without and with the use of technological tools."
-      bloom: apply
-    - id: 3.1.5
-      text: "Menentukan punca kuasa dua suatu nombor tanpa menggunakan alat teknologi."
-      text_en: "Determine the square root of a number without using technological tools."
-      bloom: apply
-    - id: 3.1.6
-      text: "Menentukan punca kuasa dua suatu nombor positif dengan menggunakan alat teknologi."
-      text_en: "Determine the square root of a positive number using technological tools."
-      bloom: apply
-    - id: 3.1.7
-      text: "Menganggar (i) kuasa dua suatu nombor, (ii) punca kuasa dua suatu nombor."
-      text_en: "Estimate (i) the square of a number, (ii) the square root of a number."
-      bloom: apply
-    - id: 3.1.8
-      text: "Membuat generalisasi tentang pendaraban yang melibatkan (i) punca kuasa dua nombor yang sama, (ii) punca kuasa dua nombor yang berbeza."
-      text_en: "Make generalizations about multiplication involving (i) square roots of the same number, (ii) square roots of different numbers."
-      bloom: analyze
-    - id: 3.1.9
-      text: "Mengemuka dan menyelesaikan masalah yang melibatkan kuasa dua dan punca kuasa dua."
-      text_en: "Pose and solve problems involving squares and square roots."
-      bloom: apply
-    - id: 3.2.1
-      text: "Menerangkan maksud kuasa tiga dan kuasa tiga sempurna."
-      text_en: "Explain the meaning of cube and perfect cube."
-      bloom: understand
-    - id: 3.2.2
-      text: "Menentukan sama ada suatu nombor adalah kuasa tiga sempurna."
-      text_en: "Determine whether a number is a perfect cube."
-      bloom: apply
-    - id: 3.2.3
-      text: "Menyatakan hubungan antara kuasa tiga dan punca kuasa tiga."
-      text_en: "State the relationship between cube and cube root."
-      bloom: understand
-    - id: 3.2.4
-      text: "Menentukan kuasa tiga suatu nombor tanpa dan dengan menggunakan alat teknologi."
-      text_en: "Determine the cube of a number without and with the use of technological tools."
-      bloom: apply
-    - id: 3.2.5
-      text: "Menentukan punca kuasa tiga suatu nombor tanpa menggunakan alat teknologi."
-      text_en: "Determine the cube root of a number without using technological tools."
-      bloom: apply
-    - id: 3.2.6
-      text: "Menentukan punca kuasa tiga suatu nombor dengan menggunakan alat teknologi."
-      text_en: "Determine the cube root of a number using technological tools."
-      bloom: apply
-    - id: 3.2.7
-      text: "Menganggar (i) kuasa tiga suatu nombor, (ii) punca kuasa tiga suatu nombor."
-      text_en: "Estimate (i) the cube of a number, (ii) the cube root of a number."
-      bloom: apply
-    - id: 3.2.8
-      text: "Menyelesaikan masalah yang melibatkan kuasa tiga dan punca kuasa tiga."
-      text_en: "Solve problems involving cubes and cube roots."
-      bloom: apply
-    - id: 3.2.9
-      text: "Menjalankan pengiraan yang melibatkan penambahan, penolakan, pendaraban, pembahagian dan gabungan operasi tersebut ke atas kuasa dua, punca kuasa dua, kuasa tiga dan punca kuasa tiga."
-      text_en: "Perform calculations involving addition, subtraction, multiplication, division and combination of these operations on squares, square roots, cubes and cube roots."
-      bloom: apply
+  - id: "3.1.1"
+    content_standard_id: "3.1"
+    text_en: "Explain the meaning of squares and perfect squares."
+    bloom: "understand"
+  - id: "3.1.2"
+    content_standard_id: "3.1"
+    text_en: "Determine whether a number is a perfect square."
+    bloom: "apply"
+  - id: "3.1.3"
+    content_standard_id: "3.1"
+    text_en: "State the relationship between squares and square roots."
+    bloom: "understand"
+  - id: "3.1.4"
+    content_standard_id: "3.1"
+    text_en: "Determine the square of a number with and without using technological tools."
+    bloom: "apply"
+  - id: "3.1.5"
+    content_standard_id: "3.1"
+    text_en: "Determine the square roots of a number without using technological tools."
+    bloom: "apply"
+  - id: "3.1.6"
+    content_standard_id: "3.1"
+    text_en: "Determine the square roots of a positive number using technological tools."
+    bloom: "apply"
+  - id: "3.1.7"
+    content_standard_id: "3.1"
+    text_en: "Estimate (i) the square of a number, (ii) the square roots of a number."
+    bloom: "apply"
+  - id: "3.1.8"
+    content_standard_id: "3.1"
+    text_en: "Make generalisations about multiplication involving (i) square roots of the same numbers, (ii) square roots of different numbers."
+    bloom: "analyze"
+  - id: "3.1.9"
+    content_standard_id: "3.1"
+    text_en: "Pose and solve problems involving squares and square roots."
+    bloom: "apply"
+  - id: "3.2.1"
+    content_standard_id: "3.2"
+    text_en: "Explain the meaning of cubes and perfect cubes."
+    bloom: "understand"
+  - id: "3.2.2"
+    content_standard_id: "3.2"
+    text_en: "Determine whether a number is a perfect cube."
+    bloom: "apply"
+  - id: "3.2.3"
+    content_standard_id: "3.2"
+    text_en: "State the relationship between cubes and cube roots."
+    bloom: "understand"
+  - id: "3.2.4"
+    content_standard_id: "3.2"
+    text_en: "Determine the cube of a number with and without using technological tools."
+    bloom: "apply"
+  - id: "3.2.5"
+    content_standard_id: "3.2"
+    text_en: "Determine the cube root of a number without using technological tools."
+    bloom: "apply"
+  - id: "3.2.6"
+    content_standard_id: "3.2"
+    text_en: "Determine the cube root of a number using technological tools."
+    bloom: "apply"
+  - id: "3.2.7"
+    content_standard_id: "3.2"
+    text_en: "Estimate (i) the cube of a number, (ii) the cube root of a number."
+    bloom: "apply"
+  - id: "3.2.8"
+    content_standard_id: "3.2"
+    text_en: "Solve problems involving cubes and cube roots."
+    bloom: "apply"
+  - id: "3.2.9"
+    content_standard_id: "3.2"
+    text_en: "Perform computations involving addition, subtraction, multiplication, division and the combination of these operations on squares, square roots, cubes and cube roots."
+    bloom: "apply"
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate the basic knowledge of squares, square roots, cubes and cube roots."
+  - level: 2
+    descriptor_en: "Demonstrate the understanding of squares, square roots, cubes and cube roots."
+  - level: 3
+    descriptor_en: "Apply the understanding of squares, square roots, cubes and cube roots to perform simple tasks."
+  - level: 4
+    descriptor_en: "Apply appropriate knowledge and skills of squares, square roots, cubes and cube roots in the context of simple routine problem solving."
+  - level: 5
+    descriptor_en: "Apply appropriate knowledge and skills of squares, square roots, cubes and cube roots in the context of complex routine problem solving."
+  - level: 6
+    descriptor_en: "Apply appropriate knowledge and skills of squares, square roots, cubes and cube roots in the context of non-routine problem solving."
 prerequisites:
-    required: []
-    recommended: []
+  required:
+    - "MT1-01"
+    - "MT1-02"
 bloom_levels:
-    - understand
-    - apply
-    - analyze
+  - "understand"
+  - "apply"
+  - "analyze"
+quality_level: 2
+provenance: "expert-reviewed"
+assessments_file: "MT1-03.assessments.yaml"
+examples_file: "MT1-03.examples.yaml"
+ai_teaching_notes: "MT1-03.teaching.md"
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
-ai_teaching_notes: MT1-03.teaching.md
-quality_level: 1
-provenance: ai-assisted
-assessments_file: MT1-03.assessments.yaml
-examples_file: MT1-03.examples.yaml
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
 teaching:
-    sequence:
-        - 'Step 1: Introduce the concept of squares and square roots using visual aids (20 min)'
-        - 'Step 2: Practice identifying perfect squares through examples and exercises (15 min)'
-        - 'Step 3: Explain cubes and cube roots with physical representations (20 min)'
-        - 'Step 4: Solve real-world problems involving squares and cubes (25 min)'
-    common_misconceptions:
-        - misconception: Square root is half the number
-          remediation: Reinforce the inverse relationship of squaring
-        - misconception: Only integers can be perfect squares or cubes
-          remediation: Provide fractional and decimal examples
+  sequence:
+    - "Step 1: Introduction to Squares and Perfect Squares using visual grids (3.1.1, 3.1.2)"
+    - "Step 2: Inverse operations: Connecting Squares to Square Roots (3.1.3)"
+    - "Step 3: Calculating Squares and Square Roots (3.1.4, 3.1.5, 3.1.6)"
+    - "Step 4: Mastery of generalisation and estimation for square roots (3.1.7, 3.1.8)"
+    - "Step 5: Transitioning to 3D: Explaining Cubes and Perfect Cubes (3.2.1, 3.2.2)"
+    - "Step 6: Relationship between Cubes and Cube Roots (3.2.3, 3.2.5)"
+    - "Step 7: Technology use and estimation for cube roots (3.2.4, 3.2.6, 3.2.7)"
+    - "Step 8: Mastery of combined operations and multi-step word problems (3.2.9, 3.1.9, 3.2.8)"
+common_misconceptions:
+  - misconception: "Square root is equivalent to dividing by two."
+    remediation: "Use visual area models to show that square root finds the side length, not half the area."
+  - misconception: "Assuming only integers can be perfect squares or cubes."
+    remediation: "Demonstrate square roots of decimals (e.g., 0.6 x 0.6 = 0.36) and fractions."
+  - misconception: "Confusing the sign of square roots and cube roots (e.g., thinking cube root of a negative is positive)."
+    remediation: "Show that (-2) x (-2) x (-2) = -8, reinforcing that cube roots preserve the sign."
 engagement_hooks:
-    - Discuss the use of square roots in architecture, such as calculating diagonal distances in square rooms
-    - Explore the concept of volume using cubes to relate to real-life objects like dice or building blocks
+  - "Challenge students to find square numbers in their house layout or tiles."
+  - "Relate perfect cubes to the volume of salt crystals or Rubik's cubes."
+  - "Discuss the 'Square Root of Two' as the first irrational number discovered by the Pythagoreans."

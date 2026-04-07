@@ -1,74 +1,102 @@
 id: MT1-02
 official_ref: "2"
-name: "Faktor dan Gandaan"
 name_en: "Factors and Multiples"
-subject_grade_id: malaysia-kssm-matematik-tingkatan-1
-subject_id: malaysia-kssm-matematik
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: beginner
-tier: core
+subject_grade_id: "malaysia-kssm-matematik-tingkatan-1"
+subject_id: "malaysia-kssm-matematik"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "en"
+difficulty: "beginner"
+tier: "core"
+content_standards:
+  - id: "2.1"
+    text_en: "Factors, prime factors and Highest Common Factor (HCF)"
+  - id: "2.2"
+    text_en: "Multiples, common multiples and Lowest Common Multiple (LCM)"
 learning_objectives:
   - id: "2.1.1"
-    text: "Menentu dan menyenaraikan faktor bagi nombor bulat, dan seterusnya membuat generalisasi tentang faktor."
-    text_en: "Determine and list factors of whole numbers, and subsequently make generalizations about factors."
-    bloom: understand
+    content_standard_id: "2.1"
+    text_en: "Determine and list the factors of whole numbers, and hence make generalisation about factors."
+    bloom: "understand"
   - id: "2.1.2"
-    text: "Menentu dan menyenaraikan faktor perdana bagi suatu nombor bulat dan seterusnya mengungkapkan nombor tersebut dalam bentuk pemfaktoran perdana."
-    text_en: "Determine and list prime factors of a whole number and subsequently express the number in prime factorization form."
-    bloom: apply
+    content_standard_id: "2.1"
+    text_en: "Determine and list the prime factors of a whole number, and hence express the number in the form of prime factorisation."
+    bloom: "apply"
   - id: "2.1.3"
-    text: "Menerang dan menentukan faktor sepunya bagi nombor bulat."
-    text_en: "Explain and determine common factors of whole numbers."
-    bloom: understand
+    content_standard_id: "2.1"
+    text_en: "Explain and determine the common factors of whole numbers."
+    bloom: "understand"
   - id: "2.1.4"
-    text: "Menentukan FSTB bagi dua dan tiga nombor bulat."
-    text_en: "Determine the Highest Common Factor (FSTB) for two and three whole numbers."
-    bloom: apply
+    content_standard_id: "2.1"
+    text_en: "Determine the HCF of two and three whole numbers."
+    bloom: "apply"
   - id: "2.1.5"
-    text: "Menyelesaikan masalah yang melibatkan FSTB."
-    text_en: "Solve problems involving FSTB."
-    bloom: apply
+    content_standard_id: "2.1"
+    text_en: "Solve problems involving HCF."
+    bloom: "analyze"
   - id: "2.2.1"
-    text: "Menerang dan menentukan gandaan sepunya bagi nombor bulat."
-    text_en: "Explain and determine common multiples of whole numbers."
-    bloom: understand
+    content_standard_id: "2.2"
+    text_en: "Explain and determine the common multiples of whole numbers."
+    bloom: "understand"
   - id: "2.2.2"
-    text: "Menentukan GSTK bagi dua dan tiga nombor bulat."
-    text_en: "Determine the Lowest Common Multiple (GSTK) for two and three whole numbers."
-    bloom: apply
+    content_standard_id: "2.2"
+    text_en: "Determine the LCM of two and three whole numbers."
+    bloom: "apply"
   - id: "2.2.3"
-    text: "Menyelesaikan masalah yang melibatkan GSTK."
-    text_en: "Solve problems involving GSTK."
-    bloom: apply
+    content_standard_id: "2.2"
+    text_en: "Solve problems involving LCM."
+    bloom: "analyze"
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate the basic knowledge of prime numbers, factors and multiples."
+  - level: 2
+    descriptor_en: "Demonstrate the understanding of prime numbers, factors and multiples."
+  - level: 3
+    descriptor_en: "Apply the understanding of prime numbers, factors and multiples to perform simple tasks involving HCF and LCM."
+  - level: 4
+    descriptor_en: "Apply appropriate knowledge and skills of prime numbers, factors and multiples in the context of simple routine problem solving."
+  - level: 5
+    descriptor_en: "Apply appropriate knowledge and skills of prime numbers, factors and multiples in the context of complex routine problem solving."
+  - level: 6
+    descriptor_en: "Apply appropriate knowledge and skills of prime numbers, factors and multiples in the context of non-routine problem solving."
 prerequisites:
-  required: []
+  required:
+    - "primary-school-multiplication-division"
 bloom_levels:
-  - understand
-  - apply
-quality_level: 1
-provenance: ai-generated
-assessments_file: MT1-02.assessments.yaml
-ai_teaching_notes: MT1-02.teaching.md
-teaching:
-  sequence:
-    - 'Step 1: Introduce the concept of factors using simple numbers like 6 and 12 (15 min)'
-    - 'Step 2: Demonstrate prime factorization using factor trees (20 min)'
-    - 'Step 3: Guide students to find common factors and determine HCF (20 min)'
-    - 'Step 4: Explain multiples and find the LCM using lists or grids (20 min)'
-  common_misconceptions:
-    - misconception: Factors are larger than the number
-      remediation: Reinforce that factors are divisors, smaller or equal to the number
-    - misconception: Prime factorization can vary
-      remediation: Use examples to show the uniqueness of prime factorization
-engagement_hooks:
-  - Use scenarios like distributing items equally among friends to illustrate factors
-  - Discuss setting up seating arrangements for an event to explain multiples
+  - "understand"
+  - "apply"
+  - "analyze"
+  - "evaluate"
+  - "create"
+quality_level: 2
+provenance: "expert-curated"
+assessments_file: "MT1-02.assessments.yaml"
+examples_file: "MT1-02.examples.yaml"
+ai_teaching_notes: "MT1-02.teaching.md"
 mastery:
   minimum_score: 0.75
   assessment_count: 3
   spaced_repetition:
     initial_interval_days: 3
     multiplier: 2.5
-examples_file: MT1-02.examples.yaml
+teaching:
+  sequence:
+    - "Step 1: Exploration of factors through division and identifying whole number divisors (Textbook p. 32)"
+    - "Step 2: Identifying prime factors and mastering prime factorisation methods: repeated division and factor trees (Textbook pp. 33-34)"
+    - "Step 3: Determining common factors and HCF using listing, repeated division, and prime factorisation (Textbook pp. 35-36)"
+    - "Step 4: Solving real-world problems involving maximum quantities/sizes (HCF) (Textbook p. 37)"
+    - "Step 5: Exploring multiples and common multiples through sequences and digital spreadsheets (Textbook pp. 38-39)"
+    - "Step 6: Determining LCM using listing, repeated division, and prime factorisation (Textbook pp. 40-41)"
+    - "Step 7: Applying LCM to solve problems involving synchronized events or minimum cycles (Textbook p. 42)"
+common_misconceptions:
+  - misconception: "Confusing factors with multiples (thinking factors are larger than the original number)."
+    remediation: "Use the 'Divider vs. Multiplier' rule: Factors divide the number into smaller whole parts; Multiples are the results of multiplying the number to get bigger results."
+  - misconception: "Believing that 1 is a prime factor because it is a factor of all numbers."
+    remediation: "Reinforce that prime factors must be prime numbers. Since 1 is not a prime number, it cannot be a prime factor."
+  - misconception: "Thinking the HCF must be larger than the LCM because 'Highest' sounds bigger than 'Lowest'."
+    remediation: "Clarify that 'Highest' refers to the largest common divisor, while 'Lowest' refers to the smallest common multiple."
+engagement_hooks:
+  - "The Tiling Challenge: How can a construction worker use HCF to find the largest square tile size to perfectly cover a floor without any leftovers? (Textbook p. 30)"
+  - "The Rhythm Master: Explore how LCM helps musicians understand complex drum rhythms or when different flashing neon lights will blink together again! (Textbook pp. 31, 42)"
+  - "The Sieve of Eratosthenes: Discover how an ancient Greek mathematician created a 'filter' to find every prime number up to any limit (Textbook p. 31)."
+  - "Bakery Logistics: Help a shopkeeper use factors and multiples to pack 7 cakes into 12 boxes equally for social media orders (Textbook p. 45)."
