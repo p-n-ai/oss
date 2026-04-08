@@ -1,0 +1,211 @@
+topic_id: MT1-06
+provenance: ai-assisted-validated
+questions:
+  ##### ---------------------------------------------------------
+  ##### SUBTOPIK 6.1: Persamaan Linear dalam Satu Pemboleh Ubah
+  ##### ---------------------------------------------------------
+  - id: MT1-06-Q01
+    text: "Kelaskan ayat matematik berikut: $x + 5 = 10$"
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: 6.1.1
+    answer:
+      type: multiple_choice
+      value: "Persamaan linear dalam satu pemboleh ubah"
+      working: |
+        1. Semak pemboleh ubah: Hanya ada satu ($x$).
+        2. Semak kuasa: Kuasa tertinggi $x$ ialah 1.
+        3. Semak kesamaan: Mengandungi tanda '='.
+      distractors:
+        - value: "Ungkapan algebra"
+          feedback: "Ungkapan tidak mempunyai tanda '='. Oleh sebab ayat ini ada tanda sama dengan, ia adalah persamaan!"
+        - value: "Ketaksamaan linear"
+          feedback: "Ketaksamaan menggunakan simbol seperti $>$ atau $<$. Ini menggunakan $=$, jadi ia adalah persamaan."
+        - value: "Persamaan bukan linear"
+          feedback: "Linear bermaksud kuasa pemboleh ubah mestilah 1. Tiada sebutan $x^2$ di sini."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Lihat simbol di antara kedua-dua belah. Adakah ia menunjukkan hubungan kesamaan?"
+
+  - id: MT1-06-Q02
+    text: "Tentukan sama ada pernyataan ini BENAR atau PALSU: 'Persamaan $k^2 + 1 = 6$ ialah persamaan linear dalam satu pemboleh ubah.'"
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: 6.1.1
+    answer:
+      type: exact
+      value: "PALSU"
+      working: |
+        Persamaan linear mesti mempunyai kuasa tertinggi pemboleh ubah sebagai 1. 
+        Dalam $k^2 + 1 = 6$, pemboleh ubah $k$ mempunyai kuasa 2.
+    marks: 1
+    hints:
+      - level: 1
+        text: "Semak 'kuasa' (eksponen) bagi huruf $k$. Untuk menjadi 'linear', berapakah kuasa yang sepatutnya?"
+
+  - id: MT1-06-Q03
+    text: "Selesaikan persamaan linear berikut: $3x - 4 = 11$"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 6.1.3
+    answer:
+      type: exact
+      value: "5"
+      working: |
+        1. Guna konsep kesamaan (Tambah 4 di kedua-dua belah): $3x - 4 + 4 = 11 + 4$
+        2. Permudahkan: $3x = 15$
+        3. Guna konsep kesamaan (Bahagi kedua-dua belah dengan 3): $3x/3 = 15/3$
+        4. Jawapan akhir: $x = 5$
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Berjaya mengasingkan sebutan $3x$ menjadi $3x = 15$."
+      - marks: 1
+        criteria: "Nilai akhir $x$ yang betul."
+    hints:
+      - level: 1
+        text: "Bayangkan penimbang. Untuk biarkan $3x$ sendirian, kita kena buang $-4$. Apa lawan bagi tolak 4?"
+
+  ##### ---------------------------------------------------------
+  ##### SUBTOPIK 6.2: Persamaan Linear dalam Dua Pemboleh Ubah
+  ##### ---------------------------------------------------------
+  - id: MT1-06-Q04
+    text: "Sebuah kedai menjual buku dengan harga $RM15$ sebuah dan pen dengan harga $RM2$ sebatang. Damia membelanjakan $RM50$ untuk membeli $b$ buah buku dan $p$ batang pen. Bentuk satu persamaan linear untuk mewakili situasi ini."
+    difficulty: medium
+    tp_level: 2
+    kbat: false
+    learning_objective: 6.2.2
+    answer:
+      type: exact
+      value: "15b + 2p = 50"
+      working: |
+        Harga buku: $15 \times b = 15b$
+        Harga pen: $2 \times p = 2p$
+        Jumlah Perbelanjaan: $15b + 2p = 50$
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti sebutan $15b$ dan $2p$ dengan betul."
+      - marks: 1
+        criteria: "Persamaan lengkap yang sama dengan 50."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang jumlah bil. Jika anda beli $b$ barang pada harga $RM15$ setiap satu, bagaimana anda tulis kos itu?"
+
+  ##### ---------------------------------------------------------
+  ##### SUBTOPIK 6.3: Persamaan Linear Serentak
+  ##### ---------------------------------------------------------
+  - id: MT1-06-Q05
+    text: "Selesaikan menggunakan kaedah penghapusan: \n $3p + 2q = 16$ \n $p - 2q = 0$"
+    difficulty: hard
+    tp_level: 3
+    kbat: false
+    learning_objective: 6.3.2
+    answer:
+      type: exact
+      value: "(4, 2)"
+      working: |
+        Pers (1): $3p + 2q = 16$
+        Pers (2): $p - 2q = 0$
+        1. Tambah kedua-dua pers (kerana tanda $2q$ berbeza): $(3p + p) + (2q - 2q) = 16 + 0$
+        2. $4p = 16 \rightarrow p = 4$
+        3. Gantikan $p=4$ ke dalam Pers (2): $4 - 2q = 0 \rightarrow 2q = 4 \rightarrow q = 2$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menambah persamaan untuk menghapuskan $q$ dengan betul."
+      - marks: 1
+        criteria: "Nilai $p$ yang betul."
+      - marks: 1
+        criteria: "Nilai $q$ yang betul."
+    hints:
+      - level: 1
+        text: "Lihat sebutan '2q' dalam kedua-dua persamaan. Tanda mereka berbeza ($+2q$ dan $-2q$). Patutkah anda tambah atau tolak untuk 'hilangkan' $q$?"
+
+  ##### ---------------------------------------------------------
+  ##### CONTOH SOALAN UASA & KBAT
+  ##### ---------------------------------------------------------
+  - id: MT1-06-Q06
+    text: "Selesaikan: $4(b + 1) = \\frac{b}{2} - 1$"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 6.1.3
+    answer:
+      type: multiple_choice
+      value: "-10/7"
+      working: |
+        1. Kembangkan: $4b + 4 = b/2 - 1$
+        2. Darab semua dengan 2: $8b + 8 = b - 2$
+        3. Pindahkan pemboleh ubah: $8b - b = -2 - 8$
+        4. Permudahkan: $7b = -10 \rightarrow b = -10/7$
+      distractors:
+        - value: "-4/9"
+          feedback: "Mungkin anda silap semasa memindahkan $+4$ atau lupa darab keseluruhan persamaan dengan 2. Semak tanda anda!"
+        - value: "-10/9"
+          feedback: "Semak penolakan anda: $8b - b$ ialah $7b$, bukannya $9b$. Anda mungkin terkeliru dengan operasi tambah."
+        - value: "-2/7"
+          feedback: "Adakah anda lupa darab $-1$ di sebelah kanan dengan 2? Setiap sebutan mesti dilayan sama rata!"
+    marks: 1
+    hints:
+      - level: 1
+        text: "Mula-mula, kembangkan kurungan. Kemudian, darabkan setiap sebutan dengan 2 untuk hapuskan pecahan itu!"
+
+  - id: MT1-06-Q07
+    text: "Aina meluangkan $x$ jam bersenam dan $y$ jam membaca. Jumlah masa ialah 11 jam. Pada satu minggu, dia mengurangkan separuh masa senamannya dan menambah 3 jam masa membaca. Jumlah masa baharu ialah 12 jam. Cari nilai $x$ und $y$."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 6.3.3
+    answer:
+      type: exact
+      value: "x = 4, y = 7"
+      working: |
+        Pers 1: $x + y = 11$
+        Pers 2: $x/2 + (y + 3) = 12 \rightarrow x/2 + y = 9$
+        Daripada Pers 1: $y = 11 - x$
+        Ganti ke dalam Pers 2: $x/2 + 11 - x = 9$
+        $-x/2 = -2 \rightarrow x = 4$
+        $y = 11 - 4 = 7$
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Persamaan 1 betul ($x + y = 11$)."
+      - marks: 1
+        criteria: "Persamaan 2 betul ($x/2 + y = 9$)."
+      - marks: 1
+        criteria: "Nilai $x$ betul."
+      - marks: 1
+        criteria: "Nilai $y$ betul."
+    hints:
+      - level: 1
+        text: "Hati-hati dengan 'tambahan 3 jam'. Ia bermaksud masa membaca sekarang ialah $y + 3$. Bina dua persamaan anda dahulu!"
+
+  - id: MT1-06-Q08
+    text: "Di satu persimpangan jalan, kadar aliran trafik (kenderaan/jam) mengikut peraturan $x + y = 500$, dengan $x$ ialah kereta dan $y$ ialah motosikal. Jika satu syarat baharu menyatakan bilangan kereta mestilah 3 kali ganda bilangan motosikal untuk mengelakkan kesesakan, hitung bilangan kereta yang diperlukan."
+    difficulty: hard
+    tp_level: 6
+    kbat: true
+    learning_objective: 6.3.3
+    answer:
+      type: exact
+      value: "375"
+      working: |
+        1. Syarat 1: $x + y = 500$
+        2. Syarat 2 (Sintesis kreatif): $x = 3y$
+        3. Gantikan (2) ke dalam (1): $3y + y = 500$
+        4. $4y = 500 \rightarrow y = 125$
+        5. Cari kereta ($x$): $x = 3(125) = 375$
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Berjaya menterjemah syarat '3 kali ganda' kepada persamaan $x = 3y$."
+      - marks: 2
+        criteria: "Menyelesaikan sistem serentak untuk mencari bilangan kereta = 375."
+    hints:
+      - level: 1
+        text: "Ini adalah masalah bukan rutin TP6. Anda ada dua peraturan yang mesti benar serentak. Bagaimana anda tulis 'kereta adalah 3 kali ganda motosikal' sebagai persamaan?"

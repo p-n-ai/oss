@@ -1,0 +1,117 @@
+id: MT1-06
+official_ref: "Bab 6"
+name: "Persamaan Linear"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+
+content_standards:
+  - id: "6.1"
+    text: "Persamaan linear dalam satu pemboleh ubah"
+  - id: "6.2"
+    text: "Persamaan linear dalam dua pemboleh ubah"
+  - id: "6.3"
+    text: "Persamaan linear serentak dalam dua pemboleh ubah"
+
+learning_objectives:
+  - id: "6.1.1"
+    content_standard_id: "6.1"
+    text: "Mengenal pasti persamaan linear dalam satu pemboleh ubah dan menghuraikan ciri-ciri persamaan tersebut."
+    bloom: understand
+  - id: "6.1.2"
+    content_standard_id: "6.1"
+    text: "Membentuk persamaan linear dalam satu pemboleh ubah berdasarkan suatu pernyataan atau situasi, dan sebaliknya."
+    bloom: apply
+  - id: "6.1.3"
+    content_standard_id: "6.1"
+    text: "Menyelesaikan persamaan linear dalam satu pemboleh ubah."
+    bloom: apply
+  - id: "6.1.4"
+    content_standard_id: "6.1"
+    text: "Menyelesaikan masalah yang melibatkan persamaan linear dalam satu pemboleh ubah."
+    bloom: apply
+  - id: "6.2.1"
+    content_standard_id: "6.2"
+    text: "Mengenal pasti persamaan linear dalam dua pemboleh ubah dan menghuraikan ciri-ciri persamaan tersebut."
+    bloom: understand
+  - id: "6.2.2"
+    content_standard_id: "6.2"
+    text: "Membentuk persamaan linear dalam dua pemboleh ubah berdasarkan suatu pernyataan atau situasi, dan sebaliknya."
+    bloom: apply
+  - id: "6.2.3"
+    content_standard_id: "6.2"
+    text: "Menentu dan menjelaskan penyelesaian yang mungkin bagi persamaan linear dalam dua pemboleh ubah."
+    bloom: analyze
+  - id: "6.2.4"
+    content_standard_id: "6.2"
+    text: "Mewakilkan persamaan linear dalam dua pemboleh ubah secara graf."
+    bloom: apply
+  - id: "6.3.1"
+    content_standard_id: "6.3"
+    text: "Membentuk persamaan linear serentak berdasarkan situasi harian. Seterusnya, mewakilkan persamaan linear serentak dalam dua pemboleh ubah secara graf dan menjelaskan maksud persamaan linear serentak."
+    bloom: apply
+  - id: "6.3.2"
+    content_standard_id: "6.3"
+    text: "Menyelesaikan persamaan linear serentak dalam dua pemboleh ubah menggunakan pelbagai kaedah."
+    bloom: apply
+  - id: "6.3.3"
+    content_standard_id: "6.3"
+    text: "Menyelesaikan masalah yang melibatkan persamaan linear serentak dalam dua pemboleh ubah."
+    bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor: "Memamerkan pengetahuan asas tentang persamaan linear."
+  - level: 2
+    descriptor: "Memamerkan kefahaman tentang persamaan linear dan persamaan linear serentak."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman tentang penyelesaian persamaan linear dan persamaan linear serentak."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang persamaan linear dan persamaan linear serentak dalam konteks penyelesaian masalah rutin yang mudah."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang persamaan linear dan persamaan linear serentak dalam konteks penyelesaian masalah rutin yang kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang persamaan linear dan persamaan linear serentak dalam konteks penyelesaian masalah bukan rutin secara kreatif."
+
+prerequisites:
+  required:
+    - id: MT1-05
+  recommended: []
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Langkah 1: Pengenalan kepada Persamaan Linear & Neraca Imbangan (3 hari)"
+    - "Langkah 2: Menyelesaikan Persamaan dengan Satu pemboleh ubah (Pindah & Songsang) (4 hari)"
+    - "Langkah 3: Persamaan Linear dalam Dua Pemboleh Ubah & Set Penyelesaian (3 hari)"
+    - "Langkah 4: Melukis Graf Garis Lurus (3 hari)"
+    - "Langkah 5: Menyelesaikan Persamaan Serentak (Pengantian/Penghapusan) (5 hari)"
+    - "Langkah 6: Masalah Dunia Sebenar Persamaan Serentak (4 hari)"
+  common_misconceptions:
+    - misconception: "Ralat Tukar Tanda ($x + 5 = 10 \Rightarrow x = 10 + 5$)."
+      remediation: "Gunakan analogi 'Portal': Apabila nombor melalui portal '=', tandanya MESTI bertukar kepada songsangan."
+    - misconception: "Ralat Kedudukan Pemboleh Ubah ($2x = 8 \Rightarrow x = 8 - 2$)."
+      remediation: "Jelaskan bahawa hubungan itu adalah pendaraban ($2 \times x$), maka songsangannya adalah pembahagian ($8 / 2$)."
+    - misconception: "Anggap Persamaan Serentak HANYA ada satu penyelesaian."
+      remediation: "Gunakan visual 'Garis Geometri': Garis selari tidak bertemu (Tiada penyelesaian), Garis sama (Penyelesaian infinit)."
+  engagement_hooks:
+    - "Misteri Gaji: 'Jika gaji asas anda $x$ dan anda dapat RM10 bonus bagi setiap jam $jam$, bagaimana kita nak modelkan RM500?'"
+    - "Teka-teki Umur: 'Saya 5 tahun lebih tua daripada anda, tapi dalam 2 tahun jumlah umur kita ialah 30. Berapakah umur saya?'"
+    - "Neraca Imbangan: 'Jika anda ambil 2kg dari kiri, anda MESTI ambil 2kg dari kanan atau neraca akan senget!'"
+
+quality_level: 2
+provenance: ai-assisted
+sync_checked: true
+ai_teaching_notes: "MT1-06.teaching.md"
+assessments_file: "MT1-06.assessments.yaml"
+examples_file: "MT1-06.examples.yaml"
