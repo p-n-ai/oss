@@ -1,6 +1,5 @@
 id: MT3-09
 official_ref: "Bab 9"
-name: "Garis Lurus"
 name_en: "Straight Lines"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-3
 subject_id: malaysia-kssm-matematik
@@ -11,50 +10,59 @@ difficulty: intermediate
 tier: core
 
 content_standards:
-  - id: 9.1
+  - id: "9.1"
     text_en: "Straight Lines"
 
 learning_objectives:
   - id: 9.1.1
-    content_standard_id: 9.1
+    content_standard_id: "9.1"
     text_en: "Make connection between the equation, y = mx + c, and the gradient and y-intercept, and hence make generalisation about the equation of a straight line."
     bloom: understand
   - id: 9.1.2
-    content_standard_id: 9.1
+    content_standard_id: "9.1"
     text_en: "Investigate and interpret the equations of straight lines in other forms such as ax + by = c and x/a + y/b = 1, and change to the form of y = mx + c, and vice versa."
     bloom: apply
   - id: 9.1.3
-    content_standard_id: 9.1
+    content_standard_id: "9.1"
     text_en: "Investigate and make inference about the relationship between the points on a straight line and the equation of the line."
     bloom: analyze
   - id: 9.1.4
-    content_standard_id: 9.1
-    text_en: "Investigate and make inference about the gradients of parallel lines."
+    content_standard_id: "9.1"
+    text_en: "Investigate and make inference about the relationship between the equations of parallel lines."
     bloom: analyze
   - id: 9.1.5
-    content_standard_id: 9.1
+    content_standard_id: "9.1"
     text_en: "Determine the equation of a straight line."
     bloom: apply
   - id: 9.1.6
-    content_standard_id: 9.1
+    content_standard_id: "9.1"
     text_en: "Determine the point of intersection of two straight lines."
     bloom: apply
   - id: 9.1.7
-    content_standard_id: 9.1
+    content_standard_id: "9.1"
     text_en: "Solve problems involving straight lines."
     bloom: apply
 
-prerequisites:
-  required:
-    - MT1-06
-    - MT2-03
-  recommended:
-    - MT2-01
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate basic knowledge of the equation of a straight line."
+  - level: 2
+    descriptor_en: "Demonstrate understanding of straight lines."
+  - level: 3
+    descriptor_en: "Apply understanding of straight lines to perform simple tasks."
+  - level: 4
+    descriptor_en: "Apply appropriate knowledge and skills of straight lines in the context of simple routine problem solving."
+  - level: 5
+    descriptor_en: "Apply appropriate knowledge and skills of straight lines in the context of complex routine problem solving."
+  - level: 6
+    descriptor_en: "Apply appropriate knowledge and skills of straight lines in the context of non-routine problem solving in a creative manner."
 
-bloom_levels:
-  - understand
-  - apply
-  - analyze
+prerequisites:
+  required: 
+    - "MT1-06"
+    - "MT2-03"
+  recommended: 
+    - "MT2-01"
 
 mastery:
   minimum_score: 0.75
@@ -63,8 +71,27 @@ mastery:
     initial_interval_days: 3
     multiplier: 2.5
 
+teaching:
+  sequence:
+    - "Step 1: Introduction to y=mx+c (20 min)"
+    - "Step 2: Converting Equation Forms (30 min)"
+    - "Step 3: Points on Lines & Parallelism (30 min)"
+    - "Step 4: Finding the Equation & Intersection (40 min)"
+    - "Step 5: Contextual Problem Solving (30 min)"
+  common_misconceptions:
+    - misconception: "Failing to isolate 'y' before identifying gradient m (e.g. in 2y=4x+1, m=4)."
+      remediation: "Enforce the 'Single y' rule. The gradient ONLY reveals itself when y is alone with coefficient 1."
+    - misconception: "Confusing intercepts in the x/a + y/b = 1 format."
+      remediation: "Use the 'Underneath Rule'. The number directly under x is where it hits the x-axis."
+    - misconception: "Assuming same y-intercept means parallel lines."
+      remediation: "Focus only on gradient 'm'. Parallelism is about tilt, not position."
+  engagement_hooks:
+    - "The Leaning Tower of Teluk Intan: Analyze why it's leaning and calculate its 'gradient' relative to a vertical line."
+    - "Staircase Safety Standards: Investigate the ideal gradient (steepness) for public staircases for optimal safety."
+    - "Floor Tile Geometry: Observe patterns in school tile lines and how they follow parallel equations."
+
+quality_level: 3
+provenance: ai-assisted
 ai_teaching_notes: "MT3-09.teaching.md"
 assessments_file: "MT3-09.assessments.yaml"
 examples_file: "MT3-09.examples.yaml"
-quality_level: 2
-provenance: ai-assisted

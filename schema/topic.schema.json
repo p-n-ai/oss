@@ -228,6 +228,11 @@
       "type": "array",
       "items": { "type": "string" },
       "description": "Hooks to engage students (can appear at root or under teaching)"
+    },
+    "sync_checked": {
+      "type": "boolean",
+      "default": false,
+      "description": "If true, explicitly confirms that logic-heavy fields (prerequisites, mastery) in this file match the Root EN file."
     }
   },
   "additionalProperties": false

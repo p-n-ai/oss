@@ -28,13 +28,18 @@ Topic Metadata serves as the **Ground Truth Contract**. It defines the structura
 *   **Exact Copy:** You MUST copy the *Standard Kandungan* and *Standard Pembelajaran* exactly from the official DSKP provided. 
 *   **ID Mapping:** Ensure `id` follows the `MT[Form]-[Chapter]` convention (e.g., `MT3-01`).
 
-### 3. The Mastery Block (Standardized Defaults)
+### 3. Mirror Mapping Rule (Logic Consistency)
+*   **Prerequisites & Mastery:** While these are inherited from the Root EN file, they MUST be explicitly included in the Translation YAML for future-proofing and human review.
+*   **Identical Values:** The numerical scores, ID lists, and interval days in the Translation YAML MUST match the Root EN file exactly. 
+*   **Sync Confirmation:** Set `sync_checked: true` only after verifying that all non-textual logic matches between the two files.
+
+### 4. The Mastery Block (Standardized Defaults)
 Unless explicitly instructed otherwise, use these pedagogical defaults for KSSM mastery:
 *   `minimum_score: 0.75` (The 75% accuracy threshold).
 *   `assessment_count: 3` (Number of sessions to prove initial mastery).
 *   `spaced_repetition`: `initial_interval_days: 3` and `multiplier: 2.5`.
 
-### 4. File Linking (The "Clean Metadata" Rule)
+### 5. File Linking (The "Clean Metadata" Rule)
 Only provide the relative paths:
 *   `ai_teaching_notes: "[ID].teaching.md"`
 *   `assessments_file: "[ID].assessments.yaml"`
@@ -145,6 +150,17 @@ performance_standards:
   - level: 6
     descriptor: "[Exact MS TP6 Text]"
 
+prerequisites:
+  required: [] # Must match Master EN exactly
+  recommended: [] # Must match Master EN exactly
+
+mastery:
+  minimum_score: 0.75 # Must match Master EN exactly
+  assessment_count: 3 # Must match Master EN exactly
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
 # Same teaching strategies as master, but translated
 teaching:
   sequence:
@@ -157,6 +173,7 @@ teaching:
 
 quality_level: 2
 provenance: ai-assisted
+sync_checked: true # Explicitly confirmed matching logic
 ai_teaching_notes: "[ID].teaching.md"
 assessments_file: "[ID].assessments.yaml"
 examples_file: "[ID].examples.yaml"

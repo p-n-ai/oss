@@ -17,30 +17,39 @@ content_standards:
 
 learning_objectives:
   - id: 1.1.1
+    content_standard_id: "1.1"
     text: "Mewakilkan pendaraban berulang dalam bentuk indeks dan menghuraikan maksudnya."
     bloom: understand
   - id: 1.1.2
+    content_standard_id: "1.1"
     text: "Menukar suatu nombor kepada nombor dalam bentuk indeks dan sebaliknya."
     bloom: apply
   - id: 1.2.1
+    content_standard_id: "1.2"
     text: "Menghubung kait pendaraban nombor dalam bentuk indeks yang mempunyai asas yang sama dengan pendaraban berulang, dan seterusnya membuat generalisasi."
     bloom: analyze
   - id: 1.2.2
+    content_standard_id: "1.2"
     text: "Menghubung kait pembahagian nombor dalam bentuk indeks yang mempunyai asas yang sama dengan pendaraban berulang, dan seterusnya membuat generalisasi."
     bloom: analyze
   - id: 1.2.3
+    content_standard_id: "1.2"
     text: "Menghubung kait nombor dalam bentuk indeks yang dikuasakan dengan pendaraban berulang, dan seterusnya membuat generalisasi."
     bloom: analyze
   - id: 1.2.4
+    content_standard_id: "1.2"
     text: "Menentusahkan a^0 = 1 dan a^-n = 1/a^n ; a ≠ 0."
     bloom: understand
   - id: 1.2.5
+    content_standard_id: "1.2"
     text: "Menentu dan menyatakan hubungan antara indeks pecahan dengan punca kuasa dan kuasa."
     bloom: apply
   - id: 1.2.6
+    content_standard_id: "1.2"
     text: "Melaksanakan operasi yang melibatkan hukum indeks."
     bloom: apply
   - id: 1.2.7
+    content_standard_id: "1.2"
     text: "Menyelesaikan masalah yang melibatkan hukum indeks."
     bloom: apply
 
@@ -57,6 +66,20 @@ mastery:
   spaced_repetition:
     initial_interval_days: 3
     multiplier: 2.5
+
+performance_standards:
+  - level: 1
+    descriptor: "Mempamerkan pengetahuan asas tentang tatatanda indeks."
+  - level: 2
+    descriptor: "Mempamerkan kefahaman tentang hukum indeks."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman tentang hukum indeks untuk melaksanakan tugasan mudah."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang hukum indeks dalam konteks penyelesaian masalah rutin yang mudah."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang hukum indeks dalam konteks penyelesaian masalah rutin yang kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang hukum indeks dalam konteks penyelesaian masalah bukan rutin secara kreatif."
 
 teaching:
   sequence:
@@ -75,12 +98,13 @@ teaching:
     - misconception: "Menganggap indeks negatif (a^-n) menghasilkan nilai matematik negatif (-a^n)."
       remediation: "Tunjukkan bahawa indeks negatif hanyalah arahan 'posisi' untuk membawa asas ke penyebut (salingan)."
   engagement_hooks:
-    - "Tarikan Storan Mamak (STEM): Bincangkan telefon pintar atau pendrive (8GB, 16GB, 32GB, 64GB, 128GB). Tunjukkan memori teknologi dibina tepat mengikut corak Indeks Asas 2 (2^n)."
+    - "Tarikan Kesan Memori Digital: Bincangkan telefon pintar atau pendrive (8GB, 16GB, 32GB...). Tunjukkan memori teknologi dibina tepat mengikut corak Indeks Asas 2 (2^n)."
     - "Banjir Tasik Kenyir: Gunakan jumlah tadahan (13,600 juta meter padu) untuk tunjuk kenapa jurutera guna bentuk piawai dan indeks berbanding tulis sifar yang banyak."
-    - "Rahsia Segitiga Pascal: Tunjukkan jumlah nombor dalam setiap baris Segitiga Pascal (1, 2, 4, 8, 16...) menghasilkan turutan indeks 2^n dengan sempurna!"
+    - "Rahsia Segitiga Pascal: Tunjukkan jumlah nombor dalam setiap baris Segitiga Pascal menghasilkan turutan indeks 2^n dengan sempurna!"
 
 quality_level: 3
 provenance: ai-assisted
+sync_checked: true
 ai_teaching_notes: "MT3-01.teaching.md"
 assessments_file: "MT3-01.assessments.yaml"
 examples_file: "MT3-01.examples.yaml"

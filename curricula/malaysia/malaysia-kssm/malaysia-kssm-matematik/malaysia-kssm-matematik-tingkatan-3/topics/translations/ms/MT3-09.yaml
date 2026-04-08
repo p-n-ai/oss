@@ -10,50 +10,45 @@ difficulty: intermediate
 tier: core
 
 content_standards:
-  - id: 9.1
+  - id: "9.1"
     text: "Garis Lurus"
 
 learning_objectives:
   - id: 9.1.1
-    content_standard_id: 9.1
+    content_standard_id: "9.1"
     text: "Membuat perkaitan antara persamaan, y = mx + c, dengan kecerunan dan pintasan-y, dan seterusnya membuat generalisasi tentang persamaan garis lurus."
     bloom: understand
   - id: 9.1.2
-    content_standard_id: 9.1
+    content_standard_id: "9.1"
     text: "Menyiasat dan mentafsir persamaan garis lurus dalam bentuk lain seperti ax + by = c dan x/a + y/b = 1, serta menukarkan kepada bentuk y = mx + c dan sebaliknya."
     bloom: apply
   - id: 9.1.3
-    content_standard_id: 9.1
+    content_standard_id: "9.1"
     text: "Menyiasat dan membuat inferens tentang hubungan antara titik pada garis lurus dengan persamaan garis lurus tersebut."
     bloom: analyze
   - id: 9.1.4
-    content_standard_id: 9.1
-    text: "Menyiasat dan membuat inferens tentang kecerunan garis selari."
+    content_standard_id: "9.1"
+    text: "Menyiasat dan membuat inferens tentang hubungan antara persamaan garis lurus yang selari."
     bloom: analyze
   - id: 9.1.5
-    content_standard_id: 9.1
+    content_standard_id: "9.1"
     text: "Menentukan persamaan suatu garis lurus."
     bloom: apply
   - id: 9.1.6
-    content_standard_id: 9.1
+    content_standard_id: "9.1"
     text: "Menentukan titik persilangan bagi dua garis lurus."
     bloom: apply
   - id: 9.1.7
-    content_standard_id: 9.1
+    content_standard_id: "9.1"
     text: "Menyelesaikan masalah yang melibatkan garis lurus."
     bloom: apply
 
 prerequisites:
-  required:
-    - MT1-06
-    - MT2-03
-  recommended:
-    - MT2-01
-
-bloom_levels:
-  - understand
-  - apply
-  - analyze
+  required: 
+    - "MT1-06"
+    - "MT2-03"
+  recommended: 
+    - "MT2-01"
 
 mastery:
   minimum_score: 0.75
@@ -62,8 +57,42 @@ mastery:
     initial_interval_days: 3
     multiplier: 2.5
 
+performance_standards:
+  - level: 1
+    descriptor: "Mempamerkan pengetahuan asas tentang persamaan garis lurus."
+  - level: 2
+    descriptor: "Mempamerkan kefahaman tentang garis lurus."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman tentang garis lurus untuk melaksanakan tugasan mudah."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang garis lurus dalam konteks penyelesaian masalah rutin yang mudah."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang garis lurus dalam konteks penyelesaian masalah rutin yang kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang garis lurus dalam konteks penyelesaian masalah bukan rutin secara kreatif."
+
+teaching:
+  sequence:
+    - "Langkah 1: Pengenalan y=mx+c (20 min)"
+    - "Langkah 2: Menukar Bentuk Persamaan (30 min)"
+    - "Langkah 3: Titik pada Garis & Keselarian (30 min)"
+    - "Langkah 4: Mencari Persamaan & Persilangan (40 min)"
+    - "Langkah 5: Penyelesaian Masalah Kontekstual (30 min)"
+  common_misconceptions:
+    - misconception: "Gagal memencilkan 'y' sebelum mengenal pasti kecerunan m (cth: dalam 2y=4x+1, pelajar kata m=4)."
+      remediation: "Wajibkan peraturan 'y Single'. Kecerunan hanya muncul apabila y duduk seorang diri dengan pekali 1."
+    - misconception: "Keliru pintasan dalam format x/a + y/b = 1."
+      remediation: "Guna 'Hukum Bawah'. Nombor tepat di bawah x ialah tempat ia memotong paksi-x."
+    - misconception: "Menganggap pintasan-y yang sama bermaksud garis selari."
+      remediation: "Fokus hanya pada kecerunan 'm'. Keselarian tentang kecondongan, bukan kedudukan pintasan."
+  engagement_hooks:
+    - "Menara Jam Condong Teluk Intan: Analisis kenapa ia condong dan kira 'kecerunan' menara tersebut berbanding garisan tegak."
+    - "Standard Keselamatan Tangga: Siasat kecerunan (kecondongan) tangga awam yang paling selamat (Standard JKR)."
+    - "Geometri Jubin Lantai: Perhatikan corak garisan jubin di sekolah dan bagaimana ia mengikut persamaan garis selari."
+
+quality_level: 3
+provenance: ai-assisted
+sync_checked: true
 ai_teaching_notes: "MT3-09.teaching.md"
 assessments_file: "MT3-09.assessments.yaml"
 examples_file: "MT3-09.examples.yaml"
-quality_level: 2
-provenance: ai-assisted

@@ -17,32 +17,55 @@ content_standards:
 
 learning_objectives:
   - id: 1.1.1
+    content_standard_id: "1.1"
     text_en: "Represent repeated multiplication in index form and describe its meaning."
     bloom: understand
   - id: 1.1.2
+    content_standard_id: "1.1"
     text_en: "Rewrite a number in index form and vice versa."
     bloom: apply
   - id: 1.2.1
+    content_standard_id: "1.2"
     text_en: "Relate the multiplication of numbers in index form with the same base, to repeated multiplications, and hence make generalisation."
     bloom: analyze
   - id: 1.2.2
+    content_standard_id: "1.2"
     text_en: "Relate the division of numbers in index form with the same base, to repeated multiplications, and hence make generalisation."
     bloom: analyze
   - id: 1.2.3
+    content_standard_id: "1.2"
     text_en: "Relate the numbers in index form raised to a power, to repeated multiplication, and hence make generalisation."
     bloom: analyze
   - id: 1.2.4
+    content_standard_id: "1.2"
     text_en: "Verify that a^0 = 1 and a^-n = 1/a^n ; a ≠ 0."
     bloom: understand
   - id: 1.2.5
+    content_standard_id: "1.2"
     text_en: "Determine and state the relationship between fractional indices and roots and powers."
     bloom: apply
   - id: 1.2.6
+    content_standard_id: "1.2"
     text_en: "Perform operations involving laws of indices."
     bloom: apply
   - id: 1.2.7
+    content_standard_id: "1.2"
     text_en: "Solve problems involving laws of indices."
     bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate basic knowledge of index notation."
+  - level: 2
+    descriptor_en: "Demonstrate understanding of the laws of indices."
+  - level: 3
+    descriptor_en: "Apply understanding of the laws of indices to perform simple tasks."
+  - level: 4
+    descriptor_en: "Apply appropriate knowledge and skills of the laws of indices in the context of simple routine problem solving."
+  - level: 5
+    descriptor_en: "Apply appropriate knowledge and skills of the laws of indices in the context of complex routine problem solving."
+  - level: 6
+    descriptor_en: "Apply appropriate knowledge and skills of the laws of indices in the context of non-routine problem solving in a creative manner."
 
 prerequisites:
   required: 

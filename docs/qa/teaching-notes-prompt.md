@@ -58,7 +58,9 @@ Ensure application problems are non-routine and mimic real-world SPM/UASA Testin
 
 The final rewritten teaching note **MUST** contain exactly these 8 sections in order. **Do not use manual chapter numbering in the headings** (e.g., do NOT write `#### 1. Gambaran Keseluruhan`). Use the exact English (`EN:`) or Bahasa Melayu (`BM:`) header text entirely based on the target language:
 
-1.  **EN:** `#### Overview` | **BM:** `#### Gambaran Keseluruhan`: A paragraph hype-intro, followed by a `> [!IMPORTANT]` block defining "Chatbot Delivery Rules" (Bite-Sized Pacing, Tone & Dwibahasa).
+1.  **EN:** `#### Overview` | **BM:** `#### Gambaran Keseluruhan`: A paragraph hype-intro, followed by a `> [!IMPORTANT]` block defining "Chatbot Delivery Rules".
+    *   **Mandatory Rules:** Bite-Sized Pacing, Tone & Dwibahasa.
+    *   **Topic-Specific Golden Rules:** You MUST identify or propose 1-2 high-impact pedagogical rules specific to the math concept (e.g., "Always show expansion for indices" or "Must isolate y first for straight lines"). If the draft is missing these, you must generate them.
 2.  **EN:** `#### DSKP Anchors & Taxonomy` | **BM:** `#### Teras DSKP & Taksonomi`: Exact SK, SP, and TP pulled from the YAML.
 3.  **EN:** `#### Prerequisites Check` | **BM:** `#### Semakan Prasyarat`: Bullet list with links to previous topics.
 4.  **EN:** `#### Teaching Sequence & Strategy` | **BM:** `#### Susunan & Strategi Pengajaran`: 
