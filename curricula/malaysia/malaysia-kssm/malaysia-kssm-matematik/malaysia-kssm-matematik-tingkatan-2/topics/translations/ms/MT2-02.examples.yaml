@@ -1,0 +1,91 @@
+topic_id: MT2-02
+provenance: ai-assisted
+worked_examples:
+  - id: WE-01
+    topic: "Kembangan (2.1)"
+    scenario: "Kembangkan kurungan ungkapan algebra berikut: $(x + 3)(x - 4)$"
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 2.1.2
+    real_world_analogy: >-
+      Bayangkan proses mengembangkan dua kurungan ini seperti 'Bersalaman di Pasar Malam'. Setiap orang di khemah pertama ($x$ dan $+3$) MESTI bersalaman dengan setiap orang di khemah kedua ($x$ dan $-4$). Tiada siapa yang boleh ditinggalkan!
+    misconception_alert: >-
+      Aiyoo, jangan hanya darab sebutan depan dan belakang untuk dapatkan $x^2 - 12$! Sebutan di tengah MESTI berinteraksi juga! Lukis 'Arka Pelangi' untuk menjejaki visual persalaman anda supaya anda tidak terlupa pendaraban bahagian dalam dan luar.
+    working: |
+      Langkah 1: Darabkan sebutan pertama (Persalaman pertama):
+      $x \times x = x^2$
+      
+      Langkah 2: Darabkan sebutan luar (Persalaman luar):
+      $x \times (-4) = -4x$
+      
+      Langkah 3: Darabkan sebutan dalam (Persalaman dalam):
+      $3 \times x = 3x$
+      
+      Langkah 4: Darabkan sebutan terakhir (Persalaman terakhir):
+      $3 \times (-4) = -12$
+      
+      Langkah 5: Gabungkan kesemuanya dalam satu baris:
+      $= x^2 - 4x + 3x - 12$
+      
+      Langkah Akhir: Permudahkan dengan menggabungkan sebutan serupa di tengah ($-4x + 3x = -1x$):
+      Jawapan Akhir: $x^2 - x - 12$
+
+  - id: WE-02
+    topic: "Pemfaktoran (2.2)"
+    scenario: "Faktorkan ungkapan kuadratik berikut selengkapnya menggunakan kaedah pendaraban silang: $x^2 + 7x + 10$"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 2.2.2
+    real_world_analogy: >-
+      Memfaktorkan adalah seperti 'mengasingkan semula' sebiji kek (un-baking) untuk mengetahui apakah bahan-bahan yang telah dicampurkan di dalamnya. Kita sedang mencari dua kurungan asal yang telah didarabkan bersama untuk membentuk ungkapan kuadratik tersebut.
+    misconception_alert: >-
+      Berhati-hati dengan tanda tambah/tolak! Semasa mencari faktor bagi $+10$ yang hasil tambahnya ialah $+7$, jangan pilih nombor secara sembarangan. Kedua-dua faktor mestilah bernilai positif ($+2$ dan $+5$) supaya semuanya seimbang dengan tepat. Peraturan Emas 1: Sentiasa lakukan 'Semakan Pelangi' (Rainbow Check-Back) secara mental! Kembangkan semula jawapan anda $(x + 2)(x + 5)$ dalam kepala untuk memastikan ia membentuk semula sebutan tengah $+7x$ dengan tepat.
+    working: |
+      Langkah 1: Lihat nombor terakhir ($+10$). Mari senaraikan faktor bagi 10: 
+      $(1, 10)$ dan $(2, 5)$
+      
+      Langkah 2: Lihat nombor di tengah ($+7$). Pasangan faktor manakah yang hasil tambahnya ialah 7?
+      $1 + 10 = 11$ (Salah)
+      $2 + 5 = 7$ (Betul!)
+      
+      Langkah 3: Sediakan bingkai pendaraban silang (Tic-Tac-Toe):
+      Tulis faktor bagi $x^2$ di sebelah kiri: $x$ dan $x$
+      Tulis faktor bagi 10 di sebelah kanan: $+2$ and $+5$
+      
+      Langkah 4: Darab silang untuk mengesahkan sebutan tengah:
+      $x \times 5 = 5x$
+      $x \times 2 = 2x$
+      Hasil Tambah $= 5x + 2x = 7x$ (Sepadan dengan sebutan tengah dengan tepat!)
+      
+      Langkah 5: Baca secara mendatar untuk membentuk dua kurungan anda.
+      Jawapan Akhir: $(x + 2)(x + 5)$
+
+  - id: WE-03
+    topic: "Pecahan Algebra (2.3)"
+    scenario: "Permudahkan persamaan pecahan algebra berikut: $\frac{3}{4r} - \frac{m}{3rs}$"
+    difficulty: hard
+    tp_level: 4
+    kbat: false
+    learning_objective: 2.3.1
+    real_world_analogy: >-
+      Menolak pecahan algebra adalah sama seperti 'Pertukaran Duit Mamak'. Anda tidak boleh terus menolak nilai Ringgit dan Yen secara bersama tanpa menukarkannya kepada mata wang yang sama terlebih dahulu. 'Mata wang sepunya' itu ialah penyebut yang sama!
+    misconception_alert: >-
+      Kesilapan paling besar yang sering dilakukan pelajar ialah menolak terus nombor pengangka dan menolak terus nombor penyebut. Anda TIDAK BOLEH sama sekali menolak penyebut! Sentiasa cari Gandaan Sepunya Terkecil (GSTK) terlebih dahulu.
+    working: |
+      Langkah 1: Lihat pada kedua-dua penyebut: $4r$ dan $3rs$. Senang je ni! Kita mesti cari Gandaan Sepunya Terkecil (GSTK) untuk mendapatkan 'mata wang sepunya' kita.
+      - Nombor: GSTK bagi $4$ and $3$ ialah $12$.
+      - Pemboleh ubah: GSTK bagi $r$ and $rs$ ialah $rs$.
+      - Jumlah GSTK (Penyebut Sepunya) = $12rs$.
+      
+      Langkah 2: Ubah pecahan pertama. Tanya pada diri anda, $4r$ perlu didarabkan dengan apa untuk menjadi $12rs$? Jawapannya ialah $3s$. Darabkan bahagian atas dan bawah!
+      $= \frac{3 \times 3s}{4r \times 3s} = \frac{9s}{12rs}$
+      
+      Langkah 3: Ubah pecahan kedua. $3rs$ perlu didarabkan dengan apa untuk menjadi $12rs$? Jawapannya ialah $4$. Darabkan bahagian atas dan bawah!
+      $= \frac{m \times 4}{3rs \times 4} = \frac{4m}{12rs}$
+      
+      Langkah 4: Ngam! Kedua-dua pecahan kini berada dalam mata wang penyebut yang sama. Kita boleh tolak pengangka dengan selamat di atas satu penyebut sepunya tunggal:
+      $= \frac{9s}{12rs} - \frac{4m}{12rs}$
+      
+      Jawapan Akhir: $\frac{9s - 4m}{12rs}$

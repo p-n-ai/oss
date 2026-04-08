@@ -1,0 +1,62 @@
+topic_id: MT2-03
+provenance: ai-assisted
+worked_examples:
+  - id: WE-01
+    topic: "Menukar Perkara Rumus - Linear (3.1.2)"
+    scenario: "Diberi $y = 3x - 5$, jadikan $x$ sebagai VIP (perkara rumus)."
+    difficulty: easy
+    tp_level: 3
+    real_world_analogy: >-
+      Bayangkan tanda sama dengan ($=$) sebagai sebuah jambatan! Untuk membiarkan VIP (x) keseorangan di sebelah kiri, anda mesti melucutkan pengawal yang paling lemah dahulu menggunakan 'Perisai BODMAS Songsang'.
+    misconception_alert: >-
+      Jangan bahagi dengan 3 dahulu! Ingat 'Perisai BODMAS Songsang'—kita mesti membuang pengawal tambah/tolak (+/-) sebelum berurusan dengan pengawal peribadi darab/bahagi.
+    working: |
+      Langkah 1: Kenal pasti VIP (x). Ia kini dikawal oleh '3' dan '-5'.
+      Langkah 2: Tambah 5 kepada KEDUA-DUA belah untuk memindahkan pengawal terlemah merentasi jambatan:
+      $y + 5 = 3x - 5 + 5$
+      $y + 5 = 3x$
+      Langkah 3: Bahagi KEDUA-DUA belah dengan 3 untuk membuang pengawal peribadi yang melekat:
+      $\frac{y + 5}{3} = \frac{3x}{3}$
+      $\frac{y + 5}{3} = x$
+      Langkah Akhir: Terbalikkan supaya VIP berada di sebelah kiri dengan pekali positif 1:
+      Jawapan Akhir: $x = \frac{y + 5}{3}$
+      
+  - id: WE-02
+    topic: "Menukar Perkara Rumus - Kuasa Dua/Punca Kuasa Dua (3.1.2)"
+    scenario: "Diberi $k = \sqrt{m + 2}$, jadikan $m$ sebagai perkara rumus."
+    difficulty: medium
+    tp_level: 3
+    real_world_analogy: >-
+      Simbol punca kuasa dua ibarat perisai tebal yang melindungi pemboleh ubah. Untuk menyelamatkan $m$, anda mesti menghancurkan perisai itu dahulu menggunakan kuasa lawannya!
+    misconception_alert: >-
+      Awas Perangkap 'Punca Separa'! Anda tidak boleh memindahkan nombor 2 begitu sahaja. Punca kuasa itu menutupi kedua-dua $m$ and $2$. Anda mesti kuasaduakan KESELURUHAN bahagian yang bertentangan untuk memecahkannya.
+    working: |
+      Langkah 1: 'VIP' $m$ terperangkap di bawah perisai punca kuasa dua.
+      Langkah 2: Hancurkan perisai dengan menguasaduakan KEDUA-DUA belah persamaan:
+      $(k)^2 = (\sqrt{m + 2})^2$
+      $k^2 = m + 2$
+      Langkah 3: Tolak 2 daripada KEDUA-DUA belah untuk mengasingkan m:
+      $k^2 - 2 = m + 2 - 2$
+      $k^2 - 2 = m$
+      Langkah Akhir: Terbalikkan persamaan supaya VIP berada di sebelah kiri:
+      Jawapan Akhir: $m = k^2 - 2$
+      
+  - id: WE-03
+    topic: "Penggantian dengan Gelembung Pelindung (3.1.3)"
+    scenario: "Diberi rumus $z = x^2 - 4w$, hitung nilai $z$ apabila $x = -3$ dan $w = 2$."
+    difficulty: medium
+    tp_level: 3
+    real_world_analogy: >-
+      Nombor negatif ibarat isotop radioaktif. Jangan sentuhnya secara langsung! Sentiasa balutkannya dengan 'Bubble Wrap' (kurungan) sebelum memasukkannya ke dalam rumus.
+    misconception_alert: >-
+      Perangkap 'Negatif Bogel'! Jika anda menggantikan nilai tanpa kurungan dan menulis $-3^2$, kalkulator anda akan mengira jawapannya sebagai $-9$. Tetapi $(-3)^2$ ialah $+9$. Kurungan mampu menyelamatkan markah anda!
+    working: |
+      Langkah 1: Gunakan 'Peraturan Bubble Wrap'. Tulis semula rumus dengan kurungan kosong bagi setiap pemboleh ubah:
+      $z = ( )^2 - 4( )$
+      Langkah 2: Masukkan nombor ke dalam gelembung dengan berhati-hati:
+      $z = (-3)^2 - 4(2)$
+      Langkah 3: Selesaikan kuasa dua dahulu. $(-3) \times (-3) = 9$:
+      $z = 9 - 4(2)$
+      Langkah 4: Darab pula mengikut aturan BODMAS. $4 \times 2 = 8$:
+      $z = 9 - 8$
+      Jawapan Akhir: $z = 1$

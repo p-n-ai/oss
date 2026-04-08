@@ -1,0 +1,663 @@
+topic_id: MT2-02
+provenance: ai-assisted
+questions:
+  - id: Q1
+    text: "Kembangkan: $3(x + 4)$."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 2.1.2
+    answer:
+      type: exact
+      value: "3x + 12"
+      working: |
+        Agihkan 3 kepada setiap sebutan di dalam kurungan:
+        3(x) + 3(4) = 3x + 12
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengaplikasikan hukum kalis agihan dengan betul."
+      - marks: 1
+        criteria: "Ungkapan kembangan akhir adalah betul."
+    hints:
+      - level: 1
+        text: "Darabkan nombor di luar kurungan dengan kedua-dua sebutan di dalam kurungan."
+
+  - id: Q2
+    text: "Kembangkan ungkapan algebra berikut: $(x + 2)(x - 5)$."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 2.1.2
+    answer:
+      type: exact
+      value: "x^2 - 3x - 10"
+      working: |
+        Darabkan setiap sebutan dalam kurungan pertama dengan setiap sebutan dalam kurungan kedua:
+        x(x) + x(-5) + 2(x) + 2(-5)
+        = x^2 - 5x + 2x - 10
+        = x^2 - 3x - 10
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengembangkan kesemua empat sebutan dengan betul."
+      - marks: 1
+        criteria: "Mempermudahkan dengan menggabungkan sebutan serupa (-5x + 2x) dengan tepat."
+    hints:
+      - level: 1
+        text: "Gunakan kaedah 'Bersalaman di Pasar Malam' atau lukis 'Arka Pelangi'! Setiap sebutan dalam kurungan pertama mesti bersalaman (darab) dengan setiap sebutan dalam kurungan kedua."
+
+  - id: Q3
+    text: "Permudahkan gabungan operasi: $(x + y)(x - y) + x(x - 2y)$."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 2.1.3
+    answer:
+      type: exact
+      value: "2x^2 - y^2 - 2xy"
+      working: |
+        Kembangkan bahagian pertama (beza antara dua sebutan kuasa dua sempurna):
+        (x + y)(x - y) = x^2 - y^2
+        Kembangkan bahagian kedua:
+        x(x - 2y) = x^2 - 2xy
+        Gabungkan kedua-dua bahagian:
+        x^2 - y^2 + x^2 - 2xy = 2x^2 - y^2 - 2xy
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengembangkan dua kurungan pertama dengan betul menjadi x^2 - y^2."
+      - marks: 1
+        criteria: "Mengembangkan bahagian kedua dengan betul menjadi x^2 - 2xy."
+      - marks: 1
+        criteria: "Menggabungkan sebutan serupa dengan tepat untuk mendapatkan ungkapan akhir."
+    hints:
+      - level: 1
+        text: "Ikut hukum BODMAS: lakukan pendaraban (kembangan) dahulu sebelum menambahkannya."
+
+  - id: Q4
+    text: "Permudahkan: $(x + 2)(x + 5) - x(x + 1)$."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 2.1.3
+    answer:
+      type: exact
+      value: "6x + 10"
+      working: |
+        Kembangkan hasil darab pertama:
+        (x + 2)(x + 5) = x^2 + 7x + 10
+        Kembangkan hasil darab kedua, berhati-hati dengan tanda negatif:
+        -x(x + 1) = -x^2 - x
+        Gabungkan sebutan:
+        (x^2 + 7x + 10) - x^2 - x = 6x + 10
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengembangkan hasil darab pertama dengan betul."
+      - marks: 1
+        criteria: "Mengagihkan nilai negatif x dengan betul pada kembangan kedua."
+      - marks: 1
+        criteria: "Menolak dan mempermudahkannya dengan tepat menjadi 6x + 10."
+    hints:
+      - level: 1
+        text: "Kembangkan kedua-dua set kurungan terlebih dahulu. Berhati-hati dengan tanda negatif apabila mendarab -x."
+
+  - id: Q5
+    text: "Puan Maria mempunyai sebidang permaidani yang panjangnya $(3r - 2)$ meter dan lebarnya ialah $(r + 1)$ meter. Hitung luas permaidani Puan Maria dalam sebutan $r$."
+    difficulty: hard
+    tp_level: 4
+    kbat: true
+    learning_objective: 2.1.4
+    answer:
+      type: exact
+      value: "3r^2 + r - 2"
+      working: |
+        Luas = panjang × lebar
+        Luas = (3r - 2)(r + 1)
+        Kembangkan kurungan:
+        = 3r(r) + 3r(1) - 2(r) - 2(1)
+        = 3r^2 + 3r - 2r - 2
+        = 3r^2 + r - 2
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyediakan persamaan pendaraban yang betul untuk mencari luas."
+      - marks: 1
+        criteria: "Mengembangkan persamaan menjadi empat sebutan yang betul."
+      - marks: 1
+        criteria: "Mempermudahkan ungkapan kuadratik akhir dengan betul."
+    hints:
+      - level: 1
+        text: "Luas segi empat tepat ialah panjang didarab dengan lebar. Tuliskan ia sebagai dua kurungan yang didarabkan bersama."
+
+  - id: Q6
+    text: "Faktorkan ungkapan algebra berikut selengkapnya: $8x + 12x^2$."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 2.2.2
+    answer:
+      type: exact
+      value: "4x(2 + 3x)"
+      working: |
+        Cari Faktor Sepunya Terbesar (FSTB) bagi nombor 8 dan 12, iaitu 4.
+        Cari FSTB bagi pemboleh ubah x dan x^2, iaitu x.
+        Keluarkan 4x:
+        8x / 4x = 2
+        12x^2 / 4x = 3x
+        = 4x(2 + 3x)
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti Faktor Sepunya Terbesar (4x) dengan betul."
+      - marks: 1
+        criteria: "Menulis bentuk pemfaktoran penuh dengan betul. Terima bentuk setara seperti 4x(3x + 2)."
+    hints:
+      - level: 1
+        text: "Cari nombor terbesar dan pemboleh ubah terbesar yang boleh membahagi kedua-dua sebutan."
+      - level: 2
+        text: "Peraturan Emas 1: Sentiasa lakukan 'Semakan Pelangi' (Rainbow Check-Back)! Kembangkan kurungan anda dalam minda untuk memastikan anda mendapat ungkapan dan tanda asal yang tepat."
+
+  - id: Q7
+    text: "Faktorkan yang berikut menggunakan beza antara dua sebutan kuasa dua sempurna: $b^2 - 81$."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 2.2.2
+    answer:
+      type: exact
+      value: "(b + 9)(b - 9)"
+      working: |
+        Kenal pasti bahawa 81 ialah kuasa dua sempurna (9^2).
+        Gunakan peraturan beza antara dua sebutan kuasa dua sempurna: a^2 - b^2 = (a + b)(a - b)
+        b^2 - 9^2 = (b + 9)(b - 9)
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti 81 sebagai kuasa dua sempurna bagi 9."
+      - marks: 1
+        criteria: "Mengaplikasikan peraturan dengan betul untuk menghasilkan (b + 9)(b - 9). Terima susunan terbalik: (b - 9)(b + 9)."
+    hints:
+      - level: 1
+        text: "81 ialah nombor kuasa dua sempurna. Gunakan peraturan x^2 - y^2 = (x + y)(x - y)."
+      - level: 2
+        text: "Peraturan Emas 1: Sentiasa lakukan 'Semakan Pelangi' (Rainbow Check-Back)! Kembangkan kurungan anda dalam minda untuk memastikan anda mendapat ungkapan dan tanda asal yang tepat."
+
+  - id: Q8
+    text: "Faktorkan selengkapnya menggunakan kaedah pendaraban silang: $x^2 + 6x + 8$."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 2.2.2
+    answer:
+      type: exact
+      value: "(x + 2)(x + 4)"
+      working: |
+        Cari faktor bagi x^2: x dan x
+        Cari faktor bagi 8 yang hasil tambahnya ialah 6: 2 dan 4
+        Darab silang:
+        x * 4 = 4x
+        x * 2 = 2x
+        Hasil Tambah = 6x (sepadan dengan sebutan tengah)
+        Jawapan = (x + 2)(x + 4)
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti faktor yang betul bagi 8."
+      - marks: 1
+        criteria: "Mengesahkan sebutan tengah dengan betul menggunakan pendaraban silang."
+      - marks: 1
+        criteria: "Menulis kurungan akhir dengan betul. Terima susunan terbalik: (x + 4)(x + 2)."
+    hints:
+      - level: 1
+        text: "Cari dua nombor yang hasil darabnya ialah 8 dan hasil tambahnya ialah 6."
+      - level: 2
+        text: "Peraturan Emas 1: Sentiasa lakukan 'Semakan Pelangi' (Rainbow Check-Back)! Kembangkan kurungan anda dalam minda untuk memastikan anda mendapat ungkapan dan tanda asal yang tepat."
+
+  - id: Q9
+    text: "Faktorkan ungkapan algebra yang melibatkan empat sebutan: $pq + qr + ps + rs$."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 2.2.2
+    answer:
+      type: exact
+      value: "(q + s)(p + r)"
+      working: |
+        Gabungkan sebutan kepada dua kumpulan yang mempunyai faktor sepunya:
+        (pq + qr) + (ps + rs)
+        Keluarkan faktor sepunya bagi setiap kumpulan:
+        q(p + r) + s(p + r)
+        Keluarkan kurungan sepunya (p + r):
+        = (p + r)(q + s) ATAU (q + s)(p + r)
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengumpulkan sebutan dengan betul."
+      - marks: 1
+        criteria: "Mengeluarkan faktor sepunya untuk mencipta kurungan binomial yang sepadan."
+      - marks: 1
+        criteria: "Mengeluarkan kurungan binomial sepunya untuk mendapatkan jawapan akhir."
+    hints:
+      - level: 1
+        text: "Bahagikan 4 sebutan itu kepada dua kumpulan yang terdiri daripada 2 sebutan. Faktorkan setiap kumpulan secara berasingan dahulu."
+
+  - id: Q10
+    text: "Luas sebuah padang bola sepak berbentuk segi empat tepat ialah $(4x^2 + 16x)$ meter persegi. Jika lebar padang itu ialah $4x$ meter, cari panjangnya dalam sebutan $x$."
+    difficulty: hard
+    tp_level: 4
+    kbat: true
+    learning_objective: 2.2.3
+    answer:
+      type: exact
+      value: "x + 4"
+      working: |
+        Panjang = Luas / Lebar
+        Panjang = (4x^2 + 16x) / 4x
+        Faktorkan pengangka (Luas) menggunakan FSTB:
+        4x^2 + 16x = 4x(x + 4)
+        Bahagikan dengan penyebut (Lebar):
+        = 4x(x + 4) / 4x
+        Mansuhkan faktor sepunya 4x:
+        = x + 4
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyediakan persamaan hubungan: Panjang = Luas / Lebar."
+      - marks: 1
+        criteria: "Memfaktorkan ungkapan luas dengan betul."
+      - marks: 1
+        criteria: "Melakukan pembahagian yang tepat untuk mencari panjang."
+    hints:
+      - level: 1
+        text: "Faktorkan ungkapan untuk luas terlebih dahulu, kemudian bahagikan dengan lebar."
+      - level: 2
+        text: "AMARAN KESILAPAN KONSEP: Ingat Peraturan Emas 3! Anda tidak boleh memansuhkan sebutan yang dipisahkan oleh tanda '+' atau '-'. Anda mesti memfaktorkan ungkapan terlebih dahulu dan hanya memansuhkan 'keluarga' kurungan yang telah dikunci."
+
+  - id: Q11
+    text: "Permudahkan pecahan algebra: $\\frac{4a}{5} + \\frac{3a}{5}$."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 2.3.1
+    answer:
+      type: exact
+      value: "\\frac{7a}{5}"
+      working: |
+        Memandangkan penyebut adalah sama (5), gabungkan pengangka secara terus:
+        (4a + 3a) / 5 = 7a / 5
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menggabungkan pengangka pada satu penyebut tunggal."
+      - marks: 1
+        criteria: "Mempermudahkan pengangka dengan tepat."
+    hints:
+      - level: 1
+        text: "Penyebutnya adalah sama, jadi anda hanya perlu menambahkan pengangka bersama-sama."
+
+  - id: Q12
+    text: "Permudahkan: $\\frac{x}{2} - \\frac{x-5}{4}$."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 2.3.1
+    answer:
+      type: exact
+      value: "\\frac{x+5}{4}"
+      working: |
+        Cari penyebut sepunya, iaitu 4.
+        Darabkan pengangka dan penyebut pecahan pertama dengan 2:
+        = (2x) / 4 - (x - 5) / 4
+        Gabungkan pada penyebut sepunya. Gunakan kurungan untuk pengangka pecahan kedua!
+        = (2x - (x - 5)) / 4
+        Agihkan tanda negatif (Pengawal Kurungan):
+        = (2x - x + 5) / 4
+        = (x + 5) / 4
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti penyebut sepunya sebagai 4."
+      - marks: 1
+        criteria: "Meletakkan pengangka yang ditolak di dalam kurungan dengan betul: -(x-5)."
+      - marks: 1
+        criteria: "Mengagihkan tanda negatif dengan betul untuk mendapatkan ungkapan akhir."
+    hints:
+      - level: 1
+        text: "Cari Gandaan Sepunya Terkecil (GSTK) bagi penyebut terlebih dahulu."
+      - level: 2
+        text: "Peraturan Emas 2: Pengawal Kurungan (Bracket Bodyguard)! Semasa menolak pecahan kedua, letakkan keseluruhan pengangkanya (x - 5) di dalam kurungan seperti ini: -(x - 5). Kemudian agihkan tanda negatif untuk mengelakkan perangkap negatif berganda!"
+
+  - id: Q13
+    text: "Permudahkan pendaraban pecahan algebra: $\\frac{a^2 - 1}{2ab} \\times \\frac{b^2}{1 + a}$."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 2.3.2
+    answer:
+      type: exact
+      value: "\\frac{b(a - 1)}{2a}"
+      working: |
+        Faktorkan pengangka a^2 - 1 (beza antara dua sebutan kuasa dua sempurna):
+        = (a + 1)(a - 1)
+        Gantikan ke dalam persamaan:
+        = [(a + 1)(a - 1) / 2ab] * [b^2 / (1 + a)]
+        Perhatikan bahawa (1 + a) adalah sama dengan (a + 1).
+        Mansuhkan faktor sepunya (a + 1).
+        Mansuhkan faktor sepunya b daripada b^2 and 2ab:
+        = (a - 1) * b / 2a
+        = b(a - 1) / 2a
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Memfaktorkan a^2 - 1 dengan betul."
+      - marks: 1
+        criteria: "Memansuhkan faktor (a+1) dengan betul."
+      - marks: 1
+        criteria: "Memansuhkan faktor 'b' dan menulis ungkapan dipermudahkan yang terakhir."
+    hints:
+      - level: 1
+        text: "Faktorkan a^2 - 1 dahulu. Kemudian cari sebutan yang boleh dimansuhkan secara bersilang."
+      - level: 2
+        text: "AMARAN KESILAPAN KONSEP: Ingat Peraturan Emas 3! Anda tidak boleh memansuhkan sebutan yang dipisahkan oleh tanda '+' atau '-'. Anda mesti memfaktorkan ungkapan terlebih dahulu dan hanya memansuhkan 'keluarga' kurungan yang telah dikunci."
+
+  - id: Q14
+    text: "Permudahkan pembahagian pecahan algebra: $\\frac{m + n}{x - y} \\div \\frac{(m + n)^2}{x^2 - y^2}$."
+    difficulty: hard
+    tp_level: 4
+    kbat: false
+    learning_objective: 2.3.2
+    answer:
+      type: exact
+      value: "\\frac{x + y}{m + n}"
+      working: |
+        Tukar operasi pembahagian kepada pendaraban dengan menterbalikkan pecahan kedua:
+        = [(m + n) / (x - y)] * [(x^2 - y^2) / (m + n)^2]
+        Faktorkan x^2 - y^2 menjadi (x + y)(x - y):
+        = [(m + n) / (x - y)] * [(x + y)(x - y) / (m + n)(m + n)]
+        Mansuhkan faktor sepunya (x - y):
+        Mansuhkan faktor sepunya (m + n):
+        = (x + y) / (m + n)
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menukar operasi pembahagian kepada pendaraban dengan menterbalikkan pecahan."
+      - marks: 1
+        criteria: "Memfaktorkan beza kuasa dua sempurna dengan betul."
+      - marks: 1
+        criteria: "Memansuhkan faktor sepunya (x - y)."
+      - marks: 1
+        criteria: "Memansuhkan faktor sepunya (m + n) untuk mendapatkan pecahan akhir."
+    hints:
+      - level: 1
+        text: "Kekal, Tukar, Terbalikkan. Kemudian faktorkan semuanya sebelum anda memansuhkan sebutan atas dan bawah."
+      - level: 2
+        text: "AMARAN KESILAPAN KONSEP: Ingat Peraturan Emas 3! Anda tidak boleh memansuhkan sebutan yang dipisahkan oleh tanda '+' atau '-'. Anda mesti memfaktorkan ungkapan terlebih dahulu dan hanya memansuhkan 'keluarga' kurungan yang telah dikunci."
+
+  - id: Q15
+    text: "Selesaikan gabungan operasi berikut: $\\frac{2}{5b}(15a + 25b) + \\frac{a}{b}$."
+    difficulty: hard
+    tp_level: 4
+    kbat: false
+    learning_objective: 2.3.3
+    answer:
+      type: exact
+      value: "\\frac{7a + 10b}{b}"
+      working: |
+        Selesaikan operasi pendaraban terlebih dahulu (BODMAS):
+        Kaedah 1 (Kembangan):
+        = [2(15a) / 5b] + [2(25b) / 5b] + a/b
+        = 30a/5b + 50b/5b + a/b
+        = 6a/b + 10 + a/b
+        Untuk menambah, pastikan penyebut adalah sama:
+        = (6a + 10b + a) / b
+        = (7a + 10b) / b
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Mengutamakan operasi pendaraban ke atas penambahan (BODMAS)."
+      - marks: 1
+        criteria: "Mengembangkan atau memfaktorkan dengan tepat untuk menghapuskan 5 pada penyebut."
+      - marks: 1
+        criteria: "Mencari penyebut sepunya untuk penambahan a/b."
+      - marks: 1
+        criteria: "Menggabungkan sebutan serupa dengan tepat untuk pecahan akhir yang dipermudahkan."
+    hints:
+      - level: 1
+        text: "Darabkan sebutan pertama ke dalam, atau faktorkan kurungan untuk memansuhkan 5 di bahagian penyebut dahulu. Kemudian tambahkan."
+
+  - id: Q16
+    text: "Kembangkan $(x - 4)(x + 2)$."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 2.1.2
+    answer:
+      type: multiple_choice
+      value: "C"
+      working: |
+        (x * x) + (x * 2) - (4 * x) - (4 * 2)
+        = x^2 + 2x - 4x - 8
+        = x^2 - 2x - 8
+      distractors:
+        - value: "A"
+          feedback: "Anda tertinggal tanda negatif apabila mendarab sebutan terakhir. (-4) * (+2) ialah -8, bukan +8!"
+        - value: "B"
+          feedback: "Semak sebutan tengah anda: 2x - 4x ialah -2x, bukan -6x."
+        - value: "D"
+          feedback: "Berhati-hati dengan tanda. Tanda negatif melekat pada 4, jadi anda sepatutnya mempunyai -4x dan -8."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Memilih pilihan C dengan betul."
+    hints:
+      - level: 1
+        text: "Gunakan anak panah kalis agihan untuk mendarab setiap sebutan dalam kurungan pertama dengan setiap sebutan dalam kurungan kedua."
+
+  - id: Q17
+    text: "Faktorkan ungkapan berikut: $12x^2y + 15xy^2$"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 2.2.2
+    answer:
+      type: multiple_choice
+      value: "B"
+      working: |
+        Faktor Sepunya Terbesar bagi 12 dan 15 ialah 3.
+        Pemboleh ubah sepunya ialah x dan y.
+        Jadi FSTB = 3xy.
+        12x^2y / 3xy = 4x.
+        15xy^2 / 3xy = 5y.
+        Jawapan = 3xy(4x + 5y).
+      distractors:
+        - value: "A"
+          feedback: "Perhatikan dengan teliti pemboleh ubah yang tinggal di dalam kurungan. Jika anda mengeluarkan 3xy, apa yang tinggal daripada 12x^2y?"
+        - value: "C"
+          feedback: "Anda mengeluarkan x, tetapi kedua-dua sebutan juga berkongsi y! Faktor Sepunya Terbesar mesti merangkumi y."
+        - value: "D"
+          feedback: "Anda mengeluarkan y, tetapi kedua-dua sebutan juga berkongsi x! Faktor Sepunya Terbesar mesti merangkumi x."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Memilih pilihan B dengan betul."
+    hints:
+      - level: 1
+        text: "Cari nombor terbesar yang membahagi kedua-dua 12 dan 15, kemudian keluarkan kuasa terendah bagi x dan y."
+
+  - id: Q18
+    text: "Permudahkan: $\\frac{2x - 4y}{8z} \\div \\frac{3x - 6y}{6}$"
+    difficulty: hard
+    tp_level: 4
+    kbat: false
+    learning_objective: 2.3.2
+    answer:
+      type: multiple_choice
+      value: "B"
+      working: |
+        Terbalikkan pecahan kedua untuk pendaraban:
+        ((2x - 4y) / 8z) * (6 / (3x - 6y))
+        Faktorkan sebutan:
+        (2(x - 2y) / 8z) * (6 / 3(x - 2y))
+        Mansuhkan faktor sepunya (x - 2y):
+        (2 / 8z) * (6 / 3)
+        = (1 / 4z) * 2
+        = 2 / 4z
+        = 1 / 2z.
+      distractors:
+        - value: "A"
+          feedback: "Adakah anda telah memfaktorkan pengangka 2x - 4y dan penyebut 3x - 6y sepenuhnya? Sebutan di dalam kurungan sepatutnya boleh dimansuhkan sepenuhnya."
+        - value: "C"
+          feedback: "Semak pendaraban nombor yang tinggal selepas memansuhkan kurungan. 2/8 * 6/3 dipermudahkan menjadi 1/2, bukan 1/4."
+        - value: "D"
+          feedback: "Adakah anda terlupa Kekal-Tukar-Terbalikkan? Anda mesti menukar operasi pembahagian kepada pendaraban dan menterbalikkan pecahan kedua sebelum memansuhkan!"
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Memilih pilihan B dengan betul."
+    hints:
+      - level: 1
+        text: "AMARAN KESILAPAN KONSEP: Kekal, Tukar, Terbalikkan (Keep, Change, Flip)! Tukar operasi pembahagian kepada pendaraban dahulu, kemudian faktorkan pengangka dan penyebut untuk memansuhkan faktor sepunya."
+      - level: 2
+        text: "Ingat Peraturan Emas 3! Anda tidak boleh memansuhkan sebutan yang dipisahkan oleh tanda '+' atau '-'. Anda mesti memfaktorkan ungkapan terlebih dahulu dan hanya memansuhkan 'keluarga' kurungan yang telah dikunci."
+
+  - id: Q19
+    text: "Kembangkan $-9(m - 3n)$"
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 2.1.2
+    answer:
+      type: exact
+      value: "-9m + 27n"
+      working: |
+        -9 * m = -9m
+        -9 * -3n = +27n
+        Jawapan: -9m + 27n
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Mengembangkan dengan betul termasuk tanda positif yang tepat untuk 27n."
+    hints:
+      - level: 1
+        text: "AMARAN KESILAPAN KONSEP: Ingat bahawa nombor negatif didarabkan dengan nombor negatif akan menghasilkan sebutan positif."
+
+  - id: Q20
+    text: "Permudahkan: $S = \\frac{2x - 1}{4x^2 - 1}$"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 2.2.2
+    answer:
+      type: exact
+      value: "1 / (2x + 1)"
+      working: |
+        Kenal pasti 4x^2 - 1 sebagai beza antara dua sebutan kuasa dua sempurna.
+        4x^2 - 1 = (2x - 1)(2x + 1)
+        S = (2x - 1) / ((2x - 1)(2x + 1))
+        Mansuhkan (2x - 1) untuk meninggalkan 1 / (2x + 1).
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti penyebut sebagai beza kuasa dua sempurna."
+      - marks: 1
+        criteria: "Memfaktorkan penyebut dengan betul kepada (2x-1)(2x+1)."
+      - marks: 1
+        criteria: "Memansuhkan faktor yang betul untuk mendapatkan pecahan akhir yang dipermudahkan."
+    hints:
+      - level: 1
+        text: "Faktorkan penyebut dahulu. Boleh tak anda kenal pasti corak 'beza antara dua sebutan kuasa dua sempurna'?"
+      - level: 2
+        text: "AMARAN KESILAPAN KONSEP: Ingat Peraturan Emas 3! Anda tidak boleh memansuhkan sebutan yang dipisahkan oleh tanda '+' atau '-'. Anda mesti memfaktorkan ungkapan terlebih dahulu dan hanya memansuhkan 'keluarga' kurungan yang telah dikunci."
+
+  - id: Q21
+    text: "Faktorkan selengkapnya: $2x^2 - 50$"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 2.2.2
+    answer:
+      type: exact
+      value: "2(x - 5)(x + 5)"
+      working: |
+        Keluarkan faktor sepunya 2:
+        2(x^2 - 25)
+        Faktorkan beza kuasa dua sempurna:
+        2(x - 5)(x + 5)
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengeluarkan faktor sepunya 2."
+      - marks: 1
+        criteria: "Memfaktorkan x^2 - 25 dengan betul."
+    hints:
+      - level: 1
+        text: "Cari nombor terbesar yang membahagi kedua-dua sebutan dahulu. Kemudian faktorkan kurungan itu sekali lagi."
+      - level: 2
+        text: "Peraturan Emas 1: Sentiasa lakukan 'Semakan Pelangi' (Rainbow Check-Back)! Kembangkan kurungan anda dalam minda untuk memastikan anda mendapat ungkapan dan tanda asal yang tepat."
+
+  - id: Q22
+    text: "Halaman rumah Encik Mohan yang berbentuk segi empat tepat mempunyai panjang $(4p + 3)$ m dan lebar $(2p + 5)$ m. Sebuah kolam ikan berbentuk segi empat tepat dibina di satu sudut halaman itu dengan panjang 10 m dan lebar 6 m, manakala kawasan selebihnya ditutupi dengan rumput tiruan. Hitung luas, dalam $m^2$, kawasan yang ditutupi dengan rumput tiruan."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 2.1.4
+    answer:
+      type: exact
+      value: "8p^2 + 26p - 45"
+      working: |
+        Jumlah Luas Halaman = (4p + 3)(2p + 5)
+        = 8p^2 + 20p + 6p + 15
+        = 8p^2 + 26p + 15
+        Luas Kolam = 10 * 6 = 60
+        Luas Rumput = Jumlah Halaman - Kolam
+        = (8p^2 + 26p + 15) - 60
+        = 8p^2 + 26p - 45
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyediakan persamaan kembangan yang betul untuk jumlah luas halaman."
+      - marks: 1
+        criteria: "Mengembangkan ungkapan binomial dengan tepat kepada 8p^2 + 26p + 15."
+      - marks: 1
+        criteria: "Menolak 60 untuk mencari ungkapan kuadratik akhir yang betul."
+    hints:
+      - level: 1
+        text: "Cari jumlah luas halaman dengan mendarab panjang dan lebar, kemudian tolak luas kolam tersebut."
+
+  - id: Q23
+    text: "Luas sebuah segi empat tepat ialah $(x^2 + 5x + 6)$ cm². Jika panjang segi empat tepat tersebut ialah $(x + 3)$ cm, ungkapkan perimeter segi empat tepat itu dalam sebutan $x$."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 2.2.3
+    answer:
+      type: exact
+      value: "4x + 10"
+      working: |
+        Luas = Panjang x Lebar
+        Lebar = Luas / Panjang
+        Lebar = (x^2 + 5x + 6) / (x + 3)
+        Faktorkan x^2 + 5x + 6:
+        Faktor bagi 6 yang hasil tambahnya 5 ialah 2 dan 3.
+        = (x + 2)(x + 3)
+        Maka, Lebar = [(x + 2)(x + 3)] / (x + 3)
+        = (x + 2)
+        Perimeter = 2(Panjang) + 2(Lebar)
+        = 2(x + 3) + 2(x + 2)
+        = 2x + 6 + 2x + 4
+        = 4x + 10
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menyediakan pembahagian untuk mencari lebar."
+      - marks: 1
+        criteria: "Memfaktorkan ungkapan kuadratik dengan betul kepada (x+2)(x+3)."
+      - marks: 1
+        criteria: "Mengenal pasti lebar sebagai (x+2)."
+      - marks: 1
+        criteria: "Mengira ungkapan perimeter yang betul menggunakan 2L + 2W."
+    hints:
+      - level: 1
+        text: "Untuk mencari lebar yang hilang, faktorkan luas dan mansuhkan bahagian panjang. Kemudian ingat formula perimeter!"

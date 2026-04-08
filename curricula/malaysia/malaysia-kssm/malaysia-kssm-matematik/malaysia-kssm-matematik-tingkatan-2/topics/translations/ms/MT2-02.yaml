@@ -1,49 +1,112 @@
 id: MT2-02
 official_ref: "Bab 2"
-name: "Pemfaktoran dan Pecahan Algebra (Factorisation and Algebraic Fractions)"
-subject_id: malaysia-kssm-matematik-tingkatan-2
+name: "Pemfaktoran dan Pecahan Algebra"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: hard
+tier: core
+sync_checked: true
 
 content_standards:
-  - id: 2.1
+  - id: "2.1"
     text: "Kembangan"
-  - id: 2.2
+  - id: "2.2"
     text: "Pemfaktoran"
-  - id: 2.3
+  - id: "2.3"
     text: "Ungkapan Algebra dan Hukum Operasi Asas Aritmetik"
 
 learning_objectives:
   - id: 2.1.1
+    content_standard_id: "2.1"
     text: "Menerangkan maksud kembangan dua ungkapan algebra."
+    bloom: understand
   - id: 2.1.2
+    content_standard_id: "2.1"
     text: "Melaksanakan kembangan dua ungkapan algebra."
+    bloom: apply
   - id: 2.1.3
+    content_standard_id: "2.1"
     text: "Mempermudahkan ungkapan algebra yang melibatkan gabungan operasi termasuk kembangan."
+    bloom: apply
   - id: 2.1.4
+    content_standard_id: "2.1"
     text: "Menyelesaikan masalah yang melibatkan kembangan dua ungkapan algebra."
+    bloom: apply
   - id: 2.2.1
+    content_standard_id: "2.2"
     text: "Menghubungkaitkan pendaraban ungkapan algebra dengan konsep faktor dan pemfaktoran, dan seterusnya menyenaraikan faktor bagi hasil darab ungkapan algebra tersebut."
+    bloom: understand
   - id: 2.2.2
+    content_standard_id: "2.2"
     text: "Memfaktorkan ungkapan algebra dengan pelbagai kaedah."
+    bloom: apply
   - id: 2.2.3
+    content_standard_id: "2.2"
     text: "Menyelesaikan masalah yang melibatkan pemfaktoran."
+    bloom: apply
   - id: 2.3.1
+    content_standard_id: "2.3"
     text: "Melaksanakan penambahan dan penolakan ungkapan algebra yang melibatkan kembangan dan pemfaktoran."
+    bloom: apply
   - id: 2.3.2
+    content_standard_id: "2.3"
     text: "Melaksanakan pendaraban dan pembahagian ungkapan algebra yang melibatkan kembangan dan pemfaktoran."
+    bloom: apply
   - id: 2.3.3
+    content_standard_id: "2.3"
     text: "Melaksanakan gabungan operasi ungkapan algebra yang melibatkan kembangan dan pemfaktoran."
+    bloom: apply
 
 performance_standards:
-  - id: TP1
-    text: "Mempamerkan pengetahuan asas tentang faktor."
-  - id: TP2
-    text: "Mempamerkan kefahaman tentang konsep kembangan dan pemfaktoran."
-  - id: TP3
-    text: "Mengaplikasikan kefahaman tentang kembangan dan pemfaktoran untuk melaksanakan tugasan mudah."
-  - id: TP4
-    text: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang kembangan dan pemfaktoran dalam konteks penyelesaian masalah rutin yang mudah."
-  - id: TP5
-    text: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang kembangan dan pemfaktoran dalam konteks penyelesaian masalah rutin yang kompleks."
-  - id: TP6
-    text: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang kembangan dan pemfaktoran dalam konteks penyelesaian masalah bukan rutin secara kreatif."
+  - level: 1
+    descriptor: "Mempamerkan pengetahuan asas tentang kembangan dan pemfaktoran."
+  - level: 2
+    descriptor: "Mempamerkan kefahaman tentang kembangan dan pemfaktoran."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman tentang kembangan dan pemfaktoran untuk melaksanakan tugasan mudah."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang kembangan dan pemfaktoran dalam konteks penyelesaian masalah rutin yang mudah."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang kembangan dan pemfaktoran dalam konteks penyelesaian masalah rutin yang kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang kembangan dan pemfaktoran dalam konteks penyelesaian masalah bukan rutin secara kreatif."
+
+prerequisites:
+  required:
+    - "MT1-05"
+  recommended:
+    - "MT1-01"
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 5
+  spaced_repetition:
+    initial_interval_days: 2
+    multiplier: 2.0
+
+teaching:
+  sequence:
+    - "Langkah 1: Konsep Kembangan & Melaksanakan Kembangan Dua Ungkapan Algebra (30 minit)"
+    - "Langkah 2: Gabungan Operasi Melibatkan Kembangan & Penyelesaian Masalah (25 minit)"
+    - "Langkah 3: Memahami Faktor & Memfaktorkan Ungkapan Algebra (FSTB, Kuasa Dua Sempurna, Pendaraban Silang) (40 minit)"
+    - "Langkah 4: Penyelesaian Masalah Melibatkan Pemfaktoran & Ungkapan 4 Sebutan (20 minit)"
+    - "Langkah 5: Penambahan, Penolakan, Pendaraban & Pembahagian Pecahan Algebra (35 minit)"
+  common_misconceptions:
+    - misconception: "Pemotongan tidak sah, cth: memotong x dalam (x+4)/x menjadi 4."
+      remediation: "Gunakan peraturan 'Faktor Sahaja'. Pemotongan hanya boleh dilakukan untuk faktor dalam kurungan, bukan sebutan dengan tanda +/-."
+    - misconception: "Kehilangan tanda negatif semasa pengagihan, cth: -(x-5) menjadi -x-5."
+      remediation: "Gunakan 'Pengawal Kurungan'. Anggap tanda tolak sebagai pendarab -1 untuk SETIAP sebutan di dalam."
+    - misconception: "Kuasa Dua Sempurna Palsu: (x+3)^2 = x^2 + 9."
+      remediation: "Gunakan 'Semakan Pelangi'. Sentiasa tulis dua kurungan kembar bersebelahan sebelum menyelesaikan."
+  engagement_hooks:
+    - "Penggodam Kod Rahsia: Ungkapan algebra ialah mesej yang disulitkan; pemfaktoran ialah kunci untuk menyahsulitnya."
+    - "Seni Bina Pelan Lantai: Gunakan kembangan untuk mengira jumlah luas rumah modular berdasarkan dimensi x."
+
+quality_level: 3
+provenance: ai-assisted
+ai_teaching_notes: "MT2-02.teaching.md"
+assessments_file: "MT2-02.assessments.yaml"
+examples_file: "MT2-02.examples.yaml"

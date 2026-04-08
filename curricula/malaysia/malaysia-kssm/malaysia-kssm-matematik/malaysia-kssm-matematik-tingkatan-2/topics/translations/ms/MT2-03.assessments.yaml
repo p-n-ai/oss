@@ -1,0 +1,385 @@
+topic_id: MT2-03
+provenance: ai-assisted
+questions:
+  - id: Q1
+    text: "Perimeter sebuah segi empat tepat diberi oleh $P = 2l + 2w$. Jika $l = 7$ dan $w = 4$, cari $P$."
+    difficulty: easy
+    tp_level: 3
+    kbat: false
+    learning_objective: 3.1.3
+    answer:
+      type: exact
+      value: "22"
+      working: |
+        Gantikan l = 7 dan w = 4:
+        P = 2(7) + 2(4)
+        P = 14 + 8
+        P = 22
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Penggantian nilai ke dalam rumus dengan betul."
+      - marks: 1
+        criteria: "Nilai akhir yang betul iaitu 22."
+    hints:
+      - level: 1
+        text: "Gunakan 'Peraturan Bubble Wrap'! Gantikan setiap pemboleh ubah dengan nilainya di dalam kurungan sebelum mengira."
+  - id: Q2
+    text: "Tulis rumus bagi jumlah kos $C$ jika setiap buku nota berharga RM $m$ dan anda membeli $n$ buah buku nota."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 3.1.1
+    answer:
+      type: exact
+      value: "C = mn"
+      working: |
+        Jumlah kos sama dengan harga seunit didarab dengan kuantiti.
+        Oleh itu C = m * n
+        C = mn
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Membentuk rumus C = mn dengan betul. Terima bentuk setara seperti mn = C atau C = nm."
+    hints:
+      - level: 1
+        text: "Fikirkan: jumlah kos ialah harga satu barang didarab dengan bilangan barang."
+  - id: Q3
+    text: "Jadikan $x$ sebagai perkara rumus: $y = 3x - 8$."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 3.1.2
+    answer:
+      type: exact
+      value: "x = (y + 8) / 3"
+      working: |
+        y = 3x - 8
+        y + 8 = 3x
+        x = (y + 8) / 3
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan operasi songsang dengan betul pada kedua-dua belah persamaan dengan menambah 8."
+      - marks: 1
+        criteria: "Memberikan bentuk perkara rumus yang betul untuk x dengan membahagi dengan 3."
+    hints:
+      - level: 1
+        text: "Gunakan 'Perisai BODMAS Songsang'! Selesaikan rantaian operasi terlemah dahulu (operasi tolak) sebelum menguruskan pendaraban."
+  - id: Q4
+    text: "Diberi rumus $L = \\pi j^2$, jadikan $j$ sebagai perkara rumus."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 3.1.2
+    answer:
+      type: exact
+      value: "j = \\sqrt{L / \\pi}"
+      working: |
+        L = \pi j^2
+        j^2 = L / \pi
+        j = \sqrt{L / \pi}
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyusun semula persamaan untuk meninggalkan j^2 dengan membahagikan kedua-dua belah dengan pi."
+      - marks: 1
+        criteria: "Mengenakan punca kuasa dua pada keseluruhan bahagian bertentangan."
+      - marks: 1
+        criteria: "Menyatakan rumus akhir yang betul bagi j."
+    hints:
+      - level: 1
+        text: "Asingkan $j^2$ dahulu dengan memindahkan $\\pi$. Kemudian ingat bahawa lawan bagi kuasa dua ialah punca kuasa dua. Berhati-hati dengan Perangkap Punca Separa!"
+  - id: Q5
+    text: "Rumus tambang teksi ialah $F = 4 + 1.8d$, dengan $F$ ialah tambang dalam RM dan $d$ ialah jarak dalam km. Jika seorang penumpang membayar RM22, cari jarak perjalanannya."
+    difficulty: hard
+    tp_level: 4
+    kbat: true
+    learning_objective: 3.1.4
+    answer:
+      type: exact
+      value: "10"
+      working: |
+        22 = 4 + 1.8d
+        18 = 1.8d
+        d = 18 / 1.8
+        d = 10
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menggantikan nilai tambang ke dalam rumus dengan betul."
+      - marks: 1
+        criteria: "Menyusun semula persamaan dengan betul."
+      - marks: 1
+        criteria: "Mengira d dengan tepat."
+      - marks: 1
+        criteria: "Menyatakan jarak akhir dalam km."
+    hints:
+      - level: 1
+        text: "Gantikan nilai F yang diketahui terlebih dahulu. Kemudian, gunakan perisai BODMAS songsang untuk mengasingkan sebutan yang mempunyai d."
+  - id: Q6
+    text: "Naufal mempunyai $r$ biji gula-gula. Dia membahagikan gula-gula itu sama rata kepada lima orang kawannya. $S$ ialah bilangan gula-gula yang diterima oleh setiap kawannya. Antara rumus berikut, yang manakah benar berdasarkan situasi ini?"
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 3.1.1
+    answer:
+      type: multiple_choice
+      value: "D"
+      working: |
+        Jumlah gula-gula = r.
+        Bilangan rakan = 5.
+        Gula-gula setiap rakan (S) = Jumlah gula-gula / Bilangan rakan = r / 5.
+      distractors:
+        - value: "A"
+          feedback: "Ini mendarabkan jumlah gula-gula dengan 5. Mengagih sama rata bermakna kita kena bahagi."
+        - value: "B"
+          feedback: "Menambah rakan dengan gula-gula tidak menyelesaikan pengagihan."
+        - value: "C"
+          feedback: "Ini membahagikan bilangan kawan dengan gula-gula. Sepatutnya jumlah barang dibahagikan dengan bilangan penerima."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Memilih pilihan D dengan betul."
+    hints:
+      - level: 1
+        text: "Mengagihkan sama rata bermakna kamu perlu menggunakan pembahagian. Pemboleh ubah yang manakah mewakili jumlah keseluruhan barang?"
+  - id: Q7
+    text: "Diberi sebuah padang berbentuk segi empat tepat mempunyai panjang $(2x + 3)$ m dan lebar $(y + 2)$ m. Diberi bahawa perimeter padang tersebut ialah 38 m. Jika $x - y = 4$, hitung nilai $x$ dan $y$."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 3.1.4
+    answer:
+      type: multiple_choice
+      value: "B"
+      working: |
+        Perimeter = 2(Panjang) + 2(Lebar) = 38
+        2(2x + 3) + 2(y + 2) = 38
+        4x + 6 + 2y + 4 = 38
+        4x + 2y + 10 = 38
+        4x + 2y = 28 -> bahagi dengan 2 -> 2x + y = 14
+        
+        Persamaan serentak:
+        Persamaan 1: 2x + y = 14
+        Persamaan 2: x - y = 4
+        Tambah Persamaan 1 dan Persamaan 2: 3x = 18 -> x = 6
+        Gantikan x=6 ke dalam Persamaan 2: 6 - y = 4 -> y = 2.
+      distractors:
+        - value: "A"
+          feedback: "Anda mungkin menambah nilai pemalar dengan salah semasa mengembangkan rumus perimeter."
+        - value: "C"
+          feedback: "Anda tertukar kedudukan x dan y. Sentiasa semak jawapan akhir dengan persamaan asal x - y = 4."
+        - value: "D"
+          feedback: "Semak kembangan algebra anda. Adakah anda ingat untuk mendarab nombor 2 kepada KEDUA-DUA sebutan dalam kurungan?"
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Memilih pilihan B dengan betul."
+    hints:
+      - level: 1
+        text: "Bina persamaan menggunakan rumus perimeter dahulu. Kemudian selesaikan menggunakan kaedah persamaan serentak dengan $x - y = 4$."
+  - id: Q8
+    text: "Diberi $20 / a^2 - c = 6b$, hitung nilai positif $a$ jika $b = 5$ dan $c = -2b$."
+    difficulty: medium
+    tp_level: 4
+    kbat: false
+    learning_objective: 3.1.3
+    answer:
+      type: multiple_choice
+      value: "A"
+      working: |
+        Jika b = 5, maka c = -2(5) = -10.
+        Gantikan ke dalam rumus: 
+        20 / a^2 - (-10) = 6(5)
+        20 / a^2 + 10 = 30
+        20 / a^2 = 20
+        a^2 = 1
+        a = \sqrt{1} = 1.
+      distractors:
+        - value: "B"
+          feedback: "Pastikan anda mengira c = -2(5) = -10 dengan betul and ingat Peraturan Bubble Wrap: menolak nombor negatif menjadikannya positif."
+        - value: "C"
+          feedback: "Anda mungkin tersilap memindahkan kedudukan. Ingat, 20 / a^2 = 20 bermaksud a^2 = 1."
+        - value: "D"
+          feedback: "Semak penggantian anda. 6b akan menjadi 6(5) = 30."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Memilih pilihan A dengan betul."
+    hints:
+      - level: 1
+        text: "Hitung nilai berangka yang tepat bagi 'c' dahulu, kemudian gunakan 'Peraturan Bubble Wrap' apabila menggantikannya ke dalam persamaan utama untuk mengelakkan Perangkap Tanda Negatif!"
+  - id: Q9
+    text: "Ungkapkan $m$ sebagai perkara rumus: $n + 10m^2 = 4$."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 3.1.2
+    answer:
+      type: exact
+      value: "m = \\sqrt{(4 - n) / 10}"
+      working: |
+        n + 10m^2 = 4
+        Tolak n dari kedua-dua belah:
+        10m^2 = 4 - n
+        Bahagi dengan 10:
+        m^2 = (4 - n) / 10
+        Punca kuasaduakan kedua-dua belah:
+        m = \sqrt{(4 - n) / 10}
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengasingkan m^2 sebagai (4 - n) / 10 dengan betul."
+      - marks: 1
+        criteria: "Mengenakan punca kuasa dua kepada keseluruhan bahagian bertentangan."
+    hints:
+      - level: 1
+        text: "AMARAN SALAH KONSEP: Semasa membuang kuasa dua, tanda kurungan punca kuasa dua mesti meliputi KESELURUHAN bahagian bertentangan, termasuk penyebutnya!"
+  - id: Q10
+    text: "Diberi $2m \\div (\\frac{m}{3n}) = 3m - 9$. Ungkapkan $m$ dalam sebutan $n$."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 3.1.2
+    answer:
+      type: exact
+      value: "m = 2n + 3"
+      working: |
+        Tukar operasi bahagi kepada darab dengan menterbalikkan pecahan:
+        2m * (3n / m) = 3m - 9
+        Lakukan pemansuhan pemboleh ubah m:
+        6n = 3m - 9
+        Susun semula untuk menjadikan m sebagai perkara rumus:
+        3m = 6n + 9
+        Bahagi dengan 3:
+        m = 2n + 3
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menerapkan peraturan tukar pecahan pembahagian kepada pendaraban dengan betul untuk memansuhkan pemboleh ubah m."
+      - marks: 1
+        criteria: "Menyusun semula persamaan untuk mengumpulkan m."
+      - marks: 1
+        criteria: "Membahagikan dengan betul untuk membentuk rumus akhir m = 2n + 3."
+    hints:
+      - level: 1
+        text: "Terbalikkan pecahan pembahagi untuk menjadikannya operasi pendaraban. Perhatikan bagaimana anda boleh menggunakan 'Pemansuhan' pada pemboleh ubah 'm' serta-merta!"
+  - id: Q11
+    text: "Diberi rumus $y = 5x + 2$, kenal pasti pemboleh ubah yang manakah merupakan perkara rumus."
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: 3.1.1
+    answer:
+      type: exact
+      value: "y"
+      working: |
+        Perkara rumus adalah pemboleh ubah tunggal yang diasingkan pada satu belah tanda sama dengan yang mempunyai nilai pekali 1. 
+        Dalam y = 5x + 2, 'y' ialah perkara rumus.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti y sebagai perkara rumus dengan tepat."
+    hints:
+      - level: 1
+        text: "Pemboleh ubah 'VIP' (perkara rumus) adalah huruf yang berdiri bersendirian tanpa sebarang nombor bersebelahannya pada satu bahagian tanda sama dengan."
+  - id: Q12
+    text: "Diberi $v = u + at$, hitung nilai $v$ apabila $u = 5$, $a = 2$, dan $t = 10$."
+    difficulty: easy
+    tp_level: 3
+    kbat: false
+    learning_objective: 3.1.3
+    answer:
+      type: exact
+      value: "25"
+      working: |
+        Gantikan u=5, a=2, t=10 ke dalam rumus:
+        v = 5 + (2)(10)
+        v = 5 + 20
+        v = 25
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menggantikan nilai ke dalam rumus dengan betul."
+      - marks: 1
+        criteria: "Menghitung nilai akhir iaitu 25 dengan tepat."
+    hints:
+      - level: 1
+        text: "Gunakan 'Peraturan Bubble Wrap' untuk menggantikan huruf dengan nombor masing-masing dalam kurungan. Ingat BODMAS: selesaikan darab dahulu sebelum tambah!"
+  - id: Q13
+    text: "Ungkapkan $v$ sebagai perkara rumus: $w = \\frac{v - u}{3}$"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 3.1.2
+    answer:
+      type: exact
+      value: "v = 3w + u"
+      working: |
+        Pindahkan 3 dengan mendarab kedua-dua belah:
+        3w = v - u
+        Pindahkan -u dengan menambah u ke kedua-dua belah:
+        3w + u = v
+        v = 3w + u
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mendarab dengan 3 untuk membuang pecahan penyebut."
+      - marks: 1
+        criteria: "Mengasingkan v dengan betul. Terima v = u + 3w."
+    hints:
+      - level: 1
+        text: "Gunakan 'Perisai BODMAS Songsang'. Hapuskan nombor pecahan di bawah itu dengan mendarabkan nombor 3 ke seberang persamaan dahulu."
+  - id: Q14
+    text: "Diberi $p = q + pr$, ungkapkan $p$ dalam sebutan $q$ dan $r$."
+    difficulty: hard
+    tp_level: 4
+    kbat: true
+    learning_objective: 3.1.2
+    answer:
+      type: exact
+      value: "p = \\frac{q}{1 - r}"
+      working: |
+        Pindahkan semua sebutan 'p' ke satu sisi:
+        p - pr = q
+        Faktorkan 'p' sebagai faktor sepunya:
+        p(1 - r) = q
+        Bahagikan dengan kurungan untuk mendapatkan p:
+        p = q / (1 - r)
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengumpulkan sebutan 'p' pada satu bahagian persamaan."
+      - marks: 1
+        criteria: "Melakukan pemfaktoran 'p' dengan berjaya: p(1 - r)."
+      - marks: 1
+        criteria: "Membahagikan persamaan bagi mendapatkan bentuk perkara rumus akhir."
+    hints:
+      - level: 1
+        text: "Kumpulkan semua sebutan pemboleh ubah sasaran ke sisi yang sama. Keluarkan 'p', dan lakukan teknik semakan 'Rainbow Check-Back' (kembangan pelangi) untuk memastikan pemfaktoran anda betul sebelum dibahagikan."
+  - id: Q15
+    text: "Luas permukaan sebuah silinder tertutup diberi oleh $A = 2\\pi j^2 + 2\\pi jt$. Ungkapkan tinggi, $t$, sebagai perkara rumus."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 3.1.2
+    answer:
+      type: exact
+      value: "t = \\frac{A - 2\\pi j^2}{2\\pi j}"
+      working: |
+        Asingkan sebutan yang mempunyai t:
+        2\pi jt = A - 2\pi j^2
+        Bahagi dengan 2\pi j untuk menjadikan t sebagai perkara rumus:
+        t = (A - 2\pi j^2) / (2\pi j)
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menolak 2\\pi j^2 untuk mengasingkan sebutan 't'."
+      - marks: 1
+        criteria: "Membahagikan persamaan dengan 2\\pi j secara tepat."
+      - marks: 1
+        criteria: "Mendapat ungkapan akhir yang betul."
+    hints:
+      - level: 1
+        text: "Anggap sebutan yang tidak mempunyai 't' sebagai pemalar biasa. Pindahkan mereka ke seberang dengan menggunakan tolakan melalui 'Perisai BODMAS Songsang' terlebih dahulu."

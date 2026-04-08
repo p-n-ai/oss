@@ -1,0 +1,593 @@
+topic_id: MT2-01
+provenance: ai-assisted
+questions:
+  ### ---------------------------------------------------------
+  ### SUBBAB 1.1: Pola (Patterns)
+  ### ---------------------------------------------------------
+  - id: Q1
+    text: "Kenal pasti nombor genap daripada senarai berikut: 7, 12, 17, 22, 27, 32."
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: 1.1.1
+    answer:
+      type: exact
+      value: "12, 22, 32"
+      working: |
+        Nombor genap ialah nombor yang boleh dibahagi tepat dengan 2.
+        12 / 2 = 6
+        22 / 2 = 11
+        32 / 2 = 16
+        Nombor ganjil (7, 17, 27) mempunyai baki jika dibahagi dengan 2.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti ketiga-tiga nombor genap dengan betul tanpa menyertakan nombor ganjil. Terima nombor dalam sebarang susunan."
+    hints:
+      - level: 1
+        text: "Nombor genap boleh dibahagi tepat dengan 2. Semak digit terakhir setiap nombor."
+
+  - id: Q2
+    text: "Apakah nombor yang hilang dalam jujukan Fibonacci berikut: 0, 1, 1, 2, 3, ___, 8, 13?"
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: 1.1.1
+    answer:
+      type: exact
+      value: "5"
+      working: |
+        Jujukan Fibonacci diperoleh dengan menambah dua sebutan sebelumnya.
+        2 + 3 = 5.
+        Semakan: 3 + 5 = 8.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan nombor Fibonacci yang hilang sebagai 5 dengan betul."
+    hints:
+      - level: 1
+        text: "Dalam jujukan Fibonacci, tambah dua nombor sejurus sebelum tempat kosong untuk mencari jawapan."
+
+  - id: Q3
+    text: "Untuk membina Segi Tiga Pascal (Pascal's Triangle), apakah nombor yang mesti bermula dan berakhir pada setiap baris?"
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: 1.1.1
+    answer:
+      type: exact
+      value: "1"
+      working: |
+        Mengikut definisi Segi Tiga Pascal, ia bermula dengan 1 di bahagian atas, dan semua baris seterusnya bermula dan berakhir dengan nombor 1.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti nombor 1 dengan betul."
+    hints:
+      - level: 1
+        text: "Lihat pada tepi luar Segi Tiga Pascal. Ia tidak pernah berubah."
+
+  - id: Q4
+    text: "Kenal pasti pola bagi jujukan nombor berikut: 17, 7, -3, -13, ..."
+    difficulty: medium
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.1.1
+    answer:
+      type: free_text
+      value: "Tolak 10 daripada nombor sebelumnya."
+      working: |
+        Semak perbezaan antara sebutan berturutan:
+        7 - 17 = -10
+        -3 - 7 = -10
+        -13 - (-3) = -10
+        Pola: Tolak 10.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti operasi yang betul (tolak)."
+      - marks: 1
+        criteria: "Mengenal pasti nilai yang betul (10)."
+    hints:
+      - level: 1
+        text: "Adakah nombor semakin bertambah atau berkurang? Sebanyak mana?"
+
+  - id: Q5
+    text: "Nyatakan pola bagi set nombor: 81, 27, 9, 3, ..."
+    difficulty: medium
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.1.1
+    answer:
+      type: free_text
+      value: "Bahagi nombor sebelumnya dengan 3."
+      working: |
+        Semak nisbah antara sebutan berturutan:
+        27 / 81 = 1/3
+        9 / 27 = 1/3
+        3 / 9 = 1/3
+        Pola: Bahagi dengan 3.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti operasi yang betul (bahagi)."
+      - marks: 1
+        criteria: "Mengenal pasti nilai yang betul (3)."
+    hints:
+      - level: 1
+        text: "Memandangkan nombor mengecil dengan drastik, semak sama ada ia melibatkan pembahagian dan bukannya penolakan."
+
+  ### ---------------------------------------------------------
+  ### SUBBAB 1.2: Jujukan (Sequences)
+  ### ---------------------------------------------------------
+  - id: Q6
+    text: "Tentukan sama ada set nombor 4, 5, -7, 10, -14 ialah suatu jujukan. Berikan alasan anda."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.2.1
+    answer:
+      type: free_text
+      value: "Tidak, kerana ia tidak mengikut pola yang khusus atau konsisten."
+      working: |
+        Perbezaan antara sebutan:
+        5 - 4 = +1
+        -7 - 5 = -12
+        10 - (-7) = +17
+        Oleh kerana polanya (+1, -12, +17) tidak tetap, ia bukan suatu jujukan.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan 'Tidak' atau 'Bukan'."
+      - marks: 1
+        criteria: "Memberikan alasan bahawa tiada pola yang konsisten."
+    hints:
+      - level: 1
+        text: "Satu jujukan mesti mengikut peraturan yang sama bagi setiap langkah. Adakah set ini mengikutinya?"
+
+  - id: Q7
+    text: "Lengkapkan jujukan: 7, 13, ___, 25, ___"
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.2.2
+    answer:
+      type: exact
+      value: "19, 31"
+      working: |
+        Cari perbezaan antara sebutan berturutan yang diketahui: 13 - 7 = 6.
+        Polanya ialah tambah 6.
+        13 + 6 = 19
+        25 + 6 = 31
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti sebutan hilang pertama sebagai 19 dengan betul."
+      - marks: 1
+        criteria: "Mengenal pasti sebutan hilang kedua sebagai 31 dengan betul."
+    hints:
+      - level: 1
+        text: "Cari perbezaan antara 13 dan 7, kemudian gunakan maklumat itu untuk mencari nombor yang hilang."
+
+  - id: Q8
+    text: "Tentukan sebutan seterusnya bagi jujukan: 1, 0.3, 0.09, 0.027, ___"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 1.2.2
+    answer:
+      type: exact
+      value: "0.0081"
+      working: |
+        Cari nisbah sepunya:
+        0.3 / 1 = 0.3
+        0.09 / 0.3 = 0.3
+        Polanya ialah darab dengan 0.3.
+        0.027 * 0.3 = 0.0081.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti pola sebagai darab dengan 0.3."
+      - marks: 1
+        criteria: "Menghitung sebutan seterusnya dengan betul: 0.0081."
+    hints:
+      - level: 1
+        text: "Bagaimana anda pergi dari 1 ke 0.3, dan dari 0.3 ke 0.09? Cuba operasi pendaraban."
+
+  - id: Q9
+    text: "Nyatakan pola bagi jujukan berikut: 1/2, 1/4, 0, -1/4, ..."
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 1.2.2
+    answer:
+      type: free_text
+      value: "Tolak 1/4 daripada nombor sebelumnya."
+      working: |
+        Cari perbezaan sepunya:
+        1/4 - 1/2 = -1/4
+        0 - 1/4 = -1/4
+        Polanya ialah tolak 1/4.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti operasi sebagai penolakan."
+      - marks: 1
+        criteria: "Mengenal pasti nilai sebagai 1/4."
+    hints:
+      - level: 1
+        text: "Cari perbezaan antara 1/2 dan 1/4."
+
+  - id: Q10
+    text: "Isi tempat kosong bagi sebutan yang hilang: 88, ___, 64, 52, ___"
+    difficulty: hard
+    tp_level: 3
+    kbat: false
+    learning_objective: 1.2.2
+    answer:
+      type: exact
+      value: "76, 40"
+      working: |
+        Cari perbezaan antara sebutan berturutan yang diketahui: 52 - 64 = -12.
+        Polanya ialah tolak 12.
+        88 - 12 = 76.
+        52 - 12 = 40.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengisi 76 dengan betul."
+      - marks: 1
+        criteria: "Mengisi 40 dengan betul."
+    hints:
+      - level: 1
+        text: "Gunakan dua nombor yang bersebelahan (64 dan 52) untuk mencari peraturan tersembunyi terlebih dahulu."
+
+  ### ---------------------------------------------------------
+  ### SUBBAB 1.3: Pola dan Jujukan (Patterns and Sequences)
+  ### ---------------------------------------------------------
+  - id: Q11
+    text: "Tulis satu peraturan dalam perkataan bagi jujukan 1, 9, 17, 25, 33, ..."
+    difficulty: medium
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.3.1
+    answer:
+      type: free_text
+      value: "Tambah 8 kepada nombor sebelumnya."
+      working: |
+        Perubahan antara sebutan adalah malar:
+        9 - 1 = 8
+        17 - 9 = 8
+        Maka peraturannya ialah tambah 8 secara berulang.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti operasi sebagai penambahan."
+      - marks: 1
+        criteria: "Menyatakan penambahan 8 secara berulang."
+    hints:
+      - level: 1
+        text: "Semak perbezaan antara setiap pasangan sebutan yang bersebelahan dan tulis ia sebagai satu ayat."
+
+  - id: Q12
+    text: "Tulis satu ungkapan algebra bagi jujukan 3, 6, 9, 12, 15, ... dan takrifkan nilai-nilai n."
+    difficulty: hard
+    tp_level: 3
+    kbat: false
+    learning_objective: 1.3.1
+    answer:
+      type: exact
+      value: "3n, di mana n = 1, 2, 3, ..."
+      working: |
+        Polanya ialah tambah 3.
+        Sebutan pertama: 3 = 3(1)
+        Sebutan kedua: 6 = 3(2)
+        Sebutan ketiga: 9 = 3(3)
+        Oleh itu, ungkapannya ialah 3n, di mana n = 1, 2, 3...
+    marks: 3
+    rubric:
+      - marks: 2
+        criteria: "Membentuk ungkapan algebra yang betul (3n)."
+      - marks: 1
+        criteria: "Mentakrifkan nilai permulaan n dengan betul (n = 1, 2, 3...)."
+    hints:
+      - level: 1
+        text: "Hubungkan kedudukan sebutan (pertama, kedua, ketiga) dengan nilainya. 1 x 3 = 3. 2 x 3 = 6."
+
+  - id: Q13
+    text: "Bagi jujukan 2, 10, 18, 26, ... tentukan sebutan ke-5 (T5)."
+    difficulty: medium
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.3.2
+    answer:
+      type: exact
+      value: "34"
+      working: |
+        Tentukan pola: 10 - 2 = +8. Tambah 8 pada nombor sebelumnya.
+        T1 = 2
+        T2 = 10
+        T3 = 18
+        T4 = 26
+        T5 = 26 + 8 = 34
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti pola sebagai +8."
+      - marks: 1
+        criteria: "Menghitung T5 dengan betul iaitu 34."
+    hints:
+      - level: 1
+        text: "Cari perbezaan sepunya terlebih dahulu, kemudian tambahkan kepada sebutan ke-4."
+
+  - id: Q14
+    text: "Diberi jujukan 65, 60, 55, 50, ..., sebutan keberapakah (T_n) bagi nombor 40?"
+    difficulty: medium
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.3.2
+    answer:
+      type: exact
+      value: "Sebutan ke-6 (T6)"
+      working: |
+        Pola: Tolak 5.
+        T1 = 65
+        T2 = 60
+        T3 = 55
+        T4 = 50
+        T5 = 45
+        T6 = 40
+        Oleh itu, 40 ialah sebutan ke-6.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Meneruskan jujukan dengan tepat sehingga mencapai 40."
+      - marks: 1
+        criteria: "Mengenal pasti kedudukannya sebagai sebutan ke-6 dengan betul."
+    hints:
+      - level: 1
+        text: "Teruskan menolak 5 dan kira langkah anda sehingga anda mencapai 40."
+
+  - id: Q15
+    text: "Satu mesin pemberi makanan ikan automatik ditetapkan untuk memberi makan ikan 4 kali sehari. Jika pemberian makanan pertama adalah pada jam 7:35 pagi, pada pukul berapakah pemberian makanan ketiga?"
+    difficulty: hard
+    tp_level: 4
+    kbat: true
+    learning_objective: 1.3.3
+    answer:
+      type: exact
+      value: "7:35 malam"
+      working: |
+        1 hari = 24 jam.
+        Selang masa untuk 4 kali pemberian makanan: 24 / 4 = 6 jam.
+        Pola = Tambah 6 jam.
+        T1 = 7:35 pagi.
+        T2 = 7:35 pagi + 6 jam = 1:35 petang.
+        T3 = 1:35 petang + 6 jam = 7:35 malam.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menghitung corak selang masa yang betul (6 jam)."
+      - marks: 1
+        criteria: "Menghitung waktu pemberian makanan kedua (T2) dengan tepat."
+      - marks: 1
+        criteria: "Menentukan waktu pemberian makanan ketiga yang terakhir dengan betul beserta notasi pagi/malam yang tepat."
+    hints:
+      - level: 1
+        text: "Pertama, cari berapa jam berlalu antara setiap 4 kali pemberian makanan dalam sehari semalam (24 jam)."
+
+  ### ---------------------------------------------------------
+  ### CONTOH PEPERIKSAAN NASIONAL UASA
+  ### ---------------------------------------------------------
+  - id: Q16
+    text: "Diberi bahawa empat sebutan pertama bagi suatu jujukan ialah 8, 24, 72 dan 216. Apakah sebutan ke-5 bagi jujukan itu?\n\nA) 144\nB) 225\nC) 648\nD) 732"
+    difficulty: easy
+    tp_level: 3
+    kbat: false
+    learning_objective: 1.2.2
+    answer:
+      type: multiple_choice
+      value: "C"
+      working: |
+        Pola bagi jujukan ini ialah darab sebutan sebelumnya dengan 3.
+        216 * 3 = 648
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Memilih pilihan C dengan betul."
+    hints:
+      - level: 1
+        text: "Bandingkan 8 dan 24, serta 24 dan 72. Apakah nombor yang anda darabkan untuk mendapat sebutan seterusnya?"
+
+  - id: Q17
+    text: >-
+      Rajah 1 menunjukkan satu set nombor yang disusun dalam suatu pola: 9, 45, 225,
+      1 125, ...
+      Nyatakan pola bagi set nombor itu.
+
+      A) Darab nombor sebelumnya dengan 15.
+      B) Darab nombor sebelumnya dengan 13.
+      C) Darab nombor sebelumnya dengan 5.
+      D) Darab nombor sebelumnya dengan 3.
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.2.2
+    answer:
+      type: multiple_choice
+      value: "C"
+      working: |
+        45 / 9 = 5
+        225 / 45 = 5
+        Polanya ialah darab nombor sebelumnya dengan 5.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Memilih pilihan C dengan betul."
+    hints:
+      - level: 1
+        text: "Bahagikan sebutan kedua dengan sebutan pertama untuk mencari hubungannya."
+
+  - id: Q18
+    text: >-
+      Tandakan 'Benar' bagi nombor Fibonacci yang betul dan 'Palsu' bagi yang sebaliknya.
+      (i) 1, 1, 2, 3, 6, 9, 14
+      (ii) 1, 3, 4, 7, 11, 18, 29
+      (iii) 12, 13, 25, 38, 63, 101
+      (iv) 21, 31, 52, 63, 76, 99, 111
+    difficulty: medium
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.2.2
+    answer:
+      type: exact
+      value: "(i) Palsu, (ii) Benar, (iii) Benar, (iv) Palsu"
+      working: |
+        Logik Fibonacci memerlukan hasil tambah dua sebutan sebelumnya menyamai sebutan seterusnya.
+        (i) 1+1=2, 1+2=3, 2+3=5 (Bukan 6). Palsu.
+        (ii) 1+3=4, 3+4=7, 4+7=11... Benar.
+        (iii) 12+13=25, 13+25=38, 25+38=63... Benar.
+        (iv) 21+31=52, 31+52=83 (Bukan 63). Palsu.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti (i) sebagai Palsu dengan betul."
+      - marks: 1
+        criteria: "Mengenal pasti (ii) sebagai Benar dengan betul."
+      - marks: 1
+        criteria: "Mengenal pasti (iii) sebagai Benar dengan betul."
+      - marks: 1
+        criteria: "Mengenal pasti (iv) sebagai Palsu dengan betul."
+    hints:
+      - level: 1
+        text: "AMARAN SALAH KONSEP: Jujukan Fibonacci dibentuk dengan menambah dua nombor sebelumnya bersama-sama untuk mendapatkan nombor seterusnya."
+
+  - id: Q19
+    text: "Lengkapkan jujukan berikut: 7, 1, -5, -11, P, Q"
+    difficulty: medium
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.2.2
+    answer:
+      type: exact
+      value: "P = -17, Q = -23"
+      working: |
+        Perbezaan sepunya: 1 - 7 = -6.
+        P = -11 - 6 = -17
+        Q = -17 - 6 = -23
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan P = -17 dengan betul."
+      - marks: 1
+        criteria: "Menyatakan Q = -23 dengan betul."
+    hints:
+      - level: 1
+        text: "Cari perbezaan dengan menolak sebutan pertama daripada sebutan kedua. Gunakan maklumat ini pada akhir jujukan."
+
+  - id: Q20
+    text: "Rajah di bawah menunjukkan satu jujukan nombor: 51, 46, 41, 36, 31. Perihalkan pola jujukan itu."
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 1.3.1
+    answer:
+      type: free_text
+      value: "Tolak 5 daripada nombor sebelumnya."
+      working: |
+        46 - 51 = -5.
+        41 - 46 = -5.
+        Jujukan ini dibentuk dengan menolak 5.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan dengan jelas penolakan 5 daripada sebutan sebelumnya."
+    hints:
+      - level: 1
+        text: "Lihat sama ada nombor semakin bertambah atau berkurang, dan sebanyak mana."
+
+  - id: Q21
+    text: "Rajah di bawah menunjukkan beberapa batang pensel yang disusun oleh Adelia:\n|   |||   |||||\nNyatakan pola bagi pensel di atas."
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: 1.1.1
+    answer:
+      type: free_text
+      value: "Tambah 2 kepada nombor sebelumnya."
+      working: |
+        Bilangan pensel ialah 1, 3, 5.
+        Perbezaannya ialah +2 setiap kali.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan polanya ialah tambah 2."
+    hints:
+      - level: 1
+        text: "Kira bilangan pensel dalam setiap kumpulan terlebih dahulu untuk membina satu jujukan nombor."
+
+  ### ---------------------------------------------------------
+  ### TAMBAHAN UNTUK MEMENUHI MINIMUM KOLAM 5-5-5
+  ### ---------------------------------------------------------
+  - id: Q22
+    text: "Satu pola dibentuk menggunakan jubin segi empat sama. Pola pertama ($n=1$) mempunyai 1 jubin, pola kedua ($n=2$) mempunyai 4 jubin, pola ketiga ($n=3$) mempunyai 7 jubin, dan seterusnya. Bentukkan satu ungkapan algebra untuk mewakili bilangan jubin dalam pola ke-n."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 1.3.1
+    answer:
+      type: exact
+      value: "3n - 2, bagi n = 1, 2, 3, ..."
+      working: |
+        n=1: 1 jubin
+        n=2: 4 jubin (+3)
+        n=3: 7 jubin (+3)
+        Perbezaan sepunya = 3.
+        Calon formula: 3n.
+        Bagi n=1: 3(1) = 3. Untuk dapatkan 1, kita perlukan 3(1) - 2.
+        Semak n=2: 3(2) - 2 = 6 - 2 = 4 (Benar).
+        Jawapan Akhir: 3n - 2.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti perbezaan sepunya sebagai 3 dengan betul."
+      - marks: 1
+        criteria: "Membentuk ungkapan 3n - 2 dengan betul."
+      - marks: 1
+        criteria: "Menyatakan nilai-nilai bagi n (n = 1, 2, 3...)."
+    hints:
+      - level: 1
+        text: "Perhatikan berapa banyak jubin yang ditambah setiap kali. Nombor ini akan menjadi pekali bagi 'n'."
+
+  - id: Q23
+    text: "Encik Rahim menyimpan RM 50 pada bulan Januari. Setiap bulan berikutnya, dia meningkatkan simpanan bulanannya sebanyak RM 15 berbanding bulan sebelumnya. Pada bulan keberapakah simpanan bulanannya akan mencapai RM 200?"
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 1.3.3
+    answer:
+      type: exact
+      value: "November"
+      working: |
+        T1 (Jan) = 50
+        Perbezaan (d) = 15
+        Kita perlu cari n supaya Tn = 200.
+        Tn = 50 + (n-1)15
+        200 = 50 + 15n - 15
+        150 = 15n - 15
+        165 = 15n
+        n = 11
+        Bulan 1 = Jan, Bulan 11 = Nov.
+        (Kiraan: Jan, Feb, Mac, Apr, Mei, Jun, Jul, Ogos, Sept, Okt, Nov).
+        Jawapan Akhir: November.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti pola dengan betul (bermula pada 50, tambah 15)."
+      - marks: 1
+        criteria: "Menunjukkan penambahan yang konsisten atau jalan kerja algebra yang betul untuk Tn = 200."
+      - marks: 1
+        criteria: "Menyatakan bulan akhir yang betul (November/bulan ke-11)."
+    hints:
+      - level: 1
+        text: "Senaraikan simpanan bagi setiap bulan bermula dari Januari (RM 50) dan tambah RM 15 setiap kali sehingga anda mencapai RM 200. Berapa bulan yang diambil?"
