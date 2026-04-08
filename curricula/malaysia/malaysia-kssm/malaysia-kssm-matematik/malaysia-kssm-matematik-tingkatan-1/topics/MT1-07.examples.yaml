@@ -1,70 +1,88 @@
-topic_id: MT1-07
-provenance: ai-assisted
+id: MT1-07
+topic_name: "Linear Inequalities"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+provenance: "expert-curated-dskp"
+
 worked_examples:
-### ---------------------------------------------------------
-### WORKED EXAMPLES: Subchapter 7.2
-### ---------------------------------------------------------
   - id: WE-01
-    topic: "Forming Linear Inequalities (7.2.1)"
-    scenario: "Fatimah earns overtime pay when she works at least 9 hours a day. If $t$ is the number of working hours a day, form a linear inequality for this situation."
+    topic: "Forming Algebraic Inequalities"
     difficulty: easy
     tp_level: 2
     kbat: false
-    learning_objective: 7.2.1
-    real_world_analogy: >-
-      Think of 'at least' like the minimum height limit for a roller coaster. If the sign says 'At least 110cm', being exactly 110cm is allowed, and anything taller is allowed, so we use the greater than or equal to symbol (≥).
-    misconception_alert: >-
-      Students often conceptually confuse 'at least' with 'less than' because they hear the word 'least'. Emphasize that 'at least 9' means 9 is the absolute minimum boundary, so the allowable working hours must be 9 or greater.
+    learning_objective: 7.1.1
+    scenario: "Represent the following situation as an algebraic inequality: The speed of a car, $v$ km/h, on the North-South Highway must not exceed 110 km/h."
+    real_world_analogy: "Think of a speed limit like a glass ceiling. You can move anywhere below it, and you can touch the ceiling exactly, but you cannot break through it to go higher."
+    misconception_alert: "Students often see 'exceed' and think of the '>' symbol. Remind them that 'NOT exceed' is the opposite—it means you must be equal to or less than the limit."
     working: |
-      Step 1: Identify the key phrase in the problem: "at least".
-      Step 2: Translate "at least" into a mathematical symbol. It means 9 hours is the minimum, so the time must be "greater than or equal to" 9 (≥).
-      Step 3: Connect the variable $t$ and the value 9 using the symbol.
-      Final Answer: t \geq 9
+      1. Identify the variable: Let $v$ be the speed of the car.
+      2. Identify the limit: The limit is 110 km/h.
+      3. Determine the relationship: 'Must not exceed' means 110 is the maximum. So, $v$ can be 110 or any value smaller.
+      4. Select the symbol: Use the 'less than or equal to' symbol ($\leq$).
+      5. Form the inequality: $v \leq 110$
 
   - id: WE-02
-    topic: "Solving Linear Inequalities (7.2.2)"
-    scenario: "Solve the linear inequality: $7 - 4x > 15$"
+    topic: "Multiplicative Inverse Property"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 7.1.2
+    scenario: "Given $2 < 6$, show what happens to the inequality symbol when you perform a reciprocal (multiplicative inverse) on both sides."
+    real_world_analogy: "Imagine a seesaw. If you have two people of different weights and you suddenly turn the world upside down, the person who was 'lighter' now has more 'relative height' compared to the other. Reciprocals flip the hierarchy!"
+    misconception_alert: "The Big Flip! Students often forget that turning numbers into fractions (1/x) completely reverses their size relationship. If $a < b$, then $1/a > 1/b$."
+    working: |
+      1. Start with the original inequality: $2 < 6$
+      2. Perform the reciprocal on the left side: $\frac{1}{2}$ (which is 0.5)
+      3. Perform the reciprocal on the right side: $\frac{1}{6}$ (which is approximately 0.167)
+      4. Compare the new values: Since 0.5 is greater than 0.167, the symbol must reverse.
+      5. Final Result: $\frac{1}{2} > \frac{1}{6}$
+
+  - id: WE-03
+    topic: "Solving Linear Inequalities with Negative Coefficients"
     difficulty: medium
     tp_level: 3
     kbat: false
     learning_objective: 7.2.2
-    real_world_analogy: >-
-      Solving an inequality is exactly like balancing a scale in an equation, but with one special alarm: if you ever multiply or divide both sides by a negative weight, the balance tips completely upside down!
-    misconception_alert: >-
-      AI and Students frequently forget the Golden Rule of Inequalities: Whenever you multiply or divide both sides by a NEGATIVE number, the inequality sign MUST FLIP direction. Emphasize this heavily during the final isolation step!
+    scenario: "Solve the linear inequality: $7 - 4x > 15$"
+    real_world_analogy: "Solving inequalities is like walking through a portal. Usually, everything is normal. But when you divide or multiply by a 'Negative Guardian,' the portal flips your entire world 180 degrees!"
+    misconception_alert: "The 'Negative Divider' Trap. Students often move the -4 over but forget to flip the '>' to '<'. This is the most common error in this chapter."
     working: |
-      Step 1: Subtract 7 from both sides to begin isolating x.
-      -4x > 15 - 7
-      -4x > 8
-      
-      Step 2: Divide both sides by -4 to fully isolate x. Apply the "Big Flip" rule because we are dividing by a negative number.
-      x < 8 / -4
-      x < -2
-      
-      Final Answer: x < -2
+      1. Subtract 7 from both sides to isolate the $x$ term: $7 - 4x - 7 > 15 - 7$
+      2. Simplify: $-4x > 8$
+      3. Divide both sides by -4 to isolate $x$: $\frac{-4x}{-4} \text{ ___ } \frac{8}{-4}$
+      4. Apply the 'Big Flip' rule: Because we divided by a negative number, flip $>$ to $<$.
+      5. Simplify the final answer: $x < -2$
 
-  - id: WE-03
-    topic: "Solving Simultaneous Linear Inequalities (7.2.3)"
-    scenario: "Solve the simultaneous linear inequalities: $2x + 5 < 11$ and $3x - 10 < 5$"
+  - id: WE-04
+    topic: "Financial Planning (Real-World Application)"
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 7.2.2
+    scenario: "Ghani wants to buy books priced at RM12.50 each during a sale. He has a budget of RM80. What is the maximum number of books Ghani can buy?"
+    real_world_analogy: "Think of this like a bucket with a capacity of 80 liters. Each 'book' is a jug of 12.5 liters. You keep pouring until you can't fit another full jug. The 'leftover' space doesn't count because you can't buy half a book!"
+    misconception_alert: "Rounding Error! Mathematically, $x$ might be 6.4. Students often round to 7 because of standard rounding rules, but in context, Ghani doesn't have enough money for the 7th book. We must round DOWN to the nearest integer."
+    working: |
+      1. Let $n$ be the number of books.
+      2. Form the inequality based on the budget: $12.50n \leq 80$
+      3. Divide both sides by 12.50 to solve for $n$: $n \leq \frac{80}{12.50}$
+      4. Calculate the value: $n \leq 6.4$
+      5. Interpret the result: Since $n$ must be a whole number (you can't buy 0.4 of a book), the maximum value is 6.
+      6. Final Answer: Ghani can buy a maximum of 6 books.
+
+  - id: WE-05
+    topic: "Simultaneous Linear Inequalities"
     difficulty: hard
     tp_level: 4
     kbat: false
     learning_objective: 7.2.3
-    real_world_analogy: >-
-      Simultaneous inequalities are like applying for a special program with two strict rules: You must be older than 14 AND score above 80%. You only get in if you stand in the exact 'overlapping' area where BOTH rules are true at the same time.
-    misconception_alert: >-
-      Students often solve both inequalities correctly algebraically but fail to combine them. Always instruct the AI to draw or visualize a horizontal number line to find the 'bahagian sepunya' (common intersection) where both arrows perfectly overlap side-by-side.
+    scenario: "Solve the simultaneous linear inequalities: $2x + 5 < 11$ and $3x - 10 < 5$."
+    real_world_analogy: "Imagine two different security guards at a club. Guard A says 'You must be younger than 3' and Guard B says 'You must be younger than 5'. To get in, you must satisfy BOTH. If you are 4, you pass Guard B but fail Guard A. You only pass if you are in the overlapping region."
+    misconception_alert: "The 'Independence' Trap. Students often solve both but stop there. They must find the intersection (common part) where both inequalities are true at the same time."
     working: |
-      Step 1: Solve the first inequality.
-      2x + 5 < 11
-      2x < 6
-      x < 3
-      
-      Step 2: Solve the second inequality.
-      3x - 10 < 5
-      3x < 15
-      x < 5
-      
-      Step 3: Combine both solutions. The values must be strictly less than 3 AND strictly less than 5. On a number line, the overlapping region where both are true is simply values less than 3.
-      
-      Final Answer: x < 3
+      1. Solve the first inequality: $2x + 5 < 11 \rightarrow 2x < 6 \rightarrow x < 3$
+      2. Solve the second inequality: $3x - 10 < 5 \rightarrow 3x < 15 \rightarrow x < 5$
+      3. Draw a number line to visualize both:
+         - Line 1: $x < 3$ (Arrow pointing left from 3)
+         - Line 2: $x < 5$ (Arrow pointing left from 5)
+      4. Identify the 'Common Part' (Intersection): The region where both arrows exist is $x < 3$.
+      5. Final Answer: $x < 3$

@@ -18,19 +18,19 @@ content_standards:
 learning_objectives:
   - id: "5.1.1"
     content_standard_id: "5.1"
-    text_en: "Use letters to represent quantities with unknown values. Hence, state whether the value of the variable varies or fixed, with justification."
-    bloom: apply
+    text_en: "Use letters to represent quantities with unknown values. Hence state whether the value of the variable is fixed or varied with justification."
+    bloom: understand
   - id: "5.1.2"
     content_standard_id: "5.1"
-    text_en: "Derive algebraic expressions based on arithmetic expressions that represent a situation."
+    text_en: "Derive algebraic expressions based on arithmetic situations represented in daily situations."
     bloom: apply
   - id: "5.1.3"
     content_standard_id: "5.1"
-    text_en: "Determine the values of algebraic expressions given the values of variables and make connection with appropriate situations."
+    text_en: "Determine the values of algebraic expressions given the values of variables and make connection with real life situations."
     bloom: apply
   - id: "5.1.4"
     content_standard_id: "5.1"
-    text_en: "Identify the terms in an algebraic expression. Hence, state the possible coefficients for the algebraic terms."
+    text_en: "Identify the terms in an algebraic expression. Hence state the possible coefficients for the algebraic terms."
     bloom: understand
   - id: "5.1.5"
     content_standard_id: "5.1"
@@ -43,10 +43,10 @@ learning_objectives:
   - id: "5.2.2"
     content_standard_id: "5.2"
     text_en: "Make generalisation about repeated multiplication of algebraic expressions."
-    bloom: apply
+    bloom: understand
   - id: "5.2.3"
     content_standard_id: "5.2"
-    text_en: "Multiply and divide algebraic expressions with one term."
+    text_en: "Multiply and divide algebraic expressions which consist of one term."
     bloom: apply
 
 performance_standards:
@@ -55,11 +55,12 @@ performance_standards:
   - level: 2
     descriptor_en: "Demonstrate the understanding of variables and algebraic expressions."
   - level: 3
-    descriptor_en: "Apply the understanding of algebraic expressions to perform simple tasks."
+    descriptor_en: "Apply the understanding of algebraic expressions to perform basic operations."
 
 prerequisites:
   required:
     - id: MT1-01
+  recommended: []
 
 mastery:
   minimum_score: 0.75
@@ -68,9 +69,29 @@ mastery:
     initial_interval_days: 3
     multiplier: 2.5
 
+teaching:
+  sequence:
+    - "Step 1: Introduction to Variables & The 'Mamak Order' analogy (2 days)"
+    - "Step 2: Forming Expressions from real-world stories (3 days)"
+    - "Step 3: Substitution & Calculating the 'Final Bill' (2 days)"
+    - "Step 4: Identifying Terms & The 'Invisible Coefficient' rule (2 days)"
+    - "Step 5: Sorting Like vs Unlike Terms (The Grocery Sort) (2 days)"
+    - "Step 6: Addition & Subtraction (Grouping like with like) (3 days)"
+    - "Step 7: Multiplication & Division of single-term expressions (3 days)"
+  common_misconceptions:
+    - misconception: "Implicit multiplication error (Thinking $3x$ is $3+x$ or $30+x$)."
+      remediation: "Clarify that $3x$ means 3 bags of $x$. If $x=5$, $3 \times 5 = 15$, not 35."
+    - misconception: "Combining unlike terms (e.g., $2a + 3b = 5ab$)."
+      remediation: "Use the 'Fruit Basket' analogy: 2 apples + 3 bananas $\neq$ 5 'apple-bananas'."
+    - misconception: "Sign errors during subtraction (The 'Negative Bracket' trap)."
+      remediation: "Tell them to 'flip the switch' for every term inside the bracket when a minus is in front."
+  engagement_hooks:
+    - "The Mamak Order: 'If 1 Roti Canai is $r$ and 1 Teh Tarik is $t$... how do you write the bill for 3 Roti and 2 Teh?'"
+    - "The Grocery Alchemist Challenge: Mapping kitchen items to algebraic variables."
+    - "The Mystery Bag: 'A bag has $x$ marbles. If I add 5 and then double them, how many are there?'"
+
+quality_level: 2
+provenance: ai-assisted
 ai_teaching_notes: "MT1-05.teaching.md"
 assessments_file: "MT1-05.assessments.yaml"
 examples_file: "MT1-05.examples.yaml"
-
-quality_level: 2
-provenance: "expert-reviewed"

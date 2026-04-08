@@ -1,13 +1,13 @@
 id: MT1-04
 official_ref: "Chapter 4"
 name_en: "Ratios, Rates and Proportions"
-subject_grade_id: "malaysia-kssm-matematik-tingkatan-1"
-subject_id: "malaysia-kssm-matematik"
-syllabus_id: "malaysia-kssm"
-country_id: "malaysia"
-language: "en"
-difficulty: "beginner"
-tier: "core"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: en
+difficulty: beginner
+tier: core
 
 content_standards:
   - id: "4.1"
@@ -17,81 +17,82 @@ content_standards:
   - id: "4.3"
     text_en: "Proportions"
   - id: "4.4"
-    text_en: "Ratios, Rates and Proportions"
+    text_en: "Ratios, rates and proportions"
   - id: "4.5"
     text_en: "Relationship between ratios, rates and proportions with percentages, fractions and decimals"
 
 learning_objectives:
   - id: "4.1.1"
     content_standard_id: "4.1"
-    text_en: "Represent the relation between three quantities in the form of a : b : c."
-    bloom: "understand"
+    text_en: "Represent the relation between two or three quantities in the form of $a:b$ or $a:b:c$."
+    bloom: understand
   - id: "4.1.2"
     content_standard_id: "4.1"
-    text_en: "Identify and determine the equivalent ratios in numerical, geometrical or daily situation contexts."
-    bloom: "understand"
+    text_en: "Identify and determine the equivalent ratios in numerical, geometrical or daily situations."
+    bloom: apply
   - id: "4.1.3"
     content_standard_id: "4.1"
     text_en: "Express ratios of two and three quantities in simplest form."
-    bloom: "apply"
+    bloom: apply
   - id: "4.2.1"
     content_standard_id: "4.2"
     text_en: "Determine the relationship between ratios and rates."
-    bloom: "understand"
+    bloom: apply
   - id: "4.3.1"
     content_standard_id: "4.3"
     text_en: "Determine the relationship between ratios and proportions."
-    bloom: "understand"
+    bloom: apply
   - id: "4.3.2"
     content_standard_id: "4.3"
-    text_en: "Determine an unknown value in a proportion."
-    bloom: "apply"
+    text_en: "Determine the unknown value in a proportion."
+    bloom: apply
   - id: "4.4.1"
     content_standard_id: "4.4"
-    text_en: "Determine the ratio of three quantities, given two or more ratios of two quantities."
-    bloom: "apply"
+    text_en: "Determine the ratio of three quantities given two or more ratios of two quantities."
+    bloom: apply
   - id: "4.4.2"
     content_standard_id: "4.4"
-    text_en: "Determine the ratio or the related value given (i) the ratio of two quantities and the value of one quantity (ii) the ratio of three quantities and the value of one quantity."
-    bloom: "apply"
+    text_en: "Determine the ratio or a related value given (i) the ratio of two quantities and the value of one quantity. (ii) the ratio of three quantities and the value of one quantity."
+    bloom: apply
   - id: "4.4.3"
     content_standard_id: "4.4"
     text_en: "Determine the value related to a rate."
-    bloom: "apply"
+    bloom: apply
   - id: "4.4.4"
     content_standard_id: "4.4"
     text_en: "Solve problems involving ratios, rates and proportions, including making estimations."
-    bloom: "apply"
+    bloom: apply
   - id: "4.5.1"
     content_standard_id: "4.5"
     text_en: "Determine the relationship between percentages and ratios."
-    bloom: "understand"
+    bloom: apply
   - id: "4.5.2"
     content_standard_id: "4.5"
-    text_en: "Determine the percentage of a quantity by applying the concept of proportions."
-    bloom: "apply"
+    text_en: "Determine the relationship between ratios, rates and proportions with percentages, fractions and decimals."
+    bloom: apply
   - id: "4.5.3"
     content_standard_id: "4.5"
-    text_en: "Solve problems involving relationship between ratios, rates and proportions with percentages, fractions and decimals."
-    bloom: "apply"
+    text_en: "Solve problems involving the relationship between ratios, rates and proportions with percentages, fractions and decimals."
+    bloom: apply
 
 performance_standards:
   - level: 1
-    descriptor_en: "Demonstrate basic knowledge of ratios, rates and proportions."
+    descriptor_en: "Demonstrate the basic knowledge of ratios, rates and proportions."
   - level: 2
-    descriptor_en: "Demonstrate understanding of ratios, rates and proportions."
+    descriptor_en: "Demonstrate the understanding of ratios, rates and proportions."
   - level: 3
-    descriptor_en: "Apply understanding of ratios, rates and proportions to perform simple tasks."
+    descriptor_en: "Apply the understanding of ratios, rates and proportions to perform simple tasks."
   - level: 4
     descriptor_en: "Apply appropriate knowledge and skills of ratios, rates and proportions in the context of simple routine problem solving."
   - level: 5
     descriptor_en: "Apply appropriate knowledge and skills of ratios, rates and proportions in the context of complex routine problem solving."
   - level: 6
-    descriptor_en: "Apply appropriate knowledge and skills of ratios, rates and proportions in the context of non-routine problem solving in a creative manner."
+    descriptor_en: "Apply appropriate knowledge and skills of ratios, rates and proportions in the context of non-routine problem solving."
 
 prerequisites:
   required:
-    - "MT1-01"
+    - id: MT1-01
+  recommended: []
 
 mastery:
   minimum_score: 0.75
@@ -102,25 +103,26 @@ mastery:
 
 teaching:
   sequence:
-    - "Step 1: Represent ratios in the form a : b : c and find equivalent ratios (4.1.1, 4.1.2)."
-    - "Step 2: Simplify ratios and explore the specific relationship with rates (4.1.3, 4.2.1)."
-    - "Step 3: Define proportions and solve for unknown values using unitary or cross-multiplication (4.3.1, 4.3.2)."
-    - "Step 4: Connect multiple ratios and solve rate-related values (4.4.1, 4.4.2, 4.4.3)."
-    - "Step 5: Apply ratios to percentages and solve multi-step problems involving fractions/decimals (4.5.1, 4.5.2, 4.5.3)."
+    - "Step 1: Introduction to Ratios & Visualizing 3-part mixtures (2 days)"
+    - "Step 2: Equivalent Ratios & The 'Simplest Form' decluttering (3 days)"
+    - "Step 3: Conversion from Ratios to Rates (2 days)"
+    - "Step 4: Mastery of Proportions via Cross-Multiplication (3 days)"
+    - "Step 5: Solving 3-ratio combined problems (3 days)"
+    - "Step 6: Real-world Estimation & Population Modeling (4 days)"
   common_misconceptions:
-    - misconception: "Assuming ratios and fractions are identical in all contexts."
-      remediation: "Clarify that while ratios can be expressed as fractions, they compare parts to parts or parts to wholes differently."
-    - misconception: "Ignoring units when comparing quantities in a ratio."
-      remediation: "Emphasize that ratios compare quantities of the same kind measured in the same unit."
-    - misconception: "Misordering quantities in a proportion calculation."
-      remediation: "Use visual mapping to ensure numerators and denominators correspond correctly."
+    - misconception: "Adding a constant to both parts results in an equivalent ratio (e.g., $1:2 = 2:3$ by adding 1)."
+      remediation: "Use the 'Saltiness of Soup' analogy: adding salt and water in diff proportions changes the taste."
+    - misconception: "Confusing Rate with Ratio."
+      remediation: "Clarify that Ratios compare the same units, while Rates compare different units (e.g., sen/kWh)."
+    - misconception: "The 'Upside Down' Trap in Proportions."
+      remediation: "Always align units horizontally: $\frac{A_1}{B_1} = \frac{A_2}{B_2}$."
   engagement_hooks:
-    - "Analyze the 'Vitruvian Man' by Leonardo da Vinci to explore human body proportions."
-    - "Scale a traditional Malaysian recipe for Black Glutinous Rice Porridge for different group sizes."
-    - "Use marine biology contexts like estimating seahorse populations using capture-mark-release-recapture."
+    - "The Bubur Pulut Hitam recipe: 'Is the sweetness the same if we cook 10 pots? (Equivalent Ratios)'"
+    - "The Telco Plan Battle: 'Which data plan gives more GB per Ringgit? (Rates)'"
+    - "Estimation of National Populations using tagging and sampling ratios."
 
 quality_level: 2
-provenance: "expert-reviewed"
+provenance: ai-assisted
 ai_teaching_notes: "MT1-04.teaching.md"
 assessments_file: "MT1-04.assessments.yaml"
 examples_file: "MT1-04.examples.yaml"

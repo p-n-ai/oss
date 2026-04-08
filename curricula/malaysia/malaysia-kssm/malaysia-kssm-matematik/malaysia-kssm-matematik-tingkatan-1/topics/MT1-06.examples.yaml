@@ -1,76 +1,84 @@
 topic_id: MT1-06
-provenance: ai-assisted
+provenance: ai-assisted-validated
 worked_examples:
+  ##### ---------------------------------------------------------
+  ##### SUBCHAPTER 6.1: Linear Equations in One Variable
+  ##### ---------------------------------------------------------
   - id: WE-01
     topic: "Linear Equations in One Variable (6.1)"
-    scenario: "Ahmad has a box containing an unknown number of apples ($x$). He gives 6 apples to his friend. Now, he only has 10 apples left in the box. Formulate and solve the linear equation to find the original number of apples."
     difficulty: easy
-    tp_level: 3
-    kbat: false
     learning_objective: 6.1.3
-    real_world_analogy: "Think of an equation like a scale. If you add or remove apples from one side, you have to do the exact same thing to the other side to keep it perfectly balanced."
-    misconception_alert: "Students might see the minus sign and think they need to subtract 6 from 10. Emphasize the 'Kaedah Pematahbalikan' (Backtracking): if we subtracted 6 to get to 10, we must ADD 6 to go backwards to the original amount."
+    scenario: "Ahmad has a box containing an unknown number of apples ($x$). He gives 6 apples to his friend. Now, he only has 10 apples left in the box. How many apples did he have at first?"
+    real_world_analogy: "Think of an equation like a balancing scale. If you remove 6 apples from the left tray, you must add 6 apples back to find the original weight, while doing the same to the right tray to keep it level."
+    misconception_alert: "The 'Opposite Operation' Trap! Students often see a minus sign and think they should subtract again (10 - 6). Remind them that to 'undo' a subtraction, we must perform the opposite: addition."
     working: |
-      Step 1: Translate the story into an equation. 
-      Unknown apples (x) minus 6 equals 10. 
-      Equation: x - 6 = 10
-      
-      Step 2: Think of the equation like a balancing scale. Right now, the left side is "lighter" by 6. To isolate x and find its true weight, we must do the opposite of subtracting 6.
-      
-      Step 3: Add 6 to BOTH sides to keep the scale perfectly balanced.
-      x - 6 + 6 = 10 + 6
-      x = 16
-      
-      Final Answer: Ahmad originally had 16 apples.
+      1. Form the equation from the story: $x - 6 = 10$
+      2. Apply the equality concept (Add 6 to both sides): $x - 6 + 6 = 10 + 6$
+      3. Simplify both sides: $x + 0 = 16$
+      4. Final Answer: $x = 16$
 
   - id: WE-02
-    topic: "Solving Linear Equations with Brackets (6.1)"
-    scenario: "Cikgu bought 2 identical pencil cases. Inside each pencil case, there are an unknown number of blue pens ($x$) and exactly 4 red pens. In total, Cikgu has 22 pens. Solve the equation $2(x + 4) = 22$ to find out how many blue pens are in each case."
+    topic: "Solving Equations with Brackets (6.1)"
     difficulty: medium
-    tp_level: 4
-    kbat: true
     learning_objective: 6.1.4
-    real_world_analogy: "Think of the bracket like a combo meal. If you order 2 combo meals, you must multiply the 2 by every single item inside the combo."
-    misconception_alert: "When expanding the bracket, students often multiply the 2 with 'x' but forget to multiply the 2 with the '4'. Remind them that the '2' outside applies to EVERYTHING inside the pencil case."
+    scenario: "Cikgu bought 2 identical pencil cases. Inside each case, there are an unknown number of blue pens ($x$) and exactly 4 red pens. In total, Cikgu has 22 pens. Solve $2(x + 4) = 22$ to find the number of blue pens."
+    real_world_analogy: "Think of the bracket like a 'Combo Meal'. If you order 2 sets of (1 Burger + 4 Nuggets), you are getting 2 Burgers AND 8 Nuggets. You must multiply the number outside by EVERY item inside."
+    misconception_alert: "The 'Forgotten Term' Trap! When expanding $2(x + 4)$, students often write $2x + 4$, forgetting to multiply the 2 with the 4. The number outside the bracket is a 'handshake' that must be given to everyone inside."
     working: |
-      Step 1: We have the equation 2(x + 4) = 22. 
-      First, we need to "open" the pencil cases. Multiply the 2 outside the bracket by every item inside the bracket.
-      2(x) + 2(4) = 22
-      2x + 8 = 22
-      
-      Step 2: Now we use the balance method. We have a +8 on the left side. To remove it, we must subtract 8 from BOTH sides.
-      2x + 8 - 8 = 22 - 8
-      2x = 14
-      
-      Step 3: "2x" means 2 multiplied by x. To leave x completely alone, we do the opposite: divide BOTH sides by 2.
-      x = 14 / 2
-      x = 7
-      
-      Final Answer: There are 7 blue pens in each pencil case.
+      1. Expand the bracket (Multiply 2 by $x$ and 2 by 4): $2x + 8 = 22$
+      2. Apply the equality concept (Subtract 8 from both sides): $2x + 8 - 8 = 22 - 8$
+      3. Simplify: $2x = 14$
+      4. Apply the equality concept (Divide both sides by 2): $2x / 2 = 14 / 2$
+      5. Final Answer: $x = 7$
 
+  ##### ---------------------------------------------------------
+  ##### SUBCHAPTER 6.2: Linear Equations in Two Variables
+  ##### ---------------------------------------------------------
   - id: WE-03
-    topic: "Equations with Variables on Both Sides"
-    scenario: "Two delivery companies are competing. Company A charges RM3 per kg plus a RM2 flat fee ($3x + 2$). Company B charges RM5 per kg but gives a RM4 discount ($5x - 4$). At what package weight ($x$) will both companies charge the exact same price? Solve $3x + 2 = 5x - 4$."
-    difficulty: hard
-    tp_level: 5
-    kbat: true
-    learning_objective: 6.1.4
-    real_world_analogy: "Think of a tug-of-war. The team with the more powerful 'x' will pull the smaller 'x' over to their side."
-    misconception_alert: "Students often make sign errors when grouping variables. If they move 5x to the left, they might forget to make it negative (-5x). Teach them to always move the SMALLER variable (3x) towards the LARGER variable (5x) to avoid negative numbers."
+    topic: "Possible Solutions for Two Variables (6.2)"
+    difficulty: medium
+    learning_objective: 6.2.3
+    scenario: "At a local stall, the total price for a pack of Nasi Lemak ($x$) and a glass of Teh Tarik ($y$) is $RM5$. Find three possible pairs of prices for $x$ and $y$."
+    real_world_analogy: "Imagine a seesaw where the total weight must be 5kg. If the Nasi Lemak gets heavier, the Teh Tarik must get lighter to keep the total the same!"
+    misconception_alert: "The 'Unique Answer' Trap! Students often think there is only one 'correct' answer. In equations with two variables, there are infinite pairs of solutions that work."
     working: |
-      Step 1: We start with variables on both sides: 3x + 2 = 5x - 4.
-      Our goal is to group all the "x" terms on one side and all the numbers on the other side. 
-      
-      Step 2: Let's move the smaller variable (3x) to the right side to keep things positive. Subtract 3x from BOTH sides.
-      3x - 3x + 2 = 5x - 3x - 4
-      2 = 2x - 4
-      
-      Step 3: Now, group the regular numbers on the left side. We need to remove the -4 from the right side, so we add 4 to BOTH sides.
-      2 + 4 = 2x - 4 + 4
-      6 = 2x
-      
-      Step 4: Finally, to find the value of a single x, divide both sides by 2.
-      6 / 2 = x
-      3 = x
-      
-      Final Answer: Both companies will charge the exact same price when the package weighs 3 kg.
+      1. Form the equation: $x + y = 5$
+      2. Test Case 1 (Assume Nasi Lemak $x = 2$): $2 + y = 5 \rightarrow y = 5 - 2 = 3$. Pair: $(2, 3)$
+      3. Test Case 2 (Assume Nasi Lemak $x = 3$): $3 + y = 5 \rightarrow y = 5 - 3 = 2$. Pair: $(3, 2)$
+      4. Test Case 3 (Assume Nasi Lemak $x = 4$): $4 + y = 5 \rightarrow y = 5 - 4 = 1$. Pair: $(4, 1)$
+      5. Final Result: Three possible pairs are $(2, 3)$, $(3, 2)$, and $(4, 1)$.
+
+  ##### ---------------------------------------------------------
+  ##### SUBCHAPTER 6.3: Simultaneous Linear Equations
+  ##### ---------------------------------------------------------
+  - id: WE-04
+    topic: "Elimination Method (6.3)"
+    difficulty: hard
+    learning_objective: 6.3.2
+    scenario: "Solve the following simultaneous equations to find the intersection point: \n $x + 2y = 9$ \n $3x - 2y = 15$"
+    real_world_analogy: "Think of this as a 'Vanish' trick. If we have a $+2y$ and a $-2y$ and we add them together, the $y$ variable will completely disappear, leaving only $x$ to be solved!"
+    misconception_alert: "The 'Sign Confusion' Trap! Students often subtract when they see different signs. Remember the Golden Rule: 'Different Signs? ADD the equations. Same Signs? SUBTRACT the equations.'"
+    working: |
+      1. Label the equations: (1) $x + 2y = 9$ and (2) $3x - 2y = 15$
+      2. Since the $y$ terms have different signs ($+2y$ and $-2y$), add (1) and (2): $(x + 3x) + (2y - 2y) = 9 + 15$
+      3. Simplify: $4x = 24$
+      4. Solve for $x$: $x = 24 / 4 = 6$
+      5. Substitute $x = 6$ into Eq (1): $6 + 2y = 9$
+      6. Solve for $y$: $2y = 9 - 6 \rightarrow 2y = 3 \rightarrow y = 1.5$
+      7. Final Answer: $x = 6, y = 1.5$ (Point of intersection is $(6, 1.5)$)
+
+  - id: WE-05
+    topic: "Variables on Both Sides (KBAT)"
+    difficulty: hard
+    learning_objective: 6.1.4
+    scenario: "Company A charges RM3 per kg plus a RM2 flat fee ($3x + 2$). Company B charges RM5 per kg but gives a RM4 discount ($5x - 4$). At what weight ($x$) are the charges equal?"
+    real_world_analogy: "Think of a Tug-of-War. Both sides have 'x' teams and 'number' teams. We want to move all 'x' players to one side of the rope and all numbers to the other."
+    misconception_alert: "The 'Negative Number' Trap! Moving a large variable to a smaller one results in negatives (e.g., $3x - 5x = -2x$). To avoid pening (headaches), always move the SMALLER $x$ term towards the LARGER one."
+    working: |
+      1. Set the equations equal: $3x + 2 = 5x - 4$
+      2. Move the smaller $x$ (Subtract $3x$ from both sides): $3x - 3x + 2 = 5x - 3x - 4$
+      3. Simplify: $2 = 2x - 4$
+      4. Move the number (Add 4 to both sides): $2 + 4 = 2x - 4 + 4$
+      5. Simplify: $6 = 2x$
+      6. Divide both sides by 2: $6 / 2 = 2x / 2$
+      7. Final Answer: $x = 3$ kg.

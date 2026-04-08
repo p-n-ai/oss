@@ -1,51 +1,54 @@
 id: MT1-02
-official_ref: "2"
+official_ref: "Bab 2"
 name: "Faktor dan Gandaan"
-subject_grade_id: "malaysia-kssm-matematik-tingkatan-1"
-subject_id: "malaysia-kssm-matematik"
-syllabus_id: "malaysia-kssm"
-country_id: "malaysia"
-language: "ms"
-difficulty: "beginner"
-tier: "core"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+
 content_standards:
   - id: "2.1"
     text: "Faktor, faktor perdana dan faktor sepunya terbesar (FSTB)"
   - id: "2.2"
     text: "Gandaan, gandaan sepunya dan gandaan sepunya terkecil (GSTK)"
+
 learning_objectives:
   - id: "2.1.1"
     content_standard_id: "2.1"
     text: "Menentu dan menyenaraikan faktor bagi nombor bulat, dan seterusnya membuat generalisasi tentang faktor."
-    bloom: "understand"
+    bloom: understand
   - id: "2.1.2"
     content_standard_id: "2.1"
     text: "Menentu dan menyenaraikan faktor perdana bagi suatu nombor bulat dan seterusnya mengungkapkan nombor tersebut dalam bentuk pemfaktoran perdana."
-    bloom: "apply"
+    bloom: apply
   - id: "2.1.3"
     content_standard_id: "2.1"
-    text: "Menerang dan menentukan faktor sepunya bagi nombor bulat."
-    bloom: "understand"
+    text: "Menerangkan dan menentukan faktor sepunya bagi nombor bulat."
+    bloom: understand
   - id: "2.1.4"
     content_standard_id: "2.1"
     text: "Menentukan FSTB bagi dua dan tiga nombor bulat."
-    bloom: "apply"
+    bloom: apply
   - id: "2.1.5"
     content_standard_id: "2.1"
     text: "Menyelesaikan masalah yang melibatkan FSTB."
-    bloom: "analyze"
+    bloom: apply
   - id: "2.2.1"
     content_standard_id: "2.2"
-    text: "Menerang dan menentukan gandaan sepunya bagi nombor bulat."
-    bloom: "understand"
+    text: "Menerangkan dan menentukan gandaan sepunya bagi nombor bulat."
+    bloom: understand
   - id: "2.2.2"
     content_standard_id: "2.2"
     text: "Menentukan GSTK bagi dua dan tiga nombor bulat."
-    bloom: "apply"
+    bloom: apply
   - id: "2.2.3"
     content_standard_id: "2.2"
     text: "Menyelesaikan masalah yang melibatkan GSTK."
-    bloom: "analyze"
+    bloom: apply
+
 performance_standards:
   - level: 1
     descriptor: "Mempamerkan pengetahuan asas tentang nombor perdana, faktor dan gandaan."
@@ -58,45 +61,43 @@ performance_standards:
   - level: 5
     descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang nombor perdana, faktor dan gandaan dalam konteks penyelesaian masalah rutin yang kompleks."
   - level: 6
-    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang nombor perdana, faktor dan gandaan dalam konteks penyelesaian masalah bukan rutin."
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang nombor perdana, faktor dan gandaan dalam konteks penyelesaian masalah bukan rutin secara kreatif."
+
 prerequisites:
   required:
-    - "operasi-asas-darab-bahagi-sekolah-rendah"
-    - "nombor-perdana-asas"
-bloom_levels:
-  - "understand"
-  - "apply"
-  - "analyze"
-  - "evaluate"
-  - "create"
-quality_level: 2
-provenance: "expert-curated"
-assessments_file: "MT1-02.assessments.yaml"
-examples_file: "MT1-02.examples.yaml"
-ai_teaching_notes: "MT1-02.teaching.md"
+    - id: MT1-01
+  recommended: []
+
 mastery:
   minimum_score: 0.75
   assessment_count: 3
   spaced_repetition:
     initial_interval_days: 3
     multiplier: 2.5
+
 teaching:
   sequence:
-    - "Langkah 1: Mengenal pasti faktor melalui aktiviti penerokaan pembahagian tepat (Buku Teks ms 32)"
-    - "Langkah 2: Mencari faktor perdana dan melakukan pemfaktoran perdana menggunakan kaedah pokok faktor atau pembahagian berulang (Buku Teks ms 33-34)"
-    - "Langkah 3: Menentukan faktor sepunya dan mencari FSTB bagi dua atau tiga nombor (Buku Teks ms 35-36)"
-    - "Langkah 4: Aplikasi FSTB dalam masalah pembahagian sama rata atau saiz maksimum (Buku Teks ms 37)"
-    - "Langkah 5: Meneroka gandaan dan gandaan sepunya menggunakan hamparan elektronik (Buku Teks ms 38-39)"
-    - "Langkah 6: Menentukan GSTK melalui penyenaraian, pembahagian berulang, atau pemfaktoran perdana (Buku Teks ms 40-41)"
-    - "Langkah 7: Aplikasi GSTK dalam masalah kitaran masa atau bilangan minimum (Buku Teks ms 42)"
-common_misconceptions:
-  - misconception: "Menganggap angka 1 adalah faktor perdana kerana ia faktor bagi semua nombor."
-    remediation: "Jelaskan bahawa walaupun 1 adalah faktor bagi semua nombor, ia bukan nombor perdana. Faktor perdana mestilah terdiri daripada nombor perdana sahaja (Buku Teks ms 32, 33)."
-  - misconception: "Keliru antara FSTB (nombor lebih kecil) dan GSTK (nombor lebih besar)."
-    remediation: "Gunakan analogi: Faktor adalah 'pembahagi' (divider) maka hasilnya kecil; Gandaan adalah 'hasil darab' (product) maka hasilnya besar."
-  - misconception: "Menganggap semua nombor ganjil adalah nombor perdana."
-    remediation: "Tunjukkan 'Saringan Eratosthenes' untuk membuktikan nombor ganjil seperti 9 dan 15 mempunyai faktor selain 1 dan diri sendiri (Buku Teks ms 31)."
-engagement_hooks:
-  - "Cabaran Jubin: Bagaimana FSTB membantu jurubina menentukan saiz jubin segi empat sama terbesar untuk menutupi lantai tanpa baki? (Buku Teks ms 30)"
-  - "Rhythm Master: Gunakan GSTK untuk memahami rentak muzik atau menentukan bila dua lampu neon akan berkelip serentak lagi! (Buku Teks ms 31, 42)"
-  - "Tugasan Kedai Kek: Selesaikan masalah logistik memotong 7 biji kek secara adil untuk 12 kotak media sosial menggunakan konsep faktor (Buku Teks ms 45)."
+    - "Langkah 1: Mengenal Pasti Faktor & Visual Susunan Segi Empat (2 hari)"
+    - "Langkah 2: Faktor Perdana & Pokok Faktor (3 hari)"
+    - "Langkah 3: Mencari FSTB melalui Pembahagian Berulang (3 hari)"
+    - "Langkah 4: Mengenal Pasti Gandaan & Gandaan Sepunya (2 hari)"
+    - "Langkah 5: Mencari GSTK & Acara Berkala dalam Dunia Sebenar (3 hari)"
+    - "Langkah 6: Strategi Penyelesaian Masalah UASA (FSTB vs GSTK) (3 hari)"
+  common_misconceptions:
+    - misconception: "Keliru antara Faktor dan Gandaan."
+      remediation: "Gunakan analogi 'Hiris vs Timbun': Faktor menghiris nombor menjadi kecil; Gandaan menimbun nombor menjadi besar."
+    - misconception: "Anggap 1 ialah faktor perdana."
+      remediation: "Tegaskan semula bahawa 1 bukan nombor perdana atau gubahan; faktor perdana mestilah nombor perdana."
+    - misconception: "Sentiasa pilih nombor yang BESAR untuk FSTB."
+      remediation: "Jelaskan bahawa 'Faktor' mestilah lebih kecil atau sama dengan nombor asal ($FSTB \leq \text{Nombor Terkecil}$)."
+  engagement_hooks:
+    - "Misteri Jubin: 'Apakah saiz jubin segi empat sama terbesar yang boleh menutup lantai 12m x 18m?' (FSTB)"
+    - "Pertemuan Bas: 'Tiga bas bertolak pada selang masa berbeza... bila mereka akan bertemu lagi?' (GSTK)"
+    - "Pokok Faktor Perdana: 'Setiap nombor ada DNA unik (faktor perdana). Mari kita petakannya!'"
+
+quality_level: 2
+provenance: ai-assisted
+sync_checked: true
+ai_teaching_notes: "MT1-02.teaching.md"
+assessments_file: "MT1-02.assessments.yaml"
+examples_file: "MT1-02.examples.yaml"
