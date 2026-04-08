@@ -1,0 +1,88 @@
+id: MT1-07
+topic_name: "Ketaksamaan Linear"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+provenance: "expert-curated-dskp"
+
+worked_examples:
+  - id: WE-01
+    topic: "Membentuk Ketaksamaan Algebra"
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: 7.1.1
+    scenario: "Wakilkan situasi berikut dalam bentuk ketaksamaan algebra: Laju sebuah kereta, $v$ km/j, di Lebuhraya Utara-Selatan tidak boleh melebihi 110 km/j."
+    real_world_analogy: "Bayangkan had laju seperti bumbung kaca. Anda boleh bergerak di mana-mana ruang di bawahnya, dan anda boleh menyentuh bumbung itu tepat-tepat, tetapi anda tidak boleh menembusinya untuk pergi lebih tinggi."
+    misconception_alert: "Pelajar sering melihat perkataan 'melebihi' dan terus berfikir tentang simbol '>'. Ingatkan mereka bahawa 'TIDAK melebihi' adalah sebaliknya—ia bermaksud anda mestilah sama dengan atau kurang daripada had tersebut."
+    working: |
+      1. Kenal pasti pemboleh ubah: Biar $v$ mewakili laju kereta.
+      2. Kenal pasti had: Hadnya ialah 110 km/j.
+      3. Tentukan hubungan: 'Tidak boleh melebihi' bermaksud 110 adalah nilai maksimum. Maka, $v$ boleh jadi 110 atau sebarang nilai yang lebih kecil.
+      4. Pilih simbol: Gunakan simbol 'kurang daripada atau sama dengan' ($\leq$).
+      5. Bentuk ketaksamaan: $v \leq 110$
+
+  - id: WE-02
+    topic: "Sifat Songsangan Terhadap Pendaraban"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 7.1.2
+    scenario: "Diberi $2 < 6$, tunjukkan apa yang berlaku kepada simbol ketaksamaan apabila anda melakukan operasi salingan (songsangan pendaraban) pada kedua-dua belah."
+    real_world_analogy: "Bayangkan sebuah jongkang-jongket. Jika anda mempunyai dua orang dengan berat berbeza dan dunia tiba-tiba diterbalikkan, orang yang asalnya 'lebih ringan' kini mempunyai 'ketinggian relatif' yang lebih besar berbanding yang lain. Operasi salingan menterbalikkan hierarki!"
+    misconception_alert: "The Big Flip! Pelajar sering lupa bahawa menukar nombor menjadi pecahan (1/x) menterbalikkan sepenuhnya hubungan saiz mereka. Jika $a < b$, maka $1/a > 1/b$."
+    working: |
+      1. Bermula dengan ketaksamaan asal: $2 < 6$
+      2. Lakukan operasi salingan pada belah kiri: $\frac{1}{2}$ (iaitu 0.5)
+      3. Lakukan operasi salingan pada belah kanan: $\frac{1}{6}$ (iaitu kira-kira 0.167)
+      4. Bandingkan nilai baharu: Oleh sebab 0.5 lebih besar daripada 0.167, simbol mestilah diterbalikkan.
+      5. Keputusan Akhir: $\frac{1}{2} > \frac{1}{6}$
+
+  - id: WE-03
+    topic: "Menyelesaikan Ketaksamaan Linear dengan Pekali Negatif"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: 7.2.2
+    scenario: "Selesaikan ketaksamaan linear: $7 - 4x > 15$"
+    real_world_analogy: "Menyelesaikan ketaksamaan adalah seperti berjalan melalui sebuah portal. Biasanya, segalanya normal. Tetapi apabila anda membahagi atau mendarab dengan 'Penjaga Negatif', portal tersebut akan menterbalikkan seluruh dunia anda sebanyak 180 darjah!"
+    misconception_alert: "Perangkap 'Pembahagi Negatif'. Pelajar sering memindahkan -4 tetapi lupa menukar '>' kepada '<'. Ini adalah ralat yang paling biasa dilakukan dalam bab ini."
+    working: |
+      1. Tolak 7 daripada kedua-dua belah untuk mengasingkan sebutan $x$: $7 - 4x - 7 > 15 - 7$
+      2. Permudahkan: $-4x > 8$
+      3. Bahagi kedua-dua belah dengan -4 untuk mengasingkan $x$: $\frac{-4x}{-4} \text{ ___ } \frac{8}{-4}$
+      4. Gunakan peraturan 'The Big Flip': Oleh sebab kita membahagi dengan nombor negatif, terbalikkan $>$ kepada $<$.
+      5. Permudahkan jawapan akhir: $x < -2$
+
+  - id: WE-04
+    topic: "Perancangan Kewangan (Aplikasi Dunia Nyata)"
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 7.2.2
+    scenario: "Ghani ingin membeli buku yang berharga RM12.50 setiap satu semasa jualan murah. Dia mempunyai bajet sebanyak RM80. Berapakah bilangan maksimum buku yang boleh dibeli oleh Ghani?"
+    real_world_analogy: "Fikirkan ini seperti sebuah baldi dengan kapasiti 80 liter. Setiap 'buku' ialah sebuah jag berisi 12.5 liter. Anda terus menuang sehingga anda tidak dapat memasukkan lagi jag penuh. Ruang 'lebihan' tidak dikira kerana anda tidak boleh membeli separuh buku!"
+    misconception_alert: "Ralat Pembundaran! Secara matematik, $n$ mungkin 6.4. Pelajar sering membundarkannya kepada 7 mengikut peraturan pembundaran standard, tetapi dalam konteks ini, Ghani tidak mempunyai wang yang cukup untuk buku ke-7. Kita mestilah membundar KE BAWAH kepada integer terdekat."
+    working: |
+      1. Biar $n$ mewakili bilangan buku.
+      2. Bentuk ketaksamaan berdasarkan bajet: $12.50n \leq 80$
+      3. Bahagi kedua-dua belah dengan 12.50 untuk mencari $n$: $n \leq \frac{80}{12.50}$
+      4. Hitung nilai: $n \leq 6.4$
+      5. Tafsirkan keputusan: Oleh sebab $n$ mestilah nombor bulat (anda tidak boleh membeli 0.4 buah buku), nilai maksimum ialah 6.
+      6. Jawapan Akhir: Ghani boleh membeli maksimum 6 buah buku.
+
+  - id: WE-05
+    topic: "Ketaksamaan Linear Serentak"
+    difficulty: hard
+    tp_level: 4
+    kbat: false
+    learning_objective: 7.2.3
+    scenario: "Selesaikan ketaksamaan linear serentak: $2x + 5 < 11$ dan $3x - 10 < 5$."
+    real_world_analogy: "Bayangkan dua pengawal keselamatan yang berbeza di sebuah kelab. Pengawal A kata 'Awak mesti berumur kurang daripada 3' dan Pengawal B kata 'Awak mesti berumur kurang daripada 5'. Untuk masuk, anda mesti memenuhi KEDUA-DUA syarat. Jika anda berumur 4, anda lepas Pengawal B tapi gagal Pengawal A. Anda hanya lepas jika berada di kawasan yang bertindih."
+    misconception_alert: "Perangkap 'Kebebasan'. Pelajar sering menyelesaikan kedua-dua ketaksamaan dengan betul tetapi berhenti di situ sahaja. Mereka mestilah mencari persilangan (bahagian sepunya) di mana kedua-dua ketaksamaan adalah benar pada masa yang sama."
+    working: |
+      1. Selesaikan ketaksamaan pertama: $2x + 5 < 11 \rightarrow 2x < 6 \rightarrow x < 3$
+      2. Selesaikan ketaksamaan kedua: $3x - 10 < 5 \rightarrow 3x < 15 \rightarrow x < 5$
+      3. Lukis garis nombor untuk memvisualkan kedua-duanya:
+         - Garisan 1: $x < 3$ (Anak panah menghala ke kiri dari 3)
+         - Garisan 2: $x < 5$ (Anak panah menghala ke kiri dari 5)
+      4. Kenal pasti 'Bahagian Sepunya' (Persilangan): Kawasan di mana kedua-dua anak panah wujud ialah $x < 3$.
+      5. Jawapan Akhir: $x < 3$

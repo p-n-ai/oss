@@ -1,0 +1,92 @@
+id: MT1-07
+official_ref: "Bab 7"
+name: "Ketaksamaan Linear"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+
+content_standards:
+  - id: "7.1"
+    text: "Ketaksamaan"
+  - id: "7.2"
+    text: "Ketaksamaan linear dalam satu pemboleh ubah"
+
+learning_objectives:
+  - id: "7.1.1"
+    content_standard_id: "7.1"
+    text: "Membanding nilai nombor, memerihal ketaksamaan dan seterusnya menerbitkan ketaksamaan algebra."
+    bloom: understand
+  - id: "7.1.2"
+    content_standard_id: "7.1"
+    text: "Membuat generalisasi tentang ketaksamaan yang berkaitan dengan (i) sifat akas dan transitif, songsangan terhadap penambahan dan pendaraban, (ii) operasi asas aritmetik."
+    bloom: analyze
+  - id: "7.2.1"
+    content_standard_id: "7.2"
+    text: "Membentuk ketaksamaan linear berdasarkan suatu situasi kehidupan harian, dan sebaliknya."
+    bloom: apply
+  - id: "7.2.2"
+    content_standard_id: "7.2"
+    text: "Menyelesaikan masalah yang melibatkan ketaksamaan linear dalam satu pemboleh ubah."
+    bloom: apply
+  - id: "7.2.3"
+    content_standard_id: "7.2"
+    text: "Menyelesaikan ketaksamaan linear serentak dalam satu pemboleh ubah."
+    bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor: "Mempamerkan pengetahuan asas tentang ketaksamaan linear dalam satu pemboleh ubah."
+  - level: 2
+    descriptor: "Mempamerkan kefahaman tentang ketaksamaan linear dalam satu pemboleh ubah."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman tentang ketaksamaan linear dalam satu pemboleh ubah untuk melaksanakan tugasan mudah."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang ketaksamaan linear dalam satu pemboleh ubah dalam konteks penyelesaian masalah rutin yang mudah."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang ketaksamaan linear dalam satu pemboleh ubah dalam konteks penyelesaian masalah rutin yang kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang ketaksamaan linear dalam satu pemboleh ubah dalam konteks penyelesaian masalah bukan rutin."
+
+prerequisites:
+  required:
+    - id: MT1-05
+    - id: MT1-06
+  recommended: []
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Langkah 1: Pengenalan kepada Simbol ($>$, $<$, dsb.) & Garis Nombor (2 hari)"
+    - "Langkah 2: Sifat Ketaksamaan (Transitif & Akas) (2 hari)"
+    - "Langkah 3: Aritmetik Asas dengan Ketaksamaan (Tambah/Tolak) (2 hari)"
+    - "Langkah 4: Pantulan Tanda (Darab/Bahagi dengan Negatif) (3 hari)"
+    - "Langkah 5: Menyelesaikan Ketaksamaan Linear dalam Satu Pemboleh Ubah (3 hari)"
+    - "Langkah 6: Ketaksamaan Linear Serentak (Persilangan) (4 hari)"
+  common_misconceptions:
+    - misconception: "Terlupa menterbalikkan tanda ketaksamaan apabila mendarab atau membahagi dengan nombor negatif."
+      remediation: "Gunakan analogi 'Pantulan Cermin': Negatif menyongsangkan susunan dunia (cth: $10 > 5$ tetapi $-10 < -5$)."
+    - misconception: "Keliru antara '>' dengan '$\geq$' (termasuk atau tidak termasuk titik hujung)."
+      remediation: "Gunakan analogi 'Tiang Pagar': Adakah julat kita termasuk tiang itu ($=$) atau hanya ruang sehingga ke tiang tersebut?"
+    - misconception: "Perangkap 'Hanya Satu Jawapan' (Melayan ketaksamaan seperti persamaan)."
+      remediation: "Sentiasa tekankan 'Julat/Rantau penyelesaian'. Tunjukkan kawasan berlorek pada garis nombor."
+  engagement_hooks:
+    - "Had Ketinggian Roller Coaster: 'Anda mestilah sekurang-kurangnya 140cm untuk naik ($h \geq 140$).'"
+    - "Bajet Membeli-belah: 'RM50 untuk beli hadiah. Jika satu hadiah berharga $k$, berapakah had bajet anda?'"
+    - "Julat Suhu: 'Hidup dalam Zon Goldilocks (Terlalu panas vs Terlalu sejuk).'"
+
+quality_level: 2
+provenance: ai-assisted
+sync_checked: true
+ai_teaching_notes: "MT1-07.teaching.md"
+assessments_file: "MT1-07.assessments.yaml"
+examples_file: "MT1-07.examples.yaml"

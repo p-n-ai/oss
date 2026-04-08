@@ -1,0 +1,270 @@
+topic_id: MT1-07
+topic_name: "Ketaksamaan Linear"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+provenance: "expert-curated-dskp"
+
+questions:
+  # --- SUBBAB 7.1: Ketaksamaan ---
+  - id: Q1
+    text: "Isikan petak kosong dengan simbol '$<$' atau '$>$' supaya menjadi pernyataan benar: $-8 \\text{ ___ } -3$"
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: 7.1.1
+    answer:
+      type: exact
+      value: "<"
+      working: |
+        1. Kenal pasti kedudukan -8 dan -3 pada garis nombor.
+        2. -8 terletak di sebelah kiri -3.
+        3. Nombor yang lebih ke kiri adalah lebih kecil. Maka, $-8 < -3$.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti simbol '$<$' dengan betul."
+    hints:
+      - level: 1
+        text: "Bayangkan garis nombor atau suhu. Adakah $-8$ darjah lebih sejuk (kurang) atau lebih panas (lebih besar) daripada $-3$ darjah?"
+
+  - id: Q2
+    text: "Perihalkan hubungan berikut menggunakan simbol ketaksamaan: Tinggi, $h$ cm, bagi penumpang yang dibenarkan menaiki roller coaster mestilah 110 cm atau lebih."
+    difficulty: easy
+    tp_level: 2
+    learning_objective: 7.1.1
+    answer:
+      type: exact
+      value: "h \\geq 110"
+      working: |
+        '110 cm atau lebih' bermaksud 110 adalah nilai minimum.
+        Ini merangkumi 110 dan sebarang nilai yang lebih tinggi.
+        Simbol: $\geq$. Keputusan: $h \geq 110$.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan simbol 'lebih besar daripada atau sama dengan' dengan betul."
+    hints:
+      - level: 1
+        text: "Oleh kerana mereka boleh mempunyai tinggi tepat 110 cm atau lebih tinggi, anda perlukan simbol yang merangkumi 'sama dengan' dan 'lebih besar daripada'."
+
+  - id: Q3
+    text: "Diberi ketaksamaan $12 < 15$, nyatakan sifat akas bagi ketaksamaan ini."
+    difficulty: medium
+    tp_level: 2
+    learning_objective: 7.1.2
+    answer:
+      type: exact
+      value: "15 > 12"
+      working: |
+        Sifat akas: Jika $a < b$, maka $b > a$.
+        Di sini $a = 12$ dan $b = 15$.
+        Akas: $15 > 12$.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Menterbalikkan nilai dan simbol dengan betul."
+    hints:
+      - level: 1
+        text: "Sifat akas bermaksud membaca hubungan tersebut dari belakang: jika A kurang daripada B, maka B adalah..."
+
+  - id: Q4
+    text: "Berdasarkan sifat transitif ketaksamaan, jika $-5 < 0$ dan $0 < 4$, apakah kesimpulan yang boleh anda buat?"
+    difficulty: medium
+    tp_level: 2
+    learning_objective: 7.1.2
+    answer:
+      type: exact
+      value: "-5 < 4"
+      working: |
+        Sifat transitif: Jika $a < b$ dan $b < c$, maka $a < c$.
+        $a = -5, b = 0, c = 4$.
+        Keputusan: $-5 < 4$.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Membentuk ketaksamaan yang menghubungkan nilai terkecil dan terbesar."
+    hints:
+      - level: 1
+        text: "Sambungkan hujung ke hujung: jika nombor pertama lebih kecil daripada yang tengah, dan yang tengah lebih kecil daripada yang terakhir, bagaimana nombor pertama berbanding yang terakhir?"
+
+  - id: Q5
+    text: "Pertimbangkan ketaksamaan $4 > -2$. Jika anda darab kedua-dua belah dengan $-3$, apakah ketaksamaan yang baharu?"
+    difficulty: medium
+    tp_level: 3
+    learning_objective: 7.1.2
+    answer:
+      type: exact
+      value: "-12 < 6"
+      working: |
+        1. Darab 4 dengan -3: $-12$.
+        2. Darab -2 dengan -3: $6$.
+        3. Pendarab adalah negatif, maka terbalikkan simbol $>$ kepada $<$.
+        Keputusan: $-12 < 6$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengira nilai yang betul pada kedua-dua belah (-12 dan 6)."
+      - marks: 1
+        criteria: "Menterbalikkan simbol ketaksamaan dengan betul."
+    hints:
+      - level: 1
+        text: "Ingat peraturan 'The Big Flip'! Apakah yang terjadi kepada simbol apabila anda mendarab dengan nombor negatif?"
+
+  # --- SUBBAB 7.2: Ketaksamaan Linear dalam Satu Pemboleh Ubah ---
+  - id: Q6
+    text: "Bentuk satu ketaksamaan linear: Muatan maksimum sebuah lif ialah 15 orang. Gunakan $p$ untuk mewakili bilangan orang."
+    difficulty: easy
+    tp_level: 2
+    learning_objective: 7.2.1
+    answer:
+      type: exact
+      value: "p \\leq 15"
+      working: |
+        Maksimum bermaksud 15 atau kurang.
+        Simbol: $\leq$. Keputusan: $p \leq 15$.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan simbol yang betul bagi muatan maksimum."
+    hints:
+      - level: 1
+        text: "Jika hadnya ialah 15, bolehkah ada 16 orang? Tidak. Bolehkah ada tepat 15? Boleh."
+
+  - id: Q7
+    text: "Selesaikan ketaksamaan linear: $3x - 5 > 10$"
+    difficulty: medium
+    tp_level: 3
+    learning_objective: 7.2.2
+    answer:
+      type: exact
+      value: "x > 5"
+      working: |
+        1. Tambah 5: $3x > 15$.
+        2. Bahagi dengan 3: $x > 5$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengasingkan sebutan pemboleh ubah dengan betul."
+      - marks: 1
+        criteria: "Menyelesaikan nilai x dengan simbol yang betul."
+    hints:
+      - level: 1
+        text: "Selesaikan seperti persamaan biasa! Pindahkan pemalar dahulu, kemudian bahagi dengan pekali."
+
+  - id: Q8
+    text: "Selesaikan: $-2y \\geq 14$"
+    difficulty: medium
+    tp_level: 3
+    learning_objective: 7.2.2
+    answer:
+      type: exact
+      value: "y \\leq -7"
+      working: |
+        1. Bahagi dengan -2.
+        2. Terbalikkan $\geq$ kepada $\leq$ kerana pembahagi adalah negatif.
+        3. $y \leq -7$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengira nilai -7 dengan betul."
+      - marks: 1
+        criteria: "Menterbalikkan simbol daripada $\geq$ kepada $\leq$."
+    hints:
+      - level: 1
+        text: "Berhati-hati! Anda sedang membahagi dengan nombor negatif. Apa yang perlu dilakukan pada simbol itu?"
+
+  - id: Q9
+    text: "Selesaikan ketaksamaan serentak: $x - 3 \\leq 5$ dan $2x > 8$"
+    difficulty: hard
+    tp_level: 4
+    learning_objective: 7.2.3
+    answer:
+      type: exact
+      value: "4 < x \\leq 8"
+      working: |
+        1. $x - 3 \leq 5 \rightarrow x \leq 8$.
+        2. $2x > 8 \rightarrow x > 4$.
+        3. Persilangan: $4 < x \leq 8$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyelesaikan ketaksamaan pertama dengan betul."
+      - marks: 1
+        criteria: "Menyelesaikan ketaksamaan kedua dengan betul."
+      - marks: 1
+        criteria: "Menggabungkan kedua-duanya untuk menunjukkan julat sepunya."
+    hints:
+      - level: 1
+        text: "Selesaikan setiap satu secara berasingan, kemudian lukiskannya pada satu garis nombor untuk melihat bahagian yang bertindih."
+
+  - id: Q10
+    text: "Aminah mempunyai RM 50. Dia membeli sebuah buku dengan harga RM 12 dan beberapa batang pen dengan harga RM 4 setiap satu. Tentukan bilangan maksimum pen yang boleh dibelinya."
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: 7.2.2
+    answer:
+      type: exact
+      value: "9"
+      working: |
+        1. Biar $p$ ialah pen. $12 + 4p \leq 50$.
+        2. $4p \leq 38$.
+        3. $p \leq 9.5$.
+        4. Bilangan maksimum pen (integer) = 9.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Membentuk ketaksamaan yang betul $12 + 4p \leq 50$."
+      - marks: 1
+        criteria: "Menyelesaikan algebra untuk mendapatkan $p \leq 9.5$."
+      - marks: 1
+        criteria: "Mentafsir keputusan integer dalam konteks masalah."
+    hints:
+      - level: 1
+        text: "Jumlah kos mestilah $\leq$ 50. Bolehkah dia membeli separuh batang pen? Tidak, jadi bundarkan ke bawah kepada nombor bulat terdekat."
+
+  - id: Q11
+    text: "Diberi $-\\frac{1}{5}x \\geq -\\frac{3}{5}$. Jika $x$ ialah integer positif, nyatakan nilai-nilai $x$."
+    difficulty: medium
+    tp_level: 3
+    learning_objective: 7.2.2
+    answer:
+      type: multiple_choice
+      value: "A"
+      working: |
+        1. Darab dengan -5: $x \leq 3$.
+        2. Integer positif $\leq 3$ ialah 1, 2, 3.
+      distractors:
+        - value: "B"
+          feedback: "Anda mungkin tertinggal 3. 'Sama dengan' bermaksud 3 termasuk dalam jawapan."
+        - value: "C"
+          feedback: "Ingat bahawa 0 bukanlah integer positif."
+        - value: "D"
+          feedback: "Anda lupa terbalikkan simbol ketaksamaan! Darab dengan -5 menukar $\geq$ kepada $\leq$."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Memilih pilihan A."
+    hints:
+      - level: 1
+        text: "Terbalikkan simbol! Juga, semak definisi 'integer positif'—adakah ia termasuk 0?"
+
+  - id: Q12
+    text: "Padankan set integer kepada julat yang betul:\n(i) $x = -1, 0, 1, 2, 3$\n(ii) $x = 1, 2$"
+    difficulty: medium
+    tp_level: 3
+    learning_objective: 7.2.1
+    answer:
+      type: exact
+      value: "(i) -1 \\leq x \\leq 3, (ii) 1 \\leq x < 3"
+      working: |
+        (i) Merangkumi sempadan -1 dan 3: guna $\leq$ dan $\leq$.
+        (ii) Merangkumi 1 tetapi tidak termasuk 3: guna $\leq$ dan $<$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Memadankan (i) dengan sempadan inklusif dengan betul."
+      - marks: 1
+        criteria: "Memadankan (ii) dengan satu sempadan ketat dengan betul."
+    hints:
+      - level: 1
+        text: "Jika senarai tersebut merangkumi nombor sempadan, gunakan $\leq$. Jika ia berhenti tepat sebelum sempadan, gunakan $<$."

@@ -1,42 +1,61 @@
 id: MT1-07
-official_ref: "Bab 7"  # as printed in KSSM DSKP document
-name: "Ketaksamaan Linear"
+official_ref: "Chapter 7"
 name_en: "Linear Inequalities"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-1
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: beginner
 tier: core
 
+content_standards:
+  - id: "7.1"
+    text_en: "Inequalities"
+  - id: "7.2"
+    text_en: "Linear inequalities in one variable"
+
 learning_objectives:
-  - id: 7.1.1
-    text: "Compare the values of numbers, describe inequality and hence, form algebraic inequality."
+  - id: "7.1.1"
+    content_standard_id: "7.1"
+    text_en: "Compare the values of numbers, describe inequality and hence, form algebraic inequality."
     bloom: understand
-  - id: 7.1.2
-    text: "Make generalisation about inequality related to the converse and transitive properties, additive and multiplicative inverse, and basic arithmetic operations."
+  - id: "7.1.2"
+    content_standard_id: "7.1"
+    text_en: "Make generalisation about inequality related to (i) the converse and transitive properties, additive and multiplicative inverse, and (ii) basic arithmetic operations."
     bloom: analyze
-  - id: 7.2.1
-    text: "Form linear inequalities based on daily life situations, and vice versa."
+  - id: "7.2.1"
+    content_standard_id: "7.2"
+    text_en: "Form linear inequalities based on daily life situations, and vice versa."
     bloom: apply
-  - id: 7.2.2
-    text: "Solve problems involving linear inequalities in one variable."
+  - id: "7.2.2"
+    content_standard_id: "7.2"
+    text_en: "Solve problems involving linear inequalities in one variable."
     bloom: apply
-  - id: 7.2.3
-    text: "Solve simultaneous linear inequalities in one variable."
+  - id: "7.2.3"
+    content_standard_id: "7.2"
+    text_en: "Solve simultaneous linear inequalities in one variable."
     bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate the basic knowledge of linear inequalities in one variable."
+  - level: 2
+    descriptor_en: "Demonstrate the understanding of linear inequalities in one variable."
+  - level: 3
+    descriptor_en: "Apply the understanding of linear inequalities in one variable to perform simple tasks."
+  - level: 4
+    descriptor_en: "Apply appropriate knowledge and skills of linear inequalities in one variable in the context of simple routine problem solving."
+  - level: 5
+    descriptor_en: "Apply appropriate knowledge and skills of linear inequalities in one variable in the context of complex routine problem solving."
+  - level: 6
+    descriptor_en: "Apply appropriate knowledge and skills of linear inequalities in one variable in the context of non-routine problem solving."
 
 prerequisites:
   required:
-    - MT1-05
-    - MT1-06
+    - id: MT1-05
+    - id: MT1-06
   recommended: []
-
-bloom_levels:
-  - understand
-  - apply
-  - analyze
 
 mastery:
   minimum_score: 0.75
@@ -45,6 +64,29 @@ mastery:
     initial_interval_days: 3
     multiplier: 2.5
 
-ai_teaching_notes: "MT1-07.teaching.md"
-quality_level: 1
+teaching:
+  sequence:
+    - "Step 1: Introduction to Symbols ($>$, $<$, etc.) & The Number Line (2 days)"
+    - "Step 2: Properties of Inequality (Transitive & Converse) (2 days)"
+    - "Step 3: Basic Arithmetic with Inequalities (Addition/Subtraction) (2 days)"
+    - "Step 4: The Sign Flip (Multiplying/Dividing by Negatives) (3 days)"
+    - "Step 5: Solving Linear Inequalities in One Variable (3 days)"
+    - "Step 6: Simultaneous Linear Inequalities (The Intersection) (4 days)"
+  common_misconceptions:
+    - misconception: "Forgetting to flip the inequality sign when multiplying or dividing by a negative number."
+      remediation: "Use the 'Mirror Reflection' analogy: Negatives reverse the world order (e.g., $10 > 5$ but $-10 < -5$)."
+    - misconception: "Confusing '>' with '$\geq$' (including or excluding the endpoint)."
+      remediation: "Use the 'Fence Post' analogy: Does our range include the actual fence ($=$) or just the space up to it?"
+    - misconception: "The 'Only One Answer' trap (Treating inequalities like equations)."
+      remediation: "Always emphasize 'Range/Region of solutions'. Show them shaded areas on number lines."
+  engagement_hooks:
+    - "Roller Coaster Height Limit: 'You must be at least 140cm to ride ($h \geq 140$).'"
+    - "Shopping Budget: 'RM50 to buy gifts. If a gift costs $k$, what is your budget limit?'"
+    - "Temperature Range: 'Living in the Goldilocks Zone (Too hot vs Too cold).'"
+
+quality_level: 2
 provenance: ai-assisted
+ai_teaching_notes: "MT1-07.teaching.md"
+assessments_file: "MT1-07.assessments.yaml"
+examples_file: "MT1-07.examples.yaml"
+sync_checked: true
