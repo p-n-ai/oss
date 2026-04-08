@@ -256,6 +256,16 @@ To support the "Golden Version" rollout, we implemented several critical structu
 > [!IMPORTANT]
 > **Developer Note for `pai-bot` / `oss-bot`**: Ensure all downstream ingestion scripts recognize the new `translations/ms/` directory and the nested assessment `working` structure. Current CI validates all 26 topics against these new standards.
 
+#### 🛡️ Standardization v2.2: Infrastructure Hardening
+*Updated: Apr 8, 2026, 11:55 AM*
+
+To further professionalize the curriculum supply chain and ensure safe contributions from localized educators, we implemented the **Standardization v2.2 (Hardened)** protocols. This update focus on data integrity, pedagogical depth, and explicit audit trails.
+
+*   **The "Mirror Mapping" Rule**: We now mandate the inclusion of `prerequisites` and `mastery` blocks in all translation files (e.g., `translations/ms/*.yaml`). This ensures that localized contributors have full visibility into the "Topic Contract" and its logical dependencies, preventing architectural "blind spots" during the translation process.
+*   **`sync_checked` Validation Flag**: A new field integrated into `topic.schema.json`. This boolean requires the auditor or contributor to explicitly attest that logic-heavy fields (IDs, scores, intervals) in the translation layer match the Root EN ground truth exactly.
+*   **Pedagogical Proposing (Golden Rules)**: The `teaching-notes-prompt.md` was hardened to move beyond generic delivery rules. Auditors are now required to analyze each specific math concept and *propose* high-impact "Golden Rules" (e.g., "Always show expansion for indices" or "Must isolate y first for straight lines") to ensure Pandai's "Pedagogical Soul" is preserved in every topic.
+*   **Schema & Pipeline Integration**: Successfully updated the core JSON schema and upgraded MT3-01 and MT3-09 to serve as the 100% compliant "Golden Model" for this hardened standard.
+
 ### Day 15 (Fri) — Taxonomy + Documentation
 
 | Task ID | Task | Owner | Status | Remark |
