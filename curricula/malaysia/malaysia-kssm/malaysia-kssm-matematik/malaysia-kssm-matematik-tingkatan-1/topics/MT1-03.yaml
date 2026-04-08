@@ -1,91 +1,94 @@
 id: MT1-03
-official_ref: "3"
+official_ref: "Chapter 3"
 name_en: "Squares, Square Roots, Cubes and Cube Roots"
-subject_grade_id: "malaysia-kssm-matematik-tingkatan-1"
-subject_id: "malaysia-kssm-matematik"
-syllabus_id: "malaysia-kssm"
-country_id: "malaysia"
-language: "en"
-difficulty: "beginner"
-tier: "core"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: en
+difficulty: beginner
+tier: core
+
 content_standards:
   - id: "3.1"
     text_en: "Squares and square roots"
   - id: "3.2"
     text_en: "Cubes and cube roots"
+
 learning_objectives:
   - id: "3.1.1"
     content_standard_id: "3.1"
     text_en: "Explain the meaning of squares and perfect squares."
-    bloom: "understand"
+    bloom: understand
   - id: "3.1.2"
     content_standard_id: "3.1"
     text_en: "Determine whether a number is a perfect square."
-    bloom: "apply"
+    bloom: apply
   - id: "3.1.3"
     content_standard_id: "3.1"
     text_en: "State the relationship between squares and square roots."
-    bloom: "understand"
+    bloom: understand
   - id: "3.1.4"
     content_standard_id: "3.1"
     text_en: "Determine the square of a number with and without using technological tools."
-    bloom: "apply"
+    bloom: apply
   - id: "3.1.5"
     content_standard_id: "3.1"
-    text_en: "Determine the square roots of a number without using technological tools."
-    bloom: "apply"
+    text_en: "Determine the square root of a number without using technological tools."
+    bloom: apply
   - id: "3.1.6"
     content_standard_id: "3.1"
-    text_en: "Determine the square roots of a positive number using technological tools."
-    bloom: "apply"
+    text_en: "Determine the square root of a positive number using technological tools."
+    bloom: apply
   - id: "3.1.7"
     content_standard_id: "3.1"
-    text_en: "Estimate (i) the square of a number, (ii) the square roots of a number."
-    bloom: "apply"
+    text_en: "Estimate (i) the square of a number, (ii) the square root of a number."
+    bloom: apply
   - id: "3.1.8"
     content_standard_id: "3.1"
-    text_en: "Make generalisations about multiplication involving (i) square roots of the same numbers, (ii) square roots of different numbers."
-    bloom: "analyze"
+    text_en: "Make generalisation about the multiplication involving (i) square roots of the same numbers, (ii) square roots of different numbers."
+    bloom: apply
   - id: "3.1.9"
     content_standard_id: "3.1"
-    text_en: "Pose and solve problems involving squares and square roots."
-    bloom: "apply"
+    text_en: "Solve problems involving squares and square roots."
+    bloom: apply
   - id: "3.2.1"
     content_standard_id: "3.2"
     text_en: "Explain the meaning of cubes and perfect cubes."
-    bloom: "understand"
+    bloom: understand
   - id: "3.2.2"
     content_standard_id: "3.2"
     text_en: "Determine whether a number is a perfect cube."
-    bloom: "apply"
+    bloom: apply
   - id: "3.2.3"
     content_standard_id: "3.2"
     text_en: "State the relationship between cubes and cube roots."
-    bloom: "understand"
+    bloom: understand
   - id: "3.2.4"
     content_standard_id: "3.2"
     text_en: "Determine the cube of a number with and without using technological tools."
-    bloom: "apply"
+    bloom: apply
   - id: "3.2.5"
     content_standard_id: "3.2"
     text_en: "Determine the cube root of a number without using technological tools."
-    bloom: "apply"
+    bloom: apply
   - id: "3.2.6"
     content_standard_id: "3.2"
     text_en: "Determine the cube root of a number using technological tools."
-    bloom: "apply"
+    bloom: apply
   - id: "3.2.7"
     content_standard_id: "3.2"
     text_en: "Estimate (i) the cube of a number, (ii) the cube root of a number."
-    bloom: "apply"
+    bloom: apply
   - id: "3.2.8"
     content_standard_id: "3.2"
     text_en: "Solve problems involving cubes and cube roots."
-    bloom: "apply"
+    bloom: apply
   - id: "3.2.9"
     content_standard_id: "3.2"
-    text_en: "Perform computations involving addition, subtraction, multiplication, division and the combination of these operations on squares, square roots, cubes and cube roots."
-    bloom: "apply"
+    text_en: "Perform computations involving combined arithmetic operations of squares, square roots, cubes and cube roots."
+    bloom: apply
+
 performance_standards:
   - level: 1
     descriptor_en: "Demonstrate the basic knowledge of squares, square roots, cubes and cube roots."
@@ -94,48 +97,47 @@ performance_standards:
   - level: 3
     descriptor_en: "Apply the understanding of squares, square roots, cubes and cube roots to perform simple tasks."
   - level: 4
-    descriptor_en: "Apply appropriate knowledge and skills of squares, square roots, cubes and cube roots in the context of simple routine problem solving."
+    descriptor_en: "Apply the knowledge and skills of squares, square roots, cubes and cube roots in the context of simple routine problem solving."
   - level: 5
-    descriptor_en: "Apply appropriate knowledge and skills of squares, square roots, cubes and cube roots in the context of complex routine problem solving."
+    descriptor_en: "Apply the knowledge and skills of squares, square roots, cubes and cube roots in the context of complex routine problem solving."
   - level: 6
-    descriptor_en: "Apply appropriate knowledge and skills of squares, square roots, cubes and cube roots in the context of non-routine problem solving."
+    descriptor_en: "Apply the knowledge and skills of squares, square roots, cubes and cube roots in the context of non-routine problem solving."
+
 prerequisites:
   required:
-    - "MT1-01"
-    - "MT1-02"
-bloom_levels:
-  - "understand"
-  - "apply"
-  - "analyze"
-quality_level: 2
-provenance: "expert-reviewed"
-assessments_file: "MT1-03.assessments.yaml"
-examples_file: "MT1-03.examples.yaml"
-ai_teaching_notes: "MT1-03.teaching.md"
+    - id: MT1-02
+  recommended: []
+
 mastery:
   minimum_score: 0.75
   assessment_count: 3
   spaced_repetition:
     initial_interval_days: 3
     multiplier: 2.5
+
 teaching:
   sequence:
-    - "Step 1: Introduction to Squares and Perfect Squares using visual grids (3.1.1, 3.1.2)"
-    - "Step 2: Inverse operations: Connecting Squares to Square Roots (3.1.3)"
-    - "Step 3: Calculating Squares and Square Roots (3.1.4, 3.1.5, 3.1.6)"
-    - "Step 4: Mastery of generalisation and estimation for square roots (3.1.7, 3.1.8)"
-    - "Step 5: Transitioning to 3D: Explaining Cubes and Perfect Cubes (3.2.1, 3.2.2)"
-    - "Step 6: Relationship between Cubes and Cube Roots (3.2.3, 3.2.5)"
-    - "Step 7: Technology use and estimation for cube roots (3.2.4, 3.2.6, 3.2.7)"
-    - "Step 8: Mastery of combined operations and multi-step word problems (3.2.9, 3.1.9, 3.2.8)"
-common_misconceptions:
-  - misconception: "Square root is equivalent to dividing by two."
-    remediation: "Use visual area models to show that square root finds the side length, not half the area."
-  - misconception: "Assuming only integers can be perfect squares or cubes."
-    remediation: "Demonstrate square roots of decimals (e.g., 0.6 x 0.6 = 0.36) and fractions."
-  - misconception: "Confusing the sign of square roots and cube roots (e.g., thinking cube root of a negative is positive)."
-    remediation: "Show that (-2) x (-2) x (-2) = -8, reinforcing that cube roots preserve the sign."
-engagement_hooks:
-  - "Challenge students to find square numbers in their house layout or tiles."
-  - "Relate perfect cubes to the volume of salt crystals or Rubik's cubes."
-  - "Discuss the 'Square Root of Two' as the first irrational number discovered by the Pythagoreans."
+    - "Step 1: Identifying Perfect Squares & Area of Squares (2 days)"
+    - "Step 2: Operations with Square Roots (2 days)"
+    - "Step 3: Estimation of Squares/Roots (2 days)"
+    - "Step 4: Identifying Perfect Cubes & Volume of Cubes (2 days)"
+    - "Step 5: Operations with Cube Roots (2 days)"
+    - "Step 6: Combined Operations (BEDMAS/BODMAS) (3 days)"
+    - "Step 7: Real-world Design Challenges (3 days)"
+  common_misconceptions:
+    - misconception: "Squared ($x^2$) means $x \times 2$."
+      remediation: "Use the 'Area of a Square' visual: a $3 \times 3$ square has 9 units, not 6."
+    - misconception: "Thinking negative numbers have real square roots (at this level)."
+      remediation: "Remind them: 'What same number times itself gives a negative?' Impossible for now!"
+    - misconception: "Incorrect decimal placement ($\sqrt{0.04} = 0.02$ error)."
+      remediation: "Show $\sqrt{0.04} = \sqrt{\frac{4}{100}} = \frac{2}{10} = 0.2$."
+  engagement_hooks:
+    - "The Floor Tiler: 'If you have 50 tiles, what is the largest square you can make? (Perfect Squares)'"
+    - "The Magic Tank: 'If this cube tank holds 64 litres, what are its dimensions?'"
+    - "Architecture Challenge: 'Designing a Square Garden with estimated side lengths.'"
+
+quality_level: 2
+provenance: ai-assisted
+ai_teaching_notes: "MT1-03.teaching.md"
+assessments_file: "MT1-03.assessments.yaml"
+examples_file: "MT1-03.examples.yaml"

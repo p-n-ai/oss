@@ -1,14 +1,13 @@
 id: MT1-04
 official_ref: "Bab 4"
 name: "Nisbah, Kadar dan Kadaran"
-name_en: "Ratios, Rates and Proportions"
-subject_grade_id: "malaysia-kssm-matematik-tingkatan-1"
-subject_id: "malaysia-kssm-matematik"
-syllabus_id: "malaysia-kssm"
-country_id: "malaysia"
-language: "ms"
-difficulty: "beginner"
-tier: "core"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
 
 content_standards:
   - id: "4.1"
@@ -18,69 +17,69 @@ content_standards:
   - id: "4.3"
     text: "Kadaran"
   - id: "4.4"
-    text: "Nisbah, Kadar dan Kadaran"
+    text: "Nisbah, kadar dan kadaran"
   - id: "4.5"
-    text: "Perkaitan antara nisbah, kadar dan kadaran dengan peratusan, pecahan dan perpuluhan"
+    text: "Hubungan antara nisbah, kadar dan kadaran dengan peratusan, pecahan dan perpuluhan"
 
 learning_objectives:
   - id: "4.1.1"
     content_standard_id: "4.1"
-    text: "Mewakilkan hubungan antara tiga kuantiti dalam bentuk a : b : c."
-    bloom: "understand"
+    text: "Mewakilkan hubungan antara dua atau tiga kuantiti dalam bentuk $a:b$ atau $a:b:c$."
+    bloom: understand
   - id: "4.1.2"
     content_standard_id: "4.1"
     text: "Mengenal pasti dan menentukan nisbah setara dalam konteks berangka, geometri atau situasi harian."
-    bloom: "understand"
+    bloom: apply
   - id: "4.1.3"
     content_standard_id: "4.1"
     text: "Mengungkapkan nisbah dua dan tiga kuantiti dalam bentuk termudah."
-    bloom: "apply"
+    bloom: apply
   - id: "4.2.1"
     content_standard_id: "4.2"
     text: "Menentukan hubungan antara nisbah dan kadar."
-    bloom: "understand"
+    bloom: apply
   - id: "4.3.1"
     content_standard_id: "4.3"
     text: "Menentukan hubungan antara nisbah dan kadaran."
-    bloom: "understand"
+    bloom: apply
   - id: "4.3.2"
     content_standard_id: "4.3"
     text: "Menentukan nilai yang tidak diketahui dalam suatu kadaran."
-    bloom: "apply"
+    bloom: apply
   - id: "4.4.1"
     content_standard_id: "4.4"
     text: "Menentukan nisbah tiga kuantiti apabila dua atau lebih nisbah dua kuantiti diberi."
-    bloom: "apply"
+    bloom: apply
   - id: "4.4.2"
     content_standard_id: "4.4"
     text: "Menentukan nisbah atau nilai yang berkaitan apabila diberi (i) nisbah dua kuantiti dan nilai satu kuantiti (ii) nisbah tiga kuantiti dan nilai satu kuantiti."
-    bloom: "apply"
+    bloom: apply
   - id: "4.4.3"
     content_standard_id: "4.4"
     text: "Menentukan nilai yang berkaitan dengan suatu kadar."
-    bloom: "apply"
+    bloom: apply
   - id: "4.4.4"
     content_standard_id: "4.4"
     text: "Menyelesaikan masalah yang melibatkan nisbah, kadar dan kadaran, termasuk membuat anggaran."
-    bloom: "apply"
+    bloom: apply
   - id: "4.5.1"
     content_standard_id: "4.5"
     text: "Menentukan hubungan antara peratusan dan nisbah."
-    bloom: "understand"
+    bloom: apply
   - id: "4.5.2"
     content_standard_id: "4.5"
-    text: "Menentukan peratusan suatu kuantiti dengan mengaplikasikan konsep kadaran."
-    bloom: "apply"
+    text: "Menentukan hubungan antara nisbah, kadar dan kadaran dengan peratusan, pecahan dan perpuluhan."
+    bloom: apply
   - id: "4.5.3"
     content_standard_id: "4.5"
-    text: "Menyelesaikan masalah yang melibatkan perkaitan antara nisbah, kadar dan kadaran dengan peratusan, pecahan dan perpuluhan."
-    bloom: "apply"
+    text: "Menyelesaikan masalah yang melibatkan hubungan antara nisbah, kadar dan kadaran dengan peratusan, pecahan dan perpuluhan."
+    bloom: apply
 
 performance_standards:
   - level: 1
-    descriptor: "Memamerkan pengetahuan asas tentang nisbah, kadar dan kadaran."
+    descriptor: "Mempamerkan pengetahuan asas tentang nisbah, kadar dan kadaran."
   - level: 2
-    descriptor: "Memamerkan kefahaman tentang nisbah, kadar dan kadaran."
+    descriptor: "Mempamerkan kefahaman tentang nisbah, kadar dan kadaran."
   - level: 3
     descriptor: "Mengaplikasikan kefahaman tentang nisbah, kadar dan kadaran untuk melaksanakan tugasan mudah."
   - level: 4
@@ -90,27 +89,41 @@ performance_standards:
   - level: 6
     descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang nisbah, kadar dan kadaran dalam konteks penyelesaian masalah bukan rutin secara kreatif."
 
+prerequisites:
+  required:
+    - id: MT1-01
+  recommended: []
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
 teaching:
   sequence:
-    - "Langkah 1: Mewakilkan nisbah dalam bentuk a : b : c dan mencari nisbah setara (4.1.1, 4.1.2)."
-    - "Langkah 2: Memudahkan nisbah dan meneroka hubungan khusus dengan kadar (4.1.3, 4.2.1)."
-    - "Langkah 3: Mendefinisikan kadaran dan mencari nilai yang tidak diketahui (4.3.1, 4.3.2)."
-    - "Langkah 4: Menghubungkan pelbagai nisbah dan menyelesaikan nilai berkaitan kadar (4.4.1, 4.4.2, 4.4.3)."
-    - "Langkah 5: Mengaplikasikan nisbah kepada peratusan dan menyelesaikan masalah pelbagai langkah (4.5.1, 4.5.2, 4.5.3)."
+    - "Langkah 1: Pengenalan kepada Nisbah & Visualisasi Campuran 3-bahagian (2 hari)"
+    - "Langkah 2: Nisbah Setara & 'Bentuk Termudah' (3 hari)"
+    - "Langkah 3: Penukaran daripada Nisbah kepada Kadar (2 hari)"
+    - "Langkah 4: Penguasaan Kadaran melalui Pendaraban Silang (3 hari)"
+    - "Langkah 5: Menyelesaikan Masalah Gabungan 3-Nisbah (3 hari)"
+    - "Langkah 6: Anggaran Dunia Sebenar & Permodelan Populasi (4 hari)"
   common_misconceptions:
-    - misconception: "Menganggap nisbah dan pecahan adalah identik dalam semua konteks."
-      remediation: "Jelaskan bahawa walaupun nisbah boleh ditulis sebagai pecahan, ia membandingkan bahagian kepada bahagian atau bahagian kepada keseluruhan secara berbeza."
-    - misconception: "Mengabaikan unit semasa membandingkan kuantiti dalam nisbah."
-      remediation: "Tekankan bahawa nisbah membandingkan kuantiti yang sama jenis dalam unit yang sama."
-    - misconception: "Salah susunan kuantiti dalam pengiraan kadaran."
-      remediation: "Gunakan pemetaan visual untuk memastikan pengangka dan penyebut sepadan dengan betul."
+    - misconception: "Menambah pemalar kepada kedua-dua bahagian menghasilkan nisbah setara (cth: $1:2 = 2:3$ dengan tambah 1)."
+      remediation: "Gunakan analogi 'Kemanisan Sup': tambah garam dan air dalam kadar berbeza mengubah rasa."
+    - misconception: "Keliru antara Kadar dengan Nisbah."
+      remediation: "Jelaskan bahawa Nisbah membandingkan unit yang sama, manakala Kadar membandingkan unit yang berbeza (cth: sen/kWj)."
+    - misconception: "Perangkap 'Terbalik' dalam Kadaran."
+      remediation: "Sentiasa selaraskan unit secara mendatar: $\frac{A_1}{B_1} = \frac{A_2}{B_2}$."
   engagement_hooks:
-    - "Menganalisis 'Vitruvian Man' oleh Leonardo da Vinci untuk meneroka perkadaran tubuh manusia."
-    - "Mengira kuantiti bahan dalam resipi Bubur Pulut Hitam untuk saiz hidangan yang berbeza."
-    - "Menggunakan konteks biologi marin seperti menganggarkan populasi kuda laut menggunakan kaedah tangkap-tanda-lepas-tangkap semula."
+    - "Resipi Bubur Pulut Hitam: 'Adakah kemasannya sama jika masak 10 periuk? (Nisbah Setara)'"
+    - "Pelan Telco: 'Pelan data mana yang bagi lebih GB per Ringgit? (Kadar)'"
+    - "Anggaran Populasi Negara Menggunakan Penandaan dan Nisbah Sampel."
 
 quality_level: 2
-provenance: "expert-reviewed"
+provenance: ai-assisted
+sync_checked: true
 ai_teaching_notes: "MT1-04.teaching.md"
 assessments_file: "MT1-04.assessments.yaml"
 examples_file: "MT1-04.examples.yaml"

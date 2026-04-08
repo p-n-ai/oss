@@ -1,4 +1,4 @@
-id: "MT1-01"
+id: MT1-01
 official_ref: "Bab 1"
 name: "Nombor Nisbah"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-1
@@ -24,20 +24,20 @@ content_standards:
 learning_objectives:
   - id: "1.1.1"
     content_standard_id: "1.1"
-    text: "Mengenal nombor positif dan nombor negatif berdasarkan situasi sebenar."
-    bloom: remember
+    text: "Mengenal nombor positif dan nombor negatif berdasarkan situasi kehidupan sebenar."
+    bloom: understand
   - id: "1.1.2"
     content_standard_id: "1.1"
     text: "Mengenal dan memerihalkan integer."
     bloom: understand
   - id: "1.1.3"
     content_standard_id: "1.1"
-    text: "Mewakilkan integer pada garis nombor dan membuat perkaitan antara nilai integer dengan kedudukan integer tersebut berbanding integer lain pada garis nombor."
+    text: "Mewakilkan integer pada garis nombor dan membuat hubungan antara nilai dan kedudukan integer berbanding integer lain pada garis nombor."
     bloom: apply
   - id: "1.1.4"
     content_standard_id: "1.1"
     text: "Membanding dan menyusun integer mengikut tertib."
-    bloom: analyze
+    bloom: apply
   - id: "1.2.1"
     content_standard_id: "1.2"
     text: "Menambah dan menolak integer menggunakan garis nombor atau kaedah lain yang sesuai. Seterusnya membuat generalisasi tentang penambahan dan penolakan integer."
@@ -48,15 +48,15 @@ learning_objectives:
     bloom: apply
   - id: "1.2.3"
     content_standard_id: "1.2"
-    text: "Membuat pengiraan yang melibatkan gabungan operasi asas aritmetik bagi integer mengikut tertib operasi."
+    text: "Melaksanakan pengiraan yang melibatkan gabungan operasi asas aritmetik bagi integer mengikut tertib operasi."
     bloom: apply
   - id: "1.2.4"
     content_standard_id: "1.2"
-    text: "Menghuraikan hukum operasi aritmetik iaitu Hukum Identiti, Hukum Kalis Tukar Tertib, Hukum Kalis Sekutuan dan Hukum Kalis Agihan."
+    text: "Memerihalkan hukum operasi aritmetik iaitu Hukum Identiti, Hukum Kalis Tukar Tertib, Hukum Kalis Sekutuan dan Hukum Kalis Agihan."
     bloom: understand
   - id: "1.2.5"
     content_standard_id: "1.2"
-    text: "Membuat pengiraan yang efisien dengan menggunakan hukum operasi asas aritmetik."
+    text: "Melaksanakan pengiraan yang efisien menggunakan hukum operasi aritmetik."
     bloom: apply
   - id: "1.2.6"
     content_standard_id: "1.2"
@@ -69,10 +69,10 @@ learning_objectives:
   - id: "1.3.2"
     content_standard_id: "1.3"
     text: "Membanding dan menyusun pecahan positif dan pecahan negatif mengikut tertib."
-    bloom: analyze
+    bloom: apply
   - id: "1.3.3"
     content_standard_id: "1.3"
-    text: "Membuat pengiraan yang melibatkan gabungan operasi asas aritmetik bagi pecahan positif dan pecahan negatif mengikut tertib operasi."
+    text: "Melaksanakan pengiraan yang melibatkan gabungan operasi asas aritmetik bagi pecahan positif dan pecahan negatif mengikut tertib operasi."
     bloom: apply
   - id: "1.3.4"
     content_standard_id: "1.3"
@@ -85,10 +85,10 @@ learning_objectives:
   - id: "1.4.2"
     content_standard_id: "1.4"
     text: "Membanding dan menyusun perpuluhan positif dan perpuluhan negatif mengikut tertib."
-    bloom: analyze
+    bloom: apply
   - id: "1.4.3"
     content_standard_id: "1.4"
-    text: "Membuat pengiraan yang melibatkan gabungan operasi asas aritmetik bagi perpuluhan positif dan perpuluhan negatif mengikut tertib operasi."
+    text: "Melaksanakan pengiraan yang melibatkan gabungan operasi asas aritmetik bagi perpuluhan positif dan perpuluhan negatif mengikut tertib operasi."
     bloom: apply
   - id: "1.4.4"
     content_standard_id: "1.4"
@@ -100,7 +100,7 @@ learning_objectives:
     bloom: understand
   - id: "1.5.2"
     content_standard_id: "1.5"
-    text: "Membuat pengiraan yang melibatkan gabungan operasi asas aritmetik bagi nombor nisbah mengikut tertib operasi."
+    text: "Melaksanakan pengiraan yang melibatkan gabungan operasi asas aritmetik bagi nombor nisbah mengikut tertib operasi."
     bloom: apply
   - id: "1.5.3"
     content_standard_id: "1.5"
@@ -113,44 +113,47 @@ performance_standards:
   - level: 2
     descriptor: "Mempamerkan kefahaman tentang nombor nisbah."
   - level: 3
-    descriptor: "Mengaplikasikan kefahaman tentang nombor nisbah untuk melaksanakan operasi asas dan gabungan operasi asas aritmetik."
+    descriptor: "Mengaplikasikan kefahaman tentang nombor nisbah untuk melaksanakan operasi asas."
   - level: 4
     descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang nombor nisbah dalam konteks penyelesaian masalah rutin yang mudah."
   - level: 5
     descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang nombor nisbah dalam konteks penyelesaian masalah rutin yang kompleks."
   - level: 6
-    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang nombor nisbah dalam konteks penyelesaian masalah bukan rutin."
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang nombor nisbah dalam konteks penyelesaian masalah bukan rutin secara kreatif."
 
 prerequisites:
-  required: []
-  recommended: []
+  required: [] # Padan dengan Master EN
+  recommended: [] # Padan dengan Master EN
 
 mastery:
-  minimum_score: 0.75
-  assessment_count: 3
+  minimum_score: 0.75 # Padan dengan Master EN
+  assessment_count: 3 # Padan dengan Master EN
   spaced_repetition:
     initial_interval_days: 3
     multiplier: 2.5
 
 teaching:
   sequence:
-    - "Langkah 1: Perkenalkan konsep nombor nisbah dengan contoh mudah (15 minit)"
-    - "Langkah 2: Tunjukkan cara meletakkan nombor nisbah pada garis nombor (10 minit)"
-    - "Langkah 3: Latih operasi asas dengan nombor nisbah menggunakan bahan manipulatif (20 minit)"
-    - "Langkah 4: Selesaikan masalah kehidupan sebenar yang melibatkan nombor nisbah (15 minit)"
-    - "Langkah 5: Ulang kaji dan nilai kefahaman melalui kuiz (10 minit)"
+    - "Langkah 1: Pengenalan kepada Integer & Visual Lif (3 hari)"
+    - "Langkah 2: Operasi Integer & Logik Hutang 'Pasar Malam' (4 hari)"
+    - "Langkah 3: Pecahan Positif/Negatif pada Garis Nombor (3 hari)"
+    - "Langkah 4: Perpuluhan Positif/Negatif (3 hari)"
+    - "Langkah 5: Semakan Master Nombor Nisbah & Tertib Operasi (4 hari)"
   common_misconceptions:
-    - misconception: "Semua pecahan adalah nombor nisbah"
-      remediation: "Tekankan syarat bahawa penyebut tidak boleh sifar"
-    - misconception: "Nombor nisbah sentiasa positif"
-      remediation: "Berikan contoh nombor nisbah negatif, seperti -3/4"
+    - misconception: "Sifar bukan integer."
+      remediation: "Jelaskan bahawa 0 ialah lubang di tanah (neutral) tetapi tetap integer yang sah."
+    - misconception: "Bahagi dengan sifar ialah 0."
+      remediation: "Tunjukkan ralat kalkulator; pembahagian dengan sifar adalah tidak tertakrif (Semakan definisi nombor nisbah)."
+    - misconception: "-10 lebih besar daripada -2."
+      remediation: "Gunakan analogi suhu atau analogi hutang (hutang RM10 vs hutang RM2)."
   engagement_hooks:
-    - "Bincangkan bagaimana nombor nisbah digunakan dalam kadar pertukaran mata wang"
-    - "Terokai penggunaan pecahan dalam resipi masakan dan pembahagian makanan"
-    - "Kaitkan dengan statistik sukan, seperti purata pukulan dalam besbol"
+    - "Eskap Lif: 'Anda mula di Tingkat 3, turun 5 tingkat, anda di mana?'"
+    - "Penyelam Laut Dalam: 'Penyelam di -15m... jika dia naik 5m, adakah dia lebih dalam atau cetek?'"
+    - "Projek Garis Nombor Isi Rumah: 'Memetakan barang di rumah guna kedudukan negatif/positif.'"
 
 quality_level: 2
 provenance: ai-assisted
+sync_checked: true
 ai_teaching_notes: "MT1-01.teaching.md"
 assessments_file: "MT1-01.assessments.yaml"
 examples_file: "MT1-01.examples.yaml"
