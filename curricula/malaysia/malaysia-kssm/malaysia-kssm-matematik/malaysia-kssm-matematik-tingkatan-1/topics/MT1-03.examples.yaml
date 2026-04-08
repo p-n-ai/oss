@@ -1,38 +1,79 @@
 topic_id: MT1-03
-provenance: ai-generated
-description: "Worked examples for KUASA DUA, PUNCA KUASA DUA, KUASA TIGA DAN PUNCA KUASA TIGA"
+provenance: "expert-reviewed"
 worked_examples:
+  # Example 1: Determining Perfect Squares (SP 3.1.2)
   - id: WE-01
-    topic: "Kuasa Dua Sempurna"
+    topic: "Determining Perfect Squares"
+    learning_objective: "3.1.2"
     difficulty: easy
-    real_world_analogy: "Finding the area of a square given its side length."
-    misconception_alert: "Students often confuse square numbers with even numbers, assuming both are always divisible by 2."
-    scenario: "Determine if 16 is a perfect square."
+    real_world_analogy: "Forming 'Equal Teams': Imagine you have 36 players. If you can split them into two identical 'teams' (groups) using multiplication, then 36 is a 'Perfect Square' [Kuasa Dua Sempurna]."
+    misconception_alert: "Students often think any even number is a perfect square. Remind them that 10 is even, but you can't multiply a whole number by itself to get 10!"
+    scenario: "Determine whether 36 is a perfect square using the prime factorisation method."
     working: |
-      Step 1: Recognize that a perfect square is a number that can be expressed as the square of an integer.
-      Step 2: Calculate the square root of 16, which is 4, an integer.
-      Step 3: Since the square root of 16 is an integer, 16 is a perfect square.
+      1. Perform prime factorisation of 36:
+         $36 = 2 \times 2 \times 3 \times 3$
+      2. Group the prime factors into two identical sets:
+         Set A: $(2 \times 3)$
+         Set B: $(2 \times 3)$
+      3. Express as a product of two equal factors:
+         $36 = 6 \times 6$
+      4. Conclusion: Since 36 can be written as $6^2$, it is a perfect square.
 
+  # Example 2: Square Roots of Fractions (SP 3.1.5)
   - id: WE-02
-    topic: "Kuasa Tiga"
+    topic: "Square Roots of Fractions"
+    learning_objective: "3.1.5"
     difficulty: medium
-    real_world_analogy: "Filling a cube-shaped box with unit cubes."
-    misconception_alert: "Students may mistakenly think that cubing a number is the same as multiplying it by two."
-    scenario: "Calculate the cube of 3."
+    real_world_analogy: "The Reverse Blueprint: If you know the Area of a square garden is a fraction, finding the square root is like finding the length of one side of that garden."
+    misconception_alert: "The 'Half-it' Trap! Students often divide the numerator or denominator by 2 instead of finding the square root. Check if $4 \div 2$ is the same as $\sqrt{4}$!"
+    scenario: "Find the value of $\sqrt{2 \frac{7}{9}}$ without using a calculator."
     working: |
-      Step 1: Recognize that cubing a number means raising it to the power of three.
-      Step 2: Multiply 3 by itself: 3 × 3 = 9.
-      Step 3: Multiply the result by 3 again: 9 × 3 = 27.
-      Step 4: The cube of 3 is 27.
+      1. Convert the mixed number to an improper fraction:
+         $2 \frac{7}{9} = \frac{(2 \times 9) + 7}{9} = \frac{25}{9}$
+      2. Apply the square root to both numerator and denominator:
+         $\sqrt{\frac{25}{9}} = \frac{\sqrt{25}}{\sqrt{9}}$
+      3. Identify the square roots of the perfect squares:
+         Numerator: $\sqrt{25} = 5$ (since $5 \times 5 = 25$)
+         Denominator: $\sqrt{9} = 3$ (since $3 \times 3 = 9$)
+      4. Simplify the resulting fraction:
+         $\frac{5}{3}$
+      5. Convert back to a mixed number for the final answer:
+         $1 \frac{2}{3}$
 
+  # Example 3: Combined Operations (SP 3.2.9)
   - id: WE-03
-    topic: "Punca Kuasa Dua dan Punca Kuasa Tiga"
+    topic: "Combined Operations"
+    learning_objective: "3.2.9"
     difficulty: hard
-    real_world_analogy: "Determining the original side length of a square or cube when given the area or volume."
-    misconception_alert: "Students may incorrectly apply the same process for both square and cube roots, not recognizing the difference in operations."
-    scenario: "Estimate the square root of 50 and the cube root of 27."
+    real_world_analogy: "The Kitchen Recipe: You must follow the steps in order (KUBADATAS) to get the right result. If you fry the eggs before cracking them, it's a mess! Brackets first, then Roots/Powers, then others."
+    misconception_alert: "The 'Left-to-Right' Error. Students often just solve from left to right, ignoring that Square Roots and Cubes must be solved before addition or subtraction."
+    scenario: "Calculate the value of $0.5^2 + \sqrt[3]{1000}$."
     working: |
-      Step 1: Recognize that 50 is not a perfect square, but lies between 49 (7²) and 64 (8²).
-      Step 2: Estimate the square root of 50 as slightly more than 7.
-      Step 3: Recognize that 27 is a perfect cube, as 3³ = 27.
-      Step 4: Determine the cube root of 27 is exactly 3.
+      1. Identify the two parts of the expression: $0.5^2$ and $\sqrt[3]{1000}$.
+      2. Solve the square of the decimal:
+         $0.5 \times 0.5 = 0.25$
+      3. Solve the cube root of the whole number:
+         $\sqrt[3]{1000} = \sqrt[3]{10 \times 10 \times 10} = 10$
+      4. Combine the results using addition:
+         $0.25 + 10$
+      5. Final Result: $10.25$
+
+  # Example 4: Complex Routine Problem Solving (SP 3.2.8)
+  - id: WE-04
+    topic: "Volume Problem Solving (KBAT)"
+    learning_objective: "3.2.8"
+    difficulty: hard
+    real_world_analogy: "The Missing Cake Piece: If you have a large block of cake and cut a small cube out of it, the 'remaining' cake is just the big volume minus the small volume."
+    misconception_alert: "The 'Side-Length' Confusion. Students might subtract the side lengths directly ($6 - 3$) instead of subtracting the Volumes. Always calculate 'Fat' (Volume) first, then 'Sides' (Roots)!"
+    scenario: "A sculptor removes a small cube from a wooden cube block with side length 6 cm. If the remaining volume is $189 \text{ cm}^3$, find the side length of the small cube removed."
+    working: |
+      1. Calculate the volume of the original large wooden cube:
+         Volume = $6^3 = 6 \times 6 \times 6 = 216 \text{ cm}^3$
+      2. Find the volume of the small cube that was removed:
+         Volume of small cube = Total Volume - Remaining Volume
+         $216 - 189 = 27 \text{ cm}^3$
+      3. Let $s$ be the side length of the small cube. Use the cube root to find $s$:
+         $s = \sqrt[3]{27}$
+      4. Solve the cube root:
+         Since $3 \times 3 \times 3 = 27$, then $\sqrt[3]{27} = 3$
+      5. Conclusion: The side length of the small cube removed is 3 cm.

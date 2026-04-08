@@ -1,150 +1,150 @@
 topic_id: MT1-04
-provenance: ai-generated
-
+provenance: "DSKP-aligned KSSM Master Draft"
 questions:
-  # Learning Objective 4.1.1
-  - id: Q1
-    text: "Sebuah pasukan terdiri daripada 12 pemain bola sepak, 8 pemain bola tampar dan 4 pemain bola keranjang. Nyatakan nisbah pemain bola sepak kepada pemain bola tampar kepada pemain bola keranjang."
-    difficulty: medium
-    learning_objective: 4.1.1
+  # --- 4.1 Ratios ---
+  - id: Q411-01
+    text: "A team consists of 12 football players, 8 volleyball players, and 4 basketball players. Represent the relationship of football players to volleyball players to basketball players in the form of $a : b : c$ in simplest form."
+    difficulty: "easy"
+    learning_objective: "4.1.1"
     tp_level: 2
     kbat: false
     answer:
-      type: exact
-      value: "3:2:1"
+      type: "exact"
+      value: "3 : 2 : 1"
       working: |
-        Nisbah pemain bola sepak kepada pemain bola tampar kepada pemain bola keranjang:
-        \[
-        \frac{12}{4} : \frac{8}{4} : \frac{4}{4} = 3:2:1
-        \]
+        Step 1: Write the initial ratio based on the given quantities: 12 : 8 : 4.
+        Step 2: Find the Highest Common Factor (HCF/FSTB) of 12, 8, and 4, which is 4.
+        Step 3: Divide each part by 4: (12/4) : (8/4) : (4/4) = 3 : 2 : 1.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Mengira nisbah setiap pasangan kuantiti."
+        criteria: "Correctly identifying the initial ratio of 12 : 8 : 4."
       - marks: 1
-        criteria: "Menulis nisbah dalam bentuk termudah."
+        criteria: "Simplifying the ratio to 3 : 2 : 1."
     hints:
       - level: 1
-        text: "Kira nisbah setiap pasangan kuantiti berbanding nilai terkecil."
+        text: "Start by writing the numbers in the order they are mentioned: Football : Volleyball : Basketball."
       - level: 2
-        text: "Bahagikan setiap kuantiti dengan nombor terkecil, iaitu 4."
+        text: "Is there a number that can divide 12, 8, and 4 exactly? Try dividing them by the largest common factor to simplify."
 
-  # Learning Objective 4.1.3
-  - id: Q2
-    text: "Ungkapkan nisbah 24:36 dalam bentuk termudah."
-    difficulty: medium
-    learning_objective: 4.1.3
+  - id: Q412-01
+    text: "Match the following pairs of equivalent ratios."
+    difficulty: "easy"
+    learning_objective: "4.1.2"
     tp_level: 2
     kbat: false
     answer:
-      type: exact
-      value: "2:3"
+      type: "mapping"
+      value: 
+        "6 : 9": "2 : 3"
+        "6 : 90": "1 : 15"
+        "9 : 60": "3 : 20"
       working: |
-        Faktor sepunya terbesar bagi 24 dan 36 ialah 12.
-        \[
-        \frac{24}{12} : \frac{36}{12} = 2:3
-        \]
-    marks: 2
+        - 6:9 can be divided by 3 -> 2:3.
+        - 6:90 can be divided by 6 -> 1:15.
+        - 9:60 can be divided by 3 -> 3:20.
+    marks: 3
     rubric:
-      - marks: 1
-        criteria: "Menentukan faktor sepunya terbesar bagi kedua-dua nombor."
-      - marks: 1
-        criteria: "Membahagikan kedua-dua nombor dengan faktor sepunya terbesar."
+      - marks: 3
+        criteria: "Correctly matching all three pairs of equivalent ratios."
     hints:
       - level: 1
-        text: "Cari faktor sepunya terbesar bagi 24 dan 36."
-      - level: 2
-        text: "Bahagikan kedua-dua nombor dengan faktor sepunya terbesar."
+        text: "Equivalent ratios are like equivalent fractions. Try simplifying the larger ratios on the left."
 
-  # Learning Objective 4.2.1
-  - id: Q3
-    text: "Jika nisbah antara dua kuantiti ialah 5:9 dan kadar bagi kuantiti pertama ialah 20 unit, tentukan kadar bagi kuantiti kedua."
-    difficulty: medium
-    learning_objective: 4.2.1
-    tp_level: 2
+  # --- 4.2 Rates ---
+  - id: Q421-01
+    text: "Which of the following describes a 'rate'?"
+    difficulty: "medium"
+    learning_objective: "4.2.1"
+    tp_level: 1
     kbat: false
     answer:
-      type: exact
-      value: "36 unit"
+      type: "multiple_choice"
+      value: "A car travels 285 km in 3 hours."
       working: |
-        Nisbah 5:9 bermakna setiap 5 unit kuantiti pertama, ada 9 unit kuantiti kedua.
-        Jika kuantiti pertama ialah 20 unit, gunakan kadaran:
-        \[
-        \frac{5}{9} = \frac{20}{x} \implies 5x = 180 \implies x = 36
-        \]
+        A rate is a special ratio that compares two quantities with different units (distance and time).
+      distractors:
+        - value: "A ratio of 500 g to 9 kg."
+          feedback: "This is a ratio because both involve mass and can be converted to the same unit (grams)."
+        - value: "Comparing 2 weeks to 14 days."
+          feedback: "This is a comparison of time in the same kind of unit, making it a ratio, not a rate."
+        - value: "A ratio of 3 boys to 4 girls."
+          feedback: "This compares quantities of the same kind (people), so it is a standard ratio."
+    marks: 1
+
+  # --- 4.3 Proportions ---
+  - id: Q432-01
+    text: "Electricity costs 43.6 sen for 2 kilowatt-hours (kWh). How much does 30 kWh cost?"
+    difficulty: "medium"
+    learning_objective: "4.3.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: "exact"
+      value: "654 sen"
+      working: |
+        Step 1: Form a proportion: $\frac{43.6 \text{ sen}}{2 \text{ kWh}} = \frac{x \text{ sen}}{30 \text{ kWh}}$.
+        Step 2: Cross-multiply: $2x = 43.6 \times 30$.
+        Step 3: Solve for x: $x = \frac{1308}{2} = 654$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Membentuk persamaan berdasarkan nisbah dan kadar yang diberi."
+        criteria: "Forming the correct proportion equation."
       - marks: 1
-        criteria: "Menggunakan kadaran untuk mencari nilai x."
+        criteria: "Correct cross-multiplication step."
       - marks: 1
-        criteria: "Mengira kadar bagi kuantiti kedua."
+        criteria: "Final answer with correct units."
     hints:
       - level: 1
-        text: "Gunakan persamaan nisbah untuk membentuk kadaran."
+        text: "Think about the relationship: if 2 kWh costs a certain amount, 30 kWh must cost more in the same proportion."
       - level: 2
-        text: "Bahagikan untuk mencari nilai x."
+        text: "Try using the unitary method first: find the cost for 1 kWh by dividing 43.6 by 2."
 
-  # Learning Objective 4.3.2
-  - id: Q4
-    text: "Dalam kadaran 3:4:5, jika nilai kuantiti pertama ialah 18, tentukan nilai kuantiti ketiga."
-    difficulty: medium
-    learning_objective: 4.3.2
-    tp_level: 2
-    kbat: false
+  # --- 4.4 Ratios, Rates and Proportions ---
+  - id: Q444-01
+    text: "A farmer uses the capture, mark, release and recapture method to estimate a snail population. He marks 24 snails. Later, he recaptures 30 snails and finds that 5 are marked. Estimate the total snail population."
+    difficulty: "hard"
+    learning_objective: "4.4.4"
+    tp_level: 5
+    kbat: true
     answer:
-      type: exact
-      value: "30"
+      type: "exact"
+      value: "144"
       working: |
-        Nisbah bagi kuantiti pertama kepada ketiga ialah 3:5.
-        Jadi, jika kuantiti pertama ialah 18, gunakan kadaran:
-        \[
-        \frac{3}{5} = \frac{18}{x} \implies 3x = 90 \implies x = 30
-        \]
+        Step 1: Use the proportion $\frac{\text{Number of marked snails}}{\text{Total population}} = \frac{\text{Marked in recapture}}{\text{Total recaptured}}$.
+        Step 2: $\frac{24}{x} = \frac{5}{30}$.
+        Step 3: Simplify $\frac{5}{30}$ to $\frac{1}{6}$.
+        Step 4: $\frac{24}{x} = \frac{1}{6} \implies x = 24 \times 6 = 144$.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Correctly identifying the relationship between the marked samples and the total population."
+      - marks: 2
+        criteria: "Solving the proportion to find the final estimate."
+    hints:
+      - level: 1
+        text: "The ratio of marked snails to the total population should be the same as the ratio of marked snails in the second sample to the total of the second sample."
+
+  # --- 4.5 Relationship with Percentages ---
+  - id: Q453-01
+    text: "Leonardo da Vinci studied human body proportions. One of the ratios used was $\frac{\text{height of head}}{\text{height of the whole body}} = \frac{2}{5}$. If a person's total height is 175 cm, what is the estimated height of their head?"
+    difficulty: "hard"
+    learning_objective: "4.5.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: "exact"
+      value: "70 cm"
+      working: |
+        Step 1: Set up the proportion: $\frac{2}{5} = \frac{x}{175}$.
+        Step 2: Solve for x: $x = \frac{2 \times 175}{5}$.
+        Step 3: $x = \frac{350}{5} = 70$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Mengenal pasti nisbah yang berkaitan."
-      - marks: 1
-        criteria: "Membentuk persamaan kadaran."
-      - marks: 1
-        criteria: "Mengira nilai kuantiti ketiga."
+        criteria: "Setting up the proportion based on the Vitruvian ratio."
+      - marks: 2
+        criteria: "Calculating the correct head height."
     hints:
       - level: 1
-        text: "Cari nisbah kuantiti pertama kepada ketiga."
-      - level: 2
-        text: "Gunakan kadaran untuk mencari nilai kuantiti ketiga."
-
-  # Learning Objective 4.5.2
-  - id: Q5
-    text: "Jika sebuah beg mengandungi 60 gula-gula dan nisbah gula-gula merah kepada gula-gula biru ialah 2:3, tentukan peratusan gula-gula merah."
-    difficulty: medium
-    learning_objective: 4.5.2
-    tp_level: 2
-    kbat: false
-    answer:
-      type: exact
-      value: "40%"
-      working: |
-        Jika nisbah gula-gula merah kepada gula-gula biru ialah 2:3, bilangan gula-gula merah ialah:
-        \[
-        \frac{2}{5} \times 60 = 24
-        \]
-        Peratusan gula-gula merah ialah:
-        \[
-        \frac{24}{60} \times 100\% = 40\%
-        \]
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Mengira bilangan gula-gula merah."
-      - marks: 1
-        criteria: "Mengira peratusan gula-gula merah."
-      - marks: 1
-        criteria: "Menulis jawapan dalam bentuk peratusan."
-    hints:
-      - level: 1
-        text: "Tentukan bilangan gula-gula merah menggunakan nisbah."
-      - level: 2
-        text: "Hitung peratusan berdasarkan jumlah gula-gula keseluruhan."
+        text: "Remember that the ratio $\frac{2}{5}$ compares the head to the total height. If the total height is 175, how many times larger is it than 5?"

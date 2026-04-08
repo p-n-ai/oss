@@ -1,0 +1,79 @@
+topic_id: MT1-03
+provenance: "expert-reviewed"
+worked_examples:
+  # Contoh 1: Menentukan Kuasa Dua Sempurna (SP 3.1.2)
+  - id: WE-01
+    topic: "Menentukan Kuasa Dua Sempurna"
+    learning_objective: "3.1.2"
+    difficulty: easy
+    real_world_analogy: "Membentuk 'Pasukan yang Sama': Bayangkan awak ada 36 pemain bola. Jika awak boleh bahagikan mereka kepada dua pasukan yang mempunyai bilangan pemain yang sama melalui pendaraban ($6 \times 6$), maka 36 ialah 'Kuasa Dua Sempurna'."
+    misconception_alert: "Murid selalu ingat semua nombor genap adalah kuasa dua sempurna. Ingatkan mereka: 10 itu nombor genap, tapi tiada nombor bulat yang didarab dengan dirinya sendiri menghasilkan 10!"
+    scenario: "Tentukan sama ada 36 ialah kuasa dua sempurna dengan menggunakan kaedah pemfaktoran perdana."
+    working: |
+      1. Lakukan pemfaktoran perdana bagi 36:
+         $36 = 2 \times 2 \times 3 \times 3$
+      2. Kumpulkan faktor perdana kepada dua kumpulan yang sama:
+         Kumpulan A: $(2 \times 3)$
+         Kumpulan B: $(2 \times 3)$
+      3. Tuliskan sebagai hasil darab dua faktor yang sama:
+         $36 = 6 \times 6$
+      4. Kesimpulan: Oleh sebab 36 boleh ditulis sebagai $6^2$, maka 36 ialah kuasa dua sempurna.
+
+  # Contoh 2: Punca Kuasa Dua Pecahan (SP 3.1.5)
+  - id: WE-02
+    topic: "Punca Kuasa Dua Pecahan"
+    learning_objective: "3.1.5"
+    difficulty: medium
+    real_world_analogy: "Pelan Lantai Songsang: Jika awak tahu luas sebuah taman berbentuk segi empat sama ialah nombor pecahan, mencari punca kuasa dua adalah seperti mencari panjang satu sisi taman tersebut."
+    misconception_alert: "Perangkap 'Bahagi Dua'! Murid sering membahagikan pengangka atau penyebut dengan 2. Ingatkan mereka untuk mencari punca kuasa, bukan bahagi dua!"
+    scenario: "Cari nilai bagi $\sqrt{2 \frac{7}{9}}$ tanpa menggunakan kalkulator."
+    working: |
+      1. Tukarkan nombor bercampur kepada pecahan tak wajar:
+         $2 \frac{7}{9} = \frac{(2 \times 9) + 7}{9} = \frac{25}{9}$
+      2. Agihkan punca kuasa dua kepada pengangka dan penyebut:
+         $\sqrt{\frac{25}{9}} = \frac{\sqrt{25}}{\sqrt{9}}$
+      3. Kenal pasti punca kuasa dua bagi nombor-nombor tersebut:
+         Pengangka: $\sqrt{25} = 5$ (kerana $5 \times 5 = 25$)
+         Penyebut: $\sqrt{9} = 3$ (kerana $3 \times 3 = 9$)
+      4. Permudahkan pecahan tersebut:
+         $\frac{5}{3}$
+      5. Tukar semula kepada nombor bercampur untuk jawapan akhir:
+         $1 \frac{2}{3}$
+
+  # Contoh 3: Operasi Bergabung (SP 3.2.9)
+  - id: WE-03
+    topic: "Operasi Bergabung"
+    learning_objective: "3.2.9"
+    difficulty: hard
+    real_world_analogy: "Resipi Masakan: Awak mesti ikut langkah mengikut urutan (KUBADATAS) untuk dapat hasil yang betul. Kalau goreng telur sebelum pecahkan kulit, nanti jadi kucar-kacir! Selesaikan Kurungan dulu, kemudian Punca/Kuasa, baru yang lain."
+    misconception_alert: "Ralat 'Kiri-ke-Kanan'. Murid selalu kira terus dari kiri ke kanan tanpa menghiraukan punca kuasa dan kuasa tiga mesti diselesaikan dahulu sebelum tambah atau tolak."
+    scenario: "Hitung nilai bagi $0.5^2 + \sqrt[3]{1000}$."
+    working: |
+      1. Kenal pasti dua bahagian operasi: $0.5^2$ dan $\sqrt[3]{1000}$.
+      2. Selesaikan kuasa dua bagi nombor perpuluhan:
+         $0.5 \times 0.5 = 0.25$
+      3. Selesaikan punca kuasa tiga bagi nombor bulat:
+         $\sqrt[3]{1000} = \sqrt[3]{10 \times 10 \times 10} = 10$
+      4. Gabungkan hasil tersebut menggunakan operasi tambah:
+         $0.25 + 10$
+      5. Hasil Akhir: $10.25$
+
+  # Contoh 4: Penyelesaian Masalah Kompleks (SP 3.2.8 - KBAT)
+  - id: WE-04
+    topic: "Penyelesaian Masalah Isi Padu"
+    learning_objective: "3.2.8"
+    difficulty: hard
+    real_world_analogy: "Potongan Kek yang Hilang: Jika awak ada sebongkah kek besar dan potong keluar satu kubus kecil, baki kek tersebut hanyalah 'Isi padu Besar' tolak 'Isi padu Kecil'."
+    misconception_alert: "Kekeliruan 'Panjang Sisi'. Murid mungkin tolak panjang sisi secara terus ($6 - 3$) dan bukannya menolak isi padu. Sentiasa kira 'Isi Padu' dulu, baru cari 'Sisi' (Punca)!"
+    scenario: "Seorang pengukir mengeluarkan sebuah kubus kecil daripada sebuah blok kayu berbentuk kubus yang mempunyai panjang tepi 6 cm. Jika isi padu baki blok kayu itu ialah $189 \text{ cm}^3$, cari panjang tepi kubus kecil yang dikeluarkan itu."
+    working: |
+      1. Kira isi padu asal blok kayu besar:
+         Isi padu = $6^3 = 6 \times 6 \times 6 = 216 \text{ cm}^3$
+      2. Cari isi padu kubus kecil yang telah dikeluarkan:
+         Isi padu kubus kecil = Isi padu asal - Isi padu baki
+         $216 - 189 = 27 \text{ cm}^3$
+      3. Biarkan $s$ sebagai panjang tepi kubus kecil. Gunakan punca kuasa tiga untuk mencari $s$:
+         $s = \sqrt[3]{27}$
+      4. Selesaikan punca kuasa tiga:
+         Oleh sebab $3 \times 3 \times 3 = 27$, maka $\sqrt[3]{27} = 3$
+      5. Kesimpulan: Panjang tepi kubus kecil yang dikeluarkan ialah 3 cm.

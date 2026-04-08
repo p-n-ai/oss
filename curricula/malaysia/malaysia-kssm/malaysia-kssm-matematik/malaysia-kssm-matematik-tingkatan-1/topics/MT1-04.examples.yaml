@@ -1,41 +1,56 @@
 topic_id: MT1-04
-provenance: ai-generated
-description: "Worked examples for Nisbah, Kadar dan Kadaran"
+provenance: "DSKP-aligned KSSM Worked Examples"
+description: "Step-by-step worked examples for Ratios, Rates and Proportions utilizing textbook contexts."
+
 worked_examples:
-  - id: WE-01
-    topic: "Nisbah Tiga Kuantiti"
-    difficulty: easy
-    real_world_analogy: "Consider sharing a pizza among three friends in such a way that Friend A gets twice as much as Friend B, and Friend C gets three times as much as Friend B."
-    misconception_alert: "Students often mistake the order of the ratio, leading to incorrect distribution of quantities."
-    scenario: "Ali, Ben, and Chan share 36 candies in a ratio of 2:1:3. How many candies does each person get?"
+  - id: WE-413-01
+    topic: "Simplifying Ratios"
+    learning_objective: "4.1.3"
+    difficulty: "easy"
+    real_world_analogy: "Think of simplifying a ratio like 'decluttering' a room. You are removing the extra 'bulk' (common factors) until only the essential relationship remains, but the room (the value) stays the same size."
+    misconception_alert: "Students often forget to convert units first. You cannot simplify $800 \text{ g} : 1.8 \text{ kg}$ as $800 : 1.8$. They must be in the same 'language' (units) first!"
+    scenario: "Anis is preparing a DIY cleaning solution by mixing 800 g of vinegar with 1.8 kg of water. Express the ratio of vinegar to water in its simplest form."
     working: |
-      Step 1: Let the ratio be represented as 2x for Ali, x for Ben, and 3x for Chan.
-      Step 2: The total number of parts in the ratio is 2x + x + 3x = 6x.
-      Step 3: Set up the equation 6x = 36 candies.
-      Step 4: Solve for x by dividing both sides by 6, giving x = 6.
-      Step 5: Substitute x back into the ratio: Ali gets 2x = 12 candies, Ben gets x = 6 candies, and Chan gets 3x = 18 candies.
+      1. Convert both quantities to the same unit (grams):
+         $1.8 \text{ kg} = 1.8 \times 1000 = 1800 \text{ g}$
+      2. Write the ratio: $800 : 1800$
+      3. Identify the Highest Common Factor (HCF) of 800 and 1800. Let's try dividing by 100 first:
+         $\frac{800}{100} : \frac{1800}{100} = 8 : 18$
+      4. Divide by the remaining common factor, which is 2:
+         $\frac{8}{2} : \frac{18}{2} = 4 : 9$
+      5. Final Answer: The simplest form is $4 : 9$.
 
-  - id: WE-02
-    topic: "Nisbah dan Kadar"
-    difficulty: medium
-    real_world_analogy: "Think of a car traveling at a constant speed. The ratio between distance and time is like the car's speed."
-    misconception_alert: "Confusing speed (a rate) with distance or time (quantities)."
-    scenario: "A car travels 150 km in 3 hours. What is the speed of the car in km/h?"
+  - id: WE-432-01
+    topic: "Determining Unknown Values in Proportions"
+    learning_objective: "4.3.2"
+    difficulty: "medium"
+    real_world_analogy: "A proportion is like a perfectly balanced see-saw. If you add weight (increase value) to one side, you must add the exact same proportional weight to the other side to keep it from tipping."
+    misconception_alert: "The 'Upside Down' Trap! Students often place the unknown value $x$ in the wrong position. Ensure your units match horizontally: $\frac{\text{sen}}{\text{kWh}} = \frac{\text{sen}}{\text{kWh}}$."
+    scenario: "In a Malaysian household, electricity costs 43.6 sen for 2 kilowatt-hours (kWh). Using the proportion method, calculate the cost for 30 kWh."
     working: |
-      Step 1: Identify the quantities given: distance = 150 km, time = 3 hours.
-      Step 2: Speed is the ratio of distance to time, calculated as distance ÷ time.
-      Step 3: Substitute the values: speed = 150 km ÷ 3 hours = 50 km/h.
-      Step 4: Thus, the speed of the car is 50 km/h.
+      1. Let the cost for 30 kWh be $x$ sen.
+      2. Set up the proportion: $\frac{43.6 \text{ sen}}{2 \text{ kWh}} = \frac{x \text{ sen}}{30 \text{ kWh}}$
+      3. Use cross-multiplication: $2 \times x = 43.6 \times 30$
+      4. Calculate the right side: $2x = 1308$
+      5. Isolate $x$ by dividing both sides by 2: $x = \frac{1308}{2}$
+      6. Calculate the final value: $x = 654$
+      7. Final Answer: The cost is 654 sen (or RM6.54).
 
-  - id: WE-03
-    topic: "Kadaran dan Penyelesaian Masalah"
-    difficulty: hard
-    real_world_analogy: "Scaling a recipe up or down based on the number of servings needed."
-    misconception_alert: "Failing to maintain the proportion when one of the quantities changes."
-    scenario: "A recipe requires 2 cups of flour for every 3 cups of sugar. If you have 12 cups of sugar, how much flour is needed?"
+  - id: WE-444-01
+    topic: "Solving Problems and Making Estimations"
+    learning_objective: "4.4.4"
+    difficulty: "hard"
+    real_world_analogy: "Imagine taking a small 'sip' of a soup to check if it's salty enough. The saltiness (ratio) in that one spoon represents the saltiness of the entire pot. This is how we estimate large populations using a small sample!"
+    misconception_alert: "Failing to verify the 4-step problem-solving cycle. Students often stop once they find $x$, but for TP5/6 questions, you must check if the estimation makes sense in context."
+    scenario: "A marine biologist wants to estimate the seahorse (*Hippocampus kuda*) population in a river estuary. She captures and marks 24 seahorses. Two weeks later, she recaptures 30 seahorses and finds that 5 of them are marked. Estimate the total seahorse population."
     working: |
-      Step 1: Understand the ratio given: 2 cups of flour for every 3 cups of sugar.
-      Step 2: Set up the proportion: 2/3 = x/12, where x is the cups of flour needed.
-      Step 3: Cross-multiply to find x: 3x = 2 * 12.
-      Step 4: Solve for x by dividing both sides by 3: x = 24/3 = 8.
-      Step 5: Therefore, 8 cups of flour are needed to maintain the ratio.
+      1. **Understand:** We need to find the total population ($P$) using the ratio of marked seahorses.
+      2. **Plan:** Set up a proportion where $\frac{\text{Marked in Total}}{\text{Total Population}} = \frac{\text{Marked in Sample}}{\text{Sample Size}}$
+      3. **Solve:**
+         $\frac{24}{P} = \frac{5}{30}$
+      4. Simplify the right-hand fraction: $\frac{5}{30} = \frac{1}{6}$
+      5. Now the equation is: $\frac{24}{P} = \frac{1}{6}$
+      6. Perform cross-multiplication: $1 \times P = 24 \times 6$
+      7. Calculate the result: $P = 144$
+      8. **Verify:** If the population is 144, the marked ratio is $24/144 = 1/6$, which matches our sample ratio of $5/30$.
+      9. Final Answer: The estimated population is 144 seahorses.

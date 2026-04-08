@@ -1,99 +1,126 @@
 id: MT1-04
-# official_ref: ""  # fill in if the source document assigns a chapter/section code
-name: "Nisbah, Kadar dan Kadaran"
-name_en: "Ratio, Rate and Proportion"
-subject_grade_id: malaysia-kssm-matematik-tingkatan-1
-subject_id: malaysia-kssm-matematik
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: beginner
-tier: core
+official_ref: "Chapter 4"
+name_en: "Ratios, Rates and Proportions"
+subject_grade_id: "malaysia-kssm-matematik-tingkatan-1"
+subject_id: "malaysia-kssm-matematik"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "en"
+difficulty: "beginner"
+tier: "core"
+
+content_standards:
+  - id: "4.1"
+    text_en: "Ratios"
+  - id: "4.2"
+    text_en: "Rates"
+  - id: "4.3"
+    text_en: "Proportions"
+  - id: "4.4"
+    text_en: "Ratios, Rates and Proportions"
+  - id: "4.5"
+    text_en: "Relationship between ratios, rates and proportions with percentages, fractions and decimals"
+
 learning_objectives:
-    - id: 4.1.1
-      text: "Mewakilkan hubungan antara tiga kuantiti dalam bentuk a : b : c."
-      text_en: "Represent the relationship between three quantities in the form a : b : c."
-      bloom: understand
-    - id: 4.1.2
-      text: "Mengenal pasti dan menentukan nisbah setara dalam konteks berangka, geometri atau situasi harian."
-      text_en: "Identify and determine equivalent ratios in numerical, geometric, or daily situations."
-      bloom: understand
-    - id: 4.1.3
-      text: "Mengungkapkan nisbah dua dan tiga kuantiti dalam bentuk termudah."
-      text_en: "Express ratios of two and three quantities in simplest form."
-      bloom: apply
-    - id: 4.2.1
-      text: "Menentukan hubungan antara nisbah dan kadar."
-      text_en: "Determine the relationship between ratio and rate."
-      bloom: understand
-    - id: 4.3.1
-      text: "Menentukan hubungan antara nisbah dan kadaran."
-      text_en: "Determine the relationship between ratio and proportion."
-      bloom: understand
-    - id: 4.3.2
-      text: "Menentukan nilai yang tidak diketahui dalam suatu kadaran."
-      text_en: "Determine the unknown value in a proportion."
-      bloom: apply
-    - id: 4.4.1
-      text: "Menentukan nisbah tiga kuantiti apabila dua atau lebih nisbah dua kuantiti diberi."
-      text_en: "Determine the ratio of three quantities when two or more ratios of two quantities are given."
-      bloom: apply
-    - id: 4.4.2
-      text: "Menentukan nisbah atau nilai yang berkaitan apabila diberi (i) nisbah dua kuantiti dan nilai satu kuantiti. (ii) nisbah tiga kuantiti dan nilai satu kuantiti."
-      text_en: "Determine the ratio or related value when given (i) ratio of two quantities and value of one quantity. (ii) ratio of three quantities and value of one quantity."
-      bloom: apply
-    - id: 4.4.3
-      text: "Menentukan nilai yang berkaitan dengan suatu kadar."
-      text_en: "Determine the value related to a rate."
-      bloom: apply
-    - id: 4.4.4
-      text: "Menyelesaikan masalah yang melibatkan nisbah, kadar dan kadaran, termasuk membuat anggaran."
-      text_en: "Solve problems involving ratios, rates, and proportions, including making estimates."
-      bloom: apply
-    - id: 4.5.1
-      text: "Menentukan hubungan antara peratusan dan nisbah."
-      text_en: "Determine the relationship between percentage and ratio."
-      bloom: understand
-    - id: 4.5.2
-      text: "Menentukan peratusan suatu kuantiti dengan mengaplikasikan konsep kadaran."
-      text_en: "Determine the percentage of a quantity by applying the concept of proportion."
-      bloom: apply
-    - id: 4.5.3
-      text: "Menyelesaikan masalah yang melibatkan perkaitan antara nisbah, kadar dan kadaran dengan peratusan, pecahan dan perpuluhan."
-      text_en: "Solve problems involving the relationship between ratios, rates, and proportions with percentages, fractions, and decimals."
-      bloom: apply
+  - id: "4.1.1"
+    content_standard_id: "4.1"
+    text_en: "Represent the relation between three quantities in the form of a : b : c."
+    bloom: "understand"
+  - id: "4.1.2"
+    content_standard_id: "4.1"
+    text_en: "Identify and determine the equivalent ratios in numerical, geometrical or daily situation contexts."
+    bloom: "understand"
+  - id: "4.1.3"
+    content_standard_id: "4.1"
+    text_en: "Express ratios of two and three quantities in simplest form."
+    bloom: "apply"
+  - id: "4.2.1"
+    content_standard_id: "4.2"
+    text_en: "Determine the relationship between ratios and rates."
+    bloom: "understand"
+  - id: "4.3.1"
+    content_standard_id: "4.3"
+    text_en: "Determine the relationship between ratios and proportions."
+    bloom: "understand"
+  - id: "4.3.2"
+    content_standard_id: "4.3"
+    text_en: "Determine an unknown value in a proportion."
+    bloom: "apply"
+  - id: "4.4.1"
+    content_standard_id: "4.4"
+    text_en: "Determine the ratio of three quantities, given two or more ratios of two quantities."
+    bloom: "apply"
+  - id: "4.4.2"
+    content_standard_id: "4.4"
+    text_en: "Determine the ratio or the related value given (i) the ratio of two quantities and the value of one quantity (ii) the ratio of three quantities and the value of one quantity."
+    bloom: "apply"
+  - id: "4.4.3"
+    content_standard_id: "4.4"
+    text_en: "Determine the value related to a rate."
+    bloom: "apply"
+  - id: "4.4.4"
+    content_standard_id: "4.4"
+    text_en: "Solve problems involving ratios, rates and proportions, including making estimations."
+    bloom: "apply"
+  - id: "4.5.1"
+    content_standard_id: "4.5"
+    text_en: "Determine the relationship between percentages and ratios."
+    bloom: "understand"
+  - id: "4.5.2"
+    content_standard_id: "4.5"
+    text_en: "Determine the percentage of a quantity by applying the concept of proportions."
+    bloom: "apply"
+  - id: "4.5.3"
+    content_standard_id: "4.5"
+    text_en: "Solve problems involving relationship between ratios, rates and proportions with percentages, fractions and decimals."
+    bloom: "apply"
+
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate basic knowledge of ratios, rates and proportions."
+  - level: 2
+    descriptor_en: "Demonstrate understanding of ratios, rates and proportions."
+  - level: 3
+    descriptor_en: "Apply understanding of ratios, rates and proportions to perform simple tasks."
+  - level: 4
+    descriptor_en: "Apply appropriate knowledge and skills of ratios, rates and proportions in the context of simple routine problem solving."
+  - level: 5
+    descriptor_en: "Apply appropriate knowledge and skills of ratios, rates and proportions in the context of complex routine problem solving."
+  - level: 6
+    descriptor_en: "Apply appropriate knowledge and skills of ratios, rates and proportions in the context of non-routine problem solving in a creative manner."
+
 prerequisites:
-    required: []
-bloom_levels:
-    - understand
-    - apply
+  required:
+    - "MT1-01"
+
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
-ai_teaching_notes: MT1-04.teaching.md
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-29T23:18:08Z"
-assessments_file: MT1-04.assessments.yaml
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
 teaching:
-    sequence:
-        - 'Step 1: Introduce the concept of ratio using real-world examples (15 min)'
-        - 'Step 2: Explore equivalent ratios through scaling activities (20 min)'
-        - 'Step 3: Discuss the relationship between ratios and rates using practical scenarios (20 min)'
-        - 'Step 4: Teach solving proportions with cross-multiplication technique (25 min)'
-        - 'Step 5: Apply ratios, rates, and proportions to solve real-world problems (30 min)'
-    common_misconceptions:
-        - misconception: Ratios and fractions are the same.
-          remediation: Clarify differences using context and examples.
-        - misconception: Order in ratios doesn't matter.
-          remediation: Emphasize significance through practice examples.
-        - misconception: Units are irrelevant in rates.
-          remediation: Stress the importance of units in rate calculations.
-engagement_hooks:
-    - Compare prices of different products in a local market to illustrate ratios.
-    - Discuss travel times between cities to explain rates and proportions.
-    - Use sports statistics to engage students with ratios and percentages.
-examples_file: MT1-04.examples.yaml
+  sequence:
+    - "Step 1: Represent ratios in the form a : b : c and find equivalent ratios (4.1.1, 4.1.2)."
+    - "Step 2: Simplify ratios and explore the specific relationship with rates (4.1.3, 4.2.1)."
+    - "Step 3: Define proportions and solve for unknown values using unitary or cross-multiplication (4.3.1, 4.3.2)."
+    - "Step 4: Connect multiple ratios and solve rate-related values (4.4.1, 4.4.2, 4.4.3)."
+    - "Step 5: Apply ratios to percentages and solve multi-step problems involving fractions/decimals (4.5.1, 4.5.2, 4.5.3)."
+  common_misconceptions:
+    - misconception: "Assuming ratios and fractions are identical in all contexts."
+      remediation: "Clarify that while ratios can be expressed as fractions, they compare parts to parts or parts to wholes differently."
+    - misconception: "Ignoring units when comparing quantities in a ratio."
+      remediation: "Emphasize that ratios compare quantities of the same kind measured in the same unit."
+    - misconception: "Misordering quantities in a proportion calculation."
+      remediation: "Use visual mapping to ensure numerators and denominators correspond correctly."
+  engagement_hooks:
+    - "Analyze the 'Vitruvian Man' by Leonardo da Vinci to explore human body proportions."
+    - "Scale a traditional Malaysian recipe for Black Glutinous Rice Porridge for different group sizes."
+    - "Use marine biology contexts like estimating seahorse populations using capture-mark-release-recapture."
+
+quality_level: 2
+provenance: "expert-reviewed"
+ai_teaching_notes: "MT1-04.teaching.md"
+assessments_file: "MT1-04.assessments.yaml"
+examples_file: "MT1-04.examples.yaml"

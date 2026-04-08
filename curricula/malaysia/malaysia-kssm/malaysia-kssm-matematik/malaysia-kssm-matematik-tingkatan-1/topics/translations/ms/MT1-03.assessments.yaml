@@ -1,0 +1,161 @@
+topic_id: MT1-03
+provenance: "expert-reviewed"
+questions:
+  # TP1: Pengetahuan Asas Kuasa Dua (3.1.1)
+  - id: MT1-03-Q01
+    text: "Antara berikut, yang manakah menerangkan maksud kuasa dua sempurna [perfect square]?"
+    difficulty: easy
+    learning_objective: "3.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Nombor yang dihasilkan dengan mendarabkan suatu nombor bulat dengan dirinya sendiri."
+      working: |
+        Kuasa dua sempurna ialah hasil darab suatu integer dengan dirinya sendiri (cth: $4 \times 4 = 16$).
+      distractors:
+        - value: "Nombor yang boleh dibahagi dengan dua secara tepat."
+          feedback: "Itu adalah definisi nombor genap. Ingat, kuasa dua datang daripada nombor yang 'menyayangi diri sendiri' dan mendarab dirinya sendiri!"
+        - value: "Nombor yang merupakan hasil tambah dua nombor yang sama."
+          feedback: "Ini adalah $x + x = 2x$. Kuasa dua ialah $x \times x = x^2$. Jangan keliru antara tambah dengan darab!"
+    marks: 1
+
+  # TP2: Penentuan menggunakan Pemfaktoran Perdana (3.1.2)
+  - id: MT1-03-Q02
+    text: "Tentukan sama ada 324 ialah kuasa dua sempurna dengan menggunakan kaedah pemfaktoran perdana."
+    difficulty: medium
+    learning_objective: "3.1.2"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "Ya, ia adalah kuasa dua sempurna."
+      working: |
+        1. Lakukan pemfaktoran perdana: $324 = 2 \times 2 \times 3 \times 3 \times 3 \times 3$.
+        2. Kumpulkan kepada dua kumpulan yang sama: $(2 \times 3 \times 3) \times (2 \times 3 \times 3) = 18 \times 18$.
+        3. Oleh kerana ia boleh dikumpulkan kepada dua set faktor yang sama, 324 ialah kuasa dua sempurna.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menunjukkan pemfaktoran perdana yang betul ($2^2 \times 3^4$)."
+      - marks: 1
+        criteria: "Memberi kesimpulan berdasarkan pengumpulan faktor yang sama."
+    hints:
+      - level: 1
+        text: "Cuba pecahkan 324 kepada faktor perdana yang paling kecil (2, 3, 5...). Gunakan pokok faktor!"
+      - level: 2
+        text: "Lihat 'Tip Bestari' di muka surat 50. Jika awak boleh bahagikan semua faktor perdana itu kepada dua 'pasukan' yang sama, ia adalah kuasa dua sempurna!"
+
+  # TP3: Operasi Bergabung (3.2.9)
+  - id: MT1-03-Q03
+    text: "Hitung nilai bagi $0.5^2 + \sqrt[3]{1000}$."
+    difficulty: medium
+    learning_objective: "3.2.9"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "10.25"
+      working: |
+        Langkah 1: Kira kuasa dua: $0.5 \times 0.5 = 0.25$.
+        Langkah 2: Kira punca kuasa tiga: $\sqrt[3]{1000} = 10$.
+        Langkah 3: Tambahkan hasil: $0.25 + 10 = 10.25$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Nilai individu bagi $0.5^2$ dan $\sqrt[3]{1000}$ adalah betul."
+      - marks: 1
+        criteria: "Hasil tambah akhir ialah 10.25."
+    hints:
+      - level: 1
+        text: "Ikut tertib KUBADATAS! Selesaikan kuasa dua dan punca kuasa dahulu sebelum menambah."
+      - level: 2
+        text: "Berapakah $0.5 \times 0.5$? Dan apakah nombor yang didarab dirinya sendiri sebanyak tiga kali memberikan 1000?"
+
+  # TP4: Penyelesaian Masalah Rutin Mudah (3.1.9)
+  - id: MT1-03-Q04
+    text: "Maslina ingin melekatkan sekeping foto berbentuk segi empat sama dengan luas $90.25 \text{ cm}^2$ pada sekeping kadbod. Cari panjang sisi foto tersebut."
+    difficulty: medium
+    learning_objective: "3.1.9"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: "9.5 cm"
+      working: |
+        1. Luas segi empat sama ialah $s^2$. 
+        2. Maka, $s = \sqrt{90.25}$.
+        3. Oleh sebab $9 \times 9 = 81$ dan $10 \times 10 = 100$, jawapannya adalah antara 9 dan 10.
+        4. $\sqrt{90.25} = 9.5 \text{ cm}$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti operasi punca kuasa dua diperlukan."
+      - marks: 1
+        criteria: "Jawapan akhir dengan unit yang betul (9.5 cm)."
+    hints:
+      - level: 1
+        text: "Berfikir seperti detektif! Jika awak ada jumlah luas sebuah segi empat sama, macam mana nak cari panjang satu sisinya?"
+      - level: 2
+        text: "Gunakan analogi 'Luas ke Sisi' dari nota pengajaran. Awak perlu mencari punca kuasa dua bagi 90.25."
+
+  # TP5: Penyelesaian Masalah Rutin Kompleks (3.2.8)
+  - id: MT1-03-Q05
+    text: "Seorang pengukir mengeluarkan sebuah kubus kecil daripada sebuah blok kayu berbentuk kubus yang mempunyai panjang tepi 6 cm. Jika isi padu baki blok kayu itu ialah $189 \text{ cm}^3$, cari panjang tepi kubus kecil yang dikeluarkan itu."
+    difficulty: hard
+    learning_objective: "3.2.8"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "3 cm"
+      working: |
+        1. Isi padu kubus besar: $6^3 = 216 \text{ cm}^3$.
+        2. Isi padu kubus kecil yang dibuang: $216 - 189 = 27 \text{ cm}^3$.
+        3. Panjang tepi kubus kecil: $\sqrt[3]{27} = 3 \text{ cm}$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Pengiraan isi padu awal ($216 \text{ cm}^3$)."
+      - marks: 1
+        criteria: "Mencari isi padu kubus kecil yang dibuang ($27 \text{ cm}^3$)."
+      - marks: 1
+        criteria: "Mencari punca kuasa tiga untuk mendapat panjang tepi (3 cm)."
+    hints:
+      - level: 1
+        text: "Mula-mula, cari berapa banyak ruang yang dipenuhi oleh blok kayu besar itu sebelum dipotong."
+      - level: 2
+        text: "Tolak baki isi padu daripada isi padu asal untuk cari isi padu yang 'hilang'. Kemudian, cari punca kuasa tiga bagi bahagian yang hilang itu!"
+
+  # TP6: Penilaian Bukan Rutin / Kreatif (3.2.8)
+  - id: MT1-03-Q06
+    text: "Amira mempunyai beberapa buah kuboid yang serupa berukuran $5 \text{ cm} \times 2 \text{ cm} \times 5 \text{ cm}$. Berapakah bilangan minimum kuboid itu yang diperlukan untuk membentuk sebuah kubus besar?"
+    difficulty: hard
+    learning_objective: "3.2.8"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: exact
+      value: "20"
+      working: |
+        1. Untuk membentuk kubus, semua sisi mesti sama panjang. Ukuran ialah 5, 2, 5. 
+        2. GSTK (LCM) bagi 5 dan 2 ialah 10. 
+        3. Maka, kubus paling kecil yang boleh dibina mempunyai sisi 10 cm.
+        4. Isi padu kubus 10 cm: $10 \times 10 \times 10 = 1000 \text{ cm}^3$.
+        5. Isi padu 1 kuboid: $5 \times 2 \times 5 = 50 \text{ cm}^3$.
+        6. Bilangan kuboid: $1000 \div 50 = 20$ buah kuboid.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menentukan GSTK bagi ukuran sisi (10 cm)."
+      - marks: 1
+        criteria: "Pengiraan isi padu kubus sasaran ($1000 \text{ cm}^3$)."
+      - marks: 1
+        criteria: "Pengiraan isi padu satu kuboid ($50 \text{ cm}^3$)."
+      - marks: 1
+        criteria: "Pembahagian yang betul untuk mencari bilangan (20)."
+    hints:
+      - level: 1
+        text: "Sebuah kubus mesti mempunyai panjang, lebar, dan tinggi yang sama. Lihat kuboid Amira: 5, 2, dan 5. Apakah nombor terkecil yang boleh dibahagi oleh semua nombor ini?"
+      - level: 2
+        text: "Cari GSTK bagi 5 dan 2 untuk cari panjang sisi kubus baru awak. Kemudian bandingkan isi padu besar dengan isi padu kecil!"

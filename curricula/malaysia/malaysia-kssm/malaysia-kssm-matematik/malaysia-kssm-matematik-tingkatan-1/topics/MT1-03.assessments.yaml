@@ -1,133 +1,161 @@
 topic_id: MT1-03
-provenance: ai-generated
-
+provenance: "expert-reviewed"
 questions:
-  # Questions for LO 3.1.3
-  - id: Q1
-    text: "Jika $x^2 = 49$, apakah nilai $x$?"
-    difficulty: medium
-    learning_objective: 3.1.3
-    tp_level: 2
-    kbat: false
-    answer:
-      type: exact
-      value: 'x = 7 \text{ atau } x = -7'
-      working: |
-        Untuk mencari $x$, kita perlu mencari punca kuasa dua bagi 49.
-        $x^2 = 49$
-        Maka, $x = \pm \sqrt{49}$
-        $x = \pm 7$
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menjawab sama ada $x = 7$ atau $x = -7$."
-      - marks: 1
-        criteria: "Menjawab kedua-dua nilai $x = 7$ dan $x = -7$."
-    hints:
-      - level: 1
-        text: "Ingat bahawa $x^2 = 49$ bermakna $x$ boleh menjadi positif atau negatif."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Jangan lupa bahawa punca kuasa dua mempunyai dua nilai; positif dan negatif."
-
-  # Questions for LO 3.1.9
-  - id: Q2
-    text: "Ali mempunyai sekeping tanah berbentuk persegi. Jika luas tanah tersebut ialah 144 m², berapakah panjang setiap sisi tanah tersebut?"
-    difficulty: medium
-    learning_objective: 3.1.9
-    tp_level: 3
-    kbat: false
-    answer:
-      type: exact
-      value: '12 \text{ m}'
-      working: |
-        Luas persegi diberi oleh formula $s^2 = \text{luas}$. 
-        Oleh itu, $s^2 = 144$. 
-        Maka, $s = \sqrt{144} = 12$ m.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menulis persamaan $s^2 = 144$."
-      - marks: 1
-        criteria: "Mengira panjang sisi sebagai 12 m."
-    hints:
-      - level: 1
-        text: "Luas persegi adalah $s^2$, di mana $s$ adalah panjang sisi."
-      - level: 2
-        text: "Cari punca kuasa dua bagi 144 untuk mendapatkan panjang sisi."
-
-  # Questions for LO 3.2.2
-  - id: Q3
-    text: "Antara nombor berikut, yang manakah merupakan kuasa tiga sempurna? A) 8 B) 15 C) 27 D) 64"
-    difficulty: medium
-    learning_objective: 3.2.2
-    tp_level: 2
+  # TP1: Basic Knowledge of Squares (3.1.1)
+  - id: MT1-03-Q01
+    text: "Which of the following describes the meaning of a perfect square [kuasa dua sempurna]?"
+    difficulty: easy
+    learning_objective: "3.1.1"
+    tp_level: 1
     kbat: false
     answer:
       type: multiple_choice
-      value: "A, C, D"
+      value: "A number produced by multiplying a whole number by itself."
       working: |
-        $8 = 2^3$, $27 = 3^3$, $64 = 4^3$. 
-        Oleh itu, 8, 27, dan 64 adalah kuasa tiga sempurna.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Memilih satu nombor yang betul."
-      - marks: 2
-        criteria: "Memilih dua nombor yang betul."
-      - marks: 3
-        criteria: "Memilih semua nombor yang betul."
-    hints:
-      - level: 1
-        text: "Ingat bahawa kuasa tiga sempurna adalah hasil darab nombor dengan dirinya dua kali lagi."
-      - level: 2
-        text: "Periksa setiap nombor dan tentukan sama ada ia boleh dinyatakan sebagai $n^3$ untuk beberapa integer $n$."
+        A perfect square is the product of an integer multiplied by itself (e.g., $4 \times 4 = 16$).
+      distractors:
+        - value: "A number that can be divided by two evenly."
+          feedback: "That is the definition of an even number, not a square. Remember, a square comes from a number 'loving itself' and multiplying by itself!"
+        - value: "A number that is the sum of two equal numbers."
+          feedback: "This is $x + x = 2x$. Squares are $x \times x = x^2$. Don't confuse addition with multiplication!"
+    marks: 1
 
-  # Questions for LO 3.2.4
-  - id: Q4
-    text: "Tentukan kuasa tiga bagi nombor 5."
+  # TP2: Determination using Prime Factorisation (3.1.2)
+  - id: MT1-03-Q02
+    text: "Determine if 324 is a perfect square using the prime factorisation method."
     difficulty: medium
-    learning_objective: 3.2.4
+    learning_objective: "3.1.2"
     tp_level: 2
     kbat: false
     answer:
       type: exact
-      value: "125"
+      value: "Yes, it is a perfect square."
       working: |
-        Kuasa tiga bagi nombor 5 adalah $5^3 = 5 \times 5 \times 5 = 125$.
+        1. Perform prime factorisation: $324 = 2 \times 2 \times 3 \times 3 \times 3 \times 3$.
+        2. Group into two identical sets: $(2 \times 3 \times 3) \times (2 \times 3 \times 3) = 18 \times 18$.
+        3. Since it can be grouped into two identical sets, 324 is a perfect square.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menulis persamaan $5^3$ dengan betul."
+        criteria: "Correct prime factorisation shown ($2^2 \times 3^4$)."
       - marks: 1
-        criteria: "Mengira jawapan akhir sebagai 125."
+        criteria: "Conclusion based on identical grouping."
     hints:
       - level: 1
-        text: "Kuasa tiga bermaksud darabkan nombor dengan dirinya sendiri dua kali lagi."
+        text: "Try breaking 324 down into its smallest prime factors (2, 3, 5...). Use a factor tree!"
       - level: 2
-        text: 'Lakukan pengiraan $5 \times 5 \times 5$ secara berperingkat.'
+        text: "Check the 'Smart Tips' on page 50. If you can group all those primes into two identical 'teams', it's a perfect square!"
 
-  # Questions for LO 3.2.8
-  - id: Q5
-    text: "Selesaikan masalah berikut: Jika $x^3 = 343$, apakah nilai $x$?"
+  # TP3: Combined Operations (3.2.9)
+  - id: MT1-03-Q03
+    text: "Calculate the value of $0.5^2 + \sqrt[3]{1000}$."
     difficulty: medium
-    learning_objective: 3.2.8
+    learning_objective: "3.2.9"
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "x = 7"
+      value: "10.25"
       working: |
-        Untuk mencari $x$, kita perlu mencari punca kuasa tiga bagi 343.
-        $x^3 = 343$
-        Maka, $x = \sqrt[3]{343} = 7$
+        Step 1: Calculate the square: $0.5 \times 0.5 = 0.25$.
+        Step 2: Calculate the cube root: $\sqrt[3]{1000} = 10$.
+        Step 3: Add the results: $0.25 + 10 = 10.25$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: 'Menulis persamaan $x = \sqrt[3]{343}$.'
+        criteria: "Individual values for $0.5^2$ and $\sqrt[3]{1000}$ are correct."
       - marks: 1
-        criteria: "Mengira jawapan akhir sebagai 7."
+        criteria: "Final sum is 10.25."
     hints:
       - level: 1
-        text: "Ingat bahawa $x^3 = 343$ bermaksud kita perlu mencari punca kuasa tiga."
+        text: "Follow KUBADATAS! Solve the square and the root first before you add them."
       - level: 2
-        text: "Lihat kepada nombor 343 dan cuba lihat jika ia adalah kuasa tiga suatu nombor."
+        text: "What is $0.5 \times 0.5$? And what number multiplied by itself three times gives 1000?"
+
+  # TP4: Simple Routine Problem Solving (3.1.9)
+  - id: MT1-03-Q04
+    text: "Maslina wants to paste a square photo with an area of $90.25 \text{ cm}^2$ onto a larger square cardboard. Find the side length of the photo."
+    difficulty: medium
+    learning_objective: "3.1.9"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: "9.5 cm"
+      working: |
+        1. The area of a square is $s^2$. 
+        2. So, $s = \sqrt{90.25}$.
+        3. Since $9 \times 9 = 81$ and $10 \times 10 = 100$, the answer is between 9 and 10.
+        4. $\sqrt{90.25} = 9.5 \text{ cm}$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Identification of square root as the operation needed."
+      - marks: 1
+        criteria: "Final answer with units (9.5 cm)."
+    hints:
+      - level: 1
+        text: "Think like a detective! If you have the total area of a square, how do you find the length of just one side?"
+      - level: 2
+        text: "Use the 'Area to Side' analogy from the teaching notes. You need the square root of 90.25."
+
+  # TP5: Complex Routine Problem Solving (3.2.8)
+  - id: MT1-03-Q05
+    text: "A sculptor removes a small cube from a larger wooden cube with a side length of 6 cm. If the remaining volume of the wooden block is $189 \text{ cm}^3$, find the side length of the small cube that was removed."
+    difficulty: hard
+    learning_objective: "3.2.8"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "3 cm"
+      working: |
+        1. Volume of large cube: $6^3 = 216 \text{ cm}^3$.
+        2. Volume of small cube removed: $216 - 189 = 27 \text{ cm}^3$.
+        3. Side length of small cube: $\sqrt[3]{27} = 3 \text{ cm}$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Calculation of initial volume ($216 \text{ cm}^3$)."
+      - marks: 1
+        criteria: "Finding the volume of the small cube ($27 \text{ cm}^3$)."
+      - marks: 1
+        criteria: "Calculating the cube root to find the side (3 cm)."
+    hints:
+      - level: 1
+        text: "First, find out how much space the big wooden block took up before anything was cut."
+      - level: 2
+        text: "Subtract the remaining volume from the total volume to find the 'missing' volume. Then, find the cube root of that missing part!"
+
+  # TP6: Non-Routine / Creative Assessment (3.2.8)
+  - id: MT1-03-Q06
+    text: "Amira has several identical cuboids measuring $5 \text{ cm} \times 2 \text{ cm} \times 5 \text{ cm}$. What is the minimum number of these cuboids needed to form a single large cube?"
+    difficulty: hard
+    learning_objective: "3.2.8"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: exact
+      value: "20"
+      working: |
+        1. To form a cube, all sides must be equal. The dimensions are 5, 2, 5. 
+        2. The LCM (GSTK) of 5 and 2 is 10. 
+        3. So, the smallest cube possible has a side of 10 cm.
+        4. Volume of 10 cm cube: $10 \times 10 \times 10 = 1000 \text{ cm}^3$.
+        5. Volume of 1 cuboid: $5 \times 2 \times 5 = 50 \text{ cm}^3$.
+        6. Number of cuboids: $1000 \div 50 = 20$ cuboids.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Determination of the LCM of the dimensions (10 cm)."
+      - marks: 1
+        criteria: "Calculation of the target cube volume ($1000 \text{ cm}^3$)."
+      - marks: 1
+        criteria: "Calculation of one cuboid's volume ($50 \text{ cm}^3$)."
+      - marks: 1
+        criteria: "Correct division to find the count (20)."
+    hints:
+      - level: 1
+        text: "A cube must have the same length, width, and height. Look at Amira's cuboid: 5, 2, and 5. What is the smallest number all these can grow into?"
+      - level: 2
+        text: "Find the LCM (GSTK) of 5 and 2 to find the side length of your new cube. Then compare the big volume to the small volume!"

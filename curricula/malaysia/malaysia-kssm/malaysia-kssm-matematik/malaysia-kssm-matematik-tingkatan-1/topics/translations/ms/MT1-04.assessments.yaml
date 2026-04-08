@@ -1,0 +1,150 @@
+topic_id: MT1-04
+provenance: "Draf Induk KSSM selaras DSKP"
+questions:
+  # --- 4.1 Nisbah ---
+  - id: Q411-01
+    text: "Sebuah pasukan terdiri daripada 12 pemain bola sepak, 8 pemain bola tampar, dan 4 pemain bola keranjang. Wakilkan hubungan pemain bola sepak kepada pemain bola tampar kepada pemain bola keranjang dalam bentuk $a : b : c$ dalam bentuk termudah."
+    difficulty: "easy"
+    learning_objective: "4.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: "exact"
+      value: "3 : 2 : 1"
+      working: |
+        Langkah 1: Tulis nisbah awal berdasarkan kuantiti yang diberi: 12 : 8 : 4.
+        Langkah 2: Cari Faktor Sepunya Terbesar (FSTB) bagi 12, 8, dan 4, iaitu 4.
+        Langkah 3: Bahagikan setiap bahagian dengan 4: (12/4) : (8/4) : (4/4) = 3 : 2 : 1.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti nisbah awal 12 : 8 : 4 dengan betul."
+      - marks: 1
+        criteria: "Memudahkan nisbah kepada 3 : 2 : 1."
+    hints:
+      - level: 1
+        text: "Mula-mula, tulis nombor mengikut urutan yang disebut: Bola Sepak : Bola Tampar : Bola Keranjang."
+      - level: 2
+        text: "Ada tak nombor yang boleh bahagi 12, 8, dan 4 dengan tepat? Cuba bahagi dengan faktor sepunya terbesar untuk memudahkan nisbah."
+
+  - id: Q412-01
+    text: "Padankan pasangan nisbah setara yang berikut."
+    difficulty: "easy"
+    learning_objective: "4.1.2"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: "mapping"
+      value: 
+        "6 : 9": "2 : 3"
+        "6 : 90": "1 : 15"
+        "9 : 60": "3 : 20"
+      working: |
+        - 6:9 boleh dibahagi dengan 3 -> 2:3.
+        - 6:90 boleh dibahagi dengan 6 -> 1:15.
+        - 9:60 boleh dibahagi dengan 3 -> 3:20.
+    marks: 3
+    rubric:
+      - marks: 3
+        criteria: "Memadankan ketiga-tiga pasangan nisbah setara dengan betul."
+    hints:
+      - level: 1
+        text: "Nisbah setara adalah seperti pecahan setara. Cuba mudahkan nisbah yang lebih besar di sebelah kiri."
+
+  # --- 4.2 Kadar ---
+  - id: Q421-01
+    text: "Antara yang berikut, yang manakah menghuraikan satu 'kadar'?"
+    difficulty: "medium"
+    learning_objective: "4.2.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "Sebuah kereta bergerak sejauh 285 km dalam tempoh 3 jam."
+      working: |
+        Kadar ialah nisbah khas yang membandingkan dua kuantiti dengan unit yang berbeza (jarak dan masa).
+      distractors:
+        - value: "Nisbah 500 g kepada 9 kg."
+          feedback: "Ini adalah nisbah kerana kedua-duanya melibatkan jisim dan boleh ditukar kepada unit yang sama (gram)."
+        - value: "Membandingkan 2 minggu kepada 14 hari."
+          feedback: "Ini adalah perbandingan masa dalam jenis unit yang sama, menjadikannya nisbah, bukan kadar."
+        - value: "Nisbah 3 murid lelaki kepada 4 murid perempuan."
+          feedback: "Ini membandingkan kuantiti jenis yang sama (manusia), jadi ia adalah nisbah standard."
+    marks: 1
+
+  # --- 4.3 Kadaran ---
+  - id: Q432-01
+    text: "Kos tenaga elektrik ialah 43.6 sen bagi 2 kilowatt-jam (kWj). Berapakah kos bagi 30 kWj?"
+    difficulty: "medium"
+    learning_objective: "4.3.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: "exact"
+      value: "654 sen"
+      working: |
+        Langkah 1: Bentuk satu kadaran: $\frac{43.6 \text{ sen}}{2 \text{ kWj}} = \frac{x \text{ sen}}{30 \text{ kWj}}$.
+        Langkah 2: Pendaraban silang: $2x = 43.6 \times 30$.
+        Langkah 3: Selesaikan untuk x: $x = \frac{1308}{2} = 654$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Membentuk persamaan kadaran yang betul."
+      - marks: 1
+        criteria: "Langkah pendaraban silang yang betul."
+      - marks: 1
+        criteria: "Jawapan akhir dengan unit yang betul."
+    hints:
+      - level: 1
+        text: "Fikirkan perkaitan ini: jika 2 kWj berharga jumlah tertentu, 30 kWj mestilah berharga lebih mengikut kadaran yang sama."
+      - level: 2
+        text: "Cuba gunakan kaedah unitari dulu: cari kos untuk 1 kWj dengan membahagi 43.6 dengan 2."
+
+  # --- 4.4 Nisbah, Kadar dan Kadaran ---
+  - id: Q444-01
+    text: "Seorang pekebun menggunakan kaedah tangkap, tanda, lepas dan tangkap semula untuk menganggarkan populasi siput. Dia menandakan 24 ekor siput. Kemudian, dia menangkap semula 30 ekor siput dan mendapati 5 ekor adalah bertanda. Anggarkan jumlah populasi siput tersebut."
+    difficulty: "hard"
+    learning_objective: "4.4.4"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: "exact"
+      value: "144"
+      working: |
+        Langkah 1: Gunakan kadaran $\frac{\text{Bilangan siput bertanda}}{\text{Jumlah populasi}} = \frac{\text{Bertanda dalam tangkapan semula}}{\text{Jumlah ditangkap semula}}$.
+        Langkah 2: $\frac{24}{x} = \frac{5}{30}$.
+        Langkah 3: Permudahkan $\frac{5}{30}$ kepada $\frac{1}{6}$.
+        Langkah 4: $\frac{24}{x} = \frac{1}{6} \implies x = 24 \times 6 = 144$.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Mengenal pasti hubungan antara sampel bertanda dengan jumlah populasi dengan betul."
+      - marks: 2
+        criteria: "Menyelesaikan kadaran untuk mencari anggaran akhir."
+    hints:
+      - level: 1
+        text: "Nisbah siput bertanda kepada jumlah populasi sepatutnya sama dengan nisbah siput bertanda dalam sampel kedua kepada jumlah sampel kedua tersebut."
+
+  # --- 4.5 Perkaitan dengan Peratusan ---
+  - id: Q453-01
+    text: "Leonardo da Vinci mengkaji hubungan nisbah pada tubuh manusia. Salah satu nisbah yang digunakan ialah $\frac{\text{tinggi kepala}}{\text{tinggi keseluruhan tubuh}} = \frac{2}{5}$. Jika tinggi keseluruhan seseorang ialah 175 cm, berapakah anggaran tinggi kepalanya?"
+    difficulty: "hard"
+    learning_objective: "4.5.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: "exact"
+      value: "70 cm"
+      working: |
+        Langkah 1: Bentuk kadaran: $\frac{2}{5} = \frac{x}{175}$.
+        Langkah 2: Selesaikan untuk x: $x = \frac{2 \times 175}{5}$.
+        Langkah 3: $x = \frac{350}{5} = 70$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Membentuk kadaran berdasarkan nisbah Vitruvian."
+      - marks: 2
+        criteria: "Mengira tinggi kepala dengan betul."
+    hints:
+      - level: 1
+        text: "Ingat bahawa nisbah $\frac{2}{5}$ membandingkan kepala kepada tinggi keseluruhan. Jika tinggi keseluruhan ialah 175, berapa kali ganda ia lebih besar daripada 5?"
