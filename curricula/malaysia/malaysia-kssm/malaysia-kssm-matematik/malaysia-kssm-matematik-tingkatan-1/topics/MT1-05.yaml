@@ -1,48 +1,65 @@
 id: MT1-05
-official_ref: "Bab 5"  # as printed in KSSM DSKP document
-name: "Ungkapan Algebra"
+official_ref: "Chapter 5"
 name_en: "Algebraic Expressions"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-1
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: beginner
 tier: core
 
+content_standards:
+  - id: "5.1"
+    text_en: "Variables and algebraic expressions"
+  - id: "5.2"
+    text_en: "Algebraic expressions involving basic arithmetic operations"
+
 learning_objectives:
-  - id: 5.1.1
-    text: "Use letters to represent unknown quantities and justify whether the variable is fixed or varying."
+  - id: "5.1.1"
+    content_standard_id: "5.1"
+    text_en: "Use letters to represent quantities with unknown values. Hence, state whether the value of the variable varies or fixed, with justification."
     bloom: apply
-  - id: 5.1.2
-    text: "Derive algebraic expressions from arithmetic expressions that represent a situation."
+  - id: "5.1.2"
+    content_standard_id: "5.1"
+    text_en: "Derive algebraic expressions based on arithmetic expressions that represent a situation."
     bloom: apply
-  - id: 5.1.3
-    text: "Determine values of algebraic expressions by substitution and relate the result to context."
+  - id: "5.1.3"
+    content_standard_id: "5.1"
+    text_en: "Determine the values of algebraic expressions given the values of variables and make connection with appropriate situations."
     bloom: apply
-  - id: 5.1.4
-    text: "Identify terms in an algebraic expression and state possible coefficients for algebraic terms."
+  - id: "5.1.4"
+    content_standard_id: "5.1"
+    text_en: "Identify the terms in an algebraic expression. Hence, state the possible coefficients for the algebraic terms."
     bloom: understand
-  - id: 5.1.5
-    text: "Identify like and unlike terms."
+  - id: "5.1.5"
+    content_standard_id: "5.1"
+    text_en: "Identify like and unlike terms."
     bloom: understand
-  - id: 5.2.1
-    text: "Add and subtract two or more algebraic expressions correctly."
+  - id: "5.2.1"
+    content_standard_id: "5.2"
+    text_en: "Add and subtract two or more algebraic expressions."
     bloom: apply
-  - id: 5.2.2
-    text: "Generalise repeated multiplication of algebraic expressions."
+  - id: "5.2.2"
+    content_standard_id: "5.2"
+    text_en: "Make generalisation about repeated multiplication of algebraic expressions."
     bloom: apply
-  - id: 5.2.3
-    text: "Multiply or divide one-term algebraic expressions."
+  - id: "5.2.3"
+    content_standard_id: "5.2"
+    text_en: "Multiply and divide algebraic expressions with one term."
     bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate the basic knowledge of variables and algebraic expressions."
+  - level: 2
+    descriptor_en: "Demonstrate the understanding of variables and algebraic expressions."
+  - level: 3
+    descriptor_en: "Apply the understanding of algebraic expressions to perform simple tasks."
 
 prerequisites:
-  required: []
-  recommended: []
-
-bloom_levels:
-  - understand
-  - apply
+  required:
+    - id: MT1-01
 
 mastery:
   minimum_score: 0.75
@@ -52,5 +69,8 @@ mastery:
     multiplier: 2.5
 
 ai_teaching_notes: "MT1-05.teaching.md"
-quality_level: 1
-provenance: ai-assisted
+assessments_file: "MT1-05.assessments.yaml"
+examples_file: "MT1-05.examples.yaml"
+
+quality_level: 2
+provenance: "expert-reviewed"

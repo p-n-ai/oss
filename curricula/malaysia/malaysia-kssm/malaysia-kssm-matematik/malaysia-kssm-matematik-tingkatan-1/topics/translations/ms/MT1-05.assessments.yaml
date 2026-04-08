@@ -1,0 +1,149 @@
+id: MT1-05
+topic: "Ungkapan Algebra"
+questions:
+  - id: Q1
+    text: "Sofea mengambil masa yang tertentu, diwakili oleh huruf $k$, untuk perjalanan dari rumah ke sekolah setiap hari. Adakah pemboleh ubah $k$ mempunyai nilai yang tetap atau nilai yang berubah? Justifikasikan jawapan anda."
+    difficulty: easy
+    learning_objective: "5.1.1"
+    tp_level: 2
+    answer:
+      type: free_text
+      value: "Nilai yang berubah"
+      working: |
+        Masa perjalanan $k$ adalah kuantiti yang berubah mengikut keadaan trafik, cuaca, atau kelajuan. 
+        Merujuk muka surat 106, pemboleh ubah mempunyai nilai yang berubah jika kuantiti yang diwakili berubah mengikut masa.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti dengan betul sebagai 'nilai yang berubah'."
+      - marks: 1
+        criteria: "Justifikasi menyatakan bahawa masa perjalanan berubah setiap hari/mengikut masa."
+    hints:
+      - level: 1
+        text: "Fikirkan sama ada perjalanan harian mengambil masa dalam minit dan saat yang tepat sama setiap hari, atau adakah ia turun naik."
+
+  - id: Q2
+    text: "Tulis satu ungkapan algebra bagi situasi berikut: Jumlah kos membeli $m$ batang pen dengan harga RM 2 setiap satu dan $n$ batang pensel dengan harga RM 1 setiap satu."
+    difficulty: easy
+    learning_objective: "5.1.2"
+    tp_level: 3
+    answer:
+      type: exact
+      value: "2m + n"
+      working: |
+        1. Kos pen: $2 \times m = 2m$
+        2. Kos pensel: $1 \times n = n$
+        3. Jumlah kos: $2m + n$
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menerbitkan kos bagi pen (2m) atau pensel (n) dengan betul."
+      - marks: 1
+        criteria: "Ungkapan akhir yang betul: 2m + n (Terima n + 2m)."
+    hints:
+      - level: 1
+        text: "Darabkan harga satu item dengan jumlah item. Kemudian, tambahkan kedua-dua jumlah tersebut bersama-sama."
+
+  - id: Q3
+    text: "Dalam sebutan algebra $-8xy^2$, nyatakan pekali bagi $-x$."
+    difficulty: easy
+    learning_objective: "5.1.4"
+    tp_level: 2
+    answer:
+      type: exact
+      value: "8y^2"
+      working: |
+        Menggunakan kaedah 'Tutup':
+        Sebutan $-8xy^2$ boleh ditulis semula sebagai $(-x) \times (8y^2)$. 
+        Jika kita menutup bahagian $-x$, baki yang tinggal ialah $8y^2$.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Pekali yang betul (8y^2)."
+      - marks: 1
+        criteria: "Mengenal pasti pemboleh ubah yang betul tetapi terdapat ralat tanda (cth: -8y^2)."
+    hints:
+      - level: 1
+        text: "Tulis semula sebutan tersebut sebagai hasil darab $-x$ dan faktor-faktor yang lain. Apakah yang tinggal?"
+
+  - id: Q11
+    text: "Permudahkan: $(3xy - 2) - 2(xy - 5)$"
+    difficulty: medium
+    learning_objective: "5.2.1"
+    tp_level: 3
+    answer:
+      type: multiple_choice
+      value: "xy + 8"
+      working: |
+        Langkah 1 (Kembangkan): $3xy - 2 - 2(xy) - 2(-5) = 3xy - 2 - 2xy + 10$
+        Langkah 2 (Kumpulkan Sebutan Serupa): $(3xy - 2xy) + (-2 + 10)$
+        Langkah 3 (Permudahkan): $xy + 8$
+      distractors:
+        - value: "xy - 12"
+          feedback: "Anda mungkin melakukan kesilapan tanda semasa mendarab $-2$ dengan $-5$. Ingat, negatif darab negatif ialah positif ($+10$)."
+        - value: "5xy + 8"
+          feedback: "Semak semula penolakan sebutan serupa anda. $3xy - 2xy$ sepatutnya $1xy$, bukannya $5xy$."
+        - value: "xy - 7"
+          feedback: "Nampaknya anda menggabungkan $-2$ dan $-5$ sebelum mengembangkan kurungan. Anda mesti mendarab pemalar di luar kurungan terlebih dahulu."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Kembangkan kurungan kedua terlebih dahulu. Berhati-hati dengan tanda negatif di hadapan angka 2; ia mesti diagihkan kepada kedua-dua sebutan di dalam kurungan."
+
+  - id: Q15
+    text: "Umur ibu Azhar adalah empat kali umur Azhar pada tahun lepas. Jika umur Azhar sekarang ialah $n$ tahun, nyatakan umur ibunya dalam masa tujuh tahun lagi dalam sebutan $n$."
+    difficulty: hard
+    learning_objective: "5.1.2"
+    tp_level: 3
+    kbat: true
+    answer:
+      type: exact
+      value: "4n + 4"
+      working: |
+        1. Umur Azhar tahun lepas: $n - 1$
+        2. Umur ibu tahun lepas: $4(n - 1) = 4n - 4$
+        3. Umur ibu sekarang: $(4n - 4) + 1 = 4n - 3$
+        4. Umur ibu dalam 7 tahun: $(4n - 3) + 7 = 4n + 4$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mendeduksi umur ibu tahun lepas dengan betul: 4(n - 1)."
+      - marks: 1
+        criteria: "Menerbitkan umur semasa ibu dengan betul: 4n - 3."
+      - marks: 1
+        criteria: "Ungkapan akhir yang betul: 4n + 4."
+    hints:
+      - level: 1
+        text: "Mulakan dengan menyatakan umur Azhar 'tahun lepas'. Kemudian darabkan dengan 4 untuk mendapatkan umur ibunya 'tahun lepas'."
+      - level: 2
+        text: "Sekarang, bawa umur ibu ke masa 'sekarang' dengan menambah 1, dan kemudian ke masa 'hadapan' dengan menambah 7."
+
+  - id: Q16
+    text: "Seutas reben sepanjang $p$ cm dipotong kepada tiga bahagian. Panjang bahagian pertama dan kedua masing-masing ialah $x$ cm dan $2x$ cm. (a) Tulis satu ungkapan bagi panjang bahagian ketiga. (b) Jika $x = 10$ dan panjang bahagian kedua adalah empat kali panjang bahagian ketiga, hitung nilai $p$."
+    difficulty: hard
+    learning_objective: "5.2.1"
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "(a) p - 3x, (b) 35"
+      working: |
+        (a) Bahagian ketiga = Jumlah ($p$) - Pertama ($x$) - Kedua ($2x$) = $p - 3x$.
+        (b) Jika $x = 10$, Bahagian kedua = $2(10) = 20$.
+        Bahagian kedua (20) = $4 \times$ Bahagian ketiga. Maka, Bahagian ketiga = $20/4 = 5$.
+        Gunakan bahagian (a): $5 = p - 3(10) \Rightarrow 5 = p - 30 \Rightarrow p = 35$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Ungkapan yang betul bagi (a): p - 3x."
+      - marks: 1
+        criteria: "Mengenal pasti nilai berangka bagi bahagian ke-2 dan ke-3 (20 dan 5)."
+      - marks: 1
+        criteria: "Penggantian: 5 = p - 30."
+      - marks: 1
+        criteria: "Nilai akhir p = 35."
+    hints:
+      - level: 1
+        text: "Untuk bahagian (a), bayangkan reben itu sebagai satu keseluruhan. Jika anda membuang dua bahagian pertama, apakah yang tinggal?"
+      - level: 2
+        text: "Untuk bahagian (b), selesaikan nilai yang boleh diketahui dahulu. Oleh kerana anda tahu $x=10$, anda boleh mencari panjang sebenar bahagian kedua."

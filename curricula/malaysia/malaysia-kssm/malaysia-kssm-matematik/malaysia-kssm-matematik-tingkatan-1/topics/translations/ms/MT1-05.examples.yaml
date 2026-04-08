@@ -1,0 +1,70 @@
+id: MT1-05
+topic_id: MT1-05
+worked_examples:
+  - id: WE-01
+    topic: "Pemboleh Ubah dan Ungkapan Algebra"
+    learning_objective: "5.1.2"
+    difficulty: easy
+    real_world_analogy: "Bayangkan sebuah beg kertas biru di acara Hari Sukan. Anda tidak nampak apa di dalamnya, jadi jumlah guli yang tidak diketahui itu ialah pemboleh ubah anda, $x$. Menambah guli ialah $+$, mengeluarkan guli ialah $-$, dan membahagi guli dengan kawan-kawan ialah operasi bahagi."
+    misconception_alert: "Pelajar sering keliru antara pemboleh ubah (kuantiti tidak diketahui seperti $x$) dengan pemalar (nombor tetap seperti 3). Ingatkan mereka bahawa $x$ boleh mewakili sebarang nilai sehingga kita menyelesaikannya, manakala 3 akan sentiasa bernilai 3."
+    scenario: "Menerbitkan ungkapan algebra daripada situasi: Sebuah beg mengandungi $x$ blok kayu. 3 blok kayu ditambah ke dalam beg itu. Kemudian, semua blok di dalam beg itu dibahagi sama rata kepada 2 orang murid. Tulis satu ungkapan algebra bagi bilangan blok yang diterima oleh setiap murid."
+    working: |
+      1. Kenal pasti jumlah awal yang tidak diketahui:
+         Beg bermula dengan $x$ blok kayu.
+      2. Terjemahkan tindakan pertama ('3 blok kayu ditambah'):
+         Tambah bermaksud kita gunakan operator tambah ($+$).
+         Ungkapan menjadi: $x + 3$
+      3. Terjemahkan tindakan kedua ('dibahagi sama rata kepada 2 orang murid'):
+         Keseluruhan blok $(x + 3)$ perlu dikongsi.
+         Dalam algebra, pembahagian bagi keseluruhan ungkapan ditulis menggunakan garis pecahan.
+      4. Jawapan Akhir:
+         $\frac{x + 3}{2}$
+
+  - id: WE-02
+    topic: "Penambahan dan Penolakan Ungkapan Algebra"
+    learning_objective: "5.2.1"
+    difficulty: medium
+    real_world_analogy: "Fikirkan tentang mengasingkan pesanan di gerai Mamak. Anda boleh kumpulkan Roti Canai ($p$) dengan Roti Canai yang lain, dan Teh Tarik ($q$) dengan Teh Tarik, tetapi anda tidak boleh gabungkan mereka menjadi satu item 'Roti-Teh'. Mereka mesti kekal asing!"
+    misconception_alert: "Perangkap 'Suis Negatif': Apabila terdapat tanda tolak di hadapan kurungan, SETIAP sebutan di dalam kurungan mesti ditukarkan tandanya. $-(p + 3q - 2)$ menjadi $-p - 3q + 2$. Jangan hanya tukar tanda bagi sebutan pertama sahaja!"
+    scenario: "Permudahkan ungkapan algebra berikut dengan menambah dan menolak sebutan serupa: $(6p + 2q + 10) - (p + 3q - 2)$."
+    working: |
+      1. Buka kurungan pertama (tiada tanda di hadapan bermaksud sebutan kekal sama):
+         $6p + 2q + 10$
+      2. Buka kurungan kedua dengan mengagihkan tanda negatif:
+         $-(p)$ menjadi $-p$
+         $-(+3q)$ menjadi $-3q$
+         $-(-2)$ menjadi $+2$
+         Ungkapan gabungan: $6p + 2q + 10 - p - 3q + 2$
+      3. Kumpulkan 'Sebutan Serupa' (sebutan dengan pemboleh ubah yang sama):
+         Pemboleh ubah ($p$): $6p - p$
+         Pemboleh ubah ($q$): $2q - 3q$
+         Pemalar: $10 + 2$
+      4. Permudahkan pekali:
+         Bagi $p$: $(6 - 1)p = 5p$
+         Bagi $q$: $(2 - 3)q = -1q$ atau hanya $-q$
+         Bagi pemalar: $10 + 2 = 12$
+      5. Jawapan Akhir:
+         $5p - q + 12$
+
+  - id: WE-03
+    topic: "Pendaraban dan Pembahagian Ungkapan Algebra"
+    learning_objective: "5.2.3"
+    difficulty: hard
+    real_world_analogy: "Buka dan Bungkus Kotak: Fikirkan sebutan algebra sebagai kotak yang telah dibungkus. Untuk membahagi, anda perlu 'membuka' kotak itu kepada faktor asasnya (seperti $y^2 = y \times y$), potong (mansuhkan) item yang muncul di atas dan di bawah, dan kemudian 'bungkus' semula baki yang tinggal."
+    misconception_alert: "Pelajar sering memansuhkan kuasa secara salah. Contohnya, membahagi $y^2$ dengan $y$ dan menyangka $y$ hilang sepenuhnya. Sentiasa kembangkan kuasa kepada pendaraban berulang terlebih dahulu untuk melihat baki yang sebenar."
+    scenario: "Hitung hasil bahagi bagi $21xy \times 6x \div 14y^2z$ dan nyatakan jawapan dalam bentuk pecahan termudah."
+    working: |
+      1. Tulis operasi dalam bentuk pecahan tunggal:
+         $\frac{21xy \times 6x}{14y^2z}$
+      2. Kembangkan semua sebutan kepada faktor asas (Pendaraban Berulang):
+         $\frac{21 \times x \times y \times 6 \times x}{14 \times y \times y \times z}$
+      3. Permudahkan pekali nombor:
+         Bahagi 21 dan 14 dengan faktor sepunya, 7: $21 \div 7 = 3$ dan $14 \div 7 = 2$.
+         Bahagi 6 di atas dengan baki 2 di bawah: $6 \div 2 = 3$ and $2 \div 2 = 1$.
+         Darabkan nombor yang tinggal di atas: $3 \times 3 = 9$.
+      4. Mansuhkan faktor pemboleh ubah sepunya:
+         Satu $y$ di atas dimansuhkan dengan satu $y$ di bawah.
+         Baki di atas: $x \times x = x^2$.
+         Baki di bawah: $y \times z = yz$.
+      5. Gabungkan semula baki faktor menjadi jawapan akhir:
+         $\frac{9x^2}{yz}$

@@ -1,0 +1,76 @@
+id: MT1-05
+official_ref: "Bab 5"
+name: "Ungkapan Algebra"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+
+content_standards:
+  - id: "5.1"
+    text: "Pemboleh ubah dan ungkapan algebra"
+  - id: "5.2"
+    text: "Ungkapan algebra yang melibatkan operasi asas aritmetik"
+
+learning_objectives:
+  - id: "5.1.1"
+    content_standard_id: "5.1"
+    text: "Menggunakan huruf untuk mewakilkan kuantiti yang tidak diketahui nilai. Seterusnya menyatakan sama ada pemboleh ubah itu mempunyai nilai yang tetap atau nilai yang berubah dengan memberi justifikasi."
+    bloom: apply
+  - id: "5.1.2"
+    content_standard_id: "5.1"
+    text: "Menerbitkan ungkapan algebra berdasarkan ungkapan aritmetik yang mewakili suatu situasi."
+    bloom: apply
+  - id: "5.1.3"
+    content_standard_id: "5.1"
+    text: "Menentukan nilai ungkapan algebra apabila nilai pemboleh ubah diberi dan membuat perkaitan dengan situasi yang sesuai."
+    bloom: apply
+  - id: "5.1.4"
+    content_standard_id: "5.1"
+    text: "Mengenal pasti sebutan dalam suatu ungkapan algebra. Seterusnya menyatakan pekali yang mungkin bagi sebutan algebra."
+    bloom: understand
+  - id: "5.1.5"
+    content_standard_id: "5.1"
+    text: "Mengenal pasti sebutan serupa dan sebutan tidak serupa."
+    bloom: understand
+  - id: "5.2.1"
+    content_standard_id: "5.2"
+    text: "Menambah dan menolak dua atau lebih ungkapan algebra."
+    bloom: apply
+  - id: "5.2.2"
+    content_standard_id: "5.2"
+    text: "Membuat generalisasi tentang pendaraban berulang ungkapan algebra."
+    bloom: apply
+  - id: "5.2.3"
+    content_standard_id: "5.2"
+    text: "Mendarab dan membahagi ungkapan algebra yang mengandungi satu sebutan."
+    bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor: "Mempamerkan pengetahuan asas tentang pemboleh ubah dan ungkapan algebra."
+  - level: 2
+    descriptor: "Mempamerkan kefahaman tentang pemboleh ubah dan ungkapan algebra."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman tentang ungkapan algebra untuk melaksanakan tugasan mudah."
+
+prerequisites:
+  required:
+    - id: MT1-01
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+ai_teaching_notes: "MT1-05.teaching.md"
+assessments_file: "MT1-05.assessments.yaml"
+examples_file: "MT1-05.examples.yaml"
+
+quality_level: 2
+provenance: "expert-reviewed"
