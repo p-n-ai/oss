@@ -57,20 +57,6 @@ mastery:
     initial_interval_days: 3
     multiplier: 2.5
 
-performance_standards:
-  - level: 1
-    descriptor: "Mempamerkan pengetahuan asas tentang persamaan garis lurus."
-  - level: 2
-    descriptor: "Mempamerkan kefahaman tentang garis lurus."
-  - level: 3
-    descriptor: "Mengaplikasikan kefahaman tentang garis lurus untuk melaksanakan tugasan mudah."
-  - level: 4
-    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang garis lurus dalam konteks penyelesaian masalah rutin yang mudah."
-  - level: 5
-    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang garis lurus dalam konteks penyelesaian masalah rutin yang kompleks."
-  - level: 6
-    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang garis lurus dalam konteks penyelesaian masalah bukan rutin secara kreatif."
-
 teaching:
   sequence:
     - "Langkah 1: Pengenalan y=mx+c (20 min)"

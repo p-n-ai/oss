@@ -134,7 +134,7 @@ questions:
         text: "Lihat operasi yang digunakan. Untuk operasi pendaraban asas yang sama, apakah jalan pintas untuk menggabungkan indeksnya?"
 
   - id: Q6
-    text: "Permudahkan ungkapan berikut menggunakan hukum indeks: $2^6 \div 2^2$."
+    text: "Permudahkan ungkapan berikut menggunakan hukum indeks: $2^6 \\div 2^2$."
     difficulty: medium
     tp_level: 3
     kbat: false
@@ -210,7 +210,7 @@ questions:
         text: "Pindahkan asas ke 'tingkat bawah' (penyebut) supaya indeks menjadi positif. Kemudian selesaikan macam biasa."
 
   - id: Q9
-    text: "Tukarkan nombor berikut kpd bentuk $\sqrt[n]{a^m}$: $125^{2/3}$. Kemudian, hitung nilai akhirnya tanpa menggunakan kalkulator."
+    text: "Tukarkan nombor berikut kpd bentuk $\\sqrt[n]{a^m}$: $125^{2/3}$. Kemudian, hitung nilai akhirnya tanpa menggunakan kalkulator."
     difficulty: medium
     tp_level: 3
     kbat: false
@@ -238,7 +238,7 @@ questions:
         text: "Dalam indeks pecahan, penyebut adalah 'punca' pokoknya, dan pengangka adalah 'kuasa' pada dahan."
 
   - id: Q10
-    text: "Permudahkan ungkapan berikut menggunakan hukum indeks: $\displaystyle\frac{(2^3 \times 3^2)^2}{2^4 \times 3^3}$."
+    text: "Permudahkan ungkapan berikut menggunakan hukum indeks: $\\displaystyle\\frac{(2^3 \\times 3^2)^2}{2^4 \\times 3^3}$."
     difficulty: medium
     tp_level: 4
     kbat: false
@@ -268,7 +268,7 @@ questions:
         text: "Mula-mula, kembangkan kuasa di luar kurungan (2) kepada indeks-indeks di dalam kurungan. Kemudian, kumpulkan asas 2 dan 3 secara berasingan."
 
   - id: Q11
-    text: "Permudahkan ungkapan berikut: $\displaystyle\frac{(2x^2 y^{-3})^3}{4x^{-1} y^4}$. Nyatakan jawapan anda dengan indeks positif."
+    text: "Permudahkan ungkapan berikut: $\\displaystyle\\frac{(2x^2 y^{-3})^3}{4x^{-1} y^4}$. Nyatakan jawapan anda dengan indeks positif."
     difficulty: hard
     tp_level: 4
     kbat: false
@@ -299,7 +299,7 @@ questions:
         text: "Pastikan kuasa di luar kurungan diaplikasikan kepada pekali (2) juga! Semasa membahagikan pemboleh ubah, tolakkan indeks bawah daripada indeks atas."
 
   - id: Q12
-    text: "Permudahkan ungkapan berikut yang melibatkan indeks pecahan dan indeks negatif: $\displaystyle\frac{(16p^8q^4)^{1/4}}{(p^{-2}q^3)^2}$."
+    text: "Permudahkan ungkapan berikut yang melibatkan indeks pecahan dan indeks negatif: $\\displaystyle\\frac{(16p^8q^4)^{1/4}}{(p^{-2}q^3)^2}$."
     difficulty: hard
     tp_level: 4
     kbat: false
@@ -364,7 +364,7 @@ questions:
         text: "Tulis semula 9 dan 27 sebagai kuasa bagi 3. Setelah asasnya semua sama, anda boleh mengabaikan asas tersebut dan selesaikan bahagian indeksnya seperti persamaan algebra biasa."
 
   - id: Q14
-    text: "Selesaikan persamaan serentak berikut untuk mencari nilai $x$ dan $y$:\n$8^x \times 2^y = 32$\n$3^x \div 9^y = \displaystyle\frac{1}{27}$"
+    text: "Selesaikan persamaan serentak berikut untuk mencari nilai $x$ dan $y$:\n$8^x \\times 2^y = 32$\n$3^x \\div 9^y = \\displaystyle\\frac{1}{27}$"
     difficulty: hard
     tp_level: 5
     kbat: true
@@ -407,7 +407,7 @@ questions:
         text: "Tukarkan semua asas dalam persamaan pertama kepada asas 2 and semua asas dalam persamaan kedua kepada asas 3. Ini akan menghasilkan dua persamaan linear mudah yang boleh diselesaikan."
 
   - id: Q15
-    text: "Dalam satu eksperimen yang dijalankan oleh Susan, didapati suhu sejenis logam meningkat daripada $25^{\circ}C$ kepada $T^{\circ}C$ mengikut persamaan $T = 25(1.2)^m$ apabila logam tersebut dipanaskan selama $m$ saat. Hitung beza suhu di antara saat kelima dengan saat keenam, dalam darjah Celsius terdekat."
+    text: "Dalam satu eksperimen yang dijalankan oleh Susan, didapati suhu sejenis logam meningkat daripada $25^{\\circ}C$ kepada $T^{\\circ}C$ mengikut persamaan $T = 25(1.2)^m$ apabila logam tersebut dipanaskan selama $m$ saat. Hitung beza suhu di antara saat kelima dengan saat keenam, dalam darjah Celsius terdekat."
     difficulty: hard
     tp_level: 5
     kbat: true

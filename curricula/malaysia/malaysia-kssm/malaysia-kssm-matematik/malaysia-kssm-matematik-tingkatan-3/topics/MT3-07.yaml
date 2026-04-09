@@ -9,6 +9,13 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+    - id: "7.1"
+      text: "Unjuran Ortogon"
+      text_en: "Orthogonal Projections"
+    - id: "7.2"
+      text: "Pelan dan Dongakan"
+      text_en: "Plans and Elevations"
 learning_objectives:
     - id: 7.1.1
       text: "Melukis unjuran ortogon."

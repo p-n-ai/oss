@@ -9,6 +9,10 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "4.1"
+      text: "Lukisan Berskala"
+      text_en: "Scale Drawing"
 learning_objectives:
     - id: "4.1.1"
       text: "Mengkaji dan menerangkan hubungan antara ukuran sebenar objek dan lukisan pelbagai saiz objek tersebut, dan seterusnya menerangkan maksud lukisan berskala."

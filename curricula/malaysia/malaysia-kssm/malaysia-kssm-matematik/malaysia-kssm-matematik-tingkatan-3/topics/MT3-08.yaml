@@ -9,6 +9,13 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "8.1"
+      text: "Lokus"
+      text_en: "Locus"
+    - id: "8.2"
+      text: "Lokus dalam Dua Dimensi"
+      text_en: "Locus in Two Dimensions"
 learning_objectives:
     - id: "8.1.1"
       text: "Mengenal lokus dalam situasi kehidupan sebenar, dan seterusnya menerangkan maksud lokus."

@@ -9,6 +9,13 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+    - id: "3.1"
+      text: "Simpanan dan Pelaburan"
+      text_en: "Savings and Investments"
+    - id: "3.2"
+      text: "Kredit dan Hutang"
+      text_en: "Credit and Debt"
 learning_objectives:
     - id: "3.1.1"
       text: "Mengenal pelbagai jenis simpanan dan pelaburan."

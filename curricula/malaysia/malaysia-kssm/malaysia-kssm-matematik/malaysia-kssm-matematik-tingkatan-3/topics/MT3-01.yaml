@@ -1,5 +1,6 @@
 id: MT3-01
 official_ref: "Bab 1"
+name: "Indeks"
 name_en: "Indices"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-3
 subject_id: malaysia-kssm-matematik
@@ -52,20 +53,6 @@ learning_objectives:
     content_standard_id: "1.2"
     text_en: "Solve problems involving laws of indices."
     bloom: apply
-
-performance_standards:
-  - level: 1
-    descriptor_en: "Demonstrate basic knowledge of index notation."
-  - level: 2
-    descriptor_en: "Demonstrate understanding of the laws of indices."
-  - level: 3
-    descriptor_en: "Apply understanding of the laws of indices to perform simple tasks."
-  - level: 4
-    descriptor_en: "Apply appropriate knowledge and skills of the laws of indices in the context of simple routine problem solving."
-  - level: 5
-    descriptor_en: "Apply appropriate knowledge and skills of the laws of indices in the context of complex routine problem solving."
-  - level: 6
-    descriptor_en: "Apply appropriate knowledge and skills of the laws of indices in the context of non-routine problem solving in a creative manner."
 
 prerequisites:
   required: 

@@ -9,6 +9,13 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+    - id: "2.1"
+      text: "Angka Bererti"
+      text_en: "Significant Figures"
+    - id: "2.2"
+      text: "Bentuk Piawai"
+      text_en: "Standard Form"
 learning_objectives:
     - id: "2.1.1"
       text: "Menerangkan maksud angka bererti dan seterusnya menentukan bilangan angka bererti suatu nombor."

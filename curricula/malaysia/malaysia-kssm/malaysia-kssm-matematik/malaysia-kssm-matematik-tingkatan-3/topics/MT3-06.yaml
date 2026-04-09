@@ -9,6 +9,19 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "6.1"
+      text: "Sudut pada Lilitan dan Sudut Pusat"
+      text_en: "Angles at the Circumference and Central Angles"
+    - id: "6.2"
+      text: "Sisi Empat Kitaran"
+      text_en: "Cyclic Quadrilaterals"
+    - id: "6.3"
+      text: "Tangen kepada Bulatan"
+      text_en: "Tangents to a Circle"
+    - id: "6.4"
+      text: "Tangen Sepunya"
+      text_en: "Common Tangents"
 learning_objectives:
     - id: "6.1.1"
       text: "Membuat dan menentusahkan konjektur tentang hubungan antara (i) sudut-sudut pada lilitan, (ii) sudut pada lilitan dan sudut pusat yang dicangkum oleh lengkok tertentu, dan seterusnya menggunakan hubungan tersebut untuk menentukan nilai sudut dalam bulatan."

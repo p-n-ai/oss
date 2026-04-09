@@ -134,7 +134,7 @@ questions:
         text: "Look at the operation. For multiplication of the same base, what is the shortcut for combining their indices?"
 
   - id: Q6
-    text: "Simplify the following expression using the laws of indices: $2^6 \div 2^2$."
+    text: "Simplify the following expression using the laws of indices: $2^6 \\div 2^2$."
     difficulty: medium
     tp_level: 3
     kbat: false
@@ -210,7 +210,7 @@ questions:
         text: "Move the base to the bottom floor (denominator) to make the index positive. Then solve it normally."
 
   - id: Q9
-    text: "Express the following number in the form $\sqrt[n]{a^m}$: $125^{2/3}$. Then, calculate its final value without using a calculator."
+    text: "Express the following number in the form $\\sqrt[n]{a^m}$: $125^{2/3}$. Then, calculate its final value without using a calculator."
     difficulty: medium
     tp_level: 3
     kbat: false
@@ -238,7 +238,7 @@ questions:
         text: "In a fractional index, the denominator is the root of the tree, and the numerator is the power in the branches."
 
   - id: Q10
-    text: "Simplify the following expression using the laws of indices: $\displaystyle\frac{(2^3 \times 3^2)^2}{2^4 \times 3^3}$."
+    text: "Simplify the following expression using the laws of indices: $\\displaystyle\\frac{(2^3 \\times 3^2)^2}{2^4 \\times 3^3}$."
     difficulty: medium
     tp_level: 4
     kbat: false
@@ -268,7 +268,7 @@ questions:
         text: "First, distribute the outside power (2) to the indices inside the bracket. Then, group the bases 2 and 3 separately."
 
   - id: Q11
-    text: "Simplify the following expression: $\displaystyle\frac{(2x^2 y^{-3})^3}{4x^{-1} y^4}$. Express your answer with positive indices."
+    text: "Simplify the following expression: $\\displaystyle\\frac{(2x^2 y^{-3})^3}{4x^{-1} y^4}$. Express your answer with positive indices."
     difficulty: hard
     tp_level: 4
     kbat: false
@@ -299,7 +299,7 @@ questions:
         text: "Apply the power outside the bracket to the coefficient (2) as well! When dividing variables, subtract the bottom index from the top index."
 
   - id: Q12
-    text: "Simplify the following expression involving fractional and negative indices: $\displaystyle\frac{(16p^8q^4)^{1/4}}{(p^{-2}q^3)^2}$."
+    text: "Simplify the following expression involving fractional and negative indices: $\\displaystyle\\frac{(16p^8q^4)^{1/4}}{(p^{-2}q^3)^2}$."
     difficulty: hard
     tp_level: 4
     kbat: false
@@ -364,7 +364,7 @@ questions:
         text: "Rewrite 9 and 27 as powers of 3. Once all the bases match, you can drop them and solve the indices as a standard algebra equation."
 
   - id: Q14
-    text: "Solve the following simultaneous equations to find the values of $x$ and $y$:\n$8^x \times 2^y = 32$\n$3^x \div 9^y = \displaystyle\frac{1}{27}$"
+    text: "Solve the following simultaneous equations to find the values of $x$ and $y$:\n$8^x \\times 2^y = 32$\n$3^x \\div 9^y = \\displaystyle\\frac{1}{27}$"
     difficulty: hard
     tp_level: 5
     kbat: true
@@ -407,7 +407,7 @@ questions:
         text: "Convert all bases in the first equation to base 2 and all bases in the second equation to base 3. This will give you two simple linear equations you can solve together."
 
   - id: Q15
-    text: "In an experiment performed by Susan, the temperature of a metal rose from $25^{\circ}C$ to $T^{\circ}C$ according to the equation $T = 25(1.2)^m$ when the metal was heated for $m$ seconds. Calculate the difference in temperature between the fifth second and the sixth second, to the nearest degree Celsius."
+    text: "In an experiment performed by Susan, the temperature of a metal rose from $25^{\\circ}C$ to $T^{\\circ}C$ according to the equation $T = 25(1.2)^m$ when the metal was heated for $m$ seconds. Calculate the difference in temperature between the fifth second and the sixth second, to the nearest degree Celsius."
     difficulty: hard
     tp_level: 5
     kbat: true
