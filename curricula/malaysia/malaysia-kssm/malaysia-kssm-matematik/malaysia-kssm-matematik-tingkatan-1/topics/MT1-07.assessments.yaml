@@ -1,7 +1,5 @@
 topic_id: MT1-07
-topic_name: "Linear Inequalities"
-subject_grade_id: malaysia-kssm-matematik-tingkatan-1
-provenance: "expert-curated-dskp"
+provenance: ai-assisted
 
 questions:
   # --- SUBCHAPTER 7.1: Inequalities ---
@@ -167,7 +165,7 @@ questions:
       - marks: 1
         criteria: "Calculates the value -7 correctly."
       - marks: 1
-        criteria: "Flips symbol from $\geq$ to $\leq$."
+        criteria: "Flips symbol from $\\geq$ to $\\leq$."
     hints:
       - level: 1
         text: "Watch out! You are dividing by a negative number. What must you do to the sign?"
@@ -213,14 +211,14 @@ questions:
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Forms correct inequality $12 + 4p \leq 50$."
+        criteria: "Forms correct inequality $12 + 4p \\leq 50$."
       - marks: 1
-        criteria: "Solves algebra to get $p \leq 9.5$."
+        criteria: "Solves algebra to get $p \\leq 9.5$."
       - marks: 1
         criteria: "Interprets integer result in context."
     hints:
       - level: 1
-        text: "Total cost must be $\leq$ 50. Can she buy half a pen? No, so round down to the nearest whole number."
+        text: "Total cost must be $\\leq$ 50. Can she buy half a pen? No, so round down to the nearest whole number."
 
   - id: Q11
     text: "Given $-\\frac{1}{5}x \\geq -\\frac{3}{5}$. If $x$ is a positive integer, state the values of $x$."
@@ -239,7 +237,7 @@ questions:
         - value: "C"
           feedback: "Remember that 0 is not a positive integer."
         - value: "D"
-          feedback: "You forgot to flip the inequality sign! Multiplying by -5 flips $\geq$ to $\leq$."
+          feedback: "You forgot to flip the inequality sign! Multiplying by -5 flips $\\geq$ to $\\leq$."
     marks: 1
     rubric:
       - marks: 1
@@ -267,4 +265,4 @@ questions:
         criteria: "Correctly matches (ii) with one strict boundary."
     hints:
       - level: 1
-        text: "If the list includes the boundary number, use $\leq$. If it stops just before, use $<$."
+        text: "If the list includes the boundary number, use $\\leq$. If it stops just before, use $<$."

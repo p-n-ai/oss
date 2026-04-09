@@ -1,5 +1,6 @@
 id: MT1-07
 official_ref: "Chapter 7"
+name: "Ketaksamaan Linear"
 name_en: "Linear Inequalities"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-1
 subject_id: malaysia-kssm-matematik
@@ -53,8 +54,8 @@ performance_standards:
 
 prerequisites:
   required:
-    - id: MT1-05
-    - id: MT1-06
+    - "MT1-05"
+    - "MT1-06"
   recommended: []
 
 mastery:
@@ -75,12 +76,12 @@ teaching:
   common_misconceptions:
     - misconception: "Forgetting to flip the inequality sign when multiplying or dividing by a negative number."
       remediation: "Use the 'Mirror Reflection' analogy: Negatives reverse the world order (e.g., $10 > 5$ but $-10 < -5$)."
-    - misconception: "Confusing '>' with '$\geq$' (including or excluding the endpoint)."
+    - misconception: "Confusing '>' with '$\\geq$' (including or excluding the endpoint)."
       remediation: "Use the 'Fence Post' analogy: Does our range include the actual fence ($=$) or just the space up to it?"
     - misconception: "The 'Only One Answer' trap (Treating inequalities like equations)."
       remediation: "Always emphasize 'Range/Region of solutions'. Show them shaded areas on number lines."
   engagement_hooks:
-    - "Roller Coaster Height Limit: 'You must be at least 140cm to ride ($h \geq 140$).'"
+    - "Roller Coaster Height Limit: 'You must be at least 140cm to ride ($h \\geq 140$).'"
     - "Shopping Budget: 'RM50 to buy gifts. If a gift costs $k$, what is your budget limit?'"
     - "Temperature Range: 'Living in the Goldilocks Zone (Too hot vs Too cold).'"
 
