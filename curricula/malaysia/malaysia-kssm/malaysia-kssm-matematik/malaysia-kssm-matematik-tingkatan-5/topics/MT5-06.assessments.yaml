@@ -2,141 +2,123 @@ topic_id: MT5-06
 provenance: ai-generated
 
 questions:
-  # Learning Objective 6.1.1
+  # Learning Objective 6.1.1 (analyze)
   - id: Q1
-    text: 'Diberi sudut $150^\circ$, tentukan nilai sinus, kosinus, dan tangen sudut tersebut.'
+    text: 'Tentukan nilai sinus bagi sudut $120^\circ$ dan jelaskan bagaimana nilai ini berkaitan dengan sudut rujukan sepadan.'
     difficulty: medium
-    learning_objective: LO1
+    learning_objective: 6.1.1
     tp_level: 3
     kbat: true
     answer:
       type: exact
-      value: 'sin(150^\circ) = \frac{1}{2}, \cos(150^\circ) = -\frac{\sqrt{3}}{2}, \tan(150^\circ) = -\frac{1}{\sqrt{3}}'
+      value: '0.866'
       working: |
-        - Sudut rujukan bagi $150^\circ$ ialah $180^\circ - 150^\circ = 30^\circ$.
-        - Oleh itu, $\sin(150^\circ) = \sin(30^\circ) = \frac{1}{2}$.
-        - $\cos(150^\circ) = -\cos(30^\circ) = -\frac{\sqrt{3}}{2}$.
-        - $\tan(150^\circ) = -\tan(30^\circ) = -\frac{1}{\sqrt{3}}$.
+        Sudut $120^\circ$ berada dalam sukuan II. Sudut rujukan sepadan ialah $180^\circ - 120^\circ = 60^\circ$. Nilai sinus bagi $60^\circ$ ialah $0.866$. Oleh itu, sinus bagi $120^\circ$ ialah $0.866$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menentukan sudut rujukan yang betul."
+        criteria: "Menentukan sudut rujukan sepadan."
       - marks: 1
-        criteria: "Mengira nilai sinus dan kosinus dengan betul."
+        criteria: "Mengetahui nilai sinus bagi sudut rujukan."
       - marks: 1
-        criteria: "Mengira nilai tangen dengan betul."
+        criteria: "Menerangkan hubungan nilai sinus dengan sudut rujukan."
     hints:
       - level: 1
-        text: 'Ingat bahawa sudut rujukan bagi sukuan II ialah $180^\circ - \text{sudut asal}$.'
-      - level: 2
-        text: 'Gunakan nilai fungsi trigonometri untuk $30^\circ$.'
+        text: 'Ingat bahawa sudut dalam sukuan II adalah $180^\circ - x$.'
 
-  # Learning Objective 6.1.3
+  # Learning Objective 6.1.2 (apply)
   - id: Q2
-    text: 'Cari sudut antara $0^\circ$ hingga $360^\circ$ yang mempunyai $\sin \theta = -\frac{\sqrt{2}}{2}$.'
+    text: 'Hitungkan nilai kosinus bagi sudut $240^\circ$.'
     difficulty: medium
-    learning_objective: LO2
+    learning_objective: 6.1.2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: '-0.5'
+      working: |
+        Sudut $240^\circ$ berada dalam sukuan III. Sudut rujukan sepadan ialah $240^\circ - 180^\circ = 60^\circ$. Nilai kosinus bagi $60^\circ$ ialah $0.5$. Oleh kerana sudut tersebut berada dalam sukuan III, nilai kosinus adalah negatif, jadi kosinus bagi $240^\circ$ ialah $-0.5$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menentukan sudut rujukan sepadan."
+      - marks: 1
+        criteria: "Mengira nilai kosinus berdasarkan sukuan."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Jangan lupa bahawa kosinus adalah negatif dalam sukuan III."
+
+  # Learning Objective 6.1.3 (apply)
+  - id: Q3
+    text: 'Cari sudut dalam julat $0^\circ \leq x < 360^\circ$ jika $\tan x = -1$.'
+    difficulty: medium
+    learning_objective: 6.1.3
     tp_level: 3
     kbat: false
     answer:
       type: multiple_choice
-      value: '225^\circ, 315^\circ'
+      value: '135^\circ, 315^\circ'
+      options:
+        - '45^\circ, 225^\circ'
+        - '135^\circ, 315^\circ'
+        - '90^\circ, 270^\circ'
+        - '180^\circ, 360^\circ'
       working: |
-        - $\sin \theta = -\frac{\sqrt{2}}{2}$ menunjukkan $\theta$ berada di sukuan III atau IV.
-        - Sudut rujukan bagi $\sin^{-1}(\frac{\sqrt{2}}{2})$ ialah $45^\circ$.
-        - Di sukuan III, $\theta = 180^\circ + 45^\circ = 225^\circ$.
-        - Di sukuan IV, $\theta = 360^\circ - 45^\circ = 315^\circ$.
+        Tan $x = -1$ bermaksud sudut tersebut berada dalam sukuan II atau IV. Sudut rujukan ialah $45^\circ$. Oleh itu, sudut yang mungkin ialah $180^\circ - 45^\circ = 135^\circ$ dan $360^\circ - 45^\circ = 315^\circ$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menentukan sudut rujukan dengan betul."
+        criteria: "Menentukan sudut rujukan yang betul."
       - marks: 1
-        criteria: "Menentukan sudut dalam sukuan III dan IV dengan betul."
+        criteria: "Menentukan sudut dalam sukuan II dan IV."
     hints:
       - level: 1
-        text: "Pertimbangkan bahawa nilai negatif menunjukkan sudut berada di sukuan III atau IV."
-      - level: 2
-        text: "Cari sudut rujukan terlebih dahulu."
+        text: "Ingat bahawa tangen adalah negatif dalam sukuan II dan IV."
 
-  # Learning Objective 6.2.1
-  - id: Q3
-    text: 'Lukis graf fungsi $y = \sin x$ bagi $0^\circ \leq x \leq 360^\circ$.'
+  # Learning Objective 6.2.1 (apply)
+  - id: Q4
+    text: 'Lukis graf fungsi $y = \cos x$ bagi $0^\circ \leq x \leq 360^\circ$.'
     difficulty: medium
-    learning_objective: LO3
-    tp_level: 3
+    learning_objective: 6.2.1
+    tp_level: 4
     kbat: false
     answer:
       type: free_text
-      value: 'Graf sinus dengan puncak pada $90^\circ$, $270^\circ$ adalah minima.'
+      value: 'Graf sinusoidal dengan puncak pada $0^\circ$, $180^\circ$, dan $360^\circ$.'
       working: |
-        - Graf sinus bermula dari titik asal $(0,0)$.
-        - Memuncak pada $(90^\circ, 1)$.
-        - Kembali ke titik asal pada $(180^\circ, 0)$.
-        - Di minima pada $(270^\circ, -1)$.
-        - Berakhir pada $(360^\circ, 0)$.
+        Graf $y = \cos x$ bermula dari 1 pada $0^\circ$, turun ke -1 pada $180^\circ$, dan kembali ke 1 pada $360^\circ$. Bentuk graf menyerupai gelombang sinusoidal.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menunjukkan bentuk gelombang sinus."
+        criteria: "Menentukan titik maksimum dan minimum."
       - marks: 1
-        criteria: "Menandakan puncak dan minima dengan betul."
+        criteria: "Melukis bentuk sinusoidal yang betul."
       - marks: 1
-        criteria: 'Melukis graf dari $0^\circ$ ke $360^\circ$ dengan betul.'
+        criteria: "Labelkan titik penting pada paksi x."
     hints:
       - level: 1
-        text: "Perhatikan bahawa graf sinus berbentuk gelombang."
-      - level: 2
-        text: 'Graf sinus mempunyai puncak pada $90^\circ$ dan minima pada $270^\circ$.'
+        text: 'Pertimbangkan bentuk asas graf kosinus dari $0^\circ$ ke $360^\circ$.'
 
-  # Learning Objective 6.2.2
-  - id: Q4
-    text: 'Kaji kesan pemalar $a$ terhadap graf fungsi $y = a \cos x$ dan nyatakan generalisasi kesannya.'
+  # Learning Objective 6.2.2 (create)
+  - id: Q5
+    text: 'Kaji kesan perubahan pemalar $a$ dalam fungsi $y = a\sin x$ dengan $a > 0$.'
     difficulty: medium
-    learning_objective: LO4
-    tp_level: 4
+    learning_objective: 6.2.2
+    tp_level: 5
     kbat: true
     answer:
       type: free_text
-      value: "Pemalar $a$ mengubah amplitud graf fungsi. Semakin besar nilai $a$, semakin tinggi amplitud graf."
+      value: 'Peningkatan nilai $a$ meningkatkan amplitud graf.'
       working: |
-        - Apabila $a > 1$, amplitud graf meningkat.
-        - Apabila $0 < a < 1$, amplitud graf menurun.
-        - $a$ tidak mengubah tempoh atau kedudukan graf.
-    marks: 2
+        Fungsi $y = a\sin x$ menunjukkan bahawa $a$ adalah amplitud fungsi. Apabila $a$ meningkat, amplitud graf juga meningkat, menyebabkan graf menegak lebih tinggi dan lebih rendah dari paksi x.
+    marks: 3
     rubric:
       - marks: 1
-        criteria: "Menerangkan perubahan amplitud dengan betul."
+        criteria: "Mengenalpasti peranan $a$ dalam persamaan."
       - marks: 1
-        criteria: "Menggeneralisasi kesan pemalar $a$ dengan tepat."
+        criteria: "Menjelaskan hubungan antara $a$ dan amplitud."
+      - marks: 1
+        criteria: "Memberikan contoh perubahan graf dengan nilai $a$ yang berbeza."
     hints:
       - level: 1
-        text: "Fokus pada bagaimana $a$ mempengaruhi ketinggian puncak dan lembah graf."
-      - level: 2
-        text: "Amplitud ialah jarak dari garis tengah ke puncak graf."
-
-  # Learning Objective 6.2.3
-  - id: Q5
-    text: 'Selesaikan masalah: Bagi fungsi $y = \tan x$, cari nilai $x$ antara $0^\circ$ hingga $360^\circ$ apabila $y = \sqrt{3}$.'
-    difficulty: medium
-    learning_objective: LO5
-    tp_level: 3
-    kbat: false
-    answer:
-      type: exact
-      value: '60^\circ, 240^\circ'
-      working: |
-        - $\tan x = \sqrt{3}$ menunjukkan $x$ berada di sukuan I dan III.
-        - Sudut rujukan bagi $\tan^{-1}(\sqrt{3})$ ialah $60^\circ$.
-        - Di sukuan I, $x = 60^\circ$.
-        - Di sukuan III, $x = 180^\circ + 60^\circ = 240^\circ$.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menentukan sudut rujukan dengan betul."
-      - marks: 1
-        criteria: "Menentukan sudut dalam sukuan I dan III dengan betul."
-    hints:
-      - level: 1
-        text: 'Ingat bahawa $\tan x$ mempunyai nilai positif di sukuan I dan III.'
-      - level: 2
-        text: 'Cari sudut rujukan terlebih dahulu untuk $\tan^{-1}(\sqrt{3})$.'
+        text: "MISCONCEPTION ALERT: Jangan keliru antara amplitud dan frekuensi."

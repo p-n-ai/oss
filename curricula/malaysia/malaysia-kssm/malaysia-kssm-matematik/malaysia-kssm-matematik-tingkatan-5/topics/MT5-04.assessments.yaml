@@ -4,117 +4,137 @@ provenance: ai-generated
 questions:
   # Learning Objective 4.1.1
   - id: Q1
-    text: "Apakah tujuan utama sistem percukaian diperkenalkan oleh kerajaan?"
+    text: 'Huraikan dua tujuan utama percukaian dalam sesebuah negara.'
     difficulty: medium
-    learning_objective: LO1
-    tp_level: 2
+    learning_objective: 4.1.1
+    tp_level: 3
     kbat: false
     answer:
-      type: multiple_choice
-      value: "Membiayai perbelanjaan awam dan mengagihkan kekayaan."
+      type: free_text
+      value: 'Tujuan utama percukaian adalah untuk membiayai perbelanjaan kerajaan dan mengurangkan ketidaksamaan pendapatan.'
       working: |
-        Kerajaan menggunakan percukaian untuk mengumpul dana yang digunakan bagi perbelanjaan awam seperti infrastruktur, pendidikan, dan kesihatan. Percukaian juga berfungsi untuk mengagihkan kekayaan dalam masyarakat.
-    marks: 2
+        1. Perbelanjaan kerajaan: Cukai digunakan untuk membiayai infrastruktur awam seperti jalan raya, sekolah, dan hospital.
+        2. Mengurangkan ketidaksamaan pendapatan: Cukai progresif memastikan individu berpendapatan tinggi menyumbang lebih banyak, mengurangkan jurang kekayaan.
+    marks: 3
     rubric:
-      - marks: 1
-        criteria: "Menjawab sebahagian daripada tujuan percukaian dengan betul."
       - marks: 2
-        criteria: "Menjawab kedua-dua tujuan percukaian dengan betul."
+        criteria: "Menyenaraikan dan menghuraikan satu tujuan dengan contoh yang jelas."
+      - marks: 1
+        criteria: "Menyenaraikan tujuan tanpa huraian atau contoh."
     hints:
       - level: 1
-        text: "Pertimbangkan bagaimana kerajaan menggunakan hasil cukai."
+        text: "Fikirkan bagaimana cukai membantu kerajaan dan masyarakat."
+      - level: 2
+        text: "Pertimbangkan peranan cukai dalam pembiayaan dan pengagihan semula kekayaan."
 
   # Learning Objective 4.1.2
   - id: Q2
-    text: "Nyatakan dua jenis cukai yang dikenakan di Malaysia dan terangkan kesan pengelakan cukai dari aspek kewangan."
+    text: 'Apakah kesan negatif pengelakan cukai dari aspek perundangan dan kewangan?'
     difficulty: medium
-    learning_objective: LO2
-    tp_level: 2
-    kbat: false
-    answer:
-      type: free_text
-      value: "Cukai pendapatan dan cukai barang dan perkhidmatan (GST). Pengelakan cukai menyebabkan kerajaan kehilangan hasil yang boleh digunakan untuk perbelanjaan awam."
-      working: |
-        Cukai pendapatan dikenakan ke atas pendapatan individu dan syarikat, manakala GST dikenakan ke atas barang dan perkhidmatan. Pengelakan cukai mengurangkan hasil kerajaan, yang boleh menyebabkan kekurangan dalam dana bagi projek awam dan perkhidmatan.
-    marks: 4
-    rubric:
-      - marks: 1
-        criteria: "Menyatakan satu jenis cukai dengan betul."
-      - marks: 2
-        criteria: "Menyatakan dua jenis cukai dengan betul."
-      - marks: 1
-        criteria: "Menghuraikan kesan pengelakan cukai secara ringkas."
-      - marks: 2
-        criteria: "Menghuraikan kesan pengelakan cukai dengan jelas."
-    hints:
-      - level: 1
-        text: "Pertimbangkan jenis cukai yang anda pernah dengar dan kesan kepada kerajaan jika cukai tersebut dielakkan."
-
-  # Learning Objective 4.1.3
-  - id: Q3
-    text: "Jika Ali mempunyai pendapatan tahunan RM60,000, dan kadar cukai pendapatan adalah 15%, hitung jumlah cukai yang perlu dibayar oleh Ali."
-    difficulty: medium
-    learning_objective: LO3
-    tp_level: 3
-    kbat: false
-    answer:
-      type: exact
-      value: "RM9,000"
-      working: |
-        Jumlah cukai = Pendapatan tahunan x Kadar cukai
-        Jumlah cukai = RM60,000 x 0.15 = RM9,000
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menggunakan formula yang betul tetapi membuat kesilapan pengiraan."
-      - marks: 2
-        criteria: "Menggunakan formula yang betul dan mendapatkan jawapan yang tepat."
-    hints:
-      - level: 1
-        text: "Gunakan formula: Jumlah cukai = Pendapatan x Kadar cukai."
-
-  # Learning Objective 4.1.4
-  - id: Q4
-    text: "Seorang usahawan perlu membayar cukai korporat. Jika keuntungan syarikat adalah RM200,000 dan kadar cukai korporat adalah 20%, berapakah cukai yang perlu dibayar?"
-    difficulty: medium
-    learning_objective: LO4
-    tp_level: 3
-    kbat: false
-    answer:
-      type: exact
-      value: "RM40,000"
-      working: |
-        Cukai korporat = Keuntungan x Kadar cukai korporat
-        Cukai korporat = RM200,000 x 0.20 = RM40,000
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menggunakan formula yang betul tetapi membuat kesilapan pengiraan."
-      - marks: 2
-        criteria: "Menggunakan formula yang betul dan mendapatkan jawapan yang tepat."
-    hints:
-      - level: 1
-        text: "Ingat, cukai korporat = Keuntungan x Kadar cukai."
-
-  - id: Q5
-    text: "Seorang individu ingin mengelak cukai dengan cara yang tidak sah. Terangkan dua akibat perundangan yang boleh dihadapi oleh individu tersebut."
-    difficulty: medium
-    learning_objective: LO4
+    learning_objective: 4.1.2
     tp_level: 3
     kbat: true
     answer:
-      type: free_text
-      value: "Individu boleh didenda atau dipenjarakan kerana pengelakan cukai adalah kesalahan jenayah."
+      type: multiple_choice
+      value: 'c'
+      options:
+        a: 'Hanya memberi kesan kepada individu yang mengelak cukai.'
+        b: 'Meningkatkan pendapatan negara melalui denda.'
+        c: 'Mengurangkan pendapatan negara dan boleh membawa kepada tindakan undang-undang.'
+        d: 'Tidak memberi kesan kepada ekonomi negara.'
       working: |
-        Pengelakan cukai yang tidak sah dianggap sebagai jenayah. Akibatnya, individu boleh dikenakan denda yang berat atau dihukum penjara. Ini bertujuan untuk menguatkuasakan undang-undang dan memastikan kepatuhan kepada sistem percukaian.
-    marks: 3
+        Pengelakan cukai mengurangkan pendapatan negara kerana cukai yang tidak dibayar tidak boleh digunakan untuk perbelanjaan awam. Dari segi undang-undang, pengelakan cukai adalah kesalahan yang boleh dikenakan denda atau hukuman penjara.
+    marks: 2
     rubric:
-      - marks: 1
-        criteria: "Menyebut satu akibat perundangan dengan betul."
       - marks: 2
-        criteria: "Menyebut dua akibat perundangan dengan betul."
-      - marks: 3
-        criteria: "Menyebut dan menghuraikan dua akibat perundangan dengan betul."
+        criteria: "Memilih jawapan yang betul dan menghuraikan kesan dari kedua aspek."
+      - marks: 1
+        criteria: "Memilih jawapan yang betul tanpa huraian."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Pengelakan cukai yang tidak sah adalah kesalahan yang serius. Pertimbangkan kesan undang-undang."
+        text: "MISCONCEPTION ALERT: Pengelakan cukai bukan sahaja melibatkan individu, tetapi juga memberi kesan kepada ekonomi negara."
+      - level: 2
+        text: "Fikirkan bagaimana pengelakan cukai menjejaskan sumber pendapatan negara."
+
+  # Learning Objective 4.1.3
+  - id: Q3
+    text: 'Seorang individu dikenakan cukai pendapatan sebanyak 15%. Jika pendapatan bulanannya adalah RM4,000, hitung jumlah cukai tahunan yang perlu dibayar.'
+    difficulty: medium
+    learning_objective: 4.1.3
+    tp_level: 4
+    kbat: false
+    answer:
+      type: exact
+      value: '7200'
+      working: |
+        1. Pendapatan bulanan = RM4,000
+        2. Pendapatan tahunan = RM4,000 \times 12 = RM48,000
+        3. Cukai tahunan = 15\% \times RM48,000 = RM7,200
+    marks: 3
+    rubric:
+      - marks: 3
+        criteria: "Mengira pendapatan tahunan dan cukai dengan tepat."
+      - marks: 2
+        criteria: "Mengira pendapatan tahunan dengan tepat tetapi salah kira cukai."
+      - marks: 1
+        criteria: "Mengira salah satu dengan tepat."
+    hints:
+      - level: 1
+        text: "Pertama, kira pendapatan tahunan sebelum mengira cukai."
+      - level: 2
+        text: "Gunakan formula peratusan untuk mengira cukai daripada pendapatan tahunan."
+
+  # Learning Objective 4.1.3
+  - id: Q4
+    text: 'Ali membeli sebuah kereta yang dikenakan cukai jualan sebanyak 10%. Jika harga asal kereta tersebut adalah RM50,000, berapakah harga akhir yang perlu dibayar oleh Ali termasuk cukai?'
+    difficulty: medium
+    learning_objective: 4.1.3
+    tp_level: 4
+    kbat: false
+    answer:
+      type: exact
+      value: '55000'
+      working: |
+        1. Harga asal kereta = RM50,000
+        2. Cukai jualan = 10\% \times RM50,000 = RM5,000
+        3. Harga akhir = RM50,000 + RM5,000 = RM55,000
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Mengira cukai jualan dan harga akhir dengan tepat."
+      - marks: 1
+        criteria: "Mengira cukai jualan atau harga akhir dengan tepat."
+    hints:
+      - level: 1
+        text: "Kira cukai jualan berdasarkan harga asal sebelum menambah kepada jumlah keseluruhan."
+      - level: 2
+        text: "Ingat bahawa cukai jualan adalah tambahan kepada harga asal."
+
+  # Learning Objective 4.1.4
+  - id: Q5
+    text: 'Sebuah syarikat mendapati bahawa mereka telah membayar cukai lebih dari yang sepatutnya. Apakah langkah-langkah yang perlu diambil oleh syarikat tersebut untuk menyelesaikan isu ini?'
+    difficulty: medium
+    learning_objective: 4.1.4
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: 'Syarikat perlu menyemak semula penyata cukai dan mengemukakan rayuan kepada pihak berkuasa cukai untuk tuntutan bayaran balik.'
+      working: |
+        1. Semak semula penyata cukai untuk memastikan kesilapan.
+        2. Hubungi pihak berkuasa cukai dan maklumkan tentang kesilapan tersebut.
+        3. Kemukakan dokumen yang diperlukan untuk menyokong tuntutan bayaran balik.
+        4. Tindak lanjut secara berkala sehingga isu diselesaikan.
+    marks: 3
+    rubric:
+      - marks: 3
+        criteria: "Menghuraikan semua langkah dengan jelas dan terperinci."
+      - marks: 2
+        criteria: "Menghuraikan sebahagian langkah dengan beberapa kekurangan."
+      - marks: 1
+        criteria: "Menamakan langkah dengan huraian yang terhad."
+    hints:
+      - level: 1
+        text: "Pertama, semak semula dokumen cukai yang telah dikemukakan."
+      - level: 2
+        text: "Pertimbangkan proses rasmi yang terlibat dalam membuat rayuan kepada pihak berkuasa cukai."

@@ -2,155 +2,134 @@ topic_id: MT5-08
 provenance: ai-generated
 
 questions:
-  # Group by learning objective
+  # Learning Objective 8.1.1
   - id: Q1
-    text: "Terangkan konsep pemodelan matematik dan berikan satu contoh aplikasi dalam kehidupan sebenar."
+    text: 'Jelaskan konsep pemodelan matematik dan berikan satu contoh kehidupan sebenar di mana pemodelan ini boleh digunakan.'
     difficulty: medium
-    learning_objective: LO1
+    learning_objective: 8.1.1
     tp_level: 3
-    kbat: false
+    kbat: true
     answer:
       type: free_text
-      value: "Pemodelan matematik adalah proses menggunakan matematik untuk mewakili, menganalisis, dan membuat ramalan mengenai situasi dunia sebenar. Contoh: Menggunakan persamaan linear untuk meramalkan kos berdasarkan penggunaan bahan api."
+      value: 'Pemodelan matematik adalah proses menggunakan matematik untuk menggambarkan, menganalisis, dan menyelesaikan masalah dunia sebenar. Contoh: Meramal pertumbuhan populasi menggunakan fungsi eksponen.'
       working: |
-        Pemodelan matematik melibatkan:
-        1. Mengenalpasti masalah.
-        2. Membentuk model matematik (contoh: persamaan, fungsi).
-        3. Menganalisis model.
-        4. Menggunakan model untuk membuat keputusan atau ramalan.
+        1. Kenalpasti masalah dunia sebenar yang boleh dimodelkan secara matematik.
+        2. Pilih jenis fungsi yang sesuai untuk model tersebut.
+        3. Gunakan fungsi terpilih untuk menganalisis dan meramal hasil.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menjelaskan konsep pemodelan matematik secara ringkas."
+        criteria: 'Menjelaskan konsep pemodelan matematik.'
       - marks: 1
-        criteria: "Memberikan contoh aplikasi yang sesuai."
+        criteria: 'Memberikan contoh kehidupan sebenar.'
       - marks: 1
-        criteria: "Menghubungkan contoh dengan proses pemodelan matematik."
+        criteria: 'Menghubungkan contoh dengan pemodelan matematik.'
     hints:
       - level: 1
-        text: "Fikirkan bagaimana matematik boleh digunakan untuk menyelesaikan masalah harian."
+        text: 'Fikirkan bagaimana matematik boleh membantu menyelesaikan masalah sehari-hari.'
+      - level: 2
+        text: 'Apakah masalah yang memerlukan ramalan atau analisis yang tepat?'
 
+  # Learning Objective 8.1.2
   - id: Q2
-    text: "Diberikan fungsi linear $f(x) = 3x + 2$. Selesaikan $f(x) = 11$."
+    text: 'Sebuah syarikat memerlukan model untuk meramal keuntungan masa hadapan berdasarkan keuntungan masa lalu yang meningkat secara linear. Fungsi keuntungan diberikan oleh $P(t) = 5000t + 20000$, di mana $t$ adalah masa dalam tahun. Hitung keuntungan selepas 3 tahun.'
     difficulty: medium
-    learning_objective: LO2
+    learning_objective: 8.1.2
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "3"
+      value: '35000'
       working: |
-        Untuk menyelesaikan $f(x) = 11$, kita gantikan $f(x)$ dengan $3x + 2$:
-        \[
-        3x + 2 = 11
-        \]
-        Kurangkan 2 dari kedua-dua belah:
-        \[
-        3x = 9
-        \]
-        Bahagikan kedua-dua belah dengan 3:
-        \[
-        x = 3
-        \]
+        1. Gunakan fungsi $P(t) = 5000t + 20000$.
+        2. Gantikan $t = 3$: $P(3) = 5000 \times 3 + 20000 = 15000 + 20000 = 35000$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menulis persamaan yang betul selepas menggantikan $f(x)$."
+        criteria: 'Substitusi nilai $t = 3$ ke dalam fungsi.'
       - marks: 1
-        criteria: "Mengira nilai $x$ dengan betul."
+        criteria: 'Mengira keuntungan dengan tepat.'
     hints:
       - level: 1
-        text: "Substitusi dahulu nilai $f(x)$ dalam fungsi yang diberikan."
+        text: 'Gantikan nilai $t$ dalam fungsi untuk mencari keuntungan.'
+      - level: 2
+        text: 'Pastikan untuk menyelesaikan operasi perkalian sebelum penambahan.'
 
   - id: Q3
-    text: "Fungsi kuadratik $g(x) = x^2 - 4x - 5$ diberikan. Tentukan nilai $x$ di mana $g(x) = 0$."
+    text: 'Sebuah bakteria membiak secara eksponen. Jumlah bakteria pada masa $t$ diberikan oleh fungsi $N(t) = 100 \times e^{0.3t}$. Berapakah jumlah bakteria selepas 5 jam? (Gunakan $e \approx 2.718$)'
     difficulty: medium
-    learning_objective: LO2
-    tp_level: 3
-    kbat: true
+    learning_objective: 8.1.2
+    tp_level: 4
+    kbat: false
     answer:
       type: exact
-      value: "x = 5, x = -1"
+      value: '448'
       working: |
-        Untuk mencari nilai $x$, kita perlu menyelesaikan persamaan $x^2 - 4x - 5 = 0$.
-        Faktor persamaan:
-        \[
-        (x - 5)(x + 1) = 0
-        \]
-        Jadi, $x = 5$ atau $x = -1$.
+        1. Gunakan fungsi $N(t) = 100 \times e^{0.3t}$.
+        2. Substitusi $t = 5$: $N(5) = 100 \times e^{1.5} = 100 \times (2.718)^{1.5}$.
+        3. Hitung $e^{1.5} \approx 4.4817$, jadi $N(5) \approx 100 \times 4.4817 = 448$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menulis persamaan kuadratik yang betul."
+        criteria: 'Substitusi nilai $t = 5$ ke dalam fungsi.'
       - marks: 1
-        criteria: "Mengfaktor persamaan dengan betul."
+        criteria: 'Mengira $e^{1.5}$ dengan betul.'
       - marks: 1
-        criteria: "Menentukan kedua-dua nilai $x$ dengan betul."
+        criteria: 'Mengira jumlah bakteria dengan tepat.'
     hints:
       - level: 1
-        text: "Untuk menyelesaikan persamaan kuadratik, cuba memfaktorkan atau menggunakan formula kuadratik."
+        text: 'Gunakan kalkulator untuk menghitung nilai eksponen.'
+      - level: 2
+        text: 'Pastikan anda mengalikan hasil eksponen dengan 100.'
 
   - id: Q4
-    text: "Andaikan anda mempunyai pelaburan yang meningkat secara eksponen dengan fungsi $P(t) = P_0 e^{0.05t}$, di mana $P_0$ adalah jumlah awal, tentukan masa yang diperlukan untuk menggandakan pelaburan."
+    text: 'Diberikan fungsi kuadratik $f(x) = x^2 - 4x + 4$. Tentukan bilakah fungsi ini mencapai nilai minimum, dan apakah nilai minimum tersebut.'
     difficulty: medium
-    learning_objective: LO2
-    tp_level: 3
-    kbat: true
+    learning_objective: 8.1.2
+    tp_level: 4
+    kbat: false
     answer:
       type: exact
-      value: "t \approx 13.86"
+      value: 'Minimum pada $x = 2$, nilai minimum ialah 0.'
       working: |
-        Kita perlu mencari $t$ apabila $P(t) = 2P_0$.
-        \[
-        2P_0 = P_0 e^{0.05t}
-        \]
-        Bahagikan kedua-dua belah dengan $P_0$:
-        \[
-        2 = e^{0.05t}
-        \]
-        Ambil logaritma semulajadi pada kedua-dua belah:
-        \[
-        \ln(2) = 0.05t
-        \]
-        Selesaikan untuk $t$:
-        \[
-        t = \frac{\ln(2)}{0.05} \approx 13.86
-        \]
+        1. Fungsi kuadratik dalam bentuk $ax^2 + bx + c$ mempunyai titik minimum pada $x = -\frac{b}{2a}$.
+        2. Di sini, $a = 1$, $b = -4$, jadi $x = -\frac{-4}{2 \times 1} = 2$.
+        3. Substitusi $x = 2$ ke dalam fungsi: $f(2) = 2^2 - 4(2) + 4 = 0$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menulis persamaan eksponen yang betul."
+        criteria: 'Menentukan $x = -\frac{b}{2a}$ dengan betul.'
       - marks: 1
-        criteria: "Menggunakan logaritma untuk menyelesaikan persamaan."
+        criteria: 'Substitusi $x = 2$ ke dalam fungsi.'
       - marks: 1
-        criteria: "Mengira nilai $t$ dengan betul."
+        criteria: 'Mengira nilai minimum dengan tepat.'
     hints:
       - level: 1
-        text: "Gandakan pelaburan bermaksud $P(t) = 2P_0$. Gunakan logaritma untuk menyelesaikan eksponen."
+        text: 'Gunakan formula untuk mencari vertex fungsi kuadratik.'
+      - level: 2
+        text: 'Setelah menentukan $x$, substitusikan kembali ke dalam fungsi.'
 
   - id: Q5
-    text: "Jelaskan bagaimana pemodelan matematik boleh membantu dalam perancangan bandar, dan nyatakan satu fungsi matematik yang mungkin digunakan."
+    text: 'Seorang pelajar ingin memodelkan jumlah simpanan dalam akaun bank yang memberi faedah tahunan sebanyak 5%. Jika pelajar tersebut menyimpan RM1000 pada permulaan, modelkan persamaan yang menggambarkan nilai simpanan selepas $t$ tahun.'
     difficulty: medium
-    learning_objective: LO2
+    learning_objective: 8.1.2
     tp_level: 3
     kbat: true
     answer:
       type: free_text
-      value: "Pemodelan matematik membantu dalam perancangan bandar dengan menganalisis data seperti populasi, lalu lintas, dan sumber untuk membuat keputusan yang berkesan. Fungsi eksponen boleh digunakan untuk meramalkan pertumbuhan populasi."
+      value: '$A(t) = 1000(1.05)^t$'
       working: |
-        Pemodelan matematik dalam perancangan bandar melibatkan:
-        1. Pengumpulan data mengenai aspek-aspek penting.
-        2. Membina model untuk mensimulasikan senario berbeza.
-        3. Menggunakan model untuk membuat keputusan berasaskan bukti.
-        Contoh fungsi: Fungsi eksponen untuk meramalkan pertumbuhan populasi.
-    marks: 3
+        1. Mulakan dengan jumlah awal RM1000.
+        2. Faedah tahunan sebanyak 5% boleh dimodelkan sebagai pengganda 1.05.
+        3. Oleh itu, nilai simpanan selepas $t$ tahun adalah $A(t) = 1000(1.05)^t$.
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Menjelaskan kepentingan pemodelan dalam perancangan bandar."
+        criteria: 'Kenal pasti pengganda faedah tahunan.'
       - marks: 1
-        criteria: "Menyatakan aspek yang boleh dianalisis dengan pemodelan."
-      - marks: 1
-        criteria: "Memberikan contoh fungsi matematik yang relevan."
+        criteria: 'Menggunakan pengganda dalam persamaan eksponen.'
     hints:
       - level: 1
-        text: "Pertimbangkan bagaimana data dan analisis digunakan dalam membuat keputusan untuk pembangunan bandar."
+        text: 'Fikirkan bagaimana faedah tahunan mempengaruhi jumlah simpanan setiap tahun.'
+      - level: 2
+        text: 'Persamaan eksponen sering melibatkan pangkat tahun dan pengganda faedah.'

@@ -3,35 +3,43 @@ provenance: ai-generated
 description: "Worked examples for Matematik Pengguna: Percukaian"
 worked_examples:
   - id: WE-01
-    topic: "Tujuan Percukaian"
+    topic: "Pengenalan kepada Percukaian"
     difficulty: easy
-    real_world_analogy: "Mengumpulkan dana untuk membina taman awam seperti cara kerajaan mengumpul cukai untuk menyediakan kemudahan awam."
-    misconception_alert: "Pelajar sering menyangka semua cukai adalah sama, tetapi sebenarnya, cukai digunakan untuk tujuan yang berbeza seperti pembangunan infrastruktur dan pendidikan."
-    scenario: "Ali ingin memahami mengapa dia harus membayar cukai pendapatan setiap tahun."
+    tp_level: 2
+    kbat: false
+    learning_objective: "4.1.1: Menghuraikan tujuan percukaian."
+    real_world_analogy: "Memikirkan cukai sebagai yuran keahlian kelab negara yang membolehkan kita menggunakan kemudahan umum seperti jalan raya dan taman."
+    misconception_alert: "Ramai pelajar berfikir bahawa cukai hanya satu bebanan, tetapi ia adalah penting untuk pembangunan negara."
+    scenario: "Ali mendengar bahawa cukai adalah penting untuk negara. Dia ingin tahu apa tujuan utama percukaian."
     working: |
-      Step 1: Fahami bahawa cukai adalah sumber pendapatan utama kerajaan.
-      Step 2: Ali perlu tahu bahawa cukai digunakan untuk menyediakan perkhidmatan awam seperti kesihatan, pendidikan, dan infrastruktur.
-      Step 3: Oleh itu, dengan membayar cukai, Ali secara tidak langsung menyumbang kepada pembangunan negara dan kesejahteraan umum.
+      Step 1: Fahami bahawa cukai adalah sumbangan kewangan wajib yang dikenakan oleh kerajaan kepada individu atau perniagaan.
+      Step 2: Tujuan utama percukaian adalah untuk mengumpul dana bagi menampung perbelanjaan kerajaan seperti pembinaan sekolah, hospital, dan infrastruktur.
+      Step 3: Selain itu, cukai membantu dalam pengagihan semula pendapatan dan mengurangkan jurang ekonomi di kalangan rakyat.
 
   - id: WE-02
-    topic: "Kesan Pengelakan Cukai"
+    topic: "Jenis-jenis Cukai"
     difficulty: medium
-    real_world_analogy: "Mengelak membayar tiket letak kereta dan akibatnya mendapat denda yang lebih tinggi."
-    misconception_alert: "Ramai yang berfikir bahawa mengelak cukai tidak mempunyai akibat yang serius, tetapi sebenarnya ia boleh membawa kepada denda dan tindakan undang-undang."
-    scenario: "Siti cuba mengelak membayar cukai jualan dengan tidak melaporkan semua jualannya."
+    tp_level: 3
+    kbat: true
+    learning_objective: "4.1.2: Menghuraikan pelbagai cukai dan seterusnya kesan pengelakan cukai tersebut dari aspek perundangan dan kewangan."
+    real_world_analogy: "Menganggap pelbagai cukai sebagai jenis yuran yang berbeza anda bayar untuk menggunakan kemudahan dan perkhidmatan tertentu."
+    misconception_alert: "Pelajar sering keliru antara cukai langsung dan tidak langsung."
+    scenario: "Farah keliru antara cukai langsung dan tidak langsung. Bantu dia memahami perbezaan antara kedua-duanya."
     working: |
-      Step 1: Kenal pasti bahawa mengelak cukai adalah melanggar undang-undang.
-      Step 2: Fahami bahawa tindakan ini boleh menyebabkan Siti dikenakan denda yang tinggi.
-      Step 3: Siti juga boleh menghadapi tindakan undang-undang yang lebih serius, seperti penjara, jika didapati bersalah.
-      Step 4: Oleh itu, adalah lebih baik untuk melaporkan semua jualan dengan jujur untuk mengelakkan akibat yang lebih buruk.
+      Step 1: Cukai langsung dikenakan terus ke atas pendapatan individu atau perniagaan, seperti cukai pendapatan.
+      Step 2: Cukai tidak langsung dikenakan ke atas barang dan perkhidmatan, seperti cukai jualan dan perkhidmatan (SST).
+      Step 3: Kesan pengelakan cukai termasuk tindakan undang-undang seperti denda dan hukuman, serta kesan ekonomi seperti kurangnya dana untuk pembangunan.
 
   - id: WE-03
-    topic: "Pengiraan Cukai Pendapatan"
+    topic: "Pengiraan Cukai"
     difficulty: hard
-    real_world_analogy: "Mengira diskaun pada barangan semasa jualan akhir tahun."
-    misconception_alert: "Pelajar mungkin keliru dengan potongan cukai dan mengira jumlah cukai yang salah."
-    scenario: "Encik Lim mempunyai pendapatan tahunan RM60,000. Berapakah cukai pendapatan yang perlu dibayar jika kadar cukai adalah 10% selepas potongan RM10,000?"
+    tp_level: 4
+    kbat: true
+    learning_objective: "4.1.3: Mengkaji, mentafsir dan membuat pengiraan yang melibatkan pelbagai cukai."
+    real_world_analogy: "Menganggap pengiraan cukai sebagai mengisi tangki bahan bakar kereta; anda perlu tahu berapa banyak yang diperlukan untuk perjalanan yang lancar."
+    misconception_alert: "Pelajar sering tersilap dalam mengira kadar cukai ganda atau tidak menolak pengecualian yang layak."
+    scenario: "Syarikat XYZ mempunyai pendapatan kasar sebanyak RM500,000 dan layak mendapat potongan cukai sebanyak RM50,000. Kadar cukai adalah 24%. Hitung cukai pendapatan yang perlu dibayar."
     working: |
-      Step 1: Tentukan pendapatan kena cukai dengan mengurangkan potongan daripada pendapatan tahunan: RM60,000 - RM10,000 = RM50,000.
-      Step 2: Hitung cukai berdasarkan kadar 10% daripada pendapatan kena cukai: RM50,000 x 10% = RM5,000.
-      Step 3: Oleh itu, jumlah cukai pendapatan yang perlu dibayar oleh Encik Lim adalah RM5,000.
+      Step 1: Hitung pendapatan bercukai dengan menolak potongan cukai: RM500,000 - RM50,000 = RM450,000.
+      Step 2: Kira cukai pendapatan dengan kadar 24%: 0.24 x RM450,000 = RM108,000.
+      Step 3: Syarikat XYZ perlu membayar cukai pendapatan sebanyak RM108,000.

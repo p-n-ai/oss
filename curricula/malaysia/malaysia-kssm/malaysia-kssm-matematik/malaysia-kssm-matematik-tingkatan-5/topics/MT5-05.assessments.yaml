@@ -2,128 +2,129 @@ topic_id: MT5-05
 provenance: ai-generated
 
 questions:
-  # Learning Objective 5.1.1 (analyze)
+
+  # Learning Objective: 5.1.1 (analyze)
   - id: Q1
-    text: 'Dua segi tiga, $\triangle ABC$ dan $\triangle DEF$, adalah kongruen. Jika $AB = 5 \text{ cm}$, $BC = 7 \text{ cm}$, dan $\angle ABC = 60^\circ$, tentukan panjang $DE$ dan $EF$, serta $\angle DEF$.'
+    text: 'Dua segi tiga, $\triangle ABC$ dan $\triangle DEF$, mempunyai ukuran sisi yang sama tetapi sudut berbeza. Adakah kedua-dua segi tiga ini adalah kongruen? Jelaskan.'
     difficulty: medium
-    learning_objective: LO1
-    tp_level: 3
-    kbat: false
-    answer:
-      type: free_text
-      value: 'DE = 5 \text{ cm}, EF = 7 \text{ cm}, \angle DEF = 60^\circ'
-      working: |
-        Since $\triangle ABC$ and $\triangle DEF$ are congruent, corresponding sides and angles are equal. Therefore, $DE = AB = 5 \text{ cm}$, $EF = BC = 7 \text{ cm}$, and $\angle DEF = \angle ABC = 60^\circ$.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Correctly identifies one pair of corresponding sides."
-      - marks: 1
-        criteria: "Correctly identifies both pairs of corresponding sides."
-      - marks: 1
-        criteria: "Correctly identifies corresponding angles."
-    hints:
-      - level: 1
-        text: "Review the properties of congruent triangles."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Ensure to match corresponding sides and angles."
-
-  # Learning Objective 5.1.3 (apply)
-  - id: Q2
-    text: 'Diberikan dua segi tiga, $\triangle XYZ$ dan $\triangle PQR$. Jika $XY = PR$, $YZ = PQ$, dan $\angle XYZ = \angle PQR$, adakah kedua-dua segi tiga ini kongruen? Jelaskan jawapan anda.'
-    difficulty: medium
-    learning_objective: LO3
-    tp_level: 3
-    kbat: true
-    answer:
-      type: free_text
-      value: "Ya, kerana dua sisi dan sudut di antara mereka adalah sama (SAS)."
-      working: |
-        By the Side-Angle-Side (SAS) congruence criterion, if two sides and the included angle are equal in both triangles, they are congruent. Thus, $\triangle XYZ \cong \triangle PQR$.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Identifies correct congruence criterion."
-      - marks: 1
-        criteria: "Justifies using SAS criterion correctly."
-    hints:
-      - level: 1
-        text: "Recall the criteria for triangle congruence."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Ensure the angle is included between the two sides."
-
-  # Learning Objective 5.2.2 (understand)
-  - id: Q3
-    text: "Bagaimana keserupaan segi empat sama boleh diterangkan melalui pembesaran?"
-    difficulty: medium
-    learning_objective: LO4
-    tp_level: 2
-    kbat: false
-    answer:
-      type: free_text
-      value: "Keserupaan segi empat sama boleh diterangkan dengan pembesaran yang mengekalkan nisbah panjang sisi yang sama."
-      working: |
-        Similar figures maintain the same shape but differ in size. For squares, this can be achieved by enlarging or reducing the side lengths proportionally.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Describes similarity in basic terms."
-      - marks: 1
-        criteria: "Explains how enlargement retains side length ratio."
-    hints:
-      - level: 1
-        text: "Consider how side lengths change in similar figures."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Similar figures have proportional, not equal, side lengths."
-
-  # Learning Objective 5.3.4 (apply)
-  - id: Q4
-    text: 'Selesaikan masalah berikut: Gabungan dua transformasi dilakukan pada segitiga ABC. Transformasi pertama adalah putaran $90^\circ$ mengikut arah jam sekitar titik asal, diikuti oleh pembesaran dengan faktor skala 2. Tentukan koordinat imej bagi titik $A(2, 3)$.'
-    difficulty: medium
-    learning_objective: LO8
-    tp_level: 3
-    kbat: true
-    answer:
-      type: exact
-      value: "(6, -4)"
-      working: |
-        First, apply the rotation: $(2, 3) \to (3, -2)$ after rotating $90^\circ$ clockwise. Then apply the enlargement: $(3, -2) \to (6, -4)$ by multiplying each coordinate by the scale factor 2.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Correctly applies rotation transformation."
-      - marks: 1
-        criteria: "Correctly applies enlargement transformation."
-      - marks: 1
-        criteria: "Correctly finds the final coordinates."
-    hints:
-      - level: 1
-        text: "Apply each transformation step-by-step."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Double-check the direction of rotation."
-
-  # Learning Objective 5.4.2 (create)
-  - id: Q5
-    text: "Rancang satu teselasi yang melibatkan transformasi isometri menggunakan segi empat tepat."
-    difficulty: medium
-    learning_objective: LO11
+    learning_objective: 5.1.1
     tp_level: 4
     kbat: true
     answer:
       type: free_text
-      value: "Gunakan pantulan dan translasi untuk mencipta pola teselasi dengan segi empat tepat yang berulang tanpa ruang kosong."
+      value: 'Tidak, segi tiga ini tidak kongruen kerana walaupun sisi adalah sama, sudut tidak sama.'
       working: |
-        To design the tessellation, start with a rectangle. Reflect the rectangle across one of its sides, then translate it along a plane to fill the space without gaps.
+        Untuk dua segi tiga menjadi kongruen, kedua-dua sisi dan sudut mesti sama. Dalam kes ini, walaupun sisi sama, sudut berbeza, maka kedua-dua segi tiga tidak kongruen.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Identifies appropriate transformations."
+        criteria: 'Mengenal pasti bahawa sisi sama.'
       - marks: 1
-        criteria: "Describes the process of tessellating with rectangles."
+        criteria: 'Menjelaskan bahawa sudut mesti sama untuk kekongruenan.'
       - marks: 1
-        criteria: "Ensures the tessellation fills space without gaps."
+        criteria: 'Kesimpulan yang tepat bahawa segi tiga tidak kongruen.'
     hints:
       - level: 1
-        text: "Consider how shapes can cover a plane completely."
+        text: 'MISCONCEPTION ALERT: Adakah hanya sisi yang sama sudah mencukupi untuk kongruensi?'
       - level: 2
-        text: "MISCONCEPTION ALERT: Ensure no gaps or overlaps in tessellation."
+        text: 'Pertimbangkan hubungan antara sisi dan sudut dalam segi tiga kongruen.'
+
+  # Learning Objective: 5.1.3 (apply)
+  - id: Q2
+    text: 'Diberi dua segi tiga, $\triangle PQR$ dan $\triangle XYZ$, dengan ukuran $PQ = 5 \text{cm}$, $QR = 7 \text{cm}$, $RP = 6 \text{cm}$, $XY = 5 \text{cm}$, $YZ = 7 \text{cm}$, dan $ZX = 6 \text{cm}$. Tentukan sama ada kedua-dua segi tiga ini kongruen.'
+    difficulty: medium
+    learning_objective: 5.1.3
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: 'Ya, kedua-dua segi tiga adalah kongruen.'
+      working: |
+        Ukuran sisi segi tiga adalah sama: $PQ = XY$, $QR = YZ$, dan $RP = ZX$. Oleh itu, $\triangle PQR \equiv \triangle XYZ$ berdasarkan kriteria SSS (Side-Side-Side).
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: 'Menggunakan kriteria SSS untuk menentukan kongruensi.'
+      - marks: 1
+        criteria: 'Menentukan bahawa kedua-dua segi tiga adalah kongruen.'
+    hints:
+      - level: 1
+        text: 'Periksa sama ada ketiga-tiga sisi dari kedua-dua segi tiga adalah sama.'
+
+  # Learning Objective: 5.2.3 (apply)
+  - id: Q3
+    text: 'Suatu objek berbentuk segi empat tepat dengan panjang 4 cm dan lebar 3 cm dibesarkan dengan faktor skala 2. Tentukan panjang dan lebar imej yang terbentuk.'
+    difficulty: medium
+    learning_objective: 5.2.3
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: 'Panjang: 8 cm, Lebar: 6 cm'
+      working: |
+        Panjang imej = $4 \text{cm} \times 2 = 8 \text{cm}$.
+        Lebar imej = $3 \text{cm} \times 2 = 6 \text{cm}$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: 'Mengira panjang imej dengan betul.'
+      - marks: 1
+        criteria: 'Mengira lebar imej dengan betul.'
+    hints:
+      - level: 1
+        text: 'Gunakan faktor skala untuk membesarkan panjang dan lebar asal.'
+
+  # Learning Objective: 5.3.1 (apply)
+  - id: Q4
+    text: 'Diberikan titik A(2, 3). Tentukan koordinat imej titik ini selepas gabungan transformasi translasi oleh vektor $\begin{pmatrix} 3 \\ 2 \end{pmatrix}$ diikuti putaran 90 darjah lawan arah jam dengan pusat di asal (0,0).'
+    difficulty: medium
+    learning_objective: 5.3.1
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: 'Koordinat imej: (-1, 5)'
+      working: |
+        Selepas translasi, A' = (2+3, 3+2) = (5, 5).
+        Selepas putaran 90 darjah lawan arah jam, A'' = (-y, x) = (-5, 5).
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: 'Menentukan koordinat selepas translasi dengan betul.'
+      - marks: 1
+        criteria: 'Menentukan koordinat selepas putaran dengan betul.'
+      - marks: 1
+        criteria: 'Menghasilkan koordinat imej akhir dengan tepat.'
+    hints:
+      - level: 1
+        text: 'Lakukan translasi terlebih dahulu sebelum putaran.'
+      - level: 2
+        text: 'Putaran 90 darjah lawan arah jam menukar (x, y) kepada (-y, x).'
+
+  # Learning Objective: 5.4.2 (create)
+  - id: Q5
+    text: 'Reka satu teselasi menggunakan transformasi isometri dengan bentuk segi empat tepat. Nyatakan jenis transformasi yang digunakan.'
+    difficulty: medium
+    learning_objective: 5.4.2
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: 'Teselasi yang dibina menggunakan translasi dan pantulan dengan bentuk segi empat tepat.'
+      working: |
+        Bentuk segi empat tepat diulang dalam corak grid menggunakan translasi. Pantulan boleh digunakan untuk membina simetri dalam teselasi.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: 'Menggunakan sekurang-kurangnya satu bentuk segi empat tepat.'
+      - marks: 1
+        criteria: 'Menggunakan translasi dalam teselasi.'
+      - marks: 1
+        criteria: 'Menggunakan pantulan dalam teselasi.'
+      - marks: 1
+        criteria: 'Menerangkan jenis transformasi dengan jelas.'
+    hints:
+      - level: 1
+        text: 'MISCONCEPTION ALERT: Ingat bahawa teselasi boleh menggunakan lebih dari satu jenis transformasi.'
+      - level: 2
+        text: 'Pertimbangkan bagaimana bentuk berulang dalam corak grid.'

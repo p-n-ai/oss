@@ -2,138 +2,127 @@ topic_id: MT5-02
 provenance: ai-generated
 
 questions:
-  # Learning Objective: Mewakilkan maklumat situasi sebenar dalam bentuk matriks
+  # Learning Objective 2.1.1
   - id: Q1
-    text: "Seorang peniaga menjual dua jenis produk, A dan B. Pada hari pertama, dia menjual 30 unit produk A dan 50 unit produk B. Pada hari kedua, dia menjual 40 unit produk A dan 30 unit produk B. Wakilkan maklumat jualan ini dalam bentuk matriks."
+    text: 'Satu kedai menjual tiga jenis barangan: A, B, dan C. Jumlah jualan setiap barang dalam dua hari berturut-turut adalah seperti berikut: Hari 1: A - 50 unit, B - 30 unit, C - 20 unit; Hari 2: A - 40 unit, B - 35 unit, C - 25 unit. Wakilkan maklumat ini dalam bentuk matriks.'
     difficulty: medium
     learning_objective: 2.1.1
-    tp_level: 2
+    tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "\\begin{bmatrix} 30 & 50 \\\\ 40 & 30 \\end{bmatrix}"
+      value: '[[50, 30, 20], [40, 35, 25]]'
       working: |
-        The sales data can be represented as a 2x2 matrix where each row represents a day and each column represents the number of products sold:
-        \[
-        \begin{bmatrix} 
-        30 & 50 \\
-        40 & 30 
-        \end{bmatrix}
-        \]
+        Letakkan jumlah unit yang dijual untuk setiap barang dalam baris yang berasingan bagi setiap hari.
+        Hari 1: Baris pertama [50, 30, 20]
+        Hari 2: Baris kedua [40, 35, 25]
+        Bentuk matriks: [[50, 30, 20], [40, 35, 25]]
+    marks: 3
+    rubric:
+      - marks: 2
+        criteria: "Matriks diwakilkan dengan susunan baris yang betul tetapi ada kesilapan dalam satu nilai."
+      - marks: 1
+        criteria: "Matriks diwakilkan dengan susunan baris yang betul tetapi lebih dari satu nilai salah."
+    hints:
+      - level: 1
+        text: "Bayangkan setiap baris mewakili satu hari dan setiap lajur mewakili satu jenis barang."
+
+  # Learning Objective 2.1.2
+  - id: Q2
+    text: 'Diberi matriks $M = \begin{bmatrix} 2 & 3 \\ 5 & 7 \end{bmatrix}$. Apakah peringkat matriks ini dan apakah unsur pada baris kedua, lajur pertama?'
+    difficulty: medium
+    learning_objective: 2.1.2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: '2, 5'
+      working: |
+        Matriks $M$ mempunyai 2 baris dan 2 lajur, maka peringkatnya ialah 2x2.
+        Unsur pada baris kedua, lajur pertama ialah 5.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menentukan peringkat matriks dengan betul."
+      - marks: 2
+        criteria: "Menentukan peringkat dan satu unsur dengan betul."
+    hints:
+      - level: 1
+        text: "Peringkat matriks adalah bilangan baris dan lajur."
+      - level: 2
+        text: "Unsur pada baris kedua, lajur pertama adalah yang terletak di kedudukan (2,1)."
+
+  # Learning Objective 2.1.3
+  - id: Q3
+    text: 'Tentukan sama ada matriks $A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ dan $B = \begin{bmatrix} 1 & 2 \\ 3 & 5 \end{bmatrix}$ adalah sama.'
+    difficulty: medium
+    learning_objective: 2.1.3
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: 'Tidak sama'
+      working: |
+        Untuk dua matriks sama, semua unsur mesti sama dan terletak pada kedudukan yang sama.
+        Matriks $A$ dan $B$ tidak sama kerana unsur pada kedudukan (2,2) berbeza: $A_{2,2} = 4$, $B_{2,2} = 5$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Correctly identifies the matrix form"
-      - marks: 1
-        criteria: "Correctly places the values for each product and day"
+        criteria: "Mengenal pasti bahawa satu unsur tidak sama."
     hints:
       - level: 1
-        text: "Consider the days as rows and the products as columns."
+        text: "Bandingkan setiap unsur satu persatu untuk memastikan semua unsur sama."
 
-  # Learning Objective: Menambah dan menolak matriks
-  - id: Q2
-    text: "Diberi matriks $A = \\begin{bmatrix} 2 & 5 \\\\ 3 & 4 \\end{bmatrix}$ dan $B = \\begin{bmatrix} 1 & 3 \\\\ 2 & 2 \\end{bmatrix}$. Hitung $A + B$."
+  # Learning Objective 2.2.1
+  - id: Q4
+    text: 'Hitungkan hasil tambah bagi matriks $C = \begin{bmatrix} 1 & 3 \\ 4 & 6 \end{bmatrix}$ dan $D = \begin{bmatrix} 5 & 7 \\ 2 & 8 \end{bmatrix}$.'
     difficulty: medium
     learning_objective: 2.2.1
-    tp_level: 2
+    tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "\\begin{bmatrix} 3 & 8 \\\\ 5 & 6 \\end{bmatrix}"
+      value: '\begin{bmatrix} 6 & 10 \\ 6 & 14 \end{bmatrix}'
       working: |
-        Add corresponding elements of matrices A and B:
-        \[
-        A + B = \begin{bmatrix} 2+1 & 5+3 \\\\ 3+2 & 4+2 \end{bmatrix} = \begin{bmatrix} 3 & 8 \\\\ 5 & 6 \end{bmatrix}
-        \]
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Correctly adds the first row"
-      - marks: 1
-        criteria: "Correctly adds the second row"
-    hints:
-      - level: 1
-        text: "Add the elements at the same position from both matrices."
-
-  # Learning Objective: Mendarab dua matriks
-  - id: Q3
-    text: "Diberi matriks $C = \\begin{bmatrix} 1 & 2 \\\\ 0 & 1 \\end{bmatrix}$ dan $D = \\begin{bmatrix} 3 & 1 \\\\ 4 & 2 \\end{bmatrix}$. Hitung $CD$."
-    difficulty: medium
-    learning_objective: 2.2.3
-    tp_level: 2
-    kbat: false
-    answer:
-      type: exact
-      value: "\\begin{bmatrix} 11 & 5 \\\\ 4 & 2 \\end{bmatrix}"
-      working: |
-        Multiply matrices C and D:
-        \[
-        CD = \begin{bmatrix} (1)(3) + (2)(4) & (1)(1) + (2)(2) \\\\ (0)(3) + (1)(4) & (0)(1) + (1)(2) \end{bmatrix} = \begin{bmatrix} 11 & 5 \\\\ 4 & 2 \end{bmatrix}
-        \]
+        Tambahkan unsur sepadan dalam $C$ dan $D$:
+        $C_{11} + D_{11} = 1 + 5 = 6$
+        $C_{12} + D_{12} = 3 + 7 = 10$
+        $C_{21} + D_{21} = 4 + 2 = 6$
+        $C_{22} + D_{22} = 6 + 8 = 14$
+        Hasil tambah: $\begin{bmatrix} 6 & 10 \\ 6 & 14 \end{bmatrix}$
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Correctly calculates the first row, first column"
-      - marks: 1
-        criteria: "Correctly calculates the first row, second column"
-      - marks: 1
-        criteria: "Correctly calculates the second row"
+        criteria: "Mengira satu baris dengan betul."
+      - marks: 2
+        criteria: "Mengira dua baris tetapi ada satu kesilapan."
     hints:
       - level: 1
-        text: "Multiply rows of the first matrix by columns of the second matrix."
+        text: "Tambahkan unsur yang terletak di kedudukan yang sama dalam kedua-dua matriks."
 
-  # Learning Objective: Menerangkan ciri-ciri matriks identiti
-  - id: Q4
-    text: "Apakah ciri-ciri matriks identiti 2x2?"
-    difficulty: medium
-    learning_objective: 2.2.4
-    tp_level: 2
-    kbat: false
-    answer:
-      type: free_text
-      value: "Matriks identiti 2x2 ialah matriks $I = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$, di mana ia mempunyai elemen 1 pada diagonal utama dan elemen 0 di tempat lain."
-      working: |
-        The identity matrix is characterized by having 1s on the main diagonal and 0s elsewhere:
-        \[
-        I = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}
-        \]
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Identifies the diagonal elements as 1"
-      - marks: 1
-        criteria: "Identifies the non-diagonal elements as 0"
-    hints:
-      - level: 1
-        text: "Consider what happens when a matrix is multiplied by the identity matrix."
-
-  # Learning Objective: Menerangkan maksud matriks songsang dan seterusnya menentukan matriks songsang bagi suatu matriks 2 × 2
+  # Learning Objective 2.2.5
   - id: Q5
-    text: "Cari matriks songsang bagi matriks $E = \\begin{bmatrix} 2 & 1 \\\\ 3 & 2 \\end{bmatrix}$."
+    text: 'Tentukan matriks songsang bagi matriks $E = \begin{bmatrix} 2 & 3 \\ 1 & 2 \end{bmatrix}$.'
     difficulty: medium
     learning_objective: 2.2.5
-    tp_level: 2
-    kbat: false
+    tp_level: 4
+    kbat: true
     answer:
       type: exact
-      value: "\\begin{bmatrix} 2 & -1 \\\\ -3 & 2 \\end{bmatrix}"
+      value: '\begin{bmatrix} 2 & -3 \\ -1 & 2 \end{bmatrix}'
       working: |
-        To find the inverse of matrix E, use the formula for a 2x2 matrix:
-        \[
-        E^{-1} = \frac{1}{ad-bc} \begin{bmatrix} d & -b \\\\ -c & a \end{bmatrix}
-        \]
-        where $a=2$, $b=1$, $c=3$, $d=2$. Thus,
-        \[
-        E^{-1} = \frac{1}{(2)(2)-(1)(3)} \begin{bmatrix} 2 & -1 \\\\ -3 & 2 \end{bmatrix} = \begin{bmatrix} 2 & -1 \\\\ -3 & 2 \end{bmatrix}
-        \]
-    marks: 3
+        Formula untuk matriks songsang: $\frac{1}{ad-bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$
+        Untuk $E = \begin{bmatrix} 2 & 3 \\ 1 & 2 \end{bmatrix}$, $a = 2$, $b = 3$, $c = 1$, $d = 2$.
+        $ad-bc = (2)(2) - (3)(1) = 4 - 3 = 1$.
+        Matriks songsang: $\frac{1}{1} \begin{bmatrix} 2 & -3 \\ -1 & 2 \end{bmatrix} = \begin{bmatrix} 2 & -3 \\ -1 & 2 \end{bmatrix}$.
+    marks: 4
     rubric:
-      - marks: 1
-        criteria: "Correctly identifies determinant"
-      - marks: 1
-        criteria: "Correctly inverts the matrix elements"
-      - marks: 1
-        criteria: "Correctly applies the inverse formula"
+      - marks: 2
+        criteria: "Mengira determinan dengan betul."
+      - marks: 3
+        criteria: "Menggunakan formula matriks songsang dengan betul tetapi ada kesilapan kecil dalam pengiraan."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Remember that the determinant is calculated as $ad-bc$, not $ab-cd$."
+        text: "Ingat formula untuk matriks songsang untuk matriks 2x2."
+      - level: 2
+        text: "Matriks songsang melibatkan pertukaran tempat unsur dan menukar tanda unsur lain."

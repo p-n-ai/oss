@@ -3,71 +3,66 @@ provenance: ai-generated
 description: "Worked examples for Matriks"
 worked_examples:
   - id: WE-01
-    topic: "Mewakilkan maklumat situasi sebenar dalam bentuk matriks"
+    topic: "Mewakilkan maklumat dalam bentuk matriks"
     difficulty: easy
-    real_world_analogy: "Imagine you are creating a seating chart for a classroom where each row represents a different row of desks, and each column represents a different student."
-    misconception_alert: "Students often confuse rows and columns; remember that rows go horizontally and columns vertically."
-    scenario: "A classroom has 3 rows of desks with 4 desks per row. Represent the seating arrangement in matrix form."
+    tp_level: 2
+    kbat: false
+    learning_objective: "2.1.1 (apply): Mewakilkan maklumat situasi sebenar dalam bentuk matriks."
+    real_world_analogy: "Mengatur susunan meja di dalam kelas mengikut baris dan lajur."
+    misconception_alert: "Kesalahan biasa ialah menukar baris dengan lajur dalam matriks."
+    scenario: "Seorang guru ingin mewakili bilangan pelajar dalam tiga kelas yang berbeza pada hari Isnin dan Selasa. Kelas A mempunyai 20 pelajar pada hari Isnin dan 18 pelajar pada hari Selasa, Kelas B mempunyai 22 dan 21 pelajar, manakala Kelas C mempunyai 19 dan 20 pelajar."
     working: |
-      Step 1: Identify the number of rows and columns. There are 3 rows and 4 columns.
-      Step 2: Construct a matrix with 3 rows and 4 columns. Each element can initially be represented by a placeholder (e.g., 0).
-      Step 3: The matrix is represented as:
+      Step 1: Kenal pasti maklumat yang diberikan dalam bentuk baris dan lajur.
+      Step 2: Baris mewakili kelas, manakala lajur mewakili hari.
+      Step 3: Bentukkan matriks 3x2:
               \[
               \begin{bmatrix}
-              0 & 0 & 0 & 0 \\
-              0 & 0 & 0 & 0 \\
-              0 & 0 & 0 & 0
+              20 & 18 \\
+              22 & 21 \\
+              19 & 20
               \end{bmatrix}
               \]
+
   - id: WE-02
     topic: "Menambah dan menolak matriks"
     difficulty: medium
-    real_world_analogy: "Think of a matrix like a spreadsheet where each cell contains a value, and you're updating the spreadsheet by adding or subtracting values."
-    misconception_alert: "A common mistake is trying to add or subtract matrices of different dimensions."
-    scenario: 'Given matrix A = \[\begin{bmatrix} 3 & 5 \\ 2 & 4 \end{bmatrix}\] and matrix B = \[\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}\], find A + B and A - B.'
+    tp_level: 3
+    kbat: false
+    learning_objective: "2.2.1 (apply): Menambah dan menolak matriks."
+    real_world_analogy: "Menggabungkan dua kumpulan data seperti jumlah barang di dua kedai."
+    misconception_alert: "Pelajar sering salah dalam mengira elemen yang sama kedudukan dalam kedua-dua matriks."
+    scenario: "Kedai X dan Y menjual tiga jenis buah-buahan: epal, oren, dan pisang. Kedai X menjual 30 epal, 45 oren, dan 25 pisang. Kedai Y menjual 20 epal, 35 oren, dan 30 pisang. Berapa jumlah buah yang dijual oleh kedua-dua kedai?"
     working: |
-      Step 1: Ensure matrices A and B have the same dimensions. Both are 2x2 matrices.
-      Step 2: Add corresponding elements of A and B for A + B:
+      Step 1: Wakilkan jumlah jualan buah oleh Kedai X dan Y dalam matriks masing-masing:
               \[
-              \begin{bmatrix}
-              3+1 & 5+2 \\
-              2+3 & 4+4
-              \end{bmatrix}
+              \text{Kedai X:} \begin{bmatrix} 30 \\ 45 \\ 25 \end{bmatrix}, \quad \text{Kedai Y:} \begin{bmatrix} 20 \\ 35 \\ 30 \end{bmatrix}
               \]
-      Step 3: Simplify to get A + B:
+      Step 2: Tambahkan matriks kedua-dua kedai:
               \[
-              \begin{bmatrix}
-              4 & 7 \\
-              5 & 8
-              \end{bmatrix}
+              \begin{bmatrix} 30 \\ 45 \\ 25 \end{bmatrix} + \begin{bmatrix} 20 \\ 35 \\ 30 \end{bmatrix} = \begin{bmatrix} 50 \\ 80 \\ 55 \end{bmatrix}
               \]
-      Step 4: Subtract corresponding elements of B from A for A - B:
-              \[
-              \begin{bmatrix}
-              3-1 & 5-2 \\
-              2-3 & 4-4
-              \end{bmatrix}
-              \]
-      Step 5: Simplify to get A - B:
-              \[
-              \begin{bmatrix}
-              2 & 3 \\
-              -1 & 0
-              \end{bmatrix}
-              \]
+      Step 3: Jumlah buah yang dijual oleh kedua-dua kedai ialah 50 epal, 80 oren, dan 55 pisang.
+
   - id: WE-03
-    topic: "Menyelesaikan masalah yang melibatkan matriks"
+    topic: "Mendarab dua matriks"
     difficulty: hard
-    real_world_analogy: "Consider a situation where you need to determine the outcome of a sports tournament based on different criteria, using matrices to calculate scores and rankings."
-    misconception_alert: "Students sometimes forget that operations on matrices must respect matrix dimensions and properties."
-    scenario: 'A sports tournament has two teams, X and Y, and their scores in two matches are represented by matrices. Determine the total scores and the winner if matrix X = \[\begin{bmatrix} 10 & 15 \\ 20 & 25 \end{bmatrix}\] and matrix Y = \[\begin{bmatrix} 12 & 14 \\ 18 & 22 \end{bmatrix}\].'
+    tp_level: 4
+    kbat: true
+    learning_objective: "2.2.3 (apply): Mendarab dua matriks."
+    real_world_analogy: "Mengira kos keseluruhan dengan mendarabkan harga dan kuantiti barang."
+    misconception_alert: "Kesalahan umum ialah tidak mematuhi peraturan darab matriks: bilangan lajur matriks pertama mesti sama dengan bilangan baris matriks kedua."
+    scenario: "Pengedar mempunyai dua produk, A dan B, dan dua pelanggan, X dan Y. Harga produk A ialah RM10 dan produk B ialah RM15. Pelanggan X membeli 3 unit A dan 1 unit B, manakala pelanggan Y membeli 2 unit A dan 4 unit B. Hitung jumlah jualan."
     working: |
-      Step 1: Calculate the total score for team X by summing all elements of matrix X.
+      Step 1: Wakilkan harga dan kuantiti dalam bentuk matriks:
               \[
-              Total\ Score\ X = 10 + 15 + 20 + 25 = 70
+              \text{Harga:} \begin{bmatrix} 10 & 15 \end{bmatrix}, \quad \text{Kuantiti:} \begin{bmatrix} 3 & 2 \\ 1 & 4 \end{bmatrix}
               \]
-      Step 2: Calculate the total score for team Y by summing all elements of matrix Y.
+      Step 2: Darabkan matriks harga dengan matriks kuantiti:
               \[
-              Total\ Score\ Y = 12 + 14 + 18 + 22 = 66
+              \begin{bmatrix} 10 & 15 \end{bmatrix} \times \begin{bmatrix} 3 & 2 \\ 1 & 4 \end{bmatrix} = \begin{bmatrix} (10 \times 3 + 15 \times 1) & (10 \times 2 + 15 \times 4) \end{bmatrix}
               \]
-      Step 3: Compare the total scores. Since 70 > 66, team X is the winner of the tournament.
+      Step 3: Selesaikan pengiraan:
+              \[
+              = \begin{bmatrix} 30 + 15 & 20 + 60 \end{bmatrix} = \begin{bmatrix} 45 & 80 \end{bmatrix}
+              \]
+      Step 4: Jumlah jualan kepada pelanggan X ialah RM45 dan kepada pelanggan Y ialah RM80.

@@ -5,33 +5,47 @@ worked_examples:
   - id: WE-01
     topic: "Membina Histogram dan Poligon Kekerapan"
     difficulty: easy
-    real_world_analogy: "Imagine arranging books on a shelf by their genres. Each genre is like a class interval, and the number of books in each genre represents the frequency."
-    misconception_alert: "Students often confuse the heights of bars in histograms with the actual values of data points, rather than understanding they represent frequencies."
-    scenario: "A teacher records the test scores of 30 students in intervals of 10 marks. Construct a histogram and a frequency polygon for the data."
+    tp_level: 2
+    kbat: false
+    learning_objective: "7.1.1 (apply): Membina histogram dan poligon kekerapan bagi suatu set data terkumpul."
+    real_world_analogy: "Consider a library organizing books by genre to see which genre is most popular."
+    misconception_alert: "Students often forget to label the axes correctly in a histogram."
+    scenario: "Sekumpulan 30 pelajar mengambil ujian dan skor mereka dibahagikan kepada kelas berikut: 0-10, 11-20, 21-30, dan seterusnya. Bina histogram dan poligon kekerapan berdasarkan data ini."
     working: |
-      Step 1: Organize the data into class intervals (e.g., 0-10, 11-20, etc.) and count the frequency for each interval.
-      Step 2: Draw the histogram by plotting each class interval on the x-axis and its corresponding frequency on the y-axis. Use bars to represent frequencies.
-      Step 3: Construct the frequency polygon by plotting points at the midpoint of each class interval at the height of its frequency, then connect the points with straight lines.
+      Step 1: Kumpulkan data skor pelajar ke dalam kelas frekuensi yang diberikan.
+      Step 2: Tentukan frekuensi bagi setiap kelas, contohnya, berapa ramai pelajar yang mendapat markah antara 0-10, 11-20, dan seterusnya.
+      Step 3: Lukis histogram dengan meletakkan kelas pada paksi-x dan frekuensi pada paksi-y. Pastikan setiap bar mewakili satu kelas.
+      Step 4: Lukis poligon kekerapan dengan menyambungkan titik tengah atas setiap bar pada histogram dengan garis lurus.
+      Step 5: Semak semula untuk memastikan semua label dan skala adalah betul.
 
   - id: WE-02
-    topic: "Membina dan Mentafsir Ogif"
+    topic: "Membanding dan Mentafsir Serakan Data"
     difficulty: medium
-    real_world_analogy: "Think of an ogive as a graph showing how many students in a class have scored up to a certain mark, similar to a cumulative savings account balance over time."
-    misconception_alert: "A common mistake is forgetting that ogives represent cumulative frequencies, not the actual frequency of each class interval."
-    scenario: "Using the test scores data, construct an ogive and determine the median score."
+    tp_level: 4
+    kbat: true
+    learning_objective: "7.1.2 (analyze): Membanding dan mentafsir serakan dua atau lebih set data terkumpul berdasarkan histogram dan poligon kekerapan dan seterusnya membuat kesimpulan."
+    real_world_analogy: "Comparing two different car models to determine which one is more fuel-efficient based on their fuel consumption data."
+    misconception_alert: "Students may incorrectly assume that two data sets with similar shapes have the same spread."
+    scenario: "Dua kelas pelajar mengambil ujian, dan skor mereka direkodkan. Bandingkan dan tafsirkan serakan skor ujian bagi kedua-dua kelas menggunakan histogram dan poligon kekerapan."
     working: |
-      Step 1: Calculate cumulative frequencies for each class interval.
-      Step 2: Plot the ogive by placing cumulative frequencies on the y-axis and the upper class boundaries on the x-axis.
-      Step 3: Determine the median by finding the point where the ogive crosses the line representing half the total number of data points.
+      Step 1: Bina histogram dan poligon kekerapan untuk setiap set data kelas.
+      Step 2: Perhatikan bentuk histogram, seperti simetri atau skewness, untuk kedua-dua kelas.
+      Step 3: Bandingkan ketinggian bar dan sebaran kelas pada histogram untuk menilai variasi.
+      Step 4: Gunakan poligon kekerapan untuk melihat pergerakan umum data.
+      Step 5: Buat kesimpulan berdasarkan perbandingan, seperti menyatakan kelas mana yang mempunyai serakan skor yang lebih luas.
 
   - id: WE-03
-    topic: "Menentukan Julat, Varians dan Sisihan Piawai"
+    topic: "Menentukan Kuartil dan Membina Ogif"
     difficulty: hard
-    real_world_analogy: "Consider the spread of temperatures over a month. Range gives the difference between the hottest and coldest days, while variance and standard deviation tell us how spread out the daily temperatures are from the average."
-    misconception_alert: "Students often calculate variance by dividing by the number of data points instead of using the correct formula for a sample or population."
-    scenario: "Calculate the range, variance, and standard deviation of the test scores."
+    tp_level: 5
+    kbat: true
+    learning_objective: "7.1.3 (apply): Membina ogif bagi suatu set data terkumpul dan seterusnya menentukan kuartil."
+    real_world_analogy: "Surveying a town's population income levels to determine the median and quartile ranges to identify economic diversity."
+    misconception_alert: "Students might confuse the construction of an ogif with a histogram; remember that an ogif is a line graph representing cumulative frequencies."
+    scenario: "Dalam satu kajian, pendapatan bulanan 100 keluarga direkodkan. Tentukan kuartil bagi data ini dan bina ogif."
     working: |
-      Step 1: Determine the range by subtracting the lowest test score from the highest.
-      Step 2: Calculate the mean of the test scores.
-      Step 3: Find the variance by summing the squared deviations from the mean and dividing by the number of scores.
-      Step 4: Calculate the standard deviation by taking the square root of the variance.
+      Step 1: Kumpulkan data ke dalam kelas frekuensi kumulatif.
+      Step 2: Hitung frekuensi kumulatif bagi setiap kelas.
+      Step 3: Lukis ogif dengan meletakkan sempadan atas setiap kelas pada paksi-x dan frekuensi kumulatif pada paksi-y.
+      Step 4: Sambungkan titik dengan garis lurus untuk membentuk ogif.
+      Step 5: Tentukan Q1, Q2 (median), dan Q3 dengan mencari titik pada ogif yang sepadan dengan 25%, 50%, dan 75% daripada jumlah frekuensi.

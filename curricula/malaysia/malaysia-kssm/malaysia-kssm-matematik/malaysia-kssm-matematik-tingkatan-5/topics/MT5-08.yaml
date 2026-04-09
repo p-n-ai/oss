@@ -10,37 +10,45 @@ language: ms
 difficulty: beginner
 tier: core
 content_standards:
-  - id: "8.1"
-    text: "Pemodelan Matematik"
-    text_en: "Mathematical Modeling"
+    - id: "8.1"
+      text: "Pemodelan Matematik"
+      text_en: "Mathematical Modeling"
 learning_objectives:
-  - id: "8.1.1"
-    text: "Menerangkan pemodelan matematik."
-    text_en: "Explain mathematical modeling."
-    bloom: understand
-  - id: "8.1.2"
-    text: "Menyelesaikan masalah kehidupan sebenar melalui pemodelan matematik yang melibatkan fungsi: Linear, Kuadratik, Eksponen dan mengkomunikasikan proses pemodelan matematik yang dilaksanakan."
-    text_en: "Solve real-life problems through mathematical modeling involving functions: Linear, Quadratic, Exponential, and communicate the implemented mathematical modeling process."
-    bloom: apply
+    - id: "8.1.1"
+      text: "Menerangkan pemodelan matematik."
+      text_en: "Explain mathematical modeling."
+      bloom: understand
+    - id: "8.1.2"
+      text: "Menyelesaikan masalah kehidupan sebenar melalui pemodelan matematik yang melibatkan fungsi: Linear, Kuadratik, Eksponen dan mengkomunikasikan proses pemodelan matematik yang dilaksanakan."
+      text_en: "Solve real-life problems through mathematical modeling involving functions: Linear, Quadratic, Exponential, and communicate the implemented mathematical modeling process."
+      bloom: apply
 prerequisites:
-  required: []
+    required: []
 bloom_levels:
-  - understand
-  - apply
+    - understand
+    - apply
 quality_level: 1
 provenance: ai-generated
 generated_at: "2026-03-27T13:54:52Z"
 teaching:
-  sequence:
-    - 'Step 1: Introduce mathematical modeling and its importance in real-world problem-solving (15 min)'
-    - 'Step 2: Explore the use of linear functions in modeling scenarios such as business costs (20 min)'
-    - 'Step 3: Explain quadratic and exponential functions in modeling real-world situations like parabolic motion and population growth (25 min)'
-  common_misconceptions:
-    - misconception: All functions are linear
-      remediation: Provide examples of situations requiring quadratic or exponential models
-    - misconception: Models are purely theoretical
-      remediation: Use case studies and practical projects to show direct applications
+    sequence:
+        - 'Step 1: Introduce mathematical modeling with real-world examples (15 min)'
+        - 'Step 2: Explain linear modeling using everyday situations (20 min)'
+        - 'Step 3: Compare quadratic and exponential models with real-life problems (25 min)'
+    common_misconceptions:
+        - misconception: All problems can be solved with linear models
+          remediation: Emphasize the variety of functions and their specific applications
+        - misconception: Exponential functions are not applicable to real life
+          remediation: Provide real-world examples such as compound interest
 engagement_hooks:
-  - Calculate travel costs using real data from local map applications
-  - Discuss the role of mathematical models in personal financial planning
+    - Discuss local economic trends during festive seasons to illustrate exponential functions
+    - Explore natural phenomena like palm oil tree growth modeled quadratically
 assessments_file: MT5-08.assessments.yaml
+ai_teaching_notes: MT5-08.teaching.md
+examples_file: MT5-08.examples.yaml
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5

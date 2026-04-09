@@ -2,128 +2,147 @@ topic_id: MT5-01
 provenance: ai-generated
 
 questions:
-  # LO1.1.1 - Menerangkan maksud ubahan langsung
+  # Group by learning objective 1.1.1
   - id: Q1
-    text: "Nyatakan maksud ubahan langsung dan berikan satu contoh situasi di mana ia berlaku."
+    text: 'Jelaskan maksud ubahan langsung dan berikan satu contoh dalam kehidupan harian.'
     difficulty: medium
-    learning_objective: LO1.1.1
+    learning_objective: 1.1.1
     tp_level: 2
-    kbat: false
+    kbat: true
     answer:
       type: free_text
-      value: "Ubahan langsung berlaku apabila dua pemboleh ubah berubah pada kadar yang sama, iaitu jika satu pemboleh ubah meningkat, pemboleh ubah yang lain juga meningkat pada kadar yang sama. Contoh: Jarak yang dilalui oleh sebuah kereta bergerak pada kelajuan tetap adalah berkadar terus dengan masa."
+      value: 'Ubahan langsung ialah satu hubungan di mana dua pemboleh ubah berubah pada kadar yang sama. Contoh: Jarak dan masa bergerak dengan kelajuan yang tetap.'
       working: |
-        Ubahan langsung berlaku apabila dua pemboleh ubah berkadar terus, iaitu mereka berubah pada kadar yang sama. Sebagai contoh, jika \( y \) berkadar terus dengan \( x \), maka \( y = kx \) di mana \( k \) ialah pemalar.
+        - Ubahan langsung bermaksud apabila satu pemboleh ubah meningkat, pemboleh ubah lain juga meningkat pada kadar yang sama.
+        - Contoh: Jika anda memandu dengan kelajuan tetap, lebih lama anda memandu, lebih jauh anda akan pergi.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menyatakan bahawa ubahan langsung melibatkan dua pemboleh ubah yang berubah pada kadar yang sama."
+        criteria: "Memberikan definisi asas ubahan langsung."
       - marks: 1
-        criteria: "Memberikan contoh yang tepat mengenai ubahan langsung."
+        criteria: "Memberikan contoh yang relevan."
       - marks: 1
-        criteria: "Menggunakan istilah matematik seperti 'berkadar terus'."
+        criteria: "Mengaitkan dengan situasi kehidupan harian."
     hints:
       - level: 1
-        text: "Ingat bahawa dalam ubahan langsung, jika satu pemboleh ubah meningkat, yang lain juga meningkat."
+        text: "Fikirkan tentang situasi di mana dua perkara bertambah secara serentak."
+      - level: 2
+        text: "Contoh: Kelajuan dan masa ketika memandu kereta."
 
-  # LO1.1.2 - Menentukan hubungan antara dua pemboleh ubah bagi suatu ubahan langsung
+  # Group by learning objective 1.1.2
   - id: Q2
-    text: 'Diberi bahawa \( y \) berkadar terus dengan \( x \) dan \( y = 10 \) apabila \( x = 2 \). Cari nilai \( y \) apabila \( x = 5 \).'
+    text: 'Jika $y$ berubah secara langsung dengan $x$ dan $y = 15$ apabila $x = 3$, cari nilai $y$ apabila $x = 7$.'
     difficulty: medium
-    learning_objective: LO1.1.2
-    tp_level: 2
+    learning_objective: 1.1.2
+    tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "25"
+      value: '35'
       working: |
-        Diberikan \( y = kx \). Oleh itu, apabila \( y = 10 \) dan \( x = 2 \), kita boleh menulis \( 10 = k \times 2 \). Ini memberikan \( k = 5 \). 
-        Oleh itu, apabila \( x = 5 \), \( y = 5 \times 5 = 25 \).
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: 'Mengira nilai \( k \) dengan betul.'
-      - marks: 1
-        criteria: 'Menggunakan nilai \( k \) untuk menentukan nilai \( y \) apabila \( x = 5 \).'
-    hints:
-      - level: 1
-        text: 'Cari nilai pemalar \( k \) terlebih dahulu dari maklumat yang diberi.'
-
-  # LO1.1.3 - Menentukan hubungan antara tiga atau lebih pemboleh ubah bagi suatu ubahan tercantum
-  - id: Q3
-    text: 'Jika \( y \) berkadar terus dengan \( x \) dan \( z \) secara serentak, dan \( y = 24 \) apabila \( x = 2 \) dan \( z = 3 \), cari nilai \( y \) apabila \( x = 4 \) dan \( z = 6 \).'
-    difficulty: medium
-    learning_objective: LO1.1.3
-    tp_level: 2
-    kbat: false
-    answer:
-      type: exact
-      value: "96"
-      working: |
-        Oleh kerana \( y \) berkadar terus dengan \( x \) dan \( z \), kita boleh menulis \( y = kxz \).
-        Apabila \( y = 24 \), \( x = 2 \), dan \( z = 3 \), kita dapati \( 24 = k \times 2 \times 3 \). 
-        Ini memberikan \( k = 4 \).
-        Apabila \( x = 4 \) dan \( z = 6 \), \( y = 4 \times 4 \times 6 = 96 \).
+        - Diberi bahawa $y = kx$, dan apabila $x = 3$, $y = 15$.
+        - Maka, $15 = k \times 3 \implies k = 5$.
+        - Oleh itu, apabila $x = 7$, $y = 5 \times 7 = 35$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menulis persamaan yang betul untuk ubahan tercantum."
+        criteria: "Menentukan nilai pemalar $k$ dengan betul."
       - marks: 1
-        criteria: 'Mengira nilai \( k \) dengan betul.'
+        criteria: "Menggantikan nilai $x$ yang baru ke dalam persamaan."
       - marks: 1
-        criteria: 'Menggunakan nilai \( k \) untuk menentukan nilai \( y \) yang baru.'
+        criteria: "Mengira nilai $y$ dengan betul."
     hints:
       - level: 1
-        text: 'Tentukan nilai pemalar \( k \) dahulu sebelum menyelesaikan untuk keadaan baru.'
+        text: "MISCONCEPTION ALERT: Pastikan anda mencari nilai k sebelum mencari nilai y yang baru."
+      - level: 2
+        text: "Gunakan formula y = kx dan gantikan nilai yang diketahui."
 
-  # LO1.2.2 - Menentukan hubungan antara dua pemboleh ubah bagi suatu ubahan songsang
-  - id: Q4
-    text: 'Jika \( y \) berkadar songsang dengan \( x \) dan \( y = 8 \) apabila \( x = 5 \), cari nilai \( y \) apabila \( x = 10 \).'
+  # Group by learning objective 1.1.3
+  - id: Q3
+    text: 'Dalam suatu ubahan tercantum, $y$ berubah secara langsung dengan $x$ dan secara songsang dengan $z$. Jika $y = 10$ apabila $x = 4$ dan $z = 5$, cari nilai $y$ apabila $x = 8$ dan $z = 10$.'
     difficulty: medium
-    learning_objective: LO1.2.2
-    tp_level: 2
+    learning_objective: 1.1.3
+    tp_level: 4
     kbat: false
     answer:
       type: exact
-      value: "4"
+      value: '8'
       working: |
-        Oleh kerana \( y \) berkadar songsang dengan \( x \), kita tulis \( y = \frac{k}{x} \).
-        Apabila \( y = 8 \) dan \( x = 5 \), kita dapati \( 8 = \frac{k}{5} \).
-        Ini memberikan \( k = 40 \).
-        Apabila \( x = 10 \), \( y = \frac{40}{10} = 4 \).
-    marks: 2
+        - Diberikan $y = \frac{kx}{z}$.
+        - Apabila $x = 4$ dan $z = 5$, $y = 10 \implies 10 = \frac{k \times 4}{5}$.
+        - Oleh itu, $k = 12.5$.
+        - Apabila $x = 8$ dan $z = 10$, $y = \frac{12.5 \times 8}{10} = 8$.
+    marks: 4
     rubric:
       - marks: 1
-        criteria: 'Mengira nilai pemalar \( k \) dengan betul.'
+        criteria: "Menentukan bentuk persamaan yang betul."
       - marks: 1
-        criteria: 'Menggunakan nilai \( k \) untuk menentukan nilai \( y \) apabila \( x = 10 \).'
+        criteria: "Mengira nilai pemalar $k$ dengan betul."
+      - marks: 1
+        criteria: "Menggantikan nilai $x$ dan $z$ yang baru ke dalam persamaan."
+      - marks: 1
+        criteria: "Mengira nilai $y$ dengan betul."
     hints:
       - level: 1
-        text: 'Ingat bahawa dalam ubahan songsang, \( y \times x = k \) adalah pemalar.'
+        text: "Perhatikan hubungan tercantum yang melibatkan ketiga-tiga pemboleh ubah."
+      - level: 2
+        text: "Cari nilai k terlebih dahulu sebelum mencari nilai y yang baru."
 
-  # LO1.3.2 - Menyelesaikan masalah yang melibatkan ubahan bergabung
-  - id: Q5
-    text: 'Dalam satu eksperimen, \( y \) berkadar terus dengan \( x \) dan berkadar songsang dengan kuasa dua \( z \). Jika \( y = 10 \) apabila \( x = 4 \) dan \( z = 2 \), hitung \( y \) apabila \( x = 8 \) dan \( z = 4 \).'
+  # Group by learning objective 1.2.2
+  - id: Q4
+    text: 'Jika $a$ berubah secara songsang dengan $b$, dan $a = 20$ apabila $b = 5$, cari nilai $a$ apabila $b = 10$.'
     difficulty: medium
-    learning_objective: LO1.3.2
+    learning_objective: 1.2.2
     tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: '10'
+      working: |
+        - Diberikan $a = \frac{k}{b}$.
+        - Apabila $a = 20$ dan $b = 5$, $20 = \frac{k}{5} \implies k = 100$.
+        - Oleh itu, apabila $b = 10$, $a = \frac{100}{10} = 10$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menentukan bentuk persamaan songsang yang betul."
+      - marks: 1
+        criteria: "Mengira nilai pemalar $k$ dengan betul."
+      - marks: 1
+        criteria: "Menggantikan nilai $b$ yang baru ke dalam persamaan."
+    hints:
+      - level: 1
+        text: "Ingat bahawa hubungan songsang bermaksud apabila satu pemboleh ubah meningkat, yang lain menurun."
+      - level: 2
+        text: "Gunakan formula a = k/b dan cari nilai k terlebih dahulu."
+
+  # Group by learning objective 1.3.2
+  - id: Q5
+    text: 'Selesaikan masalah berikut: Jika $p$ berubah secara langsung dengan $q$ dan secara songsang dengan $r$, dan $p = 24$ apabila $q = 6$ dan $r = 4$, cari nilai $p$ apabila $q = 9$ dan $r = 6$.'
+    difficulty: medium
+    learning_objective: 1.3.2
+    tp_level: 5
     kbat: true
     answer:
       type: exact
-      value: "5"
+      value: '18'
       working: |
-        Oleh kerana \( y \) berkadar terus dengan \( x \) dan songsang dengan \( z^2 \), kita tulis \( y = \frac{kx}{z^2} \).
-        Apabila \( y = 10 \), \( x = 4 \), dan \( z = 2 \), kita dapati \( 10 = \frac{k \times 4}{2^2} \).
-        Ini memberikan \( 10 = \frac{4k}{4} \), jadi \( k = 10 \).
-        Apabila \( x = 8 \) dan \( z = 4 \), \( y = \frac{10 \times 8}{4^2} = \frac{80}{16} = 5 \).
-    marks: 3
+        - Diberi bahawa $p = \frac{kq}{r}$.
+        - Apabila $q = 6$ dan $r = 4$, $p = 24 \implies 24 = \frac{k \times 6}{4}$.
+        - Oleh itu, $k = 16$.
+        - Apabila $q = 9$ dan $r = 6$, $p = \frac{16 \times 9}{6} = 18$.
+    marks: 4
     rubric:
       - marks: 1
-        criteria: "Menulis persamaan yang betul untuk ubahan bergabung."
+        criteria: "Menentukan bentuk persamaan bergabung yang betul."
       - marks: 1
-        criteria: 'Mengira nilai pemalar \( k \) dengan betul.'
+        criteria: "Mengira nilai pemalar $k$ dengan betul."
       - marks: 1
-        criteria: 'Menggunakan nilai \( k \) untuk menentukan nilai \( y \) yang baru.'
+        criteria: "Menggantikan nilai $q$ dan $r$ yang baru ke dalam persamaan."
+      - marks: 1
+        criteria: "Mengira nilai $p$ dengan betul."
     hints:
       - level: 1
-        text: 'Perhatikan bahawa hubungan antara \( y \), \( x \), dan \( z \) melibatkan kedua-dua ubahan langsung dan songsang.'
+        text: "Hubungan bergabung melibatkan kedua-dua ubahan langsung dan songsang."
+      - level: 2
+        text: "Cari k dahulu sebelum mencari nilai p yang baru."

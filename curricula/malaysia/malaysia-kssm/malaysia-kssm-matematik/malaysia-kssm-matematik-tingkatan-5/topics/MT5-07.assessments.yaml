@@ -4,126 +4,156 @@ provenance: ai-generated
 questions:
   # Learning Objective 7.1.1
   - id: Q1
-    text: "Bina histogram dan poligon kekerapan bagi data terkumpul berikut: \\( 5-9: 4, 10-14: 8, 15-19: 12, 20-24: 6 \\)."
+    text: 'Bina satu histogram bagi set data terkumpul berikut: Kelas (10-20, 20-30, 30-40, 40-50) dengan kekerapan (5, 15, 10, 20).'
     difficulty: medium
-    learning_objective: LO1
+    learning_objective: 7.1.1
     tp_level: 3
     kbat: false
     answer:
       type: free_text
-      value: "Histogram dan poligon kekerapan yang betul"
+      value: 'Histogram with correct bars'
       working: |
-        1. Plotkan histogram dengan kelas 5-9, 10-14, 15-19, dan 20-24 dengan ketinggian masing-masing 4, 8, 12, dan 6.
-        2. Lukis poligon kekerapan dengan menyambungkan titik tengah setiap bar histogram.
-    marks: 5
+        1. Tentukan lebar setiap kelas.
+        2. Lukis paksi x dan y.
+        3. Label paksi x dengan kelas data dan paksi y dengan kekerapan.
+        4. Lukis bar untuk setiap kelas berdasarkan kekerapan.
+    marks: 4
     rubric:
-      - marks: 2
-        criteria: "Histogram dibina dengan betul."
-      - marks: 3
-        criteria: "Poligon kekerapan dilukis dengan tepat."
+      - marks: 1
+        criteria: "Menentukan lebar setiap kelas dengan betul."
+      - marks: 1
+        criteria: "Melukis paksi x dan y dengan betul."
+      - marks: 1
+        criteria: "Melabel paksi x dan y dengan betul."
+      - marks: 1
+        criteria: "Melukis bar berdasarkan kekerapan dengan betul."
     hints:
       - level: 1
-        text: "Pastikan anda menentukan titik tengah setiap kelas untuk membina poligon kekerapan."
+        text: "Mulakan dengan menentukan lebar setiap kelas."
+      - level: 2
+        text: "Lukis paksi x dan y dan labelkan dengan kelas data dan kekerapan."
+      - level: 3
+        text: "Lukis bar berdasarkan kekerapan untuk setiap kelas."
 
   # Learning Objective 7.1.2
   - id: Q2
-    text: "Bandingkan dan tafsirkan dua set data terkumpul berikut menggunakan histogram: Set A: \\( 5-9: 3, 10-14: 7, 15-19: 11, 20-24: 5 \\); Set B: \\( 5-9: 4, 10-14: 6, 15-19: 9, 20-24: 8 \\)."
+    text: 'Bandingkan dan tafsirkan serakan dua set data terkumpul berikut menggunakan poligon kekerapan: Set A (10-20, 30-40, 50-60) dengan kekerapan (5, 10, 15), dan Set B (10-20, 30-40, 50-60) dengan kekerapan (10, 5, 20).'
     difficulty: medium
-    learning_objective: LO2
+    learning_objective: 7.1.2
     tp_level: 4
     kbat: true
     answer:
       type: free_text
-      value: "Set A lebih seragam manakala Set B mempunyai serakan yang lebih besar."
+      value: 'Set B mempunyai lebih banyak serakan pada kelas terakhir berbanding Set A.'
       working: |
-        1. Bina histogram untuk kedua-dua set.
-        2. Perhatikan ketinggian bar untuk setiap kelas.
-        3. Set A menunjukkan taburan yang lebih puncak manakala Set B lebih lebar.
-    marks: 4
+        1. Lukis poligon kekerapan untuk Set A dan Set B.
+        2. Bandingkan kekerapan setiap kelas antara keduanya.
+        3. Buat kesimpulan berdasarkan perbandingan.
+    marks: 5
     rubric:
       - marks: 2
-        criteria: "Histogram untuk kedua-dua set dibina dengan betul."
+        criteria: "Melukis poligon kekerapan untuk Set A dengan betul."
       - marks: 2
-        criteria: "Tafsiran serakan dan perbandingan antara dua set adalah tepat."
+        criteria: "Melukis poligon kekerapan untuk Set B dengan betul."
+      - marks: 1
+        criteria: "Membuat kesimpulan yang tepat berdasarkan perbandingan."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Jangan hanya melihat jumlah bar, lihat juga ketinggian dan lebar taburan."
+        text: "Lukis poligon kekerapan untuk kedua-dua set data."
+      - level: 2
+        text: "Bandingkan kekerapan setiap kelas antara Set A dan Set B."
+      - level: 3
+        text: "Perhatikan perbezaan kekerapan di kelas terakhir."
 
   # Learning Objective 7.1.3
   - id: Q3
-    text: "Bina ogif bagi data terkumpul berikut dan tentukan kuartil pertama, kedua, dan ketiga: \\( 0-4: 5, 5-9: 10, 10-14: 15, 15-19: 20 \\)."
+    text: 'Bina ogif bagi set data terkumpul berikut dan tentukan kuartil pertama: Kelas (5-10, 10-15, 15-20, 20-25) dengan kekerapan (4, 8, 12, 16).'
     difficulty: medium
-    learning_objective: LO3
+    learning_objective: 7.1.3
     tp_level: 3
     kbat: false
     answer:
-      type: free_text
-      value: "Ogif yang betul dengan Q1=5.5, Q2=10, Q3=14.5"
+      type: exact
+      value: '9'
       working: |
         1. Kira kekerapan terkumpul.
-        2. Plotkan ogif menggunakan kekerapan terkumpul.
-        3. Tentukan kuartil berdasarkan ogif yang telah dibina.
-    marks: 6
+        2. Lukis ogif berdasarkan kekerapan terkumpul.
+        3. Tentukan kuartil pertama dari ogif.
+    marks: 4
     rubric:
-      - marks: 3
-        criteria: "Ogif dibina dengan kekerapan terkumpul yang betul."
-      - marks: 3
-        criteria: "Kuartil pertama, kedua, dan ketiga ditentukan dengan tepat."
+      - marks: 1
+        criteria: "Mengira kekerapan terkumpul dengan betul."
+      - marks: 1
+        criteria: "Melukis ogif dengan betul."
+      - marks: 2
+        criteria: "Menentukan kuartil pertama dengan betul."
     hints:
       - level: 1
-        text: "Untuk menentukan kuartil, cari nilai pada 25%, 50%, dan 75% jumlah kekerapan."
+        text: "Mulakan dengan mengira kekerapan terkumpul."
+      - level: 2
+        text: "Lukis ogif menggunakan kekerapan terkumpul."
+      - level: 3
+        text: "Cari nilai kuartil pertama dari ogif."
 
   # Learning Objective 7.2.1
   - id: Q4
-    text: "Hitung julat, julat antara kuartil, varians, dan sisihan piawai bagi data terkumpul berikut: \\( 20-24: 5, 25-29: 8, 30-34: 12, 35-39: 10 \\)."
+    text: 'Tentukan varians bagi set data terkumpul berikut: Kelas (15-25, 25-35, 35-45) dengan kekerapan (6, 14, 10).'
     difficulty: medium
-    learning_objective: LO4
-    tp_level: 3
+    learning_objective: 7.2.1
+    tp_level: 4
     kbat: false
     answer:
-      type: free_text
-      value: "Julat=19, Julat antara kuartil=10, Varians=25, Sisihan piawai=5"
+      type: exact
+      value: '50'
       working: |
-        1. Tentukan nilai maksimum dan minimum untuk julat.
-        2. Tentukan kuartil pertama dan ketiga untuk julat antara kuartil.
-        3. Kira varians dan sisihan piawai menggunakan formula.
-    marks: 8
+        1. Tentukan titik tengah setiap kelas.
+        2. Kira purata dengan menggunakan titik tengah dan kekerapan.
+        3. Kira jumlah kuasa dua perbezaan dari purata.
+        4. Bahagikan dengan jumlah kekerapan untuk mendapatkan varians.
+    marks: 5
     rubric:
+      - marks: 1
+        criteria: "Menentukan titik tengah setiap kelas dengan betul."
+      - marks: 1
+        criteria: "Mengira purata dengan betul."
       - marks: 2
-        criteria: "Julat dikira dengan betul."
-      - marks: 2
-        criteria: "Julat antara kuartil dikira dengan tepat."
-      - marks: 2
-        criteria: "Varians dikira dengan tepat."
-      - marks: 2
-        criteria: "Sisihan piawai dihitung dengan betul."
+        criteria: "Mengira jumlah kuasa dua perbezaan dari purata dengan betul."
+      - marks: 1
+        criteria: "Mengira varians dengan betul."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Pastikan menggunakan nilai titik tengah untuk pengiraan varians dan sisihan piawai."
+        text: "Mulakan dengan mengira titik tengah setiap kelas."
+      - level: 2
+        text: "Gunakan titik tengah untuk mengira purata."
+      - level: 3
+        text: "Kira jumlah kuasa dua perbezaan dari purata."
 
-  # Learning Objective 7.2.5
+  # Learning Objective 7.2.2
   - id: Q5
-    text: "Rancang dan laksanakan satu projek mini untuk mengkaji kesan waktu belajar terhadap prestasi akademik pelajar menggunakan sukatan kecenderungan memusat dan serakan. Huraikan dapatan kajian anda."
+    text: 'Bina dan tafsirkan plot kotak bagi set data terkumpul berikut: Kelas (20-30, 30-40, 40-50) dengan kekerapan (10, 20, 10).'
     difficulty: medium
-    learning_objective: LO5
-    tp_level: 5
+    learning_objective: 7.2.2
+    tp_level: 4
     kbat: true
     answer:
       type: free_text
-      value: "Projek mini dengan analisis dan kesimpulan yang menyeluruh."
+      value: 'Plot kotak menunjukkan data lebih tertumpu di sekitar kelas kedua.'
       working: |
-        1. Kumpulkan data waktu belajar dan prestasi pelajar.
-        2. Gunakan min, median, mod untuk analisis kecenderungan memusat.
-        3. Gunakan julat, varians, sisihan piawai untuk analisis serakan.
-        4. Tafsirkan dapatan dan buat kesimpulan berkenaan hubungan antara waktu belajar dan prestasi akademik.
-    marks: 10
+        1. Kira nilai kuartil dan julat antara kuartil.
+        2. Lukis plot kotak berdasarkan nilai yang dikira.
+        3. Tafsirkan plot kotak berdasarkan kedudukan median dan hujung kotak.
+    marks: 4
     rubric:
-      - marks: 3
-        criteria: "Perancangan projek yang jelas dan teratur."
-      - marks: 3
-        criteria: "Penggunaan sukatan kecenderungan memusat dan serakan yang tepat."
-      - marks: 4
-        criteria: "Tafsiran dan kesimpulan kajian yang jelas dan menyeluruh."
+      - marks: 1
+        criteria: "Mengira nilai kuartil dengan betul."
+      - marks: 1
+        criteria: "Lukis plot kotak dengan betul berdasarkan nilai kuartil."
+      - marks: 2
+        criteria: "Mentafsir plot kotak dengan betul."
     hints:
       - level: 1
-        text: "Fokus pada bagaimana data dapat menunjukkan tren atau pola yang berkaitan dengan prestasi akademik."
+        text: "Kira nilai kuartil berdasarkan kekerapan."
+      - level: 2
+        text: "Gunakan nilai kuartil untuk melukis plot kotak."
+      - level: 3
+        text: "Perhatikan kedudukan median dan hujung kotak untuk tafsiran."

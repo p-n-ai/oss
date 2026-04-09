@@ -3,35 +3,45 @@ provenance: ai-generated
 description: "Worked examples for Matematik Pengguna: Insurans"
 worked_examples:
   - id: WE-01
-    topic: "Understanding Risk and Insurance"
+    topic: "Introduction to Insurance Risks and Types"
     difficulty: easy
-    real_world_analogy: "Imagine you have a smartphone. You buy a case to protect it from accidental drops. The case is like insurance, a protection against potential damage."
-    misconception_alert: "Students often confuse insurance as an investment rather than protection. Insurance is primarily for risk management, not profit."
-    scenario: "Ali wants to protect his new car from potential accidents. He needs to understand the purpose of car insurance."
+    tp_level: 1
+    kbat: false
+    learning_objective: 3.1.1
+    real_world_analogy: "Imagine insurance as a safety net that catches you when unexpected things happen, like a broken window that insurance helps to fix."
+    misconception_alert: "Students often think insurance is only for accidents, but it covers a wide range of events."
+    scenario: "Ahmad is considering buying insurance for his new car. He wants to understand what types of risks can be covered by insurance."
     working: |
-      Step 1: Identify the risk - Ali's risk is potential damage from accidents.
-      Step 2: Understand insurance purpose - Car insurance provides financial protection against repair costs.
-      Step 3: Conclusion - Insurance helps Ali manage the financial risk associated with car accidents.
+      Step 1: Identify the types of risks Ahmad might face such as theft, accidents, and natural disasters.
+      Step 2: Explain that insurance provides financial protection against these risks.
+      Step 3: Discuss the two main categories of insurance: life insurance and general insurance, and relate to Ahmad's car insurance as a type of general insurance.
 
   - id: WE-02
     topic: "Calculating Insurance Premiums"
     difficulty: medium
-    real_world_analogy: "Think of insurance premiums like a subscription fee for a service that protects you from large unexpected costs."
-    misconception_alert: "Students may think the cheapest premium is always the best. However, lower premiums often mean higher deductibles or less coverage."
-    scenario: "Aisyah is considering a health insurance plan that costs RM500 annually. She wants to calculate the monthly premium."
+    tp_level: 3
+    kbat: true
+    learning_objective: 3.1.2
+    real_world_analogy: "Paying insurance premiums is like paying a subscription fee for a service that promises to help you in difficult times."
+    misconception_alert: "A common mistake is thinking that the premium is the total cost of insurance, but it might not cover all scenarios due to deductibles."
+    scenario: "Siti's car insurance policy states a premium of RM1,200 per year. Calculate her monthly premium."
     working: |
-      Step 1: Identify the annual premium cost - RM500.
-      Step 2: Calculate the monthly premium - Divide the annual cost by 12 months: RM500 / 12 = RM41.67.
-      Step 3: Conclusion - Aisyah will pay approximately RM41.67 per month for her health insurance.
+      Step 1: Understand that the annual premium is divided over 12 months.
+      Step 2: Use the formula for monthly premium: Annual Premium ÷ 12.
+      Step 3: Calculate: RM1,200 ÷ 12 = RM100.
+      Step 4: Conclude that Siti pays RM100 per month for her car insurance.
 
   - id: WE-03
-    topic: "Solving Insurance Problems with Deductibles"
+    topic: "Solving Insurance Deductible Problems"
     difficulty: hard
-    real_world_analogy: "Consider a meal where you pay the first RM10 and the rest is covered by a friend. The RM10 is like a deductible in insurance."
-    misconception_alert: "Students might assume that after paying a deductible, all costs are covered. Remember, co-insurance may require sharing costs even after the deductible."
-    scenario: "Ravi's health insurance has a RM200 deductible and 20% co-insurance. He incurs a hospital bill of RM1,200. Calculate Ravi's total out-of-pocket expense."
+    tp_level: 5
+    kbat: true
+    learning_objective: 3.1.3
+    real_world_analogy: "A deductible is like an entry fee to a theme park; you must pay it before enjoying the rides, just as you have to pay a deductible before insurance covers the rest."
+    misconception_alert: "Students often confuse deductible and premium, thinking both reduce the cost of insurance claims."
+    scenario: "Ali's health insurance has a deductible of RM500. If he incurs medical expenses of RM3,000, how much will the insurance cover?"
     working: |
-      Step 1: Pay the deductible - Subtract the deductible from the total bill: RM1,200 - RM200 = RM1,000.
-      Step 2: Calculate co-insurance - Ravi pays 20% of the remaining RM1,000: 0.20 * RM1,000 = RM200.
-      Step 3: Calculate total out-of-pocket - Add deductible and co-insurance: RM200 + RM200 = RM400.
-      Step 4: Conclusion - Ravi's total out-of-pocket expense is RM400.
+      Step 1: Identify the total medical expenses: RM3,000.
+      Step 2: Recognize that Ali must pay the deductible first: RM500.
+      Step 3: Calculate the amount insurance will cover: Total expenses - Deductible = RM3,000 - RM500 = RM2,500.
+      Step 4: Conclude that the insurance will cover RM2,500 of Ali's medical expenses.
