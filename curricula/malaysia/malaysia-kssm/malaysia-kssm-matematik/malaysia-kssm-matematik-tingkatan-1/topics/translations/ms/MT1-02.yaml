@@ -65,7 +65,7 @@ performance_standards:
 
 prerequisites:
   required:
-    - id: MT1-01
+    - "MT1-01"
   recommended: []
 
 mastery:
@@ -89,7 +89,7 @@ teaching:
     - misconception: "Anggap 1 ialah faktor perdana."
       remediation: "Tegaskan semula bahawa 1 bukan nombor perdana atau gubahan; faktor perdana mestilah nombor perdana."
     - misconception: "Sentiasa pilih nombor yang BESAR untuk FSTB."
-      remediation: "Jelaskan bahawa 'Faktor' mestilah lebih kecil atau sama dengan nombor asal ($FSTB \leq \text{Nombor Terkecil}$)."
+      remediation: "Jelaskan bahawa 'Faktor' mestilah lebih kecil atau sama dengan nombor asal ($FSTB \\leq \\text{Nombor Terkecil}$)."
   engagement_hooks:
     - "Misteri Jubin: 'Apakah saiz jubin segi empat sama terbesar yang boleh menutup lantai 12m x 18m?' (FSTB)"
     - "Pertemuan Bas: 'Tiga bas bertolak pada selang masa berbeza... bila mereka akan bertemu lagi?' (GSTK)"

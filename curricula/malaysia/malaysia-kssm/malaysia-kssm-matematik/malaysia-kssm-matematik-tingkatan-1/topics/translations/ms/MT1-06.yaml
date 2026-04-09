@@ -79,7 +79,7 @@ performance_standards:
 
 prerequisites:
   required:
-    - id: MT1-05
+    - "MT1-05"
   recommended: []
 
 mastery:
@@ -98,10 +98,10 @@ teaching:
     - "Langkah 5: Menyelesaikan Persamaan Serentak (Pengantian/Penghapusan) (5 hari)"
     - "Langkah 6: Masalah Dunia Sebenar Persamaan Serentak (4 hari)"
   common_misconceptions:
-    - misconception: "Ralat Tukar Tanda ($x + 5 = 10 \Rightarrow x = 10 + 5$)."
+    - misconception: "Ralat Tukar Tanda ($x + 5 = 10 \\Rightarrow x = 10 + 5$)."
       remediation: "Gunakan analogi 'Portal': Apabila nombor melalui portal '=', tandanya MESTI bertukar kepada songsangan."
-    - misconception: "Ralat Kedudukan Pemboleh Ubah ($2x = 8 \Rightarrow x = 8 - 2$)."
-      remediation: "Jelaskan bahawa hubungan itu adalah pendaraban ($2 \times x$), maka songsangannya adalah pembahagian ($8 / 2$)."
+    - misconception: "Ralat Kedudukan Pemboleh Ubah ($2x = 8 \\Rightarrow x = 8 - 2$)."
+      remediation: "Jelaskan bahawa hubungan itu adalah pendaraban ($2 \\times x$), maka songsangannya adalah pembahagian ($8 / 2$)."
     - misconception: "Anggap Persamaan Serentak HANYA ada satu penyelesaian."
       remediation: "Gunakan visual 'Garis Geometri': Garis selari tidak bertemu (Tiada penyelesaian), Garis sama (Penyelesaian infinit)."
   engagement_hooks:

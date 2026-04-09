@@ -1,7 +1,5 @@
 topic_id: MT1-07
-topic_name: "Ketaksamaan Linear"
-subject_grade_id: malaysia-kssm-matematik-tingkatan-1
-provenance: "expert-curated-dskp"
+provenance: ai-assisted
 
 questions:
   # --- SUBBAB 7.1: Ketaksamaan ---
@@ -167,7 +165,7 @@ questions:
       - marks: 1
         criteria: "Mengira nilai -7 dengan betul."
       - marks: 1
-        criteria: "Menterbalikkan simbol daripada $\geq$ kepada $\leq$."
+        criteria: "Menterbalikkan simbol daripada $\\geq$ kepada $\\leq$."
     hints:
       - level: 1
         text: "Berhati-hati! Anda sedang membahagi dengan nombor negatif. Apa yang perlu dilakukan pada simbol itu?"
@@ -213,14 +211,14 @@ questions:
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Membentuk ketaksamaan yang betul $12 + 4p \leq 50$."
+        criteria: "Membentuk ketaksamaan yang betul $12 + 4p \\leq 50$."
       - marks: 1
-        criteria: "Menyelesaikan algebra untuk mendapatkan $p \leq 9.5$."
+        criteria: "Menyelesaikan algebra untuk mendapatkan $p \\leq 9.5$."
       - marks: 1
         criteria: "Mentafsir keputusan integer dalam konteks masalah."
     hints:
       - level: 1
-        text: "Jumlah kos mestilah $\leq$ 50. Bolehkah dia membeli separuh batang pen? Tidak, jadi bundarkan ke bawah kepada nombor bulat terdekat."
+        text: "Jumlah kos mestilah $\\leq$ 50. Bolehkah dia membeli separuh batang pen? Tidak, jadi bundarkan ke bawah kepada nombor bulat terdekat."
 
   - id: Q11
     text: "Diberi $-\\frac{1}{5}x \\geq -\\frac{3}{5}$. Jika $x$ ialah integer positif, nyatakan nilai-nilai $x$."
@@ -239,7 +237,7 @@ questions:
         - value: "C"
           feedback: "Ingat bahawa 0 bukanlah integer positif."
         - value: "D"
-          feedback: "Anda lupa terbalikkan simbol ketaksamaan! Darab dengan -5 menukar $\geq$ kepada $\leq$."
+          feedback: "Anda lupa terbalikkan simbol ketaksamaan! Darab dengan -5 menukar $\\geq$ kepada $\\leq$."
     marks: 1
     rubric:
       - marks: 1
@@ -267,4 +265,4 @@ questions:
         criteria: "Memadankan (ii) dengan satu sempadan ketat dengan betul."
     hints:
       - level: 1
-        text: "Jika senarai tersebut merangkumi nombor sempadan, gunakan $\leq$. Jika ia berhenti tepat sebelum sempadan, gunakan $<$."
+        text: "Jika senarai tersebut merangkumi nombor sempadan, gunakan $\\leq$. Jika ia berhenti tepat sebelum sempadan, gunakan $<$."

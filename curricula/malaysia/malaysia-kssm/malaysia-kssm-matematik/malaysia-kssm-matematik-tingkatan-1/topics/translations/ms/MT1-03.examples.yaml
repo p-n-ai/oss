@@ -1,12 +1,12 @@
 topic_id: MT1-03
-provenance: "expert-reviewed"
+provenance: ai-assisted
 worked_examples:
   # Contoh 1: Menentukan Kuasa Dua Sempurna (SP 3.1.2)
   - id: WE-01
     topic: "Menentukan Kuasa Dua Sempurna"
     learning_objective: "3.1.2"
     difficulty: easy
-    real_world_analogy: "Membentuk 'Pasukan yang Sama': Bayangkan awak ada 36 pemain bola. Jika awak boleh bahagikan mereka kepada dua pasukan yang mempunyai bilangan pemain yang sama melalui pendaraban ($6 \times 6$), maka 36 ialah 'Kuasa Dua Sempurna'."
+    real_world_analogy: "Membentuk 'Pasukan yang Sama': Bayangkan awak ada 36 pemain bola. Jika awak boleh bahagikan mereka kepada dua pasukan yang mempunyai bilangan pemain yang sama melalui pendaraban ($6 \\times 6$), maka 36 ialah 'Kuasa Dua Sempurna'."
     misconception_alert: "Murid selalu ingat semua nombor genap adalah kuasa dua sempurna. Ingatkan mereka: 10 itu nombor genap, tapi tiada nombor bulat yang didarab dengan dirinya sendiri menghasilkan 10!"
     scenario: "Tentukan sama ada 36 ialah kuasa dua sempurna dengan menggunakan kaedah pemfaktoran perdana."
     working: |
@@ -26,7 +26,7 @@ worked_examples:
     difficulty: medium
     real_world_analogy: "Pelan Lantai Songsang: Jika awak tahu luas sebuah taman berbentuk segi empat sama ialah nombor pecahan, mencari punca kuasa dua adalah seperti mencari panjang satu sisi taman tersebut."
     misconception_alert: "Perangkap 'Bahagi Dua'! Murid sering membahagikan pengangka atau penyebut dengan 2. Ingatkan mereka untuk mencari punca kuasa, bukan bahagi dua!"
-    scenario: "Cari nilai bagi $\sqrt{2 \frac{7}{9}}$ tanpa menggunakan kalkulator."
+    scenario: "Cari nilai bagi $\\sqrt{2 \\frac{7}{9}}$ tanpa menggunakan kalkulator."
     working: |
       1. Tukarkan nombor bercampur kepada pecahan tak wajar:
          $2 \frac{7}{9} = \frac{(2 \times 9) + 7}{9} = \frac{25}{9}$
@@ -47,7 +47,7 @@ worked_examples:
     difficulty: hard
     real_world_analogy: "Resipi Masakan: Awak mesti ikut langkah mengikut urutan (KUBADATAS) untuk dapat hasil yang betul. Kalau goreng telur sebelum pecahkan kulit, nanti jadi kucar-kacir! Selesaikan Kurungan dulu, kemudian Punca/Kuasa, baru yang lain."
     misconception_alert: "Ralat 'Kiri-ke-Kanan'. Murid selalu kira terus dari kiri ke kanan tanpa menghiraukan punca kuasa dan kuasa tiga mesti diselesaikan dahulu sebelum tambah atau tolak."
-    scenario: "Hitung nilai bagi $0.5^2 + \sqrt[3]{1000}$."
+    scenario: "Hitung nilai bagi $0.5^2 + \\sqrt[3]{1000}$."
     working: |
       1. Kenal pasti dua bahagian operasi: $0.5^2$ dan $\sqrt[3]{1000}$.
       2. Selesaikan kuasa dua bagi nombor perpuluhan:
@@ -65,7 +65,7 @@ worked_examples:
     difficulty: hard
     real_world_analogy: "Potongan Kek yang Hilang: Jika awak ada sebongkah kek besar dan potong keluar satu kubus kecil, baki kek tersebut hanyalah 'Isi padu Besar' tolak 'Isi padu Kecil'."
     misconception_alert: "Kekeliruan 'Panjang Sisi'. Murid mungkin tolak panjang sisi secara terus ($6 - 3$) dan bukannya menolak isi padu. Sentiasa kira 'Isi Padu' dulu, baru cari 'Sisi' (Punca)!"
-    scenario: "Seorang pengukir mengeluarkan sebuah kubus kecil daripada sebuah blok kayu berbentuk kubus yang mempunyai panjang tepi 6 cm. Jika isi padu baki blok kayu itu ialah $189 \text{ cm}^3$, cari panjang tepi kubus kecil yang dikeluarkan itu."
+    scenario: "Seorang pengukir mengeluarkan sebuah kubus kecil daripada sebuah blok kayu berbentuk kubus yang mempunyai panjang tepi 6 cm. Jika isi padu baki blok kayu itu ialah $189 \\text{ cm}^3$, cari panjang tepi kubus kecil yang dikeluarkan itu."
     working: |
       1. Kira isi padu asal blok kayu besar:
          Isi padu = $6^3 = 6 \times 6 \times 6 = 216 \text{ cm}^3$

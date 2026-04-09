@@ -91,7 +91,7 @@ performance_standards:
 
 prerequisites:
   required:
-    - id: MT1-01
+    - "MT1-01"
   recommended: []
 
 mastery:
@@ -115,7 +115,7 @@ teaching:
     - misconception: "Keliru antara Kadar dengan Nisbah."
       remediation: "Jelaskan bahawa Nisbah membandingkan unit yang sama, manakala Kadar membandingkan unit yang berbeza (cth: sen/kWj)."
     - misconception: "Perangkap 'Terbalik' dalam Kadaran."
-      remediation: "Sentiasa selaraskan unit secara mendatar: $\frac{A_1}{B_1} = \frac{A_2}{B_2}$."
+      remediation: "Sentiasa selaraskan unit secara mendatar: $\\frac{A_1}{B_1} = \\frac{A_2}{B_2}$."
   engagement_hooks:
     - "Resipi Bubur Pulut Hitam: 'Adakah kemasannya sama jika masak 10 periuk? (Nisbah Setara)'"
     - "Pelan Telco: 'Pelan data mana yang bagi lebih GB per Ringgit? (Kadar)'"

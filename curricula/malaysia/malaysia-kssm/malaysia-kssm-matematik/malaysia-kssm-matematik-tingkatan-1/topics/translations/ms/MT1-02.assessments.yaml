@@ -1,5 +1,5 @@
 topic_id: MT1-02
-provenance: "expert-curated"
+provenance: ai-assisted
 questions:
   - id: Q1
     text: "Antara berikut, yang manakah merupakan faktor bagi $30$?"
@@ -16,7 +16,7 @@ questions:
         Oleh itu, $6$ ialah faktor bagi $30$.
       distractors:
         - value: "4"
-          feedback: "Salah. $30 \div 4 = 7$ baki $2$. Faktor mestilah membahagi tanpa baki."
+          feedback: "Salah. $30 \\div 4 = 7$ baki $2$. Faktor mestilah membahagi tanpa baki."
         - value: "7"
           feedback: "Salah. $7$ tidak ada dalam sifir yang menghasilkan $30$. Cuba senaraikan pasangan faktor: $(1, 30), (2, 15), (3, 10), (5, 6)$."
         - value: "60"
@@ -34,7 +34,7 @@ questions:
     kbat: false
     answer:
       type: "exact"
-      value: "2^2 \times 3 \times 5"
+      value: "2^2 \\times 3 \\times 5"
       working: |
         Gunakan kaedah pembahagian berulang dengan nombor perdana:
         $60 \div 2 = 30$
@@ -75,14 +75,14 @@ questions:
         - value: "72"
           feedback: "Anda mencari GSTK (Gandaan)! FSTB mestilah nombor yang membahagi, jadi nilainya lebih kecil."
         - value: "3"
-          feedback: "Ini faktor sepunya, tapi anda perlu mendarabkan semua pembahagi sepunya di sebelah kiri ($2 \times 3$)."
+          feedback: "Ini faktor sepunya, tapi anda perlu mendarabkan semua pembahagi sepunya di sebelah kiri ($2 \\times 3$)."
     marks: 2
     hints:
       - level: 1
         text: "Gunakan kaedah pembahagian berulang. Bahagi kedua-dua nombor dengan nombor perdana yang boleh membahagi kedua-duanya serentak."
 
   - id: Q4
-    text: "Seorang jurubina ingin menutupi lantai berukuran $7.5 \text{ m} \times 9.6 \text{ m}$ dengan jubin segi empat sama. Berapakah saiz terbesar jubin itu, dalam cm, supaya lantai itu ditutupi sepenuhnya?"
+    text: "Seorang jurubina ingin menutupi lantai berukuran $7.5 \\text{ m} \\times 9.6 \\text{ m}$ dengan jubin segi empat sama. Berapakah saiz terbesar jubin itu, dalam cm, supaya lantai itu ditutupi sepenuhnya?"
     difficulty: "hard"
     learning_objective: "2.1.5"
     tp_level: 4
@@ -103,7 +103,7 @@ questions:
       - marks: 1
         criteria: "Mengenal pasti keperluan mencari FSTB."
       - marks: 2
-        criteria: "Menunjukkan langkah pengiraan FSTB yang lengkap dan memberikan jawapan $30 \text{ cm}$."
+        criteria: "Menunjukkan langkah pengiraan FSTB yang lengkap dan memberikan jawapan $30 \\text{ cm}$."
     hints:
       - level: 1
         text: "Lantai mesti ditutup 'tanpa baki'. Ini bermakna saiz jubin mesti membahagi panjang dan lebar dengan tepat. Cari FSTB bagi ukuran tersebut dalam unit cm."

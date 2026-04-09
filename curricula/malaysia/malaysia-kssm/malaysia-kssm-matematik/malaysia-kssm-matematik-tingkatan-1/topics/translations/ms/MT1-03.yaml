@@ -105,7 +105,7 @@ performance_standards:
 
 prerequisites:
   required:
-    - id: MT1-02
+    - "MT1-02"
   recommended: []
 
 mastery:
@@ -125,12 +125,12 @@ teaching:
     - "Langkah 6: Operasi Bergabung (BEDMAS/BODMAS) (3 hari)"
     - "Langkah 7: Cabaran Reka Bentuk Dunia Sebenar (3 hari)"
   common_misconceptions:
-    - misconception: "Kuasa dua ($x^2$) bermaksud $x \times 2$."
-      remediation: "Gunakan visual 'Luas Segiempat Sama': segiempat $3 \times 3$ ada 9 unit, bukan 6."
+    - misconception: "Kuasa dua ($x^2$) bermaksud $x \\times 2$."
+      remediation: "Gunakan visual 'Luas Segiempat Sama': segiempat $3 \\times 3$ ada 9 unit, bukan 6."
     - misconception: "Anggap nombor negatif ada punca kuasa dua nyata (di peringkat ini)."
       remediation: "Ingatkan mereka: 'Apakah nombor yang sama didarab diri sendiri dapat negatif?' Mustahil buat masa ni!"
-    - misconception: "Kedudukan perpuluhan salah ($\sqrt{0.04} = 0.02$ ralat)."
-      remediation: "Tunjukkan $\sqrt{0.04} = \sqrt{\frac{4}{100}} = \frac{2}{10} = 0.2$."
+    - misconception: "Kedudukan perpuluhan salah ($\\sqrt{0.04} = 0.02$ ralat)."
+      remediation: "Tunjukkan $\\sqrt{0.04} = \\sqrt{\\frac{4}{100}} = \\frac{2}{10} = 0.2$."
   engagement_hooks:
     - "Tukang Jubin: 'Jika anda ada 50 jubin, apakah saiz segiempat sama terbesar anda boleh buat? (Kuasa Dua Sempurna)'"
     - "Tangki Ajaib: 'Jika tangki kiub ini muat 64 liter, apakah dimensinya?'"

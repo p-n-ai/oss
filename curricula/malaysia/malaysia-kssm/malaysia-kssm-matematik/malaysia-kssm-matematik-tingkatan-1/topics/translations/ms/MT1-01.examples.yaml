@@ -1,5 +1,6 @@
-id: "MT1-01"
-examples:
+topic_id: "MT1-01"
+provenance: ai-generated
+worked_examples:
   - id: "WE-01"
     topic: "Integer dalam Situasi Kehidupan Sebenar"
     difficulty: "easy"

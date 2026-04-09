@@ -53,8 +53,8 @@ performance_standards:
 
 prerequisites:
   required:
-    - id: MT1-05
-    - id: MT1-06
+    - "MT1-05"
+    - "MT1-06"
   recommended: []
 
 mastery:
@@ -75,12 +75,12 @@ teaching:
   common_misconceptions:
     - misconception: "Terlupa menterbalikkan tanda ketaksamaan apabila mendarab atau membahagi dengan nombor negatif."
       remediation: "Gunakan analogi 'Pantulan Cermin': Negatif menyongsangkan susunan dunia (cth: $10 > 5$ tetapi $-10 < -5$)."
-    - misconception: "Keliru antara '>' dengan '$\geq$' (termasuk atau tidak termasuk titik hujung)."
+    - misconception: "Keliru antara '>' dengan '$\\geq$' (termasuk atau tidak termasuk titik hujung)."
       remediation: "Gunakan analogi 'Tiang Pagar': Adakah julat kita termasuk tiang itu ($=$) atau hanya ruang sehingga ke tiang tersebut?"
     - misconception: "Perangkap 'Hanya Satu Jawapan' (Melayan ketaksamaan seperti persamaan)."
       remediation: "Sentiasa tekankan 'Julat/Rantau penyelesaian'. Tunjukkan kawasan berlorek pada garis nombor."
   engagement_hooks:
-    - "Had Ketinggian Roller Coaster: 'Anda mestilah sekurang-kurangnya 140cm untuk naik ($h \geq 140$).'"
+    - "Had Ketinggian Roller Coaster: 'Anda mestilah sekurang-kurangnya 140cm untuk naik ($h \\geq 140$).'"
     - "Bajet Membeli-belah: 'RM50 untuk beli hadiah. Jika satu hadiah berharga $k$, berapakah had bajet anda?'"
     - "Julat Suhu: 'Hidup dalam Zon Goldilocks (Terlalu panas vs Terlalu sejuk).'"
 

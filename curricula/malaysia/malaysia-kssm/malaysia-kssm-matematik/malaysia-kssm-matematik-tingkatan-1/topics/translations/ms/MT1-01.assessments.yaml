@@ -1,5 +1,5 @@
-id: "MT1-01"
 topic_id: "MT1-01"
+provenance: ai-generated
 questions:
   # 1.1 Integer (TP1 - OAP)
   - id: "Q1"
@@ -8,15 +8,14 @@ questions:
     learning_objective: "1.1.2"
     tp_level: 1
     kbat: false
-    type: "multiple_choice"
-    options:
-      A: "0.75"
-      B: "-5"
-      C: "3/4"
-      D: "2.1"
     answer:
       type: "multiple_choice"
       value: "B"
+      options:
+        A: "0.75"
+        B: "-5"
+        C: "3/4"
+        D: "2.1"
     distractors:
       - value: "A"
         feedback: "Anda memilih perpuluhan. Ingat, integer mestilah nombor bulat tanpa bahagian pecahan."
@@ -36,7 +35,6 @@ questions:
     learning_objective: "1.1.4"
     tp_level: 3
     kbat: false
-    type: "subjective"
     answer:
       type: "exact"
       value: "-3, -1, 0, 4, 5"
@@ -62,12 +60,11 @@ questions:
 
   # 1.2 Operasi (TP3 - Subjektif)
   - id: "Q3"
-    text: "Hitung nilai bagi: $6 \times (-2) + 4 \div 2$."
+    text: "Hitung nilai bagi: $6 \\times (-2) + 4 \\div 2$."
     difficulty: "medium"
     learning_objective: "1.2.3"
     tp_level: 3
     kbat: false
-    type: "subjective"
     answer:
       type: "exact"
       value: "-10"
@@ -89,15 +86,14 @@ questions:
 
   # 1.3 Pecahan (TP3 - OPB)
   - id: "Q4"
-    text: "Nyatakan sama ada pernyataan berikut BENAR atau PALSU: $-\frac{3}{4}$ adalah lebih besar daripada $-\frac{1}{2}$."
+    text: "Nyatakan sama ada pernyataan berikut BENAR atau PALSU: $-\\frac{3}{4}$ adalah lebih besar daripada $-\\frac{1}{2}$."
     difficulty: "medium"
     learning_objective: "1.3.2"
     tp_level: 3
     kbat: false
-    type: "objective_diverse"
     answer:
-      type: "boolean"
-      value: false
+      type: "exact"
+      value: "PALSU"
       working: |
         1. Samakan penyebut: $-\frac{3}{4}$ dan $-\frac{2}{4}$.
         2. Bandingkan: $-3$ adalah lebih kecil daripada $-2$ pada garis nombor.
@@ -105,7 +101,7 @@ questions:
     marks: 2
     hints:
       - level: 1
-        text: "Cuba samakan penyebut dahulu. Adakah $-\frac{3}{4}$ berada lebih ke kiri atau ke kanan berbanding $-\frac{2}{4}$ pada garis nombor?"
+        text: "Cuba samakan penyebut dahulu. Adakah $-\\frac{3}{4}$ berada lebih ke kiri atau ke kanan berbanding $-\\frac{2}{4}$ pada garis nombor?"
 
   # 1.4 Perpuluhan (TP4 - Subjektif/Rutin Mudah)
   - id: "Q5"
@@ -114,7 +110,6 @@ questions:
     learning_objective: "1.4.4"
     tp_level: 4
     kbat: true
-    type: "subjective"
     answer:
       type: "exact"
       value: "14.85"
@@ -141,15 +136,14 @@ questions:
     learning_objective: "1.5.1"
     tp_level: 2
     kbat: false
-    type: "multiple_choice"
-    options:
-      A: "0.333..."
-      B: "-8"
-      C: "$\frac{5}{0}$"
-      D: "1.25"
     answer:
       type: "multiple_choice"
       value: "C"
+      options:
+        A: "0.333..."
+        B: "-8"
+        C: "$\\frac{5}{0}$"
+        D: "1.25"
     distractors:
       - value: "A"
         feedback: "Perpuluhan berulang boleh ditulis sebagai pecahan, jadi ia ADALAH nombor nisbah."
@@ -169,7 +163,6 @@ questions:
     learning_objective: "1.2.6"
     tp_level: 5
     kbat: true
-    type: "subjective"
     answer:
       type: "exact"
       value: "-9200"
@@ -193,12 +186,11 @@ questions:
 
   # 1.5 Nombor Nisbah (TP6 - Bukan Rutin)
   - id: "Q8"
-    text: "Noriah menderma $\frac{3}{8}$ daripada simpanannya yang berjumlah RM120. Dia kemudian membeli kasut sekolah berharga RM25.60. Menggunakan operasi nombor nisbah, terangkan sama ada baki wangnya mencukupi untuk membeli buku yang berharga RM50."
+    text: "Noriah menderma $\\frac{3}{8}$ daripada simpanannya yang berjumlah RM120. Dia kemudian membeli kasut sekolah berharga RM25.60. Menggunakan operasi nombor nisbah, terangkan sama ada baki wangnya mencukupi untuk membeli buku yang berharga RM50."
     difficulty: "hard"
     learning_objective: "1.5.3"
     tp_level: 6
     kbat: true
-    type: "subjective"
     answer:
       type: "free_text"
       value: "Tidak mencukupi, dia hanya mempunyai baki RM49.40."

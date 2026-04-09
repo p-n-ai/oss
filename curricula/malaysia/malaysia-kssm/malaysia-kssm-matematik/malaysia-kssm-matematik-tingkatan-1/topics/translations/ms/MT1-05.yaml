@@ -59,7 +59,7 @@ performance_standards:
 
 prerequisites:
   required:
-    - id: MT1-01
+    - "MT1-01"
   recommended: []
 
 mastery:
@@ -80,9 +80,9 @@ teaching:
     - "Langkah 7: Pendaraban & Pembahagian Ungkapan Satu Sebutan (3 hari)"
   common_misconceptions:
     - misconception: "Ralat pendaraban tersirat (Anggap $3x$ adalah $3+x$ atau $30+x$)."
-      remediation: "Jelaskan $3x$ bermaksud 3 beg berisi $x$. Jika $x=5$, $3 \times 5 = 15$, bukan 35."
+      remediation: "Jelaskan $3x$ bermaksud 3 beg berisi $x$. Jika $x=5$, $3 \\times 5 = 15$, bukan 35."
     - misconception: "Menggabungkan sebutan tidak serupa (cth: $2a + 3b = 5ab$)."
-      remediation: "Gunakan analogi 'Bakul Buah': 2 epal + 3 pisang $\neq$ 5 'epal-pisang'."
+      remediation: "Gunakan analogi 'Bakul Buah': 2 epal + 3 pisang $\\neq$ 5 'epal-pisang'."
     - misconception: "Ralat tanda semasa penolakan (Perangkap 'Kurungan Negatif')."
       remediation: "Beritahu mereka untuk 'tukar suis' bagi setiap sebutan di dalam kurungan bila ada tolak di luar."
   engagement_hooks:

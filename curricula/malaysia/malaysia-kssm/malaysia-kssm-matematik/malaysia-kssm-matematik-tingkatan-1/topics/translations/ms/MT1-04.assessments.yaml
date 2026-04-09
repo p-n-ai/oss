@@ -1,8 +1,8 @@
 topic_id: MT1-04
-provenance: "Draf Induk KSSM selaras DSKP"
+provenance: ai-generated
 questions:
   # --- 4.1 Nisbah ---
-  - id: Q411-01
+  - id: Q1
     text: "Sebuah pasukan terdiri daripada 12 pemain bola sepak, 8 pemain bola tampar, dan 4 pemain bola keranjang. Wakilkan hubungan pemain bola sepak kepada pemain bola tampar kepada pemain bola keranjang dalam bentuk $a : b : c$ dalam bentuk termudah."
     difficulty: "easy"
     learning_objective: "4.1.1"
@@ -27,18 +27,15 @@ questions:
       - level: 2
         text: "Ada tak nombor yang boleh bahagi 12, 8, dan 4 dengan tepat? Cuba bahagi dengan faktor sepunya terbesar untuk memudahkan nisbah."
 
-  - id: Q412-01
+  - id: Q2
     text: "Padankan pasangan nisbah setara yang berikut."
     difficulty: "easy"
     learning_objective: "4.1.2"
     tp_level: 2
     kbat: false
     answer:
-      type: "mapping"
-      value: 
-        "6 : 9": "2 : 3"
-        "6 : 90": "1 : 15"
-        "9 : 60": "3 : 20"
+      type: "free_text"
+      value: "6:9 = 2:3, 6:90 = 1:15, 9:60 = 3:20"
       working: |
         - 6:9 boleh dibahagi dengan 3 -> 2:3.
         - 6:90 boleh dibahagi dengan 6 -> 1:15.
@@ -52,7 +49,7 @@ questions:
         text: "Nisbah setara adalah seperti pecahan setara. Cuba mudahkan nisbah yang lebih besar di sebelah kiri."
 
   # --- 4.2 Kadar ---
-  - id: Q421-01
+  - id: Q3
     text: "Antara yang berikut, yang manakah menghuraikan satu 'kadar'?"
     difficulty: "medium"
     learning_objective: "4.2.1"
@@ -73,7 +70,7 @@ questions:
     marks: 1
 
   # --- 4.3 Kadaran ---
-  - id: Q432-01
+  - id: Q4
     text: "Kos tenaga elektrik ialah 43.6 sen bagi 2 kilowatt-jam (kWj). Berapakah kos bagi 30 kWj?"
     difficulty: "medium"
     learning_objective: "4.3.2"
@@ -101,7 +98,7 @@ questions:
         text: "Cuba gunakan kaedah unitari dulu: cari kos untuk 1 kWj dengan membahagi 43.6 dengan 2."
 
   # --- 4.4 Nisbah, Kadar dan Kadaran ---
-  - id: Q444-01
+  - id: Q5
     text: "Seorang pekebun menggunakan kaedah tangkap, tanda, lepas dan tangkap semula untuk menganggarkan populasi siput. Dia menandakan 24 ekor siput. Kemudian, dia menangkap semula 30 ekor siput dan mendapati 5 ekor adalah bertanda. Anggarkan jumlah populasi siput tersebut."
     difficulty: "hard"
     learning_objective: "4.4.4"
@@ -126,8 +123,8 @@ questions:
         text: "Nisbah siput bertanda kepada jumlah populasi sepatutnya sama dengan nisbah siput bertanda dalam sampel kedua kepada jumlah sampel kedua tersebut."
 
   # --- 4.5 Perkaitan dengan Peratusan ---
-  - id: Q453-01
-    text: "Leonardo da Vinci mengkaji hubungan nisbah pada tubuh manusia. Salah satu nisbah yang digunakan ialah $\frac{\text{tinggi kepala}}{\text{tinggi keseluruhan tubuh}} = \frac{2}{5}$. Jika tinggi keseluruhan seseorang ialah 175 cm, berapakah anggaran tinggi kepalanya?"
+  - id: Q6
+    text: "Leonardo da Vinci mengkaji hubungan nisbah pada tubuh manusia. Salah satu nisbah yang digunakan ialah $\\frac{\\text{tinggi kepala}}{\\text{tinggi keseluruhan tubuh}} = \\frac{2}{5}$. Jika tinggi keseluruhan seseorang ialah 175 cm, berapakah anggaran tinggi kepalanya?"
     difficulty: "hard"
     learning_objective: "4.5.3"
     tp_level: 6
@@ -147,4 +144,4 @@ questions:
         criteria: "Mengira tinggi kepala dengan betul."
     hints:
       - level: 1
-        text: "Ingat bahawa nisbah $\frac{2}{5}$ membandingkan kepala kepada tinggi keseluruhan. Jika tinggi keseluruhan ialah 175, berapa kali ganda ia lebih besar daripada 5?"
+        text: "Ingat bahawa nisbah $\\frac{2}{5}$ membandingkan kepala kepada tinggi keseluruhan. Jika tinggi keseluruhan ialah 175, berapa kali ganda ia lebih besar daripada 5?"

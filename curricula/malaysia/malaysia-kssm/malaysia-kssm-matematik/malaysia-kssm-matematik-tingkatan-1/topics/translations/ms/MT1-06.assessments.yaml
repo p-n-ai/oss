@@ -1,10 +1,10 @@
 topic_id: MT1-06
-provenance: ai-assisted-validated
+provenance: ai-assisted
 questions:
   ##### ---------------------------------------------------------
   ##### SUBTOPIK 6.1: Persamaan Linear dalam Satu Pemboleh Ubah
   ##### ---------------------------------------------------------
-  - id: MT1-06-Q01
+  - id: Q1
     text: "Kelaskan ayat matematik berikut: $x + 5 = 10$"
     difficulty: easy
     tp_level: 1
@@ -29,7 +29,7 @@ questions:
       - level: 1
         text: "Lihat simbol di antara kedua-dua belah. Adakah ia menunjukkan hubungan kesamaan?"
 
-  - id: MT1-06-Q02
+  - id: Q2
     text: "Tentukan sama ada pernyataan ini BENAR atau PALSU: 'Persamaan $k^2 + 1 = 6$ ialah persamaan linear dalam satu pemboleh ubah.'"
     difficulty: easy
     tp_level: 1
@@ -46,7 +46,7 @@ questions:
       - level: 1
         text: "Semak 'kuasa' (eksponen) bagi huruf $k$. Untuk menjadi 'linear', berapakah kuasa yang sepatutnya?"
 
-  - id: MT1-06-Q03
+  - id: Q3
     text: "Selesaikan persamaan linear berikut: $3x - 4 = 11$"
     difficulty: medium
     tp_level: 3
@@ -73,7 +73,7 @@ questions:
   ##### ---------------------------------------------------------
   ##### SUBTOPIK 6.2: Persamaan Linear dalam Dua Pemboleh Ubah
   ##### ---------------------------------------------------------
-  - id: MT1-06-Q04
+  - id: Q4
     text: "Sebuah kedai menjual buku dengan harga $RM15$ sebuah dan pen dengan harga $RM2$ sebatang. Damia membelanjakan $RM50$ untuk membeli $b$ buah buku dan $p$ batang pen. Bentuk satu persamaan linear untuk mewakili situasi ini."
     difficulty: medium
     tp_level: 2
@@ -99,7 +99,7 @@ questions:
   ##### ---------------------------------------------------------
   ##### SUBTOPIK 6.3: Persamaan Linear Serentak
   ##### ---------------------------------------------------------
-  - id: MT1-06-Q05
+  - id: Q5
     text: "Selesaikan menggunakan kaedah penghapusan: \n $3p + 2q = 16$ \n $p - 2q = 0$"
     difficulty: hard
     tp_level: 3
@@ -129,7 +129,7 @@ questions:
   ##### ---------------------------------------------------------
   ##### CONTOH SOALAN UASA & KBAT
   ##### ---------------------------------------------------------
-  - id: MT1-06-Q06
+  - id: Q6
     text: "Selesaikan: $4(b + 1) = \\frac{b}{2} - 1$"
     difficulty: medium
     tp_level: 3
@@ -155,7 +155,7 @@ questions:
       - level: 1
         text: "Mula-mula, kembangkan kurungan. Kemudian, darabkan setiap sebutan dengan 2 untuk hapuskan pecahan itu!"
 
-  - id: MT1-06-Q07
+  - id: Q7
     text: "Aina meluangkan $x$ jam bersenam dan $y$ jam membaca. Jumlah masa ialah 11 jam. Pada satu minggu, dia mengurangkan separuh masa senamannya dan menambah 3 jam masa membaca. Jumlah masa baharu ialah 12 jam. Cari nilai $x$ und $y$."
     difficulty: hard
     tp_level: 5
@@ -185,7 +185,7 @@ questions:
       - level: 1
         text: "Hati-hati dengan 'tambahan 3 jam'. Ia bermaksud masa membaca sekarang ialah $y + 3$. Bina dua persamaan anda dahulu!"
 
-  - id: MT1-06-Q08
+  - id: Q8
     text: "Di satu persimpangan jalan, kadar aliran trafik (kenderaan/jam) mengikut peraturan $x + y = 500$, dengan $x$ ialah kereta dan $y$ ialah motosikal. Jika satu syarat baharu menyatakan bilangan kereta mestilah 3 kali ganda bilangan motosikal untuk mengelakkan kesesakan, hitung bilangan kereta yang diperlukan."
     difficulty: hard
     tp_level: 6
