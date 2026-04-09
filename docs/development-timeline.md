@@ -14,13 +14,13 @@ oss owns the **curriculum data**: YAML topic files, Markdown teaching notes, ass
 
 | Form | Topics | DSKP Chapters | Status |
 |------|--------|---------------|--------|
-| **Form 1** | Ungkapan Algebra, Persamaan Linear, Ketaksamaan Linear | Bab 5, 6, 7 | ✅ Algebra complete |
-| **Form 2** | Pola dan Jujukan, Pemfaktoran dan Pecahan Algebra, Rumus Algebra | Bab 1, 2, 3 | ✅ Algebra complete |
-| **Form 3** | Indeks, Garis Lurus | Bab 1, 9 | ✅ Algebra complete |
+| **Form 1** | All 13 DSKP chapters (Nombor Nisbah → Kebarangkalian Mudah) | Bab 1–13 | ✅ Full DSKP complete |
+| **Form 2** | All 13 DSKP chapters (Pola dan Jujukan → Kebarangkalian Mudah) | Bab 1–13 | ✅ Full DSKP complete |
+| **Form 3** | All 9 DSKP chapters (Indeks → Garis Lurus) | Bab 1–9 | ✅ Full DSKP complete |
 | **Form 4** | All 10 DSKP chapters (Fungsi & Persamaan Kuadratik → Pengurusan Kewangan) | Bab 1–10 | ✅ Full DSKP via OSS Bot |
 | **Form 5** | All 8 DSKP chapters (Ubahan → Pemodelan Matematik) | Bab 1–8 | ✅ Full DSKP via OSS Bot |
 
-**Note:** Topic IDs follow the OSS convention `MT{grade}-{NN}` (prefix `MT` from English "Mathematics", grade number, 2-digit DSKP chapter number — e.g., `MT1-05` = Tingkatan 1 Bab 5). Algebra topics were built first (Weeks 1-3), Form 4-5 full DSKP added via OSS Bot. See [docs/id-conventions.md](id-conventions.md) for the full prefix table and ID rules.
+**Note:** Topic IDs follow the OSS convention `MT{grade}-{NN}` (prefix `MT` from English "Mathematics", grade number, 2-digit DSKP chapter number — e.g., `MT1-05` = Tingkatan 1 Bab 5). Algebra topics were built first (Weeks 1-3), then full DSKP for all forms completed. See [docs/id-conventions.md](id-conventions.md) for the full prefix table and ID rules.
 
 **Folder structure note (Mar 2026):** Curricula restructured to **Country > Syllabus > Subject > Subject Grade > Topics** hierarchy:
 ```
@@ -44,18 +44,45 @@ curricula/malaysia/malaysia-kssm/                        # syllabus level
 Topic IDs follow OSS conventions: `{PREFIX}{grade_num}-{NN}` where prefix is derived from the English subject name. For Matematik (Mathematics) the prefix is `MT`.
 
 ```
-Form 1 Algebra (3 topics — DSKP Bab 5, 6, 7)
+Form 1 Full DSKP (13 topics — Bab 1–13)
+├── MT1-01 Nombor Nisbah (Rational Numbers)
+├── MT1-02 Faktor dan Gandaan (Factors and Multiples)
+├── MT1-03 Kuasa Dua, Punca Kuasa Dua, Kuasa Tiga dan Punca Kuasa Tiga
+├── MT1-04 Nisbah, Kadar dan Kadaran (Ratio, Rate and Proportion)
 ├── MT1-05 Ungkapan Algebra (Algebraic Expressions)
 ├── MT1-06 Persamaan Linear (Linear Equations)
-└── MT1-07 Ketaksamaan Linear (Linear Inequalities)
+├── MT1-07 Ketaksamaan Linear (Linear Inequalities)
+├── MT1-08 Garis dan Sudut (Lines and Angles)
+├── MT1-09 Poligon Asas (Basic Polygons)
+├── MT1-10 Perimeter dan Luas (Perimeter and Area)
+├── MT1-11 Pengenalan Set (Introduction to Sets)
+├── MT1-12 Pengendalian Data (Data Handling)
+└── MT1-13 Kebarangkalian Mudah (Simple Probability)
 
-Form 2 Algebra (3 topics — DSKP Bab 1, 2, 3)
+Form 2 Full DSKP (13 topics — Bab 1–13)
 ├── MT2-01 Pola dan Jujukan (Patterns & Sequences)
 ├── MT2-02 Pemfaktoran dan Pecahan Algebra (Factorisation & Algebraic Fractions)
-└── MT2-03 Rumus Algebra (Algebraic Formulae)
+├── MT2-03 Rumus Algebra (Algebraic Formulae)
+├── MT2-04 Poligon (Polygons)
+├── MT2-05 Bulatan (Circle)
+├── MT2-06 Bentuk Geometri Tiga Dimensi (3D Geometric Shapes)
+├── MT2-07 Koordinat (Coordinates)
+├── MT2-08 Graf Fungsi (Function Graph)
+├── MT2-09 Laju dan Pecutan (Speed and Acceleration)
+├── MT2-10 Kecerunan Garis Lurus (Gradient of a Straight Line)
+├── MT2-11 Transformasi Isometri (Isometric Transformations)
+├── MT2-12 Sukatan Kecenderungan Memusat (Measures of Central Tendency)
+└── MT2-13 Kebarangkalian Mudah (Simple Probability)
 
-Form 3 Algebra (2 topics — DSKP Bab 1, 9)
+Form 3 Full DSKP (9 topics — Bab 1–9)
 ├── MT3-01 Indeks (Indices)
+├── MT3-02 Bentuk Piawai (Standard Form)
+├── MT3-03 Matematik Pengguna: Simpanan dan Pelaburan, Kredit dan Hutang
+├── MT3-04 Lukisan Berskala (Scale Drawing)
+├── MT3-05 Nisbah Trigonometri (Trigonometric Ratios)
+├── MT3-06 Sudut dan Tangen bagi Bulatan (Angles and Tangents of a Circle)
+├── MT3-07 Pelan dan Dongakan (Plans and Elevations)
+├── MT3-08 Lokus dalam Dua Dimensi (Locus in Two Dimensions)
 └── MT3-09 Garis Lurus (Straight Lines)
 
 Form 4 Full DSKP (10 topics — Bab 1–10) [Added via OSS Bot]
@@ -81,7 +108,7 @@ Form 5 Full DSKP (8 topics — Bab 1–8) [Added via OSS Bot]
 └── MT5-08 Pemodelan Matematik
 ```
 
-**Total topics: 26** (F1: 3, F2: 3, F3: 2, F4: 10, F5: 8)
+**Total topics: 53** (F1: 13, F2: 13, F3: 9, F4: 10, F5: 8)
 
 ---
 
@@ -254,7 +281,7 @@ To support the "Golden Version" rollout, we implemented several critical structu
 3.  **DSKP Alignment Proposal**: Created `pai-bot/docs/ai-tutor-dskp-alignment-proposal.md` to integrate KPM's 4-step problem-solving cycle and Mathematical Fikrah into the underlying AI Tutor logic.
 
 > [!IMPORTANT]
-> **Developer Note for `pai-bot` / `oss-bot`**: Ensure all downstream ingestion scripts recognize the new `translations/ms/` directory and the nested assessment `working` structure. Current CI validates all 26 topics against these new standards.
+> **Developer Note for `pai-bot` / `oss-bot`**: Ensure all downstream ingestion scripts recognize the new `translations/ms/` directory and the nested assessment `working` structure. Current CI validates all 53 topics against these new standards.
 
 #### 🛡️ Standardization v2.2: Infrastructure Hardening
 *Updated: Apr 8, 2026, 11:55 AM*
@@ -290,8 +317,12 @@ To further professionalize the curriculum supply chain and ensure safe contribut
 | `O-ACC-4` | Create Form 5 subject-grade metadata (`subject-grade.yaml`) | 🤖 OSS Bot | ✅ | |
 | `O-ACC-5` | Create 8 Form 5 topics (MT5-01 to MT5-08) with assessments, worked examples, and teaching notes | 🤖 OSS Bot | ✅ | Full DSKP coverage |
 | `O-ACC-6` | 🧑 Educator review of F4 & F5 content for KSSM accuracy | 🧑 Education Lead | ⬜ | Pending review — folded into O-W4D20-2 |
+| `O-ACC-7` | Create Form 1 non-algebra topics (MT1-01 to MT1-04, MT1-08 to MT1-13) with assessments, worked examples, and teaching notes | 🤖 OSS Bot | ✅ | Full DSKP — 10 additional topics |
+| `O-ACC-8` | Create Form 2 non-algebra topics (MT2-04 to MT2-13) with assessments, worked examples, and teaching notes | 🤖 OSS Bot | ✅ | Full DSKP — 10 additional topics |
+| `O-ACC-9` | Create Form 3 non-algebra topics (MT3-02 to MT3-08) with assessments, worked examples, and teaching notes | 🤖 OSS Bot | ✅ | Full DSKP — 7 additional topics |
+| `O-ACC-10` | Schema & content validation fix: add `content_standards`, `content_standard_id`, `performance_standards`, `distractors` to schemas; fix YAML escape errors, missing `name` fields, invalid provenance/IDs across all F1-F5 files | 🤖 Claude Code | ✅ | All 53 topics + assessments + examples now validate against schemas |
 
-**Accelerated Output:** 18 new topics (F4: 10, F5: 8) with full content (topic YAML + teaching notes + worked examples + assessments). Total coverage: F1-F5 = 26 topics.
+**Accelerated Output:** 45 new topics added beyond original 8 algebra topics. Total coverage: F1-F5 = 53 topics, all with topic YAML + teaching notes + worked examples + assessments.
 
 ---
 
@@ -301,16 +332,16 @@ To further professionalize the curriculum supply chain and ensure safe contribut
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W4D16-1` | Create non-algebra subjects for Form 1: `numbers.yaml`, `measurement.yaml`, `statistics.yaml` | 🤖 | ⬜ | |
-| `O-W4D16-2` | Create Level 0-1 topic stubs for Form 1 non-algebra (8-10 topics): id, name, LOs, prerequisites, difficulty | 🤖 | ⬜ | |
-| `O-W4D16-3` | 🧑🤖 Elevate 3 high-priority Form 1 non-algebra topics to Level 2 (add misconceptions, teaching sequence) | Collaborative | ⬜ | |
+| `O-W4D16-1` | Create non-algebra subjects for Form 1: `numbers.yaml`, `measurement.yaml`, `statistics.yaml` | 🤖 | ✅ | Superseded by O-ACC-7: full DSKP topics created with teaching notes, examples, assessments |
+| `O-W4D16-2` | Create Level 0-1 topic stubs for Form 1 non-algebra (8-10 topics): id, name, LOs, prerequisites, difficulty | 🤖 | ✅ | 10 non-algebra topics created (MT1-01 to MT1-04, MT1-08 to MT1-13) at Level 1-2 |
+| `O-W4D16-3` | 🧑🤖 Elevate 3 high-priority Form 1 non-algebra topics to Level 2 (add misconceptions, teaching sequence) | Collaborative | ✅ | MT1-01 to MT1-07 at Level 2 with full teaching content |
 
 ### Day 18 (Wed) — Form 2 & 3 Non-Algebra Topics
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W4D18-1` | Create Level 0-1 stubs for Form 2 non-algebra (8-10 topics) | 🤖 | ⬜ | |
-| `O-W4D18-2` | Create Level 0-1 stubs for Form 3 non-algebra (8-10 topics) | 🤖 | ⬜ | |
+| `O-W4D18-1` | Create Level 0-1 stubs for Form 2 non-algebra (8-10 topics) | 🤖 | ✅ | 10 non-algebra topics created (MT2-04 to MT2-13) at Level 0-1 via O-ACC-8 |
+| `O-W4D18-2` | Create Level 0-1 stubs for Form 3 non-algebra (8-10 topics) | 🤖 | ✅ | 7 non-algebra topics created (MT3-02 to MT3-08) at Level 1 via O-ACC-9 |
 | `O-W4D18-3` | 🧑 Verify all prerequisite links across Algebra and non-Algebra topics are correct | 🧑 Education Lead | ⬜ | |
 
 ### Day 19-20 (Thu-Fri) — More Assessments + Quality
@@ -319,10 +350,10 @@ To further professionalize the curriculum supply chain and ensure safe contribut
 |---------|------|-------|--------|--------|
 | `O-W4D19-1` | 🧑 Add 5 MORE assessment questions per Algebra topic (bringing total to 10/topic = 80 total) | 🧑 Education Lead | ⬜ | |
 | `O-W4D19-2` | 🧑 Add harder "exam-style" questions for Form 3 topics (PT3 exam format) | 🧑 Education Lead | ⬜ | |
-| `O-W4D20-1` | Run full quality report for all 26 topics (F1-F5): how many topics at each level? | 🤖 | ⬜ | Scope expanded from 8 to 26 topics after Accelerated F4/F5 |
-| `O-W4D20-2` | 🧑 Ensure ALL 26 topics are at Quality Level 3+ (Teachable) — includes educator review of F4/F5 OSS Bot content (O-ACC-6) | 🧑 Education Lead | ⬜ | Supersedes O-ACC-6; critical path to launch |
+| `O-W4D20-1` | Run full quality report for all 53 topics (F1-F5): how many topics at each level? | 🤖 | ⬜ | Scope expanded from 26 to 53 topics after full DSKP F1-F3 |
+| `O-W4D20-2` | 🧑 Ensure ALL 53 topics are at Quality Level 3+ (Teachable) — includes educator review of all OSS Bot content | 🧑 Education Lead | ⬜ | Critical path to launch |
 
-**Week 4 Output:** F1-F3 non-algebra stubs. 80+ assessment questions. Full quality report across all 26 topics (F1-F5).
+**Week 4 Output:** F1-F3 full DSKP complete (not just stubs). Schema validation hardened. All 53 topics pass CI.
 
 ---
 
@@ -343,16 +374,16 @@ To further professionalize the curriculum supply chain and ensure safe contribut
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
 | `O-W5D23-1` | Run full CI: all YAML validates, no prerequisite cycles, all references valid, quality report clean | 🤖 | ⬜ | |
-| `O-W5D23-2` | 🧑 Final read-through of all 26 topics' teaching notes and assessments for KSSM accuracy | 🧑 Education Lead | ⬜ | Scope expanded: F1-F5 (26 topics, not 8) |
+| `O-W5D23-2` | 🧑 Final read-through of all 53 topics' teaching notes and assessments for KSSM accuracy | 🧑 Education Lead | ⬜ | Full DSKP F1-F5 (53 topics) |
 
 ### Day 24-25 (Thu-Fri) — Pre-Launch
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W5D24-1` | Tag v0.1.0: first public release (26 topics across F1-F5 at Level 3+) | 🤖 | ⬜ | Scope expanded from 8 Algebra + stubs to 26 full topics |
-| `O-W5D25-1` | 🧑 Prepare curriculum section of launch blog: "Open School Syllabus — covering KSSM F1-F5 Matematik" | 🧑 Human | ⬜ | Updated from F1-F3 to F1-F5 |
+| `O-W5D24-1` | Tag v0.1.0: first public release (53 topics across F1-F5 at Level 3+) | 🤖 | ⬜ | Scope expanded to 53 full DSKP topics |
+| `O-W5D25-1` | 🧑 Prepare curriculum section of launch blog: "Open School Syllabus — covering KSSM F1-F5 Matematik" | 🧑 Human | ⬜ | Full DSKP F1-F5 (53 topics) |
 
-**Week 5 Output:** Repo public-ready. v0.1.0 tagged. 26 topics across F1-F5. 10+ good first issues. SQLite export available.
+**Week 5 Output:** Repo public-ready. v0.1.0 tagged. 53 topics across F1-F5. 10+ good first issues. SQLite export available.
 
 ---
 
@@ -379,19 +410,20 @@ To further professionalize the curriculum supply chain and ensure safe contribut
 | `O-W6D29-1` | 🧑 Review and merge first community PRs. Be generous with praise. | 🧑 Education Lead | ⬜ | |
 | `O-W6D30-1` | 🧑 Write curriculum section of 6-week report: F1-F5 coverage stats, quality levels, community contributions | 🧑 Human | ⬜ | |
 
-**Week 6 Output:** Public repo with F1-F5 KSSM Matematik coverage. Community engagement. First external contributions. 5+ external contributors.
+**Week 6 Output:** Public repo with full F1-F5 KSSM Matematik DSKP coverage (53 topics). Community engagement. First external contributions. 5+ external contributors.
 
 ---
 
 ## Content Delivery Summary
 
-| Milestone | F1-F3 Algebra | F4-F5 Full DSKP | Total Topics | Assessment Qs | Teaching Notes | Translations |
-|-----------|--------------|-----------------|-------------|--------------|---------------|-|
-| End Week 1 | 6 (F1:3, F2:3) | 0 | 6 | 15+ | 6 (BM & EN) | 0 |
-| End Week 2 | 8 (all) | 0 | 8 | 40+ | 8 (all) | 0 |
-| End Week 3 | 8 | 0 | 8 | 40+ | 8 | 8 (Malay) |
-| **Accelerated** | **8** | **18 (F4:10, F5:8)** | **26** | **40+ (F1-F3) + F4/F5** | **26** | **3 (F1 EN)** |
-| End Week 4 | 8 | 18 | 26+ stubs | 80+ | 26+ | 8 |
-| End Week 5 | 8 | 18 | 26+ | 80+ | 26+ | 8 |
-| End Week 6 | 8 | 18 | 26+ | 80+ | 26+ | 8+ |
+| Milestone | F1-F3 | F4-F5 | Total Topics | Assessment Qs | Teaching Notes | Translations (ms) |
+|-----------|-------|-------|-------------|--------------|---------------|-------------------|
+| End Week 1 | 6 (F1:3, F2:3) | 0 | 6 | 15+ | 6 | 0 |
+| End Week 2 | 8 (Algebra) | 0 | 8 | 40+ | 8 | 0 |
+| End Week 3 | 8 | 0 | 8 | 40+ | 8 | 8 (Algebra BM) |
+| **Accelerated Phase 1** | **8** | **18 (F4:10, F5:8)** | **26** | **40+ (F1-F3) + F4/F5** | **26** | **8** |
+| **Accelerated Phase 2** | **35 (F1:13, F2:13, F3:9)** | **18** | **53** | **53 topics covered** | **53** | **15 (F1:7, F2:3, F3:2 + algebra)** |
+| End Week 4 (current) | 35 | 18 | 53 | 53 topics covered | 53 | 15 |
+| End Week 5 | 35 | 18 | 53 | 53+ | 53 | 53 (target) |
+| End Week 6 | 35 | 18 | 53 | 53+ | 53 | 53+ |
  
