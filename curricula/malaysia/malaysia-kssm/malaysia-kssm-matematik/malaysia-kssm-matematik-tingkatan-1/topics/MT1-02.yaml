@@ -1,5 +1,6 @@
 id: MT1-02
 official_ref: "Chapter 2"
+name: "Faktor dan Gandaan"
 name_en: "Factors and Multiples"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-1
 subject_id: malaysia-kssm-matematik
@@ -65,7 +66,7 @@ performance_standards:
 
 prerequisites:
   required:
-    - id: MT1-01
+    - "MT1-01"
   recommended: []
 
 mastery:
@@ -89,7 +90,7 @@ teaching:
     - misconception: "Thinking 1 is a prime factor."
       remediation: "Reiterate that 1 is neither prime nor composite; prime factors must be prime numbers."
     - misconception: "Always picking the LARGER number for HCF."
-      remediation: "Explain that a 'Factor' must be smaller than or equal to the number ($HCF \leq \text{Smallest Number}$)."
+      remediation: "Explain that a 'Factor' must be smaller than or equal to the number ($HCF \\leq \\text{Smallest Number}$)."
   engagement_hooks:
     - "The Tiling Mystery: 'What is the largest square tile that can perfectly cover a 12m x 18m floor?' (HCF)"
     - "The Bus Station Sync: 'Three buses leave at diff intervals... when will they next meet?' (LCM)"

@@ -1,5 +1,5 @@
 topic_id: MT1-02
-provenance: "expert-curated"
+provenance: ai-assisted
 questions:
   - id: Q1
     text: "Which of the following is a factor of $30$?"
@@ -16,9 +16,9 @@ questions:
         Since there is no remainder, $6$ is a factor.
       distractors:
         - value: "4"
-          feedback: "Check your division. $30 \div 4 = 7$ with a remainder of $2$. Factors must divide the number perfectly."
+          feedback: "Check your division. $30 \\div 4 = 7$ with a remainder of $2$. Factors must divide the number perfectly."
         - value: "7"
-          feedback: "Remember that $7$ is not a divisor of $30$. Try listing the pairs of numbers that multiply to $30$ ($1 \times 30, 2 \times 15, 3 \times 10, 5 \times 6$)."
+          feedback: "Remember that $7$ is not a divisor of $30$. Try listing the pairs of numbers that multiply to $30$ ($1 \\times 30, 2 \\times 15, 3 \\times 10, 5 \\times 6$)."
         - value: "60"
           feedback: "You might be thinking of multiples! Factors are divisors and are always smaller than or equal to the original number (the 'DNA' rule)."
     marks: 1
@@ -34,7 +34,7 @@ questions:
     kbat: false
     answer:
       type: "exact"
-      value: "2^2 \times 3 \times 5"
+      value: "2^2 \\times 3 \\times 5"
       working: |
         Step 1: Perform repeated division by the smallest prime number.
         $60 \div 2 = 30$
@@ -45,7 +45,7 @@ questions:
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Correctly identifies at least two prime factors ($2, 3, \text{ or } 5$)."
+        criteria: "Correctly identifies at least two prime factors ($2, 3, \\text{ or } 5$)."
       - marks: 2
         criteria: "Shows the complete repeated division or factor tree process."
       - marks: 3
@@ -82,7 +82,7 @@ questions:
         text: "You can use the repeated division method. Only divide by prime numbers that can divide BOTH $18$ and $24$ simultaneously."
 
   - id: Q4
-    text: "A construction worker needs to cover a floor measuring $7.5\text{ m} \times 9.6\text{ m}$ with square tiles. What is the biggest size, in cm, of the tiles so that the floor is fully covered without leftovers?"
+    text: "A construction worker needs to cover a floor measuring $7.5\\text{ m} \\times 9.6\\text{ m}$ with square tiles. What is the biggest size, in cm, of the tiles so that the floor is fully covered without leftovers?"
     difficulty: "hard"
     learning_objective: "2.1.5"
     tp_level: 4
@@ -100,11 +100,11 @@ questions:
     marks: 4
     rubric:
       - marks: 1
-        criteria: "Correctly converts meters to centimeters ($750\text{ cm}$ and $960\text{ cm}$)."
+        criteria: "Correctly converts meters to centimeters ($750\\text{ cm}$ and $960\\text{ cm}$)."
       - marks: 2
         criteria: "Identifies that the problem requires finding the HCF (Highest Common Factor)."
       - marks: 4
-        criteria: "Correctly calculates the HCF as $30\text{ cm}$ with clear working steps."
+        criteria: "Correctly calculates the HCF as $30\\text{ cm}$ with clear working steps."
     hints:
       - level: 1
         text: "The floor must be covered perfectly with square tiles. This means the tile side must divide both the length and width exactly. Should you find HCF or LCM?"
