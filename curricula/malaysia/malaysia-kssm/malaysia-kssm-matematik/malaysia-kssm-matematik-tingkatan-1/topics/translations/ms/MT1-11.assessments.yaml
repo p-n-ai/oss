@@ -1,0 +1,416 @@
+topic_id: MT1-11
+provenance: ai-generated
+questions:
+  - id: Q1
+    text: "Tentukan sama ada koleksi berikut ialah satu set: 'Murid yang tinggi dalam kelas anda'."
+    difficulty: easy
+    learning_objective: "11.1.1"
+    tp_level: 1
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "Bukan satu set"
+      options:
+        A: "Ialah satu set"
+        B: "Bukan satu set"
+      working: |
+        Sesuatu set mestilah ditakrifkan dengan jelas. Perkataan 'tinggi' adalah subjektif, jadi orang yang berbeza mungkin memilih murid yang berbeza.
+      distractors:
+        - value: "Ialah satu set"
+          feedback: "Sesuatu set mesti jelas dan tepat. 'Tinggi' bergantung pada pendapat jika tiada ukuran tetap diberi."
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti dengan betul bahawa huraian yang kabur tidak membentuk set."
+    hints:
+      - level: 1
+        text: "Tanya diri sama ada semua orang akan bersetuju tentang siapa yang dikira 'tinggi'."
+
+  - id: Q2
+    text: "Yang manakah bentuk penyenaraian yang betul bagi set nombor ganjil kurang daripada 10?"
+    difficulty: easy
+    learning_objective: "11.1.2"
+    tp_level: 2
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "{1, 3, 5, 7, 9}"
+      options:
+        A: "{1, 2, 3, 5, 7, 9}"
+        B: "{1, 3, 5, 7, 9}"
+        C: "{3, 5, 7, 9, 11}"
+        D: "{1, 3, 5, 7, 7, 9}"
+      working: |
+        Nombor ganjil kurang daripada 10 ialah 1, 3, 5, 7, dan 9. Sesuatu set mesti mengandungi unsur yang betul sahaja dan tidak mengulangi unsur.
+      distractors:
+        - value: "{1, 2, 3, 5, 7, 9}"
+          feedback: "Nombor 2 ialah nombor genap, jadi ia tidak patut berada dalam set nombor ganjil."
+        - value: "{3, 5, 7, 9, 11}"
+          feedback: "Nombor 11 bukan kurang daripada 10, dan set itu juga tertinggal nombor 1."
+        - value: "{1, 3, 5, 7, 7, 9}"
+          feedback: "Dalam set, unsur yang sama tidak perlu diulang. Nombor 7 sepatutnya muncul sekali sahaja."
+    rubric:
+      - marks: 1
+        criteria: "Memilih bentuk penyenaraian yang betul tanpa unsur tambahan, unsur hilang, atau unsur berulang."
+    hints:
+      - level: 1
+        text: "Senaraikan nombor ganjil satu demi satu dan berhenti sebelum 10."
+
+  - id: Q3
+    text: "Huraikan set $P = \\{2, 3, 5, 7\\}$ menggunakan tatatanda pembina set."
+    difficulty: medium
+    learning_objective: "11.1.2"
+    tp_level: 2
+    kbat: false
+    marks: 2
+    answer:
+      type: free_text
+      value: "$P = \\{x : x \\text{ ialah nombor perdana dan } x < 10\\}$"
+      working: |
+        1. Kenal pasti sifat sepunya bagi 2, 3, 5, dan 7.
+        2. Semua nombor itu ialah nombor perdana.
+        3. Semua nombor itu juga kurang daripada 10.
+        4. Tulis set dalam bentuk $\\{x : \\text{sifat bagi } x\\}$.
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan sifat yang betul bahawa unsur-unsur itu ialah nombor perdana."
+      - marks: 1
+        criteria: "Menulis tatatanda pembina set yang sah dengan syarat $x < 10$."
+    hints:
+      - level: 1
+        text: "Cari sifat yang sama bagi 2, 3, 5, dan 7."
+      - level: 2
+        text: "Gunakan struktur $\\{x : x \\text{ ialah ... dan } ...\\}$."
+
+  - id: Q4
+    text: "Diberi $A = \\{2, 4, 6, 8\\}$, pernyataan yang manakah BENAR?"
+    difficulty: easy
+    learning_objective: "11.1.3"
+    tp_level: 2
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "$4 \\in A$"
+      options:
+        A: "$4 \\in A$"
+        B: "$5 \\in A$"
+        C: "$\\{4\\} \\in A$"
+        D: "$A \\in 4$"
+      working: |
+        Unsur dalam $A$ ialah 2, 4, 6, dan 8. Jadi, 4 ialah unsur bagi $A$.
+      distractors:
+        - value: "$5 \\in A$"
+          feedback: "Nombor 5 tidak disenaraikan dalam set $A$."
+        - value: "$\\{4\\} \\in A$"
+          feedback: "Set $A$ mengandungi unsur 4, bukannya set $\\{4\\}$."
+        - value: "$A \\in 4$"
+          feedback: "Simbol $\\in$ digunakan untuk menunjukkan unsur berada dalam set, bukan sebaliknya."
+    rubric:
+      - marks: 1
+        criteria: "Memilih hubungan unsur yang betul menggunakan simbol $\\in$."
+    hints:
+      - level: 1
+        text: "Semak objek yang muncul tepat sebagai unsur di dalam set."
+
+  - id: Q5
+    text: "Diberi $A = \\{x : x \\text{ ialah huruf dalam perkataan 'MALAYSIA'}\\}$, pernyataan yang manakah BENAR?"
+    difficulty: medium
+    learning_objective: "11.1.3"
+    tp_level: 2
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "$n(A) = 6$"
+      options:
+        A: "$n(A) = 8$"
+        B: "$n(A) = 6$"
+        C: "$A = \\{M, A, L, A, Y, S, I, A\\}$"
+        D: "$A \\subset A$ kerana A ialah satu huruf"
+      working: |
+        Huruf unik dalam MALAYSIA ialah M, A, L, Y, S, dan I. Huruf yang berulang hanya disenaraikan sekali dalam set, maka bilangan unsur ialah 6.
+      distractors:
+        - value: "$n(A) = 8$"
+          feedback: "Ini mengira huruf yang berulang. Dalam set, setiap unsur ditulis sekali sahaja."
+        - value: "$A = \\{M, A, L, A, Y, S, I, A\\}$"
+          feedback: "Huruf yang sama tidak perlu ditulis berulang kali dalam set."
+        - value: "$A \\subset A$ kerana A ialah satu huruf"
+          feedback: "Ini mencampuradukkan simbol dan maksud. $A$ di sini ialah nama set, bukan satu huruf tunggal."
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti bilangan unsur unik yang betul dalam set."
+    hints:
+      - level: 1
+        text: "Tulis setiap huruf dalam MALAYSIA, kemudian pangkah huruf yang berulang."
+
+  - id: Q6
+    text: "Set $B = \\{2, 4, 6, 8, 10\\}$. Tentukan bilangan unsur dalam set $B$."
+    difficulty: easy
+    learning_objective: "11.1.4"
+    tp_level: 2
+    kbat: false
+    marks: 1
+    answer:
+      type: exact
+      value: "5"
+      working: |
+        Kira unsur dalam set $B$: 2, 4, 6, 8, dan 10. Terdapat 5 unsur.
+    rubric:
+      - marks: 1
+        criteria: "Memberi bilangan unsur yang betul dalam set."
+    hints:
+      - level: 1
+        text: "Kira ahli set satu demi satu."
+
+  - id: Q7
+    text: "Set $G = \\{1, 2, 3\\}$ dan set $H = \\{3, 1, 2\\}$. Adakah set $G$ dan $H$ sama? Jelaskan."
+    difficulty: medium
+    learning_objective: "11.1.5"
+    tp_level: 3
+    kbat: false
+    marks: 2
+    answer:
+      type: free_text
+      value: "Ya, kerana kedua-duanya mengandungi unsur yang sama tepat."
+      working: |
+        1. Bandingkan unsur dalam set $G$: 1, 2, dan 3.
+        2. Bandingkan unsur dalam set $H$: 3, 1, dan 2.
+        3. Kedua-dua set mengandungi unsur yang sama tepat.
+        4. Susunan unsur tidak penting dalam set.
+        5. Oleh itu, kedua-dua set adalah sama.
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan bahawa kedua-dua set adalah sama."
+      - marks: 1
+        criteria: "Menjelaskan bahawa susunan tidak mempengaruhi kesamaan set."
+    hints:
+      - level: 1
+        text: "Semak sama ada terdapat unsur dalam satu set yang tiada dalam set yang satu lagi."
+      - level: 2
+        text: "Fikirkan sama ada susunan penulisan unsur mengubah sesuatu set."
+
+  - id: Q8
+    text: "Diberi set semesta $U = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$ dan set $A = \\{1, 3, 5, 7\\}$, cari pelengkap bagi set $A$."
+    difficulty: easy
+    learning_objective: "11.2.1"
+    tp_level: 2
+    kbat: false
+    marks: 2
+    answer:
+      type: free_text
+      value: "$A' = \\{2, 4, 6, 8, 9\\}$"
+      working: |
+        1. Set semesta mengandungi 1, 2, 3, 4, 5, 6, 7, 8, dan 9.
+        2. Set $A$ mengandungi 1, 3, 5, dan 7.
+        3. Pelengkap bagi $A$ ialah unsur dalam $U$ yang tidak berada dalam $A$.
+        4. Oleh itu, $A' = \\{2, 4, 6, 8, 9\\}$.
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti bahawa pelengkap terdiri daripada unsur dalam set semesta tetapi bukan dalam $A$."
+      - marks: 1
+        criteria: "Menyenaraikan set pelengkap dengan betul."
+    hints:
+      - level: 1
+        text: "Mulakan dengan keseluruhan set semesta, kemudian buang unsur dalam $A$."
+
+  - id: Q9
+    text: "Dalam gambar rajah Venn, segi empat tepat mewakili set semesta $\\xi$ dan bulatan mewakili set $A$. Kawasan yang manakah mewakili pelengkap $A'$?"
+    difficulty: medium
+    learning_objective: "11.2.2"
+    tp_level: 4
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "Kawasan di dalam segi empat tepat tetapi di luar bulatan"
+      options:
+        A: "Kawasan di dalam bulatan sahaja"
+        B: "Kawasan di dalam segi empat tepat tetapi di luar bulatan"
+        C: "Sempadan segi empat tepat sahaja"
+        D: "Bulatan dan segi empat tepat sekali"
+      working: |
+        Pelengkap bagi set $A$ ialah semua unsur dalam set semesta yang tidak berada dalam $A$. Dalam gambar rajah Venn, ini ialah bahagian segi empat tepat yang berada di luar bulatan.
+      distractors:
+        - value: "Kawasan di dalam bulatan sahaja"
+          feedback: "Itu ialah kawasan bagi set $A$, bukan pelengkapnya."
+        - value: "Sempadan segi empat tepat sahaja"
+          feedback: "Pelengkap ialah kawasan yang mengandungi unsur, bukan hanya sempadan."
+        - value: "Bulatan dan segi empat tepat sekali"
+          feedback: "Itu mewakili keseluruhan set semesta, bukan hanya unsur di luar $A$."
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti kawasan pelengkap yang betul dalam gambar rajah Venn."
+    hints:
+      - level: 1
+        text: "Pelengkap bermaksud semua unsur dalam set semesta kecuali yang berada di dalam set $A$."
+
+  - id: Q10
+    text: "Tentukan jumlah bilangan subset yang mungkin bagi set $K = \\{a, b, c\\}$."
+    difficulty: medium
+    learning_objective: "11.2.3"
+    tp_level: 2
+    kbat: false
+    marks: 1
+    answer:
+      type: exact
+      value: "8"
+      working: |
+        1. Set $K$ mempunyai 3 unsur.
+        2. Bilangan subset yang mungkin ialah $2^n$.
+        3. Jadi, bilangan subset ialah $2^3 = 8$.
+    rubric:
+      - marks: 1
+        criteria: "Mengira jumlah subset yang mungkin dengan betul."
+    hints:
+      - level: 1
+        text: "Gunakan aturan $2^n$, dengan $n$ sebagai bilangan unsur dalam set."
+
+  - id: Q11
+    text: "Huraian gambar rajah Venn yang manakah menunjukkan bahawa set $B$ ialah subset bagi set $A$?"
+    difficulty: hard
+    learning_objective: "11.2.4"
+    tp_level: 4
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "Bulatan bagi $B$ berada sepenuhnya di dalam bulatan bagi $A$."
+      options:
+        A: "Bulatan bagi $B$ berada sepenuhnya di dalam bulatan bagi $A$."
+        B: "Bulatan bagi $A$ dan $B$ tidak bersentuhan langsung."
+        C: "Bulatan bagi $A$ berada sepenuhnya di dalam bulatan bagi $B$."
+        D: "Kedua-dua bulatan berada di luar segi empat tepat set semesta."
+      working: |
+        Jika $B$ ialah subset bagi $A$, setiap unsur dalam $B$ juga mesti unsur dalam $A$. Dalam gambar rajah Venn, ini bermaksud kawasan bagi $B$ mesti berada sepenuhnya di dalam kawasan bagi $A$.
+      distractors:
+        - value: "Bulatan bagi $A$ dan $B$ tidak bersentuhan langsung."
+          feedback: "Jika kedua-dua set tidak bertindih, maka unsur $B$ tidak berada dalam $A$, jadi $B$ bukan subset bagi $A$."
+        - value: "Bulatan bagi $A$ berada sepenuhnya di dalam bulatan bagi $B$."
+          feedback: "Itu menunjukkan $A$ subset bagi $B$, bukan sebaliknya."
+        - value: "Kedua-dua bulatan berada di luar segi empat tepat set semesta."
+          feedback: "Semua set dalam gambar rajah Venn perlu berada di dalam set semesta."
+    rubric:
+      - marks: 1
+        criteria: "Memilih huraian gambar rajah Venn yang betul bagi subset."
+    hints:
+      - level: 1
+        text: "Subset bermaksud semua ahli set kecil sudah pun berada dalam set yang lebih besar."
+
+  - id: Q12
+    text: "Diberi $\\xi = \\{x : 10 \\le x \\le 20, x \\text{ ialah integer}\\}$, $A = \\{11, 13, 17, 19\\}$, dan $B = \\{x : x \\text{ ialah nombor ganjil}\\}$, cari $n(A \\cup B)'$."
+    difficulty: hard
+    learning_objective: "11.2.5"
+    tp_level: 5
+    kbat: true
+    marks: 3
+    answer:
+      type: exact
+      value: "6"
+      working: |
+        1. Senaraikan set semesta: $\\xi = \\{10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20\\}$.
+        2. Senaraikan set $B$ dalam set semesta ini: $B = \\{11, 13, 15, 17, 19\\}$.
+        3. Cari kesatuan $A \\cup B = \\{11, 13, 15, 17, 19\\}$.
+        4. Cari pelengkap $(A \\cup B)' = \\{10, 12, 14, 16, 18, 20\\}$.
+        5. Kira bilangan unsur dalam pelengkap.
+        6. Oleh itu, $n(A \\cup B)' = 6$.
+    rubric:
+      - marks: 1
+        criteria: "Menyenaraikan atau mengenal pasti set semesta dan set nombor ganjil dengan betul."
+      - marks: 1
+        criteria: "Mencari kesatuan dan pelengkap dengan betul."
+      - marks: 1
+        criteria: "Mengira bilangan unsur dalam pelengkap dengan betul."
+    hints:
+      - level: 1
+        text: "Senaraikan dahulu semua integer dari 10 hingga 20."
+      - level: 2
+        text: "Oleh sebab $B$ ialah nombor ganjil, fikirkan jenis nombor yang akan tinggal dalam pelengkap."
+
+  - id: Q13
+    text: "Sekumpulan 30 orang murid telah disoal tentang hobi. 15 orang suka bola sepak ($F$), 10 orang suka badminton ($B$), dan 5 orang suka kedua-duanya. Cari $n(F \\cup B)'$."
+    difficulty: hard
+    learning_objective: "11.2.5"
+    tp_level: 6
+    kbat: true
+    marks: 4
+    answer:
+      type: exact
+      value: "10"
+      working: |
+        1. Jumlah murid ialah 30.
+        2. Gunakan rumus $n(F \\cup B) = n(F) + n(B) - n(F \\cap B)$.
+        3. Gantikan nilai: $15 + 10 - 5 = 20$.
+        4. Jadi, 20 orang murid suka sekurang-kurangnya satu daripada dua hobi itu.
+        5. Pelengkap ialah bilangan murid yang tidak suka kedua-dua hobi: $30 - 20 = 10$.
+        6. Oleh itu, $n(F \\cup B)' = 10$.
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan rumus kesatuan dengan betul."
+      - marks: 1
+        criteria: "Mengelakkan kiraan berganda bagi murid yang suka kedua-dua hobi."
+      - marks: 1
+        criteria: "Mencari bilangan murid yang suka sekurang-kurangnya satu hobi."
+      - marks: 1
+        criteria: "Mencari pelengkap dengan betul."
+    hints:
+      - level: 1
+        text: "Jika anda menambah 15 dan 10 secara terus, 5 orang yang suka kedua-duanya akan dikira dua kali."
+      - level: 2
+        text: "Cari dulu bilangan yang suka sekurang-kurangnya satu hobi, kemudian tolak daripada 30."
+
+  - id: Q14
+    text: "Set $M$ ialah set gandaan 3 yang kurang daripada 20. Tulis set $M$ dalam (i) bentuk perihalan, (ii) bentuk penyenaraian, dan (iii) tatatanda pembina set."
+    difficulty: hard
+    learning_objective: "11.1.2"
+    tp_level: 4
+    kbat: true
+    marks: 3
+    answer:
+      type: free_text
+      value: "(i) Set gandaan 3 yang kurang daripada 20. (ii) $M = \\{3, 6, 9, 12, 15, 18\\}$. (iii) $M = \\{x : x \\text{ ialah gandaan } 3, x < 20\\}$"
+      working: |
+        1. Kenal pasti gandaan 3 yang kurang daripada 20: 3, 6, 9, 12, 15, dan 18.
+        2. Tulis set dalam bentuk perihalan.
+        3. Tulis set yang sama dalam bentuk penyenaraian menggunakan kurungan punca.
+        4. Tulis set yang sama dalam tatatanda pembina set menggunakan pemboleh ubah dan syarat.
+    rubric:
+      - marks: 1
+        criteria: "Memberi bentuk perihalan yang betul."
+      - marks: 1
+        criteria: "Menyenaraikan unsur yang betul tanpa tertinggal atau berulang."
+      - marks: 1
+        criteria: "Menulis tatatanda pembina set yang sah."
+    hints:
+      - level: 1
+        text: "Mulakan dengan menyenaraikan gandaan 3 satu demi satu sehingga sebelum 20."
+      - level: 2
+        text: "Selepas anda dapat senarai itu, tulis semula idea yang sama dalam bentuk ayat dan kemudian dalam bentuk $\\{x : ...\\}$."
+
+  - id: Q15
+    text: "Biarkan set semesta ialah semua kelab sekolah. Set $A$ ialah set kelab sukan, dan set $B$ ialah set kelab sukan dalaman. Terangkan sama ada $B \\subset A$ adalah munasabah dan berikan justifikasi."
+    difficulty: hard
+    learning_objective: "11.2.5"
+    tp_level: 5
+    kbat: true
+    marks: 2
+    answer:
+      type: free_text
+      value: "Ya, kerana setiap kelab sukan dalaman masih merupakan kelab sukan, maka set $B$ boleh terkandung dalam set $A$."
+      working: |
+        1. Set $A$ mengandungi semua kelab sukan.
+        2. Set $B$ mengandungi hanya kelab sukan dalaman.
+        3. Kelab sukan dalaman ialah kategori yang lebih kecil dalam kelab sukan.
+        4. Oleh itu, setiap unsur dalam $B$ juga berada dalam $A$.
+        5. Maka, $B \\subset A$ adalah munasabah.
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan dengan betul bahawa $B$ boleh menjadi subset bagi $A$."
+      - marks: 1
+        criteria: "Memberi justifikasi menggunakan maksud subset."
+    hints:
+      - level: 1
+        text: "Tanya sama ada setiap kelab sukan dalaman masih merupakan kelab sukan."
+      - level: 2
+        text: "Jika setiap ahli satu set juga berada dalam satu set yang lain, simbol apa yang digunakan?"

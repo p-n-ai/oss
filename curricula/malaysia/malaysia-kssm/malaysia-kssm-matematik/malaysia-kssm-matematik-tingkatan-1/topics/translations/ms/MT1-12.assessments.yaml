@@ -1,0 +1,241 @@
+topic_id: MT1-12
+provenance: ai-generated
+
+questions:
+  # 12.1.1: Menjana soalan statistik dan mengumpul data yang relevan
+  - id: Q1
+    text: "Antara berikut, yang manakah merupakan soalan statistik?"
+    difficulty: easy
+    learning_objective: 12.1.1
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Berapakah tinggi murid dalam Kelas 1 Amanah?"
+      working: |
+        Soalan statistik mempunyai jawapan yang berbeza-beza.
+        "Berapakah tinggi murid dalam Kelas 1 Amanah?" akan menghasilkan pelbagai jawapan, jadi ia ialah soalan statistik.
+      options:
+        - "Berapakah tinggi murid dalam Kelas 1 Amanah?"
+        - "Siapakah nama pengetua sekolah?"
+        - "Apakah warna dinding kelas?"
+        - "Berapa hari dalam seminggu?"
+      distractors:
+        - value: "Siapakah nama pengetua sekolah?"
+          feedback: "Ini mempunyai satu jawapan tetap, jadi bukan soalan statistik."
+        - value: "Apakah warna dinding kelas?"
+          feedback: "Ini biasanya satu fakta tetap dan tidak menunjukkan kepelbagaian data."
+        - value: "Berapa hari dalam seminggu?"
+          feedback: "Ini fakta tetap, bukan soalan statistik."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Cari soalan yang akan menghasilkan jawapan berbeza daripada orang yang berbeza."
+
+  # 12.1.2: Mengklasifikasikan data dan membina jadual kekerapan
+  - id: Q2
+    text: "Nyatakan sama ada 'Suhu badan setiap murid' ialah data kategori atau data numerik. Jika numerik, nyatakan sama ada ia diskret atau selanjar."
+    difficulty: medium
+    learning_objective: 12.1.2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "Data numerik (selanjar)"
+      working: |
+        Suhu badan diukur pada skala dan boleh melibatkan nilai perpuluhan seperti 37.5 C.
+        Oleh sebab ia diukur, bukan dibilang dalam unit bulat, ia ialah data numerik dan selanjar.
+    marks: 2
+    hints:
+      - level: 1
+        text: "Bolehkah suhu badan mempunyai nilai perpuluhan, atau ia hanya nombor bulat?"
+
+  - id: Q3
+    text: "Diberikan set data 5, 7, 8, 3, 5, 7, 6, 9, 5, 7. Klasifikasikan data ini dan bina jadual kekerapan."
+    difficulty: medium
+    learning_objective: 12.1.2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "Data numerik; 3:1, 5:3, 6:1, 7:3, 8:1, 9:1"
+      working: |
+        Data ini ialah numerik kerana ia mengira bilangan buku.
+        Kira setiap nilai untuk membina jadual kekerapan: 3 muncul 1 kali, 5 muncul 3 kali, 6 muncul 1 kali, 7 muncul 3 kali, 8 muncul 1 kali, dan 9 muncul 1 kali.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Mengklasifikasikan data dengan betul."
+      - marks: 3
+        criteria: "Membina jadual kekerapan yang betul."
+    hints:
+      - level: 1
+        text: "Fikirkan sama ada data ini diukur atau dibilang."
+      - level: 2
+        text: "Kira berapa kali setiap nombor muncul."
+
+  # 12.1.3: Membina perwakilan data bagi data tak terkumpul
+  - id: Q4
+    text: "Benar atau palsu: Carta palang sesuai untuk membandingkan bilangan murid yang memilih bola sepak, badminton, dan berbasikal."
+    difficulty: medium
+    learning_objective: 12.1.3
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "BENAR"
+      working: |
+        Carta palang sesuai untuk membandingkan kategori kerana ia memudahkan kita melihat perbezaan kekerapan.
+      options:
+        - "BENAR"
+        - "PALSU"
+      distractors:
+        - value: "PALSU"
+          feedback: "Carta palang sebenarnya antara pilihan terbaik untuk membandingkan kategori seperti sukan kegemaran."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Fikirkan sama ada data itu membandingkan kategori atau menunjukkan trend masa."
+
+  # 12.1.4: Menukar satu perwakilan data kepada perwakilan lain
+  - id: Q5
+    text: "Dalam satu tinjauan terhadap 40 orang murid, 10 orang memilih badminton sebagai sukan kegemaran. Hitung sudut sektor bagi badminton jika data ini ditukarkan kepada carta pai."
+    difficulty: medium
+    learning_objective: 12.1.4
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "90"
+      working: |
+        Pecahan bagi badminton ialah 10/40 = 1/4.
+        Satu bulatan penuh mewakili 360 darjah.
+        Jadi sudut sektor ialah 1/4 x 360 darjah = 90 darjah.
+    marks: 2
+    hints:
+      - level: 1
+        text: "Apakah pecahan daripada keseluruhan yang diwakili oleh 10 daripada 40 murid?"
+
+  # 12.1.5: Mentafsir pelbagai perwakilan data
+  - id: Q6
+    text: "Histogram menunjukkan selang 155-159 cm mempunyai kekerapan 10. Berapakah bilangan murid yang mempunyai tinggi sekurang-kurangnya 155 cm tetapi kurang daripada 160 cm?"
+    difficulty: easy
+    learning_objective: 12.1.5
+    tp_level: 4
+    kbat: false
+    answer:
+      type: exact
+      value: "10"
+      working: |
+        Selang 155-159 cm mewakili kekerapan yang ditunjukkan oleh palang histogram itu.
+        Oleh itu, terdapat 10 orang murid dalam julat itu.
+    marks: 1
+    hints:
+      - level: 1
+        text: "Baca ketinggian palang histogram bagi selang 155-159 cm."
+
+  - id: Q7
+    text: "Satu graf garis menunjukkan bilangan pelawat perpustakaan selama empat minggu: Minggu 1 = 20, Minggu 2 = 28, Minggu 3 = 35, Minggu 4 = 30. Huraikan trend dan buat satu ramalan munasabah untuk Minggu 5."
+    difficulty: hard
+    learning_objective: 12.1.5
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: "Bilangan pelawat meningkat dari Minggu 1 ke Minggu 3, kemudian turun sedikit pada Minggu 4. Satu ramalan munasabah untuk Minggu 5 ialah bilangan itu mungkin kekal sekitar 30 atau meningkat sedikit."
+      working: |
+        Minggu 1 hingga Minggu 3 menunjukkan trend menaik yang jelas.
+        Minggu 4 menunjukkan sedikit penurunan.
+        Ramalan yang baik harus mengikuti corak umum tanpa membuat andaian berlebihan.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menghuraikan trend keseluruhan dengan betul."
+      - marks: 1
+        criteria: "Mengenal pasti penurunan kecil pada Minggu 4."
+      - marks: 1
+        criteria: "Membuat ramalan yang munasabah berdasarkan trend."
+    hints:
+      - level: 1
+        text: "Cari kenaikan, penurunan, dan fikirkan apa yang mungkin berlaku seterusnya."
+
+  - id: Q8
+    text: "Kelas A dan Kelas B disoal tentang minuman kegemaran. Kelas A: 12 murid memilih teh, 8 memilih susu. Kelas B: 18 murid memilih teh, 2 memilih susu. Kelas manakah menunjukkan kecenderungan yang lebih kuat terhadap teh, dan apakah inferens anda?"
+    difficulty: hard
+    learning_objective: 12.1.5
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: "Kelas B menunjukkan kecenderungan yang lebih kuat terhadap teh kerana 18 daripada 20 murid memilih teh, berbanding 12 daripada 20 dalam Kelas A."
+      working: |
+        Bandingkan perkadaran peminum teh dalam setiap kelas.
+        Kelas A: 12/20 = 60%.
+        Kelas B: 18/20 = 90%.
+        Kelas B mempunyai kecenderungan yang lebih kuat terhadap teh.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti kelas yang betul."
+      - marks: 1
+        criteria: "Menggunakan perkadaran atau bilangan dengan betul."
+      - marks: 1
+        criteria: "Memberikan inferens yang sah tentang perbandingan."
+    hints:
+      - level: 1
+        text: "Jangan bandingkan nombor mentah sahaja. Fikirkan perkadaran dalam setiap kelas."
+
+  # 12.1.6: Mewakilkan data secara beretika
+  - id: Q9
+    text: "Satu carta palang menunjukkan Adam menjaringkan 14 gol dan Ravi menjaringkan 10 gol. Paksi mencancang bermula dari nilai 6. Terangkan mengapa ini bukan perwakilan yang beretika dan bagaimana ia mengelirukan pembaca."
+    difficulty: hard
+    learning_objective: 12.1.6
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Ia bukan beretika kerana paksi mencancang tidak bermula daripada 0, jadi perbezaan kelihatan lebih besar daripada keadaan sebenar."
+      working: |
+        Langkah 1: Semak paksi mencancang. Ia bermula dari 6.
+        Langkah 2: Jurang visual antara 14 dan 10 kelihatan dibesar-besarkan.
+        Langkah 3: Graf beretika harus menggunakan skala yang konsisten dan biasanya bermula dari 0 untuk mengelakkan kekeliruan.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti graf sebagai tidak beretika atau mengelirukan."
+      - marks: 1
+        criteria: "Menjelaskan bahawa paksi tidak bermula dari 0 membesarkan perbezaan."
+      - marks: 1
+        criteria: "Menyatakan bahawa graf beretika harus bermula pada 0 dengan skala yang konsisten."
+    hints:
+      - level: 1
+        text: "Perhatikan paksi mencancang dengan teliti. Adakah ia bermula pada sifar?"
+
+  - id: Q10
+    text: "Antara berikut, yang manakah ialah data kategori?"
+    difficulty: easy
+    learning_objective: 12.1.2
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Perisa ais krim kegemaran"
+      working: |
+        Data kategori menerangkan kumpulan atau label, bukan ukuran berangka.
+        Perisa ais krim kegemaran ialah kategori, manakala tinggi, suhu, dan bilangan buku ialah data numerik.
+      options:
+        - "Perisa ais krim kegemaran"
+        - "Tinggi murid"
+        - "Suhu air"
+        - "Bilangan buku yang dimiliki"
+      distractors:
+        - value: "Tinggi murid"
+          feedback: "Tinggi ialah data numerik kerana ia diukur."
+        - value: "Suhu air"
+          feedback: "Suhu ialah data numerik kerana ia diukur pada skala."
+        - value: "Bilangan buku yang dimiliki"
+          feedback: "Ini ialah data numerik kerana ia dibilang."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Cari pilihan yang menamakan kumpulan atau label, bukan ukuran."

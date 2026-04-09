@@ -1,79 +1,86 @@
 id: MT1-12
-# official_ref: ""  # fill in if the source document assigns a chapter/section code
-name: "Pengendalian Data"
+official_ref: "Chapter 12"
+name: "Data Handling"
 name_en: "Data Handling"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-1
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: beginner
 tier: core
+
 content_standards:
   - id: "12.1"
-    text: "Pengumpulan data dan pengurusan data"
     text_en: "Data collection and data management"
-learning_objectives:
-  - id: "12.1.1"
-    text: "Menjana soalan statistik dan mengumpul data yang relevan."
-    text_en: "Generate statistical questions and collect relevant data."
-    bloom: create
-  - id: "12.1.2"
-    text: "Mengklasifikasikan data kepada data kategori atau data numerik dan membina jadual kekerapan."
-    text_en: "Classify data into categorical or numerical data and construct frequency tables."
-    bloom: understand
-  - id: "12.1.3"
-    text: "Membina perwakilan data bagi data tak terkumpul dan menjustifikasikan kesesuaian suatu perwakilan data."
-    text_en: "Construct data representations for ungrouped data and justify the suitability of a data representation."
-    bloom: apply
-  - id: "12.1.4"
-    text: "Menukar satu perwakilan data kepada perwakilan lain yang sesuai serta memberi justifikasi."
-    text_en: "Convert one data representation to another suitable representation and provide justification."
-    bloom: apply
-  - id: "12.1.5"
-    text: "Mentafsir pelbagai perwakilan data termasuk membuat inferens atau ramalan."
-    text_en: "Interpret various data representations including making inferences or predictions."
-    bloom: analyze
-  - id: "12.1.6"
-    text: "Membincangkan kepentingan mewakilkan data secara beretika bagi mengelakkan kekeliruan."
-    text_en: "Discuss the importance of representing data ethically to avoid confusion."
-    bloom: evaluate
+    learning_objectives:
+      - id: "12.1.1"
+        text_en: "Generate statistical questions and collect relevant data."
+        bloom: create
+      - id: "12.1.2"
+        text_en: "Classify data into categorical or numerical data and construct frequency tables."
+        bloom: understand
+      - id: "12.1.3"
+        text_en: "Construct data representations for ungrouped data and justify the suitability of a data representation."
+        bloom: apply
+      - id: "12.1.4"
+        text_en: "Convert one data representation to another suitable representation and provide justification."
+        bloom: apply
+      - id: "12.1.5"
+        text_en: "Interpret various data representations including making inferences or predictions."
+        bloom: analyze
+      - id: "12.1.6"
+        text_en: "Discuss the importance of representing data ethically to avoid confusion."
+        bloom: evaluate
+
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate the basic knowledge of collecting, organizing and representing data."
+  - level: 2
+    descriptor_en: "Demonstrate the understanding of collecting, organizing and representing data."
+  - level: 3
+    descriptor_en: "Apply the understanding of data representations to construct data representations."
+  - level: 4
+    descriptor_en: "Apply appropriate knowledge and skills of data representation and data interpretation in the context of simple routine problem solving."
+  - level: 5
+    descriptor_en: "Apply appropriate knowledge and skills of data representation and data interpretation in the context of complex routine problem solving."
+  - level: 6
+    descriptor_en: "Apply appropriate knowledge and skills of data representation and data interpretation in the context of non-routine problem solving."
+
 prerequisites:
   required: []
-bloom_levels:
-  - create
-  - understand
-  - apply
-  - analyze
-  - evaluate
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-29T23:18:08Z"
-assessments_file: MT1-12.assessments.yaml
-examples_file: MT1-12.examples.yaml
-teaching:
-  sequence:
-    - 'Step 1: Introduce the concept of data collection by discussing everyday data (15 min)'
-    - 'Step 2: Classify data into categories and numerics using examples (20 min)'
-    - 'Step 3: Guide students in creating frequency tables from gathered data (25 min)'
-    - 'Step 4: Demonstrate various data representations and discuss their suitability (20 min)'
-    - 'Step 5: Practice converting one type of data representation to another (30 min)'
-    - 'Step 6: Discuss ethical considerations in data representation (15 min)'
-  common_misconceptions:
-    - misconception: Students often think all data is numerical
-      remediation: Clarify the difference between categorical and numerical data with examples
-    - misconception: Belief that one representation suits all types of data
-      remediation: Teach how different data types require specific representations
-    - misconception: Assumption that data representation does not affect interpretation
-      remediation: Show how different representations can lead to different interpretations
-engagement_hooks:
-  - Discuss how data is used in predicting weather patterns
-  - Explore how data influences decisions in sports team management
-  - Investigate how businesses use data to understand customer preferences
+  recommended: []
+
 mastery:
   minimum_score: 0.75
   assessment_count: 3
   spaced_repetition:
     initial_interval_days: 3
     multiplier: 2.5
-ai_teaching_notes: MT1-12.teaching.md
+
+ai_teaching_notes: "MT1-12.teaching.md"
+assessments_file: "MT1-12.assessments.yaml"
+examples_file: "MT1-12.examples.yaml"
+
+teaching:
+  sequence:
+    - "Step 1: Define statistical questions and identify various data collection methods (Interview, Survey, Observation, Experiment)"
+    - "Step 2: Classify data into Categorical and Numerical (Discrete vs Continuous) and organize data into frequency tables"
+    - "Step 3: Construct and justify representations for ungrouped data: Bar charts, Pie charts, Line graphs, Dot plots, and Stem-and-leaf plots"
+    - "Step 4: Practice converting one data representation to another suitable form with justification"
+    - "Step 5: Interpret complex data representations including Histograms and Frequency Polygons to make inferences"
+    - "Step 6: Discuss the ethics of data representation, focusing on consistent scales and accurate display to avoid misleading conclusions"
+  common_misconceptions:
+    - misconception: "Confusing discrete and continuous numerical data."
+      remediation: "Clarify that discrete data are whole units (for example, the number of people), while continuous data are measured on a scale (for example, mass or temperature)."
+    - misconception: "Assuming any scale on the vertical axis is acceptable for a bar chart."
+      remediation: "Highlight that scales must start at 0 and be consistent to represent data ethically and avoid misleading interpretations."
+    - misconception: "Believing pie chart sectors do not need to sum to 100% or 360 degrees."
+      remediation: "Teach students to verify the total percentage or total angle of sectors to ensure the representation is mathematically accurate."
+  engagement_hooks:
+    - "Investigate how sports coaches use dot plots to evaluate player performance."
+    - "Analyze how businesses use data representations to track profits and losses over time using line graphs."
+    - "Explore the role of data in environmental science, such as tracking waste production or tree growth in rainforests."
+
+quality_level: 2
+provenance: ai-assisted

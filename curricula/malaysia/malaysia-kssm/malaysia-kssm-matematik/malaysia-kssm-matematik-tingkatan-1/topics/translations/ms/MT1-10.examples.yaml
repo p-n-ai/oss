@@ -1,0 +1,108 @@
+topic_id: MT1-10
+provenance: ai-generated
+description: "Contoh kerja berstruktur bagi Perimeter dan Luas yang selaras dengan KSSM Tingkatan 1."
+worked_examples:
+  - id: WE-01
+    topic: "Menentukan perimeter dengan satu sisi yang hilang"
+    difficulty: easy
+    learning_objective: "10.1.1"
+    tp_level: 2
+    kbat: false
+    real_world_analogy: "Bayangkan anda berjalan di sepanjang pagar kolam renang. Anda hanya mengira sempadan luar, bukan sebarang garis di dalam pelan."
+    misconception_alert: "Perangkap 'Garis Dalam'. Murid sering menambah garis dalaman atau lupa mencari sisi yang hilang sebelum menambah semua tepi luar."
+    scenario: "Satu pelan kolam renang mempunyai panjang sisi luar 9 m, 5 m, 3 m, 4 m, dan 6 m, dengan satu sisi menegak yang hilang. Jumlah tinggi di sebelah kiri ialah 9 m dan tinggi yang lebih pendek di sebelah kanan ialah 3 m. Cari perimeter."
+    working: |
+      1. Cari sisi menegak yang hilang dahulu.
+      2. Jumlah tinggi ialah $9$ m.
+      3. Bahagian tinggi menegak yang lebih pendek ialah $3$ m.
+      4. Sisi menegak yang hilang $= 9 - 3$.
+      5. Sisi menegak yang hilang $= 6$ m.
+      6. Sekarang senaraikan semua sisi luar: $9, 5, 3, 4, 6,$ dan $6$.
+      7. Tambah dua sisi pertama: $9 + 5 = 14$.
+      8. Tambah sisi seterusnya: $14 + 3 = 17$.
+      9. Tambah sisi seterusnya: $17 + 4 = 21$.
+      10. Tambah sisi seterusnya: $21 + 6 = 27$.
+      11. Tambah sisi yang hilang: $27 + 6 = 33$.
+      12. Jadi, perimeter ialah $33$ m.
+
+  - id: WE-02
+    topic: "Menganggar luas menggunakan petak grid"
+    difficulty: easy
+    learning_objective: "10.2.1"
+    tp_level: 2
+    kbat: false
+    real_world_analogy: "Bayangkan anda menutupi sebidang sawah padi di atas kertas grid dengan jubin segi empat sama. Jubin penuh dikira 1 setiap satu, manakala jubin separa boleh digabung menjadi hampir petak penuh."
+    misconception_alert: "Murid mungkin mengabaikan petak separa atau mengira setiap petak separa sebagai satu petak penuh. Galakkan mereka menggabungkan bahagian separa secara munasabah."
+    scenario: "Satu bentuk pada kertas grid menutupi 14 petak unit penuh dan kira-kira 6 separuh petak. Anggarkan luas bentuk itu."
+    working: |
+      1. Kira petak unit penuh: $14$.
+      2. Kira separuh petak: $6$ separuh petak.
+      3. Gabungkan separuh petak menjadi petak penuh: $6 \times \frac{1}{2} = 3$.
+      4. Luas anggaran $= 14 + 3$.
+      5. Luas anggaran $= 17$ unit persegi.
+      6. Jadi, luas bentuk itu dianggarkan kira-kira $17$ unit persegi.
+
+  - id: WE-03
+    topic: "Luas segi tiga menggunakan tinggi tegak"
+    difficulty: medium
+    learning_objective: "10.2.2"
+    tp_level: 3
+    kbat: false
+    real_world_analogy: "Helah 'Segi Empat Tepat Hantu': segi tiga adalah seperti separuh daripada segi empat tepat yang mempunyai tapak dan tinggi tegak yang sama."
+    misconception_alert: "Perangkap 'Tinggi Condong'. Murid sering menggunakan sisi serong dan bukannya tinggi tegak yang ditunjukkan oleh hubungan sudut tegak."
+    scenario: "Satu plot sawah padi berbentuk segi tiga di Kedah mempunyai tapak 12 m, sisi serong 10 m, dan tinggi tegak 8 m. Hitung luasnya."
+    working: |
+      1. Ingat rumus luas segi tiga: $A = \frac{1}{2} \times tapak \times tinggi$.
+      2. Kenal pasti tapak: $12$ m.
+      3. Kenal pasti tinggi tegak: $8$ m.
+      4. Abaikan sisi serong $10$ m kerana itu bukan tinggi tegak.
+      5. Gantikan ke dalam rumus: $A = \frac{1}{2} \times 12 \times 8$.
+      6. Darab tapak dan tinggi: $12 \times 8 = 96$.
+      7. Ambil separuh daripada $96$: $96 \div 2 = 48$.
+      8. Jadi, luas ialah $48$ m$^2$.
+
+  - id: WE-04
+    topic: "Luas kawasan berlorek bentuk gabungan"
+    difficulty: hard
+    learning_objective: "10.2.3"
+    tp_level: 4
+    kbat: true
+    real_world_analogy: "Guna 'Strategi Lego': apabila bentuk kelihatan rumit, pecahkannya kepada bahagian kecil yang biasa seperti segi empat tepat, segi tiga, dan trapezium."
+    misconception_alert: "Perangkap 'Lubang Hilang'. Dalam soalan kawasan berlorek, murid sering mencari luas bahagian kecil tetapi terlupa menolaknya daripada keseluruhan kawasan luar."
+    scenario: "Satu plot segi empat tepat berukuran $16$ m kali $10$ m mengandungi satu kawasan segi tiga dengan tapak $4$ m dan tinggi $5$ m, serta satu kawasan trapezium dengan sisi selari $3$ m dan $4$ m dan tinggi $5$ m. Cari luas kawasan berlorek yang tinggal."
+    working: |
+      1. Cari luas seluruh segi empat tepat: $16 \times 10 = 160$ m$^2$.
+      2. Cari luas segi tiga: $A = \frac{1}{2} \times 4 \times 5$.
+      3. Darab dahulu di dalam: $4 \times 5 = 20$.
+      4. Ambil separuh: $20 \div 2 = 10$.
+      5. Jadi, luas segi tiga ialah $10$ m$^2$.
+      6. Cari luas trapezium: $A = \frac{1}{2} \times (3 + 4) \times 5$.
+      7. Tambah sisi selari: $3 + 4 = 7$.
+      8. Darab dengan tinggi: $7 \times 5 = 35$.
+      9. Ambil separuh: $35 \div 2 = 17.5$.
+      10. Jadi, luas trapezium ialah $17.5$ m$^2$.
+      11. Jumlah dua kawasan dalam: $10 + 17.5 = 27.5$ m$^2$.
+      12. Tolak daripada jumlah luas segi empat tepat: $160 - 27.5 = 132.5$ m$^2$.
+      13. Jadi, luas kawasan berlorek ialah $132.5$ m$^2$.
+
+  - id: WE-05
+    topic: "Membandingkan luas bagi perimeter tetap"
+    difficulty: hard
+    learning_objective: "10.3.1"
+    tp_level: 5
+    kbat: true
+    real_world_analogy: "Peraturan 'Kecekapan Maksimum': dengan jumlah bahan sempadan yang sama, bentuk yang lebih hampir kepada segi empat sama memberi lebih banyak ruang guna berbanding segi empat tepat yang panjang dan kurus."
+    misconception_alert: "Murid sering berfikir bahawa jika dua susun atur menggunakan perimeter yang sama, maka luasnya juga mesti sama. Contoh ini direka untuk mematahkan mitos itu dengan jelas."
+    scenario: "Bagi satu tapak Hari Wawasan di tepi dinding, bandingkan dua susun atur segi empat tepat yang kedua-duanya menggunakan 20 m reben untuk 3 sisi. Pilihan A mempunyai lebar $2$ m dan panjang $16$ m. Pilihan B mempunyai lebar $5$ m dan panjang $10$ m. Yang manakah memberikan luas lebih besar, dan mengapa?"
+    working: |
+      1. Semak penggunaan reben bagi Pilihan A: $2 + 16 + 2 = 20$ m.
+      2. Cari luas Pilihan A: $A = 2 \times 16$.
+      3. Darabkan: $2 \times 16 = 32$.
+      4. Jadi, luas Pilihan A ialah $32$ m$^2$.
+      5. Semak penggunaan reben bagi Pilihan B: $5 + 10 + 5 = 20$ m.
+      6. Cari luas Pilihan B: $A = 5 \times 10$.
+      7. Darabkan: $5 \times 10 = 50$.
+      8. Jadi, luas Pilihan B ialah $50$ m$^2$.
+      9. Bandingkan luas: $50 - 32 = 18$.
+      10. Pilihan B memberi $18$ m$^2$ lebih ruang.
+      11. Oleh itu, Pilihan B lebih baik kerana susun atur yang lebih hampir kepada segi empat sama memberikan luas yang lebih besar bagi keadaan perimeter tetap yang sama.

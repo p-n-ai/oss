@@ -1,36 +1,82 @@
 topic_id: MT1-11
 provenance: ai-generated
-description: "Worked examples for Pengenalan Set"
+description: "Worked examples for Introduction to Sets aligned with KSSM Form 1."
 worked_examples:
   - id: WE-01
-    topic: "Understanding Set Description and Enumeration"
+    topic: "Describing a set using listing and set-builder notation"
     difficulty: easy
-    real_world_analogy: "Think of a set like a collection of books on a shelf. Each book is an element of the set."
-    misconception_alert: "Students often think that order matters in a set, but it does not."
-    scenario: "Ali has a set of fruits consisting of apples and oranges. Describe the set using enumeration and set-builder notation."
+    learning_objective: "11.1.2"
+    tp_level: 2
+    kbat: false
+    real_world_analogy: "Think of a set like a tray of kuih at a mamak stall. You can name every kuih one by one, or you can describe the rules that make the tray special."
+    misconception_alert: "The 'Repeat Trap'. Students often repeat the same element when listing a set, but a set only keeps unique elements."
+    scenario: "Ali writes the letters in the word MALAYSIA as a set. Describe the set using listing form and set-builder notation."
     working: |
-      Step 1: Identify the elements of the set, which are apples and oranges.
-      Step 2: Use enumeration to list the set: {apple, orange}.
-      Step 3: Use set-builder notation to describe the set: {x | x is a fruit in Ali's collection}.
+      1. Write the letters in MALAYSIA: M, A, L, A, Y, S, I, A.
+      2. Remove repeated letters.
+      3. The unique letters are M, A, L, Y, S, I.
+      4. Write the listing form: $P = \\{M, A, L, Y, S, I\\}$.
+      5. Write the set-builder form using a property of the elements.
+      6. The set-builder form is $P = \\{x : x \\text{ is a letter in the word 'MALAYSIA'}\\}$.
 
   - id: WE-02
-    topic: "Identifying Elements and the Universal Set"
+    topic: "Identifying elements and counting them"
     difficulty: medium
-    real_world_analogy: "Consider the universal set as a whole classroom and a subset as a group of students who wear glasses."
-    misconception_alert: "Some students confuse an element of a set with a subset. An element is a single item; a subset is a set within a set."
-    scenario: "In a school, the universal set consists of all students. Set A consists of students who play football. Determine if 'John' is an element of Set A. Represent the universal set and Set A using a Venn diagram."
+    learning_objective: "11.1.3"
+    tp_level: 2
+    kbat: false
+    real_world_analogy: "Imagine a school badge box. Each badge is one item, and you only count the badge that is actually inside the box."
+    misconception_alert: "The 'Element vs Set' trap. Students may confuse one object with a whole set, or repeat a repeated letter when counting elements."
+    scenario: "Let $A = \\{x : x \\text{ is a vowel in the word 'MALAYSIA'}\\}$. Determine whether $A$ contains the element $A$, and find $n(A)$."
     working: |
-      Step 1: Determine if 'John' is a football player. If yes, then John ∈ A; otherwise, John ∉ A.
-      Step 2: Represent the universal set U (all students) and Set A (football players) with a Venn diagram. Draw a rectangle for U and a circle inside it for A.
-      Step 3: Place 'John' inside the circle if he is in Set A, otherwise outside the circle but within the rectangle for U.
+      1. Identify the vowels in MALAYSIA.
+      2. The vowels are A, A, A, I, and A in the word.
+      3. In a set, repeated elements are written once only.
+      4. So, $A = \\{A, I\\}$.
+      5. The object $A$ is the name of the set, not an element of itself.
+      6. Therefore, $A \\notin A$.
+      7. Count the elements in the set: A and I.
+      8. Therefore, $n(A) = 2$.
 
   - id: WE-03
-    topic: "Comparing Sets and Subsets"
-    difficulty: hard
-    real_world_analogy: "Imagine two drawers of socks. Each drawer represents a set, and the socks within can show if the drawers have the same contents."
-    misconception_alert: "Students often think that two sets are different if their elements are listed in a different order."
-    scenario: "Set B = {1, 2, 3} and Set C = {3, 2, 1}. Are these sets equal? Also, identify if Set D = {1, 2} is a subset of Set B and Set C."
+    topic: "Universal set and complement"
+    difficulty: medium
+    learning_objective: "11.2.1"
+    tp_level: 3
+    kbat: false
+    real_world_analogy: "Think of the universal set as the whole classroom and a smaller set as the students wearing spectacles. The complement is everyone else in the classroom."
+    misconception_alert: "Students often forget that the complement is found inside the universal set, not outside the Venn diagram."
+    scenario: "The universal set $\\xi$ is all school clubs: $\\{Art, Drama, Robotics, Football, Badminton\\}$. Set $B$ is the sports clubs: $\\{Football, Badminton\\}$. Find the complement of $B$."
     working: |
-      Step 1: Compare elements of Set B and Set C. Since they contain the same elements, Set B = Set C.
-      Step 2: Check if each element of Set D is in Set B and Set C.
-      Step 3: Since 1 and 2 are in both Set B and Set C, Set D ⊆ Set B and Set D ⊆ Set C.
+      1. Write the universal set: $\\xi = \\{Art, Drama, Robotics, Football, Badminton\\}$.
+      2. Write set $B$: $B = \\{Football, Badminton\\}$.
+      3. The complement $B'$ contains the clubs in $\\xi$ that are not in $B$.
+      4. Remove Football and Badminton from the universal set.
+      5. The remaining clubs are Art, Drama, and Robotics.
+      6. Therefore, $B' = \\{Art, Drama, Robotics\\}$.
+
+  - id: WE-04
+    topic: "Subsets and Venn diagram relationships"
+    difficulty: hard
+    learning_objective: "11.2.5"
+    tp_level: 5
+    kbat: true
+    real_world_analogy: "Think of Matryoshka dolls, but in a Malaysian way: a small packet of kuih sits inside a bigger box, and the bigger box sits inside the whole delivery cart. Smaller groups can live inside bigger groups."
+    misconception_alert: "The 'in' versus 'subset' trap. A single object belongs to a set, but a smaller set is a subset of a bigger set."
+    scenario: "Let the universal set $\\xi$ be all shapes in a geometry club: triangle, square, rectangle, pentagon, hexagon. Set $A$ is the quadrilaterals, and set $B$ is the shapes with all equal sides: square and rhombus. Explain whether $B \\subset A$ is reasonable and describe how the Venn diagram should be drawn."
+    working: |
+      1. Write the universal set: $\\xi = \\{triangle, square, rectangle, pentagon, hexagon\\}$.
+      2. Identify set $A$ as the quadrilaterals.
+      3. The quadrilateral set includes square, rectangle, and rhombus.
+      4. Identify set $B$ as $\\{square, rhombus\\}$.
+      5. Check each element of $B$.
+      6. Square is in $A$.
+      7. Rhombus is also in $A$.
+      8. Every element of $B$ belongs to $A$.
+      9. Therefore, $B \\subset A$ is reasonable.
+      10. For the Venn diagram, draw a large rectangle for $\\xi$.
+      11. Draw circle $A$ inside the rectangle.
+      12. Draw circle $B$ completely inside circle $A$.
+      13. Put square and rhombus inside $B$.
+      14. Put rectangle inside $A$ but outside $B$.
+      15. Put triangle, pentagon, and hexagon outside $A$ but inside $\\xi$.

@@ -1,0 +1,88 @@
+id: MT1-13
+official_ref: "13"
+name: "Teorem Pythagoras"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+sync_checked: true
+content_standards:
+  - id: "13.1"
+    text: "Teorem Pythagoras"
+  - id: "13.2"
+    text: "Akas Teorem Pythagoras"
+learning_objectives:
+  - id: "13.1.1"
+    text: "Mengenal pasti dan mendefinisikan hipotenus bagi sebuah segi tiga bersudut tegak."
+    bloom: remember
+  - id: "13.1.2"
+    text: "Menentukan hubungan antara sisi segi tiga bersudut tegak. Seterusnya menerangkan Teorem Pythagoras merujuk kepada hubungan tersebut."
+    bloom: understand
+  - id: "13.1.3"
+    text: "Menentukan panjang sisi yang tidak diketahui bagi (i) sebuah segi tiga bersudut tegak. (ii) gabungan bentuk geometri."
+    bloom: apply
+  - id: "13.1.4"
+    text: "Menyelesaikan masalah yang melibatkan Teorem Pythagoras."
+    bloom: apply
+  - id: "13.2.1"
+    text: "Menentukan sama ada suatu segi tiga adalah segi tiga bersudut tegak dan memberi justifikasi berdasarkan akas Teorem Pythagoras."
+    bloom: analyze
+  - id: "13.2.2"
+    text: "Menyelesaikan masalah yang melibatkan akas Teorem Pythagoras."
+    bloom: apply
+performance_standards:
+  - level: 1
+    description: "Mengenal pasti dan mendefinisikan hipotenus bagi sebuah segi tiga bersudut tegak."
+  - level: 2
+    description: "Menerangkan hubungan antara sisi segi tiga bersudut tegak."
+  - level: 3
+    description: "Menentukan panjang sisi yang tidak diketahui bagi sebuah segi tiga bersudut tegak dan gabungan bentuk geometri."
+  - level: 4
+    description: "Menyelesaikan masalah rutin yang melibatkan Teorem Pythagoras."
+  - level: 5
+    description: "Menyelesaikan masalah rutin yang melibatkan akas Teorem Pythagoras."
+  - level: 6
+    description: "Menyelesaikan masalah bukan rutin yang melibatkan Teorem Pythagoras dan akasnya secara kreatif."
+prerequisites:
+  required:
+    - "MT1-03"
+bloom_levels:
+  - remember
+  - understand
+  - apply
+  - analyze
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+ai_teaching_notes: MT1-13.teaching.md
+assessments_file: MT1-13.assessments.yaml
+examples_file: MT1-13.examples.yaml
+teaching:
+  sequence:
+    - "Langkah 1: Pengenalan kepada hipotenus sebagai sisi terpanjang bertentangan dengan sudut tegak (Muka Surat 294)."
+    - "Langkah 2: Meneroka hubungan luas segi empat sama pada sisi segi tiga bersudut tegak (Muka Surat 295)."
+    - "Langkah 3: Memformalkan rumus Teorem Pythagoras: c^2 = a^2 + b^2 (Muka Surat 296)."
+    - "Langkah 4: Menghitung sisi yang tidak diketahui dalam segi tiga tunggal dan gabungan (Muka Surat 297)."
+    - "Langkah 5: Penyelesaian masalah dunia sebenar menggunakan kaedah 4-langkah (Muka Surat 298)."
+    - "Langkah 6: Memahami Akas Teorem Pythagoras untuk mengesahkan sudut tegak (Muka Surat 300)."
+    - "Langkah 7: Aplikasi tahap penguasaan dan cabaran (Muka Surat 304)."
+  common_misconceptions:
+    - misconception: "Menganggap hipotenus sentiasa sisi menegak atau mendatar."
+      remediation: "Tekankan bahawa hipotenus sentiasa sisi yang bertentangan dengan sudut 90 darjah, tanpa mengira orientasi (Muka Surat 294)."
+    - misconception: "Mengaplikasikan teorem pada segi tiga yang bukan bersudut tegak."
+      remediation: "Jelaskan bahawa teorem ini hanya sah jika salah satu sudut ialah tepat 90 darjah (Muka Surat 300)."
+    - misconception: "Lupa untuk melakukan punca kuasa dua pada langkah akhir pengiraan panjang sisi."
+      remediation: "Sentiasa semak sama ada jawapan akhir mempunyai unit dan skala yang logik berbanding sisi lain (Muka Surat 297)."
+engagement_hooks:
+  - "Membincangkan bagaimana jurubina memastikan penjuru dinding dibina bersudut tegak menggunakan peraturan 3-4-5 (Muka Surat 292)."
+  - "Menghitung saiz pepenjuru skrin monitor komputer atau televisyen (Muka Surat 294)."
+  - "Melintasi zaman bersama Pythagoras dan pembuktian teorem beliau (Muka Surat 293)."
+quality_level: 2
+provenance: ai-assisted
+generated_at: "2026-04-09T00:00:00Z"

@@ -1,75 +1,87 @@
 id: MT1-13
 official_ref: "13"
-name: "Teorem Pythagoras"
 name_en: "Pythagorean Theorem"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-1
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: beginner
 tier: core
 content_standards:
   - id: "13.1"
-    text: "Teorem Pythagoras"
     text_en: "Pythagorean Theorem"
   - id: "13.2"
-    text: "Akas Teorem Pythagoras"
-    text_en: "Converse of the Pythagorean Theorem"
+    text_en: "Converse of Pythagorean Theorem"
 learning_objectives:
-    - id: 13.1.1
-      text: "Mengenal pasti dan mendefinisikan hipotenus bagi sebuah segi tiga bersudut tegak."
-      text_en: "Identify and define the hypotenuse of a right-angled triangle."
-      bloom: remember
-    - id: 13.1.2
-      text: "Menentukan hubungan antara sisi segi tiga bersudut tegak. Seterusnya menerangkan Teorem Pythagoras merujuk kepada hubungan tersebut."
-      text_en: "Determine the relationship between the sides of a right-angled triangle. Subsequently explain the Pythagoras Theorem referring to that relationship."
-      bloom: understand
-    - id: 13.1.3
-      text: "Menentukan panjang sisi yang tidak diketahui bagi (i) sebuah segi tiga bersudut tegak. (ii) gabungan bentuk geometri."
-      text_en: "Determine the length of the unknown side for (i) a right-angled triangle. (ii) combination of geometric shapes."
-      bloom: apply
-    - id: 13.1.4
-      text: "Menyelesaikan masalah yang melibatkan Teorem Pythagoras."
-      text_en: "Solve problems involving the Pythagoras Theorem."
-      bloom: apply
-    - id: 13.2.1
-      text: "Menentukan sama ada suatu segi tiga adalah segi tiga bersudut tegak dan memberi justifikasi berdasarkan akas Teorem Pythagoras."
-      text_en: "Determine whether a triangle is a right-angled triangle and give justification based on the converse of the Pythagoras Theorem."
-      bloom: analyze
-    - id: 13.2.2
-      text: "Menyelesaikan masalah yang melibatkan akas Teorem Pythagoras."
-      text_en: "Solve problems involving the converse of the Pythagoras Theorem."
-      bloom: apply
+  - id: "13.1.1"
+    text_en: "Identify and define the hypotenuse of a right-angled triangle."
+    bloom: remember
+  - id: "13.1.2"
+    text_en: "Determine the relationship between the sides of a right-angled triangle. Subsequently explain the Pythagoras Theorem referring to that relationship."
+    bloom: understand
+  - id: "13.1.3"
+    text_en: "Determine the length of the unknown side for (i) a right-angled triangle. (ii) combination of geometric shapes."
+    bloom: apply
+  - id: "13.1.4"
+    text_en: "Solve problems involving the Pythagoras Theorem."
+    bloom: apply
+  - id: "13.2.1"
+    text_en: "Determine whether a triangle is a right-angled triangle and give justification based on the converse of the Pythagoras Theorem."
+    bloom: analyze
+  - id: "13.2.2"
+    text_en: "Solve problems involving the converse of the Pythagoras Theorem."
+    bloom: apply
+performance_standards:
+  - level: 1
+    description: "Identify and define the hypotenuse of a right-angled triangle."
+  - level: 2
+    description: "Explain the relationship between the sides of a right-angled triangle."
+  - level: 3
+    description: "Determine the length of the unknown side of a right-angled triangle and combination of geometric shapes."
+  - level: 4
+    description: "Solve routine problems involving the Pythagoras Theorem."
+  - level: 5
+    description: "Solve routine problems involving the converse of the Pythagoras Theorem."
+  - level: 6
+    description: "Solve non-routine problems involving the Pythagoras Theorem and its converse creatively."
 prerequisites:
-    required: []
+  required:
+    - "MT1-03"
 bloom_levels:
-    - remember
-    - understand
-    - apply
-    - analyze
+  - remember
+  - understand
+  - apply
+  - analyze
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
 ai_teaching_notes: MT1-13.teaching.md
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-29T23:18:08Z"
 assessments_file: MT1-13.assessments.yaml
-teaching:
-    sequence:
-        - 'Step 1: Introduce the concept of hypotenuse using visuals (15 min)'
-        - 'Step 2: Explain Pythagorean Theorem with formula demonstration (20 min)'
-        - 'Step 3: Practice calculating unknown side lengths in right triangles (25 min)'
-    common_misconceptions:
-        - misconception: Any side can be the hypotenuse
-          remediation: Emphasize it is always the longest side in a right triangle
-        - misconception: The theorem applies to all triangles
-          remediation: Clarify it is specific to right triangles only
-engagement_hooks:
-    - Calculate the diagonal distance in a local room or field
-    - Discuss how pilots might use the theorem when landing at an airport
 examples_file: MT1-13.examples.yaml
+teaching:
+  sequence:
+    - "Step 1: Introduction to the hypotenuse as the longest side opposite the right angle (Page 294)."
+    - "Step 2: Exploring the area relationship of squares on the sides of a right-angled triangle (Page 295)."
+    - "Step 3: Formalizing the Pythagoras Theorem formula: c^2 = a^2 + b^2 (Page 296)."
+    - "Step 4: Calculating unknown sides in single and combined triangles (Page 297)."
+    - "Step 5: Real-world problem solving using the 4-step method (Page 298)."
+    - "Step 6: Understanding the Converse of Pythagoras Theorem to verify right angles (Page 300)."
+    - "Step 7: Mastery and challenge applications (Page 304)."
+  common_misconceptions:
+    - misconception: "Assuming the hypotenuse is always the vertical or horizontal side."
+      remediation: "Reinforce that the hypotenuse is always the side opposite the 90-degree angle, regardless of orientation (Page 294)."
+    - misconception: "Applying the theorem to non-right-angled triangles."
+      remediation: "Emphasize that the theorem only holds if one angle is exactly 90 degrees (Page 300)."
+    - misconception: "Forgetting to take the square root at the final step of calculating a side length."
+      remediation: "Always check if the final answer's units and scale make sense compared to the other sides (Page 297)."
+engagement_hooks:
+  - "Discussing how civil engineers ensure walls are perfectly vertical using the 3-4-5 rule (Page 292)."
+  - "Calculating the diagonal size of computer monitors or TV screens (Page 294)."
+  - "A historical walk through time with Pythagoras and his proof (Page 293)."
+quality_level: 2
+provenance: ai-assisted
+generated_at: "2026-04-09T00:00:00Z"

@@ -1,129 +1,355 @@
 topic_id: MT1-10
 provenance: ai-generated
-
 questions:
-  # Learning Objective 10.1.1: Menentukan perimeter pelbagai bentuk apabila panjang sisi diberi atau perlu diukur
   - id: Q1
-    text: "Sebuah taman berbentuk segi empat tepat mempunyai panjang 20 meter dan lebar 15 meter. Hitung perimeter taman tersebut."
-    difficulty: medium
-    learning_objective: 10.1.1
+    text: "Which of the following best describes the perimeter of a shape?"
+    difficulty: easy
+    learning_objective: "10.1.1"
+    tp_level: 1
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "The total length around the outer boundary of the shape."
+      options:
+        A: "The total length around the outer boundary of the shape."
+        B: "The amount of surface covered inside the shape."
+        C: "The distance from the centre of the shape to its edge."
+        D: "The product of base and height."
+      working: |
+        Perimeter is the total length of all the outer sides of a shape. It measures the boundary, not the space inside.
+      distractors:
+        - value: "The amount of surface covered inside the shape."
+          feedback: "That is area, not perimeter. Remember the 'fence vs grass' idea: perimeter is the fence."
+        - value: "The distance from the centre of the shape to its edge."
+          feedback: "That describes a radius for a circle, not the full boundary length."
+        - value: "The product of base and height."
+          feedback: "That is linked to area calculations, not perimeter."
+    rubric:
+      - marks: 1
+        criteria: "Chooses the correct definition of perimeter."
+    hints:
+      - level: 1
+        text: "Think about walking around the outside edge of a shape."
+      - level: 2
+        text: "Perimeter measures the boundary, not the inside region."
+
+  - id: Q2
+    text: "A rectangular garden is 20 m long and 15 m wide. Calculate its perimeter."
+    difficulty: easy
+    learning_objective: "10.1.1"
     tp_level: 2
     kbat: false
+    marks: 2
     answer:
       type: exact
       value: "70"
       working: |
-        Perimeter sebuah segi empat tepat dikira dengan formula $P = 2(l + w)$, di mana $l$ adalah panjang dan $w$ adalah lebar.
-        Oleh itu, perimeter = $2(20 + 15) = 2(35) = 70$ meter.
-    marks: 2
+        1. Use the perimeter formula for a rectangle: $P = 2(l + w)$.
+        2. Substitute $l = 20$ and $w = 15$.
+        3. $P = 2(20 + 15) = 2(35) = 70$.
+        4. Therefore, the perimeter is $70$ m.
     rubric:
       - marks: 1
-        criteria: "Menggunakan formula perimeter dengan betul."
+        criteria: "Uses the correct perimeter formula for a rectangle."
       - marks: 1
-        criteria: "Mengira perimeter dengan tepat."
+        criteria: "Calculates the final perimeter correctly."
     hints:
       - level: 1
-        text: "Gunakan formula perimeter untuk segi empat tepat: $P = 2(l + w)$."
+        text: "Add the length and width first, then multiply by 2."
       - level: 2
-        text: "Tambah panjang dan lebar dahulu sebelum didarab dengan 2."
+        text: "For a rectangle, opposite sides are equal, so you are counting two lengths and two widths."
 
-  # Learning Objective 10.1.3: Menyelesaikan masalah yang melibatkan perimeter
-  - id: Q2
-    text: "Sebuah padang berbentuk segitiga sama sisi mempunyai perimeter 60 meter. Tentukan panjang setiap sisinya."
+  - id: Q3
+    text: "A student estimates the perimeter of a leaf on 1 cm grid paper as 14 cm. The actual measurement using thread is 16.2 cm. Calculate the percentage error of the estimate, correct to 2 decimal places."
     difficulty: medium
-    learning_objective: 10.1.3
+    learning_objective: "10.1.2"
     tp_level: 2
     kbat: false
+    marks: 2
     answer:
       type: exact
-      value: "20"
+      value: "13.58"
       working: |
-        Untuk segitiga sama sisi, semua sisi adalah sama panjang. Oleh itu, jika perimeter ialah 60 meter, panjang setiap sisi ialah $60 \div 3 = 20$ meter.
-    marks: 2
+        1. Find the difference between estimate and actual value: $|16.2 - 14| = 2.2$.
+        2. Percentage error $= \frac{\text{difference}}{\text{actual value}} \times 100\%$.
+        3. $\frac{2.2}{16.2} \times 100 = 13.5802\ldots$
+        4. Correct to 2 decimal places, the percentage error is $13.58\%$.
     rubric:
       - marks: 1
-        criteria: "Mengetahui bahawa segitiga sama sisi mempunyai sisi yang sama panjang."
+        criteria: "Finds the difference between the estimate and the actual measurement correctly."
       - marks: 1
-        criteria: "Mengira panjang setiap sisi dengan tepat."
+        criteria: "Calculates the percentage error correctly to 2 decimal places."
     hints:
       - level: 1
-        text: "Segitiga sama sisi mempunyai tiga sisi yang sama panjang."
+        text: "Start by finding the gap between 14 cm and 16.2 cm."
       - level: 2
-        text: "Bahagikan perimeter dengan 3 untuk mendapatkan panjang setiap sisi."
+        text: "Divide the gap by the actual measurement, then multiply by 100."
 
-  # Learning Objective 10.2.2: Menerbitkan rumus luas segi tiga, segi empat selari, lelayang dan trapezium berdasarkan luas segi empat tepat
-  - id: Q3
-    text: "Diberi bahawa luas segi empat tepat adalah $lw$. Terbitkan rumus luas untuk sebuah lelayang."
-    difficulty: medium
-    learning_objective: 10.2.2
-    tp_level: 3
-    kbat: true
-    answer:
-      type: free_text
-      value: "Luas lelayang ialah setengah hasil darab kedua-dua diagonalnya: $\\frac{1}{2}d_1d_2$."
-      working: |
-        Luas lelayang boleh diterbitkan dengan membahagikannya kepada dua segitiga yang sama, di mana setiap segitiga mempunyai luas $\\frac{1}{2} \\times \\text{base} \\times \\text{height}$. Oleh itu, luas lelayang ialah $\\frac{1}{2} \\times d_1 \\times d_2$.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Mengenal pasti bahawa lelayang boleh dibahagikan kepada dua segitiga sama."
-      - marks: 1
-        criteria: "Menggunakan konsep luas segi tiga untuk mendapatkan formula."
-      - marks: 1
-        criteria: "Menyatakan formula luas lelayang dengan tepat."
-    hints:
-      - level: 1
-        text: "Lelayang boleh dibahagikan kepada dua segitiga yang sama."
-      - level: 2
-        text: "Gunakan rumus luas segitiga: $\\frac{1}{2} \\times \\text{base} \\times \\text{height}$."
-
-  # Learning Objective 10.3.1: Membuat dan mengesahkan konjektur tentang perkaitan antara perimeter dan luas
   - id: Q4
-    text: "Jika perimeter dua segi empat sama adalah sama, adakah luasnya juga pasti sama? Berikan penjelasan anda."
-    difficulty: medium
-    learning_objective: 10.3.1
-    tp_level: 4
-    kbat: true
+    text: "A shape covers almost 18 full unit squares on grid paper and a few partial squares. Which is the best estimate of its area?"
+    difficulty: easy
+    learning_objective: "10.2.1"
+    tp_level: 2
+    kbat: false
+    marks: 1
     answer:
-      type: free_text
-      value: "Ya, kerana segi empat sama mempunyai sisi yang sama panjang, jika perimeter sama, luas juga pasti sama."
+      type: multiple_choice
+      value: "About 19 square units"
+      options:
+        A: "About 9 square units"
+        B: "About 19 square units"
+        C: "About 36 square units"
+        D: "About 180 square units"
       working: |
-        Dalam segi empat sama, semua sisi adalah sama panjang. Jika perimeter dua segi empat sama adalah sama, maka setiap sisi juga sama panjang. Oleh itu, luas kedua-dua segi empat sama adalah sama.
-    marks: 2
+        If a shape covers almost 18 full squares and some extra partial squares, the area should be slightly more than 18 square units. So 19 square units is the best estimate.
+      distractors:
+        - value: "About 9 square units"
+          feedback: "That is too small. It ignores many of the full squares already covered."
+        - value: "About 36 square units"
+          feedback: "That is too large. Be careful not to double the count."
+        - value: "About 180 square units"
+          feedback: "That is not a sensible estimate for a shape covering only around 18 grid squares."
     rubric:
       - marks: 1
-        criteria: "Mengaitkan sifat segi empat sama dengan perimeter dan luas."
-      - marks: 1
-        criteria: "Menyatakan hubungan antara perimeter dan luas dengan jelas."
+        criteria: "Selects the most reasonable estimate of the area."
     hints:
       - level: 1
-        text: "Pertimbangkan sifat unik segi empat sama."
+        text: "Use the full squares as your starting point."
       - level: 2
-        text: "Jika semua sisi adalah sama panjang, bagaimana dengan luasnya?"
+        text: "If the shape is a little more than 18 squares, the answer should be only a little more than 18."
 
-  # Learning Objective 10.3.2: Menyelesaikan masalah yang melibatkan perimeter dan luas segi tiga, segi empat tepat, segi empat sama, segi empat selari, lelayang, trapezium dan gabungan bentuk-bentuk tersebut
   - id: Q5
-    text: "Sebuah taman berbentuk trapezium mempunyai panjang tapak atas 10 meter, panjang tapak bawah 16 meter, dan tinggi 5 meter. Hitung luas taman tersebut."
-    difficulty: medium
-    learning_objective: 10.3.2
+    text: "State whether the following statement is TRUE or FALSE: 'The area of a triangle can be derived by taking half the area of a rectangle with the same base and perpendicular height.'"
+    difficulty: easy
+    learning_objective: "10.2.2"
     tp_level: 3
     kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "TRUE"
+      options:
+        A: "TRUE"
+        B: "FALSE"
+      working: |
+        A triangle with a given base and perpendicular height is exactly half of a rectangle with the same base and perpendicular height. That is why its area is $\frac{1}{2}bh$.
+      distractors:
+        - value: "FALSE"
+          feedback: "This is actually the standard way to derive the triangle area formula from a rectangle."
+    rubric:
+      - marks: 1
+        criteria: "Recognises the correct derivation of the triangle area formula."
+    hints:
+      - level: 1
+        text: "Picture a rectangle split into two equal triangles."
+      - level: 2
+        text: "The triangle uses the same base and perpendicular height as the rectangle, but only half the area."
+
+  - id: Q6
+    text: "A parallelogram has base 12 cm, slanted side 10 cm and perpendicular height 7 cm. Which measurement must be used with the base to calculate its area?"
+    difficulty: medium
+    learning_objective: "10.2.3"
+    tp_level: 3
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "7 cm"
+      options:
+        A: "10 cm"
+        B: "7 cm"
+        C: "12 cm"
+        D: "29 cm"
+      working: |
+        The area of a parallelogram uses base $\times$ perpendicular height. The slanted side is not used unless it is also perpendicular, which it is not here.
+      distractors:
+        - value: "10 cm"
+          feedback: "That is the slanted side. Watch out for the slant-height trap: area needs the perpendicular height."
+        - value: "12 cm"
+          feedback: "That is the base, but the question asks which other measurement must be used with the base."
+        - value: "29 cm"
+          feedback: "This is an added value, not the perpendicular height needed for area."
+    rubric:
+      - marks: 1
+        criteria: "Chooses the perpendicular height needed for the area formula."
+    hints:
+      - level: 1
+        text: "Area of a parallelogram uses base times which kind of height?"
+      - level: 2
+        text: "Look for the measurement that is perpendicular to the base, not the slanted side."
+
+  - id: Q7
+    text: "A trapezium has parallel sides of 10 m and 16 m, and a perpendicular height of 5 m. Calculate its area."
+    difficulty: medium
+    learning_objective: "10.2.3"
+    tp_level: 4
+    kbat: false
+    marks: 3
     answer:
       type: exact
       value: "65"
       working: |
-        Luas trapezium dikira dengan rumus $A = \\frac{1}{2} \\times (b_1 + b_2) \\times h$, di mana $b_1$ dan $b_2$ adalah panjang tapak dan $h$ adalah tinggi.
-        Oleh itu, $A = \\frac{1}{2} \\times (10 + 16) \\times 5 = \\frac{1}{2} \\times 26 \\times 5 = 65$ meter persegi.
-    marks: 3
+        1. Use the trapezium area formula: $A = \frac{1}{2}(a+b)h$.
+        2. Substitute $a = 10$, $b = 16$, and $h = 5$.
+        3. $A = \frac{1}{2}(10+16)(5)$.
+        4. $A = \frac{1}{2}(26)(5) = 13 \times 5 = 65$.
+        5. Therefore, the area is $65$ m$^2$.
     rubric:
       - marks: 1
-        criteria: "Menggunakan rumus luas trapezium dengan betul."
+        criteria: "Uses the correct trapezium area formula."
       - marks: 1
-        criteria: "Mengira jumlah panjang tapak dengan tepat."
+        criteria: "Substitutes the parallel sides and perpendicular height correctly."
       - marks: 1
-        criteria: "Mengira luas dengan tepat."
+        criteria: "Calculates the final area correctly."
     hints:
       - level: 1
-        text: "Gunakan rumus luas untuk trapezium: $A = \\frac{1}{2} \\times (b_1 + b_2) \\times h$."
+        text: "Add the two parallel sides first."
       - level: 2
-        text: "Tambahkan panjang tapak atas dan tapak bawah sebelum didarab dengan tinggi."
+        text: "After adding the parallel sides, multiply by the height and then take half."
+
+  - id: Q8
+    text: "An equilateral triangular field has a perimeter of 60 m. Find the length of each side."
+    difficulty: medium
+    learning_objective: "10.1.3"
+    tp_level: 2
+    kbat: false
+    marks: 2
+    answer:
+      type: exact
+      value: "20"
+      working: |
+        1. In an equilateral triangle, all 3 sides are equal.
+        2. Side length $= 60 \div 3 = 20$.
+        3. Therefore, each side is $20$ m.
+    rubric:
+      - marks: 1
+        criteria: "Identifies that all sides of an equilateral triangle are equal."
+      - marks: 1
+        criteria: "Calculates the side length correctly."
+    hints:
+      - level: 1
+        text: "How many equal sides does an equilateral triangle have?"
+      - level: 2
+        text: "Share the total perimeter equally among the 3 sides."
+
+  - id: Q9
+    text: "A compound shape is made from a rectangle measuring 8 m by 5 m and a triangle on top with base 8 m and perpendicular height 3 m. Find the total area of the compound shape."
+    difficulty: medium
+    learning_objective: "10.3.2"
+    tp_level: 4
+    kbat: false
+    marks: 4
+    answer:
+      type: exact
+      value: "52"
+      working: |
+        1. Area of the rectangle $= 8 \times 5 = 40$ m$^2$.
+        2. Area of the triangle $= \frac{1}{2} \times 8 \times 3 = 12$ m$^2$.
+        3. Total area $= 40 + 12 = 52$ m$^2$.
+    rubric:
+      - marks: 1
+        criteria: "Calculates the rectangle area correctly."
+      - marks: 1
+        criteria: "Calculates the triangle area correctly."
+      - marks: 1
+        criteria: "Combines both areas correctly."
+      - marks: 1
+        criteria: "States the final answer with the correct unit."
+    hints:
+      - level: 1
+        text: "Split the compound shape into the rectangle and the triangle."
+      - level: 2
+        text: "Find each area separately before adding them together."
+
+  - id: Q10
+    text: "A rectangle and a square both have a perimeter of 24 cm. Is the following statement TRUE or FALSE? 'They must have the same area.'"
+    difficulty: medium
+    learning_objective: "10.3.1"
+    tp_level: 5
+    kbat: true
+    marks: 2
+    answer:
+      type: multiple_choice
+      value: "FALSE"
+      options:
+        A: "TRUE"
+        B: "FALSE"
+      working: |
+        Shapes can have the same perimeter but different areas. For example, a square with side 6 cm has area $36$ cm$^2$, but a rectangle with sides 8 cm and 4 cm also has perimeter 24 cm and area $32$ cm$^2$.
+      distractors:
+        - value: "TRUE"
+          feedback: "Same perimeter does not guarantee same area. Try comparing a square and a long rectangle with the same perimeter."
+    rubric:
+      - marks: 1
+        criteria: "Identifies that equal perimeter does not force equal area."
+      - marks: 1
+        criteria: "Supports the claim using a valid example or idea."
+    hints:
+      - level: 1
+        text: "Test the claim using one square and one non-square rectangle."
+      - level: 2
+        text: "Keep the total boundary at 24 cm, then compare the areas."
+
+  - id: Q11
+    text: "A rectangular plot has a fixed perimeter of 36 m. What dimensions give the greatest possible area?"
+    difficulty: hard
+    learning_objective: "10.3.1"
+    tp_level: 5
+    kbat: true
+    marks: 3
+    answer:
+      type: free_text
+      value: "A square measuring 9 m by 9 m."
+      working: |
+        1. For a fixed perimeter, a square gives the greatest area among rectangles.
+        2. If the perimeter is 36 m, each side of the square is $36 \div 4 = 9$ m.
+        3. Therefore, the dimensions are $9$ m by $9$ m.
+    rubric:
+      - marks: 1
+        criteria: "Recognises that the maximum area occurs for a square."
+      - marks: 1
+        criteria: "Finds the side length of the square correctly."
+      - marks: 1
+        criteria: "States the correct dimensions clearly."
+    hints:
+      - level: 1
+        text: "Think back to the fixed-perimeter investigation. Which rectangle gives the most area?"
+      - level: 2
+        text: "If all 4 sides are equal and the perimeter is 36 m, what is one side?"
+
+  - id: Q12
+    text: "You have 20 m of red ribbon to mark out a rectangular exhibition site beside a wall, so only 3 sides need ribbon. Find the dimensions that give the maximum area."
+    difficulty: hard
+    learning_objective: "10.3.2"
+    tp_level: 6
+    kbat: true
+    marks: 4
+    answer:
+      type: free_text
+      value: "Width 5 m and length 10 m."
+      working: |
+        1. Let the width be $x$ m. Then the two widths use $2x$ m of ribbon.
+        2. The remaining ribbon for the length is $(20 - 2x)$ m.
+        3. Area $A = x(20 - 2x)$.
+        4. Test sensible whole-number values:
+           - If $x=4$, area $= 4(12) = 48$.
+           - If $x=5$, area $= 5(10) = 50$.
+           - If $x=6$, area $= 6(8) = 48$.
+        5. The maximum area occurs when width $= 5$ m and length $= 10$ m.
+    rubric:
+      - marks: 1
+        criteria: "Represents the 3-sided ribbon condition correctly."
+      - marks: 1
+        criteria: "Forms a correct expression or table for the area."
+      - marks: 1
+        criteria: "Identifies the dimensions that produce the maximum area."
+      - marks: 1
+        criteria: "States the final dimensions clearly with units."
+    hints:
+      - level: 1
+        text: "You only need ribbon for 3 sides because the wall forms the fourth side."
+      - level: 2
+        text: "If the width is $x$, how much ribbon is left for the long side?"
+      - level: 3
+        text: "Try a few whole-number widths and compare the areas to find the sweet spot."

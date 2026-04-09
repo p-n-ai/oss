@@ -1,0 +1,86 @@
+id: MT1-12
+official_ref: "Bab 12"
+name: "Pengendalian Data"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+sync_checked: true
+
+content_standards:
+  - id: "12.1"
+    text: "Pengumpulan data dan pengurusan data"
+    learning_objectives:
+      - id: "12.1.1"
+        text: "Menjana soalan statistik dan mengumpul data yang relevan."
+        bloom: create
+      - id: "12.1.2"
+        text: "Mengklasifikasikan data kepada data kategori atau data numerik dan membina jadual kekerapan."
+        bloom: understand
+      - id: "12.1.3"
+        text: "Membina perwakilan data bagi data tak terkumpul dan menjustifikasikan kesesuaian suatu perwakilan data."
+        bloom: apply
+      - id: "12.1.4"
+        text: "Menukar satu perwakilan data kepada perwakilan lain yang sesuai serta memberi justifikasi."
+        bloom: apply
+      - id: "12.1.5"
+        text: "Mentafsir pelbagai perwakilan data termasuk membuat inferens atau ramalan."
+        bloom: analyze
+      - id: "12.1.6"
+        text: "Membincangkan kepentingan mewakilkan data secara beretika bagi mengelakkan kekeliruan."
+        bloom: evaluate
+
+performance_standards:
+  - level: 1
+    descriptor: "Mempamerkan pengetahuan asas tentang pengumpulan, pengorganisasian dan perwakilan data."
+  - level: 2
+    descriptor: "Mempamerkan kefahaman tentang pengumpulan, pengorganisasian dan perwakilan data."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman tentang perwakilan data untuk membina perwakilan data."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang perwakilan dan pentafsiran data dalam konteks penyelesaian masalah rutin yang mudah."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang perwakilan dan pentafsiran data dalam konteks penyelesaian masalah rutin yang kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang perwakilan dan pentafsiran data dalam konteks penyelesaian masalah bukan rutin."
+
+prerequisites:
+  required: []
+  recommended: []
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+ai_teaching_notes: "MT1-12.teaching.md"
+assessments_file: "MT1-12.assessments.yaml"
+examples_file: "MT1-12.examples.yaml"
+
+teaching:
+  sequence:
+    - "Langkah 1: Mendefinisikan soalan statistik dan mengenal pasti kaedah pengumpulan data (Temu bual, Tinjauan, Pemerhatian, Eksperimen)"
+    - "Langkah 2: Mengelas data kepada Kategori dan Numerik (Diskret vs Selanjar) serta menyusun data dalam jadual kekerapan"
+    - "Langkah 3: Membina dan menjustifikasikan perwakilan bagi data tak terkumpul: Carta palang, Carta pai, Graf garis, Plot titik, dan Plot batang-dan-daun"
+    - "Langkah 4: Berlatih menukar satu perwakilan data kepada bentuk lain yang sesuai dengan justifikasi yang kukuh"
+    - "Langkah 5: Mentafsir perwakilan data yang lebih kompleks termasuk Histogram dan Poligon Kekerapan untuk membuat inferens"
+    - "Langkah 6: Membincangkan etika dalam perwakilan data, memfokuskan kepada skala yang konsisten dan paparan yang tepat untuk mengelakkan kekeliruan"
+  common_misconceptions:
+    - misconception: "Keliru antara data numerik diskret dan selanjar."
+      remediation: "Jelaskan bahawa data diskret ialah unit keseluruhan (contoh: bilangan orang), manakala data selanjar diukur pada skala (contoh: jisim atau suhu)."
+    - misconception: "Menganggap sebarang skala pada paksi mencancang boleh diterima untuk carta palang."
+      remediation: "Tekankan bahawa skala mesti bermula dari 0 dan konsisten untuk mewakili data secara beretika dan mengelakkan tafsiran yang mengelirukan."
+    - misconception: "Percaya bahawa sektor carta pai tidak perlu berjumlah 100% atau 360 darjah."
+      remediation: "Ajar murid untuk menyemak jumlah peratusan atau jumlah sudut sektor bagi memastikan perwakilan adalah tepat secara matematik."
+  engagement_hooks:
+    - "Siasat bagaimana jurulatih sukan menggunakan plot titik untuk menilai prestasi pemain."
+    - "Analisis bagaimana perniagaan menggunakan perwakilan data untuk mengesan keuntungan dan kerugian dari masa ke masa menggunakan graf garis."
+    - "Teroka peranan data dalam sains alam sekitar, seperti memantau pengeluaran sisa atau pertumbuhan pokok di hutan hujan."
+
+quality_level: 2
+provenance: ai-assisted

@@ -1,0 +1,82 @@
+topic_id: MT1-11
+provenance: ai-generated
+description: "Contoh kerja bagi Pengenalan Set yang selaras dengan KSSM Tingkatan 1."
+worked_examples:
+  - id: WE-01
+    topic: "Menghuraikan set menggunakan penyenaraian dan tatatanda pembina set"
+    difficulty: easy
+    learning_objective: "11.1.2"
+    tp_level: 2
+    kbat: false
+    real_world_analogy: "Fikirkan set seperti dulang kuih di kedai mamak. Anda boleh namakan setiap kuih satu demi satu, atau anda boleh huraikan peraturan yang menjadikan dulang itu istimewa."
+    misconception_alert: "Perangkap Pengulangan. Pelajar sering mengulang unsur yang sama apabila menyenaraikan set, sedangkan set hanya menyimpan unsur unik."
+    scenario: "Ali menulis huruf dalam perkataan MALAYSIA sebagai satu set. Huraikan set tersebut menggunakan bentuk penyenaraian dan tatatanda pembina set."
+    working: |
+      1. Tulis huruf dalam MALAYSIA: M, A, L, A, Y, S, I, A.
+      2. Buang huruf yang berulang.
+      3. Huruf unik ialah M, A, L, Y, S, I.
+      4. Tulis bentuk penyenaraian: $P = \\{M, A, L, Y, S, I\\}$.
+      5. Tulis bentuk tatatanda pembina set menggunakan sifat unsur.
+      6. Bentuk tatatanda pembina set ialah $P = \\{x : x \\text{ ialah huruf dalam perkataan 'MALAYSIA'}\\}$.
+
+  - id: WE-02
+    topic: "Mengenal pasti unsur dan menghitung bilangan unsur"
+    difficulty: medium
+    learning_objective: "11.1.3"
+    tp_level: 2
+    kbat: false
+    real_world_analogy: "Bayangkan sebuah kotak lencana sekolah. Setiap lencana ialah satu item, dan anda hanya mengira lencana yang benar-benar berada di dalam kotak."
+    misconception_alert: "Perangkap Unsur vs Set. Pelajar mungkin mengelirukan satu objek dengan keseluruhan set, atau mengulangi huruf yang berulang semasa mengira unsur."
+    scenario: "Diberi $A = \\{x : x \\text{ ialah vokal dalam perkataan 'MALAYSIA'}\\}$. Tentukan sama ada $A$ mengandungi unsur $A$, dan cari $n(A)$."
+    working: |
+      1. Kenal pasti vokal dalam MALAYSIA.
+      2. Dalam perkataan itu, vokalnya ialah A, A, A, I, dan A.
+      3. Dalam set, unsur yang berulang ditulis sekali sahaja.
+      4. Maka, $A = \\{A, I\\}$.
+      5. Objek $A$ ialah nama set, bukan unsur dalam set itu sendiri.
+      6. Oleh itu, $A \\notin A$.
+      7. Kira unsur dalam set: A dan I.
+      8. Jadi, $n(A) = 2$.
+
+  - id: WE-03
+    topic: "Set semesta dan pelengkap"
+    difficulty: medium
+    learning_objective: "11.2.1"
+    tp_level: 3
+    kbat: false
+    real_world_analogy: "Fikirkan set semesta sebagai seluruh kelas dan satu set kecil sebagai murid yang memakai cermin mata. Pelengkap ialah semua murid lain dalam kelas itu."
+    misconception_alert: "Pelajar sering terlupa bahawa pelengkap dicari dalam set semesta, bukan di luar gambar rajah Venn."
+    scenario: "Set semesta $\\xi$ ialah semua kelab sekolah: $\\{Seni, Drama, Robotik, Bola Sepak, Badminton\\}$. Set $B$ ialah kelab sukan: $\\{Bola Sepak, Badminton\\}$. Cari pelengkap bagi $B$."
+    working: |
+      1. Tulis set semesta: $\\xi = \\{Seni, Drama, Robotik, Bola Sepak, Badminton\\}$.
+      2. Tulis set $B$: $B = \\{Bola Sepak, Badminton\\}$.
+      3. Pelengkap $B'$ mengandungi kelab dalam $\\xi$ yang tiada dalam $B$.
+      4. Buang Bola Sepak dan Badminton daripada set semesta.
+      5. Kelab yang tinggal ialah Seni, Drama, dan Robotik.
+      6. Jadi, $B' = \\{Seni, Drama, Robotik\\}$.
+
+  - id: WE-04
+    topic: "Subset dan hubungan gambar rajah Venn"
+    difficulty: hard
+    learning_objective: "11.2.5"
+    tp_level: 5
+    kbat: true
+    real_world_analogy: "Fikirkan patung Matryoshka, tetapi dalam versi Malaysia: sebungkus kuih kecil berada dalam kotak lebih besar, dan kotak itu pula berada dalam troli penghantaran yang lebih besar. Kumpulan kecil boleh berada dalam kumpulan yang lebih besar."
+    misconception_alert: "Perangkap 'unsur dalam' versus 'subset'. Satu objek tunggal menjadi unsur bagi set, tetapi satu set yang lebih kecil menjadi subset bagi set yang lebih besar."
+    scenario: "Set semesta $\\xi$ ialah semua bentuk dalam kelab geometri: segi tiga, segi empat sama, segi empat tepat, pentagon, heksagon. Set $A$ ialah bentuk sisi empat, dan set $B$ ialah bentuk yang mempunyai semua sisi sama panjang: segi empat sama dan rombus. Jelaskan sama ada $B \\subset A$ adalah munasabah dan terangkan bagaimana gambar rajah Venn perlu dilukis."
+    working: |
+      1. Tulis set semesta: $\\xi = \\{segi tiga, segi empat sama, segi empat tepat, pentagon, heksagon\\}$.
+      2. Kenal pasti set $A$ sebagai bentuk sisi empat.
+      3. Set sisi empat termasuk segi empat sama, segi empat tepat, dan rombus.
+      4. Kenal pasti set $B$ sebagai $\\{segi empat sama, rombus\\}$.
+      5. Semak setiap unsur dalam $B$.
+      6. Segi empat sama berada dalam $A$.
+      7. Rombus juga berada dalam $A$.
+      8. Setiap unsur $B$ berada dalam $A$.
+      9. Maka, $B \\subset A$ adalah munasabah.
+      10. Untuk gambar rajah Venn, lukis segi empat tepat besar untuk $\\xi$.
+      11. Lukis bulatan $A$ di dalam segi empat tepat.
+      12. Lukis bulatan $B$ sepenuhnya di dalam bulatan $A$.
+      13. Letakkan segi empat sama dan rombus di dalam $B$.
+      14. Letakkan segi empat tepat di dalam $A$ tetapi di luar $B$.
+      15. Letakkan segi tiga, pentagon, dan heksagon di luar $A$ tetapi di dalam $\\xi$.

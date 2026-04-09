@@ -2,122 +2,240 @@ topic_id: MT1-12
 provenance: ai-generated
 
 questions:
-  # Learning objective 12.1.1: Menjana soalan statistik dan mengumpul data yang relevan
+  # 12.1.1: Generate statistical questions and collect relevant data
   - id: Q1
-    text: "Anda diminta untuk mengumpul data mengenai masa yang diambil pelajar untuk ke sekolah. Nyatakan satu soalan statistik yang sesuai dan terangkan bagaimana anda akan mengumpul data tersebut."
-    difficulty: medium
-    learning_objective: LO1
-    tp_level: 3
-    kbat: true
+    text: "Which of the following is a statistical question?"
+    difficulty: easy
+    learning_objective: 12.1.1
+    tp_level: 1
+    kbat: false
     answer:
-      type: free_text
-      value: "Soalan: Berapa lama masa yang diambil oleh pelajar untuk sampai ke sekolah? Pengumpulan data: Saya akan mengedarkan borang soal selidik kepada pelajar dengan kategori masa seperti kurang daripada 15 minit, 15-30 minit, dan lebih daripada 30 minit."
+      type: multiple_choice
+      value: "How tall are the students in Class 1 Amanah?"
       working: |
-        Untuk menjana soalan statistik yang sesuai, tentukan jenis maklumat yang diperlukan. Soalan statistik yang sesuai adalah yang menanyakan masa perjalanan. Data boleh dikumpul melalui soal selidik yang terstruktur.
-    marks: 4
-    rubric:
-      - marks: 2
-        criteria: "Menjana soalan statistik yang sesuai."
-      - marks: 2
-        criteria: "Mengemukakan kaedah pengumpulan data yang relevan."
+        A statistical question expects varied answers from different people.
+        "How tall are the students in Class 1 Amanah?" will produce different heights, so it is statistical.
+      options:
+        - "How tall are the students in Class 1 Amanah?"
+        - "What is the name of the school principal?"
+        - "What colour is the classroom wall?"
+        - "How many days are in a week?"
+      distractors:
+        - value: "What is the name of the school principal?"
+          feedback: "This has one fixed answer, so it is not statistical."
+        - value: "What colour is the classroom wall?"
+          feedback: "This is usually a single fixed fact, so it does not show variability."
+        - value: "How many days are in a week?"
+          feedback: "This is a fixed fact, not a statistical question."
+    marks: 1
     hints:
       - level: 1
-        text: "Fikirkan tentang aspek masa perjalanan yang ingin anda ketahui."
-      - level: 2
-        text: "Pertimbangkan cara yang mudah dan tepat untuk mengumpul maklumat masa perjalanan."
+        text: "Look for the question that will give different answers from different people."
 
-  # Learning objective 12.1.2: Mengklasifikasikan data kepada data kategori atau data numerik dan membina jadual kekerapan
+  # 12.1.2: Classify data and construct frequency tables
   - id: Q2
-    text: "Diberikan set data berikut tentang bilangan buku yang dimiliki oleh 10 pelajar: 5, 7, 8, 3, 5, 7, 6, 9, 5, 7. Klasifikasikan data ini dan bina jadual kekerapan."
+    text: "State whether 'The body temperature of each student' is categorical or numerical data. If numerical, state whether it is discrete or continuous."
     difficulty: medium
-    learning_objective: LO2
-    tp_level: 3
+    learning_objective: 12.1.2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "Numerical data (continuous)"
+      working: |
+        Body temperature is measured on a scale and can include decimal values such as 37.5 C.
+        Because it is measured, not counted in whole units, it is numerical data and continuous.
+    marks: 2
+    hints:
+      - level: 1
+        text: "Can body temperature include decimal values, or is it only counted in whole numbers?"
+
+  - id: Q3
+    text: "Given the data set 5, 7, 8, 3, 5, 7, 6, 9, 5, 7. Classify the data and construct a frequency table."
+    difficulty: medium
+    learning_objective: 12.1.2
+    tp_level: 2
     kbat: false
     answer:
       type: free_text
-      value: "Data ini adalah data numerik. Jadual kekerapan: (5: 3 kali, 7: 3 kali, 8: 1 kali, 3: 1 kali, 6: 1 kali, 9: 1 kali)"
+      value: "Numerical data; 3:1, 5:3, 6:1, 7:3, 8:1, 9:1"
       working: |
-        Klasifikasikan data sebagai numerik kerana ia adalah bilangan buku. Bina jadual kekerapan dengan mengira berapa kali setiap nombor muncul.
+        The data is numerical because it counts books.
+        Count each value to build the frequency table: 3 appears 1 time, 5 appears 3 times, 6 appears 1 time, 7 appears 3 times, 8 appears 1 time, and 9 appears 1 time.
     marks: 4
     rubric:
       - marks: 1
-        criteria: "Mengklasifikasikan data dengan betul."
+        criteria: "Classifies the data correctly."
       - marks: 3
-        criteria: "Membina jadual kekerapan yang betul."
+        criteria: "Constructs a correct frequency table."
     hints:
       - level: 1
-        text: "Adakah data ini boleh diukur atau dibilang?"
+        text: "Ask yourself whether the data is being counted or described."
       - level: 2
-        text: "Kira kekerapan setiap nombor dalam data."
+        text: "Count how many times each number appears."
 
-  # Learning objective 12.1.3: Membina perwakilan data bagi data tak terkumpul dan menjustifikasikan kesesuaian suatu perwakilan data
-  - id: Q3
-    text: "Diberikan jadual kekerapan berikut bagi bilangan jam pelajar belajar sehari: (1 jam: 2 pelajar, 2 jam: 5 pelajar, 3 jam: 4 pelajar, 4 jam: 3 pelajar). Bina carta batang bagi data ini dan jelaskan mengapa carta batang sesuai."
-    difficulty: medium
-    learning_objective: LO3
-    tp_level: 4
-    kbat: true
-    answer:
-      type: free_text
-      value: "Carta batang: (1 jam: 2, 2 jam: 5, 3 jam: 4, 4 jam: 3). Carta batang sesuai kerana ia menunjukkan kekerapan dalam kumpulan data yang kecil dan memudahkan perbandingan."
-      working: |
-        Bina carta batang dengan setiap kategori (bilangan jam) pada paksi-x dan kekerapan pada paksi-y. Carta batang sesuai untuk data tak terkumpul kerana ia menyampaikan maklumat dengan jelas dan mudah difahami.
-    marks: 5
-    rubric:
-      - marks: 3
-        criteria: "Membina carta batang yang betul."
-      - marks: 2
-        criteria: "Menjustifikasikan kesesuaian penggunaan carta batang."
-    hints:
-      - level: 1
-        text: "Apakah jenis carta yang sesuai untuk data kekerapan?"
-      - level: 2
-        text: "Pertimbangkan bagaimana carta batang menunjukkan perbezaan kekerapan."
-
-  # Learning objective 12.1.4: Menukar satu perwakilan data kepada perwakilan lain yang sesuai serta memberi justifikasi
+  # 12.1.3: Construct ungrouped data representations and justify suitability
   - id: Q4
-    text: "Tukarkan carta batang berikut ke dalam bentuk carta pai: (A: 30%, B: 25%, C: 20%, D: 25%). Terangkan mengapa carta pai sesuai untuk data ini."
+    text: "True or False: A bar chart is suitable for comparing the number of students who prefer football, badminton, and cycling."
     difficulty: medium
-    learning_objective: LO4
-    tp_level: 4
-    kbat: true
+    learning_objective: 12.1.3
+    tp_level: 3
+    kbat: false
     answer:
-      type: free_text
-      value: "Carta pai: Bahagian A (108°), B (90°), C (72°), D (90°). Carta pai sesuai kerana ia menunjukkan peratusan setiap kategori daripada keseluruhan."
+      type: multiple_choice
+      value: "TRUE"
       working: |
-        Hitung sudut setiap kategori berdasarkan peratusan: A = 30% x 360° = 108°, B = 25% x 360° = 90°, C = 20% x 360° = 72°, D = 25% x 360° = 90°. Carta pai sesuai untuk menunjukkan bahagian setiap kategori dari keseluruhan.
-    marks: 5
-    rubric:
-      - marks: 3
-        criteria: "Menukar data dengan betul ke carta pai."
-      - marks: 2
-        criteria: "Memberi justifikasi kesesuaian carta pai."
+        Bar charts are suitable for comparing categories because they make differences in frequency easy to see.
+      options:
+        - "TRUE"
+        - "FALSE"
+      distractors:
+        - value: "FALSE"
+          feedback: "Bar charts are actually one of the best choices for comparing categories like favourite sports."
+    marks: 1
     hints:
       - level: 1
-        text: "Bagaimana anda boleh menukar peratusan ke dalam sudut?"
-      - level: 2
-        text: "Apakah maklumat yang carta pai sampaikan dengan jelas?"
+        text: "Think about whether the data is comparing categories or showing a time trend."
 
-  # Learning objective 12.1.6: Membincangkan kepentingan mewakilkan data secara beretika bagi mengelakkan kekeliruan
+  # 12.1.4: Convert one representation to another suitable representation
   - id: Q5
-    text: "Kenapa penting untuk mewakilkan data secara beretika, dan bagaimana cara perwakilan yang salah boleh mengelirukan orang ramai?"
+    text: "In a survey of 40 students, 10 chose badminton as their favourite sport. Calculate the angle of the sector for badminton if this data is converted into a pie chart."
     difficulty: medium
-    learning_objective: LO6
+    learning_objective: 12.1.4
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "90"
+      working: |
+        The fraction for badminton is 10/40 = 1/4.
+        A full pie chart represents 360 degrees.
+        So the sector angle is 1/4 x 360 degrees = 90 degrees.
+    marks: 2
+    hints:
+      - level: 1
+        text: "What fraction of the whole is 10 out of 40?"
+
+  # 12.1.5: Interpret various data representations
+  - id: Q6
+    text: "A histogram shows that the 155-159 cm interval has frequency 10. How many students are at least 155 cm but less than 160 cm tall?"
+    difficulty: easy
+    learning_objective: 12.1.5
+    tp_level: 4
+    kbat: false
+    answer:
+      type: exact
+      value: "10"
+      working: |
+        The interval 155-159 cm corresponds directly to the frequency shown by the histogram bar.
+        Therefore, 10 students are in that range.
+    marks: 1
+    hints:
+      - level: 1
+        text: "Read the height of the histogram bar for the 155-159 cm interval."
+
+  - id: Q7
+    text: "A line graph shows the number of library visitors over four weeks: Week 1 = 20, Week 2 = 28, Week 3 = 35, Week 4 = 30. Describe the trend and make one reasonable prediction for Week 5."
+    difficulty: hard
+    learning_objective: 12.1.5
     tp_level: 5
     kbat: true
     answer:
       type: free_text
-      value: "Penting untuk mewakilkan data secara beretika agar tidak memanipulasi atau menyalahartikan fakta. Perwakilan salah, seperti grafik yang dimanipulasi, boleh mengelirukan orang dengan menunjukkan kesimpulan yang tidak tepat."
+      value: "The number of visitors increases from Week 1 to Week 3, then drops slightly in Week 4. A reasonable prediction for Week 5 is that the number may stay around 30 or increase slightly."
       working: |
-        Data yang diwakilkan secara beretika memberikan gambaran sebenar dan mengelakkan salah tafsir. Perwakilan yang salah boleh membuat satu aspek kelihatan lebih penting daripada yang sebenarnya, menyebabkan salah faham.
-    marks: 5
+        Week 1 to Week 3 shows a clear upward trend.
+        Week 4 shows a small drop.
+        A cautious prediction should follow the general pattern without overclaiming.
+    marks: 3
     rubric:
-      - marks: 3
-        criteria: "Menerangkan kepentingan mewakilkan data secara beretika."
-      - marks: 2
-        criteria: "Menjelaskan bagaimana perwakilan yang salah boleh mengelirukan."
+      - marks: 1
+        criteria: "Describes the overall trend correctly."
+      - marks: 1
+        criteria: "Identifies the small drop in Week 4."
+      - marks: 1
+        criteria: "Makes a reasonable prediction based on the trend."
     hints:
       - level: 1
-        text: "Fikirkan tentang akibat memanipulasi skala dalam carta."
-      - level: 2
-        text: "Bagaimana perwakilan yang salah boleh menukar persepsi seseorang tentang data?"
+        text: "Look for the rise, the drop, and then think about what might happen next."
+
+  - id: Q8
+    text: "Class A and Class B were surveyed on favourite drinks. Class A: 12 students chose tea, 8 chose milk. Class B: 18 students chose tea, 2 chose milk. Which class shows a stronger preference for tea, and what can you infer about the two classes?"
+    difficulty: hard
+    learning_objective: 12.1.5
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: "Class B shows a stronger preference for tea because 18 out of 20 students chose tea, compared with 12 out of 20 in Class A."
+      working: |
+        Compare the proportion of tea drinkers in each class.
+        Class A: 12/20 = 60%.
+        Class B: 18/20 = 90%.
+        Class B has the stronger preference for tea.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Identifies the correct class."
+      - marks: 1
+        criteria: "Uses the proportions or counts correctly."
+      - marks: 1
+        criteria: "Gives a valid inference about the comparison."
+    hints:
+      - level: 1
+        text: "Do not compare only the raw counts. Think about the proportion in each class."
+
+  # 12.1.6: Ethical data representation
+  - id: Q9
+    text: "A bar chart shows Adam scored 14 goals and Ravi scored 10 goals. The vertical axis starts at 6 instead of 0. Explain why this is not an ethical representation and how it misleads the reader."
+    difficulty: hard
+    learning_objective: 12.1.6
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "It is not ethical because the vertical axis does not start at 0, so the difference looks larger than it really is."
+      working: |
+        Step 1: Check the vertical axis. It starts at 6.
+        Step 2: The visual gap between 14 and 10 looks exaggerated.
+        Step 3: Ethical graphs should use a consistent scale and usually start from 0 to avoid misleading the reader.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Identifies the graph as unethical or misleading."
+      - marks: 1
+        criteria: "Explains that the non-zero axis exaggerates the difference."
+      - marks: 1
+        criteria: "States that ethical graphs should start at 0 with a consistent scale."
+    hints:
+      - level: 1
+        text: "Look closely at the vertical axis. Does it start at zero?"
+
+  - id: Q10
+    text: "Which of the following is categorical data?"
+    difficulty: easy
+    learning_objective: 12.1.2
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Favourite ice cream flavour"
+      working: |
+        Categorical data describes groups or labels, not measured numbers.
+        Favourite ice cream flavour is a category, while height, temperature, and number of books are numerical.
+      options:
+        - "Favourite ice cream flavour"
+        - "Height of students"
+        - "Temperature of water"
+        - "Number of books owned"
+      distractors:
+        - value: "Height of students"
+          feedback: "Height is numerical data because it is measured."
+        - value: "Temperature of water"
+          feedback: "Temperature is numerical data because it is measured on a scale."
+        - value: "Number of books owned"
+          feedback: "This is numerical data because it is counted."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Look for the option that names a group or label, not a measurement."

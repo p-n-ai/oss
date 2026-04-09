@@ -1,0 +1,119 @@
+id: "MT1-11"
+official_ref: "Bab 11"
+name: "Pengenalan Set"
+subject_grade_id: "malaysia-kssm-matematik-tingkatan-1"
+subject_id: "malaysia-kssm-matematik"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+tier: "core"
+sync_checked: true
+
+content_standards:
+  - id: "11.1"
+    text: "Set"
+  - id: "11.2"
+    text: "Gambar rajah Venn, set semesta, pelengkap bagi suatu set dan subset"
+
+learning_objectives:
+  - id: "11.1.1"
+    content_standard_id: "11.1"
+    text: "Menerangkan maksud set."
+    bloom: "understand"
+  - id: "11.1.2"
+    content_standard_id: "11.1"
+    text: "Menghuraikan suatu set dengan menggunakan: (i) perihalan, (ii) penyenaraian, dan (iii) tatatanda pembina set."
+    bloom: "understand"
+  - id: "11.1.3"
+    content_standard_id: "11.1"
+    text: "Mengenal pasti sama ada suatu objek adalah unsur kepada suatu set dan mewakilkan hubungan tersebut dengan simbol."
+    bloom: "remember"
+  - id: "11.1.4"
+    content_standard_id: "11.1"
+    text: "Menentukan bilangan unsur bagi suatu set dan mewakilkan bilangan unsur dengan simbol."
+    bloom: "apply"
+  - id: "11.1.5"
+    content_standard_id: "11.1"
+    text: "Membanding beza dan menerangkan sama ada dua atau lebih set adalah sama, dan seterusnya membuat generalisasi tentang kesamaan set."
+    bloom: "analyze"
+  - id: "11.2.1"
+    content_standard_id: "11.2"
+    text: "Mengenal pasti dan menghuraikan set semesta dan pelengkap bagi suatu set."
+    bloom: "understand"
+  - id: "11.2.2"
+    content_standard_id: "11.2"
+    text: "Mewakilkan (i) hubungan suatu set dengan set semesta, dan (ii) pelengkap bagi suatu set dengan gambar rajah Venn."
+    bloom: "apply"
+  - id: "11.2.3"
+    content_standard_id: "11.2"
+    text: "Mengenal pasti dan menghuraikan subset yang mungkin bagi suatu set."
+    bloom: "understand"
+  - id: "11.2.4"
+    content_standard_id: "11.2"
+    text: "Mewakilkan suatu subset dengan gambar rajah Venn."
+    bloom: "apply"
+  - id: "11.2.5"
+    content_standard_id: "11.2"
+    text: "Mewakilkan perkaitan antara set, subset, set semesta dan pelengkap bagi suatu set dengan gambar rajah Venn."
+    bloom: "apply"
+
+performance_standards:
+  - level: 1
+    descriptor: "Mempamerkan pengetahuan asas tentang set."
+  - level: 2
+    descriptor: "Mempamerkan kefahaman tentang set."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman tentang set."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang set dalam konteks penyelesaian masalah rutin."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang set dalam konteks penyelesaian masalah rutin yang kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang set dalam konteks penyelesaian masalah bukan rutin secara kreatif."
+
+prerequisites:
+  required: []
+  recommended: []
+
+bloom_levels:
+  - "remember"
+  - "understand"
+  - "apply"
+  - "analyze"
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Langkah 1: Perkenalkan idea set menggunakan pengelasan objek harian seperti bahan kitar semula (15 min)."
+    - "Langkah 2: Huraikan set menggunakan kaedah perihalan, penyenaraian, dan tatatanda pembina set dengan contoh ala buku teks (20 min)."
+    - "Langkah 3: Kenal pasti unsur suatu set dan gunakan simbol seperti $\\in$ dan $\\notin$ dengan betul (15 min)."
+    - "Langkah 4: Tentukan bilangan unsur dan bandingkan set yang sama apabila turutan unsur tidak penting (20 min)."
+    - "Langkah 5: Teroka set semesta dan pelengkap menggunakan konteks bilik darjah dan rumah (20 min)."
+    - "Langkah 6: Wakilkan subset, pelengkap, dan hubungan antara set dengan gambar rajah Venn (20 min)."
+  common_misconceptions:
+    - misconception: "Menganggap turutan unsur mengubah identiti sesuatu set."
+      remediation: "Tunjukkan bahawa $\\{a, b, c\\}$ dan $\\{c, b, a\\}$ ialah set yang sama kerana set ialah himpunan tak tertib."
+    - misconception: "Menganggap set kosong $\\phi$ sama dengan set yang mengandungi sifar $\\{0\\}$."
+      remediation: "Bandingkan kedua-duanya secara jelas: $\\phi$ tidak mempunyai unsur langsung, manakala $\\{0\\}$ mempunyai satu unsur iaitu $0$."
+    - misconception: "Keliru antara simbol $\\in$ dengan simbol $\\subset$."
+      remediation: "Gunakan contoh bersebelahan untuk menunjukkan bahawa $2 \\in A$ merujuk kepada unsur, manakala $B \\subset A$ merujuk kepada satu set yang terkandung dalam set lain."
+    - misconception: "Mengulang unsur yang sama semasa menyenaraikan set."
+      remediation: "Gunakan perkataan seperti 'MALAYSIA' untuk menunjukkan bahawa huruf yang berulang hanya disenaraikan sekali dalam set."
+  engagement_hooks:
+    - "Kelaskan bahan kitar semula di rumah seperti kertas, plastik, dan kaca untuk memperkenalkan idea set."
+    - "Gunakan warna-warna Jalur Gemilang untuk mempraktikkan penghuraian set dalam bentuk perkataan, penyenaraian, dan tatatanda pembina set."
+    - "Jalankan cabaran 'Kedai Mamak' di mana pelajar mengenal pasti subset seperti semua minuman, minuman berais, atau makanan pedas."
+
+quality_level: 2
+provenance: "ai-assisted"
+
+ai_teaching_notes: "MT1-11.teaching.md"
+assessments_file: "MT1-11.assessments.yaml"
+examples_file: "MT1-11.examples.yaml"

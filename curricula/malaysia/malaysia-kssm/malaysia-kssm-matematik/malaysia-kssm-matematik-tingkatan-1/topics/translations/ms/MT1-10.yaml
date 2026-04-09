@@ -1,0 +1,113 @@
+id: "MT1-10"
+official_ref: "Chapter 10"
+name: "Perimeter dan Luas"
+subject_grade_id: "malaysia-kssm-matematik-tingkatan-1"
+subject_id: "malaysia-kssm-matematik"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+tier: "core"
+sync_checked: true
+
+content_standards:
+  - id: "10.1"
+    text: "Perimeter"
+  - id: "10.2"
+    text: "Luas segi tiga, segi empat selari, lelayang dan trapezium"
+  - id: "10.3"
+    text: "Perkaitan antara perimeter dan luas"
+
+learning_objectives:
+  - id: "10.1.1"
+    content_standard_id: "10.1"
+    text: "Menentukan perimeter pelbagai bentuk apabila panjang sisi diberi atau perlu diukur."
+    bloom: "apply"
+  - id: "10.1.2"
+    content_standard_id: "10.1"
+    text: "Menganggar perimeter pelbagai bentuk, seterusnya menilai ketepatan anggaran secara membandingkannya dengan nilai yang diukur."
+    bloom: "evaluate"
+  - id: "10.1.3"
+    content_standard_id: "10.1"
+    text: "Menyelesaikan masalah yang melibatkan perimeter."
+    bloom: "apply"
+  - id: "10.2.1"
+    content_standard_id: "10.2"
+    text: "Menganggar luas pelbagai bentuk dengan menggunakan pelbagai kaedah."
+    bloom: "apply"
+  - id: "10.2.2"
+    content_standard_id: "10.2"
+    text: "Menerbitkan rumus luas segi tiga, segi empat selari, lelayang dan trapezium berdasarkan luas segi empat tepat."
+    bloom: "analyze"
+  - id: "10.2.3"
+    content_standard_id: "10.2"
+    text: "Menyelesaikan masalah yang melibatkan luas segi tiga, segi empat selari, lelayang, trapezium dan gabungan bentuk-bentuk tersebut."
+    bloom: "apply"
+  - id: "10.3.1"
+    content_standard_id: "10.3"
+    text: "Membuat dan mengesahkan konjektur tentang perkaitan antara perimeter dan luas."
+    bloom: "evaluate"
+  - id: "10.3.2"
+    content_standard_id: "10.3"
+    text: "Menyelesaikan masalah yang melibatkan perimeter dan luas segi tiga, segi empat tepat, segi empat sama, segi empat selari, lelayang, trapezium dan gabungan bentuk-bentuk tersebut."
+    bloom: "apply"
+
+performance_standards:
+  - level: 1
+    descriptor: "Memamerkan pengetahuan asas tentang perimeter dan luas."
+  - level: 2
+    descriptor: "Memamerkan kefahaman tentang kaedah untuk menganggar perimeter dan luas pelbagai bentuk."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman untuk menerbitkan rumus luas bagi segi tiga, segi empat selari, lelayang dan trapezium."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai untuk menyelesaikan masalah rutin melibatkan perimeter dan luas."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai untuk membuat dan mengesahkan konjektur tentang hubungan antara perimeter dan luas."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai untuk menyelesaikan masalah bukan rutin melibatkan gabungan bentuk dan senario kecekapan kos."
+
+prerequisites:
+  required:
+    - "MT-G5-Perimeter"
+    - "MT1-04"
+
+bloom_levels:
+  - "apply"
+  - "analyze"
+  - "evaluate"
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Langkah 1: Teroka perimeter dengan mengukur objek bilik darjah dan sempadan kolam renang (Buku Teks ms. 226)."
+    - "Langkah 2: Latihan penganggaran menggunakan benang untuk garis lengkung dan kertas grid (Aktiviti Penerokaan 1)."
+    - "Langkah 3: Selesaikan masalah perimeter dalam konteks dunia sebenar seperti memagari kawasan letak kereta (Buku Teks ms. 228)."
+    - "Langkah 4: Anggar luas menggunakan grid segi empat sama 1-unit dan kaedah garis mengufuk (Buku Teks ms. 231)."
+    - "Langkah 5: Penerbitan rumus: Tukar segi empat selari dan segi tiga kepada segi empat tepat untuk menemui rumus luas (Aktiviti Penerokaan 2-5)."
+    - "Langkah 6: Kuasai bentuk gabungan: Hitung luas untuk plot tanah yang ditanam dengan pelbagai tanaman (Buku Teks ms. 237)."
+    - "Langkah 7: Penyiasatan: Temui sebab mengapa bentuk segi empat sama memberikan luas maksimum bagi perimeter yang tetap (Aktiviti Penerokaan 6)."
+    - "Langkah 8: Cabaran Akhir: Selesaikan masalah TP6 bukan rutin melibatkan panjang sisi yang hilang dan kecekapan kos (Buku Teks ms. 244)."
+  common_misconceptions:
+    - misconception: "Keliru antara perimeter (sempadan) dengan luas (wilayah permukaan)."
+      remediation: "Gunakan analogi 'Pagar vs Rumput': perimeter ialah panjang pagar, luas ialah rumput di dalamnya."
+    - misconception: "Beranggapan bahawa bentuk dengan perimeter yang sama mesti mempunyai luas yang sama."
+      remediation: "Jalankan Aktiviti Penerokaan 6 untuk menunjukkan bagaimana luas berubah walaupun perimeter tetap pada 36 cm."
+    - misconception: "Terlupa bahawa tinggi dalam segi tiga dan segi empat selari mestilah tinggi tegak, bukan tinggi condong."
+      remediation: "Tekankan simbol sudut tegak dalam rumus: Luas = $\\frac{1}{2} \\times tapak \\times tinggi\\ tegak$."
+  engagement_hooks:
+    - "Rahsia Pengeluar Padi: Bincangkan bagaimana sawah padi yang luas di Kedah (Jelapang Padi Malaysia) menggunakan perimeter untuk sempadan pengairan dan luas untuk hasil tuaian (Buku Teks ms. 224)."
+    - "Misteri Papirus Rhind: Kongsi fakta sejarah bahawa orang Mesir kuno melakukan kesilapan dalam rumus luas sisi empat mereka pada 1650 S.M. (Buku Teks ms. 225)."
+    - "Pereka Pameran: Cabar pelajar untuk merancang tapak pameran 'Hari Wawasan' menggunakan tepat 20m reben merah untuk memaksimumkan ruang (Buku Teks ms. 245)."
+
+quality_level: 2
+provenance: "curriculum-expert-verified"
+
+ai_teaching_notes: "MT1-10.teaching.md"
+assessments_file: "MT1-10.assessments.yaml"
+examples_file: "MT1-10.examples.yaml"

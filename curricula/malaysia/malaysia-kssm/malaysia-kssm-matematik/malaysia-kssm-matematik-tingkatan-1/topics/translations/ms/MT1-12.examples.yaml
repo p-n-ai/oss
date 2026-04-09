@@ -1,0 +1,36 @@
+topic_id: MT1-12
+provenance: ai-generated
+description: "Contoh kerja bagi Pengendalian Data"
+worked_examples:
+  - id: WE-01
+    topic: "Menjana soalan statistik dan mengumpul data yang relevan"
+    difficulty: easy
+    real_world_analogy: "Mengumpul pendapat daripada rakan sekelas tentang buah kegemaran mereka."
+    misconception_alert: "Murid mungkin berfikir mereka perlu mengumpul data dengan cara yang rumit, tetapi tinjauan ringkas juga sangat berkesan."
+    scenario: "Anda ingin mengetahui buah yang paling popular dalam kalangan rakan sekelas anda."
+    working: |
+      Langkah 1: Bentuk soalan yang jelas: "Apakah buah kegemaran anda?"
+      Langkah 2: Tentukan kaedah pengumpulan data. Pilih kaedah mudah seperti tinjauan.
+      Langkah 3: Tanya setiap rakan sekelas dan catat jawapan mereka. Buat kiraan untuk menentukan buah yang paling popular.
+
+  - id: WE-02
+    topic: "Mengklasifikasikan data kepada data kategori atau data numerik dan membina jadual kekerapan"
+    difficulty: medium
+    real_world_analogy: "Menyusun koleksi buku mengikut genre dan mengira berapa banyak buku bagi setiap genre."
+    misconception_alert: "Murid sering keliru antara data kategori dan data numerik; ingat bahawa data kategori menghuraikan ciri atau nama."
+    scenario: "Seorang guru merekod sukan kegemaran murid dalam satu kelas untuk mengetahui sukan yang paling popular."
+    working: |
+      Langkah 1: Klasifikasikan data. Sukan seperti 'Bola Sepak', 'Bola Keranjang', dan 'Badminton' ialah data kategori.
+      Langkah 2: Bina jadual dengan dua lajur: satu untuk jenis sukan dan satu lagi untuk kekerapan.
+      Langkah 3: Kira bilangan murid bagi setiap sukan dan isikan lajur kekerapan. Inilah jadual kekerapan anda.
+
+  - id: WE-03
+    topic: "Membina perwakilan data bagi data tak terkumpul dan menjustifikasikan kesesuaian suatu perwakilan data"
+    difficulty: hard
+    real_world_analogy: "Membina carta pai untuk menunjukkan peratusan jenis sisa makanan yang berbeza di kantin sekolah."
+    misconception_alert: "Menganggap semua data mesti ditunjukkan sebagai carta palang; kadangkala carta pai lebih baik untuk mewakili kadar atau bahagian."
+    scenario: "Sebuah sekolah ingin mewakilkan jenis sisa yang dikumpul (kertas, plastik, makanan) dalam bentuk visual untuk kempen kitar semula."
+    working: |
+      Langkah 1: Kira jumlah keseluruhan sisa yang dikumpul dan peratusan bagi setiap kategori.
+      Langkah 2: Tentukan jenis perwakilan yang terbaik. Oleh sebab anda mahu menunjukkan bahagian atau kadar, carta pai sesuai.
+      Langkah 3: Bina carta pai menggunakan peratusan yang telah dikira. Berikan justifikasi dengan menerangkan bagaimana carta itu menunjukkan bahagian setiap jenis sisa dengan berkesan.

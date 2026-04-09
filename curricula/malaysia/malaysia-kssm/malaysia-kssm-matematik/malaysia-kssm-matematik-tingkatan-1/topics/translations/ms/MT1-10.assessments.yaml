@@ -1,0 +1,355 @@
+topic_id: MT1-10
+provenance: ai-generated
+questions:
+  - id: Q1
+    text: "Antara berikut, yang manakah paling tepat menerangkan perimeter bagi suatu bentuk?"
+    difficulty: easy
+    learning_objective: "10.1.1"
+    tp_level: 1
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "Jumlah panjang di sekeliling sempadan luar bentuk itu."
+      options:
+        A: "Jumlah panjang di sekeliling sempadan luar bentuk itu."
+        B: "Jumlah ruang permukaan di dalam bentuk itu."
+        C: "Jarak dari pusat bentuk ke tepinya."
+        D: "Hasil darab tapak dengan tinggi."
+      working: |
+        Perimeter ialah jumlah panjang semua sisi luar sesuatu bentuk. Ia mengukur sempadan, bukan ruang di dalam.
+      distractors:
+        - value: "Jumlah ruang permukaan di dalam bentuk itu."
+          feedback: "Itu ialah luas, bukan perimeter. Ingat idea 'pagar vs rumput': perimeter ialah pagar."
+        - value: "Jarak dari pusat bentuk ke tepinya."
+          feedback: "Itu menerangkan jejari bagi bulatan, bukan jumlah panjang sempadan."
+        - value: "Hasil darab tapak dengan tinggi."
+          feedback: "Itu berkait dengan pengiraan luas, bukan perimeter."
+    rubric:
+      - marks: 1
+        criteria: "Memilih definisi perimeter yang betul."
+    hints:
+      - level: 1
+        text: "Bayangkan awak berjalan mengelilingi bahagian luar sesuatu bentuk."
+      - level: 2
+        text: "Perimeter mengukur sempadan, bukan kawasan di dalam."
+
+  - id: Q2
+    text: "Sebuah taman berbentuk segi empat tepat mempunyai panjang 20 m dan lebar 15 m. Hitung perimeter taman itu."
+    difficulty: easy
+    learning_objective: "10.1.1"
+    tp_level: 2
+    kbat: false
+    marks: 2
+    answer:
+      type: exact
+      value: "70"
+      working: |
+        1. Gunakan rumus perimeter segi empat tepat: $P = 2(l + w)$.
+        2. Gantikan $l = 20$ dan $w = 15$.
+        3. $P = 2(20 + 15) = 2(35) = 70$.
+        4. Jadi, perimeter ialah $70$ m.
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan rumus perimeter segi empat tepat dengan betul."
+      - marks: 1
+        criteria: "Mengira perimeter akhir dengan tepat."
+    hints:
+      - level: 1
+        text: "Tambah panjang dan lebar dahulu, kemudian darab dengan 2."
+      - level: 2
+        text: "Bagi segi empat tepat, sisi yang bertentangan adalah sama, jadi awak mengira dua panjang dan dua lebar."
+
+  - id: Q3
+    text: "Seorang murid menganggar perimeter sehelai daun pada kertas grid 1 cm sebagai 14 cm. Ukuran sebenar menggunakan benang ialah 16.2 cm. Hitung peratus ralat bagi anggaran itu, betul kepada 2 tempat perpuluhan."
+    difficulty: medium
+    learning_objective: "10.1.2"
+    tp_level: 2
+    kbat: false
+    marks: 2
+    answer:
+      type: exact
+      value: "13.58"
+      working: |
+        1. Cari beza antara anggaran dan nilai sebenar: $|16.2 - 14| = 2.2$.
+        2. Peratus ralat $= \frac{\text{beza}}{\text{nilai sebenar}} \times 100\%$.
+        3. $\frac{2.2}{16.2} \times 100 = 13.5802\ldots$
+        4. Betul kepada 2 tempat perpuluhan, peratus ralat ialah $13.58\%$.
+    rubric:
+      - marks: 1
+        criteria: "Mencari beza antara anggaran dengan ukuran sebenar dengan betul."
+      - marks: 1
+        criteria: "Mengira peratus ralat dengan tepat hingga 2 tempat perpuluhan."
+    hints:
+      - level: 1
+        text: "Mulakan dengan mencari jurang antara 14 cm dan 16.2 cm."
+      - level: 2
+        text: "Bahagikan jurang itu dengan ukuran sebenar, kemudian darab dengan 100."
+
+  - id: Q4
+    text: "Satu bentuk menutupi hampir 18 petak unit penuh pada kertas grid dan beberapa petak separa. Yang manakah anggaran terbaik bagi luas bentuk itu?"
+    difficulty: easy
+    learning_objective: "10.2.1"
+    tp_level: 2
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "Kira-kira 19 unit persegi"
+      options:
+        A: "Kira-kira 9 unit persegi"
+        B: "Kira-kira 19 unit persegi"
+        C: "Kira-kira 36 unit persegi"
+        D: "Kira-kira 180 unit persegi"
+      working: |
+        Jika bentuk itu menutupi hampir 18 petak penuh dan ada sedikit lagi bahagian petak, luasnya patut sedikit melebihi 18 unit persegi. Jadi 19 unit persegi ialah anggaran terbaik.
+      distractors:
+        - value: "Kira-kira 9 unit persegi"
+          feedback: "Itu terlalu kecil. Banyak petak penuh sudah pun ditutupi."
+        - value: "Kira-kira 36 unit persegi"
+          feedback: "Itu terlalu besar. Hati-hati supaya tidak menggandakan kiraan."
+        - value: "Kira-kira 180 unit persegi"
+          feedback: "Itu bukan anggaran yang munasabah untuk bentuk yang menutupi sekitar 18 petak sahaja."
+    rubric:
+      - marks: 1
+        criteria: "Memilih anggaran luas yang paling munasabah."
+    hints:
+      - level: 1
+        text: "Gunakan bilangan petak penuh sebagai titik mula."
+      - level: 2
+        text: "Jika bentuk itu sedikit lebih daripada 18 petak, jawapannya juga patut sedikit lebih daripada 18."
+
+  - id: Q5
+    text: "Nyatakan sama ada pernyataan berikut BENAR atau PALSU: 'Luas segi tiga boleh diterbitkan dengan mengambil separuh luas segi empat tepat yang mempunyai tapak dan tinggi tegak yang sama.'"
+    difficulty: easy
+    learning_objective: "10.2.2"
+    tp_level: 3
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "BENAR"
+      options:
+        A: "BENAR"
+        B: "PALSU"
+      working: |
+        Segi tiga yang mempunyai tapak dan tinggi tegak tertentu ialah separuh daripada segi empat tepat yang mempunyai tapak dan tinggi tegak yang sama. Sebab itu luasnya ialah $\frac{1}{2}bh$.
+      distractors:
+        - value: "PALSU"
+          feedback: "Sebenarnya, inilah cara biasa untuk menerbitkan rumus luas segi tiga daripada segi empat tepat."
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti penerbitan rumus luas segi tiga yang betul."
+    hints:
+      - level: 1
+        text: "Bayangkan segi empat tepat dibahagi kepada dua segi tiga yang sama."
+      - level: 2
+        text: "Segi tiga menggunakan tapak dan tinggi tegak yang sama seperti segi empat tepat, tetapi hanya separuh luasnya."
+
+  - id: Q6
+    text: "Sebuah segi empat selari mempunyai tapak 12 cm, sisi condong 10 cm dan tinggi tegak 7 cm. Ukuran yang manakah mesti digunakan bersama tapak untuk mengira luasnya?"
+    difficulty: medium
+    learning_objective: "10.2.3"
+    tp_level: 3
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "7 cm"
+      options:
+        A: "10 cm"
+        B: "7 cm"
+        C: "12 cm"
+        D: "29 cm"
+      working: |
+        Luas segi empat selari menggunakan tapak $\times$ tinggi tegak. Sisi condong tidak digunakan melainkan sisi itu juga tegak lurus, tetapi bukan dalam kes ini.
+      distractors:
+        - value: "10 cm"
+          feedback: "Itu ialah sisi condong. Hati-hati dengan perangkap tinggi condong: luas memerlukan tinggi tegak."
+        - value: "12 cm"
+          feedback: "Itu ialah tapak, tetapi soalan meminta ukuran lain yang mesti digunakan bersama tapak."
+        - value: "29 cm"
+          feedback: "Itu hanya nilai yang dijumlahkan, bukan tinggi tegak yang diperlukan untuk luas."
+    rubric:
+      - marks: 1
+        criteria: "Memilih tinggi tegak yang diperlukan dalam rumus luas."
+    hints:
+      - level: 1
+        text: "Luas segi empat selari menggunakan tapak darab jenis tinggi yang mana?"
+      - level: 2
+        text: "Cari ukuran yang tegak lurus dengan tapak, bukan sisi condong."
+
+  - id: Q7
+    text: "Sebuah trapezium mempunyai sisi selari 10 m dan 16 m, serta tinggi tegak 5 m. Hitung luas trapezium itu."
+    difficulty: medium
+    learning_objective: "10.2.3"
+    tp_level: 4
+    kbat: false
+    marks: 3
+    answer:
+      type: exact
+      value: "65"
+      working: |
+        1. Gunakan rumus luas trapezium: $A = \frac{1}{2}(a+b)h$.
+        2. Gantikan $a = 10$, $b = 16$, dan $h = 5$.
+        3. $A = \frac{1}{2}(10+16)(5)$.
+        4. $A = \frac{1}{2}(26)(5) = 13 \times 5 = 65$.
+        5. Jadi, luasnya ialah $65$ m$^2$.
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan rumus luas trapezium yang betul."
+      - marks: 1
+        criteria: "Menggantikan sisi selari dan tinggi tegak dengan betul."
+      - marks: 1
+        criteria: "Mengira luas akhir dengan tepat."
+    hints:
+      - level: 1
+        text: "Tambah kedua-dua sisi selari dahulu."
+      - level: 2
+        text: "Selepas menambah sisi selari, darab dengan tinggi dan kemudian ambil separuh."
+
+  - id: Q8
+    text: "Sebuah padang berbentuk segi tiga sama sisi mempunyai perimeter 60 m. Cari panjang setiap sisinya."
+    difficulty: medium
+    learning_objective: "10.1.3"
+    tp_level: 2
+    kbat: false
+    marks: 2
+    answer:
+      type: exact
+      value: "20"
+      working: |
+        1. Dalam segi tiga sama sisi, ketiga-tiga sisi adalah sama panjang.
+        2. Panjang satu sisi $= 60 \div 3 = 20$.
+        3. Jadi, setiap sisi ialah $20$ m.
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti bahawa semua sisi segi tiga sama sisi adalah sama."
+      - marks: 1
+        criteria: "Mengira panjang sisi dengan tepat."
+    hints:
+      - level: 1
+        text: "Segi tiga sama sisi mempunyai berapa sisi yang sama?"
+      - level: 2
+        text: "Bahagikan jumlah perimeter sama rata kepada 3 sisi."
+
+  - id: Q9
+    text: "Satu bentuk gabungan terdiri daripada segi empat tepat berukuran 8 m × 5 m dan sebuah segi tiga di atasnya dengan tapak 8 m dan tinggi tegak 3 m. Cari jumlah luas bentuk gabungan itu."
+    difficulty: medium
+    learning_objective: "10.3.2"
+    tp_level: 4
+    kbat: false
+    marks: 4
+    answer:
+      type: exact
+      value: "52"
+      working: |
+        1. Luas segi empat tepat $= 8 \times 5 = 40$ m$^2$.
+        2. Luas segi tiga $= \frac{1}{2} \times 8 \times 3 = 12$ m$^2$.
+        3. Jumlah luas $= 40 + 12 = 52$ m$^2$.
+    rubric:
+      - marks: 1
+        criteria: "Mengira luas segi empat tepat dengan betul."
+      - marks: 1
+        criteria: "Mengira luas segi tiga dengan betul."
+      - marks: 1
+        criteria: "Menjumlahkan kedua-dua luas dengan betul."
+      - marks: 1
+        criteria: "Menyatakan jawapan akhir dengan unit yang betul."
+    hints:
+      - level: 1
+        text: "Pecahkan bentuk gabungan itu kepada segi empat tepat dan segi tiga."
+      - level: 2
+        text: "Cari setiap luas secara berasingan sebelum menjumlahkannya."
+
+  - id: Q10
+    text: "Sebuah segi empat tepat dan sebuah segi empat sama kedua-duanya mempunyai perimeter 24 cm. Adakah pernyataan berikut BENAR atau PALSU? 'Kedua-duanya mesti mempunyai luas yang sama.'"
+    difficulty: medium
+    learning_objective: "10.3.1"
+    tp_level: 5
+    kbat: true
+    marks: 2
+    answer:
+      type: multiple_choice
+      value: "PALSU"
+      options:
+        A: "BENAR"
+        B: "PALSU"
+      working: |
+        Bentuk boleh mempunyai perimeter yang sama tetapi luas yang berbeza. Contohnya, segi empat sama dengan sisi 6 cm mempunyai luas $36$ cm$^2$, tetapi segi empat tepat dengan sisi 8 cm dan 4 cm juga mempunyai perimeter 24 cm dan luas $32$ cm$^2$.
+      distractors:
+        - value: "BENAR"
+          feedback: "Perimeter yang sama tidak menjamin luas yang sama. Cuba bandingkan segi empat sama dengan segi empat tepat yang panjang."
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti bahawa perimeter sama tidak semestinya memberi luas sama."
+      - marks: 1
+        criteria: "Menyokong keputusan dengan contoh atau idea yang sah."
+    hints:
+      - level: 1
+        text: "Uji dakwaan ini menggunakan satu segi empat sama dan satu segi empat tepat yang bukan segi empat sama."
+      - level: 2
+        text: "Pastikan jumlah sempadan ialah 24 cm, kemudian bandingkan luasnya."
+
+  - id: Q11
+    text: "Sebidang tanah berbentuk segi empat tepat mempunyai perimeter tetap 36 m. Apakah dimensi yang memberikan luas paling besar?"
+    difficulty: hard
+    learning_objective: "10.3.1"
+    tp_level: 5
+    kbat: true
+    marks: 3
+    answer:
+      type: free_text
+      value: "Segi empat sama berukuran 9 m × 9 m."
+      working: |
+        1. Bagi perimeter yang tetap, segi empat sama memberikan luas paling besar dalam kalangan segi empat tepat.
+        2. Jika perimeter ialah 36 m, setiap sisi segi empat sama ialah $36 \div 4 = 9$ m.
+        3. Jadi, dimensinya ialah $9$ m × $9$ m.
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti bahawa luas maksimum berlaku bagi segi empat sama."
+      - marks: 1
+        criteria: "Mencari panjang sisi segi empat sama dengan betul."
+      - marks: 1
+        criteria: "Menyatakan dimensi yang betul dengan jelas."
+    hints:
+      - level: 1
+        text: "Ingat semula penyiasatan perimeter tetap. Segi empat tepat yang mana memberikan luas paling besar?"
+      - level: 2
+        text: "Jika keempat-empat sisi sama dan perimeter ialah 36 m, berapakah panjang satu sisi?"
+
+  - id: Q12
+    text: "Anda mempunyai 20 m reben merah untuk menandakan sebuah tapak pameran segi empat tepat di tepi dinding, jadi hanya 3 sisi memerlukan reben. Cari dimensi yang memberikan luas maksimum."
+    difficulty: hard
+    learning_objective: "10.3.2"
+    tp_level: 6
+    kbat: true
+    marks: 4
+    answer:
+      type: free_text
+      value: "Lebar 5 m dan panjang 10 m."
+      working: |
+        1. Katakan lebar ialah $x$ m. Maka dua lebar menggunakan $2x$ m reben.
+        2. Baki reben untuk panjang ialah $(20 - 2x)$ m.
+        3. Luas $A = x(20 - 2x)$.
+        4. Uji beberapa nilai bulat yang munasabah:
+           - Jika $x=4$, luas $= 4(12) = 48$.
+           - Jika $x=5$, luas $= 5(10) = 50$.
+           - Jika $x=6$, luas $= 6(8) = 48$.
+        5. Luas maksimum berlaku apabila lebar $= 5$ m dan panjang $= 10$ m.
+    rubric:
+      - marks: 1
+        criteria: "Mewakilkan keadaan reben 3 sisi dengan betul."
+      - marks: 1
+        criteria: "Membina ungkapan atau jadual luas yang betul."
+      - marks: 1
+        criteria: "Mengenal pasti dimensi yang menghasilkan luas maksimum."
+      - marks: 1
+        criteria: "Menyatakan dimensi akhir dengan jelas bersama unit."
+    hints:
+      - level: 1
+        text: "Awak hanya perlukan reben untuk 3 sisi kerana dinding menjadi sisi keempat."
+      - level: 2
+        text: "Jika lebar ialah $x$, berapa baki reben untuk sisi panjang?"
+      - level: 3
+        text: "Cuba beberapa nilai lebar nombor bulat dan bandingkan luas untuk cari sweet spot."

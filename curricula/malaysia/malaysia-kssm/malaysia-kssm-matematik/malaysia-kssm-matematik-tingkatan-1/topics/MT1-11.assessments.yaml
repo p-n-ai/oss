@@ -1,119 +1,415 @@
 topic_id: MT1-11
 provenance: ai-generated
-
 questions:
-  # Learning Objective 11.1.1
   - id: Q1
-    text: "Jelaskan maksud 'set' dalam konteks matematik."
-    difficulty: medium
-    learning_objective: LO1
-    tp_level: 2
+    text: "Determine whether the following collection is a set: 'The tall students in your class'."
+    difficulty: easy
+    learning_objective: "11.1.1"
+    tp_level: 1
     kbat: false
+    marks: 1
     answer:
-      type: free_text
-      value: "Set adalah kumpulan objek yang mempunyai sifat yang sama dan dinyatakan dengan jelas."
+      type: multiple_choice
+      value: "Not a set"
+      options:
+        A: "It is a set"
+        B: "Not a set"
       working: |
-        Set is defined as a collection of distinct objects, considered as an object in its own right. For example, the numbers 1, 2, 3 are distinct objects when considered separately, but when they are considered collectively as the set {1, 2, 3}, they form a single object.
-    marks: 2
+        A set must be well-defined. The word 'tall' is subjective, so different people may choose different students.
+      distractors:
+        - value: "It is a set"
+          feedback: "A set must be clearly defined. 'Tall' depends on opinion unless a fixed measurement is given."
     rubric:
-      - marks: 2
-        criteria: "Jawapan lengkap dengan huraian yang tepat tentang set."
       - marks: 1
-        criteria: "Jawapan ada tetapi kurang huraian atau kurang tepat."
+        criteria: "Identifies correctly that a vague description does not form a set."
     hints:
       - level: 1
-        text: "Fikirkan tentang kumpulan objek yang mempunyai ciri atau sifat yang sama."
+        text: "Ask whether everyone would agree on who counts as 'tall'."
 
-  # Learning Objective 11.1.2
   - id: Q2
-    text: "Nyatakan set A yang terdiri daripada nombor ganjil kurang dari 10 dengan menggunakan: (i) perihalan, (ii) penyenaraian, dan (iii) tatatanda pembina set."
-    difficulty: medium
-    learning_objective: LO2
+    text: "Which of the following is the correct listing form for the set of odd numbers less than 10?"
+    difficulty: easy
+    learning_objective: "11.1.2"
     tp_level: 2
     kbat: false
+    marks: 1
     answer:
-      type: free_text
-      value: "(i) Set A terdiri daripada nombor-nombor ganjil kurang dari 10. (ii) A = {1, 3, 5, 7, 9}. (iii) A = \\{ x \\mid x \\text{ adalah nombor ganjil }, x < 10 \\}."
+      type: multiple_choice
+      value: "{1, 3, 5, 7, 9}"
+      options:
+        A: "{1, 2, 3, 5, 7, 9}"
+        B: "{1, 3, 5, 7, 9}"
+        C: "{3, 5, 7, 9, 11}"
+        D: "{1, 3, 5, 7, 7, 9}"
       working: |
-        (i) Perihalan: Set A terdiri daripada nombor-nombor ganjil kurang dari 10.
-        (ii) Penyenaraian: A = {1, 3, 5, 7, 9}.
-        (iii) Tatatanda pembina set: A = \\{ x \\mid x \\text{ adalah nombor ganjil }, x < 10 \\}.
-    marks: 3
+        Odd numbers less than 10 are 1, 3, 5, 7, and 9. A set should contain only the correct elements and should not repeat any element.
+      distractors:
+        - value: "{1, 2, 3, 5, 7, 9}"
+          feedback: "The number 2 is even, so it should not appear in the set of odd numbers."
+        - value: "{3, 5, 7, 9, 11}"
+          feedback: "The number 11 is not less than 10, and the set is missing 1."
+        - value: "{1, 3, 5, 7, 7, 9}"
+          feedback: "A set should not repeat the same element. The number 7 should appear only once."
     rubric:
-      - marks: 3
-        criteria: "Menjawab dengan betul semua tiga cara."
-      - marks: 2
-        criteria: "Menjawab dengan betul dua dari tiga cara."
       - marks: 1
-        criteria: "Menjawab dengan betul salah satu cara."
+        criteria: "Chooses the correct listing form without extra, missing, or repeated elements."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Pastikan nombor yang disenaraikan adalah ganjil."
-      - level: 2
-        text: "Cuba mulakan dengan menulis nombor ganjil yang kurang dari 10."
+        text: "List the odd numbers one by one and stop before 10."
 
-  # Learning Objective 11.1.4
   - id: Q3
-    text: "Set B = \\{2, 4, 6, 8, 10\\}. Tentukan bilangan unsur dalam set B."
+    text: "Describe the set $P = \\{2, 3, 5, 7\\}$ using set-builder notation."
     difficulty: medium
-    learning_objective: LO4
+    learning_objective: "11.1.2"
     tp_level: 2
     kbat: false
+    marks: 2
+    answer:
+      type: free_text
+      value: "$P = \\{x : x \\text{ is a prime number and } x < 10\\}$"
+      working: |
+        1. Identify the common property of 2, 3, 5, and 7.
+        2. They are all prime numbers.
+        3. They are all less than 10.
+        4. Write the set in the form $\\{x : \\text{property of } x\\}$.
+    rubric:
+      - marks: 1
+        criteria: "States the correct property that the elements are prime numbers."
+      - marks: 1
+        criteria: "Writes the set in valid set-builder notation with the condition $x < 10$."
+    hints:
+      - level: 1
+        text: "Look for the common property shared by 2, 3, 5, and 7."
+      - level: 2
+        text: "Use the structure $\\{x : x \\text{ is ... and } ...\\}$."
+
+  - id: Q4
+    text: "Given $A = \\{2, 4, 6, 8\\}$, which statement is TRUE?"
+    difficulty: easy
+    learning_objective: "11.1.3"
+    tp_level: 2
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "$4 \\in A$"
+      options:
+        A: "$4 \\in A$"
+        B: "$5 \\in A$"
+        C: "$\\{4\\} \\in A$"
+        D: "$A \\in 4$"
+      working: |
+        The elements of $A$ are 2, 4, 6, and 8. Therefore, 4 is an element of $A$.
+      distractors:
+        - value: "$5 \\in A$"
+          feedback: "The number 5 is not listed in set $A$."
+        - value: "$\\{4\\} \\in A$"
+          feedback: "Set $A$ contains the element 4, not the set $\\{4\\}$."
+        - value: "$A \\in 4$"
+          feedback: "The symbol $\\in$ is used to show that an element belongs to a set, not the other way around."
+    rubric:
+      - marks: 1
+        criteria: "Selects the correct element relation using the symbol $\\in$."
+    hints:
+      - level: 1
+        text: "Check which object appears exactly as an element inside the set."
+
+  - id: Q5
+    text: "Given $A = \\{x : x \\text{ is a letter in the word 'MALAYSIA'}\\}$, which statement is TRUE?"
+    difficulty: medium
+    learning_objective: "11.1.3"
+    tp_level: 2
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "$n(A) = 6$"
+      options:
+        A: "$n(A) = 8$"
+        B: "$n(A) = 6$"
+        C: "$A = \\{M, A, L, A, Y, S, I, A\\}$"
+        D: "$A \\subset A$ because A is a letter"
+      working: |
+        The unique letters in MALAYSIA are M, A, L, Y, S, and I. Repeated letters are listed only once in a set, so the number of elements is 6.
+      distractors:
+        - value: "$n(A) = 8$"
+          feedback: "This counts repeated letters. In a set, each element is listed only once."
+        - value: "$A = \\{M, A, L, A, Y, S, I, A\\}$"
+          feedback: "Repeated letters should not be written again in a set."
+        - value: "$A \\subset A$ because A is a letter"
+          feedback: "This mixes up symbols and meaning. $A$ here names the whole set, not one letter."
+    rubric:
+      - marks: 1
+        criteria: "Identifies the correct number of unique elements in the set."
+    hints:
+      - level: 1
+        text: "Write each letter in MALAYSIA, but cross out any repeat."
+
+  - id: Q6
+    text: "Set $B = \\{2, 4, 6, 8, 10\\}$. Determine the number of elements in set $B$."
+    difficulty: easy
+    learning_objective: "11.1.4"
+    tp_level: 2
+    kbat: false
+    marks: 1
     answer:
       type: exact
       value: "5"
       working: |
-        Set B = \\{2, 4, 6, 8, 10\\} mempunyai 5 unsur, iaitu 2, 4, 6, 8, dan 10.
-    marks: 1
+        Count the elements in set $B$: 2, 4, 6, 8, and 10. There are 5 elements.
     rubric:
       - marks: 1
-        criteria: "Jawapan yang betul dengan bilangan unsur yang tepat."
+        criteria: "Gives the correct number of elements in the set."
     hints:
       - level: 1
-        text: "Kira berapa banyak nombor dalam set B."
+        text: "Count the members of the set one by one."
 
-  # Learning Objective 11.1.5
-  - id: Q4
-    text: "Bandingkan set X = \\{a, b, c\\} dan set Y = \\{c, a, b\\}. Adakah kedua-dua set ini sama? Jelaskan."
+  - id: Q7
+    text: "Set $G = \\{1, 2, 3\\}$ and set $H = \\{3, 1, 2\\}$. Are sets $G$ and $H$ equal? Explain."
     difficulty: medium
-    learning_objective: LO5
+    learning_objective: "11.1.5"
     tp_level: 3
-    kbat: true
+    kbat: false
+    marks: 2
     answer:
       type: free_text
-      value: "Ya, kedua-dua set adalah sama kerana mereka mengandungi unsur yang sama walaupun dalam susunan yang berbeza."
+      value: "Yes, because they contain exactly the same elements."
       working: |
-        Set X = \\{a, b, c\\} dan Y = \\{c, a, b\\} mengandungi unsur yang sama: a, b, dan c. Dalam set, susunan tidak penting, jadi kedua-dua set adalah sama.
-    marks: 2
+        1. Compare the elements in set $G$: 1, 2, and 3.
+        2. Compare the elements in set $H$: 3, 1, and 2.
+        3. Both sets contain exactly the same elements.
+        4. The order of elements does not matter in a set.
+        5. Therefore, the two sets are equal.
     rubric:
-      - marks: 2
-        criteria: "Jawapan lengkap dengan penjelasan yang betul tentang kesamaan set."
       - marks: 1
-        criteria: "Jawapan betul tetapi penjelasan kurang tepat."
+        criteria: "States that the two sets are equal."
+      - marks: 1
+        criteria: "Explains that order does not affect equality of sets."
     hints:
       - level: 1
-        text: "Ingat, dalam set, susunan unsur tidak mempengaruhi kesamaan set."
+        text: "Check whether any element appears in one set but not the other."
       - level: 2
-        text: "Bandingkan unsur dalam kedua-dua set secara individu."
-
-  # Learning Objective 11.2.1
-  - id: Q5
-    text: "Diberi set semesta U = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\} dan set A = \\{1, 3, 5, 7\\}. Huraikan pelengkap bagi set A."
-    difficulty: medium
-    learning_objective: LO2.1
+        text: "Think about whether the order of writing affects a set."
+  - id: Q8
+    text: "Given the universal set $U = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$ and set $A = \\{1, 3, 5, 7\\}$, find the complement of set $A$."
+    difficulty: easy
+    learning_objective: "11.2.1"
     tp_level: 2
     kbat: false
+    marks: 2
     answer:
       type: free_text
-      value: "Pelengkap bagi set A ialah \\{2, 4, 6, 8, 9\\}."
+      value: "$A' = \\{2, 4, 6, 8, 9\\}$"
       working: |
-        Pelengkap bagi set A terdiri daripada semua unsur dalam set semesta U yang tidak termasuk dalam A. Oleh itu, pelengkap bagi A adalah \\{2, 4, 6, 8, 9\\}.
-    marks: 2
+        1. The universal set contains 1, 2, 3, 4, 5, 6, 7, 8, and 9.
+        2. Set $A$ contains 1, 3, 5, and 7.
+        3. The complement of $A$ contains the elements in $U$ that are not in $A$.
+        4. Therefore, $A' = \\{2, 4, 6, 8, 9\\}$.
     rubric:
-      - marks: 2
-        criteria: "Jawapan betul dengan semua unsur pelengkap disenaraikan."
       - marks: 1
-        criteria: "Jawapan betul tetapi ada unsur yang tertinggal atau ditambah."
+        criteria: "Identifies that the complement consists of elements in the universal set but not in $A$."
+      - marks: 1
+        criteria: "Lists the complement set correctly."
     hints:
       - level: 1
-        text: "Cari unsur dalam U yang tidak terdapat dalam A."
+        text: "Start with the whole universal set, then remove the elements in $A$."
+
+  - id: Q9
+    text: "In a Venn diagram, the rectangle represents the universal set $\\xi$ and the circle represents set $A$. Which region represents the complement $A'$?"
+    difficulty: medium
+    learning_objective: "11.2.2"
+    tp_level: 4
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "The region inside the rectangle but outside the circle"
+      options:
+        A: "The region inside the circle only"
+        B: "The region inside the rectangle but outside the circle"
+        C: "The boundary of the rectangle only"
+        D: "The circle and the rectangle together"
+      working: |
+        The complement of set $A$ is the collection of elements in the universal set that are not in $A$. In a Venn diagram, this is the part of the rectangle outside the circle.
+      distractors:
+        - value: "The region inside the circle only"
+          feedback: "That region represents set $A$, not its complement."
+        - value: "The boundary of the rectangle only"
+          feedback: "The complement is a region containing elements, not just the border."
+        - value: "The circle and the rectangle together"
+          feedback: "That would represent the whole universal set, not only the elements outside $A$."
+    rubric:
+      - marks: 1
+        criteria: "Identifies the correct region for the complement in a Venn diagram."
+    hints:
+      - level: 1
+        text: "The complement means 'everything in the universal set except what is inside set $A$'."
+
+  - id: Q10
+    text: "Determine the total number of possible subsets of set $K = \\{a, b, c\\}$."
+    difficulty: medium
+    learning_objective: "11.2.3"
+    tp_level: 2
+    kbat: false
+    marks: 1
+    answer:
+      type: exact
+      value: "8"
+      working: |
+        1. Set $K$ has 3 elements.
+        2. The number of possible subsets is $2^n$.
+        3. So, the number of subsets is $2^3 = 8$.
+    rubric:
+      - marks: 1
+        criteria: "Calculates the total number of subsets correctly."
+    hints:
+      - level: 1
+        text: "Use the rule $2^n$, where $n$ is the number of elements in the set."
+
+  - id: Q11
+    text: "Which Venn diagram description correctly shows that set $B$ is a subset of set $A$?"
+    difficulty: hard
+    learning_objective: "11.2.4"
+    tp_level: 4
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "The circle for $B$ is completely inside the circle for $A$."
+      options:
+        A: "The circle for $B$ is completely inside the circle for $A$."
+        B: "The circles for $A$ and $B$ do not touch at all."
+        C: "The circle for $A$ is completely inside the circle for $B$."
+        D: "Both circles are outside the universal set rectangle."
+      working: |
+        If $B$ is a subset of $A$, every element of $B$ must also be an element of $A$. In a Venn diagram, that means the region for $B$ must lie entirely inside the region for $A$.
+      distractors:
+        - value: "The circles for $A$ and $B$ do not touch at all."
+          feedback: "If the sets do not overlap, then elements of $B$ are not inside $A$, so $B$ is not a subset of $A$."
+        - value: "The circle for $A$ is completely inside the circle for $B$."
+          feedback: "That would show $A$ is a subset of $B$, not the other way around."
+        - value: "Both circles are outside the universal set rectangle."
+          feedback: "All sets shown in a Venn diagram should be inside the universal set."
+    rubric:
+      - marks: 1
+        criteria: "Chooses the correct Venn diagram description for a subset."
+    hints:
+      - level: 1
+        text: "A subset means every member of the smaller set is already inside the bigger set."
+
+  - id: Q12
+    text: "Given $\\xi = \\{x : 10 \\le x \\le 20, x \\text{ is an integer}\\}$, $A = \\{11, 13, 17, 19\\}$, and $B = \\{x : x \\text{ is an odd number}\\}$, find $n(A \\cup B)'$."
+    difficulty: hard
+    learning_objective: "11.2.5"
+    tp_level: 5
+    kbat: true
+    marks: 3
+    answer:
+      type: exact
+      value: "6"
+      working: |
+        1. List the universal set: $\\xi = \\{10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20\\}$.
+        2. List set $B$ in this universal set: $B = \\{11, 13, 15, 17, 19\\}$.
+        3. Find the union $A \\cup B = \\{11, 13, 15, 17, 19\\}$.
+        4. Find the complement $(A \\cup B)' = \\{10, 12, 14, 16, 18, 20\\}$.
+        5. Count the elements in the complement.
+        6. Therefore, $n(A \\cup B)' = 6$.
+    rubric:
+      - marks: 1
+        criteria: "Lists or identifies the correct universal set and odd-number set."
+      - marks: 1
+        criteria: "Finds the union and its complement correctly."
+      - marks: 1
+        criteria: "Counts the number of elements in the complement correctly."
+    hints:
+      - level: 1
+        text: "List all integers from 10 to 20 first."
+      - level: 2
+        text: "Since $B$ is the odd numbers, what kind of numbers will be left in the complement?"
+
+  - id: Q13
+    text: "A group of 30 students was surveyed about hobbies. 15 like football ($F$), 10 like badminton ($B$), and 5 like both. Find $n(F \\cup B)'$."
+    difficulty: hard
+    learning_objective: "11.2.5"
+    tp_level: 6
+    kbat: true
+    marks: 4
+    answer:
+      type: exact
+      value: "10"
+      working: |
+        1. The total number of students is 30.
+        2. Use the formula $n(F \\cup B) = n(F) + n(B) - n(F \\cap B)$.
+        3. Substitute the values: $15 + 10 - 5 = 20$.
+        4. So, 20 students like at least one of the two hobbies.
+        5. The complement is the number who like neither hobby: $30 - 20 = 10$.
+        6. Therefore, $n(F \\cup B)' = 10$.
+    rubric:
+      - marks: 1
+        criteria: "Uses the union formula correctly."
+      - marks: 1
+        criteria: "Avoids double-counting the students who like both hobbies."
+      - marks: 1
+        criteria: "Finds the number who like at least one hobby."
+      - marks: 1
+        criteria: "Finds the complement correctly."
+    hints:
+      - level: 1
+        text: "If you add 15 and 10 directly, the 5 students who like both are counted twice."
+      - level: 2
+        text: "Find the number who like at least one hobby first, then subtract from 30."
+
+  - id: Q14
+    text: "Set $M$ is the set of multiples of 3 less than 20. Write set $M$ in (i) description form, (ii) listing form, and (iii) set-builder notation."
+    difficulty: hard
+    learning_objective: "11.1.2"
+    tp_level: 4
+    kbat: true
+    marks: 3
+    answer:
+      type: free_text
+      value: "(i) The set of multiples of 3 less than 20. (ii) $M = \\{3, 6, 9, 12, 15, 18\\}$. (iii) $M = \\{x : x \\text{ is a multiple of } 3, x < 20\\}$"
+      working: |
+        1. Identify the multiples of 3 less than 20: 3, 6, 9, 12, 15, and 18.
+        2. Write the set in description form.
+        3. Write the same set in listing form using curly brackets.
+        4. Write the same set in set-builder notation using a variable and condition.
+    rubric:
+      - marks: 1
+        criteria: "Gives the correct description form."
+      - marks: 1
+        criteria: "Lists the correct elements without omission or repetition."
+      - marks: 1
+        criteria: "Writes a valid set-builder notation."
+    hints:
+      - level: 1
+        text: "Start by listing the multiples of 3 one by one until you reach 20."
+      - level: 2
+        text: "After you have the list, rewrite the same idea in words and then in $\\{x : ...\\}$ form."
+
+  - id: Q15
+    text: "Let the universal set be all school clubs. Set $A$ is the set of sports clubs, and set $B$ is the set of indoor sports clubs. Explain whether $B \\subset A$ is reasonable and justify your answer."
+    difficulty: hard
+    learning_objective: "11.2.5"
+    tp_level: 5
+    kbat: true
+    marks: 2
+    answer:
+      type: free_text
+      value: "Yes, because every indoor sports club is still a sports club, so set $B$ can be contained in set $A$."
+      working: |
+        1. Set $A$ contains all sports clubs.
+        2. Set $B$ contains only indoor sports clubs.
+        3. Indoor sports clubs are a smaller category within sports clubs.
+        4. Therefore, every element of $B$ belongs to $A$.
+        5. So, $B \\subset A$ is reasonable.
+    rubric:
+      - marks: 1
+        criteria: "States correctly that $B$ can be a subset of $A$."
+      - marks: 1
+        criteria: "Justifies the answer using the meaning of subset."
+    hints:
+      - level: 1
+        text: "Ask whether every indoor sports club is still a sports club."
+      - level: 2
+        text: "If every member of one set also belongs to another set, what symbol describes that relationship?"

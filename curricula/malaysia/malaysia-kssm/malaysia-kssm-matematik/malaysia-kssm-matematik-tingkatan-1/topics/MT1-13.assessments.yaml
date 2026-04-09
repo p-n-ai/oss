@@ -2,135 +2,178 @@ topic_id: MT1-13
 provenance: ai-generated
 
 questions:
-  # Learning Objective 13.1.1
   - id: Q1
-    text: "Dalam sebuah segi tiga bersudut tegak, sisi yang bertentangan dengan sudut tepat dipanggil sebagai apa?"
-    difficulty: medium
+    text: "In a right-angled triangle $ABC$ with the right angle at $B$, which side is the hypotenuse?"
+    difficulty: easy
     learning_objective: 13.1.1
-    tp_level: 2
+    tp_level: 1
     kbat: false
     answer:
       type: multiple_choice
-      value: "Hipotenus"
+      value: "Side $AC$"
+      working: |
+        Step 1: Locate the 90-degree angle at vertex $B$.
+        Step 2: Identify the side directly opposite that angle.
+        Step 3: The side opposite vertex $B$ is side $AC$.
       options:
-        - "Hipotenus"
-        - "Sisi bersebelahan"
-        - "Sisi bertentangan"
+        - "Side $AC$"
+        - "Side $AB$"
+        - "Side $BC$"
+        - "The shortest side"
+      distractors:
+        - value: "Side $AB$"
+          feedback: "This side is next to the right angle, not opposite it."
+        - value: "Side $BC$"
+          feedback: "This side helps form the right angle, so it is not the hypotenuse."
+        - value: "The shortest side"
+          feedback: "The hypotenuse is always the longest side, not the shortest."
     marks: 1
     rubric:
       - marks: 1
-        criteria: "Jawapan yang betul dipilih."
+        criteria: "Correctly identifies side $AC$ as the hypotenuse."
     hints:
       - level: 1
-        text: "Ingat bahawa hipotenus ialah sisi terpanjang dalam segi tiga bersudut tegak."
+        text: "Look for the side opposite the little square that marks 90 degrees."
 
-  # Learning Objective 13.1.2
   - id: Q2
-    text: "Nyatakan Teorem Pythagoras bagi segi tiga bersudut tegak dengan panjang sisi $a$, $b$, dan hipotenus $c$."
-    difficulty: medium
+    text: "For a right-angled triangle with sides $p$, $q$ and hypotenuse $r$, which relationship is correct?"
+    difficulty: easy
     learning_objective: 13.1.2
     tp_level: 2
     kbat: false
     answer:
-      type: exact
-      value: "a^2 + b^2 = c^2"
+      type: multiple_choice
+      value: "$r^2 = p^2 + q^2$"
       working: |
-        Berdasarkan Teorem Pythagoras, hubungan antara panjang sisi dalam segi tiga bersudut tegak adalah $a^2 + b^2 = c^2$, di mana $c$ adalah hipotenus.
-    marks: 2
+        Step 1: Identify the hypotenuse as $r$.
+        Step 2: Apply the theorem: the square of the hypotenuse equals the sum of the squares of the other two sides.
+        Step 3: Substitute the letters: $r^2 = p^2 + q^2$.
+      options:
+        - "$r^2 = p^2 + q^2$"
+        - "$r = p + q$"
+        - "$p^2 = r^2 + q^2$"
+        - "$r^2 = p^2 - q^2$"
+      distractors:
+        - value: "$r = p + q$"
+          feedback: "This is the linear trap. The theorem uses squares, not direct addition."
+        - value: "$p^2 = r^2 + q^2$"
+          feedback: "The hypotenuse is the side on its own, not one of the shorter sides."
+        - value: "$r^2 = p^2 - q^2$"
+          feedback: "You add the squares to find the hypotenuse, not subtract them."
+    marks: 1
     rubric:
       - marks: 1
-        criteria: "Menyatakan hubungan asas antara sisi tanpa menyebut hipotenus."
-      - marks: 2
-        criteria: "Menyatakan hubungan dengan betul dan menyebut hipotenus."
+        criteria: "Selects the correct Pythagorean relationship."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Pastikan anda mengenal pasti sisi mana yang merupakan hipotenus."
+        text: "The hypotenuse sits on its own on the left or right side of the equation, squared."
 
-  # Learning Objective 13.1.3
   - id: Q3
-    text: 'Diberi sebuah segi tiga bersudut tegak dengan sisi tegak $3 \text{ cm}$ dan $4 \text{ cm}$. Hitungkan panjang hipotenus.'
+    text: "Calculate the length of the unknown side $x$ for a right-angled triangle with a hypotenuse of $26 \\text{ cm}$ and one side of $24 \\text{ cm}$."
     difficulty: medium
     learning_objective: 13.1.3
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: '5 \text{ cm}'
+      value: "10"
       working: |
-        Menggunakan Teorem Pythagoras, $c^2 = a^2 + b^2$. Di mana $a = 3 \text{ cm}$ dan $b = 4 \text{ cm}$.
-        \[
-        c^2 = 3^2 + 4^2 = 9 + 16 = 25
-        \]
-        \[
-        c = \sqrt{25} = 5 \text{ cm}
-        \]
-    marks: 2
+        Step 1: Use the subtraction form of the theorem because the hypotenuse is known.
+        Step 2: $x^2 = 26^2 - 24^2$.
+        Step 3: $x^2 = 676 - 576 = 100$.
+        Step 4: $x = \\sqrt{100} = 10 \\text{ cm}$.
+    marks: 3
     rubric:
       - marks: 1
-        criteria: "Menunjukkan penggunaan Teorem Pythagoras tetapi dengan kiraan salah."
-      - marks: 2
-        criteria: "Mengira hipotenus dengan betul."
+        criteria: "Uses the correct subtraction form of the theorem."
+      - marks: 1
+        criteria: "Calculates the square difference correctly."
+      - marks: 1
+        criteria: "Applies square root correctly to obtain 10 cm."
     hints:
       - level: 1
-        text: "Gunakan $c^2 = a^2 + b^2$ untuk mencari panjang hipotenus."
+        text: "Because you already know the longest side, should you add or subtract the squares?"
+      - level: 2
+        text: "After finding $x^2$, what operation gives you $x$ itself?"
 
-  # Learning Objective 13.1.4
   - id: Q4
-    text: 'Sebuah tangga bersandar pada dinding dengan kaki tangga $6 \text{ m}$ dari dinding. Jarak dari tanah ke titik tangga bersandar ialah $8 \text{ m}$. Berapakah panjang tangga tersebut?'
+    text: "A ladder 2.5 m long leans against a vertical wall. The base of the ladder is 1.5 m away from the wall. Find the height reached by the ladder."
     difficulty: medium
     learning_objective: 13.1.4
-    tp_level: 3
+    tp_level: 4
     kbat: false
     answer:
       type: exact
-      value: '10 \text{ m}'
+      value: "2"
       working: |
-        Menggunakan Teorem Pythagoras, $c^2 = a^2 + b^2$. Di mana $a = 6 \text{ m}$ dan $b = 8 \text{ m}$.
-        \[
-        c^2 = 6^2 + 8^2 = 36 + 64 = 100
-        \]
-        \[
-        c = \sqrt{100} = 10 \text{ m}
-        \]
+        Step 1: Identify the ladder as the hypotenuse.
+        Step 2: Use the theorem: $h^2 = 2.5^2 - 1.5^2$.
+        Step 3: $h^2 = 6.25 - 2.25 = 4$.
+        Step 4: $h = \\sqrt{4} = 2 \\text{ m}$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menggunakan Teorem Pythagoras tetapi dengan salah satu nilai sisi."
-      - marks: 2
-        criteria: "Menggunakan nilai yang betul tetapi salah dalam pengiraan akhir."
-      - marks: 3
-        criteria: "Mengira panjang tangga dengan betul."
+        criteria: "Identifies the ladder as the hypotenuse."
+      - marks: 1
+        criteria: "Substitutes the values correctly."
+      - marks: 1
+        criteria: "Calculates the height as 2 m."
     hints:
       - level: 1
-        text: "Pertimbangkan tangga, dinding, dan tanah membentuk segi tiga bersudut tegak."
+        text: "Sketch the triangle. Which side is the slanted one, and what role does it play?"
 
-  # Learning Objective 13.2.1
   - id: Q5
-    text: 'Adakah segi tiga dengan sisi $5 \text{ cm}$, $12 \text{ cm}$, dan $13 \text{ cm}$ adalah segi tiga bersudut tegak? Jelaskan jawapan anda.'
+    text: "A triangle has sides 9 cm, 40 cm, and 41 cm. Determine whether it is a right-angled triangle and justify your answer."
     difficulty: medium
     learning_objective: 13.2.1
-    tp_level: 3
+    tp_level: 5
     kbat: true
     answer:
       type: free_text
-      value: "Ya, segi tiga tersebut adalah segi tiga bersudut tegak kerana $5^2 + 12^2 = 13^2$."
+      value: "Yes, it is a right-angled triangle because 9^2 + 40^2 = 81 + 1600 = 1681 and 41^2 = 1681. Since the values are equal, the converse of Pythagoras' theorem is satisfied."
       working: |
-        Untuk menentukan sama ada segi tiga tersebut bersudut tegak, kita gunakan Teorem Pythagoras.
-        \[
-        5^2 + 12^2 = 25 + 144 = 169
-        \]
-        \[
-        13^2 = 169
-        \]
-        Oleh itu, $5^2 + 12^2 = 13^2$, segi tiga ini adalah segi tiga bersudut tegak.
-    marks: 3
+        Step 1: Identify the longest side as 41 cm.
+        Step 2: Calculate the square of the longest side: 41^2 = 1681.
+        Step 3: Calculate the sum of the squares of the other two sides: 9^2 + 40^2 = 81 + 1600 = 1681.
+        Step 4: Compare the values. Since they are equal, the triangle is right-angled.
+    marks: 4
     rubric:
       - marks: 1
-        criteria: "Menunjukkan penggunaan Teorem Pythagoras tetapi dengan pengiraan salah."
-      - marks: 2
-        criteria: "Mengira dengan betul tetapi tidak menyatakan kesimpulan."
-      - marks: 3
-        criteria: "Mengira dengan betul dan menyatakan kesimpulan yang tepat."
+        criteria: "Identifies the longest side correctly."
+      - marks: 1
+        criteria: "Calculates 41^2 correctly."
+      - marks: 1
+        criteria: "Calculates 9^2 + 40^2 correctly."
+      - marks: 1
+        criteria: "States the correct conclusion."
     hints:
       - level: 1
-        text: "Bandingkan $a^2 + b^2$ dengan $c^2$ untuk menentukan jenis segi tiga."
+        text: "Use the detective test: square the biggest number, then compare it with the sum of the other two squares."
+
+  - id: Q6
+    text: "A carpenter wants to build a stool using a support beam 15 cm long. He fixes one end 15 cm from one corner of the frame and the other end 10 cm from the leg. Explain why the support may not form a perfect 90-degree angle if the correct right-angle support should be the 3-4-5 pattern scaled to this size."
+    difficulty: hard
+    learning_objective: 13.2.2
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "The support may not form a right angle because the 3-4-5 pattern scaled to a 15 cm hypotenuse would require the other sides to be 9 cm and 12 cm, not 15 cm and 10 cm. The actual lengths do not satisfy the converse of Pythagoras' theorem."
+      working: |
+        Step 1: Check the scaled 3-4-5 pattern for a 15 cm hypotenuse: scale factor 3 gives 9, 12, and 15.
+        Step 2: Compare the given side lengths with the expected right-angle pattern.
+        Step 3: Since 15 cm and 10 cm do not match the required pair 9 cm and 12 cm, the relationship is not satisfied.
+        Step 4: Therefore, the support does not prove a perfect 90-degree angle.
+    marks: 5
+    rubric:
+      - marks: 1
+        criteria: "Identifies the expected right-angled pattern or comparison approach."
+      - marks: 2
+        criteria: "Explains the mismatch between the given lengths and the required right-angled relationship."
+      - marks: 1
+        criteria: "Uses the converse idea correctly."
+      - marks: 1
+        criteria: "Provides a clear conclusion about the angle."
+    hints:
+      - level: 1
+        text: "Think about the 3-4-5 pattern. If the longest side is 15 cm, what should the other two sides be?"

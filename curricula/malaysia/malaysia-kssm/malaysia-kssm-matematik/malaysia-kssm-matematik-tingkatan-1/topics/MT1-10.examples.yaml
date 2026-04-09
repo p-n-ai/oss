@@ -1,44 +1,108 @@
 topic_id: MT1-10
 provenance: ai-generated
-description: "Worked examples for Perimeter dan Luas"
+description: "Scaffolded worked examples for Perimeter and Area aligned with KSSM Tingkatan 1."
 worked_examples:
   - id: WE-01
-    topic: "Perimeter of Rectangles"
+    topic: "Determining perimeter with a missing side"
     difficulty: easy
-    real_world_analogy: "Imagine you are putting a border around a rectangular garden."
-    misconception_alert: "Students often forget to add all sides or only add length and width once."
-    scenario: "Calculate the perimeter of a rectangular garden with length 8 meters and width 5 meters."
+    learning_objective: "10.1.1"
+    tp_level: 2
+    kbat: false
+    real_world_analogy: "Imagine walking around the fence of a swimming pool. You only count the outside boundary, not any lines inside the plan."
+    misconception_alert: "The 'Inside Line' trap. Students often add internal lines or forget to find the missing side before adding all the outer edges."
+    scenario: "A swimming pool plan has outer side lengths of 9 m, 5 m, 3 m, 4 m, and 6 m, with one missing vertical side. The full height on the left is 9 m and the shorter height on the right is 3 m. Find the perimeter."
     working: |
-      Step 1: Identify the formula for perimeter of a rectangle, which is P = 2(l + w).
-      Step 2: Substitute the given values into the formula: P = 2(8 + 5).
-      Step 3: Calculate the sum inside the brackets: 8 + 5 = 13.
-      Step 4: Multiply the sum by 2 to find the perimeter: 2 * 13 = 26 meters.
-      Step 5: Thus, the perimeter of the garden is 26 meters.
-  
+      1. Identify the missing vertical side first.
+      2. The full height is $9$ m.
+      3. The shorter right vertical part is $3$ m.
+      4. Missing vertical side $= 9 - 3$.
+      5. Missing vertical side $= 6$ m.
+      6. Now list all outer sides: $9, 5, 3, 4, 6,$ and $6$.
+      7. Add the first two sides: $9 + 5 = 14$.
+      8. Add the next side: $14 + 3 = 17$.
+      9. Add the next side: $17 + 4 = 21$.
+      10. Add the next side: $21 + 6 = 27$.
+      11. Add the missing side: $27 + 6 = 33$.
+      12. Therefore, the perimeter is $33$ m.
+
   - id: WE-02
-    topic: "Area of a Triangle"
-    difficulty: medium
-    real_world_analogy: "Finding the area of a triangular piece of land for planting."
-    misconception_alert: "Students might confuse the base and height, or use incorrect units of measurement."
-    scenario: "A triangular plot of land has a base of 12 meters and a height of 8 meters. Calculate its area."
+    topic: "Estimating area using grid squares"
+    difficulty: easy
+    learning_objective: "10.2.1"
+    tp_level: 2
+    kbat: false
+    real_world_analogy: "Think of covering a paddy plot on grid paper with square tiles. Full tiles count as 1 each, while partial tiles can be combined into almost-full squares."
+    misconception_alert: "Students may ignore partial squares or count every partial square as a full square. Encourage them to combine partial pieces sensibly."
+    scenario: "A shape drawn on grid paper covers 14 full unit squares and about 6 half-squares. Estimate the area of the shape."
     working: |
-      Step 1: Recall the formula for the area of a triangle: A = 1/2 * base * height.
-      Step 2: Substitute the given values: A = 1/2 * 12 * 8.
-      Step 3: Multiply the base and height: 12 * 8 = 96.
-      Step 4: Divide the product by 2 to find the area: 96 / 2 = 48 square meters.
-      Step 5: Therefore, the area of the triangular plot is 48 square meters.
+      1. Count the full unit squares: $14$.
+      2. Count the half-squares: $6$ half-squares.
+      3. Combine the half-squares into full squares: $6 \times \frac{1}{2} = 3$.
+      4. Estimated area $= 14 + 3$.
+      5. Estimated area $= 17$ square units.
+      6. Therefore, the estimated area of the shape is about $17$ square units.
 
   - id: WE-03
-    topic: "Perimeter and Area of Composite Shapes"
-    difficulty: hard
-    real_world_analogy: "Determining the total border and area of a park with multiple sections."
-    misconception_alert: "Students may not correctly separate the composite shape into simpler shapes or fail to account for all sides when calculating perimeter."
-    scenario: "A park is composed of a rectangle and a semicircle on one end. The rectangle is 20 meters long and 10 meters wide, and the semicircle has a diameter of 10 meters. Find the total perimeter and area."
+    topic: "Area of a triangle using perpendicular height"
+    difficulty: medium
+    learning_objective: "10.2.2"
+    tp_level: 3
+    kbat: false
+    real_world_analogy: "The 'Ghost Rectangle' trick: a triangle is like half of a rectangle with the same base and perpendicular height."
+    misconception_alert: "The 'Slant Height' trap. Students often use the slanted side instead of the perpendicular height shown by the right-angle relationship."
+    scenario: "A triangular paddy plot in Kedah has a base of 12 m, a slanted side of 10 m, and a perpendicular height of 8 m. Calculate the area."
     working: |
-      Step 1: Calculate the perimeter of the rectangle: P_rect = 2(l + w) = 2(20 + 10) = 60 meters.
-      Step 2: Calculate the circumference of the semicircle: C_semi = π * r = π * 5 = 15.7 meters (approx).
-      Step 3: Add the perimeter of the rectangle and the semicircle to get the total perimeter: 60 + 15.7 = 75.7 meters.
-      Step 4: Calculate the area of the rectangle: A_rect = l * w = 20 * 10 = 200 square meters.
-      Step 5: Calculate the area of the semicircle: A_semi = 1/2 * π * r^2 = 1/2 * π * 5^2 = 39.25 square meters (approx).
-      Step 6: Add the areas of the rectangle and semicircle to get the total area: 200 + 39.25 = 239.25 square meters.
-      Step 7: The total perimeter of the park is approximately 75.7 meters, and the total area is approximately 239.25 square meters.
+      1. Recall the formula for the area of a triangle: $A = \frac{1}{2} \times base \times height$.
+      2. Identify the base: $12$ m.
+      3. Identify the perpendicular height: $8$ m.
+      4. Ignore the slanted side of $10$ m because it is not the perpendicular height.
+      5. Substitute into the formula: $A = \frac{1}{2} \times 12 \times 8$.
+      6. Multiply the base and height: $12 \times 8 = 96$.
+      7. Take half of $96$: $96 \div 2 = 48$.
+      8. Therefore, the area is $48$ m$^2$.
+
+  - id: WE-04
+    topic: "Area of a composite shaded region"
+    difficulty: hard
+    learning_objective: "10.2.3"
+    tp_level: 4
+    kbat: true
+    real_world_analogy: "Use the 'Lego Strategy': when a shape looks complicated, break it into smaller familiar pieces such as rectangles, triangles, and trapeziums."
+    misconception_alert: "The 'Missing Hole' trap. In shaded-region questions, students often find the small parts but forget to subtract them from the total outer region."
+    scenario: "A rectangular plot measuring $16$ m by $10$ m contains a triangular region with base $4$ m and height $5$ m, and a trapezium region with parallel sides $3$ m and $4$ m and height $5$ m. Find the area of the remaining shaded region."
+    working: |
+      1. Find the area of the whole rectangle: $16 \times 10 = 160$ m$^2$.
+      2. Find the area of the triangle: $A = \frac{1}{2} \times 4 \times 5$.
+      3. Multiply inside first: $4 \times 5 = 20$.
+      4. Take half: $20 \div 2 = 10$.
+      5. So, the triangle area is $10$ m$^2$.
+      6. Find the area of the trapezium: $A = \frac{1}{2} \times (3 + 4) \times 5$.
+      7. Add the parallel sides: $3 + 4 = 7$.
+      8. Multiply by the height: $7 \times 5 = 35$.
+      9. Take half: $35 \div 2 = 17.5$.
+      10. So, the trapezium area is $17.5$ m$^2$.
+      11. Add the two inner regions: $10 + 17.5 = 27.5$ m$^2$.
+      12. Subtract from the total rectangle area: $160 - 27.5 = 132.5$ m$^2$.
+      13. Therefore, the shaded area is $132.5$ m$^2$.
+
+  - id: WE-05
+    topic: "Comparing area for a fixed perimeter"
+    difficulty: hard
+    learning_objective: "10.3.1"
+    tp_level: 5
+    kbat: true
+    real_world_analogy: "The 'Maximum Efficiency' rule: with the same amount of boundary material, a shape closer to a square gives more usable space than a long, skinny rectangle."
+    misconception_alert: "Students often think that if two layouts use the same perimeter, they must also have the same area. This example is designed to break that myth clearly."
+    scenario: "For a Hari Wawasan booth beside a wall, compare two rectangular layouts that both use 20 m of ribbon for 3 sides. Option A has width $2$ m and length $16$ m. Option B has width $5$ m and length $10$ m. Which gives the larger area, and why?"
+    working: |
+      1. Check Option A ribbon use: $2 + 16 + 2 = 20$ m.
+      2. Find Option A area: $A = 2 \times 16$.
+      3. Multiply: $2 \times 16 = 32$.
+      4. So, Option A area is $32$ m$^2$.
+      5. Check Option B ribbon use: $5 + 10 + 5 = 20$ m.
+      6. Find Option B area: $A = 5 \times 10$.
+      7. Multiply: $5 \times 10 = 50$.
+      8. So, Option B area is $50$ m$^2$.
+      9. Compare the areas: $50 - 32 = 18$.
+      10. Option B gives $18$ m$^2$ more space.
+      11. Therefore, Option B is better because the layout closer to a square gives a larger area for the same fixed perimeter condition.
