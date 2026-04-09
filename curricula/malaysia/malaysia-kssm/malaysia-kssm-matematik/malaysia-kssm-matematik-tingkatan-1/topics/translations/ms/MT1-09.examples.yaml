@@ -1,0 +1,49 @@
+topic_id: MT1-09
+provenance: curriculum-expert-verified
+description: "Contoh kerja berstruktur bagi Poligon Asas, memfokuskan kepada sifat geometri dan konjektur sudut."
+worked_examples:
+  - id: WE-01
+    topic: "Hubung kait antara sisi, bucu, dan pepenjuru"
+    difficulty: easy
+    learning_objective: "9.1.1"
+    real_world_analogy: "Bayangkan anda seorang 'Arkitek Bijak' yang sedang mereka bentuk sebuah bangunan. Bucu bangunan ialah 'vertices', dinding ialah 'sisi', dan rasuk sokongan dalaman yang menyambungkan bucu yang tidak berjiran ialah 'pepenjuru'."
+    misconception_alert: "Pelajar sering keliru antara 'bucu bersebelahan' (jiran) dengan pepenjuru. Ingat: Pepenjuru MESTI melangkau sekurang-kurangnya satu jiran!"
+    scenario: "Seorang arkitek mereka bentuk sebuah bilik berbentuk heptagon sekata. Hitungkan jumlah pepenjuru yang diperlukan untuk struktur sokongan lantai tersebut."
+    working: |
+      1. Kenal pasti bilangan sisi bagi heptagon: $n = 7$.
+      2. Ingat bahawa bilangan bucu adalah sama dengan bilangan sisi: $Bucu = 7$.
+      3. Gunakan rumus pepenjuru: $\frac{n(n - 3)}{2}$.
+      4. Substitusi $n = 7$: $\frac{7(7 - 3)}{2}$
+      5. Selesaikan operasi dalam kurungan: $\frac{7(4)}{2}$
+      6. Darabkan: $\frac{28}{2}$
+      7. Bahagikan untuk jawapan akhir: $14$ pepenjuru.
+
+  - id: WE-02
+    topic: "Sudut peluaran segi tiga"
+    difficulty: medium
+    learning_objective: "9.2.2"
+    real_world_analogy: "Aturan 'Jalan Terus'. Bayangkan anda berjalan di sepanjang satu sisi segi tiga dan anda terus berjalan melepasi bucu tersebut. Pusingan yang anda perlu buat untuk kembali ke sisi seterusnya ialah sudut peluaran."
+    misconception_alert: "Perangkap 'Sudut Bertentangan': Pelajar sering menambah sudut yang salah. Sudut peluaran HANYA sama dengan hasil tambah DUA sudut pedalaman yang tidak menyentuhnya."
+    scenario: "Dalam $\\triangle PQR$, sisi $QR$ dipanjangkan ke titik $S$. Jika $\\angle P = 62^\\circ$ dan $\\angle Q = 48^\\circ$, cari nilai sudut peluaran $\\angle PRS$."
+    working: |
+      1. Kenal pasti hubungan: Sudut peluaran = Hasil tambah dua sudut pedalaman bertentangan.
+      2. Dua sudut pedalaman bertentangan ialah $\angle P$ dan $\angle Q$.
+      3. Bina persamaan: $\angle PRS = 62^\circ + 48^\circ$.
+      4. Tambahkan nilai tersebut: $62 + 48 = 110$.
+      5. Jawapan Akhir: $\angle PRS = 110^\circ$.
+
+  - id: WE-03
+    topic: "Gabungan segi tiga dan sisi empat"
+    difficulty: hard
+    learning_objective: "9.3.4"
+    real_world_analogy: "Sama seperti 'reka bentuk yang mengagumkan' pada kubah Masjid Putra, bentuk yang kompleks sebenarnya hanyalah puzzle yang terdiri daripada segi tiga dan segi empat yang digabungkan bersama."
+    misconception_alert: "Kesilapan 'Sudut $90^\\circ$ Tersembunyi'. Apabila segi empat sama adalah sebahagian daripada bentuk gabungan, pelajar sering lupa untuk 'melihat' sudut pedalaman $90^\\circ$ kecuali jika ia ditulis dengan jelas."
+    scenario: "Seorang pereka grafik menggabungkan sebuah segi empat sama $ABCD$ dan sebuah segi tiga sama sisi $ADE$ supaya mereka berkongsi sisi $AD$. Jika segi tiga itu dilekatkan di luar segi empat sama, hitung saiz $\\angle EAB$."
+    working: |
+      1. Analisis sifat Segi Empat Sama $ABCD$: Setiap sudut pedalaman ialah $90^\circ$. Oleh itu, $\angle DAB = 90^\circ$.
+      2. Analisis sifat Segi Tiga Sama Sisi $ADE$: Setiap sudut pedalaman ialah $60^\circ$. Oleh itu, $\angle EAD = 60^\circ$.
+      3. Kenal pasti jumlah sudut $\angle EAB$: Oleh sebab segi tiga berada di luar, sudut-sudut tersebut adalah bersebelahan pada bucu $A$.
+      4. Bina hasil tambah: $\angle EAB = \angle EAD + \angle DAB$.
+      5. Substitusi nilai yang diketahui: $\angle EAB = 60^\circ + 90^\circ$.
+      6. Kira hasil akhir: $150^\circ$.
+      7. Jawapan Akhir: $\angle EAB = 150^\circ$.

@@ -1,131 +1,219 @@
 topic_id: MT1-09
-provenance: ai-generated
-
+provenance: curriculum-expert-verified
 questions:
-  # Learning Objective 9.1.1
   - id: Q1
-    text: "Sebuah poligon mempunyai 8 sisi. Berapakah bilangan pepenjuru dalam poligon tersebut?"
+    text: "A polygon has 12 sides. Calculate the number of diagonals for this polygon."
     difficulty: medium
-    learning_objective: LO1
+    learning_objective: "9.1.1"
     tp_level: 2
     kbat: false
+    marks: 2
     answer:
       type: exact
-      value: "20"
+      value: "54"
       working: |
-        Formula untuk bilangan pepenjuru dalam poligon adalah $\frac{n(n-3)}{2}$ di mana $n$ ialah bilangan sisi.
-        Oleh itu, $\frac{8(8-3)}{2} = \frac{8 \times 5}{2} = 20$.
-    marks: 2
+        1. Identify the number of sides, $n = 12$.
+        2. Use the diagonal formula: $\frac{n(n-3)}{2}$.
+        3. Substitute: $\frac{12(12-3)}{2} = \frac{12 \times 9}{2}$.
+        4. Calculate: $6 \times 9 = 54$.
     rubric:
       - marks: 1
-        criteria: "Menulis formula untuk bilangan pepenjuru."
+        criteria: "Correct substitution into the diagonal formula."
       - marks: 1
-        criteria: "Mengira bilangan pepenjuru dengan tepat."
+        criteria: "Correct final value of 54."
     hints:
       - level: 1
-        text: "Ingat formula untuk bilangan pepenjuru: $\\frac{n(n-3)}{2}$."
+        text: "Think back to the relationship between sides and diagonals. Is there a formula we use involving $n$?"
       - level: 2
-        text: "Substitusi $n = 8$ ke dalam formula tersebut."
+        text: "The formula is $\\frac{n(n-3)}{2}$. If $n$ is 12, what is $(n-3)$? Multiply them and divide by 2."
 
-  # Learning Objective 9.1.2
   - id: Q2
-    text: "Lukis dan labelkan sebuah poligon dengan 6 bucu. Namakan poligon tersebut berdasarkan bucu yang telah dilabel."
-    difficulty: medium
-    learning_objective: LO2
-    tp_level: 2
+    text: "Which of the following statements is TRUE about a heptagon?"
+    difficulty: easy
+    learning_objective: "9.1.2"
+    tp_level: 1
     kbat: false
-    answer:
-      type: free_text
-      value: "Heksagon"
-      working: |
-        Mula dengan melukis 6 bucu yang bersambung.
-        Kemudian, labelkan bucu secara berturutan sebagai $A, B, C, D, E, F$.
-        Nama poligon berdasarkan bilangan bucu ialah Heksagon.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Lukis poligon dengan 6 bucu."
-      - marks: 1
-        criteria: "Labelkan bucu poligon dengan betul."
-      - marks: 1
-        criteria: "Menamakan poligon sebagai Heksagon."
-    hints:
-      - level: 1
-        text: "Mulakan dengan melukis bulatan dan tandakan 6 titik sekelilingnya."
-      - level: 2
-        text: "Label setiap bucu dari $A$ hingga $F$."
-
-  # Learning Objective 9.2.1
-  - id: Q3
-    text: "Klasifikasikan segi tiga berdasarkan sifat geometri jika ia mempunyai dua sisi sama panjang."
-    difficulty: medium
-    learning_objective: LO3
-    tp_level: 3
-    kbat: true
+    marks: 1
     answer:
       type: multiple_choice
-      value: "Segi tiga sama kaki"
+      value: "It has 7 vertices and 7 sides."
       working: |
-        Segi tiga dengan dua sisi sama panjang dikenali sebagai segi tiga sama kaki.
-    marks: 2
+        A heptagon is a polygon with 7 sides. By definition, the number of vertices equals the number of sides.
+      distractors:
+        - value: "It has 6 vertices and 7 sides."
+          feedback: "In any polygon, the number of vertices must always equal the number of sides. Re-check the 'Smart Architect' rule!"
+        - value: "It has 8 sides."
+          feedback: "A polygon with 8 sides is an octagon. 'Hepta' refers to 7."
+        - value: "It has 14 diagonals."
+          feedback: "While a heptagon does have 14 diagonals, the question asks for a basic structural property."
     rubric:
-      - marks: 2
-        criteria: "Mengklasifikasikan dengan betul sebagai segi tiga sama kaki."
+      - marks: 1
+        criteria: "Select the correct property of a heptagon."
     hints:
       - level: 1
-        text: "Segi tiga dengan dua sisi sama panjang mempunyai nama khusus."
+        text: "Recall the names of polygons. What does 'Hepta' stand for?"
       - level: 2
-        text: "Ingat istilah 'sama kaki' untuk dua sisi yang sama."
+        text: "Remember Exploration Activity 1: The number of vertices always matches the number of sides."
 
-  # Learning Objective 9.2.3
+  - id: Q3
+    text: "A triangle has one interior angle of $110^\\circ$. Classify this triangle based on its angles."
+    difficulty: easy
+    learning_objective: "9.2.1"
+    tp_level: 2
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "Obtuse-angled triangle"
+      working: |
+        An obtuse angle is any angle greater than $90^\circ$ but less than $180^\circ$. Since $110^\circ > 90^\circ$, it is obtuse.
+      distractors:
+        - value: "Acute-angled triangle"
+          feedback: "An acute-angled triangle must have ALL angles less than $90^\\circ$. Here, one angle is $110^\\circ$."
+        - value: "Right-angled triangle"
+          feedback: "A right-angled triangle must have exactly one $90^\\circ$ angle."
+        - value: "Equilateral triangle"
+          feedback: "An equilateral triangle must have all angles equal to $60^\\circ$."
+    rubric:
+      - marks: 1
+        criteria: "Correct classification based on the given angle."
+    hints:
+      - level: 1
+        text: "Look at the size of the angle ($110^\\circ$). Is it smaller or larger than a right angle ($90^\\circ$)?"
+      - level: 2
+        text: "If an angle is 'wide' (more than $90^\\circ$), we call it 'obtuse' (bersudut cakah)."
+
   - id: Q4
-    text: "Selesaikan masalah: Jika $AB = 5$ cm dan $AC = 7$ cm dalam segi tiga $ABC$, cari panjang $BC$ jika segi tiga itu segi tiga sama kaki."
+    text: "In $\\triangle ABC$, the exterior angle at vertex $C$ is $125^\\circ$. If $\\angle A = 55^\\circ$, find the value of $\\angle B$."
     difficulty: medium
-    learning_objective: LO4
+    learning_objective: "9.2.2"
     tp_level: 3
     kbat: false
-    answer:
-      type: exact
-      value: "5 cm"
-      working: |
-        Dalam segi tiga sama kaki, dua sisi adalah sama panjang.
-        Oleh itu, jika $AB = 5$ cm dan $AC = 7$ cm, maka $BC$ mesti sama dengan $AB$.
-        Oleh itu, panjang $BC$ adalah 5 cm.
     marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menentukan dua sisi yang sama panjang dalam segi tiga sama kaki."
-      - marks: 1
-        criteria: "Mengira panjang $BC$ dengan betul."
-    hints:
-      - level: 1
-        text: "Dalam segi tiga sama kaki, dua sisi adalah sama panjang."
-      - level: 2
-        text: "Bandingkan panjang $AB$ dan $AC$."
-
-  # Learning Objective 9.3.3
-  - id: Q5
-    text: "Selesaikan masalah yang melibatkan sisi empat: Jika dalam sebuah trapezium, panjang dua sisi selari adalah 10 cm dan 6 cm, dan jarak antara sisi selari adalah 4 cm, cari luas trapezium tersebut."
-    difficulty: medium
-    learning_objective: LO5
-    tp_level: 3
-    kbat: false
     answer:
       type: exact
-      value: "32 cm^2"
+      value: "70"
       working: |
-        Luas bagi trapezium boleh dikira dengan formula $\frac{1}{2} \times (a + b) \times h$, di mana $a$ dan $b$ adalah panjang sisi selari dan $h$ adalah jarak antara sisi selari.
-        Oleh itu, luas = $\frac{1}{2} \times (10 + 6) \times 4 = 32$ cm².
-    marks: 3
+        1. Relationship: Exterior angle = sum of two opposite interior angles.
+        2. $125^\circ = \angle A + \angle B$.
+        3. $125^\circ = 55^\circ + \angle B$.
+        4. $\angle B = 125^\circ - 55^\circ = 70^\circ$.
     rubric:
       - marks: 1
-        criteria: "Menulis formula untuk luas trapezium."
+        criteria: "Establish the relationship between exterior and interior angles."
       - marks: 1
-        criteria: "Menjumlahkan panjang sisi selari dengan betul."
-      - marks: 1
-        criteria: "Mengira luas dengan betul."
+        criteria: "Correct calculation for $\\angle B$."
     hints:
       - level: 1
-        text: "Ingat formula untuk luas trapezium: $\\frac{1}{2} \\times (a + b) \\times h$."
+        text: "Remember the 'Opposite Rule' for triangles: the angle outside is equal to the sum of the two far-away angles inside."
       - level: 2
-        text: "Substitusi nilai $a = 10$, $b = 6$, dan $h = 4$ ke dalam formula."
+        text: "Subtract the given interior angle ($55^\\circ$) from the exterior angle ($125^\\circ$)."
+
+  - id: Q5
+    text: "Name the quadrilateral that has only ONE pair of opposite sides that are parallel."
+    difficulty: easy
+    learning_objective: "9.3.1"
+    tp_level: 2
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "Trapezium"
+      working: |
+        By definition, a trapezium is a quadrilateral with only one pair of parallel sides.
+      distractors:
+        - value: "Parallelogram"
+          feedback: "A parallelogram has TWO pairs of parallel sides."
+        - value: "Rhombus"
+          feedback: "A rhombus has two pairs of parallel sides and all sides are equal length."
+        - value: "Kite"
+          feedback: "A kite has no parallel sides; it has two pairs of equal adjacent sides."
+    rubric:
+      - marks: 1
+        criteria: "Identify the trapezium based on its parallel side property."
+    hints:
+      - level: 1
+        text: "Think of the 'Family Tree' of quadrilaterals. Which one is the odd one out with only one parallel pair?"
+      - level: 2
+        text: "Check Table 9.3 in your notes. Only the Trapezium fits this description."
+
+  - id: Q6
+    text: "In a parallelogram $PQRS$, $\\angle P = 75^\\circ$. Calculate the value of $\\angle Q$."
+    difficulty: medium
+    learning_objective: "9.3.2"
+    tp_level: 3
+    kbat: false
+    marks: 2
+    answer:
+      type: exact
+      value: "105"
+      working: |
+        1. In a parallelogram, adjacent angles are supplementary (sum to $180^\circ$).
+        2. $\angle P + \angle Q = 180^\circ$.
+        3. $75^\circ + \angle Q = 180^\circ$.
+        4. $\angle Q = 180^\circ - 75^\circ = 105^\circ$.
+    rubric:
+      - marks: 1
+        criteria: "State that adjacent angles in a parallelogram sum to $180^\\circ$."
+      - marks: 1
+        criteria: "Correct final value for $\\angle Q$."
+    hints:
+      - level: 1
+        text: "Angles $P$ and $Q$ are neighbors on the same straight line of the parallel side. What do we know about their sum?"
+      - level: 2
+        text: "Subtract $75^\\circ$ from $180^\\circ$."
+
+  - id: Q7
+    text: "A diagram shows a square $ABCD$ and an equilateral triangle $ADE$ sharing the same side $AD$. If $E$ is outside the square, calculate $\\angle EAB$."
+    difficulty: hard
+    learning_objective: "9.3.4"
+    tp_level: 5
+    kbat: true
+    marks: 3
+    answer:
+      type: exact
+      value: "150"
+      working: |
+        1. Since $ABCD$ is a square, $\angle DAB = 90^\circ$.
+        2. Since $\triangle ADE$ is equilateral, $\angle EAD = 60^\circ$.
+        3. Since $E$ is outside the square, $\angle EAB = \angle EAD + \angle DAB$.
+        4. $\angle EAB = 60^\circ + 90^\circ = 150^\circ$.
+    rubric:
+      - marks: 1
+        criteria: "Identify interior angle of a square as $90^\\circ$."
+      - marks: 1
+        criteria: "Identify interior angle of equilateral triangle as $60^\\circ$."
+      - marks: 1
+        criteria: "Sum the angles correctly to find $150^\\circ$."
+    hints:
+      - level: 1
+        text: "Break the problem down. What is the interior angle of a square? What about an equilateral triangle?"
+      - level: 2
+        text: "Add the two angles together at vertex $A$. $90 + 60$!"
+
+  - id: Q8
+    text: "An architect is designing a window shaped like a regular pentagon. However, one corner is damaged, making it an irregular polygon. If four of the interior angles are $100^\\circ, 110^\\circ, 120^\\circ,$ and $105^\\circ$, find the value of the fifth angle."
+    difficulty: hard
+    learning_objective: "9.3.4"
+    tp_level: 6
+    kbat: true
+    marks: 3
+    answer:
+      type: exact
+      value: "105"
+      working: |
+        1. A pentagon can be divided into 3 triangles. Total sum of interior angles = $3 \times 180^\circ = 540^\circ$.
+        2. Sum of given angles = $100^\circ + 110^\circ + 120^\circ + 105^\circ = 435^\circ$.
+        3. Fifth angle = $540^\circ - 435^\circ = 105^\circ$.
+    rubric:
+      - marks: 1
+        criteria: "Determine the total sum of interior angles for a pentagon ($540^\\circ$)."
+      - marks: 1
+        criteria: "Correct sum of the four given angles."
+      - marks: 1
+        criteria: "Final calculation of the missing angle."
+    hints:
+      - level: 1
+        text: "How many degrees are in a pentagon? Hint: It's made of 3 triangles!"
+      - level: 2
+        text: "Subtract all the known angles from the total sum of $540^\\circ$."

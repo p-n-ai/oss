@@ -1,0 +1,115 @@
+id: MT1-09
+official_ref: "Chapter 9"
+name: "Poligon Asas"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+sync_checked: true
+
+content_standards:
+  - id: "9.1"
+    text: "Poligon"
+  - id: "9.2"
+    text: "Segi tiga"
+  - id: "9.3"
+    text: "Sisi empat"
+
+learning_objectives:
+  - id: "9.1.1"
+    content_standard_id: "9.1"
+    text: "Menyatakan hubung kait antara bilangan sisi, bucu dan pepenjuru poligon."
+    bloom: remember
+  - id: "9.1.2"
+    content_standard_id: "9.1"
+    text: "Melukis poligon, melabel bucu poligon dan menamakan poligon tersebut berdasarkan bucu yang telah dilabel."
+    bloom: apply
+  - id: "9.2.1"
+    content_standard_id: "9.2"
+    text: "Mengenal dan menyenaraikan sifat geometri bagi pelbagai jenis segi tiga. Seterusnya mengkelaskan segi tiga berdasarkan sifat geometri."
+    bloom: analyze
+  - id: "9.2.2"
+    content_standard_id: "9.2"
+    text: "Membuat dan mengesahkan konjektur tentang (i) hasil tambah sudut pedalaman, (ii) hasil tambah sudut pedalaman dan sudut peluaran bersebelahan, (iii) hubungan antara sudut peluaran dan hasil tambah sudut pedalaman yang bertentangan suatu segi tiga."
+    bloom: evaluate
+  - id: "9.2.3"
+    content_standard_id: "9.2"
+    text: "Menyelesaikan masalah yang melibatkan segi tiga."
+    bloom: apply
+  - id: "9.3.1"
+    content_standard_id: "9.3"
+    text: "Menghuraikan sifat geometri bagi pelbagai jenis sisi empat. Seterusnya mengkelaskan sisi empat berdasarkan sifat geometri."
+    bloom: analyze
+  - id: "9.3.2"
+    content_standard_id: "9.3"
+    text: "Membuat dan mengesahkan konjektur tentang (i) hasil tambah sudut pedalaman suatu sisi empat, (ii) hasil tambah sudut pedalaman dan sudut peluaran bersebelahan suatu sisi empat, dan (iii) hubungan antara sudut yang bertentangan dalam segi empat selari."
+    bloom: evaluate
+  - id: "9.3.3"
+    content_standard_id: "9.3"
+    text: "Menyelesaikan masalah yang melibatkan sisi empat."
+    bloom: apply
+  - id: "9.3.4"
+    content_standard_id: "9.3"
+    text: "Menyelesaikan masalah yang melibatkan gabungan segi tiga dan sisi empat."
+    bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor: "Memamerkan pengetahuan asas tentang poligon."
+  - level: 2
+    descriptor: "Memamerkan kefahaman tentang segi tiga dan sisi empat."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman tentang garis dan sudut untuk melaksanakan tugasan mudah yang berkaitan dengan sudut pedalaman dan sudut peluaran segi tiga dan sisi empat."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang segi tiga dan sisi empat dalam konteks penyelesaian masalah rutin yang mudah."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang segi tiga dan sisi empat dalam konteks penyelesaian masalah rutin yang kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang segi tiga dan sisi empat dalam konteks penyelesaian masalah bukan rutin secara kreatif."
+
+prerequisites:
+  required:
+    - "MT1-08"
+
+bloom_levels:
+  - remember
+  - apply
+  - analyze
+  - evaluate
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Langkah 1: Takrifkan poligon dan teroka hubungan antara sisi, bucu, dan pepenjuru menggunakan GeoGebra (Muka Surat 202-203)."
+    - "Langkah 2: Latihan melukis dan melabel poligon dari segi tiga hingga dekagon (Muka Surat 204)."
+    - "Langkah 3: Kelaskan segi tiga mengikut sisi dan sudut; siasat paksi simetri (Muka Surat 205-207)."
+    - "Langkah 4: Sahkan konjektur untuk hasil tambah sudut segi tiga dan hubungan sudut peluaran (Muka Surat 208-209)."
+    - "Langkah 5: Kelaskan sisi empat (segi empat sama, segi empat tepat, rombus, dll.) dan sifat uniknya (Muka Surat 212-213)."
+    - "Langkah 6: Siasat sifat sudut sisi empat dan segi empat selari (Muka Surat 214-215)."
+    - "Langkah 7: Selesaikan masalah kompleks yang melibatkan gabungan bentuk geometri (Muka Surat 217-218)."
+  common_misconceptions:
+    - misconception: "Menganggap pepenjuru ialah sebarang garis di dalam poligon."
+      remediation: "Jelaskan bahawa pepenjuru mesti menyambungkan dua bucu yang tidak bersebelahan."
+    - misconception: "Mengandaikan semua segi tiga mempunyai sekurang-kurangnya satu paksi simetri."
+      remediation: "Tunjukkan segi tiga tak sama kaki yang tidak mempunyai sebarang paksi simetri."
+    - misconception: "Keliru antara sifat rombus dan segi empat sama."
+      remediation: "Tekankan bahawa walaupun kedua-duanya mempunyai empat sisi yang sama panjang, hanya segi empat sama yang mesti mempunyai empat sudut pedalaman 90 darjah."
+  engagement_hooks:
+    - "Perhatikan 'reka bentuk yang cantik dan mengagumkan' bagi poligon dalam seni bina Masjid Putra (Muka Surat 200)."
+    - "Cabaran 'Arkitek Bijak': Kenapa sarang lebah mempunyai bentuk heksagon? (Muka Surat 202)."
+
+quality_level: 2
+provenance: curriculum-expert-verified
+
+ai_teaching_notes: "MT1-09.teaching.md"
+assessments_file: "MT1-09.assessments.yaml"
+examples_file: "MT1-09.examples.yaml"

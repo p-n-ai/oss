@@ -1,0 +1,219 @@
+topic_id: MT1-09
+provenance: curriculum-expert-verified
+questions:
+  - id: Q1
+    text: "Sebuah poligon mempunyai 12 sisi. Hitung bilangan pepenjuru bagi poligon ini."
+    difficulty: medium
+    learning_objective: "9.1.1"
+    tp_level: 2
+    kbat: false
+    marks: 2
+    answer:
+      type: exact
+      value: "54"
+      working: |
+        1. Kenal pasti bilangan sisi, $n = 12$.
+        2. Gunakan rumus pepenjuru: $\frac{n(n-3)}{2}$.
+        3. Substitusi: $\frac{12(12-3)}{2} = \frac{12 \times 9}{2}$.
+        4. Kira: $6 \times 9 = 54$.
+    rubric:
+      - marks: 1
+        criteria: "Substitusi yang betul ke dalam rumus pepenjuru."
+      - marks: 1
+        criteria: "Nilai akhir 54 yang tepat."
+    hints:
+      - level: 1
+        text: "Ingat kembali hubungan antara sisi dan pepenjuru. Ada rumus yang menggunakan $n$, kan?"
+      - level: 2
+        text: "Rumusnya ialah $\\frac{n(n-3)}{2}$. Kalau $n$ ialah 12, berapakah $(n-3)$? Darabkan mereka dan bahagi dengan 2."
+
+  - id: Q2
+    text: "Antara pernyataan berikut, yang manakah BENAR tentang sebuah heptagon?"
+    difficulty: easy
+    learning_objective: "9.1.2"
+    tp_level: 1
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "Mempunyai 7 bucu dan 7 sisi."
+      working: |
+        Heptagon ialah poligon dengan 7 sisi. Secara definisi, bilangan bucu sentiasa sama dengan bilangan sisi.
+      distractors:
+        - value: "Mempunyai 6 bucu dan 7 sisi."
+          feedback: "Dalam mana-mana poligon, bilangan bucu MESTI sama dengan bilangan sisi. Ingat aturan 'Arkitek Bijak'!"
+        - value: "Mempunyai 8 sisi."
+          feedback: "Poligon dengan 8 sisi dinamakan oktagon. 'Hepta' merujuk kepada 7."
+        - value: "Mempunyai 14 pepenjuru."
+          feedback: "Walaupun heptagon memang ada 14 pepenjuru, soalan meminta ciri asas poligon tersebut."
+    rubric:
+      - marks: 1
+        criteria: "Memilih sifat heptagon yang betul."
+    hints:
+      - level: 1
+        text: "Imbas kembali nama-nama poligon. 'Hepta' bermaksud berapa?"
+      - level: 2
+        text: "Ingat Aktiviti Penerokaan 1: Bilangan bucu sentiasa sepadan dengan bilangan sisi."
+
+  - id: Q3
+    text: "Sebuah segi tiga mempunyai satu sudut pedalaman $110^\\circ$. Kelaskan segi tiga ini berdasarkan sudutnya."
+    difficulty: easy
+    learning_objective: "9.2.1"
+    tp_level: 2
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "Segi tiga bersudut cakah"
+      working: |
+        Sudut cakah ialah sudut yang lebih besar daripada $90^\circ$ tetapi kurang daripada $180^\circ$. Oleh sebab $110^\circ > 90^\circ$, ia adalah cakah.
+      distractors:
+        - value: "Segi tiga bersudut tirus"
+          feedback: "Segi tiga bersudut tirus mesti mempunyai SEMUA sudut kurang daripada $90^\\circ$."
+        - value: "Segi tiga bersudut tegak"
+          feedback: "Segi tiga bersudut tegak mesti mempunyai satu sudut tepat $90^\\circ$."
+        - value: "Segi tiga sama sisi"
+          feedback: "Segi tiga sama sisi mesti mempunyai semua sudut $60^\\circ$."
+    rubric:
+      - marks: 1
+        criteria: "Pengelasan yang betul berdasarkan saiz sudut yang diberi."
+    hints:
+      - level: 1
+        text: "Lihat saiz sudut itu ($110^\\circ$). Adakah ia lebih kecil atau lebih besar daripada sudut tegak ($90^\\circ$)?"
+      - level: 2
+        text: "Kalau sudut itu 'terbuka luas' (lebih $90^\\circ$), kita panggil ia 'cakah' (obtuse)."
+
+  - id: Q4
+    text: "Dalam $\\triangle ABC$, sudut peluaran pada bucu $C$ ialah $125^\\circ$. Jika $\\angle A = 55^\\circ$, cari nilai $\\angle B$."
+    difficulty: medium
+    learning_objective: "9.2.2"
+    tp_level: 3
+    kbat: false
+    marks: 2
+    answer:
+      type: exact
+      value: "70"
+      working: |
+        1. Hubungan: Sudut peluaran = hasil tambah dua sudut pedalaman bertentangan.
+        2. $125^\circ = \angle A + \angle B$.
+        3. $125^\circ = 55^\circ + \angle B$.
+        4. $\angle B = 125^\circ - 55^\circ = 70^\circ$.
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan hubungan antara sudut peluaran dan sudut pedalaman bertentangan."
+      - marks: 1
+        criteria: "Kiraan yang betul untuk nilai $\\angle B$."
+    hints:
+      - level: 1
+        text: "Ingat 'Aturan Bertentangan' bagi segi tiga: sudut di luar sama dengan jumlah dua sudut yang jauh di dalam."
+      - level: 2
+        text: "Tolak sudut pedalaman yang diberi ($55^\\circ$) daripada sudut peluaran ($125^\\circ$)."
+
+  - id: Q5
+    text: "Namakan sisi empat yang hanya mempunyai SATU pasangan sisi bertentangan yang selari."
+    difficulty: easy
+    learning_objective: "9.3.1"
+    tp_level: 2
+    kbat: false
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "Trapezium"
+      working: |
+        Secara definisi, trapezium ialah sisi empat dengan hanya satu pasangan sisi selari.
+      distractors:
+        - value: "Segi empat selari"
+          feedback: "Segi empat selari mempunyai DUA pasangan sisi selari."
+        - value: "Rombus"
+          feedback: "Rombus mempunyai dua pasangan sisi selari dan semua sisi sama panjang."
+        - value: "Lelayang"
+          feedback: "Lelayang tiada sisi selari; ia mempunyai dua pasang sisi bersebelahan yang sama panjang."
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti trapezium berdasarkan sifat sisi selari."
+    hints:
+      - level: 1
+        text: "Fikirkan 'Carta Keluarga' sisi empat. Yang mana satu 'ganjil' kerana hanya ada satu pasangan selari?"
+      - level: 2
+        text: "Rujuk Jadual 9.3 dalam nota anda. Hanya Trapezium yang menepati huraian ini."
+
+  - id: Q6
+    text: "Dalam segi empat selari $PQRS$, $\\angle P = 75^\\circ$. Hitung nilai $\\angle Q$."
+    difficulty: medium
+    learning_objective: "9.3.2"
+    tp_level: 3
+    kbat: false
+    marks: 2
+    answer:
+      type: exact
+      value: "105"
+      working: |
+        1. Dalam segi empat selari, sudut bersebelahan adalah sudut penggenap (jumlah $180^\circ$).
+        2. $\angle P + \angle Q = 180^\circ$.
+        3. $75^\circ + \angle Q = 180^\circ$.
+        4. $\angle Q = 180^\circ - 75^\circ = 105^\circ$.
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan hasil tambah sudut bersebelahan segi empat selari ialah $180^\\circ$."
+      - marks: 1
+        criteria: "Nilai akhir $\\angle Q$ yang tepat."
+    hints:
+      - level: 1
+        text: "Sudut $P$ dan $Q$ adalah jiran pada garis lurus sisi yang selari. Apa kita tahu tentang jumlah mereka?"
+      - level: 2
+        text: "Tolak $75^\\circ$ daripada $180^\\circ$."
+
+  - id: Q7
+    text: "Satu rajah menunjukkan segi empat sama $ABCD$ dan segi tiga sama sisi $ADE$ berkongsi sisi $AD$ yang sama. Jika $E$ berada di luar segi empat itu, hitung $\\angle EAB$."
+    difficulty: hard
+    learning_objective: "9.3.4"
+    tp_level: 5
+    kbat: true
+    marks: 3
+    answer:
+      type: exact
+      value: "150"
+      working: |
+        1. Oleh sebab $ABCD$ ialah segi empat sama, $\angle DAB = 90^\circ$.
+        2. Oleh sebab $\triangle ADE$ ialah segi tiga sama sisi, $\angle EAD = 60^\circ$.
+        3. Oleh sebab $E$ di luar segi empat, $\angle EAB = \angle EAD + \angle DAB$.
+        4. $\angle EAB = 60^\circ + 90^\circ = 150^\circ$.
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti sudut pedalaman segi empat sama sebagai $90^\\circ$."
+      - marks: 1
+        criteria: "Mengenal pasti sudut pedalaman segi tiga sama sisi sebagai $60^\\circ$."
+      - marks: 1
+        criteria: "Menjumlahkan sudut dengan betul untuk mendapat $150^\\circ$."
+    hints:
+      - level: 1
+        text: "Pecahkan masalah ini. Berapakah sudut pedalaman bagi segi empat sama? Bagaimana pula dengan segi tiga sama sisi?"
+      - level: 2
+        text: "Tambahkan kedua-dua sudut itu pada bucu $A$. $90 + 60$!"
+
+  - id: Q8
+    text: "Seorang arkitek sedang mereka bentuk tingkap berbentuk pentagon sekata. Namun, satu bucu telah rosak menjadikannya poligon tak sekata. Jika empat sudut pedalamannya ialah $100^\\circ, 110^\\circ, 120^\\circ,$ dan $105^\\circ$, cari nilai sudut kelima."
+    difficulty: hard
+    learning_objective: "9.3.4"
+    tp_level: 6
+    kbat: true
+    marks: 3
+    answer:
+      type: exact
+      value: "105"
+      working: |
+        1. Pentagon boleh dibahagikan kepada 3 segi tiga. Jumlah sudut pedalaman = $3 \times 180^\circ = 540^\circ$.
+        2. Jumlah sudut yang diberi = $100^\circ + 110^\circ + 120^\circ + 105^\circ = 435^\circ$.
+        3. Sudut kelima = $540^\circ - 435^\circ = 105^\circ$.
+    rubric:
+      - marks: 1
+        criteria: "Menentukan jumlah sudut pedalaman bagi pentagon ($540^\\circ$)."
+      - marks: 1
+        criteria: "Jumlah yang betul bagi empat sudut yang diberi."
+      - marks: 1
+        criteria: "Kiraan akhir sudut yang hilang dengan tepat."
+    hints:
+      - level: 1
+        text: "Berapakah jumlah darjah dalam satu pentagon? Hint: Ia terdiri daripada 3 buah segi tiga!"
+      - level: 2
+        text: "Tolak semua sudut yang diketahui daripada jumlah keseluruhan $540^\\circ$."

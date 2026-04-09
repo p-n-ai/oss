@@ -1,90 +1,115 @@
 id: MT1-09
-# official_ref: ""  # fill in if the source document assigns a chapter/section code
+official_ref: "Chapter 9"
 name: "Poligon Asas"
 name_en: "Basic Polygons"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-1
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: beginner
 tier: core
+
 content_standards:
   - id: "9.1"
-    text: "Poligon"
     text_en: "Polygons"
   - id: "9.2"
-    text: "Sifat dan sudut segi tiga"
-    text_en: "Properties and angles of triangles"
+    text_en: "Triangles"
   - id: "9.3"
-    text: "Sifat dan sudut sisi empat"
-    text_en: "Properties and angles of quadrilaterals"
+    text_en: "Quadrilaterals"
+
 learning_objectives:
-    - id: 9.1.1
-      text: "Menyatakan hubung kait antara bilangan sisi, bucu dan pepenjuru poligon."
-      text_en: "State the relationship between the number of sides, vertices, and diagonals of a polygon."
-      bloom: remember
-    - id: 9.1.2
-      text: "Melukis poligon, melabel bucu poligon dan menamakan poligon tersebut berdasarkan bucu yang telah dilabel."
-      text_en: "Draw polygons, label the vertices of polygons, and name the polygons based on the labeled vertices."
-      bloom: apply
-    - id: 9.2.1
-      text: "Mengenal dan menyenaraikan sifat geometri bagi pelbagai jenis segi tiga. Seterusnya mengkelaskan segi tiga berdasarkan sifat geometri."
-      text_en: "Recognize and list the geometric properties of various types of triangles. Then classify triangles based on geometric properties."
-      bloom: analyze
-    - id: 9.2.2
-      text: "Membuat dan mengesahkan konjektur tentang (i) hasil tambah sudut pedalaman, (ii) hasil tambah sudut pedalaman dan sudut peluaran bersebelahan, (iii) hubungan antara sudut peluaran dan hasil tambah sudut pedalaman yang bertentangan suatu segi tiga."
-      text_en: "Make and verify conjectures about (i) the sum of interior angles, (ii) the sum of interior angles and adjacent exterior angles, (iii) the relationship between exterior angle and the sum of opposite interior angles of a triangle."
-      bloom: evaluate
-    - id: 9.2.3
-      text: "Menyelesaikan masalah yang melibatkan segi tiga."
-      text_en: "Solve problems involving triangles."
-      bloom: apply
-    - id: 9.3.1
-      text: "Menghuraikan sifat geometri bagi pelbagai jenis sisi empat. Seterusnya mengkelaskan sisi empat berdasarkan sifat geometri."
-      text_en: "Describe the geometric properties of various types of quadrilaterals. Then classify quadrilaterals based on geometric properties."
-      bloom: analyze
-    - id: 9.3.2
-      text: "Membuat dan mengesahkan konjektur tentang (i) hasil tambah sudut pedalaman suatu sisi empat, (ii) hasil tambah sudut pedalaman dan sudut peluaran bersebelahan suatu sisi empat, dan (iii) hubungan antara sudut yang bertentangan dalam segi empat selari."
-      text_en: "Make and verify conjectures about (i) the sum of interior angles of a quadrilateral, (ii) the sum of interior angles and adjacent exterior angles of a quadrilateral, and (iii) the relationship between opposite angles in a parallelogram."
-      bloom: evaluate
-    - id: 9.3.3
-      text: "Menyelesaikan masalah yang melibatkan sisi empat."
-      text_en: "Solve problems involving quadrilaterals."
-      bloom: apply
-    - id: 9.3.4
-      text: "Menyelesaikan masalah yang melibatkan gabungan segi tiga dan sisi empat."
-      text_en: "Solve problems involving the combination of triangles and quadrilaterals."
-      bloom: apply
+  - id: "9.1.1"
+    content_standard_id: "9.1"
+    text_en: "State the relationship between the number of sides, vertices and diagonals of polygons."
+    bloom: remember
+  - id: "9.1.2"
+    content_standard_id: "9.1"
+    text_en: "Draw polygons, label vertices of polygons and name the polygons based on the labelled vertices."
+    bloom: apply
+  - id: "9.2.1"
+    content_standard_id: "9.2"
+    text_en: "Recognise and list geometric properties of various types of triangles. Hence classify triangles based on geometric properties."
+    bloom: analyze
+  - id: "9.2.2"
+    content_standard_id: "9.2"
+    text_en: "Make and verify conjectures about (i) the sum of interior angles, (ii) the sum of interior angle and adjacent exterior angle, (iii) the relation between exterior angle and the sum of the opposite interior angles of a triangle."
+    bloom: evaluate
+  - id: "9.2.3"
+    content_standard_id: "9.2"
+    text_en: "Solve problems involving triangles."
+    bloom: apply
+  - id: "9.3.1"
+    content_standard_id: "9.3"
+    text_en: "Describe the geometric properties of various types of quadrilaterals. Hence classify quadrilaterals based on the geometric properties."
+    bloom: analyze
+  - id: "9.3.2"
+    content_standard_id: "9.3"
+    text_en: "Make and verify the conjectures about (i) the sum of interior angles of a quadrilateral, (ii) the sum of interior angle and adjacent exterior angle of a quadrilateral, and (iii) the relationship between the opposite angles in a parallelogram."
+    bloom: evaluate
+  - id: "9.3.3"
+    content_standard_id: "9.3"
+    text_en: "Solve problems involving quadrilaterals."
+    bloom: apply
+  - id: "9.3.4"
+    content_standard_id: "9.3"
+    text_en: "Solve problems involving the combinations of triangles and quadrilaterals."
+    bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate the basic knowledge of polygons."
+  - level: 2
+    descriptor_en: "Demonstrate the understanding of triangles and quadrilaterals."
+  - level: 3
+    descriptor_en: "Apply the understanding of lines and angles to perform simple tasks related to the interior and exterior angles of triangles and quadrilaterals."
+  - level: 4
+    descriptor_en: "Apply appropriate knowledge and skills of triangles and quadrilaterals in the context of simple routine problem solving."
+  - level: 5
+    descriptor_en: "Apply appropriate knowledge and skills of triangles and quadrilaterals in the context of complex routine problem solving."
+  - level: 6
+    descriptor_en: "Apply appropriate knowledge and skills of triangles and quadrilaterals in the context of non-routine problem solving."
+
 prerequisites:
-    required: []
+  required:
+    - "MT1-08"
+
 bloom_levels:
-    - remember
-    - apply
-    - analyze
-    - evaluate
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-29T23:18:08Z"
-assessments_file: MT1-09.assessments.yaml
-ai_teaching_notes: MT1-09.teaching.md
-teaching:
-    sequence:
-        - 'Step 1: Introduce basic polygons and their properties using physical models (15 min)'
-        - 'Step 2: Discuss types of triangles and classify them using a chart (20 min)'
-        - 'Step 3: Explore quadrilaterals and their characteristics with digital apps (25 min)'
-    common_misconceptions:
-        - misconception: All polygons are regular
-          remediation: Show diverse examples of irregular polygons
-        - misconception: Triangles can have four angles
-          remediation: Reinforce triangle definition with clear visuals
-engagement_hooks:
-    - Relate polygons to traffic signs and tiles
-    - Discuss the use of triangles in engineering and architecture
+  - remember
+  - apply
+  - analyze
+  - evaluate
+
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
-examples_file: MT1-09.examples.yaml
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Step 1: Define polygons and explore the relationship between sides, vertices, and diagonals using GeoGebra (Pages 202-203)."
+    - "Step 2: Practice drawing and labeling polygons from triangles to decagons (Page 204)."
+    - "Step 3: Classify triangles by sides and angles; investigate axes of symmetry (Pages 205-207)."
+    - "Step 4: Verify conjectures for triangle angle sums and exterior angle relationships (Pages 208-209)."
+    - "Step 5: Classify quadrilaterals (square, rectangle, rhombus, etc.) and their unique properties (Pages 212-213)."
+    - "Step 6: Investigate angle properties of quadrilaterals and parallelograms (Pages 214-215)."
+    - "Step 7: Solve complex problems involving combined geometric shapes (Pages 217-218)."
+  common_misconceptions:
+    - misconception: "Thinking a diagonal is any line inside a polygon."
+      remediation: "Clarify that a diagonal must connect two non-adjacent vertices."
+    - misconception: "Assuming all triangles have at least one axis of symmetry."
+      remediation: "Show scalene triangles which have no axes of symmetry."
+    - misconception: "Confusing the properties of a rhombus and a square."
+      remediation: "Highlight that while both have four equal sides, only the square must have four 90-degree interior angles."
+  engagement_hooks:
+    - "Observe the 'magnificent designs' of polygons in the architecture of Putra Mosque (Page 200)."
+    - "The 'Smart Architect' challenge: Why does a honeycomb use a hexagonal shape? (Page 202)."
+
+quality_level: 2
+provenance: curriculum-expert-verified
+
+ai_teaching_notes: "MT1-09.teaching.md"
+assessments_file: "MT1-09.assessments.yaml"
+examples_file: "MT1-09.examples.yaml"

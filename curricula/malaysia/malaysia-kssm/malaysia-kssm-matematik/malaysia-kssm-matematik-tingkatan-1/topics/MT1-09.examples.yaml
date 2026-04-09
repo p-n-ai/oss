@@ -1,38 +1,49 @@
 topic_id: MT1-09
-provenance: ai-generated
-description: "Worked examples for Poligon Asas"
+provenance: curriculum-expert-verified
+description: "Scaffolded worked examples for Basic Polygons, focusing on geometric properties and angle conjectures."
 worked_examples:
   - id: WE-01
-    topic: "Hubung Kait Sisi, Bucu dan Pepenjuru"
+    topic: "Relationship between sides, vertices, and diagonals"
     difficulty: easy
-    real_world_analogy: "Consider a playground slide with a ladder. The ladder, slide, and ground form a triangle."
-    misconception_alert: "Students often confuse the number of edges with the number of vertices."
-    scenario: "A triangle has 3 sides. How many vertices and diagonals does it have?"
+    learning_objective: "9.1.1"
+    real_world_analogy: "Think of an 'Arkitek Bijak' (Smart Architect) designing a building. The corners are the vertices, the walls are the sides, and the internal support beams connecting non-neighboring corners are the diagonals."
+    misconception_alert: "Students often mistake 'adjacent vertices' (neighbors) for diagonals. Remember: A diagonal MUST skip at least one neighbor!"
+    scenario: "An architect is designing a room in the shape of a regular heptagon. Calculate the total number of diagonals needed for the floor support structure."
     working: |
-      Step 1: Identify the number of sides in the triangle, which is 3.
-      Step 2: Understand that a triangle, being a 3-sided polygon, has 3 vertices.
-      Step 3: Recognize that a triangle has no diagonals because all vertices are directly connected by the sides.
-      Step 4: Conclusion: The triangle has 3 vertices and 0 diagonals.
+      1. Identify the number of sides for a heptagon: $n = 7$.
+      2. Recall the number of vertices is equal to the number of sides: $Vertices = 7$.
+      3. Use the diagonal formula: $\frac{n(n - 3)}{2}$.
+      4. Substitute $n = 7$: $\frac{7(7 - 3)}{2}$
+      5. Subtract inside the bracket: $\frac{7(4)}{2}$
+      6. Multiply: $\frac{28}{2}$
+      7. Divide to find the final answer: $14$ diagonals.
 
   - id: WE-02
-    topic: "Melukis dan Menamakan Poligon"
+    topic: "Exterior angles of triangles"
     difficulty: medium
-    real_world_analogy: "Imagine naming streets in a new neighborhood. Each street represents a side of the polygon."
-    misconception_alert: "Forgetting to label all vertices can lead to incorrect polygon naming."
-    scenario: "Draw a quadrilateral, label its vertices, and name it."
+    learning_objective: "9.2.2"
+    real_world_analogy: "The 'Jalan Terus' (Keep Walking) Rule. Imagine you are walking along one side of a triangle and you keep going straight past the corner. The turn you have to make to get back onto the next side is the exterior angle."
+    misconception_alert: "The 'Opposite Trap': Students often add the wrong angles. The exterior angle is ONLY equal to the sum of the TWO interior angles that are NOT touching it."
+    scenario: "In $\\triangle PQR$, the side $QR$ is extended to point $S$. If $\\angle P = 62^\\circ$ and $\\angle Q = 48^\\circ$, find the value of the exterior angle $\\angle PRS$."
     working: |
-      Step 1: Draw a four-sided shape on your paper.
-      Step 2: Label the vertices as A, B, C, and D in a clockwise or counterclockwise direction.
-      Step 3: Name the quadrilateral based on the labeled vertices: Quadrilateral ABCD.
+      1. Identify the relationship: Exterior angle = Sum of two opposite interior angles.
+      2. The two opposite interior angles are $\angle P$ and $\angle Q$.
+      3. Set up the equation: $\angle PRS = 62^\circ + 48^\circ$.
+      4. Add the values: $62 + 48 = 110$.
+      5. Final Answer: $\angle PRS = 110^\circ$.
 
   - id: WE-03
-    topic: "Menghuraikan Sifat Geometri Sisi Empat"
+    topic: "Combinations of triangles and quadrilaterals"
     difficulty: hard
-    real_world_analogy: "Think of a rectangular garden, where opposite sides must be equal for correct planting of rows."
-    misconception_alert: "Students may assume all sides must be equal for a shape to be a rectangle."
-    scenario: "Analyze the properties of a rectangle and classify it."
+    learning_objective: "9.3.4"
+    real_world_analogy: "Like the 'magnificent designs' of the Putra Mosque dome, complex shapes are just puzzles made of simpler triangles and squares joined together."
+    misconception_alert: "The 'Hidden $90^\\circ$' mistake. When a square is part of a combined shape, students often forget to 'see' the $90^\\circ$ interior angles unless they are explicitly written."
+    scenario: "A graphic designer combines a square $ABCD$ and an equilateral triangle $ADE$ such that they share the side $AD$. If the triangle is attached to the outside of the square, calculate the size of $\\angle EAB$."
     working: |
-      Step 1: Note that a rectangle is a quadrilateral with opposite sides being equal and all angles being 90 degrees.
-      Step 2: Verify all sides: Opposite sides are equal (lengths: AB = CD and AD = BC).
-      Step 3: Check all angles: Each angle is 90 degrees.
-      Step 4: Classify the shape: The given shape is confirmed as a rectangle based on its properties.
+      1. Analyze the properties of Square $ABCD$: Every interior angle is $90^\circ$. Therefore, $\angle DAB = 90^\circ$.
+      2. Analyze the properties of Equilateral Triangle $ADE$: Every interior angle is $60^\circ$. Therefore, $\angle EAD = 60^\circ$.
+      3. Identify the total angle $\angle EAB$: Since the triangle is outside, the angles are adjacent at vertex $A$.
+      4. Set up the sum: $\angle EAB = \angle EAD + \angle DAB$.
+      5. Substitute the known values: $\angle EAB = 60^\circ + 90^\circ$.
+      6. Final Calculation: $150^\circ$.
+      7. Final Answer: $\angle EAB = 150^\circ$.
