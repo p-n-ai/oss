@@ -9,6 +9,16 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+  - id: "10.1"
+    text: "Perimeter"
+    text_en: "Perimeter"
+  - id: "10.2"
+    text: "Luas segi tiga, segi empat selari, lelayang dan trapezium"
+    text_en: "Area of triangle, parallelogram, kite and trapezium"
+  - id: "10.3"
+    text: "Perkaitan antara perimeter dan luas"
+    text_en: "Relationship between perimeter and area"
 learning_objectives:
   - id: 10.1.1
     text: "Menentukan perimeter pelbagai bentuk apabila panjang sisi diberi atau perlu diukur."

@@ -9,6 +9,10 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+  - id: "12.1"
+    text: "Pengumpulan data dan pengurusan data"
+    text_en: "Data collection and data management"
 learning_objectives:
   - id: "12.1.1"
     text: "Menjana soalan statistik dan mengumpul data yang relevan."

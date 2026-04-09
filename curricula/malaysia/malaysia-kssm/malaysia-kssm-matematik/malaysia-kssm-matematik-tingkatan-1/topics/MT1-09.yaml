@@ -9,6 +9,16 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+  - id: "9.1"
+    text: "Poligon"
+    text_en: "Polygons"
+  - id: "9.2"
+    text: "Sifat dan sudut segi tiga"
+    text_en: "Properties and angles of triangles"
+  - id: "9.3"
+    text: "Sifat dan sudut sisi empat"
+    text_en: "Properties and angles of quadrilaterals"
 learning_objectives:
     - id: 9.1.1
       text: "Menyatakan hubung kait antara bilangan sisi, bucu dan pepenjuru poligon."

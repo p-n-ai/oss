@@ -9,6 +9,13 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+  - id: "11.1"
+    text: "Pengenalan set"
+    text_en: "Introduction to sets"
+  - id: "11.2"
+    text: "Set semesta, pelengkap bagi set dan subset"
+    text_en: "Universal set, complement of a set and subset"
 learning_objectives:
     - id: "11.1.1"
       text: "Menerangkan maksud set."

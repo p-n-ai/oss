@@ -8,6 +8,16 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+  - id: "8.1"
+    text: "Garis dan sudut"
+    text_en: "Lines and angles"
+  - id: "8.2"
+    text: "Sudut yang berkaitan dengan garis bersilang"
+    text_en: "Angles related to intersecting lines"
+  - id: "8.3"
+    text: "Sudut yang berkaitan dengan garis selari dan garis rentas lintang"
+    text_en: "Angles related to parallel lines and transversals"
 learning_objectives:
     - id: 8.1.1
       text: "Menentu dan menerangkan kekongruenan tembereng garis dan kekongruenan sudut."

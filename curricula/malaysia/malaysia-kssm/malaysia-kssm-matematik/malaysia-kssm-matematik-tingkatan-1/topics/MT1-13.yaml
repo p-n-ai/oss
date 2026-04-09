@@ -9,6 +9,13 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+  - id: "13.1"
+    text: "Teorem Pythagoras"
+    text_en: "Pythagorean Theorem"
+  - id: "13.2"
+    text: "Akas Teorem Pythagoras"
+    text_en: "Converse of the Pythagorean Theorem"
 learning_objectives:
     - id: 13.1.1
       text: "Mengenal pasti dan mendefinisikan hipotenus bagi sebuah segi tiga bersudut tegak."

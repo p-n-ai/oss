@@ -23,7 +23,7 @@ questions:
         criteria: "Mengira bilangan pepenjuru dengan tepat."
     hints:
       - level: 1
-        text: "Ingat formula untuk bilangan pepenjuru: $\frac{n(n-3)}{2}$."
+        text: "Ingat formula untuk bilangan pepenjuru: $\\frac{n(n-3)}{2}$."
       - level: 2
         text: "Substitusi $n = 8$ ke dalam formula tersebut."
 
@@ -126,6 +126,6 @@ questions:
         criteria: "Mengira luas dengan betul."
     hints:
       - level: 1
-        text: "Ingat formula untuk luas trapezium: $\frac{1}{2} \times (a + b) \times h$."
+        text: "Ingat formula untuk luas trapezium: $\\frac{1}{2} \\times (a + b) \\times h$."
       - level: 2
         text: "Substitusi nilai $a = 10$, $b = 6$, dan $h = 4$ ke dalam formula."
