@@ -8,6 +8,13 @@ syllabus_id: malaysia-kssm
 country_id: malaysia
 language: ms
 difficulty: beginner
+content_standards:
+    - id: "6.1"
+      text: "Bentuk Geometri Tiga Dimensi"
+      text_en: "Three-Dimensional Geometric Shapes"
+    - id: "6.2"
+      text: "Luas Permukaan dan Isi Padu"
+      text_en: "Surface Area and Volume"
 learning_objectives:
     - id: "6.1.1"
       text: "Mengenal pasti bentuk geometri tiga dimensi termasuk prisma, silinder, kon, piramid dan sfera berdasarkan ciri dan sifat."

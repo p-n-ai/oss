@@ -23,7 +23,7 @@ worked_examples:
       
   - id: WE-02
     topic: "Menukar Perkara Rumus - Kuasa Dua/Punca Kuasa Dua (3.1.2)"
-    scenario: "Diberi $k = \sqrt{m + 2}$, jadikan $m$ sebagai perkara rumus."
+    scenario: "Diberi $k = \\sqrt{m + 2}$, jadikan $m$ sebagai perkara rumus."
     difficulty: medium
     tp_level: 3
     real_world_analogy: >-

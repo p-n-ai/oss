@@ -9,6 +9,25 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "11.1"
+      text: "Penjelmaan"
+      text_en: "Transformations"
+    - id: "11.2"
+      text: "Translasi"
+      text_en: "Translation"
+    - id: "11.3"
+      text: "Pantulan"
+      text_en: "Reflection"
+    - id: "11.4"
+      text: "Putaran"
+      text_en: "Rotation"
+    - id: "11.5"
+      text: "Simetri Pantulan dan Simetri Putaran"
+      text_en: "Reflection Symmetry and Rotational Symmetry"
+    - id: "11.6"
+      text: "Penjelmaan Isometri"
+      text_en: "Isometric Transformations"
 learning_objectives:
     - id: "11.1.1"
       text: "Memerihalkan perubahan bentuk, saiz, kedudukan dan orientasi suatu objek yang melalui transformasi, dan seterusnya menerangkan idea padanan satu-dengan-satu antara titik-titik dalam transformasi."

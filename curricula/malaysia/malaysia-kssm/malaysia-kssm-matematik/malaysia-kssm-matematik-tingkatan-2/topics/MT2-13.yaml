@@ -9,6 +9,19 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+    - id: "13.1"
+      text: "Ruang Sampel Bagi Suatu Eksperimen"
+      text_en: "Sample Space for an Experiment"
+    - id: "13.2"
+      text: "Peristiwa Bagi Suatu Ruang Sampel"
+      text_en: "Events of a Sample Space"
+    - id: "13.3"
+      text: "Kebarangkalian Suatu Peristiwa"
+      text_en: "Probability of an Event"
+    - id: "13.4"
+      text: "Kebarangkalian Peristiwa Pelengkap"
+      text_en: "Probability of Complementary Events"
 learning_objectives:
     - id: "13.1.1"
       text: "Melaksanakan eksperimen kebarangkalian mudah, dan seterusnya menentukan nisbah kekerapan berlakunya suatu peristiwa kepada bilangan cubaan sebagai kebarangkalian eksperimen bagi suatu peristiwa."

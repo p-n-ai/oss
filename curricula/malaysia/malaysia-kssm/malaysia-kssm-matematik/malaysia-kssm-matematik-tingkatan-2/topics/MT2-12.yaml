@@ -9,6 +9,10 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "12.1"
+      text: "Sukatan Kecenderungan Memusat"
+      text_en: "Measures of Central Tendency"
 learning_objectives:
     - id: "12.1.1"
       text: "Menentukan mod, min dan median bagi suatu set data tak terkumpul."

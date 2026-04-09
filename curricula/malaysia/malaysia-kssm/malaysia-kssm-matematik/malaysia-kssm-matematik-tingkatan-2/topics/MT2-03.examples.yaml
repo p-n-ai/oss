@@ -23,7 +23,7 @@ worked_examples:
       
   - id: WE-02
     topic: "Changing the Subject - Squares/Roots (3.1.2)"
-    scenario: "Given $k = \sqrt{m + 2}$, make $m$ the subject."
+    scenario: "Given $k = \\sqrt{m + 2}$, make $m$ the subject."
     difficulty: medium
     tp_level: 3
     real_world_analogy: >-

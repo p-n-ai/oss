@@ -1,12 +1,13 @@
 id: MT2-02
 official_ref: "Bab 2"
+name: "Pemfaktoran dan Pecahan Algebra"
 name_en: "Factorisation and Algebraic Fractions"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-2
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
 language: en
-difficulty: hard
+difficulty: advanced
 tier: core
 
 content_standards:

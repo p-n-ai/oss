@@ -1,5 +1,6 @@
 id: MT2-03
 official_ref: "Bab 3"
+name: "Rumus Algebra"
 name_en: "Algebraic Formulae"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-2
 subject_id: malaysia-kssm-matematik
@@ -61,31 +62,11 @@ performance_standards:
 
 teaching:
   sequence:
-    - step: 1
-      title: "Introduction to Variables and Forming Formulae"
-      duration_minutes: 30
-      learning_objective_id: 3.1.1
-      strategy: "Introduce variables using real-world scenarios (e.g., prices of items or quantities like the cultural dance activity). Guide students to define variables with letters and connect them with mathematical operations to form an algebraic equation."
-    - step: 2
-      title: "Identifying and Isolating the Subject of Formula"
-      duration_minutes: 30
-      learning_objective_id: 3.1.2
-      strategy: "Define 'Subject of Formula' (the variable must be on the left and its coefficient must be 1). Practice moving basic addition and subtraction terms across the equals sign using inverse operations."
-    - step: 3
-      title: "Advanced Subject Isolation (Squares and Square Roots)"
-      duration_minutes: 30
-      learning_objective_id: 3.1.2
-      strategy: "Tackle more complex subject changes involving squares, square roots, and fractions. Scaffold the rule: to remove a square root, square both sides; to remove a square, square root both sides."
-    - step: 4
-      title: "Substitution to Find Unknown Values"
-      duration_minutes: 30
-      learning_objective_id: 3.1.3
-      strategy: "Provide formulae and known variable values. Instruct the student to carefully substitute the numbers into the equation (always using brackets for negative numbers to avoid sign errors) and calculate the final value."
-    - step: 5
-      title: "Contextual Problem Solving & Mini Project"
-      duration_minutes: 30
-      learning_objective_id: 3.1.4
-      strategy: "Apply formulae to solve practical problems (e.g., calculating total cost given discounts or tracking savings). Introduce the Counting Board 'Mini Project' where students establish relationships for everyday items and construct their own algebraic formulae."
+    - "Step 1: Introduction to Variables and Forming Formulae (30 min)"
+    - "Step 2: Identifying and Isolating the Subject of Formula (30 min)"
+    - "Step 3: Advanced Subject Isolation — Squares and Square Roots (30 min)"
+    - "Step 4: Substitution to Find Unknown Values (30 min)"
+    - "Step 5: Contextual Problem Solving & Mini Project (30 min)"
 
 ai_teaching_notes: "MT2-03.teaching.md"
 assessments_file: "MT2-03.assessments.yaml"

@@ -9,6 +9,10 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+    - id: "10.1"
+      text: "Kecerunan Garis Lurus"
+      text_en: "Gradient of a Straight Line"
 learning_objectives:
     - id: "10.1.1"
       text: "Memerihalkan kecuraman dan arah kecondongan berdasarkan situasi harian, dan seterusnya menerangkan maksud kecerunan sebagai nisbah jarak mencancang kepada jarak mengufuk."

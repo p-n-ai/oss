@@ -62,31 +62,11 @@ performance_standards:
 
 teaching:
   sequence:
-    - step: 1
-      title: "Pengenalan kepada Pemboleh Ubah dan Membentuk Rumus"
-      duration_minutes: 30
-      learning_objective_id: 3.1.1
-      strategy: "Perkenalkan pemboleh ubah menggunakan senario dunia sebenar (contohnya, harga barang atau kuantiti seperti aktiviti tarian kebudayaan). Bimbing pelajar untuk mentakrifkan pemboleh ubah dengan huruf dan menghubungkannya dengan operasi matematik bagi membentuk persamaan algebra."
-    - step: 2
-      title: "Mengenal Pasti dan Menukar Perkara Rumus"
-      duration_minutes: 30
-      learning_objective_id: 3.1.2
-      strategy: "Takrifkan 'Perkara Rumus' (pemboleh ubah mesti berada di sebelah kiri dan pekali mesti 1). Latih memindahkan sebutan asas tambah dan tolak merentasi tanda sama dengan menggunakan operasi songsang."
-    - step: 3
-      title: "Penukaran Perkara Rumus Lanjutan (Kuasa Dua dan Punca Kuasa Dua)"
-      duration_minutes: 30
-      learning_objective_id: 3.1.2
-      strategy: "Tangani penukaran perkara rumus yang lebih kompleks melibatkan kuasa dua, punca kuasa dua, dan pecahan. Terapkan peraturan: untuk membuang punca kuasa dua, kuasa duakan kedua-dua belah persamaan; untuk membuang kuasa dua, punca kuasa duakan kedua-dua belah."
-    - step: 4
-      title: "Penggantian untuk Mencari Nilai Tidak Diketahui"
-      duration_minutes: 30
-      learning_objective_id: 3.1.3
-      strategy: "Sediakan rumus dan nilai pemboleh ubah yang diketahui. Arahkan pelajar untuk menggantikan nombor ke dalam persamaan dengan teliti (sentiasa menggunakan kurungan untuk nombor negatif bagi mengelakkan kesilapan tanda) dan hitung nilai akhir."
-    - step: 5
-      title: "Penyelesaian Masalah Kontekstual & Projek Mini"
-      duration_minutes: 30
-      learning_objective_id: 3.1.4
-      strategy: "Aplikasikan rumus untuk menyelesaikan masalah praktikal (contohnya, mengira jumlah kos berdasarkan diskaun atau menjejaki wang simpanan). Perkenalkan 'Projek Mini' Papan Mengira di mana pelajar mewujudkan hubungan untuk barangan harian dan membina rumus algebra mereka sendiri."
+    - "Langkah 1: Pengenalan kepada Pemboleh Ubah dan Membentuk Rumus (30 min)"
+    - "Langkah 2: Mengenal Pasti dan Menukar Perkara Rumus (30 min)"
+    - "Langkah 3: Penukaran Perkara Rumus Lanjutan — Kuasa Dua dan Punca Kuasa Dua (30 min)"
+    - "Langkah 4: Penggantian untuk Mencari Nilai Tidak Diketahui (30 min)"
+    - "Langkah 5: Penyelesaian Masalah Kontekstual & Projek Mini (30 min)"
 
 ai_teaching_notes: "MT2-03.teaching.md"
 assessments_file: "MT2-03.assessments.yaml"

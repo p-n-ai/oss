@@ -9,6 +9,16 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "5.1"
+      text: "Sifat Bulatan"
+      text_en: "Properties of Circles"
+    - id: "5.2"
+      text: "Lilitan dan Luas Bulatan"
+      text_en: "Circumference and Area of Circles"
+    - id: "5.3"
+      text: "Panjang Lengkok, Luas Sektor dan Luas Segmen"
+      text_en: "Arc Length, Area of Sector and Area of Segment"
 learning_objectives:
     - id: "5.1.1"
       text: "Mengenal bahagian bulatan dan menerangkan sifat bulatan."

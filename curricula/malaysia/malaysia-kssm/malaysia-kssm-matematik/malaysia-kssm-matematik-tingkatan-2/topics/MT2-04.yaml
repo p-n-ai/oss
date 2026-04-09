@@ -9,6 +9,13 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "4.1"
+      text: "Poligon Sekata dan Tak Sekata"
+      text_en: "Regular and Irregular Polygons"
+    - id: "4.2"
+      text: "Sudut Pedalaman dan Sudut Peluaran Poligon"
+      text_en: "Interior and Exterior Angles of Polygons"
 learning_objectives:
     - id: "4.1.1"
       text: "Menghuraikan sifat geometri poligon sekata menggunakan pelbagai perwakilan."

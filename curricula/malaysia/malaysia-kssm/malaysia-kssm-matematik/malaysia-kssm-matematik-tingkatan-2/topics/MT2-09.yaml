@@ -9,6 +9,13 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "9.1"
+      text: "Laju"
+      text_en: "Speed"
+    - id: "9.2"
+      text: "Pecutan"
+      text_en: "Acceleration"
 learning_objectives:
     - id: "9.1.1"
       text: "Menerangkan maksud laju sebagai suatu kadar yang melibatkan jarak dan masa."

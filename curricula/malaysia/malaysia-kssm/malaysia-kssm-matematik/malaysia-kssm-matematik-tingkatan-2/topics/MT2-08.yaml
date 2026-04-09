@@ -8,6 +8,13 @@ syllabus_id: malaysia-kssm
 country_id: malaysia
 language: ms
 difficulty: beginner
+content_standards:
+    - id: "8.1"
+      text: "Fungsi"
+      text_en: "Functions"
+    - id: "8.2"
+      text: "Graf Fungsi"
+      text_en: "Graphs of Functions"
 learning_objectives:
     - id: 8.1.1
       text: "Menerangkan maksud fungsi."

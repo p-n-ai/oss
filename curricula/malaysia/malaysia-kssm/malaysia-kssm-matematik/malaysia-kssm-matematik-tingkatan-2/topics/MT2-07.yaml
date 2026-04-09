@@ -9,6 +9,16 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+    - id: "7.1"
+      text: "Jarak dalam Satah Cartes"
+      text_en: "Distance in the Cartesian Plane"
+    - id: "7.2"
+      text: "Titik Tengah dalam Satah Cartes"
+      text_en: "Midpoint in the Cartesian Plane"
+    - id: "7.3"
+      text: "Sistem Koordinat"
+      text_en: "Coordinate System"
 learning_objectives:
     - id: "7.1.1"
       text: "Menerangkan maksud jarak antara dua titik pada satah Cartes."
