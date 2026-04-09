@@ -9,77 +9,77 @@ language: ms
 difficulty: intermediate
 tier: core
 content_standards:
-    - id: "2.1"
-      text: "Matriks"
-      text_en: "Matrices"
-    - id: "2.2"
-      text: "Operasi Asas Matriks"
-      text_en: "Basic Operations on Matrices"
+  - id: "2.1"
+    text: "Matriks"
+    text_en: "Matrices"
+  - id: "2.2"
+    text: "Operasi Asas Matriks"
+    text_en: "Basic Operations on Matrices"
 learning_objectives:
-    - id: 2.1.1
-      text: "Mewakilkan maklumat situasi sebenar dalam bentuk matriks."
-      text_en: "Represent real-life situation information in matrix form."
-      bloom: apply
-    - id: 2.1.2
-      text: "Menentukan peringkat matriks dan seterusnya mengenal pasti unsur tertentu dalam suatu matriks."
-      text_en: "Determine the order of a matrix and subsequently identify specific elements in a matrix."
-      bloom: apply
-    - id: 2.1.3
-      text: "Menentukan sama ada dua matriks adalah sama."
-      text_en: "Determine whether two matrices are equal."
-      bloom: apply
-    - id: 2.2.1
-      text: "Menambah dan menolak matriks."
-      text_en: "Add and subtract matrices."
-      bloom: apply
-    - id: 2.2.2
-      text: "Mendarab matriks dengan suatu nombor."
-      text_en: "Multiply a matrix by a number."
-      bloom: apply
-    - id: 2.2.3
-      text: "Mendarab dua matriks."
-      text_en: "Multiply two matrices."
-      bloom: apply
-    - id: 2.2.4
-      text: "Menerangkan ciri-ciri matriks identiti."
-      text_en: "Explain the characteristics of an identity matrix."
-      bloom: understand
-    - id: 2.2.5
-      text: "Menerangkan maksud matriks songsang dan seterusnya menentukan matriks songsang bagi suatu matriks 2 × 2."
-      text_en: "Explain the meaning of an inverse matrix and subsequently determine the inverse matrix for a 2x2 matrix."
-      bloom: apply
-    - id: 2.2.6
-      text: "Menggunakan kaedah matriks untuk menyelesaikan persamaan linear serentak."
-      text_en: "Use the matrix method to solve simultaneous linear equations."
-      bloom: apply
-    - id: 2.2.7
-      text: "Menyelesaikan masalah yang melibatkan matriks."
-      text_en: "Solve problems involving matrices."
-      bloom: apply
+  - id: 2.1.1
+    text: "Mewakilkan maklumat situasi sebenar dalam bentuk matriks."
+    text_en: "Represent real-life situation information in matrix form."
+    bloom: apply
+  - id: 2.1.2
+    text: "Menentukan peringkat matriks dan seterusnya mengenal pasti unsur tertentu dalam suatu matriks."
+    text_en: "Determine the order of a matrix and subsequently identify specific elements in a matrix."
+    bloom: apply
+  - id: 2.1.3
+    text: "Menentukan sama ada dua matriks adalah sama."
+    text_en: "Determine whether two matrices are equal."
+    bloom: apply
+  - id: 2.2.1
+    text: "Menambah dan menolak matriks."
+    text_en: "Add and subtract matrices."
+    bloom: apply
+  - id: 2.2.2
+    text: "Mendarab matriks dengan suatu nombor."
+    text_en: "Multiply a matrix by a number."
+    bloom: apply
+  - id: 2.2.3
+    text: "Mendarab dua matriks."
+    text_en: "Multiply two matrices."
+    bloom: apply
+  - id: 2.2.4
+    text: "Menerangkan ciri-ciri matriks identiti."
+    text_en: "Explain the characteristics of an identity matrix."
+    bloom: understand
+  - id: 2.2.5
+    text: "Menerangkan maksud matriks songsang dan seterusnya menentukan matriks songsang bagi suatu matriks 2 × 2."
+    text_en: "Explain the meaning of an inverse matrix and subsequently determine the inverse matrix for a 2x2 matrix."
+    bloom: apply
+  - id: 2.2.6
+    text: "Menggunakan kaedah matriks untuk menyelesaikan persamaan linear serentak."
+    text_en: "Use the matrix method to solve simultaneous linear equations."
+    bloom: apply
+  - id: 2.2.7
+    text: "Menyelesaikan masalah yang melibatkan matriks."
+    text_en: "Solve problems involving matrices."
+    bloom: apply
 prerequisites:
-    required: []
+  required: []
 bloom_levels:
-    - apply
-    - understand
+  - apply
+  - understand
 quality_level: 1
 provenance: ai-generated
 generated_at: "2026-03-27T13:54:52Z"
 teaching:
-    sequence:
-        - 'Step 1: Introduce the concept of matrices and their real-world applications (15 min)'
-        - 'Step 2: Explain how to represent real-life situations using matrices (15 min)'
-        - 'Step 3: Teach basic operations like addition and subtraction of matrices (20 min)'
-        - 'Step 4: Demonstrate multiplication of matrices and scalar multiplication (20 min)'
-        - 'Step 5: Discuss identity and inverse matrices, including their properties (20 min)'
-        - 'Step 6: Apply matrices to solve simultaneous linear equations (20 min)'
-    common_misconceptions:
-        - misconception: Matrices can only contain numbers
-          remediation: Provide examples of matrices with variables or symbols
-        - misconception: Rows and columns can be interchanged freely
-          remediation: Emphasize the importance of order with 'Row before Column' mnemonic
+  sequence:
+    - 'Step 1: Introduce the concept of matrices and their real-world applications (15 min)'
+    - 'Step 2: Explain how to represent real-life situations using matrices (15 min)'
+    - 'Step 3: Teach basic operations like addition and subtraction of matrices (20 min)'
+    - 'Step 4: Demonstrate multiplication of matrices and scalar multiplication (20 min)'
+    - 'Step 5: Discuss identity and inverse matrices, including their properties (20 min)'
+    - 'Step 6: Apply matrices to solve simultaneous linear equations (20 min)'
+  common_misconceptions:
+    - misconception: Matrices can only contain numbers
+      remediation: Provide examples of matrices with variables or symbols
+    - misconception: Rows and columns can be interchanged freely
+      remediation: Emphasize the importance of order with 'Row before Column' mnemonic
 engagement_hooks:
-    - Use local population data to illustrate matrix applications
-    - Discuss how matrices are used in computer graphics and animations
-    - Connect matrices to sports statistics for team performance analysis
-    - Explore matrices in financial modeling and budgeting scenarios
+  - Use local population data to illustrate matrix applications
+  - Discuss how matrices are used in computer graphics and animations
+  - Connect matrices to sports statistics for team performance analysis
+  - Explore matrices in financial modeling and budgeting scenarios
 assessments_file: MT5-02.assessments.yaml

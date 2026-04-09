@@ -1,5 +1,5 @@
 id: MT5-08
-# official_ref: ""  # fill in if the source document assigns a chapter/section code
+official_ref: "8.0"
 name: "Pemodelan Matematik"
 name_en: "Mathematical Modeling"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-5
@@ -10,37 +10,37 @@ language: ms
 difficulty: beginner
 tier: core
 content_standards:
-    - id: "8.1"
-      text: "Pemodelan Matematik"
-      text_en: "Mathematical Modeling"
+  - id: "8.1"
+    text: "Pemodelan Matematik"
+    text_en: "Mathematical Modeling"
 learning_objectives:
-    - id: "8.1.1"
-      text: "Menerangkan pemodelan matematik."
-      text_en: "Explain mathematical modeling."
-      bloom: understand
-    - id: "8.1.2"
-      text: "Menyelesaikan masalah kehidupan sebenar melalui pemodelan matematik yang melibatkan fungsi: Linear, Kuadratik, Eksponen dan mengkomunikasikan proses pemodelan matematik yang dilaksanakan."
-      text_en: "Solve real-life problems through mathematical modeling involving functions: Linear, Quadratic, Exponential, and communicate the implemented mathematical modeling process."
-      bloom: apply
+  - id: "8.1.1"
+    text: "Menerangkan pemodelan matematik."
+    text_en: "Explain mathematical modeling."
+    bloom: understand
+  - id: "8.1.2"
+    text: "Menyelesaikan masalah kehidupan sebenar melalui pemodelan matematik yang melibatkan fungsi: Linear, Kuadratik, Eksponen dan mengkomunikasikan proses pemodelan matematik yang dilaksanakan."
+    text_en: "Solve real-life problems through mathematical modeling involving functions: Linear, Quadratic, Exponential, and communicate the implemented mathematical modeling process."
+    bloom: apply
 prerequisites:
-    required: []
+  required: []
 bloom_levels:
-    - understand
-    - apply
+  - understand
+  - apply
 quality_level: 1
 provenance: ai-generated
 generated_at: "2026-03-27T13:54:52Z"
 teaching:
-    sequence:
-        - 'Step 1: Introduce mathematical modeling and its importance in real-world problem-solving (15 min)'
-        - 'Step 2: Explore the use of linear functions in modeling scenarios such as business costs (20 min)'
-        - 'Step 3: Explain quadratic and exponential functions in modeling real-world situations like parabolic motion and population growth (25 min)'
-    common_misconceptions:
-        - misconception: All functions are linear
-          remediation: Provide examples of situations requiring quadratic or exponential models
-        - misconception: Models are purely theoretical
-          remediation: Use case studies and practical projects to show direct applications
+  sequence:
+    - 'Step 1: Introduce mathematical modeling and its importance in real-world problem-solving (15 min)'
+    - 'Step 2: Explore the use of linear functions in modeling scenarios such as business costs (20 min)'
+    - 'Step 3: Explain quadratic and exponential functions in modeling real-world situations like parabolic motion and population growth (25 min)'
+  common_misconceptions:
+    - misconception: All functions are linear
+      remediation: Provide examples of situations requiring quadratic or exponential models
+    - misconception: Models are purely theoretical
+      remediation: Use case studies and practical projects to show direct applications
 engagement_hooks:
-    - Calculate travel costs using real data from local map applications
-    - Discuss the role of mathematical models in personal financial planning
+  - Calculate travel costs using real data from local map applications
+  - Discuss the role of mathematical models in personal financial planning
 assessments_file: MT5-08.assessments.yaml
