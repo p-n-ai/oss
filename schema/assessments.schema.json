@@ -70,6 +70,19 @@
                     "additionalProperties": { "type": "string" }
                   }
                 ]
+              },
+              "distractors": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["value", "feedback"],
+                  "properties": {
+                    "value": { "type": "string" },
+                    "feedback": { "type": "string" }
+                  },
+                  "additionalProperties": false
+                },
+                "description": "Common wrong answers with feedback"
               }
             },
             "additionalProperties": false

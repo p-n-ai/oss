@@ -98,6 +98,11 @@
           "bloom": {
             "type": "string",
             "enum": ["remember", "understand", "apply", "analyze", "evaluate", "create"]
+          },
+          "content_standard_id": {
+            "type": "string",
+            "pattern": "^[0-9]+\\.[0-9]+$",
+            "description": "Reference to a content standard ID within this topic"
           }
         },
         "additionalProperties": false
@@ -193,6 +198,40 @@
         },
         "additionalProperties": false
       }
+    },
+    "performance_standards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "level": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 6
+          },
+          "id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "text_en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "descriptor": {
+            "type": "string",
+            "minLength": 1
+          },
+          "descriptor_en": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      },
+      "description": "Tahap Penguasaan (TP) performance standard descriptors (levels 1-6)"
     },
     "tier": {
       "type": "string",
