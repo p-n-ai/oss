@@ -1,36 +1,57 @@
 topic_id: MT1-08
-provenance: ai-generated
-description: "Worked examples for Garis dan Sudut"
+provenance: curriculum-expert-verified
+description: "Scaffolded worked examples for Lines and Angles (Garis dan Sudut)"
 worked_examples:
   - id: WE-01
-    topic: "Kekongruenan Tembereng Garis"
+    topic: "Congruence of Line Segments"
     difficulty: easy
-    real_world_analogy: "Think of two identical pieces of string; when placed one over the other, they appear as one."
-    misconception_alert: "Students often assume that lines are congruent if they appear visually similar, without measuring."
-    scenario: "Adik mempunyai dua batang kayu yang kelihatan sama panjang. Bagaimana Adik boleh memastikan kedua-dua batang kayu itu benar-benar sama panjang?"
+    learning_objective: "8.1.1"
+    real_world_analogy: "Think of two identical pencils from the same brand. If you put them side-by-side, they match perfectly because their lengths are exactly the same."
+    misconception_alert: "Students often think lines are congruent just because they look parallel or similar. Congruence ($Kekongruenan$) ONLY depends on the exact measurement of length."
+    scenario: "Adik has two wooden sticks. Stick $A$ measures $15$ cm and Stick $B$ also measures $15$ cm. Are these two sticks congruent? Explain the rationale."
     working: |
-      Step 1: Letakkan kedua-dua batang kayu di atas satu sama lain.
-      Step 2: Perhatikan sama ada kedua-dua hujung batang kayu tersebut sejajar.
-      Step 3: Jika ya, ini bermakna kedua-dua batang kayu adalah kongruen.
+      1. Identify the length of the first segment: $Length$ $A = 15$ cm.
+      2. Identify the length of the second segment: $Length$ $B = 15$ cm.
+      3. Compare the two lengths: $15$ cm $= 15$ cm.
+      4. Conclusion: Since the lengths are identical, the line segments are congruent ($kongruen$).
 
   - id: WE-02
-    topic: "Sudut Pelengkap dan Penggenap"
+    topic: "Complementary and Supplementary Angles"
     difficulty: medium
-    real_world_analogy: "A right angle is like a quarter slice of a pizza. Complementary angles complete it, while supplementary angles form a half pizza."
-    misconception_alert: "Students may confuse complementary angles (sum to 90°) with supplementary angles (sum to 180°)."
-    scenario: "Dalam sebuah bilik, terdapat dua sudut yang saling melengkapi. Jika salah satu sudut adalah 35°, berapakah nilai sudut yang satu lagi?"
+    learning_objective: "8.1.5"
+    real_world_analogy: "A right angle is like a square corner of a book. Complementary angles are two friends who share that corner to make exactly $90^\circ$."
+    misconception_alert: "Students often flip the two: remember that 'C' in Complementary comes before 'S' in Supplementary, just like $90^\circ$ comes before $180^\circ$."
+    scenario: "In a construction plan, two angles are complementary ($sudut$ $pelengkap$). If one angle is $35^\circ$, find the value of the other angle, $x$."
     working: |
-      Step 1: Kenal pasti bahawa sudut pelengkap jumlahnya adalah 90°.
-      Step 2: Tolak sudut yang diberi (35°) daripada 90°.
-      Step 3: 90° - 35° = 55°. Maka, nilai sudut yang satu lagi ialah 55°.
+      1. Identify the property: Complementary angles sum up to $90^\circ$.
+      2. Set up the equation: $x + 35^\circ = 90^\circ$.
+      3. Subtract $35^\circ$ from both sides: $x = 90^\circ - 35^\circ$.
+      4. Calculate the final value: $x = 55^\circ$.
 
   - id: WE-03
-    topic: "Garis Selari dan Garis Rentas Lintang"
-    difficulty: hard
-    real_world_analogy: "Imagine two train tracks running parallel; any crossroad will intersect them at the same angle."
-    misconception_alert: "Students might think that all intersecting lines with parallel lines are perpendicular, which is not the case unless specified."
-    scenario: "Dua jalan raya bergerak selari antara satu sama lain. Sebuah jalan yang merentasi kedua-dua jalan ini membentuk sudut 70° dengan salah satu jalan. Tentukan sudut yang terbentuk antara jalan rentas lintang dan jalan raya yang satu lagi."
+    topic: "Angles Related to Intersecting Lines"
+    difficulty: medium
+    learning_objective: "8.2.2"
+    real_world_analogy: "Think of an 'X' shape made by two crossing paths. If you stand in one angle, the person directly opposite you in the 'X' is in an identical angle."
+    misconception_alert: "Students often think all four angles in an intersection are equal. This is only true if the lines are perpendicular ($90^\circ$)."
+    scenario: "Two straight lines intersect. If one of the angles is $110^\circ$, find the value of its adjacent angle ($sudut$ $bersebelahan$), $y$."
     working: |
-      Step 1: Ketahui bahawa sudut sepadan dalam garis selari dan rentas lintang adalah sama.
-      Step 2: Oleh kerana sudut antara jalan rentas lintang dan salah satu jalan raya ialah 70°, sudut sepadan dengan jalan yang satu lagi juga adalah 70°.
-      Step 3: Maka, sudut yang terbentuk antara jalan rentas lintang dan jalan raya yang satu lagi adalah 70°.
+      1. Identify the property: Adjacent angles on a straight line sum up to $180^\circ$.
+      2. Set up the equation: $y + 110^\circ = 180^\circ$.
+      3. Subtract $110^\circ$ from both sides: $y = 180^\circ - 110^\circ$.
+      4. Calculate the final value: $y = 70^\circ$.
+
+  - id: WE-04
+    topic: "Parallel Lines and Transversals"
+    difficulty: hard
+    learning_objective: "8.3.4"
+    real_world_analogy: "Imagine the parallel railings of the Penang Bridge. If a support beam crosses them, it creates a 'Z' shape (Alternate Angles) where the inner corners are identical."
+    misconception_alert: "The 'C' shape (Interior Angles) are NOT equal; they add up to $180^\circ$. Only 'Z' (Alternate) and 'F' (Corresponding) shapes show equal angles."
+    scenario: "Two parallel lines are intersected by a transversal. An interior angle is $(2x)^\circ$ and its corresponding interior angle on the same side is $120^\circ$. Find the value of $x$."
+    working: |
+      1. Identify the property: Interior angles ($sudut$ $pedalaman$) on parallel lines sum up to $180^\circ$.
+      2. Set up the algebraic equation: $2x + 120 = 180$.
+      3. Subtract $120$ from both sides: $2x = 180 - 120$.
+      4. Simplify: $2x = 60$.
+      5. Divide both sides by $2$: $x = 60 \div 2$.
+      6. Final Answer: $x = 30$.

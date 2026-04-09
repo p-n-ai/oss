@@ -1,0 +1,143 @@
+id: MT1-08
+official_ref: "Chapter 8"
+name: "Garis dan Sudut"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+sync_checked: true
+
+content_standards:
+  - id: "8.1"
+    text: "Garis dan sudut"
+  - id: "8.2"
+    text: "Sudut yang berkaitan dengan garis bersilang"
+  - id: "8.3"
+    text: "Sudut yang berkaitan dengan garis selari dan garis rentas lintang"
+
+learning_objectives:
+  - id: "8.1.1"
+    content_standard_id: "8.1"
+    text: "Menentu dan menerangkan kekongruenan tembereng garis dan kekongruenan sudut."
+    bloom: understand
+  - id: "8.1.2"
+    content_standard_id: "8.1"
+    text: "Menganggar dan mengukur saiz tembereng garis dan sudut serta menerangkan cara anggaran diperoleh."
+    bloom: apply
+  - id: "8.1.3"
+    content_standard_id: "8.1"
+    text: "Mengenal, membanding beza dan menerangkan sifat sudut pada garis lurus, sudut refleks, dan sudut putaran lengkap."
+    bloom: understand
+  - id: "8.1.4"
+    content_standard_id: "8.1"
+    text: "Memerihalkan sifat sudut pelengkap, sudut penggenap dan sudut konjugat."
+    bloom: understand
+  - id: "8.1.5"
+    content_standard_id: "8.1"
+    text: "Menyelesaikan masalah yang melibatkan sudut pelengkap, sudut penggenap dan sudut konjugat."
+    bloom: apply
+  - id: "8.1.6"
+    content_standard_id: "8.1"
+    text: "Membina (i) tembereng garis, (ii) pembahagi dua sama serenjang suatu tembereng garis, (iii) garis serenjang kepada suatu garis lurus, (iv) garis selari dan menerangkan rasional langkah-langkah pembinaan."
+    bloom: create
+  - id: "8.1.7"
+    content_standard_id: "8.1"
+    text: "Membina sudut dan pembahagi dua sama sudut serta menerangkan rasional langkah-langkah pembinaan."
+    bloom: create
+  - id: "8.2.1"
+    content_standard_id: "8.2"
+    text: "Mengenal pasti, menerangkan dan melukis sudut bertentang bucu dan sudut bersebelahan pada garis bersilang, termasuk garis serenjang."
+    bloom: understand
+  - id: "8.2.2"
+    content_standard_id: "8.2"
+    text: "Menentukan nilai sudut yang berkaitan dengan garis bersilang apabila nilai sudut lain diberi."
+    bloom: apply
+  - id: "8.2.3"
+    content_standard_id: "8.2"
+    text: "Menyelesaikan masalah yang melibatkan sudut yang berkaitan dengan garis bersilang."
+    bloom: apply
+  - id: "8.3.1"
+    content_standard_id: "8.3"
+    text: "Mengenal, menerangkan dan melukis garis selari dan garis rentas lintang."
+    bloom: understand
+  - id: "8.3.2"
+    content_standard_id: "8.3"
+    text: "Mengenal, menerangkan dan melukis sudut sepadan, sudut selang-seli dan sudut pedalaman."
+    bloom: understand
+  - id: "8.3.3"
+    content_standard_id: "8.3"
+    text: "Menentukan sama ada dua garis lurus adalah selari berdasarkan sifat-sifat sudut yang berkaitan dengan garis rentas lintang."
+    bloom: analyze
+  - id: "8.3.4"
+    content_standard_id: "8.3"
+    text: "Menentukan nilai sudut yang berkaitan dengan garis selari dan garis rentas lintang apabila nilai sudut lain diberi."
+    bloom: apply
+  - id: "8.3.5"
+    content_standard_id: "8.3"
+    text: "Mengenal dan mewakilkan sudut dongak dan sudut tunduk dalam situasi kehidupan sebenar."
+    bloom: understand
+  - id: "8.3.6"
+    content_standard_id: "8.3"
+    text: "Menyelesaikan masalah yang melibatkan sudut yang berkaitan dengan garis selari dan garis rentas lintang."
+    bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor: "Menunjukkan pengetahuan asas tentang garis dan sudut."
+  - level: 2
+    descriptor: "Menunjukkan kefahaman tentang garis dan sudut."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman tentang garis dan sudut untuk melaksanakan tugasan mudah."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang garis dan sudut dalam konteks penyelesaian masalah rutin yang mudah."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang garis dan sudut dalam konteks penyelesaian masalah rutin yang kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang garis dan sudut dalam konteks penyelesaian masalah bukan rutin secara kreatif."
+
+prerequisites:
+  required:
+    - "primary-school-geometry"
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Langkah 1: Pengenalan kepada garis, sudut, dan penentuan kekongruenan (SK 8.1.1 - 8.1.2)"
+    - "Langkah 2: Meneroka sifat garis lurus, sudut refleks, dan pasangan sudut khas (SK 8.1.3 - 8.1.5)"
+    - "Langkah 3: Pembinaan geometri bagi garis dan sudut beserta rasional (SK 8.1.6 - 8.1.7)"
+    - "Langkah 4: Menganalisis sudut pada garis bersilang (SK 8.2)"
+    - "Langkah 5: Menguasai garis selari, garis rentas lintang, dan sudut sepadan/selang-seli/pedalaman (SK 8.3.1 - 8.3.4)"
+    - "Langkah 6: Aplikasi dunia sebenar: Sudut dongak dan sudut tunduk (SK 8.3.5 - 8.3.6)"
+  common_misconceptions:
+    - misconception: "Semua sudut mesti diukur bermula dari skala luar jangka sudut (protractor)."
+      remediation: "Tunjukkan cara memilih skala sifar yang selari dengan lengan tapak sudut tersebut."
+    - misconception: "Sudut yang kongruen mestilah mempunyai orientasi dan panjang lengan yang sama."
+      remediation: "Jelaskan bahawa kekongruenan hanya merujuk kepada saiz sudut, tanpa mengira panjang lengan atau putaran."
+    - misconception: "Garis selari hanya wujud dalam kedudukan menegak atau mendatar sahaja."
+      remediation: "Berikan contoh garis selari yang condong dalam objek harian seperti pagar tangga."
+  engagement_hooks:
+    - "Bincangkan kejuruteraan struktur dan keindahan visual Jambatan Pulau Pinang dan Menara Berkembar Petronas."
+    - "Teroka ketepatan geometri yang diperlukan dalam rekaan corak batik tradisional Melayu."
+    - "Kaji bagaimana juruukur menggunakan sudut dongak untuk mengira ketinggian mercu tanda tanpa perlu memanjatnya."
+
+bloom_levels:
+  - understand
+  - apply
+  - analyze
+  - create
+
+quality_level: 2
+provenance: curriculum-expert-verified
+
+assessments_file: "MT1-08.assessments.yaml"
+ai_teaching_notes: "MT1-08.teaching.md"
+examples_file: "MT1-08.examples.yaml"

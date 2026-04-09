@@ -1,0 +1,57 @@
+topic_id: MT1-08
+provenance: curriculum-expert-verified
+description: "Contoh kerja berstruktur bagi tajuk Garis dan Sudut (Lines and Angles)"
+worked_examples:
+  - id: WE-01
+    topic: "Kekongruenan Tembereng Garis"
+    difficulty: easy
+    learning_objective: "8.1.1"
+    real_world_analogy: "Bayangkan dua batang pensel yang sama jenama dan jenis. Jika anda letakkannya bersebelahan, hujungnya akan selari tepat kerana panjangnya adalah sama."
+    misconception_alert: "Pelajar sering menganggap garis adalah kongruen hanya kerana ia kelihatan selari atau serupa. Kekongruenan (Congruence) HANYA bergantung kepada ukuran panjang yang tepat."
+    scenario: "Adik mempunyai dua batang kayu. Kayu A berukuran 15 cm dan Kayu B juga berukuran 15 cm. Adakah kedua-dua kayu ini kongruen? Terangkan rasionalnya."
+    working: |
+      1. Kenal pasti panjang tembereng garis pertama: Panjang A = 15 cm.
+      2. Kenal pasti panjang tembereng garis kedua: Panjang B = 15 cm.
+      3. Bandingkan kedua-dua panjang: 15 cm = 15 cm.
+      4. Kesimpulan: Oleh kerana panjangnya adalah sama, maka tembereng garis itu adalah kongruen.
+
+  - id: WE-02
+    topic: "Sudut Pelengkap dan Sudut Penggenap"
+    difficulty: medium
+    learning_objective: "8.1.5"
+    real_world_analogy: "Sudut tegak adalah seperti penjuru sebuah buku. Sudut pelengkap ialah dua 'kawan' yang berkongsi penjuru itu untuk membentuk tepat 90°."
+    misconception_alert: "Pelajar selalu terkeliru antara pelengkap dan penggenap: ingat bahawa 'P' (Pelengkap) merujuk kepada 90°, manakala 'Pe' (Penggenap) yang lebih panjang merujuk kepada 180°."
+    scenario: "Dalam satu pelan pembinaan, dua sudut adalah saling melengkapi (sudut pelengkap). Jika satu sudut ialah 35°, cari nilai sudut yang satu lagi, x."
+    working: |
+      1. Kenal pasti sifat: Hasil tambah sudut pelengkap ialah 90°.
+      2. Bina persamaan: x + 35° = 90°.
+      3. Tolak 35° daripada kedua-dua belah: x = 90° - 35°.
+      4. Hitung nilai akhir: x = 55°.
+
+  - id: WE-03
+    topic: "Sudut yang Berkaitan dengan Garis Bersilang"
+    difficulty: medium
+    learning_objective: "8.2.2"
+    real_world_analogy: "Fikirkan bentuk 'X' yang terbentuk apabila dua batang kayu bersilang. Jika anda berada di satu sudut, orang yang bertentangan tepat dengan anda dalam bentuk 'X' itu berada pada sudut yang sama saiz."
+    misconception_alert: "Pelajar sering beranggapan keempat-empat sudut pada persilangan adalah sama. Ini hanya benar jika garis-garis itu adalah berserenjang (90°)."
+    scenario: "Dua garis lurus bersilang. Jika salah satu sudut ialah 110°, cari nilai sudut bersebelahannya, y."
+    working: |
+      1. Kenal pasti sifat: Sudut bersebelahan pada garis lurus berjumlah 180°.
+      2. Bina persamaan: y + 110° = 180°.
+      3. Tolak 110° daripada kedua-dua belah: y = 180° - 110°.
+      4. Hitung nilai akhir: y = 70°.
+
+  - id: WE-04
+    topic: "Garis Selari dan Garis Rentas Lintang"
+    difficulty: hard
+    learning_objective: "8.3.4"
+    real_world_analogy: "Bayangkan pagar Jambatan Pulau Pinang yang selari. Jika satu tiang sokongan merentasi pagar itu, ia membentuk corak 'Z' (Sudut Selang-seli) di mana sudut-sudut di bucu dalamnya adalah sama."
+    misconception_alert: "Sudut dalam corak 'C' (Sudut Pedalaman) TIDAK sama saiz; ia berjumlah 180°. Hanya corak 'Z' (Selang-seli) dan 'F' (Sepadan) yang menunjukkan sudut yang sama saiz."
+    scenario: "Dua garis selari dipotong oleh satu garis rentas lintang. Satu sudut pedalaman ialah (2x)° dan sudut pedalaman sepadan di sebelah yang sama ialah 120°. Cari nilai x."
+    working: |
+      1. Kenal pasti sifat: Sudut pedalaman pada garis selari berjumlah 180°.
+      2. Bina persamaan algebra: 2x + 120 = 180.
+      3. Tolak 120 daripada kedua-dua belah: 2x = 180 - 120.
+      4. Permudahkan: 2x = 60.
+      5. Bahagi kedua-dua belah dengan 2: x = 60 ÷ 2.
+      6. Jawapan Akhir: x = 30.

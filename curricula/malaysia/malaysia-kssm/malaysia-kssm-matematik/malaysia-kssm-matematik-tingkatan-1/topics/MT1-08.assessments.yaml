@@ -1,115 +1,194 @@
 topic_id: MT1-08
-provenance: ai-generated
-
+provenance: curriculum-expert-verified
 questions:
-  # LO: Menentu dan menerangkan kekongruenan tembereng garis dan kekongruenan sudut.
   - id: Q1
-    text: "Dua sudut pada satu garis lurus ialah $120^\\circ$ dan $60^\\circ$. Adakah sudut-sudut ini kongruen? Jelaskan jawapan anda."
+    text: "Which of the following angles is a **reflex angle** ($sudut$ $refleks$)?"
+    difficulty: easy
+    learning_objective: "8.1.3"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "215^\\circ"
+      working: |
+        Step 1: Recall the definition of a reflex angle.
+        Step 2: A reflex angle is greater than $180^\circ$ but less than $360^\circ$.
+        Step 3: Check the options. $215^\circ$ is the only value in this range.
+      distractors:
+        - value: "75^\\circ"
+          feedback: "This is an acute angle. Remember, a reflex angle must be larger than a straight line ($180^\circ$)."
+        - value: "180^\\circ"
+          feedback: "This is a straight line angle. A reflex angle must exceed $180^\circ$."
+        - value: "370^\\circ"
+          feedback: "This is more than one whole turn. A reflex angle must be less than $360^\circ$."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Check the 'Walking through Time' or 'Summary' section. What is the range for a reflex angle?"
+
+  - id: Q2
+    text: "Identify if the following statements about lines and angles are TRUE or FALSE: (i) The sum of complementary angles is $90^\\circ$. (ii) Conjugate angles sum up to $180^\\circ$. (iii) A whole turn angle is exactly $360^\\circ$."
     difficulty: medium
-    learning_objective: 8.1.1
+    learning_objective: "8.1.4"
     tp_level: 2
     kbat: false
     answer:
       type: free_text
-      value: "Tidak, sudut-sudut ini tidak kongruen kerana mereka mempunyai ukuran yang berbeza."
+      value: "(i) TRUE — complementary angles sum to $90^\\circ$. (ii) FALSE — conjugate angles sum to $360^\\circ$, not $180^\\circ$. (iii) TRUE — a whole turn is $360^\\circ$."
       working: |
-        Sudut kongruen mempunyai ukuran yang sama. Oleh kerana $120^\\circ \\neq 60^\\circ$, sudut-sudut ini tidak kongruen.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Memahami definisi sudut kongruen."
-      - marks: 1
-        criteria: "Menentukan bahawa sudut $120^\\circ$ dan $60^\\circ$ tidak kongruen."
-    hints:
-      - level: 1
-        text: "MISCONCEPTION ALERT: Fikirkan tentang definisi sudut kongruen. Apakah syarat untuk dua sudut menjadi kongruen?"
-
-  # LO: Menyelesaikan masalah yang melibatkan sudut pelengkap, sudut penggenap dan sudut konjugat.
-  - id: Q2
-    text: "Jika sudut $A$ ialah $70^\\circ$, tentukan sudut konjugat kepada sudut $A$."
-    difficulty: medium
-    learning_objective: 8.1.5
-    tp_level: 3
-    kbat: false
-    answer:
-      type: exact
-      value: "290"
-      working: |
-        Sudut konjugat ialah $360^\\circ - 70^\\circ = 290^\\circ$.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menggunakan formula sudut konjugat dengan betul."
-      - marks: 1
-        criteria: "Mengira nilai sudut konjugat dengan tepat."
-    hints:
-      - level: 1
-        text: "Apakah definisi sudut konjugat? Bagaimana ia berkaitan dengan $360^\\circ$?"
-
-  # LO: Menentukan nilai sudut yang berkaitan dengan garis bersilang apabila nilai sudut lain diberi.
-  - id: Q3
-    text: "Di dalam rajah, sudut $x$ bersebelahan dengan sudut $110^\\circ$. Hitung nilai sudut $x$."
-    difficulty: medium
-    learning_objective: 8.2.2
-    tp_level: 3
-    kbat: false
-    answer:
-      type: exact
-      value: "70"
-      working: |
-        Sudut $x$ dan $110^\\circ$ adalah sudut bersebelahan yang menjumlahkan $180^\\circ$. Oleh itu, $x = 180^\\circ - 110^\\circ = 70^\\circ$.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Memahami bahawa sudut bersebelahan menjumlahkan $180^\\circ$."
-      - marks: 1
-        criteria: "Mengira nilai sudut $x$ dengan betul."
-    hints:
-      - level: 1
-        text: "Ingat bahawa sudut bersebelahan pada garis lurus menjumlahkan $180^\\circ$."
-
-  # LO: Menentukan sama ada dua garis lurus adalah selari berdasarkan sifat-sifat sudut yang berkaitan dengan garis rentas lintang.
-  - id: Q4
-    text: "Diberi bahawa dua garis lurus dipotong oleh garis rentas lintang, dan sudut sepadan adalah $75^\\circ$ dan $105^\\circ$. Adakah garis-garis ini selari? Jelaskan."
-    difficulty: medium
-    learning_objective: 8.3.3
-    tp_level: 4
-    kbat: true
-    answer:
-      type: free_text
-      value: "Tidak, garis-garis ini tidak selari kerana sudut sepadan tidak sama."
-      working: |
-        Sudut sepadan pada garis lurus selari adalah sama. Oleh kerana $75^\\circ \\neq 105^\\circ$, garis-garis ini tidak selari.
+        1. Complementary angles sum to $90^\circ$ (Correct).
+        2. Conjugate angles sum to $360^\circ$, not $180^\circ$ (Incorrect).
+        3. A whole turn is $360^\circ$ (Correct).
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Memahami konsep sudut sepadan."
+        criteria: "Correctly identifies property of complementary angles."
       - marks: 1
-        criteria: "Mengetahui syarat sudut sepadan untuk garis selari."
+        criteria: "Correctly identifies sum of conjugate angles as $360^\\circ$."
       - marks: 1
-        criteria: "Menentukan dengan betul bahawa garis-garis tidak selari."
+        criteria: "Correctly identifies whole turn angle as $360^\\circ$."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Sudut sepadan pada garis selari mesti sama. Apa yang terjadi jika mereka tidak sama?"
+        text: "Remember: Complementary = $90^\\circ$, Supplementary = $180^\\circ$, and Conjugate = $360^\\circ$."
 
-  # LO: Menyelesaikan masalah yang melibatkan sudut yang berkaitan dengan garis selari dan garis rentas lintang.
-  - id: Q5
-    text: "Dalam rajah, garis $AB$ dan $CD$ adalah selari dan dipotong oleh garis rentas lintang $EF$. Jika sudut $EFG = 120^\\circ$, cari nilai sudut $FGH$."
-    difficulty: medium
-    learning_objective: 8.3.6
+  - id: Q3
+    text: "In the diagram, $p$ and $54^\\circ$ are **complementary angles**. Calculate the value of $p$."
+    difficulty: easy
+    learning_objective: "8.1.5"
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "60"
+      value: "36"
       working: |
-        Sudut $EFG$ dan $FGH$ adalah sudut selang-seli yang menjumlahkan $180^\\circ$. Oleh itu, $FGH = 180^\\circ - 120^\\circ = 60^\\circ$.
+        Step 1: Identify the relationship. Complementary angles sum to $90^\circ$.
+        Step 2: Set up the equation: $p + 54^\circ = 90^\circ$.
+        Step 3: Solve for $p$: $p = 90^\circ - 54^\circ = 36^\circ$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menggunakan sifat sudut selang-seli dengan betul."
+        criteria: "Shows the subtraction from $90^\\circ$."
       - marks: 1
-        criteria: "Mengira nilai sudut $FGH$ dengan tepat."
+        criteria: "Provides the correct final value of $36$."
     hints:
       - level: 1
-        text: "Apakah hubungan antara sudut selang-seli pada garis selari?"
+        text: "If two angles are complementary, what is their total sum? Use that to find the missing part."
+
+  - id: Q4
+    text: "Two straight lines intersect at a point. If one of the angles is $110^\\circ$, what is the size of the **vertically opposite angle** ($sudut$ $bertentang$ $bucu$)?"
+    difficulty: medium
+    learning_objective: "8.2.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "110"
+      working: |
+        Step 1: Recall the property of intersecting lines.
+        Step 2: Vertically opposite angles are always equal.
+        Step 3: Therefore, the opposite angle is also $110^\circ$.
+    marks: 1
+    hints:
+      - level: 1
+        text: "Think of the 'X' shape. If you have an angle on one side, what do you know about the angle directly across from it?"
+
+  - id: Q5
+    text: "Given a transversal intersects two parallel lines. Which angle pair is equal based on the **'Z' shape** property?"
+    difficulty: medium
+    learning_objective: "8.3.2"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Alternate angles"
+      working: |
+        Step 1: Recognize common letter shapes for parallel line angles.
+        Step 2: 'F' is for Corresponding, 'C' is for Interior, and 'Z' is for Alternate angles.
+      distractors:
+        - value: "Corresponding angles"
+          feedback: "Corresponding angles ($sudut$ $sepadan$) form an 'F' shape, not a 'Z' shape."
+        - value: "Interior angles"
+          feedback: "Interior angles ($sudut$ $pedalaman$) form a 'C' or 'U' shape and sum to $180^\\circ$."
+        - value: "Adjacent angles"
+          feedback: "Adjacent angles are next to each other on a line, not necessarily related to the 'Z' shape of parallel lines."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Look at the 'Summary' diagram in your notes. Which term is linked to the 'Z' pattern?"
+
+  - id: Q6
+    text: "A surveyor stands on horizontal ground and looks at the top of a flagpole. The angle between his **line of sight** and the **horizontal line** is $35^\\circ$. What is the name of this angle?"
+    difficulty: easy
+    learning_objective: "8.3.5"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Angle of elevation"
+      working: |
+        Step 1: Determine the direction of sight. He is looking 'up' at the top of the pole.
+        Step 2: Looking up from the horizontal line is called the angle of elevation ($sudut$ $dongak$).
+      distractors:
+        - value: "Angle of depression"
+          feedback: "Angle of depression ($sudut$ $tunduk$) is when looking 'down' from the horizontal line."
+        - value: "Reflex angle"
+          feedback: "A reflex angle is a size classification ($>180^\\circ$), not a situational term for sight lines."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Is the surveyor looking up or down? Use the 'Bird and Cat' analogy from the textbook."
+
+  - id: Q7
+    text: "In a diagram, line $AB$ is parallel to $CD$. A transversal $EF$ intersects them. If the interior angles on the same side are $(2x)^\\circ$ and $(x + 30)^\\circ$, find the value of $x$."
+    difficulty: hard
+    learning_objective: "8.3.4"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "50"
+      working: |
+        Step 1: Interior angles on parallel lines sum to $180^\circ$.
+        Step 2: Create the equation: $2x + (x + 30) = 180$.
+        Step 3: Simplify: $3x + 30 = 180$.
+        Step 4: Subtract 30: $3x = 150$.
+        Step 5: Divide by 3: $x = 50$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Identifies that interior angles sum to $180^\\circ$."
+      - marks: 1
+        criteria: "Sets up the correct algebraic equation."
+      - marks: 1
+        criteria: "Correctly simplifies the equation to $3x = 150$."
+      - marks: 1
+        criteria: "Finds the accurate value of $x$."
+    hints:
+      - level: 1
+        text: "Recall the 'C' shape property. What should the total be when you add those two expressions together?"
+
+  - id: Q8
+    text: "Jefri is observing a bird at an angle of elevation of $40^\\circ$. At the same time, the bird looks down at a cat on the ground. If the cat is directly below Jefri, describe the relationship between Jefri's angle of elevation and the bird's angle of depression. Explain your reasoning."
+    difficulty: hard
+    learning_objective: "8.3.6"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "The bird's angle of depression to Jefri is $40^\\circ$ because they are alternate angles between parallel horizontal lines."
+      working: |
+        1. Jefri's horizontal line of sight and the bird's horizontal line of sight are parallel.
+        2. The line of sight between Jefri and the bird acts as a transversal.
+        3. Angle of elevation and angle of depression between the same two points are alternate angles.
+        4. Alternate angles are equal.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "States the angle of depression is $40^\\circ$."
+      - marks: 1
+        criteria: "Identifies the horizontal lines are parallel."
+      - marks: 1
+        criteria: "Explains using the property of alternate angles ($sudut$ $selang$-$seli$)."
+    hints:
+      - level: 1
+        text: "Draw two horizontal lines—one for Jefri and one for the bird. What 'letter shape' does the line between them form?"

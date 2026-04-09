@@ -1,0 +1,194 @@
+topic_id: MT1-08
+provenance: curriculum-expert-verified
+questions:
+  - id: Q1
+    text: "Antara berikut, yang manakah merupakan **sudut refleks** ($reflex$ $angle$)?"
+    difficulty: easy
+    learning_objective: "8.1.3"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "215^\\circ"
+      working: |
+        Langkah 1: Ingat kembali definisi sudut refleks.
+        Langkah 2: Sudut refleks ialah sudut yang lebih besar daripada $180^\circ$ tetapi kurang daripada $360^\circ$.
+        Langkah 3: Semak pilihan jawapan. $215^\circ$ adalah satu-satunya nilai dalam julat ini.
+      distractors:
+        - value: "75^\\circ"
+          feedback: "Ini ialah sudut tirus. Ingat, sudut refleks mestilah lebih besar daripada sudut pada garis lurus ($180^\\circ$)."
+        - value: "180^\\circ"
+          feedback: "Ini ialah sudut pada garis lurus. Sudut refleks mestilah melebihi $180^\\circ$."
+        - value: "370^\\circ"
+          feedback: "Ini melebihi satu putaran lengkap. Sudut refleks mestilah kurang daripada $360^\\circ$."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Sila semak bahagian 'Melintas Zaman' atau 'Rumusan'. Apakah julat saiz bagi sudut refleks?"
+
+  - id: Q2
+    text: "Kenal pasti sama ada pernyataan berikut adalah BENAR atau PALSU: (i) Hasil tambah sudut pelengkap ialah $90^\\circ$. (ii) Hasil tambah sudut konjugat ialah $180^\\circ$. (iii) Sudut putaran lengkap ialah tepat $360^\\circ$."
+    difficulty: medium
+    learning_objective: "8.1.4"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "(i) BENAR — sudut pelengkap berjumlah $90^\\circ$. (ii) PALSU — sudut konjugat berjumlah $360^\\circ$, bukan $180^\\circ$. (iii) BENAR — putaran lengkap ialah $360^\\circ$."
+      working: |
+        1. Sudut pelengkap berjumlah $90^\circ$ (Benar).
+        2. Sudut konjugat berjumlah $360^\circ$, bukan $180^\circ$ (Palsu).
+        3. Putaran lengkap ialah $360^\circ$ (Benar).
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti sifat sudut pelengkap dengan betul."
+      - marks: 1
+        criteria: "Mengenal pasti hasil tambah sudut konjugat sebagai $360^\\circ$ dengan betul."
+      - marks: 1
+        criteria: "Mengenal pasti sudut putaran lengkap sebagai $360^\\circ$ dengan betul."
+    hints:
+      - level: 1
+        text: "Ingat: Pelengkap = $90^\\circ$, Penggenap = $180^\\circ$, dan Konjugat = $360^\\circ$."
+
+  - id: Q3
+    text: "Dalam rajah, $p$ dan $54^\\circ$ ialah **sudut pelengkap**. Hitung nilai $p$."
+    difficulty: easy
+    learning_objective: "8.1.5"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "36"
+      working: |
+        Langkah 1: Kenal pasti hubungan. Sudut pelengkap berjumlah $90^\circ$.
+        Langkah 2: Bina persamaan: $p + 54^\circ = 90^\circ$.
+        Langkah 3: Selesaikan untuk $p$: $p = 90^\circ - 54^\circ = 36^\circ$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menunjukkan operasi penolakan daripada $90^\\circ$."
+      - marks: 1
+        criteria: "Memberikan nilai akhir $36$ yang tepat."
+    hints:
+      - level: 1
+        text: "Jika dua sudut adalah pelengkap, berapakah jumlah keseluruhannya? Gunakan maklumat itu untuk mencari bahagian yang hilang."
+
+  - id: Q4
+    text: "Dua garis lurus bersilang pada satu titik. Jika salah satu sudut ialah $110^\\circ$, berapakah saiz **sudut bertentang bucu** ($vertically$ $opposite$ $angle$)?"
+    difficulty: medium
+    learning_objective: "8.2.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "110"
+      working: |
+        Langkah 1: Ingat sifat garis bersilang.
+        Langkah 2: Sudut bertentang bucu adalah sentiasa sama saiz.
+        Langkah 3: Oleh itu, sudut bertentangannya juga ialah $110^\circ$.
+    marks: 1
+    hints:
+      - level: 1
+        text: "Fikirkan bentuk 'X'. Jika anda mempunyai satu sudut di satu pihak, apa yang anda tahu tentang sudut yang berada tepat di hadapannya?"
+
+  - id: Q5
+    text: "Diberi satu garis rentas lintang bersilang dengan dua garis selari. Pasangan sudut manakah yang sama berdasarkan sifat **bentuk 'Z'**?"
+    difficulty: medium
+    learning_objective: "8.3.2"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Sudut selang-seli"
+      working: |
+        Langkah 1: Kenal pasti bentuk huruf bagi sudut garis selari.
+        Langkah 2: 'F' untuk Sepadan, 'C' untuk Pedalaman, dan 'Z' untuk Selang-seli.
+      distractors:
+        - value: "Sudut sepadan"
+          feedback: "Sudut sepadan ($corresponding$ $angles$) membentuk corak 'F', bukan 'Z'."
+        - value: "Sudut pedalaman"
+          feedback: "Sudut pedalaman ($interior$ $angles$) membentuk corak 'C' atau 'U' dan berjumlah $180^\\circ$."
+        - value: "Sudut bersebelahan"
+          feedback: "Sudut bersebelahan berada bersebelahan pada satu garis, tidak semestinya berkaitan dengan corak 'Z' garis selari."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Lihat rajah 'Rumusan' dalam nota anda. Istilah manakah yang dikaitkan dengan corak 'Z'?"
+
+  - id: Q6
+    text: "Seorang juruukur berdiri di atas tanah mengufuk dan melihat ke arah puncak tiang bendera. Sudut di antara **arah penglihatannya** dengan **garis mengufuk** ialah $35^\\circ$. Apakah nama bagi sudut ini?"
+    difficulty: easy
+    learning_objective: "8.3.5"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Sudut dongak"
+      working: |
+        Langkah 1: Tentukan arah penglihatan. Dia melihat 'ke atas' ke puncak tiang.
+        Langkah 2: Melihat ke atas dari garis mengufuk dipanggil sudut dongak ($angle$ $of$ $elevation$).
+      distractors:
+        - value: "Sudut tunduk"
+          feedback: "Sudut tunduk ($angle$ $of$ $depression$) berlaku apabila melihat 'ke bawah' dari garis mengufuk."
+        - value: "Sudut refleks"
+          feedback: "Sudut refleks ialah klasifikasi saiz ($>180^\\circ$), bukan istilah situasi bagi garis penglihatan."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Adakah juruukur itu melihat ke atas atau ke bawah? Gunakan analogi 'Burung dan Kucing' daripada buku teks."
+
+  - id: Q7
+    text: "Dalam satu rajah, garis $AB$ adalah selari dengan $CD$. Garis rentas lintang $EF$ bersilang dengan kedua-duanya. Jika sudut pedalaman pada sebelah yang sama ialah $(2x)^\\circ$ dan $(x + 30)^\\circ$, cari nilai $x$."
+    difficulty: hard
+    learning_objective: "8.3.4"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "50"
+      working: |
+        Langkah 1: Sudut pedalaman pada garis selari berjumlah $180^\circ$.
+        Langkah 2: Bina persamaan: $2x + (x + 30) = 180$.
+        Langkah 3: Permudahkan: $3x + 30 = 180$.
+        Langkah 4: Tolak 30: $3x = 150$.
+        Langkah 5: Bahagi dengan 3: $x = 50$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti bahawa sudut pedalaman berjumlah $180^\\circ$."
+      - marks: 1
+        criteria: "Membina persamaan algebra yang betul."
+      - marks: 1
+        criteria: "Mempermudahkan persamaan kepada $3x = 150$ dengan betul."
+      - marks: 1
+        criteria: "Mencari nilai $x$ yang tepat."
+    hints:
+      - level: 1
+        text: "Ingat kembali sifat corak 'C'. Apakah jumlah yang sepatutnya diperoleh apabila anda menambah kedua-dua ungkapan tersebut?"
+
+  - id: Q8
+    text: "Jefri memerhatikan seekor burung pada sudut dongak $40^\\circ$. Pada masa yang sama, burung itu melihat ke bawah ke arah seekor kucing di atas tanah. Jika kucing itu berada tepat di bawah Jefri, huraikan hubungan antara sudut dongak Jefri dengan sudut tunduk burung tersebut. Jelaskan alasan anda."
+    difficulty: hard
+    learning_objective: "8.3.6"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Sudut tunduk burung ke arah Jefri ialah $40^\\circ$ kerana mereka merupakan sudut selang-seli di antara dua garis mengufuk yang selari."
+      working: |
+        1. Garis mengufuk penglihatan Jefri dan garis mengufuk penglihatan burung adalah selari.
+        2. Garis penglihatan antara Jefri dan burung bertindak sebagai garis rentas lintang.
+        3. Sudut dongak dan sudut tunduk antara dua titik yang sama adalah sudut selang-seli.
+        4. Sudut selang-seli adalah sama saiz.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan sudut tunduk ialah $40^\\circ$."
+      - marks: 1
+        criteria: "Mengenal pasti bahawa garis-garis mengufuk adalah selari."
+      - marks: 1
+        criteria: "Menjelaskan menggunakan sifat sudut selang-seli ($alternate$ $angles$)."
+    hints:
+      - level: 1
+        text: "Lukiskan dua garis mengufuk—satu untuk Jefri dan satu untuk burung. Apakah 'bentuk huruf' yang dibentuk oleh garisan di antara mereka?"
