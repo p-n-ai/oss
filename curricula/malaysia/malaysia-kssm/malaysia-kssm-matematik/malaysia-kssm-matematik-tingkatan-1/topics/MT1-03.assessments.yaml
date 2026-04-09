@@ -1,8 +1,8 @@
 topic_id: MT1-03
-provenance: "expert-reviewed"
+provenance: ai-assisted
 questions:
   # TP1: Basic Knowledge of Squares (3.1.1)
-  - id: MT1-03-Q01
+  - id: Q1
     text: "Which of the following describes the meaning of a perfect square [kuasa dua sempurna]?"
     difficulty: easy
     learning_objective: "3.1.1"
@@ -17,11 +17,11 @@ questions:
         - value: "A number that can be divided by two evenly."
           feedback: "That is the definition of an even number, not a square. Remember, a square comes from a number 'loving itself' and multiplying by itself!"
         - value: "A number that is the sum of two equal numbers."
-          feedback: "This is $x + x = 2x$. Squares are $x \times x = x^2$. Don't confuse addition with multiplication!"
+          feedback: "This is $x + x = 2x$. Squares are $x \\times x = x^2$. Don't confuse addition with multiplication!"
     marks: 1
 
   # TP2: Determination using Prime Factorisation (3.1.2)
-  - id: MT1-03-Q02
+  - id: Q2
     text: "Determine if 324 is a perfect square using the prime factorisation method."
     difficulty: medium
     learning_objective: "3.1.2"
@@ -37,7 +37,7 @@ questions:
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Correct prime factorisation shown ($2^2 \times 3^4$)."
+        criteria: "Correct prime factorisation shown ($2^2 \\times 3^4$)."
       - marks: 1
         criteria: "Conclusion based on identical grouping."
     hints:
@@ -47,8 +47,8 @@ questions:
         text: "Check the 'Smart Tips' on page 50. If you can group all those primes into two identical 'teams', it's a perfect square!"
 
   # TP3: Combined Operations (3.2.9)
-  - id: MT1-03-Q03
-    text: "Calculate the value of $0.5^2 + \sqrt[3]{1000}$."
+  - id: Q3
+    text: "Calculate the value of $0.5^2 + \\sqrt[3]{1000}$."
     difficulty: medium
     learning_objective: "3.2.9"
     tp_level: 3
@@ -63,18 +63,18 @@ questions:
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Individual values for $0.5^2$ and $\sqrt[3]{1000}$ are correct."
+        criteria: "Individual values for $0.5^2$ and $\\sqrt[3]{1000}$ are correct."
       - marks: 1
         criteria: "Final sum is 10.25."
     hints:
       - level: 1
         text: "Follow KUBADATAS! Solve the square and the root first before you add them."
       - level: 2
-        text: "What is $0.5 \times 0.5$? And what number multiplied by itself three times gives 1000?"
+        text: "What is $0.5 \\times 0.5$? And what number multiplied by itself three times gives 1000?"
 
   # TP4: Simple Routine Problem Solving (3.1.9)
-  - id: MT1-03-Q04
-    text: "Maslina wants to paste a square photo with an area of $90.25 \text{ cm}^2$ onto a larger square cardboard. Find the side length of the photo."
+  - id: Q4
+    text: "Maslina wants to paste a square photo with an area of $90.25 \\text{ cm}^2$ onto a larger square cardboard. Find the side length of the photo."
     difficulty: medium
     learning_objective: "3.1.9"
     tp_level: 4
@@ -100,8 +100,8 @@ questions:
         text: "Use the 'Area to Side' analogy from the teaching notes. You need the square root of 90.25."
 
   # TP5: Complex Routine Problem Solving (3.2.8)
-  - id: MT1-03-Q05
-    text: "A sculptor removes a small cube from a larger wooden cube with a side length of 6 cm. If the remaining volume of the wooden block is $189 \text{ cm}^3$, find the side length of the small cube that was removed."
+  - id: Q5
+    text: "A sculptor removes a small cube from a larger wooden cube with a side length of 6 cm. If the remaining volume of the wooden block is $189 \\text{ cm}^3$, find the side length of the small cube that was removed."
     difficulty: hard
     learning_objective: "3.2.8"
     tp_level: 5
@@ -116,9 +116,9 @@ questions:
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Calculation of initial volume ($216 \text{ cm}^3$)."
+        criteria: "Calculation of initial volume ($216 \\text{ cm}^3$)."
       - marks: 1
-        criteria: "Finding the volume of the small cube ($27 \text{ cm}^3$)."
+        criteria: "Finding the volume of the small cube ($27 \\text{ cm}^3$)."
       - marks: 1
         criteria: "Calculating the cube root to find the side (3 cm)."
     hints:
@@ -128,8 +128,8 @@ questions:
         text: "Subtract the remaining volume from the total volume to find the 'missing' volume. Then, find the cube root of that missing part!"
 
   # TP6: Non-Routine / Creative Assessment (3.2.8)
-  - id: MT1-03-Q06
-    text: "Amira has several identical cuboids measuring $5 \text{ cm} \times 2 \text{ cm} \times 5 \text{ cm}$. What is the minimum number of these cuboids needed to form a single large cube?"
+  - id: Q6
+    text: "Amira has several identical cuboids measuring $5 \\text{ cm} \\times 2 \\text{ cm} \\times 5 \\text{ cm}$. What is the minimum number of these cuboids needed to form a single large cube?"
     difficulty: hard
     learning_objective: "3.2.8"
     tp_level: 6
@@ -149,9 +149,9 @@ questions:
       - marks: 1
         criteria: "Determination of the LCM of the dimensions (10 cm)."
       - marks: 1
-        criteria: "Calculation of the target cube volume ($1000 \text{ cm}^3$)."
+        criteria: "Calculation of the target cube volume ($1000 \\text{ cm}^3$)."
       - marks: 1
-        criteria: "Calculation of one cuboid's volume ($50 \text{ cm}^3$)."
+        criteria: "Calculation of one cuboid's volume ($50 \\text{ cm}^3$)."
       - marks: 1
         criteria: "Correct division to find the count (20)."
     hints:

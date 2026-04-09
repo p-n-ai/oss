@@ -1,5 +1,6 @@
 id: MT1-03
 official_ref: "Chapter 3"
+name: "Kuasa Dua, Punca Kuasa Dua, Kuasa Tiga dan Punca Kuasa Tiga"
 name_en: "Squares, Square Roots, Cubes and Cube Roots"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-1
 subject_id: malaysia-kssm-matematik
@@ -105,7 +106,7 @@ performance_standards:
 
 prerequisites:
   required:
-    - id: MT1-02
+    - "MT1-02"
   recommended: []
 
 mastery:
@@ -125,12 +126,12 @@ teaching:
     - "Step 6: Combined Operations (BEDMAS/BODMAS) (3 days)"
     - "Step 7: Real-world Design Challenges (3 days)"
   common_misconceptions:
-    - misconception: "Squared ($x^2$) means $x \times 2$."
-      remediation: "Use the 'Area of a Square' visual: a $3 \times 3$ square has 9 units, not 6."
+    - misconception: "Squared ($x^2$) means $x \\times 2$."
+      remediation: "Use the 'Area of a Square' visual: a $3 \\times 3$ square has 9 units, not 6."
     - misconception: "Thinking negative numbers have real square roots (at this level)."
       remediation: "Remind them: 'What same number times itself gives a negative?' Impossible for now!"
-    - misconception: "Incorrect decimal placement ($\sqrt{0.04} = 0.02$ error)."
-      remediation: "Show $\sqrt{0.04} = \sqrt{\frac{4}{100}} = \frac{2}{10} = 0.2$."
+    - misconception: "Incorrect decimal placement ($\\sqrt{0.04} = 0.02$ error)."
+      remediation: "Show $\\sqrt{0.04} = \\sqrt{\\frac{4}{100}} = \\frac{2}{10} = 0.2$."
   engagement_hooks:
     - "The Floor Tiler: 'If you have 50 tiles, what is the largest square you can make? (Perfect Squares)'"
     - "The Magic Tank: 'If this cube tank holds 64 litres, what are its dimensions?'"

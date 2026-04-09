@@ -1,5 +1,5 @@
 topic_id: MT1-03
-provenance: "expert-reviewed"
+provenance: ai-assisted
 worked_examples:
   # Example 1: Determining Perfect Squares (SP 3.1.2)
   - id: WE-01
@@ -25,8 +25,8 @@ worked_examples:
     learning_objective: "3.1.5"
     difficulty: medium
     real_world_analogy: "The Reverse Blueprint: If you know the Area of a square garden is a fraction, finding the square root is like finding the length of one side of that garden."
-    misconception_alert: "The 'Half-it' Trap! Students often divide the numerator or denominator by 2 instead of finding the square root. Check if $4 \div 2$ is the same as $\sqrt{4}$!"
-    scenario: "Find the value of $\sqrt{2 \frac{7}{9}}$ without using a calculator."
+    misconception_alert: "The 'Half-it' Trap! Students often divide the numerator or denominator by 2 instead of finding the square root. Check if $4 \\div 2$ is the same as $\\sqrt{4}$!"
+    scenario: "Find the value of $\\sqrt{2 \\frac{7}{9}}$ without using a calculator."
     working: |
       1. Convert the mixed number to an improper fraction:
          $2 \frac{7}{9} = \frac{(2 \times 9) + 7}{9} = \frac{25}{9}$
@@ -47,7 +47,7 @@ worked_examples:
     difficulty: hard
     real_world_analogy: "The Kitchen Recipe: You must follow the steps in order (KUBADATAS) to get the right result. If you fry the eggs before cracking them, it's a mess! Brackets first, then Roots/Powers, then others."
     misconception_alert: "The 'Left-to-Right' Error. Students often just solve from left to right, ignoring that Square Roots and Cubes must be solved before addition or subtraction."
-    scenario: "Calculate the value of $0.5^2 + \sqrt[3]{1000}$."
+    scenario: "Calculate the value of $0.5^2 + \\sqrt[3]{1000}$."
     working: |
       1. Identify the two parts of the expression: $0.5^2$ and $\sqrt[3]{1000}$.
       2. Solve the square of the decimal:
@@ -65,7 +65,7 @@ worked_examples:
     difficulty: hard
     real_world_analogy: "The Missing Cake Piece: If you have a large block of cake and cut a small cube out of it, the 'remaining' cake is just the big volume minus the small volume."
     misconception_alert: "The 'Side-Length' Confusion. Students might subtract the side lengths directly ($6 - 3$) instead of subtracting the Volumes. Always calculate 'Fat' (Volume) first, then 'Sides' (Roots)!"
-    scenario: "A sculptor removes a small cube from a wooden cube block with side length 6 cm. If the remaining volume is $189 \text{ cm}^3$, find the side length of the small cube removed."
+    scenario: "A sculptor removes a small cube from a wooden cube block with side length 6 cm. If the remaining volume is $189 \\text{ cm}^3$, find the side length of the small cube removed."
     working: |
       1. Calculate the volume of the original large wooden cube:
          Volume = $6^3 = 6 \times 6 \times 6 = 216 \text{ cm}^3$
