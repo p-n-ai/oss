@@ -8,6 +8,13 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "8.1"
+      text: "Serakan"
+      text_en: "Dispersion"
+    - id: "8.2"
+      text: "Sukatan Serakan"
+      text_en: "Measures of Dispersion"
 learning_objectives:
     - id: 8.1.1
       text: "Menerangkan maksud serakan."

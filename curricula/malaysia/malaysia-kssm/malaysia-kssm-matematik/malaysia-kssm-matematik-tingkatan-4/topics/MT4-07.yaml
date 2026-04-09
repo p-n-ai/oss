@@ -8,6 +8,13 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "7.1"
+      text: "Graf Jarak-Masa"
+      text_en: "Distance-Time Graphs"
+    - id: "7.2"
+      text: "Graf Laju-Masa"
+      text_en: "Speed-Time Graphs"
 learning_objectives:
     - id: "7.1.1"
       text: "Melukis graf jarak-masa."

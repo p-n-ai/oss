@@ -8,6 +8,10 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "5.1"
+      text: "Rangkaian dalam Teori Graf"
+      text_en: "Networks in Graph Theory"
 learning_objectives:
     - id: "5.1.1"
       text: "Mengenal dan menerangkan rangkaian sebagai graf."

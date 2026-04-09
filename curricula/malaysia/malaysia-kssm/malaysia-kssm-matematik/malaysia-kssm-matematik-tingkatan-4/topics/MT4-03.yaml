@@ -8,6 +8,13 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "3.1"
+      text: "Pernyataan"
+      text_en: "Statements"
+    - id: "3.2"
+      text: "Hujah"
+      text_en: "Arguments"
 learning_objectives:
     - id: 3.1.1
       text: "Menerangkan maksud pernyataan dan seterusnya menentukan nilai kebenaran bagi suatu pernyataan."

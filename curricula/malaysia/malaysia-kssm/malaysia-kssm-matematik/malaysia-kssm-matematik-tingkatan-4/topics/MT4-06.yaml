@@ -8,6 +8,13 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "6.1"
+      text: "Ketaksamaan Linear dalam Dua Pemboleh Ubah"
+      text_en: "Linear Inequalities in Two Variables"
+    - id: "6.2"
+      text: "Sistem Ketaksamaan Linear dalam Dua Pemboleh Ubah"
+      text_en: "Systems of Linear Inequalities in Two Variables"
 learning_objectives:
     - id: "6.1.1"
       text: "Mewakilkan situasi dalam bentuk ketaksamaan linear."

@@ -8,6 +8,19 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "9.1"
+      text: "Peristiwa Bergabung"
+      text_en: "Combined Events"
+    - id: "9.2"
+      text: "Peristiwa Bersandar dan Tak Bersandar"
+      text_en: "Dependent and Independent Events"
+    - id: "9.3"
+      text: "Peristiwa Saling Eksklusif dan Tak Saling Eksklusif"
+      text_en: "Mutually Exclusive and Non-Mutually Exclusive Events"
+    - id: "9.4"
+      text: "Kebarangkalian Peristiwa Bergabung"
+      text_en: "Probability of Combined Events"
 learning_objectives:
     - id: "9.1.1"
       text: "Memerihalkan peristiwa bergabung dan menyenaraikan peristiwa bergabung yang mungkin."

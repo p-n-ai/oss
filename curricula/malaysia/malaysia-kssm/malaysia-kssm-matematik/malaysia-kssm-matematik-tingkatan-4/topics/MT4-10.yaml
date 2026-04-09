@@ -8,6 +8,10 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "10.1"
+      text: "Pengurusan Kewangan"
+      text_en: "Financial Management"
 learning_objectives:
     - id: "10.1.1"
       text: "Menghuraikan proses pengurusan kewangan yang berkesan."

@@ -8,6 +8,16 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "4.1"
+      text: "Persilangan Set"
+      text_en: "Intersection of Sets"
+    - id: "4.2"
+      text: "Kesatuan Set"
+      text_en: "Union of Sets"
+    - id: "4.3"
+      text: "Set Pelengkap Gabungan"
+      text_en: "Combined Set Operations"
 learning_objectives:
     - id: "4.1.1"
       text: "Menentu dan menghuraikan persilangan set menggunakan pelbagai perwakilan."

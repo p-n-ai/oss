@@ -8,6 +8,10 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "1.1"
+      text: "Fungsi dan Persamaan Kuadratik dalam Satu Pemboleh Ubah"
+      text_en: "Quadratic Functions and Equations in One Variable"
 learning_objectives:
     - id: "1.1.1"
       text: "Mengenal pasti dan menerangkan ciri-ciri ungkapan kuadratik dalam satu pemboleh ubah."
