@@ -1,5 +1,6 @@
 id: MT1-06
 official_ref: "Chapter 6"
+name: "Persamaan Linear"
 name_en: "Linear Equations"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-1
 subject_id: malaysia-kssm-matematik
@@ -79,7 +80,7 @@ performance_standards:
 
 prerequisites:
   required:
-    - id: MT1-05
+    - "MT1-05"
   recommended: []
 
 mastery:
@@ -98,10 +99,10 @@ teaching:
     - "Step 5: Solving Simultaneous Equations (Substitution/Elimination) (5 days)"
     - "Step 6: Real-world Simultaneous Problems (4 days)"
   common_misconceptions:
-    - misconception: "The Sign Switch Error ($x + 5 = 10 \Rightarrow x = 10 + 5$)."
+    - misconception: "The Sign Switch Error ($x + 5 = 10 \\Rightarrow x = 10 + 5$)."
       remediation: "Use the 'Portal' analogy: When a number goes through the '=' portal, its sign MUST flip to inverse."
-    - misconception: "Variable Placement Error ($2x = 8 \Rightarrow x = 8 - 2$)."
-      remediation: "Clarify that the relationship is multiplication ($2 \times x$), so the inverse must be division ($8 / 2$)."
+    - misconception: "Variable Placement Error ($2x = 8 \\Rightarrow x = 8 - 2$)."
+      remediation: "Clarify that the relationship is multiplication ($2 \\times x$), so the inverse must be division ($8 / 2$)."
     - misconception: "Simultaneous equations MUST only have one solution."
       remediation: "Use the 'Geometric Line' visual: Parallel lines never meet (No solution), Same lines (Infinite solutions)."
   engagement_hooks:

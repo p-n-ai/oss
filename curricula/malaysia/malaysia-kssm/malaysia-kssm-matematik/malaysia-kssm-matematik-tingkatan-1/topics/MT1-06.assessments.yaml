@@ -1,10 +1,10 @@
 topic_id: MT1-06
-provenance: ai-assisted-validated
+provenance: ai-assisted
 questions:
   ##### ---------------------------------------------------------
   ##### SUBCHAPTER 6.1: Linear Equations in One Variable
   ##### ---------------------------------------------------------
-  - id: MT1-06-Q01
+  - id: Q1
     text: "Classify the following mathematical sentence: $x + 5 = 10$"
     difficulty: easy
     tp_level: 1
@@ -29,7 +29,7 @@ questions:
       - level: 1
         text: "Look at the symbol between the two sides. Does it show a relationship of equality?"
 
-  - id: MT1-06-Q02
+  - id: Q2
     text: "Determine if this statement is TRUE or FALSE: 'The equation $k^2 + 1 = 6$ is a linear equation in one variable.'"
     difficulty: easy
     tp_level: 1
@@ -46,7 +46,7 @@ questions:
       - level: 1
         text: "Check the 'power' (exponent) of the letter $k$. For an equation to be 'linear', what must that power be?"
 
-  - id: MT1-06-Q03
+  - id: Q3
     text: "Solve the following linear equation: $3x - 4 = 11$"
     difficulty: medium
     tp_level: 3
@@ -73,7 +73,7 @@ questions:
   ##### ---------------------------------------------------------
   ##### SUBCHAPTER 6.2: Linear Equations in Two Variables
   ##### ---------------------------------------------------------
-  - id: MT1-06-Q04
+  - id: Q4
     text: "Stationery shop sells books for $RM15$ each and pens for $RM2$ each. Damia spends a total of $RM50$ to buy $b$ books and $p$ pens. Form a linear equation to represent this."
     difficulty: medium
     tp_level: 2
@@ -99,7 +99,7 @@ questions:
   ##### ---------------------------------------------------------
   ##### SUBCHAPTER 6.3: Simultaneous Linear Equations
   ##### ---------------------------------------------------------
-  - id: MT1-06-Q05
+  - id: Q5
     text: "Solve using the elimination method: \n $3p + 2q = 16$ \n $p - 2q = 0$"
     difficulty: hard
     tp_level: 3
@@ -129,7 +129,7 @@ questions:
   ##### ---------------------------------------------------------
   ##### UASA NATIONAL EXAM EXEMPLARS & KBAT
   ##### ---------------------------------------------------------
-  - id: MT1-06-Q06
+  - id: Q6
     text: "Solve: $4(b + 1) = \\frac{b}{2} - 1$"
     difficulty: medium
     tp_level: 3
@@ -155,7 +155,7 @@ questions:
       - level: 1
         text: "First, expand the brackets. Then, multiply every single term by 2 to get rid of that fraction!"
 
-  - id: MT1-06-Q07
+  - id: Q7
     text: "Aina spends $x$ hours exercising and $y$ hours reading. Total time is 11 hours. One week, she halved her exercise and spent an additional 3 hours reading. The new total was 12 hours. Find $x$ and $y$."
     difficulty: hard
     tp_level: 5
@@ -185,7 +185,7 @@ questions:
       - level: 1
         text: "Be careful with 'additional 3 hours'. It means her reading time is now $y + 3$. Build your two equations first!"
 
-  - id: MT1-06-Q08
+  - id: Q8
     text: "At a T-junction, the traffic flow rate (vehicles/hour) follows the rule $x + y = 500$, where $x$ is cars and $y$ is motorcycles. If a new rule states cars must be 3 times the number of motorcycles to prevent congestion, calculate the required number of cars."
     difficulty: hard
     tp_level: 6
