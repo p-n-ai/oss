@@ -35,16 +35,29 @@ The rubric explicitly states what criteria earn a mark. The **`hints` array must
 *   **Rule:** The AI must use the hints to instruct the student on *how* to achieve the rubric criteria without giving away the final number.
 
 ### 4. Distractor Logic & Error Feedback
-For multiple-choice or objective questions, the `answer` block must include the `working` field:
-    type: [exact|range|multiple_choice|free_text]
-    value: "[Correct Answer]"
+For multiple-choice or objective questions, the `answer` block must include the `working` field, `options`, and `distractors` — all **nested inside the `answer` object**:
+```yaml
+  answer:
+    type: multiple_choice
+    value: "A"
+    options:
+      A: "$3x + 6$"
+      B: "$3x + 2$"
+      C: "$x + 6$"
+      D: "$3x - 6$"
     working: |
       Step 1: [Calculation]
       Step 2: [Result]
-  distractors: # Required only for multiple_choice
-    - value: "[Wrong Choice 1]"
-      feedback: "[Specific pedagogical feedback on why this is wrong]"
-*   Every distractor `value` must be a mathematically plausible wrong answer resulting from a specific, common misconception.
+    distractors:
+      - value: "B"
+        feedback: "[Specific pedagogical feedback on why this is wrong]"
+      - value: "C"
+        feedback: "[Specific pedagogical feedback on why this is wrong]"
+      - value: "D"
+        feedback: "[Specific pedagogical feedback on why this is wrong]"
+```
+*   **`options`:** Required for `multiple_choice` questions. Lists the answer choices shown to the student (as an object map `A: "...", B: "..."` or an array of strings).
+*   **`distractors`:** Required for `multiple_choice` questions. Every distractor `value` must be a mathematically plausible wrong answer resulting from a specific, common misconception.
 *   The `feedback` field must explicitly tell the chatbot how to correct the misconception.
 *   *Example Distractor Feedback:* "You forgot to distribute the negative sign to the second term inside the bracket. Remember the 'Naked Numerator' trap!"
 

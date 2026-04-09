@@ -53,6 +53,7 @@ Only provide the relative paths:
 ```yaml
 id: [ID]
 official_ref: "Bab [X]"
+name: "[EN Name]"
 name_en: "[EN Name]"
 subject_grade_id: [ID]
 subject_id: [ID]

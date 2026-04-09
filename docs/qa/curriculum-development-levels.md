@@ -13,7 +13,7 @@ This document defines the 4 stages of content maturity for any given topic in th
     *   `content_standards`: Standard Kandungan grouping.
     *   `learning_objectives`: High-level goals from the DSKP.
     *   `prerequisites`: ID links to earlier topics.
-    *   `difficulty`: Initial assessment (1-5).
+    *   `difficulty`: `beginner`, `intermediate`, or `advanced`.
 
 ---
 
