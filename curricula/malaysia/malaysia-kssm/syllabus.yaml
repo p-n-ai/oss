@@ -1,26 +1,11 @@
 id: malaysia-kssm
-name: "Kurikulum Standard Sekolah Menengah"
-name_en: "Standard Curriculum for Secondary Schools"
-board: malaysia
-level: kssm
-version: "2017"
+name: "Kurikulum Standard Sekolah Menengah (KSSM)"
+name_en: "Kurikulum Standard Sekolah Menengah (KSSM)"
 country_id: malaysia
 language: ms
+description: "The KSSM is a curriculum framework established by the Ministry of Education Malaysia for secondary schools."
 subjects:
-  - malaysia-kssm-matematik-tingkatan-1
-  - malaysia-kssm-matematik-tingkatan-2
-  - malaysia-kssm-matematik-tingkatan-3
-
-assessment:
-  components:
-    - name: "Pentaksiran Bilik Darjah (PBD)"
-      weight: 1.0
-
-grading:
-  scale:
-    - "Tahap Penguasaan 6 (Cemerlang)"
-    - "Tahap Penguasaan 5 (Kepujian)"
-    - "Tahap Penguasaan 4 (Baik)"
-    - "Tahap Penguasaan 3 (Memuaskan)"
-    - "Tahap Penguasaan 2 (Sederhana)"
-    - "Tahap Penguasaan 1 (Lemah)"
+  - malaysia-kssm-matematik
+  - malaysia-kssm-sains
+provenance: ai-generated
+generated_at: "2026-03-30T07:22:36Z"
