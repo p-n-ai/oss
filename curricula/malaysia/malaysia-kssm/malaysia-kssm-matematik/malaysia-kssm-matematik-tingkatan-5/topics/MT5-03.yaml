@@ -1,5 +1,5 @@
 id: MT5-03
-# official_ref: ""  # fill in if the source document assigns a chapter/section code
+official_ref: ""
 name: "Matematik Pengguna: Insurans"
 name_en: "Consumer Mathematics: Insurance"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-5
@@ -9,6 +9,10 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+    - id: "3.1"
+      text: "Insurans"
+      text_en: "Insurance"
 learning_objectives:
     - id: "3.1.1"
       text: "Menjelaskan maksud risiko dan kepentingan perlindungan insurans, dan seterusnya mengenal pasti jenis insurans hayat dan insurans am bagi melindungi pelbagai jenis risiko."
@@ -17,7 +21,7 @@ learning_objectives:
     - id: "3.1.2"
       text: "Mengkaji, mentafsir dan membuat pengiraan yang melibatkan kadar dan premium insurans."
       text_en: "Study, interpret and perform calculations involving insurance rates and premiums."
-      bloom: apply
+      bloom: analyze
     - id: "3.1.3"
       text: "Menyelesaikan masalah yang melibatkan insurans termasuk deduktibel dan ko-insurans."
       text_en: "Solve problems involving insurance including deductible and co-insurance."
@@ -26,6 +30,7 @@ prerequisites:
     required: []
 bloom_levels:
     - understand
+    - analyze
     - apply
 quality_level: 1
 provenance: ai-generated
@@ -44,3 +49,4 @@ teaching:
 engagement_hooks:
     - Discuss a recent local event where insurance was crucial, like a natural disaster
     - Invite an insurance expert for a Q&A session with students
+assessments_file: MT5-03.assessments.yaml

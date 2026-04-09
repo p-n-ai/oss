@@ -8,6 +8,13 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "2.1"
+      text: "Matriks"
+      text_en: "Matrices"
+    - id: "2.2"
+      text: "Operasi Asas Matriks"
+      text_en: "Basic Operations on Matrices"
 learning_objectives:
     - id: 2.1.1
       text: "Mewakilkan maklumat situasi sebenar dalam bentuk matriks."
@@ -75,3 +82,4 @@ engagement_hooks:
     - Discuss how matrices are used in computer graphics and animations
     - Connect matrices to sports statistics for team performance analysis
     - Explore matrices in financial modeling and budgeting scenarios
+assessments_file: MT5-02.assessments.yaml

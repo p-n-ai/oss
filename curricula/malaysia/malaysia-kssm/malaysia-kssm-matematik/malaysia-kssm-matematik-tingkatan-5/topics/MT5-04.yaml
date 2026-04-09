@@ -9,6 +9,10 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 tier: core
+content_standards:
+    - id: "4.1"
+      text: "Percukaian"
+      text_en: "Taxation"
 learning_objectives:
     - id: "4.1.1"
       text: "Menghuraikan tujuan percukaian."
@@ -48,3 +52,4 @@ teaching:
 engagement_hooks:
     - Discuss how taxes fund local schools and hospitals
     - Use recent news articles on tax changes to spark discussion
+assessments_file: MT5-04.assessments.yaml

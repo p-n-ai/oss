@@ -1,7 +1,7 @@
 id: MT5-06
-# official_ref: ""  # fill in if the source document assigns a chapter/section code
+# official_ref: ""
 name: "Nisbah dan Graf Fungsi Trigonometri"
-name_en: "Ratio and Graphs of Trigonometric Functions"
+name_en: "Ratios and Graphs of Trigonometric Functions"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-5
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
@@ -9,6 +9,13 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+    - id: "6.1"
+      text: "Nisbah Trigonometri"
+      text_en: "Trigonometric Ratios"
+    - id: "6.2"
+      text: "Graf Fungsi Trigonometri"
+      text_en: "Graphs of Trigonometric Functions"
 learning_objectives:
     - id: 6.1.1
       text: "Membuat dan menentusahkan konjektur tentang nilai sinus, kosinus dan tangen sudut dalam sukuan II, III dan IV dengan sudut rujukan sepadan."
@@ -16,15 +23,15 @@ learning_objectives:
       bloom: analyze
     - id: 6.1.2
       text: "Menentukan nilai sinus, kosinus dan tangen bagi sudut dalam sukuan II, III dan IV berdasarkan sudut rujukan sepadan."
-      text_en: "Determine the values of sine, cosine, and tangent for angles in quadrants II, III, and IV based on corresponding reference angles."
+      text_en: "Determine the values of sine, cosine, and tangent for angles in quadrants II, III and IV based on corresponding reference angles."
       bloom: apply
     - id: 6.1.3
       text: "Menentukan sudut apabila nilai sinus, kosinus dan tangen sudut tersebut diberi."
-      text_en: "Determine the angle when the value of sine, cosine, and tangent of the angle is given."
+      text_en: "Determine the angle when the value of sine, cosine and tangent of the angle is given."
       bloom: apply
     - id: 6.1.4
       text: "Menyelesaikan masalah yang melibatkan sinus, kosinus dan tangen."
-      text_en: "Solve problems involving sine, cosine, and tangent."
+      text_en: "Solve problems involving sine, cosine and tangent."
       bloom: apply
     - id: 6.2.1
       text: "Melukis graf fungsi trigonometri, \U0001D466 = sin \U0001D465, \U0001D466 = kos \U0001D465 dan \U0001D466 = tan \U0001D465 bagi 0° ≤ x ≤ 360° dan membandingbezakan ciri-ciri graf fungsi tersebut."

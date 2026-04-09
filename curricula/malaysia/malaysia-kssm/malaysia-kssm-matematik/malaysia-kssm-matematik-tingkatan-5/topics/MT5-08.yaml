@@ -9,6 +9,10 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+    - id: "8.1"
+      text: "Pemodelan Matematik"
+      text_en: "Mathematical Modeling"
 learning_objectives:
     - id: "8.1.1"
       text: "Menerangkan pemodelan matematik."
@@ -39,3 +43,4 @@ teaching:
 engagement_hooks:
     - Calculate travel costs using real data from local map applications
     - Discuss the role of mathematical models in personal financial planning
+assessments_file: MT5-08.assessments.yaml

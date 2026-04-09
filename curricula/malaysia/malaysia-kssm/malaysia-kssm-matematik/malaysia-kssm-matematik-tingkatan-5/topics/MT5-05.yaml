@@ -9,6 +9,19 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 tier: core
+content_standards:
+    - id: "5.1"
+      text: "Kekongruenan"
+      text_en: "Congruence"
+    - id: "5.2"
+      text: "Pembesaran"
+      text_en: "Enlargement"
+    - id: "5.3"
+      text: "Gabungan Transformasi"
+      text_en: "Combination of Transformations"
+    - id: "5.4"
+      text: "Penjelmaan"
+      text_en: "Tessellation"
 learning_objectives:
     - id: "5.1.1"
       text: "Membezakan antara bentuk kongruen dan bukan kongruen berdasarkan sisi dan sudut."
@@ -90,3 +103,11 @@ teaching:
 engagement_hooks:
     - Explore local architecture featuring tessellations to spark interest
     - Discuss how transformations are used in digital design and art
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+ai_teaching_notes: "MT5-05.teaching.md"
+assessments_file: MT5-05.assessments.yaml

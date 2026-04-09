@@ -1,4 +1,5 @@
 id: MT5-07
+official_ref: "7.0"
 name: "Sukatan Serakan Data Terkumpul"
 name_en: "Measures of Dispersion for Grouped Data"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-5
@@ -8,6 +9,13 @@ country_id: malaysia
 language: ms
 difficulty: advanced
 tier: core
+content_standards:
+    - id: "7.1"
+      text: "Perwakilan Data Terkumpul"
+      text_en: "Representation of Grouped Data"
+    - id: "7.2"
+      text: "Sukatan Serakan bagi Data Terkumpul"
+      text_en: "Measures of Dispersion for Grouped Data"
 learning_objectives:
     - id: "7.1.1"
       text: "Membina histogram dan poligon kekerapan bagi suatu set data terkumpul."
@@ -65,3 +73,11 @@ teaching:
 engagement_hooks:
     - Analyze local business sales trends using histograms
     - Explore community demographic data to understand population spread
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+ai_teaching_notes: "MT5-07.teaching.md"
+assessments_file: MT5-07.assessments.yaml
