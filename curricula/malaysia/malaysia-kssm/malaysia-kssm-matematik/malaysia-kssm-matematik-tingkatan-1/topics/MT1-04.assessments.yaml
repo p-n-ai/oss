@@ -1,8 +1,8 @@
 topic_id: MT1-04
-provenance: "DSKP-aligned KSSM Master Draft"
+provenance: ai-generated
 questions:
   # --- 4.1 Ratios ---
-  - id: Q411-01
+  - id: Q1
     text: "A team consists of 12 football players, 8 volleyball players, and 4 basketball players. Represent the relationship of football players to volleyball players to basketball players in the form of $a : b : c$ in simplest form."
     difficulty: "easy"
     learning_objective: "4.1.1"
@@ -27,18 +27,15 @@ questions:
       - level: 2
         text: "Is there a number that can divide 12, 8, and 4 exactly? Try dividing them by the largest common factor to simplify."
 
-  - id: Q412-01
+  - id: Q2
     text: "Match the following pairs of equivalent ratios."
     difficulty: "easy"
     learning_objective: "4.1.2"
     tp_level: 2
     kbat: false
     answer:
-      type: "mapping"
-      value: 
-        "6 : 9": "2 : 3"
-        "6 : 90": "1 : 15"
-        "9 : 60": "3 : 20"
+      type: "free_text"
+      value: "6:9 = 2:3, 6:90 = 1:15, 9:60 = 3:20"
       working: |
         - 6:9 can be divided by 3 -> 2:3.
         - 6:90 can be divided by 6 -> 1:15.
@@ -52,7 +49,7 @@ questions:
         text: "Equivalent ratios are like equivalent fractions. Try simplifying the larger ratios on the left."
 
   # --- 4.2 Rates ---
-  - id: Q421-01
+  - id: Q3
     text: "Which of the following describes a 'rate'?"
     difficulty: "medium"
     learning_objective: "4.2.1"
@@ -73,7 +70,7 @@ questions:
     marks: 1
 
   # --- 4.3 Proportions ---
-  - id: Q432-01
+  - id: Q4
     text: "Electricity costs 43.6 sen for 2 kilowatt-hours (kWh). How much does 30 kWh cost?"
     difficulty: "medium"
     learning_objective: "4.3.2"
@@ -101,7 +98,7 @@ questions:
         text: "Try using the unitary method first: find the cost for 1 kWh by dividing 43.6 by 2."
 
   # --- 4.4 Ratios, Rates and Proportions ---
-  - id: Q444-01
+  - id: Q5
     text: "A farmer uses the capture, mark, release and recapture method to estimate a snail population. He marks 24 snails. Later, he recaptures 30 snails and finds that 5 are marked. Estimate the total snail population."
     difficulty: "hard"
     learning_objective: "4.4.4"
@@ -126,8 +123,8 @@ questions:
         text: "The ratio of marked snails to the total population should be the same as the ratio of marked snails in the second sample to the total of the second sample."
 
   # --- 4.5 Relationship with Percentages ---
-  - id: Q453-01
-    text: "Leonardo da Vinci studied human body proportions. One of the ratios used was $\frac{\text{height of head}}{\text{height of the whole body}} = \frac{2}{5}$. If a person's total height is 175 cm, what is the estimated height of their head?"
+  - id: Q6
+    text: "Leonardo da Vinci studied human body proportions. One of the ratios used was $\\frac{\\text{height of head}}{\\text{height of the whole body}} = \\frac{2}{5}$. If a person's total height is 175 cm, what is the estimated height of their head?"
     difficulty: "hard"
     learning_objective: "4.5.3"
     tp_level: 6
@@ -147,4 +144,4 @@ questions:
         criteria: "Calculating the correct head height."
     hints:
       - level: 1
-        text: "Remember that the ratio $\frac{2}{5}$ compares the head to the total height. If the total height is 175, how many times larger is it than 5?"
+        text: "Remember that the ratio $\\frac{2}{5}$ compares the head to the total height. If the total height is 175, how many times larger is it than 5?"

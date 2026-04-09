@@ -1,14 +1,14 @@
 topic_id: MT1-04
-provenance: "DSKP-aligned KSSM Worked Examples"
+provenance: ai-generated
 description: "Step-by-step worked examples for Ratios, Rates and Proportions utilizing textbook contexts."
 
 worked_examples:
-  - id: WE-413-01
+  - id: WE-01
     topic: "Simplifying Ratios"
     learning_objective: "4.1.3"
     difficulty: "easy"
     real_world_analogy: "Think of simplifying a ratio like 'decluttering' a room. You are removing the extra 'bulk' (common factors) until only the essential relationship remains, but the room (the value) stays the same size."
-    misconception_alert: "Students often forget to convert units first. You cannot simplify $800 \text{ g} : 1.8 \text{ kg}$ as $800 : 1.8$. They must be in the same 'language' (units) first!"
+    misconception_alert: "Students often forget to convert units first. You cannot simplify $800 \\text{ g} : 1.8 \\text{ kg}$ as $800 : 1.8$. They must be in the same 'language' (units) first!"
     scenario: "Anis is preparing a DIY cleaning solution by mixing 800 g of vinegar with 1.8 kg of water. Express the ratio of vinegar to water in its simplest form."
     working: |
       1. Convert both quantities to the same unit (grams):
@@ -20,12 +20,12 @@ worked_examples:
          $\frac{8}{2} : \frac{18}{2} = 4 : 9$
       5. Final Answer: The simplest form is $4 : 9$.
 
-  - id: WE-432-01
+  - id: WE-02
     topic: "Determining Unknown Values in Proportions"
     learning_objective: "4.3.2"
     difficulty: "medium"
     real_world_analogy: "A proportion is like a perfectly balanced see-saw. If you add weight (increase value) to one side, you must add the exact same proportional weight to the other side to keep it from tipping."
-    misconception_alert: "The 'Upside Down' Trap! Students often place the unknown value $x$ in the wrong position. Ensure your units match horizontally: $\frac{\text{sen}}{\text{kWh}} = \frac{\text{sen}}{\text{kWh}}$."
+    misconception_alert: "The 'Upside Down' Trap! Students often place the unknown value $x$ in the wrong position. Ensure your units match horizontally: $\\frac{\\text{sen}}{\\text{kWh}} = \\frac{\\text{sen}}{\\text{kWh}}$."
     scenario: "In a Malaysian household, electricity costs 43.6 sen for 2 kilowatt-hours (kWh). Using the proportion method, calculate the cost for 30 kWh."
     working: |
       1. Let the cost for 30 kWh be $x$ sen.
@@ -36,7 +36,7 @@ worked_examples:
       6. Calculate the final value: $x = 654$
       7. Final Answer: The cost is 654 sen (or RM6.54).
 
-  - id: WE-444-01
+  - id: WE-03
     topic: "Solving Problems and Making Estimations"
     learning_objective: "4.4.4"
     difficulty: "hard"

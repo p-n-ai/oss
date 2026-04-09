@@ -1,5 +1,6 @@
 id: MT1-04
 official_ref: "Chapter 4"
+name: "Nisbah, Kadar dan Kadaran"
 name_en: "Ratios, Rates and Proportions"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-1
 subject_id: malaysia-kssm-matematik
@@ -91,7 +92,7 @@ performance_standards:
 
 prerequisites:
   required:
-    - id: MT1-01
+    - "MT1-01"
   recommended: []
 
 mastery:
@@ -115,7 +116,7 @@ teaching:
     - misconception: "Confusing Rate with Ratio."
       remediation: "Clarify that Ratios compare the same units, while Rates compare different units (e.g., sen/kWh)."
     - misconception: "The 'Upside Down' Trap in Proportions."
-      remediation: "Always align units horizontally: $\frac{A_1}{B_1} = \frac{A_2}{B_2}$."
+      remediation: "Always align units horizontally: $\\frac{A_1}{B_1} = \\frac{A_2}{B_2}$."
   engagement_hooks:
     - "The Bubur Pulut Hitam recipe: 'Is the sweetness the same if we cook 10 pots? (Equivalent Ratios)'"
     - "The Telco Plan Battle: 'Which data plan gives more GB per Ringgit? (Rates)'"
