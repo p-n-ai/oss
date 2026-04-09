@@ -1,5 +1,6 @@
 id: MT1-05
 official_ref: "Chapter 5"
+name: "Ungkapan Algebra"
 name_en: "Algebraic Expressions"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-1
 subject_id: malaysia-kssm-matematik
@@ -59,7 +60,7 @@ performance_standards:
 
 prerequisites:
   required:
-    - id: MT1-01
+    - "MT1-01"
   recommended: []
 
 mastery:
@@ -80,9 +81,9 @@ teaching:
     - "Step 7: Multiplication & Division of single-term expressions (3 days)"
   common_misconceptions:
     - misconception: "Implicit multiplication error (Thinking $3x$ is $3+x$ or $30+x$)."
-      remediation: "Clarify that $3x$ means 3 bags of $x$. If $x=5$, $3 \times 5 = 15$, not 35."
+      remediation: "Clarify that $3x$ means 3 bags of $x$. If $x=5$, $3 \\times 5 = 15$, not 35."
     - misconception: "Combining unlike terms (e.g., $2a + 3b = 5ab$)."
-      remediation: "Use the 'Fruit Basket' analogy: 2 apples + 3 bananas $\neq$ 5 'apple-bananas'."
+      remediation: "Use the 'Fruit Basket' analogy: 2 apples + 3 bananas $\\neq$ 5 'apple-bananas'."
     - misconception: "Sign errors during subtraction (The 'Negative Bracket' trap)."
       remediation: "Tell them to 'flip the switch' for every term inside the bracket when a minus is in front."
   engagement_hooks:

@@ -1,5 +1,5 @@
-id: MT1-05
-topic: "Algebraic Expressions"
+topic_id: MT1-05
+provenance: ai-generated
 questions:
   - id: Q1
     text: "Sofea takes a certain amount of time, denoted by the letter $k$, to travel from her house to the school every day. Does the variable $k$ have a fixed value or a varied value? Justify your answer."

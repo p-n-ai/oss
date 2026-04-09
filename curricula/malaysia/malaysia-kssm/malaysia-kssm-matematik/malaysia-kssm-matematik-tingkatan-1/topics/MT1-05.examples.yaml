@@ -1,5 +1,5 @@
-id: MT1-05
 topic_id: MT1-05
+provenance: ai-generated
 worked_examples:
   - id: WE-01
     topic: "Variables and Algebraic Expressions"
@@ -50,9 +50,9 @@ worked_examples:
     topic: "Multiplication and Division of Algebraic Expressions"
     learning_objective: "5.2.3"
     difficulty: hard
-    real_world_analogy: "Unpacking and Packing: Think of algebraic terms as packed boxes. To divide, you first 'unpack' them into their basic factors (like $y^2 = y \times y$), cross out the items that appear on both the top and bottom, and then 'repack' what is left."
+    real_world_analogy: "Unpacking and Packing: Think of algebraic terms as packed boxes. To divide, you first 'unpack' them into their basic factors (like $y^2 = y \\times y$), cross out the items that appear on both the top and bottom, and then 'repack' what is left."
     misconception_alert: "Students often cancel powers incorrectly. For example, dividing $y^2$ by $y$ and thinking the $y$ disappears entirely. Always expand the powers into repeated multiplication first to see exactly what remains."
-    scenario: "Calculate the quotient of $21xy \times 6x \div 14y^2z$ and state the answer in its simplest fraction form."
+    scenario: "Calculate the quotient of $21xy \\times 6x \\div 14y^2z$ and state the answer in its simplest fraction form."
     working: |
       1. Write the operation as a single fraction:
          $\frac{21xy \times 6x}{14y^2z}$
