@@ -1,0 +1,134 @@
+id: SC1-02
+official_ref: "Bab 2"
+name: "Sel Sebagai Unit Asas Hidupan"
+name_en: "The Cell as a Basic Unit of Life"
+subject_grade_id: malaysia-kssm-sains-tingkatan-1
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+learning_objectives:
+    - id: 2.1.1
+      text: "menerangkan benda hidup dibina daripada sel yang menjalankan fungsi hidup dan mengalami pembahagian sel."
+      text_en: "Explain that living things are built from cells that perform life functions and undergo cell division."
+      bloom: understand
+    - id: 2.1.2
+      text: "menunjuk cara penyediaan slaid sel haiwan dan sel tumbuhan mengikut prosedur yang betul."
+      text_en: "Demonstrate the preparation of animal cell and plant cell slides according to the correct procedure."
+      bloom: apply
+    - id: 2.1.3
+      text: "berkomunikasi mengenai fungsi setiap struktur dalam sel dan membanding dan membezakan sel haiwan dengan sel tumbuhan."
+      text_en: "Communicate about the function of each structure in the cell and compare and distinguish animal cells from plant cells."
+      bloom: analyze
+    - id: 2.1.4
+      text: "menjelaskan dengan contoh ciri organisma unisel dan multisel bagi kedua-dua haiwan dan tumbuhan."
+      text_en: "Explain with examples of characteristics of unicellular and multicellular organisms for both animals and plants."
+      bloom: understand
+    - id: 2.1.5
+      text: "membezakan jenis dan fungsi sel haiwan dan sel tumbuhan."
+      text_en: "Differentiate types and functions of animal cells and plant cells."
+      bloom: analyze
+    - id: 2.2.1
+      text: "berkomunikasi mengenai respirasi sel."
+      text_en: "Communicate about cellular respiration."
+      bloom: understand
+    - id: 2.2.2
+      text: "berkomunikasi mengenai proses fotosintesis."
+      text_en: "Communicate about the photosynthesis process."
+      bloom: understand
+    - id: 2.2.3
+      text: "membezakan antara proses respirasi sel dan fotosintesis."
+      text_en: "Differentiate between cellular respiration and photosynthesis processes."
+      bloom: analyze
+    - id: 2.2.4
+      text: "menerangkan bagaimana proses respirasi sel dan fotosintesis saling melengkapi."
+      text_en: "Explain how cellular respiration and photosynthesis processes complement each other."
+      bloom: understand
+    - id: 2.1.6
+      text: "Membezakan jenis dan fungsi sel haiwan dan sel tumbuhan."
+      text_en: "Distinguish types and functions of animal cells and plant cells."
+      bloom: analyze
+    - id: 2.1.7
+      text: "Membezakan jenis dan fungsi sel haiwan dan sel tumbuhan."
+      text_en: "Distinguish types and functions of animal cells and plant cells."
+      bloom: analyze
+content_standards:
+    - id: "2.1"
+      text: "Sel – struktur, fungsi dan organisasi"
+      text_en: "Cell – structure, function and organization"
+    - id: "2.2"
+      text: "Respirasi sel dan fotosintesis"
+      text_en: "Cell respiration and photosynthesis"
+performance_standards:
+    - level: 1
+      id: "TP1-SC1-02"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai sel sebagai unit asas kehidupan/koordinasi/ gerakbalas/pembiakan."
+      text_en: "Recall knowledge and science skills regarding cells as the basic unit of life/coordination/response/reproduction."
+      descriptor: "Remembering"
+      descriptor_en: "Remembering"
+    - level: 2
+      id: "TP2-SC1-02"
+      text: "Memahami sel sebagai unit asas kehidupan/koordinasi / gerakbalas/pembiakan serta dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand cells as the basic unit of life/coordination / response/reproduction and can explain the understanding thereof."
+      descriptor: "Understanding"
+      descriptor_en: "Understanding"
+    - level: 3
+      id: "TP3-SC1-02"
+      text: "Mengaplikasikan pengetahuan dan kemahiran sains mengenai sel sebagai unit asas kehidupan/koordinasi/ gerakbalas/pembiakan untuk melaksanakan tugasan mudah."
+      text_en: "Apply knowledge and science skills regarding cells as the basic unit of life/coordination/ response/reproduction to carry out simple tasks."
+      descriptor: "Applying"
+      descriptor_en: "Applying"
+    - level: 4
+      id: "TP4-SC1-02"
+      text: "Menganalisis pengetahuan mengenai mengenai sel sebagai unit asas kehidupan/koordinasi/ gerakbalas/pembiakan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge regarding cells as the basic unit of life/coordination/ response/reproduction in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Analyzing"
+      descriptor_en: "Analyzing"
+    - level: 5
+      id: "TP5-SC1-02"
+      text: "Menilai pengetahuan mengenai sel sebagai unit asas kehidupan/koordinasi/ gerakbalas/pembiakan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge regarding cells as the basic unit of life/coordination/ response/reproduction in the context of problem solving and making decisions to carry out a task."
+      descriptor: "Evaluating"
+      descriptor_en: "Evaluating"
+    - level: 6
+      id: "TP6-SC1-02"
+      text: "Merekabentuk persembahan pelbagai media/visual/folio/poster/main peranan/drama secara kreatif dan inovatif dengan menggunakan pengetahuan dan kemahiran sains mengenai sel sebagai unit asas kehidupan/koordinasi/ gerakbalas/pembiakan dalam konteks penyelesaian masalah dan membuat keputusan dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Design presentations of various media/visual/folio/poster/role play/drama in a creative and innovative way using knowledge and science skills regarding cells as the basic unit of life/coordination/ response/reproduction in the context of problem solving and making decisions taking into account social/economic/cultural values of society."
+      descriptor: "Creating"
+      descriptor_en: "Creating"
+prerequisites:
+    required: []
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+ai_teaching_notes: "SC1-02.teaching.md"
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-04-09T03:17:48Z"
+assessments_file: SC1-02.assessments.yaml
+teaching:
+    sequence:
+        - Introduction to cells as the building blocks of life (15 min)
+        - Guide on preparing animal and plant cell slides (20 min)
+        - Explain unicellular vs. multicellular organisms with examples (15 min)
+        - Discuss cell respiration and photosynthesis processes (20 min)
+    common_misconceptions:
+        - misconception: All cells look the same
+          remediation: Show a variety of cell types and emphasize diversity
+        - misconception: Photosynthesis happens in all cells
+          remediation: Clarify that photosynthesis is specific to plant cells with chlorophyll
+examples_file: SC1-02.examples.yaml
+engagement_hooks:
+    - Discuss how cells are essential in growing food and understanding health issues
+    - 'Pose a question: ''How do cells in our body help us stay healthy?'''

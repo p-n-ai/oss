@@ -1,0 +1,185 @@
+id: SC1-01
+official_ref: "Bab 1"
+name: "Pengenalan kepada penyiasatan saintifik"
+name_en: "Introduction to Scientific Investigation"
+subject_grade_id: malaysia-kssm-sains-tingkatan-1
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+learning_objectives:
+    - id: 1.1.1
+      text: "menghubungkaitkan aktiviti seharian dengan Sains."
+      text_en: "Relate daily activities with Science."
+      bloom: understand
+    - id: 1.1.2
+      text: "mengitlak maksud Sains."
+      text_en: "Infer the meaning of Science."
+      bloom: understand
+    - id: 1.1.3
+      text: "merumuskan kepentingan bidang Sains tersebut dalam kehidupan seharian."
+      text_en: "Conclude the importance of the Science field in daily life."
+      bloom: understand
+    - id: 1.1.4
+      text: "memerihalkan bidang Sains."
+      text_en: "Describe the field of Science."
+      bloom: understand
+    - id: 1.1.5
+      text: "berkomunikasi mengenai kerjaya dalam bidang Sains."
+      text_en: "Communicate about careers in the field of Science."
+      bloom: understand
+    - id: 1.1.6
+      text: "menghubungkait subjek yang perlu dipelajari dengan kerjaya bidang sains yang diminati."
+      text_en: "Relate subjects to be studied with preferred Science careers."
+      bloom: understand
+    - id: 1.1.7
+      text: "memerihalkan inovasi teknologi."
+      text_en: "Describe technological innovations."
+      bloom: understand
+    - id: 1.2.1
+      text: "mengenal pasti dan menyatakan fungsi radas."
+      text_en: "Identify and state the function of apparatus."
+      bloom: remember
+    - id: 1.2.2
+      text: "mengenal pasti simbol dan contoh bahan berbahaya dalam makmal."
+      text_en: "Identify symbols and examples of hazardous materials in the laboratory."
+      bloom: remember
+    - id: 1.2.3
+      text: "melukis dan melabel radas yang biasa digunakan dalam makmal dan mengelas berdasarkan kegunaannya."
+      text_en: "Draw and label apparatus commonly used in the laboratory and classify based on usage."
+      bloom: apply
+    - id: 1.2.4
+      text: "mewajarkan peraturan dan langkah keselamatan dalam makmal."
+      text_en: "Justify rules and safety measures in the laboratory."
+      bloom: evaluate
+    - id: 1.3.1
+      text: "mengenal pasti dan menggunakan unit yang betul bagi kuantiti fizikal yang berbeza."
+      text_en: "Identify and use correct units for different physical quantities."
+      bloom: apply
+    - id: 1.3.2
+      text: "mengenal pasti maksud simbol dan nilai simbol bagi imbuhan yang digunakan dalam pengukuran."
+      text_en: "Identify the meaning of symbols and symbol values for prefixes used in measurement."
+      bloom: remember
+    - id: 1.3.3
+      text: "menukar unit kuantiti asas iaitu jisim, panjang dan masa seperti gram kepada kilogram, sentimeter kepada meter, saat kepada jam dan sebaliknya."
+      text_en: "Convert base unit quantities such as mass, length and time such as grams to kilograms, centimeters to meters, seconds to hours and vice versa."
+      bloom: apply
+    - id: 1.3.4
+      text: "mewajarkan kepentingan penggunaan unit S.I dalam kehidupan harian."
+      text_en: "Justify the importance of using S.I units in daily life."
+      bloom: evaluate
+    - id: 1.4.1
+      text: "menggunakan alat pengukur yang betul dan dengan cara yang betul, untuk mengukur dengan persis dan jitu kuantiti panjang, jisim, masa, suhu dan arus elektrik."
+      text_en: "Use measuring instruments correctly and properly to measure length, mass, time, temperature and electric current precisely and accurately."
+      bloom: apply
+    - id: 1.4.2
+      text: "menggunakan alat pengukuran yang lebih jitu bagi membandingkan kejituan, kepersisan dan kepekaan dalam pengukuran."
+      text_en: "Use more accurate measuring instruments to compare accuracy, precision and sensitivity in measurement."
+      bloom: apply
+    - id: 1.4.3
+      text: "menerangkan bagaimana mengatasi ralat sistematik dan ralat rawak."
+      text_en: "Explain how to overcome systematic errors and random errors."
+      bloom: understand
+    - id: 1.4.4
+      text: "menganggar panjang, luas, jisim atau isi padu sesuatu objek dengan membuat anggaran sebelum membuat pengukuran sebenar."
+      text_en: "Estimate length, area, mass or volume of an object by making estimates before making actual measurements."
+      bloom: apply
+    - id: 1.4.5
+      text: "menjelas dengan contoh inovasi dalam alat pengukuran melalui pelbagai jenis persembahan multimedia."
+      text_en: "Explain with examples of innovation in measuring instruments through various types of multimedia presentations."
+      bloom: understand
+    - id: 1.5.1
+      text: "menyusun mengikut urutan bahan berdasarkan ketumpatan."
+      text_en: "Arrange materials in order based on density."
+      bloom: apply
+    - id: 1.5.2
+      text: "meramalkan sama ada bahan akan terapung dan tenggelam berdasarkan ketumpatan."
+      text_en: "Predict whether materials will float or sink based on density."
+      bloom: analyze
+    - id: 1.5.3
+      text: "mendefinisikan secara operasi maksud ketumpatan."
+      text_en: "Define the meaning of density operationally."
+      bloom: understand
+    - id: 1.5.4
+      text: "mengira ketumpatan menggunakan rumus (ketumpatan = jisim/isi padu) dan dengan kaedah sesaran air."
+      text_en: "Calculate density using the formula (density = mass/volume) and by the water displacement method."
+      bloom: apply
+    - id: 1.5.5
+      text: "menerangkan fenomena yang berkaitan dengan perbezaan ketumpatan dalam kehidupan seharian."
+      text_en: "Explain phenomena related to differences in density in daily life."
+      bloom: understand
+    - id: 1.5.6
+      text: "membuat inovasi objek, makanan atau minuman menggunakan konsep ketumpatan."
+      text_en: "Innovate objects, food or drinks using the concept of density."
+      bloom: create
+    - id: 1.6.1
+      text: "membezakan setiap kemahiran proses sains."
+      text_en: "Differentiate each science process skill."
+      bloom: analyze
+    - id: 1.6.2
+      text: "membuat urutan langkah dalam menjalankan penyiasatan saintifik mengikut urutan yang betul."
+      text_en: "Make the sequence of steps in conducting scientific investigation in the correct order."
+      bloom: apply
+    - id: 1.6.3
+      text: "menjalankan satu penyiasatan saintifik bagi menyelesaikan satu masalah yang mudah."
+      text_en: "Conduct a scientific investigation to solve a simple problem."
+      bloom: apply
+    - id: 1.7.1
+      text: "menyokong sikap saintifik dan nilai murni yang diamalkan oleh ahli sains."
+      text_en: "Support scientific attitudes and noble values practiced by scientists."
+      bloom: understand
+    - id: 1.7.2
+      text: "mewajarkan keperluan mengamalkan sikap saintifik dan nilai murni dalam menjalankan penyiasatan."
+      text_en: "Justify the need to practice scientific attitudes and noble values in conducting investigations."
+      bloom: evaluate
+    - id: 1.7.3
+      text: "mempraktikkan sikap saintifik dan nilai murni semasa menjalankan kaedah penyiasatan saintifik."
+      text_en: "Practice scientific attitudes and noble values while conducting scientific investigation methods."
+      bloom: apply
+content_standards:
+    - id: "1.1"
+      text: Sains adalah sebahagian daripada kehidupan harian
+      text_en: Science is part of daily life
+    - id: "1.2"
+      text: Makmal sains anda
+      text_en: Your science laboratory
+    - id: "1.3"
+      text: Kuantiti fizik dan unitnya
+      text_en: Physical quantities and their units
+    - id: "1.4"
+      text: Penggunaan alat pengukur, kejituan, kepersisan, kepekaan dan ralat
+      text_en: Use of measuring instruments, accuracy, precision, sensitivity and errors
+    - id: "1.5"
+      text: Ketumpatan
+      text_en: Density
+    - id: "1.6"
+      text: Kemahiran proses sains dan penyiasatan saintifik
+      text_en: Science process skills and scientific investigation
+    - id: "1.7"
+      text: Sikap saintifik dan nilai murni
+      text_en: Scientific attitudes and noble values
+examples_file: SC1-01.examples.yaml
+assessments_file: SC1-01.assessments.yaml
+teaching:
+    sequence:
+        - 'Step 1: Introduce scientific concepts in daily activities (15 min)'
+        - 'Step 2: Discuss different fields of science and their importance (20 min)'
+        - 'Step 3: Identify and explain laboratory safety symbols (15 min)'
+    common_misconceptions:
+        - misconception: Science is only about experiments.
+          remediation: Provide examples of theoretical science.
+        - misconception: All scientific careers require working in a lab.
+          remediation: Discuss diverse science-related careers.
+engagement_hooks:
+    - Discuss how local agricultural practices use scientific principles.
+    - Highlight innovations in technology developed in Malaysia.
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+ai_teaching_notes: SC1-01.teaching.md
+quality_level: 1
+provenance: ai-generated

@@ -1,0 +1,132 @@
+topic_id: SC1-07
+provenance: ai-generated
+
+questions:
+  # Learning objective: 7.1.1 (apply): merancang dan merekodkan komposisi udara.
+  - id: Q1
+    text: 'Nyatakan komposisi udara dengan menggunakan pecahan atau peratusan bagi gas utama yang terdapat dalam udara.'
+    difficulty: medium
+    learning_objective: 7.1.1
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: 'Nitrogen: 78%, Oksigen: 21%, Argon: 0.93%, Karbon dioksida: 0.04%, gas-gas lain: 0.03%'
+      working: |
+        Udara terdiri daripada pelbagai gas di mana nitrogen adalah komponen terbesar, diikuti oleh oksigen, argon, dan karbon dioksida. Gas-gas lain wujud dalam jumlah yang sangat kecil.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: 'Menulis dua gas utama dan peratusan yang betul.'
+      - marks: 2
+        criteria: 'Menulis tiga gas utama dan peratusan yang betul.'
+      - marks: 3
+        criteria: 'Menulis semua gas utama dan peratusan yang betul.'
+    hints:
+      - level: 1
+        text: 'MISCONCEPTION ALERT: Ingat bahawa nitrogen lebih banyak daripada oksigen dalam atmosfera.'
+
+  # Learning objective: 7.1.2 (analyze): mencerakinkan komposisi udara daripada carta pai.
+  - id: Q2
+    text: 'Berikan analisis anda terhadap carta pai yang menunjukkan komposisi udara dan jelaskan pentingnya setiap gas dalam kehidupan harian.'
+    difficulty: medium
+    learning_objective: 7.1.2
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: 'Nitrogen adalah penting untuk pertumbuhan tumbuhan melalui penetapan nitrogen; Oksigen diperlukan untuk respirasi; Argon digunakan dalam lampu pijar; Karbon dioksida penting untuk fotosintesis.'
+      working: |
+        Setiap gas dalam udara mempunyai peranan tertentu. Nitrogen menyokong pertumbuhan tumbuhan, oksigen adalah penting untuk respirasi, argon digunakan dalam lampu pijar, dan karbon dioksida adalah kunci dalam proses fotosintesis.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: 'Menyebut sekurang-kurangnya satu gas dan kegunaannya.'
+      - marks: 2
+        criteria: 'Menyebut dua gas dan kegunaannya.'
+      - marks: 3
+        criteria: 'Menyebut tiga gas dan kegunaannya.'
+      - marks: 4
+        criteria: 'Menyebut semua gas utama dan kegunaannya.'
+    hints:
+      - level: 1
+        text: 'Fikirkan tentang proses biologi dan industri yang bergantung kepada gas-gas dalam udara.'
+
+  # Learning objective: 7.1.5 (evaluate): mewajarkan kepentingan gas oksigen, karbon dioksida, nitrogen dan gas nadir dalam kehidupan harian.
+  - id: Q3
+    text: 'Jelaskan mengapa gas oksigen, karbon dioksida, nitrogen, dan gas nadir adalah penting dalam kehidupan harian kita. Gunakan contoh yang relevan.'
+    difficulty: medium
+    learning_objective: 7.1.5
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: 'Oksigen penting untuk pernafasan; karbon dioksida untuk fotosintesis; nitrogen untuk pertumbuhan tumbuhan; gas nadir seperti argon digunakan dalam industri.'
+      working: |
+        Oksigen digunakan dalam proses pernafasan oleh manusia dan haiwan. Karbon dioksida diperlukan untuk fotosintesis oleh tumbuhan. Nitrogen adalah penting untuk sintesis protein dalam tumbuhan. Gas nadir digunakan dalam pelbagai aplikasi industri seperti argon dalam lampu pijar.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: 'Menyebut satu gas dan kepentingannya.'
+      - marks: 2
+        criteria: 'Menyebut dua gas dan kepentingannya.'
+      - marks: 3
+        criteria: 'Menyebut tiga gas dan kepentingannya.'
+      - marks: 4
+        criteria: 'Menyebut semua gas utama dan kepentingannya.'
+    hints:
+      - level: 1
+        text: 'Pertimbangkan proses penting seperti pernafasan dan fotosintesis.'
+
+  # Learning objective: 7.2.1 (understand): merumuskan syarat untuk berlaku pembakaran.
+  - id: Q4
+    text: 'Nyatakan tiga syarat yang diperlukan untuk pembakaran berlaku.'
+    difficulty: medium
+    learning_objective: 7.2.1
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: 'Oksigen, bahan api, haba'
+      options:
+        - 'Oksigen, bahan api, haba'
+        - 'Air, oksigen, bahan api'
+        - 'Haba, air, bahan api'
+        - 'Oksigen, udara, cahaya'
+      working: |
+        Pembakaran memerlukan oksigen, bahan api, dan haba untuk berlaku. Ketiga-tiga komponen ini membentuk segitiga api.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: 'Memilih dua syarat yang betul.'
+      - marks: 2
+        criteria: 'Memilih semua syarat yang betul.'
+    hints:
+      - level: 1
+        text: 'Fikirkan tentang apa yang diperlukan untuk menyalakan api.'
+
+  # Learning objective: 7.3.3 (evaluate): mewajarkan langkah untuk mencegah dan mengawal pencemaran udara.
+  - id: Q5
+    text: 'Bincangkan langkah-langkah yang boleh diambil untuk mencegah dan mengawal pencemaran udara.'
+    difficulty: medium
+    learning_objective: 7.3.3
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: 'Menggunakan kenderaan mesra alam, menanam lebih banyak pokok, mengurangkan penggunaan bahan api fosil, dan menggalakkan penggunaan tenaga boleh diperbaharui.'
+      working: |
+        Langkah-langkah seperti penggunaan kenderaan mesra alam, penanaman pokok, dan pengurangan penggunaan bahan api fosil dapat membantu mencegah pencemaran udara. Penggunaan tenaga boleh diperbaharui juga merupakan langkah penting dalam mengawal pencemaran.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: 'Menyebut satu langkah pencegahan.'
+      - marks: 2
+        criteria: 'Menyebut dua langkah pencegahan.'
+      - marks: 3
+        criteria: 'Menyebut tiga langkah pencegahan.'
+      - marks: 4
+        criteria: 'Menyebut semua langkah utama pencegahan.'
+    hints:
+      - level: 1
+        text: 'Pertimbangkan langkah-langkah yang mengurangkan pelepasan gas rumah hijau.'

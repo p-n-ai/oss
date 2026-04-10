@@ -1,0 +1,55 @@
+topic_id: SC1-02
+provenance: ai-generated
+description: "Worked examples for Sel Sebagai Unit Asas Hidupan"
+worked_examples:
+  - id: WE-01
+    topic: "Cell Structure and Function"
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: "2.1.1: Menerangkan benda hidup dibina daripada sel yang menjalankan fungsi hidup dan mengalami pembahagian sel."
+    real_world_analogy: "Cells are like tiny factories where each part has a specific role to ensure the whole system works efficiently."
+    misconception_alert: "Students often think that all cells look the same and have the same parts. In reality, different cells have different structures based on their functions."
+    scenario: "Explain how a cell can be compared to a factory in terms of structure and function."
+    working: |
+      Step 1: Identify the major components of a cell, such as the nucleus, mitochondria, cell membrane, and cytoplasm.
+      Step 2: Compare these components to parts of a factory: 
+              - The nucleus is like the control room, where instructions are stored.
+              - Mitochondria are the power generators, providing energy.
+              - The cell membrane acts as the factory walls, controlling entry and exit.
+              - Cytoplasm is the factory floor where activities take place.
+      Step 3: Conclude that each part of the cell has a specific function, similar to a factory's machinery working together to produce a product.
+
+  - id: WE-02
+    topic: "Preparation of Animal and Plant Cell Slides"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: "2.1.2: Menunjuk cara penyediaan slaid sel haiwan dan sel tumbuhan mengikut prosedur yang betul."
+    real_world_analogy: "Preparing a cell slide is like setting up a microscope to examine a tiny world, much like setting up a telescope to explore the universe."
+    misconception_alert: "A common mistake is using too much or too little staining solution, which can obscure the view of the cell structures."
+    scenario: "Demonstrate the correct procedure for preparing a plant cell slide for microscopic observation."
+    working: |
+      Step 1: Gather materials: a clean glass slide, cover slip, iodine solution, and an onion.
+      Step 2: Peel a thin layer of onion skin and place it on the glass slide.
+      Step 3: Add a drop of iodine solution to stain the cells, making them visible.
+      Step 4: Carefully place the cover slip over the onion skin to avoid air bubbles.
+      Step 5: Observe the slide under a microscope, adjusting the focus to view the cell structures clearly.
+
+  - id: WE-03
+    topic: "Comparison of Animal and Plant Cells"
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: "2.1.5: Membezakan jenis dan fungsi sel haiwan dan sel tumbuhan."
+    real_world_analogy: "Comparing animal and plant cells is like comparing a smartphone to a tablet; both have similar core functions but different features and uses."
+    misconception_alert: "It is often misunderstood that plant cells and animal cells are identical, whereas they have distinct structures and functions."
+    scenario: "Analyze the differences in structure and function between an animal cell and a plant cell."
+    working: |
+      Step 1: Identify the unique features of plant cells such as the cell wall, chloroplasts, and large central vacuole.
+      Step 2: Note that animal cells lack a cell wall and chloroplasts but have centrioles and smaller vacuoles.
+      Step 3: Discuss the functions: 
+              - Cell wall provides structure and protection in plant cells.
+              - Chloroplasts enable photosynthesis in plant cells.
+              - Centrioles assist in cell division in animal cells.
+      Step 4: Conclude that while both cell types perform vital functions, their structural differences reflect their roles in the organism's survival and reproduction.

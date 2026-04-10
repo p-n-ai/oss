@@ -1,0 +1,132 @@
+topic_id: SC1-01
+provenance: ai-generated
+
+questions:
+  # Learning Objective 1.1.3
+  - id: Q1
+    text: "Jelaskan dua kepentingan bidang Sains dalam kehidupan seharian."
+    difficulty: medium
+    learning_objective: 1.1.3
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: "Bidang Sains membantu dalam kemajuan teknologi dan perubatan, serta meningkatkan kualiti hidup."
+      working: |
+        1. Sains membantu menghasilkan teknologi baru yang memudahkan urusan harian seperti telefon pintar dan komputer.
+        2. Dalam bidang perubatan, Sains membolehkan penghasilan ubat-ubatan dan rawatan yang menyelamatkan nyawa.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menjelaskan satu kepentingan bidang Sains."
+      - marks: 2
+        criteria: "Menjelaskan dua kepentingan bidang Sains."
+    hints:
+      - level: 1
+        text: "Fikirkan bagaimana Sains mempengaruhi teknologi dan kesihatan."
+      - level: 2
+        text: "Pertimbangkan peranan Sains dalam mencipta alat elektronik dan penyembuhan penyakit."
+
+  # Learning Objective 1.2.4
+  - id: Q2
+    text: "Mengapa penting untuk mematuhi peraturan keselamatan di makmal?"
+    difficulty: medium
+    learning_objective: 1.2.4
+    tp_level: 3
+    kbat: true
+    answer:
+      type: exact
+      value: "Untuk mengelakkan kemalangan dan kecederaan, serta melindungi peralatan dan bahan."
+      working: |
+        1. Ketidakpatuhan boleh menyebabkan kemalangan seperti kebakaran atau letupan.
+        2. Ia juga boleh mengakibatkan kecederaan kepada pengguna makmal.
+        3. Melindungi peralatan mahal dan bahan yang sensitif dari kerosakan.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menjelaskan satu sebab pentingnya peraturan keselamatan."
+      - marks: 2
+        criteria: "Menjelaskan dua sebab pentingnya peraturan keselamatan."
+      - marks: 3
+        criteria: "Menjelaskan tiga sebab pentingnya peraturan keselamatan."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Tidak semua bahan di makmal adalah selamat."
+      - level: 2
+        text: "Fokus pada aspek keselamatan diri dan perlindungan peralatan."
+
+  # Learning Objective 1.3.1
+  - id: Q3
+    text: "Apakah unit S.I. yang betul untuk mengukur panjang?"
+    difficulty: medium
+    learning_objective: 1.3.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "meter"
+      options:
+        - "meter"
+        - "gram"
+        - "liter"
+      working: |
+        1. Mengenal pasti bahawa panjang diukur dalam unit meter.
+        2. Gram digunakan untuk jisim dan liter untuk isi padu.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Memilih unit yang betul untuk panjang."
+    hints:
+      - level: 1
+        text: "Panjang sering diukur menggunakan pembaris atau pita pengukur."
+      - level: 2
+        text: "Fokus pada unit yang digunakan dalam pengukuran panjang seperti jalan atau kertas."
+
+  # Learning Objective 1.4.3
+  - id: Q4
+    text: "Bagaimana anda boleh mengatasi ralat sistematik dalam pengukuran?"
+    difficulty: medium
+    learning_objective: 1.4.3
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Kalibrasi alat secara berkala dan menggunakan alat pengukur yang tepat."
+      working: |
+        1. Ralat sistematik boleh dikurangkan melalui kalibrasi alat.
+        2. Menggunakan alat yang lebih tepat dan terkini.
+        3. Memastikan prosedur pengukuran yang betul diikuti.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyebut satu cara mengatasi ralat sistematik."
+      - marks: 2
+        criteria: "Menjelaskan dua cara mengatasi ralat sistematik."
+    hints:
+      - level: 1
+        text: "Pertimbangkan pentingnya penentukuran alat."
+      - level: 2
+        text: "Adakah alat yang lebih tepat boleh membantu?"
+
+  # Learning Objective 1.5.2
+  - id: Q5
+    text: "Meramalkan sama ada sebiji bola besi akan terapung atau tenggelam dalam air berdasarkan ketumpatan."
+    difficulty: medium
+    learning_objective: 1.5.2
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: "Tenggelam"
+      working: |
+        1. Ketumpatan bola besi lebih tinggi daripada ketumpatan air.
+        2. Objek dengan ketumpatan lebih tinggi akan tenggelam.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Meramalkan dengan betul berdasarkan ketumpatan."
+    hints:
+      - level: 1
+        text: "Pikirkan tentang perbezaan ketumpatan antara besi dan air."
+      - level: 2
+        text: "Apa yang berlaku apabila objek lebih tumpat daripada air?"

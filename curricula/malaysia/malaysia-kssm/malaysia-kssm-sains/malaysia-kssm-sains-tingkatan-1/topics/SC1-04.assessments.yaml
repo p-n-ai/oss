@@ -1,0 +1,122 @@
+topic_id: SC1-04
+provenance: ai-generated
+
+questions:
+  # Learning Objective: 4.1.1
+  - id: Q1
+    text: 'Bandingkan pembiakan seks dan aseks bagi haiwan dan berikan satu contoh bagi setiap jenis pembiakan.'
+    difficulty: medium
+    learning_objective: 4.1.1
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: 'Pembiakan seks melibatkan dua induk dan pertukaran bahan genetik, contohnya mamalia. Pembiakan aseks melibatkan satu induk tanpa pertukaran bahan genetik, contohnya amoeba.'
+      working: |
+        Pembiakan seks melibatkan dua gamet jantan dan betina, menghasilkan variasi genetik. Contoh: mamalia.
+        Pembiakan aseks hanya memerlukan satu induk dan menghasilkan klon. Contoh: amoeba.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Pelajar menyatakan satu perbezaan antara pembiakan seks dan aseks."
+      - marks: 1
+        criteria: "Pelajar memberikan contoh yang betul untuk pembiakan seks."
+      - marks: 1
+        criteria: "Pelajar memberikan contoh yang betul untuk pembiakan aseks."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Seksual tidak semestinya memerlukan hubungan fizikal antara haiwan."
+
+  # Learning Objective: 4.2.3
+  - id: Q2
+    text: 'Jelaskan perbezaan antara gamet jantan dan gamet betina dalam sistem pembiakan.'
+    difficulty: medium
+    learning_objective: 4.2.3
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: 'Gamet jantan adalah sperma yang bergerak dan kecil, manakala gamet betina adalah ovum yang besar dan tidak bergerak.'
+      working: |
+        Gamet jantan, sperma, mempunyai kemampuan untuk bergerak ke arah ovum.
+        Gamet betina, ovum, adalah lebih besar dan mengandungi nutrien untuk perkembangan awal.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Pelajar menjelaskan ciri-ciri gamet jantan dengan betul."
+      - marks: 1
+        criteria: "Pelajar menjelaskan ciri-ciri gamet betina dengan betul."
+    hints:
+      - level: 1
+        text: "Ingat bahawa sperma memerlukan motilitas untuk mencapai ovum."
+
+  # Learning Objective: 4.3.2
+  - id: Q3
+    text: 'Bagaimanakah waktu subur dalam kitar haid berkait rapat dengan proses persenyawaan?'
+    difficulty: medium
+    learning_objective: 4.3.2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: 'Waktu subur adalah ketika ovulasi berlaku, dan persenyawaan paling mungkin terjadi jika sperma hadir.'
+      working: |
+        Waktu subur terjadi kira-kira di pertengahan kitar haid apabila ovulasi berlaku.
+        Telur dilepaskan dan boleh disenyawakan oleh sperma, meningkatkan peluang kehamilan.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Pelajar menerangkan konsep ovulasi dengan betul."
+      - marks: 1
+        criteria: "Pelajar mengaitkan ovulasi dengan peluang persenyawaan."
+    hints:
+      - level: 1
+        text: "Fokus pada kaitan antara ovulasi dan waktu subur."
+
+  # Learning Objective: 4.4.2
+  - id: Q4
+    text: 'Mengapa plasenta dan tali pusat penting dalam kehamilan?'
+    difficulty: medium
+    learning_objective: 4.4.2
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: 'Plasenta menyediakan nutrien dan oksigen kepada fetus dan mengeluarkan bahan buangan. Tali pusat menghubungkan fetus dengan plasenta.'
+      working: |
+        Plasenta bertindak sebagai penapis dan sumber pemakanan untuk fetus.
+        Tali pusat membawa bekalan darah dari plasenta ke fetus dan kembali.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Pelajar menjelaskan peranan plasenta dengan betul."
+      - marks: 1
+        criteria: "Pelajar menjelaskan fungsi tali pusat dengan betul."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang bagaimana bayi mendapatkan nutrien dan oksigen."
+
+  # Learning Objective: 4.7.2
+  - id: Q5
+    text: 'Mengapakah proses pendebungaan penting kepada tumbuhan berbunga?'
+    difficulty: medium
+    learning_objective: 4.7.2
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: 'Pendebungaan membolehkan persenyawaan berlaku, menghasilkan biji benih untuk kemandirian spesies.'
+      working: |
+        Pendebungaan memindahkan debunga dari anter ke stigma, membolehkan sperma mencapai ovum.
+        Ini menghasilkan biji benih dan seterusnya memastikan kelangsungan hidup dan kepelbagaian tumbuhan.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Pelajar menerangkan proses pendebungaan dengan betul."
+      - marks: 1
+        criteria: "Pelajar mengaitkan pendebungaan dengan persenyawaan."
+      - marks: 1
+        criteria: "Pelajar memahami kepentingan biji benih dalam kemandirian spesies."
+    hints:
+      - level: 1
+        text: "Pendebungaan adalah langkah pertama sebelum persenyawaan dalam tumbuhan."

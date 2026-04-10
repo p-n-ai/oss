@@ -1,0 +1,49 @@
+topic_id: SC1-07
+provenance: ai-generated
+description: "Worked examples for Udara"
+worked_examples:
+  - id: WE-01
+    topic: "Komposisi Udara"
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: "7.1.1 (apply): merancang dan merekodkan komposisi udara."
+    real_world_analogy: "Menyusun bahan-bahan untuk membuat kek, di mana setiap bahan mempunyai peranan penting dalam hasil akhir."
+    misconception_alert: "Pelajar sering tersilap dengan menganggap semua gas dalam udara mempunyai jumlah yang sama."
+    scenario: "Anda diminta untuk merancang eksperimen untuk merekodkan komposisi udara."
+    working: |
+      Step 1: Fahami bahawa udara terdiri daripada beberapa gas, dengan nitrogen (78%) dan oksigen (21%) sebagai komponen utama.
+      Step 2: Rancang untuk menggunakan alat seperti tabung uji dan bahan kimia yang sesuai untuk mengasingkan gas-gas ini.
+      Step 3: Rekodkan hasil pengasingan dan bandingkan dengan komposisi udara yang diketahui.
+
+  - id: WE-02
+    topic: "Kepentingan Gas dalam Kehidupan Harian"
+    difficulty: medium
+    tp_level: 5
+    kbat: false
+    learning_objective: "7.1.5 (evaluate): mewajarkan kepentingan gas oksigen, karbon dioksida, nitrogen dan gas nadir dalam kehidupan harian."
+    real_world_analogy: "Seperti pentingnya setiap pemain dalam satu pasukan bola sepak untuk menang, setiap gas dalam udara memainkan peranan penting dalam ekosistem."
+    misconception_alert: "Salah faham bahawa hanya oksigen penting, sedangkan gas lain seperti karbon dioksida juga penting untuk fotosintesis."
+    scenario: "Jelaskan kepentingan gas-gas utama dan gas nadir dalam kehidupan harian kita."
+    working: |
+      Step 1: Kenalpasti gas utama dalam udara: oksigen, karbon dioksida, nitrogen, dan gas nadir.
+      Step 2: Terangkan peranan oksigen dalam respirasi dan pembakaran.
+      Step 3: Terangkan peranan karbon dioksida dalam fotosintesis tumbuhan.
+      Step 4: Terangkan bagaimana nitrogen digunakan dalam industri pertanian sebagai baja.
+      Step 5: Terangkan peranan gas nadir dalam aplikasi industri seperti lampu neon.
+
+  - id: WE-03
+    topic: "Pencemaran Udara dan Penyelesaiannya"
+    difficulty: hard
+    tp_level: 6
+    kbat: true
+    learning_objective: "7.3.4 (apply): menyelesaikan masalah kesan buruk akibat pencemaran udara."
+    real_world_analogy: "Seperti bagaimana menyaring air kotor untuk mendapatkan air bersih, langkah pencegahan perlu diambil untuk memastikan udara bersih."
+    misconception_alert: "Pelajar mungkin berfikir bahawa pencemaran hanya berlaku dari kilang, tetapi ia juga dari kenderaan dan aktiviti harian."
+    scenario: "Anda adalah seorang ahli ekologi yang ditugaskan untuk mengurangkan kesan buruk pencemaran udara di bandar."
+    working: |
+      Step 1: Kenalpasti punca pencemaran udara seperti kenderaan, pembakaran terbuka, dan industri.
+      Step 2: Cadangkan langkah-langkah seperti penggunaan kenderaan elektrik untuk mengurangkan pelepasan asap.
+      Step 3: Cadangkan penggunaan teknologi penapisan di kilang untuk mengurangkan pencemaran.
+      Step 4: Promosikan kesedaran awam tentang kepentingan mengekalkan kualiti udara.
+      Step 5: Bentuk dasar yang menyokong penggunaan sumber tenaga yang bersih dan boleh diperbaharui.

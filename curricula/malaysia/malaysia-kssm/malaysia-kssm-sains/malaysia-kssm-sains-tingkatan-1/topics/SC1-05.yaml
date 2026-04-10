@@ -1,0 +1,134 @@
+id: SC1-05
+official_ref: "Bab 5"
+name: "Jirim"
+name_en: "Matter"
+subject_grade_id: malaysia-kssm-sains-tingkatan-1
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+learning_objectives:
+    - id: 5.1.1
+      text: "menyatakan bahawa hampir semua benda yang wujud dalam alam adalah jirim."
+      text_en: "State that almost all things that exist in nature are matter."
+      bloom: remember
+    - id: 5.1.2
+      text: "membuktikan bahawa benda hidup dan bukan hidup mempunyai jisim dan memenuhi ruang."
+      text_en: "Prove that living and non-living things have mass and occupy space."
+      bloom: apply
+    - id: 5.1.3
+      text: "membezakan sifat fizik dan sifat kimia jirim."
+      text_en: "Differentiate physical properties and chemical properties of matter."
+      bloom: analyze
+    - id: 5.1.4
+      text: "mengelas bahan dari pelbagai ciri."
+      text_en: "Classify materials from various characteristics."
+      bloom: apply
+    - id: 5.2.1
+      text: "mengitlak bahawa jirim terdiri daripada zarah."
+      text_en: "Infer that matter consists of particles."
+      bloom: understand
+    - id: 5.2.2
+      text: "membanding dan membezakan tiga keadaan jirim berdasarkan teori kinetik dari segi susunan dan pergerakan zarah-zarah."
+      text_en: "Compare and distinguish three states of matter based on kinetic theory in terms of arrangement and movement of particles."
+      bloom: analyze
+    - id: 5.2.3
+      text: "menggunakan perhubungan ruang dan masa bagi membezakan kadar resapan dalam tiga keadaan jirim."
+      text_en: "Use the relationship of space and time to differentiate the rate of diffusion in three states of matter."
+      bloom: apply
+    - id: 5.2.4
+      text: "memerihalkan perubahan keadaan jirim dari segi pergerakan zarah-zarah akibat daripada penyerapan dan pembebasan haba berdasarkan teori kinetik."
+      text_en: "Describe the change of state of matter in terms of particle movement due to absorption and release of heat based on kinetic theory."
+      bloom: understand
+    - id: 5.2.5
+      text: "merumuskan bahawa suhu kekal semasa pembekuan, peleburan dan pendidihan."
+      text_en: "Conclude that temperature remains constant during freezing, melting and boiling."
+      bloom: understand
+    - id: 5.2.6
+      text: "merumuskan jisim kekal tidak berubah semasa perubahan fizik."
+      text_en: "Conclude that mass remains unchanged during physical changes."
+      bloom: understand
+    - id: 5.2.7
+      text: "menjelaskan dengan contoh perubahan keadaan jirim dalam kehidupan harian."
+      text_en: "Explain with examples of change of state of matter in daily life."
+      bloom: understand
+content_standards:
+    - id: "5.1"
+      text: Jirim dalam alam
+      text_en: Matter in nature
+    - id: "5.2"
+      text: Tiga keadaan jirim
+      text_en: Three states of matter
+performance_standards:
+    - level: 1
+      id: "TP1-SC1-05"
+      text: Mengingat kembali pengetahuan dan kemahiran sains mengenai jirim/jadual berkala/udara.
+      text_en: Recall knowledge and science skills regarding matter/periodic table/air.
+      descriptor: Remembering
+      descriptor_en: Remembering
+    - level: 2
+      id: "TP2-SC1-05"
+      text: Memahami jirim/jadual berkala/udara serta dapat menjelaskan kefahaman tersebut.
+      text_en: Understand matter/periodic table/air and can explain the understanding thereof.
+      descriptor: Understanding
+      descriptor_en: Understanding
+    - level: 3
+      id: "TP3-SC1-05"
+      text: Mengaplikasikan pengetahuan jirim/jadual berkala/udara untuk menerangkan kejadian atau fenomena alam dan dapat melaksanakan tugasan mudah.
+      text_en: Apply knowledge of matter/periodic table/air to explain natural events or phenomena and can carry out simple tasks.
+      descriptor: Applying
+      descriptor_en: Applying
+    - level: 4
+      id: "TP4-SC1-05"
+      text: Menganalisis pengetahuan mengenai struktur jirim/jadual berkala/udara dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam.
+      text_en: Analyze knowledge regarding the structure of matter/periodic table/air in the context of problem solving regarding natural events or phenomena.
+      descriptor: Analyzing
+      descriptor_en: Analyzing
+    - level: 5
+      id: "TP5-SC1-05"
+      text: Menilai pengetahuan mengenai jirim/jadual berkala/udara dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan.
+      text_en: Evaluate knowledge regarding matter/periodic table/air in the context of problem solving and making decisions to carry out a task.
+      descriptor: Evaluating
+      descriptor_en: Evaluating
+    - level: 6
+      id: "TP6-SC1-05"
+      text: Merekabentuk persembahan pelbagai media/visual/folio/poster/main peranan/drama secara kreatif dan inovatif dengan menggunakan pengetahuan dan kemahiran sains mengenai jirim/jadual berkala/udara dalam konteks penyelesaian masalah dan membuat keputusan dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat.
+      text_en: Design presentations of various media/visual/folio/poster/role play/drama in a creative and innovative way using knowledge and science skills regarding matter/periodic table/air in the context of problem solving and making decisions taking into account social/economic/cultural values of society.
+      descriptor: Creating
+      descriptor_en: Creating
+prerequisites:
+    required: []
+quality_level: 1
+provenance: ai-generated
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+ai_teaching_notes: "SC1-05.teaching.md"
+assessments_file: SC1-05.assessments.yaml
+examples_file: SC1-05.examples.yaml
+teaching:
+    sequence:
+        - 'Step 1: Introduce the concept of matter with everyday examples (15 min)'
+        - 'Step 2: Explore physical and chemical properties through hands-on activities (20 min)'
+        - 'Step 3: Explain states of matter using particle diagrams and animations (25 min)'
+        - 'Step 4: Discuss the kinetic theory and its application to state changes (20 min)'
+        - 'Step 5: Conduct an experiment to observe temperature consistency during phase changes (15 min)'
+    common_misconceptions:
+        - misconception: Only solid objects are considered matter
+          remediation: Explain that gases like air are also matter as they occupy space and have mass
+        - misconception: Temperature changes during phase change
+          remediation: Demonstrate that temperature remains constant during phase changes like melting
+engagement_hooks:
+    - Discuss how local foods, such as steamed rice, involve changes in states of matter
+    - Explore traditional crafts like pottery to illustrate the concept of matter

@@ -1,0 +1,48 @@
+topic_id: SC1-09
+provenance: ai-generated
+description: "Worked examples for Bumi"
+worked_examples:
+  - id: WE-01
+    topic: "Lapisan Bumi"
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: "9.1.2 - Menjelaskan perbezaan antara lapisan bumi berdasarkan komposisi dan sifat fizik."
+    real_world_analogy: "Memikirkan Bumi seperti sebiji telur, dengan cangkerang keras, putih telur, dan kuning telur."
+    misconception_alert: "Ramai pelajar salah anggap bahawa lapisan bumi adalah sama seperti kerak bumi. Sebenarnya, lapisan bumi termasuk kerak, mantel, dan teras."
+    scenario: "Apakah perbezaan utama antara kerak, mantel, dan teras bumi dari segi komposisi dan sifat fizikal?"
+    working: |
+      Step 1: Fahami bahawa kerak bumi adalah lapisan paling luar yang keras dan tipis, terdiri daripada batuan silikat.
+      Step 2: Mantel terletak di bawah kerak dan lebih tebal, terdiri daripada magnesium dan besi silikat.
+      Step 3: Teras bumi terbahagi kepada teras luar cair dan teras dalam pepejal, terdiri daripada besi dan nikel.
+      Step 4: Kenal pasti bahawa setiap lapisan mempunyai komposisi dan sifat fizikal yang unik, dari keras hingga cair.
+
+  - id: WE-02
+    topic: "Proses Pembentukan Batuan"
+    difficulty: medium
+    tp_level: 3
+    kbat: true
+    learning_objective: "9.2.2 - Berkomunikasi bagi membezakan proses pembentukan batuan."
+    real_world_analogy: "Membayangkan batuan sebagai bahan resipi yang berubah melalui pemanasan dan tekanan, seperti memasak."
+    misconception_alert: "Pelajar sering keliru antara batuan igneus, sedimen, dan metamorf. Setiap jenis batuan terbentuk melalui proses yang berbeza."
+    scenario: "Bagaimana batuan igneus, sedimen, dan metamorf terbentuk, dan apakah perbezaan utama dalam proses pembentukan?"
+    working: |
+      Step 1: Batuan igneus terbentuk daripada penyejukan dan pengerasan magma atau lava.
+      Step 2: Batuan sedimen terbentuk melalui pemadatan dan penginduran sedimen seperti pasir, kerikil, dan tanah liat.
+      Step 3: Batuan metamorf terbentuk apabila batuan igneus atau sedimen mengalami tekanan tinggi dan suhu tanpa mencair.
+      Step 4: Bandingkan proses pembentukan ketiga-tiga jenis batuan ini dan kenal pasti perbezaannya.
+
+  - id: WE-03
+    topic: "Geobencana dan Kesannya"
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: "9.4.3 - Menyedari bahawa bencana alam memberi impak terhadap kehidupan alam sekitar."
+    real_world_analogy: "Menganggap geobencana seperti penyakit yang menyerang kesihatan bumi, mengganggu keseimbangan ekosistem."
+    misconception_alert: "Pelajar mungkin berfikir bahawa semua geobencana mempunyai kesan yang sama, tetapi sebenarnya setiap satu boleh memberi impak unik bergantung kepada lokasinya."
+    scenario: "Apakah kesan utama geobencana seperti gempa bumi dan letusan gunung berapi terhadap alam sekitar dan kehidupan manusia?"
+    working: |
+      Step 1: Gempa bumi boleh menyebabkan kerosakan struktur bangunan dan infrastruktur serta mencetuskan tanah runtuh.
+      Step 2: Letusan gunung berapi boleh menyebarkan abu dan lava, memusnahkan habitat dan mempengaruhi iklim.
+      Step 3: Analisis bagaimana kedua-dua jenis geobencana ini boleh menjejaskan kehidupan manusia dan ekosistem.
+      Step 4: Kesimpulan bahawa kesan geobencana boleh berbeza-beza bergantung pada intensiti dan lokasi kejadian.

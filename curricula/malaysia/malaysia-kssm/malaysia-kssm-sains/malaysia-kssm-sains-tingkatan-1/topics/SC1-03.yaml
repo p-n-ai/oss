@@ -1,0 +1,110 @@
+id: SC1-03
+official_ref: "Bab 3"
+name: "Koordinasi dan Gerakbalas"
+name_en: "Coordination and Response"
+subject_grade_id: malaysia-kssm-sains-tingkatan-1
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+learning_objectives:
+    - id: 3.1.1
+      text: "berkomunikasi maksud homeostasis."
+      text_en: "Communicate the meaning of homeostasis."
+      bloom: understand
+    - id: 3.1.3
+      text: "menjelaskan dengan contoh sistem yang terlibat dengan homeostasis dalam manusia dan haiwan."
+      text_en: "Explain with examples of systems involved in homeostasis in humans and animals."
+      bloom: understand
+    - id: 3.1.3
+      text: "menjelaskan dengan contoh sistem yang terlibat dengan homeostasis dalam tumbuhan."
+      text_en: "Explain with examples of systems involved in homeostasis in plants."
+      bloom: understand
+    - id: 3.1.4
+      text: "menghargai kepentingan homeostasis kepada manusia dan benda hidup."
+      text_en: "Appreciate the importance of homeostasis to humans and living things."
+      bloom: evaluate
+    - id: 3.1.5
+      text: "Menghargai kepentingan homeostasis kepada manusia dan benda hidup."
+      text_en: "Appreciate the importance of homeostasis to humans and living things."
+      bloom: evaluate
+    - id: 3.1.2
+      text: "Berkomunikasi maksud homeostasis."
+      text_en: "Communicate the meaning of homeostasis."
+      bloom: understand
+content_standards:
+    - id: "3.1"
+      text: "Homeostasis dalam benda hidup"
+      text_en: "Homeostasis in living things"
+performance_standards:
+    - level: 1
+      id: "TP1-SC1-03"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai sel sebagai unit asas kehidupan/koordinasi/ gerakbalas/pembiakan."
+      text_en: "Recall knowledge and science skills regarding cells as the basic unit of life/coordination/response/reproduction."
+      descriptor: "Remembering"
+      descriptor_en: "Remembering"
+    - level: 2
+      id: "TP2-SC1-03"
+      text: "Memahami sel sebagai unit asas kehidupan/koordinasi / gerakbalas/pembiakan serta dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand cells as the basic unit of life/coordination / response/reproduction and can explain the understanding thereof."
+      descriptor: "Understanding"
+      descriptor_en: "Understanding"
+    - level: 3
+      id: "TP3-SC1-03"
+      text: "Mengaplikasikan pengetahuan dan kemahiran sains mengenai sel sebagai unit asas kehidupan/koordinasi/ gerakbalas/pembiakan untuk melaksanakan tugasan mudah."
+      text_en: "Apply knowledge and science skills regarding cells as the basic unit of life/coordination/ response/reproduction to carry out simple tasks."
+      descriptor: "Applying"
+      descriptor_en: "Applying"
+    - level: 4
+      id: "TP4-SC1-03"
+      text: "Menganalisis pengetahuan mengenai mengenai sel sebagai unit asas kehidupan/koordinasi/ gerakbalas/pembiakan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge regarding cells as the basic unit of life/coordination/ response/reproduction in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Analyzing"
+      descriptor_en: "Analyzing"
+    - level: 5
+      id: "TP5-SC1-03"
+      text: "Menilai pengetahuan mengenai sel sebagai unit asas kehidupan/koordinasi/ gerakbalas/pembiakan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge regarding cells as the basic unit of life/coordination/ response/reproduction in the context of problem solving and making decisions to carry out a task."
+      descriptor: "Evaluating"
+      descriptor_en: "Evaluating"
+    - level: 6
+      id: "TP6-SC1-03"
+      text: "Merekabentuk persembahan pelbagai media/visual/folio/poster/main peranan/drama secara kreatif dan inovatif dengan menggunakan pengetahuan dan kemahiran sains mengenai sel sebagai unit asas kehidupan/koordinasi/ gerakbalas/pembiakan dalam konteks penyelesaian masalah dan membuat keputusan dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Design presentations of various media/visual/folio/poster/role play/drama in a creative and innovative way using knowledge and science skills regarding cells as the basic unit of life/coordination/ response/reproduction in the context of problem solving and making decisions taking into account social/economic/cultural values of society."
+      descriptor: "Creating"
+      descriptor_en: "Creating"
+prerequisites:
+    required: []
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+ai_teaching_notes: "SC1-03.teaching.md"
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-04-09T03:17:48Z"
+assessments_file: "SC1-03.assessments.yaml"
+engagement_hooks:
+    - Discuss how local farmers use plant homeostasis knowledge to improve crop yields
+    - Relate homeostasis to the body's response to exercise, like sweating
+examples_file: SC1-03.examples.yaml
+teaching:
+    sequence:
+        - 'Step 1: Introduce the concept of homeostasis with relatable analogies (15 min)'
+        - 'Step 2: Discuss homeostasis in humans and animals using diagrams (20 min)'
+        - 'Step 3: Explain homeostasis in plants with visual aids (15 min)'
+    common_misconceptions:
+        - misconception: Homeostasis is static
+          remediation: Emphasize dynamic balance using real-life examples
+        - misconception: Only animals maintain homeostasis
+          remediation: Include detailed plant examples
