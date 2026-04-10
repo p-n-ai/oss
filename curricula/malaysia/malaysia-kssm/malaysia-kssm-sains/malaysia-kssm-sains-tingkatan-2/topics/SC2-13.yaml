@@ -1,0 +1,103 @@
+id: SC2-13
+# official_ref: ""  # fill in if the source document assigns a chapter/section code
+name: "Meteroid, Asteroid, Komet"
+name_en: "Meteoroid, Asteroid, Comet"
+subject_grade_id: malaysia-kssm-sains-tingkatan-2
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+content_standards:
+  - id: "13.1"
+    text: "Jasad lain dalam Sistem Suria iaitu meteoroid, asteroid dan komet"
+    text_en: "Other bodies in the Solar System namely meteoroid, asteroid and comet"
+learning_objectives:
+  - id: "13.1.1"
+    text: "Berkomunikasi tentang jasad lain dalam sistem suria iaitu meteoroid, asteroid dan komet."
+    text_en: "Communicate about other bodies in the solar system namely meteoroid, asteroid and comet."
+    bloom: "understand"
+    content_standard_id: "13.1"
+  - id: "13.1.2"
+    text: "Membincangkan pergerakan meteoroid, asteroid dan komet dan kesannya terhadap bumi berdasarkan data."
+    text_en: "Discuss the movement of meteoroids, asteroids and comets and their effects on earth based on data."
+    bloom: "analyze"
+    content_standard_id: "13.1"
+  - id: "13.1.3"
+    text: "Menjana idea bagaimana mengurangkan atau mengelakkan kemungkinan berlakunya perlanggaran asteroid dengan Bumi."
+    text_en: "Generate ideas on how to reduce or prevent the possibility of asteroid collision with Earth."
+    bloom: "create"
+    content_standard_id: "13.1"
+performance_standards:
+  - level: 1
+    id: "TP1"
+    text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai meteoroid, asteroid dan komet."
+    text_en: "Recall science knowledge and skills regarding meteoroids, asteroids and comets."
+    descriptor: "Murid dapat mengingat kembali fakta asas mengenai meteoroid, asteroid dan komet."
+    descriptor_en: "Student can recall basic facts about meteoroids, asteroids and comets."
+  - level: 2
+    id: "TP2"
+    text: "Memahami meteoroid, asteroid dan komet dan dapat menjelaskan kefahaman tersebut."
+    text_en: "Understand meteoroids, asteroids and comets and can explain the understanding."
+    descriptor: "Murid dapat menjelaskan konsep meteoroid, asteroid dan komet dengan mudah."
+    descriptor_en: "Student can explain the concept of meteoroids, asteroids and comets easily."
+  - level: 3
+    id: "TP3"
+    text: "Mengaplikasikan pengetahuan mengenai meteoroid, asteroid dan komet dan dapat melaksanakan tugasan mudah."
+    text_en: "Apply knowledge about meteoroids, asteroids and comets and can carry out simple tasks."
+    descriptor: "Murid dapat menggunakan pengetahuan meteoroid, asteroid dan komet dalam situasi mudah."
+    descriptor_en: "Student can use meteoroid, asteroid and comet knowledge in simple situations."
+  - level: 4
+    id: "TP4"
+    text: "Menganalisis pengetahuan mengenai meteoroid, asteroid dan komet dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+    text_en: "Analyze knowledge about meteoroids, asteroids and comets in the context of problem solving regarding natural events or phenomena."
+    descriptor: "Murid dapat menganalisis isu meteoroid, asteroid dan komet dalam konteks astronomi."
+    descriptor_en: "Student can analyze meteoroid, asteroid and comet issues in the context of astronomy."
+  - level: 5
+    id: "TP5"
+    text: "Menilai pengetahuan mengenai meteoroid, asteroid dan komet dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+    text_en: "Evaluate knowledge about meteoroids, asteroids and comets in the context of problem solving and make decisions to carry out a task."
+    descriptor: "Murid dapat menilai dan membuat keputusan mengenai isu meteoroid, asteroid dan komet."
+    descriptor_en: "Student can evaluate and make decisions regarding meteoroid, asteroid and comet issues."
+  - level: 6
+    id: "TP6"
+    text: "Merekacipta dengan menggunakan pengetahuan dan kemahiran sains mengenai meteoroid, asteroid dan komet dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+    text_en: "Create using science knowledge and skills about meteoroids, asteroids and comets in the context of problem solving and making decisions or in carrying out a task in new situations creatively and innovatively by considering social/economic/cultural values of society."
+    descriptor: "Murid dapat mencipta penyelesaian inovatif untuk isu meteoroid, asteroid dan komet."
+    descriptor_en: "Student can create innovative solutions for meteoroid, asteroid and comet issues."
+prerequisites:
+  required:
+    - SC2-12
+  recommended: []
+teaching:
+  sequence:
+    - Jenis jasad angkasa
+    - Pergerakan jasad angkasa
+    - Kesan perlanggaran
+    - Pencegahan perlanggaran
+  common_misconceptions:
+    - misconception: "Meteoroid, asteroid dan komet adalah sama."
+      remediation: "Terangkan perbezaan komposisi dan orbit setiap jasad."
+    - misconception: "Perlanggaran asteroid selalu berlaku."
+      remediation: "Terangkan bahawa perlanggaran besar jarang berlaku tetapi berisiko tinggi."
+  engagement_hooks:
+    - Kesan komet Halley.
+    - Misi pertahanan planet Bumi.
+mastery:
+  minimum_score: 0.75
+  assessment_count: 5
+  spaced_repetition:
+    initial_interval_days: 1
+    multiplier: 2.5
+cross_curriculum: []
+tier: "core"
+ai_teaching_notes: "teaching/SC2-13.md"
+examples_file: "examples/SC2-13.yaml"
+assessments_file: "assessments/SC2-13.yaml"
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T10:00:00Z"
+engagement_hooks:
+  - Kesan komet Halley.
+  - Misi pertahanan planet Bumi.
+sync_checked: false

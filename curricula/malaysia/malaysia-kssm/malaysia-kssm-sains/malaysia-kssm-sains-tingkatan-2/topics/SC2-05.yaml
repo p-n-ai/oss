@@ -1,0 +1,148 @@
+id: SC2-05
+name: "Air dan Larutan"
+name_en: "Water and Solution"
+subject_grade_id: malaysia-kssm-sains-tingkatan-2
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+content_standards:
+  - id: "5.1"
+    text: "Sifat fizik air"
+    text_en: "Physical properties of water"
+  - id: "5.2"
+    text: "Larutan dan kadar keterlarutan"
+    text_en: "Solutions and solubility rate"
+  - id: "5.3"
+    text: "Pembersihan dan pembekalan air"
+    text_en: "Water purification and supply"
+learning_objectives:
+  - id: "5.1.1"
+    text: "Menghuraikan dan berkomunikasi mengenai air."
+    text_en: "Elaborate and communicate about water."
+    bloom: "understand"
+    content_standard_id: "5.1"
+  - id: "5.1.2"
+    text: "Menjalankan eksperimen dan berkomunikasi mengenai proses penyejatan air dalam kehidupan harian."
+    text_en: "Conduct an experiment and communicate about the process of water evaporation in daily life."
+    bloom: "apply"
+    content_standard_id: "5.1"
+  - id: "5.2.1"
+    text: "Menerangkan dengan contoh maksud larutan, keterlarutan."
+    text_en: "Explain with examples the meaning of solution, solubility."
+    bloom: "understand"
+    content_standard_id: "5.2"
+  - id: "5.2.2"
+    text: "Menjalankan eksperimen bagi menentukan faktor yang mempengaruhi kadar keterlarutan."
+    text_en: "Conduct an experiment to determine factors affecting solubility rate."
+    bloom: "apply"
+    content_standard_id: "5.2"
+  - id: "5.2.3"
+    text: "Menjelaskan dengan contoh maksud koloid dalam kehidupan harian."
+    text_en: "Explain with examples the meaning of colloids in daily life."
+    bloom: "understand"
+    content_standard_id: "5.2"
+  - id: "5.2.4"
+    text: "Menghuraikan dan berkomunikasi mengenai kegunaan air sebagai pelarut universal dalam kehidupan harian dan industri pembuatan."
+    text_en: "Elaborate and communicate about the use of water as a universal solvent in daily life and manufacturing industry."
+    bloom: "understand"
+    content_standard_id: "5.2"
+  - id: "5.2.5"
+    text: "Menunjuk cara contoh pelarut bukan air dan kegunaannya dalam kehidupan."
+    text_en: "Show examples of non-aqueous solvents and their uses in life."
+    bloom: "apply"
+    content_standard_id: "5.2"
+  - id: "5.3.1"
+    text: "Menunjuk cara kaedah pembersihan air."
+    text_en: "Show methods of water purification."
+    bloom: "apply"
+    content_standard_id: "5.3"
+  - id: "5.3.2"
+    text: "Menyelesaikan masalah mendapatkan bekalan air untuk kegunaan harian."
+    text_en: "Solve problems in obtaining water supply for daily use."
+    bloom: "apply"
+    content_standard_id: "5.3"
+  - id: "5.3.3"
+    text: "Membina model dan berkomunikasi mengenai sistem pembekalan air."
+    text_en: "Build a model and communicate about the water supply system."
+    bloom: "create"
+    content_standard_id: "5.3"
+  - id: "5.3.4"
+    text: "Mewajarkan kelestarian air sebagai kunci kehidupan yang sihat."
+    text_en: "Justify water sustainability as a key to healthy life."
+    bloom: "evaluate"
+    content_standard_id: "5.3"
+performance_standards:
+  - level: 1
+    id: "TP1"
+    text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai air dan larutan."
+    text_en: "Recall science knowledge and skills regarding water and solutions."
+    descriptor: "Murid dapat mengingat kembali fakta asas mengenai air dan larutan."
+    descriptor_en: "Student can recall basic facts about water and solutions."
+  - level: 2
+    id: "TP2"
+    text: "Memahami air dan larutan serta dapat menjelaskan kefahaman tersebut."
+    text_en: "Understand water and solutions and can explain the understanding."
+    descriptor: "Murid dapat menjelaskan konsep air dan larutan dengan mudah."
+    descriptor_en: "Student can explain the concept of water and solutions easily."
+  - level: 3
+    id: "TP3"
+    text: "Mengaplikasikan pengetahuan mengenai air dan larutan dan dapat melaksanakan tugasan mudah."
+    text_en: "Apply knowledge about water and solutions and can carry out simple tasks."
+    descriptor: "Murid dapat menggunakan pengetahuan air dan larutan dalam situasi mudah."
+    descriptor_en: "Student can use water and solution knowledge in simple situations."
+  - level: 4
+    id: "TP4"
+    text: "Menganalisis pengetahuan mengenai air dan larutan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+    text_en: "Analyze knowledge about water and solutions in the context of problem solving regarding natural events or phenomena."
+    descriptor: "Murid dapat menganalisis isu air dan larutan dalam konteks alam sekitar."
+    descriptor_en: "Student can analyze water and solution issues in the context of the environment."
+  - level: 5
+    id: "TP5"
+    text: "Menilai pengetahuan mengenai air dan larutan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+    text_en: "Evaluate knowledge about water and solutions in the context of problem solving and make decisions to carry out a task."
+    descriptor: "Murid dapat menilai dan membuat keputusan mengenai isu air dan larutan."
+    descriptor_en: "Student can evaluate and make decisions regarding water and solution issues."
+  - level: 6
+    id: "TP6"
+    text: "Merekacipta dengan menggunakan pengetahuan dan kemahiran sains mengenai air dan larutan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ ekonomi/ budaya masyarakat."
+    text_en: "Create using science knowledge and skills about water and solutions in the context of problem solving and making decisions or in carrying out a task in new situations creatively and innovatively by considering social/economic/cultural values of society."
+    descriptor: "Murid dapat mencipta penyelesaian inovatif untuk isu air dan larutan."
+    descriptor_en: "Student can create innovative solutions for water and solution issues."
+prerequisites:
+  required: []
+  recommended: []
+teaching:
+  sequence:
+    - Sifat fizik air
+    - Larutan dan keterlarutan
+    - Pelarut bukan air
+    - Pembersihan air
+    - Pembekalan air
+  common_misconceptions:
+    - misconception: "Air yang jernih adalah air yang bersih."
+      remediation: "Terangkan tentang pencemaran mikrobiologi yang tidak kelihatan."
+    - misconception: "Semua pelarut adalah air."
+      remediation: "Berikan contoh pelarut bukan air seperti alkohol dan aseton."
+  engagement_hooks:
+    - Krisis air di negara lain.
+    - Kepentingan penjimatan air di rumah.
+mastery:
+  minimum_score: 0.75
+  assessment_count: 5
+  spaced_repetition:
+    initial_interval_days: 1
+    multiplier: 2.5
+cross_curriculum: []
+tier: "core"
+ai_teaching_notes: "teaching/SC2-05.md"
+examples_file: "examples/SC2-05.yaml"
+assessments_file: "assessments/SC2-05.yaml"
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T10:00:00Z"
+engagement_hooks:
+  - Krisis air di negara lain.
+  - Kepentingan penjimatan air di rumah.
+sync_checked: false

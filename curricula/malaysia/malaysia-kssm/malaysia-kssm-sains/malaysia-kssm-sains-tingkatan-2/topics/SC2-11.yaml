@@ -1,0 +1,102 @@
+id: "SC2-11"
+official_ref: "11.0"
+name: "Bintang dan Galaksi dalam Alam Semesta"
+name_en: "Stars and Galaxies in the Universe"
+subject_grade_id: "malaysia-kssm-sains-tingkatan-2"
+subject_id: "malaysia-kssm-sains-tingkatan-2"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "intermediate"
+tier: "core"
+content_standards:
+    - id: "11.1"
+      text: "Bintang dan galaksi dalam alam semesta"
+      text_en: "Stars and Galaxies in the Universe"
+learning_objectives:
+    - id: "11.1.1"
+      text: "Berkomunikasi mengenai ciri objek angkasa."
+      text_en: "Communicate about the characteristics of celestial objects."
+      bloom: "understand"
+      content_standard_id: "11.1"
+    - id: "11.1.2"
+      text: "Membanding dan membezakan bintang (termasuk matahari) berdasarkan ciri bintang dan hubungkaitkan dengan pemerhatian bintang di bumi."
+      text_en: "Compare and distinguish stars (including the sun) based on star characteristics and relate to star observations on Earth."
+      bloom: "analyze"
+      content_standard_id: "11.1"
+prerequisites:
+    required: []
+    recommended: []
+teaching:
+    sequence:
+        - Mencari maklumat daripada alat teknologi seperti teleskop
+        - Membincangkan galaksi, nebula, kitar hidup bintang
+        - Menyatakan kedudukan Sistem Suria dalam Galaksi Bima Sakti
+        - Melawat ke Balai Cerap atau planetarium
+        - Menggunakan software astronomi (Skychart, Stellarium)
+    common_misconceptions:
+        - misconception: "Semua bintang kelihatan sama saiznya."
+          remediation: "Terangkan bahawa saiz sebenar bintang berbeza-beza dan jarak mempengaruhi saiz yang dilihat."
+        - misconception: "Bintang hanya kelihatan pada waktu malam."
+          remediation: "Terangkan bahawa bintang wujud pada siang hari tetapi cahaya matahari menyilaukan penglihatan."
+    engagement_hooks:
+        - Mengamati bintang di waktu malam
+        - Membandingkan saiz Bumi dengan Galaksi Bima Sakti
+        - Menggunakan perisian astronomi untuk melihat objek angkasa
+bloom_levels:
+    - understand
+    - analyze
+mastery:
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai bintang dan galaksi dalam alam semesta."
+      text_en: "Recall knowledge and science skills regarding stars and galaxies in the universe."
+      descriptor: "Murid dapat mengingat kembali fakta asas mengenai bintang dan galaksi."
+      descriptor_en: "Student can recall basic facts about stars and galaxies."
+    - level: 2
+      id: "TP2"
+      text: "Memahami bintang dan galaksi dalam alam semesta dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand stars and galaxies in the universe and can explain the understanding."
+      descriptor: "Murid dapat menjelaskan konsep asas bintang dan galaksi dengan jelas."
+      descriptor_en: "Student can explain basic concepts of stars and galaxies clearly."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai bintang dan galaksi dalam alam semesta dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge regarding stars and galaxies in the universe and can carry out easy tasks."
+      descriptor: "Murid dapat menggunakan pengetahuan untuk menyelesaikan tugasan mudah."
+      descriptor_en: "Student can use knowledge to complete easy tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai bintang dan galaksi dalam alam semesta dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge regarding stars and galaxies in the universe in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Murid dapat menganalisis fenomena alam berkaitan bintang dan galaksi."
+      descriptor_en: "Student can analyze natural phenomena related to stars and galaxies."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai bintang dan galaksi dalam alam semesta dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge regarding stars and galaxies in the universe in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Murid dapat membuat keputusan berdasarkan analisis pengetahuan."
+      descriptor_en: "Student can make decisions based on knowledge analysis."
+    - level: 6
+      id: "TP6"
+      text: "Merekacipta dengan menggunakan pengetahuan dan kemahiran sains mengenai bintang dan galaksi dalam alam semesta dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using knowledge and science skills regarding stars and galaxies in the universe in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
+      descriptor: "Murid dapat mencipta penyelesaian kreatif inovatif dengan mengambil kira nilai masyarakat."
+      descriptor_en: "Student can create creative innovative solutions considering social values."
+engagement_hooks:
+    - Mengamati bintang di waktu malam
+    - Membandingkan saiz Bumi dengan Galaksi Bima Sakti
+    - Menggunakan perisian astronomi untuk melihat objek angkasa
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2024-05-22T10:00:00Z"
+sync_checked: false
+ai_teaching_notes: "SC2-11.teaching.md"
+assessments_file: "SC2-11.assessments.yaml"

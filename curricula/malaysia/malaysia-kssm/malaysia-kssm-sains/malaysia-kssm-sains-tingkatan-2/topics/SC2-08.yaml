@@ -1,0 +1,149 @@
+id: SC2-08
+name: "Daya dan Gerakan"
+name_en: "Force and Motion"
+subject_grade_id: malaysia-kssm-sains-tingkatan-2
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+content_standards:
+  - id: "8.1"
+    text: "Daya"
+    text_en: "Force"
+  - id: "8.2"
+    text: "Kesan daya"
+    text_en: "Effect of force"
+learning_objectives:
+  - id: "8.1.1"
+    text: "Menghuraikan dan berkomunikasi mengenai daya."
+    text_en: "Elaborate and communicate about force."
+    bloom: "understand"
+    content_standard_id: "8.1"
+  - id: "8.1.2"
+    text: "Menerangkan daya mempunyai magnitud, arah dan titik aplikasi."
+    text_en: "Explain that force has magnitude, direction, and point of application."
+    bloom: "understand"
+    content_standard_id: "8.1"
+  - id: "8.1.3"
+    text: "Mengukur daya dalam unit S.I."
+    text_en: "Measure force in S.I. units."
+    bloom: "apply"
+    content_standard_id: "8.1"
+  - id: "8.1.4"
+    text: "Menjelaskan dengan contoh setiap daya tindakan terdapat daya tindak balas yang sama magnitud tetapi bertentangan arah."
+    text_en: "Explain with examples that every action force has a reaction force of equal magnitude but opposite direction."
+    bloom: "understand"
+    content_standard_id: "8.1"
+  - id: "8.2.1"
+    text: "Menghuraikan dan berkomunikasi mengenai kesan tindakan daya."
+    text_en: "Elaborate and communicate about the effect of action force."
+    bloom: "understand"
+    content_standard_id: "8.2"
+  - id: "8.2.2"
+    text: "Menerangkan dan berkomunikasi mengenai perkaitan antara perbezaan ketumpatan dengan kesan keapungan dalam kehidupan harian."
+    text_en: "Explain and communicate about the relationship between density difference and buoyancy effect in daily life."
+    bloom: "understand"
+    content_standard_id: "8.2"
+  - id: "8.2.3"
+    text: "Mengelas dan menyelesaikan masalah tuas berdasarkan kedudukan fulkrum, beban dan daya."
+    text_en: "Classify and solve lever problems based on fulcrum, load, and effort positions."
+    bloom: "apply"
+    content_standard_id: "8.2"
+  - id: "8.2.4"
+    text: "Menerangkan dan berkomunikasi mengenai momen daya."
+    text_en: "Explain and communicate about moment of force."
+    bloom: "understand"
+    content_standard_id: "8.2"
+  - id: "8.2.5"
+    text: "Menjalankan eksperimen dan berkomunikasi mengenai tekanan serta aplikasinya dalam kehidupan harian."
+    text_en: "Conduct an experiment and communicate about pressure and its application in daily life."
+    bloom: "apply"
+    content_standard_id: "8.2"
+  - id: "8.2.6"
+    text: "Menghuraikan dan berkomunikasi mengenai tekanan gas dengan merujuk kepada teori kinetik gas."
+    text_en: "Elaborate and communicate about gas pressure referring to the kinetic theory of gases."
+    bloom: "understand"
+    content_standard_id: "8.2"
+  - id: "8.2.7"
+    text: "Menerangkan dan berkomunikasi mengenai kewujudan tekanan atmosfera dan kesan altitud kepada tekanan atmosfera."
+    text_en: "Explain and communicate about the existence of atmospheric pressure and the effect of altitude on atmospheric pressure."
+    bloom: "understand"
+    content_standard_id: "8.2"
+  - id: "8.2.8"
+    text: "Menerangkan kesan kedalaman terhadap tekanan cecair."
+    text_en: "Explain the effect of depth on liquid pressure."
+    bloom: "understand"
+    content_standard_id: "8.2"
+performance_standards:
+  - level: 1
+    id: "TP1"
+    text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai daya dan gerakan."
+    text_en: "Recall science knowledge and skills regarding force and motion."
+    descriptor: "Murid dapat mengingat kembali fakta asas mengenai daya dan gerakan."
+    descriptor_en: "Student can recall basic facts about force and motion."
+  - level: 2
+    id: "TP2"
+    text: "Memahami daya dan gerakan dan dapat menjelaskan kefahaman tersebut."
+    text_en: "Understand force and motion and can explain the understanding."
+    descriptor: "Murid dapat menjelaskan konsep daya dan gerakan dengan mudah."
+    descriptor_en: "Student can explain the concept of force and motion easily."
+  - level: 3
+    id: "TP3"
+    text: "Mengaplikasikan pengetahuan mengenai daya dan gerakan dan dapat melaksanakan tugasan mudah."
+    text_en: "Apply knowledge about force and motion and can carry out simple tasks."
+    descriptor: "Murid dapat menggunakan pengetahuan daya dan gerakan dalam situasi mudah."
+    descriptor_en: "Student can use force and motion knowledge in simple situations."
+  - level: 4
+    id: "TP4"
+    text: "Menganalisis pengetahuan mengenai daya dan gerakan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+    text_en: "Analyze knowledge about force and motion in the context of problem solving regarding natural events or phenomena."
+    descriptor: "Murid dapat menganalisis isu daya dan gerakan dalam konteks fizik."
+    descriptor_en: "Student can analyze force and motion issues in the context of physics."
+  - level: 5
+    id: "TP5"
+    text: "Menilai pengetahuan mengenai daya dan gerakan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+    text_en: "Evaluate knowledge about force and motion in the context of problem solving and make decisions to carry out a task."
+    descriptor: "Murid dapat menilai dan membuat keputusan mengenai isu daya dan gerakan."
+    descriptor_en: "Student can evaluate and make decisions regarding force and motion issues."
+  - level: 6
+    id: "TP6"
+    text: "Merekacipta dengan menggunakan pengetahuan dan kemahiran sains mengenai daya dan gerakan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+    text_en: "Create using science knowledge and skills about force and motion in the context of problem solving and making decisions or in carrying out a task in new situations creatively and innovatively by considering social/economic/cultural values of society."
+    descriptor: "Murid dapat mencipta penyelesaian inovatif untuk isu daya dan gerakan."
+    descriptor_en: "Student can create innovative solutions for force and motion issues."
+prerequisites:
+  required: []
+  recommended: []
+teaching:
+  sequence:
+    - Jenis daya
+    - Hukum Newton
+    - Tekanan dan keapungan
+    - Tuas dan momen
+  common_misconceptions:
+    - misconception: "Objek yang bergerak memerlukan daya yang berterusan."
+      remediation: "Terangkan tentang inersia dan Hukum Newton Pertama."
+    - misconception: "Tekanan hanya bergantung pada berat."
+      remediation: "Terangkan bahawa tekanan bergantung pada luas permukaan juga."
+  engagement_hooks:
+    - Mengapa kapal besar boleh terapung.
+    - Penggunaan tuas dalam alat harian.
+mastery:
+  minimum_score: 0.75
+  assessment_count: 5
+  spaced_repetition:
+    initial_interval_days: 1
+    multiplier: 2.5
+cross_curriculum: []
+tier: "core"
+ai_teaching_notes: "teaching/SC2-08.md"
+examples_file: "examples/SC2-08.yaml"
+assessments_file: "assessments/SC2-08.yaml"
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T10:00:00Z"
+engagement_hooks:
+  - Mengapa kapal besar boleh terapung.
+  - Penggunaan tuas dalam alat harian.
+sync_checked: false

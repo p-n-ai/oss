@@ -1,0 +1,139 @@
+id: SC2-04
+name: "Kesihatan Manusia"
+name_en: "Human Health"
+subject_grade_id: malaysia-kssm-sains-tingkatan-2
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+content_standards:
+  - id: "4.1"
+    text: "Penyakit berjangkit dan penyakit tidak berjangkit"
+    text_en: "Infectious and non-infectious diseases"
+  - id: "4.2"
+    text: "Pertahanan badan"
+    text_en: "Body defence"
+learning_objectives:
+  - id: "4.1.1"
+    text: "Membezakan dan berkomunikasi mengenai penyakit berjangkit dan penyakit tidak berjangkit."
+    text_en: "Distinguish and communicate about infectious and non-infectious diseases."
+    bloom: "analyze"
+    content_standard_id: "4.1"
+  - id: "4.1.2"
+    text: "Menerangkan bagaimana penyakit berjangkit disebarkan."
+    text_en: "Explain how infectious diseases are spread."
+    bloom: "understand"
+    content_standard_id: "4.1"
+  - id: "4.1.3"
+    text: "Mencerakinkan penyebab dan penularan penyakit berjangkit."
+    text_en: "Dissect causes and transmission of infectious diseases."
+    bloom: "analyze"
+    content_standard_id: "4.1"
+  - id: "4.1.4"
+    text: "Menjana idea mekanisme menghalang penularan penyakit berjangkit."
+    text_en: "Generate ideas for mechanisms to prevent the spread of infectious diseases."
+    bloom: "create"
+    content_standard_id: "4.1"
+  - id: "4.2.1"
+    text: "Menghuraikan dan berkomunikasi mengenai fungsi sistem pertahanan badan."
+    text_en: "Elaborate and communicate about the functions of the body defence system."
+    bloom: "understand"
+    content_standard_id: "4.2"
+  - id: "4.2.2"
+    text: "Mendefinisikan antigen, antibodi dan keimunan badan."
+    text_en: "Define antigen, antibody, and body immunity."
+    bloom: "remember"
+    content_standard_id: "4.2"
+  - id: "4.2.3"
+    text: "Mewajarkan kepentingan imunisasi."
+    text_en: "Justify the importance of immunization."
+    bloom: "evaluate"
+    content_standard_id: "4.2"
+  - id: "4.2.4"
+    text: "Membezakan keimunan pasif dan keimunan aktif."
+    text_en: "Distinguish between passive and active immunity."
+    bloom: "analyze"
+    content_standard_id: "4.2"
+  - id: "4.2.5"
+    text: "Mewajarkan amalan yang baik ke arah keimunan yang mantap."
+    text_en: "Justify good practices towards stable immunity."
+    bloom: "evaluate"
+    content_standard_id: "4.2"
+  - id: "4.2.6"
+    text: "Mewajarkan dan berkomunikasi mengenai kepentingan imunisasi dan tahap kesihatan individu terhadap keluarga, sosial, ekonomi dan negara."
+    text_en: "Justify and communicate about the importance of immunization and individual health status on family, social, economic, and national levels."
+    bloom: "evaluate"
+    content_standard_id: "4.2"
+performance_standards:
+  - level: 1
+    id: "TP1"
+    text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai kesihatan manusia."
+    text_en: "Recall science knowledge and skills regarding human health."
+    descriptor: "Murid dapat mengingat kembali fakta asas mengenai kesihatan manusia."
+    descriptor_en: "Student can recall basic facts about human health."
+  - level: 2
+    id: "TP2"
+    text: "Memahami kesihatan manusia serta dapat menjelaskan kefahaman tersebut."
+    text_en: "Understand human health and can explain the understanding."
+    descriptor: "Murid dapat menjelaskan konsep kesihatan manusia dengan mudah."
+    descriptor_en: "Student can explain the concept of human health easily."
+  - level: 3
+    id: "TP3"
+    text: "Mengaplikasikan pengetahuan mengenai kesihatan manusia untuk menerangkan kejadian atau fenomena alam dan melaksanakan tugasan mudah."
+    text_en: "Apply knowledge about human health to explain natural events or phenomena and carry out simple tasks."
+    descriptor: "Murid dapat menggunakan pengetahuan kesihatan manusia dalam situasi mudah."
+    descriptor_en: "Student can use human health knowledge in simple situations."
+  - level: 4
+    id: "TP4"
+    text: "Menganalisis pengetahuan mengenai kesihatan manusia dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+    text_en: "Analyze knowledge about human health in the context of problem solving regarding natural events or phenomena."
+    descriptor: "Murid dapat menganalisis isu kesihatan manusia dalam konteks penyakit."
+    descriptor_en: "Student can analyze human health issues in the context of diseases."
+  - level: 5
+    id: "TP5"
+    text: "Menilai pengetahuan mengenai kesihatan manusia dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+    text_en: "Evaluate knowledge about human health in the context of problem solving and make decisions to carry out a task."
+    descriptor: "Murid dapat menilai dan membuat keputusan mengenai isu kesihatan manusia."
+    descriptor_en: "Student can evaluate and make decisions regarding human health issues."
+  - level: 6
+    id: "TP6"
+    text: "Merekacipta menggunakan pengetahuan dan kemahiran sains mengenai kesihatan manusia dalam konteks penyelesaian masalah atau membuat keputusan atau dalam melaksanakan aktiviti/tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+    text_en: "Create using science knowledge and skills about human health in the context of problem solving or making decisions or in carrying out activities/tasks in new situations creatively and innovatively by considering social/economic/cultural values of society."
+    descriptor: "Murid dapat mencipta penyelesaian inovatif untuk isu kesihatan manusia."
+    descriptor_en: "Student can create innovative solutions for human health issues."
+prerequisites:
+  required: []
+  recommended: []
+teaching:
+  sequence:
+    - Jenis penyakit
+    - Penyebaran penyakit
+    - Sistem pertahanan badan
+    - Imunisasi
+  common_misconceptions:
+    - misconception: "Semua penyakit boleh dijangkiti."
+      remediation: "Bezakan penyakit berjangkit dan tidak berjangkit serta cara penularannya."
+    - misconception: "Imunisasi hanya untuk kanak-kanak."
+      remediation: "Terangkan kepentingan imunisasi untuk semua peringkat umur dan wabak."
+  engagement_hooks:
+    - Statistik penyakit di Malaysia.
+    - Kepentingan vaksinasi dalam mencegah wabak.
+mastery:
+  minimum_score: 0.75
+  assessment_count: 5
+  spaced_repetition:
+    initial_interval_days: 1
+    multiplier: 2.5
+cross_curriculum: []
+tier: "core"
+ai_teaching_notes: "teaching/SC2-04.md"
+examples_file: "examples/SC2-04.yaml"
+assessments_file: "assessments/SC2-04.yaml"
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T10:00:00Z"
+engagement_hooks:
+  - Statistik penyakit di Malaysia.
+  - Kepentingan vaksinasi dalam mencegah wabak.
+sync_checked: false
