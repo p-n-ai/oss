@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/p-n-ai/oss/schema/syllabus.schema.json",
+  "title": "Syllabus",
+  "description": "Top-level qualification or curriculum specification",
+  "type": "object",
+  "required": ["id", "name", "board", "level", "code", "version", "subjects"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique syllabus identifier (e.g., malaysia-kssm-matematik-tingkatan1)"
+    },
+    "name": { "type": "string" },
+    "board": {
+      "type": "string",
+      "description": "Curriculum board (e.g., malaysia, cambridge)"
+    },
+    "level": {
+      "type": "string",
+      "description": "Education level (e.g., kssm, igcse)"
+    },
+    "code": {
+      "type": "string",
+      "description": "Subject code or identifier"
+    },
+    "version": {
+      "type": "string",
+      "description": "Syllabus version or year range"
+    },
+    "subjects": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of subject IDs belonging to this syllabus"
+    },
+    "assessment": {
+      "type": "object",
+      "properties": {
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "weight"],
+            "properties": {
+              "name": { "type": "string" },
+              "weight": { "type": "number", "minimum": 0, "maximum": 1 },
+              "duration_minutes": { "type": "integer", "minimum": 1 }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "grading": {
+      "type": "object",
+      "properties": {
+        "scale": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
