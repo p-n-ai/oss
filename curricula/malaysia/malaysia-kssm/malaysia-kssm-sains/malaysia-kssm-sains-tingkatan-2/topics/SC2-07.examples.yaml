@@ -1,0 +1,46 @@
+topic_id: "SC2-07"
+provenance: "ai-generated"
+description: "Worked examples for Keleektrikan dan kemagnetan"
+worked_examples:
+    - id: "WE-01"
+      topic: "Cas elektrostatik"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "7.1.2"
+      real_world_analogy: "Menggosok belon pada rambut dan melihatnya berpegang pada dinding."
+      misconception_alert: "Ramai pelajar berfikir bahawa cas elektrostatik hanya berlaku pada objek logam."
+      scenario: "Jelaskan bagaimana cas elektrostatik boleh dihasilkan apabila kita menggosok belon pada rambut."
+      working: |
+        Step 1: Apabila belon digosok pada rambut, elektron dari rambut dipindahkan ke permukaan belon.
+        Step 2: Belon menjadi bercas negatif kerana mendapat elektron tambahan.
+        Step 3: Rambut pula menjadi bercas positif kerana kehilangan elektron.
+        Step 4: Cas yang berlawanan ini menyebabkan belon tertarik kepada objek neutral seperti dinding.
+    - id: "WE-02"
+      topic: "Arus elektrik"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: false
+      learning_objective: "7.1.4"
+      real_world_analogy: "Air mengalir melalui paip sebagai analogi kepada arus elektrik yang mengalir melalui dawai."
+      misconception_alert: "Pelajar sering menganggap arus hanya mengalir dari positif ke negatif, tanpa memahami pergerakan elektron sebenarnya."
+      scenario: "Terangkan bagaimana cas yang mengalir menghasilkan arus elektrik dalam litar tertutup."
+      working: |
+        Step 1: Arus elektrik adalah aliran cas elektrik yang diukur dalam ampere (A).
+        Step 2: Dalam litar tertutup, cas negatif (elektron) mengalir dari terminal negatif ke terminal positif sumber kuasa.
+        Step 3: Pergerakan elektron ini dalam dawai menghasilkan arus elektrik.
+        Step 4: Arus konvensional dianggap mengalir dari positif ke negatif walaupun elektron bergerak sebaliknya.
+    - id: "WE-03"
+      topic: "Pengaliran arus dalam litar bersiri dan selari"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "7.2.1"
+      real_world_analogy: "Sistem lampu di rumah, di mana satu suis boleh menyalakan beberapa lampu serentak (litar selari)."
+      misconception_alert: "Kekeliruan antara bagaimana arus dan voltan diukur dalam litar bersiri dan selari."
+      scenario: "Bandingkan bagaimana arus dan voltan diagihkan dalam litar bersiri dan litar selari."
+      working: |-
+        Step 1: Dalam litar bersiri, arus yang sama mengalir melalui setiap komponen. Voltan dibahagikan antara komponen.
+        Step 2: Dalam litar selari, voltan yang sama disediakan kepada setiap cabang, tetapi arus dibahagikan antara cabang.
+        Step 3: Untuk litar bersiri, jika salah satu komponen gagal, seluruh litar terhenti.
+        Step 4: Untuk litar selari, jika satu komponen gagal, yang lain boleh terus berfungsi kerana mereka mempunyai laluan arus sendiri.

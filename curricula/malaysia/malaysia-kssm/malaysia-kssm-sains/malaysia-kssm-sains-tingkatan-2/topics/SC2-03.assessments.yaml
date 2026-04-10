@@ -1,0 +1,138 @@
+topic_id: "SC2-03"
+provenance: "ai-generated"
+questions:
+    # Group by learning objective: 3.1.1
+    - id: "Q01"
+      text: 'Apakah fungsi utama karbohidrat dalam diet manusia?'
+      difficulty: "medium"
+      learning_objective: "3.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: "Memberikan tenaga"
+        working: |
+            Karbohidrat adalah sumber utama tenaga untuk tubuh manusia. Apabila dicerna, karbohidrat dipecahkan kepada glukosa yang digunakan dalam proses respirasi selular untuk menghasilkan ATP, iaitu unit tenaga untuk sel.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan bahawa karbohidrat memberikan tenaga."
+        - marks: 1
+          criteria: "Menghuraikan bagaimana karbohidrat dipecahkan kepada glukosa."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang tujuan utama kita mengambil nasi atau roti dalam makanan."
+        - level: 2
+          text: "Apakah proses yang menggunakan glukosa dalam sel?"
+    # Group by learning objective: 3.1.2
+    - id: "Q02"
+      text: 'Apakah hasil ujian jika kita menggunakan larutan Benedict pada sampel makanan yang mengandungi glukosa?'
+      difficulty: "medium"
+      learning_objective: "3.1.2"
+      tp_level: 4
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "C"
+        working: |
+            Larutan Benedict digunakan untuk menguji kehadiran gula penurun seperti glukosa. Apabila glukosa hadir dan dipanaskan dengan larutan Benedict, warna larutan akan berubah dari biru kepada merah bata.
+        options:
+            A: "Warna biru kekal"
+            B: "Warna hijau"
+            C: "Warna merah bata"
+            D: "Warna kuning"
+        distractors:
+            - value: "A"
+              feedback: "Warna biru kekal menunjukkan tiada gula penurun."
+            - value: "B"
+              feedback: "Warna hijau menunjukkan kehadiran sedikit gula penurun, tetapi bukan hasil akhir."
+            - value: "D"
+              feedback: "Warna kuning adalah peralihan, tetapi bukan hasil akhir dengan kehadiran glukosa."
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Memilih jawapan yang menunjukkan perubahan warna yang betul."
+        - marks: 1
+          criteria: "Menjelaskan proses perubahan warna dalam ujian Benedict."
+      hints:
+        - level: 1
+          text: "Larutan Benedict adalah biru pada mulanya."
+        - level: 2
+          text: "Apakah perubahan warna yang berlaku apabila glukosa dikesan?"
+    # Group by learning objective: 3.2.1
+    - id: "Q03"
+      text: 'Huraikan konsep gizi seimbang dan mengapa ia penting untuk kesihatan.'
+      difficulty: "medium"
+      learning_objective: "3.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "..."
+        working: |
+            Gizi seimbang merujuk kepada pengambilan makanan yang menyediakan semua nutrien dalam jumlah yang betul untuk keperluan tubuh. Kepentingan gizi seimbang termasuk memastikan pertumbuhan dan perkembangan yang normal, mengekalkan fungsi tubuh yang optimal, dan mengurangkan risiko penyakit kronik.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menghuraikan maksud gizi seimbang."
+        - marks: 1
+          criteria: "Menjelaskan kepentingan gizi seimbang untuk kesihatan."
+        - marks: 1
+          criteria: "Menyediakan contoh atau implikasi kekurangan gizi seimbang."
+      hints:
+        - level: 1
+          text: "Apa yang kita maksudkan dengan makanan yang mencukupi dan pelbagai?"
+        - level: 2
+          text: "Fikirkan tentang kesan jangka panjang diet yang buruk."
+    # Group by learning objective: 3.4.1
+    - id: "Q04"
+      text: 'Bagaimanakah proses penyerapan hasil pencernaan berlaku di usus kecil?'
+      difficulty: "medium"
+      learning_objective: "3.4.1"
+      tp_level: 4
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "..."
+        working: |
+            Penyerapan nutrien berlaku terutamanya di usus kecil. Dinding usus kecil dipenuhi dengan vili yang meningkatkan luas permukaan untuk penyerapan. Nutrien seperti monosakarida, asid amino, dan asid lemak diserap melalui difusi dan pengangkutan aktif ke dalam darah atau sistem limfa.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan fungsi vili dalam usus kecil."
+        - marks: 1
+          criteria: "Menghuraikan bagaimana nutrien diserap melalui dinding usus."
+        - marks: 1
+          criteria: "Menyebut proses difusi dan pengangkutan aktif dalam penyerapan."
+      hints:
+        - level: 1
+          text: "Perhatikan struktur dalaman usus kecil."
+        - level: 2
+          text: "Apa yang meningkatkan luas permukaan usus kecil?"
+    # Group by learning objective: 3.4.2
+    - id: "Q05"
+      text: 'Jelaskan hubungan antara sistem pencernaan, sistem peredaran darah, dan sistem respirasi dalam menyediakan tenaga kepada tubuh.'
+      difficulty: "medium"
+      learning_objective: "3.4.2"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "..."
+        working: |
+            Sistem pencernaan memecahkan makanan kepada nutrien yang diserap ke dalam aliran darah oleh sistem peredaran darah. Darah membawa nutrien dan oksigen (daripada sistem respirasi) ke sel-sel badan. Dalam sel, glukosa dan oksigen digunakan dalam respirasi selular untuk menghasilkan ATP, membekalkan tenaga kepada tubuh.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menghuraikan peranan sistem pencernaan dalam menyediakan nutrien."
+        - marks: 1
+          criteria: "Menjelaskan fungsi sistem peredaran darah dalam pengangkutan nutrien dan oksigen."
+        - marks: 1
+          criteria: "Mengaitkan peranan sistem respirasi dalam menyediakan oksigen."
+        - marks: 1
+          criteria: "Menghuraikan proses respirasi selular dalam penghasilan tenaga."
+      hints:
+        - level: 1
+          text: "Fikirkan bagaimana makanan dan oksigen diperlukan oleh sel."
+        - level: 2
+          text: "Apakah produk akhir pencernaan yang penting untuk tenaga?"

@@ -1,4 +1,5 @@
 id: SC2-02
+official_ref: "Bab 2"
 name: "Ekosistem"
 name_en: "Ecosystem"
 subject_grade_id: malaysia-kssm-sains-tingkatan-2
@@ -8,145 +9,142 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 content_standards:
-  - id: "2.1"
-    text: "Aliran tenaga dalam ekosistem"
-    text_en: "Energy flow in ecosystems"
-  - id: "2.2"
-    text: "Kitar nutrien dalam ekosistem"
-    text_en: "Nutrient cycling in ecosystems"
-  - id: "2.3"
-    text: "Saling bersandaran antara organisma dengan persekitaran"
-    text_en: "Interdependence between organisms and the environment"
-  - id: "2.4"
-    text: "Peranan manusia dalam mengekalkan keseimbangan alam"
-    text_en: "Human role in maintaining ecological balance"
+    - id: "2.1"
+      text: "Aliran tenaga dalam ekosistem"
+      text_en: "Energy flow in ecosystems"
+    - id: "2.2"
+      text: "Kitar nutrien dalam ekosistem"
+      text_en: "Nutrient cycling in ecosystems"
+    - id: "2.3"
+      text: "Saling bersandaran antara organisma dengan persekitaran"
+      text_en: "Interdependence between organisms and the environment"
+    - id: "2.4"
+      text: "Peranan manusia dalam mengekalkan keseimbangan alam"
+      text_en: "Human role in maintaining ecological balance"
 learning_objectives:
-  - id: "2.1.1"
-    text: "Menerangkan dengan contoh pengeluar, pengguna dan pengurai."
-    text_en: "Explain with examples of producers, consumers, and decomposers."
-    bloom: "understand"
-    content_standard_id: "2.1"
-  - id: "2.1.2"
-    text: "Menginterpretasi rantai makanan dan siratan makanan."
-    text_en: "Interpret food chains and food webs."
-    bloom: "analyze"
-    content_standard_id: "2.1"
-  - id: "2.2.1"
-    text: "Menghuraikan dan berkomunikasi mengenai peranan benda hidup dalam kitar oksigen dan kitar karbon dalam ekosistem."
-    text_en: "Elaborate and communicate about the role of living things in the oxygen and carbon cycles in ecosystems."
-    bloom: "understand"
-    content_standard_id: "2.2"
-  - id: "2.2.2"
-    text: "Mewajarkan peranan organisma dalam kitar air suatu ekosistem."
-    text_en: "Justify the role of organisms in the water cycle of an ecosystem."
-    bloom: "evaluate"
-    content_standard_id: "2.2"
-  - id: "2.2.3"
-    text: "Menyelesaikan masalah apabila terdapat gangguan ke atas kitaran disebabkan aktiviti manusia."
-    text_en: "Solve problems when there is disruption to the cycle caused by human activities."
-    bloom: "apply"
-    content_standard_id: "2.2"
-  - id: "2.3.1"
-    text: "Menjelaskan dengan contoh saling bersandaran antara benda hidup dan persekitaran untuk keseimbangan ekosistem."
-    text_en: "Explain with examples of interdependence between living things and the environment for ecosystem balance."
-    bloom: "understand"
-    content_standard_id: "2.3"
-  - id: "2.3.2"
-    text: "Mewajarkan kepentingan penyesuaian hidupan terhadap alam sekitar."
-    text_en: "Justify the importance of life adaptation to the environment."
-    bloom: "evaluate"
-    content_standard_id: "2.3"
-  - id: "2.3.3"
-    text: "Berkomunikasi mengenai contoh interaksi antara organisma hidup dan mengaplikasi interaksi tersebut dalam kehidupan harian."
-    text_en: "Communicate about examples of interaction between living organisms and apply these interactions in daily life."
-    bloom: "apply"
-    content_standard_id: "2.3"
-  - id: "2.3.4"
-    text: "Mencerakinkan faktor yang mempengaruhi saiz populasi dalam suatu ekosistem."
-    text_en: "Dissect factors affecting population size in an ecosystem."
-    bloom: "analyze"
-    content_standard_id: "2.3"
-  - id: "2.3.5"
-    text: "Meramalkan bagaimana perubahan dalam ekosistem mempengaruhi sumber yang ada dan keseimbangan antara populasi."
-    text_en: "Predict how changes in the ecosystem affect existing resources and balance between populations."
-    bloom: "apply"
-    content_standard_id: "2.3"
-  - id: "2.4.1"
-    text: "Mewajarkan dan berkomunikasi bahawa manusia memerlukan ekosistem yang stabil dan produktif demi kelestarian hidup."
-    text_en: "Justify and communicate that humans need stable and productive ecosystems for the sustainability of life."
-    bloom: "evaluate"
-    content_standard_id: "2.4"
+    - id: "2.1.1"
+      text: "Menerangkan dengan contoh pengeluar, pengguna dan pengurai."
+      text_en: "Explain with examples of producers, consumers, and decomposers."
+      bloom: "understand"
+      content_standard_id: "2.1"
+    - id: "2.1.2"
+      text: "Menginterpretasi rantai makanan dan siratan makanan."
+      text_en: "Interpret food chains and food webs."
+      bloom: "analyze"
+      content_standard_id: "2.1"
+    - id: "2.2.1"
+      text: "Menghuraikan dan berkomunikasi mengenai peranan benda hidup dalam kitar oksigen dan kitar karbon dalam ekosistem."
+      text_en: "Elaborate and communicate about the role of living things in the oxygen and carbon cycles in ecosystems."
+      bloom: "understand"
+      content_standard_id: "2.2"
+    - id: "2.2.2"
+      text: "Mewajarkan peranan organisma dalam kitar air suatu ekosistem."
+      text_en: "Justify the role of organisms in the water cycle of an ecosystem."
+      bloom: "evaluate"
+      content_standard_id: "2.2"
+    - id: "2.2.3"
+      text: "Menyelesaikan masalah apabila terdapat gangguan ke atas kitaran disebabkan aktiviti manusia."
+      text_en: "Solve problems when there is disruption to the cycle caused by human activities."
+      bloom: "apply"
+      content_standard_id: "2.2"
+    - id: "2.3.1"
+      text: "Menjelaskan dengan contoh saling bersandaran antara benda hidup dan persekitaran untuk keseimbangan ekosistem."
+      text_en: "Explain with examples of interdependence between living things and the environment for ecosystem balance."
+      bloom: "understand"
+      content_standard_id: "2.3"
+    - id: "2.3.2"
+      text: "Mewajarkan kepentingan penyesuaian hidupan terhadap alam sekitar."
+      text_en: "Justify the importance of life adaptation to the environment."
+      bloom: "evaluate"
+      content_standard_id: "2.3"
+    - id: "2.3.3"
+      text: "Berkomunikasi mengenai contoh interaksi antara organisma hidup dan mengaplikasi interaksi tersebut dalam kehidupan harian."
+      text_en: "Communicate about examples of interaction between living organisms and apply these interactions in daily life."
+      bloom: "apply"
+      content_standard_id: "2.3"
+    - id: "2.3.4"
+      text: "Mencerakinkan faktor yang mempengaruhi saiz populasi dalam suatu ekosistem."
+      text_en: "Dissect factors affecting population size in an ecosystem."
+      bloom: "analyze"
+      content_standard_id: "2.3"
+    - id: "2.3.5"
+      text: "Meramalkan bagaimana perubahan dalam ekosistem mempengaruhi sumber yang ada dan keseimbangan antara populasi."
+      text_en: "Predict how changes in the ecosystem affect existing resources and balance between populations."
+      bloom: "apply"
+      content_standard_id: "2.3"
+    - id: "2.4.1"
+      text: "Mewajarkan dan berkomunikasi bahawa manusia memerlukan ekosistem yang stabil dan produktif demi kelestarian hidup."
+      text_en: "Justify and communicate that humans need stable and productive ecosystems for the sustainability of life."
+      bloom: "evaluate"
+      content_standard_id: "2.4"
 performance_standards:
-  - level: 1
-    id: "TP1"
-    text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai ekosistem."
-    text_en: "Recall science knowledge and skills regarding ecosystems."
-    descriptor: "Murid dapat mengingat kembali fakta asas mengenai ekosistem."
-    descriptor_en: "Student can recall basic facts about ecosystems."
-  - level: 2
-    id: "TP2"
-    text: "Memahami ekosistem serta dapat menjelaskan kefahaman tersebut."
-    text_en: "Understand ecosystems and can explain the understanding."
-    descriptor: "Murid dapat menjelaskan konsep ekosistem dengan mudah."
-    descriptor_en: "Student can explain the concept of ecosystems easily."
-  - level: 3
-    id: "TP3"
-    text: "Mengaplikasikan pengetahuan mengenai ekosistem untuk menerangkan kejadian atau fenomena alam dan melaksanakan tugasan mudah."
-    text_en: "Apply knowledge about ecosystems to explain natural events or phenomena and carry out simple tasks."
-    descriptor: "Murid dapat menggunakan pengetahuan ekosistem dalam situasi mudah."
-    descriptor_en: "Student can use ecosystem knowledge in simple situations."
-  - level: 4
-    id: "TP4"
-    text: "Menganalisis pengetahuan mengenai ekosistem dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
-    text_en: "Analyze knowledge about ecosystems in the context of problem solving regarding natural events or phenomena."
-    descriptor: "Murid dapat menganalisis isu ekosistem dalam konteks alam sekitar."
-    descriptor_en: "Student can analyze ecosystem issues in the context of the environment."
-  - level: 5
-    id: "TP5"
-    text: "Menilai pengetahuan mengenai ekosistem dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
-    text_en: "Evaluate knowledge about ecosystems in the context of problem solving and make decisions to carry out a task."
-    descriptor: "Murid dapat menilai dan membuat keputusan mengenai isu ekosistem."
-    descriptor_en: "Student can evaluate and make decisions regarding ecosystem issues."
-  - level: 6
-    id: "TP6"
-    text: "Merekacipta menggunakan pengetahuan dan kemahiran sains mengenai ekosistem dalam konteks penyelesaian masalah atau membuat keputusan atau dalam melaksanakan aktiviti/tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
-    text_en: "Create using science knowledge and skills about ecosystems in the context of problem solving or making decisions or in carrying out activities/tasks in new situations creatively and innovatively by considering social/economic/cultural values of society."
-    descriptor: "Murid dapat mencipta penyelesaian inovatif untuk isu ekosistem."
-    descriptor_en: "Student can create innovative solutions for ecosystem issues."
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai ekosistem."
+      text_en: "Recall science knowledge and skills regarding ecosystems."
+      descriptor: "Murid dapat mengingat kembali fakta asas mengenai ekosistem."
+      descriptor_en: "Student can recall basic facts about ecosystems."
+    - level: 2
+      id: "TP2"
+      text: "Memahami ekosistem serta dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand ecosystems and can explain the understanding."
+      descriptor: "Murid dapat menjelaskan konsep ekosistem dengan mudah."
+      descriptor_en: "Student can explain the concept of ecosystems easily."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai ekosistem untuk menerangkan kejadian atau fenomena alam dan melaksanakan tugasan mudah."
+      text_en: "Apply knowledge about ecosystems to explain natural events or phenomena and carry out simple tasks."
+      descriptor: "Murid dapat menggunakan pengetahuan ekosistem dalam situasi mudah."
+      descriptor_en: "Student can use ecosystem knowledge in simple situations."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai ekosistem dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge about ecosystems in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Murid dapat menganalisis isu ekosistem dalam konteks alam sekitar."
+      descriptor_en: "Student can analyze ecosystem issues in the context of the environment."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai ekosistem dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge about ecosystems in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Murid dapat menilai dan membuat keputusan mengenai isu ekosistem."
+      descriptor_en: "Student can evaluate and make decisions regarding ecosystem issues."
+    - level: 6
+      id: "TP6"
+      text: "Merekacipta menggunakan pengetahuan dan kemahiran sains mengenai ekosistem dalam konteks penyelesaian masalah atau membuat keputusan atau dalam melaksanakan aktiviti/tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills about ecosystems in the context of problem solving or making decisions or in carrying out activities/tasks in new situations creatively and innovatively by considering social/economic/cultural values of society."
+      descriptor: "Murid dapat mencipta penyelesaian inovatif untuk isu ekosistem."
+      descriptor_en: "Student can create innovative solutions for ecosystem issues."
 prerequisites:
-  required:
-    - SC2-01
-  recommended: []
+    required:
+        - SC2-01
+    recommended: []
 teaching:
-  sequence:
-    - Komponen ekosistem
-    - Rantai dan siratan makanan
-    - Kitar nutrien
-    - Interaksi organisma
-    - Keseimbangan alam
-  common_misconceptions:
-    - misconception: "Rantai makanan hanya mempunyai satu jalur."
-      remediation: "Tunjukkan contoh siratan makanan yang lebih kompleks."
-    - misconception: "Manusia tidak bergantung pada ekosistem."
-      remediation: "Bincangkan sumber makanan dan udara yang bergantung pada ekosistem."
-  engagement_hooks:
-    - Kesan penebangan hutan terhadap keseimbangan alam.
-    - Peranan manusia sebagai pengurus alam.
+    sequence:
+        - 'Step 1: Introduce components of the ecosystem, including producers, consumers, and decomposers (20 min)'
+        - 'Step 2: Discuss food chains and food webs with examples (30 min)'
+        - 'Step 3: Explain the roles of living things in oxygen and carbon cycles (25 min)'
+        - 'Step 4: Justify the importance of organisms in the water cycle (20 min)'
+        - 'Step 5: Solve problems related to human impact on cycles (25 min)'
+    common_misconceptions:
+        - misconception: All plants are producers.
+          remediation: Explain that not all plants perform photosynthesis, like some parasitic plants.
+        - misconception: Decomposers are not important.
+          remediation: Illustrate the role of decomposers in nutrient cycling.
 mastery:
-  minimum_score: 0.75
-  assessment_count: 5
-  spaced_repetition:
-    initial_interval_days: 1
-    multiplier: 2.5
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
 cross_curriculum: []
 tier: "core"
-ai_teaching_notes: "teaching/SC2-02.md"
-examples_file: "examples/SC2-02.yaml"
-assessments_file: "assessments/SC2-02.yaml"
+ai_teaching_notes: "SC2-02.teaching.md"
+examples_file: "SC2-02.examples.yaml"
+assessments_file: "SC2-02.assessments.yaml"
 quality_level: 1
 provenance: "ai-assisted"
 generated_at: "2023-10-27T10:00:00Z"
 engagement_hooks:
-  - Kesan penebangan hutan terhadap keseimbangan alam.
-  - Peranan manusia sebagai pengurus alam.
+    - Explore a local paddy field ecosystem to observe real-world producer-consumer interactions.
+    - Discuss the impact of deforestation on local water cycles and climate.
 sync_checked: false

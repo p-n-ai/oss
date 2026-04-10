@@ -1,0 +1,152 @@
+topic_id: "SC2-05"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 5.1.1
+    - id: "Q1"
+      text: "Jelaskan bagaimana air memainkan peranan penting dalam sistem ekologi bumi."
+      difficulty: "medium"
+      learning_objective: "5.1.1"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Air adalah penting untuk fotosintesis, mengawal suhu bumi melalui penyejatan dan pembentukan awan, serta menjadi habitat bagi hidupan akuatik."
+        working: |
+            Air menyokong fotosintesis pada tumbuhan, yang merupakan asas rantai makanan. Ia juga mengawal suhu melalui penyejatan dan pemendakan, serta menyediakan habitat untuk organisma air.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan bahawa air diperlukan dalam fotosintesis."
+        - marks: 1
+          criteria: "Menjelaskan peranan air dalam mengawal suhu bumi."
+        - marks: 1
+          criteria: "Menghuraikan kepentingan air sebagai habitat hidupan akuatik."
+        - marks: 1
+          criteria: "Menghubungkan peranan air dengan keseimbangan ekologi."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang bagaimana tumbuhan dan haiwan bergantung kepada air."
+        - level: 2
+          text: "Pertimbangkan peranan air dalam proses fotosintesis dan suhu bumi."
+        - level: 3
+          text: "Ingat bahawa air juga adalah habitat untuk banyak hidupan."
+    # Learning Objective 5.1.2
+    - id: "Q2"
+      text: "Mengapa penyejatan air penting dalam kehidupan harian, dan bagaimana ia berlaku?"
+      difficulty: "medium"
+      learning_objective: "5.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Penyejatan air penting untuk proses penyejukan dan penghidratan tumbuhan. Ia berlaku apabila molekul air memperoleh tenaga yang cukup untuk berubah menjadi wap."
+        working: |
+            Penyejatan adalah proses di mana molekul air di permukaan memperoleh tenaga dan berubah menjadi gas. Ini membantu dalam penyejukan permukaan dan dalam proses transpirasi tumbuhan.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan penyejatan sebagai proses penyejukan."
+        - marks: 1
+          criteria: "Mengaitkan penyejatan dengan proses transpirasi tumbuhan."
+        - marks: 1
+          criteria: "Menerangkan bagaimana molekul air berubah menjadi wap."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang bagaimana air membantu dalam penyejukan."
+        - level: 2
+          text: "Apa yang berlaku kepada air di permukaan tubuh atau tumbuhan ketika ia panas?"
+        - level: 3
+          text: "Perhatikan bahawa penyejatan melibatkan perubahan fasa dari cecair ke gas."
+    # Learning Objective 5.2.2
+    - id: "Q3"
+      text: "Apakah faktor yang mempengaruhi kadar keterlarutan garam dalam air dan bagaimana eksperimen boleh dijalankan untuk mengujinya?"
+      difficulty: "medium"
+      learning_objective: "5.2.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "multiple_choice"
+        value: "B"
+        working: |
+            Faktor seperti suhu, tekanan, dan kekacauan boleh mempengaruhi kadar keterlarutan. Eksperimen boleh dijalankan dengan memanaskan larutan atau menggoncangnya untuk melihat perbezaan dalam masa keterlarutan.
+        options:
+            A: "Hanya suhu yang mempengaruhi keterlarutan."
+            B: "Suhu, tekanan, dan kekacauan mempengaruhi keterlarutan."
+            C: "Hanya tekanan yang mempengaruhi keterlarutan."
+            D: "Hanya kekacauan yang mempengaruhi keterlarutan."
+        distractors:
+            - value: "A"
+              feedback: "Suhu sahaja tidak mencukupi untuk mempengaruhi keterlarutan secara signifikan."
+            - value: "C"
+              feedback: "Tekanan memainkan peranan, tetapi bukan satu-satunya faktor."
+            - value: "D"
+              feedback: "Kekacauan membantu, tetapi suhu dan tekanan juga penting."
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyenaraikan suhu sebagai faktor yang mempengaruhi keterlarutan."
+        - marks: 1
+          criteria: "Menyenaraikan tekanan sebagai faktor yang mempengaruhi keterlarutan."
+        - marks: 1
+          criteria: "Menyenaraikan kekacauan sebagai faktor yang mempengaruhi keterlarutan."
+      hints:
+        - level: 1
+          text: "Pertimbangkan keadaan fizikal yang boleh mempercepatkan proses keterlarutan."
+        - level: 2
+          text: "Adakah memanaskan atau menggoncang larutan boleh memberi kesan?"
+        - level: 3
+          text: "Fikirkan tentang bagaimana perubahan suhu dan tekanan boleh mempengaruhi keterlarutan."
+    # Learning Objective 5.2.4
+    - id: "Q4"
+      text: "Jelaskan dengan contoh bagaimana air digunakan sebagai pelarut universal dalam kehidupan harian."
+      difficulty: "medium"
+      learning_objective: "5.2.4"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Air digunakan untuk melarutkan pelbagai bahan seperti gula dalam minuman, garam dalam makanan, dan bahan kimia dalam industri."
+        working: |
+            Air adalah pelarut universal kerana ia boleh melarutkan pelbagai bahan termasuk gula dan garam. Dalam industri, air digunakan untuk melarutkan bahan kimia untuk proses pengeluaran.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan bahawa air boleh melarutkan gula."
+        - marks: 1
+          criteria: "Menyatakan bahawa air boleh melarutkan garam."
+        - marks: 1
+          criteria: "Membincangkan penggunaan air dalam industri."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang minuman dan makanan harian kita."
+        - level: 2
+          text: "Apakah cecair utama yang digunakan dalam kebanyakan proses industri?"
+        - level: 3
+          text: "Pertimbangkan bagaimana air digunakan dalam masakan dan industri."
+    # Learning Objective 5.3.1
+    - id: "Q5"
+      text: "Tunjukkan satu kaedah pembersihan air dan jelaskan bagaimana ia berfungsi."
+      difficulty: "medium"
+      learning_objective: "5.3.1"
+      tp_level: 4
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Kaedah penapisan digunakan untuk membersihkan air dengan mengalirkan air melalui bahan penapis yang menahan kekotoran."
+        working: |
+            Air kotor dialirkan melalui media penapis seperti pasir atau karbon aktif, yang memerangkap zarah-zarah tidak dikehendaki. Air yang telah ditapis keluar lebih bersih dan selamat untuk diminum.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyebut kaedah penapisan sebagai kaedah pembersihan air."
+        - marks: 1
+          criteria: "Menjelaskan fungsi bahan penapis dalam memerangkap kekotoran."
+        - marks: 1
+          criteria: "Menghuraikan hasil akhir air yang bersih selepas penapisan."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang cara kita membersihkan air di rumah."
+        - level: 2
+          text: "Apa yang biasanya digunakan untuk menapis air?"
+        - level: 3
+          text: "Pertimbangkan bagaimana kita boleh menghilangkan zarah-zarah dari air kotor."

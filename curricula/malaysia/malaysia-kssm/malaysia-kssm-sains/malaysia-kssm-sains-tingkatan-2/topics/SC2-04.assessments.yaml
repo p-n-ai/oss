@@ -1,0 +1,121 @@
+topic_id: "SC2-04"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 4.1.1: Membezakan dan berkomunikasi mengenai penyakit berjangkit dan penyakit tidak berjangkit
+    - id: "Q1"
+      text: 'Apakah perbezaan utama antara penyakit berjangkit dan penyakit tidak berjangkit?'
+      difficulty: "medium"
+      learning_objective: "4.1.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Penyakit berjangkit disebabkan oleh mikroorganisma seperti bakteria dan virus, manakala penyakit tidak berjangkit disebabkan oleh faktor genetik, gaya hidup, atau persekitaran.'
+        working: |
+            Penyakit berjangkit boleh disebarkan dari satu individu ke individu lain melalui pelbagai cara seperti udara, sentuhan, atau darah. Penyakit tidak berjangkit tidak menular dan biasanya berkaitan dengan faktor dalaman seperti genetik.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Menjelaskan penyakit berjangkit dan tidak berjangkit secara umum.'
+        - marks: 2
+          criteria: 'Menekankan perbezaan utama dalam penyebab dan sifat penularan.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang bagaimana setiap jenis penyakit itu disebarkan.'
+        - level: 2
+          text: 'Penyakit berjangkit melibatkan mikroorganisma manakala penyakit tidak berjangkit tidak.'
+    # Learning Objective 4.1.2: Menerangkan bagaimana penyakit berjangkit disebarkan
+    - id: "Q2"
+      text: 'Jelaskan dua cara bagaimana penyakit berjangkit boleh disebarkan.'
+      difficulty: "medium"
+      learning_objective: "4.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Penyakit berjangkit boleh disebarkan melalui udara seperti batuk dan bersin atau melalui sentuhan langsung seperti berjabat tangan.'
+        working: |
+            Penyakit yang disebarkan melalui udara melibatkan titisan kecil yang dikeluarkan ketika batuk atau bersin. Penyebaran melalui sentuhan langsung memerlukan kontak fizikal dengan individu yang dijangkiti.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: 'Menyebut satu cara penyebaran.'
+        - marks: 2
+          criteria: 'Menyebut dua cara penyebaran dan menerangkan secara ringkas.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan bagaimana virus seperti selesema biasa disebarkan.'
+        - level: 2
+          text: 'Berfikir tentang interaksi fizikal dan persekitaran yang menyumbang kepada penyebaran.'
+    # Learning Objective 4.1.3: Mencerakinkan penyebab dan penularan penyakit berjangkit
+    - id: "Q3"
+      text: 'Analisis bagaimana interaksi sosial menyumbang kepada penularan penyakit berjangkit dalam komuniti.'
+      difficulty: "medium"
+      learning_objective: "4.1.3"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Interaksi sosial meningkatkan kemungkinan kontak antara individu yang dijangkiti dan individu yang sihat, mempercepatkan penyebaran mikroorganisma berjangkit.'
+        working: |
+            Semakin kerap dan rapat interaksi dalam komuniti, semakin tinggi peluang bagi mikroorganisma untuk berpindah dari individu yang satu ke yang lain, terutamanya dalam persekitaran tertutup atau semasa perhimpunan besar.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Menyatakan peranan interaksi sosial dalam penularan.'
+        - marks: 2
+          criteria: 'Menyambung kepada kesan penularan yang lebih besar dalam komuniti.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang situasi di mana ramai orang berkumpul.'
+        - level: 2
+          text: 'Pertimbangkan bagaimana mikroorganisma boleh berpindah dengan cepat dalam kalangan orang ramai.'
+    # Learning Objective 4.2.3: Mewajarkan kepentingan imunisasi
+    - id: "Q4"
+      text: 'Bincangkan mengapa imunisasi penting untuk kesihatan awam.'
+      difficulty: "medium"
+      learning_objective: "4.2.3"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Imunisasi penting kerana ia melindungi individu dan komuniti daripada penyakit berjangkit, mengurangkan penyebaran penyakit dan melindungi mereka yang tidak boleh divaksinasi.'
+        working: |
+            Dengan imunisasi, sistem imun individu dipersiapkan untuk melawan penyakit tertentu, mengurangkan risiko jangkitan. Ini bukan sahaja melindungi individu tersebut tetapi juga menyumbang kepada imuniti kelompok, melindungi mereka yang tidak dapat menerima vaksin.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Menyatakan kepentingan imunisasi untuk individu.'
+        - marks: 2
+          criteria: 'Menerangkan manfaat imuniti kelompok kepada masyarakat.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan bagaimana vaksinasi boleh mengurangkan kejadian penyakit.'
+        - level: 2
+          text: 'Berfikir tentang perlindungan yang diberikan kepada seluruh masyarakat.'
+    # Learning Objective 4.2.4: Membezakan keimunan pasif dan keimunan aktif
+    - id: "Q5"
+      text: 'Apakah perbezaan antara keimunan pasif dan keimunan aktif?'
+      difficulty: "medium"
+      learning_objective: "4.2.4"
+      tp_level: 4
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: 'A'
+        options:
+            A: 'Keimunan pasif diperoleh dari sumber luar seperti antibodi ibu, manakala keimunan aktif dihasilkan oleh badan setelah pendedahan kepada antigen.'
+            B: 'Keimunan pasif melibatkan pengeluaran antibodi oleh badan, manakala keimunan aktif diperoleh dari sumber luar.'
+            C: 'Keimunan pasif dan aktif kedua-duanya bergantung sepenuhnya pada vaksinasi.'
+            D: 'Keimunan aktif hanya berlaku pada kanak-kanak, manakala keimunan pasif berlaku pada orang dewasa sahaja.'
+        working: |
+            Keimunan pasif tidak melibatkan penghasilan antibodi oleh badan sendiri, sebaliknya antibodi diperoleh dari luar, seperti melalui susu ibu atau suntikan antibodi. Keimunan aktif melibatkan sistem imun yang menghasilkan antibodi sendiri setelah terdedah kepada antigen melalui jangkitan atau vaksinasi.
+      marks: 3
+      rubric:
+        - marks: 3
+          criteria: 'Memilih jawapan yang betul dan memberikan justifikasi yang tepat.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang bagaimana antibodi diperoleh dalam setiap jenis keimunan.'
+        - level: 2
+          text: 'Pertimbangkan peranan badan dalam menghasilkan antibodi sendiri.'

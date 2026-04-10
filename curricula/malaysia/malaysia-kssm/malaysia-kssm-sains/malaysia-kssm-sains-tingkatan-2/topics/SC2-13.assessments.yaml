@@ -1,0 +1,125 @@
+topic_id: "SC2-13"
+provenance: "ai-generated"
+questions:
+    # Questions for learning objective 13.1.1
+    - id: "Q1"
+      text: 'Apakah perbezaan utama antara meteoroid, asteroid, dan komet?'
+      difficulty: "medium"
+      learning_objective: "13.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Meteoroid adalah serpihan batu kecil di angkasa, asteroid adalah objek besar terutama di tali pinggang asteroid, dan komet adalah objek yang terdiri daripada ais dan debu yang mempunyai ekor apabila dekat dengan matahari.'
+        working: |
+            Perbezaan utama adalah berdasarkan saiz, komposisi, dan lokasi. Meteoroid adalah kecil dan berada di angkasa. Asteroid lebih besar dan kebanyakan berada di tali pinggang asteroid antara Marikh dan Musytari. Komet terdiri daripada ais dan debu, dan membentuk ekor apabila mendekati matahari.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan definisi meteoroid dengan betul."
+        - marks: 1
+          criteria: "Menyatakan definisi asteroid dengan betul."
+        - marks: 1
+          criteria: "Menyatakan definisi komet dengan betul."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang saiz dan komposisi setiap objek."
+        - level: 2
+          text: "Asteroid biasanya terdapat di antara dua planet tertentu."
+        - level: 3
+          text: "Komet sering mempunyai ekor apabila dekat dengan objek tertentu."
+    # Questions for learning objective 13.1.2
+    - id: "Q2"
+      text: 'Asteroid biasanya terdapat dalam kawasan tertentu dalam sistem suria. Apakah nama kawasan ini?'
+      difficulty: "medium"
+      learning_objective: "13.1.2"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "multiple_choice"
+        value: "B"
+        options:
+            A: 'Kuiper Belt'
+            B: 'Asteroid Belt'
+            C: 'Oort Cloud'
+            D: 'Nebula'
+        working: |
+            Tali pinggang asteroid adalah kawasan di antara planet Marikh dan Musytari di mana kebanyakan asteroid ditemui.
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Jawapan yang betul dan tepat."
+      hints:
+        - level: 1
+          text: "Ia adalah kawasan antara orbit Marikh dan Musytari."
+        - level: 2
+          text: "Kawasan ini dinamakan berdasarkan objek yang dominan di dalamnya."
+    - id: "Q3"
+      text: 'Bagaimanakah pergerakan komet dapat memberi kesan kepada Bumi?'
+      difficulty: "medium"
+      learning_objective: "13.1.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Pergerakan komet yang mendekati Bumi boleh menyebabkan pancuran meteor, dan dalam kes yang jarang berlaku, perlanggaran boleh membawa kepada impak besar yang berpotensi merosakkan.'
+        working: |
+            Komet yang memasuki kawasan berhampiran Bumi boleh menyebabkan pancuran meteor apabila serpihan memasuki atmosfera Bumi. Jika komet terlalu dekat, ia boleh bertembung dengan Bumi, menyebabkan impak besar.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Mengaitkan pergerakan komet dengan pancuran meteor."
+        - marks: 2
+          criteria: "Menerangkan risiko perlanggaran dengan Bumi."
+      hints:
+        - level: 1
+          text: "Pertimbangkan apa yang berlaku apabila serpihan komet memasuki atmosfera Bumi."
+        - level: 2
+          text: "Apakah akibatnya jika komet mendekati Bumi terlalu dekat?"
+    # Questions for learning objective 13.1.3
+    - id: "Q4"
+      text: 'Apakah langkah-langkah yang boleh diambil untuk mengurangkan risiko perlanggaran asteroid dengan Bumi?'
+      difficulty: "medium"
+      learning_objective: "13.1.3"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Langkah-langkah termasuk pemantauan berterusan asteroid, membangunkan teknologi untuk mengubah laluan asteroid, dan kerjasama antarabangsa dalam penyelidikan dan tindak balas kecemasan.'
+        working: |
+            Untuk mengurangkan risiko, pemantauan berterusan adalah penting untuk mengenal pasti ancaman awal. Teknologi seperti misi angkasa untuk menukar laluan asteroid perlu dibangunkan. Kerjasama antarabangsa juga penting untuk berkongsi data dan strategi.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Menyebut kepentingan pemantauan asteroid."
+        - marks: 2
+          criteria: "Mengusulkan teknologi untuk mengubah laluan asteroid."
+        - marks: 1
+          criteria: "Menghargai kerjasama antarabangsa."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang teknologi yang boleh memantau objek di angkasa."
+        - level: 2
+          text: "Apakah yang boleh dilakukan jika asteroid dikenal pasti sebagai ancaman?"
+    - id: "Q5"
+      text: 'Terangkan bagaimana teknologi radar boleh digunakan untuk mengesan asteroid berbahaya.'
+      difficulty: "medium"
+      learning_objective: "13.1.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Teknologi radar boleh digunakan untuk menghantar isyarat ke asteroid dan mengukur masa yang diambil untuk isyarat tersebut kembali. Ini membantu dalam menentukan saiz, bentuk, dan laluan asteroid.'
+        working: |
+            Radar menghantar isyarat radio ke arah asteroid. Masa yang diambil untuk isyarat kembali diukur untuk mendapatkan maklumat tentang jarak dan saiz asteroid. Data ini digunakan untuk meramalkan laluan dan kemungkinan bahaya.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menerangkan prinsip asas operasi radar."
+        - marks: 2
+          criteria: "Mengaitkan penggunaan radar untuk mendapatkan maklumat asteroid."
+      hints:
+        - level: 1
+          text: "Radar melibatkan gelombang radio, fikirkan tentang bagaimana mereka digunakan untuk menentukan jarak."
+        - level: 2
+          text: "Apakah yang boleh anda pelajari dari masa isyarat radio yang diambil untuk kembali?"

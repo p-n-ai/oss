@@ -1,0 +1,45 @@
+topic_id: "SC2-01"
+provenance: "ai-generated"
+description: "Worked examples for Biodiversiti"
+worked_examples:
+    - id: "WE-01"
+      topic: "Menghuraikan dan berkomunikasi mengenai biodiversiti"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "1.1.1"
+      real_world_analogy: "Biodiversiti adalah seperti sebuah perpustakaan yang mempunyai pelbagai jenis buku yang mewakili spesies yang berbeza."
+      misconception_alert: "Ramai pelajar mungkin berfikir bahawa biodiversiti hanya merujuk kepada haiwan sahaja, tetapi ia termasuk tumbuhan, mikroorganisma, dan ekosistem."
+      scenario: "Jelaskan konsep biodiversiti dan kepentingannya dalam kehidupan seharian."
+      working: |
+        Step 1: Penerangan biodiversiti adalah kepelbagaian hidup di bumi yang merangkumi pelbagai spesies tumbuhan, haiwan, dan mikroorganisma serta ekosistem.
+        Step 2: Biodiversiti penting kerana ia menyediakan sumber makanan, bahan mentah, dan mengekalkan keseimbangan ekosistem.
+        Step 3: Contoh: Hutan tropika mempunyai biodiversiti yang tinggi dan menyumbang kepada bekalan oksigen dan air bersih.
+    - id: "WE-02"
+      topic: "Membezakan organisma dengan kekunci dikotomi"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "1.2.1"
+      real_world_analogy: "Menggunakan kekunci dikotomi untuk mengklasifikasikan organisma adalah seperti menggunakan panduan pilihan untuk mencari pakaian yang sesuai."
+      misconception_alert: "Pelajar sering salah faham bahawa semua ciri-ciri perlu digunakan secara serentak, sedangkan kekunci dikotomi menggunakan ciri-ciri dalam urutan."
+      scenario: "Gunakan kekunci dikotomi untuk mengklasifikasikan organisma berikut: katak, ular, dan ikan."
+      working: |
+        Step 1: Mulakan dengan ciri pertama dalam kekunci dikotomi: Adakah organisma hidup di air?
+        Step 2: Jika ya, klasifikasikan sebagai ikan. Jika tidak, teruskan ke langkah seterusnya.
+        Step 3: Ciri seterusnya: Adakah organisma mempunyai kulit licin atau bersisik?
+        Step 4: Jika kulit licin, klasifikasikan sebagai katak. Jika bersisik, klasifikasikan sebagai ular.
+    - id: "WE-03"
+      topic: "Mewajarkan keperluan pengurusan biodiversiti yang berkesan"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "1.1.2"
+      real_world_analogy: "Mengurus biodiversiti adalah seperti menjaga taman yang memerlukan perhatian terhadap setiap jenis tumbuhan untuk memastikan kesemuanya sihat dan dapat berkembang."
+      misconception_alert: "Pelajar mungkin berfikir bahawa pengurusan biodiversiti hanya penting di kawasan hutan sahaja, sedangkan ia penting di seluruh dunia termasuk kawasan bandar."
+      scenario: "Terangkan mengapa pengurusan biodiversiti yang berkesan penting untuk kelestarian alam sekitar dan ekonomi."
+      working: |-
+        Step 1: Pengurusan biodiversiti memastikan spesies yang terancam dilindungi dan ekosistem seimbang.
+        Step 2: Biodiversiti yang baik menyokong pertanian dengan menyediakan penyerbuk dan pengawal serangga semulajadi.
+        Step 3: Ia juga penting untuk pelancongan ekopelancongan yang menyumbang kepada ekonomi.
+        Step 4: Pengurusan yang berkesan meminimumkan impak perubahan iklim dan memastikan sumber semula jadi berterusan untuk generasi akan datang.

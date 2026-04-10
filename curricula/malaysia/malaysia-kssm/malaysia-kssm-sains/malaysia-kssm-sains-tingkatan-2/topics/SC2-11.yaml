@@ -1,5 +1,5 @@
-id: "SC2-11"
-official_ref: "11.0"
+id: SC2-11
+official_ref: "Bab 11"
 name: "Bintang dan Galaksi dalam Alam Semesta"
 name_en: "Stars and Galaxies in the Universe"
 subject_grade_id: "malaysia-kssm-sains-tingkatan-2"
@@ -29,20 +29,14 @@ prerequisites:
     recommended: []
 teaching:
     sequence:
-        - Mencari maklumat daripada alat teknologi seperti teleskop
-        - Membincangkan galaksi, nebula, kitar hidup bintang
-        - Menyatakan kedudukan Sistem Suria dalam Galaksi Bima Sakti
-        - Melawat ke Balai Cerap atau planetarium
-        - Menggunakan software astronomi (Skychart, Stellarium)
+        - 'Step 1: Introduce celestial objects and their significance (15 min)'
+        - 'Step 2: Discuss characteristics of stars like size and brightness (20 min)'
+        - 'Step 3: Connect characteristics to Earth observations (15 min)'
     common_misconceptions:
-        - misconception: "Semua bintang kelihatan sama saiznya."
-          remediation: "Terangkan bahawa saiz sebenar bintang berbeza-beza dan jarak mempengaruhi saiz yang dilihat."
-        - misconception: "Bintang hanya kelihatan pada waktu malam."
-          remediation: "Terangkan bahawa bintang wujud pada siang hari tetapi cahaya matahari menyilaukan penglihatan."
-    engagement_hooks:
-        - Mengamati bintang di waktu malam
-        - Membandingkan saiz Bumi dengan Galaksi Bima Sakti
-        - Menggunakan perisian astronomi untuk melihat objek angkasa
+        - misconception: All stars are the same size.
+          remediation: Use diagrams and models to show diversity in star sizes.
+        - misconception: Stars twinkle because they are small.
+          remediation: Explain atmospheric interference as the cause of twinkling.
 bloom_levels:
     - understand
     - analyze
@@ -91,12 +85,12 @@ performance_standards:
       descriptor: "Murid dapat mencipta penyelesaian kreatif inovatif dengan mengambil kira nilai masyarakat."
       descriptor_en: "Student can create creative innovative solutions considering social values."
 engagement_hooks:
-    - Mengamati bintang di waktu malam
-    - Membandingkan saiz Bumi dengan Galaksi Bima Sakti
-    - Menggunakan perisian astronomi untuk melihat objek angkasa
+    - Explore how ancient civilizations used stars for navigation.
+    - Discuss local myths and legends related to constellations.
 quality_level: 1
 provenance: "ai-assisted"
 generated_at: "2024-05-22T10:00:00Z"
 sync_checked: false
 ai_teaching_notes: "SC2-11.teaching.md"
 assessments_file: "SC2-11.assessments.yaml"
+examples_file: SC2-11.examples.yaml

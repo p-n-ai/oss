@@ -1,4 +1,5 @@
 id: SC2-03
+official_ref: "Bab 3"
 name: "Nutrisi"
 name_en: "Nutrition"
 subject_grade_id: malaysia-kssm-sains-tingkatan-2
@@ -8,134 +9,132 @@ country_id: malaysia
 language: ms
 difficulty: intermediate
 content_standards:
-  - id: "3.1"
-    text: "Kelas makanan"
-    text_en: "Food classes"
-  - id: "3.2"
-    text: "Kepentingan gizi seimbang"
-    text_en: "Importance of balanced nutrition"
-  - id: "3.3"
-    text: "Sistem pencernaan manusia"
-    text_en: "Human digestive system"
-  - id: "3.4"
-    text: "Proses penyerapan dan pengangkutan hasil pencernaan serta penyahtinjaan"
-    text_en: "Absorption and transport of digestion products and defecation"
+    - id: "3.1"
+      text: "Kelas makanan"
+      text_en: "Food classes"
+    - id: "3.2"
+      text: "Kepentingan gizi seimbang"
+      text_en: "Importance of balanced nutrition"
+    - id: "3.3"
+      text: "Sistem pencernaan manusia"
+      text_en: "Human digestive system"
+    - id: "3.4"
+      text: "Proses penyerapan dan pengangkutan hasil pencernaan serta penyahtinjaan"
+      text_en: "Absorption and transport of digestion products and defecation"
 learning_objectives:
-  - id: "3.1.1"
-    text: "Menghuraikan dan berkomunikasi mengenai kelas makanan."
-    text_en: "Elaborate and communicate about food classes."
-    bloom: "understand"
-    content_standard_id: "3.1"
-  - id: "3.1.2"
-    text: "Menguji kehadiran kanji, glukosa, protein dan lemak dalam makanan."
-    text_en: "Test for the presence of starch, glucose, protein, and fat in food."
-    bloom: "apply"
-    content_standard_id: "3.1"
-  - id: "3.2.1"
-    text: "Menghuraikan dan berkomunikasi mengenai gizi seimbang."
-    text_en: "Elaborate and communicate about balanced nutrition."
-    bloom: "understand"
-    content_standard_id: "3.2"
-  - id: "3.2.2"
-    text: "Menganggar kalori makanan yang diambil dalam setiap hidangan dan merancang satu gizi seimbang."
-    text_en: "Estimate calories in food taken in each meal and plan a balanced nutrition."
-    bloom: "apply"
-    content_standard_id: "3.2"
-  - id: "3.2.3"
-    text: "Membuat kajian dan mewajarkan kepentingan gizi seimbang, senaman dan gaya hidup yang sihat dalam mengekalkan kesihatan badan."
-    text_en: "Conduct a study and justify the importance of balanced nutrition, exercise, and healthy lifestyle in maintaining body health."
-    bloom: "evaluate"
-    content_standard_id: "3.2"
-  - id: "3.3.1"
-    text: "Menghuraikan dan berkomunikasi mengenai pencernaan."
-    text_en: "Elaborate and communicate about digestion."
-    bloom: "understand"
-    content_standard_id: "3.3"
-  - id: "3.4.1"
-    text: "Menjalankan eksperimen bagi menerangkan proses penyerapan hasil pencernaan."
-    text_en: "Conduct an experiment to explain the process of absorption of digestion products."
-    bloom: "apply"
-    content_standard_id: "3.4"
-  - id: "3.4.2"
-    text: "Menghubungkaitkan fungsi sistem pencernaan, sistem peredaran darah dan sistem respirasi."
-    text_en: "Link the functions of the digestive system, circulatory system, and respiratory system."
-    bloom: "analyze"
-    content_standard_id: "3.4"
-  - id: "3.4.3"
-    text: "Menghuraikan dan berkomunikasi mengenai penyahtinjaan."
-    text_en: "Elaborate and communicate about defecation."
-    bloom: "understand"
-    content_standard_id: "3.4"
+    - id: "3.1.1"
+      text: "Menghuraikan dan berkomunikasi mengenai kelas makanan."
+      text_en: "Elaborate and communicate about food classes."
+      bloom: "understand"
+      content_standard_id: "3.1"
+    - id: "3.1.2"
+      text: "Menguji kehadiran kanji, glukosa, protein dan lemak dalam makanan."
+      text_en: "Test for the presence of starch, glucose, protein, and fat in food."
+      bloom: "apply"
+      content_standard_id: "3.1"
+    - id: "3.2.1"
+      text: "Menghuraikan dan berkomunikasi mengenai gizi seimbang."
+      text_en: "Elaborate and communicate about balanced nutrition."
+      bloom: "understand"
+      content_standard_id: "3.2"
+    - id: "3.2.2"
+      text: "Menganggar kalori makanan yang diambil dalam setiap hidangan dan merancang satu gizi seimbang."
+      text_en: "Estimate calories in food taken in each meal and plan a balanced nutrition."
+      bloom: "apply"
+      content_standard_id: "3.2"
+    - id: "3.2.3"
+      text: "Membuat kajian dan mewajarkan kepentingan gizi seimbang, senaman dan gaya hidup yang sihat dalam mengekalkan kesihatan badan."
+      text_en: "Conduct a study and justify the importance of balanced nutrition, exercise, and healthy lifestyle in maintaining body health."
+      bloom: "evaluate"
+      content_standard_id: "3.2"
+    - id: "3.3.1"
+      text: "Menghuraikan dan berkomunikasi mengenai pencernaan."
+      text_en: "Elaborate and communicate about digestion."
+      bloom: "understand"
+      content_standard_id: "3.3"
+    - id: "3.4.1"
+      text: "Menjalankan eksperimen bagi menerangkan proses penyerapan hasil pencernaan."
+      text_en: "Conduct an experiment to explain the process of absorption of digestion products."
+      bloom: "apply"
+      content_standard_id: "3.4"
+    - id: "3.4.2"
+      text: "Menghubungkaitkan fungsi sistem pencernaan, sistem peredaran darah dan sistem respirasi."
+      text_en: "Link the functions of the digestive system, circulatory system, and respiratory system."
+      bloom: "analyze"
+      content_standard_id: "3.4"
+    - id: "3.4.3"
+      text: "Menghuraikan dan berkomunikasi mengenai penyahtinjaan."
+      text_en: "Elaborate and communicate about defecation."
+      bloom: "understand"
+      content_standard_id: "3.4"
 performance_standards:
-  - level: 1
-    id: "TP1"
-    text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai nutrisi."
-    text_en: "Recall science knowledge and skills regarding nutrition."
-    descriptor: "Murid dapat mengingat kembali fakta asas mengenai nutrisi."
-    descriptor_en: "Student can recall basic facts about nutrition."
-  - level: 2
-    id: "TP2"
-    text: "Memahami nutrisi serta dapat menjelaskan kefahaman tersebut."
-    text_en: "Understand nutrition and can explain the understanding."
-    descriptor: "Murid dapat menjelaskan konsep nutrisi dengan mudah."
-    descriptor_en: "Student can explain the concept of nutrition easily."
-  - level: 3
-    id: "TP3"
-    text: "Mengaplikasikan pengetahuan mengenai nutrisi untuk menerangkan kejadian atau fenomena alam dan melaksanakan tugasan mudah."
-    text_en: "Apply knowledge about nutrition to explain natural events or phenomena and carry out simple tasks."
-    descriptor: "Murid dapat menggunakan pengetahuan nutrisi dalam situasi mudah."
-    descriptor_en: "Student can use nutrition knowledge in simple situations."
-  - level: 4
-    id: "TP4"
-    text: "Menganalisis pengetahuan mengenai nutrisi dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
-    text_en: "Analyze knowledge about nutrition in the context of problem solving regarding natural events or phenomena."
-    descriptor: "Murid dapat menganalisis isu nutrisi dalam konteks kesihatan."
-    descriptor_en: "Student can analyze nutrition issues in the context of health."
-  - level: 5
-    id: "TP5"
-    text: "Menilai pengetahuan mengenai nutrisi dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
-    text_en: "Evaluate knowledge about nutrition in the context of problem solving and make decisions to carry out a task."
-    descriptor: "Murid dapat menilai dan membuat keputusan mengenai isu nutrisi."
-    descriptor_en: "Student can evaluate and make decisions regarding nutrition issues."
-  - level: 6
-    id: "TP6"
-    text: "Merekacipta menggunakan pengetahuan dan kemahiran sains mengenai nutrisi dalam konteks penyelesaian masalah atau membuat keputusan atau dalam melaksanakan aktiviti/tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
-    text_en: "Create using science knowledge and skills about nutrition in the context of problem solving or making decisions or in carrying out activities/tasks in new situations creatively and innovatively by considering social/economic/cultural values of society."
-    descriptor: "Murid dapat mencipta penyelesaian inovatif untuk isu nutrisi."
-    descriptor_en: "Student can create innovative solutions for nutrition issues."
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai nutrisi."
+      text_en: "Recall science knowledge and skills regarding nutrition."
+      descriptor: "Murid dapat mengingat kembali fakta asas mengenai nutrisi."
+      descriptor_en: "Student can recall basic facts about nutrition."
+    - level: 2
+      id: "TP2"
+      text: "Memahami nutrisi serta dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand nutrition and can explain the understanding."
+      descriptor: "Murid dapat menjelaskan konsep nutrisi dengan mudah."
+      descriptor_en: "Student can explain the concept of nutrition easily."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai nutrisi untuk menerangkan kejadian atau fenomena alam dan melaksanakan tugasan mudah."
+      text_en: "Apply knowledge about nutrition to explain natural events or phenomena and carry out simple tasks."
+      descriptor: "Murid dapat menggunakan pengetahuan nutrisi dalam situasi mudah."
+      descriptor_en: "Student can use nutrition knowledge in simple situations."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai nutrisi dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge about nutrition in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Murid dapat menganalisis isu nutrisi dalam konteks kesihatan."
+      descriptor_en: "Student can analyze nutrition issues in the context of health."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai nutrisi dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge about nutrition in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Murid dapat menilai dan membuat keputusan mengenai isu nutrisi."
+      descriptor_en: "Student can evaluate and make decisions regarding nutrition issues."
+    - level: 6
+      id: "TP6"
+      text: "Merekacipta menggunakan pengetahuan dan kemahiran sains mengenai nutrisi dalam konteks penyelesaian masalah atau membuat keputusan atau dalam melaksanakan aktiviti/tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills about nutrition in the context of problem solving or making decisions or in carrying out activities/tasks in new situations creatively and innovatively by considering social/economic/cultural values of society."
+      descriptor: "Murid dapat mencipta penyelesaian inovatif untuk isu nutrisi."
+      descriptor_en: "Student can create innovative solutions for nutrition issues."
 prerequisites:
-  required: []
-  recommended: []
+    required: []
+    recommended: []
 teaching:
-  sequence:
-    - Kelas makanan
-    - Ujian makanan
-    - Gizi seimbang
-    - Sistem pencernaan
-    - Penyerapan dan penyahtinjaan
-  common_misconceptions:
-    - misconception: "Lemak tidak baik untuk kesihatan."
-      remediation: "Terangkan tentang lemak sihat dan lemak tidak sihat serta keperluan badan."
-    - misconception: "Pencernaan hanya berlaku di perut."
-      remediation: "Tunjukkan keseluruhan salur pencernaan dan fungsi setiap organ."
-  engagement_hooks:
-    - Masalah obesiti dalam kalangan murid sekolah.
-    - Kepentingan pemakanan seimbang untuk kesihatan.
+    sequence:
+        - 'Step 1: Discuss the six classes of food using models and diagrams (30 min)'
+        - 'Step 2: Conduct experiments to test for nutrients like starch and glucose (40 min)'
+        - 'Step 3: Explain the concept of a balanced diet and caloric estimation (30 min)'
+        - 'Step 4: Engage students in planning a meal with a balanced diet (20 min)'
+        - 'Step 5: Discuss the digestion process and perform a related experiment (40 min)'
+    common_misconceptions:
+        - misconception: All fats are unhealthy and should be avoided
+          remediation: Explain the difference between healthy and unhealthy fats
+        - misconception: Carbohydrates are the main cause of weight gain
+          remediation: Clarify the role of carbohydrates in providing energy
 mastery:
-  minimum_score: 0.75
-  assessment_count: 5
-  spaced_repetition:
-    initial_interval_days: 1
-    multiplier: 2.5
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
 cross_curriculum: []
 tier: "core"
-ai_teaching_notes: "teaching/SC2-03.md"
-examples_file: "examples/SC2-03.yaml"
-assessments_file: "assessments/SC2-03.yaml"
+ai_teaching_notes: "SC2-03.teaching.md"
+examples_file: "SC2-03.examples.yaml"
+assessments_file: "SC2-03.assessments.yaml"
 quality_level: 1
 provenance: "ai-assisted"
 generated_at: "2023-10-27T10:00:00Z"
 engagement_hooks:
-  - Masalah obesiti dalam kalangan murid sekolah.
-  - Kepentingan pemakanan seimbang untuk kesihatan.
+    - Explore the nutritional content of local dishes and their health impacts
+    - Discuss how athletes plan their diets for optimal performance
+    - Consider the role of diet in maintaining energy levels throughout the day
 sync_checked: false

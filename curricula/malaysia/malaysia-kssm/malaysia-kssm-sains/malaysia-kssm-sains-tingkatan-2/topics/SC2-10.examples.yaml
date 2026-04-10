@@ -1,0 +1,43 @@
+topic_id: "SC2-10"
+provenance: "ai-generated"
+description: "Worked examples for Gelombang Bunyi"
+worked_examples:
+    - id: "WE-01"
+      topic: "Ciri Asas Gelombang Bunyi"
+      difficulty: "easy"
+      tp_level: 1
+      kbat: false
+      learning_objective: "10.1.1"
+      real_world_analogy: "Seperti gelombang yang terbentuk apabila batu kecil dijatuhkan ke dalam air."
+      misconception_alert: "Ramai pelajar menyangka gelombang bunyi boleh bergerak dalam vakum, tetapi ia memerlukan medium seperti udara, air, atau pepejal untuk bergerak."
+      scenario: "Jelaskan ciri-ciri asas gelombang bunyi yang bergerak melalui udara."
+      working: |
+        Step 1: Kenal pasti bahawa gelombang bunyi adalah gelombang mekanikal yang memerlukan medium untuk bergerak.
+        Step 2: Fahami bahawa gelombang bunyi bergerak melalui pemampatan dan peregangan zarah-zarah dalam medium.
+        Step 3: Terangkan bahawa frekuensi gelombang bunyi menentukan nada bunyi, manakala amplitud menentukan kenyaringan.
+    - id: "WE-02"
+      topic: "Frekuensi dan Amplitud"
+      difficulty: "medium"
+      tp_level: 2
+      kbat: true
+      learning_objective: "10.2.1"
+      real_world_analogy: "Seperti tali gitar yang dipetik: semakin cepat bergetar, semakin tinggi bunyinya."
+      misconception_alert: "Pelajar sering mengelirukan antara frekuensi dengan amplitud, menganggap keduanya mempengaruhi kenyaringan bunyi secara langsung."
+      scenario: "Apakah maksud frekuensi dan amplitud dalam konteks gelombang bunyi, dan bagaimana kedua-dua ini mempengaruhi sifat bunyi?"
+      working: |
+        Step 1: Definisikan frekuensi sebagai bilangan getaran per saat, diukur dalam unit Hertz (Hz).
+        Step 2: Nyatakan bahawa amplitud adalah ukuran kekuatan getaran, yang mempengaruhi kenyaringan bunyi.
+        Step 3: Hubungkan bahawa frekuensi tinggi menghasilkan bunyi bernada tinggi, manakala amplitud tinggi menghasilkan bunyi yang lebih kuat.
+    - id: "WE-03"
+      topic: "Kaitan Frekuensi dengan Kelangsingan dan Amplitud dengan Kenyaringan"
+      difficulty: "hard"
+      tp_level: 3
+      kbat: true
+      learning_objective: "10.2.2"
+      real_world_analogy: "Seperti membandingkan bunyi loceng basikal dengan loceng gereja; satu lebih tinggi dan nyaring, yang lain lebih dalam dan kuat."
+      misconception_alert: "Pelajar mungkin menganggap bahawa perubahan dalam salah satu (frekuensi atau amplitud) akan secara automatik mengubah yang lain."
+      scenario: "Bagaimana frekuensi dan amplitud gelombang bunyi mempengaruhi kelangsingan dan kenyaringan bunyi yang dihasilkan?"
+      working: |-
+        Step 1: Terangkan bahawa kelangsingan bunyi bergantung kepada frekuensi; frekuensi tinggi menghasilkan bunyi yang lebih langsing.
+        Step 2: Jelaskan bahawa kenyaringan bunyi dipengaruhi oleh amplitud; amplitud yang lebih besar menghasilkan bunyi yang lebih nyaring.
+        Step 3: Berikan contoh praktikal, seperti bunyi yang dihasilkan oleh siren kereta polis yang lebih tinggi frekuensinya berbanding bunyi ledakan drum.

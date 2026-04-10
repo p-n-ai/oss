@@ -1,0 +1,131 @@
+topic_id: "SC2-01"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 1.1.1
+    - id: "Q01"
+      text: 'Terangkan kepentingan biodiversiti kepada ekosistem.'
+      difficulty: "medium"
+      learning_objective: "1.1.1"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Biodiversiti penting untuk mengekalkan keseimbangan ekosistem, menyediakan sumber makanan, dan menyokong perkhidmatan ekosistem seperti penyerbukan dan penyahgaraman.'
+        working: |
+            Biodiversiti menyumbang kepada kestabilan ekosistem dengan menyediakan pelbagai spesies yang memainkan peranan berbeza. Ia juga menyokong perkhidmatan ekosistem yang penting untuk kehidupan, seperti penyerbukan oleh serangga.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan peranan biodiversiti dalam mengekalkan keseimbangan ekosistem."
+        - marks: 2
+          criteria: "Mengaitkan biodiversiti dengan perkhidmatan ekosistem."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang bagaimana spesies berbeza menyumbang kepada ekosistem."
+        - level: 2
+          text: "Pertimbangkan perkhidmatan ekosistem seperti penyerbukan dan penyahgaraman."
+    # Learning Objective 1.1.2
+    - id: "Q02"
+      text: 'Mengapa pengurusan biodiversiti yang berkesan diperlukan?'
+      difficulty: "medium"
+      learning_objective: "1.1.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Pengurusan biodiversiti yang berkesan diperlukan untuk mencegah kepupusan spesies, memastikan kelestarian sumber semula jadi, dan mengekalkan keseimbangan ekosistem.'
+        working: |
+            Tanpa pengurusan yang baik, biodiversiti boleh terjejas akibat aktiviti manusia seperti pembalakan dan pencemaran. Ini boleh menyebabkan kepupusan spesies dan ketidakseimbangan ekosistem.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Menerangkan kepentingan mencegah kepupusan spesies."
+        - marks: 2
+          criteria: "Memastikan kelestarian sumber semula jadi melalui pengurusan biodiversiti."
+        - marks: 1
+          criteria: "Membincangkan keseimbangan ekosistem."
+      hints:
+        - level: 1
+          text: "Pertimbangkan ancaman kepada biodiversiti."
+        - level: 2
+          text: "Fikirkan tentang kepentingan kelestarian sumber semula jadi."
+    # Learning Objective 1.2.1
+    - id: "Q03"
+      text: 'Gunakan kekunci dikotomi untuk membezakan organisma berikut: katak, ular, dan cicak.'
+      difficulty: "medium"
+      learning_objective: "1.2.1"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "multiple_choice"
+        value: 'B'
+        working: "1. Adakah organisma mempunyai kaki? \n   - Ya: Pergi ke 2\n   - Tidak: Ular\n2. Adakah organisma mempunyai kulit yang lembap?\n   - Ya: Katak\n   - Tidak: Cicak\n"
+        options:
+            A: "1. Katak, 2. Ular, 3. Cicak"
+            B: "1. Ular, 2. Katak, 3. Cicak"
+            C: "1. Cicak, 2. Katak, 3. Ular"
+        distractors:
+            - value: 'A'
+              feedback: "Susunan ini salah kerana ular tidak mempunyai kaki."
+            - value: 'C'
+              feedback: "Cicak tidak mempunyai kulit lembap seperti katak."
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menggunakan kekunci dikotomi untuk menentukan ular."
+        - marks: 1
+          criteria: "Menggunakan kekunci dikotomi untuk menentukan katak."
+        - marks: 1
+          criteria: "Menggunakan kekunci dikotomi untuk menentukan cicak."
+      hints:
+        - level: 1
+          text: "Perhatikan ciri fizikal seperti kehadiran kaki dan jenis kulit."
+    # Learning Objective 1.2.2
+    - id: "Q04"
+      text: 'Ciri-ciri manakah yang membezakan antara invertebrata dan vertebrata?'
+      difficulty: "medium"
+      learning_objective: "1.2.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: 'A'
+        working: |
+            Vertebrata mempunyai tulang belakang, sementara invertebrata tidak. Vertebrata biasanya mempunyai sistem saraf yang lebih kompleks.
+        options:
+            A: "Vertebrata mempunyai tulang belakang; invertebrata tidak."
+            B: "Vertebrata bernafas melalui insang; invertebrata bernafas melalui kulit."
+            C: "Vertebrata bereproduksi secara seksual; invertebrata tidak."
+        distractors:
+            - value: 'B'
+              feedback: "Ini bukan ciri utama yang membezakan vertebrata dan invertebrata."
+            - value: 'C'
+              feedback: "Banyak invertebrata juga bereproduksi secara seksual."
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Mengenalpasti bahawa vertebrata mempunyai tulang belakang."
+      hints:
+        - level: 1
+          text: "Fokus pada struktur rangka."
+    # Learning Objective 1.2.2
+    - id: "Q05"
+      text: 'Nyatakan ciri utama yang membezakan mamalia daripada kumpulan haiwan lain.'
+      difficulty: "medium"
+      learning_objective: "1.2.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Mamalia mempunyai kelenjar susu yang menghasilkan susu untuk anak-anak mereka, dan kebanyakan mamalia mempunyai rambut atau bulu.'
+        working: |
+            Mamalia unik kerana mereka menyusukan anak mereka dengan susu yang dihasilkan oleh kelenjar susu. Selain itu, kehadiran rambut atau bulu adalah ciri khas mereka.
+      marks: 3
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan kehadiran kelenjar susu dan penghasilan susu."
+        - marks: 1
+          criteria: "Menyebut kehadiran rambut atau bulu."
+      hints:
+        - level: 1
+          text: "Pikirkan tentang bagaimana mamalia merawat anak-anak mereka."

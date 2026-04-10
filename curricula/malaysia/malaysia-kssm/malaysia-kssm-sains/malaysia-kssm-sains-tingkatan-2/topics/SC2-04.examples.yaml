@@ -1,0 +1,43 @@
+topic_id: "SC2-04"
+provenance: "ai-generated"
+description: "Worked examples for Kesihatan Manusia"
+worked_examples:
+    - id: "WE-01"
+      topic: "Membezakan penyakit berjangkit dan penyakit tidak berjangkit"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "4.1.1"
+      real_world_analogy: "Seperti membezakan antara hujan (penyakit berjangkit) dan kemarau (penyakit tidak berjangkit) tempat tinggal kita."
+      misconception_alert: "Pelajar sering keliru dengan menganggap semua penyakit boleh berjangkit."
+      scenario: "Jelaskan perbezaan antara penyakit berjangkit dan penyakit tidak berjangkit."
+      working: |
+        Step 1: Kenal pasti ciri-ciri penyakit berjangkit, iaitu penyakit yang boleh merebak dari satu individu ke individu lain melalui pelbagai cara seperti udara, air, atau sentuhan langsung.
+        Step 2: Kenal pasti ciri-ciri penyakit tidak berjangkit, iaitu penyakit yang tidak boleh merebak dari satu individu ke individu lain dan biasanya disebabkan oleh faktor seperti genetik, gaya hidup, atau persekitaran.
+        Step 3: Buat perbandingan untuk membezakan kedua-dua jenis penyakit ini berdasarkan cara penyebaran dan faktor penyebabnya.
+    - id: "WE-02"
+      topic: "Menerangkan penyebaran penyakit berjangkit"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "4.1.2"
+      real_world_analogy: "Penyebaran penyakit berjangkit seperti penyebaran bau makanan yang kuat di dalam bilik tertutup."
+      misconception_alert: "Pelajar mungkin berfikir bahawa semua penyakit berjangkit hanya disebarkan melalui sentuhan langsung."
+      scenario: "Bagaimana penyakit berjangkit seperti influenza boleh merebak dalam komuniti?"
+      working: |
+        Step 1: Fahami bahawa penyakit berjangkit boleh disebarkan melalui pelbagai cara seperti udara (contohnya, bersin atau batuk), sentuhan langsung (contohnya, berjabat tangan), atau melalui objek yang tercemar.
+        Step 2: Ambil contoh influenza yang boleh merebak melalui titisan udara apabila seseorang yang dijangkiti batuk atau bersin.
+        Step 3: Terangkan bagaimana langkah pencegahan seperti memakai pelitup muka dan menjaga kebersihan tangan boleh membantu mengurangkan penyebaran penyakit ini.
+    - id: "WE-03"
+      topic: "Mewajarkan kepentingan imunisasi"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "4.2.3"
+      real_world_analogy: "Imunisasi adalah seperti perisai untuk tentera, yang melindungi daripada serangan musuh (penyakit)."
+      misconception_alert: "Terdapat salah faham bahawa imunisasi boleh menyebabkan penyakit itu sendiri."
+      scenario: "Mengapa imunisasi sangat penting dalam menjaga kesihatan individu dan masyarakat secara keseluruhan?"
+      working: |-
+        Step 1: Kenali bahawa imunisasi membantu tubuh membina kekebalan terhadap penyakit tertentu tanpa menyebabkan penyakit itu sendiri.
+        Step 2: Terangkan bahawa dengan melindungi individu, imunisasi juga mengurangkan penyebaran penyakit dalam komuniti, yang dikenali sebagai kekebalan kelompok.
+        Step 3: Bahaskan kesan positif imunisasi dalam konteks sosial, ekonomi, dan kesihatan negara, seperti penurunan kos rawatan kesihatan dan peningkatan produktiviti kerana kurangnya ketidakhadiran akibat penyakit.

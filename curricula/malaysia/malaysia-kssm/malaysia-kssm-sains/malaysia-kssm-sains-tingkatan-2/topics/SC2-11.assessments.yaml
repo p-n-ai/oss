@@ -1,0 +1,131 @@
+topic_id: "SC2-11"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 11.1.1
+    - id: "Q1"
+      text: 'Apakah ciri utama yang membezakan bintang daripada planet dalam sistem suria kita?'
+      difficulty: "medium"
+      learning_objective: "11.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Bintang mengeluarkan cahaya sendiri manakala planet memantulkan cahaya dari bintang."
+        working: |
+            Bintang dapat menghasilkan cahaya sendiri melalui proses nuklear di terasnya, manakala planet hanya dapat dilihat kerana mereka memantulkan cahaya dari bintang.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan bahawa bintang memancarkan cahaya sendiri."
+        - marks: 1
+          criteria: "Menjelaskan bahawa planet memantulkan cahaya."
+        - marks: 1
+          criteria: "Menyatakan perbezaan antara bintang dan planet."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang bagaimana kita melihat bintang dan planet di langit malam."
+        - level: 2
+          text: "Bintang menghasilkan cahaya sendiri, manakala planet tidak."
+        - level: 3
+          text: "Planet memantulkan cahaya dari bintang seperti matahari."
+    # Learning Objective: 11.1.1
+    - id: "Q2"
+      text: 'Mengapakah bintang kelihatan berkelip-kelip di langit malam?'
+      difficulty: "medium"
+      learning_objective: "11.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: "Kerana gangguan atmosfera bumi."
+        working: |
+            Cahaya dari bintang melalui atmosfera bumi yang menyebabkan pembiasan dan gangguan. Ini membuatkan cahaya bintang kelihatan berkelip-kelip.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan bahawa kelipan disebabkan oleh atmosfera."
+        - marks: 1
+          criteria: "Menjelaskan bagaimana atmosfera bumi mempengaruhi cahaya bintang."
+      hints:
+        - level: 1
+          text: "Perhatikan fenomena yang berlaku apabila cahaya melalui medium yang tidak stabil."
+        - level: 2
+          text: "Atmosfera bumi memainkan peranan penting dalam fenomena ini."
+    # Learning Objective: 11.1.2
+    - id: "Q3"
+      text: 'Bandingkan bintang-bintang yang lebih besar daripada matahari dan bintang-bintang yang lebih kecil dari aspek suhu permukaan.'
+      difficulty: "medium"
+      learning_objective: "11.1.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Bintang yang lebih besar biasanya mempunyai suhu permukaan yang lebih tinggi berbanding bintang yang lebih kecil."
+        working: |
+            Bintang yang lebih besar seperti bintang biru biasanya mempunyai suhu permukaan yang lebih tinggi berbanding bintang kecil yang mungkin berwarna merah atau kuning.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan bahawa bintang lebih besar mempunyai suhu yang lebih tinggi."
+        - marks: 1
+          criteria: "Menyebut warna sebagai petunjuk suhu."
+        - marks: 1
+          criteria: "Membuat perbandingan yang jelas antara bintang lebih besar dan lebih kecil."
+      hints:
+        - level: 1
+          text: "Pertimbangkan warna bintang sebagai petunjuk suhu."
+        - level: 2
+          text: "Bintang biru biasanya lebih panas daripada bintang merah atau kuning."
+    # Learning Objective: 11.1.2
+    - id: "Q4"
+      text: 'Antara berikut, manakah yang merupakan bintang terdekat dengan Bumi?'
+      difficulty: "medium"
+      learning_objective: "11.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "B"
+        options:
+            A: "Sirius"
+            B: "Matahari"
+            C: "Alpha Centauri"
+            D: "Betelgeuse"
+        working: |
+            Matahari adalah bintang terdekat dengan Bumi, dan oleh itu ia merupakan sumber utama cahaya dan tenaga untuk planet kita.
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Memilih jawapan yang betul serta memberikan alasan yang tepat."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang bintang yang memberikan cahaya siang kepada kita."
+        - level: 2
+          text: "Bintang ini adalah pusat sistem suria kita."
+    # Learning Objective: 11.1.2
+    - id: "Q5"
+      text: 'Apakah perbezaan utama antara galaksi dan sistem suria?'
+      difficulty: "medium"
+      learning_objective: "11.1.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Galaksi adalah kumpulan besar bintang, gas, dan debu yang diikat oleh graviti, manakala sistem suria adalah sistem bintang tunggal dengan planet-planet."
+        working: |
+            Galaksi mengandungi berjuta-juta hingga berbilion bintang bersama-sama dengan gas dan debu, sedangkan sistem suria terdiri daripada satu bintang (seperti matahari kita) dan planet-planet serta objek lain yang mengorbitnya.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menyebut galaksi sebagai kumpulan besar bintang."
+        - marks: 1
+          criteria: "Menyebut sistem suria terdiri daripada satu bintang dengan planet-planet."
+        - marks: 1
+          criteria: "Menjelaskan struktur galaksi."
+        - marks: 1
+          criteria: "Menjelaskan struktur sistem suria."
+      hints:
+        - level: 1
+          text: "Pertimbangkan skala saiz antara galaksi dan sistem suria."
+        - level: 2
+          text: "Galaksi mengandungi banyak bintang, sedangkan sistem suria biasanya mengandungi satu bintang."

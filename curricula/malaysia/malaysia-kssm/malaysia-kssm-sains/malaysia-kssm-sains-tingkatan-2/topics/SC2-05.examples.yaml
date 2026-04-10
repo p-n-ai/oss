@@ -1,0 +1,46 @@
+topic_id: "SC2-05"
+provenance: "ai-generated"
+description: "Worked examples for Air dan Larutan"
+worked_examples:
+    - id: "WE-01"
+      topic: "Understanding Water Evaporation"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "5.1.2"
+      real_world_analogy: "Water evaporating from a wet towel hung out to dry in the sun."
+      misconception_alert: "Students often think evaporation only occurs at high temperatures."
+      scenario: "Explain how a puddle of water disappears from a sidewalk on a sunny day."
+      working: |
+        Step 1: Identify the process as evaporation, which occurs when water changes from a liquid to a gas.
+        Step 2: Explain that evaporation can happen at any temperature, though it occurs faster in warmer conditions.
+        Step 3: Conclude that the sun provides energy to water molecules, allowing them to escape into the air as water vapor.
+    - id: "WE-02"
+      topic: "Factors Affecting Solubility"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "5.2.2"
+      real_world_analogy: "Dissolving sugar in hot tea versus cold tea."
+      misconception_alert: "Students may assume all substances dissolve faster in hot water."
+      scenario: "Design an experiment to determine how temperature affects the solubility of salt in water."
+      working: |
+        Step 1: Set up two beakers, one with hot water and one with cold water.
+        Step 2: Add an equal amount of salt to each beaker and stir.
+        Step 3: Observe and record which beaker dissolves the salt faster.
+        Step 4: Conclude that higher temperatures generally increase solubility, though this is not true for all substances.
+    - id: "WE-03"
+      topic: "Water as a Universal Solvent"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "5.2.4"
+      real_world_analogy: "Cleaning dishes with water to remove various types of food residues."
+      misconception_alert: "Students may think water can dissolve any substance."
+      scenario: "Discuss the role of water as a universal solvent in industrial processes."
+      working: |-
+        Step 1: Define a solvent as a substance that dissolves a solute to form a solution.
+        Step 2: Explain that water is known as a universal solvent because it can dissolve many substances due to its polarity.
+        Step 3: Provide examples of industrial processes relying on water, such as in chemical reactions or manufacturing.
+        Step 4: Mention limitations, such as water's inability to dissolve non-polar substances like oils.
+        Step 5: Conclude that water's solvency is critical in both natural ecosystems and industrial applications.

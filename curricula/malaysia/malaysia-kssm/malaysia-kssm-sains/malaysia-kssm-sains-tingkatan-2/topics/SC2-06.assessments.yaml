@@ -1,0 +1,120 @@
+topic_id: "SC2-06"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 6.1.1
+    - id: "Q1"
+      text: 'Tentukan definisi operasi bagi asid dan alkali.'
+      difficulty: "medium"
+      learning_objective: "6.1.1"
+      tp_level: 2
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Asid ialah bahan yang menghasilkan ion hidrogen (H⁺) dalam larutan dan alkali ialah bahan yang menghasilkan ion hidroksida (OH⁻) dalam larutan.'
+        working: |
+            Asid dan alkali boleh ditakrifkan berdasarkan keupayaan mereka untuk menghasilkan ion-ion tertentu dalam larutan. Asid menghasilkan ion H⁺, manakala alkali menghasilkan ion OH⁻.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan definisi asid."
+        - marks: 1
+          criteria: "Menjelaskan definisi alkali."
+      hints:
+        - level: 1
+          text: "Fokus pada ion yang dihasilkan dalam larutan."
+        - level: 2
+          text: "Asid menghasilkan ion H⁺, manakala alkali menghasilkan ion OH⁻."
+    # Learning Objective: 6.1.2
+    - id: "Q2"
+      text: 'Berikan satu contoh bahan berasid dan satu contoh bahan beralkali yang biasa ditemui dalam kehidupan harian.'
+      difficulty: "medium"
+      learning_objective: "6.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Bahan berasid: cuka (asid asetik); Bahan beralkali: sabun (natrium hidroksida).'
+        working: |
+            Contoh bahan berasid ialah cuka yang mengandungi asid asetik. Sabun pula mengandungi natrium hidroksida yang bersifat alkali.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Memberi contoh bahan berasid yang betul."
+        - marks: 1
+          criteria: "Memberi contoh bahan beralkali yang betul."
+      hints:
+        - level: 1
+          text: "Fikirkan bahan yang kita gunakan dalam dapur atau bilik mandi."
+        - level: 2
+          text: "Cuka adalah berasid, manakala sabun adalah beralkali."
+    # Learning Objective: 6.1.3
+    - id: "Q3"
+      text: 'Bagaimana cara menentukan kekuatan asid dengan menggunakan nilai pH?'
+      difficulty: "medium"
+      learning_objective: "6.1.3"
+      tp_level: 4
+      kbat: false
+      answer:
+        type: "exact"
+        value: 'Dengan mengukur nilai pH, di mana nilai pH yang lebih rendah menunjukkan asid yang lebih kuat.'
+        working: |
+            Asid yang kuat akan mempunyai nilai pH yang lebih rendah kerana kepekatan ion H⁺ lebih tinggi. Oleh itu, dengan mengukur pH, kita boleh menentukan kekuatan asid.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan penggunaan pH untuk mengukur kekuatan asid."
+        - marks: 1
+          criteria: "Menyatakan bahawa pH rendah menunjukkan asid yang lebih kuat."
+      hints:
+        - level: 1
+          text: "Ingat bahawa pH adalah ukuran keasidan."
+        - level: 2
+          text: "Asid kuat mempunyai pH yang lebih rendah."
+    # Learning Objective: 6.2.1
+    - id: "Q4"
+      text: 'Terangkan proses peneutralan dengan contoh yang relevan.'
+      difficulty: "medium"
+      learning_objective: "6.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Proses peneutralan melibatkan tindak balas antara asid dan alkali untuk membentuk garam dan air. Contohnya, tindak balas antara asid hidroklorik dan natrium hidroksida menghasilkan natrium klorida dan air.'
+        working: |
+            Dalam peneutralan, asid (contoh: asid hidroklorik) bertindak balas dengan alkali (contoh: natrium hidroksida) untuk menghasilkan garam (natrium klorida) dan air. Persamaan: HCl + NaOH → NaCl + H₂O.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan asas proses peneutralan."
+        - marks: 1
+          criteria: "Memberi contoh tindak balas peneutralan."
+        - marks: 1
+          criteria: "Menyatakan produk tindak balas (garam dan air)."
+      hints:
+        - level: 1
+          text: "Peneutralan melibatkan asid dan alkali."
+        - level: 2
+          text: "Fikirkan produk yang dihasilkan dalam tindak balas."
+    # Learning Objective: 6.2.2
+    - id: "Q5"
+      text: 'Jelaskan satu penggunaan proses peneutralan dalam kehidupan harian.'
+      difficulty: "medium"
+      learning_objective: "6.2.2"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Proses peneutralan digunakan dalam pertanian untuk mengurangkan keasidan tanah dengan menambahkan kapur (kalsium karbonat).'
+        working: |
+            Dalam pertanian, tanah yang terlalu asid boleh merosakkan tanaman. Proses peneutralan dengan menambah kapur membantu meningkatkan pH tanah, menjadikannya lebih sesuai untuk pertumbuhan tanaman.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan penggunaan peneutralan dalam pertanian."
+        - marks: 1
+          criteria: "Menerangkan bagaimana kapur membantu meneutralkan keasidan tanah."
+      hints:
+        - level: 1
+          text: "Pikirkan tentang pertanian dan pemulihan tanah."
+        - level: 2
+          text: "Kapur digunakan untuk meneutralkan tanah yang asid."

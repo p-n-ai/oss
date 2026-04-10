@@ -1,0 +1,129 @@
+topic_id: "SC2-08"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 8.1.1
+    - id: "Q01"
+      text: 'Jelaskan maksud daya dan berikan dua contoh dalam kehidupan harian.'
+      difficulty: "medium"
+      learning_objective: "8.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Daya adalah tarikan atau tolakan yang boleh menyebabkan objek bergerak, berhenti atau berubah bentuk. Contohnya, daya graviti menarik objek ke bawah, dan daya geseran melambatkan pergerakan objek.'
+        working: |
+            Daya adalah interaksi yang mengubah keadaan gerakan sesuatu objek. Contoh 1: Graviti menarik semua objek ke arah pusat bumi. Contoh 2: Geseran bertindak bertentangan dengan arah gerakan, seperti brek kereta menghentikan kereta.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan takrif daya dengan betul."
+        - marks: 1
+          criteria: "Memberi contoh pertama yang relevan."
+        - marks: 1
+          criteria: "Memberi contoh kedua yang relevan."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang tarikan dan tolakan yang kita alami setiap hari."
+        - level: 2
+          text: "Pertimbangkan bagaimana graviti dan geseran bertindak dalam kehidupan harian."
+    # Learning Objective 8.1.2
+    - id: "Q02"
+      text: 'Nyatakan tiga ciri daya dan berikan satu contoh untuk setiap ciri.'
+      difficulty: "medium"
+      learning_objective: "8.1.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Ciri-ciri daya ialah magnitud, arah, dan titik aplikasi. Contohnya: Magnitud - kekuatan daya tolakan, Arah - daya graviti ke bawah, Titik Aplikasi - titik di mana daya dikenakan pada objek.'
+        working: |
+            Daya mempunyai tiga ciri penting: 1) Magnitud: Seberapa kuat daya itu, contohnya kekuatan tolakan. 2) Arah: Hala tuju daya bertindak, contohnya daya graviti sentiasa ke bawah. 3) Titik aplikasi: Lokasi di mana daya dikenakan, contohnya titik di mana jari menekan objek.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan ciri daya pertama dengan contoh."
+        - marks: 1
+          criteria: "Menyatakan ciri daya kedua dengan contoh."
+        - marks: 1
+          criteria: "Menyatakan ciri daya ketiga dengan contoh."
+      hints:
+        - level: 1
+          text: "Ingat, daya boleh diukur dan mempunyai arah tertentu."
+        - level: 2
+          text: "Fikirkan tentang bagaimana daya dikenakan pada suatu objek."
+    # Learning Objective 8.1.3
+    - id: "Q03"
+      text: 'Apakah unit S.I. bagi daya dan bagaimana ia diukur?'
+      difficulty: "medium"
+      learning_objective: "8.1.3"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: 'Newton (N)'
+        working: |
+            Unit S.I. bagi daya ialah Newton (N). Daya boleh diukur menggunakan alat seperti neraca spring yang mengukur daya berdasarkan pemanjangan atau pemendekan spring sesuai dengan hukum Hooke.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan unit S.I. bagi daya dengan betul."
+        - marks: 1
+          criteria: "Menerangkan bagaimana daya diukur secara asas."
+      hints:
+        - level: 1
+          text: "Apakah nama unit yang dinamakan sempena nama seorang ahli sains terkenal?"
+        - level: 2
+          text: "Fikirkan tentang hukum Hooke dalam konteks pengukuran daya."
+    # Learning Objective 8.2.3
+    - id: "Q04"
+      text: 'Sebuah tuas digunakan untuk mengangkat beban 50 kg. Jika fulkrum berada 2 m dari beban dan daya dikenakan pada jarak 6 m dari fulkrum, berapakah daya yang diperlukan untuk mengangkat beban tersebut?'
+      difficulty: "medium"
+      learning_objective: "8.2.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "exact"
+        value: '163.33 N'
+        working: |
+            Menggunakan prinsip momen: $M_1 = M_2$, di mana $M = F \times d$.
+            Beban menghasilkan momen: $M_1 = 50 \, \text{kg} \times 9.81 \, \text{m/s}^2 \times 2 \, \text{m} = 981 \, \text{Nm}$.
+            Oleh itu, daya yang diperlukan: $F \times 6 \, \text{m} = 981 \, \text{Nm}$.
+            $F = \frac{981}{6} = 163.33 \, \text{N}$.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menggunakan prinsip momen dengan betul."
+        - marks: 1
+          criteria: "Mengira momen beban dengan betul."
+        - marks: 1
+          criteria: "Mengira daya yang diperlukan dengan betul."
+      hints:
+        - level: 1
+          text: "Gunakan prinsip momen: momen daya = momen beban."
+        - level: 2
+          text: 'Ingat bahawa $M = F \times d$ dan perhatikan jarak fulkrum.'
+    # Learning Objective 8.2.7
+    - id: "Q05"
+      text: 'Bagaimanakah altitud mempengaruhi tekanan atmosfera, dan apakah kesan ini kepada pendaki gunung?'
+      difficulty: "medium"
+      learning_objective: "8.2.7"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Tekanan atmosfera berkurangan dengan peningkatan altitud. Ini menyebabkan kurang oksigen tersedia, yang boleh menyebabkan pendaki gunung mengalami hipoksia.'
+        working: |
+            Apabila altitud meningkat, udara menjadi lebih nipis, dan tekanan atmosfera menurun kerana terdapat kurang udara di atas permukaan. Pendaki gunung mungkin mengalami kesukaran bernafas (hipoksia) kerana kurang oksigen tersedia pada tekanan yang lebih rendah.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menerangkan bagaimana altitud mempengaruhi tekanan atmosfera."
+        - marks: 1
+          criteria: "Menyatakan kesan kepada pendaki gunung."
+        - marks: 1
+          criteria: "Mengaitkan penurunan tekanan dengan kekurangan oksigen."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bagaimana ketumpatan udara berubah dengan altitud."
+        - level: 2
+          text: "Fikirkan tentang kesan kekurangan oksigen kepada manusia pada altitud yang tinggi."

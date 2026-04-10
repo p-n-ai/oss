@@ -1,4 +1,5 @@
 id: SC2-06
+official_ref: "Bab 6"
 name: "Asid dan Alkali"
 name_en: "Acid and Alkali"
 subject_grade_id: malaysia-kssm-sains-tingkatan-2
@@ -8,112 +9,110 @@ country_id: malaysia
 language: ms
 difficulty: beginner
 content_standards:
-  - id: "6.1"
-    text: "Sifat asid dan alkali"
-    text_en: "Properties of acids and alkalis"
-  - id: "6.2"
-    text: "Peneutralan"
-    text_en: "Neutralization"
+    - id: "6.1"
+      text: "Sifat asid dan alkali"
+      text_en: "Properties of acids and alkalis"
+    - id: "6.2"
+      text: "Peneutralan"
+      text_en: "Neutralization"
 learning_objectives:
-  - id: "6.1.1"
-    text: "Mendefinisikan secara operasi asid dan alkali."
-    text_en: "Define acids and alkalis operationally."
-    bloom: "remember"
-    content_standard_id: "6.1"
-  - id: "6.1.2"
-    text: "Menerangkan dengan contoh bahan berasid dan beralkali."
-    text_en: "Explain with examples of acidic and alkaline substances."
-    bloom: "understand"
-    content_standard_id: "6.1"
-  - id: "6.1.3"
-    text: "Menunjuk cara menentukan kekuatan asid dan alkali berdasarkan nilai pH."
-    text_en: "Show how to determine the strength of acids and alkalis based on pH values."
-    bloom: "apply"
-    content_standard_id: "6.1"
-  - id: "6.1.4"
-    text: "Mengenal pasti kegunaan asid dan alkali dalam kehidupan harian."
-    text_en: "Identify the uses of acids and alkalis in daily life."
-    bloom: "remember"
-    content_standard_id: "6.1"
-  - id: "6.2.1"
-    text: "Menerangkan proses peneutralan."
-    text_en: "Explain the neutralization process."
-    bloom: "understand"
-    content_standard_id: "6.2"
-  - id: "6.2.2"
-    text: "Menerangkan dengan contoh penggunaan proses peneutralan dalam kehidupan harian."
-    text_en: "Explain with examples of the use of the neutralization process in daily life."
-    bloom: "understand"
-    content_standard_id: "6.2"
+    - id: "6.1.1"
+      text: "Mendefinisikan secara operasi asid dan alkali."
+      text_en: "Define acids and alkalis operationally."
+      bloom: "remember"
+      content_standard_id: "6.1"
+    - id: "6.1.2"
+      text: "Menerangkan dengan contoh bahan berasid dan beralkali."
+      text_en: "Explain with examples of acidic and alkaline substances."
+      bloom: "understand"
+      content_standard_id: "6.1"
+    - id: "6.1.3"
+      text: "Menunjuk cara menentukan kekuatan asid dan alkali berdasarkan nilai pH."
+      text_en: "Show how to determine the strength of acids and alkalis based on pH values."
+      bloom: "apply"
+      content_standard_id: "6.1"
+    - id: "6.1.4"
+      text: "Mengenal pasti kegunaan asid dan alkali dalam kehidupan harian."
+      text_en: "Identify the uses of acids and alkalis in daily life."
+      bloom: "remember"
+      content_standard_id: "6.1"
+    - id: "6.2.1"
+      text: "Menerangkan proses peneutralan."
+      text_en: "Explain the neutralization process."
+      bloom: "understand"
+      content_standard_id: "6.2"
+    - id: "6.2.2"
+      text: "Menerangkan dengan contoh penggunaan proses peneutralan dalam kehidupan harian."
+      text_en: "Explain with examples of the use of the neutralization process in daily life."
+      bloom: "understand"
+      content_standard_id: "6.2"
 performance_standards:
-  - level: 1
-    id: "TP1"
-    text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai asid dan alkali."
-    text_en: "Recall science knowledge and skills regarding acids and alkalis."
-    descriptor: "Murid dapat mengingat kembali fakta asas mengenai asid dan alkali."
-    descriptor_en: "Student can recall basic facts about acids and alkalis."
-  - level: 2
-    id: "TP2"
-    text: "Memahami asid dan alkali serta dapat menjelaskan kefahaman tersebut."
-    text_en: "Understand acids and alkalis and can explain the understanding."
-    descriptor: "Murid dapat menjelaskan konsep asid dan alkali dengan mudah."
-    descriptor_en: "Student can explain the concept of acids and alkalis easily."
-  - level: 3
-    id: "TP3"
-    text: "Mengaplikasikan pengetahuan mengenai asid dan alkali dan dapat melaksanakan tugasan mudah."
-    text_en: "Apply knowledge about acids and alkalis and can carry out simple tasks."
-    descriptor: "Murid dapat menggunakan pengetahuan asid dan alkali dalam situasi mudah."
-    descriptor_en: "Student can use acid and alkali knowledge in simple situations."
-  - level: 4
-    id: "TP4"
-    text: "Menganalisis pengetahuan mengenai asid dan alkali dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
-    text_en: "Analyze knowledge about acids and alkalis in the context of problem solving regarding natural events or phenomena."
-    descriptor: "Murid dapat menganalisis isu asid dan alkali dalam konteks kimia."
-    descriptor_en: "Student can analyze acid and alkali issues in the context of chemistry."
-  - level: 5
-    id: "TP5"
-    text: "Menilai pengetahuan mengenai asid dan alkali dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
-    text_en: "Evaluate knowledge about acids and alkalis in the context of problem solving and make decisions to carry out a task."
-    descriptor: "Murid dapat menilai dan membuat keputusan mengenai isu asid dan alkali."
-    descriptor_en: "Student can evaluate and make decisions regarding acid and alkali issues."
-  - level: 6
-    id: "TP6"
-    text: "Merekacipta dengan menggunakan pengetahuan dan kemahiran sains mengenai asid dan alkali dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
-    text_en: "Create using science knowledge and skills about acids and alkalis in the context of problem solving and making decisions or in carrying out a task in new situations creatively and innovatively by considering social/economic/cultural values of society."
-    descriptor: "Murid dapat mencipta penyelesaian inovatif untuk isu asid dan alkali."
-    descriptor_en: "Student can create innovative solutions for acid and alkali issues."
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai asid dan alkali."
+      text_en: "Recall science knowledge and skills regarding acids and alkalis."
+      descriptor: "Murid dapat mengingat kembali fakta asas mengenai asid dan alkali."
+      descriptor_en: "Student can recall basic facts about acids and alkalis."
+    - level: 2
+      id: "TP2"
+      text: "Memahami asid dan alkali serta dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand acids and alkalis and can explain the understanding."
+      descriptor: "Murid dapat menjelaskan konsep asid dan alkali dengan mudah."
+      descriptor_en: "Student can explain the concept of acids and alkalis easily."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai asid dan alkali dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge about acids and alkalis and can carry out simple tasks."
+      descriptor: "Murid dapat menggunakan pengetahuan asid dan alkali dalam situasi mudah."
+      descriptor_en: "Student can use acid and alkali knowledge in simple situations."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai asid dan alkali dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge about acids and alkalis in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Murid dapat menganalisis isu asid dan alkali dalam konteks kimia."
+      descriptor_en: "Student can analyze acid and alkali issues in the context of chemistry."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai asid dan alkali dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge about acids and alkalis in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Murid dapat menilai dan membuat keputusan mengenai isu asid dan alkali."
+      descriptor_en: "Student can evaluate and make decisions regarding acid and alkali issues."
+    - level: 6
+      id: "TP6"
+      text: "Merekacipta dengan menggunakan pengetahuan dan kemahiran sains mengenai asid dan alkali dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills about acids and alkalis in the context of problem solving and making decisions or in carrying out a task in new situations creatively and innovatively by considering social/economic/cultural values of society."
+      descriptor: "Murid dapat mencipta penyelesaian inovatif untuk isu asid dan alkali."
+      descriptor_en: "Student can create innovative solutions for acid and alkali issues."
 prerequisites:
-  required: []
-  recommended: []
+    required: []
+    recommended: []
 teaching:
-  sequence:
-    - Sifat asid dan alkali
-    - Penunjuk pH
-    - Proses peneutralan
-    - Aplikasi peneutralan
-  common_misconceptions:
-    - misconception: "Semua asid berbahaya."
-      remediation: "Terangkan tentang asid lemah yang selamat seperti asid sitrik."
-    - misconception: "Peneutralan hanya berlaku di makmal."
-      remediation: "Berikan contoh aplikasi peneutralan dalam pertanian dan perubatan."
-  engagement_hooks:
-    - Penggunaan ubat gigi untuk meneutralkan asid dalam mulut.
-    - Pengawalan pH tanah untuk pertanian.
+    sequence:
+        - 'Step 1: Introduce acids and alkalis with definitions and examples (20 min)'
+        - 'Step 2: Demonstrate litmus test to identify acids and alkalis (15 min)'
+        - 'Step 3: Discuss pH scale and demonstrate measuring pH (20 min)'
+        - 'Step 4: Explain daily uses of acids and alkalis with examples (15 min)'
+        - 'Step 5: Introduce neutralization process with real-life examples (20 min)'
+    common_misconceptions:
+        - misconception: All sour liquids are acids.
+          remediation: Clarify that not all sour substances are acidic by providing non-acidic examples.
+        - misconception: All alkalis are dangerous.
+          remediation: Explain that some alkalis are safe and used in household products.
 mastery:
-  minimum_score: 0.75
-  assessment_count: 5
-  spaced_repetition:
-    initial_interval_days: 1
-    multiplier: 2.5
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
 cross_curriculum: []
 tier: "core"
-ai_teaching_notes: "teaching/SC2-06.md"
-examples_file: "examples/SC2-06.yaml"
-assessments_file: "assessments/SC2-06.yaml"
+ai_teaching_notes: "SC2-06.teaching.md"
+examples_file: "SC2-06.examples.yaml"
+assessments_file: "SC2-06.assessments.yaml"
 quality_level: 1
 provenance: "ai-assisted"
 generated_at: "2023-10-27T10:00:00Z"
 engagement_hooks:
-  - Penggunaan ubat gigi untuk meneutralkan asid dalam mulut.
-  - Pengawalan pH tanah untuk pertanian.
+    - Discuss how lemon juice is used for cleaning stains, relating to acidic properties.
+    - Explore the use of baking soda in neutralizing odors, linking to alkali properties.
 sync_checked: false

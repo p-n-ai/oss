@@ -1,0 +1,57 @@
+topic_id: "SC2-03"
+provenance: "ai-generated"
+description: "Worked examples for Nutrisi"
+worked_examples:
+    - id: "WE-01"
+      topic: "Kelas Makanan"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "3.1.1"
+      real_world_analogy: "Memilih makanan dari menu restoran seperti memilih pasukan bola sepak berdasarkan posisi pemain yang berbeza."
+      misconception_alert: "Ramai pelajar menganggap semua karbohidrat adalah tidak sihat, padahal ia adalah sumber tenaga penting."
+      scenario: "Senaraikan kelas makanan utama dan berikan contoh bagi setiap kelas."
+      working: |
+        Step 1: Kenal pasti enam kelas makanan utama: karbohidrat, protein, lemak, vitamin, mineral, dan air.
+        Step 2: Berikan contoh bagi setiap kelas:
+                - Karbohidrat: Nasi, roti
+                - Protein: Ayam, telur
+                - Lemak: Minyak masak, mentega
+                - Vitamin: Buah oren (Vitamin C), lobak merah (Vitamin A)
+                - Mineral: Garam (natrium), susu (kalsium)
+                - Air: Air kosong, jus buah
+        Step 3: Jelaskan fungsi asas setiap kelas makanan, contohnya, karbohidrat sebagai sumber tenaga.
+    - id: "WE-02"
+      topic: "Menganggar Kalori dan Gizi Seimbang"
+      difficulty: "medium"
+      tp_level: 4
+      kbat: true
+      learning_objective: "3.2.2"
+      real_world_analogy: "Menguruskan bajet wang seperti menguruskan jumlah kalori yang diambil setiap hari."
+      misconception_alert: "Pelajar mungkin keliru bahawa makanan sihat tidak mengandungi kalori, padahal semua makanan mengandungi kalori."
+      scenario: "Kira jumlah kalori dalam hidangan yang mengandungi 100g nasi, 50g ayam goreng, dan 30g sayur. Cadangkan perubahan untuk membuatnya lebih seimbang."
+      working: |
+        Step 1: Kenal pasti kalori setiap komponen:
+                - Nasi (100g): 130 kalori
+                - Ayam goreng (50g): 150 kalori
+                - Sayur (30g): 15 kalori
+        Step 2: Jumlahkan kalori hidangan: 130 + 150 + 15 = 295 kalori
+        Step 3: Cadangkan perubahan untuk gizi seimbang:
+                - Kurangkan ayam goreng kepada 30g untuk mengurangkan lemak, tambah lebih sayur untuk vitamin dan serat.
+                - Gantikan nasi putih dengan nasi beras perang untuk lebih serat.
+    - id: "WE-03"
+      topic: "Proses Penyerapan Hasil Pencernaan"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "3.4.1"
+      real_world_analogy: "Proses penyerapan dalam usus adalah seperti saringan air untuk mendapatkan air bersih dari air yang keruh."
+      misconception_alert: "Pelajar mungkin berfikir semua nutrien diserap secara sama rata di seluruh usus, padahal setiap bahagian usus mempunyai fungsi tertentu."
+      scenario: "Jelaskan bagaimana proses penyerapan nutrien berlaku dalam usus kecil dan kepentingan villi dalam proses ini."
+      working: |-
+        Step 1: Terangkan struktur usus kecil yang panjang dan berlipat untuk meningkatkan permukaan penyerapan.
+        Step 2: Jelaskan peranan villi dan microvilli yang memperbesarkan lagi kawasan penyerapan.
+        Step 3: Proses penyerapan:
+                - Nutrien seperti glukosa dan asid amino diserap melalui dinding usus ke dalam kapilari darah.
+                - Lemak diangkut melalui sistem limfa sebelum memasuki sistem peredaran darah.
+        Step 4: Kepentingan: Proses ini kritikal untuk membekalkan tubuh dengan nutrien dan tenaga yang diperlukan untuk fungsi harian.

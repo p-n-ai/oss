@@ -1,0 +1,43 @@
+topic_id: "SC2-09"
+provenance: "ai-generated"
+description: "Worked examples for Haba"
+worked_examples:
+    - id: "WE-01"
+      topic: "Comparison of Heat and Temperature"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "9.1.1"
+      real_world_analogy: "Comparing heat to the amount of water in a jug, while temperature is like the water's height in the jug."
+      misconception_alert: "Students often confuse temperature and heat as being the same thing."
+      scenario: "Explain the difference between heat and temperature using a pot of boiling water."
+      working: |
+        Step 1: Understand that temperature measures how hot or cold an object is, like a thermometer telling us how hot the water is.
+        Step 2: Recognize that heat is the energy that flows from a hotter object to a cooler one, similar to how water flows from a full jug to an empty one.
+        Step 3: Conclude that even if the pot of water and a small cup of water are at the same temperature, the pot has more heat because it contains more water (energy).
+    - id: "WE-02"
+      topic: "Heat Flow from Hot to Cold"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "9.2.1"
+      real_world_analogy: "Heat flow is like people moving from a crowded room to a less crowded one."
+      misconception_alert: "A common mistake is thinking heat flows from cold to hot."
+      scenario: "Describe what happens when a hot metal rod is placed in a bowl of cold water."
+      working: |
+        Step 1: Identify the hot metal rod as the source of heat with higher temperature.
+        Step 2: Understand that heat will transfer from the hot rod to the cold water until equilibrium is reached.
+        Step 3: Explain that as heat flows, the metal rod cools down and the water warms up, similar to people spreading out into an empty room.
+    - id: "WE-03"
+      topic: "Expansion and Contraction of Solids, Liquids, and Gases"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "9.3.1"
+      real_world_analogy: "Think of a balloon expanding when heated and contracting when cooled."
+      misconception_alert: "Students may not realize that different states of matter expand and contract at different rates."
+      scenario: "Explain why a tightly closed glass jar lid becomes easier to open after being held under hot water."
+      working: |-
+        Step 1: Recognize that the jar lid is made of metal, which expands when heated.
+        Step 2: Hold the lid under hot water, causing the metal to expand slightly.
+        Step 3: The expansion makes the lid looser on the glass jar, making it easier to open, like how air in a balloon expands and contracts.
