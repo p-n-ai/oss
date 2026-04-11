@@ -1,0 +1,127 @@
+id: SC3-07
+official_ref: "Bab 7"
+name: "Tenaga dan Kuasa"
+name_en: "Energy and Power"
+subject_grade_id: malaysia-kssm-sains-tingkatan-3
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+theme: "Tenaga Dan Kelestarian Hidup"
+content_standards:
+  - id: "7.1"
+    text: "Kerja, Tenaga dan Kuasa"
+    text_en: "Work, Energy and Power"
+  - id: "7.2"
+    text: "Tenaga Keupayaan dan Tenaga Kinetik"
+    text_en: "Potential Energy and Kinetic Energy"
+  - id: "7.3"
+    text: "Prinsip Keabadian Tenaga"
+    text_en: "Principle of Conservation of Energy"
+learning_objectives:
+  - id: "7.1.1"
+    text: "Menentukan kerja dan menyelesaikan masalah berkaitan tenaga dalam kehidupan harian."
+    text_en: "Determine work and solve problems related to energy in daily life."
+    bloom: "apply"
+    content_standard_id: "7.1"
+  - id: "7.1.2"
+    text: "Menghubungkaitkan kuasa dengan kerja dan menyelesaikan masalah dalam kehidupan harian."
+    text_en: "Relate power with work and solve problems in daily life."
+    bloom: "apply"
+    content_standard_id: "7.1"
+  - id: "7.2.1"
+    text: "Menerangkan dengan contoh tenaga keupayaan graviti dan menyelesaikan masalah dalam kehidupan harian."
+    text_en: "Explain with examples of gravitational potential energy and solve problems in daily life."
+    bloom: "understand"
+    content_standard_id: "7.2"
+  - id: "7.2.2"
+    text: "Mengira tenaga keupayaan kenyal dalam kehidupan harian."
+    text_en: "Calculate elastic potential energy in daily life."
+    bloom: "apply"
+    content_standard_id: "7.2"
+  - id: "7.2.3"
+    text: "Menjelaskan dengan contoh tenaga kinetik dalam kehidupan harian."
+    text_en: "Explain with examples of kinetic energy in daily life."
+    bloom: "understand"
+    content_standard_id: "7.2"
+  - id: "7.3.1"
+    text: "Menerangkan dengan contoh Prinsip Keabadian Tenaga."
+    text_en: "Explain with examples of the Principle of Conservation of Energy."
+    bloom: "understand"
+    content_standard_id: "7.3"
+  - id: "7.3.2"
+    text: "Menyelesaikan masalah kualitatif dan kuantitatif yang melibatkan perubahan tenaga kinetik dan tenaga keupayaan bagi suatu sistem tertutup."
+    text_en: "Solve qualitative and quantitative problems involving changes in kinetic energy and potential energy for a closed system."
+    bloom: "apply"
+    content_standard_id: "7.3"
+prerequisites:
+  required: []
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-04-10T17:14:32Z"
+performance_standards:
+  - level: 1
+    id: "TP1"
+    text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai tenaga dan kuasa."
+    text_en: "Recall science knowledge and skills regarding energy and power."
+    descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai tenaga dan kuasa."
+    descriptor_en: "Recall science knowledge and skills regarding energy and power."
+  - level: 2
+    id: "TP2"
+    text: "Memahami tenaga dan kuasa dan dapat menjelaskan kefahaman tersebut."
+    text_en: "Understand energy and power and can explain the understanding."
+    descriptor: "Memahami tenaga dan kuasa dan dapat menjelaskan kefahaman tersebut."
+    descriptor_en: "Understand energy and power and can explain the understanding."
+  - level: 3
+    id: "TP3"
+    text: "Mengaplikasikan pengetahuan mengenai tenaga dan kuasa dan dapat melaksanakan tugasan mudah."
+    text_en: "Apply knowledge of energy and power and can carry out simple tasks."
+    descriptor: "Mengaplikasikan pengetahuan mengenai tenaga dan kuasa dan dapat melaksanakan tugasan mudah."
+    descriptor_en: "Apply knowledge of energy and power and can carry out simple tasks."
+  - level: 4
+    id: "TP4"
+    text: "Menganalisis pengetahuan mengenai tenaga dan kuasa dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+    text_en: "Analyze knowledge of energy and power in the context of problem solving regarding natural events or phenomena."
+    descriptor: "Menganalisis pengetahuan mengenai tenaga dan kuasa dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+    descriptor_en: "Analyze knowledge of energy and power in the context of problem solving regarding natural events or phenomena."
+  - level: 5
+    id: "TP5"
+    text: "Menilai pengetahuan mengenai tenaga dan kuasa dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+    text_en: "Evaluate knowledge of energy and power in the context of problem solving and make decisions to carry out a task."
+    descriptor: "Menilai pengetahuan mengenai tenaga dan kuasa dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+    descriptor_en: "Evaluate knowledge of energy and power in the context of problem solving and make decisions to carry out a task."
+  - level: 6
+    id: "TP6"
+    text: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai tenaga dan kuasa dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+    text_en: "Create using science knowledge and skills regarding energy and power in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
+    descriptor: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai tenaga dan kuasa dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+    descriptor_en: "Create using science knowledge and skills regarding energy and power in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
+mastery:
+  minimum_score: 0.75
+  assessment_count: 10
+  spaced_repetition:
+    initial_interval_days: 1
+    multiplier: 2.5
+teaching:
+  sequence:
+    - Work and energy concepts
+    - Power calculations
+    - Potential and kinetic energy
+    - Conservation of energy principle
+  common_misconceptions:
+    - misconception: "Students think energy is created or destroyed."
+      remediation: "Use pendulum experiments to show energy transformation."
+    - misconception: "Students confuse work and power."
+      remediation: "Use formulas and time-based examples to differentiate."
+  engagement_hooks:
+    - Roller coaster energy changes
+    - Lifting objects and work done
+bloom_levels:
+  - understand
+  - apply
+engagement_hooks:
+  - Roller coaster energy changes
+  - Lifting objects and work done
+ai_teaching_notes: "SC3-07.teaching.md"
+assessments_file: "SC3-07.assessments.yaml"

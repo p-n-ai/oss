@@ -1,0 +1,103 @@
+id: SC3-09
+official_ref: "Bab 9"
+name: "Cuaca Angkasa Lepas"
+name_en: "Space Weather"
+subject_grade_id: malaysia-kssm-sains-tingkatan-3
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+theme: "Penerokaan Bumi Dan Angkasa Lepas"
+content_standards:
+  - id: "9.1"
+    text: "Aktiviti Matahari yang memberi kesan kepada Bumi"
+    text_en: "Solar activities that affect the Earth"
+  - id: "9.2"
+    text: "Cuaca angkasa"
+    text_en: "Space weather"
+learning_objectives:
+  - id: "9.1.1"
+    text: "Menerangkan dengan lakaran mengenai struktur dan fenomena yang berlaku di permukaan matahari."
+    text_en: "Explain with sketches about the structure and phenomena that occur on the sun's surface."
+    bloom: "understand"
+    content_standard_id: "9.1"
+  - id: "9.1.2"
+    text: "Mewajarkan kepentingan magnetosfera Bumi."
+    text_en: "Justify the importance of the Earth's magnetosphere."
+    bloom: "evaluate"
+    content_standard_id: "9.1"
+  - id: "9.2.1"
+    text: "Berkomunikasi mengenai cuaca angkasa lepas dan kesannya terhadap Bumi."
+    text_en: "Communicate about space weather and its effects on the Earth."
+    bloom: "understand"
+    content_standard_id: "9.2"
+prerequisites:
+  required: []
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-04-10T17:14:32Z"
+performance_standards:
+  - level: 1
+    id: "TP1"
+    text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai cuaca angkasa lepas."
+    text_en: "Recall science knowledge and skills regarding space weather."
+    descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai cuaca angkasa lepas."
+    descriptor_en: "Recall science knowledge and skills regarding space weather."
+  - level: 2
+    id: "TP2"
+    text: "Memahami cuaca angkasa lepas dan dapat menjelaskan kefahaman tersebut."
+    text_en: "Understand space weather and can explain the understanding."
+    descriptor: "Memahami cuaca angkasa lepas dan dapat menjelaskan kefahaman tersebut."
+    descriptor_en: "Understand space weather and can explain the understanding."
+  - level: 3
+    id: "TP3"
+    text: "Mengaplikasikan pengetahuan mengenai cuaca angkasa lepas dan dapat melaksanakan tugasan mudah."
+    text_en: "Apply knowledge of space weather and can carry out simple tasks."
+    descriptor: "Mengaplikasikan pengetahuan mengenai cuaca angkasa lepas dan dapat melaksanakan tugasan mudah."
+    descriptor_en: "Apply knowledge of space weather and can carry out simple tasks."
+  - level: 4
+    id: "TP4"
+    text: "Menganalisis pengetahuan mengenai cuaca angkasa lepas dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+    text_en: "Analyze knowledge of space weather in the context of problem solving regarding natural events or phenomena."
+    descriptor: "Menganalisis pengetahuan mengenai cuaca angkasa lepas dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+    descriptor_en: "Analyze knowledge of space weather in the context of problem solving regarding natural events or phenomena."
+  - level: 5
+    id: "TP5"
+    text: "Menilai pengetahuan mengenai cuaca angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+    text_en: "Evaluate knowledge of space weather in the context of problem solving and make decisions to carry out a task."
+    descriptor: "Menilai pengetahuan mengenai cuaca angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+    descriptor_en: "Evaluate knowledge of space weather in the context of problem solving and make decisions to carry out a task."
+  - level: 6
+    id: "TP6"
+    text: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai cuaca angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+    text_en: "Create using science knowledge and skills regarding space weather in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
+    descriptor: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai cuaca angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+    descriptor_en: "Create using science knowledge and skills regarding space weather in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
+mastery:
+  minimum_score: 0.75
+  assessment_count: 10
+  spaced_repetition:
+    initial_interval_days: 1
+    multiplier: 2.5
+teaching:
+  sequence:
+    - Solar structure and activity
+    - Earth's magnetosphere
+    - Space weather effects
+  common_misconceptions:
+    - misconception: "Students think space weather only affects satellites."
+      remediation: "Explain impact on power grids and communications."
+    - misconception: "Students think aurora is caused by cold weather."
+      remediation: "Explain interaction of solar particles with atmosphere."
+  engagement_hooks:
+    - Aurora Borealis phenomenon
+    - Solar flares impact on technology
+bloom_levels:
+  - understand
+  - evaluate
+engagement_hooks:
+  - Aurora Borealis phenomenon
+  - Solar flares impact on technology
+ai_teaching_notes: "SC3-09.teaching.md"
+assessments_file: "SC3-09.assessments.yaml"

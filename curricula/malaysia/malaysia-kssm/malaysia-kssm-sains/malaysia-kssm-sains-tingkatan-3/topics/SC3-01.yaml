@@ -1,0 +1,162 @@
+id: SC3-01
+official_ref: "Bab 1"
+name: "Rangsangan dan Gerak Balas"
+name_en: "Stimuli and Response"
+subject_grade_id: malaysia-kssm-sains-tingkatan-3
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+theme: "Penyenggaraan Dan Kesinambungan Hidup"
+content_standards:
+  - id: "1.1"
+    text: "Sistem saraf manusia"
+    text_en: "Human nervous system"
+  - id: "1.2"
+    text: "Rangsangan dan gerak balas dalam manusia"
+    text_en: "Stimuli and response in humans"
+  - id: "1.3"
+    text: "Rangsangan dan gerak balas dalam tumbuhan"
+    text_en: "Stimuli and response in plants"
+  - id: "1.4"
+    text: "Kepentingan gerak balas terhadap rangsangan dalam haiwan lain"
+    text_en: "Importance of response to stimuli in other animals"
+learning_objectives:
+  - id: "1.1.1"
+    text: "Memerihalkan dengan lakaran struktur dan fungsi sistem saraf manusia."
+    text_en: "Describe with sketches the structure and function of the human nervous system."
+    bloom: "understand"
+    content_standard_id: "1.1"
+  - id: "1.1.2"
+    text: "Membuat urutan aliran impuls dalam tindakan terkawal dan luar kawal."
+    text_en: "Sequence the flow of impulses in voluntary and involuntary actions."
+    bloom: "understand"
+    content_standard_id: "1.1"
+  - id: "1.1.3"
+    text: "Mewajarkan kepentingan rangkaian sistem saraf manusia dalam kehidupan."
+    text_en: "Justify the importance of the human nervous system network in life."
+    bloom: "evaluate"
+    content_standard_id: "1.1"
+  - id: "1.2.1"
+    text: "Melakar struktur organ deria dan menerangkan fungsi serta kepekaannya terhadap rangsangan."
+    text_en: "Sketch the structure of sensory organs and explain their functions and sensitivity to stimuli."
+    bloom: "understand"
+    content_standard_id: "1.2"
+  - id: "1.2.2"
+    text: "Menerangkan mekanisme pendengaran dan penglihatan dengan lakaran."
+    text_en: "Explain the mechanisms of hearing and vision with sketches."
+    bloom: "understand"
+    content_standard_id: "1.2"
+  - id: "1.2.3"
+    text: "Menghubungkaitkan organ deria manusia dengan kepekaan terhadap pelbagai kombinasi rangsangan."
+    text_en: "Relate human sensory organs with sensitivity to various combinations of stimuli."
+    bloom: "analyze"
+    content_standard_id: "1.2"
+  - id: "1.2.4"
+    text: "Menjelaskan melalui contoh bagaimana had deria, kecacatan organ deria dan proses penuaan mempengaruhi pendengaran dan penglihatan manusia."
+    text_en: "Explain with examples how sensory limits, sensory organ defects and the aging process affect human hearing and vision."
+    bloom: "understand"
+    content_standard_id: "1.2"
+  - id: "1.2.5"
+    text: "Mewajarkan bagaimana inovasi dan teknologi boleh meningkatkan keupayaan organ deria."
+    text_en: "Justify how innovation and technology can enhance sensory organ capabilities."
+    bloom: "evaluate"
+    content_standard_id: "1.2"
+  - id: "1.3.1"
+    text: "Memerihalkan bahagian tumbuhan yang peka terhadap rangsangan."
+    text_en: "Describe parts of plants that are sensitive to stimuli."
+    bloom: "understand"
+    content_standard_id: "1.3"
+  - id: "1.3.2"
+    text: "Mewajarkan bagaimana tumbuhan bergerak balas terhadap rangsangan untuk mendapatkan keadaan terbaik bagi tumbesaran."
+    text_en: "Justify how plants respond to stimuli to obtain the best conditions for growth."
+    bloom: "evaluate"
+    content_standard_id: "1.3"
+  - id: "1.3.3"
+    text: "Menjalankan eksperimen mengkaji gerak balas tumbuhan terhadap pelbagai rangsangan."
+    text_en: "Conduct experiments to study plant responses to various stimuli."
+    bloom: "apply"
+    content_standard_id: "1.3"
+  - id: "1.4.1"
+    text: "Menjelaskan dengan contoh jenis penglihatan dan pendengaran haiwan."
+    text_en: "Explain with examples of types of vision and hearing in animals."
+    bloom: "understand"
+    content_standard_id: "1.4"
+  - id: "1.4.2"
+    text: "Berkomunikasi mengenai bagaimana organ deria menjamin kesinambungan haiwan di Bumi."
+    text_en: "Communicate how sensory organs ensure the continuity of animals on Earth."
+    bloom: "understand"
+    content_standard_id: "1.4"
+performance_standards:
+  - level: 1
+    id: "TP1"
+    text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai rangsangan dan gerak balas."
+    text_en: "Recall science knowledge and skills regarding stimuli and response."
+    descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai rangsangan dan gerak balas."
+    descriptor_en: "Recall science knowledge and skills regarding stimuli and response."
+  - level: 2
+    id: "TP2"
+    text: "Memahami rangsangan dan gerak balas serta dapat menjelaskan kefahaman tersebut."
+    text_en: "Understand stimuli and response and can explain the understanding."
+    descriptor: "Memahami rangsangan dan gerak balas serta dapat menjelaskan kefahaman tersebut."
+    descriptor_en: "Understand stimuli and response and can explain the understanding."
+  - level: 3
+    id: "TP3"
+    text: "Mengaplikasikan pengetahuan mengenai rangsangan dan gerak balas untuk menerangkan kejadian atau fenomena alam dan melaksanakan tugasan mudah."
+    text_en: "Apply knowledge of stimuli and response to explain natural events or phenomena and carry out simple tasks."
+    descriptor: "Mengaplikasikan pengetahuan mengenai rangsangan dan gerak balas untuk menerangkan kejadian atau fenomena alam dan melaksanakan tugasan mudah."
+    descriptor_en: "Apply knowledge of stimuli and response to explain natural events or phenomena and carry out simple tasks."
+  - level: 4
+    id: "TP4"
+    text: "Menganalisis pengetahuan mengenai rangsangan dan gerak balas dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+    text_en: "Analyze knowledge of stimuli and response in the context of problem solving regarding natural events or phenomena."
+    descriptor: "Menganalisis pengetahuan mengenai rangsangan dan gerak balas dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+    descriptor_en: "Analyze knowledge of stimuli and response in the context of problem solving regarding natural events or phenomena."
+  - level: 5
+    id: "TP5"
+    text: "Menilai pengetahuan mengenai rangsangan dan gerak balas dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+    text_en: "Evaluate knowledge of stimuli and response in the context of problem solving and make decisions to carry out a task."
+    descriptor: "Menilai pengetahuan mengenai rangsangan dan gerak balas dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+    descriptor_en: "Evaluate knowledge of stimuli and response in the context of problem solving and make decisions to carry out a task."
+  - level: 6
+    id: "TP6"
+    text: "Mereka cipta menggunakan pengetahuan dan kemahiran sains mengenai rangsangan dan gerak balas dalam konteks penyelesaian masalah atau membuat keputusan atau dalam melaksanakan aktiviti/tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+    text_en: "Create using science knowledge and skills regarding stimuli and response in the context of problem solving or making decisions or in carrying out activities/tasks in new situations creatively and innovatively by considering social/economic/cultural values of society."
+    descriptor: "Mereka cipta menggunakan pengetahuan dan kemahiran sains mengenai rangsangan dan gerak balas dalam konteks penyelesaian masalah atau membuat keputusan atau dalam melaksanakan aktiviti/tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+    descriptor_en: "Create using science knowledge and skills regarding stimuli and response in the context of problem solving or making decisions or in carrying out activities/tasks in new situations creatively and innovatively by considering social/economic/cultural values of society."
+mastery:
+  minimum_score: 0.75
+  assessment_count: 10
+  spaced_repetition:
+    initial_interval_days: 1
+    multiplier: 2.5
+teaching:
+  sequence:
+    - Introduction to nervous system structure
+    - Voluntary and involuntary actions
+    - Sensory organs
+    - Plant responses to stimuli (tropisms)
+    - Animal sensory adaptations
+  common_misconceptions:
+    - misconception: "Students think the brain is the only part of the nervous system."
+      remediation: "Emphasize the role of the spinal cord and peripheral nerves in reflex actions."
+    - misconception: "Students believe plants do not respond to stimuli."
+      remediation: "Demonstrate phototropism and geotropism experiments."
+  engagement_hooks:
+    - Discuss how reflex actions protect us from harm without thinking.
+    - Explore how technology like hearing aids and glasses enhance sensory capabilities.
+bloom_levels:
+  - understand
+  - apply
+  - evaluate
+prerequisites:
+  required: []
+  recommended: []
+tier: "core"
+ai_teaching_notes: "teaching/SC3-01.md"
+examples_file: "examples/SC3-01.yaml"
+assessments_file: "assessments/SC3-01.yaml"
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T10:00:00Z"

@@ -1,0 +1,112 @@
+id: SC3-05
+official_ref: "Bab 5"
+name: "Termokimia"
+name_en: "Thermochemistry"
+subject_grade_id: malaysia-kssm-sains-tingkatan-3
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+theme: "Penerokaan Unsur Dalam Alam"
+content_standards:
+  - id: "5.1"
+    text: "Tindak balas endotermik dan eksotermik"
+    text_en: "Endothermic and exothermic reactions"
+learning_objectives:
+  - id: "5.1.1"
+    text: "Mendefinisikan tindak balas endotermik dan tindak balas eksotermik"
+    text_en: "Define endothermic reactions and exothermic reactions"
+    bloom: "remember"
+    content_standard_id: "5.1"
+  - id: "5.1.2"
+    text: "Menghubungkaitkan haba yang diserap atau dibebaskan dalam tindak balas kimia kepada tindak balas endotermik dan tindak balas eksotermik."
+    text_en: "Relate heat absorbed or released in chemical reactions to endothermic reactions and exothermic reactions."
+    bloom: "understand"
+    content_standard_id: "5.1"
+  - id: "5.1.3"
+    text: "Menjalankan eksperimen untuk membanding dan membeza tindak balas eksotermik dengan tindak balas endotermik."
+    text_en: "Conduct experiments to compare and contrast exothermic reactions with endothermic reactions."
+    bloom: "apply"
+    content_standard_id: "5.1"
+  - id: "5.1.4"
+    text: "Menjelaskan dengan contoh tindak balas eksotermik dan tindak balas endotermik."
+    text_en: "Explain with examples of exothermic reactions and endothermic reactions."
+    bloom: "understand"
+    content_standard_id: "5.1"
+  - id: "5.1.5"
+    text: "Mereka bentuk bahan yang menggunakan konsep tindak balas eksotermik dan endotermik bagi menyelesaikan masalah dalam kehidupan."
+    text_en: "Design materials that use the concept of exothermic and endothermic reactions to solve problems in life."
+    bloom: "create"
+    content_standard_id: "5.1"
+performance_standards:
+  - level: 1
+    id: "TP1"
+    text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai termokimia."
+    text_en: "Recall science knowledge and skills regarding thermochemistry."
+    descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai termokimia."
+    descriptor_en: "Recall science knowledge and skills regarding thermochemistry."
+  - level: 2
+    id: "TP2"
+    text: "Memahami termokimia serta dapat menjelaskan kefahaman tersebut."
+    text_en: "Understand thermochemistry and can explain the understanding."
+    descriptor: "Memahami termokimia serta dapat menjelaskan kefahaman tersebut."
+    descriptor_en: "Understand thermochemistry and can explain the understanding."
+  - level: 3
+    id: "TP3"
+    text: "Mengaplikasikan pengetahuan mengenai termokimia dan dapat melaksanakan tugasan mudah."
+    text_en: "Apply knowledge of thermochemistry and can carry out simple tasks."
+    descriptor: "Mengaplikasikan pengetahuan mengenai termokimia dan dapat melaksanakan tugasan mudah."
+    descriptor_en: "Apply knowledge of thermochemistry and can carry out simple tasks."
+  - level: 4
+    id: "TP4"
+    text: "Menganalisis pengetahuan mengenai termokimia dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+    text_en: "Analyze knowledge of thermochemistry in the context of problem solving regarding natural events or phenomena."
+    descriptor: "Menganalisis pengetahuan mengenai termokimia dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+    descriptor_en: "Analyze knowledge of thermochemistry in the context of problem solving regarding natural events or phenomena."
+  - level: 5
+    id: "TP5"
+    text: "Menilai pengetahuan mengenai termokimia dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+    text_en: "Evaluate knowledge of thermochemistry in the context of problem solving and make decisions to carry out a task."
+    descriptor: "Menilai pengetahuan mengenai termokimia dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+    descriptor_en: "Evaluate knowledge of thermochemistry in the context of problem solving and make decisions to carry out a task."
+  - level: 6
+    id: "TP6"
+    text: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai termokimia dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengam bil kira nilai sosial/ekonomi/budaya masyarakat."
+    text_en: "Create using science knowledge and skills regarding thermochemistry in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
+    descriptor: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai termokimia dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengam bil kira nilai sosial/ekonomi/budaya masyarakat."
+    descriptor_en: "Create using science knowledge and skills regarding thermochemistry in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
+mastery:
+  minimum_score: 0.75
+  assessment_count: 10
+  spaced_repetition:
+    initial_interval_days: 1
+    multiplier: 2.5
+teaching:
+  sequence:
+    - Definition of endo/exothermic reactions
+    - Heat changes in reactions
+    - Experimental comparison
+    - Real-life applications
+  common_misconceptions:
+    - misconception: "Students think heat is only released in combustion."
+      remediation: "Show examples of endothermic reactions like photosynthesis."
+    - misconception: "Students confuse temperature change with heat change."
+      remediation: "Use thermometer readings to demonstrate heat flow."
+  engagement_hooks:
+    - Instant hot/cold packs
+    - Cooking and chemical reactions
+quality_level: 1
+provenance: "ai-assisted"
+sync_checked: true
+tier: "core"
+bloom_levels:
+  - remember
+  - understand
+  - apply
+  - create
+engagement_hooks:
+  - Instant hot/cold packs
+  - Cooking and chemical reactions
+ai_teaching_notes: "SC3-05.teaching.md"
+assessments_file: "SC3-05.assessments.yaml"
