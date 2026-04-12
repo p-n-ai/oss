@@ -1,0 +1,149 @@
+topic_id: "SC3-09"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 9.1.1: Menerangkan dengan lakaran mengenai struktur dan fenomena yang berlaku di permukaan matahari.
+    - id: "Q01"
+      text: 'Lukis dan labelkan struktur utama yang terdapat pada permukaan matahari dan terangkan fenomena yang berlaku di kawasan ini.'
+      difficulty: "medium"
+      learning_objective: "9.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Struktur utama termasuk fotosfera, kromosfera, dan korona. Fenomena termasuk bintik matahari dan letupan suria.'
+        working: |
+            1. Lukis permukaan matahari dan tunjukkan lokasi fotosfera, kromosfera, dan korona.
+            2. Labelkan bintik matahari dan letupan suria.
+            3. Terangkan bahawa bintik matahari adalah kawasan yang lebih sejuk manakala letupan suria adalah letusan tenaga.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Lukisan menunjukkan struktur utama matahari."
+        - marks: 1
+          criteria: "Label pada lukisan adalah tepat."
+        - marks: 1
+          criteria: "Fenomena bintik matahari diterangkan dengan betul."
+        - marks: 1
+          criteria: "Fenomena letupan suria diterangkan dengan betul."
+      hints:
+        - level: 1
+          text: "Cuba ingat kembali struktur asas matahari."
+        - level: 2
+          text: "Fenomena seperti bintik matahari dan letupan suria berlaku di permukaan matahari."
+    # Learning Objective 9.1.2: Mewajarkan kepentingan magnetosfera Bumi.
+    - id: "Q02"
+      text: 'Mengapa magnetosfera Bumi penting untuk kehidupan di planet ini?'
+      difficulty: "medium"
+      learning_objective: "9.1.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "multiple_choice"
+        value: "A"
+        working: |
+            Magnetosfera Bumi melindungi planet daripada zarah angin suria yang berbahaya dan radiasi kosmos.
+        options:
+            A: "Melindungi Bumi daripada zarah berbahaya angin suria."
+            B: "Mengawal suhu Bumi pada waktu malam."
+            C: "Menambah daya tarikan graviti Bumi."
+            D: "Menghasilkan cahaya matahari."
+        distractors:
+            - value: "B"
+              feedback: "Magnetosfera tidak mengawal suhu Bumi."
+            - value: "C"
+              feedback: "Magnetosfera tidak berfungsi untuk meningkatkan daya tarikan graviti."
+            - value: "D"
+              feedback: "Magnetosfera tidak menghasilkan cahaya matahari."
+      marks: 3
+      rubric:
+        - marks: 3
+          criteria: "Jawapan yang betul dipilih dan difahami."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang perlindungan yang diberikan oleh medan magnet."
+        - level: 2
+          text: "Angin suria boleh berbahaya kepada kehidupan di Bumi."
+    # Learning Objective 9.1.2: Mewajarkan kepentingan magnetosfera Bumi.
+    - id: "Q03"
+      text: 'Terangkan bagaimana magnetosfera membantu dalam menjaga kestabilan iklim Bumi.'
+      difficulty: "medium"
+      learning_objective: "9.1.2"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Magnetosfera melindungi atmosfera Bumi daripada zarah angin suria, mencegah kehilangan atmosfera yang boleh mengganggu iklim.'
+        working: |
+            1. Angin suria boleh menghakis atmosfera jika tidak dilindungi.
+            2. Magnetosfera bertindak sebagai perisai terhadap zarah-zarah ini.
+            3. Perlindungan ini membantu mengekalkan gas atmosfera yang penting untuk iklim stabil.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Penerangan tentang perlindungan magnetosfera terhadap atmosfera."
+        - marks: 2
+          criteria: "Penjelasan tentang kesan terhadap kestabilan iklim."
+      hints:
+        - level: 1
+          text: "Pertimbangkan peranan magnetosfera dalam melindungi atmosfera."
+        - level: 2
+          text: "Bagaimana angin suria boleh menjejaskan atmosfera?"
+    # Learning Objective 9.2.1: Berkomunikasi mengenai cuaca angkasa lepas dan kesannya terhadap Bumi.
+    - id: "Q04"
+      text: 'Apakah kesan cuaca angkasa lepas kepada sistem komunikasi Bumi?'
+      difficulty: "medium"
+      learning_objective: "9.2.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "multiple_choice"
+        value: "C"
+        working: |
+            Cuaca angkasa lepas seperti ribut geomagnet boleh mengganggu satelit dan menyebabkan gangguan komunikasi.
+        options:
+            A: "Meningkatkan kelajuan internet."
+            B: "Menghapuskan semua bentuk komunikasi."
+            C: "Mengganggu isyarat satelit dan menyebabkan gangguan komunikasi."
+            D: "Memperbaiki isyarat radio."
+        distractors:
+            - value: "A"
+              feedback: "Cuaca angkasa lepas tidak meningkatkan kelajuan internet."
+            - value: "B"
+              feedback: "Ia tidak menghapuskan semua komunikasi, hanya boleh menyebabkan gangguan."
+            - value: "D"
+              feedback: "Cuaca angkasa lepas tidak memperbaiki isyarat radio."
+      marks: 3
+      rubric:
+        - marks: 3
+          criteria: "Jawapan yang betul dipilih dengan pemahaman tentang kesan cuaca angkasa."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang bagaimana ribut geomagnetik boleh mempengaruhi teknologi."
+        - level: 2
+          text: "Satelit adalah penting untuk komunikasi global."
+    # Learning Objective 9.2.1: Berkomunikasi mengenai cuaca angkasa lepas dan kesannya terhadap Bumi.
+    - id: "Q05"
+      text: 'Jelaskan bagaimana ribut suria boleh mempengaruhi grid elektrik di Bumi.'
+      difficulty: "medium"
+      learning_objective: "9.2.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Ribut suria boleh menyebabkan arus elektrik yang kuat dalam grid elektrik, yang boleh mengakibatkan kerosakan peralatan dan gangguan bekalan elektrik.'
+        working: |
+            1. Ribut suria menghasilkan zarah bermuatan tinggi.
+            2. Zarah ini boleh memasuki atmosfera dan menghasilkan arus elektrik.
+            3. Arus ini boleh menyebabkan lebihan beban pada sistem grid elektrik.
+            4. Ini boleh mengakibatkan kerosakan dan gangguan bekalan elektrik.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Penerangan tentang bagaimana ribut suria menghasilkan arus elektrik."
+        - marks: 2
+          criteria: "Penjelasan tentang kesan terhadap grid elektrik."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bagaimana arus elektrik boleh mempengaruhi peralatan elektrik."
+        - level: 2
+          text: "Ribut suria menghasilkan zarah bermuatan yang boleh memasuki grid elektrik."

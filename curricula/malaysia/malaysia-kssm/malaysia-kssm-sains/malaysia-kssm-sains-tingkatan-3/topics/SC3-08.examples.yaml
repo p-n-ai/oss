@@ -1,0 +1,46 @@
+topic_id: "SC3-08"
+provenance: "ai-generated"
+description: "Worked examples for Keradioaktifan"
+worked_examples:
+    - id: "WE-01"
+      topic: "Sejarah Penemuan Keradioaktifan"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "8.1.1"
+      real_world_analogy: "Discovering radioactivity is like realizing that a seemingly ordinary rock can have extraordinary properties, like a geode filled with crystals."
+      misconception_alert: "Students often think that radioactivity was discovered intentionally, but it was actually an accidental discovery."
+      scenario: "Explain the historical discovery of radioactivity and identify key scientists involved."
+      working: |
+        Step 1: Henri Becquerel discovered radioactivity in 1896 when he noticed that uranium salts emitted rays that could fog a photographic plate, even in the absence of sunlight.
+        Step 2: Marie and Pierre Curie further investigated this phenomenon and discovered other radioactive elements such as polonium and radium.
+        Step 3: The Curies coined the term 'radioactivity' to describe the spontaneous emission of particles and energy from unstable nuclei.
+    - id: "WE-02"
+      topic: "Konsep Separuh Hayat Pereputan Radioaktif"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "8.1.2"
+      real_world_analogy: "Thinking of half-life is like watching a sand timer where half of the sand falls every specific interval, but never completely empties."
+      misconception_alert: "A common misconception is that radioactive elements completely disappear after one half-life, but they only reduce to half their initial amount."
+      scenario: "A sample of a radioactive isotope has a half-life of 5 years. If you start with 80 grams, how much would remain after 15 years?"
+      working: |
+        Step 1: Understand that half-life is the time taken for half of the radioactive nuclei to decay.
+        Step 2: After 5 years (one half-life), the sample will reduce to 40 grams (80g / 2).
+        Step 3: After 10 years (two half-lives), the sample will reduce to 20 grams (40g / 2).
+        Step 4: After 15 years (three half-lives), the sample will reduce to 10 grams (20g / 2).
+        Step 5: Therefore, after 15 years, 10 grams of the sample would remain.
+    - id: "WE-03"
+      topic: "Jenis-Jenis Sinaran Mengion"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "8.3.2"
+      real_world_analogy: "Ionizing radiation types are like different superheroes, each with unique abilities to interact with matter."
+      misconception_alert: "Students may confuse non-ionizing radiation with ionizing radiation, thinking both can cause the same damage at the cellular level."
+      scenario: "Distinguish between the three types of ionizing radiation: alpha, beta, and gamma, and explain their properties and effects."
+      working: |-
+        Step 1: Alpha particles are heavy and positively charged; they have low penetration power and can be stopped by paper or skin.
+        Step 2: Beta particles are lighter and negatively charged; they have moderate penetration power and can be stopped by a few millimeters of aluminum.
+        Step 3: Gamma rays are electromagnetic waves with high penetration power; they can pass through most materials and require thick lead or concrete for shielding.
+        Step 4: Analyze the effects: Alpha particles can cause significant damage if ingested or inhaled, beta particles can cause skin burns, and gamma rays can penetrate tissues deeply, causing internal damage.

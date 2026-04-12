@@ -1,0 +1,48 @@
+topic_id: "SC3-01"
+provenance: "ai-generated"
+description: "Worked examples for Rangsangan dan Gerak Balas"
+worked_examples:
+    - id: "WE-01"
+      topic: "Struktur dan fungsi sistem saraf manusia"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "1.1.1"
+      real_world_analogy: "Bayangkan otak kita sebagai pusat kawalan trafik yang menguruskan aliran maklumat, seperti bagaimana menara kawalan menguruskan pesawat di lapangan terbang."
+      misconception_alert: "Pelajar sering menganggap bahawa hanya otak yang terlibat dalam sistem saraf, tetapi sebenarnya, saraf tunjang juga memainkan peranan penting."
+      scenario: "Lakarkan struktur asas sistem saraf manusia dan terangkan fungsi setiap bahagian utama."
+      working: "Step 1: Lakarkan otak dan saraf tunjang dalam bentuk yang mudah difahami.\nStep 2: Labelkan bahagian utama seperti otak besar, otak kecil, batang otak, dan saraf tunjang.\nStep 3: Terangkan fungsi setiap bahagian: \n        - Otak besar mengawal pemikiran dan tindakan sukarela.\n        - Otak kecil mengawal keseimbangan dan koordinasi.\n        - Batang otak mengawal fungsi asas seperti pernafasan.\n        - Saraf tunjang menyampaikan impuls antara otak dan badan.\n"
+    - id: "WE-02"
+      topic: "Mekanisme pendengaran dan penglihatan"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "1.2.2"
+      real_world_analogy: "Mata dan telinga kita berfungsi seperti kamera dan mikrofon, menangkap imej dan bunyi dari persekitaran kita."
+      misconception_alert: "Ada pelajar yang menyangka cahaya dan bunyi tidak perlu diproses oleh otak untuk kita melihat dan mendengar."
+      scenario: "Terangkan bagaimana mata dan telinga manusia memproses rangsangan untuk menghasilkan penglihatan dan pendengaran."
+      working: |
+        Step 1: Gambarkan struktur mata dan telinga, termasuk bahagian penting seperti retina dan koklea.
+        Step 2: Terangkan proses penglihatan:
+                - Cahaya memasuki mata melalui kornea dan kanta, difokuskan ke retina.
+                - Retina menukar cahaya menjadi impuls elektrik yang dihantar ke otak melalui saraf optik.
+        Step 3: Terangkan proses pendengaran:
+                - Gelombang bunyi masuk ke telinga melalui saluran telinga, menyebabkan gegendang telinga bergetar.
+                - Getaran dihantar ke koklea, di mana getaran diubah menjadi impuls elektrik dan dihantar ke otak melalui saraf auditori.
+    - id: "WE-03"
+      topic: "Gerak balas tumbuhan terhadap rangsangan"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "1.3.2"
+      real_world_analogy: "Tumbuhan bertindak balas terhadap rangsangan seperti manusia mencari cahaya matahari untuk mendapatkan vitamin D."
+      misconception_alert: "Ramai pelajar berfikir bahawa tumbuhan tidak bergerak, tetapi sebenarnya mereka bergerak balas terhadap rangsangan seperti cahaya dan air."
+      scenario: "Jelaskan bagaimana tumbuhan bergerak balas terhadap cahaya dan air untuk memastikan tumbesaran yang optimum."
+      working: |-
+        Step 1: Kenalpasti jenis rangsangan yang mempengaruhi tumbuhan, seperti cahaya (fototropisme) dan air (hidrotropisme).
+        Step 2: Terangkan proses fototropisme:
+                - Tumbuhan menumbuhkan pucuk ke arah cahaya untuk memaksimumkan fotosintesis.
+                - Hormon auksin memainkan peranan dalam mempercepat pertumbuhan sel di sisi yang jauh dari cahaya.
+        Step 3: Terangkan proses hidrotropisme:
+                - Akar tumbuhan tumbuh ke arah sumber air untuk menyerap lebih banyak air.
+                - Ini membantu tumbuhan kekal hidrat dan menyokong proses metabolisme.

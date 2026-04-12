@@ -1,0 +1,47 @@
+topic_id: "SC3-06"
+provenance: "ai-generated"
+description: "Worked examples for Keelektrikan dan kemagnetan"
+worked_examples:
+    - id: "WE-01"
+      topic: "Memerihalkan sumber tenaga kepada tenaga boleh baharu dan tenaga tidak boleh baharu"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "6.1.1"
+      real_world_analogy: "Berbanding dengan makanan, sumber tenaga boleh diperbaharui seperti sayuran yang boleh ditanam semula, manakala sumber tenaga tidak boleh diperbaharui seperti makanan dalam tin yang habis apabila dimakan."
+      misconception_alert: "Ramai pelajar menganggap semua sumber tenaga adalah boleh diperbaharui jika mereka tidak memahami batasan sumber."
+      scenario: "Jelaskan perbezaan antara sumber tenaga boleh baharu dan tidak boleh baharu dengan memberikan dua contoh bagi setiap satu."
+      working: |
+        Step 1: Fahami definisi sumber tenaga boleh baharu dan tidak boleh baharu.
+        Step 2: Sumber tenaga boleh baharu ialah sumber yang boleh diperbaharui atau dihasilkan semula dalam jangka masa yang singkat, seperti tenaga solar dan angin.
+        Step 3: Sumber tenaga tidak boleh baharu ialah sumber yang tidak boleh diperbaharui atau mengambil masa berjuta-juta tahun untuk terbentuk semula, seperti petroleum dan arang batu.
+        Step 4: Contoh sumber tenaga boleh baharu: tenaga solar dan tenaga angin.
+        Step 5: Contoh sumber tenaga tidak boleh baharu: petroleum dan arang batu.
+    - id: "WE-02"
+      topic: "Membezakan antara arus terus dan arus ulang alik"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "6.1.3"
+      real_world_analogy: "Seperti air yang mengalir dalam satu arah dalam sungai (arus terus) berbanding air laut yang beralun ke depan dan ke belakang (arus ulang alik)."
+      misconception_alert: "Pelajar sering keliru antara arus terus dan ulang alik kerana kedua-duanya melibatkan aliran elektrik, tetapi tidak memahami perbezaan dalam arah aliran."
+      scenario: "Seorang pelajar ingin mengetahui perbezaan antara arus terus (DC) dan arus ulang alik (AC). Jelaskan perbezaan ini dan berikan satu contoh penggunaan bagi setiap jenis arus."
+      working: |
+        Step 1: Arus terus (DC) ialah aliran elektrik yang bergerak dalam satu arah sahaja. Contoh penggunaan: bateri dalam telefon bimbit.
+        Step 2: Arus ulang alik (AC) ialah aliran elektrik yang berubah arah secara berkala. Contoh penggunaan: bekalan elektrik di rumah.
+        Step 3: Perbezaan utama ialah arah aliran elektrik; DC bergerak dalam satu arah, manakala AC berulang alik.
+        Step 4: Dalam kehidupan seharian, DC digunakan dalam peralatan berkuasa bateri, manakala AC digunakan dalam bekalan elektrik ke rumah dan bangunan.
+    - id: "WE-03"
+      topic: "Menyelesaikan masalah berkaitan transformer menggunakan rumus"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "6.2.3"
+      real_world_analogy: "Seperti sistem gear pada basikal yang menukar kelajuan dan kekuatan pedal, transformer menukar voltan dan arus elektrik."
+      misconception_alert: "Pelajar sering menganggap transformer meningkatkan tenaga, sedangkan ia hanya mengubah voltan dan arus tanpa mengubah tenaga keseluruhan."
+      scenario: "Sebuah transformer mempunyai 100 lilitan pada gegelung primer dan 200 lilitan pada gegelung sekunder. Jika voltan input ialah 120V, hitung voltan output."
+      working: |-
+        Step 1: Gunakan formula transformer: $\frac{V_s}{V_p} = \frac{N_s}{N_p}$, di mana $V_s$ = voltan sekunder, $V_p$ = voltan primer, $N_s$ = bilangan lilitan sekunder, $N_p$ = bilangan lilitan primer.
+        Step 2: Masukkan nilai yang diberi ke dalam formula: $\frac{V_s}{120V} = \frac{200}{100}$.
+        Step 3: Selesaikan untuk $V_s$: $V_s = 120V \times \frac{200}{100} = 240V$.
+        Step 4: Jadi, voltan output ialah 240V.

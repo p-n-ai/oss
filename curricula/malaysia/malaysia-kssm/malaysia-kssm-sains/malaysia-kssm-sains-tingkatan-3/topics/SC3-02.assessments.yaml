@@ -1,0 +1,122 @@
+topic_id: "SC3-02"
+provenance: "ai-generated"
+questions:
+    # Questions for Learning Objective 2.1.1
+    - id: "Q1"
+      text: 'Melakar dan melabelkan struktur dalam sistem respirasi manusia. Sebutkan mana satu daripada struktur ini yang bertanggungjawab untuk pertukaran gas.'
+      difficulty: "medium"
+      learning_objective: "2.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Alveolus"
+        working: |
+            Alveolus adalah struktur dalam peparu yang bertanggungjawab untuk pertukaran gas oksigen dan karbon dioksida.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Melakar struktur asas sistem respirasi manusia."
+        - marks: 1
+          criteria: "Melabelkan sekurang-kurangnya 3 struktur utama."
+        - marks: 1
+          criteria: "Menyatakan alveolus sebagai struktur pertukaran gas."
+      hints:
+        - level: 1
+          text: "Ingat kembali struktur dalam peparu yang berbentuk kantung kecil."
+    # Questions for Learning Objective 2.1.2
+    - id: "Q2"
+      text: 'Apakah perbezaan utama antara kandungan gas dalam udara sedutan dan udara hembusan?'
+      difficulty: "medium"
+      learning_objective: "2.1.2"
+      tp_level: 4
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "B"
+        working: |
+            Udara sedutan mengandungi lebih banyak oksigen manakala udara hembusan mengandungi lebih banyak karbon dioksida.
+        options:
+            A: "Kedua-duanya mengandungi jumlah oksigen yang sama."
+            B: "Udara sedutan mengandungi lebih banyak oksigen."
+            C: "Udara hembusan mengandungi lebih banyak oksigen."
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Memilih jawapan yang betul berdasarkan perbezaan kandungan gas."
+      hints:
+        - level: 1
+          text: "Fokus pada kandungan oksigen dan karbon dioksida."
+    # Questions for Learning Objective 2.2.1
+    - id: "Q3"
+      text: 'Jelaskan bagaimana oksigen bergerak dari alveolus ke dalam darah.'
+      difficulty: "medium"
+      learning_objective: "2.2.1"
+      tp_level: 4
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Oksigen bergerak melalui proses difusi dari alveolus ke kapilari darah."
+        working: |
+            Oksigen bergerak dari kawasan berkepekatan tinggi di alveolus ke kawasan berkepekatan rendah dalam kapilari darah.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan oksigen bergerak dari alveolus."
+        - marks: 1
+          criteria: "Menyatakan oksigen bergerak ke dalam kapilari darah."
+        - marks: 1
+          criteria: "Menjelaskan proses difusi."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang proses pergerakan molekul gas."
+    # Questions for Learning Objective 2.3.1
+    - id: "Q4"
+      text: 'Apakah bahan yang boleh memudaratkan sistem respirasi dan nyatakan satu penyakit respirasi yang berkaitan.'
+      difficulty: "medium"
+      learning_objective: "2.3.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "A"
+        working: |
+            Asap rokok mengandungi bahan berbahaya seperti tar dan nikotin yang boleh menyebabkan penyakit seperti bronkitis.
+        options:
+            A: "Asap rokok - bronkitis"
+            B: "Debu - influenza"
+            C: "Haba - pneumonia"
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Memilih bahan dan penyakit yang betul."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bahan dari persekitaran yang sering dihirup oleh manusia."
+    # Questions for Learning Objective 2.4.1
+    - id: "Q5"
+      text: 'Bagaimana sistem respirasi manusia beradaptasi ketika berada di kawasan altitud tinggi?'
+      difficulty: "medium"
+      learning_objective: "2.4.1"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Sistem respirasi meningkatkan kadar pernafasan dan pengeluaran sel darah merah."
+        working: |
+            Di altitud tinggi, udara mengandungi kurang oksigen. Tubuh beradaptasi dengan meningkatkan kadar pernafasan dan penghasilan lebih banyak sel darah merah untuk mengangkut oksigen dengan lebih berkesan.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan peningkatan kadar pernafasan."
+        - marks: 1
+          criteria: "Menerangkan peningkatan pengeluaran sel darah merah."
+        - marks: 1
+          criteria: "Mengaitkan adaptasi dengan altitud tinggi."
+        - marks: 1
+          criteria: "Menjelaskan kepentingan adaptasi ini."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang perubahan dalam pernafasan dan darah."
+        - level: 2
+          text: "MISCONCEPTION ALERT: Altitud tinggi tidak bermaksud lebih banyak oksigen di udara."

@@ -1,0 +1,135 @@
+topic_id: "SC3-01"
+provenance: "ai-generated"
+questions:
+    # Learning objective 1.1.1: Memerihalkan dengan lakaran struktur dan fungsi sistem saraf manusia
+    - id: "Q01"
+      text: 'Lakar dan labelkan struktur utama sistem saraf manusia. Terangkan fungsi setiap bahagian yang dilabelkan.'
+      difficulty: "medium"
+      learning_objective: "1.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Struktur utama sistem saraf manusia termasuk otak, saraf tunjang, dan saraf periferi. Otak mengawal fungsi tubuh, saraf tunjang memproses maklumat antara otak dan tubuh, dan saraf periferi menghantar isyarat ke dan dari seluruh badan.'
+        working: |
+            1. Lakarkan otak di bahagian atas dan labelkan.
+            2. Lakarkan saraf tunjang yang bersambung dengan otak.
+            3. Lakarkan saraf periferi yang bercabang dari saraf tunjang.
+            4. Terangkan fungsi setiap bahagian yang dilabelkan.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: 'Lakarkan dan labelkan otak dengan betul.'
+        - marks: 1
+          criteria: 'Lakarkan dan labelkan saraf tunjang dengan betul.'
+        - marks: 1
+          criteria: 'Lakarkan dan labelkan saraf periferi dengan betul.'
+        - marks: 1
+          criteria: 'Terangkan fungsi setiap bahagian dengan jelas.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang bahagian utama sistem saraf dan bagaimana ia berkaitan.'
+        - level: 2
+          text: 'Apakah fungsi utama otak, saraf tunjang, dan saraf periferi?'
+    # Learning objective 1.1.2: Membuat urutan aliran impuls dalam tindakan terkawal dan luar kawal
+    - id: "Q02"
+      text: 'Susun urutan aliran impuls dalam tindakan luar kawal seperti refleks lutut.'
+      difficulty: "medium"
+      learning_objective: "1.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: 'A'
+        options:
+            A: 'Rangsangan → Reseptor → Saraf sensor → Saraf tunjang → Saraf motor → Efektor'
+            B: 'Rangsangan → Saraf motor → Reseptor → Saraf sensor → Efektor'
+            C: 'Rangsangan → Saraf tunjang → Reseptor → Efektor → Saraf sensor'
+            D: 'Rangsangan → Efektor → Saraf motor → Saraf sensor → Saraf tunjang'
+        working: |
+            1. Rangsangan diterima oleh reseptor.
+            2. Isyarat dihantar melalui saraf sensor ke saraf tunjang.
+            3. Saraf tunjang memproses isyarat dan menghantarnya melalui saraf motor.
+            4. Saraf motor menghantar isyarat kepada efektor untuk bertindak balas.
+      marks: 3
+      rubric:
+        - marks: 3
+          criteria: 'Susunan urutan aliran impuls yang betul dipilih.'
+      hints:
+        - level: 1
+          text: 'MISCONCEPTION ALERT: Refleks tidak melibatkan otak dalam proses segera.'
+        - level: 2
+          text: 'Apakah peranan reseptor dan efektor dalam tindakan refleks?'
+    # Learning objective 1.2.1: Melakar struktur organ deria dan menerangkan fungsi serta kepekaannya terhadap rangsangan
+    - id: "Q03"
+      text: 'Lakar struktur mata manusia dan terangkan fungsi setiap bahagian utama yang dilabelkan.'
+      difficulty: "medium"
+      learning_objective: "1.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Mata terdiri daripada kornea, iris, lensa, retina, dan saraf optik. Kornea membiaskan cahaya masuk, iris mengawal saiz pupil, lensa memfokuskan cahaya pada retina, retina mengesan cahaya dan menghantar isyarat ke saraf optik, dan saraf optik membawa isyarat ke otak.'
+        working: |
+            1. Lakarkan mata dan labelkan bahagian kornea, iris, lensa, retina, dan saraf optik.
+            2. Terangkan fungsi setiap bahagian berdasarkan struktur yang dilabelkan.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: 'Lakarkan dan labelkan dengan tepat semua bahagian utama mata.'
+        - marks: 3
+          criteria: 'Terangkan fungsi setiap bahagian dengan tepat.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang bagaimana mata memproses cahaya.'
+        - level: 2
+          text: 'Apakah fungsi kornea dan lensa dalam proses penglihatan?'
+    # Learning objective 1.2.3: Menghubungkaitkan organ deria manusia dengan kepekaan terhadap pelbagai kombinasi rangsangan
+    - id: "Q04"
+      text: 'Jelaskan bagaimana kombinasi rangsangan cahaya dan bunyi boleh mempengaruhi tindak balas manusia.'
+      difficulty: "medium"
+      learning_objective: "1.2.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Kombinasi rangsangan cahaya dan bunyi boleh meningkatkan kecepatan tindak balas manusia. Contohnya, bunyi siren diiringi lampu berkelip menarik perhatian lebih cepat dan menyebabkan tindak balas pantas seperti berhenti atau mengelak.'
+        working: |
+            1. Terangkan bagaimana rangsangan cahaya dan bunyi diproses oleh organ deria yang berbeza.
+            2. Kaitkan bagaimana rangsangan serentak ini boleh mempercepatkan tindak balas.
+            3. Berikan contoh situasi di mana kedua-dua rangsangan ini digunakan.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Terangkan bagaimana kedua-dua rangsangan diproses oleh organ deria.'
+        - marks: 2
+          criteria: 'Berikan contoh penggunaan rangsangan cahaya dan bunyi dalam kehidupan seharian.'
+      hints:
+        - level: 1
+          text: 'MISCONCEPTION ALERT: Tubuh kita tidak bertindak balas kepada satu jenis rangsangan sahaja dalam situasi kecemasan.'
+        - level: 2
+          text: 'Apakah contoh situasi di mana bunyi dan cahaya digunakan untuk menarik perhatian?'
+    # Learning objective 1.3.2: Mewajarkan bagaimana tumbuhan bergerak balas terhadap rangsangan untuk mendapatkan keadaan terbaik bagi tumbesaran
+    - id: "Q05"
+      text: 'Mengapa penting bagi tumbuhan untuk bergerak balas terhadap cahaya, dan bagaimana ia melakukannya?'
+      difficulty: "medium"
+      learning_objective: "1.3.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Tumbuhan bergerak balas terhadap cahaya melalui proses fototropisme, di mana mereka membengkok ke arah cahaya untuk memaksimumkan fotosintesis. Ini penting untuk pertumbuhan dan makanan.'
+        working: |
+            1. Terangkan konsep fototropisme dan bagaimana ia membolehkan tumbuhan mendapatkan lebih banyak cahaya.
+            2. Kaitkan kepentingan cahaya dengan proses fotosintesis dan pertumbuhan tumbuhan.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Terangkan proses fototropisme dengan tepat.'
+        - marks: 2
+          criteria: 'Jelaskan kepentingan cahaya untuk fotosintesis dan pertumbuhan tumbuhan.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang bagaimana arah pertumbuhan tumbuhan berkaitan dengan sumber cahaya.'
+        - level: 2
+          text: 'Bagaimana cahaya mempengaruhi proses fotosintesis dalam tumbuhan?'

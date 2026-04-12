@@ -1,0 +1,138 @@
+topic_id: "SC3-06"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 6.1.1
+    - id: "Q1"
+      text: "Apakah perbezaan utama antara sumber tenaga boleh baharu dan tenaga tidak boleh baharu? Berikan satu contoh bagi setiap jenis."
+      difficulty: "medium"
+      learning_objective: "6.1.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Tenaga boleh baharu boleh diperbaharui secara semulajadi dalam jangka masa pendek, contohnya tenaga suria. Tenaga tidak boleh baharu adalah terhad dan mengambil masa berjuta tahun untuk terbentuk, contohnya bahan api fosil."
+        working: |
+            Tenaga boleh baharu termasuk sumber yang boleh diperbaharui dengan cepat seperti tenaga suria dan angin. Tenaga tidak boleh baharu seperti arang batu dan minyak adalah terhad dan tidak dapat dihasilkan semula dalam masa yang singkat.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyebut perbezaan asas antara tenaga boleh baharu dan tidak boleh baharu."
+        - marks: 1
+          criteria: "Memberi contoh yang betul untuk tenaga boleh baharu."
+        - marks: 1
+          criteria: "Memberi contoh yang betul untuk tenaga tidak boleh baharu."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang bagaimana sumber tenaga ini diperbaharui atau tidak."
+        - level: 2
+          text: "Tenaga boleh baharu sering kali berkaitan dengan sumber alam yang boleh diperbaharui dengan cepat."
+        - level: 3
+          text: "Tenaga tidak boleh baharu termasuk bahan api fosil seperti minyak dan arang batu."
+    # Learning Objective 6.1.3
+    - id: "Q2"
+      text: "Apakah perbezaan antara arus terus (DC) dan arus ulang alik (AC)?"
+      difficulty: "medium"
+      learning_objective: "6.1.3"
+      tp_level: 4
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "B"
+        options:
+            A: "Arus terus adalah arus yang berubah arah secara berkala."
+            B: "Arus ulang alik adalah arus yang berubah arah secara berkala."
+            C: "Arus ulang alik bergerak dalam satu arah sahaja."
+            D: "Arus terus adalah arus yang mengalir dalam arah yang berubah-ubah."
+        working: |
+            Arus terus (DC) bergerak dalam satu arah sahaja, manakala arus ulang alik (AC) berubah arah secara berkala.
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Memilih jawapan yang betul mengenai perbezaan arus AC dan DC."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang bagaimana arus elektrik bergerak dalam setiap jenis."
+        - level: 2
+          text: "Pertimbangkan sama ada arus itu mengalir dalam satu arah atau berubah arah."
+    # Learning Objective 6.2.2
+    - id: "Q3"
+      text: "Jelaskan fungsi transformer dalam penggunaan peralatan elektrik di rumah."
+      difficulty: "medium"
+      learning_objective: "6.2.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Transformer digunakan untuk mengubah voltan elektrik ke tahap yang diperlukan oleh peralatan elektrik. Ini memastikan peralatan menerima voltan yang sesuai untuk berfungsi dengan selamat."
+        working: |
+            Transformer menyesuaikan tahap voltan dari bekalan elektrik supaya sesuai dengan keperluan peralatan elektrik. Ia boleh menaikkan atau menurunkan voltan mengikut keperluan.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyebut fungsi asas transformer."
+        - marks: 1
+          criteria: "Menjelaskan bagaimana transformer menyesuaikan voltan."
+        - marks: 1
+          criteria: "Menekankan kepentingan voltan yang sesuai untuk keselamatan peralatan."
+      hints:
+        - level: 1
+          text: "Transformer berkaitan dengan voltan elektrik."
+        - level: 2
+          text: "Pertimbangkan apakah yang berlaku kepada voltan apabila melalui transformer."
+    # Learning Objective 6.3.3
+    - id: "Q4"
+      text: "Bandingkan fius dan pemutus litar dalam sistem pendawaian elektrik di rumah dari segi fungsi keselamatan."
+      difficulty: "medium"
+      learning_objective: "6.3.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Fius melindungi litar dengan meleleh apabila arus yang berlebihan mengalir, memutuskan litar. Pemutus litar berfungsi dengan mematikan litar secara automatik apabila terdapat arus yang berlebihan, dan boleh dihidupkan semula."
+        working: |
+            Fius adalah peranti keselamatan yang meleleh untuk memutuskan litar apabila arus melebihi had yang ditetapkan. Pemutus litar berfungsi sama tetapi boleh dihidupkan semula tanpa perlu diganti.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menerangkan fungsi fius dalam keselamatan litar."
+        - marks: 2
+          criteria: "Menerangkan fungsi pemutus litar dalam keselamatan litar."
+      hints:
+        - level: 1
+          text: "Fikirkan bagaimana setiap komponen bertindak balas terhadap arus yang berlebihan."
+        - level: 2
+          text: "Pertimbangkan kelebihan pemutus litar berbanding fius dalam jangka masa panjang."
+    # Learning Objective 6.4.4
+    - id: "Q5"
+      text: "Sebuah peralatan elektrik menggunakan 1000W dan digunakan selama 5 jam sehari. Jika kadar tarif elektrik adalah RM0.218 per kWh, berapakah kos penggunaan tenaga elektrik peralatan tersebut selama sebulan (30 hari)?"
+      difficulty: "medium"
+      learning_objective: "6.4.4"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: "32.7"
+        working: |
+            Langkah 1: Kira penggunaan tenaga harian dalam kWh:
+            1000W = 1 kW, maka 1 kW x 5 jam = 5 kWh.
+
+            Langkah 2: Kira penggunaan tenaga sebulan:
+            5 kWh/hari x 30 hari = 150 kWh.
+
+            Langkah 3: Kira kos penggunaan tenaga elektrik:
+            150 kWh x RM0.218/kWh = RM32.7.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Mengira penggunaan tenaga harian dalam kWh dengan betul."
+        - marks: 1
+          criteria: "Mengira penggunaan tenaga sebulan dengan betul."
+        - marks: 2
+          criteria: "Mengira kos penggunaan tenaga elektrik dengan betul."
+      hints:
+        - level: 1
+          text: "Mulakan dengan menukar kuasa dalam watt kepada kilowatt."
+        - level: 2
+          text: "Kira jumlah kWh yang digunakan dalam sehari dan kemudian untuk sebulan."
+        - level: 3
+          text: "Akhirnya, gunakan kadar tarif untuk mengira kos."

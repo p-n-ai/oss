@@ -10,179 +10,174 @@ language: ms
 difficulty: intermediate
 theme: "Tenaga Dan Kelestarian Hidup"
 content_standards:
-  - id: "6.1"
-    text: "Penjanaan tenaga elektrik"
-    text_en: "Generation of electrical energy"
-  - id: "6.2"
-    text: "Transformer"
-    text_en: "Transformer"
-  - id: "6.3"
-    text: "Penghantaran dan pengagihan tenaga elektrik"
-    text_en: "Transmission and distribution of electrical energy"
-  - id: "6.4"
-    text: "Pengiraan kos penggunaan elektrik"
-    text_en: "Calculation of electricity usage cost"
+    - id: "6.1"
+      text: "Penjanaan tenaga elektrik"
+      text_en: "Generation of electrical energy"
+    - id: "6.2"
+      text: "Transformer"
+      text_en: "Transformer"
+    - id: "6.3"
+      text: "Penghantaran dan pengagihan tenaga elektrik"
+      text_en: "Transmission and distribution of electrical energy"
+    - id: "6.4"
+      text: "Pengiraan kos penggunaan elektrik"
+      text_en: "Calculation of electricity usage cost"
 learning_objectives:
-  - id: "6.1.1"
-    text: "Memerihalkan sumber tenaga kepada tenaga boleh baharu dan tenaga tidak boleh baharu."
-    text_en: "Describe energy sources as renewable and non-renewable energy."
-    bloom: "understand"
-    content_standard_id: "6.1"
-  - id: "6.1.2"
-    text: "Menerangkan dengan contoh proses penjanaan tenaga elektrik daripada pelbagai sumber tenaga."
-    text_en: "Explain with examples the process of generating electrical energy from various energy sources."
-    bloom: "understand"
-    content_standard_id: "6.1"
-  - id: "6.1.3"
-    text: "Membezakan antara arus terus dan arus ulang alik."
-    text_en: "Differentiate between direct current and alternating current."
-    bloom: "analyze"
-    content_standard_id: "6.1"
-  - id: "6.1.4"
-    text: "Menyelesaikan masalah berkaitan bekalan tenaga elektrik dalam kehidupan."
-    text_en: "Solve problems related to electrical energy supply in life."
-    bloom: "apply"
-    content_standard_id: "6.1"
-  - id: "6.2.1"
-    text: "Menjalankan eksperimen membina transformer injak naik dan injak turun."
-    text_en: "Conduct experiments to build step-up and step-down transformers."
-    bloom: "apply"
-    content_standard_id: "6.2"
-  - id: "6.2.2"
-    text: "Berkomunikasi mengenai transformer dan fungsi transformer dalam penggunaan peralatan elektrik di rumah."
-    text_en: "Communicate about transformers and the function of transformers in the use of electrical appliances at home."
-    bloom: "understand"
-    content_standard_id: "6.2"
-  - id: "6.2.3"
-    text: "Menyelesaikan masalah berkaitan transformer menggunakan rumus."
-    text_en: "Solve problems related to transformers using formulas."
-    bloom: "apply"
-    content_standard_id: "6.2"
-  - id: "6.3.1"
-    text: "Menerangkan fungsi komponen dalam sistem penghantaran dan pengagihan tenaga elektrik dengan lakaran visual."
-    text_en: "Explain the function of components in the electrical energy transmission and distribution system with visual sketches."
-    bloom: "understand"
-    content_standard_id: "6.3"
-  - id: "6.3.2"
-    text: "Menerangkan dengan contoh pembekalan elektrik dan sistem pendawaian elektrik di rumah."
-    text_en: "Explain with examples of electricity supply and electrical wiring systems in houses."
-    bloom: "understand"
-    content_standard_id: "6.3"
-  - id: "6.3.3"
-    text: "Membezakan komponen keselamatan dalam sistem pendawaian di rumah."
-    text_en: "Differentiate safety components in the wiring system at home."
-    bloom: "analyze"
-    content_standard_id: "6.3"
-  - id: "6.3.4"
-    text: "Berkomunikasi mengenai keselamatan dalam sistem penghantaran dan pengagihan tenaga elektrik dan penggunaan peralatan elektrik."
-    text_en: "Communicate about safety in the transmission and distribution system of electrical energy and the use of electrical appliances."
-    bloom: "understand"
-    content_standard_id: "6.3"
-  - id: "6.4.1"
-    text: "Mendefinisikan maksud kecekapan tenaga."
-    text_en: "Define the meaning of energy efficiency."
-    bloom: "remember"
-    content_standard_id: "6.4"
-  - id: "6.4.2"
-    text: "Menyenaraikan contoh teknologi yang berkonsepkan kecekapan tenaga."
-    text_en: "List examples of technologies that are energy efficient."
-    bloom: "remember"
-    content_standard_id: "6.4"
-  - id: "6.4.3"
-    text: "Menentukan jumlah penggunan tenaga elektrik dalam peralatan elektrik."
-    text_en: "Determine the total electrical energy usage in electrical appliances."
-    bloom: "apply"
-    content_standard_id: "6.4"
-  - id: "6.4.4"
-    text: "Menghubungkaitkan penggunaan tenaga elektrik, kuasa dan masa dengan mengira kos penggunaan tenaga elektrik peralatan elektrik."
-    text_en: "Relate electrical energy usage, power and time by calculating the cost of electrical energy usage of electrical appliances."
-    bloom: "apply"
-    content_standard_id: "6.4"
-  - id: "6.4.5"
-    text: "Membuat audit kos penggunaan tenaga elektrik rumah sebagai langkah penjimatan dalam penggunaan tenaga elektrik."
-    text_en: "Conduct an audit of household electrical energy usage costs as a step in saving electrical energy usage."
-    bloom: "apply"
-    content_standard_id: "6.4"
-  - id: "6.4.6"
-    text: "Berkomunikasi mengenai kaedah penjimatan penggunaan tenaga elektrik."
-    text_en: "Communicate about methods of saving electrical energy usage."
-    bloom: "understand"
-    content_standard_id: "6.4"
+    - id: "6.1.1"
+      text: "Memerihalkan sumber tenaga kepada tenaga boleh baharu dan tenaga tidak boleh baharu."
+      text_en: "Describe energy sources as renewable and non-renewable energy."
+      bloom: "understand"
+      content_standard_id: "6.1"
+    - id: "6.1.2"
+      text: "Menerangkan dengan contoh proses penjanaan tenaga elektrik daripada pelbagai sumber tenaga."
+      text_en: "Explain with examples the process of generating electrical energy from various energy sources."
+      bloom: "understand"
+      content_standard_id: "6.1"
+    - id: "6.1.3"
+      text: "Membezakan antara arus terus dan arus ulang alik."
+      text_en: "Differentiate between direct current and alternating current."
+      bloom: "analyze"
+      content_standard_id: "6.1"
+    - id: "6.1.4"
+      text: "Menyelesaikan masalah berkaitan bekalan tenaga elektrik dalam kehidupan."
+      text_en: "Solve problems related to electrical energy supply in life."
+      bloom: "apply"
+      content_standard_id: "6.1"
+    - id: "6.2.1"
+      text: "Menjalankan eksperimen membina transformer injak naik dan injak turun."
+      text_en: "Conduct experiments to build step-up and step-down transformers."
+      bloom: "apply"
+      content_standard_id: "6.2"
+    - id: "6.2.2"
+      text: "Berkomunikasi mengenai transformer dan fungsi transformer dalam penggunaan peralatan elektrik di rumah."
+      text_en: "Communicate about transformers and the function of transformers in the use of electrical appliances at home."
+      bloom: "understand"
+      content_standard_id: "6.2"
+    - id: "6.2.3"
+      text: "Menyelesaikan masalah berkaitan transformer menggunakan rumus."
+      text_en: "Solve problems related to transformers using formulas."
+      bloom: "apply"
+      content_standard_id: "6.2"
+    - id: "6.3.1"
+      text: "Menerangkan fungsi komponen dalam sistem penghantaran dan pengagihan tenaga elektrik dengan lakaran visual."
+      text_en: "Explain the function of components in the electrical energy transmission and distribution system with visual sketches."
+      bloom: "understand"
+      content_standard_id: "6.3"
+    - id: "6.3.2"
+      text: "Menerangkan dengan contoh pembekalan elektrik dan sistem pendawaian elektrik di rumah."
+      text_en: "Explain with examples of electricity supply and electrical wiring systems in houses."
+      bloom: "understand"
+      content_standard_id: "6.3"
+    - id: "6.3.3"
+      text: "Membezakan komponen keselamatan dalam sistem pendawaian di rumah."
+      text_en: "Differentiate safety components in the wiring system at home."
+      bloom: "analyze"
+      content_standard_id: "6.3"
+    - id: "6.3.4"
+      text: "Berkomunikasi mengenai keselamatan dalam sistem penghantaran dan pengagihan tenaga elektrik dan penggunaan peralatan elektrik."
+      text_en: "Communicate about safety in the transmission and distribution system of electrical energy and the use of electrical appliances."
+      bloom: "understand"
+      content_standard_id: "6.3"
+    - id: "6.4.1"
+      text: "Mendefinisikan maksud kecekapan tenaga."
+      text_en: "Define the meaning of energy efficiency."
+      bloom: "remember"
+      content_standard_id: "6.4"
+    - id: "6.4.2"
+      text: "Menyenaraikan contoh teknologi yang berkonsepkan kecekapan tenaga."
+      text_en: "List examples of technologies that are energy efficient."
+      bloom: "remember"
+      content_standard_id: "6.4"
+    - id: "6.4.3"
+      text: "Menentukan jumlah penggunan tenaga elektrik dalam peralatan elektrik."
+      text_en: "Determine the total electrical energy usage in electrical appliances."
+      bloom: "apply"
+      content_standard_id: "6.4"
+    - id: "6.4.4"
+      text: "Menghubungkaitkan penggunaan tenaga elektrik, kuasa dan masa dengan mengira kos penggunaan tenaga elektrik peralatan elektrik."
+      text_en: "Relate electrical energy usage, power and time by calculating the cost of electrical energy usage of electrical appliances."
+      bloom: "apply"
+      content_standard_id: "6.4"
+    - id: "6.4.5"
+      text: "Membuat audit kos penggunaan tenaga elektrik rumah sebagai langkah penjimatan dalam penggunaan tenaga elektrik."
+      text_en: "Conduct an audit of household electrical energy usage costs as a step in saving electrical energy usage."
+      bloom: "apply"
+      content_standard_id: "6.4"
+    - id: "6.4.6"
+      text: "Berkomunikasi mengenai kaedah penjimatan penggunaan tenaga elektrik."
+      text_en: "Communicate about methods of saving electrical energy usage."
+      bloom: "understand"
+      content_standard_id: "6.4"
 prerequisites:
-  required: []
+    required: []
 quality_level: 1
 provenance: ai-generated
 generated_at: "2026-04-10T17:14:32Z"
 performance_standards:
-  - level: 1
-    id: "TP1"
-    text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai elektrik dan kemagnetan."
-    text_en: "Recall science knowledge and skills regarding electricity and magnetism."
-    descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai elektrik dan kemagnetan."
-    descriptor_en: "Recall science knowledge and skills regarding electricity and magnetism."
-  - level: 2
-    id: "TP2"
-    text: "Memahami elektrik dan kemagnetan dan dapat menjelaskan kefahaman tersebut."
-    text_en: "Understand electricity and magnetism and can explain the understanding."
-    descriptor: "Memahami elektrik dan kemagnetan dan dapat menjelaskan kefahaman tersebut."
-    descriptor_en: "Understand electricity and magnetism and can explain the understanding."
-  - level: 3
-    id: "TP3"
-    text: "Mengaplikasikan pengetahuan mengenai elektrik dan kemagnetan dan dapat melaksanakan tugasan mudah."
-    text_en: "Apply knowledge of electricity and magnetism and can carry out simple tasks."
-    descriptor: "Mengaplikasikan pengetahuan mengenai elektrik dan kemagnetan dan dapat melaksanakan tugasan mudah."
-    descriptor_en: "Apply knowledge of electricity and magnetism and can carry out simple tasks."
-  - level: 4
-    id: "TP4"
-    text: "Menganalisis pengetahuan mengenai elektrik dan kemagnetan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
-    text_en: "Analyze knowledge of electricity and magnetism in the context of problem solving regarding natural events or phenomena."
-    descriptor: "Menganalisis pengetahuan mengenai elektrik dan kemagnetan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
-    descriptor_en: "Analyze knowledge of electricity and magnetism in the context of problem solving regarding natural events or phenomena."
-  - level: 5
-    id: "TP5"
-    text: "Menilai pengetahuan mengenai elektrik dan kemagnetan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
-    text_en: "Evaluate knowledge of electricity and magnetism in the context of problem solving and make decisions to carry out a task."
-    descriptor: "Menilai pengetahuan mengenai elektrik dan kemagnetan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
-    descriptor_en: "Evaluate knowledge of electricity and magnetism in the context of problem solving and make decisions to carry out a task."
-  - level: 6
-    id: "TP6"
-    text: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai elektrik dan kemagnetan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
-    text_en: "Create using science knowledge and skills regarding electricity and magnetism in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
-    descriptor: "Merekacipta dengan menggunakan pengetahuan dan kemahiran sains mengenai elektrik dan kemagnetan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
-    descriptor_en: "Create using knowledge and scientific skills regarding electricity and magnetism in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai elektrik dan kemagnetan."
+      text_en: "Recall science knowledge and skills regarding electricity and magnetism."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai elektrik dan kemagnetan."
+      descriptor_en: "Recall science knowledge and skills regarding electricity and magnetism."
+    - level: 2
+      id: "TP2"
+      text: "Memahami elektrik dan kemagnetan dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand electricity and magnetism and can explain the understanding."
+      descriptor: "Memahami elektrik dan kemagnetan dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand electricity and magnetism and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai elektrik dan kemagnetan dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge of electricity and magnetism and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai elektrik dan kemagnetan dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge of electricity and magnetism and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai elektrik dan kemagnetan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge of electricity and magnetism in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai elektrik dan kemagnetan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge of electricity and magnetism in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai elektrik dan kemagnetan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge of electricity and magnetism in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai elektrik dan kemagnetan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge of electricity and magnetism in the context of problem solving and make decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai elektrik dan kemagnetan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills regarding electricity and magnetism in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
+      descriptor: "Merekacipta dengan menggunakan pengetahuan dan kemahiran sains mengenai elektrik dan kemagnetan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using knowledge and scientific skills regarding electricity and magnetism in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
 bloom_levels:
-  - remember
-  - understand
-  - apply
-  - analyze
+    - remember
+    - understand
+    - apply
+    - analyze
 mastery:
-  minimum_score: 0.75
-  assessment_count: 10
-  spaced_repetition:
-    initial_interval_days: 1
-    multiplier: 2.5
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
 cross_curriculum: []
 teaching:
-  sequence:
-    - Introduction to energy sources (renewable vs non-renewable)
-    - Understanding electricity generation processes
-    - Exploring current types (DC vs AC)
-    - Transformer construction and function
-    - Electrical transmission and distribution systems
-    - Home wiring and safety components
-    - Energy efficiency and cost calculation
-  common_misconceptions:
-    - misconception: "Students often confuse renewable and non-renewable energy sources."
-      remediation: "Use clear examples like solar/wind vs coal/oil and discuss sustainability."
-    - misconception: "Students may not understand the difference between step-up and step-down transformers."
-      remediation: "Use visual diagrams showing coil turns ratio and voltage changes."
-    - misconception: "Safety components like MCB and ELCB are often misunderstood."
-      remediation: "Demonstrate their functions and explain the consequences of bypassing them."
-  engagement_hooks:
-    - Discuss the impact of blackouts on daily life.
-    - Explore the cost of electricity bills at home.
-    - Investigate green energy technologies in the local community.
+    sequence:
+        - 'Step 1: Introduce renewable and non-renewable energy sources with examples (20 min)'
+        - 'Step 2: Explain energy generation from different sources using visual aids (25 min)'
+        - 'Step 3: Demonstrate the difference between direct and alternating current (15 min)'
+        - 'Step 4: Conduct a transformer experiment to understand voltage changes (30 min)'
+        - 'Step 5: Discuss safety measures in electrical systems and home wiring (20 min)'
+    common_misconceptions:
+        - misconception: All energy sources are renewable
+          remediation: Clarify the difference between renewable and non-renewable with examples
+        - misconception: Transformers generate energy
+          remediation: Explain that transformers only change voltage levels, not generate energy
 tier: "core"
-ai_teaching_notes: "teaching-notes/SC3-06.md"
-examples_file: "examples/SC3-06.yaml"
-assessments_file: "assessments/SC3-06.yaml"
+ai_teaching_notes: "SC3-06.teaching.md"
+examples_file: "SC3-06.examples.yaml"
+assessments_file: "SC3-06.assessments.yaml"
+engagement_hooks:
+    - Discuss the impact of local renewable energy projects in Malaysia
+    - Explore how electricity is essential in daily household activities

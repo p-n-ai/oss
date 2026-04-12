@@ -10,120 +10,117 @@ language: ms
 difficulty: intermediate
 theme: "Penerokaan Unsur Dalam Alam"
 content_standards:
-  - id: "4.1"
-    text: "Kepelbagaian mineral"
-    text_en: "Diversity of minerals"
-  - id: "4.2"
-    text: "Siri kereaktifan logam"
-    text_en: "Metal reactivity series"
-  - id: "4.3"
-    text: "Pengekstrakan logam daripada bijihnya"
-    text_en: "Extraction of metals from their ores"
+    - id: "4.1"
+      text: "Kepelbagaian mineral"
+      text_en: "Diversity of minerals"
+    - id: "4.2"
+      text: "Siri kereaktifan logam"
+      text_en: "Metal reactivity series"
+    - id: "4.3"
+      text: "Pengekstrakan logam daripada bijihnya"
+      text_en: "Extraction of metals from their ores"
 learning_objectives:
-  - id: "4.1.1"
-    text: "Menjelaskan dengan contoh kepelbagaian bentuk mineral dalam kerak bumi."
-    text_en: "Explain with examples the diversity of mineral forms in the earth's crust."
-    bloom: "understand"
-    content_standard_id: "4.1"
-  - id: "4.1.2"
-    text: "Mengenal pasti unsur yang terdapat dalam sebatian semula jadi."
-    text_en: "Identify elements found in natural compounds."
-    bloom: "remember"
-    content_standard_id: "4.1"
-  - id: "4.1.3"
-    text: "Menjelaskan dengan contoh ciri mineral semula jadi dengan kegunaan dalam kehidupan harian."
-    text_en: "Explain with examples of natural mineral characteristics and uses in daily life."
-    bloom: "understand"
-    content_standard_id: "4.1"
-  - id: "4.2.1"
-    text: "Membina siri kereaktifan logam berdasarkan tindak balas logam terhadap oksigen serta menulis persamaan perkataan bagi tindak balas tersebut."
-    text_en: "Construct the metal reactivity series based on metal reactions with oxygen and write word equations for the reactions."
-    bloom: "apply"
-    content_standard_id: "4.2"
-  - id: "4.2.2"
-    text: "Menentukan kedudukan karbon dan hidrogen dalam siri kereaktifan logam."
-    text_en: "Determine the position of carbon and hydrogen in the metal reactivity series."
-    bloom: "apply"
-    content_standard_id: "4.2"
-  - id: "4.3.1"
-    text: "Berkomunikasi dengan melukis pengesktrakan logam daripada bijihnya."
-    text_en: "Communicate by drawing the extraction of metals from their ores."
-    bloom: "understand"
-    content_standard_id: "4.3"
-  - id: "4.3.2"
-    text: "Menjana idea untuk menyelesaikan masalah kesan buruk daripada aktiviti perlombongan yang tidak dirancang dengan baik kepada semua kehidupan di Bumi."
-    text_en: "Generate ideas to solve problems of adverse effects from poorly planned mining activities on all life on Earth."
-    bloom: "create"
-    content_standard_id: "4.3"
+    - id: "4.1.1"
+      text: "Menjelaskan dengan contoh kepelbagaian bentuk mineral dalam kerak bumi."
+      text_en: "Explain with examples the diversity of mineral forms in the earth's crust."
+      bloom: "understand"
+      content_standard_id: "4.1"
+    - id: "4.1.2"
+      text: "Mengenal pasti unsur yang terdapat dalam sebatian semula jadi."
+      text_en: "Identify elements found in natural compounds."
+      bloom: "remember"
+      content_standard_id: "4.1"
+    - id: "4.1.3"
+      text: "Menjelaskan dengan contoh ciri mineral semula jadi dengan kegunaan dalam kehidupan harian."
+      text_en: "Explain with examples of natural mineral characteristics and uses in daily life."
+      bloom: "understand"
+      content_standard_id: "4.1"
+    - id: "4.2.1"
+      text: "Membina siri kereaktifan logam berdasarkan tindak balas logam terhadap oksigen serta menulis persamaan perkataan bagi tindak balas tersebut."
+      text_en: "Construct the metal reactivity series based on metal reactions with oxygen and write word equations for the reactions."
+      bloom: "apply"
+      content_standard_id: "4.2"
+    - id: "4.2.2"
+      text: "Menentukan kedudukan karbon dan hidrogen dalam siri kereaktifan logam."
+      text_en: "Determine the position of carbon and hydrogen in the metal reactivity series."
+      bloom: "apply"
+      content_standard_id: "4.2"
+    - id: "4.3.1"
+      text: "Berkomunikasi dengan melukis pengesktrakan logam daripada bijihnya."
+      text_en: "Communicate by drawing the extraction of metals from their ores."
+      bloom: "understand"
+      content_standard_id: "4.3"
+    - id: "4.3.2"
+      text: "Menjana idea untuk menyelesaikan masalah kesan buruk daripada aktiviti perlombongan yang tidak dirancang dengan baik kepada semua kehidupan di Bumi."
+      text_en: "Generate ideas to solve problems of adverse effects from poorly planned mining activities on all life on Earth."
+      bloom: "create"
+      content_standard_id: "4.3"
 prerequisites:
-  required: []
+    required: []
 quality_level: 1
 provenance: ai-generated
 generated_at: "2026-04-10T17:14:32Z"
 performance_standards:
-  - level: 1
-    id: "TP1"
-    text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai kereaktifan logam."
-    text_en: "Recall science knowledge and skills regarding metal reactivity."
-    descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai kereaktifan logam."
-    descriptor_en: "Recall science knowledge and skills regarding metal reactivity."
-  - level: 2
-    id: "TP2"
-    text: "Memahami kereaktifan logam serta dapat menjelaskan kefahaman tersebut."
-    text_en: "Understand metal reactivity and can explain the understanding."
-    descriptor: "Memahami kereaktifan logam serta dapat menjelaskan kefahaman tersebut."
-    descriptor_en: "Understand metal reactivity and can explain the understanding."
-  - level: 3
-    id: "TP3"
-    text: "Mengaplikasikan pengetahuan mengenai kereaktifan logam dan dapat melaksanakan tugasan mudah."
-    text_en: "Apply knowledge of metal reactivity and can carry out simple tasks."
-    descriptor: "Mengaplikasikan pengetahuan mengenai kereaktifan logam dan dapat melaksanakan tugasan mudah."
-    descriptor_en: "Apply knowledge of metal reactivity and can carry out simple tasks."
-  - level: 4
-    id: "TP4"
-    text: "Menganalisis pengetahuan mengenai kereaktifan logam dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
-    text_en: "Analyze knowledge of metal reactivity in the context of problem solving regarding natural events or phenomena."
-    descriptor: "Menganalisis pengetahuan mengenai kereaktifan logam dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
-    descriptor_en: "Analyze knowledge of metal reactivity in the context of problem solving regarding natural events or phenomena."
-  - level: 5
-    id: "TP5"
-    text: "Menilai pengetahuan mengenai kereaktifan logam dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
-    text_en: "Evaluate knowledge of metal reactivity in the context of problem solving and make decisions to carry out a task."
-    descriptor: "Menilai pengetahuan mengenai kereaktifan logam dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
-    descriptor_en: "Evaluate knowledge of metal reactivity in the context of problem solving and make decisions to carry out a task."
-  - level: 6
-    id: "TP6"
-    text: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai kereaktifan logam dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ ekonomi/ budaya masyarakat."
-    text_en: "Create using science knowledge and skills regarding metal reactivity in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
-    descriptor: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai kereaktifan logam dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ ekonomi/ budaya masyarakat."
-    descriptor_en: "Create using science knowledge and skills regarding metal reactivity in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai kereaktifan logam."
+      text_en: "Recall science knowledge and skills regarding metal reactivity."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai kereaktifan logam."
+      descriptor_en: "Recall science knowledge and skills regarding metal reactivity."
+    - level: 2
+      id: "TP2"
+      text: "Memahami kereaktifan logam serta dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand metal reactivity and can explain the understanding."
+      descriptor: "Memahami kereaktifan logam serta dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand metal reactivity and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai kereaktifan logam dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge of metal reactivity and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai kereaktifan logam dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge of metal reactivity and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai kereaktifan logam dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge of metal reactivity in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai kereaktifan logam dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge of metal reactivity in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai kereaktifan logam dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge of metal reactivity in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai kereaktifan logam dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge of metal reactivity in the context of problem solving and make decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai kereaktifan logam dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ ekonomi/ budaya masyarakat."
+      text_en: "Create using science knowledge and skills regarding metal reactivity in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
+      descriptor: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai kereaktifan logam dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ ekonomi/ budaya masyarakat."
+      descriptor_en: "Create using science knowledge and skills regarding metal reactivity in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
 mastery:
-  minimum_score: 0.75
-  assessment_count: 10
-  spaced_repetition:
-    initial_interval_days: 1
-    multiplier: 2.5
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
 teaching:
-  sequence:
-    - Mineral diversity and uses
-    - Metal reactivity series construction
-    - Metal extraction methods
-    - Environmental impact of mining
-  common_misconceptions:
-    - misconception: "Students think all metals react the same way."
-      remediation: "Demonstrate different metals reacting with oxygen."
-    - misconception: "Students think extraction is simple digging."
-      remediation: "Explain chemical processes involved in extraction."
-  engagement_hooks:
-    - Uses of metals in daily life
-    - Environmental impact of mining
+    sequence:
+        - Introduction to mineral diversity with examples (20 min)
+        - 'Hands-on activity: Constructing the metal reactivity series (30 min)'
+        - Discussion on metal extraction processes (25 min)
+    common_misconceptions:
+        - misconception: All metals react with acids.
+          remediation: Use examples like gold and platinum that don't react.
+        - misconception: Mining is solely harmful.
+          remediation: Discuss sustainable practices and economic benefits.
 bloom_levels:
-  - understand
-  - apply
-  - remember
-  - create
+    - understand
+    - apply
+    - remember
+    - create
 engagement_hooks:
-  - Uses of metals in daily life
-  - Environmental impact of mining
+    - Discuss local mining industries and their economic contributions.
+    - Explore how reactivity affects metal use in everyday life, like corrosion prevention.
 ai_teaching_notes: "SC3-04.teaching.md"
 assessments_file: "SC3-04.assessments.yaml"
+examples_file: SC3-04.examples.yaml

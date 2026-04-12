@@ -1,0 +1,134 @@
+topic_id: "SC3-10"
+provenance: "ai-generated"
+questions:
+    # Group by learning objective 10.1.1
+    - id: "Q1"
+      text: 'Jelaskan bagaimana model heliosentrik oleh Copernicus berbeza dengan model geosentrik sebelum ini.'
+      difficulty: "medium"
+      learning_objective: "10.1.1"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Model heliosentrik meletakkan Matahari di pusat Sistem Suria, manakala model geosentrik meletakkan Bumi di pusat.'
+        working: |
+            Model heliosentrik dicadangkan oleh Copernicus, menunjukkan bahawa Matahari adalah pusat Sistem Suria. Ini berbeza dengan model geosentrik yang meletakkan Bumi sebagai pusat, seperti yang diajarkan oleh Ptolemy.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menyatakan bahawa model heliosentrik meletakkan Matahari di pusat."
+        - marks: 2
+          criteria: "Menjelaskan perbezaan dengan model geosentrik."
+      hints:
+        - level: 1
+          text: "Pertimbangkan kedudukan Matahari dan Bumi dalam kedua-dua model."
+        - level: 2
+          text: "MISCONCEPTION ALERT: Banyak yang keliru bahawa kedua-dua model meletakkan Matahari sebagai pusat."
+    # Group by learning objective 10.2.1
+    - id: "Q2"
+      text: 'Apakah kesan positif perkembangan teknologi dalam penerokaan angkasa lepas terhadap kehidupan seharian kita?'
+      difficulty: "medium"
+      learning_objective: "10.2.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Komunikasi satelit, ramalan cuaca yang lebih tepat, dan peningkatan teknologi bahan.'
+        working: |
+            Teknologi angkasa lepas telah membawa kepada inovasi dalam komunikasi melalui satelit, membolehkan panggilan antarabangsa dan GPS. Ramalan cuaca menjadi lebih tepat dengan bantuan satelit cuaca, dan teknologi bahan seperti Teflon dan memori busa berasal dari penyelidikan angkasa.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Mengaitkan teknologi angkasa dengan komunikasi satelit."
+        - marks: 2
+          criteria: "Menerangkan peranan satelit dalam ramalan cuaca."
+        - marks: 1
+          criteria: "Menyebut inovasi bahan dari penyelidikan angkasa."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang komunikasi dan ramalan cuaca."
+        - level: 2
+          text: "MISCONCEPTION ALERT: Bukan semua teknologi angkasa lepas hanya untuk penerokaan angkasa."
+    # Group by learning objective 10.2.2
+    - id: "Q3"
+      text: 'Mengapakah usaha penerokaan angkasa lepas perlu diteruskan walaupun kos yang tinggi?'
+      difficulty: "medium"
+      learning_objective: "10.2.2"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Penerokaan angkasa lepas membantu kita memahami alam semesta, meningkatkan teknologi, dan mencari sumber baru.'
+        working: |
+            Walaupun kosnya tinggi, penerokaan angkasa membolehkan kita mendapatkan pengetahuan baru mengenai asal usul alam semesta dan potensi kehidupan di planet lain. Ia juga mendorong kemajuan teknologi yang boleh digunakan di bumi dan membuka peluang untuk mencari sumber baru yang boleh menyokong kehidupan manusia.
+      marks: 6
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan keperluan untuk memahami alam semesta."
+        - marks: 2
+          criteria: "Mengaitkan penerokaan angkasa lepas dengan kemajuan teknologi."
+        - marks: 2
+          criteria: "Menyebut potensi penemuan sumber baru."
+      hints:
+        - level: 1
+          text: "Pertimbangkan pengetahuan dan teknologi."
+        - level: 2
+          text: "MISCONCEPTION ALERT: Penerokaan angkasa bukan hanya tentang pergi ke planet lain."
+    # Group by learning objective 10.2.1
+    - id: "Q4"
+      text: 'Pilih pernyataan yang betul tentang sumbangan teknologi angkasa lepas.'
+      difficulty: "medium"
+      learning_objective: "10.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: 'C'
+        working: |
+            Sumbangan teknologi angkasa lepas termasuk inovasi dalam komunikasi satelit dan ramalan cuaca. Pilihan C mengaitkan dengan tepat manfaat teknologi angkasa lepas kepada kehidupan seharian.
+        options:
+            A: 'Semua teknologi angkasa lepas hanya digunakan dalam penerokaan angkasa.'
+            B: 'Teknologi angkasa lepas tidak memberi kesan kepada ramalan cuaca.'
+            C: 'Teknologi angkasa lepas menyumbang kepada komunikasi satelit dan ramalan cuaca yang lebih tepat.'
+            D: 'Teknologi angkasa lepas hanya memberi manfaat kepada astronaut.'
+        distractors:
+            - value: 'A'
+              feedback: "Teknologi angkasa lepas digunakan dalam banyak aspek kehidupan seharian, bukan hanya penerokaan angkasa."
+            - value: 'B'
+              feedback: "Satelit angkasa memainkan peranan penting dalam ramalan cuaca."
+            - value: 'D'
+              feedback: "Manfaat teknologi angkasa lepas dirasai dalam kehidupan harian masyarakat umum, bukan hanya astronaut."
+      marks: 3
+      rubric:
+        - marks: 3
+          criteria: "Memilih pernyataan yang betul tentang sumbangan teknologi angkasa lepas."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang penggunaan satelit."
+        - level: 2
+          text: "Ramalan cuaca melibatkan teknologi angkasa."
+    # Group by learning objective 10.2.2
+    - id: "Q5"
+      text: 'Bincangkan cabaran utama yang dihadapi dalam penerokaan angkasa lepas.'
+      difficulty: "medium"
+      learning_objective: "10.2.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Kos yang tinggi, risiko keselamatan, dan kemajuan teknologi yang diperlukan.'
+        working: |
+            Penerokaan angkasa lepas menghadapi cabaran seperti kos yang sangat tinggi yang memerlukan pelaburan besar. Risiko keselamatan untuk astronaut juga perlu diambil kira. Tambahan pula, teknologi canggih dan inovatif diperlukan untuk memudahkan penerokaan yang lebih jauh dan selamat.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan tentang kos yang tinggi."
+        - marks: 2
+          criteria: "Menyatakan risiko keselamatan."
+        - marks: 1
+          criteria: "Menyebut keperluan teknologi canggih."
+      hints:
+        - level: 1
+          text: "Pertimbangkan aspek kewangan dan keselamatan."
+        - level: 2
+          text: "MISCONCEPTION ALERT: Cabaran bukan hanya tentang kos tetapi juga keselamatan dan teknologi."

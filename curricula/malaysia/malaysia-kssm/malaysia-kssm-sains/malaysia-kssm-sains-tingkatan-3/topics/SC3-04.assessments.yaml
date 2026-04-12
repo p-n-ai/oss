@@ -1,0 +1,126 @@
+topic_id: "SC3-04"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 4.1.1
+    - id: "Q01"
+      text: 'Apakah contoh bentuk mineral yang boleh ditemui dalam kerak bumi? Nyatakan dua daripadanya.'
+      difficulty: "medium"
+      learning_objective: "4.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Contoh mineral adalah kuarza dan feldspar.'
+        working: |
+            Contoh mineral yang boleh didapati di kerak bumi termasuk kuarza yang banyak digunakan dalam pembuatan kaca dan feldspar yang digunakan dalam industri keramik.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Nyatakan satu contoh mineral dengan betul."
+        - marks: 2
+          criteria: "Nyatakan dua contoh mineral dengan betul."
+      hints:
+        - level: 1
+          text: "Fikirkan mineral yang biasa digunakan dalam industri harian."
+        - level: 2
+          text: "Salah satu mineral digunakan dalam pembuatan kaca."
+    # Learning Objective 4.1.2
+    - id: "Q02"
+      text: 'Antara berikut, yang manakah merupakan unsur yang terdapat dalam sebatian semula jadi? A) Neon B) Aluminium C) Radon D) Helium'
+      difficulty: "medium"
+      learning_objective: "4.1.2"
+      tp_level: 2
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "B"
+        working: |
+            Aluminium adalah unsur yang sering ditemui dalam sebatian semula jadi seperti bauksit, yang merupakan sumber utama aluminium.
+        options:
+            A: Neon
+            B: Aluminium
+            C: Radon
+            D: Helium
+        distractors:
+            - value: "A"
+              feedback: "Neon adalah gas lengai dan tidak biasa ditemui dalam sebatian semula jadi."
+            - value: "C"
+              feedback: "Radon adalah gas radioaktif yang tidak stabil dan jarang ditemui dalam bentuk sebatian semula jadi."
+            - value: "D"
+              feedback: "Helium adalah gas lengai dan tidak membentuk sebatian semula jadi."
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Jawapan yang betul dengan pilihan B."
+      hints:
+        - level: 1
+          text: "Unsur ini adalah logam yang digunakan dalam industri pembuatan."
+        - level: 2
+          text: "Ia adalah unsur yang biasa ditemui dalam bauksit."
+    # Learning Objective 4.2.1
+    - id: "Q03"
+      text: 'Tulis persamaan perkataan bagi tindak balas antara magnesium dan oksigen.'
+      difficulty: "medium"
+      learning_objective: "4.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: 'Magnesium + Oksigen → Magnesium oksida'
+        working: |
+            Apabila magnesium bertindak balas dengan oksigen, ia membentuk magnesium oksida. Persamaan perkataan ialah: Magnesium + Oksigen → Magnesium oksida.
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Menulis persamaan perkataan dengan betul."
+      hints:
+        - level: 1
+          text: "Fikirkan produk akhir apabila logam bertindak balas dengan oksigen."
+        - level: 2
+          text: "Magnesium bertindak balas dengan oksigen membentuk sebatian yang digunakan dalam industri bahan bangunan."
+    # Learning Objective 4.2.2
+    - id: "Q04"
+      text: 'Di manakah kedudukan karbon dalam siri kereaktifan logam berbanding zink dan besi?'
+      difficulty: "medium"
+      learning_objective: "4.2.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Karbon terletak antara zink dan besi dalam siri kereaktifan.'
+        working: |
+            Dalam siri kereaktifan logam, karbon berada di antara zink dan besi. Ini bermakna karbon boleh mengurangkan oksida besi tetapi tidak oksida zink.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan kedudukan karbon secara umum."
+        - marks: 3
+          criteria: "Menjelaskan kedudukan karbon dengan betul berbanding zink dan besi."
+      hints:
+        - level: 1
+          text: "Pertimbangkan kebolehan karbon untuk mengurangkan oksida logam."
+        - level: 2
+          text: "Karbon lebih reaktif daripada besi tetapi kurang reaktif daripada zink."
+    # Learning Objective 4.3.1
+    - id: "Q05"
+      text: 'Lukiskan dan terangkan proses pengesktrakan logam daripada bijihnya menggunakan kaedah elektrolisis.'
+      difficulty: "medium"
+      learning_objective: "4.3.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Proses elektrolisis melibatkan penggunaan arus elektrik untuk mengurai sebatian logam kepada unsur aslinya.'
+        working: |
+            Dalam proses elektrolisis, arus elektrik dialirkan melalui larutan elektrolit yang mengandungi bijih logam. Ion logam bergerak ke katod di mana ia dikurangkan kepada logam tulen.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Melukis gambarajah asas proses elektrolisis."
+        - marks: 3
+          criteria: "Menerangkan proses elektrolisis dengan betul."
+      hints:
+        - level: 1
+          text: "Fokus pada peranan arus elektrik dalam proses ini."
+        - level: 2
+          text: "Pertimbangkan bagaimana ion logam berubah menjadi logam tulen pada katod."

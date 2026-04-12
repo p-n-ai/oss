@@ -1,0 +1,48 @@
+topic_id: "SC3-07"
+provenance: "ai-generated"
+description: "Worked examples for Tenaga dan Kuasa"
+worked_examples:
+    - id: "WE-01"
+      topic: "Menentukan kerja dan menyelesaikan masalah berkaitan tenaga"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "7.1.1"
+      real_world_analogy: "Pushing a shopping cart to a specific distance at the supermarket."
+      misconception_alert: "Students often confuse the amount of force applied with the work done, not considering the distance moved."
+      scenario: "Calculate the work done when a force of 10 N is applied to push a trolley for a distance of 5 meters."
+      working: |
+        Step 1: Identify the formula for work, which is $W = F \times d$, where $W$ is the work done, $F$ is the force applied, and $d$ is the distance.
+        Step 2: Substitute the given values into the formula: $W = 10 \, \text{N} \times 5 \, \text{m}$.
+        Step 3: Calculate the work done: $W = 50 \, \text{Joules}$.
+        Therefore, the work done is 50 Joules.
+    - id: "WE-02"
+      topic: "Menghubungkaitkan kuasa dengan kerja"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "7.1.2"
+      real_world_analogy: "Comparing two people climbing a staircase, one quickly and one slowly, to understand power."
+      misconception_alert: "Confusing power with just the amount of work without considering time."
+      scenario: "A motor does 2000 J of work in 10 seconds. Calculate the power output of the motor."
+      working: |
+        Step 1: Understand that power is the rate at which work is done, given by the formula $P = \frac{W}{t}$, where $P$ is power, $W$ is work, and $t$ is time.
+        Step 2: Substitute the given values into the formula: $P = \frac{2000 \, \text{J}}{10 \, \text{s}}$.
+        Step 3: Calculate the power: $P = 200 \, \text{W}$.
+        Therefore, the power output of the motor is 200 Watts.
+    - id: "WE-03"
+      topic: "Menjelaskan dengan contoh Prinsip Keabadian Tenaga"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "7.3.1"
+      real_world_analogy: "A pendulum swinging back and forth without any external energy input."
+      misconception_alert: "Believing energy can be lost or destroyed in an isolated system."
+      scenario: "Explain how the principle of conservation of energy applies to a roller coaster moving from the top of a hill to the bottom."
+      working: |-
+        Step 1: Recognize that the principle of conservation of energy states that energy cannot be created or destroyed, only transformed.
+        Step 2: At the top of the hill, the roller coaster has maximum potential energy and minimal kinetic energy.
+        Step 3: As it descends, potential energy is converted into kinetic energy, increasing the speed.
+        Step 4: At the bottom, potential energy is at its minimum, while kinetic energy is at its maximum.
+        Step 5: Throughout the motion, the total energy (potential + kinetic) remains constant if we ignore air resistance and friction.
+        Therefore, the principle of conservation of energy explains the energy transformation in the roller coaster's motion.

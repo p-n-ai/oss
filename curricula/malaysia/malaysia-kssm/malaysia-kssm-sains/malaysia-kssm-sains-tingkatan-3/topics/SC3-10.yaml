@@ -10,94 +10,92 @@ language: ms
 difficulty: intermediate
 theme: "Penerokaan Bumi Dan Angkasa Lepas"
 content_standards:
-  - id: "10.1"
-    text: "Perkembangan dalam astronomi"
-    text_en: "Development in astronomy"
-  - id: "10.2"
-    text: "Perkembangan teknologi dan aplikasinya dalam penerokaan angkasa lepas"
-    text_en: "Development of technology and its application in space exploration"
+    - id: "10.1"
+      text: "Perkembangan dalam astronomi"
+      text_en: "Development in astronomy"
+    - id: "10.2"
+      text: "Perkembangan teknologi dan aplikasinya dalam penerokaan angkasa lepas"
+      text_en: "Development of technology and its application in space exploration"
 learning_objectives:
-  - id: "10.1.1"
-    text: "Menerangkan dengan lakaran mengenai perkembangan sejarah model Sistem Suria."
-    text_en: "Explain with sketches about the historical development of the Solar System model."
-    bloom: "understand"
-    content_standard_id: "10.1"
-  - id: "10.2.1"
-    text: "Berkomunikasi mengenai kepentingan perkembangan teknologi dan aplikasinya dalam penerokaan angkasa lepas."
-    text_en: "Communicate about the importance of technological development and its application in space exploration."
-    bloom: "understand"
-    content_standard_id: "10.2"
-  - id: "10.2.2"
-    text: "Mewajarkan keperluan meneruskan penerokaan angkasa lepas."
-    text_en: "Justify the need to continue space exploration."
-    bloom: "evaluate"
-    content_standard_id: "10.2"
+    - id: "10.1.1"
+      text: "Menerangkan dengan lakaran mengenai perkembangan sejarah model Sistem Suria."
+      text_en: "Explain with sketches about the historical development of the Solar System model."
+      bloom: "understand"
+      content_standard_id: "10.1"
+    - id: "10.2.1"
+      text: "Berkomunikasi mengenai kepentingan perkembangan teknologi dan aplikasinya dalam penerokaan angkasa lepas."
+      text_en: "Communicate about the importance of technological development and its application in space exploration."
+      bloom: "understand"
+      content_standard_id: "10.2"
+    - id: "10.2.2"
+      text: "Mewajarkan keperluan meneruskan penerokaan angkasa lepas."
+      text_en: "Justify the need to continue space exploration."
+      bloom: "evaluate"
+      content_standard_id: "10.2"
 prerequisites:
-  required: []
+    required: []
 quality_level: 1
 provenance: ai-generated
 generated_at: "2026-04-10T17:14:32Z"
 performance_standards:
-  - level: 1
-    id: "TP1"
-    text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai penerokaan angkasa lepas."
-    text_en: "Recall science knowledge and skills regarding space exploration."
-    descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai penerokaan angkasa lepas."
-    descriptor_en: "Recall science knowledge and skills regarding space exploration."
-  - level: 2
-    id: "TP2"
-    text: "Memahami penerokaan angkasa lepas dan dapat menjelaskan kefahaman tersebut."
-    text_en: "Understand space exploration and can explain the understanding."
-    descriptor: "Memahami penerokaan angkasa lepas dan dapat menjelaskan kefahaman tersebut."
-    descriptor_en: "Understand space exploration and can explain the understanding."
-  - level: 3
-    id: "TP3"
-    text: "Mengaplikasikan pengetahuan mengenai penerokaan angkasa lepas dan dapat melaksanakan tugasan mudah."
-    text_en: "Apply knowledge of space exploration and can carry out simple tasks."
-    descriptor: "Mengaplikasikan pengetahuan mengenai penerokaan angkasa lepas dan dapat melaksanakan tugasan mudah."
-    descriptor_en: "Apply knowledge of space exploration and can carry out simple tasks."
-  - level: 4
-    id: "TP4"
-    text: "Menganalisis pengetahuan mengenai penerokaan angkasa lepas dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
-    text_en: "Analyze knowledge of space exploration in the context of problem solving regarding natural events or phenomena."
-    descriptor: "Menganalisis pengetahuan mengenai penerokaan angkasa lepas dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
-    descriptor_en: "Analyze knowledge of space exploration in the context of problem solving regarding natural events or phenomena."
-  - level: 5
-    id: "TP5"
-    text: "Menilai pengetahuan mengenai penerokaan angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
-    text_en: "Evaluate knowledge of space exploration in the context of problem solving and make decisions to carry out a task."
-    descriptor: "Menilai pengetahuan mengenai penerokaan angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
-    descriptor_en: "Evaluate knowledge of space exploration in the context of problem solving and make decisions to carry out a task."
-  - level: 6
-    id: "TP6"
-    text: "Merekacipta dengan menggunakan pengetahuan dan kemahiran sains mengenai penerokaan angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
-    text_en: "Create using science knowledge and skills regarding space exploration in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
-    descriptor: "Merekacipta dengan menggunakan pengetahuan dan kemahiran sains mengenai penerokaan angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
-    descriptor_en: "Create using science knowledge and skills regarding space exploration in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai penerokaan angkasa lepas."
+      text_en: "Recall science knowledge and skills regarding space exploration."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai penerokaan angkasa lepas."
+      descriptor_en: "Recall science knowledge and skills regarding space exploration."
+    - level: 2
+      id: "TP2"
+      text: "Memahami penerokaan angkasa lepas dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand space exploration and can explain the understanding."
+      descriptor: "Memahami penerokaan angkasa lepas dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand space exploration and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai penerokaan angkasa lepas dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge of space exploration and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai penerokaan angkasa lepas dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge of space exploration and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai penerokaan angkasa lepas dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge of space exploration in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai penerokaan angkasa lepas dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge of space exploration in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai penerokaan angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge of space exploration in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai penerokaan angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge of space exploration in the context of problem solving and make decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Merekacipta dengan menggunakan pengetahuan dan kemahiran sains mengenai penerokaan angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills regarding space exploration in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
+      descriptor: "Merekacipta dengan menggunakan pengetahuan dan kemahiran sains mengenai penerokaan angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using science knowledge and skills regarding space exploration in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively by considering social/economic/cultural values of society."
 mastery:
-  minimum_score: 0.75
-  assessment_count: 10
-  spaced_repetition:
-    initial_interval_days: 1
-    multiplier: 2.5
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
 teaching:
-  sequence:
-    - History of solar system models
-    - Space technology development
-    - Future of space exploration
-  common_misconceptions:
-    - misconception: "Students think space exploration is only for scientists."
-      remediation: "Discuss benefits to daily life (GPS, satellites)."
-    - misconception: "Students think planets are evenly spaced."
-      remediation: "Use scale models to show actual distances."
-  engagement_hooks:
-    - Mars colonization plans
-    - Satellite technology in daily life
+    sequence:
+        - 'Step 1: Introduce historical models of the Solar System with visuals (20 min)'
+        - 'Step 2: Discuss technological milestones in space exploration using videos (25 min)'
+        - 'Step 3: Facilitate a debate on the need for continuous space exploration (15 min)'
+    common_misconceptions:
+        - misconception: Space exploration is only about going to the moon.
+          remediation: Highlight missions like Mars rovers and satellite launches.
+        - misconception: Only astronauts explore space.
+          remediation: Explain the roles of satellites and unmanned probes.
 bloom_levels:
-  - understand
-  - evaluate
+    - understand
+    - evaluate
 engagement_hooks:
-  - Mars colonization plans
-  - Satellite technology in daily life
+    - Discuss Malaysia's Angkasawan program to create a personal connection.
+    - Explore the impact of space technology on everyday life, like GPS and weather forecasting.
 ai_teaching_notes: "SC3-10.teaching.md"
 assessments_file: "SC3-10.assessments.yaml"
+examples_file: SC3-10.examples.yaml
