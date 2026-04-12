@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/p-n-ai/oss/schema/syllabus.schema.json",
+  "title": "Syllabus",
+  "description": "Top-level qualification or curriculum specification",
+  "type": "object",
+  "required": ["id", "name", "board", "level", "code", "version", "subjects"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique syllabus identifier (e.g., malaysia-kssm-matematik-tingkatan1)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full syllabus name in the primary language"
+    },
+    "board": {
+      "type": "string",
+      "description": "Curriculum board or country (e.g., malaysia, cambridge)"
+    },
+    "level": {
+      "type": "string",
+      "description": "Education level or framework (e.g., kssm, igcse)"
+    },
+    "code": {
+      "type": "string",
+      "description": "Official subject code or identifier from the curriculum board"
+    },
+    "version": {
+      "type": "string",
+      "description": "Syllabus version or year range (e.g., 2017, 2025-2027)"
+    },
+    "subjects": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of subject IDs belonging to this syllabus"
+    },
+    "assessment": {
+      "type": "object",
+      "description": "Assessment structure for this syllabus including components and their weightings",
+      "properties": {
+        "components": {
+          "type": "array",
+          "description": "List of assessment components (e.g., Paper 1, Paper 2, Coursework)",
+          "items": {
+            "type": "object",
+            "required": ["name", "weight"],
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Name of the assessment component (e.g., Paper 1, Coursework)"
+              },
+              "weight": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1,
+                "description": "Weighting of this component as a decimal (0-1), all components should sum to 1"
+              },
+              "duration_minutes": {
+                "type": "integer",
+                "minimum": 1,
+                "description": "Duration of this assessment component in minutes"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "grading": {
+      "type": "object",
+      "description": "Grading system used for this syllabus",
+      "properties": {
+        "scale": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Ordered list of grade labels from highest to lowest (e.g., [A*, A, B, C, D, E, U])"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
