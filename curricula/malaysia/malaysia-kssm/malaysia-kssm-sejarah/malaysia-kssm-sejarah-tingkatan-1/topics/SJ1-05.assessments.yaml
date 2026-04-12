@@ -1,0 +1,129 @@
+topic_id: "SJ1-05"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 4.1.3: Menjelaskan ciri-ciri tamadun awal dunia
+    - id: "Q01"
+      text: 'Apakah ciri utama yang membezakan tamadun awal dengan masyarakat prasejarah?'
+      difficulty: "medium"
+      learning_objective: "4.1.3"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Kehadiran sistem pemerintahan, kewujudan kota, dan penggunaan tulisan.'
+        working: |
+            Tamadun awal dunia berbeza daripada masyarakat prasejarah kerana mereka mempunyai struktur sosial yang lebih kompleks, termasuk sistem pemerintahan, kota, dan tulisan.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan kehadiran sistem pemerintahan."
+        - marks: 1
+          criteria: "Menyatakan kewujudan kota."
+        - marks: 1
+          criteria: "Menjelaskan penggunaan tulisan."
+      hints:
+        - level: 1
+          text: "Pertimbangkan aspek sosial dan teknologi yang berkembang."
+        - level: 2
+          text: "Fokus pada elemen yang tidak wujud dalam masyarakat prasejarah."
+    # Learning Objective 4.1.4: Membincangkan empat lokasi pembentukan tamadun awal dunia
+    - id: "Q02"
+      text: 'Nyatakan empat lokasi utama di mana tamadun awal dunia terbentuk dan bincangkan satu ciri unik dari setiap lokasi.'
+      difficulty: "medium"
+      learning_objective: "4.1.4"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Mesopotamia, Mesir, Lembah Indus, dan China.'
+        working: |
+            1. Mesopotamia: Sistem pengairan yang kompleks.
+            2. Mesir: Pembangunan piramid sebagai makam firaun.
+            3. Lembah Indus: Reka bentuk bandar yang terancang.
+            4. China: Penggunaan kertas dan dakwat.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menamakan semua empat lokasi."
+        - marks: 1
+          criteria: "Menghuraikan ciri unik Mesopotamia."
+        - marks: 1
+          criteria: "Menghuraikan ciri unik Mesir."
+        - marks: 1
+          criteria: "Menghuraikan ciri unik Lembah Indus dan China."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang kawasan yang sering dikaitkan dengan tamadun besar."
+        - level: 2
+          text: "Pertimbangkan inovasi atau struktur yang terkenal dari setiap lokasi."
+    # Learning Objective 4.1.5: Membandingkan sumbangan tamadun awal dunia
+    - id: "Q03"
+      text: "Bandingkan sumbangan tamadun Mesopotamia dan tamadun Mesir kepada pembangunan manusia."
+      difficulty: "medium"
+      learning_objective: "4.1.5"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Mesopotamia: Penulisan Cuneiform; Mesir: Kalendar dan perubatan.'
+        working: |
+            Mesopotamia menyumbang kepada pembangunan manusia dengan penemuan penulisan cuneiform yang memudahkan rekod dan komunikasi. Mesir menyumbang melalui kalendar yang membantu pertanian dan perubatan yang meningkatkan penjagaan kesihatan.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menerangkan sumbangan Mesopotamia dengan jelas."
+        - marks: 2
+          criteria: "Menerangkan sumbangan Mesir dengan jelas."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang aspek penulisan dan pengurusan masa."
+        - level: 2
+          text: "Pertimbangkan elemen yang berkaitan dengan pengetahuan sains."
+    # Learning Objective 4.1.8: Menjelaskan keperluan menghargai sumbangan tamadun awal dunia dalam kehidupan manusia
+    - id: "Q04"
+      text: "Mengapa penting untuk menghargai sumbangan tamadun awal dunia dalam kehidupan kita hari ini?"
+      difficulty: "medium"
+      learning_objective: "4.1.8"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Memahami asal usul kemajuan teknologi dan sosial kita serta menilai perkembangan sejarah.'
+        working: |
+            Menghargai sumbangan tamadun awal membantu kita memahami bagaimana banyak aspek kehidupan moden kita berkembang, termasuk teknologi, sistem sosial, dan budaya. Ini juga membolehkan kita menilai dan belajar daripada sejarah untuk pembangunan masa depan.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan kepentingan dalam konteks teknologi."
+        - marks: 1
+          criteria: "Menjelaskan kepentingan dalam konteks sosial."
+        - marks: 1
+          criteria: "Menjelaskan kepentingan dalam konteks budaya."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bagaimana inovasi awal masih mempengaruhi kita."
+        - level: 2
+          text: "Fikirkan tentang nilai pelajaran sejarah untuk masa depan."
+    # Learning Objective 4.1.9: Membincangkan kepentingan sumbangan tamadun awal dunia sebagai pencetus inovasi
+    - id: "Q05"
+      text: "Bagaimana sumbangan tamadun awal dunia menjadi pencetus kepada inovasi kini?"
+      difficulty: "medium"
+      learning_objective: "4.1.9"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Sumbangan seperti penulisan dan matematik membentuk asas bagi perkembangan ilmu pengetahuan dan teknologi moden.'
+        working: |
+            Tamadun awal memperkenalkan konsep penulisan dan matematik yang menjadi asas kepada banyak inovasi moden. Penulisan membolehkan penyebaran ilmu, manakala matematik membentuk asas bagi sains dan teknologi.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan peranan penulisan dalam inovasi."
+        - marks: 2
+          criteria: "Menjelaskan peranan matematik dalam inovasi."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang ilmu asas yang membawa kepada penemuan moden."
+        - level: 2
+          text: "Pertimbangkan elemen yang membolehkan pengembangan teknologi."

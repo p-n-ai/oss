@@ -91,14 +91,15 @@ performance_standards:
       descriptor_en: "Generating ideas based on learned history knowledge and values."
 teaching:
     sequence:
-        - "Peningkatan India"
-        - "Peningkatan China"
-        - "Peranan pendidikan dalam tamadun"
+        - 'Step 1: Introduction to Indian and Chinese civilizations (10 min)'
+        - 'Step 2: Discuss territorial expansion in India (15 min)'
+        - 'Step 3: Explore the role of education in China (15 min)'
+        - 'Step 4: Group discussion on education as a change agent (20 min)'
     common_misconceptions:
-        - misconception: "Pendidikan China hanya untuk elit."
-          remediation: "Terangkan sistem peperiksaan dan pendidikan awam China."
-    engagement_hooks:
-        - "Sistem pendidikan China kuno."
+        - misconception: Students may think all ancient civilizations expanded through war
+          remediation: Explain peaceful expansions through trade and diplomacy
+        - misconception: Students may believe education was not important in ancient times
+          remediation: Highlight historical examples of educational institutions
 bloom_levels:
     - "analyze"
     - "evaluate"
@@ -113,3 +114,7 @@ tier: "core"
 sync_checked: true
 ai_teaching_notes: "SJ1-07.teaching.md"
 assessments_file: "SJ1-07.assessments.yaml"
+examples_file: SJ1-07.examples.yaml
+engagement_hooks:
+    - Consider how modern education systems trace back to ancient practices
+    - Discuss how territorial expansion influences cultural exchange today

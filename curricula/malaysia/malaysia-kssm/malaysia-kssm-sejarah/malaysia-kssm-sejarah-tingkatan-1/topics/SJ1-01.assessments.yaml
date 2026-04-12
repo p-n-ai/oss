@@ -1,0 +1,121 @@
+topic_id: "SJ1-01"
+provenance: "ai-generated"
+questions:
+    # Group by learning objective
+    - id: "Q01"
+      text: 'Apakah pengertian sejarah menurut pandangan Herodotus?'
+      difficulty: "medium"
+      learning_objective: "1.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Sejarah menurut Herodotus adalah kajian tentang penceritaan kejadian masa lalu.'
+        working: |
+            Herodotus dikenali sebagai 'Bapa Sejarah'. Menurutnya, sejarah adalah mengenai penceritaan dan penjelasan kejadian-kejadian masa lalu.
+      marks: 3
+      rubric:
+        - marks: 3
+          criteria: "Menjelaskan pandangan Herodotus dengan tepat dan lengkap."
+        - marks: 2
+          criteria: "Menjelaskan pandangan Herodotus tetapi kurang lengkap."
+        - marks: 1
+          criteria: "Menyebut nama Herodotus atau konsep sejarah secara umum."
+      hints:
+        - level: 1
+          text: "Fokus kepada cara Herodotus melihat sejarah sebagai penceritaan."
+        - level: 2
+          text: "Ingat bahawa Herodotus kerap digelar 'Bapa Sejarah'."
+    - id: "Q02"
+      text: 'Terangkan konsep masa silam dan ruang dalam sejarah.'
+      difficulty: "medium"
+      learning_objective: "1.1.3"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Konsep masa silam merujuk kepada kejadian yang telah berlaku, manakala ruang merujuk kepada lokasi fizikal di mana kejadian tersebut berlaku.'
+        working: |
+            Masa silam dalam sejarah merujuk kepada tempoh waktu yang telah berlalu, manakala ruang merujuk kepada lokasi geografi tempat kejadian bersejarah berlaku. Kedua-dua konsep ini penting untuk memahami konteks peristiwa sejarah.
+      marks: 3
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan kedua-dua konsep dengan tepat."
+        - marks: 1
+          criteria: "Menjelaskan salah satu konsep secara tepat."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang bagaimana kita merujuk masa dan tempat dalam sejarah."
+        - level: 2
+          text: "Pertimbangkan bagaimana masa dan ruang membantu kita memahami konteks sejarah."
+    - id: "Q03"
+      text: 'Apakah kepentingan mempelajari sejarah?'
+      difficulty: "medium"
+      learning_objective: "1.1.7"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Mempelajari sejarah penting untuk memahami asal usul dan perkembangan masyarakat, menilai kesilapan lalu, dan membina identiti budaya.'
+        working: |
+            Sejarah membantu kita memahami perkembangan sosial dan budaya sepanjang masa, membolehkan kita belajar daripada kesilapan lepas untuk mengelakkan kesalahan yang sama, serta membina identiti dan kebanggaan budaya.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Mengemukakan dua kepentingan mempelajari sejarah."
+        - marks: 1
+          criteria: "Mengemukakan satu kepentingan mempelajari sejarah."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang bagaimana sejarah mempengaruhi kehidupan kita hari ini."
+        - level: 2
+          text: "Pertimbangkan bagaimana sejarah membantu kita belajar dari masa lalu."
+    - id: "Q04"
+      text: 'Apakah kaedah penyelidikan sejarah yang boleh digunakan oleh sejarawan?'
+      difficulty: "medium"
+      learning_objective: "1.1.5"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: 'C'
+        options:
+            A: "Eksperimen makmal"
+            B: "Simulasi komputer"
+            C: "Analisis dokumen dan sumber primer"
+            D: "Reka bentuk grafik"
+        working: |
+            Sejarawan menggunakan kaedah seperti analisis dokumen dan sumber primer untuk mengkaji peristiwa masa lalu dengan teliti.
+      marks: 3
+      rubric:
+        - marks: 3
+          criteria: "Memilih kaedah yang tepat dan menjelaskan secara ringkas."
+        - marks: 2
+          criteria: "Memilih kaedah yang tepat."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang sumber-sumber yang digunakan sejarawan."
+        - level: 2
+          text: "Sejarawan sering menggunakan dokumen asli untuk kajian."
+    - id: "Q05"
+      text: 'Huraikan kepentingan menghargai masa dalam kehidupan seharian.'
+      difficulty: "medium"
+      learning_objective: "1.1.8"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Menghargai masa penting untuk pengurusan masa yang berkesan, peningkatan produktiviti, dan mencapai matlamat peribadi dan profesional.'
+        working: |
+            Dengan menghargai masa, kita dapat merancang aktiviti harian dengan lebih baik, mengelakkan pembaziran masa, dan memastikan pencapaian matlamat dalam jangka masa yang ditetapkan.
+      marks: 3
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan dua kepentingan menghargai masa."
+        - marks: 1
+          criteria: "Menjelaskan satu kepentingan menghargai masa."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bagaimana masa mempengaruhi aktiviti harian anda."
+        - level: 2
+          text: "Fikirkan tentang bagaimana pengurusan masa yang baik meningkatkan produktiviti."

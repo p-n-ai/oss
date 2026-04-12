@@ -1,0 +1,43 @@
+topic_id: "SJ1-02"
+provenance: "ai-generated"
+description: "Worked examples for Zaman Air Batu"
+worked_examples:
+    - id: "WE-01"
+      topic: "Mengenali dunia kita"
+      difficulty: "easy"
+      tp_level: 1
+      kbat: false
+      learning_objective: "2.1.1"
+      real_world_analogy: "Mengenali dunia kita adalah seperti mengenali jalan di kawasan kejiranan kita sebelum pergi lebih jauh."
+      misconception_alert: "Ramai pelajar menganggap bahawa Zaman Air Batu hanya berlaku di kawasan kutub, tetapi ia mempunyai kesan global."
+      scenario: "Apakah yang dimaksudkan dengan Zaman Air Batu dan bagaimana ia mempengaruhi bentuk muka bumi kita?"
+      working: |
+        Step 1: Zaman Air Batu merujuk kepada tempoh masa dalam sejarah bumi apabila suhu global menurun dan lapisan ais meluas.
+        Step 2: Dalam tempoh ini, lapisan ais menutupi sebahagian besar benua, termasuk kawasan yang kini dihuni manusia.
+        Step 3: Akibatnya, permukaan laut menurun, membentuk laluan darat yang menghubungkan benua yang berasingan.
+    - id: "WE-02"
+      topic: "Menyenaraikan Zaman Air Batu"
+      difficulty: "medium"
+      tp_level: 2
+      kbat: false
+      learning_objective: "2.1.2"
+      real_world_analogy: "Menyenaraikan Zaman Air Batu adalah seperti menyenaraikan musim hujan dan kemarau dalam setahun, masing-masing dengan ciri-ciri tersendiri."
+      misconception_alert: "Pelajar sering menganggap semua Zaman Air Batu adalah sama, tetapi terdapat beberapa tempoh dengan perbezaan ketara."
+      scenario: "Sila senaraikan dan terangkan tempoh utama dalam Zaman Air Batu."
+      working: |
+        Step 1: Terdapat beberapa tempoh utama dalam Zaman Air Batu, termasuk Pleistosen dan Holosen.
+        Step 2: Zaman Pleistosen, bermula sekitar 2.6 juta tahun lalu, mengalami beberapa kali perubahan antara tempoh sejuk dan panas.
+        Step 3: Zaman Holosen bermula sekitar 11,700 tahun lalu, menandakan berakhirnya Zaman Air Batu terakhir.
+    - id: "WE-03"
+      topic: "Pengaruh Zaman Air Batu akhir di Asia Tenggara"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "2.1.6"
+      real_world_analogy: "Mengubah landskap akibat Zaman Air Batu adalah seperti bagaimana perubahan iklim hari ini boleh mengubah bandar pesisir pantai."
+      misconception_alert: "Ada pelajar yang beranggapan Zaman Air Batu tidak memberi kesan kepada Asia Tenggara, sedangkan ia mengubah susunan geografi dan ekosistem."
+      scenario: "Bincangkan kesan perubahan Zaman Air Batu akhir terhadap Asia Tenggara."
+      working: |-
+        Step 1: Zaman Air Batu akhir membawa kepada pencairan ais yang meningkatkan paras laut.
+        Step 2: Kenaikan paras laut menyebabkan kawasan tanah rendah di Asia Tenggara ditenggelami air, membentuk pulau-pulau yang kita kenal hari ini.
+        Step 3: Perubahan ini mempengaruhi kehidupan manusia dan ekosistem, memaksa penghijrahan dan penyesuaian kepada persekitaran baru.

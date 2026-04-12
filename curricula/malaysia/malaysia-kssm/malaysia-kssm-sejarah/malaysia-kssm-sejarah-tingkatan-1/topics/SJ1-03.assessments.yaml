@@ -1,0 +1,119 @@
+topic_id: "SJ1-03"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 3.1.1 (remember): Menyatakan maksud Zaman Prasejarah
+    - id: "Q1"
+      text: "Apakah maksud Zaman Prasejarah?"
+      difficulty: "medium"
+      learning_objective: "3.1.1"
+      tp_level: 2
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Zaman Prasejarah merujuk kepada tempoh waktu sebelum adanya catatan sejarah bertulis."
+        working: |
+            Zaman Prasejarah didefinisikan sebagai masa sebelum manusia mencipta sistem tulisan yang membolehkan peristiwa direkodkan secara bertulis.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan tempoh sebelum adanya catatan bertulis."
+        - marks: 1
+          criteria: "Menyebut bahawa ia adalah sebelum sejarah direkodkan."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang tempoh masa sebelum adanya rekod bertulis."
+        - level: 2
+          text: "Zaman ini berlaku sebelum manusia mula mencatat sejarah."
+    # Learning Objective: 3.1.2 (understand): Menerangkan lokasi Zaman Prasejarah
+    - id: "Q2"
+      text: "Di manakah lokasi utama Zaman Prasejarah yang dikenal pasti di dunia?"
+      difficulty: "medium"
+      learning_objective: "3.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "B"
+        options:
+            A: "Antartika"
+            B: "Lembah Sungai Nil, Mesopotamia, dan Lembah Sungai Indus"
+            C: "Kutub Utara"
+            D: "Australia Barat"
+        working: |
+            Lokasi Zaman Prasejarah yang utama termasuk Lembah Sungai Nil, Mesopotamia, dan Lembah Sungai Indus kerana kawasan-kawasan ini menunjukkan bukti kehidupan manusia awal.
+      marks: 3
+      rubric:
+        - marks: 3
+          criteria: "Memilih jawapan yang betul dan menjelaskan lokasi tersebut."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang lembah sungai yang menjadi lokasi awal peradaban."
+        - level: 2
+          text: "Dalam sejarah, beberapa lembah sungai terkenal sebagai pusat tamadun awal."
+    # Learning Objective: 3.1.3 (analyze): Membandingkan ciri-ciri kehidupan pada Zaman Prasejarah
+    - id: "Q3"
+      text: "Bandingkan ciri-ciri kehidupan manusia pada Zaman Paleolitik dengan Zaman Neolitik."
+      difficulty: "medium"
+      learning_objective: "3.1.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Zaman Paleolitik: manusia hidup berpindah-randah, bergantung kepada memburu dan mengumpul makanan. Zaman Neolitik: manusia mula bertani dan menetap di satu tempat."
+        working: |
+            Pada Zaman Paleolitik, manusia adalah nomad yang bergantung kepada aktiviti memburu dan mengumpul makanan. Manakala pada Zaman Neolitik, manusia mula bertani, menternak dan tinggal menetap di satu tempat.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menghuraikan ciri kehidupan pada Zaman Paleolitik."
+        - marks: 2
+          criteria: "Menghuraikan ciri kehidupan pada Zaman Neolitik."
+      hints:
+        - level: 1
+          text: "Pertimbangkan perbezaan dalam cara hidup dan sumber makanan."
+        - level: 2
+          text: "Fikirkan tentang peralihan dari kehidupan berpindah-randah ke kehidupan menetap."
+    # Learning Objective: 3.1.4 (remember): Menyatakan kesinambungan sumbangan Zaman Prasejarah kepada kemajuan kehidupan manusia
+    - id: "Q4"
+      text: "Nyatakan satu sumbangan Zaman Prasejarah yang masih relevan kepada kehidupan manusia hari ini."
+      difficulty: "medium"
+      learning_objective: "3.1.4"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: "Penggunaan api"
+        working: |
+            Salah satu sumbangan penting Zaman Prasejarah adalah penggunaan api, yang telah meningkatkan kualiti hidup manusia dalam memasak makanan, perlindungan, dan sebagai sumber cahaya.
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Menyatakan penggunaan api sebagai sumbangan yang relevan."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang penemuan asas yang mengubah kehidupan manusia."
+        - level: 2
+          text: "Penemuan ini terlibat dalam memasak dan menyediakan cahaya."
+    # Learning Objective: 3.1.5 (analyze): Membincangkan bukti tinggalan Zaman Prasejarah di Malaysia
+    - id: "Q5"
+      text: "Apakah bukti tinggalan Zaman Prasejarah yang ditemui di Malaysia dan apakah kepentingannya?"
+      difficulty: "medium"
+      learning_objective: "3.1.5"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Contoh tinggalan seperti Perak Man di Gua Gunung Runtuh menunjukkan kehidupan awal manusia di Malaysia, penting untuk kajian arkeologi dan sejarah."
+        working: |
+            Tinggalan seperti Perak Man merupakan fosil manusia yang ditemui di Gua Gunung Runtuh, Perak. Ini menunjukkan kehadiran manusia awal di Malaysia dan memberikan maklumat berharga untuk kajian arkeologi.
+      marks: 5
+      rubric:
+        - marks: 3
+          criteria: "Menyatakan contoh tinggalan seperti Perak Man."
+        - marks: 2
+          criteria: "Menjelaskan kepentingan tinggalan tersebut untuk kajian sejarah."
+      hints:
+        - level: 1
+          text: "Pertimbangkan penemuan terkenal di Perak."
+        - level: 2
+          text: "Fokus pada tinggalan manusia prasejarah yang ditemui di gua."

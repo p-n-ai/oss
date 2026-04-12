@@ -1,0 +1,44 @@
+topic_id: "SJ1-04"
+provenance: "ai-generated"
+description: "Worked examples for Mengenali Tamadun"
+worked_examples:
+    - id: "WE-01"
+      topic: "Maksud Tamadun dalam Pelbagai Bahasa"
+      difficulty: "easy"
+      tp_level: 1
+      kbat: false
+      learning_objective: "4.1.1"
+      real_world_analogy: "Seperti bagaimana satu perkataan boleh mempunyai makna berbeza dalam bahasa berbeza, tamadun juga difahami berbeza bergantung kepada konteks budaya."
+      misconception_alert: "Pelajar sering menganggap maksud 'tamadun' adalah sama dalam semua bahasa, padahal ia mempunyai nuansa berbeza."
+      scenario: "Apakah maksud 'tamadun' dalam bahasa Yunani, Inggeris, dan Arab?"
+      working: |
+        Step 1: Fahami bahawa 'tamadun' dalam bahasa Yunani berasal daripada 'civilis' yang merujuk kepada masyarakat beradab.
+        Step 2: Dalam bahasa Inggeris, 'civilization' merujuk kepada kemajuan sosial dan budaya.
+        Step 3: Dalam bahasa Arab, 'tamadun' berkaitan dengan kehidupan bandar yang beradab dan maju.
+    - id: "WE-02"
+      topic: "Konsep Tamadun Mengikut Barat dan Islam"
+      difficulty: "medium"
+      tp_level: 2
+      kbat: true
+      learning_objective: "4.1.2"
+      real_world_analogy: "Bayangkan dua orang melihat lukisan yang sama tetapi mendapat inspirasi yang berbeza; konsep tamadun juga difahami berbeza oleh Barat dan Islam."
+      misconception_alert: "Kesalahan biasa adalah menganggap konsep tamadun Barat dan Islam sama, sedangkan mereka menekankan aspek berbeza."
+      scenario: "Jelaskan bagaimana konsep tamadun berbeza antara perspektif Barat dan Islam."
+      working: |
+        Step 1: Barat menekankan pencapaian material seperti teknologi dan ekonomi sebagai asas tamadun.
+        Step 2: Islam menekankan aspek rohani dan moral sebagai asas pembangunan tamadun.
+        Step 3: Kedua-dua perspektif mengiktiraf kepentingan kemajuan, tetapi dengan penekanan berbeza.
+    - id: "WE-03"
+      topic: "Kepentingan Kepimpinan dalam Pembinaan Tamadun"
+      difficulty: "hard"
+      tp_level: 3
+      kbat: true
+      learning_objective: "4.1.6"
+      real_world_analogy: "Seperti seorang pengarah filem yang menentukan kejayaan filem dengan visinya, pemimpin menentukan hala tuju tamadun."
+      misconception_alert: "Kekeliruan biasa ialah menganggap kepimpinan tidak penting jika terdapat sumber yang mencukupi, padahal kepimpinan mengarahkan penggunaan sumber tersebut."
+      scenario: "Mengapa kepimpinan penting dalam membina tamadun, dan bagaimana ia mempengaruhi pembangunan?"
+      working: |-
+        Step 1: Pemimpin bertindak sebagai perancang yang menetapkan visi dan misi tamadun.
+        Step 2: Kepimpinan yang berkesan memastikan penggunaan sumber yang optimum untuk mencapai matlamat.
+        Step 3: Contoh tamadun besar seperti Rom dan Abbasiyah yang berkembang pesat di bawah kepimpinan yang kuat.
+        Step 4: Tanpa kepimpinan, tamadun boleh kehilangan arah dan runtuh, seperti yang terjadi dalam banyak kes sejarah.

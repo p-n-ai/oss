@@ -1,0 +1,138 @@
+topic_id: "SJ1-07"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 4.2.4: Membincangkan peningkatan tamadun India dari aspek perluasan kuasa
+    - id: "Q01"
+      text: 'Bagaimanakah Dinasti Maurya berjaya memperluaskan kuasa mereka di India?'
+      difficulty: "medium"
+      learning_objective: "4.2.4"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Dinasti Maurya memperluaskan kuasa melalui strategi ketenteraan, diplomasi yang berkesan, dan penyatuan wilayah kecil di bawah satu pemerintahan.'
+        working: |
+            Dinasti Maurya, terutamanya di bawah pemerintahan Ashoka, memperluaskan kuasa dengan menakluki wilayah melalui kekuatan ketenteraan dan menjalin hubungan diplomatik dengan kerajaan lain. Pembinaan infrastruktur seperti jalan raya memudahkan penyatuan wilayah.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Menjelaskan peranan kekuatan ketenteraan dalam peluasan kuasa.'
+        - marks: 2
+          criteria: 'Menerangkan bagaimana diplomasi dan infrastruktur membantu penyatuan wilayah.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang peranan tentera dalam menakluk wilayah baru.'
+        - level: 2
+          text: 'Pertimbangkan bagaimana diplomasi membantu mengekalkan kuasa yang diperoleh.'
+    # Learning Objective 4.2.4: Membincangkan peningkatan tamadun India dari aspek perluasan kuasa
+    - id: "Q02"
+      text: 'Apakah kesan utama daripada peluasan kuasa Dinasti Gupta terhadap ekonomi India?'
+      difficulty: "medium"
+      learning_objective: "4.2.4"
+      tp_level: 4
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: 'A'
+        working: |
+            Peluasan kuasa oleh Dinasti Gupta membawa kepada peningkatan perdagangan dengan wilayah lain, yang meningkatkan ekonomi melalui pertukaran barangan dan idea.
+        options:
+            A: 'Peningkatan perdagangan dan pertukaran budaya.'
+            B: 'Kemerosotan pertanian tempatan.'
+            C: 'Peningkatan konflik dalaman.'
+            D: 'Penurunan inovasi teknologi.'
+        distractors:
+            - value: 'B'
+              feedback: 'Pertanian sebenarnya berkembang dengan adanya teknologi baru.'
+            - value: 'C'
+              feedback: 'Peluasan kuasa lebih banyak membawa kepada kestabilan daripada konflik dalaman.'
+            - value: 'D'
+              feedback: 'Inovasi teknologi sebenarnya meningkat semasa era ini.'
+      marks: 3
+      rubric:
+        - marks: 3
+          criteria: 'Memilih kesan utama yang betul berdasarkan maklumat sejarah.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan bagaimana peluasan kuasa boleh mempengaruhi perdagangan.'
+    # Learning Objective 4.2.5: Membincangkan peningkatan tamadun China dari aspek pendidikan
+    - id: "Q03"
+      text: 'Bagaimanakah sistem peperiksaan awam di China membantu meningkatkan tamadun mereka?'
+      difficulty: "medium"
+      learning_objective: "4.2.5"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Sistem peperiksaan awam membolehkan pemilihan pegawai kerajaan berdasarkan merit dan keupayaan, bukan keturunan, yang meningkatkan kecekapan pentadbiran dan kemajuan intelektual.'
+        working: |
+            Sistem peperiksaan awam, yang bermula pada zaman Dinasti Han, memastikan bahawa pegawai dipilih berdasarkan pengetahuan dan kemahiran mereka. Ini menggalakkan pembelajaran dan kemajuan intelektual, serta mewujudkan pentadbiran yang lebih cekap.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Menerangkan prinsip meritokrasi dalam sistem peperiksaan awam.'
+        - marks: 2
+          criteria: 'Menghubungkan sistem ini dengan peningkatan intelektual dan pentadbiran.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang peranan pendidikan dalam memilih pegawai kerajaan.'
+        - level: 2
+          text: 'Bagaimanakah sistem ini berbeza daripada sistem berdasarkan keturunan?'
+    # Learning Objective 4.2.5: Membincangkan peningkatan tamadun China dari aspek pendidikan
+    - id: "Q04"
+      text: 'Apakah peranan Confucianisme dalam sistem pendidikan China purba?'
+      difficulty: "medium"
+      learning_objective: "4.2.5"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: 'C'
+        working: |
+            Confucianisme menekankan nilai moral dan etika dalam pendidikan, yang menjadi asas bagi sistem pendidikan China dan mempengaruhi pemilihan pegawai melalui peperiksaan awam.
+        options:
+            A: 'Menggalakkan inovasi teknologi.'
+            B: 'Mengutamakan kekayaan material.'
+            C: 'Menekankan nilai moral dan etika.'
+            D: 'Menolak pendidikan formal.'
+        distractors:
+            - value: 'A'
+              feedback: 'Confucianisme lebih menumpukan kepada aspek moral dan etika berbanding teknologi.'
+            - value: 'B'
+              feedback: 'Fokus utama Confucianisme adalah pada etika, bukan kekayaan material.'
+            - value: 'D'
+              feedback: 'Confucianisme mendorong pendidikan formal sebagai alat peningkatan moral.'
+      marks: 3
+      rubric:
+        - marks: 3
+          criteria: 'Memilih peranan Confucianisme yang tepat dalam sistem pendidikan.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan ajaran utama Confucius.'
+        - level: 2
+          text: 'Fokus kepada nilai yang ditekankan dalam pendidikan.'
+    # Learning Objective 4.2.6: Merumuskan kepentingan pendidikan sebagai agen perubahan kepada kemajuan negara
+    - id: "Q05"
+      text: 'Rumuskankan kepentingan pendidikan sebagai agen perubahan dalam kemajuan negara.'
+      difficulty: "medium"
+      learning_objective: "4.2.6"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Pendidikan adalah asas kepada kemajuan negara kerana ia membina modal insan yang berkualiti, mempromosikan inovasi, dan mengekalkan kestabilan sosial dan ekonomi.'
+        working: |
+            Pendidikan meningkatkan pengetahuan dan kemahiran individu, yang membawa kepada penemuan dan inovasi baru. Ini seterusnya menyumbang kepada pertumbuhan ekonomi dan sosial, menjadikan pendidikan agen perubahan yang penting dalam memajukan negara.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: 'Menerangkan bagaimana pendidikan membina modal insan yang berkualiti.'
+        - marks: 2
+          criteria: 'Menghubungkan pendidikan dengan inovasi dan pertumbuhan ekonomi.'
+        - marks: 1
+          criteria: 'Menilai kepentingan keseluruhan pendidikan dalam mengekalkan kestabilan sosial.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang peranan pendidikan dalam pembangunan modal insan.'
+        - level: 2
+          text: 'Bagaimanakah pendidikan menyumbang kepada inovasi dan kestabilan ekonomi?'

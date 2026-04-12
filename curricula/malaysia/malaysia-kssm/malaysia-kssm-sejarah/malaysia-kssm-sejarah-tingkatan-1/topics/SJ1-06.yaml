@@ -113,14 +113,15 @@ prerequisites:
     recommended: []
 teaching:
     sequence:
-        - "Peningkatan Yunani"
-        - "Peningkatan Rom"
-        - "Perbandingan aspek seni bina dan pemerintahan"
+        - 'Step 1: Introduce the significance of Greek and Roman civilizations with maps and timelines (15 min)'
+        - 'Step 2: Discuss Greek governance and democracy through a group activity (20 min)'
+        - 'Step 3: Present Roman architectural achievements using images and discussion (20 min)'
+        - 'Step 4: Explain the impact of democratic principles on modern society (15 min)'
     common_misconceptions:
-        - misconception: "Seni bina Rom hanya untuk kegunaan peribadi."
-          remediation: "Terangkan fungsi awam seperti Colosseum dan aquaduct."
-    engagement_hooks:
-        - "Gambar Colosseum dan Parthenon."
+        - misconception: Democracy in ancient Greece was the same as modern democracy
+          remediation: Use timeline comparisons to highlight differences in historical context
+        - misconception: Roman architecture was only about aesthetics
+          remediation: Emphasize the engineering feats and functional purposes of Roman designs
 bloom_levels:
     - "remember"
     - "analyze"
@@ -140,3 +141,7 @@ provenance: "ai-assisted"
 generated_at: "2023-10-27T00:00:00Z"
 ai_teaching_notes: "SJ1-06.teaching.md"
 assessments_file: "SJ1-06.assessments.yaml"
+engagement_hooks:
+    - Discuss how local democratic practices have roots in ancient Greek systems
+    - Explore local infrastructure inspired by Roman architectural innovations
+examples_file: SJ1-06.examples.yaml

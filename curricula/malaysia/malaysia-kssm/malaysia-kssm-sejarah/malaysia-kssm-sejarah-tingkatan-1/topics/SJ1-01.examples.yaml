@@ -1,0 +1,47 @@
+topic_id: "SJ1-01"
+provenance: "ai-generated"
+description: "Worked examples for Mengenali Sejarah"
+worked_examples:
+    - id: "WE-01"
+      topic: "Pengertian Sejarah Secara Umum"
+      difficulty: "easy"
+      tp_level: 1
+      kbat: false
+      learning_objective: "1.1.1"
+      real_world_analogy: "Menganggap sejarah seperti sebuah biografi yang menceritakan kisah hidup seseorang."
+      misconception_alert: "Sejarah bukan hanya tentang tanggal dan peristiwa, tetapi juga tentang memahami konteks dan sebab-akibat."
+      scenario: "Apakah pengertian sejarah secara umum?"
+      working: |
+        Step 1: Mulakan dengan definisi asas. Sejarah adalah kajian tentang peristiwa masa lalu.
+        Step 2: Fikirkan bagaimana sejarah melibatkan analisis sebab dan akibat.
+        Step 3: Akhiri dengan menyatakan bahawa sejarah membantu kita memahami masa kini melalui pembelajaran dari masa lalu.
+    - id: "WE-02"
+      topic: "Pandangan Sejarawan Tentang Sejarah"
+      difficulty: "medium"
+      tp_level: 2
+      kbat: true
+      learning_objective: "1.1.2"
+      real_world_analogy: "Sejarah seperti satu set cermin yang membolehkan kita melihat dan memahami refleksi masa lalu dari pelbagai sudut pandang."
+      misconception_alert: "Menganggap semua sejarawan mempunyai pandangan yang sama mengenai sejarah."
+      scenario: "Bagaimana pandangan sejarawan terkenal seperti Herodotus, E.H. Carr, Ibn Khaldun, dan Mohd. Yusuf Ibrahim tentang sejarah?"
+      working: |
+        Step 1: Kenali pandangan setiap sejarawan. Contohnya, Herodotus dikenali sebagai 'Bapa Sejarah' kerana pendekatannya yang sistematik.
+        Step 2: E.H. Carr menekankan sejarah sebagai dialog antara masa lalu dan masa kini.
+        Step 3: Ibn Khaldun melihat sejarah sebagai kitaran peradaban yang muncul dan jatuh.
+        Step 4: Mohd. Yusuf Ibrahim mengaitkan sejarah dengan pembangunan negara dan identiti.
+        Step 5: Rumuskan bahawa setiap pandangan memberikan cara berfikir yang berbeza tentang sejarah.
+    - id: "WE-03"
+      topic: "Kepentingan Mempelajari Sejarah"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "1.1.7"
+      real_world_analogy: "Mempelajari sejarah seperti memiliki peta yang membimbing kita menghindari kesilapan yang sama di masa hadapan."
+      misconception_alert: "Menganggap belajar sejarah tidak relevan dan hanya berkaitan dengan masa lalu."
+      scenario: "Mengapa penting untuk mempelajari sejarah dan bagaimana ia mempengaruhi kehidupan kita hari ini?"
+      working: |-
+        Step 1: Kenalpasti bahawa sejarah memberikan kita pengetahuan tentang asal-usul dan perkembangan masyarakat.
+        Step 2: Jelaskan bagaimana sejarah membantu kita memahami dan menghargai budaya dan tradisi kita sendiri.
+        Step 3: Diskusikan bahawa sejarah mengajar kita tentang kesilapan masa lalu untuk mengelakkan pengulangan.
+        Step 4: Terangkan bagaimana sejarah membina identiti kebangsaan dan semangat patriotisme.
+        Step 5: Akhiri dengan menekankan bahawa sejarah membekalkan kita dengan perspektif yang diperlukan untuk membuat keputusan yang bijak di masa hadapan.

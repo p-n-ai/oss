@@ -101,14 +101,15 @@ performance_standards:
       descriptor_en: "Generating ideas based on learned history knowledge and values."
 teaching:
     sequence:
-        - "Definisi tamadun"
-        - "Perbandingan konsep tamadun"
-        - "Nilai kepimpinan"
+        - 'Step 1: Discuss the meaning of civilization in Greek, English, and Arabic (20 min)'
+        - 'Step 2: Explain the concept of civilization from Western and Islamic perspectives using a Venn diagram (25 min)'
+        - 'Step 3: Discuss the importance of leadership in the development of a civilization with case studies (20 min)'
+        - 'Step 4: Group activity to analyze values from early civilizations like India and China (25 min)'
     common_misconceptions:
-        - misconception: "Tamadun hanya merujuk kepada bangunan besar."
-          remediation: "Terangkan bahawa tamadun merangkumi sistem sosial, ekonomi dan budaya."
-    engagement_hooks:
-        - "Perbandingan tamadun moden dengan tamadun awal."
+        - misconception: All civilizations are the same
+          remediation: Compare various civilizations and highlight their unique features
+        - misconception: Leadership is not important if resources are abundant
+          remediation: Provide examples where good leadership led to the success of civilizations
 bloom_levels:
     - "remember"
     - "understand"
@@ -123,3 +124,7 @@ tier: "core"
 sync_checked: true
 ai_teaching_notes: "SJ1-04.teaching.md"
 assessments_file: "SJ1-04.assessments.yaml"
+engagement_hooks:
+    - Use local historical stories like the Malacca Sultanate to connect with students
+    - Ask students how modern cities reflect ancient civilizations
+examples_file: SJ1-04.examples.yaml

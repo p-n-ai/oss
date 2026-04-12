@@ -135,14 +135,15 @@ performance_standards:
       descriptor_en: "Generating ideas based on learned history knowledge and values."
 teaching:
     sequence:
-        - "Pengenalan Zaman Prasejarah"
-        - "Kajian bukti arkeologi"
-        - "Perbincangan ciri kehidupan"
+        - 'Step 1: Introduce Zaman Prasejarah with visuals (15 min)'
+        - 'Step 2: Discuss geographical spread using maps (20 min)'
+        - 'Step 3: Explore contributions to modern life with examples (15 min)'
+        - 'Step 4: Examine Malaysian archaeological findings (30 min)'
     common_misconceptions:
-        - misconception: "Manusia Prasejarah tidak mempunyai budaya."
-          remediation: "Tunjukkan bukti alat batu dan lukisan gua sebagai bentuk budaya."
-    engagement_hooks:
-        - "Memaparkan artifak batu sebenar."
+        - misconception: All prehistoric people lived in caves
+          remediation: Showcase diverse living arrangements
+        - misconception: Prehistory has no relevance today
+          remediation: Highlight modern tools' evolution from prehistoric ones
 bloom_levels:
     - "remember"
     - "understand"
@@ -160,3 +161,7 @@ tier: "core"
 sync_checked: true
 ai_teaching_notes: "SJ1-03.teaching.md"
 assessments_file: "SJ1-03.assessments.yaml"
+examples_file: SJ1-03.examples.yaml
+engagement_hooks:
+    - Discuss a local prehistoric site or artifact to create a personal connection
+    - Invite a local archaeologist for a talk or virtual tour of a museum's prehistoric section

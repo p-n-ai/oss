@@ -1,0 +1,46 @@
+topic_id: "SJ1-06"
+provenance: "ai-generated"
+description: "Worked examples for Peningkatan Tamadun Yunani Rom"
+worked_examples:
+    - id: "WE-01"
+      topic: "Lokasi Peningkatan Tamadun Yunani dan Rom"
+      difficulty: "easy"
+      tp_level: 1
+      kbat: false
+      learning_objective: "4.2.1"
+      real_world_analogy: "Memilih lokasi rumah berdasarkan kemudahan yang ada, seperti sekolah dan pasar."
+      misconception_alert: "Pelajar mungkin berfikir semua tamadun berkembang di kawasan yang sama."
+      scenario: "Senaraikan empat lokasi utama di mana tamadun Yunani dan Rom berkembang."
+      working: |
+        Step 1: Kenal pasti tamadun Yunani dan Rom.
+        Step 2: Fahami bahawa tamadun Yunani berkembang di kawasan seperti Athens dan Sparta.
+        Step 3: Ketahui bahawa tamadun Rom berkembang di kawasan seperti Rom dan Constantinople.
+        Step 4: Senaraikan lokasi: Athens, Sparta, Rom, Constantinople.
+    - id: "WE-02"
+      topic: "Peningkatan Tamadun Yunani dalam Aspek Pemerintahan"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "4.2.2"
+      real_world_analogy: "Menguruskan sebuah organisasi memerlukan sistem pentadbiran yang baik."
+      misconception_alert: "Pelajar mungkin berfikir demokrasi langsung sama dengan demokrasi sekarang."
+      scenario: "Bincangkan bagaimana sistem pemerintahan tamadun Yunani mempengaruhi pentadbiran moden."
+      working: |
+        Step 1: Fahami konsep demokrasi langsung yang diamalkan di Athens.
+        Step 2: Bandingkan dengan demokrasi perwakilan moden.
+        Step 3: Jelaskan bagaimana prinsip-prinsip demokrasi Yunani, seperti penglibatan rakyat, masih relevan.
+        Step 4: Nyatakan contoh bagaimana sistem ini mempengaruhi pentadbiran moden, seperti pilihan raya.
+    - id: "WE-03"
+      topic: "Seni Bina Tamadun Rom"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "4.2.3"
+      real_world_analogy: "Membina bangunan moden memerlukan pengetahuan seni bina lama untuk inspirasi dan teknik."
+      misconception_alert: "Pelajar mungkin menganggap seni bina Rom hanya tentang kemegahan tanpa fungsi."
+      scenario: "Analisis bagaimana seni bina Rom menjadi lambang intelektual dan kepentingannya dalam pembinaan moden."
+      working: |-
+        Step 1: Kenal pasti elemen seni bina Rom seperti gerbang dan kubah.
+        Step 2: Jelaskan fungsi elemen-elemen ini, contohnya gerbang untuk kekuatan struktur.
+        Step 3: Terangkan bagaimana seni bina ini melambangkan kecanggihan dan intelektual.
+        Step 4: Kaitkan dengan penggunaan elemen ini dalam seni bina moden seperti stadium dan bangunan kerajaan.

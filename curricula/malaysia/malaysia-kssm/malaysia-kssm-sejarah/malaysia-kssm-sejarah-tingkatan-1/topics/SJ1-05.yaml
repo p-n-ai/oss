@@ -106,14 +106,16 @@ performance_standards:
       descriptor_en: "Generating ideas based on learned history knowledge and values."
 teaching:
     sequence:
-        - "Ciri-ciri tamadun awal"
-        - "Lokasi tamadun"
-        - "Perbandingan sumbangan"
+        - 'Step 1: Introduction to early civilizations and their significance (10 min)'
+        - 'Step 2: Discuss the geographical locations of early civilizations (15 min)'
+        - 'Step 3: Analyze the characteristics of each civilization (20 min)'
+        - 'Step 4: Compare the contributions of different civilizations (20 min)'
+        - 'Step 5: Reflect on the importance of these contributions today (10 min)'
     common_misconceptions:
-        - misconception: "Semua tamadun awal berkembang serentak."
-          remediation: "Jelaskan bahawa tamadun berkembang pada masa yang berbeza."
-    engagement_hooks:
-        - "Peta lokasi tamadun awal dunia."
+        - misconception: Students may think all early civilizations developed simultaneously.
+          remediation: Explain the timeline and geographical differences in civilization development.
+        - misconception: Students might believe early civilizations were primitive and unsophisticated.
+          remediation: Highlight the advanced technologies and cultural achievements of these civilizations.
 bloom_levels:
     - "understand"
     - "analyze"
@@ -128,3 +130,7 @@ tier: "core"
 sync_checked: true
 ai_teaching_notes: "SJ1-05.teaching.md"
 assessments_file: "SJ1-05.assessments.yaml"
+examples_file: SJ1-05.examples.yaml
+engagement_hooks:
+    - Discuss how ancient civilizations have influenced modern technology.
+    - Explore the impact of early civilizations on current cultural practices.

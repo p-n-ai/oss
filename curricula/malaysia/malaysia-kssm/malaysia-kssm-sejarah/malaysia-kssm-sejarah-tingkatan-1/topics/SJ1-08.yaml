@@ -136,14 +136,16 @@ performance_standards:
       descriptor_en: "Generating ideas based on learned history knowledge and values."
 teaching:
     sequence:
-        - "Latar belakang masyarakat Arab"
-        - "Kemunculan Islam"
-        - "Sumbangan Islam"
+        - 'Step 1: Introduce the cultural and social structures of pre-Islamic Arab society using a timeline (15 min)'
+        - 'Step 2: Discuss the emergence of Islam and its early growth under Prophet Muhammad SAW with a map of expansion (15 min)'
+        - 'Step 3: Explain the leadership qualities of Prophet Muhammad SAW through examples of his life (20 min)'
+        - 'Step 4: Analyze the contributions of Islamic civilization in politics, economy, and social spheres with group discussions (20 min)'
+        - 'Step 5: Explore Islamic architecture and its unique features using images and videos (15 min)'
     common_misconceptions:
-        - misconception: "Tamadun Islam hanya berkaitan agama."
-          remediation: "Terangkan sumbangan dalam sains, seni dan pemerintahan."
-    engagement_hooks:
-        - "Pencapaian sains Islam kuno."
+        - misconception: Islam spread solely through conquest
+          remediation: Highlight the role of trade, intermarriage, and diplomacy in the spread of Islam
+        - misconception: Pre-Islamic Arab society was entirely chaotic
+          remediation: Emphasize the complex social and economic structures that existed before Islam
 bloom_levels:
     - "remember"
     - "understand"
@@ -160,3 +162,8 @@ tier: "core"
 sync_checked: true
 ai_teaching_notes: "SJ1-08.teaching.md"
 assessments_file: "SJ1-08.assessments.yaml"
+examples_file: SJ1-08.examples.yaml
+engagement_hooks:
+    - Discuss how Islamic architecture influences modern Malaysian buildings
+    - Explore how Islamic contributions in law affect contemporary Malaysian legal systems
+    - Connect the leadership qualities of Prophet Muhammad SAW to modern leadership practices in Malaysia

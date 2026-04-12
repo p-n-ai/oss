@@ -152,14 +152,16 @@ performance_standards:
       descriptor_en: "Generating ideas based on learned history knowledge and values."
 teaching:
     sequence:
-        - "Pengenalan konsep sejarah"
-        - "Perbincangan sumber sejarah"
-        - "Aktiviti analisis kaedah penyelidikan"
+        - 'Step 1: Introduce the general definition of history and its relevance (15 min)'
+        - 'Step 2: Discuss views of historians like Herodotus and E.H Carr (20 min)'
+        - 'Step 3: Elaborate on the concepts of past and space in history (15 min)'
+        - 'Step 4: Discuss historical sources and research methods (20 min)'
+        - 'Step 5: Explain the importance of studying and interpreting history (15 min)'
     common_misconceptions:
-        - misconception: "Sejarah hanya tentang tarikh dan nama."
-          remediation: "Tekankan bahawa sejarah melibatkan analisis sebab dan kesan serta interpretasi."
-    engagement_hooks:
-        - "Menggunakan artifak sebenar untuk menunjukkan kepentingan sumber sejarah."
+        - misconception: History is just about memorizing dates and events
+          remediation: Highlight the impact of history on current events and future implications
+        - misconception: All historians have the same perspective on history
+          remediation: Introduce different historians and their unique views
 bloom_levels:
     - "remember"
     - "understand"
@@ -177,3 +179,7 @@ tier: "core"
 sync_checked: true
 ai_teaching_notes: "SJ1-01.teaching.md"
 assessments_file: "SJ1-01.assessments.yaml"
+examples_file: SJ1-01.examples.yaml
+engagement_hooks:
+    - Discuss how understanding history helps explain current social and political climates
+    - Relate historical events to students' personal experiences or local history

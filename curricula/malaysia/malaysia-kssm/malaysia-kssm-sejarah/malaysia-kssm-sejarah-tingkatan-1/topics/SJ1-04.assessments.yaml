@@ -1,0 +1,122 @@
+topic_id: "SJ1-04"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 4.1.1
+    - id: "Q01"
+      text: 'Nyatakan maksud tamadun mengikut bahasa Yunani.'
+      difficulty: "medium"
+      learning_objective: "4.1.1"
+      tp_level: 2
+      kbat: false
+      answer:
+        type: "exact"
+        value: "Polis"
+        working: |
+            Dalam bahasa Yunani, tamadun disebut sebagai "Polis", yang merujuk kepada bandar atau negara kota.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan perkataan 'Polis'."
+        - marks: 1
+          criteria: "Menjelaskan maksud 'Polis' sebagai bandar atau negara kota."
+      hints:
+        - level: 1
+          text: "Pertimbangkan istilah yang digunakan untuk bandar kota dalam Yunani kuno."
+        - level: 2
+          text: "Ia merujuk kepada sebuah entiti yang sering dikaitkan dengan bandar atau negara kota."
+    # Learning Objective 4.1.2
+    - id: "Q02"
+      text: 'Jelaskan konsep tamadun menurut perspektif Barat.'
+      difficulty: "medium"
+      learning_objective: "4.1.2"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Tamadun menurut perspektif Barat merujuk kepada pembangunan material, teknologi, dan kemajuan sosial."
+        working: |
+            Konsep tamadun dalam perspektif Barat sering dikaitkan dengan pencapaian material dan teknologi, serta kemampuan masyarakat untuk membangun struktur sosial yang kompleks.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menyebut pembangunan material dan teknologi."
+        - marks: 2
+          criteria: "Mengaitkan dengan kemajuan sosial dan struktur masyarakat yang kompleks."
+      hints:
+        - level: 1
+          text: "Fokus pada pembangunan fizikal dan sosial dalam masyarakat."
+        - level: 2
+          text: "Pertimbangkan aspek material dan teknologi serta bagaimana ia mempengaruhi struktur sosial."
+    # Learning Objective 4.1.6
+    - id: "Q03"
+      text: 'Mengapa kepimpinan penting dalam pembinaan sesuatu tamadun?'
+      difficulty: "medium"
+      learning_objective: "4.1.6"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Kepimpinan penting kerana ia menyediakan arah tuju, mengatur sumber, dan memastikan kestabilan dalam masyarakat."
+        working: |
+            Kepimpinan yang berkesan memberikan panduan dan strategi yang diperlukan untuk pembangunan tamadun, mengurus sumber dengan cekap, dan mengekalkan kestabilan politik dan sosial.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan kepentingan arah tuju dan panduan."
+        - marks: 2
+          criteria: "Mengaitkan dengan pengurusan sumber dan kestabilan."
+        - marks: 1
+          criteria: "Memberikan contoh kepimpinan dalam sejarah tamadun."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bagaimana pemimpin dapat mempengaruhi hala tuju tamadun."
+        - level: 2
+          text: "Fikirkan tentang peranan pemimpin dalam mengurus sumber dan mengekalkan kestabilan."
+    # Learning Objective 4.1.7
+    - id: "Q04"
+      text: 'Apakah nilai yang boleh dipelajari dari sumbangan tamadun Mesir Purba?'
+      difficulty: "medium"
+      learning_objective: "4.1.7"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Nilai kesungguhan, inovasi, dan kepentingan kerjasama dalam membina struktur seperti piramid."
+        working: |
+            Tamadun Mesir Purba memberikan contoh nilai-nilai seperti kesungguhan dalam pembinaan piramid, inovasi dalam bidang matematik dan perubatan, serta kerjasama dalam masyarakat untuk mencapai matlamat bersama.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menyebut nilai kesungguhan dan inovasi."
+        - marks: 2
+          criteria: "Mengaitkan dengan contoh seperti pembinaan piramid dan kerjasama masyarakat."
+      hints:
+        - level: 1
+          text: "Pertimbangkan kesan sumbangan tamadun Mesir Purba terhadap dunia moden."
+        - level: 2
+          text: "Fikirkan tentang pencapaian besar seperti piramid dan bagaimana ia dicapai."
+    # Learning Objective 4.1.2
+    - id: "Q05"
+      text: 'Bagaimanakah konsep tamadun Islam berbeza dengan konsep tamadun Barat?'
+      difficulty: "medium"
+      learning_objective: "4.1.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Tamadun Islam menekankan keseimbangan antara pembangunan material dan spiritual, berbanding Barat yang lebih fokus pada material."
+        working: |
+            Konsep tamadun Islam mengutamakan keseimbangan antara kemajuan material dan nilai spiritual, sementara tamadun Barat lebih menekankan kemajuan material dan teknologi.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan fokus spiritual dalam tamadun Islam."
+        - marks: 2
+          criteria: "Mengaitkan dengan fokus material dalam tamadun Barat."
+        - marks: 1
+          criteria: "Memberi contoh bagaimana kedua-dua tamadun ini diaplikasikan dalam sejarah."
+      hints:
+        - level: 1
+          text: "Pertimbangkan peranan spiritualiti dalam tamadun Islam."
+        - level: 2
+          text: "Fikirkan tentang perbezaan fokus antara material dan spiritual dalam kedua-dua tamadun."

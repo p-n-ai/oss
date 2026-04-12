@@ -1,0 +1,47 @@
+topic_id: "SJ1-07"
+provenance: "ai-generated"
+description: "Worked examples for Peningkatan Tamadun India dan China"
+worked_examples:
+    - id: "WE-01"
+      topic: "Perluasan Kuasa Tamadun India"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "4.2.4"
+      real_world_analogy: "Expanding a business to new markets to increase influence and profit."
+      misconception_alert: "Students often think that territorial expansion was only for gaining land, ignoring strategic and economic benefits."
+      scenario: "Bagaimanakah empayar Maurya berjaya memperluaskan kuasanya di India?"
+      working: |
+        Step 1: Kenali empayar Maurya yang diasaskan oleh Chandragupta Maurya. Empayar ini menggunakan strategi ketenteraan yang kuat.
+        Step 2: Asoka, cucu Chandragupta, memainkan peranan penting dengan memperluas empayar melalui penaklukan dan diplomasi.
+        Step 3: Asoka kemudian mempromosikan agama Buddha, menggunakan pengaruhnya untuk menyebarkan budaya dan nilai-nilai baru.
+        Step 4: Kesimpulannya, empayar Maurya memperluas kuasa melalui kombinasi strategi ketenteraan, diplomasi, dan penyebaran budaya.
+    - id: "WE-02"
+      topic: "Pendidikan dalam Tamadun China"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "4.2.5"
+      real_world_analogy: "Membangun sistem pendidikan untuk membentuk pemimpin masa depan."
+      misconception_alert: "Pelajar sering menganggap pendidikan hanya untuk pembelajaran akademik, bukan pembangunan moral dan sosial."
+      scenario: "Apakah peranan pendidikan dalam Tamadun China dan impaknya terhadap masyarakat?"
+      working: |
+        Step 1: Fahami bahawa pendidikan di China ditekankan oleh Konfusius, yang menekankan nilai moral.
+        Step 2: Sistem peperiksaan awam diperkenalkan untuk memilih pegawai kerajaan berdasarkan meritokrasi.
+        Step 3: Pendidikan berfungsi sebagai alat untuk mobiliti sosial dan memperkukuh struktur sosial.
+        Step 4: Kesimpulannya, pendidikan dalam Tamadun China berfungsi untuk mempromosikan nilai moral dan membentuk pentadbiran yang cekap.
+    - id: "WE-03"
+      topic: "Kepentingan Pendidikan sebagai Agen Perubahan"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "4.2.6"
+      real_world_analogy: "Revolusi teknologi yang didorong oleh pendidikan tinggi dan inovasi."
+      misconception_alert: "Sering dianggap pendidikan hanya untuk pekerjaan, bukan peranan luas dalam perubahan sosial dan ekonomi."
+      scenario: "Bagaimanakah pendidikan berperanan sebagai agen perubahan utama dalam memajukan tamadun?"
+      working: |-
+        Step 1: Identifikasi peranan pendidikan dalam membangunkan pemikiran kritis dan inovasi.
+        Step 2: Pendidikan menyediakan kemahiran yang diperlukan untuk ekonomi moden, meningkatkan produktiviti.
+        Step 3: Ia juga membentuk pemimpin yang mampu membuat keputusan yang baik dan beretika.
+        Step 4: Contoh seperti Renaissance di Eropah menunjukkan bagaimana pendidikan mendorong kemajuan sains dan seni.
+        Step 5: Kesimpulannya, pendidikan adalah pemacu utama dalam transformasi sosial dan ekonomi, membolehkan negara maju ke hadapan.

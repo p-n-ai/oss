@@ -1,0 +1,138 @@
+topic_id: "SJ1-06"
+provenance: "ai-generated"
+questions:
+    # Questions for learning objective 4.2.1: Mengenal pasti empat lokasi peningkatan tamadun.
+    - id: "Q01"
+      text: 'Nyatakan empat lokasi utama di mana tamadun Yunani dan Rom berkembang pesat.'
+      difficulty: "medium"
+      learning_objective: "4.2.1"
+      tp_level: 2
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Athens, Sparta, Rome, Alexandria"
+        working: |
+            Tamadun Yunani berkembang di Athens dan Sparta, manakala tamadun Rom berkembang di Rome dan Alexandria.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Mengenal pasti satu lokasi dengan betul."
+        - marks: 2
+          criteria: "Mengenal pasti dua lokasi dengan betul."
+        - marks: 3
+          criteria: "Mengenal pasti tiga lokasi dengan betul."
+        - marks: 4
+          criteria: "Mengenal pasti keempat-empat lokasi dengan betul."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang bandar-bandar terkenal di Yunani dan Rom."
+        - level: 2
+          text: "Salah satu lokasi di Yunani terkenal dengan falsafahnya, dan yang lain terkenal dengan ketenteraannya."
+    # Questions for learning objective 4.2.2: Membincangkan peningkatan tamadun Yunani dalam aspek pemerintahan dan pentadbiran.
+    - id: "Q02"
+      text: 'Jelaskan bagaimana sistem pemerintahan demokrasi di Athens mempengaruhi tamadun moden.'
+      difficulty: "medium"
+      learning_objective: "4.2.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Sistem demokrasi di Athens memperkenalkan konsep penglibatan rakyat dalam pemerintahan, yang memberi inspirasi kepada sistem demokrasi moden di mana rakyat mempunyai kuasa untuk memilih pemimpin mereka."
+        working: |
+            Athens mengamalkan demokrasi langsung di mana rakyat boleh terlibat secara langsung dalam membuat keputusan. Konsep ini menginspirasikan demokrasi moden yang diamalkan di banyak negara hari ini.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menyebutkan sistem demokrasi di Athens."
+        - marks: 2
+          criteria: "Mengaitkan sistem demokrasi di Athens dengan tamadun moden."
+        - marks: 3
+          criteria: "Menerangkan cara penglibatan rakyat dalam pemerintahan di Athens."
+        - marks: 4
+          criteria: "Menghuraikan dengan jelas pengaruh sistem demokrasi Athens terhadap demokrasi moden."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bagaimana rakyat terlibat dalam proses membuat keputusan di Athens."
+        - level: 2
+          text: "Fikirkan tentang bagaimana sistem ini memberi inspirasi kepada negara-negara moden."
+    # Questions for learning objective 4.2.3: Membincangkan peningkatan tamadun Rom dari aspek seni bina.
+    - id: "Q03"
+      text: 'Apakah ciri-ciri seni bina Rom yang masih digunakan dalam seni bina moden?'
+      difficulty: "medium"
+      learning_objective: "4.2.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Penggunaan lengkungan, kubah, dan jalan raya berturap adalah antara ciri seni bina Rom yang masih digunakan dalam seni bina moden."
+        working: |
+            Seni bina Rom terkenal dengan penggunaan lengkungan dan kubah yang kuat dan stabil. Jalan raya berturap juga merupakan inovasi yang memudahkan pergerakan dan perdagangan, ciri ini masih digunakan dalam seni bina dan infrastruktur moden.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menyebutkan satu ciri seni bina Rom yang masih digunakan."
+        - marks: 2
+          criteria: "Menyebutkan dua ciri seni bina Rom yang masih digunakan."
+        - marks: 3
+          criteria: "Menyebutkan tiga ciri seni bina Rom yang masih digunakan dan memberi sedikit penjelasan."
+        - marks: 4
+          criteria: "Menghuraikan dengan jelas bagaimana tiga ciri seni bina Rom masih diaplikasikan dalam seni bina moden."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang struktur yang sering anda lihat di bangunan besar dan stadium."
+        - level: 2
+          text: "Pertimbangkan cara jalan raya dibina hari ini."
+    # Questions for learning objective 4.2.7: Menjelaskan kepentingan menghargai asas-asas amalan demokrasi.
+    - id: "Q04"
+      text: 'Mengapa penting bagi sesebuah negara untuk menghargai dan mempraktikkan asas-asas demokrasi?'
+      difficulty: "medium"
+      learning_objective: "4.2.7"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Asas-asas demokrasi penting untuk memastikan hak asasi manusia dipelihara, menggalakkan keadilan sosial, dan memastikan pentadbiran yang telus dan bertanggungjawab."
+        working: |
+            Demokrasi memastikan bahawa setiap individu mempunyai hak bersuara dan berpartisipasi dalam proses politik, yang membantu mengekalkan hak asasi manusia dan mempromosikan keadilan dan ketelusan dalam pemerintahan.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menyebutkan satu kepentingan asas demokrasi."
+        - marks: 2
+          criteria: "Menyebutkan dua kepentingan asas demokrasi."
+        - marks: 3
+          criteria: "Menyebutkan tiga kepentingan asas demokrasi dengan sedikit penjelasan."
+        - marks: 4
+          criteria: "Menghuraikan dengan jelas tiga kepentingan asas demokrasi dan kesannya kepada negara."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang hak dan kebebasan yang diberikan kepada rakyat dalam demokrasi."
+        - level: 2
+          text: "Pertimbangkan bagaimana demokrasi boleh mempengaruhi kestabilan politik dan sosial."
+    # Questions for learning objective 4.2.9: Menghuraikan kepentingan kerjasama dalam pembinaan sesuatu tamadun.
+    - id: "Q05"
+      text: 'Huraikan bagaimana kerjasama antara masyarakat membantu dalam pembinaan tamadun Yunani dan Rom.'
+      difficulty: "medium"
+      learning_objective: "4.2.9"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Kerjasama dalam perdagangan, pertanian, dan pertahanan membantu masyarakat Yunani dan Rom membangun tamadun yang kuat dan berdaya tahan."
+        working: |
+            Masyarakat Yunani dan Rom bekerjasama dalam bidang perdagangan untuk memperluaskan ekonomi mereka, pertanian untuk memastikan bekalan makanan yang mencukupi, dan pertahanan untuk melindungi wilayah mereka, menyumbang kepada pembangunan tamadun yang kukuh.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menyebutkan satu bidang kerjasama dalam pembinaan tamadun."
+        - marks: 2
+          criteria: "Menyebutkan dua bidang kerjasama dalam pembinaan tamadun."
+        - marks: 3
+          criteria: "Menyebutkan tiga bidang kerjasama dalam pembinaan tamadun dengan sedikit penjelasan."
+        - marks: 4
+          criteria: "Menghuraikan dengan jelas tiga bidang kerjasama dan bagaimana mereka menyumbang kepada pembinaan tamadun."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang faktor-faktor yang menyumbang kepada kekuatan ekonomi dan tentera di Yunani dan Rom."
+        - level: 2
+          text: "Pertimbangkan peranan perdagangan dan pertanian dalam perkembangan tamadun."

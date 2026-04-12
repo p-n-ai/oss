@@ -141,14 +141,16 @@ performance_standards:
       descriptor_en: "Generating ideas based on learned history knowledge and values."
 teaching:
     sequence:
-        - "Pengenalan Zaman Air Batu"
-        - "Pembinaan garis masa"
-        - "Analisis perubahan alam sekitar"
+        - 'Step 1: Introduce the concept of Zaman Air Batu and its significance (15 min)'
+        - 'Step 2: Guide students in identifying different Ice Ages using a timeline chart (10 min)'
+        - 'Step 3: Discuss the characteristics of the final Ice Age period (20 min)'
+        - 'Step 4: Analyze the changes that occurred during the Ice Age (25 min)'
+        - 'Step 5: Evaluate the impact of these changes in Southeast Asia (30 min)'
     common_misconceptions:
-        - misconception: "Zaman Air Batu berlaku sekali sahaja."
-          remediation: "Jelaskan bahawa terdapat beberapa zaman sejuk dalam sejarah geologi."
-    engagement_hooks:
-        - "Menunjukkan imej gletser dan perubahan iklim."
+        - misconception: Ice Age is one continuous period
+          remediation: Explain the cyclical nature of glacial and interglacial periods
+        - misconception: Dinosaurs lived during the Ice Age
+          remediation: Clarify timelines using a visual timeline showing different eras
 bloom_levels:
     - "remember"
     - "create"
@@ -166,3 +168,7 @@ tier: "core"
 sync_checked: true
 ai_teaching_notes: "SJ1-02.teaching.md"
 assessments_file: "SJ1-02.assessments.yaml"
+examples_file: SJ1-02.examples.yaml
+engagement_hooks:
+    - Discuss how climate change today is a modern 'Ice Age' conversation starter
+    - Explore how local weather changes relate to historical Ice Age climate shifts

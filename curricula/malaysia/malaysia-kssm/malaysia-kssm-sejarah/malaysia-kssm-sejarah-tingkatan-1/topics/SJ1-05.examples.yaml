@@ -1,0 +1,44 @@
+topic_id: "SJ1-05"
+provenance: "ai-generated"
+description: "Worked examples for Tamadun Awal Dunia"
+worked_examples:
+    - id: "WE-01"
+      topic: "Ciri-ciri Tamadun Awal Dunia"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "4.1.3"
+      real_world_analogy: "Memahami ciri-ciri tamadun awal seperti memahami ciri-ciri bandar moden yang mempunyai infrastruktur, institusi sosial dan ekonomi."
+      misconception_alert: "Pelajar mungkin menganggap bahawa semua tamadun awal memiliki teknologi yang sama, padahal setiap tamadun mempunyai teknologi dan cara hidup yang berbeza."
+      scenario: "Apakah ciri-ciri utama tamadun awal dunia yang boleh dikenal pasti?"
+      working: |
+        Step 1: Identify the key features of early civilizations such as Mesopotamia, Indus Valley, Ancient Egypt, and Ancient China.
+        Step 2: Understand that these civilizations had organized governments, formalized religion, social classes, and developed forms of writing.
+        Step 3: Recognize that these features allowed for the growth of cities and the development of trade and culture.
+    - id: "WE-02"
+      topic: "Lokasi Pembentukan Tamadun Awal Dunia"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "4.1.4"
+      real_world_analogy: "Seperti memilih lokasi untuk membina bandar moden, faktor geografi seperti sungai dan tanah subur memainkan peranan penting dalam pembentukan tamadun awal."
+      misconception_alert: "Pelajar mungkin berfikir semua tamadun awal muncul secara serentak di seluruh dunia, tetapi mereka terbentuk pada masa dan tempat yang berbeza."
+      scenario: "Discuss the geographical factors that influenced the formation of the four early world civilizations."
+      working: |
+        Step 1: Identify the four primary locations: Mesopotamia (Tigris and Euphrates Rivers), Egypt (Nile River), Indus Valley (Indus River), and Ancient China (Yellow River).
+        Step 2: Analyze how proximity to rivers provided water resources, fertile soil, and transportation routes that facilitated agriculture and trade.
+        Step 3: Conclude that these geographical conditions were crucial for the development and sustainability of early civilizations.
+    - id: "WE-03"
+      topic: "Sumbangan Tamadun Awal Dunia"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "4.1.9"
+      real_world_analogy: "Seperti bagaimana penemuan roda mempengaruhi pengangkutan hari ini, sumbangan tamadun awal membentuk asas inovasi moden."
+      misconception_alert: "Pelajar mungkin menganggap bahawa sumbangan tamadun awal tidak relevan dengan kehidupan moden, padahal banyak inovasi moden berasal dari penemuan awal."
+      scenario: "Evaluate the importance of the contributions of early civilizations as catalysts for modern innovations."
+      working: |-
+        Step 1: List major contributions from early civilizations, such as writing systems, the wheel, mathematics, and architectural techniques.
+        Step 2: Analyze how these contributions laid the groundwork for advances in science, engineering, and literature.
+        Step 3: Discuss specific examples of modern innovations, such as the use of hieroglyphics leading to modern alphabets or the wheel's influence on transportation.
+        Step 4: Conclude that the innovations and knowledge from early civilizations continue to influence modern society and drive future technological advancements.

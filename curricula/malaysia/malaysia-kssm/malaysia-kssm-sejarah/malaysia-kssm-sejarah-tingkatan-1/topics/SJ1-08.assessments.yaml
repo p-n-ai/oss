@@ -1,0 +1,109 @@
+topic_id: "SJ1-08"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 4.3.1 - Menyatakan latar belakang masyarakat Arab sebelum kedatangan Islam
+    - id: "Q01"
+      text: 'Apakah ciri-ciri utama masyarakat Arab sebelum kedatangan Islam?'
+      difficulty: "medium"
+      learning_objective: "4.3.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "B"
+        options:
+            A: "Masyarakat berstruktur berasaskan sistem feudal."
+            B: "Masyarakat berpuak dan bergantung kepada sistem kabilah."
+            C: "Masyarakat yang mengamalkan sistem demokrasi."
+            D: "Masyarakat yang mementingkan perdagangan antarabangsa."
+        working: 'Masyarakat Arab sebelum kedatangan Islam hidup dalam sistem kabilah di mana setiap kabilah mempunyai ketua yang dihormati.'
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Memilih jawapan yang betul."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang struktur sosial dan politik masyarakat Arab sebelum kedatangan Islam."
+    # Learning Objective: 4.3.2 - Menerangkan kemunculan tamadun Islam dan perkembangannya secara ringkas
+    - id: "Q02"
+      text: 'Jelaskan secara ringkas tentang perkembangan awal tamadun Islam di Semenanjung Arab.'
+      difficulty: "medium"
+      learning_objective: "4.3.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Perkembangan awal tamadun Islam bermula dengan wahyu pertama kepada Nabi Muhammad SAW di Gua Hira dan seterusnya penyebaran ajaran Islam di Makkah dan Madinah."
+        working: 'Perkembangan awal tamadun Islam bermula dengan penerimaan wahyu oleh Nabi Muhammad SAW dan gerakan dakwah di Makkah yang menghadapi tentangan serta penghijrahan ke Madinah yang menandakan permulaan masyarakat Islam.'
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan penerimaan wahyu oleh Nabi Muhammad SAW."
+        - marks: 2
+          criteria: "Menyentuh tentang penghijrahan ke Madinah dan pembentukan masyarakat Islam."
+      hints:
+        - level: 1
+          text: "Pertimbangkan peristiwa penting seperti wahyu pertama dan penghijrahan ke Madinah."
+    # Learning Objective: 4.3.4 - Menganalisis sumbangan tamadun Islam dalam bidang politik, ekonomi dan sosial
+    - id: "Q03"
+      text: 'Analisis sumbangan tamadun Islam dalam bidang politik dan ekonomi.'
+      difficulty: "medium"
+      learning_objective: "4.3.4"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Tamadun Islam memberikan sumbangan besar dalam sistem pemerintahan khalifah yang teratur dan pengenalan sistem zakat sebagai instrumen ekonomi."
+        working: 'Dalam bidang politik, sistem pemerintahan khalifah yang berasaskan syura memperkenalkan konsep kepimpinan yang adil. Dalam ekonomi, sistem zakat membantu mengagihkan kekayaan secara saksama.'
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Menghuraikan sistem pemerintahan khalifah."
+        - marks: 3
+          criteria: "Menjelaskan peranan sistem zakat dalam ekonomi."
+      hints:
+        - level: 1
+          text: "Fokus kepada sistem politik dan ekonomi yang diperkenalkan oleh tamadun Islam."
+    # Learning Objective: 4.3.5 - Menganalisis sumbangan tamadun Islam dalam bidang seni bina
+    - id: "Q04"
+      text: 'Bagaimanakah seni bina Islam mencerminkan nilai-nilai tamadun Islam? Berikan contoh.'
+      difficulty: "medium"
+      learning_objective: "4.3.5"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Seni bina Islam seperti masjid mencerminkan nilai kesederhanaan dan kerohanian, dengan reka bentuk kubah dan mihrab sebagai elemen utama."
+        working: 'Seni bina Islam banyak menekankan aspek kerohanian dan keindahan yang sederhana. Contohnya, masjid dengan kubah besar melambangkan langit dan mihrab menunjukkan arah kiblat.'
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menghuraikan nilai-nilai dalam seni bina Islam."
+        - marks: 2
+          criteria: "Memberikan contoh elemen seni bina Islam."
+      hints:
+        - level: 1
+          text: "Pertimbangkan elemen seperti kubah dan mihrab dalam masjid."
+    # Learning Objective: 4.3.8 - Membincangkan ciri-ciri kepimpinan Islam yang boleh diteladani oleh masyarakat
+    - id: "Q05"
+      text: 'Apakah ciri-ciri kepimpinan Islam yang diteladani oleh Nabi Muhammad SAW?'
+      difficulty: "medium"
+      learning_objective: "4.3.8"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "multiple_choice"
+        value: "D"
+        options:
+            A: "Kekayaan dan kekuasaan."
+            B: "Kekerasan dan ketegasan."
+            C: "Kepintaran dan kecantikan."
+            D: "Kejujuran dan kebijaksanaan."
+        working: 'Nabi Muhammad SAW dikenali sebagai pemimpin yang jujur dan bijaksana, memimpin dengan akhlak mulia dan keadilan.'
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Memilih jawapan yang betul."
+      hints:
+        - level: 1
+          text: "Fokus kepada sifat-sifat akhlak mulia yang dimiliki oleh Nabi Muhammad SAW."
