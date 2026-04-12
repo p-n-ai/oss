@@ -1,17 +1,144 @@
-id: SC4-09
+id: "SC4-09"
 official_ref: "Bab 9"
 name: "Kimia Industri"
 name_en: "Industrial Chemistry"
-subject_grade_id: malaysia-kssm-sains-tingkatan-4
-subject_id: malaysia-kssm-sains
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: beginner
-content_standards: []
-learning_objectives: []
+subject_id: "malaysia-kssm-sains-tingkatan-4"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+theme: "Penerokaan Unsur dalam Alam"
+content_standards:
+    - id: "9.1"
+      text: "Aloi"
+      text_en: "Alloys"
+    - id: "9.2"
+      text: "Kaca dan Seramik"
+      text_en: "Glass and Ceramics"
+    - id: "9.3"
+      text: "Polimer"
+      text_en: "Polymers"
+learning_objectives:
+    - id: "9.1.1"
+      text: "Mentakrif dan memberi contoh aloi berdasarkan komposisi unsur dalam aloi."
+      text_en: "Define and give examples of alloys based on element composition in alloys."
+      bloom: "remember"
+      content_standard_id: "9.1"
+    - id: "9.1.2"
+      text: "Menjalankan eksperimen untuk membanding ciri aloi dengan logam tulennya."
+      text_en: "Conduct an experiment to compare characteristics of alloys with their pure metals."
+      bloom: "apply"
+      content_standard_id: "9.1"
+    - id: "9.1.3"
+      text: "Mewajarkan kegunaan aloi dalam kehidupan harian."
+      text_en: "Justify the uses of alloys in daily life."
+      bloom: "evaluate"
+      content_standard_id: "9.1"
+    - id: "9.2.1"
+      text: "Memerihalkan komponen kaca dan seramik."
+      text_en: "Describe components of glass and ceramics."
+      bloom: "understand"
+      content_standard_id: "9.2"
+    - id: "9.2.2"
+      text: "Menerangkan dengan contoh aplikasi kaca dan seramik."
+      text_en: "Explain with examples of applications of glass and ceramics."
+      bloom: "understand"
+      content_standard_id: "9.2"
+    - id: "9.2.3"
+      text: "Mewajarkan kesesuaian penggunaan kaca dan seramik dalam kehidupan harian."
+      text_en: "Justify the suitability of using glass and ceramics in daily life."
+      bloom: "evaluate"
+      content_standard_id: "9.2"
+    - id: "9.3.1"
+      text: "Menerangkan polimer semula jadi dan polimer sintetik."
+      text_en: "Explain natural polymers and synthetic polymers."
+      bloom: "understand"
+      content_standard_id: "9.3"
+    - id: "9.3.2"
+      text: "Menerangkan proses pempolimeran penambahan."
+      text_en: "Explain the process of addition polymerization."
+      bloom: "understand"
+      content_standard_id: "9.3"
+    - id: "9.3.3"
+      text: "Berkomunikasi mengenai ciri dan proses pemvulkanan getah."
+      text_en: "Communicate about the characteristics and process of rubber vulcanization."
+      bloom: "understand"
+      content_standard_id: "9.3"
+    - id: "9.3.4"
+      text: "Menjana idea tentang teknologi terkini berasaskan getah."
+      text_en: "Generate ideas about current rubber-based technology."
+      bloom: "create"
+      content_standard_id: "9.3"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai kimia industri."
+      text_en: "Recall science knowledge and skills regarding industrial chemistry."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai kimia industri."
+      descriptor_en: "Recall science knowledge and skills regarding industrial chemistry."
+    - level: 2
+      id: "TP2"
+      text: "Memahami kimia industri dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand industrial chemistry and can explain the understanding."
+      descriptor: "Memahami kimia industri dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand industrial chemistry and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai kimia industri dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge regarding industrial chemistry and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai kimia industri dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge regarding industrial chemistry and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai kimia industri dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge regarding industrial chemistry in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai kimia industri dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge regarding industrial chemistry in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai kimia industri dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge regarding industrial chemistry in the context of problem solving and making decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai kimia industri dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge regarding industrial chemistry in the context of problem solving and making decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai kimia industri dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills regarding industrial chemistry in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai kimia industri dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using science knowledge and skills regarding industrial chemistry in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
 prerequisites:
-  required: []
-quality_level: 0
-provenance: ai-generated
-generated_at: "2026-04-12T02:57:04Z"
+    required: []
+    recommended: []
+teaching:
+    sequence:
+        - "Introduce alloys and properties."
+        - "Explore glass and ceramics manufacturing."
+        - "Discuss polymers and rubber."
+    common_misconceptions:
+        - misconception: "Alloys are just mixtures."
+          remediation: "Explain metallic bonding changes in alloys."
+        - misconception: "Plastics are always bad."
+          remediation: "Discuss benefits and environmental impact of polymers."
+    engagement_hooks:
+        - "Material science in construction."
+        - "Recycling polymers."
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T00:00:00Z"
+sync_checked: false
+ai_teaching_notes: "SC4-09.teaching.md"
+assessments_file: "SC4-09.assessments.yaml"

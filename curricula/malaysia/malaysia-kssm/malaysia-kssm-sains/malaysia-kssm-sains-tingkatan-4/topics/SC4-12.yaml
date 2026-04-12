@@ -1,17 +1,132 @@
-id: SC4-12
+id: "SC4-12"
 official_ref: "Bab 12"
 name: "Tenaga Nuklear"
 name_en: "Nuclear Energy"
-subject_grade_id: malaysia-kssm-sains-tingkatan-4
-subject_id: malaysia-kssm-sains
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: beginner
-content_standards: []
-learning_objectives: []
+subject_id: "malaysia-kssm-sains-tingkatan-4"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+theme: "Tenaga dan Kelestarian Hidup"
+content_standards:
+    - id: "12.1"
+      text: "Penggunaan Sumber Tenaga Nuklear"
+      text_en: "Use of Nuclear Energy Sources"
+    - id: "12.2"
+      text: "Penghasilan Tenaga Nuklear"
+      text_en: "Production of Nuclear Energy"
+    - id: "12.3"
+      text: "Impak Penggunaan Tenaga Nuklear"
+      text_en: "Impact of Nuclear Energy Use"
+    - id: "12.4"
+      text: "Tenaga Nuklear di Malaysia"
+      text_en: "Nuclear Energy in Malaysia"
+learning_objectives:
+    - id: "12.1.1"
+      text: "Mewajarkan penggunaan tenaga nuklear bagi negara yang telah dikenal pasti."
+      text_en: "Justify the use of nuclear energy for identified countries."
+      bloom: "evaluate"
+      content_standard_id: "12.1"
+    - id: "12.2.1"
+      text: "Memerihalkan penghasilan tenaga nuklear melalui pembelahan nukleus dan pelakuran nukleus."
+      text_en: "Describe the production of nuclear energy through nuclear fission and nuclear fusion."
+      bloom: "understand"
+      content_standard_id: "12.2"
+    - id: "12.2.2"
+      text: "Memerihalkan penjanaan tenaga elektrik daripada tenaga nuklear."
+      text_en: "Describe the generation of electrical energy from nuclear energy."
+      bloom: "understand"
+      content_standard_id: "12.2"
+    - id: "12.2.3"
+      text: "Mewajarkan penggunaan tenaga nuklear bagi negara yang menggunakannya."
+      text_en: "Justify the use of nuclear energy for countries that use it."
+      bloom: "evaluate"
+      content_standard_id: "12.2"
+    - id: "12.3.1"
+      text: "Menceritakan impak penggunaan senjata nuklear kepada hidupan dan persekitaran."
+      text_en: "Describe the impact of nuclear weapon use on life and the environment."
+      bloom: "understand"
+      content_standard_id: "12.3"
+    - id: "12.3.2"
+      text: "Merumuskan impak ujian nuklear ke atas persekitaran."
+      text_en: "Summarize the impact of nuclear tests on the environment."
+      bloom: "evaluate"
+      content_standard_id: "12.3"
+    - id: "12.4.1"
+      text: "Mewajarkan pembinaan stesen janakuasa nuklear di Malaysia."
+      text_en: "Justify the construction of nuclear power stations in Malaysia."
+      bloom: "evaluate"
+      content_standard_id: "12.4"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai tenaga nuklear."
+      text_en: "Recall science knowledge and skills regarding nuclear energy."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai tenaga nuklear."
+      descriptor_en: "Recall science knowledge and skills regarding nuclear energy."
+    - level: 2
+      id: "TP2"
+      text: "Memahami tenaga nuklear. dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand nuclear energy and can explain the understanding."
+      descriptor: "Memahami tenaga nuklear. dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand nuclear energy and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai tenaga nuklear dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge regarding nuclear energy and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai tenaga nuklear dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge regarding nuclear energy and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai tenaga nuklear dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge regarding nuclear energy in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai tenaga nuklear dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge regarding nuclear energy in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai tenaga nuklear dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge regarding nuclear energy in the context of problem solving and making decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai tenaga nuklear dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge regarding nuclear energy in the context of problem solving and making decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai tenaga nuklear dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills regarding nuclear energy in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai tenaga nuklear dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using science knowledge and skills regarding nuclear energy in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
 prerequisites:
-  required: []
-quality_level: 0
-provenance: ai-generated
-generated_at: "2026-04-12T02:57:04Z"
+    required: []
+    recommended: []
+teaching:
+    sequence:
+        - "Introduce nuclear energy sources."
+        - "Discuss fission and fusion."
+        - "Analyze impacts and future in Malaysia."
+    common_misconceptions:
+        - misconception: "Nuclear energy is always dangerous."
+          remediation: "Discuss safety measures and benefits."
+        - misconception: "Malaysia has nuclear power plants."
+          remediation: "Clarify current status and future plans."
+    engagement_hooks:
+        - "Energy crisis solutions."
+        - "Nuclear medicine applications."
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T00:00:00Z"
+sync_checked: false
+ai_teaching_notes: "SC4-12.teaching.md"
+assessments_file: "SC4-12.assessments.yaml"

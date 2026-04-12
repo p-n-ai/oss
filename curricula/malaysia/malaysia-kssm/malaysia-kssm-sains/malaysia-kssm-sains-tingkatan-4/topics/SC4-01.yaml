@@ -1,17 +1,139 @@
-id: SC4-01
+id: "SC4-01"
 official_ref: "Bab 1"
 name: "Langkah Keselamatan di dalam Makmal"
 name_en: "Safety Measures in the Laboratory"
-subject_grade_id: malaysia-kssm-sains-tingkatan-4
-subject_id: malaysia-kssm-sains
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: beginner
-content_standards: []
-learning_objectives: []
+subject_id: "malaysia-kssm-sains-tingkatan-4"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+theme: "Keselamatan dan Kesihatan"
+content_standards:
+    - id: "1.1"
+      text: "Peralatan Perlindungan Diri"
+      text_en: "Personal Protective Equipment"
+    - id: "1.2"
+      text: "Pembuangan Bahan Sisa"
+      text_en: "Waste Disposal"
+    - id: "1.3"
+      text: "Pemadam Kebakaran"
+      text_en: "Fire Extinguishers"
+learning_objectives:
+    - id: "1.1.1"
+      text: "Menjelaskan dengan contoh peralatan perlindungan diri serta fungsinya."
+      text_en: "Explain with examples of personal protective equipment and their functions."
+      bloom: "understand"
+      content_standard_id: "1.1"
+    - id: "1.2.1"
+      text: "Menjelaskan dengan contoh bahan yang boleh dibuang ke dalam sinki."
+      text_en: "Explain with examples of materials that can be disposed of in the sink."
+      bloom: "understand"
+      content_standard_id: "1.2"
+    - id: "1.2.2"
+      text: "Mencirikan bahan yang tidak boleh dibuang ke dalam sinki."
+      text_en: "Characterize materials that cannot be disposed of in the sink."
+      bloom: "understand"
+      content_standard_id: "1.2"
+    - id: "1.2.3"
+      text: "Mengurus bahan sisa biologi."
+      text_en: "Manage biological waste."
+      bloom: "apply"
+      content_standard_id: "1.2"
+    - id: "1.2.4"
+      text: "Berkomunikasi mengenai langkah mengurus kemalangan dalam makmal."
+      text_en: "Communicate about steps to manage accidents in the laboratory."
+      bloom: "understand"
+      content_standard_id: "1.2"
+    - id: "1.3.1"
+      text: "Berkomunikasi mengenai jenis pemadam kebakaran."
+      text_en: "Communicate about types of fire extinguishers."
+      bloom: "understand"
+      content_standard_id: "1.3"
+    - id: "1.3.2"
+      text: "Menjelaskan kaedah penggunaan pemadam kebakaran."
+      text_en: "Explain methods of using fire extinguishers."
+      bloom: "understand"
+      content_standard_id: "1.3"
+    - id: "1.3.3"
+      text: "Menjalankan audit alat pemadam kebakaran di sekolah."
+      text_en: "Conduct a fire extinguisher audit at school."
+      bloom: "apply"
+      content_standard_id: "1.3"
+    - id: "1.3.4"
+      text: "Mencipta alat pemadam kebakaran ringkas."
+      text_en: "Create a simple fire extinguisher."
+      bloom: "create"
+      content_standard_id: "1.3"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur."
+      text_en: "Recall science knowledge and skills regarding safety measures in the laboratory, emergency aid, techniques and procedures."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur."
+      descriptor_en: "Recall science knowledge and skills regarding safety measures in the laboratory, emergency aid, techniques and procedures."
+    - level: 2
+      id: "TP2"
+      text: "Memahami langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand safety measures in the laboratory, emergency aid, techniques and procedures and can explain the understanding."
+      descriptor: "Memahami langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand safety measures in the laboratory, emergency aid, techniques and procedures and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge regarding safety measures in the laboratory, emergency aid, techniques and procedures and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge regarding safety measures in the laboratory, emergency aid, techniques and procedures and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan teknik dan prosedur dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge regarding safety measures in the laboratory, emergency aid techniques and procedures in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan teknik dan prosedur dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge regarding safety measures in the laboratory, emergency aid techniques and procedures in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge regarding safety measures in the laboratory, emergency aid, techniques and procedures in the context of problem solving and making decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge regarding safety measures in the laboratory, emergency aid, techniques and procedures in the context of problem solving and making decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur, dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills regarding safety measures in the laboratory, emergency aid, techniques and procedures, in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur, dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using science knowledge and skills regarding safety measures in the laboratory, emergency aid, techniques and procedures, in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
 prerequisites:
-  required: []
-quality_level: 0
-provenance: ai-generated
-generated_at: "2026-04-12T02:57:04Z"
+    required: []
+    recommended: []
+teaching:
+    sequence:
+        - "Introduce personal protective equipment (PPE) and their functions."
+        - "Discuss waste disposal procedures and safety."
+        - "Demonstrate fire extinguisher usage and conduct audits."
+    common_misconceptions:
+        - misconception: "All chemicals can be poured down the sink."
+          remediation: "Explain pH limits and hazardous materials that require special disposal."
+        - misconception: "Fire extinguishers are the same for all fires."
+          remediation: "Teach classification of fires (A, B, C, D) and corresponding extinguisher types."
+    engagement_hooks:
+        - "Real-world accident case studies in laboratories."
+        - "Importance of safety in industrial settings."
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T00:00:00Z"
+sync_checked: false
+ai_teaching_notes: "SC4-01.teaching.md"
+assessments_file: "SC4-01.assessments.yaml"

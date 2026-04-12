@@ -1,17 +1,116 @@
-id: SC4-02
+id: "SC4-02"
 official_ref: "Bab 2"
 name: "Bantuan Kecemasan"
 name_en: "Emergency Aid"
-subject_grade_id: malaysia-kssm-sains-tingkatan-4
-subject_id: malaysia-kssm-sains
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: beginner
-content_standards: []
-learning_objectives: []
+subject_id: "malaysia-kssm-sains-tingkatan-4"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+theme: "Keselamatan dan Kesihatan"
+content_standards:
+    - id: "2.1"
+      text: "Resusitasi Kardio-pulmonari (Cardiopulmonary resuscitation, CPR)"
+      text_en: "Cardiopulmonary Resuscitation (CPR)"
+    - id: "2.2"
+      text: "Heimlich Maneuver"
+      text_en: "Heimlich Maneuver"
+learning_objectives:
+    - id: "2.1.1"
+      text: "Menyatakan apakah itu CPR dan situasi yang memerlukan CPR."
+      text_en: "State what CPR is and situations requiring CPR."
+      bloom: "remember"
+      content_standard_id: "2.1"
+    - id: "2.1.2"
+      text: "Mendemonstrasi kaedah CPR."
+      text_en: "Demonstrate CPR methods."
+      bloom: "apply"
+      content_standard_id: "2.1"
+    - id: "2.1.3"
+      text: "Menjelaskan kepentingan CPR."
+      text_en: "Explain the importance of CPR."
+      bloom: "understand"
+      content_standard_id: "2.1"
+    - id: "2.2.1"
+      text: "Menjelaskan Heimlich Maneuver dan kepentingannya."
+      text_en: "Explain Heimlich Maneuver and its importance."
+      bloom: "understand"
+      content_standard_id: "2.2"
+    - id: "2.2.2"
+      text: "Membuat demonstrasi Heimlich Maneuver."
+      text_en: "Demonstrate Heimlich Maneuver."
+      bloom: "apply"
+      content_standard_id: "2.2"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur."
+      text_en: "Recall science knowledge and skills regarding safety measures in the laboratory, emergency aid, techniques and procedures."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur."
+      descriptor_en: "Recall science knowledge and skills regarding safety measures in the laboratory, emergency aid, techniques and procedures."
+    - level: 2
+      id: "TP2"
+      text: "Memahami langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand safety measures in the laboratory, emergency aid, techniques and procedures and can explain the understanding."
+      descriptor: "Memahami langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand safety measures in the laboratory, emergency aid, techniques and procedures and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge regarding safety measures in the laboratory, emergency aid, techniques and procedures and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge regarding safety measures in the laboratory, emergency aid, techniques and procedures and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan teknik dan prosedur dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge regarding safety measures in the laboratory, emergency aid techniques and procedures in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan teknik dan prosedur dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge regarding safety measures in the laboratory, emergency aid techniques and procedures in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge regarding safety measures in the laboratory, emergency aid, techniques and procedures in the context of problem solving and making decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge regarding safety measures in the laboratory, emergency aid, techniques and procedures in the context of problem solving and making decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur, dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills regarding safety measures in the laboratory, emergency aid, techniques and procedures, in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur, dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using science knowledge and skills regarding safety measures in the laboratory, emergency aid, techniques and procedures, in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
 prerequisites:
-  required: []
-quality_level: 0
-provenance: ai-generated
-generated_at: "2026-04-12T02:57:04Z"
+    required: []
+    recommended: []
+teaching:
+    sequence:
+        - "Explain CPR indications and procedure."
+        - "Demonstrate Heimlich Maneuver for choking."
+        - "Practice scenarios with paramedics."
+    common_misconceptions:
+        - misconception: "CPR is only for heart attacks."
+          remediation: "Clarify CPR is for cardiac arrest, drowning, electric shock, etc."
+        - misconception: "Heimlich is for all choking."
+          remediation: "Specify it is for conscious choking victims unable to speak or breathe."
+    engagement_hooks:
+        - "Life-saving statistics."
+        - "Real-life CPR success stories."
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T00:00:00Z"
+sync_checked: false
+ai_teaching_notes: "SC4-02.teaching.md"
+assessments_file: "SC4-02.assessments.yaml"

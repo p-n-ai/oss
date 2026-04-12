@@ -1,17 +1,144 @@
-id: SC4-08
+id: "SC4-08"
 official_ref: "Bab 8"
 name: "Unsur dan Bahan"
 name_en: "Elements and Materials"
-subject_grade_id: malaysia-kssm-sains-tingkatan-4
-subject_id: malaysia-kssm-sains
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: beginner
-content_standards: []
-learning_objectives: []
+subject_id: "malaysia-kssm-sains-tingkatan-4"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+theme: "Penerokaan Unsur dalam Alam"
+content_standards:
+    - id: "8.1"
+      text: "Asas Jirim"
+      text_en: "Basics of Matter"
+    - id: "8.2"
+      text: "Jadual Berkala Unsur Moden"
+      text_en: "Modern Periodic Table of Elements"
+    - id: "8.3"
+      text: "Isotop"
+      text_en: "Isotopes"
+learning_objectives:
+    - id: "8.1.1"
+      text: "Menerangkan dengan contoh bahan atom, bahan molekul dan bahan ion."
+      text_en: "Explain with examples of atomic materials, molecular materials and ionic materials."
+      bloom: "understand"
+      content_standard_id: "8.1"
+    - id: "8.1.2"
+      text: "Menjelaskan kewujudan unsur dalam pelbagai bentuk."
+      text_en: "Explain the existence of elements in various forms."
+      bloom: "understand"
+      content_standard_id: "8.1"
+    - id: "8.2.1"
+      text: "Mencerakinkan Jadual Berkala Unsur Moden."
+      text_en: "Label the Modern Periodic Table of Elements."
+      bloom: "apply"
+      content_standard_id: "8.2"
+    - id: "8.2.2"
+      text: "Mendeduksi prinsip susunan unsur dalam Jadual Berkala Unsur Moden."
+      text_en: "Deduce the principles of element arrangement in the Modern Periodic Table of Elements."
+      bloom: "analyze"
+      content_standard_id: "8.2"
+    - id: "8.2.3"
+      text: "Melakar dan menulis susunan elektron unsur dalam kumpulan."
+      text_en: "Draw and write electron arrangement of elements in groups."
+      bloom: "apply"
+      content_standard_id: "8.2"
+    - id: "8.2.4"
+      text: "Menjelaskan pembentukan ion positif dan ion negatif."
+      text_en: "Explain the formation of positive ions and negative ions."
+      bloom: "understand"
+      content_standard_id: "8.2"
+    - id: "8.2.5"
+      text: "Mewajarkan pendermaan dan penerimaan elektron untuk mencapai susunan elektron stabil."
+      text_en: "Justify donation and acceptance of electrons to achieve stable electron arrangement."
+      bloom: "evaluate"
+      content_standard_id: "8.2"
+    - id: "8.3.1"
+      text: "Menerangkan isotop dengan contoh."
+      text_en: "Explain isotopes with examples."
+      bloom: "understand"
+      content_standard_id: "8.3"
+    - id: "8.3.2"
+      text: "Menentukan bilangan proton, bilangan neutron dan nombor nukleon dalam isotop."
+      text_en: "Determine the number of protons, number of neutrons and nucleon number in isotopes."
+      bloom: "apply"
+      content_standard_id: "8.3"
+    - id: "8.3.3"
+      text: "Berkomunikasi mengenai kegunaan isotop dalam pelbagai bidang."
+      text_en: "Communicate about the uses of isotopes in various fields."
+      bloom: "understand"
+      content_standard_id: "8.3"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai unsur dan bahan."
+      text_en: "Recall science knowledge and skills regarding elements and materials."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai unsur dan bahan."
+      descriptor_en: "Recall science knowledge and skills regarding elements and materials."
+    - level: 2
+      id: "TP2"
+      text: "Memahami unsur dan bahan serta dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand elements and materials and can explain the understanding."
+      descriptor: "Memahami unsur dan bahan serta dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand elements and materials and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai unsur dan bahan serta dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge regarding elements and materials and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai unsur dan bahan serta dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge regarding elements and materials and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai unsur dan bahan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge regarding elements and materials in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai unsur dan bahan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge regarding elements and materials in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai unsur dan bahan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge regarding elements and materials in the context of problem solving and making decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai unsur dan bahan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge regarding elements and materials in the context of problem solving and making decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai unsur dan bahan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills regarding elements and materials in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai unsur dan bahan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using science knowledge and skills regarding elements and materials in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
 prerequisites:
-  required: []
-quality_level: 0
-provenance: ai-generated
-generated_at: "2026-04-12T02:57:04Z"
+    required: []
+    recommended: []
+teaching:
+    sequence:
+        - "Introduce atomic structure."
+        - "Explore Periodic Table trends."
+        - "Discuss isotopes and applications."
+    common_misconceptions:
+        - misconception: "All elements are metals."
+          remediation: "Classify elements into metals, non-metals, and metalloids."
+        - misconception: "Isotopes are radioactive."
+          remediation: "Explain stable and unstable isotopes."
+    engagement_hooks:
+        - "Periodic Table in everyday products."
+        - "Carbon dating in archaeology."
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T00:00:00Z"
+sync_checked: false
+ai_teaching_notes: "SC4-08.teaching.md"
+assessments_file: "SC4-08.assessments.yaml"

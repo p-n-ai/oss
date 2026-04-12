@@ -1,17 +1,168 @@
-id: SC4-04
+id: "SC4-04"
 official_ref: "Bab 4"
 name: "Teknologi Hijau dalam Melestarikan Alam"
 name_en: "Green Technology in Preserving the Environment"
-subject_grade_id: malaysia-kssm-sains-tingkatan-4
-subject_id: malaysia-kssm-sains
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: beginner
-content_standards: []
-learning_objectives: []
+subject_id: "malaysia-kssm-sains-tingkatan-4"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+theme: "Penyenggaraan dan Kesinambungan Hidup"
+content_standards:
+    - id: "4.1"
+      text: "Kelestarian Alam Sekitar"
+      text_en: "Environmental Sustainability"
+    - id: "4.2"
+      text: "Sektor Tenaga"
+      text_en: "Energy Sector"
+    - id: "4.3"
+      text: "Sektor Pengurusan Sisa dan Air Sisa"
+      text_en: "Waste and Wastewater Management Sector"
+    - id: "4.4"
+      text: "Sektor Pertanian dan Perhutanan"
+      text_en: "Agriculture and Forestry Sector"
+    - id: "4.5"
+      text: "Sektor Pengangkutan"
+      text_en: "Transportation Sector"
+    - id: "4.6"
+      text: "Teknologi Hijau dan Kehidupan"
+      text_en: "Green Technology and Life"
+learning_objectives:
+    - id: "4.1.1"
+      text: "Mendefinisikan dan mewajarkan Teknologi Hijau dalam kehidupan."
+      text_en: "Define and justify Green Technology in life."
+      bloom: "evaluate"
+      content_standard_id: "4.1"
+    - id: "4.1.2"
+      text: "Menghubung kait kecekapan tenaga dengan teknologi hijau."
+      text_en: "Relate energy efficiency with green technology."
+      bloom: "understand"
+      content_standard_id: "4.1"
+    - id: "4.1.3"
+      text: "Mengenal pasti sektor dalam Teknologi Hijau."
+      text_en: "Identify sectors in Green Technology."
+      bloom: "remember"
+      content_standard_id: "4.1"
+    - id: "4.2.1"
+      text: "Memerihalkan isu sosiosaintifik."
+      text_en: "Describe socio-scientific issues."
+      bloom: "understand"
+      content_standard_id: "4.2"
+    - id: "4.2.2"
+      text: "Menerangkan isu sosiosaintifik dalam sektor tenaga."
+      text_en: "Explain socio-scientific issues in the energy sector."
+      bloom: "understand"
+      content_standard_id: "4.2"
+    - id: "4.2.3"
+      text: "Mewajarkan aplikasi Teknologi Hijau dalam menangani isu sosiosaintifik sektor tenaga."
+      text_en: "Justify the application of Green Technology in handling socio-scientific issues in the energy sector."
+      bloom: "evaluate"
+      content_standard_id: "4.2"
+    - id: "4.3.1"
+      text: "Menerangkan isu sosiosaintifik dalam sektor pengurusan sisa dan air sisa."
+      text_en: "Explain socio-scientific issues in waste and wastewater management sector."
+      bloom: "understand"
+      content_standard_id: "4.3"
+    - id: "4.3.2"
+      text: "Mewajarkan aplikasi teknologi hijau dalam menangani isu sosiosaintifk sektor pengurusan sisa dan air sisa."
+      text_en: "Justify the application of green technology in handling socio-scientific issues in waste and wastewater management sector."
+      bloom: "evaluate"
+      content_standard_id: "4.3"
+    - id: "4.4.1"
+      text: "Menerangkan isu sosiosaintifik dalam sektor pertanian dan perhutanan."
+      text_en: "Explain socio-scientific issues in agriculture and forestry sector."
+      bloom: "understand"
+      content_standard_id: "4.4"
+    - id: "4.4.2"
+      text: "Mewajarkan aplikasi teknologi hijau dalam menangani isu sosiosaintifk sektor pertanian dan perhutanan."
+      text_en: "Justify the application of green technology in handling socio-scientific issues in agriculture and forestry sector."
+      bloom: "evaluate"
+      content_standard_id: "4.4"
+    - id: "4.5.1"
+      text: "Menerangkan isu sosiosaintifik dalam sektor pengangkutan."
+      text_en: "Explain socio-scientific issues in the transportation sector."
+      bloom: "understand"
+      content_standard_id: "4.5"
+    - id: "4.5.2"
+      text: "Mewajarkan aplikasi teknologi hijau dalam menangani isu sosiosaintifk sektor pengangkutan."
+      text_en: "Justify the application of green technology in handling socio-scientific issues in the transportation sector."
+      bloom: "evaluate"
+      content_standard_id: "4.5"
+    - id: "4.6.1"
+      text: "Mewajarkan peranan setiap individu dalam menangani fenomena pemanasan global dan perubahan iklim dalam mengurangkan jejak kaki karbon."
+      text_en: "Justify the role of every individual in handling global warming and climate change phenomena in reducing carbon footprint."
+      bloom: "evaluate"
+      content_standard_id: "4.6"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai teknologi hijau dalam melestarikan alam."
+      text_en: "Recall science knowledge and skills regarding green technology in preserving the environment."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai teknologi hijau dalam melestarikan alam."
+      descriptor_en: "Recall science knowledge and skills regarding green technology in preserving the environment."
+    - level: 2
+      id: "TP2"
+      text: "Memahami teknologi hijau dalam melestarikan alam dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand green technology in preserving the environment and can explain the understanding."
+      descriptor: "Memahami teknologi hijau dalam melestarikan alam dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand green technology in preserving the environment and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai teknologi hijau dalam melestarikan alam dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge regarding green technology in preserving the environment and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai teknologi hijau dalam melestarikan alam dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge regarding green technology in preserving the environment and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai teknologi hijau dalam melestarikan alam dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge regarding green technology in preserving the environment in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai teknologi hijau dalam melestarikan alam dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge regarding green technology in preserving the environment in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai teknologi hijau dalam melestarikan alam dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge regarding green technology in preserving the environment in the context of problem solving and making decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai teknologi hijau dalam melestarikan alam dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge regarding green technology in preserving the environment in the context of problem solving and making decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai teknologi hijau dalam melestarikan alam dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills regarding green technology in preserving the environment in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai teknologi hijau dalam melestarikan alam dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using science knowledge and skills regarding green technology in preserving the environment in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
 prerequisites:
-  required: []
-quality_level: 0
-provenance: ai-generated
-generated_at: "2026-04-12T02:57:04Z"
+    required: []
+    recommended: []
+teaching:
+    sequence:
+        - "Define Green Technology and sustainability."
+        - "Explore sectors: Energy, Waste, Agriculture, Transport."
+        - "Discuss individual roles in climate action."
+    common_misconceptions:
+        - misconception: "Green technology is too expensive."
+          remediation: "Discuss long-term economic and environmental benefits."
+        - misconception: "Individual actions don't matter."
+          remediation: "Show impact of collective small actions on carbon footprint."
+    engagement_hooks:
+        - "Local green initiatives."
+        - "Future energy scenarios."
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T00:00:00Z"
+sync_checked: false
+ai_teaching_notes: "SC4-04.teaching.md"
+assessments_file: "SC4-04.assessments.yaml"
