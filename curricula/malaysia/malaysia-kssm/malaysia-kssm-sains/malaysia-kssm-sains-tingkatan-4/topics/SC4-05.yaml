@@ -2,7 +2,8 @@ id: "SC4-05"
 official_ref: "Bab 5"
 name: "Genetik"
 name_en: "Genetics"
-subject_id: "malaysia-kssm-sains-tingkatan-4"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
 syllabus_id: "malaysia-kssm"
 country_id: "malaysia"
 language: "ms"
@@ -137,17 +138,18 @@ prerequisites:
     recommended: []
 teaching:
     sequence:
-        - "Introduce DNA and cell division."
-        - "Explore heredity and mutation."
-        - "Discuss genetic engineering and ethics."
+        - 'Step 1: Introduce genes, DNA, and chromosomes using a library analogy (20 min)'
+        - 'Step 2: Explain mitosis and meiosis with visual aids and animations (25 min)'
+        - 'Step 3: Discuss inheritance patterns using family pedigree charts (20 min)'
+        - 'Step 4: Explore genetic mutations and their causes with examples (25 min)'
+        - 'Step 5: Debate the ethical implications of genetic engineering (20 min)'
     common_misconceptions:
-        - misconception: "All mutations are harmful."
-          remediation: "Explain neutral and beneficial mutations."
-        - misconception: "Genetic engineering is always safe."
-          remediation: "Discuss ethical concerns and potential risks."
-    engagement_hooks:
-        - "Personalized medicine."
-        - "CRISPR technology news."
+        - misconception: Genes and chromosomes are the same thing.
+          remediation: Clarify that genes are segments of DNA, while chromosomes are structures that organize DNA.
+        - misconception: Mitosis and meiosis are identical processes.
+          remediation: Highlight the differences in outcomes and stages between mitosis and meiosis.
+        - misconception: Mutations are always harmful.
+          remediation: Explain that mutations can be beneficial, neutral, or harmful, depending on the context.
 bloom_levels:
     - remember
     - understand
@@ -168,3 +170,7 @@ generated_at: "2023-10-27T00:00:00Z"
 sync_checked: false
 ai_teaching_notes: "SC4-05.teaching.md"
 assessments_file: "SC4-05.assessments.yaml"
+examples_file: SC4-05.examples.yaml
+engagement_hooks:
+    - Discuss how genetic traits in local animals and plants illustrate inheritance.
+    - Use a family tree to connect genetic concepts to students' own lives.

@@ -1,0 +1,44 @@
+topic_id: "SC4-04"
+provenance: "ai-generated"
+description: "Worked examples for Teknologi Hijau dalam Melestarikan Alam"
+worked_examples:
+    - id: "WE-01"
+      topic: "Mendefinisikan dan Mewajarkan Teknologi Hijau dalam Kehidupan"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "4.1.1"
+      real_world_analogy: "Memikirkan teknologi hijau seperti menanam pokok yang membantu membersihkan udara."
+      misconception_alert: "Teknologi hijau bukan hanya tentang produk mesra alam tetapi juga melibatkan proses dan amalan."
+      scenario: "Apakah yang dimaksudkan dengan teknologi hijau dan bagaimana ia boleh dimanfaatkan dalam kehidupan seharian?"
+      working: |
+        Step 1: Definisi teknologi hijau ialah pembangunan dan aplikasi produk, peralatan, dan sistem untuk memelihara alam sekitar dan sumber semulajadi.
+        Step 2: Teknologi hijau melibatkan penggunaan tenaga dan sumber yang lebih cekap untuk mengurangkan impak negatif terhadap alam sekitar.
+        Step 3: Contoh aplikasi teknologi hijau dalam kehidupan seharian termasuk penggunaan lampu LED, pengangkutan awam, dan kitar semula.
+    - id: "WE-02"
+      topic: "Menghubung Kait Kecekapan Tenaga dengan Teknologi Hijau"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "4.1.2"
+      real_world_analogy: "Menggunakan tenaga secara cekap adalah seperti menggunakan air dengan bijak untuk mengelakkan pembaziran."
+      misconception_alert: "Kecekapan tenaga bukan hanya tentang mengurangkan penggunaan tenaga tetapi juga menggunakan sumber tenaga yang boleh diperbaharui."
+      scenario: "Bagaimana kecekapan tenaga berkaitan dengan teknologi hijau dan apakah contoh yang menunjukkan hubungan ini?"
+      working: |
+        Step 1: Kecekapan tenaga merujuk kepada penggunaan tenaga yang lebih sedikit untuk mencapai output yang sama.
+        Step 2: Teknologi hijau menggalakkan kecekapan tenaga dengan memanfaatkan sumber tenaga boleh diperbaharui seperti tenaga solar dan angin.
+        Step 3: Contohnya, memasang panel solar di rumah mengurangkan bil elektrik dan mengurangkan kebergantungan pada sumber tenaga fosil.
+    - id: "WE-03"
+      topic: "Mewajarkan Aplikasi Teknologi Hijau dalam Menangani Isu Sosiosaintifik Sektor Pengangkutan"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "4.5.2"
+      real_world_analogy: "Berfikir tentang teknologi hijau dalam pengangkutan seperti memilih jalan yang lebih pendek untuk mengurangkan masa dan bahan bakar."
+      misconception_alert: "Menganggap semua kenderaan elektrik adalah sepenuhnya mesra alam tanpa mempertimbangkan sumber tenaga untuk pengecasan."
+      scenario: "Bagaimanakah aplikasi teknologi hijau dapat mengatasi isu sosiosaintifik dalam sektor pengangkutan?"
+      working: |-
+        Step 1: Kenal pasti isu utama dalam sektor pengangkutan seperti pencemaran udara dan penggunaan bahan bakar fosil.
+        Step 2: Teknologi hijau menawarkan penyelesaian seperti kenderaan elektrik yang mengurangkan pelepasan karbon.
+        Step 3: Menggunakan tenaga boleh diperbaharui untuk mengecas kenderaan elektrik meningkatkan lagi kecekapan dan kelestarian.
+        Step 4: Menyediakan infrastruktur pengangkutan awam yang lebih cekap mengurangkan penggunaan kenderaan peribadi dan pencemaran.

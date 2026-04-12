@@ -2,7 +2,8 @@ id: "SC4-07"
 official_ref: "Bab 7"
 name: "Koordinasi Badan"
 name_en: "Body Coordination"
-subject_id: "malaysia-kssm-sains-tingkatan-4"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
 syllabus_id: "malaysia-kssm"
 country_id: "malaysia"
 language: "ms"
@@ -86,17 +87,16 @@ prerequisites:
     recommended: []
 teaching:
     sequence:
-        - "Introduce endocrine system."
-        - "Discuss drug abuse effects."
-        - "Promote mental health awareness."
+        - Introduce the endocrine system and its functions using diagrams (20 min)
+        - Discuss examples of hormonal imbalance and their health effects (15 min)
+        - Explore different types of drugs and their effects through short videos (20 min)
+        - Group discussion on the impact of substance abuse on health (25 min)
+        - Brainstorming session on promoting mental health in society (15 min)
     common_misconceptions:
-        - misconception: "Hormones only affect growth."
-          remediation: "Explain broader roles in metabolism, mood, etc."
-        - misconception: "Mental health is separate from physical health."
-          remediation: "Discuss mind-body connection."
-    engagement_hooks:
-        - "Stress management techniques."
-        - "Hormone balance in sports."
+        - misconception: Hormon hanya penting semasa akil baligh
+          remediation: Beri contoh lain, seperti hormon dalam metabolisme
+        - misconception: Semua dadah memberikan kesan yang sama
+          remediation: Bandingkan ciri dan kesan dadah yang berbeza
 bloom_levels:
     - remember
     - understand
@@ -117,3 +117,7 @@ generated_at: "2023-10-27T00:00:00Z"
 sync_checked: false
 ai_teaching_notes: "SC4-07.teaching.md"
 assessments_file: "SC4-07.assessments.yaml"
+examples_file: SC4-07.examples.yaml
+engagement_hooks:
+    - Gunakan kisah dari berita tempatan tentang tokoh yang berjaya pulih dari penyalahgunaan dadah
+    - Diskusikan inisiatif kerajaan dalam mempromosikan kesihatan mental di Malaysia

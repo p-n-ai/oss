@@ -2,7 +2,8 @@ id: "SC4-02"
 official_ref: "Bab 2"
 name: "Bantuan Kecemasan"
 name_en: "Emergency Aid"
-subject_id: "malaysia-kssm-sains-tingkatan-4"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
 syllabus_id: "malaysia-kssm"
 country_id: "malaysia"
 language: "ms"
@@ -83,17 +84,16 @@ prerequisites:
     recommended: []
 teaching:
     sequence:
-        - "Explain CPR indications and procedure."
-        - "Demonstrate Heimlich Maneuver for choking."
-        - "Practice scenarios with paramedics."
+        - 'Introduction to CPR: Explain CPR and its necessity (15 min)'
+        - 'Demonstrating CPR: Guide through CPR steps with manikin (20 min)'
+        - 'Importance of CPR: Discuss real-life impact and statistics (10 min)'
+        - 'Introduction to Heimlich Maneuver: Explain and describe (15 min)'
+        - 'Demonstrating Heimlich Maneuver: Practice with partners (20 min)'
     common_misconceptions:
-        - misconception: "CPR is only for heart attacks."
-          remediation: "Clarify CPR is for cardiac arrest, drowning, electric shock, etc."
-        - misconception: "Heimlich is for all choking."
-          remediation: "Specify it is for conscious choking victims unable to speak or breathe."
-    engagement_hooks:
-        - "Life-saving statistics."
-        - "Real-life CPR success stories."
+        - misconception: CPR is always effective immediately.
+          remediation: Explain the steps and real outcomes of CPR.
+        - misconception: Heimlich Maneuver is forceful.
+          remediation: Demonstrate gentle, controlled actions.
 bloom_levels:
     - remember
     - understand
@@ -114,3 +114,7 @@ generated_at: "2023-10-27T00:00:00Z"
 sync_checked: false
 ai_teaching_notes: "SC4-02.teaching.md"
 assessments_file: "SC4-02.assessments.yaml"
+examples_file: SC4-02.examples.yaml
+engagement_hooks:
+    - Discuss local heroes who used CPR to save lives.
+    - Role-play a scenario where someone successfully performs the Heimlich Maneuver.

@@ -2,7 +2,8 @@ id: "SC4-03"
 official_ref: "Bab 3"
 name: "Teknik Mengukur Parameter Kesihatan Badan"
 name_en: "Techniques for Measuring Body Health Parameters"
-subject_id: "malaysia-kssm-sains-tingkatan-4"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
 syllabus_id: "malaysia-kssm"
 country_id: "malaysia"
 language: "ms"
@@ -109,17 +110,16 @@ prerequisites:
     recommended: []
 teaching:
     sequence:
-        - "Introduce health monitoring tools."
-        - "Practice measurement techniques."
-        - "Analyze health data and implications."
+        - 'Step 1: Introduce body temperature measurement tools (15 min)'
+        - 'Step 2: Demonstrate correct thermometer use (15 min)'
+        - 'Step 3: Discuss normal temperature ranges (10 min)'
+        - 'Step 4: Identify pulse points on the body (10 min)'
+        - 'Step 5: Conduct pulse rate measurement experiment (20 min)'
     common_misconceptions:
-        - misconception: "Normal body temperature is exactly 37C."
-          remediation: "Explain normal range (36.9C) and factors affecting it."
-        - misconception: "BMI is the only health indicator."
-          remediation: "Discuss limitations of BMI and need for other health metrics."
-    engagement_hooks:
-        - "Personal health tracking apps."
-        - "Importance of regular health checks."
+        - misconception: Pulse can be felt anywhere on the body
+          remediation: Use diagrams to show specific pulse points
+        - misconception: Blood pressure is the same throughout the day
+          remediation: Explain factors affecting blood pressure variations
 bloom_levels:
     - remember
     - understand
@@ -140,3 +140,7 @@ generated_at: "2023-10-27T00:00:00Z"
 sync_checked: false
 ai_teaching_notes: "SC4-03.teaching.md"
 assessments_file: "SC4-03.assessments.yaml"
+examples_file: SC4-03.examples.yaml
+engagement_hooks:
+    - Discuss the importance of accurate body temperature measurement during illness
+    - Explore how athletes monitor pulse rate for training purposes

@@ -1,0 +1,47 @@
+topic_id: "SC4-12"
+provenance: "ai-generated"
+description: "Worked examples for Tenaga Nuklear"
+worked_examples:
+    - id: "WE-01"
+      topic: "Penghasilan Tenaga Nuklear Melalui Pembelahan Nukleus"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "12.2.1"
+      real_world_analogy: "Pembelahan nukleus adalah seperti memecahkan biji kekacang; apabila pecah, ia melepaskan tenaga yang tersimpan di dalamnya."
+      misconception_alert: "Ramai pelajar menganggap pembelahan nukleus adalah sama dengan reaksi kimia biasa seperti pembakaran, namun ia melibatkan perubahan pada nukleus atom, bukan sekadar elektron."
+      scenario: "Jelaskan bagaimana pembelahan nukleus menghasilkan tenaga dalam reaktor nuklear."
+      working: |
+        Step 1: Pembelahan nukleus berlaku apabila nukleus atom berat, seperti uranium-235, menyerap satu neutron.
+        Step 2: Penyerap neutron tersebut menyebabkan nukleus menjadi tidak stabil dan terbelah kepada dua nukleus yang lebih kecil.
+        Step 3: Proses ini membebaskan sejumlah besar tenaga dan lebih banyak neutron yang boleh memulakan pembelahan nukleus lain, menyebabkan reaksi berantai.
+        Step 4: Tenaga yang dibebaskan dalam bentuk haba digunakan untuk memanaskan air dan menghasilkan stim yang menggerakkan turbin untuk menjana elektrik.
+    - id: "WE-02"
+      topic: "Penjanaan Tenaga Elektrik Daripada Tenaga Nuklear"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "12.2.2"
+      real_world_analogy: "Proses ini boleh dibandingkan dengan penggunaan tenaga solar di mana tenaga dari matahari (sumber tenaga) digunakan untuk menggerakkan turbin untuk menjana elektrik."
+      misconception_alert: "Pelajar mungkin salah faham bahawa tenaga nuklear menghasilkan tenaga elektrik secara langsung, tetapi sebenarnya ia hanya menghasilkan haba yang digunakan dalam proses penjanaan elektrik."
+      scenario: "Bagaimana tenaga nuklear digunakan untuk menjana tenaga elektrik dalam sebuah loji nuklear?"
+      working: |
+        Step 1: Reaktor nuklear menggunakan pembelahan nukleus untuk menghasilkan haba.
+        Step 2: Haba ini digunakan untuk memanaskan air dalam reaktor, menghasilkan stim.
+        Step 3: Stim yang dihasilkan menggerakkan turbin yang dihubungkan dengan penjana elektrik.
+        Step 4: Putaran turbin menukar tenaga kinetik kepada tenaga elektrik yang boleh digunakan.
+    - id: "WE-03"
+      topic: "Penggunaan Tenaga Nuklear di Malaysia"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "12.4.1"
+      real_world_analogy: "Membangun stesen janakuasa nuklear adalah seperti menambah satu lagi sistem pengangkutan awam yang efisien dalam bandar untuk mengurangkan kesesakan lalu lintas (penggunaan bahan api fosil)."
+      misconception_alert: "Kebanyakan orang beranggapan bahawa pembinaan stesen janakuasa nuklear semestinya berbahaya, namun teknologi moden dan protokol keselamatan boleh mengurangkan risiko ini dengan ketara."
+      scenario: "Seorang ahli politik mencadangkan pembinaan loji tenaga nuklear di Malaysia untuk memenuhi keperluan tenaga negara. Apakah justifikasi yang boleh diberikan?"
+      working: |-
+        Step 1: Kenalpasti keperluan tenaga semasa dan masa depan Malaysia serta potensi kekurangan sumber tenaga.
+        Step 2: Bandingkan kecekapan penjanaan elektrik tenaga nuklear dengan sumber tenaga lain seperti arang batu dan gas asli.
+        Step 3: Pertimbangkan impak alam sekitar yang lebih rendah dari segi pelepasan karbon berbanding sumber tenaga fosil.
+        Step 4: Tinjau pelaburan dalam teknologi dan keselamatan untuk mengurangkan risiko kemalangan nuklear.
+        Step 5: Kembangkan rancangan pendidikan dan latihan untuk membina tenaga kerja yang berkemahiran dalam teknologi nuklear.

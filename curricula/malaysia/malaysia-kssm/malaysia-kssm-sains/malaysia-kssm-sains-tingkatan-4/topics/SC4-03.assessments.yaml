@@ -1,0 +1,121 @@
+topic_id: "SC4-03"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 3.1.1 Mengukur suhu badan menggunakan teknik yang betul.
+    - id: "Q01"
+      text: 'Apakah lokasi terbaik untuk mengukur suhu badan bagi mendapatkan bacaan yang paling tepat?'
+      difficulty: "medium"
+      learning_objective: "3.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "B"
+        options:
+            A: "Di bawah lengan"
+            B: "Di dalam mulut"
+            C: "Di atas dahi"
+            D: "Di dalam telinga"
+        working: |
+            Bacaan suhu badan yang paling tepat selalunya diambil di dalam mulut kerana ia mewakili suhu badan inti.
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Memilih lokasi yang tepat untuk mengukur suhu badan."
+      hints:
+        - level: 1
+          text: "Pertimbangkan lokasi yang paling dekat dengan suhu badan inti."
+        - level: 2
+          text: "Elakkan lokasi yang mudah terdedah kepada suhu persekitaran."
+    # Learning Objective: 3.2.2 Menjalankan eksperimen bagi menentukan kadar denyutan nadi manusia.
+    - id: "Q02"
+      text: 'Anda telah mengukur denyutan nadi selama 15 saat dan mendapat 20 denyutan. Berapakah kadar denyutan nadi per minit?'
+      difficulty: "medium"
+      learning_objective: "3.2.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: "80"
+        working: |
+            Kadar denyutan nadi per minit = Jumlah denyutan dalam 15 saat × (60/15) = 20 × 4 = 80 denyutan per minit.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Mengetahui cara menukar denyutan 15 saat kepada per minit."
+        - marks: 2
+          criteria: "Mengira dengan tepat kadar denyutan nadi per minit."
+      hints:
+        - level: 1
+          text: "Ingat unit masa dan bagaimana untuk menukar kepada satu minit."
+        - level: 2
+          text: "Kalikan jumlah denyutan dengan faktor untuk menjadikannya per minit."
+    # Learning Objective: 3.3.3 Menginterpretasi data daripada bacaan tekanan darah.
+    - id: "Q03"
+      text: 'Jika bacaan tekanan darah anda adalah 120/80 mmHg, apakah maksudnya dan adakah ia dalam julat yang sihat?'
+      difficulty: "medium"
+      learning_objective: "3.3.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Bacaan 120/80 mmHg bermaksud tekanan sistolik adalah 120 dan tekanan diastolik adalah 80. Ia berada dalam julat yang sihat."
+        working: |
+            Tekanan darah normal adalah sekitar 120/80 mmHg. Tekanan sistolik 120 mmHg adalah tekanan darah semasa jantung mengepam darah keluar, dan tekanan diastolik 80 mmHg adalah tekanan ketika jantung berehat.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan maksud bacaan tekanan sistolik dan diastolik."
+        - marks: 2
+          criteria: "Menilai sama ada bacaan tersebut dalam julat yang sihat."
+      hints:
+        - level: 1
+          text: "Pertimbangkan apa yang dimaksudkan dengan bacaan sistolik dan diastolik."
+        - level: 2
+          text: "Bandingkan dengan julat yang dianggap sebagai tekanan darah normal."
+    # Learning Objective: 3.4.1 Mengira dan menentukan Indeks Jisim Badan.
+    - id: "Q04"
+      text: 'Seorang pelajar mempunyai berat 70 kg dan tinggi 1.75 m. Hitung Indeks Jisim Badan (BMI) pelajar tersebut.'
+      difficulty: "medium"
+      learning_objective: "3.4.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: "22.86"
+        working: |
+            BMI = Berat (kg) / (Tinggi (m) × Tinggi (m)) = 70 / (1.75 × 1.75) = 22.86
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menggunakan formula BMI dengan betul."
+        - marks: 2
+          criteria: "Mengira nilai BMI dengan tepat."
+      hints:
+        - level: 1
+          text: "Gunakan formula BMI: Berat dibahagi dengan kuasa dua tinggi."
+        - level: 2
+          text: "Pastikan unit berat dalam kg dan tinggi dalam meter."
+    # Learning Objective: 3.4.2 Menginterpretasi Indeks Jisim Badan dan membuat keputusan mengenai tindakan yang perlu diambil.
+    - id: "Q05"
+      text: 'Setelah mengira BMI anda sebagai 26.5, apakah langkah yang patut diambil untuk menurunkan BMI kepada julat normal?'
+      difficulty: "medium"
+      learning_objective: "3.4.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Untuk menurunkan BMI kepada julat normal, anda boleh mengamalkan pemakanan seimbang dan meningkatkan aktiviti fizikal."
+        working: |
+            BMI 26.5 menunjukkan berat badan berlebihan. Mengurangkan berat badan melalui diet dan senaman dapat membantu menurunkan BMI ke julat normal (18.5-24.9).
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menilai bacaan BMI dan mengenal pasti ia dalam julat berat badan berlebihan."
+        - marks: 2
+          criteria: "Mencadangkan langkah-langkah praktikal untuk menurunkan BMI."
+      hints:
+        - level: 1
+          text: "Pertimbangkan julat BMI normal."
+        - level: 2
+          text: "Fokus pada perubahan gaya hidup untuk menurunkan berat badan."

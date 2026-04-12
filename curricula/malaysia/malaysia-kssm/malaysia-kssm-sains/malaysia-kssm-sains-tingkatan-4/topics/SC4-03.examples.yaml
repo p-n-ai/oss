@@ -1,0 +1,48 @@
+topic_id: "SC4-03"
+provenance: "ai-generated"
+description: "Worked examples for Teknik Mengukur Parameter Kesihatan Badan"
+worked_examples:
+    - id: "WE-01"
+      topic: "Mengukur suhu badan"
+      difficulty: "easy"
+      tp_level: 1
+      kbat: false
+      learning_objective: "3.1.1"
+      real_world_analogy: "Mengukur suhu badan adalah seperti memeriksa suhu air sebelum mandi."
+      misconception_alert: "Ramai yang berfikir bahawa suhu badan normal adalah sama bagi semua orang, tetapi ia boleh berbeza sedikit."
+      scenario: "Anda perlu mengukur suhu badan adik anda yang kelihatan kurang sihat. Bagaimana cara yang betul untuk melakukannya?"
+      working: |
+        Step 1: Pastikan termometer berada dalam keadaan bersih dan berfungsi dengan baik.
+        Step 2: Letakkan hujung termometer di bawah lidah adik anda dan minta dia menutup mulut.
+        Step 3: Tunggu sehingga termometer berbunyi atau menunjukkan bacaan, biasanya selama 1-2 minit.
+        Step 4: Baca suhu yang ditunjukkan dan catatkan. Suhu badan normal adalah sekitar 36.5°C hingga 37.5°C.
+    - id: "WE-02"
+      topic: "Menentukan kadar denyutan nadi"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: false
+      learning_objective: "3.2.2"
+      real_world_analogy: "Mengukur kadar denyutan nadi adalah seperti menghitung ketukan muzik dalam satu minit."
+      misconception_alert: "Pelajar sering keliru antara titik nadi dan titik tekanan darah."
+      scenario: "Seorang kawan anda baru sahaja berlari dan ingin mengetahui kadar denyutan nadinya. Bagaimana anda boleh mengukurnya?"
+      working: |
+        Step 1: Minta kawan anda duduk dan berehat seketika untuk menstabilkan kadar denyutan.
+        Step 2: Gunakan dua jari (telunjuk dan tengah) untuk merasakan nadi di pergelangan tangan atau leher.
+        Step 3: Kira denyutan selama 15 saat menggunakan jam randik.
+        Step 4: Gandakan jumlah denyutan yang dikira dengan 4 untuk mendapatkan kadar denyutan per minit.
+    - id: "WE-03"
+      topic: "Mengukur dan menginterpretasi tekanan darah"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "3.3.2"
+      real_world_analogy: "Mengukur tekanan darah adalah seperti memeriksa tekanan angin dalam tayar kereta untuk memastikan ia berada di tahap yang selamat."
+      misconception_alert: "Bacaan tekanan darah yang tinggi sekali-sekala tidak semestinya menunjukkan hipertensi."
+      scenario: "Anda adalah pembantu perubatan dan perlu mengukur tekanan darah seorang pesakit. Apakah langkah-langkah yang perlu diambil?"
+      working: |-
+        Step 1: Pastikan pesakit dalam keadaan tenang dan duduk dengan selesa.
+        Step 2: Balutkan cuff tekanan darah di lengan atas pesakit dan pastikan ia pada paras jantung.
+        Step 3: Pam cuff sehingga tekanan melebihi tekanan sistolik biasa (sekitar 160-180 mmHg).
+        Step 4: Perlahan-lahan lepaskan udara sambil mendengar dengan stetoskop untuk mengetahui bunyi Korotkoff.
+        Step 5: Catat bacaan tekanan sistolik (bunyi pertama) dan diastolik (bunyi terakhir). Bacaan normal adalah sekitar 120/80 mmHg.
+        Step 6: Berikan interpretasi kepada pesakit berdasarkan bacaan tersebut, dan sarankan tindakan lanjut jika perlu.

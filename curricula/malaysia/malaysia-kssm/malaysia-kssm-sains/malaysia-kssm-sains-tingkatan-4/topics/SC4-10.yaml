@@ -2,7 +2,8 @@ id: "SC4-10"
 official_ref: "Bab 10"
 name: "Kimia dalam Perubatan dan Kesihatan"
 name_en: "Chemistry in Medicine and Health"
-subject_id: "malaysia-kssm-sains-tingkatan-4"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
 syllabus_id: "malaysia-kssm"
 country_id: "malaysia"
 language: "ms"
@@ -124,17 +125,19 @@ prerequisites:
     recommended: []
 teaching:
     sequence:
-        - "Compare medicine types."
-        - "Discuss free radicals and antioxidants."
-        - "Analyze health products."
+        - Introduction to traditional, modern, and complementary medicine (20 min)
+        - Discussion on medications used in different medical practices (20 min)
+        - Evaluation of medical practices and their applications (20 min)
+        - Explanation of free radicals and their impact on health (15 min)
+        - Role of antioxidants in combating free radicals (15 min)
+        - Experiment on factors affecting food oxidation (30 min)
     common_misconceptions:
-        - misconception: "Natural medicines are always safe."
-          remediation: "Discuss side effects and interactions."
-        - misconception: "Antioxidants cure all diseases."
-          remediation: "Explain role in preventing damage, not curing."
-    engagement_hooks:
-        - "Superfoods trends."
-        - "Traditional medicine in Malaysia."
+        - misconception: Natural substances are always safe.
+          remediation: Provide examples of toxic natural substances.
+        - misconception: All antioxidants have the same effect.
+          remediation: Discuss different types and sources of antioxidants.
+        - misconception: Traditional medicine is outdated.
+          remediation: Highlight the ongoing use and benefits of traditional practices.
 bloom_levels:
     - remember
     - understand
@@ -155,3 +158,7 @@ generated_at: "2023-10-27T00:00:00Z"
 sync_checked: false
 ai_teaching_notes: "SC4-10.teaching.md"
 assessments_file: "SC4-10.assessments.yaml"
+examples_file: SC4-10.examples.yaml
+engagement_hooks:
+    - Explore the use of traditional herbs in local cuisines and their health benefits.
+    - Analyze modern health products advertised on social media.

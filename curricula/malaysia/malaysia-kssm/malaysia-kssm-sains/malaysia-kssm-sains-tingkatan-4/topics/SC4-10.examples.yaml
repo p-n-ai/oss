@@ -1,0 +1,46 @@
+topic_id: "SC4-10"
+provenance: "ai-generated"
+description: "Worked examples for Kimia dalam Perubatan dan Kesihatan"
+worked_examples:
+    - id: "WE-01"
+      topic: "Ciri-ciri Perubatan Moden"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "10.1.1"
+      real_world_analogy: "Memahami perbezaan antara telefon bimbit lama dan pintar untuk mengenal pasti ciri perubatan moden."
+      misconception_alert: "Pelajar sering berfikir semua perubatan moden adalah sepenuhnya sintetik, sedangkan banyak berasaskan bahan semula jadi."
+      scenario: "Terangkan ciri-ciri utama perubatan moden dan bagaimana ia berbeza dengan perubatan tradisional."
+      working: |
+        Step 1: Perubatan moden menggunakan teknologi dan penyelidikan saintifik yang terkini untuk menghasilkan ubat-ubatan.
+        Step 2: Ubat moden biasanya melalui ujian klinikal yang ketat untuk memastikan keselamatan dan keberkesanannya.
+        Step 3: Perubatan moden sering melibatkan kombinasi bahan semula jadi dan sintetik, memberikan dos yang tepat dan konsisten.
+        Step 4: Berbanding dengan perubatan tradisional, perubatan moden lebih fokus kepada hasil yang boleh diukur dan diuji secara saintifik.
+    - id: "WE-02"
+      topic: "Kesan Radikal Bebas terhadap Kesihatan"
+      difficulty: "medium"
+      tp_level: 4
+      kbat: true
+      learning_objective: "10.2.2"
+      real_world_analogy: "Radikal bebas adalah seperti pencuri yang merosakkan rumah (sel) di malam hari."
+      misconception_alert: "Ada yang beranggapan semua radikal bebas berbahaya, namun tubuh juga menghasilkannya untuk fungsi tertentu."
+      scenario: "Menaakul mengenai kesan radikal bebas terhadap kesihatan manusia dan bagaimana ia boleh menyebabkan penyakit."
+      working: |
+        Step 1: Fahami bahawa radikal bebas adalah molekul yang kehilangan elektron dan menjadi sangat reaktif.
+        Step 2: Radikal bebas boleh merosakkan sel-sel tubuh dengan mencuri elektron dari molekul lain, menyebabkan kerosakan oksidatif.
+        Step 3: Kerosakan ini boleh mengakibatkan penyakit kronik seperti kanser, penyakit jantung, dan penuaan pramatang.
+        Step 4: Tubuh mempunyai mekanisme sendiri untuk mengawal radikal bebas, tetapi penghasilan berlebihan boleh mengatasi pertahanan ini.
+    - id: "WE-03"
+      topic: "Menaakul Penggunaan Bahan Antioksida"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "10.3.2"
+      real_world_analogy: "Antioksida adalah seperti anjing penjaga yang melindungi rumah dari pencuri (radikal bebas)."
+      misconception_alert: "Pelajar mungkin berfikir semua antioksida bertindak sama, tetapi keberkesanannya bergantung pada jenis dan sumbernya."
+      scenario: "Terangkan bagaimana bahan antioksida bertindak ke atas radikal bebas dan peranan mereka dalam kesihatan."
+      working: |-
+        Step 1: Antioksida adalah molekul yang memberi elektron kepada radikal bebas tanpa menjadi radikal bebas sendiri.
+        Step 2: Proses ini menghentikan reaksi rantai yang boleh menyebabkan kerosakan oksidatif kepada sel-sel tubuh.
+        Step 3: Terdapat pelbagai jenis antioksida, seperti vitamin C, vitamin E, dan selenium, setiap satu memainkan peranan tertentu.
+        Step 4: Antioksida boleh diperoleh dari diet yang kaya dengan buah-buahan dan sayur-sayuran, membantu mengurangi risiko penyakit berkaitan radikal bebas.

@@ -1,0 +1,124 @@
+topic_id: "SC4-07"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 7.1.1: Menerangkan sistem endokrin dan fungsinya.
+    - id: "Q01"
+      text: 'Apakah fungsi utama kelenjar tiroid dalam sistem endokrin manusia?'
+      difficulty: "medium"
+      learning_objective: "7.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "A"
+        options:
+            A: "Mengawal kadar metabolisme badan"
+            B: "Mengawal kadar gula dalam darah"
+            C: "Mengawal tekanan darah"
+            D: "Mengawal pengeluaran air kencing"
+        working: |
+            Kelenjar tiroid mengeluarkan hormon tiroksin yang bertanggungjawab untuk mengawal kadar metabolisme badan.
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Memilih jawapan yang betul."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang peranan hormon tiroksin."
+        - level: 2
+          text: "Tiroksin terlibat dalam proses penghasilan tenaga dalam badan."
+    # Learning Objective 7.1.2: Menjelaskan dengan contoh punca dan kesan ketidakseimbangan hormon ke atas kesihatan.
+    - id: "Q02"
+      text: 'Berikan satu contoh ketidakseimbangan hormon dan terangkan kesannya terhadap kesihatan.'
+      difficulty: "medium"
+      learning_objective: "7.1.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Diabetes mellitus disebabkan oleh kekurangan insulin, menyebabkan kadar gula darah tinggi."
+        working: |
+            Kekurangan insulin mengakibatkan glukosa tidak dapat diserap oleh sel, menyebabkan hiperglisemia.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menamakan keadaan ketidakseimbangan hormon dengan betul."
+        - marks: 2
+          criteria: "Menerangkan kesan ketidakseimbangan hormon tersebut terhadap kesihatan."
+      hints:
+        - level: 1
+          text: "Pertimbangkan penyakit yang berkaitan dengan hormon insulin."
+        - level: 2
+          text: "Fokus pada penyakit yang menyebabkan kadar gula darah tinggi."
+    # Learning Objective 7.2.1: Menerangkan dengan contoh jenis dadah.
+    - id: "Q03"
+      text: 'Apakah jenis dadah yang digunakan sebagai perangsang dan apakah kesannya ke atas sistem saraf pusat?'
+      difficulty: "medium"
+      learning_objective: "7.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "C"
+        options:
+            A: "Heroin - Menurunkan aktiviti sistem saraf pusat"
+            B: "Morphine - Menurunkan aktiviti sistem saraf pusat"
+            C: "Kokain - Meningkatkan aktiviti sistem saraf pusat"
+            D: "Barbiturat - Menurunkan aktiviti sistem saraf pusat"
+        working: |
+            Kokain adalah dadah perangsang yang meningkatkan aktiviti sistem saraf pusat.
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Memilih jawapan yang betul."
+      hints:
+        - level: 1
+          text: "Fikirkan dadah yang meningkatkan kewaspadaan dan tenaga."
+        - level: 2
+          text: "Dadah ini sering digunakan secara haram untuk meningkatkan prestasi."
+    # Learning Objective 7.2.2: Menaakul mengenai kesan penyalahgunaan dadah dan alkohol ke atas koordinasi badan dan kesihatan mental.
+    - id: "Q04"
+      text: 'Jelaskan bagaimana penyalahgunaan alkohol boleh menjejaskan koordinasi badan dan kesihatan mental.'
+      difficulty: "medium"
+      learning_objective: "7.2.2"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Penyalahgunaan alkohol boleh menyebabkan hilang keseimbangan, koordinasi motor terjejas, dan masalah mental seperti kemurungan."
+        working: |
+            Alkohol mengganggu fungsi otak yang mengawal koordinasi motor dan emosi, menyebabkan masalah fizikal dan mental.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Menyatakan kesan alkohol ke atas koordinasi badan."
+        - marks: 3
+          criteria: "Menerangkan kesan alkohol ke atas kesihatan mental."
+      hints:
+        - level: 1
+          text: "Pertimbangkan kesan alkohol ke atas fungsi otak."
+        - level: 2
+          text: "Fokus pada kesan jangka panjang penyalahgunaan alkohol."
+    # Learning Objective 7.3.1: Mewajarkan keperluan masyarakat yang mempunyai minda yang sihat.
+    - id: "Q05"
+      text: 'Mengapa penting untuk masyarakat mempunyai minda yang sihat dan apakah langkah-langkah yang boleh diambil untuk mencapainya?'
+      difficulty: "medium"
+      learning_objective: "7.3.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Minda yang sihat penting untuk kesejahteraan individu dan produktiviti masyarakat. Langkah-langkah termasuk promosi kesihatan mental dan sokongan komuniti."
+        working: |
+            Masyarakat yang sihat mentalnya lebih produktif dan harmoni. Langkah-langkah seperti program kesedaran dan sokongan sosial dapat membantu.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menerangkan kepentingan minda yang sihat."
+        - marks: 2
+          criteria: "Memberikan langkah-langkah praktikal untuk mencapainya."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang hubungan antara kesihatan mental dan produktiviti."
+        - level: 2
+          text: "Pertimbangkan peranan sokongan sosial dalam kesihatan mental."

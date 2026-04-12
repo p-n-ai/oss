@@ -1,0 +1,132 @@
+topic_id: "SC4-02"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 2.1.1 (remember): Menyatakan apakah itu CPR dan situasi yang memerlukan CPR.
+    - id: "Q1"
+      text: 'Apakah itu CPR dan dalam situasi manakah CPR diperlukan?'
+      difficulty: "medium"
+      learning_objective: "2.1.1"
+      tp_level: 2
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "CPR adalah satu prosedur kecemasan yang dilakukan untuk memulihkan pernafasan dan peredaran darah pada individu yang mengalami henti jantung. Ia diperlukan dalam situasi seperti orang yang tidak sedarkan diri dan tidak bernafas."
+        working: |
+            Nyatakan definisi CPR dan situasi di mana CPR digunakan, seperti henti jantung dan tidak sedarkan diri.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan definisi CPR."
+        - marks: 1
+          criteria: "Menyatakan satu situasi yang memerlukan CPR."
+        - marks: 1
+          criteria: "Menyatakan satu lagi situasi yang memerlukan CPR."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang keadaan di mana jantung seseorang berhenti."
+        - level: 2
+          text: "Apabila seseorang tidak bernafas, CPR diperlukan."
+    # Learning Objective: 2.1.2 (apply): Mendemonstrasi kaedah CPR.
+    - id: "Q2"
+      text: 'Apakah langkah-langkah utama dalam melaksanakan CPR?'
+      difficulty: "medium"
+      learning_objective: "2.1.2"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Langkah-langkah utama dalam melaksanakan CPR adalah: 1) Periksa respons, 2) Panggil bantuan, 3) Mulakan kompresi dada, 4) Berikan ventilasi pernafasan, jika terlatih."
+        working: |
+            Mulakan dengan memeriksa respons mangsa, panggil bantuan segera, dan mulakan kompresi dada. Jika terlatih, berikan ventilasi pernafasan.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan langkah memeriksa respons mangsa."
+        - marks: 1
+          criteria: "Menjelaskan langkah memanggil bantuan."
+        - marks: 1
+          criteria: "Menjelaskan langkah memulakan kompresi dada."
+        - marks: 1
+          criteria: "Menjelaskan langkah memberikan ventilasi pernafasan."
+      hints:
+        - level: 1
+          text: "Pertimbangkan langkah-langkah awal sebelum CPR sebenar."
+        - level: 2
+          text: "Langkah penting melibatkan kompresi dada dan bantuan pernafasan."
+    # Learning Objective: 2.1.3 (understand): Menjelaskan kepentingan CPR.
+    - id: "Q3"
+      text: 'Mengapakah CPR dianggap penting dalam situasi kecemasan?'
+      difficulty: "medium"
+      learning_objective: "2.1.3"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "CPR penting kerana ia boleh menyelamatkan nyawa dengan memulihkan aliran darah ke otak dan organ penting lain sehingga bantuan perubatan tiba."
+        working: |
+            Jelaskan bagaimana CPR membantu mengekalkan aliran darah dan oksigen ke otak dan organ penting lain sehingga bantuan perubatan profesional tiba.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan kepentingan memulihkan aliran darah."
+        - marks: 1
+          criteria: "Menjelaskan kepentingan oksigen untuk otak."
+        - marks: 1
+          criteria: "Menjelaskan bagaimana CPR menunggu bantuan perubatan."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang fungsi jantung dan otak dalam badan."
+        - level: 2
+          text: "Pertimbangkan mengapa aliran darah berterusan penting dalam kecemasan."
+    # Learning Objective: 2.2.1 (understand): Menjelaskan Heimlich Maneuver dan kepentingannya.
+    - id: "Q4"
+      text: 'Apakah Heimlich Maneuver dan dalam situasi manakah ia digunakan?'
+      difficulty: "medium"
+      learning_objective: "2.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Heimlich Maneuver adalah teknik yang digunakan untuk mengeluarkan objek yang menyekat saluran pernafasan atas melalui tekanan perut. Ia digunakan apabila seseorang tercekik."
+        working: |
+            Jelaskan teknik Heimlich Maneuver dan situasi ketika seseorang tercekik yang memerlukan penggunaan teknik ini.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan teknik Heimlich Maneuver."
+        - marks: 1
+          criteria: "Menjelaskan situasi tercekik."
+        - marks: 1
+          criteria: "Menjelaskan bagaimana Heimlich Maneuver membantu."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang masalah pernafasan yang tiba-tiba."
+        - level: 2
+          text: "Pertimbangkan tindakan apabila seseorang tercekik."
+    # Learning Objective: 2.2.2 (apply): Membuat demonstrasi Heimlich Maneuver.
+    - id: "Q5"
+      text: 'Apakah langkah-langkah untuk melaksanakan Heimlich Maneuver pada orang dewasa?'
+      difficulty: "medium"
+      learning_objective: "2.2.2"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Langkah-langkah untuk melaksanakan Heimlich Maneuver adalah: 1) Berdiri di belakang mangsa, 2) Letakkan tangan di atas pusat, 3) Lakukan tekanan ke atas dan ke dalam dengan cepat."
+        working: |
+            Mulakan dengan berdiri di belakang mangsa, letakkan tangan di atas pusat dan lakukan tekanan cepat ke atas dan ke dalam untuk mengeluarkan objek yang tersangkut.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan langkah berdiri di belakang mangsa."
+        - marks: 1
+          criteria: "Menjelaskan cara meletakkan tangan di atas pusat."
+        - marks: 1
+          criteria: "Menjelaskan cara melakukan tekanan dengan betul."
+        - marks: 1
+          criteria: "Menjelaskan tujuan tekanan ke atas dan ke dalam."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang kedudukan anda berbanding mangsa."
+        - level: 2
+          text: "Pertimbangkan tindakan tangan anda pada perut mangsa."

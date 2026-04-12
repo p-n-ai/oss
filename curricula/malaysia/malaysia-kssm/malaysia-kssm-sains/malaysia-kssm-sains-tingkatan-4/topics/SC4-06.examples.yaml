@@ -1,0 +1,47 @@
+topic_id: "SC4-06"
+provenance: "ai-generated"
+description: "Worked examples for Sokongan, Pergerakan dan Pertumbuhan"
+worked_examples:
+    - id: "WE-01"
+      topic: "Jenis sokongan pada haiwan"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "6.1.1"
+      real_world_analogy: "Seperti kerangka payung yang memberi sokongan kepada kain payung."
+      misconception_alert: "Ramai pelajar menganggap semua haiwan mempunyai tulang, padahal ada yang mempunyai rangka luar atau hidrostatik."
+      scenario: "Nyatakan jenis sokongan yang terdapat pada haiwan seperti ketam, cacing, dan manusia."
+      working: |
+        Step 1: Fahami bahawa haiwan mempunyai jenis sokongan yang berbeza: rangka luar, rangka dalam, dan rangka hidrostatik.
+        Step 2: Ketam mempunyai rangka luar yang keras untuk melindungi dan menyokong badan.
+        Step 3: Cacing menggunakan rangka hidrostatik, di mana cecair dalam badan memberi bentuk.
+        Step 4: Manusia mempunyai rangka dalam yang terdiri daripada tulang.
+    - id: "WE-02"
+      topic: "Pergerakan dengan rangka hidrostatik"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: false
+      learning_objective: "6.1.3"
+      real_world_analogy: "Seperti belon air yang boleh berubah bentuk tetapi tetap mempunyai isi padu yang sama."
+      misconception_alert: "Pelajar sering keliru bagaimana cacing bergerak tanpa tulang, kerana mereka tidak melihat struktur rangka hidrostatik."
+      scenario: "Bagaimana rangka hidrostatik membantu cacing untuk bergerak?"
+      working: |
+        Step 1: Kenali bahawa rangka hidrostatik bergantung pada cecair dalam badan untuk memberi sokongan.
+        Step 2: Apabila otot cacing mengecut, tekanan dalam cecair meningkat, menyebabkan bahagian badan cacing mengembang.
+        Step 3: Pengembangan ini menolak badan ke hadapan, membolehkan cacing bergerak.
+        Step 4: Dengan mengulangi pengecutan otot dan pengembangan badan, cacing boleh bergerak ke arah yang diingini.
+    - id: "WE-03"
+      topic: "Pola pertumbuhan antara lelaki dan perempuan"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "6.2.4"
+      real_world_analogy: "Seperti pokok yang tumbuh lebih cepat pada musim tertentu, manusia juga mempunyai masa pertumbuhan yang berbeza."
+      misconception_alert: "Pelajar mungkin menganggap bahawa lelaki dan perempuan tumbuh pada kadar yang sama sepanjang hayat."
+      scenario: "Bandingkan dan bezakan pola pertumbuhan antara lelaki dan perempuan dari kanak-kanak hingga dewasa."
+      working: |-
+        Step 1: Fahami bahawa pertumbuhan dipengaruhi oleh faktor genetik dan hormon.
+        Step 2: Semasa kanak-kanak, lelaki dan perempuan mempunyai kadar pertumbuhan yang hampir sama.
+        Step 3: Apabila memasuki peringkat akil baligh, perempuan biasanya mengalami lonjakan pertumbuhan lebih awal berbanding lelaki.
+        Step 4: Lelaki cenderung untuk terus tumbuh lebih lama, dan ini selalunya menyebabkan ketinggian yang lebih tinggi berbanding perempuan dewasa.
+        Step 5: Pertumbuhan berhenti apabila plat pertumbuhan pada tulang panjang menjadi keras, biasanya sekitar usia 18-20 tahun untuk lelaki dan 16-18 tahun untuk perempuan.

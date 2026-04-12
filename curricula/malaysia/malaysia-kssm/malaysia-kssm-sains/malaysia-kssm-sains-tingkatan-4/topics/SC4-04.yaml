@@ -2,7 +2,8 @@ id: "SC4-04"
 official_ref: "Bab 4"
 name: "Teknologi Hijau dalam Melestarikan Alam"
 name_en: "Green Technology in Preserving the Environment"
-subject_id: "malaysia-kssm-sains-tingkatan-4"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
 syllabus_id: "malaysia-kssm"
 country_id: "malaysia"
 language: "ms"
@@ -135,17 +136,14 @@ prerequisites:
     recommended: []
 teaching:
     sequence:
-        - "Define Green Technology and sustainability."
-        - "Explore sectors: Energy, Waste, Agriculture, Transport."
-        - "Discuss individual roles in climate action."
+        - 'Step 1: Introduce the concept of Green Technology and its importance (15 min)'
+        - 'Step 2: Explain energy efficiency and demonstrate with examples like LED bulbs (20 min)'
+        - 'Step 3: Discuss socioscientific issues related to energy (20 min)'
     common_misconceptions:
-        - misconception: "Green technology is too expensive."
-          remediation: "Discuss long-term economic and environmental benefits."
-        - misconception: "Individual actions don't matter."
-          remediation: "Show impact of collective small actions on carbon footprint."
-    engagement_hooks:
-        - "Local green initiatives."
-        - "Future energy scenarios."
+        - misconception: All new technologies are environmentally friendly
+          remediation: Compare green technology with non-environmentally friendly technologies
+        - misconception: Energy efficiency is the same as renewable energy
+          remediation: Clarify the difference between energy efficiency and renewable energy sources
 bloom_levels:
     - remember
     - understand
@@ -166,3 +164,7 @@ generated_at: "2023-10-27T00:00:00Z"
 sync_checked: false
 ai_teaching_notes: "SC4-04.teaching.md"
 assessments_file: "SC4-04.assessments.yaml"
+examples_file: SC4-04.examples.yaml
+engagement_hooks:
+    - Discuss how using bicycles for transportation can reduce pollution and improve health
+    - Explore local initiatives that promote green technology in the community

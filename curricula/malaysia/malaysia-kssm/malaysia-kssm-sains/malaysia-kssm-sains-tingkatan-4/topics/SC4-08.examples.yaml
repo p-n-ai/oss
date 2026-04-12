@@ -1,0 +1,46 @@
+topic_id: "SC4-08"
+provenance: "ai-generated"
+description: "Worked examples for Unsur dan Bahan"
+worked_examples:
+    - id: "WE-01"
+      topic: "Bahan Atom, Molekul, dan Ion"
+      difficulty: "easy"
+      tp_level: 1
+      kbat: false
+      learning_objective: "8.1.1"
+      real_world_analogy: "Atoms are like individual Lego bricks, molecules are like multi-brick Lego structures, and ions are like charged Lego figures."
+      misconception_alert: "Students often confuse atoms with ions; atoms are neutral, while ions have a charge."
+      scenario: "Identify whether oxygen gas (O2), a sodium atom (Na), and sodium chloride (NaCl) are atomic, molecular, or ionic substances."
+      working: |
+        Step 1: Determine the type of substance for each example.
+        Step 2: Oxygen gas (O2) is a molecule because it consists of two oxygen atoms bonded together.
+        Step 3: Sodium atom (Na) is atomic because it is a single element without a charge.
+        Step 4: Sodium chloride (NaCl) is ionic because it consists of positively charged Na+ and negatively charged Cl- ions.
+    - id: "WE-02"
+      topic: "Isotopes"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: false
+      learning_objective: "8.3.1"
+      real_world_analogy: "Isotopes are like different models of the same car brand, differing only in features like color or engine size."
+      misconception_alert: "Students often think isotopes of an element have different chemical properties; in reality, they have the same chemical properties but different physical properties."
+      scenario: "Explain isotopes using carbon-12 and carbon-14 as examples."
+      working: |
+        Step 1: Define isotopes as atoms of the same element with different numbers of neutrons.
+        Step 2: Carbon-12 and carbon-14 are both isotopes of carbon.
+        Step 3: Carbon-12 has 6 protons and 6 neutrons, while carbon-14 has 6 protons and 8 neutrons.
+        Step 4: Both isotopes have the same number of protons, which defines them as carbon, but different neutron numbers give them different mass numbers.
+    - id: "WE-03"
+      topic: "Jadual Berkala Unsur Moden"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "8.2.2"
+      real_world_analogy: "The periodic table is like a library catalog, organizing books based on genres and authors, similar to how elements are organized by properties and atomic numbers."
+      misconception_alert: "Students may think the periodic table is random; it is actually organized by increasing atomic number and recurring chemical properties."
+      scenario: "Analyze the arrangement of elements in the periodic table and deduce the principle behind their arrangement."
+      working: |-
+        Step 1: Identify that elements in the periodic table are arranged based on increasing atomic number.
+        Step 2: Recognize that elements are grouped into columns called groups, which share similar chemical properties.
+        Step 3: Note that rows are called periods, and elements in a period increase in atomic number from left to right.
+        Step 4: Deduce that the periodic table reflects the periodic law, where properties of elements repeat periodically as atomic numbers increase.

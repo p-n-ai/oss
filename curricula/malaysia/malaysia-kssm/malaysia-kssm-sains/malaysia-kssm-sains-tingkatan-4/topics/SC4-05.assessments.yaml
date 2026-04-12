@@ -1,0 +1,134 @@
+topic_id: "SC4-05"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 5.1.1 (understand)
+    - id: "Q01"
+      text: 'Apakah peranan kromosom dalam nukleus sel?'
+      difficulty: "medium"
+      learning_objective: "5.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Kromosom menyimpan maklumat genetik yang diperlukan untuk pertumbuhan, perkembangan, dan fungsi sel.'
+        working: |
+            Kromosom adalah struktur yang mengandungi DNA dan protein. Mereka memastikan maklumat genetik disalin dan diedarkan dengan tepat semasa pembahagian sel.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan bahawa kromosom menyimpan maklumat genetik."
+        - marks: 1
+          criteria: "Menerangkan peranan kromosom dalam pertumbuhan dan perkembangan sel."
+        - marks: 1
+          criteria: "Mengaitkan kromosom dengan pembahagian sel."
+      hints:
+        - level: 1
+          text: "Kromosom adalah struktur dalam nukleus sel."
+        - level: 2
+          text: "Kromosom mengandungi DNA, yang menyimpan maklumat genetik."
+    # Learning Objective: 5.1.2 (analyze)
+    - id: "Q02"
+      text: 'Bandingkan dua proses pembahagian sel: mitosis dan meiosis.'
+      difficulty: "medium"
+      learning_objective: "5.1.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Mitosis menghasilkan dua sel anak yang genetiknya sama dengan sel induk, sementara meiosis menghasilkan empat sel anak dengan separuh bilangan kromosom.'
+        working: |
+            Mitosis adalah proses pembahagian sel yang menghasilkan dua sel anak diploid yang identik. Meiosis, sebaliknya, melibatkan dua tahap pembahagian sel yang menghasilkan empat sel anak haploid, penting untuk pembentukan gamet.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan bahawa mitosis menghasilkan dua sel anak identik."
+        - marks: 1
+          criteria: "Menyatakan bahawa mitosis mengekalkan bilangan kromosom."
+        - marks: 1
+          criteria: "Menjelaskan bahawa meiosis menghasilkan empat sel anak."
+        - marks: 1
+          criteria: "Menyatakan bahawa meiosis mengurangkan bilangan kromosom."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bilangan sel anak dan kromosom yang dihasilkan."
+        - level: 2
+          text: "Mitosis menghasilkan sel identik; meiosis penting untuk pembentukan gamet."
+    # Learning Objective: 5.2.1 (understand)
+    - id: "Q03"
+      text: 'Jelaskan bagaimana sifat genetik diwarisi dalam manusia.'
+      difficulty: "medium"
+      learning_objective: "5.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Sifat genetik diwarisi melalui alel dari ibu bapa, di mana setiap individu menerima satu alel dari setiap ibu bapa untuk setiap sifat.'
+        working: |
+            Pewarisan berlaku melalui alel yang merupakan varian gen. Alel ini menentukan sifat fizikal dan boleh hadir dalam bentuk dominan atau resesif.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menerangkan konsep alel dalam pewarisan."
+        - marks: 1
+          criteria: "Menjelaskan peranan ibu bapa dalam mewariskan alel."
+        - marks: 1
+          criteria: "Menyatakan bahawa setiap individu menerima satu alel dari setiap ibu bapa."
+      hints:
+        - level: 1
+          text: "Pertimbangkan peranan alel dalam pewarisan genetik."
+        - level: 2
+          text: "Setiap ibu bapa menyumbangkan satu alel untuk setiap sifat."
+    # Learning Objective: 5.3.1 (understand)
+    - id: "Q04"
+      text: 'Apakah maksud mutasi dan berikan dua jenis mutasi?'
+      difficulty: "medium"
+      learning_objective: "5.3.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "A"
+        options:
+            A: "Mutasi adalah perubahan dalam urutan DNA. Dua jenis mutasi adalah mutasi titik dan mutasi rangka baca."
+            B: "Mutasi adalah perubahan dalam struktur sel. Dua jenis mutasi adalah mutasi kromosom dan mutasi sitoplasma."
+            C: "Mutasi adalah perubahan dalam struktur protein. Dua jenis mutasi adalah mutasi protein dan mutasi karbohidrat."
+        working: |
+            Mutasi adalah perubahan yang berlaku dalam urutan DNA. Mutasi titik melibatkan perubahan satu pasangan basa, sedangkan mutasi rangka baca melibatkan penambahan atau penghapusan basa sehingga mengubah rangka baca.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan bahawa mutasi adalah perubahan dalam urutan DNA."
+        - marks: 1
+          criteria: "Menyebutkan dua jenis mutasi: mutasi titik dan mutasi rangka baca."
+      hints:
+        - level: 1
+          text: "Mutasi berkaitan dengan perubahan dalam urutan genetik."
+        - level: 2
+          text: "Pertimbangkan perubahan pada satu basa dan perubahan yang mengubah rangka baca."
+    # Learning Objective: 5.4.1 (evaluate)
+    - id: "Q05"
+      text: 'Bincangkan kepentingan teknologi kejuruteraan genetik.'
+      difficulty: "medium"
+      learning_objective: "5.4.1"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Teknologi kejuruteraan genetik penting untuk meningkatkan pengeluaran makanan, rawatan penyakit genetik, dan pengembangan ubat-ubatan baru.'
+        working: |
+            Kejuruteraan genetik membolehkan modifikasi genetik organisma untuk tujuan tertentu seperti meningkatkan hasil tanaman. Ia juga membuka jalan untuk terapi gen dalam merawat penyakit yang diwarisi dan membangun ubat-ubatan yang disesuaikan.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan kepentingan dalam meningkatkan pengeluaran makanan."
+        - marks: 1
+          criteria: "Menjelaskan peranan dalam rawatan penyakit genetik."
+        - marks: 1
+          criteria: "Mengaitkan teknologi ini dengan pengembangan ubat baru."
+        - marks: 1
+          criteria: "Memberikan contoh konkrit aplikasi teknologi ini."
+      hints:
+        - level: 1
+          text: "Pertimbangkan impak teknologi ini pada pertanian dan perubatan."
+        - level: 2
+          text: "Fokus pada bagaimana teknologi ini dapat mengubah rawatan penyakit."

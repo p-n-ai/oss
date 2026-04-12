@@ -2,7 +2,8 @@ id: "SC4-09"
 official_ref: "Bab 9"
 name: "Kimia Industri"
 name_en: "Industrial Chemistry"
-subject_id: "malaysia-kssm-sains-tingkatan-4"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
 syllabus_id: "malaysia-kssm"
 country_id: "malaysia"
 language: "ms"
@@ -111,17 +112,15 @@ prerequisites:
     recommended: []
 teaching:
     sequence:
-        - "Introduce alloys and properties."
-        - "Explore glass and ceramics manufacturing."
-        - "Discuss polymers and rubber."
+        - Introduction to alloys and their composition (20 min)
+        - Conduct experiment comparing alloy and metal (30 min)
+        - Discuss glass and ceramics components and uses (25 min)
+        - Explain natural and synthetic polymers (25 min)
     common_misconceptions:
-        - misconception: "Alloys are just mixtures."
-          remediation: "Explain metallic bonding changes in alloys."
-        - misconception: "Plastics are always bad."
-          remediation: "Discuss benefits and environmental impact of polymers."
-    engagement_hooks:
-        - "Material science in construction."
-        - "Recycling polymers."
+        - misconception: All metals are alloys
+          remediation: Use clear examples and definitions to differentiate between pure metals and alloys.
+        - misconception: Ceramics are fragile
+          remediation: Show examples of strong, durable ceramics to illustrate their varied properties.
 bloom_levels:
     - remember
     - understand
@@ -142,3 +141,7 @@ generated_at: "2023-10-27T00:00:00Z"
 sync_checked: false
 ai_teaching_notes: "SC4-09.teaching.md"
 assessments_file: "SC4-09.assessments.yaml"
+examples_file: SC4-09.examples.yaml
+engagement_hooks:
+    - Discuss the role of alloys in the automotive industry, emphasizing local car manufacturers.
+    - Explore the use of glass and ceramics in traditional Malaysian crafts.

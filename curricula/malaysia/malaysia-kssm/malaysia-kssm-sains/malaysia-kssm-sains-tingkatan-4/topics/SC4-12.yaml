@@ -2,7 +2,8 @@ id: "SC4-12"
 official_ref: "Bab 12"
 name: "Tenaga Nuklear"
 name_en: "Nuclear Energy"
-subject_id: "malaysia-kssm-sains-tingkatan-4"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
 syllabus_id: "malaysia-kssm"
 country_id: "malaysia"
 language: "ms"
@@ -99,17 +100,14 @@ prerequisites:
     recommended: []
 teaching:
     sequence:
-        - "Introduce nuclear energy sources."
-        - "Discuss fission and fusion."
-        - "Analyze impacts and future in Malaysia."
+        - 'Step 1: Introduce different energy sources and introduce nuclear energy as an alternative (15 min)'
+        - 'Step 2: Explain nuclear fission and fusion using visual models or simulations (20 min)'
+        - 'Step 3: Discuss the environmental and economic impacts of nuclear energy (25 min)'
     common_misconceptions:
-        - misconception: "Nuclear energy is always dangerous."
-          remediation: "Discuss safety measures and benefits."
-        - misconception: "Malaysia has nuclear power plants."
-          remediation: "Clarify current status and future plans."
-    engagement_hooks:
-        - "Energy crisis solutions."
-        - "Nuclear medicine applications."
+        - misconception: All nuclear energy is dangerous
+          remediation: Differentiate between nuclear energy usage and nuclear weapons
+        - misconception: Nuclear energy produces more waste
+          remediation: Explain nuclear waste management processes
 bloom_levels:
     - remember
     - understand
@@ -130,3 +128,7 @@ generated_at: "2023-10-27T00:00:00Z"
 sync_checked: false
 ai_teaching_notes: "SC4-12.teaching.md"
 assessments_file: "SC4-12.assessments.yaml"
+examples_file: SC4-12.examples.yaml
+engagement_hooks:
+    - Discuss the role of nuclear energy in neighboring countries like Japan and South Korea
+    - Explore the potential economic and technological benefits of nuclear energy in Malaysia

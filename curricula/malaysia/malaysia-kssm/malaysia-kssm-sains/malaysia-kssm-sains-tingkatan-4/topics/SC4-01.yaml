@@ -2,7 +2,8 @@ id: "SC4-01"
 official_ref: "Bab 1"
 name: "Langkah Keselamatan di dalam Makmal"
 name_en: "Safety Measures in the Laboratory"
-subject_id: "malaysia-kssm-sains-tingkatan-4"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
 syllabus_id: "malaysia-kssm"
 country_id: "malaysia"
 language: "ms"
@@ -106,17 +107,14 @@ prerequisites:
     recommended: []
 teaching:
     sequence:
-        - "Introduce personal protective equipment (PPE) and their functions."
-        - "Discuss waste disposal procedures and safety."
-        - "Demonstrate fire extinguisher usage and conduct audits."
+        - 'Step 1: Introduction to lab safety and equipment (10 min)'
+        - 'Step 2: Demonstrate the use of personal protective equipment (15 min)'
+        - 'Step 3: Discuss waste management and disposal methods (20 min)'
     common_misconceptions:
-        - misconception: "All chemicals can be poured down the sink."
-          remediation: "Explain pH limits and hazardous materials that require special disposal."
-        - misconception: "Fire extinguishers are the same for all fires."
-          remediation: "Teach classification of fires (A, B, C, D) and corresponding extinguisher types."
-    engagement_hooks:
-        - "Real-world accident case studies in laboratories."
-        - "Importance of safety in industrial settings."
+        - misconception: All chemicals can be disposed of in the sink.
+          remediation: Explain the environmental impact and proper disposal methods.
+        - misconception: Fire extinguishers are only for large fires.
+          remediation: Clarify the use of extinguishers for different fire types and sizes.
 bloom_levels:
     - remember
     - understand
@@ -137,3 +135,7 @@ generated_at: "2023-10-27T00:00:00Z"
 sync_checked: false
 ai_teaching_notes: "SC4-01.teaching.md"
 assessments_file: "SC4-01.assessments.yaml"
+examples_file: SC4-01.examples.yaml
+engagement_hooks:
+    - Discuss a recent lab accident in the news and how it could have been prevented.
+    - 'Pose a challenge: Identify all safety equipment in the lab within 5 minutes.'

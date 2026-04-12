@@ -1,0 +1,46 @@
+topic_id: "SC4-02"
+provenance: "ai-generated"
+description: "Worked examples for Bantuan Kecemasan"
+worked_examples:
+    - id: "WE-01"
+      topic: "Menyatakan apakah itu CPR dan situasi yang memerlukan CPR"
+      difficulty: "easy"
+      tp_level: 1
+      kbat: false
+      learning_objective: "2.1.1"
+      real_world_analogy: "Melakukan CPR adalah seperti mengepam sebuah bola kempis untuk mengembalikan bentuknya."
+      misconception_alert: "Ramai yang berfikir CPR hanya diperlukan jika mangsa tidak sedarkan diri, tetapi ia juga diperlukan jika mangsa tidak bernafas atau tiada nadi."
+      scenario: "Apakah itu CPR dan dalam situasi apakah ia diperlukan?"
+      working: |
+        Step 1: CPR (Cardiopulmonary Resuscitation) adalah satu teknik kecemasan untuk mengembalikan pernafasan dan peredaran darah pada seseorang yang mengalami serangan jantung, tidak bernafas, atau tiada nadi.
+        Step 2: CPR diperlukan apabila seseorang tidak bernafas, tiada nadi, atau tidak sedarkan diri selepas mengalami kecederaan atau serangan jantung.
+        Step 3: Situasi lain termasuk keadaan lemas, sesak nafas, atau kejutan elektrik yang menyebabkan jantung berhenti berfungsi.
+    - id: "WE-02"
+      topic: "Mendemonstrasi kaedah CPR"
+      difficulty: "medium"
+      tp_level: 2
+      kbat: true
+      learning_objective: "2.1.2"
+      real_world_analogy: "Melakukan CPR adalah seperti memulakan enjin kereta yang berhenti secara tiba-tiba dengan memberikan dorongan kuat."
+      misconception_alert: "Sesetengah orang percaya bahawa CPR boleh dilakukan dengan hanya menekan dada, tetapi pernafasan bantuan juga diperlukan untuk sesetengah mangsa."
+      scenario: "Bagaimana melakukan CPR pada seseorang yang tidak bernafas?"
+      working: |
+        Step 1: Pastikan kawasan sekeliling selamat dan periksa respon mangsa dengan menepuk bahu dan bertanya jika mereka okey.
+        Step 2: Jika tiada respon, panggil bantuan kecemasan dan mula CPR.
+        Step 3: Letakkan mangsa di permukaan rata dan keras. Letakkan tangan anda di tengah dada mangsa dan tekan sebanyak 30 kali dengan kedalaman kira-kira 5 cm.
+        Step 4: Berikan 2 hembusan nafas bantuan dengan menutup hidung mangsa, membuka mulut dan meniupkan nafas ke dalam mulut mangsa sehingga dada naik.
+        Step 5: Ulangi kitaran ini sehingga bantuan tiba atau mangsa menunjukkan tanda-tanda kehidupan.
+    - id: "WE-03"
+      topic: "Menjelaskan Heimlich Maneuver dan kepentingannya"
+      difficulty: "hard"
+      tp_level: 3
+      kbat: true
+      learning_objective: "2.2.1"
+      real_world_analogy: "Heimlich Maneuver adalah seperti membuka saluran tersumbat dengan menekan dan mendorong benda yang menyekat keluar."
+      misconception_alert: "Ramai yang keliru antara Heimlich Maneuver dengan CPR. Heimlich Maneuver adalah untuk mangsa tercekik, bukan untuk mereka yang tidak bernafas atau tiada nadi."
+      scenario: "Apakah Heimlich Maneuver dan mengapa ia penting?"
+      working: |-
+        Step 1: Heimlich Maneuver adalah teknik yang digunakan untuk mengeluarkan objek yang menyekat saluran pernafasan seseorang yang tercekik.
+        Step 2: Teknik ini melibatkan berdiri di belakang mangsa, meletakkan tangan di atas pusat, dan menekan dengan kuat dan cepat ke arah dalam dan ke atas.
+        Step 3: Teknik ini penting kerana ia boleh menyelamatkan nyawa dengan segera mengeluarkan halangan dari saluran pernafasan sebelum mangsa mengalami kekurangan oksigen yang serius.
+        Step 4: Heimlich Maneuver perlu dilakukan dengan berhati-hati pada kanak-kanak dan orang tua untuk mengelakkan kecederaan.

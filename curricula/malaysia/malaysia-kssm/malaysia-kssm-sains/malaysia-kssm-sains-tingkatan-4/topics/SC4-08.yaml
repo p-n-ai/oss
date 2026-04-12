@@ -2,7 +2,8 @@ id: "SC4-08"
 official_ref: "Bab 8"
 name: "Unsur dan Bahan"
 name_en: "Elements and Materials"
-subject_id: "malaysia-kssm-sains-tingkatan-4"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
 syllabus_id: "malaysia-kssm"
 country_id: "malaysia"
 language: "ms"
@@ -111,17 +112,14 @@ prerequisites:
     recommended: []
 teaching:
     sequence:
-        - "Introduce atomic structure."
-        - "Explore Periodic Table trends."
-        - "Discuss isotopes and applications."
+        - Introduction to atomic, molecular, and ionic substances (15 min)
+        - Discussion on the existence of elements in various forms (15 min)
+        - Exploration of the Modern Periodic Table (20 min)
     common_misconceptions:
-        - misconception: "All elements are metals."
-          remediation: "Classify elements into metals, non-metals, and metalloids."
-        - misconception: "Isotopes are radioactive."
-          remediation: "Explain stable and unstable isotopes."
-    engagement_hooks:
-        - "Periodic Table in everyday products."
-        - "Carbon dating in archaeology."
+        - misconception: All substances are either elements or compounds.
+          remediation: Use examples of mixtures and complex molecules.
+        - misconception: Electrons orbit the nucleus like planets around the sun.
+          remediation: Introduce quantum models with probability clouds.
 bloom_levels:
     - remember
     - understand
@@ -142,3 +140,7 @@ generated_at: "2023-10-27T00:00:00Z"
 sync_checked: false
 ai_teaching_notes: "SC4-08.teaching.md"
 assessments_file: "SC4-08.assessments.yaml"
+examples_file: SC4-08.examples.yaml
+engagement_hooks:
+    - Discuss the use of carbon in pencils and diamonds in jewelry to highlight allotropes.
+    - Relate the periodic table arrangement to a family tree to make it more relatable.

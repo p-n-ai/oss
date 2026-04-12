@@ -2,7 +2,8 @@ id: "SC4-11"
 official_ref: "Bab 11"
 name: "Daya dan Gerakan"
 name_en: "Force and Motion"
-subject_id: "malaysia-kssm-sains-tingkatan-4"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
 syllabus_id: "malaysia-kssm"
 country_id: "malaysia"
 language: "ms"
@@ -124,17 +125,16 @@ prerequisites:
     recommended: []
 teaching:
     sequence:
-        - "Introduce motion concepts."
-        - "Analyze motion graphs."
-        - "Explore gravity and inertia."
+        - 'Step 1: Introduce distance and displacement using real-life examples (15 min)'
+        - 'Step 2: Explain speed and velocity with practical demonstrations (20 min)'
+        - 'Step 3: Solve problems involving speed and acceleration (25 min)'
+        - 'Step 4: Analyze linear motion graphs (20 min)'
+        - 'Step 5: Conduct a simple experiment on gravitational acceleration (30 min)'
     common_misconceptions:
-        - misconception: "Heavier objects fall faster."
-          remediation: "Demonstrate free fall without air resistance."
-        - misconception: "Inertia is a force."
-          remediation: "Define inertia as resistance to change in motion."
-    engagement_hooks:
-        - "Car safety features."
-        - "Space travel physics."
+        - misconception: Distance and displacement are the same.
+          remediation: Use diagrams to show different paths and highlight the difference.
+        - misconception: Speed and velocity are identical.
+          remediation: Emphasize the directional aspect of velocity.
 bloom_levels:
     - remember
     - understand
@@ -155,3 +155,7 @@ generated_at: "2023-10-27T00:00:00Z"
 sync_checked: false
 ai_teaching_notes: "SC4-11.teaching.md"
 assessments_file: "SC4-11.assessments.yaml"
+examples_file: SC4-11.examples.yaml
+engagement_hooks:
+    - Discuss how athletes use speed and acceleration in sports.
+    - Explore how local transport systems rely on understanding speed and velocity.
