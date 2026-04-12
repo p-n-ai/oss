@@ -1,17 +1,162 @@
-id: SJ1-03
+id: "SJ1-03"
 official_ref: "Bab 3"
 name: "Zaman Prasejarah"
 name_en: "Prehistoric Age"
-subject_grade_id: malaysia-kssm-sejarah-tingkatan-1
-subject_id: malaysia-kssm-sejarah
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: beginner
-content_standards: []
-learning_objectives: []
+subject_grade_id: "malaysia-kssm-sejarah-tingkatan-1"
+subject_id: "malaysia-kssm-sejarah"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+content_standards:
+    - id: "3.1"
+      text: "Zaman Prasejarah"
+      text_en: "Prehistoric Age"
+learning_objectives:
+    - id: "3.1.1"
+      text: "Menyatakan maksud Zaman Prasejarah."
+      text_en: "Stating the meaning of Prehistoric Age."
+      bloom: "remember"
+      content_standard_id: "3.1"
+    - id: "3.1.2"
+      text: "Menerangkan lokasi Zaman Prasejarah."
+      text_en: "Explaining the location of Prehistoric Age."
+      bloom: "understand"
+      content_standard_id: "3.1"
+    - id: "3.1.3"
+      text: "Membandingkan ciri-ciri kehidupan pada Zaman Prasejarah."
+      text_en: "Comparing life characteristics in the Prehistoric Age."
+      bloom: "analyze"
+      content_standard_id: "3.1"
+    - id: "3.1.4"
+      text: "Menyatakan kesinambungan sumbangan Zaman Prasejarah kepada kemajuan kehidupan manusia."
+      text_en: "Stating the continuity of Prehistoric Age contributions to human life progress."
+      bloom: "remember"
+      content_standard_id: "3.1"
+    - id: "3.1.5"
+      text: "Membincangkan bukti tinggalan Zaman Prasejarah di Malaysia."
+      text_en: "Discussing evidence of Prehistoric Age remains in Malaysia."
+      bloom: "analyze"
+      content_standard_id: "3.1"
+    - id: "3.1.6"
+      text: "Menjelaskan keupayaan manusia Prasejarah meneruskan kelangsungan hidup."
+      text_en: "Explaining the ability of Prehistoric humans to continue survival."
+      bloom: "understand"
+      content_standard_id: "3.1"
+      is_citizenship_elements: true
+    - id: "3.1.7"
+      text: "Mencadangkan kepentingan memelihara dan memulihara tinggalan Zaman Prasejarah."
+      text_en: "Suggesting the importance of preserving and rehabilitating Prehistoric Age remains."
+      bloom: "create"
+      content_standard_id: "3.1"
+      is_citizenship_elements: true
+    - id: "3.1.8"
+      text: "Menjelaskan penghargaan terhadap kemajuan dalam masyarakat Zaman Prasejarah."
+      text_en: "Explaining appreciation for progress in Prehistoric Age society."
+      bloom: "understand"
+      content_standard_id: "3.1"
+      is_citizenship_elements: true
+    - id: "3.1.9"
+      text: "Mewajarkan kepentingan bersyukur dalam memanfaatkan alam ciptaan Tuhan."
+      text_en: "Justifying the importance of being grateful in utilizing God's creation."
+      bloom: "evaluate"
+      content_standard_id: "3.1"
+      is_citizenship_elements: true
 prerequisites:
-  required: []
-quality_level: 0
-provenance: ai-generated
+    required:
+        - "SJ1-02"
+    recommended: []
+quality_level: 1
+provenance: "ai-generated"
 generated_at: "2026-04-12T05:24:46Z"
+theme: "Sejarah Kita dan Dunia"
+topic_focus:
+    - "Zaman Prasejarah di Asia Tenggara dan Malaysia merangkumi tempoh masa, lokasi, ciri-ciri kehidupan, bukti penemuan"
+topic_empathy:
+    - "Kebijaksanaan, kreativiti dan inovasi masyarakat."
+    - "Menghargai kegigihan masyarakat Prasejarah"
+    - "Bersyukur dengan kurniaan Tuhan."
+historical_thinking_skills:
+    - "kronologi"
+    - "meneroka_bukti"
+citizenship_elements:
+    - id: "K3.1.6"
+      text: "Menjelaskan keupayaan manusia Prasejarah meneruskan kelangsungan hidup."
+      text_en: "Explaining the ability of Prehistoric humans to continue survival."
+      content_standard_id: "3.1"
+    - id: "K3.1.7"
+      text: "Mencadangkan kepentingan memelihara dan memulihara tinggalan Zaman Prasejarah."
+      text_en: "Suggesting the importance of preserving and rehabilitating Prehistoric Age remains."
+      content_standard_id: "3.1"
+    - id: "K3.1.8"
+      text: "Menjelaskan penghargaan terhadap kemajuan dalam masyarakat Zaman Prasejarah."
+      text_en: "Explaining appreciation for progress in Prehistoric Age society."
+      content_standard_id: "3.1"
+    - id: "K3.1.9"
+      text: "Mewajarkan kepentingan bersyukur dalam memanfaatkan alam ciptaan Tuhan."
+      text_en: "Justifying the importance of being grateful in utilizing God's creation."
+      content_standard_id: "3.1"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengetahui Zaman Prasejarah."
+      text_en: "Knowing the Prehistoric Age."
+      descriptor: "Mengetahui perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Knowing basic matters based on learned history knowledge and values."
+    - level: 2
+      id: "TP2"
+      text: "Memahami Zaman Prasejarah."
+      text_en: "Understanding the Prehistoric Age."
+      descriptor: "Memahami perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Understanding basic matters based on learned history knowledge and values."
+    - level: 3
+      id: "TP3"
+      text: "Menerangkan dengan contoh tentang Zaman Prasejarah."
+      text_en: "Explaining with examples about the Prehistoric Age."
+      descriptor: "Menggunakan perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Using basic matters based on learned history knowledge and values."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis maklumat yang berkaitan Zaman Prasejarah."
+      text_en: "Analyzing information related to the Prehistoric Age."
+      descriptor: "Menganalisis pengetahuan dan kemahiran berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Analyzing knowledge and skills based on learned history knowledge and values."
+    - level: 5
+      id: "TP5"
+      text: "Membuat penilaian tentang Zaman Prasejarah."
+      text_en: "Making assessments on the Prehistoric Age."
+      descriptor: "Membuat penilaian berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Making assessments based on learned history knowledge and values."
+    - level: 6
+      id: "TP6"
+      text: "Melahirkan idea yang rasional mengenai Zaman Prasejarah."
+      text_en: "Generating rational ideas about the Prehistoric Age."
+      descriptor: "Melahirkan idea berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Generating ideas based on learned history knowledge and values."
+teaching:
+    sequence:
+        - "Pengenalan Zaman Prasejarah"
+        - "Kajian bukti arkeologi"
+        - "Perbincangan ciri kehidupan"
+    common_misconceptions:
+        - misconception: "Manusia Prasejarah tidak mempunyai budaya."
+          remediation: "Tunjukkan bukti alat batu dan lukisan gua sebagai bentuk budaya."
+    engagement_hooks:
+        - "Memaparkan artifak batu sebenar."
+bloom_levels:
+    - "remember"
+    - "understand"
+    - "analyze"
+    - "create"
+    - "evaluate"
+mastery:
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+tier: "core"
+sync_checked: true
+ai_teaching_notes: "SJ1-03.teaching.md"
+assessments_file: "SJ1-03.assessments.yaml"

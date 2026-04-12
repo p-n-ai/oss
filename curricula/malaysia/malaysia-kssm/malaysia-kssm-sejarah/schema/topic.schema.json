@@ -4,7 +4,7 @@
   "title": "Topic",
   "description": "A single teachable unit within a subject",
   "type": "object",
-  "required": ["id", "name", "subject_id", "syllabus_id", "difficulty", "content_standards", "learning_objectives", "quality_level", "provenance"],
+  "required": ["id", "name", "subject_id", "syllabus_id", "difficulty", "theme", "content_standards", "performance_standards", "learning_objectives", "quality_level", "provenance"],
   "properties": {
     "id": {
       "type": "string",
@@ -49,6 +49,72 @@
       "type": "string",
       "enum": ["beginner", "intermediate", "advanced"],
       "description": "Overall difficulty level of the topic relative to the grade"
+    },
+    "theme": {
+      "type": "string",
+      "description": "Overarching curriculum theme (Tema) this topic belongs to, e.g. 'Sejarah Kita dan Dunia'"
+    },
+    "topic_focus": {
+      "type": "array",
+      "description": "Key content focus areas listed in the DSKP topic overview (Fokus) — the main sub-themes or concepts to be taught",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "topic_empathy": {
+      "type": "array",
+      "description": "Values, attitudes and dispositions students should develop through this topic (Empati), as listed in the DSKP topic overview",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "citizenship_elements": {
+      "type": "array",
+      "description": "Elemen Kewarganegaraan dan Nilai Sivik (K-elements) embedded in this topic. These must be delivered through lesson planning (RPH) and cannot be taught as standalone objectives.",
+      "items": {
+        "type": "object",
+        "required": ["id", "text"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^K[0-9]+\\.[0-9]+\\.[0-9]+$",
+            "description": "K-element ID matching the DSKP Standard Pembelajaran notation, e.g. K1.1.8, K2.1.7"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Full text of the Kewarganegaraan element in the primary curriculum language"
+          },
+          "text_en": {
+            "type": "string",
+            "minLength": 1,
+            "description": "English translation of the Kewarganegaraan element"
+          },
+          "content_standard_id": {
+            "type": "string",
+            "pattern": "^[0-9]+\\.[0-9]+$",
+            "description": "Reference to the content standard (Standard Kandungan) this K-element falls under"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "historical_thinking_skills": {
+      "type": "array",
+      "description": "Kemahiran Pemikiran Sejarah (KPS) skills developed in this topic. Specific to History as a discipline.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "kronologi",
+          "meneroka_bukti",
+          "interpretasi",
+          "imaginasi",
+          "rasionalisasi"
+        ]
+      },
+      "uniqueItems": true
     },
     "content_standards": {
       "type": "array",
@@ -109,6 +175,11 @@
             "type": "string",
             "pattern": "^[0-9]+\\.[0-9]+$",
             "description": "Reference to a content standard ID within this topic"
+          },
+          "is_citizenship_elements": {
+            "type": "boolean",
+            "default": false,
+            "description": "If true, this objective carries the Kewarganegaraan dan Nilai Sivik (K) marker from the DSKP. It must be embedded in RPH lesson planning and must not be taught as a standalone objective."
           }
         },
         "additionalProperties": false

@@ -1,17 +1,142 @@
-id: SJ1-06
+id: "SJ1-06"
 official_ref: "Bab 6"
 name: "Peningkatan Tamadun Yunani Rom"
 name_en: "Greek and Roman Civilization Advancement"
-subject_grade_id: malaysia-kssm-sejarah-tingkatan-1
-subject_id: malaysia-kssm-sejarah
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: beginner
-content_standards: []
-learning_objectives: []
+subject_grade_id: "malaysia-kssm-sejarah-tingkatan-1"
+subject_id: "malaysia-kssm-sejarah"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+theme: "Sejarah Kita dan Dunia"
+topic_focus:
+    - "Peningkatan Tamadun dan sumbangannya"
+topic_empathy:
+    - "Semangat kekitaan dalam zaman globalisasi"
+    - "Berilmu dan berketerampilan"
+    - "Keterlibatan diri dalam pembangunan negara"
+    - "Keterikatan emosi kepada negara"
+historical_thinking_skills:
+    - "interpretasi"
+    - "rasionalisasi"
+citizenship_elements:
+    - id: "K4.2.7"
+      text: "Menjelaskan kepentingan menghargai asas-asas amalan demokrasi."
+      text_en: "Explaining the importance of appreciating the basics of democratic practices."
+      content_standard_id: "4.2"
+    - id: "K4.2.8"
+      text: "Membuat kesimpulan tentang kepentingan seni bina sebagai lambang intelektual."
+      text_en: "Concluding the importance of architecture as an intellectual symbol."
+      content_standard_id: "4.2"
+    - id: "K4.2.9"
+      text: "Menghuraikan kepentingan kerjasama dalam pembinaan sesuatu tamadun."
+      text_en: "Describing the importance of cooperation in building a civilization."
+      content_standard_id: "4.2"
+content_standards:
+    - id: "4.2"
+      text: "Peningkatan Tamadun dan Sumbangannya"
+      text_en: "Advancement of Civilizations and Their Contributions"
+learning_objectives:
+    - id: "4.2.1"
+      text: "Mengenal pasti empat lokasi peningkatan tamadun."
+      text_en: "Identifying the four locations of civilization advancement."
+      bloom: "remember"
+      content_standard_id: "4.2"
+    - id: "4.2.2"
+      text: "Membincangkan peningkatan tamadun Yunani dalam aspek pemerintahan dan pentadbiran."
+      text_en: "Discussing the advancement of Greek civilization in governance and administration aspects."
+      bloom: "analyze"
+      content_standard_id: "4.2"
+    - id: "4.2.3"
+      text: "Membincangkan peningkatan tamadun Rom dari aspek seni bina."
+      text_en: "Discussing the advancement of Roman civilization from the architecture aspect."
+      bloom: "analyze"
+      content_standard_id: "4.2"
+    - id: "4.2.7"
+      text: "Menjelaskan kepentingan menghargai asas-asas amalan demokrasi."
+      text_en: "Explaining the importance of appreciating the basics of democratic practices."
+      bloom: "understand"
+      content_standard_id: "4.2"
+      is_citizenship_elements: true
+    - id: "4.2.8"
+      text: "Membuat kesimpulan tentang kepentingan seni bina sebagai lambang intelektual."
+      text_en: "Concluding the importance of architecture as an intellectual symbol."
+      bloom: "evaluate"
+      content_standard_id: "4.2"
+      is_citizenship_elements: true
+    - id: "4.2.9"
+      text: "Menghuraikan kepentingan kerjasama dalam pembinaan sesuatu tamadun."
+      text_en: "Describing the importance of cooperation in building a civilization."
+      bloom: "understand"
+      content_standard_id: "4.2"
+      is_citizenship_elements: true
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengetahui peningkatan tamadun."
+      text_en: "Knowing civilization advancement."
+      descriptor: "Mengetahui perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Knowing basic matters based on learned history knowledge and values."
+    - level: 2
+      id: "TP2"
+      text: "Memahami peningkatan tamadun."
+      text_en: "Understanding civilization advancement."
+      descriptor: "Memahami perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Understanding basic matters based on learned history knowledge and values."
+    - level: 3
+      id: "TP3"
+      text: "Menerangkan dengan contoh tentang peningkatan tamadun."
+      text_en: "Explaining with examples about civilization advancement."
+      descriptor: "Menggunakan perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Using basic matters based on learned history knowledge and values."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis maklumat yang berkaitan dengan peningkatan tamadun."
+      text_en: "Analyzing information related to civilization advancement."
+      descriptor: "Menganalisis pengetahuan dan kemahiran berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Analyzing knowledge and skills based on learned history knowledge and values."
+    - level: 5
+      id: "TP5"
+      text: "Membuat penilaian peningkatan tamadun."
+      text_en: "Making assessments on civilization advancement."
+      descriptor: "Membuat penilaian berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Making assessments based on learned history knowledge and values."
+    - level: 6
+      id: "TP6"
+      text: "Melahirkan idea yang berasas mengenai peningkatan tamadun."
+      text_en: "Generating rational ideas about civilization advancement."
+      descriptor: "Melahirkan idea berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Generating ideas based on learned history knowledge and values."
 prerequisites:
-  required: []
-quality_level: 0
-provenance: ai-generated
-generated_at: "2026-04-12T05:24:46Z"
+    required:
+        - "SJ1-05"
+    recommended: []
+teaching:
+    sequence:
+        - "Peningkatan Yunani"
+        - "Peningkatan Rom"
+        - "Perbandingan aspek seni bina dan pemerintahan"
+    common_misconceptions:
+        - misconception: "Seni bina Rom hanya untuk kegunaan peribadi."
+          remediation: "Terangkan fungsi awam seperti Colosseum dan aquaduct."
+    engagement_hooks:
+        - "Gambar Colosseum dan Parthenon."
+bloom_levels:
+    - "remember"
+    - "analyze"
+    - "understand"
+    - "evaluate"
+mastery:
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+tier: "core"
+sync_checked: true
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T00:00:00Z"
+ai_teaching_notes: "SJ1-06.teaching.md"
+assessments_file: "SJ1-06.assessments.yaml"

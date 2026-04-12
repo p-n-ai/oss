@@ -1,17 +1,168 @@
-id: SJ1-02
+id: "SJ1-02"
 official_ref: "Bab 2"
 name: "Zaman Air Batu"
 name_en: "Ice Age"
-subject_grade_id: malaysia-kssm-sejarah-tingkatan-1
-subject_id: malaysia-kssm-sejarah
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: beginner
-content_standards: []
-learning_objectives: []
+subject_grade_id: "malaysia-kssm-sejarah-tingkatan-1"
+subject_id: "malaysia-kssm-sejarah"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+content_standards:
+    - id: "2.1"
+      text: "Zaman Air Batu"
+      text_en: "Ice Age"
+learning_objectives:
+    - id: "2.1.1"
+      text: "Mengenali dunia kita."
+      text_en: "Recognizing our world."
+      bloom: "remember"
+      content_standard_id: "2.1"
+    - id: "2.1.2"
+      text: "Menyenaraikan Zaman Air Batu."
+      text_en: "Listing the Ice Ages."
+      bloom: "remember"
+      content_standard_id: "2.1"
+    - id: "2.1.3"
+      text: "Membina garis masa Zaman Air Batu."
+      text_en: "Constructing a timeline of the Ice Age."
+      bloom: "create"
+      content_standard_id: "2.1"
+    - id: "2.1.4"
+      text: "Menjelaskan ciri-ciri Zaman Air Batu akhir."
+      text_en: "Explaining the characteristics of the Late Ice Age."
+      bloom: "understand"
+      content_standard_id: "2.1"
+    - id: "2.1.5"
+      text: "Membincangkan perubahan Zaman Air Batu."
+      text_en: "Discussing changes in the Ice Age."
+      bloom: "analyze"
+      content_standard_id: "2.1"
+    - id: "2.1.6"
+      text: "Menilai kesan perubahan di Asia Tenggara."
+      text_en: "Assessing the impact of changes in Southeast Asia."
+      bloom: "evaluate"
+      content_standard_id: "2.1"
+    - id: "2.1.7"
+      text: "Menjelaskan kepentingan bersyukur dengan alam ciptaan Tuhan."
+      text_en: "Explaining the importance of being grateful for God's creation."
+      bloom: "understand"
+      content_standard_id: "2.1"
+      is_citizenship_elements: true
+    - id: "2.1.8"
+      text: "Menyatakan kepentingan sikap yang perlu diamalkan dalam menjaga alam sekitar."
+      text_en: "Stating the importance of attitudes to be practiced in caring for the environment."
+      bloom: "remember"
+      content_standard_id: "2.1"
+      is_citizenship_elements: true
+    - id: "2.1.9"
+      text: "Menghubungkait kepentingan masa lalu, kini dan hadapan dalam kehidupan."
+      text_en: "Linking the importance of past, present and future in life."
+      bloom: "analyze"
+      content_standard_id: "2.1"
+      is_citizenship_elements: true
+    - id: "2.1.10"
+      text: "Menjelaskan kepentingan usaha-usaha untuk memelihara dan memulihara alam sekitar."
+      text_en: "Explaining the importance of efforts to preserve and rehabilitate the environment."
+      bloom: "understand"
+      content_standard_id: "2.1"
+      is_citizenship_elements: true
 prerequisites:
-  required: []
-quality_level: 0
-provenance: ai-generated
+    required:
+        - "SJ1-01"
+    recommended: []
+quality_level: 1
+provenance: "ai-generated"
 generated_at: "2026-04-12T05:24:46Z"
+theme: "Sejarah Kita dan Dunia"
+topic_focus:
+    - "Perubahan Zaman Air Batu"
+    - "Pembentukan muka bumi dunia"
+topic_empathy:
+    - "Memahami perubahan alam sekitar"
+    - "Memupuk kesedaran memelihara dan memulihara alam sekitar"
+    - "Mengukuhkan semangat jati diri dalam kalangan murid"
+    - "Mensyukuri anugerah Tuhan terhadap kedudukan geografi Malaysia"
+historical_thinking_skills:
+    - "kronologi"
+citizenship_elements:
+    - id: "K2.1.7"
+      text: "Menjelaskan kepentingan bersyukur dengan alam ciptaan Tuhan."
+      text_en: "Explaining the importance of being grateful for God's creation."
+      content_standard_id: "2.1"
+    - id: "K2.1.8"
+      text: "Menyatakan kepentingan sikap yang perlu diamalkan dalam menjaga alam sekitar."
+      text_en: "Stating the importance of attitudes to be practiced in caring for the environment."
+      content_standard_id: "2.1"
+    - id: "K2.1.9"
+      text: "Menghubungkait kepentingan masa lalu, kini dan hadapan dalam kehidupan."
+      text_en: "Linking the importance of past, present and future in life."
+      content_standard_id: "2.1"
+    - id: "K2.1.10"
+      text: "Menjelaskan kepentingan usaha-usaha untuk memelihara dan memulihara alam sekitar."
+      text_en: "Explaining the importance of efforts to preserve and rehabilitate the environment."
+      content_standard_id: "2.1"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengetahui Zaman Air Batu."
+      text_en: "Knowing the Ice Age."
+      descriptor: "Mengetahui perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Knowing basic matters based on learned history knowledge and values."
+    - level: 2
+      id: "TP2"
+      text: "Memahami Zaman Air Batu."
+      text_en: "Understanding the Ice Age."
+      descriptor: "Memahami perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Understanding basic matters based on learned history knowledge and values."
+    - level: 3
+      id: "TP3"
+      text: "Menggunakan pengetahuan Zaman Air Batu untuk memahami proses pembentukan dunia."
+      text_en: "Using Ice Age knowledge to understand the world formation process."
+      descriptor: "Menggunakan perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Using basic matters based on learned history knowledge and values."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis maklumat yang berkaitan dengan Zaman Air Batu."
+      text_en: "Analyzing information related to the Ice Age."
+      descriptor: "Menganalisis pengetahuan dan kemahiran berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Analyzing knowledge and skills based on learned history knowledge and values."
+    - level: 5
+      id: "TP5"
+      text: "Membuat penilaian tentang Zaman Air Batu."
+      text_en: "Making assessments on the Ice Age."
+      descriptor: "Membuat penilaian berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Making assessments based on learned history knowledge and values."
+    - level: 6
+      id: "TP6"
+      text: "Melahirkan idea yang rasional tentang Zaman Air Batu."
+      text_en: "Generating rational ideas about the Ice Age."
+      descriptor: "Melahirkan idea berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Generating ideas based on learned history knowledge and values."
+teaching:
+    sequence:
+        - "Pengenalan Zaman Air Batu"
+        - "Pembinaan garis masa"
+        - "Analisis perubahan alam sekitar"
+    common_misconceptions:
+        - misconception: "Zaman Air Batu berlaku sekali sahaja."
+          remediation: "Jelaskan bahawa terdapat beberapa zaman sejuk dalam sejarah geologi."
+    engagement_hooks:
+        - "Menunjukkan imej gletser dan perubahan iklim."
+bloom_levels:
+    - "remember"
+    - "create"
+    - "understand"
+    - "analyze"
+    - "evaluate"
+mastery:
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+tier: "core"
+sync_checked: true
+ai_teaching_notes: "SJ1-02.teaching.md"
+assessments_file: "SJ1-02.assessments.yaml"

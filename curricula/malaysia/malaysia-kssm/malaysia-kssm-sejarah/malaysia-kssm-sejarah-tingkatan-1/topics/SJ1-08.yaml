@@ -1,17 +1,162 @@
-id: SJ1-08
+id: "SJ1-08"
 official_ref: "Bab 8"
 name: "Tamadun Islam dan Sumbangan"
 name_en: "Islamic Civilization and Contributions"
-subject_grade_id: malaysia-kssm-sejarah-tingkatan-1
-subject_id: malaysia-kssm-sejarah
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: beginner
-content_standards: []
-learning_objectives: []
+subject_grade_id: "malaysia-kssm-sejarah-tingkatan-1"
+subject_id: "malaysia-kssm-sejarah"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+content_standards:
+    - id: "4.3"
+      text: "Tamadun Islam dan Sumbangannya"
+      text_en: "Islamic Civilization and Its Contributions"
+learning_objectives:
+    - id: "4.3.1"
+      text: "Menyatakan latar belakang masyarakat Arab sebelum kedatangan Islam."
+      text_en: "Stating the background of Arab society before the arrival of Islam."
+      bloom: "remember"
+      content_standard_id: "4.3"
+    - id: "4.3.2"
+      text: "Menerangkan kemunculan tamadun Islam dan perkembangannya secara ringkas."
+      text_en: "Explaining the emergence of Islamic civilization and its development briefly."
+      bloom: "understand"
+      content_standard_id: "4.3"
+    - id: "4.3.3"
+      text: "Menjelaskan ketokohan Nabi Muhammad SAW sebagai pemimpin yang unggul."
+      text_en: "Explaining the leadership of Prophet Muhammad SAW as an excellent leader."
+      bloom: "understand"
+      content_standard_id: "4.3"
+    - id: "4.3.4"
+      text: "Menganalisis sumbangan tamadun Islam dalam bidang politik, ekonomi dan sosial."
+      text_en: "Analyzing Islamic civilization contributions in political, economic and social fields."
+      bloom: "analyze"
+      content_standard_id: "4.3"
+    - id: "4.3.5"
+      text: "Menganalisis sumbangan tamadun Islam dalam bidang seni bina."
+      text_en: "Analyzing Islamic civilization contributions in the field of architecture."
+      bloom: "analyze"
+      content_standard_id: "4.3"
+    - id: "4.3.6"
+      text: "Merumuskan kepentingan menghargai sumbangan tamadun Islam."
+      text_en: "Summarizing the importance of appreciating Islamic civilization contributions."
+      bloom: "evaluate"
+      content_standard_id: "4.3"
+      is_citizenship_elements: true
+    - id: "4.3.7"
+      text: "Menghuraikan nilai murni sejagat dalam Islam bagi memantapkan jati diri bangsa dan negara."
+      text_en: "Describing universal pure values in Islam to strengthen national and ethnic identity."
+      bloom: "understand"
+      content_standard_id: "4.3"
+      is_citizenship_elements: true
+    - id: "4.3.8"
+      text: "Membincangkan ciri-ciri kepimpinan Islam yang boleh diteladani oleh masyarakat."
+      text_en: "Discussing Islamic leadership characteristics that can be emulated by society."
+      bloom: "analyze"
+      content_standard_id: "4.3"
+      is_citizenship_elements: true
+    - id: "4.3.9"
+      text: "Menerangkan kepentingan ciri-ciri unik dalam seni bina Islam"
+      text_en: "Explaining the importance of unique characteristics in Islamic architecture"
+      bloom: "understand"
+      content_standard_id: "4.3"
+      is_citizenship_elements: true
 prerequisites:
-  required: []
-quality_level: 0
-provenance: ai-generated
-generated_at: "2026-04-12T05:24:46Z"
+    required:
+        - "SJ1-05"
+    recommended: []
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T00:00:00Z"
+theme: "Sejarah Kita dan Dunia"
+topic_focus:
+    - "Tamadun Islam dan sumbangannya"
+topic_empathy:
+    - "Semangat kekitaan dalam zaman globalisasi"
+    - "Berilmu dan berketerampilan"
+    - "Keterlibatan diri dalam pembangunan negara"
+    - "Keterikatan emosi kepada negara"
+historical_thinking_skills:
+    - "interpretasi"
+    - "rasionalisasi"
+citizenship_elements:
+    - id: "K4.3.6"
+      text: "Merumuskan kepentingan menghargai sumbangan tamadun Islam."
+      text_en: "Summarizing the importance of appreciating Islamic civilization contributions."
+      content_standard_id: "4.3"
+    - id: "K4.3.7"
+      text: "Menghuraikan nilai murni sejagat dalam Islam bagi memantapkan jati diri bangsa dan negara."
+      text_en: "Describing universal pure values in Islam to strengthen national and ethnic identity."
+      content_standard_id: "4.3"
+    - id: "K4.3.8"
+      text: "Membincangkan ciri-ciri kepimpinan Islam yang boleh diteladani oleh masyarakat."
+      text_en: "Discussing Islamic leadership characteristics that can be emulated by society."
+      content_standard_id: "4.3"
+    - id: "K4.3.9"
+      text: "Menerangkan kepentingan ciri-ciri unik dalam seni bina Islam"
+      text_en: "Explaining the importance of unique characteristics in Islamic architecture"
+      content_standard_id: "4.3"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengetahui tamadun Islam."
+      text_en: "Knowing Islamic civilization."
+      descriptor: "Mengetahui perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Knowing basic matters based on learned history knowledge and values."
+    - level: 2
+      id: "TP2"
+      text: "Memahami tamadun Islam."
+      text_en: "Understanding Islamic civilization."
+      descriptor: "Memahami perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Understanding basic matters based on learned history knowledge and values."
+    - level: 3
+      id: "TP3"
+      text: "Menerangkan dengan contoh tentang tamadun Islam."
+      text_en: "Explaining with examples about Islamic civilization."
+      descriptor: "Menggunakan perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Using basic matters based on learned history knowledge and values."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis maklumat yang berkaitan tamadun Islam."
+      text_en: "Analyzing information related to Islamic civilization."
+      descriptor: "Menganalisis pengetahuan dan kemahiran berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Analyzing knowledge and skills based on learned history knowledge and values."
+    - level: 5
+      id: "TP5"
+      text: "Membuat penilaian tentang tamadun Islam."
+      text_en: "Making assessments on Islamic civilization."
+      descriptor: "Membuat penilaian berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Making assessments based on learned history knowledge and values."
+    - level: 6
+      id: "TP6"
+      text: "Melahirkan idea yang berasas mengenai tamadun Islam."
+      text_en: "Generating rational ideas about Islamic civilization."
+      descriptor: "Melahirkan idea berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Generating ideas based on learned history knowledge and values."
+teaching:
+    sequence:
+        - "Latar belakang masyarakat Arab"
+        - "Kemunculan Islam"
+        - "Sumbangan Islam"
+    common_misconceptions:
+        - misconception: "Tamadun Islam hanya berkaitan agama."
+          remediation: "Terangkan sumbangan dalam sains, seni dan pemerintahan."
+    engagement_hooks:
+        - "Pencapaian sains Islam kuno."
+bloom_levels:
+    - "remember"
+    - "understand"
+    - "analyze"
+    - "evaluate"
+mastery:
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+tier: "core"
+sync_checked: true
+ai_teaching_notes: "SJ1-08.teaching.md"
+assessments_file: "SJ1-08.assessments.yaml"
