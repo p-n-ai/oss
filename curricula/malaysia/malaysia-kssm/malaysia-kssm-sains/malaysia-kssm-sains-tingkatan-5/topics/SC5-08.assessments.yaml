@@ -1,0 +1,132 @@
+topic_id: "SC5-08"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 8.1.1
+    - id: "Q01"
+      text: 'Dalam sistem tertutup, jika tekanan dikenakan pada permukaan cecair, bagaimana tekanan ini akan diedarkan dalam bendalir tersebut?'
+      difficulty: "medium"
+      learning_objective: "8.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Tekanan akan diedarkan secara seragam ke semua arah dalam bendalir.'
+        working: |
+            Dalam sistem tertutup, tekanan yang dikenakan pada permukaan cecair akan diedarkan secara seragam ke semua arah di dalam bendalir. Ini adalah berdasarkan kepada konsep bahawa bendalir dalam sistem tertutup bertindak balas terhadap tekanan dengan mengedarkan tekanan tersebut secara merata.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: 'Menyatakan bahawa tekanan diedarkan.'
+        - marks: 1
+          criteria: 'Menjelaskan pengedaran seragam dalam bendalir.'
+        - marks: 1
+          criteria: 'Mengaitkan dengan sistem tertutup.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang bagaimana tekanan berfungsi dalam bendalir.'
+        - level: 2
+          text: 'Ingat bahawa tekanan dalam sistem tertutup diedarkan ke semua arah.'
+    # Learning Objective 8.1.2
+    - id: "Q02"
+      text: 'Apakah aplikasi prinsip Pascal yang biasa ditemui dalam kehidupan harian?'
+      difficulty: "medium"
+      learning_objective: "8.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: 'A'
+        options:
+            A: 'Jek hidraulik'
+            B: 'Kereta api'
+            C: 'Turbine angin'
+            D: 'Penghawa dingin'
+        working: |
+            Prinsip Pascal digunakan dalam jek hidraulik di mana tekanan yang dikenakan pada cecair di satu bahagian sistem akan dipindahkan dengan sama ke seluruh bahagian sistem, memungkinkan pengangkatan beban berat dengan usaha yang lebih kecil.
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: 'Memilih aplikasi yang betul berdasarkan prinsip Pascal.'
+      hints:
+        - level: 1
+          text: 'Prinsip ini melibatkan tekanan dalam bendalir.'
+        - level: 2
+          text: 'Ia sering digunakan dalam alat yang mengangkat beban berat.'
+    # Learning Objective 8.1.3
+    - id: "Q03"
+      text: 'Bagaimanakah halaju bendalir mempengaruhi tekanan dalam sistem tertutup?'
+      difficulty: "medium"
+      learning_objective: "8.1.3"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Apabila halaju bendalir meningkat, tekanan akan berkurang.'
+        working: |
+            Menurut Prinsip Bernoulli, apabila halaju bendalir meningkat, tekanan dalam bendalir tersebut akan berkurang. Ini kerana tenaga total dalam sistem mesti kekal malar, jadi peningkatan dalam tenaga kinetik (halaju) mengakibatkan pengurangan dalam tenaga tekanan.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: 'Menyatakan hubungan antara halaju dan tekanan.'
+        - marks: 1
+          criteria: 'Mengaitkan dengan prinsip Bernoulli.'
+        - marks: 1
+          criteria: 'Memahami konsep tenaga dalam sistem tertutup.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan prinsip Bernoulli.'
+        - level: 2
+          text: 'Ingat bahawa peningkatan halaju mengurangkan tekanan.'
+    # Learning Objective 8.1.4
+    - id: "Q04"
+      text: 'Sebutkan satu contoh bagaimana prinsip Bernoulli digunakan dalam kehidupan seharian.'
+      difficulty: "medium"
+      learning_objective: "8.1.4"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: 'C'
+        options:
+            A: 'Kipas meja'
+            B: 'Penunu Bunsen'
+            C: 'Sayap pesawat terbang'
+            D: 'Kebuk vakum'
+        working: |
+            Prinsip Bernoulli digunakan dalam reka bentuk sayap pesawat terbang. Bentuk sayap menyebabkan aliran udara lebih laju di atas permukaan atas sayap, mengakibatkan tekanan lebih rendah di atas sayap berbanding dengan bawah sayap, menghasilkan daya angkat.
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: 'Memilih contoh aplikasi yang betul berdasarkan prinsip Bernoulli.'
+      hints:
+        - level: 1
+          text: 'Prinsip ini melibatkan aliran udara dan tekanan.'
+        - level: 2
+          text: 'Fikirkan tentang bagaimana pesawat terbang dapat terbang.'
+    # Learning Objective 8.1.5
+    - id: "Q05"
+      text: 'Reka bentuk alat yang boleh menggunakan prinsip tekanan dalam bendalir untuk mengangkat objek berat.'
+      difficulty: "medium"
+      learning_objective: "8.1.5"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Reka bentuk jek hidraulik dengan silinder besar dan kecil untuk meningkatkan daya angkat.'
+        working: |
+            Alat ini boleh direka dengan dua silinder, satu besar dan satu kecil, yang dihubungkan oleh paip yang dipenuhi dengan cecair. Apabila tekanan dikenakan pada silinder kecil, tekanan itu dipindahkan ke silinder besar yang dapat mengangkat beban berat dengan mudah kerana luas permukaan silinder besar yang lebih besar.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: 'Menyatakan penggunaan prinsip tekanan.'
+        - marks: 1
+          criteria: 'Merancang elemen asas alat.'
+        - marks: 1
+          criteria: 'Mengaitkan reka bentuk dengan prinsip hidraulik.'
+        - marks: 1
+          criteria: 'Menunjukkan bagaimana alat dapat berfungsi.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang bagaimana jek hidraulik berfungsi.'
+        - level: 2
+          text: 'Pertimbangkan penggunaan silinder dengan luas permukaan yang berbeza.'

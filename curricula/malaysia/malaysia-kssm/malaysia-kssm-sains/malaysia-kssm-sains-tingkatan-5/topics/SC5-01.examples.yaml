@@ -1,0 +1,49 @@
+topic_id: "SC5-01"
+provenance: "ai-generated"
+description: "Worked examples for Mikroorganisma"
+worked_examples:
+    - id: "WE-01"
+      topic: "Kewujudan Mikroorganisma"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "1.1.1"
+      real_world_analogy: "Memikirkan mikroorganisma seperti debu halus yang tidak dapat dilihat dengan mata kasar tetapi wujud di udara."
+      misconception_alert: "Ramai berfikir semua mikroorganisma adalah berbahaya, sedangkan banyak juga yang bermanfaat."
+      scenario: "Bagaimana anda boleh membuktikan kewujudan mikroorganisma di sekeliling kita?"
+      working: |
+        Step 1: Sediakan sekeping roti dan letakkannya di tempat terbuka selama beberapa hari.
+        Step 2: Perhatikan perubahan yang berlaku pada roti tersebut, seperti pertumbuhan kulat.
+        Step 3: Gunakan mikroskop untuk melihat mikroorganisma yang mungkin tumbuh pada roti.
+        Step 4: Kesimpulannya, kehadiran kulat pada roti membuktikan kewujudan mikroorganisma.
+    - id: "WE-02"
+      topic: "Faktor Pertumbuhan Mikroorganisma"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "1.1.3"
+      real_world_analogy: "Seperti tanaman memerlukan cahaya dan air untuk tumbuh, mikroorganisma juga memerlukan syarat tertentu untuk berkembang."
+      misconception_alert: "Tidak semua mikroorganisma memerlukan cahaya untuk pertumbuhan; beberapa berkembang lebih baik dalam kegelapan."
+      scenario: "Jalankan eksperimen untuk menentukan faktor yang mempengaruhi pertumbuhan mikroorganisma pada agar-agar."
+      working: |
+        Step 1: Sediakan tiga piring petri yang mengandungi agar-agar.
+        Step 2: Letakkan satu piring petri di tempat terang, satu di tempat gelap, dan satu lagi di tempat yang sederhana.
+        Step 3: Sapukan sampel mikroorganisma yang sama pada setiap piring petri.
+        Step 4: Amati dan catat pertumbuhan mikroorganisma selama seminggu.
+        Step 5: Analisa data untuk menentukan faktor yang paling mempengaruhi pertumbuhan mikroorganisma.
+    - id: "WE-03"
+      topic: "Kesan Antibiotik Terhadap Bakteria"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "1.3.3"
+      real_world_analogy: "Bayangkan antibiotik sebagai pengawal keselamatan yang menghalang penjahat (bakteria) daripada membiak dan menyebabkan masalah."
+      misconception_alert: "Antibiotik tidak berkesan terhadap virus, hanya bakteria."
+      scenario: "Jalankan eksperimen untuk mengkaji kesan antibiotik terhadap pertumbuhan bakteria pada piring petri."
+      working: |-
+        Step 1: Sediakan piring petri yang mengandungi agar dan inokulasi dengan bakteria.
+        Step 2: Letakkan cakera antibiotik di tengah piring petri.
+        Step 3: Inkubasi piring petri pada suhu yang sesuai untuk membolehkan pertumbuhan bakteria.
+        Step 4: Amati zon penghambatan di sekitar cakera antibiotik.
+        Step 5: Ukur diameter zon penghambatan untuk menentukan keberkesanan antibiotik.
+        Step 6: Buat kesimpulan berdasarkan ukuran zon penghambatan, semakin besar zon, semakin berkesan antibiotik tersebut.

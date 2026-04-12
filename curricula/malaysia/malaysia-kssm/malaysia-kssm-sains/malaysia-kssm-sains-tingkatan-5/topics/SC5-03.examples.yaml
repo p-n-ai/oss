@@ -1,0 +1,46 @@
+topic_id: "SC5-03"
+provenance: "ai-generated"
+description: "Worked examples for Kelestarian Alam Sekitar"
+worked_examples:
+    - id: "WE-01"
+      topic: "Menjelaskan maksud jejak karbon"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "3.1.1"
+      real_world_analogy: "Jejak karbon adalah seperti bayang-bayang yang kita tinggalkan di bumi dengan setiap tindakan kita."
+      misconception_alert: "Jejak karbon hanya berkaitan dengan penggunaan kenderaan bermotor, sedangkan ia mencakupi semua aktiviti harian yang menghasilkan gas rumah hijau."
+      scenario: "Jelaskan maksud jejak karbon kepada pelajar sekolah menengah."
+      working: |
+        Step 1: Kenali bahawa jejak karbon merujuk kepada jumlah pelepasan gas rumah hijau yang dihasilkan oleh aktiviti manusia.
+        Step 2: Fahami bahawa jejak karbon melibatkan semua aspek kehidupan seperti pengangkutan, penggunaan tenaga, dan sisa.
+        Step 3: Terangkan bahawa mengurangkan jejak karbon adalah penting untuk mengawal perubahan iklim.
+    - id: "WE-02"
+      topic: "Mencerakinkan produk yang digunakan dalam satu hari"
+      difficulty: "medium"
+      tp_level: 4
+      kbat: true
+      learning_objective: "3.1.2"
+      real_world_analogy: "Seperti menjejak langkah dalam pasir, setiap produk yang kita gunakan meninggalkan kesan tertentu pada alam sekitar."
+      misconception_alert: "Produk harian hanya memberi kesan ketika digunakan, tetapi sebenarnya setiap fasa dari pembuatan hingga pembuangan menyumbang kepada jejak karbon."
+      scenario: "Analisis jejak karbon bagi produk yang digunakan dalam satu hari oleh seorang pelajar."
+      working: |
+        Step 1: Senaraikan semua produk yang digunakan dalam sehari seperti makanan, pakaian, dan alat elektronik.
+        Step 2: Kenalpasti setiap langkah dalam kitar hayat produk dari pembuatan, pengangkutan, penggunaan hingga pembuangan.
+        Step 3: Kira jumlah pelepasan karbon untuk setiap langkah berdasarkan penggunaan tenaga dan bahan bakar.
+        Step 4: Jumlahkan semua pelepasan untuk mendapatkan jejak karbon harian individu.
+    - id: "WE-03"
+      topic: "Mewajarkan tindakan mengurangkan gas rumah hijau"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "3.1.3"
+      real_world_analogy: "Mengurangkan gas rumah hijau adalah seperti menutup paip yang bocor: lebih baik mengatasi punca daripada membiarkan masalah semakin besar."
+      misconception_alert: "Mengurangkan gas rumah hijau hanya perlu dilakukan pada skala besar, sedangkan tindakan individu juga memiliki dampak signifikan."
+      scenario: "Cadangkan langkah-langkah yang boleh diambil oleh individu untuk mengurangkan pembebasan gas rumah hijau dalam kehidupan sehari-hari."
+      working: |-
+        Step 1: Kenal pasti aktiviti harian yang menyumbang kepada pelepasan gas rumah hijau seperti penggunaan kenderaan bermotor dan elektrik.
+        Step 2: Cadangkan alternatif seperti menggunakan pengangkutan awam, berbasikal, atau berjalan kaki untuk mengurangkan penggunaan bahan bakar fosil.
+        Step 3: Galakkan penggunaan tenaga boleh diperbaharui seperti solar atau angin di rumah.
+        Step 4: Tekankan pentingnya mengurangkan, mengguna semula, dan mengitar semula bahan untuk mengurangkan sisa.
+        Step 5: Bincangkan manfaat jangka panjang kepada alam sekitar dan kesihatan manusia dengan mengurangkan gas rumah hijau.

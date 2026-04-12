@@ -1,0 +1,47 @@
+topic_id: "SC5-04"
+provenance: "ai-generated"
+description: "Worked examples for Kadar Tindak Balas"
+worked_examples:
+    - id: "WE-01"
+      topic: "Understanding Fast and Slow Reactions"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "4.1.1"
+      real_world_analogy: "Comparing the speed of a cheetah (fast reaction) versus a tortoise (slow reaction) to illustrate different reaction speeds."
+      misconception_alert: "Students may think all reactions occur at the same speed, but in reality, reaction rates can vary significantly."
+      scenario: "Identify which of the following scenarios involves a fast reaction: a match striking versus rusting of iron."
+      working: |
+        Step 1: Understand the scenario of a match striking. This is a combustion reaction, which typically occurs very quickly.
+        Step 2: Consider the scenario of rusting of iron. Rusting is an oxidation reaction that occurs over a long period.
+        Step 3: Compare the two scenarios. The match striking is a fast reaction, while the rusting of iron is a slow reaction. Thus, the match striking involves a fast reaction.
+    - id: "WE-02"
+      topic: "Defining and Determining Reaction Rate"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: false
+      learning_objective: "4.1.2"
+      real_world_analogy: "Think of reaction rate like the speed of a car; just as a car can go fast or slow, reactions can proceed at different rates."
+      misconception_alert: "Some students may confuse reaction rate with reaction time; reaction rate is how quickly reactants turn into products, while reaction time is the duration of the reaction."
+      scenario: "Define the rate of reaction and calculate the rate if 5 grams of reactant are consumed in 10 minutes."
+      working: |
+        Step 1: Define the reaction rate as the change in concentration of reactants or products per unit time.
+        Step 2: Calculate the rate of reaction using the formula: Rate = $\frac{\text{Change in quantity}}{\text{Time}}$.
+        Step 3: Substitute the given values: Rate = $\frac{5 \text{ grams}}{10 \text{ minutes}} = 0.5 \text{ grams per minute}$.
+        Step 4: The rate of reaction is 0.5 grams per minute.
+    - id: "WE-03"
+      topic: "Factors Affecting Reaction Rates"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "4.2.1"
+      real_world_analogy: "Similar to how a chef can control cooking time by adjusting heat, pressure, and ingredients, reaction rates can be influenced by various factors."
+      misconception_alert: "A common misconception is that increasing temperature always speeds up reactions; however, some reactions may have optimal temperatures beyond which the rate may decrease."
+      scenario: "Design an experiment to investigate how temperature affects the rate of the reaction between hydrochloric acid and magnesium ribbon."
+      working: |-
+        Step 1: Set up the experiment with a conical flask containing hydrochloric acid and a magnesium ribbon.
+        Step 2: Measure the initial temperature of the acid and note the time.
+        Step 3: Observe the reaction and record the time taken for the magnesium ribbon to dissolve completely at this temperature.
+        Step 4: Repeat the experiment at different temperatures, using a water bath to control the temperature of the acid.
+        Step 5: Plot a graph of reaction time against temperature to observe the trend.
+        Step 6: Analyze the results to conclude that generally, increasing temperature increases reaction rate due to more frequent and energetic collisions.

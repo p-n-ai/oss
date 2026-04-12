@@ -1,0 +1,47 @@
+topic_id: "SC5-05"
+provenance: "ai-generated"
+description: "Worked examples for Sebatian karbon"
+worked_examples:
+    - id: "WE-01"
+      topic: "Mengenal pasti sebatian karbon dalam alam"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "5.1.1"
+      real_world_analogy: "Just like how fabric is made from yarns, many materials are made from carbon compounds."
+      misconception_alert: "Students often think all carbon compounds are man-made, but many are naturally occurring."
+      scenario: "Identify the carbon compounds present in a forest ecosystem."
+      working: |
+        Step 1: Recognize that carbon compounds are present in all living organisms.
+        Step 2: List common carbon compounds such as carbohydrates, proteins, and fats found in plants and animals.
+        Step 3: Identify non-living carbon compounds like carbon dioxide in the air.
+        Step 4: Conclude that carbon compounds are integral to both living and non-living components of the ecosystem.
+    - id: "WE-02"
+      topic: "Memerihalkan sebatian hidrokarbon dan sumbernya"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "5.2.1"
+      real_world_analogy: "Hydrocarbons are like the fuel that keeps a car running, essential for energy production."
+      misconception_alert: "Students may think hydrocarbons are only found in fuel, but they are also in plastics and other materials."
+      scenario: "Explain how hydrocarbons are obtained from natural sources and their significance in energy production."
+      working: |
+        Step 1: Understand that hydrocarbons are organic compounds made of hydrogen and carbon.
+        Step 2: Identify natural sources such as crude oil and natural gas.
+        Step 3: Describe the process of refining crude oil to separate hydrocarbons using distillation.
+        Step 4: Explain how refined hydrocarbons like petrol are used as fuels in transportation and industry.
+    - id: "WE-03"
+      topic: "Membanding beza antara lemak tepu dan lemak tak tepu"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "5.4.2"
+      real_world_analogy: "Comparing saturated and unsaturated fats is like comparing butter to olive oil in terms of solidity at room temperature."
+      misconception_alert: "Students often confuse saturated fats as always unhealthy; moderation is key."
+      scenario: "Compare and contrast the chemical structure and health impacts of saturated and unsaturated fats."
+      working: |-
+        Step 1: Define saturated fats as having no double bonds between carbon atoms, leading to a straight chain.
+        Step 2: Define unsaturated fats as having one or more double bonds, causing kinks in the chain.
+        Step 3: Illustrate how saturated fats are solid at room temperature (e.g., butter) while unsaturated fats are liquid (e.g., olive oil).
+        Step 4: Discuss health impacts, noting that unsaturated fats are generally considered healthier options.
+        Step 5: Conclude with dietary recommendations, emphasizing balance and moderation in fat consumption.

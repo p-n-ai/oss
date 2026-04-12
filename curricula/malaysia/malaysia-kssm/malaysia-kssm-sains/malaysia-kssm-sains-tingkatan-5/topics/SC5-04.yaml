@@ -1,0 +1,120 @@
+id: "SC5-04"
+official_ref: "Bab 4"
+name: "Kadar Tindak Balas"
+name_en: "Rate of Reaction"
+subject_grade_id: "malaysia-kssm-sains-tingkatan-5"
+subject_id: "malaysia-kssm-sains"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "intermediate"
+content_standards:
+    - id: "4.1"
+      text: "Pengenalan kadar tindak balas"
+      text_en: "Introduction to rate of reaction"
+    - id: "4.2"
+      text: "Faktor yang mempengaruhi kadar tindak balas"
+      text_en: "Factors affecting rate of reaction"
+    - id: "4.3"
+      text: "Aplikasi kadar tindak balas"
+      text_en: "Application of rate of reaction"
+learning_objectives:
+    - id: "4.1.1"
+      text: "Menjelaskan melalui contoh tindak balas cepat dan tindak balas perlahan dalam kehidupan harian."
+      text_en: "Explain through examples of fast and slow reactions in daily life."
+      bloom: "understand"
+      content_standard_id: "4.1"
+    - id: "4.1.2"
+      text: "Mentakrif kadar tindak balas."
+      text_en: "Define rate of reaction."
+      bloom: "remember"
+      content_standard_id: "4.1"
+    - id: "4.1.3"
+      text: "Menentukan kadar tindak balas."
+      text_en: "Determine rate of reaction."
+      bloom: "apply"
+      content_standard_id: "4.1"
+    - id: "4.2.1"
+      text: "Menjalankan eksperimen untuk mengkaji faktor yang mempengaruhi kadar tindak balas."
+      text_en: "Conduct an experiment to investigate factors affecting rate of reaction."
+      bloom: "apply"
+      content_standard_id: "4.2"
+    - id: "4.3.1"
+      text: "Berkomunikasi mengenai aplikasi kadar tindak balas dalam kehidupan harian dan industri."
+      text_en: "Communicate about the application of rate of reaction in daily life and industry."
+      bloom: "remember"
+      content_standard_id: "4.3"
+prerequisites:
+    required: []
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran saintifik mengenai kadar tindak balas."
+      text_en: "Recall scientific knowledge and skills regarding rate of reaction."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran saintifik mengenai kadar tindak balas."
+      descriptor_en: "Recall scientific knowledge and skills regarding rate of reaction."
+    - level: 2
+      id: "TP2"
+      text: "Memahami kadar tindak balas dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand rate of reaction and can explain the understanding."
+      descriptor: "Memahami kadar tindak balas dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand rate of reaction and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai kadar tindak balas dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge about rate of reaction and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai kadar tindak balas dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge about rate of reaction and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai kadar tindak balas dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge about rate of reaction in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai kadar tindak balas dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge about rate of reaction in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai kadar tindak balas dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge about rate of reaction in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai kadar tindak balas dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge about rate of reaction in the context of problem solving and make decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains berkaitan kadar tindak balas dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using scientific knowledge and skills related to rate of reaction in the context of problem solving and decision making or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains berkaitan kadar tindak balas dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using scientific knowledge and skills related to rate of reaction in the context of problem solving and decision making or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+bloom_levels:
+    - remember
+    - understand
+    - apply
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+teaching:
+    sequence:
+        - 'Step 1: Introduce the concept of reaction rate with examples from daily life (15 min)'
+        - 'Step 2: Define reaction rate formally and illustrate with graphs (10 min)'
+        - 'Step 3: Conduct a simple experiment to measure reaction rate (20 min)'
+        - 'Step 4: Discuss factors affecting reaction rate through experiments (25 min)'
+        - 'Step 5: Explore real-life applications of reaction rates in industry (15 min)'
+    common_misconceptions:
+        - misconception: All reactions occur at the same speed
+          remediation: Use diverse examples and experiments to show variation in reaction rates
+        - misconception: Reaction rate is the time taken for a reaction to complete
+          remediation: Clarify that reaction rate is about the speed of the reaction, not completion time
+cross_curriculum: []
+tier: "core"
+ai_teaching_notes: "SC5-04.teaching.md"
+examples_file: "SC5-04.examples.yaml"
+assessments_file: "SC5-04.assessments.yaml"
+quality_level: 1
+provenance: "ai-generated"
+generated_at: "2026-04-12T03:59:16Z"
+sync_checked: false
+theme: "PENEROKAAN UNSUR DALAM ALAM"
+engagement_hooks:
+    - Discuss local examples like fermentation rates in making tapai or belacan
+    - Explore how reaction rates affect the carbonation of soft drinks

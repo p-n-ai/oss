@@ -1,0 +1,148 @@
+id: "SC5-03"
+official_ref: "Bab 3"
+name: "Kelestarian Alam Sekitar"
+name_en: "Environmental Conservation"
+subject_grade_id: "malaysia-kssm-sains-tingkatan-5"
+subject_id: "malaysia-kssm-sains"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "intermediate"
+theme: "PENYENGGARAAN DAN KESINAMBUNGAN HIDUP"
+content_standards:
+    - id: "3.1"
+      text: "Kitaran hayat produk"
+      text_en: "Product life cycle"
+    - id: "3.2"
+      text: "Pencemaran alam sekitar"
+      text_en: "Environmental pollution"
+    - id: "3.3"
+      text: "Pemeliharaan dan pemuliharaan alam sekitar"
+      text_en: "Conservation and preservation of the environment"
+learning_objectives:
+    - id: "3.1.1"
+      text: "Menjelaskan maksud jejak karbon (carbon footprint)."
+      text_en: "Explain the meaning of carbon footprint."
+      bloom: "understand"
+      content_standard_id: "3.1"
+    - id: "3.1.2"
+      text: "Mencerakinkan produk yang digunakan dalam satu hari kehidupan seorang individu."
+      text_en: "Break down products used in an individual's daily life."
+      bloom: "analyze"
+      content_standard_id: "3.1"
+    - id: "3.1.3"
+      text: "Mewajarkan tindakan yang perlu diambil iaitu langkah tapak tangan karbon (carbon handprint) bagi mengurangkan pembebasan gas rumah hijau dalam satu hari kehidupan individu."
+      text_en: "Justify actions to be taken, i.e., carbon handprint steps to reduce greenhouse gas emissions in an individual's daily life."
+      bloom: "evaluate"
+      content_standard_id: "3.1"
+    - id: "3.1.4"
+      text: "Berkomunikasi mengenai kitar hayat satu produk."
+      text_en: "Communicate about the life cycle of a product."
+      bloom: "remember"
+      content_standard_id: "3.1"
+    - id: "3.1.5"
+      text: "Menjana idea pengurusan yang cekap bagi sisa plastik ke arah kelestarian alam sekitar."
+      text_en: "Generate ideas for efficient plastic waste management towards environmental sustainability."
+      bloom: "create"
+      content_standard_id: "3.1"
+    - id: "3.2.1"
+      text: "Menerangkan jenis dan punca pencemaran alam sekitar."
+      text_en: "Explain types and causes of environmental pollution."
+      bloom: "understand"
+      content_standard_id: "3.2"
+    - id: "3.2.2"
+      text: "Mengkaji tahap pencemaran air daripada sisa domestik."
+      text_en: "Investigate water pollution levels from domestic waste."
+      bloom: "apply"
+      content_standard_id: "3.2"
+    - id: "3.2.3"
+      text: "Mereka cipta kaedah pembersihan air yang tercemar menggunakan teknologi hijau."
+      text_en: "Create methods for cleaning polluted water using green technology."
+      bloom: "create"
+      content_standard_id: "3.2"
+    - id: "3.3.1"
+      text: "Menjustifikasi peranan setiap individu dalam mengurus sumber semula jadi untuk mengekalkan keseimbangan alam sekitar."
+      text_en: "Justify the role of each individual in managing natural resources to maintain environmental balance."
+      bloom: "evaluate"
+      content_standard_id: "3.3"
+    - id: "3.3.2"
+      text: "Membahaskan peranan Pertubuhan Bangsa-Bangsa Bersatu (PBB) dalam menangani isu alam sekitar pada peringkat global."
+      text_en: "Discuss the role of the United Nations (UN) in handling environmental issues at the global level."
+      bloom: "analyze"
+      content_standard_id: "3.3"
+prerequisites:
+    required: []
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran saintifik mengenai kelestarian alam."
+      text_en: "Recall scientific knowledge and skills regarding environmental sustainability."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran saintifik mengenai kelestarian alam."
+      descriptor_en: "Recall scientific knowledge and skills regarding environmental sustainability."
+    - level: 2
+      id: "TP2"
+      text: "Memahami kelestarian alam dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand environmental sustainability and can explain the understanding."
+      descriptor: "Memahami kelestarian alam dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand environmental sustainability and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai kelestarian alam dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge about environmental sustainability and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai kelestarian alam dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge about environmental sustainability and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai kelestarian alam dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge about environmental sustainability in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai kelestarian alam dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge about environmental sustainability in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai kelestarian alam dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge about environmental sustainability in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai kelestarian alam dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge about environmental sustainability in the context of problem solving and make decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai kelestarian alam dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using scientific knowledge and skills about environmental sustainability in the context of problem solving and decision making or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai kelestarian alam dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using scientific knowledge and skills about environmental sustainability in the context of problem solving and decision making or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+teaching:
+    sequence:
+        - 'Step 1: Introduce carbon footprint concept using multimedia (20 min)'
+        - 'Step 2: Daily product analysis activity (30 min)'
+        - 'Step 3: Discuss carbon handprint actions (25 min)'
+        - 'Step 4: Communicate product life cycle (15 min)'
+        - 'Step 5: Brainstorm plastic waste management ideas (20 min)'
+    common_misconceptions:
+        - misconception: Jejak karbon hanya dari asap
+          remediation: Explain sources like agriculture and construction
+        - misconception: PBB tidak berperanan
+          remediation: Use examples of UN initiatives and projects
+cross_curriculum: []
+tier: "core"
+ai_teaching_notes: "SC5-03.teaching.md"
+examples_file: "SC5-03.examples.yaml"
+assessments_file: "SC5-03.assessments.yaml"
+quality_level: 1
+provenance: "ai-generated"
+generated_at: "2026-04-12T03:59:16Z"
+sync_checked: false
+engagement_hooks:
+    - Discuss green initiatives in Malaysia like local recycling programs
+    - Case study of successful green projects in schools or communities

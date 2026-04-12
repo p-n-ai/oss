@@ -1,0 +1,140 @@
+id: "SC5-01"
+official_ref: "Bab 1"
+name: "Mikroorganisma"
+name_en: "Microorganisms"
+subject_grade_id: "malaysia-kssm-sains-tingkatan-5"
+subject_id: "malaysia-kssm-sains"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "intermediate"
+content_standards:
+    - id: "1.1"
+      text: "Dunia mikroorganisma"
+      text_en: "World of microorganisms"
+    - id: "1.2"
+      text: "Mikroorganisma berfaedah"
+      text_en: "Beneficial microorganisms"
+    - id: "1.3"
+      text: "Pencegahan dan rawatan mikroorganisma berbahaya"
+      text_en: "Prevention and treatment of harmful microorganisms"
+learning_objectives:
+    - id: "1.1.1"
+      text: "Berkomunikasi mengenai mikroorganisma."
+      text_en: "Communicate about microorganisms."
+      bloom: "remember"
+      content_standard_id: "1.1"
+    - id: "1.1.2"
+      text: "Menjalankan eksperimen bagi menunjukkan kewujudan mikroorganisma."
+      text_en: "Conduct an experiment to show the existence of microorganisms."
+      bloom: "apply"
+      content_standard_id: "1.1"
+    - id: "1.1.3"
+      text: "Menjalankan eksperimen untuk mengkaji faktor yang mempengaruhi pertumbuhan mikroorganisma."
+      text_en: "Conduct an experiment to investigate factors affecting microorganism growth."
+      bloom: "apply"
+      content_standard_id: "1.1"
+    - id: "1.2.1"
+      text: "Mewajarkan aplikasi mikroorganisma berfaedah dalam kehidupan."
+      text_en: "Justify the application of beneficial microorganisms in life."
+      bloom: "evaluate"
+      content_standard_id: "1.2"
+    - id: "1.2.2"
+      text: "Menjana idea potensi kegunaan mikroorganisma dalam bioteknologi dan kelestarian alam sekitar."
+      text_en: "Generate ideas on the potential use of microorganisms in biotechnology and environmental sustainability."
+      bloom: "create"
+      content_standard_id: "1.2"
+    - id: "1.3.1"
+      text: "Menjelaskan konsep 'mencegah lebih baik daripada merawat' penyakit yang dibawa oleh mikroorganisma."
+      text_en: "Explain the concept of 'prevention is better than cure' for diseases carried by microorganisms."
+      bloom: "understand"
+      content_standard_id: "1.3"
+    - id: "1.3.2"
+      text: "Menerangkan teknik aseptik dalam pengawalan penyebaran mikroorganisma."
+      text_en: "Explain aseptic techniques in controlling the spread of microorganisms."
+      bloom: "understand"
+      content_standard_id: "1.3"
+    - id: "1.3.3"
+      text: "Menjalankan eksperimen mengkaji kesan antibiotik terhadap pertumbuhan bakteria."
+      text_en: "Conduct an experiment to investigate the effect of antibiotics on bacterial growth."
+      bloom: "apply"
+      content_standard_id: "1.3"
+    - id: "1.3.4"
+      text: "Berkomunikasi tentang kaedah rawatan penyakit berjangkit."
+      text_en: "Communicate about methods of treating infectious diseases."
+      bloom: "remember"
+      content_standard_id: "1.3"
+prerequisites:
+    required: []
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran saintifik mengenai mikroorganima."
+      text_en: "Recall scientific knowledge and skills regarding microorganisms."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran saintifik mengenai mikroorganima."
+      descriptor_en: "Recall scientific knowledge and skills regarding microorganisms."
+    - level: 2
+      id: "TP2"
+      text: "Memahami mikroorganisma dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand microorganisms and can explain the understanding."
+      descriptor: "Memahami mikroorganisma dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand microorganisms and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai mikroorganisma dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge about microorganisms and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai mikroorganisma dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge about microorganisms and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai mikroorganisma dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge about microorganisms in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai mikroorganisma dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge about microorganisms in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai mikroorganisma dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge about microorganisms in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai mikroorganisma dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge about microorganisms in the context of problem solving and make decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai mikroorganisma dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using scientific knowledge and skills about microorganisms in the context of problem solving and decision making or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai mikroorganisma dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using scientific knowledge and skills about microorganisms in the context of problem solving and decision making or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+teaching:
+    sequence:
+        - Introduction to microorganisms and their ubiquity (15 min)
+        - Hands-on experiment observing microorganisms (30 min)
+        - Discussion on beneficial applications in food and medicine (20 min)
+    common_misconceptions:
+        - misconception: Microorganisms are all harmful.
+          remediation: Highlight beneficial uses in food and medicine.
+        - misconception: Antibiotics work against all microorganisms.
+          remediation: Discuss specific targets of antibiotics - bacteria only, not viruses.
+theme: "PENYENGGARAAN DAN KESINAMBUNGAN HIDUP"
+cross_curriculum: []
+tier: "core"
+ai_teaching_notes: "SC5-01.teaching.md"
+examples_file: "SC5-01.examples.yaml"
+assessments_file: "SC5-01.assessments.yaml"
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2026-04-12T03:59:16Z"
+sync_checked: false
+engagement_hooks:
+    - Discuss the role of yeast in local bread-making.
+    - Explore fermentation processes in traditional foods.

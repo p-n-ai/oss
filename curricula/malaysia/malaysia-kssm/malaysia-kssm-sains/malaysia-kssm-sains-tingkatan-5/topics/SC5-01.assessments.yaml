@@ -1,0 +1,138 @@
+topic_id: "SC5-01"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 1.1.1 - Berkomunikasi mengenai mikroorganisma
+    - id: "Q1"
+      text: 'Apakah jenis mikroorganisma yang terlibat dalam proses penapaian untuk membuat yogurt?'
+      difficulty: "medium"
+      learning_objective: "1.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "B"
+        options:
+            A: "Virus"
+            B: "Bakteria"
+            C: "Protozoa"
+            D: "Alga"
+        working: |
+            Proses penapaian yogurt melibatkan bakteria seperti Lactobacillus bulgaricus dan Streptococcus thermophilus.
+        distractors:
+            - value: "A"
+              feedback: "Virus tidak terlibat dalam proses penapaian yogurt."
+            - value: "C"
+              feedback: "Protozoa bukanlah mikroorganisma yang digunakan dalam penapaian yogurt."
+            - value: "D"
+              feedback: "Alga tidak digunakan dalam proses penapaian yogurt."
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Jawapan yang betul ialah B: Bakteria."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang jenis mikroorganisma yang digunakan dalam produk tenusu."
+    # Learning Objective 1.1.2 - Menjalankan eksperimen bagi menunjukkan kewujudan mikroorganisma
+    - id: "Q2"
+      text: 'Jelaskan bagaimana anda boleh menjalankan eksperimen mudah untuk menunjukkan kewujudan mikroorganisma dalam udara.'
+      difficulty: "medium"
+      learning_objective: "1.1.2"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "..."
+        working: |
+            Salah satu cara ialah dengan meletakkan piring petri yang mengandungi agar di dalam bilik terbuka. Selepas beberapa hari, koloni mikroorganisma akan mula tumbuh di permukaan agar, menunjukkan bahawa mikroorganisma hadir di udara.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan penggunaan piring petri dan agar."
+        - marks: 2
+          criteria: "Menjelaskan pemerhatian pertumbuhan mikroorganisma selepas beberapa hari."
+      hints:
+        - level: 1
+          text: "Pertimbangkan penggunaan media yang boleh menampung pertumbuhan mikroorganisma."
+        - level: 2
+          text: "MISCONCEPTION ALERT: Mikroorganisma tidak dapat dilihat dengan mata kasar tanpa medium pertumbuhan."
+    # Learning Objective 1.1.3 - Menjalankan eksperimen untuk mengkaji faktor yang mempengaruhi pertumbuhan mikroorganisma
+    - id: "Q3"
+      text: 'Apakah faktor utama yang mempengaruhi pertumbuhan mikroorganisma dalam eksperimen makmal?'
+      difficulty: "medium"
+      learning_objective: "1.1.3"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "A"
+        options:
+            A: "Suhu"
+            B: "Warna cahaya"
+            C: "Jenis bunyi"
+            D: "Kepekatan oksigen"
+        working: |
+            Suhu adalah salah satu faktor utama yang mempengaruhi pertumbuhan mikroorganisma kerana ia boleh mempengaruhi aktiviti enzim dan kadar metabolisme organisma.
+        distractors:
+            - value: "B"
+              feedback: "Warna cahaya bukan faktor utama yang mempengaruhi pertumbuhan mikroorganisma."
+            - value: "C"
+              feedback: "Bunyi tidak mempengaruhi pertumbuhan mikroorganisma."
+            - value: "D"
+              feedback: "Walaupun oksigen penting, bukan semua mikroorganisma memerlukan oksigen untuk tumbuh."
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Jawapan yang betul ialah A: Suhu."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang faktor yang mempengaruhi aktiviti enzim dalam mikroorganisma."
+    # Learning Objective 1.2.1 - Mewajarkan aplikasi mikroorganisma berfaedah dalam kehidupan
+    - id: "Q4"
+      text: 'Terangkan bagaimana mikroorganisma digunakan dalam industri makanan dan minuman.'
+      difficulty: "medium"
+      learning_objective: "1.2.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "..."
+        working: |
+            Mikroorganisma seperti bakteria dan yis digunakan dalam penapaian untuk menghasilkan produk makanan seperti yogurt, keju, dan roti. Proses penapaian membantu dalam pengekalan makanan dan meningkatkan rasa serta tekstur produk.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan peranan bakteria dalam penapaian makanan."
+        - marks: 2
+          criteria: "Menjelaskan penggunaan yis dalam pembuatan roti dan minuman."
+        - marks: 1
+          criteria: "Menjelaskan manfaat penapaian dari segi pengekalan makanan."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang produk makanan yang melalui proses penapaian."
+        - level: 2
+          text: "MISCONCEPTION ALERT: Tidak semua mikroorganisma merosakkan makanan; ada yang digunakan untuk memperbaiki produk."
+    # Learning Objective 1.3.3 - Menjalankan eksperimen mengkaji kesan antibiotik terhadap pertumbuhan bakteria
+    - id: "Q5"
+      text: 'Bagaimana anda boleh menjalankan eksperimen untuk mengkaji kesan antibiotik terhadap pertumbuhan bakteria?'
+      difficulty: "medium"
+      learning_objective: "1.3.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "..."
+        working: |
+            Satu cara ialah dengan menggunakan kaedah cakera antibiotik. Bakteria disebarkan pada permukaan agar dalam piring petri, kemudian cakera antibiotik diletakkan di atasnya. Selepas inkubasi, kawasan tanpa pertumbuhan bakteria di sekitar cakera menunjukkan keberkesanan antibiotik.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan penggunaan cakera antibiotik dan penyebaran bakteria."
+        - marks: 2
+          criteria: "Menjelaskan pemerhatian zon inhibisi sebagai tanda keberkesanan antibiotik."
+        - marks: 1
+          criteria: "Menjelaskan proses inkubasi dan pemerhatian selepasnya."
+      hints:
+        - level: 1
+          text: "Pertimbangkan cara-cara untuk mengukur keberkesanan antibiotik."
+        - level: 2
+          text: "MISCONCEPTION ALERT: Zon tanpa pertumbuhan bakteria menunjukkan keberkesanan antibiotik."

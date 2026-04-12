@@ -1,0 +1,123 @@
+id: "SC5-07"
+official_ref: "Bab 7"
+name: "Cahaya dan Optik"
+name_en: "Light and Optics"
+subject_grade_id: "malaysia-kssm-sains-tingkatan-5"
+subject_id: "malaysia-kssm-sains"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "intermediate"
+theme: "TENAGA DAN KELESTARIAN HIDUP"
+content_standards:
+    - id: "7.1"
+      text: "Pembentukan imej oleh kanta"
+      text_en: "Image formation by lenses"
+    - id: "7.2"
+      text: "Peralatan optik"
+      text_en: "Optical instruments"
+learning_objectives:
+    - id: "7.1.1"
+      text: "Memerihalkan kanta cembung sebagai kanta penumpu dan kanta cekung sebagai kanta pencapah."
+      text_en: "Describe convex lens as converging lens and concave lens as diverging lens."
+      bloom: "understand"
+      content_standard_id: "7.1"
+    - id: "7.1.2"
+      text: "Menentukan panjang fokus bagi suatu kanta cembung menggunakan objek jauh."
+      text_en: "Determine focal length of a convex lens using a distant object."
+      bloom: "apply"
+      content_standard_id: "7.1"
+    - id: "7.1.3"
+      text: "Menentukan ciri imej melalui gambarajah sinar untuk imej yang dibentuk oleh kanta cembung dan kanta cekung."
+      text_en: "Determine image characteristics through ray diagrams for images formed by convex and concave lenses."
+      bloom: "apply"
+      content_standard_id: "7.1"
+    - id: "7.2.1"
+      text: "Memerihalkan pembentukan imej akhir oleh teleskop dan mikroskop."
+      text_en: "Describe the formation of final images by telescope and microscope."
+      bloom: "understand"
+      content_standard_id: "7.2"
+    - id: "7.2.2"
+      text: "Mereka bentuk dan membina teleskop ringkas."
+      text_en: "Design and build a simple telescope."
+      bloom: "create"
+      content_standard_id: "7.2"
+    - id: "7.2.3"
+      text: "Berkomunikasi tentang aplikasi kanta dalam peralatan optik."
+      text_en: "Communicate about the application of lenses in optical instruments."
+      bloom: "remember"
+      content_standard_id: "7.2"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran saintifik mengenai cahaya dan optik."
+      text_en: "Recall scientific knowledge and skills regarding light and optics."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran saintifik mengenai cahaya dan optik."
+      descriptor_en: "Recall scientific knowledge and skills regarding light and optics."
+    - level: 2
+      id: "TP2"
+      text: "Memahami cahaya dan optik dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand light and optics and can explain the understanding."
+      descriptor: "Memahami cahaya dan optik dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand light and optics and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai cahaya dan optik dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge about light and optics and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai cahaya dan optik dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge about light and optics and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai cahaya dan optik dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge about light and optics in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai cahaya dan optik dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge about light and optics in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai cahaya dan optik dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge about light and optics in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai cahaya dan optik dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge about light and optics in the context of problem solving and make decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai cahaya dan optik dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using scientific knowledge and skills about light and optics in the context of problem solving and decision making or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai cahaya dan optik dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using scientific knowledge and skills about light and optics in the context of problem solving and decision making or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+teaching:
+    sequence:
+        - 'Introduction to Lenses: Explain convex and concave lenses (20 min)'
+        - 'Focal Length Experiment: Guide students to find focal length of convex lens (25 min)'
+        - 'Ray Diagrams: Teach drawing ray diagrams for image prediction (30 min)'
+        - 'Optical Devices: Discuss lenses in telescopes and microscopes (25 min)'
+        - 'Telescope Construction: Design and build a simple telescope (30 min)'
+    common_misconceptions:
+        - misconception: Lenses always magnify images
+          remediation: Clarify that only convex lenses can magnify, and only under certain conditions
+        - misconception: All lenses are the same
+          remediation: Use diverse examples and experiments with both lens types
+prerequisites:
+    required: []
+quality_level: 1
+provenance: "ai-generated"
+generated_at: "2026-04-12T03:59:16Z"
+sync_checked: false
+cross_curriculum: []
+tier: "core"
+ai_teaching_notes: "SC5-07.teaching.md"
+examples_file: "SC5-07.examples.yaml"
+assessments_file: "SC5-07.assessments.yaml"
+engagement_hooks:
+    - Explore the history and impact of optical inventions like glasses and cameras
+    - Discuss local innovations or contributions to optical technology

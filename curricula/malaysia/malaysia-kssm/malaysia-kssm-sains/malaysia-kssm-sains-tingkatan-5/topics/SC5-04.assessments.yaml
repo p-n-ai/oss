@@ -1,0 +1,125 @@
+topic_id: "SC5-04"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 4.1.1
+    - id: "Q01"
+      text: 'Berikan satu contoh bagi tindak balas kimia yang berlaku dengan cepat dan satu contoh bagi tindak balas yang berlaku dengan perlahan dalam kehidupan harian.'
+      difficulty: "medium"
+      learning_objective: "4.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Contoh tindak balas cepat: letupan belon. Contoh tindak balas perlahan: pengaratan besi."
+        working: |
+            Tindak balas cepat berlaku dalam tempoh masa yang singkat, seperti letupan belon. Tindak balas perlahan berlaku dalam tempoh masa yang panjang, seperti pengaratan besi.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan satu contoh tindak balas cepat."
+        - marks: 1
+          criteria: "Menyatakan satu contoh tindak balas perlahan."
+        - marks: 1
+          criteria: "Penjelasan ringkas tentang tempoh masa bagi setiap tindak balas."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang tindak balas yang berlaku dalam kehidupan harian anda yang berlaku dengan cepat dan perlahan."
+        - level: 2
+          text: "Misalnya, fikirkan tentang letupan belon dan pengaratan besi."
+    # Learning Objective 4.1.2
+    - id: "Q02"
+      text: 'Apakah yang dimaksudkan dengan kadar tindak balas?'
+      difficulty: "medium"
+      learning_objective: "4.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: "Kadar tindak balas ialah perubahan kepekatan reaktan atau produk dalam satu unit masa."
+        working: |
+            Kadar tindak balas mengukur seberapa cepat reaktan bertukar menjadi produk dengan mengukur perubahan kepekatan dalam satu unit masa.
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Mentakrifkan kadar tindak balas dengan tepat."
+      hints:
+        - level: 1
+          text: "Kadar tindak balas melibatkan perubahan kepekatan reaktan atau produk."
+        - level: 2
+          text: "Ia diukur dalam satu unit masa."
+    # Learning Objective 4.1.3
+    - id: "Q03"
+      text: 'Sebuah eksperimen dilakukan untuk menentukan kadar tindak balas antara asid hidroklorik dan magnesium. Nyatakan cara untuk menentukan kadar tindak balas ini.'
+      difficulty: "medium"
+      learning_objective: "4.1.3"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Ukur isipadu gas yang dilepaskan atau perubahan massa dalam satu unit masa."
+        working: |
+            Kadar tindak balas boleh ditentukan dengan mengukur isipadu gas hidrogen yang dilepaskan setiap saat atau perubahan massa magnesium setiap saat.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan salah satu kaedah pengukuran (isipadu gas atau perubahan massa)."
+        - marks: 1
+          criteria: "Menjelaskan bahawa pengukuran dilakukan dalam satu unit masa."
+        - marks: 1
+          criteria: "Mengaitkan pengukuran dengan tindak balas yang berlaku."
+      hints:
+        - level: 1
+          text: "Pertimbangkan mengukur hasil tindak balas seperti gas yang dihasilkan."
+        - level: 2
+          text: "Fikirkan tentang perubahan yang boleh diukur secara langsung."
+    # Learning Objective 4.2.1
+    - id: "Q04"
+      text: 'Apakah faktor yang mempengaruhi kadar tindak balas bagi tindak balas antara asid dan logam? Pilih satu faktor dan jelaskan bagaimana ia mempengaruhi kadar tindak balas.'
+      difficulty: "medium"
+      learning_objective: "4.2.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "multiple_choice"
+        value: "B"
+        options:
+            A: "Tekanan"
+            B: "Suhu"
+            C: "Warna reaktan"
+            D: "Keadaan fizikal reaktan"
+        working: |
+            Suhu mempengaruhi kadar tindak balas kerana peningkatan suhu meningkatkan tenaga kinetik zarah, menyebabkan lebih banyak perlanggaran berjaya.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Memilih faktor yang betul (suhu)."
+        - marks: 3
+          criteria: "Menjelaskan bagaimana suhu mempengaruhi kadar tindak balas."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bagaimana perubahan keadaan fizikal boleh mempercepatkan tindak balas."
+        - level: 2
+          text: "Fikirkan tentang suhu dan bagaimana ia mempengaruhi pergerakan zarah."
+    # Learning Objective 4.3.1
+    - id: "Q05"
+      text: 'Bagaimanakah kadar tindak balas digunakan dalam industri bagi meningkatkan keberkesanan proses pengeluaran?'
+      difficulty: "medium"
+      learning_objective: "4.3.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Kadar tindak balas yang cepat meningkatkan keberkesanan dengan mempercepatkan pengeluaran dan mengurangkan kos tenaga."
+        working: |
+            Dalam industri, meningkatkan kadar tindak balas boleh mempercepatkan proses pengeluaran, mengurangkan masa dan kos tenaga yang diperlukan, dan meningkatkan hasil produk.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan bahawa kadar tindak balas yang cepat meningkatkan keberkesanan."
+        - marks: 2
+          criteria: "Memberikan penjelasan bagaimana ia mengurangkan kos dan mempercepatkan pengeluaran."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bagaimana mempercepatkan tindak balas dapat meningkatkan pengeluaran."
+        - level: 2
+          text: "Fikirkan tentang kos dan masa yang diperlukan dalam proses pengeluaran."

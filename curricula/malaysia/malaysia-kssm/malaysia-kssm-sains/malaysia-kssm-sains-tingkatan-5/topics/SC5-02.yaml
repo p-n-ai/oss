@@ -1,0 +1,160 @@
+id: "SC5-02"
+official_ref: "Bab 2"
+name: "Nutrisi dan Teknologi Makanan"
+name_en: "Nutrition and Food Technology"
+subject_grade_id: "malaysia-kssm-sains-tingkatan-5"
+subject_id: "malaysia-kssm-sains"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "intermediate"
+theme: "PENYENGGARAAN DAN KESINAMBUNGAN HIDUP"
+content_standards:
+    - id: "2.1"
+      text: "Gizi seimbang dan nilai kalori"
+      text_en: "Balanced nutrition and calorie value"
+    - id: "2.2"
+      text: "Keperluan nutrien oleh tumbuhan"
+      text_en: "Nutrient requirements by plants"
+    - id: "2.3"
+      text: "Kitar Nitrogen"
+      text_en: "Nitrogen Cycle"
+    - id: "2.4"
+      text: "Teknologi pengeluaran makanan"
+      text_en: "Food production technology"
+    - id: "2.5"
+      text: "Teknologi pemprosesan makanan"
+      text_en: "Food processing technology"
+    - id: "2.6"
+      text: "Makanan dan suplemen kesihatan"
+      text_en: "Food and health supplements"
+learning_objectives:
+    - id: "2.1.1"
+      text: "Memerihalkan gizi seimbang."
+      text_en: "Describe balanced nutrition."
+      bloom: "understand"
+      content_standard_id: "2.1"
+    - id: "2.1.2"
+      text: "Menjalankan eksperimen untuk menganggarkan nilai kalori dalam sampel makanan."
+      text_en: "Conduct an experiment to estimate calorie value in food samples."
+      bloom: "apply"
+      content_standard_id: "2.1"
+    - id: "2.1.3"
+      text: "Mewajarkan kesan pengambilan jumlah kalori yang tidak menepati keperluan individu."
+      text_en: "Justify the effect of calorie intake not meeting individual needs."
+      bloom: "evaluate"
+      content_standard_id: "2.1"
+    - id: "2.2.1"
+      text: "Menjelaskan dengan contoh fungsi makronutrien dan mikronutrien kepada tumbuhan."
+      text_en: "Explain with examples the function of macronutrients and micronutrients to plants."
+      bloom: "understand"
+      content_standard_id: "2.2"
+    - id: "2.2.2"
+      text: "Menjalankan eksperimen untuk mengkaji kesan kekurangan makronutrien kepada tumbuhan."
+      text_en: "Conduct an experiment to investigate the effect of macronutrient deficiency on plants."
+      bloom: "apply"
+      content_standard_id: "2.2"
+    - id: "2.3.1"
+      text: "Berkomunikasi mengenai Kitar Nitrogen dan kepentingannya."
+      text_en: "Communicate about the Nitrogen Cycle and its importance."
+      bloom: "remember"
+      content_standard_id: "2.3"
+    - id: "2.4.1"
+      text: "Berkomunikasi mengenai cara meningkatkan sumber, kualiti makanan dan kuantiti pengeluaran makanan."
+      text_en: "Communicate about ways to increase food sources, quality, and quantity of food production."
+      bloom: "remember"
+      content_standard_id: "2.4"
+    - id: "2.4.2"
+      text: "Menilai penggunaan racun serangga dan kawalan biologi dalam meningkatkan kualiti dan kuantiti pengeluaran makanan."
+      text_en: "Evaluate the use of insecticides and biological control in increasing food quality and quantity."
+      bloom: "evaluate"
+      content_standard_id: "2.4"
+    - id: "2.5.1"
+      text: "Berkomunikasi mengenai teknologi pemprosesan makanan."
+      text_en: "Communicate about food processing technology."
+      bloom: "remember"
+      content_standard_id: "2.5"
+    - id: "2.6.1"
+      text: "Berkomunikasi mengenai isu berkaitan makanan kesihatan dan suplemen kesihatan."
+      text_en: "Communicate about issues related to health food and health supplements."
+      bloom: "remember"
+      content_standard_id: "2.6"
+    - id: "2.6.2"
+      text: "Berkomunikasi mengenai isu berkaitan Status Halal makanan."
+      text_en: "Communicate about issues related to Halal status of food."
+      bloom: "remember"
+      content_standard_id: "2.6"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran saintifik mengenai nutrisi dan teknologi makanan."
+      text_en: "Recall scientific knowledge and skills regarding nutrition and food technology."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran saintifik mengenai nutrisi dan teknologi makanan."
+      descriptor_en: "Recall scientific knowledge and skills regarding nutrition and food technology."
+    - level: 2
+      id: "TP2"
+      text: "Memahami nutrisi dan teknologi makanan dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand nutrition and food technology and can explain the understanding."
+      descriptor: "Memahami nutrisi dan teknologi makanan dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand nutrition and food technology and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai nutrisi dan teknologi makanan dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge about nutrition and food technology and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai nutrisi dan teknologi makanan dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge about nutrition and food technology and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai nutrisi dan teknologi makanan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge about nutrition and food technology in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai nutrisi dan teknologi makanan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge about nutrition and food technology in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai nutrisi dan teknologi makanan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge about nutrition and food technology in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai nutrisi dan teknologi makanan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge about nutrition and food technology in the context of problem solving and make decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai nutrisi dan teknologi makanan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using scientific knowledge and skills about nutrition and food technology in the context of problem solving and decision making or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai nutrisi dan teknologi makanan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using scientific knowledge and skills about nutrition and food technology in the context of problem solving and decision making or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - evaluate
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+teaching:
+    sequence:
+        - 'Step 1: Introduce balanced diet and its importance (45 min)'
+        - 'Step 2: Conduct caloric measurement experiments (50 min)'
+        - 'Step 3: Discuss macro and micronutrient functions (40 min)'
+        - 'Step 4: Explain nitrogen cycle and its importance (30 min)'
+        - 'Step 5: Discuss food processing technology (35 min)'
+    common_misconceptions:
+        - misconception: All fats are bad
+          remediation: Explain different types of fats and their roles
+        - misconception: Plants only need water and sunlight
+          remediation: Highlight nutrient uptake and soil health
+prerequisites:
+    required: []
+cross_curriculum: []
+tier: "core"
+ai_teaching_notes: "SC5-02.teaching.md"
+examples_file: "SC5-02.examples.yaml"
+assessments_file: "SC5-02.assessments.yaml"
+quality_level: 1
+provenance: "ai-generated"
+generated_at: "2026-04-12T03:59:16Z"
+sync_checked: false
+engagement_hooks:
+    - Discuss local dietary habits and relate them to balanced nutrition
+    - Use case studies from Malaysian agriculture to illustrate nutrient importance

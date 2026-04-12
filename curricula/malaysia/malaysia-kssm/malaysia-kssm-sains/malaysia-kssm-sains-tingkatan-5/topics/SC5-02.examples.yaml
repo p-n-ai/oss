@@ -1,0 +1,43 @@
+topic_id: "SC5-02"
+provenance: "ai-generated"
+description: "Worked examples for Nutrisi dan Teknologi Makanan"
+worked_examples:
+    - id: "WE-01"
+      topic: "Memerihalkan gizi seimbang"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "2.1.1"
+      real_world_analogy: "Membandingkan gizi seimbang dengan perancangan jadual harian yang seimbang antara kerja, rehat, dan bersosial."
+      misconception_alert: "Ramai pelajar menganggap gizi seimbang hanya tentang kalori, tetapi ia juga melibatkan pelbagai nutrien seperti vitamin dan mineral."
+      scenario: "Ali ingin tahu bagaimana membentuk diet seimbang yang memenuhi keperluan hariannya. Bagaimanakah dia boleh memerihalkan gizi seimbang?"
+      working: |
+        Step 1: Kenalpasti keperluan kalori harian berdasarkan umur, jantina, dan tahap aktiviti fizikal.
+        Step 2: Bahagikan kepada kumpulan makanan utama: karbohidrat, protein, lemak, vitamin, dan mineral.
+        Step 3: Pastikan setiap kumpulan makanan diambil dalam jumlah yang sesuai untuk memenuhi keperluan harian.
+    - id: "WE-02"
+      topic: "Menjalankan eksperimen untuk menganggarkan nilai kalori"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "2.1.2"
+      real_world_analogy: "Mengukur kalori dalam makanan adalah seperti mengukur bahan api yang diperlukan untuk menjalankan kereta."
+      misconception_alert: "Pelajar sering keliru bahawa semua makanan mempunyai jumlah kalori yang sama, tetapi setiap jenis makanan mempunyai kandungan kalori yang berbeza."
+      scenario: "Eksperimen dilakukan untuk menganggarkan nilai kalori dalam sebiji biskut. Bagaimanakah eksperimen ini dijalankan?"
+      working: |
+        Step 1: Timbang biskut untuk mendapatkan beratnya.
+        Step 2: Bakar biskut di bawah bekas air dan ukur kenaikan suhu air.
+        Step 3: Gunakan formula $Q = mc\Delta T$ untuk mengira kalori berdasarkan perubahan suhu air.
+    - id: "WE-03"
+      topic: "Menilai kesan pengambilan jumlah kalori yang tidak menepati keperluan individu"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "2.1.3"
+      real_world_analogy: "Mengambil lebih atau kurang kalori adalah seperti mengisi tangki minyak kereta yang terlalu penuh atau terlalu kosong, menyebabkan kereta tidak berfungsi dengan baik."
+      misconception_alert: "Sesetengah pelajar percaya bahawa lebih banyak kalori adalah lebih baik untuk tenaga, tanpa menyedari risiko obesiti dan masalah kesihatan lain."
+      scenario: "Apa yang berlaku jika seseorang mengambil kalori lebih daripada keperluan harian mereka secara konsisten?"
+      working: |-
+        Step 1: Fahami keperluan kalori harian individu berdasarkan gaya hidup.
+        Step 2: Jelaskan kesan pengambilan kalori berlebihan seperti peningkatan berat badan dan risiko penyakit seperti diabetes.
+        Step 3: Sebaliknya, pengambilan kalori yang terlalu rendah boleh menyebabkan kekurangan tenaga dan masalah kesihatan lain.

@@ -1,0 +1,121 @@
+id: "SC5-06"
+official_ref: "Bab 6"
+name: "Elektrokimia"
+name_en: "Electrochemistry"
+subject_grade_id: "malaysia-kssm-sains-tingkatan-5"
+subject_id: "malaysia-kssm-sains"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "intermediate"
+content_standards:
+    - id: "6.1"
+      text: "Sel Elektrolitik"
+      text_en: "Electrolytic Cell"
+    - id: "6.2"
+      text: "Sel kimia"
+      text_en: "Chemical Cell"
+learning_objectives:
+    - id: "6.1.1"
+      text: "Memahami elektrolisis."
+      text_en: "Understand electrolysis."
+      bloom: "understand"
+      content_standard_id: "6.1"
+    - id: "6.1.2"
+      text: "Menjalankan eksperimen untuk mengkaji proses elektrolisis bagi sebatian ion dalam pelbagai keadaan."
+      text_en: "Conduct an experiment to investigate the electrolysis process for ionic compounds in various states."
+      bloom: "apply"
+      content_standard_id: "6.1"
+    - id: "6.1.3"
+      text: "Menjalankan eksperimen bagi mengkaji faktor yang mempengaruhi hasil elektrolisis."
+      text_en: "Conduct an experiment to investigate factors affecting electrolysis products."
+      bloom: "apply"
+      content_standard_id: "6.1"
+    - id: "6.1.4"
+      text: "Berkomunikasi mengenai aplikasi elektrolisis dalam industri."
+      text_en: "Communicate about the application of electrolysis in industry."
+      bloom: "remember"
+      content_standard_id: "6.1"
+    - id: "6.2.1"
+      text: "Menerangkan perubahan tenaga dalam sel kimia ringkas."
+      text_en: "Explain energy changes in a simple chemical cell."
+      bloom: "understand"
+      content_standard_id: "6.2"
+    - id: "6.2.2"
+      text: "Menjana idea tentang aplikasi konsep sel kimia dalam menghasilkan tenaga elektrik daripada pelbagai sumber."
+      text_en: "Generate ideas about the application of chemical cell concepts in generating electrical energy from various sources."
+      bloom: "create"
+      content_standard_id: "6.2"
+prerequisites:
+    required: []
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran saintifik mengenai elektrokimia."
+      text_en: "Recall scientific knowledge and skills regarding electrochemistry."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran saintifik mengenai elektrokimia."
+      descriptor_en: "Recall scientific knowledge and skills regarding electrochemistry."
+    - level: 2
+      id: "TP2"
+      text: "Memahami elektrokimia dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand electrochemistry and can explain the understanding."
+      descriptor: "Memahami elektrokimia dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand electrochemistry and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai elektrokimia dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge about electrochemistry and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai elektrokimia dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge about electrochemistry and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai elektrokimia dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge about electrochemistry in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai elektrokimia dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge about electrochemistry in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai elektrokimia dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge about electrochemistry in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai elektrokimia dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge about electrochemistry in the context of problem solving and make decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai elektrokimia dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using scientific knowledge and skills about electrochemistry in the context of problem solving and decision making or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai elektrokimia dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using scientific knowledge and skills about electrochemistry in the context of problem solving and decision making or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+teaching:
+    sequence:
+        - Memahami konsep elektrolisis dan aplikasinya (15 min)
+        - Menjalankan eksperimen elektrolisis dengan larutan natrium klorida (30 min)
+        - Mengkaji faktor yang mempengaruhi elektrolisis melalui eksperimen (20 min)
+    common_misconceptions:
+        - misconception: Semua elektrolit bertindak sama dalam elektrolisis
+          remediation: Gunakan simulasi untuk menunjukkan perbezaan antara elektrolit kuat dan lemah
+        - misconception: Elektrolisis menghasilkan produk yang sama di semua elektrod
+          remediation: Ulang kaji peranan anod dan katod dalam elektrolisis
+cross_curriculum: []
+tier: "core"
+ai_teaching_notes: "SC5-06.teaching.md"
+examples_file: "SC5-06.examples.yaml"
+assessments_file: "SC5-06.assessments.yaml"
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2026-04-12T03:59:16Z"
+sync_checked: false
+theme: "PENEROKAAN UNSUR DALAM ALAM"
+engagement_hooks:
+    - Kaitkan elektrolisis dengan proses penyaduran logam dalam industri tempatan
+    - Diskusikan penggunaan elektrolisis dalam pembuatan klorin

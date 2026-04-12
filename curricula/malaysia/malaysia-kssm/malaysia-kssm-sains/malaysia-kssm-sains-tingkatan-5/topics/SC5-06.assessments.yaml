@@ -1,0 +1,140 @@
+topic_id: "SC5-06"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 6.1.1 (understand): Memahami elektrolisis
+    - id: "Q01"
+      text: 'Dalam sel elektrolitik, apakah fungsi elektrolit?'
+      difficulty: "medium"
+      learning_objective: "6.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "A"
+        working: |
+            Elektrolit ialah bahan yang mengalirkan arus elektrik dalam bentuk ion. Ia membantu dalam pemisahan ion untuk menghasilkan arus elektrik.
+        options:
+            A: "Mengalirkan arus elektrik dalam bentuk ion"
+            B: "Menghasilkan tenaga dalam bentuk haba"
+            C: "Mengalirkan arus elektrik dalam bentuk elektron"
+            D: "Menyimpan tenaga elektrik"
+        distractors:
+            - value: "B"
+              feedback: "Fungsi elektrolit bukan untuk menghasilkan tenaga haba."
+            - value: "C"
+              feedback: "Ion, bukan elektron, yang mengalir dalam elektrolit."
+            - value: "D"
+              feedback: "Elektrolit tidak menyimpan tenaga elektrik tetapi membolehkan arus mengalir."
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Memilih jawapan yang betul."
+        - marks: 1
+          criteria: "Menyatakan fungsi elektrolit dengan betul."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang bagaimana arus elektrik dialirkan dalam cecair."
+    # Learning Objective 6.1.2 (apply): Menjalankan eksperimen untuk mengkaji proses elektrolisis
+    - id: "Q02"
+      text: 'Apakah yang akan berlaku pada elektrod katod apabila elektrolisis larutan natrium klorida dijalankan?'
+      difficulty: "medium"
+      learning_objective: "6.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Pengurangan ion natrium berlaku menghasilkan natrium logam."
+        working: |
+            Semasa elektrolisis, ion natrium akan menerima elektron di katod, menyebabkan pengurangan dan pembentukan natrium logam.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan bahawa pengurangan berlaku di katod."
+        - marks: 1
+          criteria: "Mengenalpasti ion yang terlibat."
+        - marks: 1
+          criteria: "Menyebut hasil akhir iaitu pembentukan natrium logam."
+      hints:
+        - level: 1
+          text: "Ingat bahawa katod ialah tempat pengurangan berlaku."
+        - level: 2
+          text: "Fokus pada ion natrium dalam larutan."
+    # Learning Objective 6.1.3 (apply): Menjalankan eksperimen bagi mengkaji faktor yang mempengaruhi hasil elektrolisis
+    - id: "Q03"
+      text: 'Bagaimana kepekatan elektrolit mempengaruhi hasil elektrolisis?'
+      difficulty: "medium"
+      learning_objective: "6.1.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Kepekatan elektrolit yang lebih tinggi meningkatkan kadar pemisahan ion, meningkatkan hasil elektrolisis."
+        working: |
+            Peningkatan kepekatan elektrolit meningkatkan ketersediaan ion untuk bertindak balas, yang seterusnya meningkatkan kadar elektrolisis dan hasil akhir.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan bahawa kepekatan lebih tinggi meningkatkan hasil."
+        - marks: 1
+          criteria: "Mengaitkan kepekatan dengan kadar pemisahan ion."
+        - marks: 1
+          criteria: "Membuat kesimpulan yang logik tentang kesan kepekatan."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang bilangan ion yang tersedia dalam elektrolit."
+        - level: 2
+          text: "Pertimbangkan bagaimana ini mempengaruhi kadar tindak balas."
+    # Learning Objective 6.1.4 (remember): Berkomunikasi mengenai aplikasi elektrolisis dalam industri
+    - id: "Q04"
+      text: 'Apakah aplikasi utama elektrolisis dalam industri?'
+      difficulty: "medium"
+      learning_objective: "6.1.4"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "B"
+        working: |
+            Elektrolisis digunakan untuk penyaduran logam, yang melibatkan pemendapan logam pada objek untuk meningkatkan rintangan kakisan.
+        options:
+            A: "Penghasilan tenaga elektrik"
+            B: "Penyaduran logam"
+            C: "Penjanaan haba"
+            D: "Penyimpanan tenaga"
+        distractors:
+            - value: "A"
+              feedback: "Elektrolisis bukan kaedah utama penghasilan tenaga elektrik."
+            - value: "C"
+              feedback: "Penjanaan haba bukan aplikasi utama elektrolisis dalam industri."
+            - value: "D"
+              feedback: "Penyimpanan tenaga lebih berkaitan dengan bateri, bukan elektrolisis."
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Memilih jawapan yang betul."
+        - marks: 1
+          criteria: "Menyatakan aplikasi elektrolisis dalam industri dengan betul."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang proses yang memerlukan logam disadur pada permukaan lain."
+    # Learning Objective 6.2.1 (understand): Menerangkan perubahan tenaga dalam sel kimia ringkas
+    - id: "Q05"
+      text: 'Dalam sel kimia, apakah yang berlaku kepada tenaga apabila tindak balas kimia berlaku?'
+      difficulty: "medium"
+      learning_objective: "6.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: "Tenaga kimia ditukar kepada tenaga elektrik."
+        working: |
+            Tindak balas kimia dalam sel menyebabkan perubahan tenaga dari bentuk kimia kepada bentuk elektrik, yang boleh digunakan untuk menjalankan peranti elektrik.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan perubahan bentuk tenaga dengan betul."
+        - marks: 1
+          criteria: "Mengaitkan perubahan tenaga dengan tindak balas kimia dalam sel."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang jenis tenaga yang dihasilkan dalam bateri."
