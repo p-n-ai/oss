@@ -1,0 +1,130 @@
+id: "SJ1-04"
+official_ref: "Bab 4"
+name: "Mengenali Tamadun"
+name_en: "Recognizing Civilization"
+subject_grade_id: "malaysia-kssm-sejarah-tingkatan-1"
+subject_id: "malaysia-kssm-sejarah"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+content_standards:
+    - id: "4.1"
+      text: "Tamadun Awal Dunia dan Sumbangannya"
+      text_en: "Early World Civilizations and Their Contributions"
+learning_objectives:
+    - id: "4.1.1"
+      text: "Menyatakan maksud tamadun mengikut bahasa Yunani, bahasa Inggeris dan bahasa Arab."
+      text_en: "Stating the meaning of civilization according to Greek, English and Arabic languages."
+      bloom: "remember"
+      content_standard_id: "4.1"
+    - id: "4.1.2"
+      text: "Menerangkan konsep tamadun mengikut Barat dan Islam."
+      text_en: "Explaining the concept of civilization according to the West and Islam."
+      bloom: "understand"
+      content_standard_id: "4.1"
+    - id: "4.1.6"
+      text: "Menerangkan kepentingan kepimpinan dalam pembinaan sesuatu tamadun."
+      text_en: "Explaining the importance of leadership in building a civilization."
+      bloom: "understand"
+      content_standard_id: "4.1"
+      is_citizenship_elements: true
+    - id: "4.1.7"
+      text: "Menerangkan nilai yang boleh dipelajari dari sumbangan tamadun awal"
+      text_en: "Explaining values that can be learned from early civilization contributions"
+      bloom: "understand"
+      content_standard_id: "4.1"
+      is_citizenship_elements: true
+prerequisites:
+    required:
+        - "SJ1-03"
+    recommended: []
+quality_level: 1
+provenance: "ai-generated"
+generated_at: "2026-04-12T05:24:46Z"
+theme: "Sejarah Kita dan Dunia"
+topic_focus:
+    - "Tamadun Awal Dunia dan sumbangannya"
+topic_empathy:
+    - "Semangat kekitaan dalam zaman globalisasi"
+    - "Berilmu dan berketerampilan"
+    - "Keterlibatan diri dalam pembangunan negara"
+    - "Keterikatan emosi kepada negara"
+historical_thinking_skills:
+    - "interpretasi"
+    - "rasionalisasi"
+citizenship_elements:
+    - id: "K4.1.6"
+      text: "Menerangkan kepentingan kepimpinan dalam pembinaan sesuatu tamadun."
+      text_en: "Explaining the importance of leadership in building a civilization."
+      content_standard_id: "4.1"
+    - id: "K4.1.7"
+      text: "Menerangkan nilai yang boleh dipelajari dari sumbangan tamadun awal"
+      text_en: "Explaining values that can be learned from early civilization contributions"
+      content_standard_id: "4.1"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengetahui tamadun awal dunia."
+      text_en: "Knowing early world civilizations."
+      descriptor: "Mengetahui perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Knowing basic matters based on learned history knowledge and values."
+    - level: 2
+      id: "TP2"
+      text: "Memahami tamadun awal dunia."
+      text_en: "Understanding early world civilizations."
+      descriptor: "Memahami perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Understanding basic matters based on learned history knowledge and values."
+    - level: 3
+      id: "TP3"
+      text: "Menerangkan dengan contoh tentang tamadun awal dunia."
+      text_en: "Explaining with examples about early world civilizations."
+      descriptor: "Menggunakan perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Using basic matters based on learned history knowledge and values."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis maklumat yang berkaitan dengan tamadun awal dunia."
+      text_en: "Analyzing information related to early world civilizations."
+      descriptor: "Menganalisis pengetahuan dan kemahiran berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Analyzing knowledge and skills based on learned history knowledge and values."
+    - level: 5
+      id: "TP5"
+      text: "Membuat penilaian tamadun awal dunia."
+      text_en: "Making assessments on early world civilizations."
+      descriptor: "Membuat penilaian berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Making assessments based on learned history knowledge and values."
+    - level: 6
+      id: "TP6"
+      text: "Melahirkan idea yang berasas mengenai tamadun awal dunia."
+      text_en: "Generating rational ideas about early world civilizations."
+      descriptor: "Melahirkan idea berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Generating ideas based on learned history knowledge and values."
+teaching:
+    sequence:
+        - 'Step 1: Discuss the meaning of civilization in Greek, English, and Arabic (20 min)'
+        - 'Step 2: Explain the concept of civilization from Western and Islamic perspectives using a Venn diagram (25 min)'
+        - 'Step 3: Discuss the importance of leadership in the development of a civilization with case studies (20 min)'
+        - 'Step 4: Group activity to analyze values from early civilizations like India and China (25 min)'
+    common_misconceptions:
+        - misconception: All civilizations are the same
+          remediation: Compare various civilizations and highlight their unique features
+        - misconception: Leadership is not important if resources are abundant
+          remediation: Provide examples where good leadership led to the success of civilizations
+bloom_levels:
+    - "remember"
+    - "understand"
+mastery:
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+tier: "core"
+sync_checked: true
+ai_teaching_notes: "SJ1-04.teaching.md"
+assessments_file: "SJ1-04.assessments.yaml"
+engagement_hooks:
+    - Use local historical stories like the Malacca Sultanate to connect with students
+    - Ask students how modern cities reflect ancient civilizations
+examples_file: SJ1-04.examples.yaml

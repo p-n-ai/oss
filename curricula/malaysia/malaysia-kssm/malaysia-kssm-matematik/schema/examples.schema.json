@@ -12,53 +12,64 @@
     },
     "provenance": {
       "type": "string",
-      "enum": ["human", "ai-assisted", "ai-generated", "ai-observed"]
+      "enum": ["human", "ai-assisted", "ai-generated", "ai-observed"],
+      "description": "How this content was created: human, ai-assisted, ai-generated, or ai-observed"
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "description": "Brief overview of what these worked examples cover"
     },
     "worked_examples": {
       "type": "array",
       "minItems": 1,
+      "description": "List of worked examples with step-by-step solutions",
       "items": {
         "type": "object",
         "required": ["id", "topic", "difficulty", "misconception_alert", "scenario", "working"],
         "properties": {
           "id": {
             "type": "string",
-            "pattern": "^WE-[0-9]+$"
+            "pattern": "^WE-[0-9]+$",
+            "description": "Worked example ID in WE-nn format (e.g., WE-01, WE-02)"
           },
           "topic": {
-            "type": "string"
+            "type": "string",
+            "description": "Specific sub-topic or concept this example demonstrates"
           },
           "difficulty": {
             "type": "string",
-            "enum": ["easy", "medium", "hard"]
+            "enum": ["easy", "medium", "hard"],
+            "description": "Difficulty level of this worked example"
           },
           "tp_level": {
             "type": "integer",
             "minimum": 1,
-            "maximum": 6
+            "maximum": 6,
+            "description": "Tahap Penguasaan level (1-6) this example targets"
           },
           "kbat": {
-            "type": "boolean"
+            "type": "boolean",
+            "description": "True if this example involves Higher Order Thinking Skills (KBAT)"
           },
           "learning_objective": {
-            "type": "string"
+            "type": "string",
+            "description": "Learning objective ID this example helps achieve (e.g., LO01, 1.1.1)"
           },
           "real_world_analogy": {
-            "type": "string"
+            "type": "string",
+            "description": "A relatable real-world analogy to help students connect the concept to everyday life"
           },
           "misconception_alert": {
-            "type": "string"
+            "type": "string",
+            "description": "Common misconception this example specifically addresses or warns about"
           },
           "scenario": {
             "type": "string",
-            "description": "The scenario or question text"
+            "description": "The problem scenario or question text presented to the student"
           },
           "working": {
             "type": "string",
-            "description": "Step-by-step working and solution"
+            "description": "Complete step-by-step working and solution, supports LaTeX via $...$"
           }
         },
         "additionalProperties": false

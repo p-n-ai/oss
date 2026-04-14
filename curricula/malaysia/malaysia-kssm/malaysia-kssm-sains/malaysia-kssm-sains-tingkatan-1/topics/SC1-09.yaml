@@ -1,0 +1,197 @@
+id: SC1-09
+official_ref: "Bab 9"
+name: "Bumi"
+name_en: "Earth"
+subject_grade_id: malaysia-kssm-sains-tingkatan-1
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+learning_objectives:
+    - id: 9.1.1
+      text: "berkomunikasi mengenai sistem Bumi."
+      text_en: "Communicate about the Earth system."
+      bloom: understand
+      content_standard_id: "9.1"
+    - id: 9.1.2
+      text: "menjelaskan perbezaan antara lapisan bumi berdasarkan komposisi dan sifat fizik."
+      text_en: "Explain the differences between Earth layers based on composition and physical properties."
+      bloom: understand
+      content_standard_id: "9.1"
+    - id: 9.1.3
+      text: "menyedari bahawa keadaan fizik yang sesuai menampung kehidupan hanya wujud di Bumi."
+      text_en: "Realize that suitable physical conditions to support life only exist on Earth."
+      bloom: evaluate
+      content_standard_id: "9.1"
+    - id: 9.2.1
+      text: "menerangkan jenis dan ciri batuan."
+      text_en: "Explain types and characteristics of rocks."
+      bloom: understand
+      content_standard_id: "9.2"
+    - id: 9.2.2
+      text: "berkomunikasi bagi membezakan proses pembentukan batuan."
+      text_en: "Communicate to differentiate rock formation processes."
+      bloom: analyze
+      content_standard_id: "9.2"
+    - id: 9.3.1
+      text: "berkomunikasi mengenai proses eksogen dan endogen."
+      text_en: "Communicate about exogenous and endogenous processes."
+      bloom: understand
+      content_standard_id: "9.3"
+    - id: 9.4.1
+      text: "berkomunikasi mengenai geobencana."
+      text_en: "Communicate about geological disasters."
+      bloom: understand
+      content_standard_id: "9.4"
+    - id: 9.4.2
+      text: "menjana idea bagaimana sains dan teknologi digunakan untuk menghadapi geobencana."
+      text_en: "Generate ideas on how science and technology are used to face geological disasters."
+      bloom: create
+      content_standard_id: "9.4"
+    - id: 9.4.3
+      text: "menyedari bahawa bencana alam memberi impak terhadap kehidupan alam sekitar"
+      text_en: "Realize that natural disasters have an impact on the environment and life"
+      bloom: evaluate
+      content_standard_id: "9.4"
+    - id: 9.5.1
+      text: "berkomunikasi mengenai skala masa geologi."
+      text_en: "Communicate about geological time scale."
+      bloom: understand
+      content_standard_id: "9.5"
+    - id: 9.5.2
+      text: "menerangkan kaedah penentuan usia bumi."
+      text_en: "Explain methods of determining the age of the Earth."
+      bloom: understand
+      content_standard_id: "9.5"
+    - id: 9.5.3
+      text: "berkomunikasi mengenai fosil."
+      text_en: "Communicate about fossils."
+      bloom: understand
+      content_standard_id: "9.5"
+    - id: 9.5.4
+      text: "menaakul kepentingan fosil kepada perkembangan sains kini."
+      text_en: "Reason the importance of fossils to the development of modern science."
+      bloom: analyze
+      content_standard_id: "9.5"
+    - id: 9.6.1
+      text: "menerangkan mengenai air permukaan dan risikonya."
+      text_en: "Explain about surface water and its risks."
+      bloom: understand
+      content_standard_id: "9.6"
+    - id: 9.6.2
+      text: "menerangkan air bawah tanah dari segi kepentingan dan risikonya."
+      text_en: "Explain groundwater in terms of importance and risks."
+      bloom: understand
+      content_standard_id: "9.6"
+    - id: 9.6.3
+      text: "berkomunikasi mengenai mineral ekonomi."
+      text_en: "Communicate about economic minerals."
+      bloom: understand
+      content_standard_id: "9.6"
+    - id: 9.6.4
+      text: "menerangkan pembentukkan petroleum dan arang batu."
+      text_en: "Explain the formation of petroleum and coal."
+      bloom: understand
+      content_standard_id: "9.6"
+    - id: 9.6.5
+      text: "berkomunikasi mengenai hidroterma."
+      text_en: "Communicate about hydrothermal."
+      bloom: understand
+      content_standard_id: "9.6"
+    - id: 9.6.6
+      text: "menyelesaikan masalah kesan buruk daripada aktiviti manusia yang tidak dirancang dengan baik kepada semua kehidupan dii Bumi."
+      text_en: "Solve problems of bad effects from human activities that are not well planned to all life on Earth."
+      bloom: apply
+      content_standard_id: "9.6"
+content_standards:
+    - id: "9.1"
+      text: Sistem dan struktur Bumi
+      text_en: Earth system and structure
+    - id: "9.2"
+      text: Bahan Bumi
+      text_en: Earth materials
+    - id: "9.3"
+      text: Proses Utama Bumi
+      text_en: Main Earth processes
+    - id: "9.4"
+      text: Fenomena geobencana
+      text_en: Geo-disaster phenomena
+    - id: "9.5"
+      text: Usia Bumi
+      text_en: Age of Earth
+    - id: "9.6"
+      text: Sumber Bumi & Geologi Gunaan
+      text_en: Earth Resources & Applied Geology
+performance_standards:
+    - level: 1
+      id: "TP1-SC1-09"
+      text: Mengingat kembali pengetahuan dan kemahiran sains mengenai struktur bumi/geobencana/sumber Bumi.
+      text_en: Recall knowledge and science skills regarding earth structure/geo-disasters/Earth resources.
+      descriptor: Remembering
+      descriptor_en: Remembering
+    - level: 2
+      id: "TP2-SC1-09"
+      text: Memahami struktur bumi/geobencana/sumber Bumi serta dapat menjelaskan kefahaman tersebut.
+      text_en: Understand earth structure/geo-disasters/Earth resources and can explain the understanding thereof.
+      descriptor: Understanding
+      descriptor_en: Understanding
+    - level: 3
+      id: "TP3-SC1-09"
+      text: Mengaplikasikan pengetahuan dan kemahiran sains mengenai struktur bumi/geobencana/sumber Bumi untuk melaksanakan tugasan mudah.
+      text_en: Apply knowledge and science skills regarding earth structure/geo-disasters/Earth resources to carry out simple tasks.
+      descriptor: Applying
+      descriptor_en: Applying
+    - level: 4
+      id: "TP4-SC1-09"
+      text: Menganalisis pengetahuan mengenai struktur bumi/geobencana/sumber Bumi dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam.
+      text_en: Analyze knowledge regarding earth structure/geo-disasters/Earth resources in the context of problem solving regarding natural events or phenomena.
+      descriptor: Analyzing
+      descriptor_en: Analyzing
+    - level: 5
+      id: "TP5-SC1-09"
+      text: Menilai pengetahuan mengenai struktur bumi/geobencana/sumber Bumi dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan.
+      text_en: Evaluate knowledge regarding earth structure/geo-disasters/Earth resources in the context of problem solving and making decisions to carry out a task.
+      descriptor: Evaluating
+      descriptor_en: Evaluating
+    - level: 6
+      id: "TP6-SC1-09"
+      text: Merekabentuk persembahan pelbagai media/visual/folio/poster/main peranan/drama secara kreatif dan inovatif dengan menggunakan pengetahuan dan kemahiran sains mengenai struktur bumi/geobencana/sumber Bumi dalam konteks penyelesaian masalah dan membuat keputusan dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat.
+      text_en: Design presentations of various media/visual/folio/poster/role play/drama in a creative and innovative way using knowledge and science skills regarding earth structure/geo-disasters/Earth resources in the context of problem solving and making decisions taking into account social/economic/cultural values of society.
+      descriptor: Creating
+      descriptor_en: Creating
+prerequisites:
+    required: []
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+ai_teaching_notes: SC1-09.teaching.md
+examples_file: SC1-09.examples.yaml
+assessments_file: SC1-09.assessments.yaml
+quality_level: 1
+provenance: ai-generated
+teaching:
+    sequence:
+        - 'Step 1: Introduce Earth''s layers and systems using diagrams and models (20 min)'
+        - 'Step 2: Discuss types of rocks and their formation processes with samples (25 min)'
+        - 'Step 3: Explain geological processes and geohazards with case studies (30 min)'
+        - 'Step 4: Explore the geological time scale and fossil importance (25 min)'
+        - 'Step 5: Discuss water systems and mineral resources, highlighting risks and benefits (30 min)'
+    common_misconceptions:
+        - misconception: All rocks are the same due to surface similarity
+          remediation: Use hands-on examination of different rock samples to highlight differences
+        - misconception: Earth's core is solid
+          remediation: Explain the roles of pressure and temperature in maintaining a liquid outer core
+engagement_hooks:
+    - Discuss recent local geological events to connect lessons with real-world experiences
+    - Explore how local geography influences community life and industry

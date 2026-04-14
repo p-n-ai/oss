@@ -1,0 +1,46 @@
+topic_id: "SC3-09"
+provenance: "ai-generated"
+description: "Worked examples for Cuaca Angkasa Lepas"
+worked_examples:
+    - id: "WE-01"
+      topic: "Struktur dan fenomena di permukaan matahari"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "9.1.1"
+      real_world_analogy: "Matahari sebagai dapur besar yang memanaskan planet-planet."
+      misconception_alert: "Ramai pelajar menganggap bahawa permukaan matahari adalah pepejal sedangkan ia adalah plasma yang sangat panas."
+      scenario: "Terangkan dengan lakaran mengenai struktur dan fenomena yang berlaku di permukaan matahari."
+      working: |
+        Step 1: Gambarkan matahari sebagai bulatan besar.
+        Step 2: Labelkan lapisan luar sebagai 'korona' dan lapisan dalam sebagai 'fotosfera'.
+        Step 3: Tambahkan ciri-ciri seperti 'flare matahari' dan 'titik matahari' yang sering berlaku di permukaan matahari.
+        Step 4: Jelaskan bahawa fenomena ini adalah hasil daripada aktiviti magnetik yang kuat dalam matahari.
+    - id: "WE-02"
+      topic: "Kepentingan magnetosfera Bumi"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "9.1.2"
+      real_world_analogy: "Magnetosfera adalah seperti perisai pelindung Bumi daripada angin suria."
+      misconception_alert: "Sesetengah pelajar mungkin percaya bahawa atmosfera adalah satu-satunya yang melindungi Bumi, padahal magnetosfera memainkan peranan penting."
+      scenario: "Mewajarkan kepentingan magnetosfera Bumi dalam melindungi kehidupan di planet ini."
+      working: |
+        Step 1: Terangkan bahawa Bumi mempunyai medan magnet yang membentuk magnetosfera.
+        Step 2: Jelaskan bagaimana magnetosfera melindungi Bumi daripada zarah berbahaya dari angin suria.
+        Step 3: Berikan contoh kesan negatif jika magnetosfera tidak wujud, seperti gangguan komunikasi dan kerosakan satelit.
+        Step 4: Kesimpulan bahawa magnetosfera adalah penting untuk mengekalkan keselamatan teknologi dan kehidupan di Bumi.
+    - id: "WE-03"
+      topic: "Cuaca angkasa lepas dan kesannya terhadap Bumi"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "9.2.1"
+      real_world_analogy: "Cuaca angkasa adalah seperti ribut yang boleh mengganggu komunikasi dan sistem elektrik di Bumi."
+      misconception_alert: "Pelajar mungkin berpendapat cuaca angkasa hanya berlaku jauh di angkasa dan tidak mempunyai kesan langsung ke atas Bumi."
+      scenario: "Berkomunikasi mengenai cuaca angkasa lepas dan kesannya terhadap Bumi, serta langkah-langkah yang boleh diambil untuk mengurangkan kesan negatif."
+      working: |-
+        Step 1: Definisikan cuaca angkasa lepas dan komponen utama seperti angin suria dan letusan matahari.
+        Step 2: Jelaskan bagaimana fenomena ini boleh menyebabkan gangguan pada sistem komunikasi dan grid elektrik di Bumi.
+        Step 3: Berikan contoh kejadian bersejarah, seperti kejadian Carrington pada tahun 1859, yang menunjukkan kesan cuaca angkasa.
+        Step 4: Cadangkan langkah-langkah mitigasi seperti meningkatkan ketahanan satelit dan sistem grid elektrik.

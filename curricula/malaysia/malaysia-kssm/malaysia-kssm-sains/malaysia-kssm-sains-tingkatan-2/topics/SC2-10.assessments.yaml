@@ -1,0 +1,115 @@
+topic_id: "SC2-10"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 10.1.1 (understand): Berkomunikasi mengenai ciri asas gelombang bunyi
+    - id: "Q01"
+      text: 'Apakah medium yang paling sesuai untuk menghantar gelombang bunyi dengan paling pantas?'
+      difficulty: "medium"
+      learning_objective: "10.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "A"
+        working: |
+            Gelombang bunyi bergerak paling pantas dalam medium pepejal kerana zarahnya lebih rapat, membolehkan getaran disampaikan lebih cepat.
+        options:
+            A: "Pepejal"
+            B: "Cecair"
+            C: "Gas"
+        distractors:
+            - value: "B"
+              feedback: "Bunyi bergerak lebih pantas dalam cecair berbanding gas, tetapi tidak sepantas dalam pepejal."
+            - value: "C"
+              feedback: "Bunyi bergerak paling perlahan dalam gas kerana zarahnya kurang rapat."
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Memilih medium pepejal sebagai jawapan yang betul."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang kepadatan zarah dalam pelbagai medium."
+        - level: 2
+          text: "Medium yang lebih padat membolehkan bunyi bergerak lebih pantas."
+    # Learning Objective: 10.2.1 (understand): Menerangkan frekuensi bunyi dan unitnya serta amplitud getaran
+    - id: "Q02"
+      text: 'Nyatakan unit yang digunakan untuk mengukur frekuensi gelombang bunyi.'
+      difficulty: "medium"
+      learning_objective: "10.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: "Hertz (Hz)"
+        working: |
+            Frekuensi gelombang bunyi diukur dalam unit Hertz (Hz), yang menunjukkan bilangan getaran per saat.
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Menyatakan unit Hertz (Hz) dengan betul."
+      hints:
+        - level: 1
+          text: "Pertimbangkan unit yang digunakan untuk bilangan kitaran per saat."
+    # Learning Objective: 10.2.2 (analyze): Menghubungkaitkan frekuensi dengan kelangsingan
+    - id: "Q03"
+      text: 'Bagaimanakah perubahan frekuensi mempengaruhi kelangsingan bunyi? Jelaskan.'
+      difficulty: "medium"
+      learning_objective: "10.2.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Kelangsingan bunyi meningkat apabila frekuensi bertambah."
+        working: |
+            Frekuensi yang lebih tinggi menghasilkan bunyi yang lebih langsing kerana bilangan getaran per saat lebih banyak. Ini menyebabkan persepsi bunyi yang lebih tinggi kepada pendengar.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan bahawa kelangsingan bunyi berkait dengan frekuensi."
+        - marks: 2
+          criteria: "Mengaitkan peningkatan frekuensi dengan peningkatan kelangsingan secara jelas."
+      hints:
+        - level: 1
+          text: "Fikirkan bagaimana perubahan dalam frekuensi dapat mengubah sifat bunyi yang kita dengar."
+    # Learning Objective: 10.2.3 (analyze): Menghubungkaitkan amplitud dengan kenyaringan
+    - id: "Q04"
+      text: 'Apakah kesan peningkatan amplitud terhadap kenyaringan bunyi?'
+      difficulty: "medium"
+      learning_objective: "10.2.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Kenyaringan bunyi meningkat apabila amplitud bertambah."
+        working: |
+            Amplitud yang lebih besar menunjukkan tenaga yang lebih tinggi dalam gelombang bunyi, menghasilkan bunyi yang lebih kuat dan lebih nyaring kepada pendengar.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menghubungkan peningkatan amplitud dengan kenyaringan bunyi."
+        - marks: 2
+          criteria: "Menjelaskan bagaimana peningkatan amplitud meningkatkan kenyaringan bunyi."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bagaimana perubahan dalam tenaga gelombang boleh mempengaruhi kenyaringan."
+    # Learning Objective: 10.2.4 (remember): Menjelaskan sifat-sifat gelombang bunyi
+    - id: "Q05"
+      text: 'Nyatakan dua sifat utama gelombang bunyi.'
+      difficulty: "medium"
+      learning_objective: "10.2.4"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Gelombang membujur dan memerlukan medium untuk bergerak."
+        working: |
+            Gelombang bunyi adalah gelombang membujur di mana zarah medium bergetar selari dengan arah perambatan gelombang. Gelombang bunyi juga memerlukan medium untuk bergerak, tidak seperti gelombang cahaya.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan bahawa gelombang bunyi adalah gelombang membujur."
+        - marks: 1
+          criteria: "Menyatakan bahawa gelombang bunyi memerlukan medium untuk bergerak."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang jenis gelombang dan keperluan pergerakan gelombang bunyi."

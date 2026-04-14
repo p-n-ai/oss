@@ -1,0 +1,123 @@
+topic_id: "SC5-05"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 5.1.1 (remember): Mengenal pasti sebatian karbon dalam alam.
+    - id: "Q01"
+      text: 'Apakah sebatian karbon yang terdapat dalam alam semula jadi? Nyatakan dua contoh.'
+      difficulty: "medium"
+      learning_objective: "5.1.1"
+      tp_level: 2
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Contoh sebatian karbon dalam alam semula jadi adalah karbon dioksida dan asid karbonik."
+        working: |
+            Sebatian karbon semula jadi termasuk gas karbon dioksida ($CO_2$) yang terdapat dalam atmosfera dan asid karbonik yang terbentuk apabila karbon dioksida larut dalam air.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan satu contoh sebatian karbon yang betul."
+        - marks: 1
+          criteria: "Menyatakan contoh kedua sebatian karbon yang betul."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang gas yang terdapat dalam atmosfera."
+        - level: 2
+          text: "Pertimbangkan sebatian yang terbentuk apabila karbon dioksida larut dalam air."
+    # Learning Objective 5.1.2 (understand): Menjelaskan kepentingan Kitar Karbon.
+    - id: "Q02"
+      text: 'Mengapakah kitar karbon penting dalam ekosistem? Jelaskan dua sebab.'
+      difficulty: "medium"
+      learning_objective: "5.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Kitar karbon penting kerana ia mengatur suhu Bumi dan menyediakan karbon kepada tumbuhan untuk fotosintesis."
+        working: |
+            Kitar karbon membantu menyeimbangkan suhu global dengan mengawal paras $CO_2$ di atmosfera. Ia juga menyokong fotosintesis, proses di mana tumbuhan mengubah karbon dioksida menjadi glukosa.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan kepentingan kitar karbon dalam mengatur suhu Bumi."
+        - marks: 1
+          criteria: "Menyatakan kepentingan kitar karbon dalam menyediakan karbon untuk fotosintesis."
+      hints:
+        - level: 1
+          text: "Pertimbangkan kesan kitar karbon terhadap iklim."
+        - level: 2
+          text: "Fikirkan bagaimana karbon digunakan oleh tumbuhan."
+    # Learning Objective 5.2.1 (understand): Memerihalkan sebatian hidrokarbon dan menerangkan bagaimana sebatian hidrokarbon diperoleh daripada sumber semula jadi.
+    - id: "Q03"
+      text: 'Bagaimanakah sebatian hidrokarbon diperoleh daripada sumber semula jadi?'
+      difficulty: "medium"
+      learning_objective: "5.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Sebatian hidrokarbon diperoleh melalui proses penapisan minyak mentah dan gas asli."
+        working: |
+            Minyak mentah dan gas asli diekstrak dari bawah tanah dan diproses melalui penapisan untuk mengasingkan pelbagai hidrokarbon seperti metana, etana, propana, dan lain-lain.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan sumber asal sebatian hidrokarbon."
+        - marks: 1
+          criteria: "Menerangkan proses bagaimana hidrokarbon diperoleh."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang proses yang melibatkan minyak mentah."
+        - level: 2
+          text: "Pertimbangkan penggunaan penapisan untuk pengasingan hidrokarbon."
+    # Learning Objective 5.2.2 (remember): Menamakan ahli kumpulan homolog alkana dan alkena dari karbon 1 hingga karbon 6.
+    - id: "Q04"
+      text: 'Namakan ahli kumpulan homolog alkana dari karbon 1 hingga karbon 6.'
+      difficulty: "medium"
+      learning_objective: "5.2.2"
+      tp_level: 2
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "A"
+        working: |
+            Ahli kumpulan homolog alkana dari karbon 1 hingga karbon 6 adalah metana, etana, propana, butana, pentana, dan heksana.
+        options:
+            A: "Metana, etana, propana, butana, pentana, heksana"
+            B: "Metana, etana, propana, butana, pentena, heksena"
+            C: "Metana, etana, propana, butana, pentena, heksana"
+            D: "Metana, etana, propena, butena, pentena, heksena"
+      marks: 1
+      rubric:
+        - marks: 1
+          criteria: "Memilih jawapan yang betul."
+      hints:
+        - level: 1
+          text: "Ingat urutan alkana dari yang paling kecil hingga yang lebih besar."
+        - level: 2
+          text: "Pertimbangkan kumpulan homolog yang hanya mengandungi ikatan tunggal karbon-ke-karbon."
+    # Learning Objective 5.4.2 (analyze): Membanding beza antara lemak tepu dan lemak tak tepu.
+    - id: "Q05"
+      text: 'Bandingkan ciri-ciri lemak tepu dan lemak tak tepu.'
+      difficulty: "medium"
+      learning_objective: "5.4.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Lemak tepu mempunyai ikatan tunggal antara atom karbon, manakala lemak tak tepu mempunyai satu atau lebih ikatan ganda dua. Lemak tepu biasanya padat pada suhu bilik, sedangkan lemak tak tepu cair."
+        working: |
+            Lemak tepu mengandungi ikatan tunggal antara atom karbon, menyebabkan ia padat pada suhu bilik. Lemak tak tepu mengandungi satu atau lebih ikatan ganda dua, yang mengekalkan sifat cecair pada suhu bilik.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan ciri ikatan karbon dalam lemak tepu."
+        - marks: 1
+          criteria: "Menjelaskan ciri ikatan karbon dalam lemak tak tepu."
+        - marks: 1
+          criteria: "Membandingkan keadaan fizikal lemak tepu dan tak tepu pada suhu bilik."
+      hints:
+        - level: 1
+          text: "Perhatikan ikatan antara atom karbon dalam setiap jenis lemak."
+        - level: 2
+          text: "Pertimbangkan keadaan fizikal lemak tersebut pada suhu bilik."

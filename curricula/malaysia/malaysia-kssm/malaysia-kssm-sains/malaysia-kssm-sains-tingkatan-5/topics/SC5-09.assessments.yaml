@@ -1,0 +1,146 @@
+topic_id: "SC5-09"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 9.1.1: Menerangkan jenis-jenis orbit satelit
+    - id: "Q01"
+      text: "Apakah jenis orbit yang paling sesuai untuk komunikasi satelit yang memerlukan liputan kawasan yang luas dan tetap di permukaan bumi?"
+      difficulty: "medium"
+      learning_objective: "9.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "C"
+        options:
+            A: "Orbit Elliptik"
+            B: "Orbit Polar"
+            C: "Orbit Geostasioner"
+            D: "Orbit Rendah Bumi"
+        working: |
+            Orbit geostasioner sesuai untuk komunikasi kerana satelit berada di atas satu titik tetap di permukaan bumi, memberikan liputan luas dan tetap.
+        distractors:
+            - value: "A"
+              feedback: "Orbit elliptik tidak memberikan liputan tetap kerana satelit bergerak dalam orbit elips."
+            - value: "B"
+              feedback: "Orbit polar adalah untuk liputan kutub dan tidak tetap di satu titik."
+            - value: "D"
+              feedback: "Orbit rendah bumi tidak memberikan liputan tetap kerana jarak yang dekat dan orbit yang cepat."
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Memilih orbit yang memberikan liputan tetap."
+        - marks: 1
+          criteria: "Menjelaskan kenapa orbit geostasioner sesuai."
+      hints:
+        - level: 1
+          text: "Pertimbangkan jenis orbit yang memberikan titik tetap di atas bumi."
+        - level: 2
+          text: "Orbit geostasioner berada di atas satu titik tetap di bumi, berguna untuk komunikasi."
+    # Learning Objective 9.1.2: Menjelaskan kedudukan apogi dan perigi dalam orbit elips
+    - id: "Q02"
+      text: "Dalam orbit elips, di manakah kedudukan apogi dan perigi berbanding dengan bumi?"
+      difficulty: "medium"
+      learning_objective: "9.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Apogi adalah titik terjauh dari bumi dalam orbit, manakala perigi adalah titik terdekat."
+        working: |
+            Apogi terletak pada titik di mana satelit berada paling jauh dari bumi, dan perigi berada pada titik terdekat. Ini adalah ciri orbit elips.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyebutkan perigi sebagai titik terdekat."
+        - marks: 1
+          criteria: "Menyebutkan apogi sebagai titik terjauh."
+        - marks: 1
+          criteria: "Menggunakan istilah 'titik' dengan betul untuk orbit elips."
+      hints:
+        - level: 1
+          text: "Pertimbangkan definisi apogi dan perigi dalam konteks orbit elips."
+        - level: 2
+          text: "Apogi adalah titik terjauh, perigi adalah titik terdekat dari bumi."
+    # Learning Objective 9.1.3: Membuat perkaitan hubungan antara ketinggian orbit dengan halaju satelit
+    - id: "Q03"
+      text: "Jelaskan bagaimana ketinggian orbit satelit mempengaruhi halaju orbitnya."
+      difficulty: "medium"
+      learning_objective: "9.1.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Semakin tinggi ketinggian orbit, semakin rendah halaju orbit satelit."
+        working: |
+            Ketinggian orbit mempengaruhi daya graviti yang dialami satelit. Orbit yang lebih rendah memerlukan satelit bergerak lebih laju untuk mengekalkan orbitnya. Sebaliknya, orbit yang lebih tinggi memerlukan halaju yang lebih rendah.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan hubungan antara ketinggian dan daya graviti."
+        - marks: 2
+          criteria: "Mengaitkan halaju yang diperlukan untuk orbit yang berlainan ketinggian."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bagaimana daya graviti berubah dengan ketinggian."
+        - level: 2
+          text: "Orbit rendah memerlukan halaju lebih tinggi, orbit tinggi memerlukan halaju lebih rendah."
+    # Learning Objective 9.1.4: Menerangkan bagaimana satelit dilancarkan dan ditempatkan dalam orbit
+    - id: "Q04"
+      text: "Terangkan proses pelancaran satelit dan bagaimana ia mencapai orbit yang dikehendaki."
+      difficulty: "medium"
+      learning_objective: "9.1.4"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Satelit dilancarkan menggunakan roket yang membekalkan daya tolakan untuk melawan graviti bumi. Setelah mencapai ketinggian tertentu, daya tolakan tambahan digunakan untuk menyesuaikan orbit."
+        working: |
+            Roket membekalkan daya tolakan awal untuk menggerakkan satelit ke ruang angkasa. Apabila mencapai ketinggian yang dikehendaki, daya tambahan dari roket atau pendorong kecil menyesuaikan orbit.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyebutkan penggunaan roket untuk pelancaran."
+        - marks: 1
+          criteria: "Menggambarkan bagaimana daya tolakan digunakan untuk melawan graviti."
+        - marks: 1
+          criteria: "Menjelaskan penggunaan pendorong untuk menyesuaikan orbit."
+      hints:
+        - level: 1
+          text: "Pertimbangkan peranan roket dalam pelancaran."
+        - level: 2
+          text: "Fikirkan bagaimana satelit mencapai dan menyesuaikan orbitnya."
+    # Learning Objective 9.2.1: Menjelaskan tentang Sistem Penentu Sejagat (GPS)
+    - id: "Q05"
+      text: "Bagaimanakah Sistem Penentu Sejagat (GPS) menentukan kedudukan pengguna di bumi?"
+      difficulty: "medium"
+      learning_objective: "9.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "B"
+        options:
+            A: "Melalui isyarat radio dari satu satelit."
+            B: "Melalui trilaterasi isyarat dari sekurang-kurangnya tiga satelit."
+            C: "Dengan menggunakan peta digital."
+            D: "Dengan menghitung jarak dari pusat bumi."
+        working: |
+            GPS menggunakan trilaterasi, di mana sekurang-kurangnya tiga satelit menghantar isyarat yang digunakan untuk menghitung kedudukan tepat pengguna.
+        distractors:
+            - value: "A"
+              feedback: "Satu satelit tidak cukup untuk menentukan kedudukan yang tepat."
+            - value: "C"
+              feedback: "Peta digital memerlukan data lokasi untuk berfungsi, bukan sumber lokasi itu sendiri."
+            - value: "D"
+              feedback: "Menghitung jarak dari pusat bumi bukan kaedah yang digunakan oleh GPS."
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Memilih kaedah trilaterasi."
+        - marks: 1
+          criteria: "Menjelaskan keperluan isyarat dari tiga satelit."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bagaimana isyarat dari satelit digunakan untuk menghitung lokasi."
+        - level: 2
+          text: "GPS memerlukan isyarat dari lebih daripada satu satelit untuk menentukan kedudukan."

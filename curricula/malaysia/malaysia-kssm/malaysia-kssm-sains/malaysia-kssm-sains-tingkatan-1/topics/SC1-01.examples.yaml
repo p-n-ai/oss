@@ -1,0 +1,47 @@
+topic_id: SC1-01
+provenance: ai-generated
+description: "Worked examples for Pengenalan kepada penyiasatan saintifik"
+worked_examples:
+  - id: WE-01
+    topic: "Kepentingan Bidang Sains dalam Kehidupan Seharian"
+    difficulty: easy
+    tp_level: 1
+    kbat: false
+    learning_objective: "1.1.3 (understand): merumuskan kepentingan bidang Sains tersebut dalam kehidupan seharian."
+    real_world_analogy: "Memahami bagaimana sains menyumbang kepada teknologi moden seperti telefon pintar yang kita gunakan setiap hari."
+    misconception_alert: "Ramai pelajar mungkin berfikir bahawa sains hanya berkaitan dengan eksperimen di makmal dan tidak menyedari impak sains dalam kehidupan harian."
+    scenario: "Bagaimana bidang sains memainkan peranan penting dalam memastikan makanan yang kita makan selamat dan berkhasiat?"
+    working: |
+      Step 1: Kenal pasti peranan sains dalam penghasilan makanan, seperti pengawalan kualiti dan keselamatan makanan.
+      Step 2: Terangkan bagaimana sains makanan membantu dalam memastikan nutrisi yang tepat dalam makanan yang diproses.
+      Step 3: Rumuskan bahawa tanpa sains, kita tidak dapat memastikan keselamatan dan kualiti makanan, yang penting untuk kesihatan harian.
+
+  - id: WE-02
+    topic: "Peraturan dan Langkah Keselamatan dalam Makmal"
+    difficulty: medium
+    tp_level: 4
+    kbat: false
+    learning_objective: "1.2.4 (evaluate): mewajarkan peraturan dan langkah keselamatan dalam makmal."
+    real_world_analogy: "Seperti memakai tali pinggang keledar semasa memandu untuk keselamatan, peraturan makmal adalah penting untuk melindungi diri kita."
+    misconception_alert: "Pelajar mungkin meremehkan kepentingan langkah keselamatan kerana mereka tidak selalu melihat kesannya secara langsung."
+    scenario: "Mengapa penting untuk memakai cermin mata keselamatan dan sarung tangan semasa menjalankan eksperimen kimia?"
+    working: |
+      Step 1: Terangkan risiko yang terlibat dalam eksperimen kimia, seperti percikan bahan kimia.
+      Step 2: Jelaskan bagaimana cermin mata keselamatan melindungi mata dari percikan dan sarung tangan melindungi kulit dari bahan berbahaya.
+      Step 3: Rumuskan bahawa langkah keselamatan adalah untuk mencegah kecederaan dan menjaga keselamatan semua orang dalam makmal.
+
+  - id: WE-03
+    topic: "Penggunaan Alat Pengukur yang Betul"
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: "1.4.1 (apply): menggunakan alat pengukur yang betul dan dengan cara yang betul, untuk mengukur dengan persis dan jitu kuantiti panjang, jisim, masa, suhu dan arus elektrik."
+    real_world_analogy: "Seperti menggunakan alat masak yang tepat untuk memastikan hidangan dimasak dengan sempurna, alat pengukur yang tepat memastikan hasil eksperimen yang tepat."
+    misconception_alert: "Kesilapan biasa adalah menganggap semua alat pengukur memberikan hasil yang sama tanpa mempertimbangkan ketepatan dan kepekaan alat tersebut."
+    scenario: "Bagaimana menggunakan mikrometer untuk mengukur diameter sebatang dawai dengan tepat?"
+    working: |
+      Step 1: Pilih mikrometer yang sesuai untuk mengukur diameter kecil.
+      Step 2: Letakkan dawai di antara anvil dan spindle mikrometer.
+      Step 3: Putar ratchet knob hingga dawai diapit dengan lembut, tanpa tekanan berlebihan.
+      Step 4: Baca ukuran pada skala mikrometer untuk mendapatkan diameter yang tepat.
+      Step 5: Catatkan bacaan dan pastikan untuk memeriksa semula hasil untuk ketepatan.

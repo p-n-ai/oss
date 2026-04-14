@@ -1,0 +1,129 @@
+topic_id: "SC2-02"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 2.1.1
+    - id: "Q1"
+      text: 'Apakah peranan pengurai dalam ekosistem dan berikan satu contoh pengurai yang biasa ditemui?'
+      difficulty: "medium"
+      learning_objective: "2.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Pengurai memecahkan bahan organik mati kepada bahan yang lebih mudah diserap oleh tumbuhan. Contohnya, bakteria.'
+        working: |
+            Pengurai seperti bakteria dan kulat memainkan peranan penting dengan memecahkan bahan organik mati kepada mineral dan nutrien yang boleh digunakan semula oleh pengeluar.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: 'Menjelaskan fungsi pengurai dalam ekosistem.'
+        - marks: 1
+          criteria: 'Memberikan contoh pengurai.'
+        - marks: 1
+          criteria: 'Menghubungkan peranan pengurai dengan kitaran nutrien.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang organisma yang memecahkan bahan organik.'
+        - level: 2
+          text: 'Organisma ini membantu mengitar semula nutrien dalam tanah.'
+    # Learning Objective 2.1.2
+    - id: "Q2"
+      text: 'Dalam rantai makanan berikut: Rumput → Belalang → Katak → Ular, apakah peranan ular?'
+      difficulty: "medium"
+      learning_objective: "2.1.2"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "multiple_choice"
+        value: 'C'
+        options:
+            A: 'Pengeluar'
+            B: 'Pengguna primer'
+            C: 'Pengguna tertier'
+            D: 'Pengurai'
+        working: |
+            Dalam rantai makanan, kedudukan ular adalah selepas katak, yang menjadikannya pengguna tertier.
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: 'Memilih jawapan yang tepat berdasarkan kedudukan dalam rantai makanan.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang kedudukan ular dalam rantai makanan ini.'
+        - level: 2
+          text: 'Ular adalah pemangsa kepada katak dalam rantai ini.'
+    # Learning Objective 2.2.1
+    - id: "Q3"
+      text: 'Bagaimanakah pengeluar menyumbang kepada kitar oksigen dalam ekosistem?'
+      difficulty: "medium"
+      learning_objective: "2.2.1"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Pengeluar, seperti tumbuhan, menyumbang kepada kitar oksigen melalui proses fotosintesis di mana mereka melepaskan oksigen ke atmosfera.'
+        working: |
+            Tumbuhan menyerap karbon dioksida dan menghasilkan oksigen semasa fotosintesis. Ini membantu mengekalkan paras oksigen dalam atmosfera.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: 'Menjelaskan pengeluar dalam ekosistem.'
+        - marks: 1
+          criteria: 'Menerangkan proses fotosintesis.'
+        - marks: 1
+          criteria: 'Menghubungkan proses ini dengan kitaran oksigen.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan peranan fotosintesis dalam menghasilkan oksigen.'
+        - level: 2
+          text: 'Tumbuhan melepaskan oksigen semasa proses ini.'
+    # Learning Objective 2.3.4
+    - id: "Q4"
+      text: 'Apakah faktor yang boleh mempengaruhi saiz populasi suatu spesies dalam ekosistem?'
+      difficulty: "medium"
+      learning_objective: "2.3.4"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Faktor seperti ketersediaan makanan, pemangsa, penyakit, dan perubahan iklim boleh mempengaruhi saiz populasi.'
+        working: |
+            Ketersediaan sumber seperti makanan dan air, tekanan pemangsa, kejadian penyakit, serta perubahan dalam keadaan cuaca dan habitat memainkan peranan dalam menentukan saiz populasi.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: 'Menyenaraikan satu faktor yang mempengaruhi saiz populasi.'
+        - marks: 1
+          criteria: 'Menyenaraikan faktor kedua yang mempengaruhi saiz populasi.'
+        - marks: 2
+          criteria: 'Memberikan penjelasan terperinci tentang setiap faktor yang disenaraikan.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang sumber yang diperlukan oleh spesies untuk bertahan.'
+        - level: 2
+          text: 'Pertimbangkan juga ancaman dari persekitaran dan pemangsa.'
+    # Learning Objective 2.4.1
+    - id: "Q5"
+      text: 'Mengapa penting untuk memelihara ekosistem yang stabil dan produktif bagi kehidupan manusia?'
+      difficulty: "medium"
+      learning_objective: "2.4.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Ekosistem yang stabil menyediakan sumber seperti makanan, air bersih, dan udara yang sihat. Ia juga menyokong biodiversiti yang penting untuk kelangsungan hidup manusia.'
+        working: |
+            Ekosistem yang stabil menyediakan perkhidmatan ekosistem seperti penghasilan makanan, penyaring air, dan penyerapan karbon yang penting untuk kesejahteraan manusia. Kehilangan kestabilan boleh membawa kepada kejatuhan perkhidmatan ini.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: 'Menjelaskan kepentingan sumber semula jadi dari ekosistem.'
+        - marks: 1
+          criteria: 'Menyatakan bagaimana ekosistem menyokong biodiversiti.'
+        - marks: 2
+          criteria: 'Memberikan penjelasan mendalam tentang implikasi ekosistem yang tidak stabil.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang manfaat yang kita peroleh dari alam sekitar.'
+        - level: 2
+          text: 'Pertimbangkan bagaimana kehilangan kestabilan ekosistem boleh menjejaskan manusia.'

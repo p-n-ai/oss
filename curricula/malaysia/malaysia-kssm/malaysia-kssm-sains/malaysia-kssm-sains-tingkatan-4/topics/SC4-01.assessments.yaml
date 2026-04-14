@@ -1,0 +1,128 @@
+topic_id: "SC4-01"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 1.1.1 Menjelaskan dengan contoh peralatan perlindungan diri serta fungsinya
+    - id: "Q01"
+      text: 'Apakah fungsi utama pelindung mata dalam makmal dan nyatakan satu contoh bahan kimia yang memerlukan penggunaan pelindung mata?'
+      difficulty: "medium"
+      learning_objective: "1.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Fungsi utama pelindung mata adalah untuk melindungi mata daripada percikan bahan kimia seperti asid sulfurik.'
+        working: |
+            Pelindung mata digunakan untuk melindungi mata daripada percikan bahan kimia berbahaya. Contoh bahan kimia yang memerlukan penggunaan pelindung mata adalah asid sulfurik kerana ia boleh menyebabkan kerosakan mata jika terkena.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: 'Menjelaskan fungsi pelindung mata'
+        - marks: 1
+          criteria: 'Menamakan contoh bahan kimia yang memerlukan pelindung mata'
+        - marks: 1
+          criteria: 'Mengaitkan fungsi dengan contoh bahan kimia'
+      hints:
+        - level: 1
+          text: 'MISCONCEPTION ALERT: Fikirkan tentang perlindungan dari bahan yang boleh mencederakan mata.'
+        - level: 2
+          text: 'Pertimbangkan bahan kimia yang boleh menyebabkan percikan atau asap.'
+    # Learning Objective: 1.2.1 Menjelaskan dengan contoh bahan yang boleh dibuang ke dalam sinki
+    - id: "Q02"
+      text: 'Antara bahan berikut, yang manakah boleh dibuang ke dalam sinki makmal?'
+      difficulty: "medium"
+      learning_objective: "1.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: 'B'
+        options:
+            A: 'Sisa asid pekat'
+            B: 'Larutan garam meja'
+            C: 'Larutan merkuri'
+            D: 'Minyak masak'
+        working: 'Larutan garam meja adalah bahan yang tidak membahayakan dan boleh dibuang ke dalam sinki.'
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: 'Memilih bahan yang selamat dibuang ke dalam sinki'
+      hints:
+        - level: 1
+          text: 'MISCONCEPTION ALERT: Ingat bahawa hanya bahan yang tidak mencemarkan boleh dibuang.'
+        - level: 2
+          text: 'Pertimbangkan bahan yang larut sepenuhnya dan tidak toksik.'
+    # Learning Objective: 1.2.2 Mencirikan bahan yang tidak boleh dibuang ke dalam sinki
+    - id: "Q03"
+      text: 'Nyatakan dua ciri bahan yang tidak boleh dibuang ke dalam sinki makmal.'
+      difficulty: "medium"
+      learning_objective: "1.2.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Bahan yang toksik dan tidak larut air.'
+        working: |
+            Bahan yang tidak boleh dibuang ke dalam sinki termasuk yang bersifat toksik kerana ia boleh mencemarkan air dan bahan yang tidak larut air kerana boleh menyebabkan saluran tersumbat.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: 'Menyatakan bahan toksik'
+        - marks: 1
+          criteria: 'Menyatakan bahan tidak larut air'
+        - marks: 1
+          criteria: 'Mengaitkan ciri dengan impak ke atas persekitaran atau saluran'
+      hints:
+        - level: 1
+          text: 'MISCONCEPTION ALERT: Fikirkan tentang bahan yang boleh membahayakan alam sekitar.'
+        - level: 2
+          text: 'Pertimbangkan bahan yang boleh menyebabkan masalah kepada paip atau sistem saliran.'
+    # Learning Objective: 1.3.1 Berkomunikasi mengenai jenis pemadam kebakaran
+    - id: "Q04"
+      text: 'Jelaskan jenis pemadam kebakaran yang sesuai untuk kebakaran elektrik.'
+      difficulty: "medium"
+      learning_objective: "1.3.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: 'Pemadam kebakaran jenis C'
+        working: |
+            Pemadam kebakaran jenis C direka untuk memadamkan kebakaran yang melibatkan peralatan elektrik kerana ia tidak mengalirkan elektrik.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: 'Menyatakan jenis pemadam kebakaran'
+        - marks: 1
+          criteria: 'Menjelaskan kegunaannya untuk kebakaran elektrik'
+      hints:
+        - level: 1
+          text: 'Fokus pada kebakaran yang melibatkan peralatan elektrik.'
+        - level: 2
+          text: 'Pertimbangkan jenis pemadam yang tidak menghantar elektrik.'
+    # Learning Objective: 1.3.4 Mencipta alat pemadam kebakaran ringkas
+    - id: "Q05"
+      text: 'Rancang alat pemadam kebakaran ringkas menggunakan bahan-bahan yang mudah diperoleh di rumah.'
+      difficulty: "medium"
+      learning_objective: "1.3.4"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Gabungan air dan baking soda dalam botol semburan.'
+        working: |
+            Alat pemadam kebakaran ringkas boleh dibuat dengan memasukkan air dan baking soda ke dalam botol semburan. Apabila digunakan, campuran ini akan melepaskan gas karbon dioksida yang dapat memadamkan api.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: 'Menggunakan bahan yang mudah diperoleh'
+        - marks: 1
+          criteria: 'Menyatakan cara campuran memadamkan api'
+        - marks: 1
+          criteria: 'Menjelaskan proses pembentukan gas'
+        - marks: 1
+          criteria: 'Mengaitkan konsep dengan pemadaman api'
+      hints:
+        - level: 1
+          text: 'Pikirkan tentang bahan yang dapat menghasilkan gas untuk memadam api.'
+        - level: 2
+          text: 'Gunakan bahan sehari-hari yang dapat bereaksi untuk menghasilkan gas.'

@@ -1,0 +1,138 @@
+topic_id: "SC5-03"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 3.1.1 (understand)
+    - id: "Q1"
+      text: 'Apakah yang dimaksudkan dengan jejak karbon (carbon footprint)?'
+      difficulty: "medium"
+      learning_objective: "3.1.1"
+      tp_level: 2
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Jejak karbon merujuk kepada jumlah keseluruhan gas rumah hijau yang dihasilkan oleh aktiviti manusia, biasanya dinyatakan dalam bentuk setara karbon dioksida (CO2-e).'
+        working: |
+            Jejak karbon adalah ukuran jumlah gas rumah hijau yang dihasilkan secara langsung dan tidak langsung oleh seorang individu, organisasi, acara atau produk yang dinyatakan dalam unit setara karbon dioksida.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: 'Menjelaskan bahawa jejak karbon berkaitan dengan gas rumah hijau.'
+        - marks: 1
+          criteria: 'Menjelaskan bahawa ia melibatkan aktiviti manusia.'
+        - marks: 1
+          criteria: 'Menyatakan ia diukur dalam bentuk setara karbon dioksida.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan bagaimana aktiviti harian kita boleh menyumbang kepada pemanasan global.'
+        - level: 2
+          text: 'Jejak karbon melibatkan gas rumah hijau yang dihasilkan oleh manusia.'
+        - level: 3
+          text: 'Pikirkan bagaimana kita boleh mengukur sumbangan kita kepada perubahan iklim.'
+    # Learning Objective: 3.1.2 (analyze)
+    - id: "Q2"
+      text: 'Senaraikan tiga produk yang anda gunakan dalam satu hari dan nyatakan bagaimana produk tersebut menyumbang kepada jejak karbon anda.'
+      difficulty: "medium"
+      learning_objective: "3.1.2"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Contoh produk: 1. Telefon pintar (penggunaan tenaga untuk pengecasan), 2. Kenderaan (penggunaan bahan bakar fosil), 3. Makanan dibungkus (pembuatan dan pengangkutan).'
+        working: |
+            1. Telefon pintar: Memerlukan tenaga elektrik untuk pengecasan yang menyumbang kepada penggunaan sumber tenaga yang mungkin membebaskan karbon.
+            2. Kenderaan: Menggunakan bahan bakar fosil yang membebaskan CO2 ketika dibakar.
+            3. Makanan dibungkus: Proses pembuatan dan pengangkutan makanan yang dibungkus menyumbang kepada pembebasan gas rumah hijau.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: 'Senaraikan satu produk dan kaitkan dengan jejak karbon.'
+        - marks: 1
+          criteria: 'Senaraikan produk kedua dan kaitkan dengan jejak karbon.'
+        - marks: 1
+          criteria: 'Senaraikan produk ketiga dan kaitkan dengan jejak karbon.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan produk yang anda gunakan setiap hari dan bagaimana ia dihasilkan.'
+        - level: 2
+          text: 'Pikirkan tentang tenaga yang diperlukan untuk menggunakan atau menghasilkan produk tersebut.'
+        - level: 3
+          text: 'Fikirkan tentang proses pembuatan dan penggunaan bahan bakar.'
+    # Learning Objective: 3.1.3 (evaluate)
+    - id: "Q3"
+      text: 'Berikan dua langkah tapak tangan karbon (carbon handprint) yang boleh anda ambil untuk mengurangkan pembebasan gas rumah hijau dalam kehidupan harian anda.'
+      difficulty: "medium"
+      learning_objective: "3.1.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: '1. Menggunakan pengangkutan awam atau berkongsi kenderaan untuk mengurangkan penggunaan bahan bakar. 2. Mengurangkan penggunaan plastik sekali guna dengan membawa bekas makanan sendiri.'
+        working: |
+            1. Pengangkutan awam atau berkongsi kenderaan mengurangkan jumlah kenderaan di jalan raya, seterusnya mengurangkan pelepasan CO2.
+            2. Menggunakan bekas makanan sendiri mengurangkan permintaan untuk plastik sekali guna, yang mengurangkan pengeluaran dan pembakaran plastik yang menyumbang kepada pelepasan gas rumah hijau.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Nyatakan satu langkah dan jelaskan bagaimana ia mengurangkan gas rumah hijau.'
+        - marks: 2
+          criteria: 'Nyatakan langkah kedua dan jelaskan bagaimana ia mengurangkan gas rumah hijau.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan tindakan yang boleh mengurangkan penggunaan tenaga atau sumber.'
+        - level: 2
+          text: 'Fikirkan tentang cara untuk mengurangkan penggunaan plastik dan bahan bakar.'
+        - level: 3
+          text: 'Pikirkan bagaimana anda boleh mengubah cara anda melakukan perjalanan dan menggunakan produk harian.'
+    # Learning Objective: 3.2.2 (apply)
+    - id: "Q4"
+      text: 'Bagaimana anda boleh mengkaji tahap pencemaran air daripada sisa domestik? Nyatakan dua kaedah.'
+      difficulty: "medium"
+      learning_objective: "3.2.2"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: '1. Ujian kimia untuk mengukur kehadiran bahan pencemar seperti fosfat dan nitrat. 2. Pemantauan biologi dengan mengkaji kehadiran makhluk air yang peka terhadap pencemaran.'
+        working: |
+            1. Ujian kimia: Menggunakan kit ujian air untuk mengukur kepekatan bahan kimia yang biasanya terdapat dalam sisa domestik.
+            2. Pemantauan biologi: Memeriksa kehadiran atau ketiadaan makhluk air tertentu yang sensitif kepada kualiti air untuk menentukan tahap pencemaran.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Nyatakan satu kaedah dan jelaskan penggunaannya.'
+        - marks: 2
+          criteria: 'Nyatakan kaedah kedua dan jelaskan penggunaannya.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan cara untuk mengukur kehadiran bahan kimia dalam air.'
+        - level: 2
+          text: 'Fikirkan tentang cara untuk memantau makhluk hidup yang terjejas oleh pencemaran.'
+        - level: 3
+          text: 'Pikirkan tentang kaedah yang biasa digunakan dalam ujian kualiti air.'
+    # Learning Objective: 3.3.1 (evaluate)
+    - id: "Q5"
+      text: 'Justifikasi peranan individu dalam mengurus sumber semula jadi untuk mengekalkan keseimbangan alam sekitar.'
+      difficulty: "medium"
+      learning_objective: "3.3.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Individu boleh mengurangkan jejak karbon mereka dengan memilih produk yang lestari, mengurangkan pembaziran, dan mengitar semula sisa. Ini membantu mengurangkan tekanan ke atas sumber semula jadi dan mengekalkan keseimbangan ekosistem.'
+        working: |
+            Setiap individu memainkan peranan penting dalam mengekalkan keseimbangan alam sekitar dengan membuat pilihan yang bertanggungjawab terhadap penggunaan dan pembuangan produk. Ini termasuk memilih produk yang dihasilkan secara lestari, mengurangkan pembaziran dengan membeli hanya apa yang diperlukan, dan mengitar semula sisa untuk mengurangkan tekanan ke atas sumber semula jadi.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: 'Menjelaskan bagaimana pilihan individu boleh mengurangkan jejak karbon.'
+        - marks: 2
+          criteria: 'Menjelaskan bagaimana pengurangan pembaziran menyumbang kepada keseimbangan alam sekitar.'
+        - marks: 1
+          criteria: 'Mengaitkan tindakan individu dengan pemeliharaan ekosistem.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan bagaimana tindakan harian dapat mempengaruhi sumber semula jadi.'
+        - level: 2
+          text: 'Fikirkan tentang cara untuk mengurangkan pembaziran dan penggunaan sumber.'
+        - level: 3
+          text: 'Pikirkan tentang bagaimana tindakan individu boleh menyokong usaha pemuliharaan alam sekitar.'

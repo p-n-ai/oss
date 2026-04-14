@@ -1,0 +1,136 @@
+id: "SJ1-05"
+official_ref: "Bab 5"
+name: "Tamadun Awal Dunia"
+name_en: "Early World Civilizations"
+subject_grade_id: "malaysia-kssm-sejarah-tingkatan-1"
+subject_id: "malaysia-kssm-sejarah"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+content_standards:
+    - id: "4.1"
+      text: "Tamadun Awal Dunia dan Sumbangannya"
+      text_en: "Early World Civilizations and Their Contributions"
+learning_objectives:
+    - id: "4.1.3"
+      text: "Menjelaskan ciri-ciri tamadun awal dunia."
+      text_en: "Explaining the characteristics of early world civilizations."
+      bloom: "understand"
+      content_standard_id: "4.1"
+    - id: "4.1.4"
+      text: "Membincangkan empat lokasi pembentukan tamadun awal dunia."
+      text_en: "Discussing the four locations of early world civilization formation."
+      bloom: "analyze"
+      content_standard_id: "4.1"
+    - id: "4.1.5"
+      text: "Membandingkan sumbangan tamadun awal dunia."
+      text_en: "Comparing early world civilization contributions."
+      bloom: "analyze"
+      content_standard_id: "4.1"
+    - id: "4.1.8"
+      text: "Menjelaskan keperluan menghargai sumbangan tamadun awal dunia dalam kehidupan manusia."
+      text_en: "Explaining the need to appreciate early world civilization contributions in human life."
+      bloom: "understand"
+      content_standard_id: "4.1"
+      is_citizenship_elements: true
+    - id: "4.1.9"
+      text: "Membincangkan kepentingan sumbangan tamadun awal dunia sebagai pencetus inovasi."
+      text_en: "Discussing the importance of early world civilization contributions as innovation catalysts."
+      bloom: "analyze"
+      content_standard_id: "4.1"
+      is_citizenship_elements: true
+prerequisites:
+    required:
+        - "SJ1-04"
+    recommended: []
+quality_level: 1
+provenance: "ai-generated"
+generated_at: "2026-04-12T05:24:46Z"
+theme: "Sejarah Kita dan Dunia"
+topic_focus:
+    - "Tamadun Awal Dunia dan sumbangannya"
+topic_empathy:
+    - "Semangat kekitaan dalam zaman globalisasi"
+    - "Berilmu dan berketerampilan"
+    - "Keterlibatan diri dalam pembangunan negara"
+    - "Keterikatan emosi kepada negara"
+historical_thinking_skills:
+    - "interpretasi"
+    - "meneroka_bukti"
+citizenship_elements:
+    - id: "K4.1.8"
+      text: "Menjelaskan keperluan menghargai sumbangan tamadun awal dunia dalam kehidupan manusia."
+      text_en: "Explaining the need to appreciate early world civilization contributions in human life."
+      content_standard_id: "4.1"
+    - id: "K4.1.9"
+      text: "Membincangkan kepentingan sumbangan tamadun awal dunia sebagai pencetus inovasi."
+      text_en: "Discussing the importance of early world civilization contributions as innovation catalysts."
+      content_standard_id: "4.1"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengetahui tamadun awal dunia."
+      text_en: "Knowing early world civilizations."
+      descriptor: "Mengetahui perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Knowing basic matters based on learned history knowledge and values."
+    - level: 2
+      id: "TP2"
+      text: "Memahami tamadun awal dunia."
+      text_en: "Understanding early world civilizations."
+      descriptor: "Memahami perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Understanding basic matters based on learned history knowledge and values."
+    - level: 3
+      id: "TP3"
+      text: "Menerangkan dengan contoh tentang tamadun awal dunia."
+      text_en: "Explaining with examples about early world civilizations."
+      descriptor: "Menggunakan perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Using basic matters based on learned history knowledge and values."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis maklumat yang berkaitan dengan tamadun awal dunia."
+      text_en: "Analyzing information related to early world civilizations."
+      descriptor: "Menganalisis pengetahuan dan kemahiran berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Analyzing knowledge and skills based on learned history knowledge and values."
+    - level: 5
+      id: "TP5"
+      text: "Membuat penilaian tamadun awal dunia."
+      text_en: "Making assessments on early world civilizations."
+      descriptor: "Membuat penilaian berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Making assessments based on learned history knowledge and values."
+    - level: 6
+      id: "TP6"
+      text: "Melahirkan idea yang berasas mengenai tamadun awal dunia."
+      text_en: "Generating rational ideas about early world civilizations."
+      descriptor: "Melahirkan idea berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Generating ideas based on learned history knowledge and values."
+teaching:
+    sequence:
+        - 'Step 1: Introduction to early civilizations and their significance (10 min)'
+        - 'Step 2: Discuss the geographical locations of early civilizations (15 min)'
+        - 'Step 3: Analyze the characteristics of each civilization (20 min)'
+        - 'Step 4: Compare the contributions of different civilizations (20 min)'
+        - 'Step 5: Reflect on the importance of these contributions today (10 min)'
+    common_misconceptions:
+        - misconception: Students may think all early civilizations developed simultaneously.
+          remediation: Explain the timeline and geographical differences in civilization development.
+        - misconception: Students might believe early civilizations were primitive and unsophisticated.
+          remediation: Highlight the advanced technologies and cultural achievements of these civilizations.
+bloom_levels:
+    - "understand"
+    - "analyze"
+mastery:
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+tier: "core"
+sync_checked: true
+ai_teaching_notes: "SJ1-05.teaching.md"
+assessments_file: "SJ1-05.assessments.yaml"
+examples_file: SJ1-05.examples.yaml
+engagement_hooks:
+    - Discuss how ancient civilizations have influenced modern technology.
+    - Explore the impact of early civilizations on current cultural practices.

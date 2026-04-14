@@ -1,0 +1,45 @@
+topic_id: "SC3-05"
+provenance: "ai-generated"
+description: "Worked examples for Termokimia"
+worked_examples:
+    - id: "WE-01"
+      topic: "Tindak Balas Endotermik"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "5.1.1"
+      real_world_analogy: "Mencairkan ais memerlukan pemanasan, sama seperti tindak balas endotermik memerlukan tenaga."
+      misconception_alert: "Pelajar mungkin berfikir semua tindak balas kimia menghasilkan haba, tetapi tindak balas endotermik menyerap haba."
+      scenario: "Jelaskan mengapa proses mencairkan ais dianggap sebagai tindak balas endotermik."
+      working: |
+        Step 1: Definisikan tindak balas endotermik sebagai tindak balas yang menyerap haba dari persekitarannya.
+        Step 2: Fahami bahawa apabila ais mencair, ia memerlukan tenaga dalam bentuk haba untuk memecahkan ikatan dalam struktur ais.
+        Step 3: Oleh itu, proses ini menyerap haba dari persekitaran, menjadikannya tindak balas endotermik.
+    - id: "WE-02"
+      topic: "Tindak Balas Eksotermik"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "5.1.4"
+      real_world_analogy: "Membakar kayu dalam unggun api membebaskan haba yang dapat dirasakan, sama seperti tindak balas eksotermik membebaskan tenaga."
+      misconception_alert: "Pelajar mungkin menganggap semua reaksi yang menghasilkan haba tidak berbahaya; namun, tindak balas eksotermik boleh sangat berbahaya."
+      scenario: "Apabila kayu dibakar dalam unggun api, apakah jenis tindak balas yang berlaku dan mengapa?"
+      working: |
+        Step 1: Identifikasi bahawa membakar kayu adalah tindak balas kimia yang membebaskan tenaga dalam bentuk haba.
+        Step 2: Definisikan tindak balas eksotermik sebagai tindak balas yang membebaskan tenaga kepada persekitaran.
+        Step 3: Oleh kerana unggun api membebaskan haba yang dapat dirasakan, maka ia adalah tindak balas eksotermik.
+    - id: "WE-03"
+      topic: "Perbandingan Tindak Balas Endotermik dan Eksotermik"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "5.1.3"
+      real_world_analogy: "Panas kompres sejuk yang digunakan untuk kecederaan menyerap haba dari kulit, manakala pek pemanasan membebaskan haba untuk memberikan kelegaan."
+      misconception_alert: "Pelajar mungkin salah faham bahawa suhu yang dirasakan adalah satu-satunya penentu bagi jenis tindak balas."
+      scenario: "Anda diminta menjalankan eksperimen untuk membandingkan tindak balas endotermik dan eksotermik menggunakan ammonium nitrat dan kalsium klorida dalam air. Apakah yang anda jangkakan berlaku dan mengapa?"
+      working: |-
+        Step 1: Sediakan dua bekas berasingan dengan air.
+        Step 2: Tambahkan ammonium nitrat ke dalam bekas pertama dan kalsium klorida ke dalam bekas kedua.
+        Step 3: Amati bahawa suhu dalam bekas dengan ammonium nitrat berkurang, menunjukkan ia menyerap haba, maka ia adalah tindak balas endotermik.
+        Step 4: Amati bahawa suhu dalam bekas dengan kalsium klorida meningkat, menunjukkan ia membebaskan haba, maka ia adalah tindak balas eksotermik.
+        Step 5: Catatkan perbezaan suhu sebelum dan selepas bagi kedua-dua eksperimen untuk mengesahkan pemerhatian.

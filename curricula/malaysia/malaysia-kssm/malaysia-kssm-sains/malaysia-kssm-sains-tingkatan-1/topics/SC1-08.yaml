@@ -1,0 +1,182 @@
+id: SC1-08
+official_ref: "Bab 8"
+name: "Cahaya dan Optik"
+name_en: "Light and Optics"
+subject_grade_id: malaysia-kssm-sains-tingkatan-1
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+learning_objectives:
+    - id: 8.1.1
+      text: "membezakan antara imej sahih dan imej maya."
+      text_en: "Differentiate between real images and virtual images."
+      bloom: analyze
+    - id: 8.1.2
+      text: "berkomunikasi mengenai ciri imej dalam cermin satah, cermin cekung dan cermin cembung."
+      text_en: "Communicate about image characteristics in plane mirrors, concave mirrors and convex mirrors."
+      bloom: understand
+    - id: 8.1.3
+      text: "menyatakan bahawa jarak objek adalah sama dengan jarak imej dalam cermin satah."
+      text_en: "State that object distance is the same as image distance in a plane mirror."
+      bloom: remember
+    - id: 8.1.4
+      text: "menggunakan cermin satah untuk mengaplikasi konsep pantulan cahaya."
+      text_en: "Use plane mirrors to apply the concept of light reflection."
+      bloom: apply
+    - id: 8.1.5
+      text: "mewajarkan aplikasi cermin cekung dan cermin cembung dalam kehidupan."
+      text_en: "Justify the application of concave mirrors and convex mirrors in life."
+      bloom: evaluate
+    - id: 8.1.6
+      text: "membina alat optik dan menghargai penggunaan alat optik untuk meningkatkan keupayaan deria manusia."
+      text_en: "Construct optical instruments and appreciate the use of optical instruments to enhance human sensory capabilities."
+      bloom: create
+    - id: 8.1.7
+      text: "menyelesaikan masalah dalam kehidupan harian dengan mengaplikasi cermin satah, cermin cekung dan cermin cembung."
+      text_en: "Solve problems in daily life by applying plane mirrors, concave mirrors and convex mirrors."
+      bloom: apply
+    - id: 8.2.1
+      text: "berkomunikasi mengenai sifat cahaya."
+      text_en: "Communicate about the properties of light."
+      bloom: understand
+    - id: 8.3.1
+      text: "menyatakan ciri imej cermin satah."
+      text_en: "State the characteristics of plane mirror images."
+      bloom: remember
+    - id: 8.3.3
+      text: "melukis gambar rajah sinar pantulan cahaya."
+      text_en: "Draw ray diagrams of light reflection."
+      bloom: apply
+    - id: 8.3.4
+      text: "menyelesaikan masalah dalam kehidupan seharian dengan mengaplikasi konsep pantulan cahaya."
+      text_en: "Solve problems in daily life by applying the concept of light reflection."
+      bloom: apply
+    - id: 8.4.1
+      text: "mengitlak bahawa pembiasan cahaya berlaku apabila cahaya bergerak melalui medium yang berbeza ketumpatan."
+      text_en: "Infer that light refraction occurs when light moves through media of different densities."
+      bloom: understand
+    - id: 8.4.2
+      text: "melukis gambar rajah sinar pembiasan cahaya apabila cahaya melalui medium berbeza ketumpatan."
+      text_en: "Draw ray diagrams of light refraction when light passes through media of different densities."
+      bloom: apply
+    - id: 8.4.3
+      text: "merumuskan hubungan antara sudut tuju, i dan sudut biasan, r apabila cahaya bergerak dari medium kurang tumpat ke lebih tumpat."
+      text_en: "Conclude the relationship between angle of incidence, i and angle of refraction, r when light moves from less dense medium to more dense medium."
+      bloom: understand
+    - id: 8.4.4
+      text: "mewajarkan aplikasi pembiasan cahaya dalam kehidupan."
+      text_en: "Justify the application of light refraction in life."
+      bloom: evaluate
+    - id: 8.5.1
+      text: "berkomunikasi mengenai penyebaran cahaya."
+      text_en: "Communicate about light scattering."
+      bloom: understand
+    - id: 8.5.2
+      text: "menjelaskan dengan contoh penyebaran cahaya dalam kehidupan seharian."
+      text_en: "Explain with examples of light scattering in daily life."
+      bloom: understand
+    - id: 8.6.1
+      text: "berkomunikasi mengenai penyerakan cahaya."
+      text_en: "Communicate about light dispersion."
+      bloom: understand
+    - id: 8.6.2
+      text: "menjelaskan dengan contoh penyerakan cahaya dalam kehidupan harian."
+      text_en: "Explain with examples of light dispersion in daily life."
+      bloom: understand
+    - id: 8.7.1
+      text: "mengenal pasti warna primer."
+      text_en: "Identify primary colors."
+      bloom: remember
+    - id: 8.7.2
+      text: "mengenal pasti penambahan warna-warna primer bagi membentuk warna sekunder."
+      text_en: "Identify the addition of primary colors to form secondary colors."
+      bloom: remember
+    - id: 8.7.3
+      text: "berkomunikasi mengenai penolakan cahaya."
+      text_en: "Communicate about light subtraction."
+      bloom: understand
+    - id: 8.7.4
+      text: "merekodkan warna yang terhasil pada skrin selepas cahaya melalui penapis warna."
+      text_en: "Record the colors produced on the screen after light passes through color filters."
+      bloom: apply
+    - id: 8.7.5
+      text: "membezakan penambahan dan penolakan cahaya."
+      text_en: "Differentiate addition and subtraction of light."
+      bloom: analyze
+    - id: 8.7.6
+      text: "menjelaskan dengan contoh penambahan dan penolakan cahaya dalam kehidupan harian"
+      text_en: "Explain with examples of addition and subtraction of light in daily life"
+      bloom: understand
+    - id: 8.3.2
+      text: "berkomunikasi mengenai hukum pantulan."
+      text_en: "Communicate about the law of reflection."
+      bloom: understand
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+ai_teaching_notes: "SC1-08.teaching.md"
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-04-09T03:17:48Z"
+assessments_file: SC1-08.assessments.yaml
+prerequisites:
+    required: []
+    recommended: []
+engagement_hooks:
+    - Discuss how mirrors are used in vehicles for safety.
+    - Explore the role of lenses in cameras and glasses.
+content_standards:
+    - id: "8.1"
+      text: Penggunaan cermin
+      text_en: Use of mirrors
+    - id: "8.2"
+      text: Sifat cahaya
+      text_en: Properties of light
+    - id: "8.3"
+      text: Pantulan cahaya
+      text_en: Reflection of light
+    - id: "8.4"
+      text: Pembiasan cahaya
+      text_en: Refraction of light
+    - id: "8.5"
+      text: Penyebaran cahaya
+      text_en: Dispersion of light
+    - id: "8.6"
+      text: Penyerakan cahaya
+      text_en: Scattering of light
+    - id: "8.7"
+      text: Penambahan dan Penolakan Cahaya
+      text_en: Addition and Subtraction of Light
+performance_standards:
+    - level: 1
+      id: "TP1-SC1-08"
+      text: Mengingat kembali pengetahuan dan kemahiran sains mengenai penggunaan cermin/ ciri cahaya/ pantulan cahaya/pembiasan cahaya/penyebaran cahaya/penyerakan cahaya/penambahan dan penolakan cahaya.
+      text_en: Recall knowledge and skills in science regarding the use of mirrors/ properties of light/ reflection of light/ refraction of light/ dispersion of light/ scattering of light/ addition and subtraction of light.
+      descriptor: "Recall basic facts and definitions."
+      descriptor_en: "Recall basic facts and definitions."
+    - level: 2
+      id: "TP2-SC1-08"
+      text: Memahami penggunaan cermin/ ciri cahaya/ pantulan cahaya/pembiasan cahaya/penyebaran cahaya/penyerakan cahaya/penambahan dan
+examples_file: SC1-08.examples.yaml
+teaching:
+    sequence:
+        - 'Step 1: Introduction to light properties and behavior (15 min)'
+        - 'Step 2: Demonstrate reflection using mirrors (20 min)'
+        - 'Step 3: Explore refraction with water and glass experiments (25 min)'
+    common_misconceptions:
+        - misconception: Light only travels in straight lines without bending.
+          remediation: Demonstrate refraction with water and glass.
+        - misconception: All mirrors create the same type of image.
+          remediation: Use ray diagrams and examples to show differences.

@@ -1,0 +1,142 @@
+id: SC1-07
+official_ref: "Bab 7"
+name: "Udara"
+name_en: "Air"
+subject_grade_id: malaysia-kssm-sains-tingkatan-1
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+content_standards:
+    - id: "7.1"
+      text: Komposisi udara
+      text_en: Air composition
+    - id: "7.2"
+      text: Pembakaran
+      text_en: Combustion
+    - id: "7.3"
+      text: Pencemaran udara
+      text_en: Air pollution
+learning_objectives:
+    - id: 7.1.1
+      text: "merancang dan merekodkan komposisi udara."
+      text_en: "Plan and record air composition."
+      bloom: apply
+    - id: 7.1.2
+      text: "mencerakinkan komposisi udara daripada carta pai."
+      text_en: "Decompose air composition from a pie chart."
+      bloom: analyze
+    - id: 7.1.5
+      text: "mewajarkan kepentingan gas oksigen, karbon dioksida, nitrogen dan gas nadir dalam kehidupan harian."
+      text_en: "Justify the importance of oxygen gas, carbon dioxide, nitrogen and noble gases in daily life."
+      bloom: evaluate
+    - id: 7.1.5
+      text: "menghargai dan mengagumi kitar karbon dan kitar oksigen dalam mengekalkan kandungan gas dalam udara."
+      text_en: "Appreciate and admire the carbon cycle and oxygen cycle in maintaining gas content in the air."
+      bloom: evaluate
+    - id: 7.1.5
+      text: "menyelesaikan masalah apabila terdapat gangguan pada kitar oksigen atau kitar karbon di Bumi."
+      text_en: "Solve problems when there is disruption in the oxygen cycle or carbon cycle on Earth."
+      bloom: apply
+    - id: 7.2.1
+      text: "merumuskan syarat untuk berlaku pembakaran."
+      text_en: "Conclude the conditions for combustion to occur."
+      bloom: understand
+    - id: 7.2.3
+      text: "menghubungkaitkan antara syarat pembakaran dengan prinsip yang digunakan dalam pembuatan alat pemadam api."
+      text_en: "Relate between combustion conditions with principles used in the manufacture of fire extinguishers."
+      bloom: understand
+    - id: 7.2.3
+      text: "mengamalkan sikap berjaga-jaga bagi mengelakkan berlakunya kebakaran yang boleh mengakibatkan kemusnahan nyawa dan harta benda."
+      text_en: "Practice caution to prevent fires that can cause loss of life and property."
+      bloom: apply
+    - id: 7.3.1
+      text: "mentakrifkan maksud pencemaran udara dan bahan pencemar udara."
+      text_en: "Define the meaning of air pollution and air pollutants."
+      bloom: remember
+    - id: 7.3.2
+      text: "berkomunikasi mengenai bahan pencemar udara dan puncanya."
+      text_en: "Communicate about air pollutants and their sources."
+      bloom: understand
+    - id: 7.3.3
+      text: "mewajarkan langkah untuk mencegah dan mengawal pencemaran udara."
+      text_en: "Justify steps to prevent and control air pollution."
+      bloom: evaluate
+    - id: 7.3.4
+      text: "menyelesaikan masalah kesan buruk akibat pencemaran udara."
+      text_en: "Solve problems of bad effects due to air pollution."
+      bloom: apply
+prerequisites:
+    required: []
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+ai_teaching_notes: "SC1-07.teaching.md"
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-04-09T03:17:48Z"
+assessments_file: SC1-07.assessments.yaml
+performance_standards:
+    - level: 1
+      id: "TP1-SC1-07"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai jirim/jadual berkala/udara."
+      text_en: "Recall knowledge and science skills regarding matter/periodic table/air."
+      descriptor: Remembering
+      descriptor_en: Remembering
+    - level: 2
+      id: "TP2-SC1-07"
+      text: "Memahami jirim/jadual berkala/udara serta dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand matter/periodic table/air and can explain the understanding thereof."
+      descriptor: Understanding
+      descriptor_en: Understanding
+    - level: 3
+      id: "TP3-SC1-07"
+      text: "Mengaplikasikan pengetahuan jirim/jadual berkala/udara untuk menerangkan kejadian atau fenomena alam dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge of matter/periodic table/air to explain natural events or phenomena and can carry out simple tasks."
+      descriptor: Applying
+      descriptor_en: Applying
+    - level: 4
+      id: "TP4-SC1-07"
+      text: "Menganalisis pengetahuan mengenai struktur jirim/jadual berkala/udara dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge regarding the structure of matter/periodic table/air in the context of problem solving regarding natural events or phenomena."
+      descriptor: Analyzing
+      descriptor_en: Analyzing
+    - level: 5
+      id: "TP5-SC1-07"
+      text: "Menilai pengetahuan mengenai jirim/jadual berkala/udara dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge regarding matter/periodic table/air in the context of problem solving and making decisions to carry out a task."
+      descriptor: Evaluating
+      descriptor_en: Evaluating
+    - level: 6
+      id: "TP6-SC1-07"
+      text: "Merekabentuk persembahan pelbagai media/visual/folio/poster/main peranan/drama secara kreatif dan inovatif dengan menggunakan pengetahuan dan kemahiran sains mengenai jirim/jadual berkala/udara dalam konteks penyelesaian masalah dan membuat keputusan dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Design presentations of various media/visual/folio/poster/role play/drama in a creative and innovative way using knowledge and science skills regarding matter/periodic table/air in the context of problem solving and making decisions taking into account social/economic/cultural values of society."
+      descriptor: Creating
+      descriptor_en: Creating
+teaching:
+    sequence:
+        - 'Step 1: Introduce the concept of air composition using pie charts and simple experiments (20 min)'
+        - 'Step 2: Discuss the importance of gases like oxygen, carbon dioxide, and nitrogen in daily life (15 min)'
+        - 'Step 3: Explain the conditions required for combustion and relate to fire extinguishers (20 min)'
+        - 'Step 4: Define air pollution and identify common pollutants and their sources (15 min)'
+        - 'Step 5: Evaluate methods to prevent and control air pollution (15 min)'
+    common_misconceptions:
+        - misconception: Oxygen is the most abundant gas in the air
+          remediation: Use pie charts to show that nitrogen is the most abundant
+        - misconception: All gases in the air are equally important
+          remediation: Discuss the specific roles of each gas in supporting life
+engagement_hooks:
+    - Discuss the role of rainforests in the carbon and oxygen cycle, using Malaysian rainforests as an example
+    - Pose a question about what would happen if oxygen levels in the air increased significantly
+examples_file: SC1-07.examples.yaml

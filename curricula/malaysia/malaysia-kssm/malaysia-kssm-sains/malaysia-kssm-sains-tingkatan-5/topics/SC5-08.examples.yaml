@@ -1,0 +1,46 @@
+topic_id: "SC5-08"
+provenance: "ai-generated"
+description: "Worked examples for Daya dan Tekanan"
+worked_examples:
+    - id: "WE-01"
+      topic: "Tekanan dalam Bendalir"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "8.1.1"
+      real_world_analogy: "Menyelam dalam kolam renang dan merasai tekanan meningkat dengan kedalaman."
+      misconception_alert: "Ramai pelajar berfikir bahawa tekanan dalam bendalir hanya bergantung kepada luas permukaan, bukan kedalaman dan ketumpatan."
+      scenario: "Seorang penyelam berada pada kedalaman 10 meter dalam air. Hitung tekanan yang dialami penyelam tersebut. (Ambil ketumpatan air sebagai 1000 kg/m³ dan pecutan graviti sebagai 9.8 m/s²)"
+      working: |
+        Step 1: Tekanan dalam bendalir diberikan oleh formula $P = \rho gh$, di mana $\rho$ adalah ketumpatan, $g$ adalah pecutan graviti, dan $h$ adalah kedalaman.
+        Step 2: Masukkan nilai-nilai yang diketahui: $\rho = 1000 \, \text{kg/m}^3$, $g = 9.8 \, \text{m/s}^2$, dan $h = 10 \, \text{m}$.
+        Step 3: Hitung tekanan: $P = 1000 \times 9.8 \times 10 = 98000 \, \text{Pa}$.
+    - id: "WE-02"
+      topic: "Aplikasi Prinsip Pascal"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "8.1.2"
+      real_world_analogy: "Menggunakan jack hidraulik untuk mengangkat kereta semasa membaiki tayar."
+      misconception_alert: "Kesalahpahaman umum ialah prinsip Pascal hanya digunakan dalam sistem bertekanan tinggi."
+      scenario: "Seorang mekanik menggunakan jack hidraulik dengan luas pemacu kecil 2 cm² dan luas pemacu besar 50 cm². Jika daya 100 N dikenakan pada pemacu kecil, berapakah daya yang dihasilkan pada pemacu besar?"
+      working: |
+        Step 1: Prinsip Pascal menyatakan bahawa tekanan yang dikenakan pada bendalir dalam sistem tertutup dihantar tanpa perubahan.
+        Step 2: Tekanan pada pemacu kecil ialah $P = \frac{F_1}{A_1}$, di mana $F_1 = 100 \, \text{N}$ dan $A_1 = 2 \, \text{cm}^2 = 2 \times 10^{-4} \, \text{m}^2$.
+        Step 3: Hitung tekanan: $P = \frac{100}{2 \times 10^{-4}} = 500000 \, \text{Pa}$.
+        Step 4: Tekanan yang sama dikenakan pada pemacu besar: $F_2 = P \times A_2$, di mana $A_2 = 50 \, \text{cm}^2 = 5 \times 10^{-3} \, \text{m}^2$.
+        Step 5: Hitung daya: $F_2 = 500000 \times 5 \times 10^{-3} = 2500 \, \text{N}$.
+    - id: "WE-03"
+      topic: "Prinsip Bernoulli"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "8.1.4"
+      real_world_analogy: "Melihat bagaimana pesawat dapat terbang disebabkan oleh perubahan dalam tekanan udara di atas dan di bawah sayap."
+      misconception_alert: "Pelajar sering terkeliru bahawa halaju bendalir adalah tidak berkaitan dengan tekanan."
+      scenario: "Air mengalir melalui paip mendatar dengan diameter yang berkurang dari 10 cm ke 5 cm. Jika halaju air dalam paip besar adalah 2 m/s, berapakah halaju air dalam paip kecil?"
+      working: |-
+        Step 1: Gunakan persamaan kesinambungan iaitu $A_1v_1 = A_2v_2$, di mana $A_1$ dan $A_2$ adalah luas keratan rentas, dan $v_1$ dan $v_2$ adalah halaju.
+        Step 2: Hitung $A_1 = \pi \left(\frac{10}{2}\right)^2 = 78.5 \, \text{cm}^2$ dan $A_2 = \pi \left(\frac{5}{2}\right)^2 = 19.6 \, \text{cm}^2$.
+        Step 3: Masukkan dalam persamaan: $78.5 \times 2 = 19.6 \times v_2$.
+        Step 4: Selesaikan untuk $v_2$: $v_2 = \frac{78.5 \times 2}{19.6} = 8 \, \text{m/s}$.

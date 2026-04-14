@@ -1,0 +1,171 @@
+id: "SC4-06"
+official_ref: "Bab 6"
+name: "Sokongan, Pergerakan dan Pertumbuhan"
+name_en: "Support, Movement and Growth"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+theme: "Penyenggaraan dan Kesinambungan Hidup"
+content_standards:
+    - id: "6.1"
+      text: "Sokongan, Pergerakan dan Pertumbuhan Haiwan"
+      text_en: "Support, Movement and Growth of Animals"
+    - id: "6.2"
+      text: "Pergerakan dan Pertumbuhan Manusia"
+      text_en: "Movement and Growth of Humans"
+    - id: "6.3"
+      text: "Sokongan, Pertumbuhan dan Kestabilan dalam Tumbuhan"
+      text_en: "Support, Growth and Stability in Plants"
+learning_objectives:
+    - id: "6.1.1"
+      text: "Menjelaskan dengan contoh jenis sokongan pada haiwan."
+      text_en: "Explain with examples of types of support in animals."
+      bloom: "understand"
+      content_standard_id: "6.1"
+    - id: "6.1.2"
+      text: "Menghubungkaitkan saiz rangka luar dengan pertumbuhan."
+      text_en: "Relate exoskeleton size with growth."
+      bloom: "understand"
+      content_standard_id: "6.1"
+    - id: "6.1.3"
+      text: "Menghubungkaitkan rangka hidrostatik dengan pergerakan."
+      text_en: "Relate hydrostatic skeleton with movement."
+      bloom: "understand"
+      content_standard_id: "6.1"
+    - id: "6.1.4"
+      text: "Menghuraikan fungsi rangka dalam bagi haiwan."
+      text_en: "Describe the functions of the endoskeleton in animals."
+      bloom: "understand"
+      content_standard_id: "6.1"
+    - id: "6.1.5"
+      text: "Mencerakinkan sistem rangka manusia."
+      text_en: "Label the human skeletal system."
+      bloom: "apply"
+      content_standard_id: "6.1"
+    - id: "6.1.6"
+      text: "Menjalankan eksperimen untuk membandingkan kekuatan tulang yang padat dan tulang yang berongga."
+      text_en: "Conduct an experiment to compare the strength of solid bones and hollow bones."
+      bloom: "apply"
+      content_standard_id: "6.1"
+    - id: "6.1.7"
+      text: "Menghubungkait sistem sokongan dengan faktor kestabilan haiwan."
+      text_en: "Relate support system with animal stability factors."
+      bloom: "understand"
+      content_standard_id: "6.1"
+    - id: "6.2.1"
+      text: "Menerangkan fungsi sendi dan otot dalam pergerakan."
+      text_en: "Explain the functions of joints and muscles in movement."
+      bloom: "understand"
+      content_standard_id: "6.2"
+    - id: "6.2.2"
+      text: "Menjana idea yang masalah berkaitan sendi dan otot dalam kehidupan harian."
+      text_en: "Generate ideas for problems related to joints and muscles in daily life."
+      bloom: "create"
+      content_standard_id: "6.2"
+    - id: "6.2.3"
+      text: "Menerangkan pola pertumbuhan manusia."
+      text_en: "Explain human growth patterns."
+      bloom: "understand"
+      content_standard_id: "6.2"
+    - id: "6.2.4"
+      text: "Membanding dan membezakan pola pertumbuhan antara lelaki dan perempuan."
+      text_en: "Compare and contrast growth patterns between males and females."
+      bloom: "analyze"
+      content_standard_id: "6.2"
+    - id: "6.3.1"
+      text: "Menerangkan sistem sokongan tumbuhan daratan dan akuatik."
+      text_en: "Explain support systems of terrestrial and aquatic plants."
+      bloom: "understand"
+      content_standard_id: "6.3"
+    - id: "6.3.2"
+      text: "Menentukan usia tumbuhan berkayu."
+      text_en: "Determine the age of woody plants."
+      bloom: "apply"
+      content_standard_id: "6.3"
+    - id: "6.3.3"
+      text: "Menghubungkait sistem sokongan dan kestabilan dalam tumbuhan."
+      text_en: "Relate support system and stability in plants."
+      bloom: "understand"
+      content_standard_id: "6.3"
+    - id: "6.3.4"
+      text: "Menjalankan eksperimen untuk mendapatkan pola pertumbuhan tumbuhan."
+      text_en: "Conduct an experiment to obtain plant growth patterns."
+      bloom: "apply"
+      content_standard_id: "6.3"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai sokongan, pergerakan dan pertumbuhan manusia, haiwan dan tumbuhan."
+      text_en: "Recall science knowledge and skills regarding support, movement and growth of humans, animals and plants."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai sokongan, pergerakan dan pertumbuhan manusia, haiwan dan tumbuhan."
+      descriptor_en: "Recall science knowledge and skills regarding support, movement and growth of humans, animals and plants."
+    - level: 2
+      id: "TP2"
+      text: "Memahami sokongan, pergerakan dan pertumbuhan manusia, haiwan dan tumbuhan dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand support, movement and growth of humans, animals and plants and can explain the understanding."
+      descriptor: "Memahami sokongan, pergerakan dan pertumbuhan manusia, haiwan dan tumbuhan dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand support, movement and growth of humans, animals and plants and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai sokongan, pergerakan dan pertumbuhan manusia, haiwan dan tumbuhan dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge regarding support, movement and growth of humans, animals and plants and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai sokongan, pergerakan dan pertumbuhan manusia, haiwan dan tumbuhan dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge regarding support, movement and growth of humans, animals and plants and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai sokongan, pergerakan dan pertumbuhan manusia, haiwan dan tumbuhan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge regarding support, movement and growth of humans, animals and plants in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai sokongan, pergerakan dan pertumbuhan manusia, haiwan dan tumbuhan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge regarding support, movement and growth of humans, animals and plants in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai sokongan, pergerakan dan pertumbuhan manusia, haiwan dan tumbuhan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge regarding support, movement and growth of humans, animals and plants in the context of problem solving and making decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai sokongan, pergerakan dan pertumbuhan manusia, haiwan dan tumbuhan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge regarding support, movement and growth of humans, animals and plants in the context of problem solving and making decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai sokongan, pergerakan dan pertumbuhan manusia, haiwan dan tumbuhan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills regarding support, movement and growth of humans, animals and plants in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai sokongan, pergerakan dan pertumbuhan manusia, haiwan dan tumbuhan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using science knowledge and skills regarding support, movement and growth of humans, animals and plants in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+prerequisites:
+    required: []
+    recommended: []
+teaching:
+    sequence:
+        - Introduce types of animal skeletons using models and diagrams (25 min)
+        - Discuss human skeletal system with hands-on activities (30 min)
+        - Explain joints and muscles function in movement with examples (20 min)
+    common_misconceptions:
+        - misconception: Exoskeletons are just skin.
+          remediation: Use models to show the hard, protective nature of exoskeletons.
+        - misconception: All bones are solid.
+          remediation: Conduct experiments to show differences between compact and hollow bones.
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T00:00:00Z"
+sync_checked: false
+ai_teaching_notes: "SC4-06.teaching.md"
+assessments_file: "SC4-06.assessments.yaml"
+examples_file: SC4-06.examples.yaml
+engagement_hooks:
+    - Discuss local wildlife and their support systems to make it relatable.
+    - Explore how human growth patterns affect everyday activities.

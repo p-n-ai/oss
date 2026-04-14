@@ -1,0 +1,164 @@
+id: "SC4-10"
+official_ref: "Bab 10"
+name: "Kimia dalam Perubatan dan Kesihatan"
+name_en: "Chemistry in Medicine and Health"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+theme: "Penerokaan Unsur dalam Alam"
+content_standards:
+    - id: "10.1"
+      text: "Perubatan tradisional, perubatan moden and perubatan komplementari"
+      text_en: "Traditional medicine, modern medicine and complementary medicine"
+    - id: "10.2"
+      text: "Radikal bebas"
+      text_en: "Free Radicals"
+    - id: "10.3"
+      text: "Bahan antioksida"
+      text_en: "Antioxidant Materials"
+    - id: "10.4"
+      text: "Produk kesihatan"
+      text_en: "Health Products"
+learning_objectives:
+    - id: "10.1.1"
+      text: "Menerangkan ciri perubatan tradisional, moden dan komplementari."
+      text_en: "Explain characteristics of traditional, modern and complementary medicine."
+      bloom: "understand"
+      content_standard_id: "10.1"
+    - id: "10.1.2"
+      text: "Menerangkan ubat-ubatan yang digunakan dalam perubatan tradisional, moden dan komplementari."
+      text_en: "Explain medicines used in traditional, modern and complementary medicine."
+      bloom: "understand"
+      content_standard_id: "10.1"
+    - id: "10.1.3"
+      text: "Mewajarkan penggunaan perubatan tradisional, moden dan komplementari."
+      text_en: "Justify the use of traditional, modern and complementary medicine."
+      bloom: "evaluate"
+      content_standard_id: "10.1"
+    - id: "10.1.4"
+      text: "Menaakul mengenai penggunaan ubatan dari sumber semula jadi dan buatan manusia dalam perawatan dan penjagaan kesihatan."
+      text_en: "Reflect on the use of medicines from natural and man-made sources in health care and maintenance."
+      bloom: "evaluate"
+      content_standard_id: "10.1"
+    - id: "10.1.5"
+      text: "Merumuskan kesan penyalahgunaan ubat-ubatan."
+      text_en: "Summarize the effects of drug abuse."
+      bloom: "evaluate"
+      content_standard_id: "10.1"
+    - id: "10.2.1"
+      text: "Mendefinisikan radikal bebas."
+      text_en: "Define free radicals."
+      bloom: "remember"
+      content_standard_id: "10.2"
+    - id: "10.2.2"
+      text: "Menaakul mengenai kesan radikel bebas terhadap kesihatan manusia."
+      text_en: "Reflect on the effects of free radicals on human health."
+      bloom: "evaluate"
+      content_standard_id: "10.2"
+    - id: "10.3.1"
+      text: "Memerihalkan bahan antioksida."
+      text_en: "Describe antioxidant materials."
+      bloom: "understand"
+      content_standard_id: "10.3"
+    - id: "10.3.2"
+      text: "Menerangkan tindakan bahan antioksida ke atas radikal bebas."
+      text_en: "Explain the action of antioxidant materials on free radicals."
+      bloom: "understand"
+      content_standard_id: "10.3"
+    - id: "10.3.3"
+      text: "Menjalankan eksperimen untuk mengkaji faktor-faktor yang mempengaruhi pengoksidaan makanan."
+      text_en: "Conduct an experiment to study factors affecting food oxidation."
+      bloom: "apply"
+      content_standard_id: "10.3"
+    - id: "10.4.1"
+      text: "Menerangkan maksud bahan aktif dalam produk kesihatan."
+      text_en: "Explain the meaning of active ingredients in health products."
+      bloom: "understand"
+      content_standard_id: "10.4"
+    - id: "10.4.2"
+      text: "Mewajarkan penggunaan produk kesihatan yang terdapat dalam pasaran."
+      text_en: "Justify the use of health products available in the market."
+      bloom: "evaluate"
+      content_standard_id: "10.4"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai kimia dalam perubatan dan kesihatan."
+      text_en: "Recall science knowledge and skills regarding chemistry in medicine and health."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai kimia dalam perubatan dan kesihatan."
+      descriptor_en: "Recall science knowledge and skills regarding chemistry in medicine and health."
+    - level: 2
+      id: "TP2"
+      text: "Memahami kimia dalam perubatan dan kesihatan dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand chemistry in medicine and health and can explain the understanding."
+      descriptor: "Memahami kimia dalam perubatan dan kesihatan dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand chemistry in medicine and health and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai kimia dalam kesihatan dan perubatan dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge regarding chemistry in health and medicine and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai kimia dalam kesihatan dan perubatan dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge regarding chemistry in health and medicine and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai kimia dalam kesihatan dan perubatan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge regarding chemistry in health and medicine in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai kimia dalam kesihatan dan perubatan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge regarding chemistry in health and medicine in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai kimia dalam kesihatan dan perubatan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge regarding chemistry in health and medicine in the context of problem solving and making decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai kimia dalam kesihatan dan perubatan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge regarding chemistry in health and medicine in the context of problem solving and making decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai kimia dalam kesihatan dan perubatan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills regarding chemistry in health and medicine in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai kimia dalam kesihatan dan perubatan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using science knowledge and skills regarding chemistry in health and medicine in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+prerequisites:
+    required: []
+    recommended: []
+teaching:
+    sequence:
+        - Introduction to traditional, modern, and complementary medicine (20 min)
+        - Discussion on medications used in different medical practices (20 min)
+        - Evaluation of medical practices and their applications (20 min)
+        - Explanation of free radicals and their impact on health (15 min)
+        - Role of antioxidants in combating free radicals (15 min)
+        - Experiment on factors affecting food oxidation (30 min)
+    common_misconceptions:
+        - misconception: Natural substances are always safe.
+          remediation: Provide examples of toxic natural substances.
+        - misconception: All antioxidants have the same effect.
+          remediation: Discuss different types and sources of antioxidants.
+        - misconception: Traditional medicine is outdated.
+          remediation: Highlight the ongoing use and benefits of traditional practices.
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T00:00:00Z"
+sync_checked: false
+ai_teaching_notes: "SC4-10.teaching.md"
+assessments_file: "SC4-10.assessments.yaml"
+examples_file: SC4-10.examples.yaml
+engagement_hooks:
+    - Explore the use of traditional herbs in local cuisines and their health benefits.
+    - Analyze modern health products advertised on social media.

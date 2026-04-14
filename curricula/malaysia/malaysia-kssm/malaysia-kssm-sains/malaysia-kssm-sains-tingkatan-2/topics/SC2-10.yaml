@@ -1,0 +1,77 @@
+id: SC2-10
+official_ref: "Bab 10"
+name: "Gelombang Bunyi"
+name_en: "Sound Waves"
+subject_grade_id: malaysia-kssm-sains-tingkatan-2
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+content_standards:
+    - id: "10.1"
+      text: "Ciri gelombang bunyi"
+      text_en: "Characteristics of sound waves"
+    - id: "10.2"
+      text: "Kenyaringan dan kelansingan bunyi"
+      text_en: "Loudness and pitch of sound"
+    - id: "10.3"
+      text: "Fenomena dan aplikasi pantulan gelombang bunyi"
+      text_en: "Phenomena and application of sound wave reflection"
+learning_objectives:
+    - id: "10.1.1"
+      text: "Berkomunikasi mengenai ciri asas gelombang bunyi."
+      text_en: "Communicate about the basic characteristics of sound waves."
+      bloom: "understand"
+      content_standard_id: "10.1"
+    - id: "10.2.1"
+      text: "Menerangkan frekuensi bunyi dan unitnya serta amplitud getaran."
+      text_en: "Explain sound frequency and its units as well as vibration amplitude."
+      bloom: "understand"
+      content_standard_id: "10.2"
+    - id: "10.2.2"
+      text: "Menghubungkaitkan frekuensi dengan kelangsingan."
+      text_en: "Link frequency with pitch."
+      bloom: "analyze"
+      content_standard_id: "10.2"
+    - id: "10.2.3"
+      text: "Menghubungkaitkan amplitud dengan kenyaringan."
+      text_en: "Link amplitude with loudness."
+      bloom: "analyze"
+      content_standard_id: "10.2"
+    - id: "10.2.4"
+      text: "Menjelaska"
+      bloom: "remember"
+bloom_levels:
+    - understand
+    - analyze
+    - remember
+prerequisites:
+    required: []
+    recommended: []
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-04-10T16:29:11Z"
+ai_teaching_notes: SC2-10.teaching.md
+examples_file: SC2-10.examples.yaml
+teaching:
+    sequence:
+        - Pengenalan kepada gelombang bunyi dengan eksperimen garpu tala dan air (15 min)
+        - Jelaskan frekuensi dan amplitud serta kaitannya dengan bunyi (20 min)
+        - Bincangkan hubungan antara frekuensi dan kelangsingan bunyi (15 min)
+        - Terangkan hubungan antara amplitud dan kenyaringan bunyi (15 min)
+    common_misconceptions:
+        - misconception: Bunyi boleh bergerak dalam vakum
+          remediation: Lakukan eksperimen menunjukkan keperluan medium untuk bunyi bergerak
+        - misconception: Amplitud tinggi sama dengan frekuensi tinggi
+          remediation: Gunakan alat untuk menunjukkan perbezaan antara amplitud dan frekuensi
+engagement_hooks:
+    - Gunakan bunyi alat muzik tradisional untuk menjelaskan karakteristik bunyi
+    - Diskusi tentang bagaimana teknologi audio memanfaatkan gelombang bunyi
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+assessments_file: SC2-10.assessments.yaml

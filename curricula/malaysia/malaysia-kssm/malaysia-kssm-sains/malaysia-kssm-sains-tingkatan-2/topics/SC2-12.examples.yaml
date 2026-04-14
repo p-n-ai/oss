@@ -1,0 +1,48 @@
+topic_id: "SC2-12"
+provenance: "ai-generated"
+description: "Worked examples for Sistem Suria"
+worked_examples:
+    - id: "WE-01"
+      topic: "Membandingkan jarak planet dalam sistem suria daripada matahari"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "12.1.1"
+      real_world_analogy: "Memikirkan jarak antara rumah-rumah di sebuah kampung yang diukur dalam unit yang sama."
+      misconception_alert: "Pelajar mungkin salah faham bahawa semua planet berjarak sama dari Matahari."
+      scenario: "Membandingkan jarak Bumi dan Marikh dari Matahari dalam unit astronomi (a.u)."
+      working: |
+        Step 1: Ketahui jarak rata-rata Bumi dari Matahari adalah 1 a.u.
+        Step 2: Ketahui jarak rata-rata Marikh dari Matahari adalah kira-kira 1.52 a.u.
+        Step 3: Bezakan jarak dengan mengira beza: 1.52 a.u - 1 a.u = 0.52 a.u.
+        Step 4: Oleh itu, Marikh lebih jauh dari Matahari berbanding Bumi dengan jarak tambahan 0.52 a.u.
+    - id: "WE-02"
+      topic: "Membina jadual untuk membandingkan planet Sistem Suria"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "12.1.2"
+      real_world_analogy: "Membandingkan ciri-ciri pelajar seperti ketinggian dan berat dalam satu kelas."
+      misconception_alert: "Pelajar mungkin menganggap semua planet mempunyai saiz dan komposisi yang sama seperti Bumi."
+      scenario: "Bina jadual untuk membandingkan saiz, jarak dari Matahari, dan komposisi Bumi dan Jupiter."
+      working: |
+        Step 1: Kumpulkan data mengenai Bumi: saiz (diameter 12,742 km), jarak dari Matahari (1 a.u), dan komposisi (batu dan logam).
+        Step 2: Kumpulkan data mengenai Jupiter: saiz (diameter 139,820 km), jarak dari Matahari (5.2 a.u), dan komposisi (gas hidrogen dan helium).
+        Step 3: Bentuk jadual dengan kolum untuk 'Planet', 'Saiz (km)', 'Jarak (a.u)', dan 'Komposisi'.
+        Step 4: Isi data Bumi dan Jupiter ke dalam jadual.
+        Step 5: Bandingkan perbezaan yang jelas: Jupiter jauh lebih besar dan lebih jauh dari Matahari berbanding Bumi, serta komposisi berbeza.
+    - id: "WE-03"
+      topic: "Menaakul dan menganalogikan situasi hipotetikal dalam Sistem Suria"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "12.1.4"
+      real_world_analogy: "Membayangkan bagaimana kehidupan akan berubah jika kita hidup di kutub utara dengan malam yang lebih panjang."
+      misconception_alert: "Pelajar mungkin berfikir bahawa semua planet mempunyai tempoh siang dan malam serta musim yang sama seperti Bumi."
+      scenario: "Bayangkan jika Bumi berada pada jarak yang sama dengan Venus dari Matahari. Apakah kesan kepada suhu dan kehidupan?"
+      working: |-
+        Step 1: Ketahui bahawa Venus lebih dekat dengan Matahari berbanding Bumi dan menerima lebih banyak sinaran matahari.
+        Step 2: Analogi: Seperti bagaimana kita merasa lebih panas ketika lebih dekat dengan api.
+        Step 3: Jika Bumi berada pada jarak Venus, suhu akan meningkat kerana peningkatan sinaran matahari.
+        Step 4: Suhu lebih tinggi boleh menyebabkan keadaan lebih ekstrem yang mungkin tidak sesuai untuk kebanyakan bentuk kehidupan yang ada.
+        Step 5: Kesimpulan: Jarak dari Matahari mempengaruhi suhu planet, yang seterusnya mempengaruhi kebolehan menyokong kehidupan.

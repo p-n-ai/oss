@@ -1,0 +1,124 @@
+topic_id: "SC2-09"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 9.1.1
+    - id: "Q01"
+      text: "Bandingkan antara haba dan suhu dari aspek konsep dan unit pengukuran."
+      difficulty: "medium"
+      learning_objective: "9.1.1"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Haba adalah bentuk tenaga yang berpindah dari kawasan panas ke kawasan sejuk, diukur dalam joule (J). Suhu adalah ukuran darjah kepanasan sesuatu objek, diukur dalam darjah Celsius (°C) atau Kelvin (K)."
+        working: |
+            Haba dan suhu adalah dua konsep berbeza. Haba berkaitan dengan tenaga, manakala suhu adalah ukuran darjah kepanasan. Haba diukur dalam joule (J), manakala suhu diukur dalam darjah Celsius (°C) atau Kelvin (K).
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan konsep haba dan unitnya."
+        - marks: 2
+          criteria: "Menjelaskan konsep suhu dan unitnya."
+      hints:
+        - level: 1
+          text: "Ingat bahawa haba adalah bentuk tenaga."
+        - level: 2
+          text: "Pertimbangkan bagaimana suhu diukur berbanding dengan haba."
+    # Learning Objective: 9.2.1
+    - id: "Q02"
+      text: "Apakah arah aliran haba antara dua objek dengan suhu berbeza?"
+      difficulty: "medium"
+      learning_objective: "9.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "A"
+        working: |
+            Haba sentiasa mengalir dari objek yang lebih panas ke objek yang lebih sejuk sehingga keseimbangan suhu dicapai.
+        options:
+            A: "Haba mengalir dari objek panas ke objek sejuk."
+            B: "Haba mengalir dari objek sejuk ke objek panas."
+            C: "Haba tidak mengalir antara dua objek."
+            D: "Haba mengalir hanya jika kedua-dua objek berada pada suhu yang sama."
+        distractors:
+            - value: "B"
+              feedback: "Haba tidak mengalir dari objek sejuk ke objek panas."
+            - value: "C"
+              feedback: "Haba sentiasa mengalir apabila terdapat perbezaan suhu."
+            - value: "D"
+              feedback: "Haba mengalir untuk mencapai keseimbangan suhu, bukan apabila suhu sama."
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Memilih jawapan yang tepat mengenai arah aliran haba."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bagaimana keseimbangan suhu dicapai."
+    # Learning Objective: 9.2.3
+    - id: "Q03"
+      text: "Jelaskan peranan konduktor dan penebat haba dalam kehidupan harian."
+      difficulty: "medium"
+      learning_objective: "9.2.3"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Konduktor haba seperti logam digunakan dalam peralatan memasak kerana ia memindahkan haba dengan baik. Penebat haba seperti gabus menghalang kehilangan haba dan digunakan dalam termos."
+        working: |
+            Konduktor haba, seperti besi dan aluminium, digunakan dalam kuali dan periuk kerana keupayaan mereka untuk memindahkan haba dengan cekap. Penebat haba, seperti polistirena dan gabus, digunakan dalam termos dan peti sejuk untuk mengekalkan suhu dengan menghalang kehilangan haba.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan peranan konduktor haba dalam kehidupan harian."
+        - marks: 2
+          criteria: "Menjelaskan peranan penebat haba dalam kehidupan harian."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang bahan yang digunakan dalam peralatan dapur."
+        - level: 2
+          text: "Kenapa termos boleh mengekalkan suhu?"
+    # Learning Objective: 9.3.1
+    - id: "Q04"
+      text: "Bagaimana haba menyebabkan pengembangan dan pengecutan cecair? Berikan contoh."
+      difficulty: "medium"
+      learning_objective: "9.3.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Haba menyebabkan molekul cecair bergerak lebih cepat dan berjauhan, menyebabkan pengembangan. Contoh: air dalam termometer mengembang apabila dipanaskan."
+        working: |
+            Apabila cecair dipanaskan, molekulnya bergerak lebih laju dan menjauhi satu sama lain, menyebabkan cecair mengembang. Sebaliknya, apabila cecair disejukkan, molekulnya bergerak lebih perlahan dan rapat, menyebabkan pengecutan. Contoh: termometer merkuri.
+      marks: 3
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan mekanisme pengembangan dan pengecutan cecair."
+        - marks: 1
+          criteria: "Memberi contoh yang sesuai."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang pergerakan molekul dalam cecair."
+        - level: 2
+          text: "Bagaimana termometer berfungsi?"
+    # Learning Objective: 9.4.1
+    - id: "Q05"
+      text: "Mengapa objek yang gelap dan kusam menyerap haba lebih baik daripada objek putih dan berkilat?"
+      difficulty: "medium"
+      learning_objective: "9.4.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Objek gelap dan kusam menyerap lebih banyak sinaran haba kerana permukaannya memerangkap lebih banyak tenaga berbanding objek putih dan berkilat yang memantulkan sinaran."
+        working: |
+            Objek gelap dan kusam mempunyai permukaan yang lebih menyerap dan memerangkap radiasi haba, sementara objek putih dan berkilat memantulkan lebih banyak radiasi, menyebabkan penyerapan haba yang kurang.
+      marks: 3
+      rubric:
+        - marks: 3
+          criteria: "Menjelaskan sifat penyerapan dan pantulan permukaan objek."
+      hints:
+        - level: 1
+          text: "Pertimbangkan warna dan tekstur permukaan objek."
+        - level: 2
+          text: "Bagaimana cahaya dan haba berinteraksi dengan permukaan yang berbeza?"

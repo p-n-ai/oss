@@ -1,0 +1,44 @@
+topic_id: "SC4-07"
+provenance: "ai-generated"
+description: "Worked examples for Koordinasi Badan"
+worked_examples:
+    - id: "WE-01"
+      topic: "Sistem Endokrin dan Fungsinya"
+      difficulty: "easy"
+      tp_level: 1
+      kbat: false
+      learning_objective: "7.1.1"
+      real_world_analogy: "Sistem endokrin berfungsi seperti sistem pos yang menghantar surat arahan ke seluruh badan."
+      misconception_alert: "Pelajar sering menganggap hormon hanya mempengaruhi pertumbuhan, padahal ia juga mengawal metabolisme dan fungsi lain."
+      scenario: "Terangkan bagaimana sistem endokrin berfungsi dalam tubuh manusia."
+      working: |
+        Step 1: Kenal pasti kelenjar utama dalam sistem endokrin seperti pituitari, tiroid, dan adrenal.
+        Step 2: Fahami bahawa kelenjar ini menghasilkan hormon yang berfungsi sebagai 'utusan kimia'.
+        Step 3: Hormon dihantar melalui aliran darah ke organ sasaran untuk mengawal pelbagai fungsi badan seperti pertumbuhan, metabolisme, dan mood.
+    - id: "WE-02"
+      topic: "Punca dan Kesan Ketidakseimbangan Hormon"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "7.1.2"
+      real_world_analogy: "Ketidakseimbangan hormon adalah seperti ketidakstabilan sistem navigasi yang menyebabkan kereta bergerak tidak lancar."
+      misconception_alert: "Pelajar sering tidak menyedari bahawa ketidakseimbangan hormon boleh disebabkan oleh faktor luaran seperti diet tidak seimbang."
+      scenario: "Jelaskan dengan contoh punca dan kesan ketidakseimbangan hormon ke atas kesihatan."
+      working: |
+        Step 1: Kenal pasti hormon yang sering terlibat dalam ketidakseimbangan seperti insulin dan tiroid.
+        Step 2: Terangkan punca ketidakseimbangan seperti kekurangan nutrisi atau penyakit autoimun.
+        Step 3: Huraikan kesannya seperti diabetes akibat kekurangan insulin atau hipertiroidisme yang menyebabkan peningkatan metabolisme.
+    - id: "WE-03"
+      topic: "Kesan Penyalahgunaan Dadah dan Alkohol"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "7.2.2"
+      real_world_analogy: "Menyalahgunakan dadah adalah seperti merosakkan sistem kawalan pesawat, menyebabkan ia hilang kawalan dan berisiko terhempas."
+      misconception_alert: "Pelajar mungkin berfikir bahawa kesan dadah hanya fizikal tetapi ia juga memberi kesan mental yang serius."
+      scenario: "Analisis kesan penyalahgunaan dadah dan alkohol ke atas koordinasi badan dan kesihatan mental."
+      working: |-
+        Step 1: Jelaskan bagaimana dadah dan alkohol mengganggu sistem saraf pusat, mempengaruhi koordinasi.
+        Step 2: Analisis kesan jangka pendek seperti kehilangan keseimbangan dan reaksi lambat.
+        Step 3: Kaji kesan jangka panjang seperti kerosakan otak kekal dan risiko penyakit mental.
+        Step 4: Bincangkan implikasi sosial dan kesan kepada persekitaran individu yang terjejas.

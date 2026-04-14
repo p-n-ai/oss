@@ -1,0 +1,45 @@
+topic_id: "SC4-11"
+provenance: "ai-generated"
+description: "Worked examples for Daya dan Gerakan"
+worked_examples:
+    - id: "WE-01"
+      topic: "Perbezaan antara jarak dan sesaran"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "11.1.1"
+      real_world_analogy: "Mengukur jarak dari rumah ke sekolah mengikut jalan raya (jarak) berbanding dengan mengukur jarak lurus dari rumah ke sekolah (sesaran)."
+      misconception_alert: "Pelajar sering keliru antara jarak dan sesaran, menganggap kedua-duanya sama kerana kedua-duanya melibatkan 'ukuran'."
+      scenario: "Ali berjalan dari rumah ke sekolah dengan mengambil jalan berbentuk 'L'. Jarak sepanjang jalan tersebut ialah 5 km. Jika jarak lurus dari rumah ke sekolah ialah 3 km, apakah jarak dan sesaran perjalanan Ali?"
+      working: |
+        Step 1: Kenal pasti jarak perjalanan Ali yang dilalui, iaitu 5 km.
+        Step 2: Kenal pasti sesaran, iaitu jarak lurus dari rumah ke sekolah, iaitu 3 km.
+        Step 3: Jawapan: Jarak ialah 5 km, sesaran ialah 3 km.
+    - id: "WE-02"
+      topic: "Maksud laju, laju purata, halaju dan pecutan"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "11.1.2"
+      real_world_analogy: "Seorang pelari yang berlari dalam satu bulatan mempunyai halaju purata yang berbeza daripada laju purata kerana halaju melibatkan arah."
+      misconception_alert: "Pelajar sering menganggap laju dan halaju sebagai konsep yang sama kerana kedua-duanya diukur dalam m/s."
+      scenario: "Seorang pelari berlari 400m dalam satu bulatan selama 50 saat. Kira laju purata dan halaju purata pelari tersebut."
+      working: |
+        Step 1: Kira laju purata menggunakan formula: $\text{Laju purata} = \frac{\text{Jarak}}{\text{Masa}} = \frac{400 \text{ m}}{50 \text{ s}} = 8 \text{ m/s}$
+        Step 2: Kerana pelari kembali ke titik permulaan, sesaran ialah 0 m.
+        Step 3: Kira halaju purata menggunakan formula: $\text{Halaju purata} = \frac{\text{Sesaran}}{\text{Masa}} = \frac{0 \text{ m}}{50 \text{ s}} = 0 \text{ m/s}$
+        Step 4: Jawapan: Laju purata ialah 8 m/s, halaju purata ialah 0 m/s.
+    - id: "WE-03"
+      topic: "Menyelesaikan masalah laju, laju purata, halaju dan pecutan"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "11.1.3"
+      real_world_analogy: "Memecut dari lampu isyarat merah ke hijau melibatkan perubahan halaju."
+      misconception_alert: "Pelajar sering mengabaikan arah dalam pengiraan halaju dan pecutan, menyebabkan kesilapan dalam menentukan nilai negatif atau positif."
+      scenario: "Sebuah kereta memecut dari 0 m/s ke 20 m/s dalam masa 5 saat. Apakah pecutan kereta tersebut?"
+      working: |-
+        Step 1: Kenal pasti halaju awal ($u$) kereta ialah 0 m/s dan halaju akhir ($v$) ialah 20 m/s.
+        Step 2: Kenal pasti masa ($t$) yang diambil ialah 5 saat.
+        Step 3: Guna formula pecutan: $a = \frac{v - u}{t} = \frac{20 \text{ m/s} - 0 \text{ m/s}}{5 \text{ s}} = 4 \text{ m/s}^2$
+        Step 4: Jawapan: Pecutan kereta ialah 4 m/s².

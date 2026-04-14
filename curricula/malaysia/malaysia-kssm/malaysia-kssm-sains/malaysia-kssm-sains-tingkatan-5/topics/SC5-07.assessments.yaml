@@ -1,0 +1,126 @@
+topic_id: "SC5-07"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 7.1.1
+    - id: "Q01"
+      text: 'Jelaskan bagaimana kanta cembung berfungsi sebagai kanta penumpu.'
+      difficulty: "medium"
+      learning_objective: "7.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Kanta cembung menumpukan cahaya ke satu titik fokus, membentuk imej nyata."
+        working: |
+            Kanta cembung menyebabkan sinar cahaya yang melalui kanta tersebut bertemu pada satu titik fokus. Oleh itu, ia dikenali sebagai kanta penumpu.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan bahawa kanta cembung menumpukan cahaya."
+        - marks: 1
+          criteria: "Menyebut tentang titik fokus."
+        - marks: 1
+          criteria: "Menggunakan istilah 'kanta penumpu'."
+      hints:
+        - level: 1
+          text: "Fikirkan bagaimana cahaya bergerak melalui kanta cembung."
+        - level: 2
+          text: "Cahaya bertemu pada satu titik selepas melalui kanta ini."
+    # Learning Objective 7.1.2
+    - id: "Q02"
+      text: 'Bagaimanakah anda menentukan panjang fokus bagi suatu kanta cembung menggunakan objek jauh?'
+      difficulty: "medium"
+      learning_objective: "7.1.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Menggunakan imej yang terbentuk pada skrin untuk mengukur jarak dari kanta ke skrin sebagai panjang fokus."
+        working: |
+            Letakkan kanta cembung di hadapan objek jauh dan gerakkan skrin sehingga imej yang jelas terbentuk. Ukur jarak dari kanta ke skrin; ini adalah panjang fokus kanta.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan kaedah menggunakan skrin untuk menerima imej."
+        - marks: 2
+          criteria: "Menyatakan pengukuran jarak sebagai panjang fokus."
+      hints:
+        - level: 1
+          text: "Fikirkan bagaimana imej terbentuk apabila menggunakan objek jauh."
+        - level: 2
+          text: "Anda perlu menggunakan skrin untuk melihat imej."
+    # Learning Objective 7.1.3
+    - id: "Q03"
+      text: 'Lukiskan gambarajah sinar untuk menunjukkan pembentukan imej oleh kanta cembung apabila objek diletakkan di luar panjang fokus.'
+      difficulty: "medium"
+      learning_objective: "7.1.3"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Gambarajah sinar yang menunjukkan sinar bertemu di satu titik setelah melalui kanta."
+        working: |
+            1. Lukis sinar yang melalui pusat optik kanta yang tidak dibelokkan.
+            2. Lukis sinar selari dengan paksi utama yang dibelokkan melalui titik fokus.
+            3. Imej terbentuk di persilangan sinar-sinar ini.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Menunjukkan sinar melalui pusat optik tanpa pembelokan."
+        - marks: 2
+          criteria: "Menunjukkan sinar selari yang dibelokkan melalui titik fokus."
+        - marks: 1
+          criteria: "Menunjukkan titik persilangan sinar sebagai imej."
+      hints:
+        - level: 1
+          text: "Ingat, satu sinar mesti melalui pusat optik tanpa pembelokan."
+        - level: 2
+          text: "Satu sinar mesti selari dengan paksi utama dan dibelokkan melalui fokus."
+    # Learning Objective 7.2.1
+    - id: "Q04"
+      text: 'Terangkan bagaimana imej akhir terbentuk dalam sebuah mikroskop.'
+      difficulty: "medium"
+      learning_objective: "7.2.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Imej akhir dalam mikroskop adalah imej maya yang diperbesarkan."
+        working: |
+            Mikroskop menggunakan dua kanta cembung. Objek yang diamati membentuk imej nyata yang diperbesarkan oleh kanta objektif. Imej ini kemudian berfungsi sebagai objek bagi kanta mata, yang membentuk imej akhir maya yang lebih besar.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menerangkan pembentukan imej nyata oleh kanta objektif."
+        - marks: 2
+          criteria: "Menerangkan pembentukan imej maya oleh kanta mata."
+      hints:
+        - level: 1
+          text: "Pertimbangkan peranan kedua-dua kanta dalam mikroskop."
+        - level: 2
+          text: "Kanta objektif membentuk imej nyata, manakala kanta mata membentuk imej maya."
+    # Learning Objective 7.2.2
+    - id: "Q05"
+      text: 'Mereka bentuk teleskop ringkas menggunakan dua kanta. Apakah jenis kanta yang anda gunakan dan bagaimana ia disusun?'
+      difficulty: "medium"
+      learning_objective: "7.2.2"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Gunakan dua kanta cembung, satu sebagai kanta objektif dan satu lagi sebagai kanta mata. Susun kanta objektif terlebih dahulu dan kanta mata di belakangnya."
+        working: |
+            Kanta objektif (dengan panjang fokus lebih panjang) diletakkan di hadapan untuk mengumpul cahaya dan membentuk imej nyata. Kanta mata (dengan panjang fokus lebih pendek) diletakkan dekat mata untuk memperbesar imej tersebut.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Memilih jenis kanta yang sesuai (kanta cembung)."
+        - marks: 2
+          criteria: "Menyusun kanta dalam urutan yang betul (objektif di depan, mata di belakang)."
+        - marks: 1
+          criteria: "Menjelaskan peranan setiap kanta dalam teleskop."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang jenis kanta yang membentuk imej nyata dan maya."
+        - level: 2
+          text: "Susunan kanta adalah penting untuk fungsi teleskop."

@@ -1,0 +1,135 @@
+topic_id: "SC2-07"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 7.1.2
+    - id: "Q01"
+      text: 'Apakah yang akan berlaku apabila dua objek dengan cas elektrostatik yang sama didekatkan antara satu sama lain?'
+      difficulty: "medium"
+      learning_objective: "7.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "A"
+        working: |
+            Objek dengan cas elektrostatik yang sama akan menolak antara satu sama lain kerana cas yang sama menolak.
+        options:
+            A: "Mereka akan menolak antara satu sama lain."
+            B: "Mereka akan menarik antara satu sama lain."
+            C: "Mereka akan kekal di tempat tanpa interaksi."
+            D: "Mereka akan hilang casnya."
+        distractors:
+            - value: "B"
+              feedback: "Cas yang berlawanan akan menarik, bukan cas yang sama."
+            - value: "C"
+              feedback: "Objek dengan cas yang sama tidak akan kekal di tempat tanpa interaksi."
+            - value: "D"
+              feedback: "Cas tidak akan hilang hanya dengan mendekati satu sama lain."
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Memilih jawapan yang betul dan memberikan alasan yang sesuai."
+        - marks: 1
+          criteria: "Memilih jawapan yang betul tanpa alasan."
+      hints:
+        - level: 1
+          text: "Ingat, cas yang sama cenderung untuk menolak antara satu sama lain."
+        - level: 2
+          text: "MISCONCEPTION ALERT: Jangan keliru dengan cas berbeza yang menarik antara satu sama lain."
+    # Learning Objective: 7.1.4
+    - id: "Q02"
+      text: 'Jelaskan bagaimana cas yang mengalir menghasilkan arus elektrik.'
+      difficulty: "medium"
+      learning_objective: "7.1.4"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Apabila cas elektrik mengalir melalui suatu konduktor, ia menghasilkan arus elektrik. Arus adalah hasil daripada pergerakan cas positif atau negatif.'
+        working: |
+            Arus elektrik adalah pergerakan cas elektrik. Dalam litar, elektron mengalir dari terminal negatif ke terminal positif, menyebabkan arus mengalir.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan bahawa arus elektrik adalah pergerakan cas."
+        - marks: 1
+          criteria: "Menyebut bahawa arus dihasilkan oleh pergerakan cas melalui konduktor."
+        - marks: 1
+          criteria: "Menjelaskan hubungan antara terminal dan arah aliran arus."
+      hints:
+        - level: 1
+          text: "Apakah yang mengalir dalam litar untuk menghasilkan arus?"
+        - level: 2
+          text: "MISCONCEPTION ALERT: Arus tidak hanya pergerakan elektron; ia juga melibatkan cas positif."
+    # Learning Objective: 7.1.6
+    - id: "Q03"
+      text: 'Jika rintangan dalam suatu litar adalah 5 Ω dan voltan yang digunakan ialah 10 V, hitung arus yang mengalir dalam litar tersebut.'
+      difficulty: "medium"
+      learning_objective: "7.1.6"
+      tp_level: 4
+      kbat: false
+      answer:
+        type: "exact"
+        value: '2 A'
+        working: "Menggunakan hukum Ohm, arus (I) boleh dikira dengan formula: I = V / R. \nDengan V = 10 V dan R = 5 Ω, arus I = 10 V / 5 Ω = 2 A.\n"
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menulis formula hukum Ohm dengan betul."
+        - marks: 1
+          criteria: "Menggantikan nilai voltan dan rintangan dengan betul dalam formula."
+        - marks: 1
+          criteria: "Mengira arus dengan betul."
+      hints:
+        - level: 1
+          text: "Gunakan hukum Ohm untuk menyelesaikan masalah ini."
+        - level: 2
+          text: "Formula hukum Ohm: I = V / R."
+    # Learning Objective: 7.3.1
+    - id: "Q04"
+      text: 'Apakah dua ciri utama magnet yang membezakannya daripada bahan bukan magnet?'
+      difficulty: "medium"
+      learning_objective: "7.3.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Dua ciri utama magnet ialah ia mempunyai kutub utara dan selatan, dan ia boleh menarik bahan feromagnetik seperti besi.'
+        working: |
+            Magnet mempunyai dua kutub: utara dan selatan. Magnet menarik bahan feromagnetik, yang tidak berlaku dengan bahan bukan magnet.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menyebut tentang kutub utara dan selatan magnet."
+        - marks: 1
+          criteria: "Menyebut tentang keupayaan magnet menarik bahan feromagnetik."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang kutub dan bahan yang boleh ditarik oleh magnet."
+        - level: 2
+          text: "MISCONCEPTION ALERT: Bukan semua bahan boleh ditarik oleh magnet."
+    # Learning Objective: 7.3.3
+    - id: "Q05"
+      text: 'Sebutkan satu aplikasi elektromagnet dalam kehidupan harian dan jelaskan cara ia berfungsi.'
+      difficulty: "medium"
+      learning_objective: "7.3.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Satu aplikasi elektromagnet adalah dalam motor elektrik. Elektromagnet digunakan untuk menghasilkan medan magnet yang berinteraksi dengan rotor untuk menghasilkan gerakan putaran.'
+        working: |
+            Dalam motor elektrik, elektromagnet diaktifkan apabila arus elektrik mengalir melaluinya, menghasilkan medan magnet. Medan ini berinteraksi dengan rotor yang menyebabkan ia berputar dan menukar tenaga elektrik kepada tenaga mekanikal.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyebut aplikasi elektromagnet dalam kehidupan harian."
+        - marks: 1
+          criteria: "Menjelaskan penggunaan elektromagnet dalam aplikasi tersebut."
+        - marks: 1
+          criteria: "Menggambarkan proses bagaimana elektromagnet menghasilkan gerakan."
+      hints:
+        - level: 1
+          text: "Fikirkan alat yang menggunakan putaran dan medan magnet."
+        - level: 2
+          text: "MISCONCEPTION ALERT: Elektromagnet tidak semestinya kekal; ia boleh dihidupkan dan dimatikan."

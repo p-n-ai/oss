@@ -1,0 +1,152 @@
+topic_id: "SJ1-02"
+provenance: "ai-generated"
+questions:
+    # LO 2.1.2 - Menyenaraikan Zaman Air Batu
+    - id: "Q01"
+      text: 'Senaraikan empat peringkat utama dalam Zaman Air Batu.'
+      difficulty: "medium"
+      learning_objective: "2.1.2"
+      tp_level: 2
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Pleistosen, Holosen, Terkini, dan Zaman Ais"
+        working: |
+            Empat peringkat utama dalam Zaman Air Batu adalah:
+            1. Pleistosen
+            2. Holosen
+            3. Terkini
+            4. Zaman Ais
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menulis mana-mana satu peringkat dengan betul."
+        - marks: 2
+          criteria: "Menulis dua peringkat dengan betul."
+        - marks: 3
+          criteria: "Menulis tiga peringkat dengan betul."
+        - marks: 4
+          criteria: "Menulis semua empat peringkat dengan betul."
+      hints:
+        - level: 1
+          text: "Ingat kembali tempoh yang merangkumi perubahan iklim utama."
+        - level: 2
+          text: "Fokus pada peringkat yang melibatkan perubahan drastik dalam suhu."
+    # LO 2.1.4 - Menjelaskan ciri-ciri Zaman Air Batu akhir
+    - id: "Q02"
+      text: 'Terangkan ciri-ciri utama Zaman Air Batu akhir.'
+      difficulty: "medium"
+      learning_objective: "2.1.4"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Penurunan suhu global, pembentukan glasier besar, dan penurunan paras laut."
+        working: |
+            Ciri-ciri utama Zaman Air Batu akhir termasuk:
+            - Penurunan suhu global yang ketara.
+            - Pembentukan glasier besar di banyak kawasan.
+            - Penurunan paras laut akibat peningkatan jumlah ais.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan satu ciri utama dengan betul."
+        - marks: 2
+          criteria: "Menyatakan dua ciri utama dengan betul."
+        - marks: 3
+          criteria: "Menyatakan semua ciri utama dengan betul."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bagaimana suhu dan ais mempengaruhi persekitaran."
+        - level: 2
+          text: "Perubahan dalam paras laut adalah salah satu ciri utama."
+    # LO 2.1.5 - Membincangkan perubahan Zaman Air Batu
+    - id: "Q03"
+      text: 'Bincangkan perubahan yang berlaku ketika peralihan dari Zaman Air Batu ke zaman sekarang.'
+      difficulty: "medium"
+      learning_objective: "2.1.5"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Perubahan iklim, kepupusan spesies tertentu, dan perkembangan tamadun manusia."
+        working: |
+            Perubahan yang berlaku termasuk:
+            - Pemanasan global yang mengakibatkan peningkatan suhu.
+            - Kepupusan spesies seperti mamot berbulu akibat perubahan habitat.
+            - Peralihan ke pertanian dan permulaan tamadun manusia.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan satu perubahan dengan betul."
+        - marks: 2
+          criteria: "Menyatakan dua perubahan dengan betul."
+        - marks: 3
+          criteria: "Menyatakan tiga perubahan dengan betul."
+        - marks: 4
+          criteria: "Menerangkan perubahan dengan contoh yang relevan."
+      hints:
+        - level: 1
+          text: "Fikirkan bagaimana manusia mula menyesuaikan diri dengan perubahan iklim."
+        - level: 2
+          text: "Pertimbangkan peralihan dari pemburuan ke pertanian."
+    # LO 2.1.6 - Menilai kesan perubahan di Asia Tenggara
+    - id: "Q04"
+      text: 'Nilai kesan perubahan Zaman Air Batu kepada geografi dan kebudayaan di Asia Tenggara.'
+      difficulty: "medium"
+      learning_objective: "2.1.6"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Perubahan geografi seperti pembentukan tanah besar dan peralihan kebudayaan ke pertanian."
+        working: |
+            Kesan perubahan di Asia Tenggara termasuk:
+            - Pembentukan tanah besar yang menghubungkan pulau-pulau.
+            - Peralihan penduduk dari gaya hidup nomad ke pertanian tetap.
+            - Peningkatan dalam perdagangan dan interaksi budaya.
+      marks: 5
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan satu kesan geografi dengan betul."
+        - marks: 2
+          criteria: "Menyatakan satu kesan kebudayaan dengan betul."
+        - marks: 3
+          criteria: "Menyatakan dua kesan dengan betul."
+        - marks: 4
+          criteria: "Menyatakan tiga kesan dengan betul."
+        - marks: 5
+          criteria: "Menghubungkan perubahan geografi dengan kebudayaan secara menyeluruh."
+      hints:
+        - level: 1
+          text: "Fikirkan bagaimana perubahan iklim mengubah landskap fizikal."
+        - level: 2
+          text: "Pertimbangkan bagaimana adaptasi manusia kepada perubahan ini membentuk budaya."
+    # LO 2.1.10 - Menjelaskan kepentingan usaha-usaha untuk memelihara dan memulihara alam sekitar
+    - id: "Q05"
+      text: 'Jelaskan kepentingan usaha-usaha untuk memelihara dan memulihara alam sekitar di masa kini.'
+      difficulty: "medium"
+      learning_objective: "2.1.10"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Memastikan kelangsungan biodiversiti, mengurangkan kesan perubahan iklim, dan menjamin sumber untuk generasi akan datang."
+        working: |
+            Kepentingan usaha memelihara dan memulihara termasuk:
+            - Memastikan kelangsungan biodiversiti yang penting untuk ekosistem.
+            - Mengurangkan kesan perubahan iklim dengan mengekalkan keseimbangan alam.
+            - Menjamin ketersediaan sumber alam untuk generasi akan datang.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan satu kepentingan dengan betul."
+        - marks: 2
+          criteria: "Menyatakan dua kepentingan dengan betul."
+        - marks: 3
+          criteria: "Menyatakan semua kepentingan dengan betul."
+      hints:
+        - level: 1
+          text: "Pertimbangkan kesan jangka panjang terhadap ekosistem."
+        - level: 2
+          text: "Fikirkan tentang kepentingan sumber alam untuk generasi akan datang."

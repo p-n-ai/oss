@@ -1,0 +1,45 @@
+topic_id: "SC2-11"
+provenance: "ai-generated"
+description: "Worked examples for Bintang dan Galaksi dalam Alam Semesta"
+worked_examples:
+    - id: "WE-01"
+      topic: "Ciri-ciri Bintang"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "11.1.1"
+      real_world_analogy: "Memikirkan bintang sebagai lampu-lampu di langit malam yang mempunyai jenis dan kecerahan berbeza seperti lampu di jalan raya."
+      misconception_alert: "Pelajar mungkin berfikir bahawa semua bintang adalah sama, sedangkan mereka berbeza dalam saiz, warna, dan kecerahan."
+      scenario: "Jelaskan ciri-ciri bintang yang dapat dilihat dari Bumi dan bagaimana kita boleh mengkategorikannya."
+      working: |
+        Step 1: Kenal pasti ciri-ciri utama bintang seperti saiz, suhu, warna, dan kecerahan.
+        Step 2: Fahami bahawa bintang boleh dikelaskan berdasarkan spektrum cahaya yang mereka pancarkan. Bintang yang lebih panas selalunya berwarna biru, manakala bintang yang lebih sejuk berwarna merah.
+        Step 3: Pelajari bagaimana bintang yang lebih besar dan lebih panas cenderung lebih cerah dan dapat dilihat dari jarak yang lebih jauh.
+    - id: "WE-02"
+      topic: "Perbandingan Bintang dan Matahari"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "11.1.2"
+      real_world_analogy: "Membandingkan bintang dengan matahari seperti membandingkan bola lampu kecil dengan mentol lampu besar di rumah."
+      misconception_alert: "Kesalahfahaman biasa ialah matahari dianggap lebih besar daripada semua bintang lain kerana ia kelihatan lebih besar di langit."
+      scenario: "Bandingkan matahari dengan bintang-bintang lain dalam galaksi kita berdasarkan saiz, suhu, dan kecerahan."
+      working: |
+        Step 1: Fahami bahawa matahari adalah bintang yang kita lihat dari jarak dekat, oleh itu ia kelihatan lebih besar dan lebih cerah daripada bintang lain.
+        Step 2: Bandingkan saiz matahari dengan bintang-bintang lain. Terdapat bintang yang jauh lebih besar dan lebih kecil daripada matahari.
+        Step 3: Bandingkan suhu matahari, ia adalah bintang jenis G dengan suhu permukaan kira-kira 5,500°C, sedangkan bintang lain mungkin lebih panas atau lebih sejuk.
+        Step 4: Bandingkan kecerahan matahari dengan bintang lain. Beberapa bintang yang lebih besar dan lebih panas bersinar lebih terang tetapi kelihatan redup dari Bumi kerana jarak yang lebih jauh.
+    - id: "WE-03"
+      topic: "Pengamatan Bintang di Bumi"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "11.1.2"
+      real_world_analogy: "Membayangkan bintang di langit malam seperti melihat pelbagai jenis bunga di taman, masing-masing dengan ciri uniknya."
+      misconception_alert: "Kesalahfahaman bahawa semua bintang kelihatan pada setiap masa dari mana-mana lokasi di Bumi."
+      scenario: "Jelaskan bagaimana kedudukan dan pergerakan Bumi mempengaruhi pengamatan bintang dari Bumi."
+      working: |-
+        Step 1: Ketahui bahawa Bumi berputar pada paksinya dan mengorbit matahari, yang mempengaruhi bintang mana yang kelihatan pada waktu tertentu.
+        Step 2: Fahami bahawa disebabkan oleh putaran harian Bumi, bintang nampak bergerak melintasi langit dari timur ke barat.
+        Step 3: Pelajari bahawa kedudukan geografi seseorang di Bumi mempengaruhi bintang mana yang dapat dilihat, kerana langit malam berubah sepanjang tahun.
+        Step 4: Perhatikan bahawa bintang tertentu, seperti bintang kutub, kelihatan tidak bergerak kerana kedudukan mereka selari dengan paksi putaran Bumi.

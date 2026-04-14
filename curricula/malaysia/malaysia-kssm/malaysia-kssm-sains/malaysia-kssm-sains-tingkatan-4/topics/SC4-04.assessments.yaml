@@ -1,0 +1,126 @@
+topic_id: "SC4-04"
+provenance: "ai-generated"
+questions:
+    # Learning objective 4.1.1
+    - id: "Q01"
+      text: 'Jelaskan apakah yang dimaksudkan dengan Teknologi Hijau dan mengapa ia penting dalam kehidupan seharian?'
+      difficulty: "medium"
+      learning_objective: "4.1.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Teknologi Hijau merujuk kepada pembangunan dan aplikasi produk, peralatan, dan sistem untuk memelihara alam sekitar dan sumber asli. Ia penting kerana membantu mengurangkan kesan negatif terhadap alam sekitar."
+        working: |
+            Teknologi Hijau melibatkan penggunaan sumber tenaga yang boleh diperbaharui, pengurangan penggunaan bahan berbahaya, dan pengurusan sisa yang efektif. Kepentingannya termasuk pengurangan pencemaran, pemeliharaan biodiversiti, dan penurunan jejak karbon.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan definisi Teknologi Hijau."
+        - marks: 2
+          criteria: "Menjelaskan kepentingan Teknologi Hijau dengan satu contoh."
+        - marks: 1
+          criteria: "Mengaitkan kepentingan dengan kehidupan seharian."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang bagaimana teknologi ini menyokong kelestarian alam."
+        - level: 2
+          text: "Pertimbangkan impak Teknologi Hijau terhadap penggunaan tenaga dan pencemaran."
+    # Learning objective 4.1.2
+    - id: "Q02"
+      text: 'Bagaimana kecekapan tenaga dihubungkan dengan teknologi hijau?'
+      difficulty: "medium"
+      learning_objective: "4.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Kecekapan tenaga adalah elemen utama dalam teknologi hijau yang bertujuan untuk mengurangkan penggunaan tenaga sambil mengekalkan atau meningkatkan output."
+        working: |
+            Kecekapan tenaga memastikan penggunaan tenaga yang minimum untuk mencapai hasil yang diinginkan, mengurangkan pembaziran tenaga dan kos yang berkaitan. Ini dicapai melalui teknologi yang mampu mengoptimakan penggunaan tenaga seperti lampu LED, peralatan cekap tenaga dan bangunan berteknologi hijau.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan hubungan asas antara kecekapan tenaga dan teknologi hijau."
+        - marks: 2
+          criteria: "Memberikan contoh spesifik aplikasi teknologi hijau yang meningkatkan kecekapan tenaga."
+      hints:
+        - level: 1
+          text: "Pertimbangkan bagaimana teknologi membantu mengurangkan pembaziran tenaga."
+        - level: 2
+          text: "Fikirkan teknologi seperti lampu LED dan peralatan cekap tenaga."
+    # Learning objective 4.2.3
+    - id: "Q03"
+      text: 'Mengapa aplikasi teknologi hijau penting dalam menangani isu sosiosaintifik sektor tenaga?'
+      difficulty: "medium"
+      learning_objective: "4.2.3"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Aplikasi teknologi hijau penting kerana ia membantu mengurangkan pencemaran, menurunkan jejak karbon, dan meningkatkan kecekapan tenaga, yang semuanya penting untuk menangani isu sosiosaintifik dalam sektor tenaga."
+        working: |
+            Isu sosiosaintifik dalam sektor tenaga termasuk perubahan iklim dan pencemaran udara. Teknologi hijau seperti tenaga solar dan angin mengurangkan kebergantungan kepada bahan api fosil, mengurangkan emisi karbon dan pencemaran, serta meningkatkan kelestarian.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan satu isu sosiosaintifik dalam sektor tenaga."
+        - marks: 2
+          criteria: "Menjelaskan bagaimana teknologi hijau boleh menangani isu tersebut."
+        - marks: 1
+          criteria: "Mengaitkan aplikasi teknologi hijau dengan manfaat kepada masyarakat."
+      hints:
+        - level: 1
+          text: "Pertimbangkan impak teknologi hijau pada alam sekitar."
+        - level: 2
+          text: "Fokus pada bagaimana teknologi seperti tenaga solar mengurangkan kesan negatif."
+    # Learning objective 4.3.2
+    - id: "Q04"
+      text: 'Apakah peranan teknologi hijau dalam pengurusan sisa dan air sisa bagi menangani isu sosiosaintifik?'
+      difficulty: "medium"
+      learning_objective: "4.3.2"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Teknologi hijau memainkan peranan penting dengan menggalakkan penggunaan semula dan kitar semula, serta membangunkan sistem pengurusan sisa yang lebih cekap untuk mengurangkan pencemaran."
+        working: |
+            Sistem pengurusan sisa hijau termasuk teknologi untuk mengolah air sisa dan sisa pepejal dengan cara yang mesra alam, seperti biogas dari sisa organik dan rawatan air sisa yang mengurangi pencemaran air.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan satu masalah sisa yang dihadapi."
+        - marks: 2
+          criteria: "Menjelaskan bagaimana teknologi hijau dapat mengolah sisa dengan lebih baik."
+        - marks: 1
+          criteria: "Mengaitkan pengurangan pencemaran dengan teknologi pengurusan sisa."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang teknologi yang membantu mengolah semula sisa."
+        - level: 2
+          text: "Pertimbangkan sistem seperti biogas dan kitar semula."
+    # Learning objective 4.5.2
+    - id: "Q05"
+      text: 'Jelaskan aplikasi teknologi hijau dalam sektor pengangkutan dan bagaimana ia membantu mengurangkan jejak karbon.'
+      difficulty: "medium"
+      learning_objective: "4.5.2"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Teknologi hijau dalam pengangkutan termasuk kenderaan elektrik dan penggunaan bahan api alternatif seperti hidrogen, yang mengurangkan pelepasan karbon dan meningkatkan kecekapan tenaga."
+        working: |
+            Kenderaan elektrik tidak menghasilkan pelepasan karbon berbanding kenderaan konvensional. Penggunaan bahan api alternatif seperti biodiesel dan hidrogen juga membantu mengurangkan kebergantungan kepada bahan api fosil dan mengurangkan jejak karbon.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan satu teknologi hijau dalam pengangkutan."
+        - marks: 2
+          criteria: "Menjelaskan bagaimana teknologi tersebut mengurangkan pelepasan karbon."
+        - marks: 1
+          criteria: "Mengaitkan teknologi dengan penurunan jejak karbon."
+      hints:
+        - level: 1
+          text: "Pertimbangkan kenderaan elektrik sebagai teknologi hijau."
+        - level: 2
+          text: "Fokus pada bagaimana bahan api alternatif mengurangkan pelepasan."

@@ -1,0 +1,43 @@
+topic_id: "SC3-10"
+provenance: "ai-generated"
+description: "Worked examples for Penerokaan Angkasa Lepas"
+worked_examples:
+    - id: "WE-01"
+      topic: "Perkembangan Sejarah Model Sistem Suria"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "10.1.1"
+      real_world_analogy: "Consider how a model train set represents a real train system, but in a simplified way."
+      misconception_alert: "Students often think the current model of the solar system was the only model ever proposed. In reality, models evolved over time."
+      scenario: "Describe the development of the model of the solar system from a geocentric to a heliocentric model."
+      working: |
+        Step 1: Understand the geocentric model proposed by Ptolemy, where Earth was at the center of the universe.
+        Step 2: Recognize the heliocentric model introduced by Copernicus, which placed the Sun at the center.
+        Step 3: Identify how Galileo's observations supported the heliocentric model, leading to its acceptance.
+    - id: "WE-02"
+      topic: "Kepentingan Perkembangan Teknologi dalam Penerokaan Angkasa Lepas"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "10.2.1"
+      real_world_analogy: "Just like how GPS technology helps us navigate on Earth, space technology aids in exploring and understanding the universe."
+      misconception_alert: "Students may think space technology only benefits space exploration, but it also has terrestrial applications."
+      scenario: "Discuss the importance of technological advancements in space exploration and their applications on Earth."
+      working: |
+        Step 1: Identify key technological advancements, such as satellites and space probes.
+        Step 2: Explain how these technologies have improved communication, weather forecasting, and global positioning systems (GPS).
+        Step 3: Discuss the role of technology in enabling deeper space exploration and understanding of the universe.
+    - id: "WE-03"
+      topic: "Keperluan Meneruskan Penerokaan Angkasa Lepas"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "10.2.2"
+      real_world_analogy: "Continuing space exploration is like researching new medicines; it may lead to unexpected, life-changing discoveries."
+      misconception_alert: "Some think space exploration is unnecessary due to high costs, but it provides essential knowledge and innovation."
+      scenario: "Evaluate the necessity of continuing space exploration in light of current global challenges."
+      working: |-
+        Step 1: Assess the benefits of space exploration, such as technological advancements and international collaboration.
+        Step 2: Consider the scientific knowledge gained about Earth's climate, resources, and potential extraterrestrial life.
+        Step 3: Weigh the costs against the potential for innovation and solutions to global issues, arguing for continued investment.

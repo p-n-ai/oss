@@ -1,0 +1,123 @@
+id: "SC4-07"
+official_ref: "Bab 7"
+name: "Koordinasi Badan"
+name_en: "Body Coordination"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+theme: "Penyenggaraan dan Kesinambungan Hidup"
+content_standards:
+    - id: "7.1"
+      text: "Sistem Endokrin Manusia"
+      text_en: "Human Endocrine System"
+    - id: "7.2"
+      text: "Gangguan kepada Koordinasi Badan"
+      text_en: "Disorders to Body Coordination"
+    - id: "7.3"
+      text: "Minda yang Sihat"
+      text_en: "Healthy Mind"
+learning_objectives:
+    - id: "7.1.1"
+      text: "Menerangkan sistem endokrin dan fungsinya."
+      text_en: "Explain the endocrine system and its functions."
+      bloom: "understand"
+      content_standard_id: "7.1"
+    - id: "7.1.2"
+      text: "Menjelaskan dengan contoh punca dan kesan ketidakseimbangan hormon ke atas kesihatan."
+      text_en: "Explain with examples of causes and effects of hormone imbalance on health."
+      bloom: "understand"
+      content_standard_id: "7.1"
+    - id: "7.2.1"
+      text: "Menerangkan dengan contoh jenis dadah."
+      text_en: "Explain with examples of types of drugs."
+      bloom: "understand"
+      content_standard_id: "7.2"
+    - id: "7.2.2"
+      text: "Menaakul mengenai kesan penyalahgunaan dadah dan alkohol ke atas koordinasi badan dan kesihatan mental."
+      text_en: "Reflect on the effects of drug and alcohol abuse on body coordination and mental health."
+      bloom: "evaluate"
+      content_standard_id: "7.2"
+    - id: "7.3.1"
+      text: "Mewajarkan keperluan masyarakat yang mempunyai minda yang sihat."
+      text_en: "Justify the need for a society with a healthy mind."
+      bloom: "evaluate"
+      content_standard_id: "7.3"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai koordinasi badan"
+      text_en: "Recall science knowledge and skills regarding body coordination"
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai koordinasi badan"
+      descriptor_en: "Recall science knowledge and skills regarding body coordination"
+    - level: 2
+      id: "TP2"
+      text: "Memahami koordinasi badan dan dapat menjelaskan kefahaman tersebut"
+      text_en: "Understand body coordination and can explain the understanding"
+      descriptor: "Memahami koordinasi badan dan dapat menjelaskan kefahaman tersebut"
+      descriptor_en: "Understand body coordination and can explain the understanding"
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai koordinasi badan dan dapat melaksanakan tugasan mudah"
+      text_en: "Apply knowledge regarding body coordination and can carry out simple tasks"
+      descriptor: "Mengaplikasikan pengetahuan mengenai koordinasi badan dan dapat melaksanakan tugasan mudah"
+      descriptor_en: "Apply knowledge regarding body coordination and can carry out simple tasks"
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai koordinasi badan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam"
+      text_en: "Analyze knowledge regarding body coordination in the context of problem solving regarding natural events or phenomena"
+      descriptor: "Menganalisis pengetahuan mengenai koordinasi badan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam"
+      descriptor_en: "Analyze knowledge regarding body coordination in the context of problem solving regarding natural events or phenomena"
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai koordinasi badan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan"
+      text_en: "Evaluate knowledge regarding body coordination in the context of problem solving and making decisions to carry out a task"
+      descriptor: "Menilai pengetahuan mengenai koordinasi badan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan"
+      descriptor_en: "Evaluate knowledge regarding body coordination in the context of problem solving and making decisions to carry out a task"
+    - level: 6
+      id: "TP6"
+      text: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai koordinasi badan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat"
+      text_en: "Create using science knowledge and skills regarding body coordination in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society"
+      descriptor: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai koordinasi badan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat"
+      descriptor_en: "Create using science knowledge and skills regarding body coordination in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society"
+prerequisites:
+    required: []
+    recommended: []
+teaching:
+    sequence:
+        - Introduce the endocrine system and its functions using diagrams (20 min)
+        - Discuss examples of hormonal imbalance and their health effects (15 min)
+        - Explore different types of drugs and their effects through short videos (20 min)
+        - Group discussion on the impact of substance abuse on health (25 min)
+        - Brainstorming session on promoting mental health in society (15 min)
+    common_misconceptions:
+        - misconception: Hormon hanya penting semasa akil baligh
+          remediation: Beri contoh lain, seperti hormon dalam metabolisme
+        - misconception: Semua dadah memberikan kesan yang sama
+          remediation: Bandingkan ciri dan kesan dadah yang berbeza
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T00:00:00Z"
+sync_checked: false
+ai_teaching_notes: "SC4-07.teaching.md"
+assessments_file: "SC4-07.assessments.yaml"
+examples_file: SC4-07.examples.yaml
+engagement_hooks:
+    - Gunakan kisah dari berita tempatan tentang tokoh yang berjaya pulih dari penyalahgunaan dadah
+    - Diskusikan inisiatif kerajaan dalam mempromosikan kesihatan mental di Malaysia

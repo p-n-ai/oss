@@ -1,0 +1,125 @@
+topic_id: SC1-08
+provenance: ai-generated
+
+questions:
+  # Learning Objective: 8.1.1 - Analyze the difference between real and virtual images
+  - id: Q1
+    text: "Apakah perbezaan utama antara imej sahih dan imej maya yang terbentuk oleh cermin cekung?"
+    difficulty: medium
+    learning_objective: 8.1.1
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Imej sahih boleh ditangkap pada skrin sementara imej maya tidak boleh."
+      working: |
+        Imej sahih adalah hasil dari sinar cahaya yang bertemu, manakala imej maya tidak bertemu tetapi tampak apabila sinar dipanjangkan ke belakang.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan bahawa imej sahih boleh ditangkap pada skrin."
+      - marks: 1
+        criteria: "Menyatakan bahawa imej maya tidak boleh ditangkap pada skrin."
+      - marks: 1
+        criteria: "Membezakan secara betul antara imej sahih dan imej maya."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Imej sahih tidak sama dengan imej maya dari segi pembentukan."
+      - level: 2
+        text: "Cuba fikirkan tentang bagaimana imej tersebut boleh dilihat atau ditangkap."
+
+  # Learning Objective: 8.1.3 - Remember that the object distance is equal to the image distance in plane mirrors
+  - id: Q2
+    text: "Apakah hubungan antara jarak objek dan jarak imej dalam cermin satah?"
+    difficulty: medium
+    learning_objective: 8.1.3
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "Jarak objek adalah sama dengan jarak imej."
+      working: |
+        Dalam cermin satah, jarak objek ke cermin adalah sama dengan jarak imej ke cermin. Ini adalah sifat asas cermin satah.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan jarak objek adalah sama dengan jarak imej."
+      - marks: 1
+        criteria: "Menghuraikan sifat cermin satah dengan betul."
+    hints:
+      - level: 1
+        text: "Ingat bahawa cermin satah menghasilkan imej maya yang tegak."
+
+  # Learning Objective: 8.1.4 - Apply the concept of light reflection with plane mirrors
+  - id: Q3
+    text: "Bagaimanakah anda boleh menggunakan cermin satah untuk memantulkan cahaya ke kawasan yang gelap?"
+    difficulty: medium
+    learning_objective: 8.1.4
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Letakkan cermin satah pada sudut yang sesuai untuk memantulkan cahaya dari sumber ke arah kawasan gelap."
+      working: |
+        Dengan menggunakan hukum pantulan, anda boleh menyesuaikan sudut cermin untuk mengarahkan cahaya ke kawasan yang gelap.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyebut penggunaan cermin satah untuk memantulkan cahaya."
+      - marks: 1
+        criteria: "Menghuraikan penyesuaian sudut cermin."
+      - marks: 1
+        criteria: "Menjelaskan bagaimana cahaya dipantulkan ke kawasan gelap."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Cermin tidak menambah cahaya, ia hanya mengarahkan cahaya yang ada."
+      - level: 2
+        text: "Fokus pada sudut pantulan cahaya."
+
+  # Learning Objective: 8.4.3 - Summarize the relationship between the angle of incidence and the angle of refraction
+  - id: Q4
+    text: "Bagaimana sudut tuju, $i$, dan sudut biasan, $r$, berkait apabila cahaya bergerak dari udara ke dalam air?"
+    difficulty: medium
+    learning_objective: 8.4.3
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "$i > r$ apabila cahaya bergerak dari udara ke air."
+      working: |
+        Apabila cahaya bergerak dari medium kurang tumpat (udara) ke medium lebih tumpat (air), ia akan membias mendekati garis normal, menjadikan sudut tuju lebih besar dari sudut biasan.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan bahawa sudut tuju lebih besar dari sudut biasan."
+      - marks: 1
+        criteria: "Menjelaskan pembiasan cahaya dari medium kurang tumpat ke lebih tumpat."
+    hints:
+      - level: 1
+        text: "Ingat hukum Snell mengenai pembiasan cahaya."
+      - level: 2
+        text: "Fikirkan tentang bagaimana cahaya membias apabila masuk ke medium yang lebih tumpat."
+
+  # Learning Objective: 8.7.4 - Record the color formed on a screen after light passes through a color filter
+  - id: Q5
+    text: "Apakah warna yang terhasil pada skrin apabila cahaya putih melalui penapis warna merah?"
+    difficulty: medium
+    learning_objective: 8.7.4
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "Merah"
+      working: |
+        Cahaya putih terdiri daripada semua warna spektrum. Penapis merah hanya membenarkan cahaya merah melaluinya, manakala warna lain diserap.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan warna yang terhasil adalah merah."
+      - marks: 1
+        criteria: "Menjelaskan bahawa penapis merah hanya membenarkan cahaya merah melaluinya."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Penapis warna tidak menambah warna, ia hanya membenarkan warna tertentu melaluinya."
+      - level: 2
+        text: "Pertimbangkan bagaimana penapis warna berfungsi dengan cahaya putih."

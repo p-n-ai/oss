@@ -1,0 +1,44 @@
+topic_id: "SC5-09"
+provenance: "ai-generated"
+description: "Worked examples for Teknologi Angkasa Lepas"
+worked_examples:
+    - id: "WE-01"
+      topic: "Jenis-jenis orbit satelit"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "9.1.1"
+      real_world_analogy: "Seperti memilih laluan bas yang berlainan bergantung kepada destinasi yang ingin dituju."
+      misconception_alert: "Menganggap semua satelit menggunakan orbit yang sama untuk semua fungsi."
+      scenario: "Terdapat tiga jenis orbit utama untuk satelit: geostasioner, polar, dan elips. Apakah fungsi utama setiap jenis orbit ini?"
+      working: |
+        Step 1: Kenali orbit geostasioner, yang bergerak selari dengan putaran Bumi dan digunakan untuk komunikasi dan penyiaran.
+        Step 2: Orbit polar merentasi kutub Bumi dan digunakan untuk pengimejan bumi dan pengawasan.
+        Step 3: Orbit elips mempunyai bentuk bujur dan digunakan untuk satelit yang memerlukan variasi ketinggian.
+    - id: "WE-02"
+      topic: "Kedudukan apogi dan perigi dalam orbit elips"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "9.1.2"
+      real_world_analogy: "Seperti mengayuh basikal di bukit, satelit bergerak lebih perlahan di bahagian tertinggi orbit dan lebih laju di bahagian terendah."
+      misconception_alert: "Menganggap satelit bergerak pada kelajuan yang sama sepanjang orbitnya."
+      scenario: "Tentukan kedudukan apogi dan perigi di orbit elips dan jelaskan perbezaan kelajuan satelit di kedudukan ini."
+      working: |
+        Step 1: Kenal pasti apogi sebagai titik terjauh dari Bumi dalam orbit elips.
+        Step 2: Kenal pasti perigi sebagai titik terdekat dengan Bumi.
+        Step 3: Fahami bahawa satelit bergerak lebih perlahan di apogi dan lebih laju di perigi kerana perbezaan tenaga kinetik dan potensi.
+    - id: "WE-03"
+      topic: "Membuat perkaitan hubungan antara ketinggian orbit dengan halaju satelit"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "9.1.3"
+      real_world_analogy: "Seperti memutar batu di tali, semakin jauh batu dari pusat, semakin perlahan ia berputar."
+      misconception_alert: "Menganggap halaju satelit tidak dipengaruhi oleh ketinggian orbit."
+      scenario: "Bagaimanakah ketinggian orbit mempengaruhi halaju satelit? Gunakan prinsip fizik untuk menjelaskan."
+      working: |-
+        Step 1: Fahami bahawa graviti Bumi menarik satelit ke arah pusat Bumi.
+        Step 2: Ketahui bahawa semakin tinggi orbit, daya tarikan graviti berkurangan.
+        Step 3: Gunakan formula $v = \sqrt{\frac{GM}{r}}$ di mana $v$ adalah halaju, $G$ adalah pemalar graviti, $M$ adalah jisim Bumi, dan $r$ adalah jejari orbit.
+        Step 4: Perhatikan bahawa dengan meningkatkan $r$ (ketinggian orbit), halaju $v$ berkurangan.

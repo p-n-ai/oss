@@ -1,0 +1,48 @@
+topic_id: "SJ1-08"
+provenance: "ai-generated"
+description: "Worked examples for Tamadun Islam dan Sumbangan"
+worked_examples:
+    - id: "WE-01"
+      topic: "Latar Belakang Masyarakat Arab Sebelum Kedatangan Islam"
+      difficulty: "easy"
+      tp_level: 1
+      kbat: false
+      learning_objective: "4.3.1"
+      real_world_analogy: "Seperti memahami keadaan sesebuah tempat sebelum pembangunan berlaku"
+      misconception_alert: "Ramai pelajar menyangka masyarakat Arab sebelum Islam tidak mempunyai sistem sosial langsung."
+      scenario: "Nyatakan ciri-ciri masyarakat Arab sebelum kedatangan Islam."
+      working: |
+        Step 1: Fahami bahawa masyarakat Arab sebelum Islam dikenali sebagai Jahiliyyah, yang bermaksud jahil atau tidak mempunyai pengetahuan tentang agama.
+        Step 2: Mereka mengamalkan sistem kabilah, di mana setiap kabilah mempunyai ketua yang dihormati.
+        Step 3: Amalan utama mereka termasuk penyembahan berhala dan kepercayaan animisme. Mereka juga terlibat dalam peperangan antara kabilah.
+        Step 4: Namun, mereka juga terkenal dalam bidang perdagangan, khususnya di kota Mekah yang merupakan pusat pertemuan pedagang.
+    - id: "WE-02"
+      topic: "Kemunculan Tamadun Islam"
+      difficulty: "medium"
+      tp_level: 2
+      kbat: true
+      learning_objective: "4.3.2"
+      real_world_analogy: "Seperti memahami bagaimana sebuah syarikat baru berkembang dan maju"
+      misconception_alert: "Ada yang beranggapan tamadun Islam hanya berkembang di Mekah dan Madinah sahaja."
+      scenario: "Terangkan kemunculan tamadun Islam dan perkembangan awalnya secara ringkas."
+      working: |
+        Step 1: Kenali bahawa tamadun Islam bermula dengan wahyu pertama kepada Nabi Muhammad SAW di Gua Hira pada tahun 610 Masihi.
+        Step 2: Nabi Muhammad SAW mula menyebarkan ajaran Islam secara rahsia dan kemudian secara terbuka di Mekah.
+        Step 3: Selepas Hijrah ke Madinah, Islam berkembang dengan lebih pesat dan membentuk masyarakat Islam yang pertama.
+        Step 4: Madinah menjadi pusat pentadbiran dan penyebaran Islam, termasuklah pembentukan Piagam Madinah yang mengatur kehidupan masyarakat berbilang kaum.
+        Step 5: Setelah kewafatan Nabi Muhammad SAW, Islam terus berkembang ke luar Semenanjung Arab di bawah pimpinan Khulafa' al-Rasyidin.
+    - id: "WE-03"
+      topic: "Sumbangan Tamadun Islam dalam Bidang Seni Bina"
+      difficulty: "hard"
+      tp_level: 6
+      kbat: true
+      learning_objective: "4.3.5"
+      real_world_analogy: "Seperti melihat pengaruh seni bina dalam kehidupan bandar moden"
+      misconception_alert: "Pelajar sering fikir seni bina Islam hanya terhad kepada masjid sahaja."
+      scenario: "Analisis sumbangan tamadun Islam dalam bidang seni bina dan nyatakan ciri-ciri uniknya."
+      working: |-
+        Step 1: Ketahui bahawa seni bina Islam dipengaruhi oleh pelbagai budaya termasuk Rom, Parsi, dan Bizantium.
+        Step 2: Masjid adalah contoh utama, dengan ciri khas seperti kubah besar, menara, dan mihrab.
+        Step 3: Selain masjid, seni bina Islam juga terlihat dalam istana, seperti Alhambra di Sepanyol, yang terkenal dengan ukiran halus dan taman yang indah.
+        Step 4: Ciri unik lain termasuk penggunaan kaligrafi Arab dan geometri sebagai hiasan, menggantikan lukisan makhluk hidup.
+        Step 5: Analisis juga pengaruh seni bina Islam dalam pembinaan sistem pengairan, bazaar, dan madrasah yang menunjukkan adaptasi dan inovasi dalam keperluan sosial dan ekonomi.

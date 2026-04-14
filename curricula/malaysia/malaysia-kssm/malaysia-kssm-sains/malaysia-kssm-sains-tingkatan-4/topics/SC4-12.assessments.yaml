@@ -1,0 +1,126 @@
+topic_id: "SC4-12"
+provenance: "ai-generated"
+questions:
+    # Learning objective: 12.1.1
+    - id: "Q01"
+      text: 'Jelaskan dua faktor yang menyokong penggunaan tenaga nuklear di negara yang telah dikenal pasti.'
+      difficulty: "medium"
+      learning_objective: "12.1.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: '1. Pengurangan pelepasan karbon. 2. Kecekapan penjanaan tenaga.'
+        working: |
+            Pelajar perlu mengenalpasti bahawa tenaga nuklear dapat mengurangkan pelepasan karbon dan meningkatkan kecekapan penjanaan tenaga berbanding sumber tenaga lain.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Menyatakan satu faktor dengan penjelasan yang betul.'
+        - marks: 2
+          criteria: 'Menyatakan dua faktor dengan penjelasan yang betul.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang kesan alam sekitar dan kecekapan sumber tenaga.'
+        - level: 2
+          text: 'Pertimbangkan bagaimana tenaga nuklear boleh mengurangkan pelepasan gas rumah hijau.'
+    # Learning objective: 12.2.1
+    - id: "Q02"
+      text: 'Apakah perbezaan antara pembelahan nukleus dan pelakuran nukleus?'
+      difficulty: "medium"
+      learning_objective: "12.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: 'C'
+        working: |
+            Pembelahan nukleus melibatkan pemecahan nukleus berat menjadi dua nukleus lebih kecil, manakala pelakuran nukleus melibatkan penyatuan dua nukleus ringan menjadi satu nukleus lebih berat.
+        options:
+            A: 'Kedua-duanya melibatkan pemecahan nukleus.'
+            B: 'Pembelahan melibatkan penyatuan manakala pelakuran melibatkan pemecahan.'
+            C: 'Pembelahan melibatkan pemecahan, pelakuran melibatkan penyatuan.'
+            D: 'Kedua-duanya melibatkan penyatuan nukleus.'
+        distractors:
+            - value: 'A'
+              feedback: 'Ini salah kerana pembelahan melibatkan pemecahan, bukan penyatuan.'
+            - value: 'B'
+              feedback: 'Ini terbalik, pembelahan adalah pemecahan dan pelakuran adalah penyatuan.'
+            - value: 'D'
+              feedback: 'Ini salah kerana pembelahan tidak melibatkan penyatuan.'
+      marks: 3
+      rubric:
+        - marks: 3
+          criteria: 'Memilih jawapan yang betul dengan penjelasan yang tepat.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang proses apa yang berlaku dalam matahari.'
+    # Learning objective: 12.2.2
+    - id: "Q03"
+      text: 'Terangkan bagaimana tenaga elektrik dijana daripada tenaga nuklear.'
+      difficulty: "medium"
+      learning_objective: "12.2.2"
+      tp_level: 4
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Tenaga haba daripada pembelahan nuklear digunakan untuk mengewap air. Wap ini memutar turbin yang menjana elektrik.'
+        working: |
+            Proses penjanaan elektrik termasuk pembelahan nuklear yang membebaskan tenaga haba, mengewapkan air, memutarkan turbin, dan menjana elektrik.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Menjelaskan proses pembelahan nuklear menghasilkan tenaga haba.'
+        - marks: 2
+          criteria: 'Menjelaskan bagaimana wap memutarkan turbin untuk menjana elektrik.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang peranan tenaga haba dalam penjanaan elektrik.'
+        - level: 2
+          text: 'Bagaimana wap digunakan dalam stesen janakuasa?'
+    # Learning objective: 12.3.1
+    - id: "Q04"
+      text: 'Ceritakan impak penggunaan senjata nuklear kepada hidupan dan persekitaran.'
+      difficulty: "medium"
+      learning_objective: "12.3.1"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Kemusnahan besar kepada hidupan dan persekitaran, radiasi menyebabkan kesan kesihatan jangka panjang.'
+        working: |
+            Senjata nuklear menyebabkan kemusnahan serta-merta dan jangka panjang. Radiasi mengakibatkan kanser dan mutasi genetik.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: 'Menjelaskan kemusnahan serta-merta kepada hidupan.'
+        - marks: 3
+          criteria: 'Menerangkan kesan radiasi kepada kesihatan dan persekitaran.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan kesan langsung dan jangka panjang.'
+        - level: 2
+          text: 'Fikirkan tentang radiasi dan kesannya kepada kesihatan.'
+    # Learning objective: 12.4.1
+    - id: "Q05"
+      text: 'Mewajarkan pembinaan stesen janakuasa nuklear di Malaysia dengan memberi dua alasan.'
+      difficulty: "medium"
+      learning_objective: "12.4.1"
+      tp_level: 6
+      kbat: true
+      answer:
+        type: "free_text"
+        value: '1. Menyediakan sumber tenaga bersih dan berterusan. 2. Mengurangkan kebergantungan kepada bahan api fosil.'
+        working: |
+            Pembinaan stesen janakuasa nuklear boleh menyediakan tenaga yang konsisten dan bersih, serta mengurangkan kebergantungan kepada import bahan api fosil.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Menyatakan satu alasan dengan penjelasan yang baik.'
+        - marks: 2
+          criteria: 'Menyatakan dua alasan dengan penjelasan yang baik.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang kelebihan tenaga nuklear berbanding bahan api fosil.'
+        - level: 2
+          text: 'Pertimbangkan keperluan tenaga Malaysia di masa hadapan.'

@@ -1,0 +1,133 @@
+topic_id: "SC3-08"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 8.1.1
+    - id: "Q01"
+      text: 'Siapakah yang pertama kali menemui fenomena keradioaktifan dan pada tahun berapakah ianya berlaku?'
+      difficulty: "medium"
+      learning_objective: "8.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: "Henri Becquerel, 1896"
+        working: |
+            Henri Becquerel menemui fenomena keradioaktifan secara tidak sengaja ketika mengkaji sinaran fosforesen dalam garam uranium pada tahun 1896.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan nama saintis yang menemui keradioaktifan."
+        - marks: 1
+          criteria: "Menyatakan tahun penemuan keradioaktifan."
+      hints:
+        - level: 1
+          text: "Fikirkan nama seorang saintis Perancis yang bekerja dengan bahan uranium."
+        - level: 2
+          text: "Penemuannya berlaku pada abad ke-19."
+    # Learning Objective: 8.1.2
+    - id: "Q02"
+      text: 'Jelaskan maksud separuh hayat pereputan radioaktif dengan memberi contoh.'
+      difficulty: "medium"
+      learning_objective: "8.1.2"
+      tp_level: 4
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Separuh hayat pereputan radioaktif ialah masa yang diambil bagi separuh daripada bahan radioaktif untuk mereput. Contohnya, separuh hayat karbon-14 adalah sekitar 5730 tahun."
+        working: |
+            Separuh hayat ialah tempoh masa yang diperlukan bagi separuh daripada jumlah isotop radioaktif yang asal untuk mereput menjadi isotop yang lebih stabil. Contoh yang biasa ialah karbon-14, yang digunakan dalam pentarikhan radiokarbon.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan definisi separuh hayat."
+        - marks: 1
+          criteria: "Memberi contoh bahan radioaktif yang mempunyai separuh hayat tertentu."
+        - marks: 1
+          criteria: "Menyatakan tempoh separuh hayat contoh yang diberikan."
+      hints:
+        - level: 1
+          text: "Pertimbangkan konsep masa yang diperlukan untuk separuh daripada bahan mereput."
+        - level: 2
+          text: "Contoh yang sering digunakan melibatkan karbon dan pentarikhan."
+    # Learning Objective: 8.2.1
+    - id: "Q03"
+      text: 'Lakar struktur atom karbon yang menunjukkan keadaan stabil.'
+      difficulty: "medium"
+      learning_objective: "8.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Struktur atom karbon yang stabil mempunyai 6 proton, 6 neutron, dan 6 elektron; elektron-elektron ini disusun dalam dua petala dengan 2 elektron pada petala pertama dan 4 elektron pada petala kedua."
+        working: |
+            Atom karbon mempunyai nombor atom 6, bermaksud terdapat 6 proton. Untuk keadan stabil, bilangan neutron biasanya sama dengan bilangan proton, jadi 6 neutron. Elektron disusun dengan 2 dalam petala pertama dan baki 4 dalam petala kedua.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menunjukkan bilangan proton dan neutron yang betul dalam nukleus."
+        - marks: 1
+          criteria: "Menunjukkan susunan elektron yang betul dalam petala."
+        - marks: 1
+          criteria: "Memastikan jumlah elektron bersesuaian dengan nombor atom."
+      hints:
+        - level: 1
+          text: "Ingat bahawa atom karbon mempunyai nombor atom 6."
+        - level: 2
+          text: "Petala pertama boleh memuatkan maksimum 2 elektron."
+    # Learning Objective: 8.3.2
+    - id: "Q04"
+      text: 'Apakah perbezaan antara sinaran alfa, beta, dan gamma dari segi jisim dan muatan?'
+      difficulty: "medium"
+      learning_objective: "8.3.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "multiple_choice"
+        value: "B"
+        options:
+            A: "Sinaran alfa dan beta mempunyai jisim yang sama, manakala gamma tiada jisim."
+            B: "Sinaran alfa mempunyai jisim yang lebih besar dan muatan positif, beta mempunyai jisim lebih kecil dan muatan negatif, manakala gamma tiada jisim dan muatan."
+            C: "Sinaran alfa dan gamma mempunyai jisim yang sama, manakala beta lebih kecil dan tiada muatan."
+            D: "Sinaran alfa dan beta tiada jisim, manakala gamma mempunyai jisim dan muatan."
+        working: |
+            Sinaran alfa terdiri daripada 2 proton dan 2 neutron, menjadikannya lebih berat dengan muatan positif (+2). Sinaran beta adalah elektron atau positron, lebih ringan dan mempunyai muatan negatif (-1) atau positif (+1). Sinaran gamma adalah foton, tiada jisim atau muatan.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Membezakan jisim sinaran alfa, beta, dan gamma."
+        - marks: 1
+          criteria: "Membezakan muatan sinaran alfa dan beta."
+        - marks: 1
+          criteria: "Menyatakan bahawa sinaran gamma tiada jisim dan muatan."
+      hints:
+        - level: 1
+          text: "Pertimbangkan komposisi zarah untuk sinaran alfa dan beta."
+        - level: 2
+          text: "Sinaran gamma adalah foton, fikirkan tentang sifat cahaya."
+    # Learning Objective: 8.4.2
+    - id: "Q05"
+      text: 'Terangkan kepentingan mengendalikan bahan radioaktif dan sisa bahan radioaktif dengan sempurna.'
+      difficulty: "medium"
+      learning_objective: "8.4.2"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Pengendalian bahan radioaktif dengan sempurna adalah penting untuk mengelakkan pendedahan kepada sinaran yang boleh menyebabkan kerosakan sel dan penyakit. Sisa radioaktif yang tidak diurus dengan baik boleh mencemarkan alam sekitar dan menjejaskan kesihatan manusia serta ekosistem."
+        working: |
+            Bahan radioaktif mengeluarkan sinaran yang boleh merosakkan sel-sel hidup, menyebabkan kanser dan mutasi. Pengendalian yang betul melibatkan pengurungan dan pelupusan selamat untuk mencegah pencemaran tanah, air, dan udara, serta melindungi makhluk hidup.
+      marks: 4
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan risiko kesihatan daripada pendedahan sinaran."
+        - marks: 1
+          criteria: "Menjelaskan potensi pencemaran alam sekitar oleh sisa radioaktif."
+        - marks: 1
+          criteria: "Menekankan pentingnya pengurusan dan pelupusan selamat."
+        - marks: 1
+          criteria: "Menghuraikan akibat kepada ekosistem dan manusia."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang risiko kesihatan yang dikaitkan dengan sinaran radioaktif."
+        - level: 2
+          text: "Pertimbangkan bagaimana sisa boleh mencemarkan alam sekitar jika tidak diurus dengan baik."

@@ -1,0 +1,144 @@
+id: SC3-02
+official_ref: "Bab 2"
+name: "Respirasi"
+name_en: "Respiration"
+subject_grade_id: malaysia-kssm-sains-tingkatan-3
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+theme: "Penyenggaraan Dan Kesinambungan Hidup"
+content_standards:
+    - id: "2.1"
+      text: "Sistem respirasi"
+      text_en: "Respiratory system"
+    - id: "2.2"
+      text: "Pergerakan dan pertukaran gas dalam badan manusia"
+      text_en: "Movement and gas exchange in the human body"
+    - id: "2.3"
+      text: "Kesihatan sistem respirasi manusia"
+      text_en: "Health of the human respiratory system"
+    - id: "2.4"
+      text: "Adaptasi dalam sistem respirasi"
+      text_en: "Adaptation in the respiratory system"
+learning_objectives:
+    - id: "2.1.1"
+      text: "Melakar dan melabelkan struktur dalam sistem respirasi manusia serta memerihalkan mekanisme pernafasan."
+      text_en: "Sketch and label structures in the human respiratory system and describe the breathing mechanism."
+      bloom: "understand"
+      content_standard_id: "2.1"
+    - id: "2.1.2"
+      text: "Menjalankan eksperimen mengkaji perbezaan kandungan gas dalam udara sedutan dan udara hembusan."
+      text_en: "Conduct experiments to study the difference in gas content in inhaled and exhaled air."
+      bloom: "apply"
+      content_standard_id: "2.1"
+    - id: "2.2.1"
+      text: "Memerihalkan pergerakan dan pertukaran gas oksigen dan karbon dioksida dalam badan manusia."
+      text_en: "Describe the movement and exchange of oxygen and carbon dioxide gases in the human body."
+      bloom: "understand"
+      content_standard_id: "2.2"
+    - id: "2.2.3"
+      text: "Mewajarkan kepentingan adaptasi struktur alveolus untuk meningkatkan kecekapan pertukaran gas dalam badan manusia."
+      text_en: "Justify the importance of alveolus structure adaptation to increase the efficiency of gas exchange in the human body."
+      bloom: "evaluate"
+      content_standard_id: "2.2"
+    - id: "2.3.1"
+      text: "Berkomunikasi mengenai bahan yang memudaratkan sistem respirasi beserta penyakit dan simptomnya."
+      text_en: "Communicate about substances harmful to the respiratory system along with diseases and symptoms."
+      bloom: "understand"
+      content_standard_id: "2.3"
+    - id: "2.3.2"
+      text: "Menjalankan eksperimen untuk menunjukkan kesan merokok terhadap peparu."
+      text_en: "Conduct experiments to show the effects of smoking on the lungs."
+      bloom: "apply"
+      content_standard_id: "2.3"
+    - id: "2.4.1"
+      text: "Mewajarkan bagaimana sistem respirasi beradaptasi dalam situasi berbeza."
+      text_en: "Justify how the respiratory system adapts in different situations."
+      bloom: "evaluate"
+      content_standard_id: "2.4"
+    - id: "2.4.1"
+      text: "Menerangkan mekanisme pertukaran gas dalam tumbuhan."
+      text_en: "Explain the mechanism of gas exchange in plants."
+      bloom: "understand"
+      content_standard_id: "2.4"
+    - id: "2.4.2"
+      text: "Berkomunikasi bagi mewajarkan kepentingan persekitaran yang tidak tercemar untuk tumbesaran dan kemandirian tumbuhan."
+      text_en: "Communicate to justify the importance of an unpolluted environment for plant growth and survival."
+      bloom: "evaluate"
+      content_standard_id: "2.4"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai respirasi."
+      text_en: "Recall science knowledge and skills regarding respiration."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai respirasi."
+      descriptor_en: "Recall science knowledge and skills regarding respiration."
+    - level: 2
+      id: "TP2"
+      text: "Memahami respirasi serta dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand respiration and can explain the understanding."
+      descriptor: "Memahami respirasi serta dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand respiration and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai respirasi untuk menerangkan kejadian atau fenomena alam dan melaksanakan tugasan mudah."
+      text_en: "Apply knowledge of respiration to explain natural events or phenomena and carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai respirasi untuk menerangkan kejadian atau fenomena alam dan melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge of respiration to explain natural events or phenomena and carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai respirasi dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge of respiration in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai respirasi dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge of respiration in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai respirasi dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge of respiration in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai respirasi dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge of respiration in the context of problem solving and make decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mereka cipta menggunakan pengetahuan dan kemahiran sains mengenai respirasi dalam konteks penyelesaian masalah atau membuat keputusan atau dalam melaksanakan aktiviti/tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills regarding respiration in the context of problem solving or making decisions or in carrying out activities/tasks in new situations creatively and innovatively by considering social/economic/cultural values of society."
+      descriptor: "Mereka cipta menggunakan pengetahuan dan kemahiran sains mengenai respirasi dalam konteks penyelesaian masalah atau membuat keputusan atau dalam melaksanakan aktiviti/tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using science knowledge and skills regarding respiration in the context of problem solving or making decisions or in carrying out activities/tasks in new situations creatively and innovatively by considering social/economic/cultural values of society."
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+teaching:
+    sequence:
+        - Introduce the human respiratory system with diagrams (15 min)
+        - Explain the breathing mechanism using a balloon model (20 min)
+        - Discuss gas exchange at the alveoli using animations (25 min)
+        - Conduct an experiment on gas content differences (30 min)
+        - Identify harmful substances and related diseases (20 min)
+        - Explain plant gas exchange and stomata function (20 min)
+    common_misconceptions:
+        - misconception: Breathing and respiration are the same process.
+          remediation: Clarify that breathing is a physical process, while respiration is a chemical process.
+        - misconception: All gases are exchanged equally in the lungs.
+          remediation: Use diffusion experiments to show how gases move based on concentration gradients.
+quality_level: 1
+provenance: "ai-assisted"
+sync_checked: true
+tier: "core"
+bloom_levels:
+    - understand
+    - apply
+    - evaluate
+prerequisites:
+    required: []
+    recommended:
+        - SC3-01
+engagement_hooks:
+    - Discuss how athletes train at high altitudes and its effect on their respiratory system.
+    - Highlight local air quality issues and their impact on health.
+ai_teaching_notes: "SC3-02.teaching.md"
+assessments_file: "SC3-02.assessments.yaml"
+examples_file: SC3-02.examples.yaml

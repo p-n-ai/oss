@@ -1,0 +1,120 @@
+id: "SJ1-07"
+official_ref: "Bab 7"
+name: "Peningkatan Tamadun India dan China"
+name_en: "Indian and Chinese Civilization Advancement"
+subject_grade_id: "malaysia-kssm-sejarah-tingkatan-1"
+subject_id: "malaysia-kssm-sejarah"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+content_standards:
+    - id: "4.2"
+      text: "Peningkatan Tamadun dan Sumbangannya"
+      text_en: "Advancement of Civilizations and Their Contributions"
+learning_objectives:
+    - id: "4.2.4"
+      text: "Membincangkan peningkatan tamadun India dari aspek perluasan kuasa."
+      text_en: "Discussing the advancement of Indian civilization from the aspect of power expansion."
+      bloom: "analyze"
+      content_standard_id: "4.2"
+    - id: "4.2.5"
+      text: "Membincangkan peningkatan tamadun China dari aspek pendidikan."
+      text_en: "Discussing the advancement of Chinese civilization from the education aspect."
+      bloom: "analyze"
+      content_standard_id: "4.2"
+    - id: "4.2.6"
+      text: "Merumuskan kepentingan pendidikan sebagai agen perubahan kepada kemajuan negara."
+      text_en: "Summarizing the importance of education as an agent of change for national progress."
+      bloom: "evaluate"
+      content_standard_id: "4.2"
+      is_citizenship_elements: true
+prerequisites:
+    required:
+        - "SJ1-05"
+    recommended: []
+quality_level: 1
+provenance: "ai-generated"
+generated_at: "2026-04-12T05:24:46Z"
+theme: "Sejarah Kita dan Dunia"
+topic_focus:
+    - "Peningkatan Tamadun dan sumbangannya"
+topic_empathy:
+    - "Semangat kekitaan dalam zaman globalisasi"
+    - "Berilmu dan berketerampilan"
+    - "Keterlibatan diri dalam pembangunan negara"
+    - "Keterikatan emosi kepada negara"
+historical_thinking_skills:
+    - "interpretasi"
+    - "rasionalisasi"
+citizenship_elements:
+    - id: "K4.2.6"
+      text: "Merumuskan kepentingan pendidikan sebagai agen perubahan kepada kemajuan negara."
+      text_en: "Summarizing the importance of education as an agent of change for national progress."
+      content_standard_id: "4.2"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengetahui peningkatan tamadun."
+      text_en: "Knowing civilization advancement."
+      descriptor: "Mengetahui perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Knowing basic matters based on learned history knowledge and values."
+    - level: 2
+      id: "TP2"
+      text: "Memahami peningkatan tamadun."
+      text_en: "Understanding civilization advancement."
+      descriptor: "Memahami perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Understanding basic matters based on learned history knowledge and values."
+    - level: 3
+      id: "TP3"
+      text: "Menerangkan dengan contoh tentang peningkatan tamadun."
+      text_en: "Explaining with examples about civilization advancement."
+      descriptor: "Menggunakan perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Using basic matters based on learned history knowledge and values."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis maklumat yang berkaitan dengan peningkatan tamadun."
+      text_en: "Analyzing information related to civilization advancement."
+      descriptor: "Menganalisis pengetahuan dan kemahiran berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Analyzing knowledge and skills based on learned history knowledge and values."
+    - level: 5
+      id: "TP5"
+      text: "Membuat penilaian peningkatan tamadun."
+      text_en: "Making assessments on civilization advancement."
+      descriptor: "Membuat penilaian berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Making assessments based on learned history knowledge and values."
+    - level: 6
+      id: "TP6"
+      text: "Melahirkan idea yang berasas mengenai peningkatan tamadun."
+      text_en: "Generating rational ideas about civilization advancement."
+      descriptor: "Melahirkan idea berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Generating ideas based on learned history knowledge and values."
+teaching:
+    sequence:
+        - 'Step 1: Introduction to Indian and Chinese civilizations (10 min)'
+        - 'Step 2: Discuss territorial expansion in India (15 min)'
+        - 'Step 3: Explore the role of education in China (15 min)'
+        - 'Step 4: Group discussion on education as a change agent (20 min)'
+    common_misconceptions:
+        - misconception: Students may think all ancient civilizations expanded through war
+          remediation: Explain peaceful expansions through trade and diplomacy
+        - misconception: Students may believe education was not important in ancient times
+          remediation: Highlight historical examples of educational institutions
+bloom_levels:
+    - "analyze"
+    - "evaluate"
+mastery:
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+tier: "core"
+sync_checked: true
+ai_teaching_notes: "SJ1-07.teaching.md"
+assessments_file: "SJ1-07.assessments.yaml"
+examples_file: SJ1-07.examples.yaml
+engagement_hooks:
+    - Consider how modern education systems trace back to ancient practices
+    - Discuss how territorial expansion influences cultural exchange today

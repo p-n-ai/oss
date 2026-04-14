@@ -1,0 +1,124 @@
+topic_id: SC1-02
+provenance: ai-generated
+
+questions:
+  # Group by learning objective 2.1.1
+  - id: Q1
+    text: 'Terangkan bagaimana sel menjalankan fungsi hidup dan mengalami pembahagian sel.'
+    difficulty: medium
+    learning_objective: 2.1.1
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: 'Sel menjalankan fungsi hidup seperti respirasi dan sintesis protein. Sel juga mengalami pembahagian melalui mitosis dan meiosis.'
+      working: |
+        1. Fungsi hidup sel merangkumi respirasi, metabolisme, dan sintesis protein.
+        2. Pembahagian sel berlaku melalui mitosis (untuk pertumbuhan dan pembaikan) dan meiosis (untuk pembentukan gamet).
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: 'Menjelaskan fungsi-fungsi hidup sel.'
+      - marks: 2
+        criteria: 'Menerangkan proses pembahagian sel.'
+    hints:
+      - level: 1
+        text: 'Fikirkan tentang bagaimana sel terus hidup dan berkembang.'
+  
+  # Group by learning objective 2.1.2
+  - id: Q2
+    text: 'Senaraikan langkah-langkah dalam penyediaan slaid sel haiwan dan sel tumbuhan.'
+    difficulty: medium
+    learning_objective: 2.1.2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: '1. Potong spesimen nipis. 2. Letakkan spesimen atas slaid. 3. Tambah setitis air atau pewarna. 4. Tutup dengan penutup kaca. 5. Perhatikan di bawah mikroskop.'
+      working: |
+        1. Potong spesimen nipis untuk cahaya menembusi.
+        2. Letakkan spesimen atas slaid bersih.
+        3. Tambahkan setitis air atau pewarna untuk meningkatkan kontras.
+        4. Tutup dengan penutup kaca untuk melindungi spesimen.
+        5. Perhatikan slaid di bawah mikroskop.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: 'Menyenaraikan dua langkah asas.'
+      - marks: 2
+        criteria: 'Menyenaraikan semua langkah dengan betul.'
+    hints:
+      - level: 1
+        text: 'Ingat prosedur asas untuk penyediaan slaid mikroskop.'
+
+  # Group by learning objective 2.1.3
+  - id: Q3
+    text: 'Bandingkan fungsi nukleus dalam sel haiwan dan sel tumbuhan.'
+    difficulty: medium
+    learning_objective: 2.1.3
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: 'Nukleus dalam kedua-dua sel haiwan dan sel tumbuhan mengawal aktiviti sel dan menyimpan maklumat genetik.'
+      working: |
+        1. Nukleus dalam kedua-dua jenis sel berfungsi mengawal aktiviti sel.
+        2. Nukleus menyimpan maklumat genetik (DNA) dalam kedua-dua jenis sel.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: 'Menyebut fungsi asas nukleus.'
+      - marks: 2
+        criteria: 'Mengaitkan fungsi kepada kedua-dua jenis sel.'
+    hints:
+      - level: 1
+        text: 'Fikirkan tentang peranan pusat kawalan dalam sel.'
+
+  # Group by learning objective 2.2.3
+  - id: Q4
+    text: 'Jelaskan perbezaan antara proses respirasi sel dan fotosintesis.'
+    difficulty: medium
+    learning_objective: 2.2.3
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: 'Respirasi sel mengubah glukosa kepada tenaga, manakala fotosintesis mengubah tenaga cahaya kepada glukosa.'
+      working: |
+        1. Respirasi sel adalah proses katabolik yang mengurai glukosa untuk menghasilkan ATP.
+        2. Fotosintesis adalah proses anabolik yang menggunakan tenaga cahaya untuk mensintesis glukosa dari CO2 dan H2O.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: 'Menjelaskan proses respirasi sel.'
+      - marks: 2
+        criteria: 'Menjelaskan proses fotosintesis.'
+    hints:
+      - level: 1
+        text: 'Pertimbangkan sumber dan produk tenaga dalam kedua-dua proses.'
+
+  # Group by learning objective 2.1.5
+  - id: Q5
+    text: 'Apakah perbezaan utama antara sel haiwan dan sel tumbuhan?'
+    difficulty: medium
+    learning_objective: 2.1.5
+    tp_level: 4
+    kbat: true
+    answer:
+      type: multiple_choice
+      value: 'Sel tumbuhan mempunyai dinding sel dan kloroplas.'
+      options:
+        - 'Sel haiwan mempunyai dinding sel.'
+        - 'Sel tumbuhan mempunyai dinding sel dan kloroplas.'
+        - 'Sel haiwan dan sel tumbuhan adalah sama.'
+        - 'Sel haiwan mempunyai kloroplas.'
+      working: |
+        1. Sel tumbuhan mempunyai dinding sel yang memberikan sokongan struktur.
+        2. Sel tumbuhan mengandungi kloroplas untuk fotosintesis.
+    marks: 3
+    rubric:
+      - marks: 3
+        criteria: 'Jawapan betul dan lengkap.'
+    hints:
+      - level: 1
+        text: 'Fokus pada struktur yang unik kepada tumbuhan.'

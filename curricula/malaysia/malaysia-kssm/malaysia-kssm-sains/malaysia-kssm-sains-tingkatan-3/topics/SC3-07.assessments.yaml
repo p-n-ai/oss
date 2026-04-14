@@ -1,0 +1,124 @@
+topic_id: "SC3-07"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 7.1.1 (apply)
+    - id: "Q01"
+      text: 'Sebuah kotak dengan berat 20 N diangkat setinggi 2 m. Hitung kerja yang dilakukan ke atas kotak tersebut.'
+      difficulty: "medium"
+      learning_objective: "7.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: '40'
+        working: |
+            Kerja dilakukan = daya x jarak \\
+            = 20 \, \text{N} \times 2 \, \text{m} \\
+            = 40 \, \text{J}
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menggunakan formula kerja dengan betul."
+        - marks: 1
+          criteria: "Mengira kerja yang dilakukan dengan tepat."
+      hints:
+        - level: 1
+          text: "Ingat formula kerja adalah daya darab jarak."
+        - level: 2
+          text: "Daya yang digunakan adalah 20 N, dan jarak adalah 2 m."
+    # Learning Objective: 7.1.2 (apply)
+    - id: "Q02"
+      text: 'Jika 500 J tenaga digunakan dalam 10 saat, apakah kuasa yang dihasilkan?'
+      difficulty: "medium"
+      learning_objective: "7.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: '50'
+        working: |
+            Kuasa = \frac{\text{tenaga}}{\text{masa}} \\
+            = \frac{500 \, \text{J}}{10 \, \text{s}} \\
+            = 50 \, \text{W}
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menggunakan formula kuasa dengan betul."
+        - marks: 1
+          criteria: "Mengira kuasa dengan tepat."
+      hints:
+        - level: 1
+          text: "Kuasa adalah tenaga dibahagikan dengan masa."
+        - level: 2
+          text: "Gunakan tenaga 500 J dan masa 10 saat."
+    # Learning Objective: 7.2.1 (understand)
+    - id: "Q03"
+      text: 'Nyatakan satu contoh di mana tenaga keupayaan graviti digunakan dalam kehidupan seharian.'
+      difficulty: "medium"
+      learning_objective: "7.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Mengangkat buku ke atas rak yang tinggi.'
+        working: |
+            Contoh tenaga keupayaan graviti adalah apabila objek diangkat ke ketinggian tertentu, seperti buku diangkat ke atas rak.
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Memberi contoh yang tepat mengenai tenaga keupayaan graviti."
+      hints:
+        - level: 1
+          text: "Fikirkan contoh bila sesuatu objek diangkat ke suatu ketinggian."
+        - level: 2
+          text: "Objek yang diletakkan di tempat tinggi mempunyai tenaga keupayaan graviti."
+    # Learning Objective: 7.2.2 (apply)
+    - id: "Q04"
+      text: 'Sebuah spring dengan pemalar spring 200 N/m dipanjangkan sebanyak 0.1 m. Berapakah tenaga keupayaan kenyal yang tersimpan dalam spring tersebut?'
+      difficulty: "medium"
+      learning_objective: "7.2.2"
+      tp_level: 4
+      kbat: false
+      answer:
+        type: "exact"
+        value: '1'
+        working: |
+            Tenaga keupayaan kenyal = \frac{1}{2} k x^2 \\
+            = \frac{1}{2} \times 200 \, \text{N/m} \times (0.1 \, \text{m})^2 \\
+            = 1 \, \text{J}
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menggunakan formula tenaga keupayaan kenyal dengan betul."
+        - marks: 1
+          criteria: "Mengira kuasa dua pemanjangan dengan betul."
+        - marks: 1
+          criteria: "Mengira tenaga keupayaan kenyal dengan tepat."
+      hints:
+        - level: 1
+          text: 'Gunakan formula untuk tenaga keupayaan kenyal: $\frac{1}{2} k x^2$.'
+        - level: 2
+          text: "Pastikan untuk memanjangkan 0.1 m kepada kuasa dua sebelum mengira."
+    # Learning Objective: 7.3.1 (understand)
+    - id: "Q05"
+      text: 'Jelaskan Prinsip Keabadian Tenaga dengan memberi contoh situasi dalam kehidupan seharian.'
+      difficulty: "medium"
+      learning_objective: "7.3.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Tenaga tidak boleh dicipta atau dimusnahkan, hanya berubah dari satu bentuk ke bentuk lain. Contohnya, dalam buaian, tenaga keupayaan graviti berubah menjadi tenaga kinetik dan sebaliknya.'
+        working: |
+            Prinsip Keabadian Tenaga menyatakan bahawa jumlah tenaga dalam sistem tertutup adalah kekal. Dalam buaian, ketika ia bergerak naik dan turun, tenaga bertukar antara tenaga keupayaan graviti dan tenaga kinetik.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan prinsip keabadian tenaga dengan betul."
+        - marks: 2
+          criteria: "Memberi contoh yang tepat dan merumuskan perubahan tenaga dengan betul."
+      hints:
+        - level: 1
+          text: "Ingat bahawa tenaga tidak boleh dicipta atau dimusnahkan."
+        - level: 2
+          text: "Fikirkan contoh di mana tenaga bertukar dari satu bentuk ke bentuk lain, seperti buaian bergerak."

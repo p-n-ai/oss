@@ -1,0 +1,141 @@
+topic_id: "SC4-06"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 6.1.1
+    - id: "Q1"
+      text: 'Nyatakan dua contoh haiwan dengan jenis sokongan yang berbeza dan terangkan bagaimana sokongan tersebut membantu pergerakan mereka.'
+      difficulty: "medium"
+      learning_objective: "6.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Contoh haiwan ialah ikan yang mempunyai sokongan dalaman dan cacing yang mempunyai sokongan hidrostatik. Sokongan dalaman ikan membolehkan mereka bergerak secara efisien di dalam air, manakala sokongan hidrostatik cacing membantu mereka bergerak melalui tanah dengan memanjangkan dan memendekkan badan."
+        working: |
+            - Ikan: Memiliki tulang belakang yang menyokong badan dan memudahkan pergerakan air.
+            - Cacing: Menggunakan cecair badan untuk memberikan bentuk dan sokongan semasa bergerak.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menyenaraikan dua contoh haiwan dengan jenis sokongan yang berbeza."
+        - marks: 2
+          criteria: "Menerangkan bagaimana sokongan tersebut membantu pergerakan."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang pergerakan ikan dan cacing."
+        - level: 2
+          text: "Bagaimana rangka ikan dan struktur badan cacing mempengaruhi pergerakan mereka?"
+    # Learning Objective 6.1.2
+    - id: "Q2"
+      text: 'Bagaimana saiz rangka luar haiwan mempengaruhi pertumbuhan mereka? Berikan contoh.'
+      difficulty: "medium"
+      learning_objective: "6.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Saiz rangka luar haiwan seperti serangga membatasi pertumbuhan mereka kerana rangka luar tidak boleh tumbuh. Sebaliknya, haiwan perlu melalui proses pemolting untuk membesar."
+        working: |
+            - Rangka luar adalah keras dan tidak fleksibel.
+            - Haiwan seperti serangga mengalami pemolting untuk membolehkan pertumbuhan.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan bahawa rangka luar membatasi pertumbuhan."
+        - marks: 2
+          criteria: "Menerangkan proses pemolting dengan contoh yang sesuai."
+      hints:
+        - level: 1
+          text: "Pertimbangkan serangga yang perlu membuang rangka luar mereka untuk membesar."
+        - level: 2
+          text: "Apa yang berlaku semasa pemolting?"
+    # Learning Objective 6.1.3
+    - id: "Q3"
+      text: 'Terangkan bagaimana rangka hidrostatik menyokong pergerakan dalam haiwan seperti cacing tanah.'
+      difficulty: "medium"
+      learning_objective: "6.1.3"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Rangka hidrostatik dalam cacing tanah terdiri daripada cecair dalam ruang badan yang ditekan oleh otot untuk memberi bentuk dan sokongan. Ini membolehkan cacing tanah memanjangkan dan memendekkan badan mereka untuk bergerak."
+        working: |
+            - Cecair dalam ruang badan memberikan tekanan.
+            - Otot menekan cecair untuk perubahan bentuk.
+            - Perubahan bentuk memudahkan pergerakan.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menyatakan komponen utama rangka hidrostatik."
+        - marks: 1
+          criteria: "Menerangkan fungsi cecair dalam rangka hidrostatik."
+        - marks: 1
+          criteria: "Menghubungkan perubahan bentuk dengan pergerakan."
+      hints:
+        - level: 1
+          text: "Apa yang mengisi ruang badan dalam cacing tanah?"
+        - level: 2
+          text: "Bagaimana cecair ini membantu cacing tanah bergerak?"
+    # Learning Objective 6.1.4
+    - id: "Q4"
+      text: 'Apakah fungsi utama rangka dalam bagi haiwan vertebrata?'
+      difficulty: "medium"
+      learning_objective: "6.1.4"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "A"
+        working: |
+            A. Memberikan sokongan dan struktur kepada badan haiwan.
+            B. Memudahkan pernafasan.
+            C. Menyimpan nutrien.
+            D. Menghasilkan haba.
+        options:
+            A: "Memberikan sokongan dan struktur kepada badan haiwan."
+            B: "Memudahkan pernafasan."
+            C: "Menyimpan nutrien."
+            D: "Menghasilkan haba."
+        distractors:
+            - value: "B"
+              feedback: "Pernafasan lebih berkaitan dengan sistem respirasi, bukan rangka."
+            - value: "C"
+              feedback: "Walaupun tulang menyimpan beberapa mineral, fungsi utama rangka adalah sokongan."
+            - value: "D"
+              feedback: "Penghasilan haba lebih berkaitan dengan metabolisme, bukan fungsi rangka."
+      marks: 2
+      rubric:
+        - marks: 2
+          criteria: "Memilih jawapan yang betul mengenai fungsi utama rangka dalam."
+      hints:
+        - level: 1
+          text: "Apakah peranan utama tulang dalam badan?"
+        - level: 2
+          text: "Fikirkan bagaimana rangka menyokong struktur badan."
+    # Learning Objective 6.2.2
+    - id: "Q5"
+      text: 'Reka satu senario di mana masalah sendi boleh menjejaskan aktiviti harian seseorang. Jelaskan bagaimana masalah ini dapat diatasi.'
+      difficulty: "medium"
+      learning_objective: "6.2.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Contoh senario: Seorang individu mengalami arthritis pada sendi lutut, menyebabkan kesakitan semasa berjalan. Penyelesaian mungkin termasuk fisioterapi, pengambilan ubat anti-radang, atau penggunaan alat sokongan seperti tongkat."
+        working: |
+            - Kenal pasti sendi yang terjejas.
+            - Jelaskan bagaimana ia menjejaskan aktiviti.
+            - Berikan penyelesaian yang relevan.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Mencipta senario yang relevan dengan masalah sendi."
+        - marks: 1
+          criteria: "Menerangkan bagaimana masalah menjejaskan aktiviti harian."
+        - marks: 2
+          criteria: "Memberi cadangan penyelesaian yang sesuai."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang pergerakan yang bergantung pada sendi."
+        - level: 2
+          text: "Apakah rawatan biasa untuk masalah sendi?"

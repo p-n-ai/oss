@@ -1,0 +1,135 @@
+topic_id: SC1-09
+provenance: ai-generated
+
+questions:
+  # Learning Objective: 9.1.2 - Menjelaskan perbezaan antara lapisan bumi berdasarkan komposisi dan sifat fizik.
+  - id: Q1
+    text: 'Terangkan perbezaan utama antara kerak bumi dan mantel dari segi komposisi dan sifat fizikalnya.'
+    difficulty: medium
+    learning_objective: 9.1.2
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: 'Kerak bumi terdiri daripada batuan silikat yang padat, manakala mantel terdiri daripada bahan silikat yang lebih lembut dan lebih panas.'
+      working: |
+        Kerak bumi adalah lapisan luar bumi yang terdiri daripada batuan keras dan padat. Ia mengandungi elemen seperti oksigen, silikon, dan aluminium. 
+        Mantel pula berada di bawah kerak dan terdiri daripada batuan silikat yang lebih lembut akibat suhu tinggi. Ini menyebabkan material mantel lebih likat dan boleh mengalir perlahan.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: 'Menerangkan komposisi kerak bumi dengan betul.'
+      - marks: 2
+        criteria: 'Menerangkan komposisi dan sifat fizikal mantel dengan betul.'
+    hints:
+      - level: 1
+        text: 'Kerak bumi bersifat keras dan padat, lebih ringan berbanding mantel.'
+      - level: 2
+        text: 'Mantel lebih lembut sebab suhu dan tekanan yang lebih tinggi.'
+
+  # Learning Objective: 9.2.2 - Berkomunikasi bagi membezakan proses pembentukan batuan.
+  - id: Q2
+    text: 'Apakah perbezaan utama antara batuan igneus dan batuan sedimen dari segi proses pembentukannya?'
+    difficulty: medium
+    learning_objective: 9.2.2
+    tp_level: 3
+    kbat: true
+    answer:
+      type: multiple_choice
+      value: 'Batuan igneus terbentuk dari penyejukan magma, manakala batuan sedimen terbentuk dari pemadatan dan penyimenan partikel.'
+      options:
+        - 'Batuan igneus terbentuk dari penyejukan magma, manakala batuan sedimen terbentuk dari pemadatan dan penyimenan partikel.'
+        - 'Batuan igneus terbentuk dari pemadatan partikel, manakala batuan sedimen terbentuk dari penyejukan magma.'
+        - 'Kedua-duanya terbentuk dari proses yang sama.'
+        - 'Batuan sedimen terbentuk dari penyejukan magma, manakala batuan igneus terbentuk dari pemadatan dan penyimenan partikel.'
+      distractors:
+        - value: 'Batuan igneus terbentuk dari pemadatan partikel, manakala batuan sedimen terbentuk dari penyejukan magma.'
+          feedback: 'Batuan igneus terbentuk dari penyejukan magma, bukan pemadatan partikel.'
+        - value: 'Kedua-duanya terbentuk dari proses yang sama.'
+          feedback: 'Batuan igneus dan sedimen terbentuk melalui proses yang berbeza.'
+        - value: 'Batuan sedimen terbentuk dari penyejukan magma, manakala batuan igneus terbentuk dari pemadatan dan penyimenan partikel.'
+          feedback: 'Ini terbalik; batuan igneus dari magma, batuan sedimen dari partikel.'
+    marks: 3
+    rubric:
+      - marks: 3
+        criteria: 'Memilih jawapan yang betul dan memberikan penjelasan ringkas.'
+    hints:
+      - level: 1
+        text: 'MISCONCEPTION ALERT: Batuan igneus tidak terbentuk dari partikel.'
+      - level: 2
+        text: 'Fikirkan tentang bagaimana magma menjadi keras.'
+
+  # Learning Objective: 9.4.2 - Menjana idea bagaimana sains dan teknologi digunakan untuk menghadapi geobencana.
+  - id: Q3
+    text: 'Bagaimanakah teknologi boleh digunakan untuk mengurangkan impak gempa bumi? Berikan dua contoh.'
+    difficulty: medium
+    learning_objective: 9.4.2
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: 'Contoh teknologi termasuklah sistem amaran awal gempa bumi dan bangunan kalis gegaran.'
+      working: |
+        Teknologi boleh digunakan dengan memasang sistem amaran awal yang mengesan getaran seismik dan memberikan amaran kepada penduduk supaya boleh bersedia atau berpindah. 
+        Selain itu, membina struktur bangunan yang menggunakan teknologi kalis gegaran seperti shock absorbers dapat mengurangkan kerosakan.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: 'Menyebut sistem amaran awal gempa bumi.'
+      - marks: 2
+        criteria: 'Menyebut bangunan kalis gegaran dengan penjelasan ringkas.'
+    hints:
+      - level: 1
+        text: 'Teknologi boleh membantu memberi amaran awal kepada orang ramai.'
+      - level: 2
+        text: 'Fikirkan tentang cara bangunan boleh dibina untuk menahan gegaran.'
+
+  # Learning Objective: 9.5.3 - Berkomunikasi mengenai fosil.
+  - id: Q4
+    text: 'Apakah yang dimaksudkan dengan fosil dan bagaimana ia dapat membantu kita memahami sejarah Bumi?'
+    difficulty: medium
+    learning_objective: 9.5.3
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: 'Fosil adalah sisa atau kesan organisma yang telah dipelihara dalam batuan. Ia membantu kita memahami evolusi dan perubahan yang berlaku di Bumi.'
+      working: |
+        Fosil terbentuk apabila organisma mati dan tertanam di bawah sedimen yang akhirnya menjadi batu. 
+        Dengan mengkaji fosil, kita boleh mengetahui lebih lanjut tentang spesies yang telah hidup di masa lalu dan bagaimana mereka berubah.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: 'Menjelaskan maksud fosil.'
+      - marks: 2
+        criteria: 'Menerangkan bagaimana fosil membantu memahami sejarah Bumi.'
+    hints:
+      - level: 1
+        text: 'Fosil adalah jejak atau sisa organisma masa lalu.'
+      - level: 2
+        text: 'Fikirkan tentang apa yang boleh kita pelajari dari maklumat yang ada pada fosil.'
+
+  # Learning Objective: 9.6.1 - Menerangkan mengenai air permukaan dan risikonya.
+  - id: Q5
+    text: 'Jelaskan bagaimana air permukaan boleh menjejaskan kualiti kehidupan manusia dan sebutkan satu risiko yang berkaitan.'
+    difficulty: medium
+    learning_objective: 9.6.1
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: 'Air permukaan yang tercemar boleh menyebabkan masalah kesihatan. Risiko termasuk banjir yang boleh menjejaskan harta benda dan keselamatan.'
+      working: |
+        Air permukaan seperti sungai dan tasik boleh tercemar oleh bahan kimia atau bahan buangan yang merosakkan ekosistem dan menyebabkan penyakit. 
+        Banjir, sebagai salah satu risiko, boleh memusnahkan rumah dan infrastruktur serta menyebabkan kehilangan nyawa.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: 'Menjelaskan kesan pencemaran air permukaan terhadap kesihatan manusia.'
+      - marks: 2
+        criteria: 'Menyebut dan menerangkan risiko banjir.'
+    hints:
+      - level: 1
+        text: 'Air permukaan boleh tercemar dari pelbagai sumber.'
+      - level: 2
+        text: 'Pertimbangkan apa yang berlaku apabila air melimpah dari sungai.'

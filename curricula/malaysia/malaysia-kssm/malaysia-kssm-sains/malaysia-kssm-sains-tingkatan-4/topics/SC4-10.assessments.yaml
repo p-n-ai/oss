@@ -1,0 +1,127 @@
+topic_id: "SC4-10"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 10.1.1
+    - id: "Q01"
+      text: 'Bandingkan ciri-ciri perubatan tradisional dan moden dari segi bahan yang digunakan dan kaedah rawatan.'
+      difficulty: "medium"
+      learning_objective: "10.1.1"
+      tp_level: 3
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Perubatan tradisional menggunakan bahan semula jadi seperti herba, manakala perubatan moden menggunakan bahan sintetik atau ubat-ubatan kimia. Kaedah rawatan tradisional mungkin melibatkan upacara atau urutan, manakala perubatan moden lebih kepada rawatan klinikal dan teknologi.'
+        working: |
+            - Perubatan tradisional sering melibatkan penggunaan herba dan kaedah rawatan yang diwarisi secara turun-temurun.
+            - Perubatan moden menggunakan ubat yang telah melalui ujian klinikal dan teknologi moden.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Menjelaskan bahan yang digunakan dalam kedua-dua jenis perubatan.'
+        - marks: 2
+          criteria: 'Menjelaskan kaedah rawatan yang digunakan dalam kedua-dua jenis perubatan.'
+      hints:
+        - level: 1
+          text: 'Fokus pada bahan dan kaedah rawatan yang digunakan dalam perubatan.'
+        - level: 2
+          text: 'Pertimbangkan bagaimana perubatan tradisional dan moden memperlakukan penyakit dengan cara yang berbeza.'
+    # Learning Objective 10.1.3
+    - id: "Q02"
+      text: 'Tentukan justifikasi penggunaan perubatan komplementari bersama perubatan moden.'
+      difficulty: "medium"
+      learning_objective: "10.1.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Penggunaan perubatan komplementari bersama perubatan moden boleh meningkatkan keberkesanan rawatan, mengurangkan kesan sampingan, dan memenuhi keperluan pesakit yang lebih suka pendekatan holistik.'
+        working: |
+            - Perubatan komplementari boleh digunakan untuk menyokong rawatan moden dengan pendekatan holistik.
+            - Rawatan komplementari boleh mengurangkan kesan sampingan dengan mengurangkan tekanan atau menambah baik kesejahteraan umum.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: 'Menyatakan manfaat penggunaan perubatan komplementari.'
+        - marks: 1
+          criteria: 'Mengaitkan dengan perubatan moden untuk meningkatkan rawatan.'
+        - marks: 1
+          criteria: 'Menjelaskan aspek holistik atau pengurangan kesan sampingan.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang bagaimana kedua-dua jenis perubatan boleh saling melengkapi.'
+        - level: 2
+          text: 'Bagaimana perubatan komplementari boleh membantu mengurangkan kesan sampingan ubat moden?'
+    # Learning Objective 10.1.5
+    - id: "Q03"
+      text: 'Huraikan kesan penyalahgunaan ubat-ubatan terhadap kesihatan individu dan masyarakat.'
+      difficulty: "medium"
+      learning_objective: "10.1.5"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Penyalahgunaan ubat-ubatan boleh menyebabkan ketagihan, kerosakan organ, dan kematian pada individu. Pada tahap masyarakat, ia boleh mengakibatkan peningkatan jenayah, beban pada sistem kesihatan, dan masalah sosial.'
+        working: |
+            - Penyalahgunaan ubat menyebabkan masalah kesihatan seperti ketagihan dan kerosakan organ.
+            - Ia juga memberi impak negatif kepada masyarakat melalui peningkatan kadar jenayah dan beban ekonomi.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: 'Menjelaskan kesan kepada kesihatan individu.'
+        - marks: 1
+          criteria: 'Menjelaskan kesan kepada masyarakat secara umum.'
+        - marks: 1
+          criteria: 'Mengaitkan kesan penyalahgunaan ubat dengan masalah sosial.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan kesan langsung dan tidak langsung penyalahgunaan ubat.'
+        - level: 2
+          text: 'Bagaimana penyalahgunaan ubat mempengaruhi masyarakat secara keseluruhan?'
+    # Learning Objective 10.2.2
+    - id: "Q04"
+      text: 'Jelaskan bagaimana radikal bebas boleh mempengaruhi kesihatan manusia.'
+      difficulty: "medium"
+      learning_objective: "10.2.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "exact"
+        value: 'Radikal bebas boleh menyebabkan kerosakan sel yang membawa kepada penuaan pramatang dan penyakit seperti kanser dan penyakit jantung.'
+        working: |
+            - Radikal bebas menyebabkan kerosakan oksidatif pada sel.
+            - Ini membawa kepada mutasi dan perkembangan penyakit kronik.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: 'Menjelaskan kesan kerosakan sel oleh radikal bebas.'
+        - marks: 1
+          criteria: 'Mengaitkan dengan penyakit seperti kanser dan penyakit jantung.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan bagaimana kerosakan sel boleh menyebabkan penyakit.'
+        - level: 2
+          text: 'Apa yang berlaku apabila sel rosak akibat radikal bebas?'
+    # Learning Objective 10.3.2
+    - id: "Q05"
+      text: 'Bagaimana bahan antioksida berfungsi untuk meneutralkan radikal bebas?'
+      difficulty: "medium"
+      learning_objective: "10.3.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: 'Antioksida menyediakan elektron kepada radikal bebas, meneutralkan mereka dan menghalang kerosakan sel.'
+        working: |
+            - Antioksida bertindak dengan mendermakan elektron kepada radikal bebas.
+            - Ini menghalang radikal bebas daripada merosakkan sel.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: 'Menjelaskan peranan antioksida dalam menyediakan elektron.'
+        - marks: 1
+          criteria: 'Menjelaskan bagaimana ini menghalang kerosakan sel.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang bagaimana antioksida meneutralkan radikal bebas.'
+        - level: 2
+          text: 'Apa yang antioksida lakukan kepada radikal bebas untuk menghalang kerosakan?'

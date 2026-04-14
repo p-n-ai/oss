@@ -1,0 +1,131 @@
+topic_id: "SC4-08"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 8.1.1
+    - id: "Q01"
+      text: 'Apakah contoh bahan atom, bahan molekul, dan bahan ion?'
+      difficulty: "medium"
+      learning_objective: "8.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: "C"
+        options:
+            A: 'Bahan atom: O$_2$, Bahan molekul: Na, Bahan ion: CO$_2$'
+            B: 'Bahan atom: CO$_2$, Bahan molekul: NaCl, Bahan ion: He'
+            C: 'Bahan atom: He, Bahan molekul: H$_2$O, Bahan ion: NaCl'
+            D: 'Bahan atom: NaCl, Bahan molekul: He, Bahan ion: O$_2$'
+        working: "Bahan atom terdiri daripada atom tunggal, seperti Helium (He). \nBahan molekul terdiri daripada dua atau lebih atom yang terikat bersama, seperti air (H$_2$O).\nBahan ion terdiri daripada ion positif dan negatif, seperti natrium klorida (NaCl).\n"
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Memilih bahan atom yang betul."
+        - marks: 1
+          criteria: "Memilih bahan molekul yang betul."
+        - marks: 1
+          criteria: "Memilih bahan ion yang betul."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang komposisi bahan dalam bentuk atom, molekul, dan ion."
+        - level: 2
+          text: "Ingat bahawa bahan atom terdiri daripada atom tunggal."
+    # Learning Objective 8.1.2
+    - id: "Q02"
+      text: 'Terangkan kewujudan unsur dalam pelbagai bentuk dan berikan contohnya.'
+      difficulty: "medium"
+      learning_objective: "8.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Unsur boleh wujud dalam pelbagai bentuk seperti allotrop. Contohnya, karbon boleh wujud sebagai grafit atau berlian."
+        working: |
+            Unsur seperti karbon boleh wujud dalam bentuk berbeza yang dikenali sebagai allotrop.
+            Contoh allotrop karbon termasuk grafit, yang mempunyai struktur lapisan, dan berlian, yang mempunyai struktur tetrahedral.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan konsep kewujudan unsur dalam pelbagai bentuk."
+        - marks: 1
+          criteria: "Memberikan contoh unsur yang mempunyai pelbagai bentuk."
+        - marks: 1
+          criteria: "Menjelaskan perbezaan antara bentuk tersebut."
+      hints:
+        - level: 1
+          text: "Fokus pada unsur yang mempunyai lebih daripada satu bentuk."
+        - level: 2
+          text: "Carilah maklumat mengenai allotrop karbon."
+    # Learning Objective 8.2.1
+    - id: "Q03"
+      text: 'Apakah yang dimaksudkan dengan kumpulan dalam Jadual Berkala Unsur Moden?'
+      difficulty: "medium"
+      learning_objective: "8.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "exact"
+        value: "Kumpulan merujuk kepada lajur menegak dalam jadual berkala di mana unsur-unsur mempunyai bilangan elektron valens yang sama."
+        working: |
+            Kumpulan dalam jadual berkala adalah lajur menegak di mana unsur-unsur dalam kumpulan yang sama mempunyai bilangan elektron valens yang sama, yang menyebabkan sifat kimia mereka serupa.
+      marks: 2
+      rubric:
+        - marks: 1
+          criteria: "Menggambarkan kumpulan sebagai lajur menegak."
+        - marks: 1
+          criteria: "Menjelaskan sifat elektron valens yang sama dalam kumpulan."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang arah lajur dalam jadual berkala."
+        - level: 2
+          text: "Pertimbangkan apa yang sama dalam sifat kimia unsur dalam kumpulan yang sama."
+    # Learning Objective 8.2.3
+    - id: "Q04"
+      text: 'Melakar dan menulis susunan elektron bagi unsur oksigen (O).'
+      difficulty: "medium"
+      learning_objective: "8.2.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: "Susunan elektron oksigen ialah 2, 6."
+        working: |
+            Oksigen mempunyai nombor atom 8, bermakna ia mempunyai 8 elektron. Elektron disusun dalam petala: 2 elektron dalam petala pertama dan 6 elektron dalam petala kedua.
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menentukan bilangan elektron dalam unsur oksigen."
+        - marks: 1
+          criteria: "Menyusun elektron dalam petala yang betul."
+        - marks: 1
+          criteria: "Melakar susunan elektron dengan betul."
+      hints:
+        - level: 1
+          text: "Periksa nombor atom oksigen dalam jadual berkala."
+        - level: 2
+          text: "Ingatkan bahawa petala pertama boleh memuatkan 2 elektron."
+    # Learning Objective 8.3.1
+    - id: "Q05"
+      text: 'Terangkan apakah itu isotop dan berikan contoh isotop untuk hidrogen.'
+      difficulty: "medium"
+      learning_objective: "8.3.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: "Isotop ialah atom daripada unsur yang sama dengan bilangan proton yang sama tetapi bilangan neutron yang berbeza. Contoh isotop hidrogen ialah protium, deuterium, dan tritium."
+        working: |
+            Isotop adalah variasi atom bagi unsur yang sama, dengan bilangan proton sama tetapi bilangan neutron berbeza. Hidrogen mempunyai tiga isotop: protium (1 proton, 0 neutron), deuterium (1 proton, 1 neutron), dan tritium (1 proton, 2 neutron).
+      marks: 3
+      rubric:
+        - marks: 1
+          criteria: "Menjelaskan konsep isotop."
+        - marks: 1
+          criteria: "Menyenaraikan contoh isotop hidrogen."
+        - marks: 1
+          criteria: "Menjelaskan perbezaan dalam bilangan neutron antara isotop."
+      hints:
+        - level: 1
+          text: "Fikirkan tentang atom yang mempunyai bilangan proton yang sama tetapi berbeza dalam aspek tertentu."
+        - level: 2
+          text: "Periksa isotop hidrogen dalam buku teks."

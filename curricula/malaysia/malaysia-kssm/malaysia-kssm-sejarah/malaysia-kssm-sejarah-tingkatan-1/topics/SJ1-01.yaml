@@ -1,0 +1,185 @@
+id: "SJ1-01"
+official_ref: "Bab 1"
+name: "Mengenali Sejarah"
+name_en: "Recognizing History"
+subject_grade_id: "malaysia-kssm-sejarah-tingkatan-1"
+subject_id: "malaysia-kssm-sejarah"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+content_standards:
+    - id: "1.1"
+      text: "Pengenalan Ilmu Sejarah"
+      text_en: "Introduction to History Knowledge"
+learning_objectives:
+    - id: "1.1.1"
+      text: "Menyatakan pengertian sejarah secara umum."
+      text_en: "Stating the general definition of history."
+      bloom: "remember"
+      content_standard_id: "1.1"
+    - id: "1.1.2"
+      text: "Menjelaskan pengertian sejarah mengikut pandangan sejarawan seperti Herodotus, E.H Carr, Ibn Khaldun, dan Mohd.Yusuf Ibrahim."
+      text_en: "Explaining the definition of history according to historians such as Herodotus, E.H Carr, Ibn Khaldun, and Mohd. Yusuf Ibrahim."
+      bloom: "understand"
+      content_standard_id: "1.1"
+    - id: "1.1.3"
+      text: "Menghuraikan konsep masa silam dan ruang dalam sejarah."
+      text_en: "Describing the concepts of past time and space in history."
+      bloom: "understand"
+      content_standard_id: "1.1"
+    - id: "1.1.4"
+      text: "Membincangkan sumber sejarah."
+      text_en: "Discussing historical sources."
+      bloom: "analyze"
+      content_standard_id: "1.1"
+    - id: "1.1.5"
+      text: "Menjelaskan kaedah penyelidikan sejarah."
+      text_en: "Explaining historical research methods."
+      bloom: "understand"
+      content_standard_id: "1.1"
+    - id: "1.1.6"
+      text: "Menjelaskan pentafsiran sejarah."
+      text_en: "Explaining historical interpretation."
+      bloom: "understand"
+      content_standard_id: "1.1"
+    - id: "1.1.7"
+      text: "Membincangkan kepentingan mempelajari sejarah."
+      text_en: "Discussing the importance of studying history."
+      bloom: "analyze"
+      content_standard_id: "1.1"
+    - id: "1.1.8"
+      text: "Menjelaskan kepentingan menghargai masa dalam kehidupan seharian."
+      text_en: "Explaining the importance of valuing time in daily life."
+      bloom: "understand"
+      content_standard_id: "1.1"
+      is_citizenship_elements: true
+    - id: "1.1.9"
+      text: "Merumuskan kepentingan menghargai peristiwa sejarah negara kita."
+      text_en: "Summarizing the importance of valuing our country's historical events."
+      bloom: "evaluate"
+      content_standard_id: "1.1"
+      is_citizenship_elements: true
+    - id: "1.1.10"
+      text: "Menjana idea cara memelihara warisan negara kita."
+      text_en: "Generating ideas on how to preserve our country's heritage."
+      bloom: "create"
+      content_standard_id: "1.1"
+      is_citizenship_elements: true
+    - id: "1.1.11"
+      text: "Menerangkan kepentingan mengaplikasikan ilmu Sejarah dalam kehidupan."
+      text_en: "Explaining the importance of applying History knowledge in life."
+      bloom: "understand"
+      content_standard_id: "1.1"
+      is_citizenship_elements: true
+prerequisites:
+    required: []
+    recommended: []
+quality_level: 1
+provenance: "ai-generated"
+generated_at: "2026-04-12T05:24:46Z"
+theme: "Sejarah Kita dan Dunia"
+topic_focus:
+    - "Pengertian"
+    - "Konsep masa"
+    - "Sumber"
+    - "Kaedah"
+    - "Pentafsiran sejarah"
+    - "Kepentingan sejarah"
+topic_empathy:
+    - "Berilmu dan berketerampilan"
+    - "Menghargai masa"
+    - "Menghubungkaitkan dengan kehidupan manusia"
+    - "Menghayati peristiwa sejarah"
+    - "Bersyukur sebagai warganegara Malaysia"
+historical_thinking_skills:
+    - "kronologi"
+    - "meneroka_bukti"
+    - "interpretasi"
+citizenship_elements:
+    - id: "K1.1.8"
+      text: "Menjelaskan kepentingan menghargai masa dalam kehidupan seharian."
+      text_en: "Explaining the importance of valuing time in daily life."
+      content_standard_id: "1.1"
+    - id: "K1.1.9"
+      text: "Merumuskan kepentingan menghargai peristiwa sejarah negara kita."
+      text_en: "Summarizing the importance of valuing our country's historical events."
+      content_standard_id: "1.1"
+    - id: "K1.1.10"
+      text: "Menjana idea cara memelihara warisan negara kita."
+      text_en: "Generating ideas on how to preserve our country's heritage."
+      content_standard_id: "1.1"
+    - id: "K1.1.11"
+      text: "Menerangkan kepentingan mengaplikasikan ilmu Sejarah dalam kehidupan."
+      text_en: "Explaining the importance of applying History knowledge in life."
+      content_standard_id: "1.1"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengetahui pengenalan ilmu Sejarah."
+      text_en: "Knowing the introduction to history knowledge."
+      descriptor: "Mengetahui perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Knowing basic matters based on learned history knowledge and values."
+    - level: 2
+      id: "TP2"
+      text: "Memahami pengenalan ilmu Sejarah."
+      text_en: "Understanding the introduction to history knowledge."
+      descriptor: "Memahami perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Understanding basic matters based on learned history knowledge and values."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan pengenalan ilmu Sejarah."
+      text_en: "Applying knowledge of introduction to history."
+      descriptor: "Menggunakan perkara asas berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Using basic matters based on learned history knowledge and values."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis maklumat pengenalan ilmu Sejarah."
+      text_en: "Analyzing information on introduction to history."
+      descriptor: "Menganalisis pengetahuan dan kemahiran berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Analyzing knowledge and skills based on learned history knowledge and values."
+    - level: 5
+      id: "TP5"
+      text: "Membuat penilaian tentang pengenalan ilmu Sejarah."
+      text_en: "Making assessments on introduction to history."
+      descriptor: "Membuat penilaian berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Making assessments based on learned history knowledge and values."
+    - level: 6
+      id: "TP6"
+      text: "Melahirkan idea yang rasional tentang pengenalan ilmu Sejarah."
+      text_en: "Generating rational ideas about introduction to history."
+      descriptor: "Melahirkan idea berdasarkan ilmu sejarah dan nilai yang dipelajari."
+      descriptor_en: "Generating ideas based on learned history knowledge and values."
+teaching:
+    sequence:
+        - 'Step 1: Introduce the general definition of history and its relevance (15 min)'
+        - 'Step 2: Discuss views of historians like Herodotus and E.H Carr (20 min)'
+        - 'Step 3: Elaborate on the concepts of past and space in history (15 min)'
+        - 'Step 4: Discuss historical sources and research methods (20 min)'
+        - 'Step 5: Explain the importance of studying and interpreting history (15 min)'
+    common_misconceptions:
+        - misconception: History is just about memorizing dates and events
+          remediation: Highlight the impact of history on current events and future implications
+        - misconception: All historians have the same perspective on history
+          remediation: Introduce different historians and their unique views
+bloom_levels:
+    - "remember"
+    - "understand"
+    - "analyze"
+    - "evaluate"
+    - "create"
+mastery:
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+tier: "core"
+sync_checked: true
+ai_teaching_notes: "SJ1-01.teaching.md"
+assessments_file: "SJ1-01.assessments.yaml"
+examples_file: SJ1-01.examples.yaml
+engagement_hooks:
+    - Discuss how understanding history helps explain current social and political climates
+    - Relate historical events to students' personal experiences or local history

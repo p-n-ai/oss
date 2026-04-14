@@ -1,0 +1,46 @@
+topic_id: "SC3-02"
+provenance: "ai-generated"
+description: "Worked examples for Respirasi"
+worked_examples:
+    - id: "WE-01"
+      topic: "Struktur dan Mekanisme Pernafasan"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "2.1.1"
+      real_world_analogy: "Bernafas seperti mengisi dan mengosongkan belon dengan udara."
+      misconception_alert: "Ramai pelajar berfikir bahawa udara hanya bergerak masuk dan keluar dari paru-paru tanpa peranan otot."
+      scenario: "Lukis dan labelkan struktur utama dalam sistem respirasi manusia dan terangkan bagaimana udara bergerak semasa pernafasan."
+      working: |
+        Step 1: Lukis struktur utama sistem respirasi manusia termasuk hidung, trakea, bronkus, paru-paru, dan diafragma.
+        Step 2: Labelkan setiap bahagian yang dilukis dengan betul.
+        Step 3: Terangkan bahawa semasa inspirasi, diafragma mengecut dan bergerak ke bawah manakala otot interkostal luar mengangkat tulang rusuk, meningkatkan isi padu rongga toraks.
+        Step 4: Semasa expirasi, diafragma kembali ke posisi asalnya dan otot interkostal dalam menurunkan tulang rusuk, mengurangkan isi padu rongga toraks dan memaksa udara keluar.
+    - id: "WE-02"
+      topic: "Perbezaan Kandungan Gas dalam Udara Sedutan dan Hembusan"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "2.1.2"
+      real_world_analogy: "Mengukur perubahan dalam kandungan gas seperti mengesan perubahan warna dalam larutan kimia."
+      misconception_alert: "Pelajar sering menganggap kandungan oksigen dan karbon dioksida dalam udara sedutan dan hembusan sama."
+      scenario: "Jalankan eksperimen untuk mengkaji perbezaan kandungan oksigen dan karbon dioksida antara udara sedutan dan udara hembusan."
+      working: |
+        Step 1: Sediakan alat seperti bebola kapur dalam dua balang dan sepasang tiub penyedut.
+        Step 2: Minta peserta hembuskan nafas ke dalam satu balang dan sedut udara dari balang lain.
+        Step 3: Perhatikan perubahan pada bebola kapur; udara hembusan yang lebih banyak karbon dioksida akan membuatkan bebola kapur menjadi keruh.
+        Step 4: Bandingkan perubahan antara kedua-dua balang untuk menentukan perbezaan kandungan gas.
+    - id: "WE-03"
+      topic: "Adaptasi Struktur Alveolus"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "2.2.3"
+      real_world_analogy: "Alveolus berfungsi seperti jaring halus yang mempercepatkan pertukaran gas."
+      misconception_alert: "Pelajar mungkin berfikir bahawa saiz alveolus tidak mempengaruhi kecekapan pertukaran gas."
+      scenario: "Terangkan bagaimana struktur adaptasi alveolus meningkatkan kecekapan pertukaran gas dalam tubuh manusia."
+      working: |-
+        Step 1: Kenalpasti ciri-ciri struktur alveolus seperti dinding nipis dan permukaan luas.
+        Step 2: Jelaskan bahawa dinding nipis alveolus membolehkan pertukaran gas yang lebih cepat antara udara dan darah.
+        Step 3: Terangkan bagaimana permukaan luas alveolus meningkatkan jumlah oksigen yang dapat diserap ke dalam darah dan karbon dioksida yang dikeluarkan.
+        Step 4: Kaitkan dengan kehadiran rangkaian kapilari yang padat yang meningkatkan kecekapan pengangkutan gas.

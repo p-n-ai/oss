@@ -1,0 +1,43 @@
+topic_id: "SC2-13"
+provenance: "ai-generated"
+description: "Worked examples for Meteroid, Asteroid, Komet"
+worked_examples:
+    - id: "WE-01"
+      topic: "Understanding Meteoroids"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "13.1.1"
+      real_world_analogy: "Think of a meteoroid as a small rock flying through space, like a pebble tossed across a pond."
+      misconception_alert: "Students often confuse meteoroids with meteorites. A meteoroid is in space, while a meteorite is what remains after hitting the Earth's surface."
+      scenario: "Explain what a meteoroid is and how it differs from a meteorite."
+      working: |
+        Step 1: Define a meteoroid as a small rocky or metallic body traveling through space.
+        Step 2: Explain that when a meteoroid enters Earth's atmosphere and burns up, it becomes a meteor.
+        Step 3: Clarify that if any part of the meteoroid survives the journey through the atmosphere and lands on Earth, it is then called a meteorite.
+    - id: "WE-02"
+      topic: "Movement of Asteroids"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "13.1.2"
+      real_world_analogy: "Asteroids move in specific paths like cars on a highway, following orbits around the Sun."
+      misconception_alert: "A common mistake is thinking all asteroids are large. Most are small, with only a few being significant in size."
+      scenario: "Discuss how asteroids move in space and the potential impact if one were to collide with Earth."
+      working: |
+        Step 1: Describe asteroids as rocky bodies that orbit the Sun, primarily found in the asteroid belt between Mars and Jupiter.
+        Step 2: Explain that their orbits can be influenced by gravitational interactions with planets, potentially altering their paths.
+        Step 3: Analyze the potential effects of an asteroid collision with Earth, such as the release of energy and environmental impact.
+    - id: "WE-03"
+      topic: "Preventing Asteroid Collisions"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "13.1.3"
+      real_world_analogy: "Preventing an asteroid collision is like deflecting an incoming soccer ball before it reaches the goal."
+      misconception_alert: "It's a misconception that we can't do anything to prevent asteroid collisions; various strategies are being researched."
+      scenario: "Propose methods to prevent an asteroid from colliding with Earth."
+      working: |-
+        Step 1: Identify potential strategies such as deflection using spacecraft to alter the asteroid's trajectory.
+        Step 2: Discuss the use of nuclear explosions near the asteroid to change its course without fragmenting it.
+        Step 3: Evaluate the feasibility of each method, considering current technology and international cooperation required for implementation.

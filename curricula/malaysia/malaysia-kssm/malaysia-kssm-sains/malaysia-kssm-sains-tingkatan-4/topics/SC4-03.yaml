@@ -1,0 +1,146 @@
+id: "SC4-03"
+official_ref: "Bab 3"
+name: "Teknik Mengukur Parameter Kesihatan Badan"
+name_en: "Techniques for Measuring Body Health Parameters"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+theme: "Keselamatan dan Kesihatan"
+content_standards:
+    - id: "3.1"
+      text: "Suhu Badan"
+      text_en: "Body Temperature"
+    - id: "3.2"
+      text: "Kadar Denyutan Nadi"
+      text_en: "Pulse Rate"
+    - id: "3.3"
+      text: "Tekanan Darah"
+      text_en: "Blood Pressure"
+    - id: "3.4"
+      text: "Indeks Jisim Badan (Body Mass Index, BMI)"
+      text_en: "Body Mass Index (BMI)"
+learning_objectives:
+    - id: "3.1.1"
+      text: "Mengukur suhu badan menggunakan teknik yang betul."
+      text_en: "Measure body temperature using correct techniques."
+      bloom: "apply"
+      content_standard_id: "3.1"
+    - id: "3.1.2"
+      text: "Menginterpretasi suhu badan."
+      text_en: "Interpret body temperature."
+      bloom: "understand"
+      content_standard_id: "3.1"
+    - id: "3.2.1"
+      text: "Mengenal pasti titik nadi pada badan."
+      text_en: "Identify pulse points on the body."
+      bloom: "remember"
+      content_standard_id: "3.2"
+    - id: "3.2.2"
+      text: "Menjalankan eksperimen bagi menentukan kadar denyutan nadi manusia."
+      text_en: "Conduct an experiment to determine human pulse rate."
+      bloom: "apply"
+      content_standard_id: "3.2"
+    - id: "3.3.1"
+      text: "Mengenal pasti alat mengukur tekanan darah."
+      text_en: "Identify blood pressure measuring instruments."
+      bloom: "remember"
+      content_standard_id: "3.3"
+    - id: "3.3.2"
+      text: "Mengukur dan merekod tekanan darah."
+      text_en: "Measure and record blood pressure."
+      bloom: "apply"
+      content_standard_id: "3.3"
+    - id: "3.3.3"
+      text: "Menginterpretasi data daripada bacaan tekanan darah."
+      text_en: "Interpret data from blood pressure readings."
+      bloom: "understand"
+      content_standard_id: "3.3"
+    - id: "3.4.1"
+      text: "Mengira dan menentukan Indeks Jisim Badan."
+      text_en: "Calculate and determine Body Mass Index."
+      bloom: "apply"
+      content_standard_id: "3.4"
+    - id: "3.4.2"
+      text: "Menginterpretasi Indeks Jisim Badan dan membuat keputusan mengenai tindakan yang perlu diambil."
+      text_en: "Interpret Body Mass Index and make decisions on actions to be taken."
+      bloom: "evaluate"
+      content_standard_id: "3.4"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur."
+      text_en: "Recall science knowledge and skills regarding safety measures in the laboratory, emergency aid, techniques and procedures."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur."
+      descriptor_en: "Recall science knowledge and skills regarding safety measures in the laboratory, emergency aid, techniques and procedures."
+    - level: 2
+      id: "TP2"
+      text: "Memahami langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand safety measures in the laboratory, emergency aid, techniques and procedures and can explain the understanding."
+      descriptor: "Memahami langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand safety measures in the laboratory, emergency aid, techniques and procedures and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge regarding safety measures in the laboratory, emergency aid, techniques and procedures and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge regarding safety measures in the laboratory, emergency aid, techniques and procedures and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan teknik dan prosedur dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge regarding safety measures in the laboratory, emergency aid techniques and procedures in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan teknik dan prosedur dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge regarding safety measures in the laboratory, emergency aid techniques and procedures in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge regarding safety measures in the laboratory, emergency aid, techniques and procedures in the context of problem solving and making decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge regarding safety measures in the laboratory, emergency aid, techniques and procedures in the context of problem solving and making decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur, dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills regarding safety measures in the laboratory, emergency aid, techniques and procedures, in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai langkah keselamatan dalam makmal, bantuan kecemasan, teknik dan prosedur, dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using science knowledge and skills regarding safety measures in the laboratory, emergency aid, techniques and procedures, in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+prerequisites:
+    required: []
+    recommended: []
+teaching:
+    sequence:
+        - 'Step 1: Introduce body temperature measurement tools (15 min)'
+        - 'Step 2: Demonstrate correct thermometer use (15 min)'
+        - 'Step 3: Discuss normal temperature ranges (10 min)'
+        - 'Step 4: Identify pulse points on the body (10 min)'
+        - 'Step 5: Conduct pulse rate measurement experiment (20 min)'
+    common_misconceptions:
+        - misconception: Pulse can be felt anywhere on the body
+          remediation: Use diagrams to show specific pulse points
+        - misconception: Blood pressure is the same throughout the day
+          remediation: Explain factors affecting blood pressure variations
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T00:00:00Z"
+sync_checked: false
+ai_teaching_notes: "SC4-03.teaching.md"
+assessments_file: "SC4-03.assessments.yaml"
+examples_file: SC4-03.examples.yaml
+engagement_hooks:
+    - Discuss the importance of accurate body temperature measurement during illness
+    - Explore how athletes monitor pulse rate for training purposes

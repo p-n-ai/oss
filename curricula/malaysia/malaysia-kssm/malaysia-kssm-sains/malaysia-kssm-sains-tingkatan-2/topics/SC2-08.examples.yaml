@@ -1,0 +1,44 @@
+topic_id: "SC2-08"
+provenance: "ai-generated"
+description: "Worked examples for Daya dan Gerakan"
+worked_examples:
+    - id: "WE-01"
+      topic: "Understanding Force and its Components"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "8.1.1"
+      real_world_analogy: "Pushing a shopping cart requires both magnitude (how hard you push) and direction (where you push it)."
+      misconception_alert: "Students often think force is only about strength, forgetting it also has direction."
+      scenario: "A person pushes a box across the floor by applying a force of 10 N towards the east. Describe the components of the force."
+      working: |
+        Step 1: Identify the magnitude of the force. The force applied is 10 N.
+        Step 2: Determine the direction of the force. The force is directed towards the east.
+        Step 3: Conclude with the description. The force has a magnitude of 10 N and is directed towards the east.
+    - id: "WE-02"
+      topic: "Newton's Third Law of Motion"
+      difficulty: "medium"
+      tp_level: 4
+      kbat: true
+      learning_objective: "8.1.4"
+      real_world_analogy: "When you jump off a small boat, the boat moves backward as you move forward."
+      misconception_alert: "A common misconception is that only the action force exists without considering the reaction force."
+      scenario: "Explain using Newton's Third Law why a balloon moves forward when air is released from it."
+      working: |
+        Step 1: Identify the action force. The air being expelled from the balloon exerts a force backward.
+        Step 2: Identify the reaction force. According to Newton's Third Law, the expelled air causes an equal and opposite reaction force on the balloon.
+        Step 3: Conclude with the motion explanation. The balloon moves forward due to the reaction force acting in the opposite direction to the expelled air.
+    - id: "WE-03"
+      topic: "Moment of Force"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "8.2.4"
+      real_world_analogy: "Using a spanner to tighten a bolt is easier with a longer handle since it increases the moment of the force."
+      misconception_alert: "Students may confuse moment with just force, forgetting the importance of distance from the pivot."
+      scenario: "Calculate the moment of force when a 20 N force is applied perpendicularly at the end of a 0.5 m spanner."
+      working: |-
+        Step 1: Recall the formula for the moment of force: Moment = Force x Distance from pivot.
+        Step 2: Substitute the given values into the formula: Moment = 20 N x 0.5 m.
+        Step 3: Calculate the moment: Moment = 10 Nm.
+        Step 4: Conclude that the moment of force is 10 Newton meters (Nm).

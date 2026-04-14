@@ -1,0 +1,106 @@
+id: SC2-01
+official_ref: "Bab 1"
+name: "Biodiversiti"
+name_en: "Biodiversity"
+subject_grade_id: malaysia-kssm-sains-tingkatan-2
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+content_standards:
+    - id: "1.1"
+      text: "Kepelbagaian organisma"
+      text_en: "Diversity of organisms"
+    - id: "1.2"
+      text: "Pengelasan organisma"
+      text_en: "Classification of organisms"
+learning_objectives:
+    - id: "1.1.1"
+      text: "Menghuraikan dan berkomunikasi mengenai biodiversiti."
+      text_en: "Elaborate and communicate about biodiversity."
+      bloom: "understand"
+      content_standard_id: "1.1"
+    - id: "1.1.2"
+      text: "Mewajarkan keperluan pengurusan biodiversiti yang berkesan."
+      text_en: "Justify the need for effective biodiversity management."
+      bloom: "evaluate"
+      content_standard_id: "1.1"
+    - id: "1.2.1"
+      text: "Membezakan organisma dengan kekunci dikotomi berdasarkan ciri-ciri sepunya."
+      text_en: "Distinguish organisms with dichotomous keys based on common characteristics."
+      bloom: "analyze"
+      content_standard_id: "1.2"
+    - id: "1.2.2"
+      text: "Mencirikan kumpulan taksonomi utama."
+      text_en: "Characterise major taxonomic groups."
+      bloom: "understand"
+      content_standard_id: "1.2"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai biodiversiti."
+      text_en: "Recall science knowledge and skills regarding biodiversity."
+      descriptor: "Murid dapat mengingat kembali fakta asas mengenai biodiversiti."
+      descriptor_en: "Student can recall basic facts about biodiversity."
+    - level: 2
+      id: "TP2"
+      text: "Memahami biodiversiti serta dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand biodiversity and can explain the understanding."
+      descriptor: "Murid dapat menjelaskan konsep biodiversiti dengan mudah."
+      descriptor_en: "Student can explain the concept of biodiversity easily."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai biodiversiti untuk menerangkan kejadian atau fenomena alam dan melaksanakan tugasan mudah."
+      text_en: "Apply knowledge about biodiversity to explain natural events or phenomena and carry out simple tasks."
+      descriptor: "Murid dapat menggunakan pengetahuan biodiversiti dalam situasi mudah."
+      descriptor_en: "Student can use biodiversity knowledge in simple situations."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai biodiversiti dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge about biodiversity in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Murid dapat menganalisis isu biodiversiti dalam konteks alam sekitar."
+      descriptor_en: "Student can analyze biodiversity issues in the context of the environment."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai biodiversiti dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge about biodiversity in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Murid dapat menilai dan membuat keputusan mengenai isu biodiversiti."
+      descriptor_en: "Student can evaluate and make decisions regarding biodiversity issues."
+    - level: 6
+      id: "TP6"
+      text: "Merekacipta menggunakan pengetahuan dan kemahiran sains mengenai biodiversiti dalam konteks penyelesaian masalah atau membuat keputusan atau dalam melaksanakan aktiviti/tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills about biodiversity in the context of problem solving or making decisions or in carrying out activities/tasks in new situations creatively and innovatively by considering social/economic/cultural values of society."
+      descriptor: "Murid dapat mencipta penyelesaian inovatif untuk isu biodiversiti."
+      descriptor_en: "Student can create innovative solutions for biodiversity issues."
+prerequisites:
+    required: []
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-04-10T16:29:11Z"
+teaching:
+    sequence:
+        - 'Step 1: Introduce the concept of biodiversity and its importance (20 min)'
+        - 'Step 2: Discuss the impact of biodiversity loss and management needs (25 min)'
+        - 'Step 3: Hands-on activity with dichotomous keys for organism identification (30 min)'
+        - 'Step 4: Introduce main taxonomic groups with visual aids (25 min)'
+    common_misconceptions:
+        - misconception: Biodiversity only refers to animal variety
+          remediation: Explain that biodiversity includes genetic, species, and ecosystem diversity
+        - misconception: Biodiversity management is solely the responsibility of authorities
+          remediation: Discuss the role of individuals and communities in biodiversity conservation
+mastery:
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+tier: "core"
+ai_teaching_notes: "SC2-01.teaching.md"
+examples_file: "SC2-01.examples.yaml"
+assessments_file: "SC2-01.assessments.yaml"
+engagement_hooks:
+    - Explore the unique biodiversity of Malaysia's rainforests
+    - Discuss the role of coral reefs in marine biodiversity
+sync_checked: false

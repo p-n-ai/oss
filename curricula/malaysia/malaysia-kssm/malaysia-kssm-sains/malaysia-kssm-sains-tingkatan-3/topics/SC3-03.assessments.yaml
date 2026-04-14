@@ -1,0 +1,130 @@
+topic_id: "SC3-03"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 3.1.2 (analyze)
+    - id: "Q01"
+      text: 'Bandingkan struktur dan fungsi sistem peredaran darah dalam organisma kompleks seperti manusia dengan organisma ringkas seperti hidra.'
+      difficulty: "medium"
+      learning_objective: "3.1.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Organisma kompleks mempunyai sistem peredaran darah tertutup dengan jantung dan salur darah, manakala organisma ringkas seperti hidra bergantung pada difusi melalui permukaan badan.'
+        working: |
+            Organisma kompleks seperti manusia mempunyai sistem peredaran darah tertutup yang terdiri daripada jantung, arteri, vena, dan kapilari. Ini membolehkan aliran darah yang teratur dan pengangkutan efektif oksigen dan nutrien. Sebaliknya, organisma ringkas seperti hidra tidak mempunyai sistem peredaran darah; mereka bergantung pada difusi bahan melalui permukaan badan mereka.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: 'Menjelaskan sistem peredaran darah dalam organisma kompleks.'
+        - marks: 2
+          criteria: 'Menjelaskan pengangkutan dalam organisma ringkas.'
+        - marks: 1
+          criteria: 'Membuat perbandingan yang jelas antara kedua-dua sistem.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan kehadiran jantung dan salur darah dalam organisma kompleks.'
+        - level: 2
+          text: 'Fikirkan bagaimana hidra mendapatkan oksigen dan nutrien tanpa sistem peredaran darah.'
+    # Learning Objective: 3.2.2 (understand)
+    - id: "Q02"
+      text: 'Terangkan bagaimana struktur jantung manusia menyokong fungsinya sebagai pam darah.'
+      difficulty: "medium"
+      learning_objective: "3.2.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Jantung manusia mempunyai empat ruang yang memisahkan darah beroksigen dan tidak beroksigen, serta otot jantung yang kuat untuk mengepam darah ke seluruh badan.'
+        working: |
+            Struktur jantung manusia terdiri daripada dua atrium dan dua ventrikel. Atrium menerima darah, manakala ventrikel mengepam darah keluar. Otot jantung yang tebal dan kuat membantu memastikan jantung dapat mengepam darah ke seluruh tubuh dengan efektif.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Menerangkan pembahagian ruang dalam jantung.'
+        - marks: 2
+          criteria: 'Menerangkan peranan otot jantung dalam mengepam darah.'
+      hints:
+        - level: 1
+          text: 'Ingat bahawa jantung mempunyai empat ruang.'
+        - level: 2
+          text: 'Fokus pada bagaimana otot jantung berfungsi untuk mengepam darah.'
+    # Learning Objective: 3.2.4 (evaluate)
+    - id: "Q03"
+      text: 'Mewajarkan kepentingan mengekalkan jantung yang sihat dalam kehidupan seharian.'
+      difficulty: "medium"
+      learning_objective: "3.2.4"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Jantung yang sihat memastikan darah dapat mengangkut oksigen dan nutrien dengan efisien ke seluruh tubuh, mengurangkan risiko penyakit kardiovaskular, dan meningkatkan kualiti hidup.'
+        working: |
+            Menjaga jantung yang sihat adalah penting untuk peredaran darah yang lancar. Ini mengurangkan risiko penyakit jantung seperti serangan jantung dan strok. Gaya hidup sihat yang merangkumi pemakanan seimbang dan senaman berkala menyokong kesihatan jantung dan meningkatkan kesejahteraan keseluruhan.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: 'Menjelaskan peranan jantung dalam peredaran darah.'
+        - marks: 2
+          criteria: 'Mengaitkan kesihatan jantung dengan pencegahan penyakit.'
+        - marks: 1
+          criteria: 'Menekankan pentingnya gaya hidup sihat untuk jantung.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang fungsi utama jantung dalam tubuh.'
+        - level: 2
+          text: 'Pertimbangkan bagaimana gaya hidup mempengaruhi kesihatan jantung.'
+    # Learning Objective: 3.3.1 (analyze)
+    - id: "Q04"
+      text: 'Huraikan komponen utama darah manusia dan fungsinya masing-masing.'
+      difficulty: "medium"
+      learning_objective: "3.3.1"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Darah manusia terdiri daripada plasma, sel darah merah, sel darah putih, dan platelet. Plasma mengangkut nutrien, sel darah merah mengangkut oksigen, sel darah putih melawan jangkitan, dan platelet membantu pembekuan darah.'
+        working: |
+            Plasma adalah bahagian cairan darah yang mengangkut nutrien dan hormon. Sel darah merah mengandungi hemoglobin untuk pengangkutan oksigen. Sel darah putih adalah sebahagian daripada sistem imun untuk melawan patogen. Platelet memainkan peranan penting dalam proses pembekuan untuk mencegah kehilangan darah semasa kecederaan.
+      marks: 6
+      rubric:
+        - marks: 2
+          criteria: 'Menghuraikan fungsi plasma dalam darah.'
+        - marks: 1
+          criteria: 'Menghuraikan fungsi sel darah merah.'
+        - marks: 1
+          criteria: 'Menghuraikan fungsi sel darah putih.'
+        - marks: 1
+          criteria: 'Menghuraikan fungsi platelet.'
+        - marks: 1
+          criteria: 'Menjelaskan kepentingan setiap komponen dalam konteks keseluruhan.'
+      hints:
+        - level: 1
+          text: 'Ingat bahawa darah terdiri daripada lebih daripada satu jenis sel.'
+        - level: 2
+          text: 'Fikirkan tentang peranan masing-masing komponen dalam kesihatan tubuh.'
+    # Learning Objective: 3.4.3 (analyze)
+    - id: "Q05"
+      text: 'Bandingkan struktur dan fungsi xilem dan floem dalam tumbuhan.'
+      difficulty: "medium"
+      learning_objective: "3.4.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Xilem mengangkut air dan mineral dari akar ke daun, manakala floem mengangkut makanan dari daun ke seluruh bahagian tumbuhan.'
+        working: |
+            Xilem terdiri daripada sel-sel yang diperkuat dengan lignin untuk menyokong pengangkutan air dan mineral dari akar ke daun. Floem terdiri daripada sel hidup yang membentuk rangkaian untuk mengangkut bahan organik seperti gula dari daun ke seluruh tumbuhan. Keduanya penting untuk pertumbuhan dan fungsi tumbuhan.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: 'Menjelaskan struktur dan fungsi xilem.'
+        - marks: 2
+          criteria: 'Menjelaskan struktur dan fungsi floem.'
+        - marks: 1
+          criteria: 'Membandingkan peranan kedua-dua sistem pengangkutan dalam tumbuhan.'
+      hints:
+        - level: 1
+          text: 'Ingat bahawa xilem dan floem mempunyai fungsi pengangkutan yang berbeza.'
+        - level: 2
+          text: 'Fikirkan tentang arah aliran bahan dalam xilem dan floem.'

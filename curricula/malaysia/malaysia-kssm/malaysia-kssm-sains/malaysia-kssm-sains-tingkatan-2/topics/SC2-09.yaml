@@ -1,0 +1,139 @@
+id: SC2-09
+official_ref: "Bab 9"
+name: "Haba"
+name_en: "Heat"
+subject_grade_id: malaysia-kssm-sains-tingkatan-2
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+content_standards:
+    - id: "9.1"
+      text: "Hubungkait suhu dengan haba"
+      text_en: "Relationship between temperature and heat"
+    - id: "9.2"
+      text: "Pengaliran haba dan keseimbangan haba"
+      text_en: "Heat flow and heat equilibrium"
+    - id: "9.3"
+      text: "Prinsip pengembangan dan pengecutan jirim"
+      text_en: "Principle of expansion and contraction of matter"
+    - id: "9.4"
+      text: "Hubungkait jenis permukaan objek dengan penyerapan dan pembebasan haba"
+      text_en: "Relationship between object surface type with heat absorption and release"
+learning_objectives:
+    - id: "9.1.1"
+      text: "Membanding beza antara haba dengan suhu."
+      text_en: "Compare the difference between heat and temperature."
+      bloom: "analyze"
+      content_standard_id: "9.1"
+    - id: "9.2.1"
+      text: "Menerangkan haba mengalir dari kawasan panas ke kawasan sejuk."
+      text_en: "Explain that heat flows from hot areas to cold areas."
+      bloom: "understand"
+      content_standard_id: "9.2"
+    - id: "9.2.2"
+      text: "Menerangkan dan berkomunikasi mengenai pengaliran haba dalam fenomena alam."
+      text_en: "Explain and communicate about heat flow in natural phenomena."
+      bloom: "understand"
+      content_standard_id: "9.2"
+    - id: "9.2.3"
+      text: "Berkomunikasi mengenai konduktor haba dan penebat haba serta kegunaan konduktor dan penebat haba dalam kehidupan harian."
+      text_en: "Communicate about heat conductors and insulators and the use of heat conductors and insulators in daily life."
+      bloom: "understand"
+      content_standard_id: "9.2"
+    - id: "9.3.1"
+      text: "Menerangkan bagaimana haba menyebabkan pengembangan dan pengecutan pepejal, cecair dan gas."
+      text_en: "Explain how heat causes expansion and contraction of solids, liquids, and gases."
+      bloom: "understand"
+      content_standard_id: "9.3"
+    - id: "9.3.2"
+      text: "Berkomunikasi mengenai pelbagai kegunaan pengembangan dan pengecutan jirim dalam kehidupan harian."
+      text_en: "Communicate about various uses of expansion and contraction of matter in daily life."
+      bloom: "understand"
+      content_standard_id: "9.3"
+    - id: "9.4.1"
+      text: "Menunjuk cara bagaimana objek yang gelap dan kusam menyerap haba lebih baik daripada objek putih dan berkilat."
+      text_en: "Show how dark and dull objects absorb heat better than white and shiny objects."
+      bloom: "apply"
+      content_standard_id: "9.4"
+    - id: "9.4.2"
+      text: "Menunjuk cara bagaimana objek yang gelap dan kusam membebaskan haba lebih baik daripada objek putih dan berkilat."
+      text_en: "Show how dark and dull objects release heat better than white and shiny objects."
+      bloom: "apply"
+      content_standard_id: "9.4"
+    - id: "9.4.3"
+      text: "Mengkonsepsikan dan mereka bentuk mengunakan konsep haba dalam kehidupan harian."
+      text_en: "Conceptualize and design using heat concepts in daily life."
+      bloom: "create"
+      content_standard_id: "9.4"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai haba."
+      text_en: "Recall science knowledge and skills regarding heat."
+      descriptor: "Murid dapat mengingat kembali fakta asas mengenai haba."
+      descriptor_en: "Student can recall basic facts about heat."
+    - level: 2
+      id: "TP2"
+      text: "Memahami haba dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand heat and can explain the understanding."
+      descriptor: "Murid dapat menjelaskan konsep haba dengan mudah."
+      descriptor_en: "Student can explain the concept of heat easily."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai haba dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge about heat and can carry out simple tasks."
+      descriptor: "Murid dapat menggunakan pengetahuan haba dalam situasi mudah."
+      descriptor_en: "Student can use heat knowledge in simple situations."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai haba dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge about heat in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Murid dapat menganalisis isu haba dalam konteks fizik."
+      descriptor_en: "Student can analyze heat issues in the context of physics."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai haba dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge about heat in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Murid dapat menilai dan membuat keputusan mengenai isu haba."
+      descriptor_en: "Student can evaluate and make decisions regarding heat issues."
+    - level: 6
+      id: "TP6"
+      text: "Merekacipta dengan menggunakan pengetahuan dan kemahiran sains mengenai haba dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills about heat in the context of problem solving and making decisions or in carrying out a task in new situations creatively and innovatively by considering social/economic/cultural values of society."
+      descriptor: "Murid dapat mencipta penyelesaian inovatif untuk isu haba."
+      descriptor_en: "Student can create innovative solutions for heat issues."
+prerequisites:
+    required: []
+    recommended: []
+teaching:
+    sequence:
+        - 'Step 1: Introduce heat and temperature concepts using analogies (20 min)'
+        - 'Step 2: Demonstrate heat flow using experiments (15 min)'
+        - 'Step 3: Discuss real-life examples of heat conductors and insulators (10 min)'
+        - 'Step 4: Explore expansion and contraction through hands-on activities (15 min)'
+        - 'Step 5: Conduct experiments on heat absorption and release (20 min)'
+    common_misconceptions:
+        - misconception: Heat and temperature are the same
+          remediation: Use analogies and experiments to show differences
+        - misconception: Only solids expand with heat
+          remediation: Demonstrate expansion in liquids and gases as well
+mastery:
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+tier: "core"
+ai_teaching_notes: "SC2-09.teaching.md"
+examples_file: "SC2-09.examples.yaml"
+assessments_file: "SC2-09.assessments.yaml"
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T10:00:00Z"
+engagement_hooks:
+    - Relate heat transfer to cooking methods like grilling satay
+    - Discuss the use of thermal insulators in everyday appliances
+sync_checked: false

@@ -1,0 +1,236 @@
+id: SC1-04
+official_ref: "Bab 4"
+name: Pembiakan
+name_en: Reproduction
+subject_id: malaysia-kssm-sains-tingkatan-1
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+content_standards:
+    - id: "4.1"
+      text: Pembiakan seks dan aseks
+      text_en: Sexual and asexual reproduction
+    - id: "4.2"
+      text: Sistem pembiakan manusia
+      text_en: Human reproductive system
+    - id: "4.3"
+      text: Kitar haid
+      text_en: Menstrual cycle
+    - id: "4.4"
+      text: Persenyawaan dan kehamilan
+      text_en: Fertilization and pregnancy
+    - id: "4.5"
+      text: Faktor yang mempengaruhi perkembangan fetus dan bayi
+      text_en: Factors affecting fetus and baby development
+    - id: "4.6"
+      text: Kemandulan dan pencegahan kehamilan
+      text_en: Infertility and pregnancy prevention
+    - id: "4.7"
+      text: Pembiakan tumbuhan
+      text_en: Plant reproduction
+learning_objectives:
+    - id: "4.1.1"
+      text: membanding dan membezakan pembiakan seks dan aseks bagi haiwan dan tumbuhan.
+      text_en: Compare and contrast sexual and asexual reproduction for animals and plants.
+      bloom: analyze
+      content_standard_id: "4.1"
+    - id: "4.1.2"
+      text: menaakul kepentingan pembiakan.
+      text_en: Infer the importance of reproduction.
+      bloom: analyze
+      content_standard_id: "4.1"
+    - id: "4.1.3"
+      text: mensyukuri kebolehan membiak untuk menyambung zuriat sebagai kurniaan Tuhan.
+      text_en: Appreciate the ability to reproduce to continue lineage as a gift from God.
+      bloom: evaluate
+      content_standard_id: "4.1"
+    - id: "4.2.1"
+      text: mengenal pasti struktur dan fungsi sistem pembiakan lelaki dan perempuan.
+      text_en: Identify the structure and function of the male and female reproductive systems.
+      bloom: remember
+      content_standard_id: "4.2"
+    - id: "4.2.2"
+      text: berkomunikasi mengenai perubahan fizikal yang berlaku semasa akil baligh.
+      text_en: Communicate about physical changes that occur during puberty.
+      bloom: understand
+      content_standard_id: "4.2"
+    - id: "4.2.3"
+      text: membanding dan membezakan gamet jantan dengan gamet betina dalam sistem pembiakan.
+      text_en: Compare and contrast male gametes with female gametes in the reproductive system.
+      bloom: analyze
+      content_standard_id: "4.2"
+    - id: "4.3.1"
+      text: berkomunikasi mengenai kitar haid dan urutan perubahan pada dinding uterus semasa haid.
+      text_en: Communicate about the menstrual cycle and the sequence of changes in the uterine wall during menstruation.
+      bloom: understand
+      content_standard_id: "4.3"
+    - id: "4.3.2"
+      text: hubungkaitkan waktu subur kitar haid dengan proses persenyawaan.
+      text_en: Relate the fertile time of the menstrual cycle with the fertilization process.
+      bloom: understand
+      content_standard_id: "4.3"
+    - id: "4.3.3"
+      text: mewajarkan kepentingan mengurus kebersihan diri semasa haid.
+      text_en: Justify the importance of managing personal hygiene during menstruation.
+      bloom: evaluate
+      content_standard_id: "4.3"
+    - id: "4.4.1"
+      text: berkomunikasi mengenai proses persenyawaan dan penempelan embrio.
+      text_en: Communicate about the fertilization process and embryo implantation.
+      bloom: understand
+      content_standard_id: "4.4"
+    - id: "4.4.2"
+      text: mewajarkan kepentingan dan fungsi plasenta dan tali pusat.
+      text_en: Justify the importance and function of the placenta and umbilical cord.
+      bloom: evaluate
+      content_standard_id: "4.4"
+    - id: "4.4.3"
+      text: memerihalkan perkembangan zigot kepada embrio dan seterusnya kepada fetus dalam tempoh kehamilan sehingga kelahiran.
+      text_en: Describe the development of zygote to embryo and then to fetus during pregnancy until birth.
+      bloom: understand
+      content_standard_id: "4.4"
+    - id: "4.5.1"
+      text: hubungkaitkan kepentingan pengambilan makanan yang berkhasiat kepada kesihatan ibu dan fetus semasa kehamilan.
+      text_en: Relate the importance of nutritious food intake to the health of the mother and fetus during pregnancy.
+      bloom: understand
+      content_standard_id: "4.5"
+    - id: "4.5.2"
+      text: mewajarkan kepentingan mengelak daripada mengambil bahan yang boleh memudaratkan fetus.
+      text_en: Justify the importance of avoiding substances that can harm the fetus.
+      bloom: evaluate
+      content_standard_id: "4.5"
+    - id: "4.5.3"
+      text: mewajarkan kebaikan penyusuan susu ibu kepada perkembangan bayi berbanding susu formula.
+      text_en: Justify the benefits of breastfeeding for baby development compared to formula milk.
+      bloom: evaluate
+      content_standard_id: "4.5"
+    - id: "4.5.4"
+      text: menyedari bahawa setiap makhluk yang bernyawa mempunyai hak untuk hidup walaupun dalam kandungan.
+      text_en: Realize that every living creature has the right to live even in the womb.
+      bloom: understand
+      content_standard_id: "4.5"
+    - id: "4.6.1"
+      text: berkomunikasi mengenai kemandulan dan cara mengatasinya
+      text_en: Communicate about infertility and ways to overcome it.
+      bloom: understand
+      content_standard_id: "4.6"
+    - id: "4.6.2"
+      text: membezakan kaedah pencegahan kehamilan.
+      text_en: Differentiate methods of pregnancy prevention.
+      bloom: analyze
+      content_standard_id: "4.6"
+    - id: "4.6.3"
+      text: menyedari kepentingan mengamalkan pemeriksaan kesihatan dan mendapat rawatan segera apabila menghadapi masalah sistem pembiakan.
+      text_en: Realize the importance of practicing health checks and seeking immediate treatment when facing reproductive system problems.
+      bloom: understand
+      content_standard_id: "4.6"
+    - id: "4.6.4"
+      text: mengkritik penyalahgunaan pengetahuan tentang kaedah pencegahan kehamilan dan kesannya kepada masyarakat.
+      text_en: Criticize the misuse of knowledge about pregnancy prevention methods and its impact on society.
+      bloom: evaluate
+      content_standard_id: "4.6"
+    - id: "4.7.1"
+      text: berkomunikasi mengenai struktur dan fungsi setiap bahagian bunga.
+      text_en: Communicate about the structure and function of each part of the flower.
+      bloom: understand
+      content_standard_id: "4.7"
+    - id: "4.7.2"
+      text: mewajarkan proses pendebungaan.
+      text_en: Justify the pollination process.
+      bloom: evaluate
+      content_standard_id: "4.7"
+    - id: "4.7.3"
+      text: memerihalkan proses persenyawaan dan menerangkan pembentukan biji benih dan buah pada tumbuhan.
+      text_en: Describe the fertilization process and explain the formation of seeds and fruits in plants.
+      bloom: understand
+      content_standard_id: "4.7"
+    - id: "4.7.4"
+      text: memerihalkan proses percambahan biji benih
+      text_en: Describe the seed germination process.
+      bloom: understand
+      content_standard_id: "4.7"
+    - id: "4.7.5"
+      text: menyelesaikan masalah apabila percambahan tidak berlaku.
+      text_en: Solve problems when germination does not occur.
+      bloom: apply
+      content_standard_id: "4.7"
+prerequisites:
+    required:
+        - SC1-01
+    recommended: []
+teaching:
+    sequence:
+        - 'Step 1: Introduce the concept of reproduction and its importance (20 min)'
+        - 'Step 2: Discuss sexual and asexual reproduction with examples (30 min)'
+        - 'Step 3: Explain the human reproductive system, focusing on structure and function (40 min)'
+    common_misconceptions:
+        - misconception: Asexual reproduction is always better because it's faster.
+          remediation: Discuss the benefits of genetic diversity in sexual reproduction.
+        - misconception: Puberty starts at the same age for everyone.
+          remediation: Explain individual variability and factors influencing puberty onset.
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum:
+    - concept_id: "bio-01"
+      syllabus_id: "malaysia-kssm"
+      topic_id: "SC1-04"
+performance_standards:
+    - level: 1
+      id: "TP2-SC1-04-L1"
+      text: Mengingat kembali pengetahuan dan kemahiran sains mengenai sel sebagai unit asas kehidupan/koordinasi/ gerakbalas/pembiakan.
+      text_en: Recall scientific knowledge and skills regarding cells as the basic unit of life/coordination/response/reproduction.
+      descriptor: Can recall basic facts about reproduction.
+      descriptor_en: Can recall basic facts about reproduction.
+    - level: 2
+      id: "TP2-SC1-04-L2"
+      text: Memahami sel sebagai unit asas kehidupan/koordinasi / gerakbalas/pembiakan serta dapat menjelaskan kefahaman tersebut.
+      text_en: Understand cells as the basic unit of life/coordination/response/reproduction and can explain the understanding.
+      descriptor: Can explain concepts of reproduction.
+      descriptor_en: Can explain concepts of reproduction.
+    - level: 3
+      id: "TP2-SC1-04-L3"
+      text: Mengaplikasikan pengetahuan dan kemahiran sains mengenai sel sebagai unit asas kehidupan/koordinasi/ gerakbalas/pembiakan untuk melaksanakan tugasan mudah.
+      text_en: Apply scientific knowledge and skills regarding cells as the basic unit of life/coordination/response/reproduction to perform simple tasks.
+      descriptor: Can apply knowledge to simple tasks.
+      descriptor_en: Can apply knowledge to simple tasks.
+    - level: 4
+      id: "TP2-SC1-04-L4"
+      text: Menganalisis pengetahuan mengenai mengenai sel sebagai unit asas kehidupan/koordinasi/ gerakbalas/pembiakan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam.
+      text_en: Analyze knowledge regarding cells as the basic unit of life/coordination/response/reproduction in the context of problem solving regarding natural events or phenomena.
+      descriptor: Can analyze problems related to reproduction.
+      descriptor_en: Can analyze problems related to reproduction.
+    - level: 5
+      id: "TP2-SC1-04-L5"
+      text: Menilai pengetahuan mengenai sel sebagai unit asas kehidupan/koordinasi/ gerakbalas/pembiakan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan.
+      text_en: Evaluate knowledge regarding cells as the basic unit of life/coordination/response/reproduction in the context of problem solving and making decisions to perform a task.
+      descriptor: Can evaluate and make decisions.
+      descriptor_en: Can evaluate and make decisions.
+    - level: 6
+      id: "TP2-SC1-04-L6"
+      text: Merekabentuk persembahan pelbagai media/visual/folio/poster/main peranan/drama secara kreatif dan inovatif dengan menggunakan pengetahuan dan kemahiran sains mengenai sel sebagai unit asas kehidupan/koordinasi/ gerakbalas/pembiakan dalam konteks penyelesaian masalah dan membuat keputusan dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat.
+      text_en: Design various media/visual/folio/poster/role play/drama performances creatively and innovatively using scientific knowledge and skills regarding cells as the basic unit of life/coordination/response/reproduction in the context of problem solving and making decisions considering social/economic/cultural values of society.
+      descriptor: Can design creative presentations.
+      descriptor_en: Can design creative presentations.
+tier: core
+ai_teaching_notes: SC1-04.teaching.md
+examples_file: SC1-04.examples.yaml
+assessments_file: SC1-04.assessments.yaml
+quality_level: 1
+provenance: ai-assisted
+generated_at: "2023-10-27T10:00:00Z"
+sync_checked: true
+engagement_hooks:
+    - Discuss how local fruits are pollinated and relate it to plant reproduction.
+    - Explore cultural practices related to menstrual health using traditional herbs.

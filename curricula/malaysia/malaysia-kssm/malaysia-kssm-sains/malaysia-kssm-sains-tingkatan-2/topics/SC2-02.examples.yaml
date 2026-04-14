@@ -1,0 +1,43 @@
+topic_id: "SC2-02"
+provenance: "ai-generated"
+description: "Worked examples for Ekosistem"
+worked_examples:
+    - id: "WE-01"
+      topic: "Pengeluar, Pengguna, dan Pengurai"
+      difficulty: "easy"
+      tp_level: 1
+      kbat: false
+      learning_objective: "2.1.1"
+      real_world_analogy: "Seperti sebuah restoran yang menyediakan makanan, pokok adalah pengeluar yang menyediakan makanan kepada haiwan."
+      misconception_alert: "Pelajar sering menganggap semua tumbuhan adalah pengeluar, tetapi tidak semua tumbuhan dapat menghasilkan makanan sendiri."
+      scenario: "Apakah peranan pokok dalam ekosistem dan bagaimana ia membantu haiwan lain?"
+      working: |
+        Step 1: Kenal pasti peranan pokok sebagai pengeluar yang membuat makanan melalui proses fotosintesis.
+        Step 2: Terangkan bahawa pokok menggunakan cahaya matahari, air, dan karbon dioksida untuk menghasilkan glukosa dan oksigen.
+        Step 3: Jelaskan bagaimana glukosa menjadi sumber tenaga untuk haiwan yang memakan pokok tersebut, menjadikannya pengguna.
+    - id: "WE-02"
+      topic: "Rantai Makanan dan Siratan Makanan"
+      difficulty: "medium"
+      tp_level: 2
+      kbat: true
+      learning_objective: "2.1.2"
+      real_world_analogy: "Seperti lalu lintas yang menghubungkan pelbagai destinasi, siratan makanan menghubungkan pelbagai organisma dalam ekosistem."
+      misconception_alert: "Pelajar mungkin salah faham bahawa rantai makanan adalah satu-satunya laluan untuk tenaga dalam ekosistem, tetapi siratan makanan menunjukkan pelbagai laluan."
+      scenario: "Lukiskan dan jelaskan satu rantai makanan mudah yang melibatkan pokok, arnab, dan serigala. Kemudian, kembangkan kepada siratan makanan."
+      working: |
+        Step 1: Lukis rantai makanan bermula dengan pokok (pengeluar), diikuti arnab (pengguna pertama), dan akhirnya serigala (pengguna kedua).
+        Step 2: Jelaskan bagaimana tenaga dipindahkan dari pokok kepada arnab, dan dari arnab kepada serigala.
+        Step 3: Kembangkan kepada siratan makanan dengan memasukkan lebih banyak organisma seperti burung yang juga memakan arnab dan bagaimana serigala boleh juga memakan burung.
+    - id: "WE-03"
+      topic: "Kitar Oksigen dan Kitar Karbon"
+      difficulty: "hard"
+      tp_level: 3
+      kbat: true
+      learning_objective: "2.2.1"
+      real_world_analogy: "Seperti mesin penapis udara yang mengekalkan kualiti udara di ruang tertutup, kitar oksigen dan karbon mengekalkan keseimbangan gas di atmosfera."
+      misconception_alert: "Pelajar sering keliru antara proses fotosintesis dan respirasi sebagai dua kejadian yang sama, tetapi mereka adalah proses yang berlawanan."
+      scenario: "Bagaimana peranan pokok dan haiwan dalam kitar oksigen dan karbon membantu mengekalkan keseimbangan ekosistem?"
+      working: |-
+        Step 1: Jelaskan bahawa pokok mengambil karbon dioksida dari udara dan menghasilkan oksigen melalui fotosintesis.
+        Step 2: Terangkan bagaimana haiwan menggunakan oksigen untuk respirasi dan mengeluarkan karbon dioksida sebagai produk sampingan.
+        Step 3: Huraikan bagaimana keseimbangan antara fotosintesis dan respirasi memastikan tahap oksigen dan karbon dioksida kekal stabil di atmosfera.

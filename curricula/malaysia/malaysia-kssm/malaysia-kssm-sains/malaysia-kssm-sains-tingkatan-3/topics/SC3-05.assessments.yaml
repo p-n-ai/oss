@@ -1,0 +1,125 @@
+topic_id: "SC3-05"
+provenance: "ai-generated"
+questions:
+    # Learning Objective: 5.1.1
+    - id: "Q1"
+      text: 'Definisikan tindak balas endotermik dan tindak balas eksotermik.'
+      difficulty: "medium"
+      learning_objective: "5.1.1"
+      tp_level: 2
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Tindak balas endotermik adalah tindak balas yang menyerap haba dari persekitaran, manakala tindak balas eksotermik adalah tindak balas yang membebaskan haba kepada persekitaran.'
+        working: |
+            Tindak balas endotermik memerlukan lebih banyak tenaga untuk memutuskan ikatan berbanding tenaga yang dilepaskan semasa pembentukan ikatan baru. Sebaliknya, tindak balas eksotermik membebaskan lebih banyak tenaga semasa pembentukan ikatan baru berbanding tenaga yang diperlukan untuk memutuskan ikatan.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Menyatakan definisi tindak balas endotermik dengan betul.'
+        - marks: 2
+          criteria: 'Menyatakan definisi tindak balas eksotermik dengan betul.'
+      hints:
+        - level: 1
+          text: 'Fokus pada bagaimana tindak balas ini berkaitan dengan penyerapan atau pembebasan haba.'
+    # Learning Objective: 5.1.2
+    - id: "Q2"
+      text: 'Antara tindak balas berikut, yang manakah merupakan tindak balas eksotermik?'
+      difficulty: "medium"
+      learning_objective: "5.1.2"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "multiple_choice"
+        value: 'C'
+        working: |
+            Tindak balas pembakaran selalunya merupakan tindak balas eksotermik kerana ia membebaskan haba kepada persekitaran.
+        options:
+            A: 'Fotosintesis'
+            B: 'Penguraian kalsium karbonat'
+            C: 'Pembakaran metana'
+            D: 'Pelarutan ammonium nitrat dalam air'
+        distractors:
+            - value: 'A'
+              feedback: 'Fotosintesis adalah tindak balas endotermik kerana ia memerlukan tenaga dari cahaya.'
+            - value: 'B'
+              feedback: 'Penguraian kalsium karbonat adalah tindak balas endotermik.'
+            - value: 'D'
+              feedback: 'Pelarutan ammonium nitrat dalam air adalah tindak balas endotermik.'
+      marks: 3
+      rubric:
+        - marks: 3
+          criteria: 'Memilih jawapan yang betul dan memberikan justifikasi yang tepat.'
+      hints:
+        - level: 1
+          text: 'Fikirkan tentang tindak balas yang membebaskan tenaga dalam bentuk haba.'
+    # Learning Objective: 5.1.3
+    - id: "Q3"
+      text: 'Jelaskan bagaimana anda boleh menjalankan eksperimen untuk membezakan antara tindak balas eksotermik dan endotermik.'
+      difficulty: "medium"
+      learning_objective: "5.1.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Menggunakan termometer untuk mengukur perubahan suhu semasa tindak balas dijalankan. Jika suhu meningkat, tindak balas adalah eksotermik. Jika suhu menurun, tindak balas adalah endotermik.'
+        working: |
+            1. Sediakan bahan dan alat seperti termometer, bekas reaksi, dan bahan kimia.
+            2. Jalankan tindak balas dalam bekas dan ukur suhu awal.
+            3. Catat perubahan suhu setelah tindak balas selesai.
+            4. Analisis data suhu untuk menentukan jenis tindak balas.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: 'Menerangkan penggunaan termometer untuk mengukur suhu.'
+        - marks: 3
+          criteria: 'Menjelaskan cara membezakan tindak balas berdasarkan perubahan suhu.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan bagaimana perubahan suhu dapat memberikan petunjuk tentang jenis tindak balas.'
+    # Learning Objective: 5.1.4
+    - id: "Q4"
+      text: 'Berikan satu contoh tindak balas eksotermik dan satu contoh tindak balas endotermik, serta jelaskan kenapa.'
+      difficulty: "medium"
+      learning_objective: "5.1.4"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Pembakaran kertas adalah contoh tindak balas eksotermik kerana ia membebaskan haba. Pelarutan ammonium nitrat dalam air adalah contoh tindak balas endotermik kerana ia menyerap haba dari persekitaran.'
+        working: |
+            Pembakaran kertas membebaskan tenaga dalam bentuk haba, menunjukkan bahawa ia adalah tindak balas eksotermik. Sebaliknya, apabila ammonium nitrat larut dalam air, suhu persekitaran menurun, menunjukkan tindak balas endotermik.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: 'Memberikan contoh tindak balas eksotermik dan menjelaskan kenapa.'
+        - marks: 2
+          criteria: 'Memberikan contoh tindak balas endotermik dan menjelaskan kenapa.'
+      hints:
+        - level: 1
+          text: 'Pikirkan tentang proses yang melibatkan penyerapan atau pembebasan haba.'
+    # Learning Objective: 5.1.5
+    - id: "Q5"
+      text: 'Reka bentuk pemanas tangan yang boleh digunakan dalam cuaca sejuk menggunakan konsep tindak balas eksotermik.'
+      difficulty: "medium"
+      learning_objective: "5.1.5"
+      tp_level: 6
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Menggunakan tindak balas eksotermik seperti oksidasi besi. Besi akan bertindak balas dengan oksigen dan membebaskan haba, yang dapat disalurkan untuk memanaskan tangan.'
+        working: |
+            1. Pilih bahan yang mengalami tindak balas eksotermik, seperti besi dan oksigen.
+            2. Bentuk pemanas tangan yang mengandungi serbuk besi dan bahan yang membolehkan kemasukan oksigen.
+            3. Pastikan reka bentuk membolehkan haba yang dihasilkan dibebaskan perlahan-lahan untuk kegunaan berpanjangan.
+      marks: 6
+      rubric:
+        - marks: 2
+          criteria: 'Mengidentifikasi tindak balas eksotermik yang sesuai.'
+        - marks: 2
+          criteria: 'Menerangkan bagaimana tindak balas tersebut menghasilkan haba.'
+        - marks: 2
+          criteria: 'Menjelaskan reka bentuk pemanas tangan yang berfungsi.'
+      hints:
+        - level: 1
+          text: 'Pertimbangkan tindak balas yang biasa digunakan dalam pek pemanas.'

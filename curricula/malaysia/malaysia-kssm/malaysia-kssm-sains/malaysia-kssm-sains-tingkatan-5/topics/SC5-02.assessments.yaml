@@ -1,0 +1,122 @@
+topic_id: "SC5-02"
+provenance: "ai-generated"
+questions:
+    # Learning Objective 2.1.1
+    - id: "Q01"
+      text: 'Apakah yang dimaksudkan dengan gizi seimbang dan mengapa ianya penting untuk kesihatan?'
+      difficulty: "medium"
+      learning_objective: "2.1.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Gizi seimbang adalah pengambilan nutrien yang mencukupi dan betul daripada pelbagai kumpulan makanan yang diperlukan oleh tubuh untuk pertumbuhan, fungsi badan, dan kesihatan yang baik.'
+        working: |
+            Gizi seimbang merangkumi pengambilan karbohidrat, protein, lemak, vitamin, dan mineral dalam jumlah yang sesuai. Ia penting untuk mencegah kekurangan nutrisi dan penyakit berkaitan diet.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menghuraikan definisi gizi seimbang dengan baik."
+        - marks: 2
+          criteria: "Menjelaskan kepentingan gizi seimbang dalam konteks kesihatan."
+      hints:
+        - level: 1
+          text: "Cuba fikirkan tentang pelbagai kumpulan makanan dan nutrisi yang mereka sediakan."
+        - level: 2
+          text: "Fikirkan bagaimana tubuh memerlukan nutrien yang berbeza untuk fungsi yang betul."
+    # Learning Objective 2.1.2
+    - id: "Q02"
+      text: 'Jalankan eksperimen untuk menganggarkan nilai kalori dalam sebiji kacang tanah. Apakah langkah-langkah yang perlu diambil?'
+      difficulty: "medium"
+      learning_objective: "2.1.2"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Menggunakan kalorimeter untuk membakar kacang tanah dan mengukur kenaikan suhu air untuk mengira nilai kalori.'
+        working: |
+            1. Timbang kacang tanah dan catat beratnya.
+            2. Letakkan kacang tanah pada jarum dan nyalakan dengan api.
+            3. Letakkan di bawah kalorimeter yang berisi air.
+            4. Ukur kenaikan suhu air.
+            5. Gunakan formula Q = mcΔT untuk mengira kalori.
+      marks: 5
+      rubric:
+        - marks: 2
+          criteria: "Menghuraikan langkah-langkah eksperimen dengan jelas."
+        - marks: 3
+          criteria: "Menjelaskan penggunaan kalorimeter dan pengiraan kalori."
+      hints:
+        - level: 1
+          text: "Pertimbangkan alat dan bahan yang diperlukan untuk eksperimen."
+        - level: 2
+          text: "Apakah formula untuk mengira kalori berdasarkan kenaikan suhu?"
+    # Learning Objective 2.1.3
+    - id: "Q03"
+      text: 'Jelaskan kesan pengambilan jumlah kalori yang berlebihan atau berkurangan daripada keperluan individu.'
+      difficulty: "medium"
+      learning_objective: "2.1.3"
+      tp_level: 4
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Pengambilan kalori yang berlebihan boleh menyebabkan obesiti dan penyakit berkaitan seperti diabetes, manakala pengambilan kalori yang tidak mencukupi boleh mengakibatkan kekurangan tenaga, malnutrisi, dan masalah kesihatan lain.'
+        working: |
+            Pengambilan kalori yang tidak seimbang dengan keperluan boleh mengganggu keseimbangan tenaga dalam badan, menyebabkan penambahan atau pengurangan berat badan yang tidak sihat.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Menjelaskan kesan pengambilan kalori berlebihan."
+        - marks: 2
+          criteria: "Menjelaskan kesan pengambilan kalori yang tidak mencukupi."
+      hints:
+        - level: 1
+          text: "Fokus pada keseimbangan antara pengambilan dan penggunaan kalori."
+        - level: 2
+          text: "Pertimbangkan kesan jangka panjang pada kesihatan."
+    # Learning Objective 2.2.1
+    - id: "Q04"
+      text: 'Beri contoh dan jelaskan fungsi makronutrien dan mikronutrien kepada tumbuhan.'
+      difficulty: "medium"
+      learning_objective: "2.2.1"
+      tp_level: 3
+      kbat: false
+      answer:
+        type: "free_text"
+        value: 'Makronutrien seperti nitrogen penting untuk pertumbuhan daun, manakala mikronutrien seperti zink membantu dalam pembentukan enzim.'
+        working: |
+            Makronutrien seperti nitrogen, fosforus, dan kalium adalah diperlukan dalam jumlah besar untuk pertumbuhan tumbuhan. Mikronutrien seperti boron dan zink diperlukan dalam jumlah kecil tetapi penting untuk fungsi biokimia.
+      marks: 4
+      rubric:
+        - marks: 2
+          criteria: "Memberi contoh makronutrien dan fungsinya."
+        - marks: 2
+          criteria: "Memberi contoh mikronutrien dan fungsinya."
+      hints:
+        - level: 1
+          text: "Pikirkan tentang nutrien yang diperlukan oleh tumbuhan untuk tumbuh dan berfungsi."
+        - level: 2
+          text: "Makronutrien diperlukan dalam jumlah besar, manakala mikronutrien diperlukan dalam jumlah kecil."
+    # Learning Objective 2.4.2
+    - id: "Q05"
+      text: 'Bandingkan penggunaan racun serangga dengan kawalan biologi dalam meningkatkan kualiti dan kuantiti pengeluaran makanan.'
+      difficulty: "medium"
+      learning_objective: "2.4.2"
+      tp_level: 5
+      kbat: true
+      answer:
+        type: "free_text"
+        value: 'Racun serangga dapat memberikan hasil segera dalam mengawal serangga perosak tetapi boleh mencemarkan alam sekitar dan membahayakan kesihatan. Kawalan biologi lebih mesra alam tetapi memerlukan masa yang lebih lama untuk menunjukkan kesan.'
+        working: |
+            Penggunaan racun serangga melibatkan bahan kimia yang membunuh serangga perosak, manakala kawalan biologi menggunakan pemangsa semula jadi. Racun serangga boleh menyebabkan rintangan pada serangga dan pencemaran.
+      marks: 6
+      rubric:
+        - marks: 3
+          criteria: "Menjelaskan kelebihan dan kekurangan penggunaan racun serangga."
+        - marks: 3
+          criteria: "Menjelaskan kelebihan dan kekurangan kawalan biologi."
+      hints:
+        - level: 1
+          text: "Pertimbangkan kesan jangka pendek dan jangka panjang setiap kaedah."
+        - level: 2
+          text: "Fokus pada kesan kepada alam sekitar dan kesihatan manusia."

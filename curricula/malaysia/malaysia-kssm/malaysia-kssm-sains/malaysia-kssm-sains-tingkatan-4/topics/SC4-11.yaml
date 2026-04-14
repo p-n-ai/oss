@@ -1,0 +1,161 @@
+id: "SC4-11"
+official_ref: "Bab 11"
+name: "Daya dan Gerakan"
+name_en: "Force and Motion"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+theme: "Tenaga dan Kelestarian Hidup"
+content_standards:
+    - id: "11.1"
+      text: "Gerakan Linear"
+      text_en: "Linear Motion"
+    - id: "11.2"
+      text: "Graf Gerakan Linear"
+      text_en: "Linear Motion Graphs"
+    - id: "11.3"
+      text: "Pecutan Graviti dan Jatuh Bebas"
+      text_en: "Gravitational Acceleration and Free Fall"
+    - id: "11.4"
+      text: "Jisim dan Inersia"
+      text_en: "Mass and Inertia"
+learning_objectives:
+    - id: "11.1.1"
+      text: "Menerangkan perbezaan antara jarak dan sesaran serta unit ukuran dalam kehidupan harian."
+      text_en: "Explain the difference between distance and displacement and measurement units in daily life."
+      bloom: "understand"
+      content_standard_id: "11.1"
+    - id: "11.1.2"
+      text: "Menjelaskan dengan contoh maksud laju, laju purata, halaju dan pecutan serta unit ukurannya dalam kehidupan harian."
+      text_en: "Explain with examples of the meaning of speed, average speed, velocity and acceleration and their measurement units in daily life."
+      bloom: "understand"
+      content_standard_id: "11.1"
+    - id: "11.1.3"
+      text: "Menyelesaikan masalah yang melibatkan laju, laju purata, halaju dan pecutan dalam kehidupan harian."
+      text_en: "Solve problems involving speed, average speed, velocity and acceleration in daily life."
+      bloom: "apply"
+      content_standard_id: "11.1"
+    - id: "11.1.4"
+      text: "Membezakan jenis gerakan linear."
+      text_en: "Differentiate types of linear motion."
+      bloom: "analyze"
+      content_standard_id: "11.1"
+    - id: "11.2.1"
+      text: "Mentafsir jenis gerakan dari graf gerakan linear untuk menentukan jarak, sesaran, halaju, halaju purata dan pecutan."
+      text_en: "Interpret types of motion from linear motion graphs to determine distance, displacement, velocity, average velocity and acceleration."
+      bloom: "analyze"
+      content_standard_id: "11.2"
+    - id: "11.3.1"
+      text: "Menjalankan eksperimen untuk menentukan nilai pecutan graviti bumi, g."
+      text_en: "Conduct an experiment to determine the value of earth's gravitational acceleration, g."
+      bloom: "apply"
+      content_standard_id: "11.3"
+    - id: "11.3.2"
+      text: "Mentafsir graf gerakan untuk objek yang mengalami keadaan jatuh bebas."
+      text_en: "Interpret motion graphs for objects experiencing free fall."
+      bloom: "analyze"
+      content_standard_id: "11.3"
+    - id: "11.3.3"
+      text: "Menjalankan eksperimen mengkaji keadaan jatuh bebas dan bukan jatuh bebas"
+      text_en: "Conduct an experiment to study free fall and non-free fall conditions"
+      bloom: "apply"
+      content_standard_id: "11.3"
+    - id: "11.4.1"
+      text: "Menerangkan jisim."
+      text_en: "Explain mass."
+      bloom: "understand"
+      content_standard_id: "11.4"
+    - id: "11.4.2"
+      text: "Menerangkan dengan contoh maksud inersia."
+      text_en: "Explain with examples of the meaning of inertia."
+      bloom: "understand"
+      content_standard_id: "11.4"
+    - id: "11.4.3"
+      text: "Menjalankan eksperimen untuk mengkaji hubungan antara jisim dan inersia."
+      text_en: "Conduct an experiment to study the relationship between mass and inertia."
+      bloom: "apply"
+      content_standard_id: "11.4"
+    - id: "11.4.4"
+      text: "Berkomunikasi tentang kesan inersia dalam kehidupan harian."
+      text_en: "Communicate about the effects of inertia in daily life."
+      bloom: "understand"
+      content_standard_id: "11.4"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai daya dan gerakan."
+      text_en: "Recall science knowledge and skills regarding force and motion."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai daya dan gerakan."
+      descriptor_en: "Recall science knowledge and skills regarding force and motion."
+    - level: 2
+      id: "TP2"
+      text: "Memahami daya dan gerakan dalam melestarikan alam dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand force and motion in preserving the environment and can explain the understanding."
+      descriptor: "Memahami daya dan gerakan dalam melestarikan alam dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand force and motion in preserving the environment and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai daya dan gerakan dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge regarding force and motion and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai daya dan gerakan dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge regarding force and motion and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai daya dan gerakan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge regarding force and motion in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai daya dan gerakan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge regarding force and motion in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai daya dan gerakan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge regarding force and motion in the context of problem solving and making decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai daya dan gerakan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge regarding force and motion in the context of problem solving and making decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai daya dan gerakan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills regarding force and motion in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai daya dan gerakan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using science knowledge and skills regarding force and motion in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+prerequisites:
+    required: []
+    recommended: []
+teaching:
+    sequence:
+        - 'Step 1: Introduce distance and displacement using real-life examples (15 min)'
+        - 'Step 2: Explain speed and velocity with practical demonstrations (20 min)'
+        - 'Step 3: Solve problems involving speed and acceleration (25 min)'
+        - 'Step 4: Analyze linear motion graphs (20 min)'
+        - 'Step 5: Conduct a simple experiment on gravitational acceleration (30 min)'
+    common_misconceptions:
+        - misconception: Distance and displacement are the same.
+          remediation: Use diagrams to show different paths and highlight the difference.
+        - misconception: Speed and velocity are identical.
+          remediation: Emphasize the directional aspect of velocity.
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T00:00:00Z"
+sync_checked: false
+ai_teaching_notes: "SC4-11.teaching.md"
+assessments_file: "SC4-11.assessments.yaml"
+examples_file: SC4-11.examples.yaml
+engagement_hooks:
+    - Discuss how athletes use speed and acceleration in sports.
+    - Explore how local transport systems rely on understanding speed and velocity.

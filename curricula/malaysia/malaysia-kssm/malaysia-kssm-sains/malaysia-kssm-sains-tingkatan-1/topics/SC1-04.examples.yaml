@@ -1,0 +1,45 @@
+topic_id: SC1-04
+provenance: ai-generated
+description: "Worked examples for Pembiakan"
+worked_examples:
+  - id: WE-01
+    topic: "Pembiakan Seks dan Aseks"
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: "4.1.1 (analyze): membanding dan membezakan pembiakan seks dan aseks bagi haiwan dan tumbuhan."
+    real_world_analogy: "Pembiakan seks adalah seperti dua orang memberikan sumbangan genetik kepada bayi, manakala pembiakan aseks adalah seperti menyalin satu dokumen secara tepat."
+    misconception_alert: "Ramai murid menganggap semua tumbuhan membiak secara seks, tetapi banyak tumbuhan juga membiak secara aseks."
+    scenario: "Seorang murid ingin mengetahui perbezaan antara pembiakan seks dan aseks pada tumbuhan dan haiwan."
+    working: |
+      Step 1: Pembiakan seks melibatkan dua induk yang memberikan bahan genetik melalui gamet jantan dan betina.
+      Step 2: Pembiakan aseks melibatkan satu induk sahaja, di mana keturunannya adalah salinan genetik yang hampir sama.
+      Step 3: Contoh pembiakan seks adalah bunga yang mengalami pendebungaan, manakala contoh pembiakan aseks adalah ubi kentang yang bertunas.
+
+  - id: WE-02
+    topic: "Sistem Pembiakan Manusia"
+    difficulty: medium
+    tp_level: 3
+    kbat: true
+    learning_objective: "4.2.1 (remember): mengenal pasti struktur dan fungsi sistem pembiakan lelaki dan perempuan."
+    real_world_analogy: "Menganggap sistem pembiakan seperti kilang di mana setiap bahagian mempunyai tugas tertentu dalam menghasilkan produk akhir."
+    misconception_alert: "Murid mungkin keliru antara struktur pembiakan lelaki dan perempuan kerana beberapa istilah yang hampir sama."
+    scenario: "Seorang murid perlu mengenal pasti dan menjelaskan fungsi asas struktur dalam sistem pembiakan lelaki dan perempuan."
+    working: |
+      Step 1: Sistem pembiakan lelaki terdiri daripada testis yang menghasilkan sperma dan hormon testosteron.
+      Step 2: Sistem pembiakan perempuan terdiri daripada ovari yang menghasilkan ovum dan hormon estrogen.
+      Step 3: Struktur seperti uterus dan zakar mempunyai peranan penting dalam proses persenyawaan dan kehamilan.
+
+  - id: WE-03
+    topic: "Kitar Haid dan Persenyawaan"
+    difficulty: hard
+    tp_level: 4
+    kbat: true
+    learning_objective: "4.3.2 (understand): hubungkaitkan waktu subur kitar haid dengan proses persenyawaan."
+    real_world_analogy: "Proses ini seperti merancang waktu terbaik untuk menyemai benih di tanah agar tumbuh dengan baik."
+    misconception_alert: "Murid sering salah faham tentang masa subur, menganggap ia berlaku sepanjang bulan dan bukan dalam jangka masa tertentu."
+    scenario: "Seorang murid ingin memahami bagaimana kitar haid mempengaruhi kebarangkalian persenyawaan berlaku."
+    working: |
+      Step 1: Kitar haid berlangsung sekitar 28 hari, dengan ovulasi biasanya berlaku pada pertengahan kitar, sekitar hari ke-14.
+      Step 2: Waktu subur adalah beberapa hari sebelum dan selepas ovulasi kerana sperma boleh hidup beberapa hari dalam saluran pembiakan.
+      Step 3: Persenyawaan paling berkemungkinan berlaku jika hubungan seksual berlaku semasa waktu subur, meningkatkan peluang ovum bertemu sperma.

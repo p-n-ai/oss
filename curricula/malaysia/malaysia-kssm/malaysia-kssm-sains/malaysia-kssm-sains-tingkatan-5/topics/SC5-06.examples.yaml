@@ -1,0 +1,50 @@
+topic_id: "SC5-06"
+provenance: "ai-generated"
+description: "Worked examples for Elektrokimia"
+worked_examples:
+    - id: "WE-01"
+      topic: "Memahami elektrolisis"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "6.1.1"
+      real_world_analogy: "Electrolysis is like using a battery to split water into its components, hydrogen and oxygen."
+      misconception_alert: "Students often think that electrolysis can occur without a power source, but it requires an external voltage to drive the chemical reaction."
+      scenario: "Explain the process of electrolysis in a simple electrolytic cell containing copper(II) sulfate solution with copper electrodes."
+      working: |
+        Step 1: Identify the components of the electrolytic cell: the electrolyte is the copper(II) sulfate solution, and the electrodes are copper.
+        Step 2: Connect the electrodes to a power supply, noting that the anode is the positive electrode and the cathode is the negative electrode.
+        Step 3: During electrolysis, copper ions from the anode are deposited at the cathode, while sulfate ions remain in solution, resulting in the transfer of copper atoms.
+        Step 4: The reaction at the anode is Cu(s) → Cu²⁺(aq) + 2e⁻, and at the cathode, Cu²⁺(aq) + 2e⁻ → Cu(s).
+    - id: "WE-02"
+      topic: "Menjalankan eksperimen untuk mengkaji proses elektrolisis"
+      difficulty: "medium"
+      tp_level: 4
+      kbat: true
+      learning_objective: "6.1.2"
+      real_world_analogy: "Electroplating is like painting a bicycle with a thin layer of metal to prevent rust."
+      misconception_alert: "Many students think that the amount of substance deposited at the electrodes is only dependent on time, but it also depends on current."
+      scenario: "Design an experiment to investigate the effect of current on the mass of copper deposited during the electrolysis of copper(II) sulfate solution."
+      working: |
+        Step 1: Set up an electrolytic cell with copper(II) sulfate solution and copper electrodes.
+        Step 2: Connect the electrodes to a variable power supply and ammeter to measure current.
+        Step 3: Weigh the cathode before starting the experiment.
+        Step 4: Run the experiment at different current settings for a fixed time duration.
+        Step 5: After the experiment, dry and weigh the cathode again to determine the mass of copper deposited.
+        Step 6: Analyze the results to determine the relationship between current and mass of copper deposited.
+    - id: "WE-03"
+      topic: "Aplikasi elektrolisis dalam industri"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "6.1.4"
+      real_world_analogy: "Producing aluminum from bauxite is similar to extracting pure gold from a gold ore using a series of steps including electrolysis."
+      misconception_alert: "A common misunderstanding is that all metals can be easily extracted using electrolysis; however, the method depends on the reactivity of the metal."
+      scenario: "Discuss the industrial application of electrolysis in the extraction of aluminum from its ore."
+      working: |-
+        Step 1: Identify the ore of aluminum, which is bauxite, primarily composed of aluminum oxide.
+        Step 2: Purify the bauxite to obtain aluminum oxide, Al₂O₃.
+        Step 3: During electrolysis, dissolve Al₂O₃ in molten cryolite to lower the melting point.
+        Step 4: Use carbon electrodes; the anode is made of carbon, where oxygen is released, and the cathode is where aluminum is deposited.
+        Step 5: The reaction at the cathode is Al³⁺ + 3e⁻ → Al, and at the anode, C + O₂ → CO₂.
+        Step 6: Extract the pure aluminum formed at the cathode and discuss the importance of this method in reducing energy costs and improving efficiency in aluminum production.

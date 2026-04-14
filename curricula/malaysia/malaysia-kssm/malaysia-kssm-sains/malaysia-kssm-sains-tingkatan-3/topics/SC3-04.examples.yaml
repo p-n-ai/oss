@@ -1,0 +1,43 @@
+topic_id: "SC3-04"
+provenance: "ai-generated"
+description: "Worked examples for Kereaktifan Logam"
+worked_examples:
+    - id: "WE-01"
+      topic: "Kepelbagaian bentuk mineral dalam kerak bumi"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "4.1.1"
+      real_world_analogy: "Seperti memilih jenis-jenis batu permata yang berlainan untuk perhiasan"
+      misconception_alert: "Kekeliruan antara mineral dan batu; mineral adalah bahan tulen, batu adalah campuran"
+      scenario: "Jelaskan dengan contoh kepelbagaian bentuk mineral yang boleh dijumpai dalam kerak bumi."
+      working: |
+        Step 1: Fahami bahawa mineral adalah bahan bukan organik yang wujud secara semula jadi.
+        Step 2: Contoh mineral yang biasa dijumpai termasuk kuarza, feldspar, dan mica.
+        Step 3: Huraikan setiap contoh: Kuarza digunakan dalam pembikinan kaca, feldspar adalah komponen utama tanah liat, dan mica digunakan dalam alat elektronik kerana sifatnya menahan haba.
+    - id: "WE-02"
+      topic: "Siri kereaktifan logam"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "4.2.1"
+      real_world_analogy: "Seperti menentukan siapa yang lebih pantas dalam perlumbaan berdasarkan rekod kelajuan sebelumnya"
+      misconception_alert: "Menganggap semua logam bertindak balas dengan oksigen dengan cara yang sama"
+      scenario: "Anda diberi logam Magnesium, Zink, dan Tembaga. Susun logam ini berdasarkan kereaktifan mereka dengan oksigen."
+      working: |
+        Step 1: Kenal pasti bahawa logam yang lebih reaktif akan bertindak balas lebih cepat dengan oksigen.
+        Step 2: Magnesium adalah logam paling reaktif di antara ketiga-tiga, diikuti oleh Zink dan kemudian Tembaga.
+        Step 3: Susunan mengikut kereaktifan adalah: Magnesium > Zink > Tembaga.
+    - id: "WE-03"
+      topic: "Kedudukan karbon dan hidrogen dalam siri kereaktifan logam"
+      difficulty: "hard"
+      tp_level: 4
+      kbat: true
+      learning_objective: "4.2.2"
+      real_world_analogy: "Seperti menentukan kedudukan pemain dalam liga berdasarkan prestasi mereka"
+      misconception_alert: "Menganggap karbon dan hidrogen adalah logam, sedangkan mereka bukan"
+      scenario: "Tentukan kedudukan karbon dan hidrogen dalam siri kereaktifan logam dan huraikan kepentingannya."
+      working: |-
+        Step 1: Fahami bahawa dalam siri kereaktifan, logam lebih atau kurang reaktif berbanding karbon dan hidrogen.
+        Step 2: Karbon terletak di antara Aluminium dan Zink, manakala Hidrogen terletak di antara Plumbum dan Tembaga.
+        Step 3: Kepentingan: Karbon digunakan dalam pengekstrakan logam seperti Zink dan Besi melalui kaedah penurunan, manakala Hidrogen boleh digunakan untuk mengekstrak logam daripada oksida mereka.

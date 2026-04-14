@@ -1,0 +1,138 @@
+topic_id: SC1-05
+provenance: ai-generated
+
+questions:
+  # Learning Objective 5.1.2
+  - id: Q1
+    text: "Buktikan bahawa sebatang pokok dan seketul batu adalah jirim."
+    difficulty: medium
+    learning_objective: 5.1.2
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Kedua-duanya mempunyai jisim dan memenuhi ruang."
+      working: |
+        1. Sebatang pokok adalah benda hidup yang mempunyai jisim kerana terdiri daripada sel-sel.
+        2. Pokok memenuhi ruang kerana ia mempunyai batang, daun, dan akar yang mengambil tempat di sekitarnya.
+        3. Seketul batu adalah benda bukan hidup yang juga mempunyai jisim kerana terdiri daripada mineral.
+        4. Batu juga memenuhi ruang kerana ia mempunyai bentuk fizikal yang tetap.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan bahawa pokok mempunyai jisim."
+      - marks: 1
+        criteria: "Menyatakan bahawa batu mempunyai jisim."
+      - marks: 1
+        criteria: "Menjelaskan bahawa kedua-duanya memenuhi ruang."
+    hints:
+      - level: 1
+        text: "MISCONCEPTION ALERT: Ingat bahawa semua benda, hidup atau tidak, mempunyai jisim."
+      - level: 2
+        text: "Benda yang mempunyai jisim biasanya mengambil ruang di sekelilingnya."
+
+  # Learning Objective 5.1.3
+  - id: Q2
+    text: "Bezakan antara sifat fizikal dan sifat kimia air."
+    difficulty: medium
+    learning_objective: 5.1.3
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "Sifat fizikal: takat didih, takat beku. Sifat kimia: reaksi dengan natrium."
+      working: |
+        1. Sifat fizikal air termasuk takat didih (100°C) dan takat beku (0°C), yang tidak mengubah identiti kimia air.
+        2. Sifat kimia melibatkan perubahan komposisi seperti reaksi air dengan natrium menghasilkan hidrogen dan natrium hidroksida.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menjelaskan sekurang-kurangnya satu sifat fizikal air."
+      - marks: 1
+        criteria: "Menjelaskan sekurang-kurangnya satu sifat kimia air."
+      - marks: 1
+        criteria: "Menyatakan perbezaan antara sifat fizikal dan kimia dengan contoh."
+    hints:
+      - level: 1
+        text: "Sifat fizikal boleh dilihat tanpa mengubah bahan tersebut."
+      - level: 2
+        text: "Sifat kimia melibatkan perubahan pada komposisi bahan."
+
+  # Learning Objective 5.2.2
+  - id: Q3
+    text: "Bandingkan susunan dan pergerakan zarah dalam pepejal, cecair, dan gas."
+    difficulty: medium
+    learning_objective: 5.2.2
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "Pepejal: rapat, bergetar di tempat. Cecair: kurang rapat, bergerak bebas. Gas: jarang, bergerak pantas."
+      working: |
+        1. Zarah pepejal tersusun rapat dan hanya bergetar di kedudukan tetap.
+        2. Zarah cecair kurang rapat dan boleh bergerak bebas tetapi masih berdekatan antara satu sama lain.
+        3. Zarah gas jarang dan bergerak secara bebas dan pantas dalam semua arah.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan susunan dan pergerakan zarah dalam pepejal."
+      - marks: 1
+        criteria: "Menyatakan susunan dan pergerakan zarah dalam cecair."
+      - marks: 1
+        criteria: "Menyatakan susunan dan pergerakan zarah dalam gas."
+    hints:
+      - level: 1
+        text: "Pepejal mempunyai bentuk dan isipadu yang tetap."
+      - level: 2
+        text: "Cecair mengambil bentuk bekas tetapi mempunyai isipadu tetap."
+
+  # Learning Objective 5.2.4
+  - id: Q4
+    text: "Apa yang berlaku kepada zarah-zarah air apabila air mendidih?"
+    difficulty: medium
+    learning_objective: 5.2.4
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "Pergerakan zarah semakin cepat, jarak antara zarah meningkat."
+      working: |
+        1. Apabila air mendidih, haba yang diserap meningkatkan tenaga kinetik zarah-zarah air.
+        2. Ini menyebabkan zarah-zarah bergerak lebih cepat.
+        3. Akhirnya, zarah-zarah tersebut berjauhan antara satu sama lain, beralih kepada keadaan gas.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan bahawa zarah bergerak lebih cepat."
+      - marks: 1
+        criteria: "Menjelaskan bahawa jarak antara zarah meningkat."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang apa yang berlaku apabila air berubah menjadi wap."
+      - level: 2
+        text: "Zarah-zarah air menjadi lebih aktif dengan penambahan haba."
+
+  # Learning Objective 5.2.7
+  - id: Q5
+    text: "Jelaskan dengan contoh, perubahan keadaan jirim yang berlaku dalam kehidupan harian."
+    difficulty: medium
+    learning_objective: 5.2.7
+    tp_level: 3
+    kbat: true
+    answer:
+      type: free_text
+      value: "Air mendidih menjadi wap atau ais mencair menjadi air."
+      working: |
+        1. Air mendidih menjadi wap: Apabila air dipanaskan hingga 100°C, ia bertukar dari cecair ke gas.
+        2. Ais mencair: Ais pada 0°C menyerap haba dan berubah menjadi air.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyenaraikan sekurang-kurangnya satu contoh perubahan jirim."
+      - marks: 1
+        criteria: "Menjelaskan perubahan jirim dengan huraian prosesnya."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang perubahan yang berlaku apabila memasak atau menyimpan makanan di dalam peti sejuk."
+      - level: 2
+        text: "Perhatikan bagaimana air dan ais berinteraksi dengan haba."

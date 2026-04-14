@@ -1,0 +1,176 @@
+id: "SC4-05"
+official_ref: "Bab 5"
+name: "Genetik"
+name_en: "Genetics"
+subject_grade_id: malaysia-kssm-sains-tingkatan-4
+subject_id: malaysia-kssm-sains
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "beginner"
+theme: "Penyenggaraan dan Kesinambungan Hidup"
+content_standards:
+    - id: "5.1"
+      text: "Pembahagian sel"
+      text_en: "Cell Division"
+    - id: "5.2"
+      text: "Pewarisan"
+      text_en: "Heredity"
+    - id: "5.3"
+      text: "Mutasi"
+      text_en: "Mutation"
+    - id: "5.4"
+      text: "Teknologi Kejuruteraan Genetik"
+      text_en: "Genetic Engineering Technology"
+    - id: "5.5"
+      text: "Variasi"
+      text_en: "Variation"
+learning_objectives:
+    - id: "5.1.1"
+      text: "Menerangkan gen, asid deoksiribonukleik (Deoxyribonucleic acid, DNA) dan kromosom dalam nukleus."
+      text_en: "Explain genes, deoxyribonucleic acid (DNA) and chromosomes in the nucleus."
+      bloom: "understand"
+      content_standard_id: "5.1"
+    - id: "5.1.2"
+      text: "Membanding dan membezakan mitosis dan meiosis."
+      text_en: "Compare and contrast mitosis and meiosis."
+      bloom: "analyze"
+      content_standard_id: "5.1"
+    - id: "5.1.3"
+      text: "Mewajarkan kepentingan mitosis dan meiosis."
+      text_en: "Justify the importance of mitosis and meiosis."
+      bloom: "evaluate"
+      content_standard_id: "5.1"
+    - id: "5.2.1"
+      text: "Menerangkan pewarisan dalam manusia."
+      text_en: "Explain heredity in humans."
+      bloom: "understand"
+      content_standard_id: "5.2"
+    - id: "5.2.2"
+      text: "Berkomunikasi tentang mekanisme perwarisan."
+      text_en: "Communicate about heredity mechanisms."
+      bloom: "understand"
+      content_standard_id: "5.2"
+    - id: "5.3.1"
+      text: "Menjelaskan maksud mutasi dan jenis mutasi."
+      text_en: "Explain the meaning of mutation and types of mutation."
+      bloom: "understand"
+      content_standard_id: "5.3"
+    - id: "5.3.2"
+      text: "Menerangkan dengan contoh faktor yang menyebabkan mutasi gen dan mutasi kromosom."
+      text_en: "Explain with examples of factors causing gene mutation and chromosome mutation."
+      bloom: "understand"
+      content_standard_id: "5.3"
+    - id: "5.3.3"
+      text: "Menerangkan dengan contoh penyakit gangguan gen dengan ciri-cirinya dan kaedah mengesan penyakit tersebut."
+      text_en: "Explain with examples of genetic disorder diseases with their characteristics and methods of detection."
+      bloom: "understand"
+      content_standard_id: "5.3"
+    - id: "5.3.4"
+      text: "Membincangkan aplikasi penyelidikan genetik dalam meningkatkan kualiti kehidupan."
+      text_en: "Discuss applications of genetic research in improving quality of life."
+      bloom: "analyze"
+      content_standard_id: "5.3"
+    - id: "5.3.5"
+      text: "Membahaskan kesan penyelidikan genetik terhadap kehidupan manusia."
+      text_en: "Discuss the effects of genetic research on human life."
+      bloom: "evaluate"
+      content_standard_id: "5.3"
+    - id: "5.4.1"
+      text: "Mewajarkan teknologi kejuruteraan genetik."
+      text_en: "Justify genetic engineering technology."
+      bloom: "evaluate"
+      content_standard_id: "5.4"
+    - id: "5.4.2"
+      text: "Membahaskan kesan teknologi kejuruteraan genetik dalam kehidupan."
+      text_en: "Discuss the effects of genetic engineering technology in life."
+      bloom: "evaluate"
+      content_standard_id: "5.4"
+    - id: "5.4.3"
+      text: "Mewajarkan etika dalam teknologi kejuruteraan genetik."
+      text_en: "Justify ethics in genetic engineering technology."
+      bloom: "evaluate"
+      content_standard_id: "5.4"
+    - id: "5.5.1"
+      text: "Berkomunikasi mengenai variasi selanjar dan variasi tak selanjar."
+      text_en: "Communicate about continuous variation and discontinuous variation."
+      bloom: "understand"
+      content_standard_id: "5.5"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai genetik."
+      text_en: "Recall science knowledge and skills regarding genetics."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran sains mengenai genetik."
+      descriptor_en: "Recall science knowledge and skills regarding genetics."
+    - level: 2
+      id: "TP2"
+      text: "Memahami genetik dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand genetics and can explain the understanding."
+      descriptor: "Memahami genetik dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand genetics and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai genetik dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge regarding genetics and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai genetik dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge regarding genetics and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai genetik dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge regarding genetics in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai genetik dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge regarding genetics in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai genetik dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge regarding genetics in the context of problem solving and making decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai genetik dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge regarding genetics in the context of problem solving and making decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai genetik dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills regarding genetics in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mencipta dengan menggunakan pengetahuan dan kemahiran sains mengenai genetik dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using science knowledge and skills regarding genetics in the context of problem solving and making decisions or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+prerequisites:
+    required: []
+    recommended: []
+teaching:
+    sequence:
+        - 'Step 1: Introduce genes, DNA, and chromosomes using a library analogy (20 min)'
+        - 'Step 2: Explain mitosis and meiosis with visual aids and animations (25 min)'
+        - 'Step 3: Discuss inheritance patterns using family pedigree charts (20 min)'
+        - 'Step 4: Explore genetic mutations and their causes with examples (25 min)'
+        - 'Step 5: Debate the ethical implications of genetic engineering (20 min)'
+    common_misconceptions:
+        - misconception: Genes and chromosomes are the same thing.
+          remediation: Clarify that genes are segments of DNA, while chromosomes are structures that organize DNA.
+        - misconception: Mitosis and meiosis are identical processes.
+          remediation: Highlight the differences in outcomes and stages between mitosis and meiosis.
+        - misconception: Mutations are always harmful.
+          remediation: Explain that mutations can be beneficial, neutral, or harmful, depending on the context.
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T00:00:00Z"
+sync_checked: false
+ai_teaching_notes: "SC4-05.teaching.md"
+assessments_file: "SC4-05.assessments.yaml"
+examples_file: SC4-05.examples.yaml
+engagement_hooks:
+    - Discuss how genetic traits in local animals and plants illustrate inheritance.
+    - Use a family tree to connect genetic concepts to students' own lives.

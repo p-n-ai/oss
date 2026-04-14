@@ -1,0 +1,44 @@
+topic_id: "SC4-09"
+provenance: "ai-generated"
+description: "Worked examples for Kimia Industri"
+worked_examples:
+    - id: "WE-01"
+      topic: "Aloi dan Komposisi"
+      difficulty: "easy"
+      tp_level: 2
+      kbat: false
+      learning_objective: "9.1.1"
+      real_world_analogy: "Membuat kek dengan mencampurkan bahan-bahan yang berbeza untuk mendapatkan tekstur dan rasa yang lebih baik."
+      misconception_alert: "Ramai pelajar menyangka semua aloi adalah semata-mata campuran logam, sedangkan aloi boleh juga mengandungi unsur bukan logam."
+      scenario: "Apakah definisi aloi dan berikan satu contoh aloi berdasarkan komposisi unsurnya."
+      working: |
+        Step 1: Definisi aloi ialah campuran dua atau lebih unsur, di mana sekurang-kurangnya satu daripadanya adalah logam.
+        Step 2: Aloi biasanya dihasilkan untuk meningkatkan sifat-sifat logam seperti kekuatan dan ketahanan terhadap kakisan.
+        Step 3: Contoh aloi ialah gangsa, yang terdiri daripada tembaga dan timah.
+    - id: "WE-02"
+      topic: "Eksperimen Aloi vs Logam Tulen"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "9.1.2"
+      real_world_analogy: "Seperti membandingkan roti biasa dengan roti yang telah ditambah bahan pengembang untuk melihat perbezaan tekstur."
+      misconception_alert: "Pelajar sering keliru antara ciri fizikal aloi dan logam tulen, berfikir bahawa aloi tidak mempunyai kelebihan tertentu."
+      scenario: "Reka eksperimen ringkas untuk membandingkan kekuatan mekanikal antara aloi dengan logam tulennya."
+      working: |
+        Step 1: Pilih logam tulen seperti besi dan aloi seperti keluli.
+        Step 2: Sediakan dua batang ujian dengan saiz yang sama, satu daripada besi dan satu daripada keluli.
+        Step 3: Gunakan mesin ujian kekuatan untuk mengukur kekuatan tegangan setiap batang.
+        Step 4: Analisis data dan bandingkan, biasanya keluli akan menunjukkan kekuatan yang lebih tinggi berbanding besi tulen.
+    - id: "WE-03"
+      topic: "Kegunaan Aloi dalam Kehidupan Harian"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "9.1.3"
+      real_world_analogy: "Seperti memilih bahan bangunan yang terbaik untuk membina rumah yang tahan lama dan selesa."
+      misconception_alert: "Ada anggapan bahawa semua aloi mempunyai fungsi yang sama, sedangkan setiap aloi mempunyai kegunaan khusus berdasarkan sifatnya."
+      scenario: "Terangkan kenapa aloi seperti keluli tahan karat lebih sesuai digunakan dalam peralatan dapur berbanding logam tulen."
+      working: |-
+        Step 1: Keluli tahan karat adalah aloi yang mengandungi besi, kromium, dan nikel.
+        Step 2: Kromium dalam keluli tahan karat memberikan lapisan oksida yang menjadikannya tahan terhadap karat.
+        Step 3: Sifat tahan karat ini menjadikannya sesuai untuk peralatan dapur yang terdedah kepada air dan asid, seperti pisau dan sinki.

@@ -1,0 +1,46 @@
+topic_id: "SC4-05"
+provenance: "ai-generated"
+description: "Worked examples for Genetik"
+worked_examples:
+    - id: "WE-01"
+      topic: "Gen, DNA, dan Kromosom"
+      difficulty: "easy"
+      tp_level: 1
+      kbat: false
+      learning_objective: "5.1.1"
+      real_world_analogy: "Gen adalah seperti buku arahan yang memberitahu badan kita bagaimana untuk berfungsi."
+      misconception_alert: "Gen tidak sama dengan kromosom; kromosom adalah struktur yang membawa banyak gen."
+      scenario: "Jelaskan hubungan antara gen, DNA, dan kromosom dalam nukleus sel manusia."
+      working: |
+        Step 1: Fahami bahawa gen adalah unit asas maklumat genetik yang terletak pada DNA.
+        Step 2: DNA (Asid Deoksiribonukleik) adalah molekul panjang yang mengandungi kod genetik untuk pembangunan dan fungsi organisma.
+        Step 3: Kromosom adalah struktur yang memegang DNA yang digulung dengan padat, terdapat dalam nukleus sel.
+        Step 4: Oleh itu, gen terdapat pada DNA, dan DNA disusun menjadi kromosom dalam nukleus sel.
+    - id: "WE-02"
+      topic: "Pewarisan dalam Manusia"
+      difficulty: "medium"
+      tp_level: 3
+      kbat: true
+      learning_objective: "5.2.1"
+      real_world_analogy: "Pewarisan sifat adalah seperti mendapatkan ciri-ciri dari ibu bapa kita, seperti warna mata mereka."
+      misconception_alert: "Tidak semua sifat diwarisi dengan cara yang sama; beberapa sifat dikawal oleh gen tunggal, sementara yang lain oleh pelbagai gen."
+      scenario: "Bagaimana sifat warna mata diwarisi daripada ibu bapa kepada anak-anak?"
+      working: |
+        Step 1: Fahami bahawa warna mata dipengaruhi oleh gen yang diwarisi daripada kedua-dua ibu bapa.
+        Step 2: Setiap ibu bapa memberikan satu alel untuk gen warna mata kepada anak mereka.
+        Step 3: Kombinasi alel ini menentukan warna mata anak, sebagai contoh, alel 'B' untuk mata coklat lebih dominan berbanding alel 'b' untuk mata biru.
+        Step 4: Jika seorang anak menerima alel 'B' daripada salah satu ibu bapa, mata anak tersebut akan coklat, tetapi jika menerima alel 'b' daripada kedua-dua ibu bapa, mata akan biru.
+    - id: "WE-03"
+      topic: "Kepentingan Mitosis dan Meiosis"
+      difficulty: "hard"
+      tp_level: 5
+      kbat: true
+      learning_objective: "5.1.3"
+      real_world_analogy: "Mitosis dan meiosis adalah seperti dua jenis 'kilang' pembahagian sel yang menghasilkan produk yang berbeza; mitosis untuk pertumbuhan dan pembaikan, meiosis untuk penghasilan sel pembiakan."
+      misconception_alert: "Mitosis dan meiosis bukan proses yang sama; mereka mempunyai tujuan dan hasil yang berbeza."
+      scenario: "Mengapa mitosis dan meiosis penting untuk organisma hidup?"
+      working: |-
+        Step 1: Kenal pasti bahawa mitosis dan meiosis adalah dua jenis pembahagian sel yang berbeza.
+        Step 2: Mitosis menghasilkan dua sel anak yang identik dengan sel induk, penting untuk pertumbuhan, pembaikan tisu, dan asexual reproduction.
+        Step 3: Meiosis menghasilkan sel gamet dengan separuh bilangan kromosom sel induk, penting untuk penghasilan sel pembiakan dan variasi genetik.
+        Step 4: Oleh itu, mitosis dan meiosis adalah penting untuk kesinambungan kehidupan dan keragaman biologi.

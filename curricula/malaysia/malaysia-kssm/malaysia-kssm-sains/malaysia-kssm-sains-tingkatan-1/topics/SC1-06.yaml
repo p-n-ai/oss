@@ -1,0 +1,144 @@
+id: SC1-06
+official_ref: "Bab 6"
+name: "Jadual Berkala"
+name_en: "Periodic Table"
+subject_grade_id: malaysia-kssm-sains-tingkatan-1
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+learning_objectives:
+    - id: 6.1.1
+      text: "merumuskan semua jirim terdiri daripada atom."
+      text_en: "Conclude that all matter consists of atoms."
+      bloom: understand
+    - id: 6.1.2
+      text: "membezakan antara atom dan molekul serta unsur dan sebatian."
+      text_en: "Differentiate between atoms and molecules and elements and compounds."
+      bloom: analyze
+    - id: 6.1.3
+      text: "mengenal pasti kedudukan logam, bukan logam dan gas nadir dalam jadual berkala."
+      text_en: "Identify the position of metals, non-metals and noble gases in the periodic table."
+      bloom: remember
+    - id: 6.1.4
+      text: "membezakan ciri-ciri logam dengan bukan logam."
+      text_en: "Differentiate characteristics of metals with non-metals."
+      bloom: analyze
+    - id: 6.1.5
+      text: "menghargai unsur yang wujud dalam alam bagi membolehkan manusia menyusun ketertiban ini dalam bentuk jadual."
+      text_en: "Appreciate elements that exist in nature to allow humans to arrange this order in the form of a table."
+      bloom: evaluate
+    - id: 6.2.1
+      text: "berkomunikasi mengenai contoh campuran dalam kehidupan harian."
+      text_en: "Communicate about examples of mixtures in daily life."
+      bloom: understand
+    - id: 6.2.2
+      text: "menyelesaikan masalah untuk mengasingkan campuran melalui aktiviti berdasarkan perbezaan ciri bahan dengan kaedah fizikal."
+      text_en: "Solve problems to separate mixtures through activities based on differences in material characteristics with physical methods."
+      bloom: apply
+    - id: 6.3.1
+      text: "berkomunikasi mengenai sebatian dalam kehidupan harian."
+      text_en: "Communicate about compounds in daily life."
+      bloom: understand
+    - id: 6.3.2
+      text: "menunjuk cara pembentukan sebatian daripada logam dengan bukan logam."
+      text_en: "Demonstrate the formation of compounds from metals with non-metals."
+      bloom: apply
+    - id: 6.3.3
+      text: "merumuskan jisim diabadikan semasa perubahan kimia."
+      text_en: "Conclude that mass is conserved during chemical changes."
+      bloom: understand
+    - id: 6.3.4
+      text: "mengasingkan sebatian melalui kaedah kimia."
+      text_en: "Separate compounds through chemical methods."
+      bloom: apply
+    - id: 6.3.5
+      text: "membezakan perubahan kimia dan perubahan fizik."
+      text_en: "Differentiate chemical changes and physical changes."
+      bloom: analyze
+    - id: 6.3.6
+      text: "membezakan antara campuran dan sebatian."
+      text_en: "Differentiate between mixtures and compounds."
+      bloom: analyze
+prerequisites:
+    required: []
+quality_level: 1
+provenance: ai-generated
+generated_at: "2026-04-09T03:17:48Z"
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+    - evaluate
+    - create
+mastery:
+    minimum_score: 0.75
+    assessment_count: 3
+    spaced_repetition:
+        initial_interval_days: 3
+        multiplier: 2.5
+ai_teaching_notes: "SC1-06.teaching.md"
+content_standards:
+    - id: "6.1"
+      text: Pengelasan unsur
+      text_en: Classification of elements
+    - id: "6.2"
+      text: Campuran
+      text_en: Mixtures
+    - id: "6.3"
+      text: Sebatian
+      text_en: Compounds
+performance_standards:
+    - level: 1
+      id: "TP1-SC1-06"
+      text: Mengingat kembali pengetahuan dan kemahiran sains mengenai jirim/jadual berkala/udara.
+      text_en: Recall knowledge and science skills regarding matter/periodic table/air.
+      descriptor: Remembering
+      descriptor_en: Remembering
+    - level: 2
+      id: "TP2-SC1-06"
+      text: Memahami jirim/jadual berkala/udara serta dapat menjelaskan kefahaman tersebut.
+      text_en: Understand matter/periodic table/air and can explain the understanding thereof.
+      descriptor: Understanding
+      descriptor_en: Understanding
+    - level: 3
+      id: "TP3-SC1-06"
+      text: Mengaplikasikan pengetahuan jirim/jadual berkala/udara untuk menerangkan kejadian atau fenomena alam dan dapat melaksanakan tugasan mudah.
+      text_en: Apply knowledge of matter/periodic table/air to explain natural events or phenomena and can carry out simple tasks.
+      descriptor: Applying
+      descriptor_en: Applying
+    - level: 4
+      id: "TP4-SC1-06"
+      text: Menganalisis pengetahuan mengenai struktur jirim/jadual berkala/udara dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam.
+      text_en: Analyze knowledge regarding the structure of matter/periodic table/air in the context of problem solving regarding natural events or phenomena.
+      descriptor: Analyzing
+      descriptor_en: Analyzing
+    - level: 5
+      id: "TP5-SC1-06"
+      text: Menilai pengetahuan mengenai jirim/jadual berkala/udara dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan.
+      text_en: Evaluate knowledge regarding matter/periodic table/air in the context of problem solving and making decisions to carry out a task.
+      descriptor: Evaluating
+      descriptor_en: Evaluating
+    - level: 6
+      id: "TP6-SC1-06"
+      text: Merekabentuk persembahan pelbagai media/visual/folio/poster/main peranan/drama secara kreatif dan inovatif dengan menggunakan pengetahuan dan kemahiran sains mengenai jirim/jadual berkala/udara dalam konteks penyelesaian masalah dan membuat keputusan dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat.
+      text_en: Design presentations of various media/visual/folio/poster/role play/drama in a creative and innovative way using knowledge and science skills regarding matter/periodic table/air in the context of problem solving and making decisions taking into account social/economic/cultural values of society.
+      descriptor: Creating
+      descriptor_en: Creating
+engagement_hooks:
+    - Discuss the importance of tin in Malaysia and its place on the periodic table.
+    - Explore the role of silicon in technology and its position in the periodic table.
+examples_file: SC1-06.examples.yaml
+assessments_file: SC1-06.assessments.yaml
+teaching:
+    sequence:
+        - Introduction to Atoms and Elements (15 min)
+        - Distinguishing Elements and Compounds (20 min)
+        - Navigating the Periodic Table (25 min)
+    common_misconceptions:
+        - misconception: Atoms and molecules are the same.
+          remediation: Use models to show atoms as single units and molecules as combinations.
+        - misconception: All shiny things are metals.
+          remediation: Provide examples of shiny non-metals like iodine.

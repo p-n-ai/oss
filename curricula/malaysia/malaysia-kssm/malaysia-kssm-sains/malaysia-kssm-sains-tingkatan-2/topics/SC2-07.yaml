@@ -1,0 +1,141 @@
+id: SC2-07
+official_ref: "Bab 7"
+name: "Keleektrikan dan kemagnetan"
+name_en: "Electricity and Magnetism"
+subject_grade_id: malaysia-kssm-sains-tingkatan-2
+subject_id: malaysia-kssm-sains
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+content_standards:
+    - id: "7.1"
+      text: "Keelektrikan"
+      text_en: "Electricity"
+    - id: "7.2"
+      text: "Pengaliran arus elektrik dalam litar bersiri dan litar selari"
+      text_en: "Flow of electric current in series and parallel circuits"
+    - id: "7.3"
+      text: "Kemagnetan"
+      text_en: "Magnetism"
+learning_objectives:
+    - id: "7.1.1"
+      text: "Menghuraikan dan berkomunikasi mengenai tenaga."
+      text_en: "Elaborate and communicate about energy."
+      bloom: "understand"
+      content_standard_id: "7.1"
+    - id: "7.1.2"
+      text: "Menerangkan dan berkomunikasi mengenai kewujudan cas elektrostatik."
+      text_en: "Explain and communicate about the existence of electrostatic charge."
+      bloom: "understand"
+      content_standard_id: "7.1"
+    - id: "7.1.3"
+      text: "Menjelaskan dengan contoh elektrostatik dalam kehidupan seharian."
+      text_en: "Explain with examples of electrostatics in daily life."
+      bloom: "understand"
+      content_standard_id: "7.1"
+    - id: "7.1.4"
+      text: "Merumuskan cas yang mengalir menghasilkan arus elektrik."
+      text_en: "Summarize that flowing charge produces electric current."
+      bloom: "understand"
+      content_standard_id: "7.1"
+    - id: "7.1.5"
+      text: "Mencirikan arus, voltan dan rintangan serta unitnya."
+      text_en: "Characterize current, voltage, and resistance and their units."
+      bloom: "understand"
+      content_standard_id: "7.1"
+    - id: "7.1.6"
+      text: "Merumuskan perkaitan antara arus, voltan dan rintangan."
+      text_en: "Summarize the relationship between current, voltage, and resistance."
+      bloom: "understand"
+      content_standard_id: "7.1"
+    - id: "7.2.1"
+      text: "Menghuraikan dan berkomunikasi mengenai pengaliran arus elektrik dalam litar bersiri dan litar selari."
+      text_en: "Elaborate and communicate about the flow of electric current in series and parallel circuits."
+      bloom: "understand"
+      content_standard_id: "7.2"
+    - id: "7.3.1"
+      text: "Merumuskan ciri magnet."
+      text_en: "Summarize the characteristics of magnets."
+      bloom: "understand"
+      content_standard_id: "7.3"
+    - id: "7.3.2"
+      text: "Menghuraikan dan berkomunikasi mengenai elektromagnet."
+      text_en: "Elaborate and communicate about electromagnets."
+      bloom: "understand"
+      content_standard_id: "7.3"
+    - id: "7.3.3"
+      text: "Menjalankan eksperimen dan berkomunikasi mengenai kegunaan magnet dan elektromagnet dalam kehidupan harian."
+      text_en: "Conduct an experiment and communicate about the use of magnets and electromagnets in daily life."
+      bloom: "apply"
+      content_standard_id: "7.3"
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran sains mengenai keelektrikan dan kemagnetan."
+      text_en: "Recall science knowledge and skills regarding electricity and magnetism."
+      descriptor: "Murid dapat mengingat kembali fakta asas mengenai keelektrikan dan kemagnetan."
+      descriptor_en: "Student can recall basic facts about electricity and magnetism."
+    - level: 2
+      id: "TP2"
+      text: "Memahami keelektrikan dan kemagnetan dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand electricity and magnetism and can explain the understanding."
+      descriptor: "Murid dapat menjelaskan konsep keelektrikan dan kemagnetan dengan mudah."
+      descriptor_en: "Student can explain the concept of electricity and magnetism easily."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai keelektrikan dan kemagnetan dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge about electricity and magnetism and can carry out simple tasks."
+      descriptor: "Murid dapat menggunakan pengetahuan keelektrikan dan kemagnetan dalam situasi mudah."
+      descriptor_en: "Student can use electricity and magnetism knowledge in simple situations."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai keelektrikan dan kemagnetan dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge about electricity and magnetism in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Murid dapat menganalisis isu keelektrikan dan kemagnetan dalam konteks fizik."
+      descriptor_en: "Student can analyze electricity and magnetism issues in the context of physics."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai keelektrikan dan kemagnetan dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge about electricity and magnetism in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Murid dapat menilai dan membuat keputusan mengenai isu keelektrikan dan kemagnetan."
+      descriptor_en: "Student can evaluate and make decisions regarding electricity and magnetism issues."
+    - level: 6
+      id: "TP6"
+      text: "Merekacipta dengan menggunakan pengetahuan dan kemahiran sains mengenai keelektrikan dan kemagnetan dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baharu secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using science knowledge and skills about electricity and magnetism in the context of problem solving and making decisions or in carrying out a task in new situations creatively and innovatively by considering social/economic/cultural values of society."
+      descriptor: "Murid dapat mencipta penyelesaian inovatif untuk isu keelektrikan dan kemagnetan."
+      descriptor_en: "Student can create innovative solutions for electricity and magnetism issues."
+prerequisites:
+    required: []
+    recommended: []
+teaching:
+    sequence:
+        - 'Step 1: Introduce the concept of energy and its forms (15 min)'
+        - 'Step 2: Discuss electrostatic charges with examples (20 min)'
+        - 'Step 3: Explain the relationship between current, voltage, and resistance (25 min)'
+        - 'Step 4: Demonstrate electric circuits using series and parallel setups (30 min)'
+        - 'Step 5: Conduct an experiment on electromagnets and discuss findings (40 min)'
+    common_misconceptions:
+        - misconception: Students often think that only moving charges can create electricity.
+          remediation: Clarify that static charges can also generate electric fields.
+        - misconception: Many believe that all magnets are permanent.
+          remediation: Explain the difference between permanent magnets and electromagnets.
+mastery:
+    minimum_score: 0.75
+    assessment_count: 5
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+cross_curriculum: []
+tier: "core"
+ai_teaching_notes: "SC2-07.teaching.md"
+examples_file: "SC2-07.examples.yaml"
+assessments_file: "SC2-07.assessments.yaml"
+quality_level: 1
+provenance: "ai-assisted"
+generated_at: "2023-10-27T10:00:00Z"
+engagement_hooks:
+    - Discuss how static electricity causes clothes to stick together after drying.
+    - Explore the use of electromagnets in everyday devices like speakers and MRI machines.
+sync_checked: false

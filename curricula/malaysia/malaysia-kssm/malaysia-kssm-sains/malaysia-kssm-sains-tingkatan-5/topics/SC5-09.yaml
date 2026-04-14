@@ -1,0 +1,133 @@
+id: "SC5-09"
+official_ref: "Bab 9"
+name: "Teknologi Angkasa Lepas"
+name_en: "Space Technology"
+subject_grade_id: "malaysia-kssm-sains-tingkatan-5"
+subject_id: "malaysia-kssm-sains"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "intermediate"
+theme: "PENEROKAAN BUMI DAN ANGKASA LEPAS"
+content_standards:
+    - id: "9.1"
+      text: "Satelit"
+      text_en: "Satellites"
+    - id: "9.2"
+      text: "Sistem Penentu Sejagat (Global Positioning System, GPS)"
+      text_en: "Global Positioning System (GPS)"
+learning_objectives:
+    - id: "9.1.1"
+      text: "Menerangkan jenis-jenis orbit satelit."
+      text_en: "Explain types of satellite orbits."
+      bloom: "understand"
+      content_standard_id: "9.1"
+    - id: "9.1.2"
+      text: "Menjelaskan dengan menggunakan gambar rajah kedudukan apogi (apogee) dan perigi (perigee) satu satelit dalam orbit elips."
+      text_en: "Explain using diagrams the position of apogee and perigee of a satellite in an elliptical orbit."
+      bloom: "understand"
+      content_standard_id: "9.1"
+    - id: "9.1.3"
+      text: "Membuat perkaitan hubungan antara ketinggian orbit dengan halaju satelit."
+      text_en: "Make a connection between the relationship between orbit height and satellite velocity."
+      bloom: "analyze"
+      content_standard_id: "9.1"
+    - id: "9.1.4"
+      text: "Menerangkan bagaimana satelit dilancarkan dan ditempatkan dalam orbit."
+      text_en: "Explain how satellites are launched and placed in orbit."
+      bloom: "understand"
+      content_standard_id: "9.1"
+    - id: "9.1.5"
+      text: "Berkomunikasi mengenai kaedah menjejaki stesen angkasa."
+      text_en: "Communicate about methods of tracking space stations."
+      bloom: "remember"
+      content_standard_id: "9.1"
+    - id: "9.1.6"
+      text: "Menghurai kesan perkembangan pesat dalam teknologi angkasa lepas."
+      text_en: "Describe the effects of rapid development in space technology."
+      bloom: "understand"
+      content_standard_id: "9.1"
+    - id: "9.2.1"
+      text: "Menjelaskan tentang Sistem Penentu Sejagat (Global Positioning System, GPS)"
+      text_en: "Explain about the Global Positioning System (GPS)"
+      bloom: "understand"
+      content_standard_id: "9.2"
+    - id: "9.2.2"
+      text: "Mengaplikasikan sistem koordinat GPS untuk tujuan navigasi"
+      text_en: "Apply GPS coordinate system for navigation purposes"
+      bloom: "apply"
+      content_standard_id: "9.2"
+prerequisites:
+    required: []
+performance_standards:
+    - level: 1
+      id: "TP1"
+      text: "Mengingat kembali pengetahuan dan kemahiran saintifik mengenai teknologi angkasa lepas."
+      text_en: "Recall scientific knowledge and skills regarding space technology."
+      descriptor: "Mengingat kembali pengetahuan dan kemahiran saintifik mengenai teknologi angkasa lepas."
+      descriptor_en: "Recall scientific knowledge and skills regarding space technology."
+    - level: 2
+      id: "TP2"
+      text: "Memahami teknologi angkasa lepas dan dapat menjelaskan kefahaman tersebut."
+      text_en: "Understand space technology and can explain the understanding."
+      descriptor: "Memahami teknologi angkasa lepas dan dapat menjelaskan kefahaman tersebut."
+      descriptor_en: "Understand space technology and can explain the understanding."
+    - level: 3
+      id: "TP3"
+      text: "Mengaplikasikan pengetahuan mengenai teknologi angkasa lepas dan dapat melaksanakan tugasan mudah."
+      text_en: "Apply knowledge about space technology and can carry out simple tasks."
+      descriptor: "Mengaplikasikan pengetahuan mengenai teknologi angkasa lepas dan dapat melaksanakan tugasan mudah."
+      descriptor_en: "Apply knowledge about space technology and can carry out simple tasks."
+    - level: 4
+      id: "TP4"
+      text: "Menganalisis pengetahuan mengenai teknologi angkasa lepas dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      text_en: "Analyze knowledge about space technology in the context of problem solving regarding natural events or phenomena."
+      descriptor: "Menganalisis pengetahuan mengenai teknologi angkasa lepas dalam konteks penyelesaian masalah mengenai kejadian atau fenomena alam."
+      descriptor_en: "Analyze knowledge about space technology in the context of problem solving regarding natural events or phenomena."
+    - level: 5
+      id: "TP5"
+      text: "Menilai pengetahuan mengenai teknologi angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      text_en: "Evaluate knowledge about space technology in the context of problem solving and make decisions to carry out a task."
+      descriptor: "Menilai pengetahuan mengenai teknologi angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan untuk melaksanakan satu tugasan."
+      descriptor_en: "Evaluate knowledge about space technology in the context of problem solving and make decisions to carry out a task."
+    - level: 6
+      id: "TP6"
+      text: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai teknologi angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      text_en: "Create using scientific knowledge and skills about space technology in the context of problem solving and decision making or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+      descriptor: "Mereka cipta dengan menggunakan pengetahuan dan kemahiran sains mengenai teknologi angkasa lepas dalam konteks penyelesaian masalah dan membuat keputusan atau dalam melaksanakan satu tugasan dalam situasi baru secara kreatif dan inovatif dengan mengambil kira nilai sosial/ekonomi/budaya masyarakat."
+      descriptor_en: "Create using scientific knowledge and skills about space technology in the context of problem solving and decision making or in carrying out a task in a new situation creatively and innovatively taking into account social/economic/cultural values of society."
+bloom_levels:
+    - remember
+    - understand
+    - apply
+    - analyze
+mastery:
+    minimum_score: 0.75
+    assessment_count: 10
+    spaced_repetition:
+        initial_interval_days: 1
+        multiplier: 2.5
+teaching:
+    sequence:
+        - 'Step 1: Introduce types of satellite orbits using visual aids (20 min)'
+        - 'Step 2: Discuss apogee and perigee with diagram examples (15 min)'
+        - 'Step 3: Analyze the relationship between orbit altitude and velocity (20 min)'
+        - 'Step 4: Explain satellite launch and orbit placement with video (20 min)'
+        - 'Step 5: Discuss methods of tracking space stations (15 min)'
+    common_misconceptions:
+        - misconception: All satellites orbit at the same altitude
+          remediation: Use visual simulations to show different orbit types
+        - misconception: Apogee and perigee are the same
+          remediation: Clarify using diagrams and real-life examples
+cross_curriculum: []
+tier: "core"
+ai_teaching_notes: "SC5-09.teaching.md"
+examples_file: "SC5-09.examples.yaml"
+assessments_file: "SC5-09.assessments.yaml"
+quality_level: 1
+provenance: "ai-generated"
+generated_at: "2026-04-12T03:59:16Z"
+sync_checked: false
+engagement_hooks:
+    - Discuss the launch of Malaysian satellites like MEASAT and their impact on communication
+    - Explore how GPS technology is used in everyday navigation, such as in smartphones

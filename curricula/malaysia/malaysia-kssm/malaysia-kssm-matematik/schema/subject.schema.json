@@ -8,18 +8,24 @@
   "properties": {
     "id": {
       "type": "string",
-      "description": "Unique subject identifier"
+      "description": "Unique subject identifier (e.g., malaysia-kssm-matematik-tingkatan-1)"
     },
-    "name": { "type": "string" },
+    "name": {
+      "type": "string",
+      "description": "Subject name in the primary language of the curriculum"
+    },
     "syllabus_id": {
       "type": "string",
-      "description": "Reference to parent syllabus"
+      "description": "Reference to parent syllabus ID"
     },
-    "description": { "type": "string" },
+    "description": {
+      "type": "string",
+      "description": "Brief description of what this subject covers"
+    },
     "topics": {
       "type": "array",
       "items": { "type": "string" },
-      "description": "Ordered list of topic IDs"
+      "description": "Ordered list of topic IDs belonging to this subject, in recommended teaching sequence"
     }
   },
   "additionalProperties": false
