@@ -1,121 +1,132 @@
 topic_id: MT2-11
-provenance: ai-generated
-
+provenance: ai-assisted
 questions:
-  # Learning Objective: 11.1.1 (understand)
+
   - id: Q1
-    text: "Objek A dipetakan ke objek B melalui satu transformasi isometri. Jelaskan bagaimana kedudukan, saiz, dan orientasi objek A dan B berkait."
-    difficulty: medium
-    learning_objective: LO1
-    tp_level: 2
-    kbat: false
-    answer:
-      type: free_text
-      value: "Objek A dan B mempunyai kedudukan yang berbeza tetapi saiz dan orientasi yang sama, menunjukkan padanan satu-dengan-satu."
-      working: |
-        Transformasi isometri mengekalkan saiz dan orientasi objek tetapi mengubah kedudukan mereka. Kedua-dua objek adalah kongruen.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Menjelaskan saiz objek adalah sama."
-      - marks: 1
-        criteria: "Menjelaskan orientasi objek adalah sama."
-      - marks: 1
-        criteria: "Menjelaskan kedudukan objek adalah berbeza."
-    hints:
-      - level: 1
-        text: "Fikirkan bagaimana transformasi isometri mengekalkan sifat objek."
-
-  # Learning Objective: 11.2.3 (apply)
-  - id: Q2
-    text: "Titik $P(2, 3)$ ditranslasikan oleh vektor $\begin{pmatrix} 4 \\ -2 \end{pmatrix}$. Tentukan koordinat imej titik tersebut."
-    difficulty: medium
-    learning_objective: LO2
-    tp_level: 3
-    kbat: false
-    answer:
-      type: exact
-      value: "(6, 1)"
-      working: |
-        Titik asal $P(2, 3)$ ditambah dengan vektor translasi $\begin{pmatrix} 4 \\ -2 \end{pmatrix}$:
-        $$
-        \begin{pmatrix} 2 \\ 3 \end{pmatrix} + \begin{pmatrix} 4 \\ -2 \end{pmatrix} = \begin{pmatrix} 6 \\ 1 \end{pmatrix}
-        $$
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menambah komponen x dengan betul."
-      - marks: 1
-        criteria: "Menambah komponen y dengan betul."
-    hints:
-      - level: 1
-        text: "Ingat, translasi melibatkan penambahan vektor kepada koordinat asal."
-
-  # Learning Objective: 11.3.4 (apply)
-  - id: Q3
-    text: "Pantulkan segi tiga dengan titik sudut $A(1, 2)$, $B(4, 5)$, $C(6, 2)$ ke atas garis $y = 3$. Tentukan koordinat imej bagi titik $A$."
-    difficulty: medium
-    learning_objective: LO3
-    tp_level: 3
-    kbat: false
-    answer:
-      type: exact
-      value: "(1, 4)"
-      working: |
-        Jarak titik $A(1, 2)$ ke garis $y = 3$ ialah 1 unit. Jadi, imej titik $A$ selepas pantulan adalah 1 unit di atas garis:
-        $$
-        A'(1, 4)
-        $$
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Mengira jarak dari titik ke garis pantulan dengan betul."
-      - marks: 2
-        criteria: "Menentukan imej titik dengan betul."
-    hints:
-      - level: 1
-        text: "MISCONCEPTION ALERT: Pantulan melibatkan jarak yang sama dari garis pantulan, bukan hanya menukar tanda koordinat."
-
-  # Learning Objective: 11.4.3 (apply)
-  - id: Q4
-    text: "Titik $Q(3, 4)$ diputar 90 darjah mengikut arah lawan jam dengan pusat di asal $(0, 0)$. Tentukan koordinat imej titik tersebut."
-    difficulty: medium
-    learning_objective: LO4
-    tp_level: 3
-    kbat: false
-    answer:
-      type: exact
-      value: "(-4, 3)"
-      working: |
-        Untuk putaran 90 darjah lawan jam, koordinat $(x, y)$ akan menjadi $(-y, x)$.
-        Oleh itu, imej bagi $Q(3, 4)$ adalah $(-4, 3)$.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menentukan koordinat x imej dengan betul."
-      - marks: 1
-        criteria: "Menentukan koordinat y imej dengan betul."
-    hints:
-      - level: 1
-        text: "Fikirkan tentang pergerakan titik dalam putaran 90 darjah lawan jam di sekitar asal."
-
-  # Learning Objective: 11.6.2 (apply)
-  - id: Q5
-    text: "Tentukan peringkat simetri putaran bagi sebuah segi empat tepat."
-    difficulty: medium
-    learning_objective: LO6
-    tp_level: 3
-    kbat: false
+    text: "Which of the following describes a transformation that maintains shape and size?"
+    difficulty: easy
+    learning_objective: "11.1.1"
+    tp_level: 1
     answer:
       type: multiple_choice
-      value: "2"
+      value: "Isometric Transformation"
       working: |
-        Segi empat tepat dapat diputar 180 darjah untuk kembali kepada bentuk asal, memberikan satu peringkat simetri putaran selain putaran penuh 360 darjah.
-        Oleh itu, peringkat simetri putaran ialah 2.
+        Step 1: Identify transformation that preserves distance between points.
+        Step 2: This is called an isometry.
+      options:
+        A: "Isometric Transformation"
+        B: "Enlargement"
+        C: "Stretching"
+        D: "Shearing"
+      distractors:
+        - value: "B"
+          feedback: "Enlargement changes size, so it is not an isometry."
+        - value: "C"
+          feedback: "Stretching changes shape and size, breaking isometric properties."
+        - value: "D"
+          feedback: "Shearing distorts shape, so it does not preserve congruence."
     marks: 1
-    rubric:
-      - marks: 1
-        criteria: "Menentukan peringkat simetri putaran dengan betul."
     hints:
-      - level: 1
-        text: "Pertimbangkan bilangan kali bentuk itu boleh diputar dan kembali kepada bentuk asal dalam satu putaran penuh."
+      - "Think: which transformation keeps ALL distances unchanged?"
+
+  - id: Q2
+    text: "Point A(4, -2) is translated by vector $\\begin{pmatrix} -3 \\\\ 5 \\end{pmatrix}$. Find A'."
+    difficulty: medium
+    learning_objective: "11.2.3"
+    tp_level: 3
+    answer:
+      type: exact
+      value: "(1, 3)"
+      working: |
+        x' = 4 + (-3) = 1
+        y' = -2 + 5 = 3
+      options: null
+      distractors: []
+    marks: 2
+    hints:
+      - "Add x with top vector value, y with bottom value."
+
+  - id: Q3
+    text: "Point P(2,5) is reflected in y = 3. Find P'."
+    difficulty: medium
+    learning_objective: "11.3.4"
+    tp_level: 4
+    answer:
+      type: exact
+      value: "(2, 1)"
+      working: |
+        Distance from 5 to 3 = 2
+        Reflect across to 1
+      distractors: []
+    marks: 3
+    hints:
+      - "Measure vertical distance from mirror line."
+
+  - id: Q4
+    text: "Point M(3,2) rotated 90° clockwise about origin becomes?"
+    difficulty: hard
+    learning_objective: "11.4.3"
+    tp_level: 3
+    answer:
+      type: multiple_choice
+      value: "(2, -3)"
+      working: |
+        (x, y) → (y, -x)
+      options:
+        A: "(2, -3)"
+        B: "(-2, 3)"
+        C: "(-3, 2)"
+        D: "(3, -2)"
+      distractors:
+        - value: "B"
+          feedback: "This is 90° anticlockwise rule."
+    marks: 2
+    hints:
+      - "Clockwise rotation swaps coordinates with sign change."
+
+  - id: Q5
+    text: "Triangles are congruent under isometry. Find missing angle."
+    difficulty: hard
+    learning_objective: "11.5.3"
+    tp_level: 5
+    answer:
+      type: exact
+      value: "130°"
+      working: |
+        180 - 35 - 15 = 130
+      distractors: []
+    marks: 4
+    hints:
+      - "Use triangle angle sum + congruence property."
+
+  - id: Q6
+    text: "Order of rotational symmetry of a pentagon?"
+    difficulty: medium
+    learning_objective: "11.6.2"
+    tp_level: 3
+    answer:
+      type: exact
+      value: "5"
+      working: |
+        A pentagon has 5 equal rotations
+      distractors: []
+    marks: 1
+    hints:
+      - "Count how many times shape matches itself in 360°"
+
+  - id: Q7
+    text: "Why is a translated and reflected square still congruent?"
+    difficulty: hard
+    learning_objective: "11.5.2"
+    tp_level: 6
+    answer:
+      type: free_text
+      value: "Both transformations preserve distance and shape."
+      working: |
+        Translation = isometry
+        Reflection = isometry
+        Composition = isometry
+      distractors: []
+    marks: 5
+    hints:
+      - "Do these transformations change length or area?"

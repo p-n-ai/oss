@@ -1,136 +1,192 @@
+id: MT2-06
 topic_id: MT2-06
-provenance: ai-generated
 
 questions:
-  # Learning Objective 1: Understanding the Properties of Three-Dimensional Shapes
+
   - id: Q1
-    text: "A cube has a volume of 64 cm³. What is the length of one side of the cube?"
-    difficulty: medium
-    learning_objective: LO1
-    tp_level: 2
+    text: "A solid has 1 circular base, 1 apex, and 1 curved surface. Identify the shape."
+    difficulty: easy
+    learning_objective: "6.1.1"
+    tp_level: 1
     kbat: false
     answer:
-      type: exact
-      value: "4 cm"
+      type: multiple_choice
+      value: "B"
+      options:
+        A: "Cylinder"
+        B: "Cone"
+        C: "Pyramid"
+        D: "Sphere"
       working: |
-        The volume of a cube is given by $V = a^3$, where $a$ is the side length.
-        Given that $V = 64 \text{ cm}^3$, we have $a^3 = 64$.
-        Therefore, $a = \sqrt[3]{64} = 4 \text{ cm}$.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Correct use of the formula for the volume of a cube."
-      - marks: 1
-        criteria: "Correct calculation of the cube root of 64."
+        Step 1: Identify features: 1 circular base + 1 apex + curved surface.
+        Step 2: Compare solids:
+        - Cylinder: 2 circular bases → reject
+        - Pyramid: polygon base → reject
+        - Sphere: no base/apex → reject
+        Therefore, cone is correct.
+      distractors:
+        - value: "A"
+          feedback: "A cylinder has two circular bases and no apex."
+        - value: "C"
+          feedback: "A pyramid does not have a circular base."
+        - value: "D"
+          feedback: "A sphere has no base, edges, or vertices."
+    marks: 1
     hints:
       - level: 1
-        text: "Remember the formula for the volume of a cube: $V = a^3$."
+        text: "Visualise an ice cream cone. What 3D shape is it?"
 
-  # Learning Objective 2: Calculating Surface Area of Three-Dimensional Shapes
   - id: Q2
-    text: "Calculate the surface area of a cylinder with a radius of 3 cm and a height of 5 cm."
-    difficulty: medium
-    learning_objective: LO2
+    text: "True or False: A sphere has zero edges and zero vertices."
+    difficulty: easy
+    learning_objective: "6.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "A"
+      options:
+        A: "True"
+        B: "False"
+      working: |
+        Step 1: Sphere is fully curved.
+        Step 2: No flat faces exist.
+        Step 3: Therefore no edges or vertices.
+      distractors:
+        - value: "B"
+          feedback: "Incorrect. A sphere has no corners or edges."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Think of a football. Do you see any sharp corners?"
+
+  - id: Q3
+    text: "A net consists of 2 identical circles and 1 rectangle. What 3D shape is formed?"
+    difficulty: easy
+    learning_objective: "6.2.1"
     tp_level: 2
     kbat: false
     answer:
       type: exact
-      value: "150.72 cm²"
+      value: "Cylinder"
       working: |
-        The surface area of a cylinder is given by $A = 2\pi r(h + r)$.
-        Substituting $r = 3 \text{ cm}$ and $h = 5 \text{ cm}$, we get:
-        $A = 2\pi(3)(5 + 3) = 2\pi(3)(8) = 48\pi$.
-        Converting to decimal, $A \approx 150.72 \text{ cm}^2$.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Correct formula for the surface area of a cylinder."
-      - marks: 1
-        criteria: "Correct substitution of radius and height into the formula."
-      - marks: 1
-        criteria: "Correct calculation and conversion to decimal."
+        Step 1: Two circles → top and bottom faces.
+        Step 2: Rectangle wraps curved surface.
+        Step 3: Forms a cylinder.
+    marks: 2
     hints:
       - level: 1
-        text: 'Use the formula for the surface area of a cylinder: $A = 2\pi r(h + r)$.'
+        text: "Think of a Milo tin when unwrapped."
 
-  # Learning Objective 3: Identifying and Describing Three-Dimensional Shapes
-  - id: Q3
-    text: "Which of the following is not a property of a sphere?"
+  - id: Q4
+    text: "Can a sphere be formed from a flat net?"
     difficulty: medium
-    learning_objective: LO3
-    tp_level: 2
+    learning_objective: "6.2.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "B"
+      options:
+        A: "Yes"
+        B: "No"
+      working: |
+        Step 1: Sphere has no flat faces.
+        Step 2: Flattening requires distortion.
+        Step 3: Perfect net is impossible.
+      distractors:
+        - value: "A"
+          feedback: "Incorrect. A sphere cannot be flattened without stretching."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Try peeling an orange. Does it lie flat?"
+
+  - id: Q5
+    text: "Find the surface area of a closed cylinder with radius $7 \\text{ cm}$ and height $10 \\text{ cm}$. Use $\\pi = \\frac{22}{7}$."
+    difficulty: medium
+    learning_objective: "6.3.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "748 cm^2"
+      working: |
+        Step 1: Formula = $2\\pi r^2 + 2\\pi rh$
+        Step 2: Substitute values
+        Step 3: Base area = 308 cm²
+        Step 4: Curved surface = 440 cm²
+        Step 5: Total = 748 cm²
+    marks: 3
+    hints:
+      - level: 1
+        text: "Did you include both circular bases?"
+
+  - id: Q6
+    text: "A cone and cylinder have the same base and height. Cylinder volume is $450 \\text{ cm}^3$. Find cone volume."
+    difficulty: medium
+    learning_objective: "6.4.1"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: "150 cm^3"
+      working: |
+        Step 1: Cone = 1/3 cylinder
+        Step 2: 450 ÷ 3 = 150
+    marks: 2
+    hints:
+      - level: 1
+        text: "Use the sago experiment idea."
+
+  - id: Q7
+    text: "A composite solid consists of a cube and a pyramid. What is the correct method to find total volume?"
+    difficulty: hard
+    learning_objective: "6.4.3"
+    tp_level: 5
     kbat: true
     answer:
       type: multiple_choice
       value: "C"
       options:
-        A: "It has no edges."
-        B: "It has no vertices."
-        C: "It has a flat surface."
-        D: "It is perfectly symmetrical."
+        A: "Multiply volumes"
+        B: "Subtract volumes"
+        C: "Add volumes"
+        D: "Average volumes"
       working: |
-        A sphere is a perfectly symmetrical object in three dimensions. It has no edges or vertices, and all points on its surface are equidistant from its center. It does not possess any flat surfaces.
-    marks: 2
-    rubric:
-      - marks: 2
-        criteria: "Correct identification of the non-property (flat surface) of a sphere."
-    hints:
-      - level: 1
-        text: "Consider the characteristics that make a sphere unique."
-
-  # Learning Objective 4: Analyzing and Comparing Three-Dimensional Shapes
-  - id: Q4
-    text: "Compare the volumes of a cone and a cylinder with the same base radius of 4 cm and height of 6 cm."
-    difficulty: medium
-    learning_objective: LO4
-    tp_level: 3
-    kbat: true
-    answer:
-      type: free_text
-      value: "The volume of the cone is one-third of the volume of the cylinder."
-      working: |
-        The volume of a cylinder is given by $V_c = \pi r^2 h$.
-        Substituting $r = 4 \text{ cm}$ and $h = 6 \text{ cm}$, $V_c = \pi (4)^2 (6) = 96\pi \text{ cm}^3$.
-        The volume of a cone is $V_{cone} = \frac{1}{3} \pi r^2 h$.
-        Therefore, $V_{cone} = \frac{1}{3} \times 96\pi = 32\pi \text{ cm}^3$.
-        Thus, the volume of the cone is one-third of the volume of the cylinder.
-    marks: 4
-    rubric:
-      - marks: 1
-        criteria: "Correct formula for the volume of a cylinder."
-      - marks: 1
-        criteria: "Correct calculation of the cylinder's volume."
-      - marks: 1
-        criteria: "Correct formula for the volume of a cone."
-      - marks: 1
-        criteria: "Correct comparison between the volumes."
-    hints:
-      - level: 1
-        text: 'Remember the formula for the volume of a cone: $V = \frac{1}{3}\pi r^2 h$.'
-
-  # Learning Objective 5: Solving Real-World Problems Involving Three-Dimensional Shapes
-  - id: Q5
-    text: "A rectangular prism has dimensions of 2 cm by 3 cm by 4 cm. If the length is doubled, how does the volume change?"
-    difficulty: medium
-    learning_objective: LO5
-    tp_level: 3
-    kbat: true
-    answer:
-      type: free_text
-      value: "The volume doubles."
-      working: |
-        The original volume $V = l \times w \times h = 2 \times 3 \times 4 = 24 \text{ cm}^3$.
-        If the length is doubled, the new dimensions are $4 \times 3 \times 4$.
-        The new volume $V_{new} = 4 \times 3 \times 4 = 48 \text{ cm}^3$.
-        Therefore, the volume doubles.
+        Step 1: Composite solids are additive.
+        Step 2: Volume = cube + pyramid
+      distractors:
+        - value: "A"
+          feedback: "Volumes are not multiplied."
+        - value: "B"
+          feedback: "No subtraction unless hollow."
+        - value: "D"
+          feedback: "Averaging is incorrect."
     marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Correct calculation of the original volume."
-      - marks: 1
-        criteria: "Correct calculation of the new volume with doubled length."
-      - marks: 1
-        criteria: "Correct conclusion that the volume doubles."
     hints:
       - level: 1
-        text: "Consider how changing one dimension affects the total volume."
+        text: "Think of combining two solid blocks."
+
+  - id: Q8
+    text: "TP6: Which change increases cylinder volume most effectively?"
+    difficulty: hard
+    learning_objective: "6.4.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: multiple_choice
+      value: "A"
+      options:
+        A: "Increase radius"
+        B: "Increase height"
+        C: "Decrease radius"
+        D: "No change"
+      working: |
+        Step 1: Volume = πr²h
+        Step 2: Radius is squared factor
+        Step 3: Most impact = radius
+    marks: 4
+    hints:
+      - level: 1
+        text: "Which variable is squared?"

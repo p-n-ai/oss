@@ -1,0 +1,105 @@
+id: MT2-05
+official_ref: "Bab 5"
+name: "Bulatan"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+
+content_standards:
+  - id: "5.1"
+    text: "Sifat Bulatan"
+  - id: "5.2"
+    text: "Sifat Simetri Perentas"
+  - id: "5.3"
+    text: "Lilitan dan Luas Bulatan"
+
+learning_objectives:
+  - id: "5.1.1"
+    text: "Mengenal bahagian bulatan dan menghuraikan sifatnya."
+    bloom: understand
+    tp_level: 1
+
+  - id: "5.1.2"
+    text: "Membina bulatan dan bahagiannya berdasarkan syarat yang diberi."
+    bloom: apply
+    tp_level: 2
+
+  - id: "5.2.1"
+    text: "Menentusahkan sifat perentas termasuk simetri, pembahagi dua sama serenjang, dan hubungan perentas sama panjang."
+    bloom: analyze
+    tp_level: 3
+
+  - id: "5.2.2"
+    text: "Menentukan pusat dan jejari bulatan melalui pembinaan geometri."
+    bloom: apply
+    tp_level: 3
+
+  - id: "5.2.3"
+    text: "Menyelesaikan masalah yang melibatkan sifat perentas dalam bulatan."
+    bloom: apply
+    tp_level: 4
+
+  - id: "5.3.1"
+    text: "Mentakrifkan π dan menerbitkan rumus lilitan bulatan."
+    bloom: apply
+    tp_level: 3
+
+  - id: "5.3.2"
+    text: "Menerbitkan rumus luas bulatan."
+    bloom: apply
+    tp_level: 3
+
+  - id: "5.3.3"
+    text: "Mengira lilitan, luas, panjang lengkok dan luas sektor."
+    bloom: apply
+    tp_level: 3
+
+  - id: "5.3.4"
+    text: "Menyelesaikan masalah kompleks berkaitan bulatan."
+    bloom: apply
+    tp_level: 4
+
+prerequisites:
+  required:
+    - id: "MT1-13"
+      name: "Teorem Pythagoras"
+
+bloom_levels:
+  - understand
+  - apply
+  - analyze
+
+teaching:
+  sequence:
+    - "Langkah 1: Kenal pasti komponen bulatan menggunakan objek harian."
+    - "Langkah 2: Membina bulatan menggunakan jangka lukis dan pembaris."
+    - "Langkah 3: Meneroka sifat simetri dan perentas melalui aktiviti."
+    - "Langkah 4: Menerbitkan nilai π, lilitan dan luas bulatan."
+    - "Langkah 5: Menyelesaikan masalah melibatkan lengkok dan sektor."
+
+common_misconceptions:
+  - misconception: "Keliru antara jejari dan diameter."
+    remediation: "Tekankan bahawa diameter ialah dua kali jejari dan melalui pusat."
+  - misconception: "Menganggap π ialah 3.14 tepat."
+    remediation: "Terangkan π sebagai nisbah tidak berpenghujung; 3.14 hanyalah anggaran."
+  - misconception: "Keliru antara sektor dan tembereng."
+    remediation: "Sektor dibatasi dua jejari, tembereng dibatasi perentas."
+
+engagement_hooks:
+  - "Terokai corak bulatan dalam seni bina dan rekaan tradisional."
+  - "Perhatikan bulatan dalam roda, jam, dan trek sukan."
+  - "Bincangkan aplikasi dalam kejuruteraan dan astronomi."
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+provenance: ai-assisted
+quality_level: 3

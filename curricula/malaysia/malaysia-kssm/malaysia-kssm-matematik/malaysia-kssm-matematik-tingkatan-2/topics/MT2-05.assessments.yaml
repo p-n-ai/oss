@@ -1,125 +1,159 @@
 topic_id: MT2-05
-provenance: ai-generated
+provenance: ai-assisted
 
 questions:
-  # Learning Objective 5.1.1
+
   - id: Q1
-    text: "Tentukan dan terangkan bahagian bulatan yang dikenali sebagai 'sektor' dan bagaimana ia berbeza dari 'segment'."
-    difficulty: medium
-    learning_objective: 5.1.1
-    tp_level: 2
-    kbat: true
+    text: "Which statement BEST defines a 'Chord' in a circle?"
+    difficulty: easy
+    learning_objective: "5.1.1"
+    tp_level: 1
     answer:
-      type: free_text
-      value: "Sektor ialah kawasan dalam bulatan yang dibatasi oleh dua jejari dan lengkok, manakala segmen dibatasi oleh satu perentas dan lengkok."
+      type: multiple_choice
+      value: "B"
+      options:
+        A: "A line passing through the centre and touching two points on the circle."
+        B: "A straight line joining any two points on the circumference."
+        C: "A curved part of the circle boundary."
+        D: "A region enclosed by two radii and an arc."
       working: |
-        Sektor adalah kawasan yang dibatasi oleh dua jejari dan satu lengkok. 
-        Segmen adalah kawasan yang dibatasi oleh satu perentas dan satu lengkok.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Mengenal pasti salah satu bahagian dengan betul."
-      - marks: 2
-        criteria: "Menerangkan kedua-dua bahagian dengan betul."
-      - marks: 3
-        criteria: "Menerangkan perbezaan antara sektor dan segmen dengan tepat."
+        A chord is a straight line segment joining any two points on the circumference.
+      distractors:
+        - value: "A"
+          feedback: "This is a diameter, not any chord. A diameter must pass through the centre."
+        - value: "C"
+          feedback: "This describes an arc, which is part of the circumference."
+        - value: "D"
+          feedback: "This describes a sector, which is an area, not a line."
+    marks: 1
     hints:
       - level: 1
-        text: "Fikirkan tentang bagaimana jejari dan perentas membahagi bulatan."
+        text: "Focus on whether it is a line or a region. A chord is always a straight line."
 
-  # Learning Objective 5.1.2
   - id: Q2
-    text: "Bina suatu bulatan dengan jejari 5 cm dan tandakan satu perentas yang panjangnya 8 cm. Apakah sifat yang ditunjukkan oleh perentas ini?"
-    difficulty: medium
-    learning_objective: 5.1.2
+    text: "TRUE or FALSE: A diameter is always a chord, but a chord is not always a diameter."
+    difficulty: easy
+    learning_objective: "5.1.1"
     tp_level: 2
-    kbat: false
     answer:
-      type: free_text
-      value: "Perentas lebih panjang daripada diameter, menunjukkan ia bukan perentas sebuah bulatan sempurna."
+      type: true_false
+      value: "TRUE"
       working: |
-        Diameter bulatan dengan jejari 5 cm adalah 10 cm.
-        Perentas yang lebih pendek daripada diameter menunjukkan sifat bahawa ia tidak melalui pusat.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Membina bulatan dan perentas dengan betul."
-      - marks: 1
-        criteria: "Menerangkan sifat perentas."
-    hints:
-      - level: 1
-        text: "Pertimbangkan panjang perentas relatif kepada diameter bulatan."
+        A diameter is a special chord passing through the centre.
+    marks: 1
 
-  # Learning Objective 5.2.1
   - id: Q3
-    text: "Diberikan dua perentas sama panjang dalam satu bulatan. Apakah hubungan antara jarak perentas tersebut dari pusat bulatan?"
+    text: "A radius is perpendicular to a chord MN at point P. What property is applied?"
     difficulty: medium
-    learning_objective: 5.2.1
-    tp_level: 2
-    kbat: true
+    learning_objective: "5.2.1"
+    tp_level: 3
     answer:
       type: multiple_choice
       value: "C"
       options:
-        A: "Mereka berada lebih dekat ke pusat."
-        B: "Satu lebih dekat daripada yang lain."
-        C: "Mereka berada pada jarak yang sama dari pusat."
-        D: "Salah satu melalui pusat, yang lain tidak."
+        A: "Chord becomes a diameter."
+        B: "Radius equals chord length."
+        C: "Chord is bisected into two equal parts."
+        D: "Radius doubles."
       working: |
-        Perentas yang sama panjang berada pada jarak yang sama dari pusat bulatan.
-    marks: 2
-    rubric:
-      - marks: 2
-        criteria: "Jawapan tepat dan memahami hubungan antara perentas dan pusat."
-    hints:
-      - level: 1
-        text: "Ingat bahawa perentas yang sama panjang menunjukkan simetri dalam bulatan."
+        Perpendicular radius bisects the chord.
+      distractors:
+        - value: "A"
+          feedback: "Perpendicularity does not create a diameter."
+        - value: "B"
+          feedback: "Radius length does not depend on chord."
+        - value: "D"
+          feedback: "Radius is fixed; it does not change."
+    marks: 1
 
-  # Learning Objective 5.3.1
   - id: Q4
-    text: "Jika diameter bulatan ialah 14 cm, hitung lilitan bulatan tersebut. Gunakan π ≈ 3.14."
-    difficulty: medium
-    learning_objective: 5.3.1
-    tp_level: 2
-    kbat: false
+    text: "Radius = 13 cm. Distance from centre to chord = 12 cm. Find half-chord length."
+    difficulty: hard
+    learning_objective: "5.2.3"
+    tp_level: 4
     answer:
       type: exact
-      value: "43.96 cm"
+      value: "5 cm"
       working: |
-        Lilitan bulatan adalah diberikan oleh formula $C = \pi d$.
-        Dengan $d = 14$ cm dan $\pi \approx 3.14$, lilitan $C = 3.14 \times 14 = 43.96$ cm.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Memasukkan nilai dengan betul ke dalam formula lilitan."
-      - marks: 1
-        criteria: "Mengira dengan tepat lilitan menggunakan nilai π yang diberikan."
-    hints:
-      - level: 1
-        text: 'Gunakan formula lilitan $C = \pi d$.'
-
-  # Learning Objective 5.3.4
-  - id: Q5
-    text: "Sebuah taman berbentuk bulatan mempunyai lilitan 31.4 meter. Hitung jejari taman tersebut. (Gunakan π ≈ 3.14)"
-    difficulty: medium
-    learning_objective: 5.3.4
-    tp_level: 2
-    kbat: false
-    answer:
-      type: exact
-      value: "5 m"
-      working: |
-        Gunakan formula lilitan $C = 2\pi r$.
-        Diberikan $C = 31.4$ m dan $\pi \approx 3.14$, kita dapati $31.4 = 2(3.14)r$.
-        Jadi $r = \frac{31.4}{6.28} = 5$ meter.
+        13² = 12² + x²
+        169 = 144 + x²
+        x = 5 cm
     marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Menulis formula lilitan yang betul."
-      - marks: 1
-        criteria: "Substitusi nilai dengan betul ke dalam formula."
-      - marks: 1
-        criteria: "Mengira jejari dengan tepat."
-    hints:
-      - level: 1
-        text: "Pikirkan bagaimana untuk membalikkan formula lilitan untuk mendapatkan jejari."
+
+  - id: Q5
+    text: "Which statement is correct about chords in a circle?"
+    difficulty: medium
+    learning_objective: "5.2.1"
+    tp_level: 3
+    answer:
+      type: matching
+      value:
+        rule: "Equal chords are equidistant from the centre"
+      working: |
+        Equal chords have equal distance from centre.
+    marks: 2
+
+  - id: Q6
+    text: "Derive the formula for the area of a circle."
+    difficulty: medium
+    learning_objective: "5.3.2"
+    tp_level: 3
+    answer:
+      type: structured_response
+      value: "πr²"
+      working: |
+        Circle rearranged into rectangle shape:
+        base = πr, height = r
+        area = πr²
+    marks: 3
+
+  - id: Q7
+    text: "Find circumference of a circle with radius 10 cm."
+    difficulty: easy
+    learning_objective: "5.3.1"
+    tp_level: 2
+    answer:
+      type: exact
+      value: "20π cm"
+      working: |
+        C = 2πr = 20π
+    marks: 1
+
+  - id: Q8
+    text: "Find area of a sector with angle 90° and radius 14 cm."
+    difficulty: medium
+    learning_objective: "5.3.3"
+    tp_level: 3
+    answer:
+      type: exact
+      value: "154 cm²"
+      working: |
+        (90/360) × (22/7) × 196 = 154
+    marks: 2
+
+  - id: Q9
+    text: "A track has radius 21 m. A runner completes 5 laps. Find total distance."
+    difficulty: hard
+    learning_objective: "5.3.4"
+    tp_level: 5
+    answer:
+      type: exact
+      value: "660 m"
+      working: |
+        One lap = 2πr = 132
+        5 laps = 660
+    marks: 3
+
+  - id: Q10
+    text: "A circular garden has area 154 m². Is 50 m fencing enough?"
+    difficulty: hard
+    learning_objective: "5.3.4"
+    tp_level: 6
+    answer:
+      type: structured_response
+      value: "Yes, enough fencing"
+      working: |
+        r² = 49 → r = 7
+        circumference = 44 m
+        fencing = 50 m → sufficient
+    marks: 4

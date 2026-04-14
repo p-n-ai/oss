@@ -1,0 +1,125 @@
+topic_id: MT2-07
+provenance: ai-assisted
+
+questions:
+  - id: Q1
+    text: "Antara berikut, yang manakah menerangkan jarak antara dua titik pada satah Cartes?"
+    difficulty: easy
+    type: multiple_choice
+    learning_objective: "7.1.1"
+    tp_level: 1
+    answer:
+      value: "Jarak paling pendek dalam garis lurus antara dua titik."
+      working: |
+        Jarak dalam sistem Cartes ialah panjang segmen garis lurus paling pendek yang menghubungkan dua titik.
+      options:
+        A: "Jarak paling pendek dalam garis lurus antara dua titik."
+        B: "Jumlah pergerakan grid mengufuk dan mencancang."
+        C: "Purata koordinat-x dan koordinat-y."
+        D: "Perbezaan nilai x sahaja."
+      distractors:
+        - value: "B"
+          feedback: "Ini ialah jarak Manhattan, bukan jarak Euclidean KSSM."
+        - value: "C"
+          feedback: "Ini ialah titik tengah, bukan jarak."
+        - value: "D"
+          feedback: "Jarak melibatkan kedua-dua paksi x dan y."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Fikir: Apakah laluan paling pendek antara dua titik?"
+
+  - id: Q2
+    text: "Diberi titik P(2,2) dan Q(2,8), tentukan jarak antara kedua-dua titik."
+    difficulty: easy
+    type: exact
+    learning_objective: "7.1.3"
+    tp_level: 2
+    answer:
+      value: "6"
+      working: |
+        Oleh sebab x sama (x = 2), jarak ialah menegak sahaja.
+        Gunakan |y2 - y1| = |8 - 2| = 6.
+      options: null
+    marks: 2
+    hints:
+      - level: 1
+        text: "Nilai x sama bermaksud hanya bandingkan nilai y."
+
+  - id: Q3
+    text: "Hitung jarak antara A(1,5) dan B(5,2)."
+    difficulty: medium
+    type: exact
+    learning_objective: "7.1.3"
+    tp_level: 3
+    answer:
+      value: "5"
+      working: |
+        d = √((5−1)² + (2−5)²)
+        = √(4² + (−3)²)
+        = √(16 + 9)
+        = 5
+      options: null
+    marks: 3
+    hints:
+      - level: 1
+        text: "Pisahkan perbezaan x dan y sebelum kuasa dua."
+      - level: 2
+        text: "(-3)² menjadi positif 9."
+
+  - id: Q4
+    text: "Cari titik tengah bagi C(-2,4) dan D(4,-6)."
+    difficulty: medium
+    type: exact
+    learning_objective: "7.2.3"
+    tp_level: 3
+    answer:
+      value: "(1,-1)"
+      working: |
+        Rumus titik tengah: ((x1+x2)/2, (y1+y2)/2)
+        x = (-2+4)/2 = 1
+        y = (4-6)/2 = -1
+      options: null
+    marks: 3
+    hints:
+      - level: 1
+        text: "Puratakan x dan y secara berasingan."
+
+  - id: Q5
+    text: "Titik tengah PQ ialah M(3,4). Jika P ialah (1,2), cari Q."
+    difficulty: hard
+    type: exact
+    learning_objective: "7.2.4"
+    tp_level: 4
+    answer:
+      value: "(5,6)"
+      working: |
+        Andaikan Q = (x,y)
+        (1+x)/2 = 3 → x = 5
+        (2+y)/2 = 4 → y = 6
+      options: null
+    marks: 4
+    hints:
+      - level: 1
+        text: "Ini soalan titik tengah songsang."
+
+  - id: Q6
+    text: "Skala peta ialah 1 unit = 5 km. Hospital di (-4,3) dan sekolah di (8,-2). Cari jarak sebenar."
+    difficulty: hard
+    type: exact
+    learning_objective: "7.3.1"
+    tp_level: 5
+    answer:
+      value: "65"
+      working: |
+        d = √((8+4)² + (-2-3)²)
+        = √(12² + (-5)²)
+        = 13 unit
+        Jarak sebenar = 13 × 5 = 65 km
+      options: null
+    marks: 4
+    hints:
+      - level: 1
+        text: "Cari jarak dalam unit dahulu."
+      - level: 2
+        text: "Kemudian darab dengan skala."

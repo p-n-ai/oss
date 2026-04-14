@@ -1,122 +1,146 @@
 topic_id: MT2-12
-provenance: ai-generated
+provenance: ai-assisted
 
 questions:
-  # Learning Objective: 12.1.1
+
+  # --- 12.1.1 Ungrouped Data (Mean, Median, Mode) ---
   - id: Q1
-    text: "Diberikan set data: 4, 8, 6, 9, 7, 8, 5. Tentukan mod, min dan median bagi set data ini."
-    difficulty: medium
-    learning_objective: LO1
+    text: "A group of students recorded their daily pocket money: RM5, RM8, RM3, RM7, RM5. Calculate the mean and determine the median."
+    difficulty: easy
+    learning_objective: "12.1.1"
     tp_level: 2
     kbat: false
     answer:
       type: exact
-      value: "Mod: 8, Min: 6.71, Median: 7"
+      value: "Mean = RM5.60, Median = RM5"
       working: |
-        Mod adalah nilai yang paling kerap muncul, iaitu 8.
-        Min dikira dengan jumlah semua nilai dibahagi dengan bilangan nilai: (4+8+6+9+7+8+5)/7 = 6.71.
-        Setelah menyusun data sebagai 4, 5, 6, 7, 8, 8, 9, median adalah nilai tengah, iaitu 7.
-    marks: 3
+        Sum = 5 + 8 + 3 + 7 + 5 = 28
+        Mean = 28 ÷ 5 = 5.60
+        Sorted data = 3, 5, 5, 7, 8
+        Median = 3rd value = 5
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Menentukan mod dengan betul."
+        criteria: "Correct computation of mean with working shown."
       - marks: 1
-        criteria: "Menentukan min dengan betul."
-      - marks: 1
-        criteria: "Menentukan median dengan betul."
+        criteria: "Correct median after proper sorting."
     hints:
       - level: 1
-        text: "Mod adalah nilai yang paling kerap muncul dalam set data."
+        text: "First find total sum, then divide. For median, remember: NO SORT = NO MEDIAN. Line them up smallest to largest first."
 
-  # Learning Objective: 12.1.2
+  # --- 12.1.2 Effect of Uniform Change ---
   - id: Q2
-    text: "Bagaimana perubahan satu nilai ekstrem dalam set data berikut boleh mempengaruhi nilai min dan median? Diberikan set data asal: 3, 5, 7, 8, 9."
+    text: "The mean of a data set is 12. If every value is multiplied by 3, what is the new mean?"
     difficulty: medium
-    learning_objective: LO2
-    tp_level: 3
-    kbat: true
-    answer:
-      type: free_text
-      value: "Penambahan nilai ekstrem seperti 20 akan meningkatkan min tetapi tidak mempengaruhi median jika data asal mempunyai bilangan ganjil."
-      working: |
-        Min asal adalah (3+5+7+8+9)/5 = 6.4.
-        Jika tambah nilai ekstrem 20, min baru ialah (3+5+7+8+9+20)/6 = 8.67.
-        Median asal ialah 7, dan dengan penambahan nilai ekstrem, median masih kekal 7.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menjelaskan kesan pada min dengan betul."
-      - marks: 1
-        criteria: "Menjelaskan kesan pada median dengan betul."
-    hints:
-      - level: 1
-        text: "MISCONCEPTION ALERT: Median tidak dipengaruhi oleh nilai ekstrem jika bilangan nilai ganjil."
-
-  # Learning Objective: 12.1.3
-  - id: Q3
-    text: "Kumpulkan data berikut ke dalam jadual kekerapan: 2, 3, 3, 4, 4, 4, 5, 5."
-    difficulty: medium
-    learning_objective: LO3
-    tp_level: 2
-    kbat: false
-    answer:
-      type: free_text
-      value: "Nilai: 2, 3, 4, 5; Kekerapan: 1, 2, 3, 2"
-      working: |
-        Nilai 2 muncul 1 kali, nilai 3 muncul 2 kali, nilai 4 muncul 3 kali, dan nilai 5 muncul 2 kali.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menyenaraikan nilai dengan betul."
-      - marks: 1
-        criteria: "Menyenaraikan kekerapan dengan betul."
-    hints:
-      - level: 1
-        text: "Susun data dari nilai terkecil ke terbesar sebelum mengira kekerapan."
-
-  # Learning Objective: 12.1.4
-  - id: Q4
-    text: "Diberikan jadual kekerapan berikut, tentukan kelas mod dan min: Kelas 10-20, 21-30, 31-40; Kekerapan: 3, 6, 4."
-    difficulty: medium
-    learning_objective: LO4
+    learning_objective: "12.1.2"
     tp_level: 3
     kbat: false
-    answer:
-      type: exact
-      value: "Kelas mod: 21-30, Min: 25.5"
-      working: |
-        Kelas mod adalah kelas dengan kekerapan tertinggi, iaitu 21-30.
-        Min dikira dengan (10+20)/2 * 3 + (21+30)/2 * 6 + (31+40)/2 * 4 / 13.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Menentukan kelas mod dengan betul."
-      - marks: 2
-        criteria: "Mengira min dengan betul."
-    hints:
-      - level: 1
-        text: "Kelas mod adalah kelas dengan kekerapan tertinggi."
-
-  # Learning Objective: 12.1.5
-  - id: Q5
-    text: "Set data berikut mempunyai nilai ekstrem. Apakah sukatan kecenderungan memusat yang paling sesuai untuk menggambarkan set data ini: 1, 2, 2, 2, 100?"
-    difficulty: medium
-    learning_objective: LO5
-    tp_level: 4
-    kbat: true
     answer:
       type: multiple_choice
-      value: "A"
+      value: "36"
       options:
-        - "A: Median"
-        - "B: Min"
-        - "C: Mod"
+        A: "12"
+        B: "15"
+        C: "36"
+        D: "144"
       working: |
-        Median adalah pilihan terbaik kerana ia tidak dipengaruhi oleh nilai ekstrem seperti min, dan mod kurang sesuai kerana ia hanya menunjukkan nilai paling kerap.
+        Mean scales with multiplication factor.
+        New mean = 12 × 3 = 36
+      distractors:
+        - value: "12"
+          feedback: "You ignored the transformation. If every value triples, the mean must also triple."
+        - value: "15"
+          feedback: "You added instead of multiplying. The keyword is MULTIPLIED."
+        - value: "144"
+          feedback: "You squared the effect incorrectly. No exponent operation is involved."
     marks: 1
-    rubric:
-      - marks: 1
-        criteria: "Memilih sukatan kecenderungan memusat yang sesuai."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Nilai ekstrem mempengaruhi min lebih daripada median."
+        text: "Think: if everything becomes 3 times bigger, what happens to the average?"
+
+  # --- 12.1.4 Grouped Data (Modal Class) ---
+  - id: Q3
+    text: |
+      The table shows student marks:
+
+      10–19: 3
+      20–29: 7
+      30–39: 7
+      40–49: 2
+
+      Identify the modal class.
+    difficulty: medium
+    learning_objective: "12.1.4"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "20–29 and 30–39"
+      options:
+        A: "10–19"
+        B: "20–29"
+        C: "20–29 and 30–39"
+        D: "40–49"
+      working: |
+        Modal class = highest frequency.
+        Highest frequency = 7
+        Two classes share it: 20–29 and 30–39
+      distractors:
+        - value: "20–29"
+          feedback: "You only selected one. There is a tie for highest frequency."
+        - value: "7"
+          feedback: "That is frequency, not class interval."
+        - value: "10–19"
+          feedback: "This is not the highest frequency group."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Look for the BIGGEST frequency. If two groups tie, BOTH are modal classes."
+
+  # --- 12.1.5 Choosing Best Measure (Outliers) ---
+  - id: Q4
+    text: "A company records salaries (RM): 2000, 2200, 2100, 2500, 12000. Which measure best represents the data? Justify."
+    difficulty: hard
+    learning_objective: "12.1.5"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: "Median, because the extreme value (12000) distorts the mean."
+      working: |
+        Identify outlier: 12000
+        Mean becomes skewed upward
+        Median remains stable representation
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correct selection of median."
+      - marks: 1
+        criteria: "Justification referencing outlier effect."
+    hints:
+      - level: 1
+        text: "One value is a GIANT. Which measure gets pulled by giants, and which stays in the middle?"
+
+  # --- 12.1.7 KBAT Reasoning (Decision Making) ---
+  - id: Q5
+    text: "Two players have the same mean score of 150. Player A has range 40, Player B has range 120. Who is more consistent and should be selected? Explain."
+    difficulty: hard
+    learning_objective: "12.1.7"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Player A, because smaller range indicates more consistent performance."
+      working: |
+        Mean equal → compare consistency
+        Range A < Range B
+        Therefore A is more stable
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correct choice of Player A."
+      - marks: 1
+        criteria: "Explanation using consistency/range."
+    hints:
+      - level: 1
+        text: "Same average? Then look at spread. Who is more stable: tight scores or wild swings?"

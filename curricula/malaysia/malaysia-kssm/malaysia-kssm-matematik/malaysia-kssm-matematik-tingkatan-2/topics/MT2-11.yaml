@@ -1,140 +1,161 @@
 id: MT2-11
-official_ref: "Bab 11" # as printed in KSSM DSKP document
-name: "Transformasi Isometri"
+official_ref: "Chapter 11"
+name: "Isometric Transformations"
 name_en: "Isometric Transformations"
-subject_grade_id: malaysia-kssm-matematik-tingkatan-2
-subject_id: malaysia-kssm-matematik
-syllabus_id: malaysia-kssm
+subject_grade_id: MT2-11
+subject_id: MT2
+syllabus_id: KSSM-MT2
 country_id: malaysia
-language: ms
+language: en
 difficulty: intermediate
 tier: core
+
 content_standards:
-    - id: "11.1"
-      text: "Penjelmaan"
-      text_en: "Transformations"
-    - id: "11.2"
-      text: "Translasi"
-      text_en: "Translation"
-    - id: "11.3"
-      text: "Pantulan"
-      text_en: "Reflection"
-    - id: "11.4"
-      text: "Putaran"
-      text_en: "Rotation"
-    - id: "11.5"
-      text: "Simetri Pantulan dan Simetri Putaran"
-      text_en: "Reflection Symmetry and Rotational Symmetry"
-    - id: "11.6"
-      text: "Penjelmaan Isometri"
-      text_en: "Isometric Transformations"
+  - id: "11.1"
+    text_en: "Transformations"
+  - id: "11.2"
+    text_en: "Translation"
+  - id: "11.3"
+    text_en: "Reflection"
+  - id: "11.4"
+    text_en: "Rotation"
+  - id: "11.5"
+    text_en: "Translation, Reflection, and Rotation as an Isometry"
+  - id: "11.6"
+    text_en: "Rotational Symmetry"
+
 learning_objectives:
-    - id: "11.1.1"
-      text: "Memerihalkan perubahan bentuk, saiz, kedudukan dan orientasi suatu objek yang melalui transformasi, dan seterusnya menerangkan idea padanan satu-dengan-satu antara titik-titik dalam transformasi."
-      text_en: "Describe changes in shape, size, position, and orientation of an object that undergoes transformation, and subsequently explain the idea of one-to-one correspondence between points in transformation."
-      bloom: understand
-    - id: "11.1.2"
-      text: "Menerangkan idea kekongruenan dalam transformasi."
-      text_en: "Explain the idea of congruence in transformation."
-      bloom: understand
-    - id: "11.2.1"
-      text: "Mengenal translasi."
-      text_en: "Recognize translation."
-      bloom: remember
-    - id: "11.2.2"
-      text: "Memerihalkan translasi menggunakan pelbagai perwakilan termasuk dalam bentuk vektor translasi."
-      text_en: "Describe translation using various representations including in the form of translation vector."
-      bloom: understand
-    - id: "11.2.3"
-      text: "Menentukan imej dan objek bagi suatu translasi."
-      text_en: "Determine the image and object for a translation."
-      bloom: apply
-    - id: "11.2.4"
-      text: "Menyelesaikan masalah yang melibatkan translasi."
-      text_en: "Solve problems involving translation."
-      bloom: apply
-    - id: "11.3.1"
-      text: "Mengenal pantulan."
-      text_en: "Recognize reflection."
-      bloom: remember
-    - id: "11.3.2"
-      text: "Memerihalkan pantulan menggunakan pelbagai perwakilan."
-      text_en: "Describe reflection using various representations."
-      bloom: understand
-    - id: "11.3.3"
-      text: "Menentukan imej dan objek bagi suatu pantulan."
-      text_en: "Determine the image and object for a reflection."
-      bloom: apply
-    - id: "11.3.4"
-      text: "Menyelesaikan masalah yang melibatkan pantulan."
-      text_en: "Solve problems involving reflection."
-      bloom: apply
-    - id: "11.4.1"
-      text: "Mengenal putaran."
-      text_en: "Recognize rotation."
-      bloom: remember
-    - id: "11.4.2"
-      text: "Memerihalkan putaran menggunakan pelbagai perwakilan."
-      text_en: "Describe rotation using various representations."
-      bloom: understand
-    - id: "11.4.3"
-      text: "Menentukan imej dan objek bagi suatu putaran."
-      text_en: "Determine the image and object for a rotation."
-      bloom: apply
-    - id: "11.4.4"
-      text: "Menyelesaikan masalah yang melibatkan putaran."
-      text_en: "Solve problems involving rotation."
-      bloom: apply
-    - id: "11.5.1"
-      text: "Menyiasat hubungan antara kesan translasi, pantulan dan putaran terhadap jarak antara dua titik pada objek dan imej, dan seterusnya menerangkan isometri."
-      text_en: "Investigate the relationship between the effects of translation, reflection, and rotation on the distance between two points on the object and image, and subsequently explain isometry."
-      bloom: analyze
-    - id: "11.5.2"
-      text: "Menerangkan hubungan antara isometri dan kekongruenan."
-      text_en: "Explain the relationship between isometry and congruence."
-      bloom: understand
-    - id: "11.5.3"
-      text: "Menyelesaikan masalah yang melibatkan isometri dan kekongruenan."
-      text_en: "Solve problems involving isometry and congruence."
-      bloom: apply
-    - id: "11.6.1"
-      text: "Menerangkan simetri putaran."
-      text_en: "Explain rotational symmetry."
-      bloom: understand
-    - id: "11.6.2"
-      text: "Menentukan peringkat simetri putaran bagi suatu objek."
-      text_en: "Determine the order of rotational symmetry for an object."
-      bloom: apply
+  - id: "11.1.1"
+    content_standard_id: "11.1"
+    text_en: "Describe changes in shape, size, direction, and orientation under a transformation and explain one-to-one correspondence between points."
+    bloom: understand
+  - id: "11.1.2"
+    content_standard_id: "11.1"
+    text_en: "Explain the idea of congruency in transformations."
+    bloom: understand
+
+  - id: "11.2.1"
+    content_standard_id: "11.2"
+    text_en: "Recognise a translation."
+    bloom: remember
+  - id: "11.2.2"
+    content_standard_id: "11.2"
+    text_en: "Describe translation using various representations including vector form."
+    bloom: understand
+  - id: "11.2.3"
+    content_standard_id: "11.2"
+    text_en: "Determine the image and object under a translation."
+    bloom: apply
+  - id: "11.2.4"
+    content_standard_id: "11.2"
+    text_en: "Solve problems involving translation."
+    bloom: apply
+
+  - id: "11.3.1"
+    content_standard_id: "11.3"
+    text_en: "Recognise a reflection."
+    bloom: remember
+  - id: "11.3.2"
+    content_standard_id: "11.3"
+    text_en: "Describe reflection using various representations."
+    bloom: understand
+  - id: "11.3.3"
+    content_standard_id: "11.3"
+    text_en: "Determine the image and object under a reflection."
+    bloom: apply
+  - id: "11.3.4"
+    content_standard_id: "11.3"
+    text_en: "Solve problems involving reflection."
+    bloom: apply
+
+  - id: "11.4.1"
+    content_standard_id: "11.4"
+    text_en: "Recognise a rotation."
+    bloom: remember
+  - id: "11.4.2"
+    content_standard_id: "11.4"
+    text_en: "Describe rotation using various representations."
+    bloom: understand
+  - id: "11.4.3"
+    content_standard_id: "11.4"
+    text_en: "Determine the image and object under a rotation."
+    bloom: apply
+  - id: "11.4.4"
+    content_standard_id: "11.4"
+    text_en: "Solve problems involving rotation."
+    bloom: apply
+
+  - id: "11.5.1"
+    content_standard_id: "11.5"
+    text_en: "Investigate the relationship between transformations and distance between points to explain isometry."
+    bloom: analyze
+  - id: "11.5.2"
+    content_standard_id: "11.5"
+    text_en: "Explain the relationship between isometry and congruence."
+    bloom: understand
+  - id: "11.5.3"
+    content_standard_id: "11.5"
+    text_en: "Solve problems involving isometry and congruence."
+    bloom: apply
+
+  - id: "11.6.1"
+    content_standard_id: "11.6"
+    text_en: "Explain rotational symmetry."
+    bloom: understand
+  - id: "11.6.2"
+    content_standard_id: "11.6"
+    text_en: "Determine the order of rotational symmetry of an object."
+    bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate the basic knowledge of translation, reflection and rotation."
+  - level: 2
+    descriptor_en: "Demonstrate the understanding of translation, reflection and rotation."
+  - level: 3
+    descriptor_en: "Apply the understanding of transformations to perform simple tasks."
+  - level: 4
+    descriptor_en: "Apply appropriate knowledge and skills of transformations in simple routine problem solving."
+  - level: 5
+    descriptor_en: "Apply appropriate knowledge and skills of transformations in complex routine problem solving."
+  - level: 6
+    descriptor_en: "Apply appropriate knowledge and skills of transformations in non-routine problem solving."
+
 prerequisites:
-    required: []
-bloom_levels:
-    - remember
-    - understand
-    - apply
-    - analyze
+  required:
+    - "MT1-Coordinates"
+    - "MT1-Polygons"
+  recommended: []
+
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
-ai_teaching_notes: "MT2-11.teaching.md"
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-29T16:00:08Z"
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
 teaching:
-    sequence:
-        - 'Step 1: Introduction to isometric transformations with real-life examples (15 min)'
-        - 'Step 2: Explore translation using grids and vectors (20 min)'
-        - 'Step 3: Demonstrate reflection with mirrors and graph paper (20 min)'
-        - 'Step 4: Explain rotation using protractors and fixed points (20 min)'
-    common_misconceptions:
-        - misconception: Transformations change the size of objects
-          remediation: Emphasize congruence and use manipulatives for visualization
-        - misconception: Reflection is the same as translation
-          remediation: Use mirror activities to clarify differences
-engagement_hooks:
-    - Connect transformations to local batik patterns and wood carvings
-    - Discuss how symmetry and rotation are used in traditional crafts
-examples_file: MT2-11.examples.yaml
-assessments_file: MT2-11.assessments.yaml
+  sequence:
+    - "Step 1: Introduce transformations and one-to-one correspondence (15 minutes)"
+    - "Step 2: Explore translation using vectors and grids (20 minutes)"
+    - "Step 3: Investigate reflection using mirrors and axes (20 minutes)"
+    - "Step 4: Understand rotation with centre, angle, and direction (20 minutes)"
+    - "Step 5: Connect transformations to isometry and congruence (15 minutes)"
+    - "Step 6: Determine rotational symmetry and its order (15 minutes)"
+  common_misconceptions:
+    - misconception: "Students think transformations change the size of objects."
+      remediation: "Emphasise that isometric transformations preserve distance and size."
+    - misconception: "Students confuse clockwise and anticlockwise rotation."
+      remediation: "Use clock-face visualisation to reinforce direction."
+    - misconception: "Students mix up object and image."
+      remediation: "Label original as object and transformed figure as image consistently."
+  engagement_hooks:
+    - "Use batik patterns to identify translations and reflections."
+    - "Ask students to create logos using transformations."
+    - "Use mirror activities in class to demonstrate reflection."
+
+quality_level: 3
+provenance: ai-assisted
+ai_teaching_notes: "MT2-11.teaching.md"
+assessments_file: "MT2-11.assessments.yaml"
+examples_file: "MT2-11.examples.yaml"

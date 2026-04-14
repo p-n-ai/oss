@@ -1,161 +1,190 @@
 topic_id: MT2-04
-provenance: ai-generated
-
+provenance: ai-assisted
 questions:
-  # LO1: Menghuraikan sifat geometri poligon sekata menggunakan pelbagai perwakilan
   - id: Q1
-    text: "Sebuah poligon sekata mempunyai 8 sisi. Apakah nama poligon tersebut?"
+    text: "Which statement best defines a regular polygon?"
+    difficulty: easy
+    learning_objective: "4.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "All sides are equal and all interior angles are equal."
+      working: |
+        A regular polygon must be both equilateral (equal sides) and equiangular (equal angles).
+      distractors:
+        - value: "All sides are equal only."
+          feedback: "Equal sides alone are not enough. The angles must also be equal."
+        - value: "All angles are equal only."
+          feedback: "Equal angles alone do not guarantee equal side lengths."
+        - value: "It has at least one line of symmetry."
+          feedback: "Many irregular shapes also have symmetry. Regular polygons require equal sides AND angles."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correct definition selected."
+    hints:
+      - level: 1
+        text: "A regular polygon must satisfy TWO conditions, not just one."
+
+  - id: Q2
+    text: "State the number of axes of symmetry for a regular octagon."
+    difficulty: easy
+    learning_objective: "4.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "8"
+      working: |
+        For a regular polygon, number of axes of symmetry = number of sides.
+        Octagon has 8 sides → 8 axes of symmetry.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Correct answer: 8."
+    hints:
+      - level: 1
+        text: "In a regular polygon, symmetry follows the number of sides."
+
+  - id: Q3
+    text: "Calculate the sum of interior angles of a hexagon."
     difficulty: medium
-    learning_objective: LO1
+    learning_objective: "4.2.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "720°"
+      working: |
+        Use formula: (n - 2) × 180°
+        n = 6
+        (6 - 2) × 180 = 4 × 180 = 720°
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correct substitution."
+      - marks: 1
+        criteria: "Correct final answer."
+    hints:
+      - level: 1
+        text: "How many triangles can be formed inside a 6-sided shape?"
+
+  - id: Q4
+    text: "Find the exterior angle of a regular decagon."
+    difficulty: medium
+    learning_objective: "4.2.3"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "36°"
+      working: |
+        Exterior angle = 360° / n
+        n = 10
+        360 ÷ 10 = 36°
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Uses correct formula."
+      - marks: 1
+        criteria: "Correct answer."
+    hints:
+      - level: 1
+        text: "Exterior angles always add up to 360°."
+
+  - id: Q5
+    text: "A regular polygon has an exterior angle of 30°. How many sides does it have?"
+    difficulty: medium
+    learning_objective: "4.2.3"
+    tp_level: 4
+    kbat: false
+    answer:
+      type: exact
+      value: "12"
+      working: |
+        n = 360° / 30°
+        n = 12
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Correct answer with working."
+    hints:
+      - level: 1
+        text: "Divide 360° by the given angle."
+
+  - id: Q6
+    text: "A regular pentagon and a square meet at a point. Find the missing angle x."
+    difficulty: hard
+    learning_objective: "4.2.4"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "162°"
+      working: |
+        Pentagon angle = 108°
+        Square angle = 90°
+        Total around a point = 360°
+        x = 360 - 108 - 90 = 162°
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Finds correct angles."
+      - marks: 2
+        criteria: "Applies angle rule correctly."
+    hints:
+      - level: 1
+        text: "Angles around a point always add up to 360°."
+
+  - id: Q7
+    text: "Is it possible for a polygon to have a total interior angle of 300°? Explain."
+    difficulty: hard
+    learning_objective: "4.2.4"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "No, because the number of sides is not a whole number."
+      working: |
+        (n - 2) × 180 = 300
+        n - 2 = 300 / 180 = 1.67
+        n = 3.67 (not integer)
+        Therefore impossible.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Forms equation."
+      - marks: 1
+        criteria: "Finds non-integer value."
+      - marks: 1
+        criteria: "Explains impossibility."
+    hints:
+      - level: 1
+        text: "Number of sides must be a whole number."
+
+  - id: Q8
+    text: "Which formula is used to find the sum of interior angles of a polygon?"
+    difficulty: easy
+    learning_objective: "4.2.1"
     tp_level: 2
     kbat: false
     answer:
       type: multiple_choice
-      value: "Oktagon"
-      options:
-        - "Segitiga"
-        - "Oktagon"
-        - "Heksagon"
-        - "Dekagon"
+      value: "(n - 2) × 180°"
       working: |
-        Sebuah poligon sekata dengan 8 sisi dikenali sebagai oktagon.
-    marks: 2
+        Standard formula for sum of interior angles.
+      distractors:
+        - value: "n × 180°"
+          feedback: "This overcounts the total."
+        - value: "360° / n"
+          feedback: "This is for exterior angle, not interior sum."
+        - value: "(n + 2) × 180°"
+          feedback: "Incorrect formula."
+    marks: 1
     rubric:
-      - marks: 2
-        criteria: "Jawapan betul: Oktagon"
       - marks: 1
-        criteria: "Memilih heksagon atau dekagon"
+        criteria: "Correct formula selected."
     hints:
       - level: 1
-        text: "Ingat bahawa 'okta' bermaksud lapan."
-      - level: 2
-        text: "Misconception Alert: Jangan keliru antara 'hexa' dan 'octa.'"
-
-  # LO2: Membina poligon sekata menggunakan pelbagai kaedah dan menerangkan rasional langkah-langkah pembinaan
-  - id: Q2
-    text: "Bina sebuah heksagon sekata dan terangkan langkah-langkah pembinaan menggunakan jangka lukis dan pembaris."
-    difficulty: medium
-    learning_objective: LO2
-    tp_level: 2
-    kbat: false
-    answer:
-      type: free_text
-      value: "Langkah-langkah pembinaan heksagon sekata"
-      working: |
-        1. Lukis satu bulatan dengan pusat O dan radius r.
-        2. Letakkan jangka lukis dengan radius r di atas pembaris.
-        3. Tandakan 6 titik pada lilitan bulatan dengan jarak yang sama.
-        4. Sambungkan titik-titik tersebut untuk membentuk heksagon sekata.
-    marks: 4
-    rubric:
-      - marks: 4
-        criteria: "Pembinaan lengkap dengan penjelasan yang jelas."
-      - marks: 2
-        criteria: "Pembinaan betul tetapi penjelasan tidak lengkap."
-      - marks: 1
-        criteria: "Hanya pemilihan titik yang betul."
-    hints:
-      - level: 1
-        text: "Pertimbangkan simetri bulatan untuk pembinaan."
-      - level: 2
-        text: "Misconception Alert: Pastikan semua sisi adalah sama panjang."
-
-  # LO3: Menerbitkan rumus hasil tambah sudut pedalaman suatu poligon
-  - id: Q3
-    text: "Terbitkan rumus bagi hasil tambah sudut pedalaman sebuah poligon dengan n sisi."
-    difficulty: medium
-    learning_objective: LO3
-    tp_level: 3
-    kbat: true
-    answer:
-      type: exact
-      value: "$(n-2) \times 180°$"
-      working: |
-        Hasil tambah sudut pedalaman poligon boleh diterbitkan dengan membahagi poligon kepada (n-2) segitiga.
-        Setiap segitiga mempunyai jumlah sudut pedalaman 180°.
-        Oleh itu, hasil tambah sudut pedalaman poligon ialah $(n-2) \times 180°$.
-    marks: 3
-    rubric:
-      - marks: 3
-        criteria: "Jawapan lengkap dengan penerbitan yang betul."
-      - marks: 2
-        criteria: "Jawapan betul tetapi penerbitan kurang jelas."
-      - marks: 1
-        criteria: "Hanya memberikan rumus tanpa penerbitan."
-    hints:
-      - level: 1
-        text: "Cuba bahagikan poligon kepada segitiga."
-      - level: 2
-        text: "Misconception Alert: Jangan lupa setiap segitiga mempunyai 180°."
-
-  # LO4: Membuat dan mengesahkan konjektur tentang hasil tambah sudut peluaran poligon
-  - id: Q4
-    text: "Nyatakan dan sahkan konjektur mengenai jumlah sudut peluaran mana-mana poligon."
-    difficulty: medium
-    learning_objective: LO4
-    tp_level: 3
-    kbat: true
-    answer:
-      type: exact
-      value: "360°"
-      working: |
-        Konjektur: Jumlah sudut peluaran mana-mana poligon ialah 360°.
-        Pengesahan: Setiap sudut peluaran adalah sudut luar yang membentuk garis lurus dengan sudut pedalaman.
-        Oleh itu, apabila semua sudut peluaran ditambah, hasilnya ialah satu pusingan penuh, iaitu 360°.
-    marks: 3
-    rubric:
-      - marks: 3
-        criteria: "Konjektur dan pengesahan lengkap."
-      - marks: 2
-        criteria: "Konjektur betul tetapi pengesahan kurang lengkap."
-      - marks: 1
-        criteria: "Menyatakan konjektur tetapi tiada pengesahan."
-    hints:
-      - level: 1
-        text: "Ingat bahawa sudut peluaran adalah bahagian dari satu pusingan penuh."
-      - level: 2
-        text: "Misconception Alert: Jangan campur adukkan dengan jumlah sudut pedalaman."
-
-  # LO5: Menentukan nilai sudut pedalaman, sudut peluaran dan bilangan sisi suatu poligon
-  - id: Q5
-    text: "Suatu poligon sekata mempunyai sudut pedalaman berukuran 120°. Berapakah bilangan sisi poligon tersebut?"
-    difficulty: medium
-    learning_objective: LO5
-    tp_level: 2
-    kbat: false
-    answer:
-      type: exact
-      value: "6"
-      working: |
-        Sudut pedalaman untuk poligon sekata dengan n sisi ialah $\\frac{(n-2) \times 180°}{n}$.
-        Diberi sudut pedalaman ialah 120°:
-        \[
-        \\frac{(n-2) \times 180°}{n} = 120°
-        \]
-        Menyelesaikan persamaan ini:
-        \[
-        (n-2) \times 180° = 120° \times n
-        \]
-        \[
-        180n - 360 = 120n
-        \]
-        \[
-        60n = 360
-        \]
-        \[
-        n = 6
-        \]
-        Oleh itu, poligon tersebut adalah heksagon.
-    marks: 4
-    rubric:
-      - marks: 4
-        criteria: "Jawapan betul dengan penyelesaian lengkap."
-      - marks: 2
-        criteria: "Jawapan betul tetapi penyelesaian tidak lengkap."
-      - marks: 1
-        criteria: "Hanya memberikan jawapan tanpa penyelesaian."
-    hints:
-      - level: 1
-        text: "Gunakan rumus untuk sudut pedalaman poligon sekata."
-      - level: 2
-        text: "Misconception Alert: Pastikan untuk menyelesaikan persamaan dengan betul."
+        text: "Think about triangles inside a polygon."

@@ -1,65 +1,122 @@
 id: MT2-06
-official_ref: "Bab 6" # as printed in KSSM DSKP document
-name: "Bentuk Geometri Tiga Dimensi"
-name_en: "Three-Dimensional Geometric Shapes"
+official_ref: "Bab 6"
+name: "Three-Dimensional Geometrical Shapes"
+name_en: "Three-Dimensional Geometrical Shapes"
+
 subject_grade_id: malaysia-kssm-matematik-tingkatan-2
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
-difficulty: beginner
+language: en
+difficulty: intermediate
+tier: core
+
 content_standards:
-    - id: "6.1"
-      text: "Bentuk Geometri Tiga Dimensi"
-      text_en: "Three-Dimensional Geometric Shapes"
-    - id: "6.2"
-      text: "Luas Permukaan dan Isi Padu"
-      text_en: "Surface Area and Volume"
+  - id: "6.1"
+    text_en: "Geometric Properties of Three-Dimensional Shapes"
+  - id: "6.2"
+    text_en: "Nets of Three-Dimensional Shapes"
+  - id: "6.3"
+    text_en: "Surface Area of Three-Dimensional Shapes"
+  - id: "6.4"
+    text_en: "Volume of Three-Dimensional Shapes"
+
 learning_objectives:
-    - id: "6.1.1"
-      text: "Mengenal pasti bentuk geometri tiga dimensi termasuk prisma, silinder, kon, piramid dan sfera berdasarkan ciri dan sifat."
-      text_en: "Identify three-dimensional geometric shapes including prisms, cylinders, cones, pyramids and spheres based on properties and characteristics."
-      bloom: remember
-    - id: "6.1.2"
-      text: "Membina model bentuk geometri tiga dimensi menggunakan pelbagai bahan dan menerangkan ciri-cirinya."
-      text_en: "Construct models of three-dimensional geometric shapes using various materials and explain their characteristics."
-      bloom: apply
-    - id: "6.2.1"
-      text: "Menerbitkan rumus luas permukaan prisma, silinder, kon dan sfera serta membuat pengiraan yang berkaitan."
-      text_en: "Derive the formula for surface area of prisms, cylinders, cones and spheres, and perform related calculations."
-      bloom: apply
-    - id: "6.2.2"
-      text: "Menerbitkan rumus isi padu prisma, silinder, kon dan sfera serta membuat pengiraan yang berkaitan."
-      text_en: "Derive the formula for volume of prisms, cylinders, cones and spheres, and perform related calculations."
-      bloom: apply
-    - id: "6.2.3"
-      text: "Menyelesaikan masalah yang melibatkan bentuk geometri tiga dimensi."
-      text_en: "Solve problems involving three-dimensional geometric shapes."
-      bloom: apply
+  - id: "6.1.1"
+    content_standard_id: "6.1"
+    text_en: "Compare, contrast and classify three-dimensional shapes including prisms, pyramids, cylinders, cones and spheres, and describe their geometric properties."
+    bloom: analyze
+
+  - id: "6.2.1"
+    content_standard_id: "6.2"
+    text_en: "Analyse nets of prisms, pyramids, cylinders and cones, and construct models from nets."
+    bloom: analyze
+
+  - id: "6.3.1"
+    content_standard_id: "6.3"
+    text_en: "Derive and use formulae for surface area of cubes, cuboids, prisms, pyramids, cylinders and cones."
+    bloom: apply
+
+  - id: "6.3.2"
+    content_standard_id: "6.3"
+    text_en: "Determine surface area of spheres using formula."
+    bloom: apply
+
+  - id: "6.3.3"
+    content_standard_id: "6.3"
+    text_en: "Solve problems involving surface area of three-dimensional shapes."
+    bloom: evaluate
+
+  - id: "6.4.1"
+    content_standard_id: "6.4"
+    text_en: "Derive formulae for volume of prisms, cylinders, pyramids and cones."
+    bloom: analyze
+
+  - id: "6.4.2"
+    content_standard_id: "6.4"
+    text_en: "Calculate volume of prisms, cylinders, cones, pyramids and spheres."
+    bloom: apply
+
+  - id: "6.4.3"
+    content_standard_id: "6.4"
+    text_en: "Solve problems involving volume of three-dimensional shapes including composite shapes and unit conversions."
+    bloom: evaluate
+
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate basic knowledge of 3D shapes."
+  - level: 2
+    descriptor_en: "Understand properties of 3D shapes."
+  - level: 3
+    descriptor_en: "Apply knowledge of nets, surface area and volume."
+  - level: 4
+    descriptor_en: "Solve routine problems involving 3D shapes."
+  - level: 5
+    descriptor_en: "Solve complex routine problems involving composite shapes."
+  - level: 6
+    descriptor_en: "Solve non-routine problems creatively involving 3D shapes."
+
 prerequisites:
-    required: []
-quality_level: 0
-provenance: ai-generated
-generated_at: "2026-03-29T16:00:08Z"
-teaching:
-    sequence:
-        - 'Step 1: Introduce 3D shapes using real objects like boxes and balls (15 min)'
-        - 'Step 2: Discuss properties such as faces, edges, and vertices with visual aids (20 min)'
-        - 'Step 3: Practice drawing and constructing 3D shapes using paper or clay (25 min)'
-    common_misconceptions:
-        - misconception: A sphere has edges and vertices
-          remediation: Use balls to demonstrate that spheres have only a surface
-        - misconception: 3D shapes are just like their 2D counterparts
-          remediation: Emphasize the concept of depth in 3D shapes
-engagement_hooks:
-    - Relate 3D shapes to local architecture like the Petronas Towers
-    - Discuss the shapes found in traditional Malay houses
-examples_file: MT2-06.examples.yaml
-ai_teaching_notes: MT2-06.teaching.md
+  required:
+    - "MT1-13"
+    - "MT1-10"
+  recommended: []
+
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
-assessments_file: MT2-06.assessments.yaml
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Step 1: Identify and classify 3D shapes using real objects."
+    - "Step 2: Explore nets and relate them to 3D structures."
+    - "Step 3: Derive surface area formulas from nets."
+    - "Step 4: Derive volume formulas from base area × height relationships."
+    - "Step 5: Apply formulas to spheres and composite shapes."
+    - "Step 6: Solve real-world problems involving unit conversion and combined shapes."
+
+  common_misconceptions:
+    - misconception: "Students think spheres have edges or vertices."
+      remediation: "Clarify that all points on a sphere are equidistant from the centre, so no edges or vertices exist."
+
+    - misconception: "Students confuse slant height with vertical height."
+      remediation: "Emphasise that volume uses perpendicular height only."
+
+    - misconception: "Students mix up surface area and volume formulas."
+      remediation: "Use unit reasoning: cm² vs cm³."
+
+  engagement_hooks:
+    - "Tun Mustapha Tower: Compare cylindrical structure with cuboid buildings."
+    - "Traditional Malay roof structures: Explore geometric efficiency."
+    - "Ice cream cones: Real-world volume application."
+
+ai_teaching_notes: "MT2-06.teaching.md"
+assessments_file: "MT2-06.assessments.yaml"
+examples_file: "MT2-06.examples.yaml"
+
+quality_level: 3
+provenance: ai-assisted
+sync_checked: true

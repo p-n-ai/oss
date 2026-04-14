@@ -1,68 +1,101 @@
 id: MT2-10
-official_ref: "Bab 10" # as printed in KSSM DSKP document
-name: "Kecerunan Garis Lurus"
+official_ref: "Chapter 10"
+name: "Gradient of a Straight Line"
 name_en: "Gradient of a Straight Line"
-subject_grade_id: malaysia-kssm-matematik-tingkatan-2
-subject_id: malaysia-kssm-matematik
-syllabus_id: malaysia-kssm
+subject_grade_id: MT2-10
+subject_id: MT2
+syllabus_id: MT2
 country_id: malaysia
-language: ms
+language: en
 difficulty: beginner
 tier: core
+
 content_standards:
-    - id: "10.1"
-      text: "Kecerunan Garis Lurus"
-      text_en: "Gradient of a Straight Line"
+  - id: "10.1"
+    text_en: "Gradient"
+
 learning_objectives:
-    - id: "10.1.1"
-      text: "Memerihalkan kecuraman dan arah kecondongan berdasarkan situasi harian, dan seterusnya menerangkan maksud kecerunan sebagai nisbah jarak mencancang kepada jarak mengufuk."
-      text_en: "Describe the steepness and direction of inclination based on daily situations, and subsequently explain the meaning of slope as the ratio of vertical distance to horizontal distance."
-      bloom: understand
-    - id: "10.1.2"
-      text: "Menerbitkan rumus kecerunan suatu garis lurus pada satah Cartes."
-      text_en: "Derive the formula for the slope of a straight line on the Cartesian plane."
-      bloom: apply
-    - id: "10.1.3"
-      text: "Membuat generalisasi tentang kecerunan garis lurus."
-      text_en: "Make generalizations about the slope of a straight line."
-      bloom: analyze
-    - id: "10.1.4"
-      text: "Menentukan kecerunan suatu garis lurus."
-      text_en: "Determine the slope of a straight line."
-      bloom: apply
-    - id: "10.1.5"
-      text: "Menyelesaikan masalah yang melibatkan kecerunan garis lurus."
-      text_en: "Solve problems involving the slope of a straight line."
-      bloom: apply
+  - id: "10.1.1"
+    content_standard_id: "10.1"
+    text_en: "Describe gradient and direction of inclination based on real life situations, and explain the meaning of gradient as a ratio of vertical distance to horizontal distance."
+    bloom: understand
+
+  - id: "10.1.2"
+    content_standard_id: "10.1"
+    text_en: "Derive the formulae for gradient of a straight line in the Cartesian plane."
+    bloom: apply
+
+  - id: "10.1.3"
+    content_standard_id: "10.1"
+    text_en: "Make generalisation for the gradient of a straight line."
+    bloom: analyze
+
+  - id: "10.1.4"
+    content_standard_id: "10.1"
+    text_en: "Determine the gradient of a straight line."
+    bloom: apply
+
+  - id: "10.1.5"
+    content_standard_id: "10.1"
+    text_en: "Solve problems involving the gradient of a straight line."
+    bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate the basic knowledge of gradient of a straight line."
+  - level: 2
+    descriptor_en: "Demonstrate the understanding of gradient."
+  - level: 3
+    descriptor_en: "Apply the understanding of gradient to perform simple tasks."
+  - level: 4
+    descriptor_en: "Apply appropriate knowledge and skills of gradient in the context of simple routine problem solving."
+  - level: 5
+    descriptor_en: "Apply appropriate knowledge and skills of gradient in the context of complex routine problem solving."
+  - level: 6
+    descriptor_en: "Apply appropriate knowledge and skills of gradient in the context of non-routine problem solving."
+
 prerequisites:
-    required: []
-bloom_levels:
-    - understand
-    - apply
-    - analyze
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-29T16:00:08Z"
-teaching:
-    sequence:
-        - 'Step 1: Discuss daily situations involving slope (15 min)'
-        - 'Step 2: Introduce and derive the slope formula (20 min)'
-        - 'Step 3: Practice determining slope using formula (15 min)'
-        - 'Step 4: Solve contextual problems involving slope (20 min)'
-    common_misconceptions:
-        - misconception: Slope is only about physical steepness
-          remediation: Emphasize slope in mathematical contexts
-        - misconception: Slope formula is only for horizontal lines
-          remediation: Provide examples of various line types
-engagement_hooks:
-    - Discuss the slopes of roads in Genting Highlands
-    - Explore how slope affects design of roller coasters
-ai_teaching_notes: MT2-10.teaching.md
-examples_file: MT2-10.examples.yaml
+  required:
+    - "MT2-07"
+  recommended:
+    - "MT1-06"
+
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
-assessments_file: MT2-10.assessments.yaml
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Step 1: Introduce gradient using real-life steepness (stairs, hills, roofs) (15 min)"
+    - "Step 2: Explain gradient as ratio of vertical distance to horizontal distance (15 min)"
+    - "Step 3: Derive gradient formula using coordinates (20 min)"
+    - "Step 4: Explore properties of gradient (sign, magnitude, special cases) (20 min)"
+    - "Step 5: Solve routine and non-routine problems involving gradient (20 min)"
+
+  common_misconceptions:
+    - misconception: "Confusing vertical distance with horizontal distance."
+      remediation: "Use ‘rise over run’ visual diagrams to reinforce correct orientation."
+
+    - misconception: "Reversing subtraction order in coordinate formula."
+      remediation: "Always subtract consistently: (y2 - y1) over (x2 - x1)."
+
+    - misconception: "Forgetting the negative sign in intercept formula."
+      remediation: "Highlight that m = - (y-intercept / x-intercept) and relate to graph direction."
+
+    - misconception: "Believing vertical lines have zero gradient."
+      remediation: "Clarify that vertical lines have undefined gradient due to division by zero."
+
+  engagement_hooks:
+    - "Discuss steepness of Mount Kinabalu trails and why paths zigzag."
+    - "Analyze road signs showing slope percentages."
+    - "Compare gradients of stairs, ladders, and ramps in daily life."
+
+quality_level: 3
+provenance: ai-assisted
+
+ai_teaching_notes: "MT2-10.teaching.md"
+assessments_file: "MT2-10.assessments.yaml"
+examples_file: "MT2-10.examples.yaml"

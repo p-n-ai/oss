@@ -1,39 +1,93 @@
 topic_id: MT2-10
-provenance: ai-generated
-description: "Worked examples for Kecerunan Garis Lurus"
+provenance: ai-assisted
+description: "Worked examples for Gradient of a Straight Line (KSSM Form 2 Chapter 10)"
+
 worked_examples:
   - id: WE-01
-    topic: "Understanding Slope"
+    topic: "Gradient as a Ratio"
     difficulty: easy
-    real_world_analogy: "Imagine riding a bicycle up a hill. The steeper the hill, the harder it is to pedal. This is similar to the slope of a line."
-    misconception_alert: "Students often confuse the rise and run. Remember, 'rise' is the vertical change, and 'run' is the horizontal change."
-    scenario: "A hill rises 5 meters over a horizontal distance of 20 meters. What is the slope of the hill?"
+    real_world_analogy: "Imagine climbing Mount Kinabalu. The steeper the path, the more height you gain for each step forward. This relationship between height and distance is called gradient."
+    misconception_alert: "The 'Upside Down' Trap! Students often reverse the ratio. Always remember: Gradient = Vertical ÷ Horizontal (UP first, then ACROSS)."
+    scenario: "A hiking trail has a vertical height of 30 m and a horizontal distance of 60 m. Find the gradient."
     working: |
-      Step 1: Identify the vertical change (rise) and horizontal change (run). Here, rise = 5 meters, run = 20 meters.
-      Step 2: Use the formula for slope, which is rise over run: slope = rise/run.
-      Step 3: Substitute the values into the formula: slope = 5/20 = 0.25. Thus, the slope of the hill is 0.25.
+      Step 1: Identify vertical distance = 30 m.
+      Step 2: Identify horizontal distance = 60 m.
+      Step 3: Use formula: Gradient = Vertical / Horizontal.
+      Step 4: Substitute values: Gradient = 30 / 60.
+      Step 5: Simplify: Gradient = 0.5.
+      Final answer: Gradient = 0.5.
 
   - id: WE-02
-    topic: "Slope on the Cartesian Plane"
+    topic: "Gradient using Coordinate Formula"
     difficulty: medium
-    real_world_analogy: "Think of a playground slide. The angle of the slide can be represented as a line on a graph, where the slope determines how steep the slide is."
-    misconception_alert: "When calculating slope from two points, students might mix up the order of subtraction. Consistency is key: always subtract y-coordinates in the same order as x-coordinates."
-    scenario: "Determine the slope of the line passing through points A(2, 3) and B(6, 11)."
+    real_world_analogy: "Think of GPS points. To measure steepness between two locations, we compare how much we move up (y-direction) versus across (x-direction)."
+    misconception_alert: "The 'Order Mix-Up' Trap! If you start with y₂ − y₁, you MUST use x₂ − x₁. Keep the same order."
+    scenario: "Find the gradient of the line passing through points A(3, 1) and B(6, 7)."
     working: |
-      Step 1: Identify coordinates of points A and B: A(2, 3) and B(6, 11).
-      Step 2: Use the slope formula (m = (y2 - y1) / (x2 - x1)): m = (11 - 3) / (6 - 2).
-      Step 3: Calculate the differences: y2 - y1 = 8 and x2 - x1 = 4.
-      Step 4: Substitute the differences into the formula: m = 8/4 = 2. Therefore, the slope of the line is 2.
+      Step 1: Identify (x1, y1) = (3, 1), (x2, y2) = (6, 7).
+      Step 2: Use formula: m = (y2 - y1) / (x2 - x1).
+      Step 3: Substitute: m = (7 - 1) / (6 - 3).
+      Step 4: Simplify numerator: 7 - 1 = 6.
+      Step 5: Simplify denominator: 6 - 3 = 3.
+      Step 6: Calculate: m = 6 / 3 = 2.
+      Final answer: Gradient = 2.
 
   - id: WE-03
-    topic: "Solving Real-World Problems with Slope"
-    difficulty: hard
-    real_world_analogy: "Consider a highway engineer planning a road between two points at different elevations. Understanding slope helps in designing a road that vehicles can traverse safely."
-    misconception_alert: "Students may assume that slope is only positive. However, slope can be negative if the line descends from left to right."
-    scenario: "A bridge is to be built between two points, one at a height of 10 meters and another at 2 meters, over a horizontal distance of 16 meters. What is the slope of the bridge?"
+    topic: "Gradient using Intercepts"
+    difficulty: medium
+    real_world_analogy: "Imagine a slanted beam touching the ground (x-axis) and a wall (y-axis). These intercept points alone can tell us how steep the beam is."
+    misconception_alert: "The 'Double Negative' Trap! The formula includes a negative sign: m = -(y/x). Be careful when substituting negative values."
+    scenario: "A line cuts the y-axis at 8 and the x-axis at -5. Find the gradient."
     working: |
-      Step 1: Determine the vertical change (rise) and horizontal change (run). Calculate rise: final height - initial height = 2 - 10 = -8 meters.
-      Step 2: Identify the horizontal change: run = 16 meters.
-      Step 3: Apply the slope formula: slope = rise/run = -8/16.
-      Step 4: Simplify the fraction: slope = -1/2.
-      Step 5: Conclude that the slope of the bridge is -0.5, indicating it descends as it spans the horizontal distance.
+      Step 1: Identify y-intercept = 8.
+      Step 2: Identify x-intercept = -5.
+      Step 3: Use formula: m = -(y-intercept / x-intercept).
+      Step 4: Substitute: m = -(8 / -5).
+      Step 5: Simplify: 8 / -5 = -1.6.
+      Step 6: Apply negative sign: m = -(-1.6) = 1.6.
+      Final answer: Gradient = 1.6.
+
+  - id: WE-04
+    topic: "Finding Unknown Values using Gradient"
+    difficulty: medium
+    real_world_analogy: "Think of adjusting a slope in a game. If you know how steep it must be, you can adjust the missing height or distance to match that steepness."
+    misconception_alert: "The 'Algebra Skip' Trap! Students often jump steps. Always isolate the variable step-by-step."
+    scenario: "The gradient of a line passing through points (1, k) and (-2, 3) is -2. Find k."
+    working: |
+      Step 1: Use formula: m = (y2 - y1) / (x2 - x1).
+      Step 2: Substitute values: -2 = (3 - k) / (-2 - 1).
+      Step 3: Simplify denominator: -2 - 1 = -3.
+      Step 4: Equation becomes: -2 = (3 - k) / -3.
+      Step 5: Multiply both sides by -3: (-2)(-3) = 3 - k.
+      Step 6: Simplify: 6 = 3 - k.
+      Step 7: Rearrange: k = 3 - 6.
+      Step 8: Solve: k = -3.
+      Final answer: k = -3.
+
+  - id: WE-05
+    topic: "Real-World Application (Terrace House Roof)"
+    difficulty: hard
+    real_world_analogy: "In Malaysia, roofs are designed steeply so rainwater flows quickly during heavy rainfall."
+    misconception_alert: "The 'Symmetry' Trap! The total width must be divided by 2 before calculating the gradient."
+    scenario: "A terrace house roof has a total span of 21 m and a height of 5 m. The roof is symmetrical. Find the gradient of one side."
+    working: |
+      Step 1: Identify total span = 21 m.
+      Step 2: Since symmetrical, horizontal distance = 21 / 2 = 10.5 m.
+      Step 3: Identify vertical height = 5 m.
+      Step 4: Use formula: Gradient = Vertical / Horizontal.
+      Step 5: Substitute: Gradient = 5 / 10.5.
+      Step 6: Calculate: Gradient ≈ 0.476.
+      Final answer: Gradient ≈ 0.476.
+
+  - id: WE-06
+    topic: "KBAT: Interpreting Gradient in Context"
+    difficulty: hard
+    real_world_analogy: "Engineers compare slopes to decide safety. A steeper road may be dangerous for vehicles."
+    misconception_alert: "The 'Blind Calculation' Trap! Students calculate without interpreting meaning. Always relate gradient to real-world impact."
+    scenario: "Two roads have gradients 0.4 and 0.8. Which road is steeper and explain why it may be less safe?"
+    working: |
+      Step 1: Compare values: 0.8 > 0.4.
+      Step 2: Higher gradient means steeper slope.
+      Step 3: Therefore, the road with gradient 0.8 is steeper.
+      Step 4: A steeper road increases risk because vehicles may lose control or braking becomes harder.
+      Final answer: The road with gradient 0.8 is steeper and less safe.

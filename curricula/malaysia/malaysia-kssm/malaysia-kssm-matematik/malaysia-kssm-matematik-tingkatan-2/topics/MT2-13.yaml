@@ -1,91 +1,116 @@
 id: MT2-13
-official_ref: "Bab 13"
-name: "Kebarangkalian Mudah"
+official_ref: "Chapter 13"
+name: "Simple Probability"
 name_en: "Simple Probability"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-2
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: beginner
 tier: core
+
 content_standards:
-    - id: "13.1"
-      text: "Ruang Sampel Bagi Suatu Eksperimen"
-      text_en: "Sample Space for an Experiment"
-    - id: "13.2"
-      text: "Peristiwa Bagi Suatu Ruang Sampel"
-      text_en: "Events of a Sample Space"
-    - id: "13.3"
-      text: "Kebarangkalian Suatu Peristiwa"
-      text_en: "Probability of an Event"
-    - id: "13.4"
-      text: "Kebarangkalian Peristiwa Pelengkap"
-      text_en: "Probability of Complementary Events"
+  - id: "13.1"
+    text_en: "Experimental Probability"
+  - id: "13.2"
+    text_en: "Probability Theory involving Equally Likely Outcomes"
+  - id: "13.3"
+    text_en: "Probability of the Complement of an Event"
+  - id: "13.4"
+    text_en: "Simple Probability"
+
 learning_objectives:
-    - id: "13.1.1"
-      text: "Melaksanakan eksperimen kebarangkalian mudah, dan seterusnya menentukan nisbah kekerapan berlakunya suatu peristiwa kepada bilangan cubaan sebagai kebarangkalian eksperimen bagi suatu peristiwa."
-      text_en: "Perform simple probability experiments, and then determine the ratio of the frequency of occurrence of an event to the number of trials as the experimental probability of an event."
-      bloom: apply
-    - id: "13.1.2"
-      text: "Membuat kesimpulan tentang kebarangkalian eksperimen suatu peristiwa apabila bilangan cubaan cukup besar."
-      text_en: "Make conclusions about the experimental probability of an event when the number of trials is sufficiently large."
-      bloom: analyze
-    - id: "13.2.1"
-      text: "Menentukan ruang sampel dan peristiwa bagi suatu eksperimen."
-      text_en: "Determine the sample space and event for an experiment."
-      bloom: understand
-    - id: "13.2.2"
-      text: "Membina model kebarangkalian suatu peristiwa, dan seterusnya membuat perkaitan antara kebarangkalian teori dengan kebarangkalian eksperimen."
-      text_en: "Construct a probability model of an event, and then make a connection between theoretical probability and experimental probability."
-      bloom: analyze
-    - id: "13.2.3"
-      text: "Menentukan kebarangkalian suatu peristiwa."
-      text_en: "Determine the probability of an event."
-      bloom: apply
-    - id: "13.3.1"
-      text: "Memerihalkan peristiwa pelengkap dalam perkataan dan dengan menggunakan tatatanda set."
-      text_en: "Describe complementary events in words and using set notation."
-      bloom: understand
-    - id: "13.3.2"
-      text: "Menentukan kebarangkalian peristiwa pelengkap."
-      text_en: "Determine the probability of complementary events."
-      bloom: apply
-    - id: "13.4.1"
-      text: "Menyelesaikan masalah yang melibatkan kebarangkalian suatu peristiwa."
-      text_en: "Solve problems involving the probability of an event."
-      bloom: apply
+  - id: "13.1.1"
+    content_standard_id: "13.1"
+    text_en: "Perform simple experiments to determine experimental probability as the ratio of frequency of an event to the number of trials."
+    bloom: apply
+
+  - id: "13.1.2"
+    content_standard_id: "13.1"
+    text_en: "Make conclusions about experimental probability when the number of trials is sufficiently large."
+    bloom: analyze
+
+  - id: "13.2.1"
+    content_standard_id: "13.2"
+    text_en: "Determine sample space and events for a simple experiment."
+    bloom: understand
+
+  - id: "13.2.2"
+    content_standard_id: "13.2"
+    text_en: "Construct probability models and relate theoretical probability to experimental probability."
+    bloom: analyze
+
+  - id: "13.2.3"
+    content_standard_id: "13.2"
+    text_en: "Determine probability of an event using P(A) = n(A) / n(S)."
+    bloom: apply
+
+  - id: "13.3.1"
+    content_standard_id: "13.3"
+    text_en: "Describe complement events using words and set notation A'."
+    bloom: understand
+
+  - id: "13.3.2"
+    content_standard_id: "13.3"
+    text_en: "Determine probability of complement of an event."
+    bloom: apply
+
+  - id: "13.4.1"
+    content_standard_id: "13.4"
+    text_en: "Solve problems involving simple probability."
+    bloom: apply
+
+performance_levels:
+  - level: 1
+    descriptor_en: "Demonstrate basic knowledge of sample space and events."
+  - level: 2
+    descriptor_en: "Demonstrate understanding of sample space and simple probability relationships."
+  - level: 3
+    descriptor_en: "Apply simple probability in basic structured tasks."
+  - level: 4
+    descriptor_en: "Apply knowledge in simple routine probability problems."
+  - level: 5
+    descriptor_en: "Apply knowledge in complex routine probability problems."
+  - level: 6
+    descriptor_en: "Apply knowledge in non-routine creative probability problem solving."
+
 prerequisites:
-    required: []
-bloom_levels:
-    - understand
-    - apply
-    - analyze
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-29T16:00:08Z"
-teaching:
-    sequence:
-        - 'Step 1: Introduce probability concept using number line (10 min)'
-        - 'Step 2: Demonstrate calculating simple probability with dice (15 min)'
-        - 'Step 3: Explore sample space and events through card games (15 min)'
-        - 'Step 4: Discuss theoretical vs experimental probability with examples (15 min)'
-        - 'Step 5: Solve probability problems collaboratively (20 min)'
-    common_misconceptions:
-        - misconception: Probability over 1
-          remediation: Emphasize that probability is always between 0 and 1
-        - misconception: Probability as a whole number
-          remediation: Use visual aids to show probability as parts of a whole
-ai_teaching_notes: MT2-13.teaching.md
-examples_file: MT2-13.examples.yaml
+  required:
+    - "Fractions, Decimals and Percentages"
+    - "Basic Set Theory"
+  recommended:
+    - "Ratio and Proportion"
+
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
-assessments_file: MT2-13.assessments.yaml
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Step 1: Introduce randomness using real-life experiments (coins, dice)."
+    - "Step 2: Identify outcomes and construct sample space (13.2.1)."
+    - "Step 3: Compute theoretical probability using formula P(A)=n(A)/n(S) (13.2.3)."
+    - "Step 4: Explore experimental probability and convergence (13.1.1–13.1.2)."
+    - "Step 5: Introduce complement events and notation A' (13.3.1–13.3.2)."
+    - "Step 6: Solve mixed routine and non-routine problems (13.4.1)."
+
+common_misconceptions:
+  - misconception: "Probability values can exceed 1."
+    remediation: "Reinforce probability scale is strictly between 0 and 1."
+  - misconception: "Confusing sample space with event."
+    remediation: "Sample space is ALL outcomes; event is a subset of outcomes."
+
 engagement_hooks:
-    - Discuss the probability of rain affecting local events
-    - Relate probability to sports outcomes like winning a match
-    - Explore probability in everyday decisions like choosing a meal
+  - "How do game developers use probability to design loot drops?"
+  - "Why does weather forecasting use percentages for rain?"
+  - "Can probability explain sports upset matches?"
+
+quality_level: 3
+provenance: "ai-generated"
+ai_teaching_notes: "MT2-13.teaching.md"
+assessments_file: "MT2-13.assessments.yaml"
+examples_file: "MT2-13.examples.yaml"

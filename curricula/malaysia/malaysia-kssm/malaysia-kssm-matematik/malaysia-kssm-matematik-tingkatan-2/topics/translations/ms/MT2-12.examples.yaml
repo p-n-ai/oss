@@ -1,0 +1,76 @@
+topic_id: MT2-12
+provenance: ai-assisted
+description: "Contoh kerja berperingkat untuk Sukatan Kecenderungan Memusat melibatkan data terkumpul dan tak terkumpul."
+worked_examples:
+  - id: WE-01
+    topic: "Mengira Mod, Min dan Median bagi Data Tak Terkumpul"
+    learning_objective: "12.1.1"
+    difficulty: easy
+    real_world_analogy: "Mencari buah paling banyak dalam bakul seperti mencari Mod. Mencari orang di tengah barisan seperti mencari Median."
+    misconception_alert: "Murid sering lupa menyusun data sebelum mencari median. Jika tidak disusun, median tidak boleh ditentukan."
+    scenario: "Sekumpulan lima orang murid di SMK Damai merekodkan wang saku harian mereka: RM5, RM8, RM3, RM7 dan RM5. Tentukan mod, min dan median."
+    working: |
+      1. Kenal pasti Mod:
+         - Nilai: 3, 5, 5, 7, 8
+         - RM5 paling kerap → Mod = RM5
+
+      2. Kira Min:
+         - Jumlah = 5 + 8 + 3 + 7 + 5 = 28
+         - Min = 28 / 5 = 5.60
+         - Min = RM5.60
+
+      3. Cari Median:
+         - Data tersusun: 3, 5, 5, 7, 8
+         - Nilai tengah = 5
+         - Median = RM5
+
+  - id: WE-02
+    topic: "Min Data Terkumpul Menggunakan Titik Tengah"
+    learning_objective: "12.1.4"
+    difficulty: medium
+    real_world_analogy: "Dalam data terkumpul, setiap kumpulan diwakili oleh satu nilai tengah seperti seorang ketua kelas."
+    misconception_alert: "Murid sering menggunakan kekerapan sahaja tanpa mendarab dengan titik tengah (f × x)."
+    scenario: "Jadual menunjukkan masa (minit) yang diambil oleh 10 murid untuk menjawab kuiz."
+
+    working: |
+      | Masa (minit) | Kekerapan (f) |
+      |--------------|----------------|
+      | 1–5          | 4              |
+      | 6–10         | 6              |
+
+      1. Titik tengah:
+         - (1+5)/2 = 3
+         - (6+10)/2 = 8
+
+      2. f × x:
+         - 4 × 3 = 12
+         - 6 × 8 = 48
+
+      3. Jumlah:
+         - Σfx = 60
+         - Σf = 10
+
+      4. Min:
+         - 60 / 10 = 6
+         - Min = 6 minit
+
+  - id: WE-03
+    topic: "Pemilihan Min atau Median dengan Nilai Ekstrem"
+    learning_objective: "12.1.5"
+    difficulty: hard
+    real_world_analogy: "Seorang jutawan dalam kumpulan murid akan menaikkan min secara tidak realistik, tetapi median masih mewakili keadaan sebenar."
+    misconception_alert: "Murid sering memilih min tanpa mempertimbangkan kesan nilai ekstrem."
+    scenario: "Sebuah syarikat membayar gaji: RM2000, RM2200, RM2100, RM2300 dan RM15000. Sukatan manakah paling sesuai mewakili gaji pekerja?"
+
+    working: |
+      1. Min:
+         - Jumlah = 23600
+         - Min = 23600 / 5 = 4720
+
+      2. Median:
+         - Susun: 2000, 2100, 2200, 2300, 15000
+         - Median = 2200
+
+      3. Kesimpulan:
+         - Min terpesong oleh nilai ekstrem (15000)
+         - Median lebih mewakili data sebenar

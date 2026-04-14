@@ -1,153 +1,132 @@
 topic_id: MT2-07
-provenance: ai-generated
+provenance: ai-assisted
 
 questions:
-  # Questions for learning objective 7.1.3
   - id: Q1
-    text: "Dua titik pada satah Cartes ialah A(2, 3) dan B(5, 7). Hitung jarak antara dua titik ini."
-    difficulty: medium
-    learning_objective: 7.1.3
-    tp_level: 2
-    kbat: false
+    text: "Which of the following best describes the distance between two points on a Cartesian plane?"
+    difficulty: easy
+    type: multiple_choice
+    learning_objective: "7.1.1"
+    tp_level: 1
     answer:
-      type: exact
+      value: "The shortest straight-line length connecting two points."
+      working: |
+        Distance in the Cartesian system is defined as the shortest straight-line segment joining two coordinates.
+      options:
+        A: "The shortest straight-line length connecting two points."
+        B: "The total number of grid units moved horizontally and vertically."
+        C: "The average of the x-coordinates and y-coordinates."
+        D: "The difference between x-values only."
+      distractors:
+        - value: "B"
+          feedback: "This describes Manhattan distance, not Euclidean distance used in KSSM."
+        - value: "C"
+          feedback: "This describes midpoint, not distance."
+        - value: "D"
+          feedback: "Distance involves both x and y components, not only one axis."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Think: What is the shortest possible path between two points?"
+
+  - id: Q2
+    text: "Given points P(2,2) and Q(2,8), determine the distance between them."
+    difficulty: easy
+    type: exact
+    learning_objective: "7.1.3"
+    tp_level: 2
+    answer:
+      value: "6"
+      working: |
+        Since x-coordinates are equal (x = 2), distance is vertical only.
+        Apply |y2 - y1| = |8 - 2| = 6.
+      options: null
+    marks: 2
+    hints:
+      - level: 1
+        text: "Same x-value means you only compare y-values."
+
+  - id: Q3
+    text: "Calculate the distance between A(1,5) and B(5,2)."
+    difficulty: medium
+    type: exact
+    learning_objective: "7.1.3"
+    tp_level: 3
+    answer:
       value: "5"
       working: |
-        Menggunakan rumus jarak antara dua titik, $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.
-        Substitusikan koordinat, $d = \sqrt{(5 - 2)^2 + (7 - 3)^2} = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5$.
+        d = √((5−1)² + (2−5)²)
+        = √(4² + (−3)²)
+        = √(16 + 9)
+        = 5
+      options: null
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menulis rumus jarak antara dua titik."
+        criteria: "Correct substitution into distance formula"
       - marks: 1
-        criteria: "Substitusi koordinat ke dalam rumus."
+        criteria: "Correct handling of negative values"
       - marks: 1
-        criteria: "Mengira nilai jarak dengan betul."
+        criteria: "Correct final simplification"
     hints:
       - level: 1
-        text: 'Gunakan formula jarak: $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.'
+        text: "Always square both x and y differences separately."
       - level: 2
-        text: "MISCONCEPTION ALERT: Pastikan anda mengkuadratkan perbezaan setiap komponen."
+        text: "Remember: (-3)² becomes positive."
 
-  # Questions for learning objective 7.1.4
-  - id: Q2
-    text: "Jika panjang garis antara P(-1, -2) dan Q(x, 4) adalah 10, cari nilai x."
-    difficulty: medium
-    learning_objective: 7.1.4
-    tp_level: 2
-    kbat: true
-    answer:
-      type: exact
-      value: "7"
-      working: |
-        Menggunakan rumus jarak, $d = \sqrt{(x - (-1))^2 + (4 - (-2))^2} = 10$.
-        Jadi, $\sqrt{(x + 1)^2 + 6^2} = 10$.
-        Oleh itu, $(x + 1)^2 + 36 = 100$.
-        $(x + 1)^2 = 64$.
-        $x + 1 = \pm 8$.
-        Jadi, $x = 7$ atau $x = -9$.
-        Nilai $x = 7$ dipilih kerana ia memuaskan keadaan soalan.
-    marks: 4
-    rubric:
-      - marks: 1
-        criteria: "Menulis persamaan berdasarkan rumus jarak."
-      - marks: 1
-        criteria: "Mengembangkan persamaan dengan betul."
-      - marks: 1
-        criteria: "Mengira nilai $x$ dengan betul."
-      - marks: 1
-        criteria: "Memilih nilai $x$ yang sesuai dengan konteks."
-    hints:
-      - level: 1
-        text: "Gunakan rumus jarak dan substitusi nilai yang diketahui."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Ingat untuk menyelesaikan persamaan kuadrat dengan betul."
-
-  # Questions for learning objective 7.2.3
-  - id: Q3
-    text: "Cari koordinat titik tengah bagi garis yang menyambungkan titik C(4, 8) dan D(10, 2)."
-    difficulty: medium
-    learning_objective: 7.2.3
-    tp_level: 2
-    kbat: false
-    answer:
-      type: exact
-      value: "(7, 5)"
-      working: |
-        Menggunakan rumus titik tengah, $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$.
-        Substitusikan koordinat, $M = \left(\frac{4 + 10}{2}, \frac{8 + 2}{2}\right) = \left(\frac{14}{2}, \frac{10}{2}\right) = (7, 5)$.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Menulis rumus titik tengah."
-      - marks: 1
-        criteria: "Substitusi koordinat ke dalam rumus."
-      - marks: 1
-        criteria: "Mengira koordinat titik tengah dengan betul."
-    hints:
-      - level: 1
-        text: 'Gunakan formula titik tengah: $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$.'
-      - level: 2
-        text: "MISCONCEPTION ALERT: Pastikan anda menambah koordinat yang sama jenis dulu sebelum membahagi dua."
-
-  # Questions for learning objective 7.2.4
   - id: Q4
-    text: "Sebuah segitiga mempunyai titik sudut di E(-3, 5), F(1, -1), dan G(5, 3). Tentukan koordinat titik tengah bagi garis yang menyambungkan F dan G."
+    text: "Find the midpoint of C(-2,4) and D(4,-6)."
     difficulty: medium
-    learning_objective: 7.2.4
-    tp_level: 2
-    kbat: true
+    type: exact
+    learning_objective: "7.2.3"
+    tp_level: 3
     answer:
-      type: exact
-      value: "(3, 1)"
+      value: "(1,-1)"
       working: |
-        Menggunakan rumus titik tengah, $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$.
-        Substitusikan koordinat F dan G, $M = \left(\frac{1 + 5}{2}, \frac{-1 + 3}{2}\right) = \left(\frac{6}{2}, \frac{2}{2}\right) = (3, 1)$.
+        Midpoint formula: ((x1+x2)/2, (y1+y2)/2)
+        x = (-2+4)/2 = 1
+        y = (4-6)/2 = -1
+      options: null
     marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Menulis rumus titik tengah."
-      - marks: 1
-        criteria: "Substitusi koordinat F dan G ke dalam rumus."
-      - marks: 1
-        criteria: "Mengira koordinat titik tengah dengan betul."
     hints:
       - level: 1
-        text: 'Gunakan formula titik tengah: $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$.'
-      - level: 2
-        text: "Pastikan anda menggunakan koordinat F dan G sahaja."
+        text: "Average x-values separately from y-values."
 
-  # Questions for learning objective 7.3.1
   - id: Q5
-    text: "Dalam sebuah sistem koordinat, P(2, -3) dan Q adalah dua titik dengan jarak 13 unit antara satu sama lain. Jika koordinat x bagi Q ialah 10, cari koordinat y bagi Q."
-    difficulty: medium
-    learning_objective: 7.3.1
-    tp_level: 2
-    kbat: true
+    text: "Midpoint of PQ is M(3,4). If P is (1,2), find Q."
+    difficulty: hard
+    type: exact
+    learning_objective: "7.2.4"
+    tp_level: 4
     answer:
-      type: free_text
-      value: "y = 9 or y = -15"
+      value: "(5,6)"
       working: |
-        Menggunakan rumus jarak, $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} = 13$.
-        Substitusi $x_2 = 10$, $x_1 = 2$, $y_1 = -3$: 
-        $\sqrt{(10 - 2)^2 + (y + 3)^2} = 13$.
-        $\sqrt{64 + (y + 3)^2} = 13$.
-        $(y + 3)^2 = 105$.
-        $y + 3 = \pm \sqrt{105}$.
-        Jadi, $y = \sqrt{105} - 3$ atau $y = -\sqrt{105} - 3$.
-        $y \approx 9$ atau $y \approx -15$.
+        Let Q = (x,y)
+        (1+x)/2 = 3 → x = 5
+        (2+y)/2 = 4 → y = 6
+      options: null
     marks: 4
-    rubric:
-      - marks: 1
-        criteria: "Menulis persamaan berdasarkan rumus jarak."
-      - marks: 1
-        criteria: "Mengembangkan persamaan dengan betul."
-      - marks: 1
-        criteria: "Mengira nilai $y$ dengan betul."
-      - marks: 1
-        criteria: "Mengetahui bahawa terdapat dua kemungkinan penyelesaian."
     hints:
       - level: 1
-        text: "Gunakan rumus jarak dan substitusi nilai yang diketahui."
+        text: "Reverse midpoint means solving backwards."
+
+  - id: Q6
+    text: "A map scale is 1 unit = 5 km. Hospital is at (-4,3), school is at (8,-2). Find real distance."
+    difficulty: hard
+    type: exact
+    learning_objective: "7.3.1"
+    tp_level: 5
+    answer:
+      value: "65"
+      working: |
+        d = √((8+4)² + (-2-3)²)
+        = √(12² + (-5)²)
+        = 13 units
+        Real distance = 13 × 5 = 65 km
+      options: null
+    marks: 4
+    hints:
+      - level: 1
+        text: "First find grid distance."
       - level: 2
-        text: "Perhatikan bahawa persamaan kuadrat akan memberi dua penyelesaian."
+        text: "Then apply scale conversion."

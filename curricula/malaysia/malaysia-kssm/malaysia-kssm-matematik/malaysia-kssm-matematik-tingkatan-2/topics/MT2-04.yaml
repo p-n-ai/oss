@@ -1,75 +1,92 @@
 id: MT2-04
-official_ref: "Bab 4" # as printed in KSSM DSKP document
+official_ref: "Chapter 4"
 name: "Poligon"
 name_en: "Polygons"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-2
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: intermediate
 tier: core
-content_standards:
-    - id: "4.1"
-      text: "Poligon Sekata dan Tak Sekata"
-      text_en: "Regular and Irregular Polygons"
-    - id: "4.2"
-      text: "Sudut Pedalaman dan Sudut Peluaran Poligon"
-      text_en: "Interior and Exterior Angles of Polygons"
-learning_objectives:
-    - id: "4.1.1"
-      text: "Menghuraikan sifat geometri poligon sekata menggunakan pelbagai perwakilan."
-      text_en: "Describe the geometric properties of regular polygons using various representations."
-      bloom: understand
-    - id: "4.1.2"
-      text: "Membina poligon sekata menggunakan pelbagai kaedah dan menerangkan rasional langkah-langkah pembinaan."
-      text_en: "Construct regular polygons using various methods and explain the rationale of the construction steps."
-      bloom: apply
-    - id: "4.2.1"
-      text: "Menerbitkan rumus hasil tambah sudut pedalaman suatu poligon."
-      text_en: "Derive the formula for the sum of interior angles of a polygon."
-      bloom: analyze
-    - id: "4.2.2"
-      text: "Membuat dan mengesahkan konjektur tentang hasil tambah sudut peluaran poligon."
-      text_en: "Make and verify conjectures about the sum of exterior angles of a polygon."
-      bloom: evaluate
-    - id: "4.2.3"
-      text: "Menentukan nilai sudut pedalaman, sudut peluaran dan bilangan sisi suatu poligon."
-      text_en: "Determine the value of interior angles, exterior angles, and the number of sides of a polygon."
-      bloom: apply
-    - id: "4.2.4"
-      text: "Menyelesaikan masalah yang melibatkan poligon."
-      text_en: "Solve problems involving polygons."
-      bloom: apply
+
 prerequisites:
-    required: []
+  required:
+    - MT1-09
+    - MT1-08
+  recommended: []
+
 bloom_levels:
-    - understand
-    - apply
-    - analyze
-    - evaluate
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-29T16:00:08Z"
-teaching:
-    sequence:
-        - 'Step 1: Introduce polygons and differentiate between regular and irregular shapes (20 min)'
-        - 'Step 2: Guide students in constructing regular polygons using compasses and rulers (30 min)'
-        - 'Step 3: Discuss and derive formulas for the sum of interior and exterior angles (25 min)'
-    common_misconceptions:
-        - misconception: All sides are always equal in polygons
-          remediation: Clarify the definition and use examples to differentiate regular and irregular polygons
-        - misconception: Sum of exterior angles changes with polygon type
-          remediation: Demonstrate the constant sum property with multiple polygons
-engagement_hooks:
-    - Discuss the use of polygons in local architecture, like traditional Malaysian patterns in batik
-    - Explore how polygons are used in wood carving designs in Malaysia
-ai_teaching_notes: MT2-04.teaching.md
+  - understand
+  - apply
+  - analyze
+  - evaluate
+
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
-assessments_file: MT2-04.assessments.yaml
-examples_file: MT2-04.examples.yaml
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+content_standards:
+  - id: "4.1"
+    text: "Poligon Sekata"
+    text_en: "Regular Polygons"
+  - id: "4.2"
+    text: "Sudut Pedalaman dan Sudut Peluaran Poligon"
+    text_en: "Interior and Exterior Angles of Polygons"
+
+learning_objectives:
+  - id: 4.1.1
+    text: "Menghuraikan sifat geometri poligon sekata menggunakan pelbagai perwakilan."
+    text_en: "Describe the geometric properties of regular polygons using various representations."
+    bloom: understand
+  - id: 4.1.2
+    text: "Membina poligon sekata menggunakan pelbagai kaedah dan menerangkan rasional langkah-langkah pembinaan."
+    text_en: "Construct regular polygons using various methods and explain the rationales for the steps of construction."
+    bloom: apply
+  - id: 4.2.1
+    text: "Menerbitkan rumus hasil tambah sudut pedalaman suatu poligon."
+    text_en: "Derive the formula for the sum of interior angles of a polygon."
+    bloom: analyze
+  - id: 4.2.2
+    text: "Membuat dan mengesahkan konjektur tentang hasil tambah sudut peluaran poligon."
+    text_en: "Make and verify conjectures about the sum of exterior angles of a polygon."
+    bloom: evaluate
+  - id: 4.2.3
+    text: "Menentukan nilai sudut pedalaman, sudut peluaran dan bilangan sisi suatu poligon."
+    text_en: "Determine the values of interior angles, exterior angles and the number of sides of a polygon."
+    bloom: apply
+  - id: 4.2.4
+    text: "Menyelesaikan masalah yang melibatkan poligon."
+    text_en: "Solve problems involving polygons."
+    bloom: apply
+
+performance_standards:
+  - id: TP1
+    text_en: "Demonstrate the basic knowledge of regular and irregular polygons."
+  - id: TP2
+    text_en: "Demonstrate the understanding of the construction of regular polygons."
+  - id: TP3
+    text_en: "Apply the understanding of interior and exterior angles and number of sides to perform simple tasks."
+  - id: TP4
+    text_en: "Apply appropriate knowledge and skills of polygons in the context of simple routine problem solving."
+  - id: TP5
+    text_en: "Apply appropriate knowledge and skills of polygons in the context of complex routine problem solving."
+  - id: TP6
+    text_en: "Apply appropriate knowledge and skills of polygons in the context of non-routine problem solving in a creative manner."
+
+teaching:
+  sequence:
+    - "Step 1: Introduction to regular vs irregular polygons using sides, angles, and axes of symmetry (30 min)"
+    - "Step 2: Construction of regular polygons using geometric tools and software (30 min)"
+    - "Step 3: Deriving the interior angle formula (n-2) × 180° (30 min)"
+    - "Step 4: Exploring exterior angles and their sum (360°) (30 min)"
+    - "Step 5: Problem solving involving polygons (30 min)"
+
+ai_teaching_notes: "MT2-04.teaching.md"
+assessments_file: "MT2-04.assessments.yaml"
+examples_file: "MT2-04.examples.yaml"
+quality_level: 3
+provenance: ai-assisted

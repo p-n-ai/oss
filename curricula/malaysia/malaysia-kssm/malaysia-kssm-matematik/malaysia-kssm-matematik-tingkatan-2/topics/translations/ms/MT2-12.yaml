@@ -1,0 +1,107 @@
+id: MT2-12
+official_ref: "Bab 12"
+name: "Sukatan Kecenderungan Memusat"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+sync_checked: true
+
+content_standards:
+  - id: "12.1"
+    text: "Sukatan Kecenderungan Memusat"
+
+learning_objectives:
+  - id: "12.1.1"
+    content_standard_id: "12.1"
+    text: "Menentukan mod, min dan median bagi data tak terkumpul."
+    bloom: apply
+
+  - id: "12.1.2"
+    content_standard_id: "12.1"
+    text: "Membuat kesimpulan tentang kesan perubahan data terhadap nilai mod, min dan median."
+    bloom: analyze
+
+  - id: "12.1.3"
+    content_standard_id: "12.1"
+    text: "Mengumpul data, membina dan mentafsir jadual kekerapan bagi data terkumpul."
+    bloom: apply
+
+  - id: "12.1.4"
+    content_standard_id: "12.1"
+    text: "Menentukan kelas mod dan min bagi data terkumpul."
+    bloom: apply
+
+  - id: "12.1.5"
+    content_standard_id: "12.1"
+    text: "Memilih dan menjustifikasikan sukatan kecenderungan memusat yang sesuai termasuk data bernilai ekstrem."
+    bloom: evaluate
+
+  - id: "12.1.6"
+    content_standard_id: "12.1"
+    text: "Menentukan mod, min dan median daripada perwakilan data."
+    bloom: apply
+
+  - id: "12.1.7"
+    content_standard_id: "12.1"
+    text: "Mengaplikasikan kefahaman untuk membuat ramalan, hujah dan kesimpulan."
+    bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor: "Menunjukkan pengetahuan asas tentang mod, min dan median."
+  - level: 2
+    descriptor: "Menunjukkan kefahaman tentang mod, min dan median."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman dalam tugasan mudah."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dalam penyelesaian masalah rutin."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dalam masalah rutin kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dalam penyelesaian masalah bukan rutin secara kreatif."
+
+prerequisites:
+  required:
+    - "MT1-12"
+  recommended: []
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Langkah 1: Perkenalkan mod, min dan median menggunakan data kehidupan sebenar."
+    - "Langkah 2: Kira sukatan bagi data tak terkumpul."
+    - "Langkah 3: Analisis kesan perubahan data dan nilai ekstrem."
+    - "Langkah 4: Bina dan tafsir jadual kekerapan data terkumpul."
+    - "Langkah 5: Kira kelas mod dan min bagi data terkumpul."
+    - "Langkah 6: Pilih sukatan sesuai untuk taburan tidak simetri."
+    - "Langkah 7: Aplikasi dalam tafsiran dan ramalan."
+
+  common_misconceptions:
+    - misconception: "Min sentiasa mewakili data paling tepat."
+      remediation: "Tunjukkan bagaimana nilai ekstrem mempengaruhi min tetapi tidak median."
+    - misconception: "Median boleh ditentukan tanpa menyusun data."
+      remediation: "Tekankan keperluan menyusun data sebelum mencari median."
+    - misconception: "Semua sukatan memberi nilai yang sama."
+      remediation: "Gunakan data condong untuk menunjukkan perbezaan jelas."
+
+  engagement_hooks:
+    - "Bagaimana analisis sukan memilih pemain terbaik menggunakan purata?"
+    - "Mengapa laporan ekonomi guna min dan median pendapatan?"
+    - "Bagaimana data perbelanjaan harian boleh dianalisis secara statistik?"
+
+quality_level: 3
+provenance: ai-assisted
+sync_checked: true
+ai_teaching_notes: "MT2-12.teaching.md"
+assessments_file: "MT2-12.assessments.yaml"
+examples_file: "MT2-12.examples.yaml"

@@ -1,0 +1,68 @@
+id: MT2-13
+topic: "Kebarangkalian Mudah"
+
+examples:
+  # --- 13.2.1 Ruang Sampel (Mudah) ---
+  - id: WE-01
+    topic: "Ruang Sampel dan Peristiwa"
+    difficulty: easy
+    learning_objective: "13.2.1"
+    real_world_analogy: "Ruang sampel macam menu di gerai Pasar Malam. Semua pilihan makanan ialah ruang sampel, manakala makanan yang kamu pilih ialah satu peristiwa."
+    misconception_alert: "Perangkap 'Set vs Nombor'. Pelajar sering keliru antara S (senarai) dengan n(S) (bilangan). S ialah { }, n(S) ialah nombor."
+    scenario: "Satu huruf dipilih secara rawak daripada perkataan 'PROBABILITY'. Senaraikan ruang sampel dan peristiwa memilih huruf vokal."
+    working: |
+      1. Senaraikan semua huruf: P, R, O, B, A, B, I, L, I, T, Y.
+      2. Tulis ruang sampel: S = {P, R, O, B, A, B, I, L, I, T, Y}.
+      3. Kira jumlah kesudahan: n(S) = 11.
+      4. Kenal pasti vokal: O, A, I, I.
+      5. Tulis peristiwa A: A = {O, A, I, I}.
+      6. Kira n(A) = 4.
+
+  # --- 13.1.1 Kebarangkalian Eksperimen (Sederhana) ---
+  - id: WE-02
+    topic: "Kebarangkalian Eksperimen"
+    difficulty: medium
+    learning_objective: "13.1.1"
+    real_world_analogy: "Macam kira berapa kali roti canai jadi rangup di Mamak daripada 20 pesanan — itu kebarangkalian eksperimen."
+    misconception_alert: "Kekeliruan 'Teori vs Eksperimen'. Pelajar fikir nilai mesti sama. Sebenarnya ia menghampiri apabila bilangan ulangan meningkat."
+    scenario: "Sebuah syiling dilambung 80 kali dan mendapat 52 kali kepala. Cari kebarangkalian eksperimen kepala."
+    working: |
+      1. Kekerapan kepala = 52.
+      2. Jumlah ulangan = 80.
+      3. Gunakan formula P(A) = kekerapan / jumlah.
+      4. P(kepala) = 52/80.
+      5. Ringkaskan: 52 ÷ 4 = 13, 80 ÷ 4 = 20.
+      6. Jawapan akhir: 13/20.
+
+  # --- 13.3.2 Pelengkap Peristiwa (Sederhana) ---
+  - id: WE-03
+    topic: "Kebarangkalian Peristiwa Pelengkap"
+    difficulty: medium
+    learning_objective: "13.3.2"
+    real_world_analogy: "Kalau 30% kemungkinan jalan sesak, maka 70% lagi tidak sesak — itu pelengkap."
+    misconception_alert: "Perangkap 'Tidak Event ≠ Sekadar Lawan'. Pelajar lupa guna formula 1 - P(A)."
+    scenario: "Kebarangkalian mengambil manik merah ialah 2/5. Cari kebarangkalian TIDAK mengambil manik merah."
+    working: |
+      1. P(merah) = 2/5.
+      2. Guna formula pelengkap: P(A') = 1 - P(A).
+      3. P(tidak merah) = 1 - 2/5.
+      4. Tukar 1 = 5/5.
+      5. 5/5 - 2/5 = 3/5.
+      6. Jawapan akhir: 3/5.
+
+  # --- 13.4.1 Penyelesaian Masalah (KBAT Tinggi) ---
+  - id: WE-04
+    topic: "Penyelesaian Masalah Kebarangkalian"
+    difficulty: hard
+    learning_objective: "13.4.1"
+    real_world_analogy: "Bayangkan kamu pengurus gerai pasar malam. Kamu guna corak jualan lama untuk jangka keuntungan masa depan — ini strategi kebarangkalian."
+    misconception_alert: "Perangkap 'Langkau Langkah'. Pelajar terus kira jawapan tanpa struktur ruang sampel dan kebarangkalian."
+    scenario: "Sebuah kedai menjual 40 minuman sehari. 10 ialah teh ais. Untung setiap teh ais ialah RM2. Cari jumlah keuntungan dalam 30 hari."
+    working: |
+      1. Jumlah minuman sehari = 40.
+      2. Teh ais = 10.
+      3. Kebarangkalian = 10/40 = 1/4.
+      4. Jumlah 30 hari = 40 × 30 = 1200.
+      5. Jangkaan teh ais = 1/4 × 1200 = 300.
+      6. Untung = 300 × RM2 = RM600.
+      7. Jawapan akhir = RM600.

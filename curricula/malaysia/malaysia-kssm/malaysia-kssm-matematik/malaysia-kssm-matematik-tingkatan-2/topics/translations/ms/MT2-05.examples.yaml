@@ -1,0 +1,82 @@
+topic_id: MT2-05
+provenance: ai-assisted
+description: "Contoh penyelesaian Bab 5: Bulatan melibatkan sifat, simetri, pembinaan dan ukuran."
+
+worked_examples:
+  - id: WE-01
+    topic: "Mengenal bahagian bulatan (5.1.1)"
+    difficulty: easy
+    real_world_analogy: "Bayangkan 'Kipas Anyaman' tradisional. Bahagian tengah tempat kita pegang ialah pusat bulatan, manakala bahagian luar ialah lilitan."
+    misconception_alert: "Pelajar sering keliru antara Sektor dan Tembereng. Sektor seperti potongan pizza (guna dua jejari), manakala tembereng ialah bahagian melengkung yang dipotong oleh perentas."
+    scenario: "Fatimah melukis garisan lurus merentasi kek bulat melalui lilin di tengah. Kenal pasti garisan dan bentuk yang terhasil."
+    working: |
+      1. Garisan tersebut melalui pusat bulatan.
+      2. Maka garisan itu ialah **Diameter**.
+      3. Diameter juga merupakan **Perentas** terpanjang.
+      4. Diameter membahagi bulatan kepada dua bahagian sama.
+      5. Setiap bahagian ialah **Separa bulatan**.
+      6. Jawapan: Diameter membentuk dua separa bulatan.
+
+  - id: WE-02
+    topic: "Menentukan pusat melalui pembinaan (5.2.2)"
+    difficulty: medium
+    real_world_analogy: "Bayangkan roda basikal yang hilang hab (pusat). Pusat boleh ditemui semula dengan mencari titik persilangan pembahagi dua sama serenjang."
+    misconception_alert: "Pelajar sering cuba teka pusat secara visual. Dalam geometri, pusat mesti ditentukan melalui pembinaan pembahagi dua sama serenjang perentas."
+    scenario: "Pak Abu mempunyai pinggan bulat tanpa tanda pusat. Dia melukis perentas PQ = 6 cm dan RS = 8 cm. Bagaimana dia mencari pusat?"
+    working: |
+      1. Lukis perentas PQ pada bulatan.
+      2. Bina pembahagi dua sama serenjang PQ:
+         - Bukakan jangka lebih daripada separuh PQ.
+         - Lukis lengkok dari titik P.
+         - Lukis lengkok dari titik Q tanpa ubah bukaan jangka.
+         - Sambungkan titik persilangan lengkok.
+      3. Ulang langkah sama untuk RS.
+      4. Kedua-dua pembahagi dua sama serenjang akan bersilang.
+      5. Titik persilangan ialah **Pusat (O)**.
+      6. Ukur O ke mana-mana titik pada bulatan untuk dapatkan jejari.
+
+  - id: WE-03
+    topic: "Perentas dan Teorem Pythagoras (5.2.3)"
+    difficulty: hard
+    real_world_analogy: "Rangka Wau Bulan: tulang tengah bertindak sebagai jejari yang membahagi perentas pada sudut tepat."
+    misconception_alert: "Pelajar sering lupa bahawa jejari, jarak dari pusat, dan separuh perentas membentuk segi tiga bersudut tepat untuk guna Pythagoras."
+    scenario: "Sebuah tingkap bulat mempunyai jejari 13 cm. Perentas berada 5 cm dari pusat. Cari panjang perentas."
+    working: |
+      1. Kenal pasti komponen segi tiga bersudut tepat:
+         - Hipotenus (jejari) = 13 cm
+         - Satu sisi (jarak dari pusat) = 5 cm
+         - Sisi lain (separuh perentas) = x
+      2. Guna Teorem Pythagoras:
+         $x^2 + 5^2 = 13^2$
+      3. Kembangkan:
+         $x^2 + 25 = 169$
+      4. Susun semula:
+         $x^2 = 144$
+      5. Selesaikan:
+         $x = 12$
+      6. Panjang perentas penuh:
+         $2x = 24$ cm
+      7. Jawapan: 24 cm
+
+  - id: WE-04
+    topic: "Aplikasi luas dan lilitan (5.3.4)"
+    difficulty: hard
+    real_world_analogy: "Pinggan Mamak: bahagian berkuah ialah luas ($\pi r^2$), manakala tepi pinggan ialah lilitan ($2\pi r$)."
+    misconception_alert: "Pelajar sering lupa unit. Pastikan semua unit ditukar sebelum kuasa dua radius digunakan."
+    scenario: "Sebuah meja bulat mempunyai lilitan 132 cm. Cari luas meja tersebut. (Guna $\pi = \frac{22}{7}$)"
+    working: |
+      1. Guna formula lilitan:
+         $C = 2\pi r$
+      2. Gantikan nilai:
+         $132 = 2 \times \frac{22}{7} \times r$
+      3. Ringkaskan:
+         $132 = \frac{44}{7}r$
+      4. Selesaikan r:
+         $r = 21$ cm
+      5. Guna formula luas:
+         $A = \pi r^2$
+      6. Gantikan:
+         $A = \frac{22}{7} \times 21^2$
+      7. Kira:
+         $A = 1386 \text{ cm}^2$
+      8. Jawapan akhir: 1386 cm²

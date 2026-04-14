@@ -1,0 +1,171 @@
+id: MT2-06
+topic_id: MT2-06
+
+questions:
+
+  - id: Q1
+    text: "Satu bentuk mempunyai 1 tapak bulatan, 1 puncak dan 1 permukaan melengkung. Namakan bentuk tersebut."
+    difficulty: easy
+    learning_objective: "6.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "B"
+      options:
+        A: "Silinder"
+        B: "Kon"
+        C: "Piramid"
+        D: "Sfera"
+      working: |
+        Langkah 1: Kenal pasti ciri-ciri.
+        Langkah 2: Bandingkan bentuk:
+        Silinder: 2 tapak → tolak
+        Piramid: tapak poligon → tolak
+        Sfera: tiada tapak → tolak
+      distractors:
+        - value: "A"
+          feedback: "Silinder mempunyai dua tapak bulatan."
+        - value: "C"
+          feedback: "Piramid tidak mempunyai tapak bulatan."
+        - value: "D"
+          feedback: "Sfera tiada bucu atau tepi."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Bayangkan aiskrim kon. Apakah bentuknya?"
+
+  - id: Q2
+    text: "Benar atau Palsu: Sfera mempunyai sifar bucu dan sifar tepi."
+    difficulty: easy
+    learning_objective: "6.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "A"
+      options:
+        A: "Benar"
+        B: "Palsu"
+      working: |
+        Langkah 1: Sfera ialah bentuk melengkung sepenuhnya.
+        Langkah 2: Tiada permukaan rata.
+        Langkah 3: Tiada bucu atau tepi.
+      distractors:
+        - value: "B"
+          feedback: "Sfera tidak mempunyai sudut atau bucu."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Bayangkan bola sepak. Ada sudut tajam?"
+
+  - id: Q3
+    text: "Satu bentangan terdiri daripada 2 bulatan dan 1 segi empat tepat. Apakah bentuk yang terhasil?"
+    difficulty: easy
+    learning_objective: "6.2.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "Silinder"
+    marks: 2
+    hints:
+      - level: 1
+        text: "Bayangkan tin Milo yang dibuka."
+
+  - id: Q4
+    text: "Bolehkah sfera dibentuk daripada bentangan rata?"
+    difficulty: medium
+    learning_objective: "6.2.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "B"
+      options:
+        A: "Ya"
+        B: "Tidak"
+      working: |
+        Sfera tidak boleh diratakan tanpa herotan.
+      distractors:
+        - value: "A"
+          feedback: "Sfera tidak boleh dibentangkan tanpa regangan."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Kupas oren. Boleh jadi rata sepenuhnya?"
+
+  - id: Q5
+    text: "Hitung luas permukaan silinder tertutup dengan jejari $7 \\text{ cm}$ dan tinggi $10 \\text{ cm}$. Guna $\\pi = \\frac{22}{7}$."
+    difficulty: medium
+    learning_objective: "6.3.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "748 cm^2"
+    marks: 3
+    hints:
+      - level: 1
+        text: "Adakah anda sudah kira kedua-dua tapak bulatan?"
+
+  - id: Q6
+    text: "Kon dan silinder mempunyai tapak dan tinggi yang sama. Isi padu silinder ialah $450 \\text{ cm}^3$. Cari isi padu kon."
+    difficulty: medium
+    learning_objective: "6.4.1"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: "150 cm^3"
+    marks: 2
+    hints:
+      - level: 1
+        text: "Rujuk eksperimen sagu."
+
+  - id: Q7
+    text: "Bongkah gabungan terdiri daripada kubus dan piramid. Apakah kaedah yang betul untuk isi padu?"
+    difficulty: hard
+    learning_objective: "6.4.3"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: multiple_choice
+      value: "C"
+      options:
+        A: "Darab"
+        B: "Tolak"
+        C: "Tambah"
+        D: "Purata"
+      working: |
+        Isi padu gabungan = jumlah kedua-dua bahagian.
+      distractors:
+        - value: "A"
+          feedback: "Isi padu tidak didarab."
+        - value: "B"
+          feedback: "Tiada penolakan kecuali ruang kosong."
+        - value: "D"
+          feedback: "Purata tidak mewakili isi padu."
+    marks: 3
+    hints:
+      - level: 1
+        text: "Bayangkan dua blok disambung."
+
+  - id: Q8
+    text: "TP6: Perubahan manakah paling meningkatkan isi padu silinder?"
+    difficulty: hard
+    learning_objective: "6.4.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: multiple_choice
+      value: "A"
+      options:
+        A: "Tingkatkan jejari"
+        B: "Tingkatkan tinggi"
+        C: "Kurangkan jejari"
+        D: "Tiada perubahan"
+    marks: 4
+    hints:
+      - level: 1
+        text: "Pemboleh ubah mana yang dikuasakan dua?"

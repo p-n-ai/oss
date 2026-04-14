@@ -1,0 +1,100 @@
+id: MT2-09
+official_ref: "Bab 9"
+name: "Laju dan Pecutan"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+
+content_standards:
+  - id: "9.1"
+    text: "Laju"
+  - id: "9.2"
+    text: "Pecutan"
+
+learning_objectives:
+  - id: "9.1.1"
+    content_standard_id: "9.1"
+    text: "Menerangkan maksud laju sebagai suatu kadar yang melibatkan jarak dan masa."
+    bloom: understand
+  - id: "9.1.2"
+    content_standard_id: "9.1"
+    text: "Memerihalkan perbezaan antara laju seragam dan laju tidak seragam."
+    bloom: understand
+  - id: "9.1.3"
+    content_standard_id: "9.1"
+    text: "Melaksanakan pengiraan yang melibatkan laju dan laju purata termasuk penukaran unit."
+    bloom: apply
+  - id: "9.1.4"
+    content_standard_id: "9.1"
+    text: "Menyelesaikan masalah yang melibatkan laju."
+    bloom: analyze
+  - id: "9.2.1"
+    content_standard_id: "9.2"
+    text: "Menerangkan maksud pecutan dan nyahpecutan sebagai suatu kadar yang melibatkan laju dan masa."
+    bloom: understand
+  - id: "9.2.2"
+    content_standard_id: "9.2"
+    text: "Melaksanakan pengiraan yang melibatkan pecutan termasuk penukaran unit."
+    bloom: apply
+  - id: "9.2.3"
+    content_standard_id: "9.2"
+    text: "Menyelesaikan masalah yang melibatkan pecutan."
+    bloom: analyze
+
+performance_standards:
+  - level: 1
+    descriptor: "Menunjukkan pengetahuan asas tentang laju dan pecutan."
+  - level: 2
+    descriptor: "Menunjukkan kefahaman tentang laju dan pecutan."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman tentang laju dan pecutan untuk melaksanakan pengiraan."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran dalam konteks penyelesaian masalah rutin mudah."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran dalam konteks penyelesaian masalah rutin kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran dalam konteks penyelesaian masalah bukan rutin secara kreatif."
+
+prerequisites:
+  required:
+    - "MT1-04"
+  recommended: []
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Langkah 1: Memperkenalkan laju sebagai kadar menggunakan konteks jarak-masa dan contoh kehidupan sebenar (20 min)"
+    - "Langkah 2: Membezakan laju seragam dan tidak seragam menggunakan jadual dan graf (15 min)"
+    - "Langkah 3: Melaksanakan pengiraan laju dan laju purata termasuk penukaran unit (25 min)"
+    - "Langkah 4: Memperkenalkan pecutan dan nyahpecutan sebagai kadar perubahan laju (20 min)"
+    - "Langkah 5: Menyelesaikan masalah dunia sebenar termasuk masalah berbilang langkah dan bukan rutin (30 min)"
+
+  common_misconceptions:
+    - misconception: "Keliru antara laju dengan jarak atau masa."
+      remediation: "Gunakan formula Laju = Jarak ÷ Masa dengan bantuan model segitiga."
+    - misconception: "Menganggap laju purata ialah purata aritmetik bagi laju."
+      remediation: "Tekankan bahawa Laju Purata = Jumlah Jarak ÷ Jumlah Masa."
+    - misconception: "Menganggap nyahpecutan berbeza sepenuhnya daripada pecutan."
+      remediation: "Jelaskan bahawa nyahpecutan ialah pecutan negatif (pengurangan laju)."
+
+  engagement_hooks:
+    - "Bincangkan had laju dan kepentingannya dalam keselamatan jalan raya."
+    - "Analisis pergerakan kenderaan seperti motosikal atau kereta dalam kehidupan harian."
+    - "Terokai bagaimana atlet mengawal laju dan pecutan dalam sukan seperti larian dan berbasikal."
+
+quality_level: 3
+provenance: ai-assisted
+sync_checked: true
+ai_teaching_notes: "MT2-09.teaching.md"
+assessments_file: "MT2-09.assessments.yaml"
+examples_file: "MT2-09.examples.yaml"

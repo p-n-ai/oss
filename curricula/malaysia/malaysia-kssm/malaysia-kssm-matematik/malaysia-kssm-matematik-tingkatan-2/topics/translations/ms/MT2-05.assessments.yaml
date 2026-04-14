@@ -1,0 +1,154 @@
+topic_id: MT2-05
+provenance: ai-assisted
+
+questions:
+
+  - id: Q1
+    text: "Manakah pernyataan PALING tepat tentang 'Perentas' dalam bulatan?"
+    difficulty: easy
+    learning_objective: "5.1.1"
+    tp_level: 1
+    answer:
+      type: multiple_choice
+      value: "B"
+      options:
+        A: "Garis yang melalui pusat dan menyentuh dua titik pada bulatan."
+        B: "Garis lurus yang menghubungkan dua titik pada lilitan bulatan."
+        C: "Bahagian lengkung pada sempadan bulatan."
+        D: "Kawasan yang dibentuk oleh dua jejari dan satu lengkok."
+      working: |
+        Perentas ialah garis lurus yang menghubungkan dua titik pada lilitan.
+      distractors:
+        - value: "A"
+          feedback: "Ini ialah diameter, bukan semua perentas."
+        - value: "C"
+          feedback: "Ini ialah lengkok, bukan garis lurus."
+        - value: "D"
+          feedback: "Ini ialah sektor, iaitu kawasan, bukan garis."
+    marks: 1
+
+  - id: Q2
+    text: "BENAR atau SALAH: Diameter ialah perentas khas yang melalui pusat bulatan."
+    difficulty: easy
+    learning_objective: "5.1.1"
+    tp_level: 2
+    answer:
+      type: true_false
+      value: "BENAR"
+      working: |
+        Diameter ialah perentas yang melalui pusat bulatan.
+    marks: 1
+
+  - id: Q3
+    text: "Jejari berserenjang dengan perentas MN di titik P. Apakah sifat yang berlaku?"
+    difficulty: medium
+    learning_objective: "5.2.1"
+    tp_level: 3
+    answer:
+      type: multiple_choice
+      value: "C"
+      options:
+        A: "Perentas menjadi diameter."
+        B: "Jejari sama dengan panjang perentas."
+        C: "Perentas dibahagi dua sama panjang."
+        D: "Jejari menjadi dua kali ganda."
+      working: |
+        Jejari yang berserenjang membahagi dua perentas.
+      distractors:
+        - value: "A"
+          feedback: "Perentas tidak berubah menjadi diameter."
+        - value: "B"
+          feedback: "Panjang jejari tidak bergantung pada perentas."
+        - value: "D"
+          feedback: "Jejari adalah tetap dan tidak berubah."
+    marks: 1
+
+  - id: Q4
+    text: "Jejari = 13 cm. Jarak pusat ke perentas = 12 cm. Cari separuh panjang perentas."
+    difficulty: hard
+    learning_objective: "5.2.3"
+    tp_level: 4
+    answer:
+      type: exact
+      value: "5 cm"
+      working: |
+        13² = 12² + x²
+        x = 5 cm
+    marks: 3
+
+  - id: Q5
+    text: "Apakah pernyataan yang betul tentang perentas dalam bulatan?"
+    difficulty: medium
+    learning_objective: "5.2.1"
+    tp_level: 3
+    answer:
+      type: matching
+      value:
+        peraturan: "Perentas yang sama panjang mempunyai jarak yang sama dari pusat"
+      working: |
+        Perentas yang sama panjang adalah sama jarak dari pusat.
+    marks: 2
+
+  - id: Q6
+    text: "Terbitkan rumus luas bulatan."
+    difficulty: medium
+    learning_objective: "5.3.2"
+    tp_level: 3
+    answer:
+      type: structured_response
+      value: "πr²"
+      working: |
+        Bulatan disusun semula seperti segi empat:
+        luas = πr × r = πr²
+    marks: 3
+
+  - id: Q7
+    text: "Cari lilitan bulatan dengan jejari 10 cm."
+    difficulty: easy
+    learning_objective: "5.3.1"
+    tp_level: 2
+    answer:
+      type: exact
+      value: "20π cm"
+      working: |
+        C = 2πr
+    marks: 1
+
+  - id: Q8
+    text: "Cari luas sektor dengan sudut 90° dan jejari 14 cm."
+    difficulty: medium
+    learning_objective: "5.3.3"
+    tp_level: 3
+    answer:
+      type: exact
+      value: "154 cm²"
+      working: |
+        (90/360) × π × 14² = 154
+    marks: 2
+
+  - id: Q9
+    text: "Litar bulat mempunyai jejari 21 m. Pelari membuat 5 pusingan. Cari jarak."
+    difficulty: hard
+    learning_objective: "5.3.4"
+    tp_level: 5
+    answer:
+      type: exact
+      value: "660 m"
+      working: |
+        2πr = 132
+        5 × 132 = 660
+    marks: 3
+
+  - id: Q10
+    text: "Kebun bulat mempunyai luas 154 m². Adakah pagar 50 m mencukupi?"
+    difficulty: hard
+    learning_objective: "5.3.4"
+    tp_level: 6
+    answer:
+      type: structured_response
+      value: "Ya, mencukupi"
+      working: |
+        r = 7
+        lilitan = 44 m
+        50 m cukup
+    marks: 4

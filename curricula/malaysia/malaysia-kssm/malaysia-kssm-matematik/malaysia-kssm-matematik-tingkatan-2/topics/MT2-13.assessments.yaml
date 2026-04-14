@@ -1,126 +1,224 @@
 topic_id: MT2-13
-provenance: ai-generated
-
+provenance: ai-assisted
 questions:
-  # Learning Objective 13.1.1
+
+  # TP1 — Basic Sample Space
   - id: Q1
-    text: "Ahmad melontar sebuah dadu sebanyak 60 kali dan mencatatkan bahawa nombor 6 muncul sebanyak 10 kali. Tentukan kebarangkalian eksperimen bagi nombor 6 muncul."
-    difficulty: medium
-    learning_objective: 13.1.1
-    tp_level: 3
+    type: OAP
+    text: "A fair six-sided die is rolled. Which option correctly shows the sample space, S?"
+    difficulty: easy
+    learning_objective: "13.2.1"
+    tp_level: 1
     kbat: false
     answer:
-      type: exact
-      value: "0.1667"
+      type: multiple_choice
+      value: "A"
+      options:
+        A: "{1, 2, 3, 4, 5, 6}"
+        B: "{1, 2, 3, 4, 5}"
+        C: "{2, 4, 6}"
+        D: "{1, 1, 2, 3, 6}"
       working: |
-        Kebarangkalian eksperimen = (Bilangan kejadian yang diingini) / (Bilangan cubaan)
-        = 10 / 60
-        = 0.1667
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menentukan bilangan kejadian yang diingini dan bilangan cubaan."
-      - marks: 1
-        criteria: "Mengira kebarangkalian eksperimen dengan betul."
+        Step 1: A die has 6 faces numbered 1 to 6.
+        Step 2: Sample space must include ALL possible outcomes.
+        Step 3: Therefore S = {1, 2, 3, 4, 5, 6}.
+      distractors:
+        - value: "B"
+          feedback: "You missed outcome 6. Sample space must include all outcomes."
+        - value: "C"
+          feedback: "This is only even numbers, not the full sample space."
+        - value: "D"
+          feedback: "Repeated values are incorrect and incomplete."
+
+    marks: 1
     hints:
       - level: 1
-        text: "Ingat bahawa kebarangkalian eksperimen ialah nisbah antara bilangan kejadian yang diingini dengan bilangan cubaan."
-  
-  # Learning Objective 13.1.2
+        text: "List every possible face of the die. Do not skip any number."
+
+  # TP2 — Complement Concept (OPB)
   - id: Q2
-    text: "Satu duit syiling dilambungkan sebanyak 1000 kali dan hasilnya menunjukkan 520 kali kepala dan 480 kali ekor. Apakah kesimpulan yang boleh dibuat tentang kebarangkalian eksperimen ini?"
-    difficulty: medium
-    learning_objective: 13.1.2
-    tp_level: 4
-    kbat: true
-    answer:
-      type: free_text
-      value: "Kesimpulan yang boleh dibuat ialah kebarangkalian eksperimen menghampiri 0.5 apabila bilangan cubaan adalah besar, menunjukkan bahawa duit syiling adalah seimbang."
-      working: |
-        Apabila bilangan cubaan cukup besar, kebarangkalian eksperimen akan menghampiri kebarangkalian teori. Di sini, kebarangkalian eksperimen untuk kepala ialah 520/1000 = 0.52 dan untuk ekor ialah 480/1000 = 0.48, yang hampir dengan 0.5.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Mengira kebarangkalian eksperimen untuk kepala dan ekor."
-      - marks: 1
-        criteria: "Membandingkan kebarangkalian eksperimen dengan kebarangkalian teori."
-      - marks: 1
-        criteria: "Menarik kesimpulan tentang kebarangkalian eksperimen."
-    hints:
-      - level: 1
-        text: "MISCONCEPTION ALERT: Kebarangkalian eksperimen sepatutnya menghampiri kebarangkalian teori apabila bilangan cubaan adalah besar."
-  
-  # Learning Objective 13.2.1
-  - id: Q3
-    text: "Nyatakan ruang sampel apabila sebuah dadu dan sebuah duit syiling dilambungkan serentak."
-    difficulty: medium
-    learning_objective: 13.2.1
+    type: OPB
+    text: "Determine whether the following statement is TRUE or FALSE: P(A) + P(A') = 1"
+    difficulty: easy
+    learning_objective: "13.3.1"
     tp_level: 2
     kbat: false
     answer:
-      type: free_text
-      value: "{(1,H), (1,T), (2,H), (2,T), (3,H), (3,T), (4,H), (4,T), (5,H), (5,T), (6,H), (6,T)}"
+      type: multiple_choice
+      value: "TRUE"
+      options:
+        A: "TRUE"
+        B: "FALSE"
       working: |
-        Ruang sampel adalah semua kemungkinan pasangan hasil daripada melambungkan dadu dan duit syiling.
-        Dadu: 1, 2, 3, 4, 5, 6
-        Duit syiling: H (kepala), T (ekor)
-        Ruang sampel = {(1,H), (1,T), (2,H), (2,T), (3,H), (3,T), (4,H), (4,T), (5,H), (5,T), (6,H), (6,T)}
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menulis semua hasil kemungkinan bagi dadu."
-      - marks: 1
-        criteria: "Menggabungkan hasil kemungkinan dadu dengan duit syiling untuk membentuk ruang sampel."
+        Step 1: A and A' are complementary events.
+        Step 2: Complement rule states P(A) + P(A') = 1.
+      distractors:
+        - value: "FALSE"
+          feedback: "You misunderstood the complement rule. The sum is always 1."
+
+    marks: 1
     hints:
       - level: 1
-        text: "Ingat bahawa ruang sampel adalah semua hasil yang mungkin daripada dua eksperimen."
+        text: "Think about what happens when you combine an event and everything NOT in it."
 
-  # Learning Objective 13.2.2
-  - id: Q4
-    text: "Seorang pelajar ingin membina model kebarangkalian untuk melambungkan dua dadu. Apakah kebarangkalian teori mendapatkan jumlah mata 7?"
+  # TP3 — Experimental Probability
+  - id: Q3
+    type: Subjective
+    text: "A student flips a coin 80 times and gets 34 heads. Find the experimental probability of heads."
     difficulty: medium
-    learning_objective: 13.2.2
-    tp_level: 4
-    kbat: true
-    answer:
-      type: exact
-      value: "0.1667"
-      working: |
-        Kebarangkalian teori = (Bilangan cara mendapatkan jumlah 7) / (Jumlah hasil dalam ruang sampel)
-        Hasil untuk jumlah 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6 cara
-        Jumlah hasil dalam ruang sampel = 6 * 6 = 36
-        Kebarangkalian teori = 6 / 36 = 0.1667
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Mengira bilangan cara untuk mendapatkan jumlah mata 7."
-      - marks: 1
-        criteria: "Menentukan jumlah hasil dalam ruang sampel."
-      - marks: 1
-        criteria: "Mengira kebarangkalian teori dengan betul."
-    hints:
-      - level: 1
-        text: "MISCONCEPTION ALERT: Ingat bahawa setiap dadu mempunyai 6 kemungkinan dan ruang sampel terdiri daripada semua pasangan ini."
-
-  # Learning Objective 13.3.2
-  - id: Q5
-    text: "Dalam satu permainan, sebuah kad ditarik daripada satu dek penuh. Apakah kebarangkalian menarik bukan kad hati?"
-    difficulty: medium
-    learning_objective: 13.3.2
+    learning_objective: "13.1.1"
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "0.75"
+      value: "17/40"
       working: |
-        Kebarangkalian menarik kad hati = 13/52
-        Kebarangkalian menarik bukan kad hati = 1 - (13/52) = 39/52 = 0.75
+        Step 1: Frequency of heads = 34.
+        Step 2: Total trials = 80.
+        Step 3: P(H) = 34/80.
+        Step 4: Simplify = 17/40.
     marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menentukan kebarangkalian menarik kad hati."
-      - marks: 1
-        criteria: "Mengira kebarangkalian peristiwa pelengkap dengan betul."
     hints:
       - level: 1
-        text: "Ingat bahawa kebarangkalian peristiwa pelengkap adalah 1 tolak kebarangkalian peristiwa asal."
+        text: "Use frequency ÷ total trials."
+
+  # TP3 — Theoretical Probability
+  - id: Q4
+    type: OAP
+    text: "A box contains 3 red, 2 blue, and 5 green balls. What is the probability of picking a blue ball?"
+    difficulty: medium
+    learning_objective: "13.2.3"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "B"
+      options:
+        A: "2/5"
+        B: "2/10"
+        C: "3/10"
+        D: "5/10"
+      working: |
+        Step 1: Total balls = 3 + 2 + 5 = 10.
+        Step 2: Blue balls = 2.
+        Step 3: P(Blue) = 2/10.
+      distractors:
+        - value: "A"
+          feedback: "You ignored total sample space."
+        - value: "C"
+          feedback: "You used red instead of blue."
+        - value: "D"
+          feedback: "You counted green incorrectly as blue."
+
+    marks: 1
+    hints:
+      - level: 1
+        text: "Always find total first before selecting event count."
+
+  # TP3 — Complement Probability
+  - id: Q5
+    type: Subjective
+    text: "If P(rain) = 0.35, find P(no rain)."
+    difficulty: medium
+    learning_objective: "13.3.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "0.65"
+      working: |
+        Step 1: P(A') = 1 - P(A).
+        Step 2: 1 - 0.35 = 0.65.
+    marks: 2
+    hints:
+      - level: 1
+        text: "Use complement rule: 1 minus given probability."
+
+  # TP4 — Experimental vs Theoretical reasoning
+  - id: Q6
+    type: Subjective
+    text: "A coin is flipped 500 times. The experimental probability of heads is 0.48. What does this suggest?"
+    difficulty: medium
+    learning_objective: "13.1.2"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "It suggests experimental probability approaches theoretical probability (0.5) as trials increase."
+      working: |
+        Step 1: Compare 0.48 with 0.5.
+        Step 2: Identify small difference due to randomness.
+        Step 3: Conclude convergence.
+    marks: 3
+    hints:
+      - level: 1
+        text: "Think what happens when trials become very large."
+
+  # TP5 — Complex routine (model comparison)
+  - id: Q7
+    type: OPB
+    text: "Match the correct probability type:"
+    difficulty: hard
+    learning_objective: "13.2.2"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: matching
+      value:
+        Experimental: "Based on actual trials"
+        Theoretical: "Based on sample space"
+      working: |
+        Step 1: Experimental uses data from experiments.
+        Step 2: Theoretical uses mathematical calculation.
+    marks: 2
+
+  # TP5 — Multi-step complement reasoning
+  - id: Q8
+    type: Subjective
+    text: "In a class of 40 students, 15 like football. Find probability of NOT liking football."
+    difficulty: hard
+    learning_objective: "13.3.2"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "5/8"
+      working: |
+        Step 1: P(like football) = 15/40.
+        Step 2: Simplify = 3/8.
+        Step 3: Complement = 1 - 3/8 = 5/8.
+    marks: 3
+
+  # TP6 — Non-routine reverse probability
+  - id: Q9
+    type: Subjective
+    text: "The probability of drawing a red ball is 1/5. If there are 8 red balls, find the total number of balls."
+    difficulty: hard
+    learning_objective: "13.4.1"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: exact
+      value: "40"
+      working: |
+        Step 1: P(R) = 8 / total.
+        Step 2: 8/x = 1/5.
+        Step 3: Cross multiply → x = 40.
+    marks: 3
+
+  # TP6 — Creative reasoning
+  - id: Q10
+    type: Subjective
+    text: "Design a real-life experiment involving probability and explain how you would estimate experimental probability."
+    difficulty: hard
+    learning_objective: "13.1.1"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Any valid experiment with correct frequency ratio explanation."
+      working: |
+        Step 1: Describe experiment.
+        Step 2: Count outcomes.
+        Step 3: Divide frequency by trials.
+    marks: 4

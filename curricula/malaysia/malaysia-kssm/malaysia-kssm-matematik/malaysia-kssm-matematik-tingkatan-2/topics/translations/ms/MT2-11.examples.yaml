@@ -1,0 +1,69 @@
+topic_id: MT2-11
+provenance: ai-assisted
+description: "Contoh kerja bagi Transformasi Isometri merangkumi Translasi, Pantulan, Putaran, Isometri dan Simetri Putaran."
+
+worked_examples:
+  # --- 11.2 Translasi ---
+  - id: WE-01
+    topic: "Translasi"
+    difficulty: easy
+    real_world_analogy: "Bayangkan menolak sepinggan Nasi Lemak di atas meja yang licin. Pinggan itu tidak berpusing, hanya berubah kedudukan."
+    misconception_alert: "Pelajar sering lupa bahawa pergerakan ke kiri dan ke bawah mesti diwakili oleh nilai negatif dalam vektor."
+    scenario: "Titik $P(2, 3)$ ditranslasikan di bawah vektor $\\begin{pmatrix} -4 \\\\ 2 \\end{pmatrix}$. Tentukan koordinat imej $P'$."
+    working: |
+      1. Kenal pasti koordinat asal: $x = 2, y = 3$.
+      2. Kenal pasti komponen vektor: $a = -4, b = 2$.
+      3. Kira translasi x: $x' = 2 + (-4) = -2$.
+      4. Kira translasi y: $y' = 3 + 2 = 5$.
+      5. Jawapan akhir: $P'(-2, 5)$.
+
+  # --- 11.3 Pantulan ---
+  - id: WE-02
+    topic: "Pantulan"
+    difficulty: medium
+    real_world_analogy: "Fikirkan pantulan Masjid Tuanku Mizan Zainal Abidin di Tasik Putrajaya. Imej kelihatan terbalik tetapi saiz kekal sama."
+    misconception_alert: "Pelajar sering menganggap jarak objek ke paksi berbeza dengan jarak imej ke paksi. Sebenarnya kedua-duanya mesti sama dan berserenjang."
+    scenario: "Pantulkan titik $Q(3, 4)$ pada garis $x = 1$. Tentukan koordinat imej $Q'$."
+    working: |
+      1. Cari jarak titik ke paksi: $3 - 1 = 2$.
+      2. Jarak sama ke arah bertentangan.
+      3. Koordinat-x baharu: $x' = 1 - 2 = -1$.
+      4. Koordinat-y kekal: $y' = 4$.
+      5. Jawapan akhir: $Q'(-1, 4)$.
+
+  # --- 11.4 Putaran ---
+  - id: WE-03
+    topic: "Putaran"
+    difficulty: medium
+    real_world_analogy: "Memusing kunci dalam mangga. Pusat kunci kekal pegun semasa hujungnya berpusing."
+    misconception_alert: "Pelajar sering tertukar antara arah jam dan lawan arah jam. 90° ikut jam tidak sama dengan 90° lawan jam."
+    scenario: "Titik $R(5, 2)$ diputarkan 90° lawan arah jam pada pusat asalan. Tentukan $R'$."
+    working: |
+      1. Gunakan formula: $(x, y) \\rightarrow (-y, x)$.
+      2. Gantikan nilai: $(5, 2)$.
+      3. Koordinat baharu: $(-2, 5)$.
+
+  # --- 11.5 Isometri dan Kekongruenan ---
+  - id: WE-04
+    topic: "Isometri dan Kekongruenan"
+    difficulty: hard
+    real_world_analogy: "Dua jubin lantai yang sama akan sentiasa muat walaupun digerakkan, diputar atau diterbalikkan."
+    misconception_alert: "Pelajar sering keliru antara keserupaan dan kekongruenan. Isometri mengekalkan saiz dan bentuk."
+    scenario: "Segi tiga $ABC$ ialah imej bagi segi tiga $BCD$ di bawah isometri. Diberi $\\angle BDC = 35°$ dan $\\angle CBD = 15°$, hitung $\\angle BAC$."
+    working: |
+      1. Di bawah isometri, bentuk adalah kongruen.
+      2. Sudut sepadan adalah sama.
+      3. Dalam segi tiga $BCD$: $180° - 35° - 15° = 130°$.
+      4. Maka $\\angle BAC = 130°$.
+
+  # --- 11.6 Simetri Putaran ---
+  - id: WE-05
+    topic: "Simetri Putaran"
+    difficulty: medium
+    real_world_analogy: "Kipas siling 3 bilah akan kelihatan sama setiap 120° putaran."
+    misconception_alert: "Pelajar sering keliru antara simetri garis dan simetri putaran."
+    scenario: "Tentukan peringkat simetri putaran bagi heksagon sekata."
+    working: |
+      1. Poligon sekata mempunyai bilangan simetri sama dengan sisi.
+      2. Heksagon mempunyai 6 sisi.
+      3. Maka peringkat = 6.

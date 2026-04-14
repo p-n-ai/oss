@@ -1,0 +1,86 @@
+topic_id: MT2-10
+provenance: ai-assisted
+description: "Contoh kerja untuk Kecerunan Garis Lurus (KSSM Matematik Tingkatan 2 Bab 10)"
+
+worked_examples:
+  - id: WE-01
+    topic: "Kecerunan sebagai Nisbah"
+    difficulty: easy
+    real_world_analogy: "Bayangkan mendaki Gunung Kinabalu. Semakin curam laluan, semakin tinggi kenaikan bagi setiap langkah ke hadapan. Hubungan ini ialah kecerunan."
+    misconception_alert: "Perangkap 'Terbalik'! Pelajar sering menukar nisbah. Ingat: Kecerunan = Mencancang ÷ Mengufuk."
+    scenario: "Satu laluan mendaki mempunyai ketinggian 30 m dan jarak mengufuk 60 m. Cari kecerunan."
+    working: |
+      Langkah 1: Kenal pasti jarak mencancang = 30 m.
+      Langkah 2: Kenal pasti jarak mengufuk = 60 m.
+      Langkah 3: Gunakan rumus: Kecerunan = Mencancang / Mengufuk.
+      Langkah 4: Gantikan nilai: 30 / 60.
+      Langkah 5: Permudahkan: 0.5.
+      Jawapan akhir: Kecerunan = 0.5.
+
+  - id: WE-02
+    topic: "Kecerunan menggunakan Rumus Koordinat"
+    difficulty: medium
+    real_world_analogy: "Seperti GPS, kita bandingkan perubahan arah utara (y) dan timur (x)."
+    misconception_alert: "Perangkap 'Susunan Salah'! Jika guna y₂ − y₁, mesti guna x₂ − x₁."
+    scenario: "Cari kecerunan garis melalui A(3,1) dan B(6,7)."
+    working: |
+      Langkah 1: (x1, y1) = (3,1), (x2, y2) = (6,7).
+      Langkah 2: m = (y2 - y1) / (x2 - x1).
+      Langkah 3: m = (7 - 1) / (6 - 3).
+      Langkah 4: m = 6 / 3.
+      Langkah 5: m = 2.
+      Jawapan akhir: Kecerunan = 2.
+
+  - id: WE-03
+    topic: "Kecerunan menggunakan Pintasan"
+    difficulty: medium
+    real_world_analogy: "Seperti rasuk condong yang menyentuh paksi-x dan paksi-y."
+    misconception_alert: "Perangkap 'Negatif Berganda'! Rumus ada tanda negatif."
+    scenario: "Satu garis memotong paksi-y pada 8 dan paksi-x pada -5. Cari kecerunan."
+    working: |
+      Langkah 1: Pintasan-y = 8.
+      Langkah 2: Pintasan-x = -5.
+      Langkah 3: m = -(y/x).
+      Langkah 4: m = -(8 / -5).
+      Langkah 5: m = -(-1.6) = 1.6.
+      Jawapan akhir: Kecerunan = 1.6.
+
+  - id: WE-04
+    topic: "Mencari Nilai Tidak Diketahui"
+    difficulty: medium
+    real_world_analogy: "Seperti melaras cerun supaya mencapai kecerunan tertentu."
+    misconception_alert: "Perangkap 'Langkau Algebra'! Jangan lompat langkah."
+    scenario: "Kecerunan garis melalui (1,k) dan (-2,3) ialah -2. Cari k."
+    working: |
+      Langkah 1: m = (y2 - y1)/(x2 - x1).
+      Langkah 2: -2 = (3 - k)/(-3).
+      Langkah 3: Darab kedua-dua belah dengan -3.
+      Langkah 4: 6 = 3 - k.
+      Langkah 5: k = -3.
+      Jawapan akhir: k = -3.
+
+  - id: WE-05
+    topic: "Aplikasi Dunia Sebenar (Bumbung Rumah)"
+    difficulty: hard
+    real_world_analogy: "Bumbung direka curam untuk aliran air hujan."
+    misconception_alert: "Perangkap 'Simetri'! Bahagi dua jumlah lebar dahulu."
+    scenario: "Bumbung rumah teres mempunyai lebar 21 m dan tinggi 5 m. Cari kecerunan."
+    working: |
+      Langkah 1: Jarak mengufuk = 21 / 2 = 10.5 m.
+      Langkah 2: Tinggi = 5 m.
+      Langkah 3: Kecerunan = 5 / 10.5.
+      Langkah 4: ≈ 0.476.
+      Jawapan akhir: Kecerunan ≈ 0.476.
+
+  - id: WE-06
+    topic: "KBAT: Tafsiran Kecerunan"
+    difficulty: hard
+    real_world_analogy: "Jurutera menilai keselamatan jalan berdasarkan kecerunan."
+    misconception_alert: "Perangkap 'Kira Sahaja'! Perlu tafsir maksud."
+    scenario: "Dua jalan mempunyai kecerunan 0.4 dan 0.8. Yang mana lebih curam dan mengapa?"
+    working: |
+      Langkah 1: 0.8 > 0.4.
+      Langkah 2: Lebih besar = lebih curam.
+      Langkah 3: Jalan 0.8 lebih curam.
+      Langkah 4: Lebih bahaya kerana sukar membrek.
+      Jawapan akhir: Jalan 0.8 lebih curam dan kurang selamat.

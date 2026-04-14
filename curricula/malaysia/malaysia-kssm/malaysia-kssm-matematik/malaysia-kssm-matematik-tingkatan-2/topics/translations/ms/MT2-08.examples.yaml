@@ -1,0 +1,100 @@
+topic_id: MT2-08
+provenance: ai-assisted
+worked_examples:
+  - id: WE-01
+    topic: "Mengenal pasti Fungsi"
+    difficulty: easy
+    learning_objective: "8.1.2"
+    tp_level: 2
+    real_world_analogy: "Fikirkan mesin layan diri. Apabila anda tekan satu butang (input), anda hanya mendapat satu minuman (output). Jika satu butang mengeluarkan dua minuman, mesin itu rosak — itu bukan fungsi."
+    misconception_alert: "Pelajar sering fikir jika dua input berbeza menghasilkan output yang sama, ia bukan fungsi. Sebenarnya, hubungan banyak-kepada-satu adalah dibenarkan. Masalah sebenar ialah jika satu input mempunyai lebih daripada satu output."
+    scenario: "Tentukan sama ada set pasangan tertib $\\{(1, 5), (2, 10), (3, 5), (4, 20)\\}$ merupakan suatu fungsi. Berikan justifikasi anda."
+    working: |
+      1. Kenal pasti input (domain): $\\{1, 2, 3, 4\\}$.
+      2. Kenal pasti output: $\\{5, 10, 20\\}$.
+      3. Semak setiap pemetaan:
+         - Input 1 kepada 5
+         - Input 2 kepada 10
+         - Input 3 kepada 5
+         - Input 4 kepada 20
+      4. Sahkan peraturan fungsi:
+         - Setiap input mesti mempunyai tepat satu output.
+         - Tiada input yang dipetakan kepada lebih daripada satu output.
+      5. Perhatikan bahawa input 1 dan 3 berkongsi output 5, dan ini dibenarkan.
+      6. Kesimpulan: Hubungan ini ialah fungsi.
+
+  - id: WE-02
+    topic: "Membina Jadual dan Graf Fungsi"
+    difficulty: medium
+    learning_objective: "8.2.1"
+    tp_level: 3
+    real_world_analogy: "Bayangkan anda menyepak bola. Ketinggian bola naik, mencapai puncak, kemudian turun semula — membentuk lengkungan. Ini ialah fungsi kuadratik."
+    misconception_alert: "Pelajar sering lupa menggunakan kurungan apabila mengkuasa duakan nombor negatif. Contohnya, $(-2)^2 = 4$, tetapi $-2^2 = -4$. Kesilapan ini akan menyebabkan graf menjadi salah."
+    scenario: "Bina jadual nilai bagi fungsi $y = x^2 - 3$ untuk $-2 \\le x \\le 2$, dan senaraikan koordinatnya."
+    working: |
+      1. Gantikan setiap nilai $x$ ke dalam fungsi $y = x^2 - 3$.
+
+      2. Untuk $x = -2$:
+         $y = (-2)^2 - 3$
+         $y = 4 - 3$
+         $y = 1$
+
+      3. Untuk $x = -1$:
+         $y = (-1)^2 - 3$
+         $y = 1 - 3$
+         $y = -2$
+
+      4. Untuk $x = 0$:
+         $y = (0)^2 - 3$
+         $y = 0 - 3$
+         $y = -3$
+
+      5. Untuk $x = 1$:
+         $y = (1)^2 - 3$
+         $y = 1 - 3$
+         $y = -2$
+
+      6. Untuk $x = 2$:
+         $y = (2)^2 - 3$
+         $y = 4 - 3$
+         $y = 1$
+
+      7. Senaraikan koordinat:
+         $(-2, 1), (-1, -2), (0, -3), (1, -2), (2, 1)$
+
+      8. Titik-titik ini boleh diplot pada satah Cartes untuk membentuk lengkung licin.
+
+  - id: WE-03
+    topic: "Menyelesaikan Masalah Dunia Sebenar Menggunakan Graf"
+    difficulty: hard
+    learning_objective: "8.2.3"
+    tp_level: 6
+    real_world_analogy: "Bayangkan anda membandingkan dua pelan telefon. Satu ada caj tetap tetapi kadar penggunaan rendah, satu lagi tiada caj tetap tetapi kadar penggunaan tinggi. Titik di mana kedua-duanya sama kos ialah titik persilangan graf."
+    misconception_alert: "Pelajar mungkin mengira setiap persamaan secara berasingan tetapi lupa bahawa penyelesaian berlaku apabila kedua-dua kos adalah sama, iaitu pada titik persilangan."
+    scenario: "Sebuah syarikat mengenakan RM30 dan RM0.10 setiap minit ($y = 0.1x + 30$). Syarikat lain mengenakan RM0.25 setiap minit ($y = 0.25x$). Cari bilangan minit $x$ apabila kos adalah sama."
+    working: |
+      1. Tulis kedua-dua persamaan:
+         Syarikat A: $y = 0.1x + 30$
+         Syarikat B: $y = 0.25x$
+
+      2. Samakan kedua-dua persamaan:
+         $0.1x + 30 = 0.25x$
+
+      3. Tolak $0.1x$ daripada kedua-dua belah:
+         $0.25x - 0.1x = 30$
+
+      4. Permudahkan:
+         $0.15x = 30$
+
+      5. Bahagikan kedua-dua belah dengan 0.15:
+         $x = \\frac{30}{0.15}$
+
+      6. Kira:
+         $x = 200$
+
+      7. Semakan:
+         Syarikat A: $y = 0.1(200) + 30 = 50$
+         Syarikat B: $y = 0.25(200) = 50$
+
+      8. Kesimpulan:
+         Kedua-dua pelan mempunyai kos yang sama pada 200 minit.

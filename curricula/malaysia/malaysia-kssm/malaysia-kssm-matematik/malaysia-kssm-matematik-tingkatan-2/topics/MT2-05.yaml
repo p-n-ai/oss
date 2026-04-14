@@ -1,93 +1,105 @@
 id: MT2-05
-official_ref: "Bab 5" # as printed in KSSM DSKP document
-name: "Bulatan"
-name_en: "Circle"
+official_ref: "Chapter 5"
+name_en: "Circles"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-2
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: intermediate
 tier: core
+
 content_standards:
-    - id: "5.1"
-      text: "Sifat Bulatan"
-      text_en: "Properties of Circles"
-    - id: "5.2"
-      text: "Lilitan dan Luas Bulatan"
-      text_en: "Circumference and Area of Circles"
-    - id: "5.3"
-      text: "Panjang Lengkok, Luas Sektor dan Luas Segmen"
-      text_en: "Arc Length, Area of Sector and Area of Segment"
+  - id: "5.1"
+    text_en: "Properties of Circles"
+  - id: "5.2"
+    text_en: "Symmetrical Properties of Chords"
+  - id: "5.3"
+    text_en: "Circumference and Area of a Circle"
+
 learning_objectives:
-    - id: "5.1.1"
-      text: "Mengenal bahagian bulatan dan menerangkan sifat bulatan."
-      text_en: "Recognize parts of a circle and explain the properties of a circle."
-      bloom: understand
-    - id: "5.1.2"
-      text: "Membina suatu bulatan dan bahagian bulatan berdasarkan syarat yang diberi."
-      text_en: "Construct a circle and parts of a circle based on given conditions."
-      bloom: apply
-    - id: "5.2.1"
-      text: "Menentusahkan dan menerangkan bahawa (i) diameter ialah paksi simetri bulatan; (ii) jejari yang berserenjang dengan perentas membahagi dua sama perentas itu dan sebaliknya; (iii) pembahagi dua sama serenjang dua perentas bertemu di pusat bulatan; (iv) perentas yang sama panjang menghasilkan lengkok yang sama panjang; dan (v) perentas yang sama panjang adalah sama jarak dari pusat bulatan dan sebaliknya."
-      text_en: "Verify and explain that (i) diameter is the axis of symmetry of a circle; (ii) a radius perpendicular to a chord bisects the chord and vice versa; (iii) the perpendicular bisectors of two chords meet at the center of the circle; (iv) chords of equal length produce arcs of equal length; and (v) chords of equal length are equidistant from the center of the circle and vice versa."
-      bloom: analyze
-    - id: "5.2.2"
-      text: "Menentukan pusat dan panjang jejari bagi suatu bulatan melalui pembinaan geometri."
-      text_en: "Determine the center and length of the radius of a circle through geometric construction."
-      bloom: apply
-    - id: "5.2.3"
-      text: "Menyelesaikan masalah yang melibatkan sifat simetri perentas."
-      text_en: "Solve problems involving the symmetry properties of chords."
-      bloom: apply
-    - id: "5.3.1"
-      text: "Menentukan hubungan antara lilitan dan diameter bulatan, dan seterusnya mentakrifkan π dan menerbitkan rumus lilitan bulatan."
-      text_en: "Determine the relationship between the circumference and diameter of a circle, and then define π and derive the formula for the circumference of a circle."
-      bloom: apply
-    - id: "5.3.2"
-      text: "Menerbitkan rumus luas bulatan."
-      text_en: "Derive the formula for the area of a circle."
-      bloom: apply
-    - id: "5.3.3"
-      text: "Menentukan lilitan, luas bulatan, panjang lengkok, luas sektor dan ukuran lain yang berkaitan."
-      text_en: "Determine the circumference, area of a circle, arc length, sector area, and other related measurements."
-      bloom: apply
-    - id: "5.3.4"
-      text: "Menyelesaikan masalah yang melibatkan bulatan."
-      text_en: "Solve problems involving circles."
-      bloom: apply
+  - id: "5.1.1"
+    text_en: "Recognise parts of a circle and describe their properties."
+    bloom: understand
+    tp_level: 1
+
+  - id: "5.1.2"
+    text_en: "Construct a circle and its parts based on given conditions."
+    bloom: apply
+    tp_level: 2
+
+  - id: "5.2.1"
+    text_en: "Verify properties of chords including symmetry, perpendicular bisectors, and equal chord relationships."
+    bloom: analyze
+    tp_level: 3
+
+  - id: "5.2.2"
+    text_en: "Determine the centre and radius of a circle using geometric construction."
+    bloom: apply
+    tp_level: 3
+
+  - id: "5.2.3"
+    text_en: "Solve problems involving properties of chords in circles."
+    bloom: apply
+    tp_level: 4
+
+  - id: "5.3.1"
+    text_en: "Define pi and derive the formula for circumference of a circle."
+    bloom: apply
+    tp_level: 3
+
+  - id: "5.3.2"
+    text_en: "Derive the formula for the area of a circle."
+    bloom: apply
+    tp_level: 3
+
+  - id: "5.3.3"
+    text_en: "Calculate circumference, area, arc length, and sector area."
+    bloom: apply
+    tp_level: 3
+
+  - id: "5.3.4"
+    text_en: "Solve complex problems involving circles."
+    bloom: apply
+    tp_level: 4
+
 prerequisites:
-    required: []
+  required:
+    - id: "MT1-13"
+      name_en: "Pythagoras' Theorem"
+
 bloom_levels:
-    - understand
-    - apply
-    - analyze
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-29T16:00:08Z"
+  - understand
+  - apply
+  - analyze
+
 teaching:
-    sequence:
-        - 'Step 1: Introduction to circle components using physical models (15 min)'
-        - 'Step 2: Guide students through constructing circles with compasses (20 min)'
-        - 'Step 3: Discuss symmetry and properties using reflective exercises (25 min)'
-        - 'Step 4: Introduce and derive formulas for circumference and area (30 min)'
-        - 'Step 5: Engage in real-world problem-solving with circle calculations (30 min)'
-    common_misconceptions:
-        - misconception: Diameter equals radius
-          remediation: Reinforce understanding with visual aids and comparisons
-        - misconception: π is exactly 3.14
-          remediation: Explain π as an irrational number and its approximation
-        - misconception: All curves are circles
-          remediation: Provide varied examples to highlight differences
+  sequence:
+    - "Step 1: Identify circle components using real objects (coins, wheels)."
+    - "Step 2: Construct circles using compass and ruler."
+    - "Step 3: Explore symmetry and chord properties through investigation."
+    - "Step 4: Derive pi, circumference, and area formulas."
+    - "Step 5: Solve multi-step problems involving arcs and sectors."
+
+common_misconceptions:
+  - misconception: "Confusing radius and diameter."
+    remediation: "Emphasise that diameter is twice the radius and passes through the centre."
+  - misconception: "Treating pi as exactly 3.14."
+    remediation: "Explain pi as an irrational ratio, 3.14 is only an approximation."
+  - misconception: "Confusing sector and segment."
+    remediation: "Sector has two radii; segment has a chord."
+
 engagement_hooks:
-    - Explore the role of circles in local architecture, such as mosques
-    - Discuss the use of circles in everyday technology like wheels
-ai_teaching_notes: MT2-05.teaching.md
-examples_file: MT2-05.examples.yaml
-assessments_file: MT2-05.assessments.yaml
+  - "Explore circular designs in architecture and traditional patterns."
+  - "Investigate circles in wheels, clocks, and sports tracks."
+  - "Discuss real-world applications in engineering and astronomy."
+
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+provenance: ai-assisted
+quality_level: 3

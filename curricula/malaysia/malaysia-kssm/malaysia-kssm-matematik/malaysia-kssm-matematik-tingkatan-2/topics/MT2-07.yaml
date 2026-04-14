@@ -1,91 +1,107 @@
 id: MT2-07
-official_ref: "Bab 7" # as printed in KSSM DSKP document
-name: "Koordinat"
-name_en: "Coordinates"
+official_ref: "Chapter 7"
+name: "Coordinates"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-2
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: beginner
 tier: core
+
 content_standards:
-    - id: "7.1"
-      text: "Jarak dalam Satah Cartes"
-      text_en: "Distance in the Cartesian Plane"
-    - id: "7.2"
-      text: "Titik Tengah dalam Satah Cartes"
-      text_en: "Midpoint in the Cartesian Plane"
-    - id: "7.3"
-      text: "Sistem Koordinat"
-      text_en: "Coordinate System"
+  - id: "7.1"
+    text: "Distance in the Cartesian Coordinate System"
+  - id: "7.2"
+    text: "Midpoint in the Cartesian Coordinate System"
+  - id: "7.3"
+    text: "The Cartesian Coordinate System"
+
 learning_objectives:
-    - id: "7.1.1"
-      text: "Menerangkan maksud jarak antara dua titik pada satah Cartes."
-      text_en: "Explain the meaning of distance between two points on the Cartesian plane."
-      bloom: understand
-    - id: "7.1.2"
-      text: "Menerbitkan rumus jarak antara dua titik pada satah Cartes."
-      text_en: "Derive the formula for distance between two points on the Cartesian plane."
-      bloom: apply
-    - id: "7.1.3"
-      text: "Menentukan jarak antara dua titik pada satah Cartes."
-      text_en: "Determine the distance between two points on the Cartesian plane."
-      bloom: apply
-    - id: "7.1.4"
-      text: "Menyelesaikan masalah yang melibatkan jarak antara dua titik dalam sistem koordinat Cartes."
-      text_en: "Solve problems involving distance between two points in the Cartesian coordinate system."
-      bloom: apply
-    - id: "7.2.1"
-      text: "Menerangkan maksud titik tengah antara dua titik pada satah Cartes."
-      text_en: "Explain the meaning of midpoint between two points on the Cartesian plane."
-      bloom: understand
-    - id: "7.2.2"
-      text: "Menerbitkan rumus titik tengah antara dua titik pada satah Cartes."
-      text_en: "Derive the formula for midpoint between two points on the Cartesian plane."
-      bloom: apply
-    - id: "7.2.3"
-      text: "Menentukan koordinat titik tengah antara dua titik pada satah Cartes."
-      text_en: "Determine the coordinates of the midpoint between two points on the Cartesian plane."
-      bloom: apply
-    - id: "7.2.4"
-      text: "Menyelesaikan masalah yang melibatkan titik tengah dalam sistem koordinat Cartes."
-      text_en: "Solve problems involving midpoint in the Cartesian coordinate system."
-      bloom: apply
-    - id: "7.3.1"
-      text: "Menyelesaikan masalah yang melibatkan sistem koordinat Cartes."
-      text_en: "Solve problems involving the Cartesian coordinate system."
-      bloom: apply
+  - id: "7.1.1"
+    content_standard_id: "7.1"
+    text: "Explain the meaning of distance between two points on the Cartesian plane."
+    bloom: understand
+
+  - id: "7.1.2"
+    content_standard_id: "7.1"
+    text: "Derive the formula for distance between two points on the Cartesian plane."
+    bloom: apply
+
+  - id: "7.1.3"
+    content_standard_id: "7.1"
+    text: "Determine the distance between two points on the Cartesian plane."
+    bloom: apply
+
+  - id: "7.1.4"
+    content_standard_id: "7.1"
+    text: "Solve problems involving distance in the Cartesian coordinate system."
+    bloom: apply
+
+  - id: "7.2.1"
+    content_standard_id: "7.2"
+    text: "Explain the meaning of midpoint between two points on the Cartesian plane."
+    bloom: understand
+
+  - id: "7.2.2"
+    content_standard_id: "7.2"
+    text: "Derive the formula for midpoint between two points on the Cartesian plane."
+    bloom: apply
+
+  - id: "7.2.3"
+    content_standard_id: "7.2"
+    text: "Determine the coordinates of midpoint between two points on the Cartesian plane."
+    bloom: apply
+
+  - id: "7.2.4"
+    content_standard_id: "7.2"
+    text: "Solve problems involving midpoint in the Cartesian coordinate system."
+    bloom: apply
+
+  - id: "7.3.1"
+    content_standard_id: "7.3"
+    text: "Solve problems involving the Cartesian coordinate system using distance and midpoint concepts."
+    bloom: apply
+
 prerequisites:
-    required: []
-bloom_levels:
-    - understand
-    - apply
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-29T16:00:08Z"
-teaching:
-    sequence:
-        - 'Step 1: Introduce the concept of distance on a Cartesian plane using a simple grid and points (15 min)'
-        - 'Step 2: Guide students through the derivation of the distance formula using the Pythagorean theorem (20 min)'
-        - 'Step 3: Practice using the distance formula with different sets of points (15 min)'
-        - 'Step 4: Define and discuss the midpoint of two points on a Cartesian plane (15 min)'
-        - 'Step 5: Explain the formula for finding the midpoint and how it is derived (15 min)'
-        - 'Step 6: Apply distance and midpoint formulas to solve real-world problems (20 min)'
-    common_misconceptions:
-        - misconception: Midpoint is found by just averaging x and y
-          remediation: Reinforce that both x and y need to be averaged separately
-        - misconception: Distance formula is just the sum of differences
-          remediation: Emphasize the importance of squaring differences
-engagement_hooks:
-    - Use local maps to find distances between landmarks
-    - Discuss how GPS systems use coordinates to pinpoint locations
-ai_teaching_notes: MT2-07.teaching.md
-examples_file: MT2-07.examples.yaml
-assessments_file: MT2-07.assessments.yaml
+  required:
+    - "Plotting points on a Cartesian plane"
+    - "Identifying x-axis, y-axis, and origin (0, 0)"
+    - "Understanding basic Pythagoras theorem"
+  recommended:
+    - "Basic square root operations"
+    - "Understanding of coordinate quadrants"
+
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Step 1: Introduce Cartesian plane and coordinates (15 min)"
+    - "Step 2: Explain distance concept using grid movement (20 min)"
+    - "Step 3: Derive distance formula using Pythagoras theorem (25 min)"
+    - "Step 4: Introduce midpoint concept using averaging idea (15 min)"
+    - "Step 5: Derive midpoint formula step-by-step (20 min)"
+    - "Step 6: Apply both formulas in mixed problem solving (20 min)"
+
+  common_misconceptions:
+    - misconception: "Students treat midpoint as a single averaged number instead of a coordinate pair."
+      remediation: "Emphasize that midpoint must always produce (x, y) by averaging x-values and y-values separately."
+
+    - misconception: "Students forget that distance uses squared differences."
+      remediation: "Reinforce that distance comes from Pythagoras theorem, requiring squares before square root."
+
+  engagement_hooks:
+    - "Use a school map and calculate straight-line distance between two classrooms."
+    - "Show how navigation apps use coordinates to measure shortest travel distance."
+
+ai_teaching_notes: "MT2-07.teaching.md"
+examples_file: "MT2-07.examples.yaml"
+assessments_file: "MT2-07.assessments.yaml"
+
+quality_level: 3
+provenance: ai-assisted

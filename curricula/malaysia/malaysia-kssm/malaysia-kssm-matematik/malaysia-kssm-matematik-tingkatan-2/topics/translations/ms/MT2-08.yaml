@@ -1,0 +1,99 @@
+id: MT2-08
+official_ref: "Bab 8"
+name: "Graf Fungsi"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+sync_checked: true
+
+content_standards:
+  - id: "8.1"
+    text: "Fungsi"
+  - id: "8.2"
+    text: "Graf Fungsi"
+
+learning_objectives:
+  - id: "8.1.1"
+    content_standard_id: "8.1"
+    text: "Menerangkan maksud fungsi."
+    bloom: understand
+
+  - id: "8.1.2"
+    content_standard_id: "8.1"
+    text: "Mengenal pasti fungsi dan memberi justifikasi berdasarkan perwakilan termasuk pasangan tertib, jadual, graf dan persamaan."
+    bloom: analyze
+
+  - id: "8.2.1"
+    content_standard_id: "8.2"
+    text: "Membina jadual nilai bagi fungsi linear dan bukan linear serta melukis graf menggunakan skala yang diberi."
+    bloom: apply
+
+  - id: "8.2.2"
+    content_standard_id: "8.2"
+    text: "Mentafsir graf fungsi."
+    bloom: analyze
+
+  - id: "8.2.3"
+    content_standard_id: "8.2"
+    text: "Menyelesaikan masalah yang melibatkan graf fungsi termasuk titik persilangan."
+    bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor: "Menunjukkan pengetahuan asas tentang fungsi."
+  - level: 2
+    descriptor: "Menunjukkan kefahaman tentang graf fungsi."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman fungsi untuk membina jadual nilai dan melukis graf."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran fungsi dalam penyelesaian masalah rutin mudah."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran fungsi dalam penyelesaian masalah rutin kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran fungsi dalam penyelesaian masalah bukan rutin secara kreatif."
+
+prerequisites:
+  required:
+    - "MT1-06"
+  recommended:
+    - "MT1-08"
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Langkah 1: Memperkenalkan fungsi sebagai mesin input-output dalam situasi kehidupan sebenar (15 min)"
+    - "Langkah 2: Mengenal pasti fungsi menggunakan pasangan tertib, jadual, graf dan persamaan (20 min)"
+    - "Langkah 3: Membina jadual nilai untuk pelbagai jenis fungsi termasuk y = ax^n (25 min)"
+    - "Langkah 4: Memplot dan melukis graf dengan tepat menggunakan skala (25 min)"
+    - "Langkah 5: Mentafsir graf dan menyelesaikan masalah termasuk titik persilangan (20 min)"
+
+  common_misconceptions:
+    - misconception: "Semua hubungan adalah fungsi."
+      remediation: "Gunakan ujian garis mencancang untuk menunjukkan bahawa setiap input hanya boleh mempunyai satu output."
+
+    - misconception: "Fungsi tidak boleh mempunyai output yang sama untuk input berbeza."
+      remediation: "Terangkan bahawa hubungan banyak kepada satu adalah fungsi yang sah, tetapi satu kepada banyak tidak sah."
+
+    - misconception: "Graf hanyalah lukisan tanpa makna."
+      remediation: "Bimbing murid mentafsir arah, trend dan maksud graf dalam konteks sebenar."
+
+  engagement_hooks:
+    - "Gunakan carta BMI untuk menunjukkan bagaimana berat adalah fungsi kepada tinggi."
+    - "Teroka kos penghantaran makanan di mana jumlah harga bergantung kepada bilangan item."
+    - "Analisis jadual bas untuk melihat hubungan masa berlepas dan masa ketibaan."
+
+quality_level: 3
+provenance: ai-assisted
+ai_teaching_notes: "MT2-08.teaching.md"
+assessments_file: "MT2-08.assessments.yaml"
+examples_file: "MT2-08.examples.yaml"

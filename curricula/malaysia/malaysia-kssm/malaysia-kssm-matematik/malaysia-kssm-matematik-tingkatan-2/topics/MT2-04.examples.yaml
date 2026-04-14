@@ -1,36 +1,137 @@
 topic_id: MT2-04
-provenance: ai-generated
-description: "Worked examples for Poligon"
+provenance: ai-assisted
 worked_examples:
   - id: WE-01
-    topic: "Sifat Geometri Poligon Sekata"
+    topic: "Properties of Regular Polygons"
     difficulty: easy
-    real_world_analogy: "Consider a regular hexagon as the shape of a honeycomb cell."
-    misconception_alert: "Students often confuse the number of sides with the sum of interior angles."
-    scenario: "Describe the geometric properties of a regular hexagon."
+    learning_objective: "4.1.1"
+    real_world_analogy: >-
+      Think of a "perfect tile design" used in Malaysian batik patterns. 
+      Every tile must be exactly the same shape and size so the pattern fits perfectly without gaps.
+    misconception_alert: >-
+      Students often think equal sides alone are enough. Remember: 
+      a polygon is only regular if BOTH all sides AND all angles are equal.
+    scenario: "A batik designer uses a 4-sided shape where all sides are 6 cm, but the angles are 80°, 100°, 80°, and 100°. Is the shape a regular polygon?"
     working: |
-      Step 1: Recognize that a regular hexagon has all sides and angles equal.
-      Step 2: Note that the hexagon can be divided into 6 equilateral triangles.
-      Step 3: Calculate the interior angle using the formula (n-2) * 180° / n, where n is the number of sides. For a hexagon (n=6), each interior angle is (6-2) * 180° / 6 = 120°.
+      Step 1: Recall the definition of a regular polygon.
+      A regular polygon must have:
+      - All sides equal.
+      - All interior angles equal.
+
+      Step 2: Check the sides.
+      All sides are 6 cm → condition satisfied.
+
+      Step 3: Check the angles.
+      Angles are 80°, 100°, 80°, 100° → not equal.
+
+      Step 4: Conclusion.
+      The polygon is NOT regular because the angles are not equal.
 
   - id: WE-02
-    topic: "Membina Poligon Sekata"
+    topic: "Sum of Interior Angles"
     difficulty: medium
-    real_world_analogy: "Building a stop sign requires constructing a regular octagon."
-    misconception_alert: "Assuming all angles are 90° because they are equal."
-    scenario: "Construct a regular octagon using a compass and straightedge."
+    learning_objective: "4.2.1"
+    real_world_analogy: >-
+      Imagine breaking a pizza into triangles from one corner. 
+      Each slice (triangle) is 180°, so counting triangles helps find the total angle.
+    misconception_alert: >-
+      Do NOT multiply n × 180°. The correct formula is (n − 2) × 180°.
+    scenario: "A window is shaped like a nonagon. Find the sum of its interior angles."
     working: |
-      Step 1: Draw a circle with a compass to define the boundary for the octagon.
-      Step 2: Use a protractor to mark equal angles of 45° on the circumference.
-      Step 3: Connect the points marked on the circle to form an octagon.
+      Step 1: Identify the number of sides.
+      A nonagon has n = 9 sides.
+
+      Step 2: Use the formula.
+      Sum of interior angles = (n − 2) × 180°
+
+      Step 3: Substitute n = 9.
+      = (9 − 2) × 180°
+
+      Step 4: Simplify inside brackets.
+      = 7 × 180°
+
+      Step 5: Multiply.
+      = 1260°
+
+      Final Answer: 1260°
 
   - id: WE-03
-    topic: "Hasil Tambah Sudut Pedalaman Poligon"
-    difficulty: hard
-    real_world_analogy: "Imagine the angles of a pentagon as pieces of a pie chart, each slice representing part of a whole."
-    misconception_alert: "Thinking the sum of interior angles is always 360° regardless of the sides."
-    scenario: "Calculate the sum of the interior angles of a dodecagon (12-sided polygon)."
+    topic: "Interior Angle of Regular Polygon"
+    difficulty: medium
+    learning_objective: "4.2.2"
+    real_world_analogy: >-
+      Think of sharing a cake equally among all corners. 
+      Each angle gets an equal portion of the total angle sum.
+    misconception_alert: >-
+      Students often forget to divide by n after finding the total interior angle sum.
+    scenario: "Find the size of each interior angle of a regular hexagon."
     working: |
-      Step 1: Recall that the sum of interior angles formula is (n-2) * 180°, where n is the number of sides.
-      Step 2: For a dodecagon, n = 12, so substitute into the formula: (12-2) * 180°.
-      Step 3: Calculate (10 * 180°) = 1800°. Therefore, the sum of the interior angles of a dodecagon is 1800°.
+      Step 1: Identify number of sides.
+      Hexagon → n = 6
+
+      Step 2: Find total interior angle sum.
+      = (n − 2) × 180°
+      = (6 − 2) × 180°
+      = 4 × 180°
+      = 720°
+
+      Step 3: Divide by number of angles.
+      Each angle = 720° ÷ 6
+      = 120°
+
+      Final Answer: 120°
+
+  - id: WE-04
+    topic: "Exterior Angle and Number of Sides"
+    difficulty: medium
+    learning_objective: "4.2.3"
+    real_world_analogy: >-
+      Imagine walking around a shape and turning at each corner. 
+      One full turn is always 360°.
+    misconception_alert: >-
+      Students may confuse interior and exterior angles. 
+      Use 360° ONLY for exterior angles.
+    scenario: "A regular polygon has an exterior angle of 30°. Find the number of sides."
+    working: |
+      Step 1: Use the formula.
+      Number of sides n = 360° ÷ exterior angle
+
+      Step 2: Substitute value.
+      n = 360° ÷ 30°
+
+      Step 3: Calculate.
+      n = 12
+
+      Final Answer: 12 sides
+
+  - id: WE-05
+    topic: "Combined Polygon Angles (KBAT)"
+    difficulty: hard
+    learning_objective: "4.2.4"
+    real_world_analogy: >-
+      Imagine standing at a point where tiles meet. 
+      All angles around you must add up to a full turn (360°).
+    misconception_alert: >-
+      Students often forget that angles around a point must total 360°.
+    scenario: "A regular pentagon and a square meet at a point. Find the angle x formed at the point."
+    working: |
+      Step 1: Find interior angle of pentagon.
+      = ((5 − 2) × 180°) ÷ 5
+      = (3 × 180°) ÷ 5
+      = 540° ÷ 5
+      = 108°
+
+      Step 2: Identify square angle.
+      = 90°
+
+      Step 3: Use angles around a point.
+      108° + 90° + x = 360°
+
+      Step 4: Add known angles.
+      198° + x = 360°
+
+      Step 5: Solve for x.
+      x = 360° − 198°
+      x = 162°
+
+      Final Answer: 162°

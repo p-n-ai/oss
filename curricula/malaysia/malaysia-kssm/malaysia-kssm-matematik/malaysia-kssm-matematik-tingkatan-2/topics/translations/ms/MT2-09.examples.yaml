@@ -1,0 +1,42 @@
+topic_id: MT2-09
+provenance: ai-assisted
+
+worked_examples:
+  - id: WE-01
+    topic: "Laju sebagai Kadar"
+    difficulty: easy
+    misconception_alert: "Pelajar sering menganggap laju hanya jarak. Ingat, laju mesti melibatkan JARAK dan MASA."
+    scenario: "Aida berjalan 100 m ke kedai runcit dalam masa 5 minit. Hitung lajunya dalam m/min."
+    working: |
+      Langkah 1: Kenal pasti nilai. Jarak = $100\text{ m}$, Masa = $5\text{ min}$.
+      Langkah 2: Formula. Laju = $\frac{Jarak}{Masa}$.
+      Langkah 3: Ganti nilai. Laju = $\frac{100}{5}$.
+      Langkah 4: Kira. $100 \div 5 = 20$.
+      Langkah 5: Jawapan akhir: $20\text{ m/min}$.
+
+  - id: WE-02
+    topic: "Laju Purata dan Penukaran Unit"
+    difficulty: medium
+    misconception_alert: "Jangan puratakan laju secara terus. Laju purata mesti guna jumlah jarak dan jumlah masa."
+    scenario: "Sebuah bas bergerak 354 km dari Puchong ke Perai dalam 5 jam 20 minit. Hitung laju purata dalam km/j."
+    working: |
+      Langkah 1: Tukar masa. $5\text{ j }20\text{ min} = 5 + \frac{20}{60}$.
+      Langkah 2: $20/60 = 0.33$.
+      Langkah 3: Jumlah masa = $5.33\text{ j}$.
+      Langkah 4: Formula. Laju purata = $\frac{Jumlah\ Jarak}{Jumlah\ Masa}$.
+      Langkah 5: Ganti nilai. $\frac{354}{5.33}$.
+      Langkah 6: Kira. $66.42\text{ km/j}$.
+
+  - id: WE-03
+    topic: "Pecutan dan Nyahpecutan"
+    difficulty: hard
+    misconception_alert: "Pelajar sering lupa bahawa nyahpecutan ialah pecutan negatif dan tersalah susun formula."
+    scenario: "Sebuah lori mainan menyahpecut pada kadar $0.741\text{ m/s}^2$ selama 27 saat sehingga berhenti. Cari halaju awalnya."
+    working: |
+      Langkah 1: Halaju akhir = $0\text{ m/s}$, masa = $27\text{ s}$.
+      Langkah 2: Pecutan = $-0.741\text{ m/s}^2$.
+      Langkah 3: Formula: $a = \frac{v - u}{t}$.
+      Langkah 4: Ganti nilai: $-0.741 = \frac{0 - u}{27}$.
+      Langkah 5: Darab: $-0.741 \times 27 = -u$.
+      Langkah 6: $-20 \approx -u$.
+      Langkah 7: $u = 20\text{ m/s}$.

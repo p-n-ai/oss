@@ -1,0 +1,83 @@
+id: MT2-04
+official_ref: "Bab 4"
+name: "Poligon"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+
+prerequisites:
+  required:
+    - MT1-09
+    - MT1-08
+  recommended: []
+
+bloom_levels:
+  - understand
+  - apply
+  - analyze
+  - evaluate
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+content_standards:
+  - id: "4.1"
+    text: "Poligon Sekata"
+  - id: "4.2"
+    text: "Sudut Pedalaman dan Sudut Peluaran Poligon"
+
+learning_objectives:
+  - id: 4.1.1
+    text: "Menghuraikan sifat geometri poligon sekata menggunakan pelbagai perwakilan."
+    bloom: understand
+  - id: 4.1.2
+    text: "Membina poligon sekata menggunakan pelbagai kaedah dan menerangkan rasional langkah-langkah pembinaan."
+    bloom: apply
+  - id: 4.2.1
+    text: "Menerbitkan rumus hasil tambah sudut pedalaman suatu poligon."
+    bloom: analyze
+  - id: 4.2.2
+    text: "Membuat dan mengesahkan konjektur tentang hasil tambah sudut peluaran poligon."
+    bloom: evaluate
+  - id: 4.2.3
+    text: "Menentukan nilai sudut pedalaman, sudut peluaran dan bilangan sisi suatu poligon."
+    bloom: apply
+  - id: 4.2.4
+    text: "Menyelesaikan masalah yang melibatkan poligon."
+    bloom: apply
+
+performance_standards:
+  - id: TP1
+    text: "Mempamerkan pengetahuan asas tentang poligon sekata dan tak sekata."
+  - id: TP2
+    text: "Mempamerkan kefahaman tentang pembinaan poligon sekata."
+  - id: TP3
+    text: "Mengaplikasikan kefahaman tentang sudut pedalaman, sudut peluaran dan bilangan sisi untuk melaksanakan tugasan mudah."
+  - id: TP4
+    text: "Mengaplikasikan pengetahuan dan kemahiran poligon dalam konteks penyelesaian masalah rutin yang mudah."
+  - id: TP5
+    text: "Mengaplikasikan pengetahuan dan kemahiran poligon dalam konteks penyelesaian masalah rutin yang kompleks."
+  - id: TP6
+    text: "Mengaplikasikan pengetahuan dan kemahiran poligon dalam konteks penyelesaian masalah bukan rutin secara kreatif."
+
+teaching:
+  sequence:
+    - "Langkah 1: Pengenalan kepada poligon sekata dan tak sekata (30 minit)"
+    - "Langkah 2: Pembinaan poligon sekata menggunakan alat geometri dan perisian (30 minit)"
+    - "Langkah 3: Menerbitkan rumus sudut pedalaman (n-2) × 180° (30 minit)"
+    - "Langkah 4: Meneroka sudut peluaran dan jumlahnya (360°) (30 minit)"
+    - "Langkah 5: Penyelesaian masalah melibatkan poligon (30 minit)"
+
+ai_teaching_notes: "MT2-04.teaching.md"
+assessments_file: "MT2-04.assessments.yaml"
+examples_file: "MT2-04.examples.yaml"
+quality_level: 3
+provenance: ai-assisted

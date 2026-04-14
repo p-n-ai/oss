@@ -1,43 +1,70 @@
 topic_id: MT2-11
-provenance: ai-generated
-description: "Worked examples for Transformasi Isometri"
+provenance: ai-assisted
+description: "Worked examples for Isometric Transformations covering Translation, Reflection, Rotation, Isometry, and Rotational Symmetry."
+
 worked_examples:
+  # --- 11.2 Translation ---
   - id: WE-01
-    topic: "Translasi"
+    topic: "Translation"
     difficulty: easy
-    real_world_analogy: "Imagine sliding a book across a table without lifting it; the book's position changes, but its orientation and size remain the same."
-    misconception_alert: "Students often confuse translation with rotation; translation does not involve any turning or flipping."
-    scenario: "A point P(2, 3) is translated by the vector (4, -2). Determine the new coordinates of point P."
+    real_world_analogy: "Imagine sliding a plate of Nasi Lemak across a smooth table. The plate stays facing the same way and doesn't flip or turn; it only shifts position."
+    misconception_alert: "Students often forget that moving left and down must be represented with negative values in the vector."
+    scenario: "Point $P(2, 3)$ is translated by vector $\\begin{pmatrix} -4 \\\\ 2 \\end{pmatrix}$. Determine the coordinates of image $P'$."
     working: |
-      Step 1: Identify the translation vector, which is (4, -2).
-      Step 2: Apply the translation to point P by adding the vector components to the point's coordinates.
-              New x-coordinate = 2 + 4 = 6
-              New y-coordinate = 3 - 2 = 1
-      Step 3: The new coordinates of point P are (6, 1).
+      1. Identify original coordinates: $x = 2, y = 3$.
+      2. Identify vector components: $a = -4, b = 2$.
+      3. Apply x-translation: $x' = 2 + (-4) = -2$.
+      4. Apply y-translation: $y' = 3 + 2 = 5$.
+      5. Final answer: $P'(-2, 5)$.
 
+  # --- 11.3 Reflection ---
   - id: WE-02
-    topic: "Pantulan"
+    topic: "Reflection"
     difficulty: medium
-    real_world_analogy: "Reflecting your face in a mirror; your face appears reversed but maintains its size and shape."
-    misconception_alert: "Students may assume reflection changes the object's size; however, it only changes the orientation."
-    scenario: "Reflect triangle ABC with vertices A(1, 2), B(4, 2), C(4, 5) across the y-axis. Determine the coordinates of the reflected triangle A'B'C'."
+    real_world_analogy: "Think of the reflection of the Tuanku Mizan Zainal Abidin Mosque on Putrajaya Lake. The image is inverted but remains the same size."
+    misconception_alert: "Students often assume the distance from object to axis is different from image to axis. They must be equal and perpendicular."
+    scenario: "Reflect point $Q(3, 4)$ in the line $x = 1$. Determine image $Q'$."
     working: |
-      Step 1: Identify that reflection across the y-axis will change the sign of x-coordinates.
-      Step 2: Reflect each vertex across the y-axis:
-              A(1, 2) becomes A'(-1, 2)
-              B(4, 2) becomes B'(-4, 2)
-              C(4, 5) becomes C'(-4, 5)
-      Step 3: The coordinates of the reflected triangle A'B'C' are A'(-1, 2), B'(-4, 2), C'(-4, 5).
+      1. Find distance from point to axis: $3 - 1 = 2$.
+      2. Move same distance to the opposite side of axis.
+      3. New x-coordinate: $x' = 1 - 2 = -1$.
+      4. y-coordinate unchanged: $y' = 4$.
+      5. Final answer: $Q'(-1, 4)$.
 
+  # --- 11.4 Rotation ---
   - id: WE-03
-    topic: "Putaran"
-    difficulty: hard
-    real_world_analogy: "Rotating a key to unlock a door; the key turns around a fixed point (the lock) while maintaining its shape."
-    misconception_alert: "A rotation is not the same as a translation; rotation involves turning around a fixed point, not moving in a straight line."
-    scenario: "Rotate point D(3, 4) 90 degrees counterclockwise about the origin. Determine the coordinates of the new point D'."
+    topic: "Rotation"
+    difficulty: medium
+    real_world_analogy: "Rotating a key inside a lock. The center stays fixed while the rest rotates around it."
+    misconception_alert: "Students often mix clockwise and anticlockwise rules. 90° CW ≠ 90° ACW."
+    scenario: "Point $R(5, 2)$ is rotated 90° anticlockwise about the origin. Find $R'$."
     working: |
-      Step 1: Understand that a 90-degree counterclockwise rotation about the origin swaps the coordinates and changes the sign of the new x-coordinate.
-      Step 2: Apply the rotation rule:
-              Original coordinates: D(3, 4)
-              New coordinates after rotation: D'(-4, 3)
-      Step 3: The coordinates of the point D after the rotation are D'(-4, 3).
+      1. Use rule: $(x, y) \\rightarrow (-y, x)$.
+      2. Substitute values: $(5, 2)$.
+      3. New x: $-2$, new y: $5$.
+      4. Final answer: $R'(-2, 5)$.
+
+  # --- 11.5 Isometry & Congruence ---
+  - id: WE-04
+    topic: "Isometry and Congruence"
+    difficulty: hard
+    real_world_analogy: "Two identical floor tiles will always fit perfectly even if you slide, flip, or rotate them."
+    misconception_alert: "Students confuse similarity with congruence. Isometry always preserves size AND shape."
+    scenario: "Triangle $ABC$ is the image of triangle $BCD$ under an isometry. Given $\\angle BDC = 35°$ and $\\angle CBD = 15°$, find $\\angle BAC$."
+    working: |
+      1. Under isometry, shapes are congruent.
+      2. Corresponding angles are equal.
+      3. In triangle $BCD$: $180° - 35° - 15° = 130°$.
+      4. Therefore $\\angle BAC = 130°$.
+
+  # --- 11.6 Rotational Symmetry ---
+  - id: WE-05
+    topic: "Rotational Symmetry"
+    difficulty: medium
+    real_world_analogy: "A ceiling fan with 3 blades looks the same every 120° rotation."
+    misconception_alert: "Students confuse line symmetry with rotational symmetry."
+    scenario: "Find the order of rotational symmetry of a regular hexagon."
+    working: |
+      1. A regular polygon has symmetry equal to number of sides.
+      2. Hexagon has 6 sides.
+      3. Therefore order = 6.

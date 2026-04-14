@@ -1,0 +1,161 @@
+id: MT2-11
+official_ref: "Bab 11"
+name: "Transformasi Isometri"
+subject_grade_id: MT2-11
+subject_id: MT2
+syllabus_id: KSSM-MT2
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+
+content_standards:
+  - id: "11.1"
+    text: "Penjelmaan"
+  - id: "11.2"
+    text: "Translasi"
+  - id: "11.3"
+    text: "Pantulan"
+  - id: "11.4"
+    text: "Putaran"
+  - id: "11.5"
+    text: "Translasi, Pantulan dan Putaran sebagai Isometri"
+  - id: "11.6"
+    text: "Simetri Putaran"
+
+learning_objectives:
+  - id: "11.1.1"
+    content_standard_id: "11.1"
+    text: "Menerangkan perubahan bentuk, saiz, arah dan orientasi di bawah suatu penjelmaan serta menerangkan kesepadanan satu-ke-satu antara titik."
+    bloom: understand
+  - id: "11.1.2"
+    content_standard_id: "11.1"
+    text: "Menerangkan idea kekongruenan dalam penjelmaan."
+    bloom: understand
+
+  - id: "11.2.1"
+    content_standard_id: "11.2"
+    text: "Mengenal translasi."
+    bloom: remember
+  - id: "11.2.2"
+    content_standard_id: "11.2"
+    text: "Menerangkan translasi dalam pelbagai perwakilan termasuk bentuk vektor."
+    bloom: understand
+  - id: "11.2.3"
+    content_standard_id: "11.2"
+    text: "Menentukan imej dan objek di bawah translasi."
+    bloom: apply
+  - id: "11.2.4"
+    content_standard_id: "11.2"
+    text: "Menyelesaikan masalah melibatkan translasi."
+    bloom: apply
+
+  - id: "11.3.1"
+    content_standard_id: "11.3"
+    text: "Mengenal pantulan."
+    bloom: remember
+  - id: "11.3.2"
+    content_standard_id: "11.3"
+    text: "Menerangkan pantulan dalam pelbagai perwakilan."
+    bloom: understand
+  - id: "11.3.3"
+    content_standard_id: "11.3"
+    text: "Menentukan imej dan objek di bawah pantulan."
+    bloom: apply
+  - id: "11.3.4"
+    content_standard_id: "11.3"
+    text: "Menyelesaikan masalah melibatkan pantulan."
+    bloom: apply
+
+  - id: "11.4.1"
+    content_standard_id: "11.4"
+    text: "Mengenal putaran."
+    bloom: remember
+  - id: "11.4.2"
+    content_standard_id: "11.4"
+    text: "Menerangkan putaran dalam pelbagai perwakilan."
+    bloom: understand
+  - id: "11.4.3"
+    content_standard_id: "11.4"
+    text: "Menentukan imej dan objek di bawah putaran."
+    bloom: apply
+  - id: "11.4.4"
+    content_standard_id: "11.4"
+    text: "Menyelesaikan masalah melibatkan putaran."
+    bloom: apply
+
+  - id: "11.5.1"
+    content_standard_id: "11.5"
+    text: "Menyiasat hubungan antara kesan translasi, pantulan dan putaran dengan jarak antara dua titik untuk menerangkan isometri."
+    bloom: analyze
+  - id: "11.5.2"
+    content_standard_id: "11.5"
+    text: "Menerangkan hubungan antara isometri dan kekongruenan."
+    bloom: understand
+  - id: "11.5.3"
+    content_standard_id: "11.5"
+    text: "Menyelesaikan masalah melibatkan isometri dan kekongruenan."
+    bloom: apply
+
+  - id: "11.6.1"
+    content_standard_id: "11.6"
+    text: "Menerangkan simetri putaran."
+    bloom: understand
+  - id: "11.6.2"
+    content_standard_id: "11.6"
+    text: "Menentukan darjah simetri putaran bagi suatu objek."
+    bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor: "Mempamerkan pengetahuan asas tentang translasi, pantulan dan putaran."
+  - level: 2
+    descriptor: "Mempamerkan kefahaman tentang translasi, pantulan dan putaran."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman penjelmaan untuk melaksanakan tugasan mudah."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran dalam penyelesaian masalah rutin mudah."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran dalam penyelesaian masalah rutin kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran dalam penyelesaian masalah bukan rutin secara kreatif."
+
+prerequisites:
+  required:
+    - "MT1-Coordinates"
+    - "MT1-Polygons"
+  recommended: []
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Langkah 1: Pengenalan penjelmaan dan kesepadanan satu-ke-satu (15 minit)"
+    - "Langkah 2: Meneroka translasi menggunakan grid dan vektor (20 minit)"
+    - "Langkah 3: Mengkaji pantulan menggunakan cermin dan paksi (20 minit)"
+    - "Langkah 4: Memahami putaran dengan pusat, sudut dan arah (20 minit)"
+    - "Langkah 5: Menghubungkan penjelmaan dengan isometri dan kekongruenan (15 minit)"
+    - "Langkah 6: Menentukan simetri putaran dan darjahnya (15 minit)"
+  common_misconceptions:
+    - misconception: "Pelajar beranggapan penjelmaan mengubah saiz objek."
+      remediation: "Tekankan bahawa isometri mengekalkan jarak dan saiz."
+    - misconception: "Pelajar keliru arah putaran (arah jam dan lawan arah jam)."
+      remediation: "Gunakan analogi jam untuk mengukuhkan arah."
+    - misconception: "Pelajar keliru antara objek dan imej."
+      remediation: "Labelkan objek asal dan imej dengan jelas secara konsisten."
+  engagement_hooks:
+    - "Gunakan corak batik untuk mengenal pasti translasi dan pantulan."
+    - "Minta pelajar mereka logo menggunakan penjelmaan."
+    - "Gunakan aktiviti cermin untuk menunjukkan pantulan."
+
+quality_level: 3
+provenance: ai-assisted
+sync_checked: true
+ai_teaching_notes: "MT2-11.teaching.md"
+assessments_file: "MT2-11.assessments.yaml"
+examples_file: "MT2-11.examples.yaml"

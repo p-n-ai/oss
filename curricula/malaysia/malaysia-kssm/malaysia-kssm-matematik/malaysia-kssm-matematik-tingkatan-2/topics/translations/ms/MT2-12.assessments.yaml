@@ -1,0 +1,146 @@
+topic_id: MT2-12
+provenance: ai-assisted
+
+questions:
+
+  # --- 12.1.1 Data Tak Terkumpul (Min, Median, Mod) ---
+  - id: Q1
+    text: "Sekumpulan murid merekod wang saku harian: RM5, RM8, RM3, RM7, RM5. Hitung min dan tentukan median."
+    difficulty: easy
+    learning_objective: "12.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "Min = RM5.60, Median = RM5"
+      working: |
+        Jumlah = 5 + 8 + 3 + 7 + 5 = 28
+        Min = 28 ÷ 5 = 5.60
+        Data tersusun = 3, 5, 5, 7, 8
+        Median = nilai ke-3 = 5
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Pengiraan min yang betul dengan langkah kerja."
+      - marks: 1
+        criteria: "Median betul selepas penyusunan data."
+    hints:
+      - level: 1
+        text: "Cari jumlah dulu, kemudian bahagi. Median WAJIB susun data dari kecil ke besar."
+
+  # --- 12.1.2 Kesan Perubahan Seragam ---
+  - id: Q2
+    text: "Min bagi satu set data ialah 12. Jika setiap nilai didarab dengan 3, apakah min baharu?"
+    difficulty: medium
+    learning_objective: "12.1.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "36"
+      options:
+        A: "12"
+        B: "15"
+        C: "36"
+        D: "144"
+      working: |
+        Min berubah mengikut faktor pendaraban.
+        Min baharu = 12 × 3 = 36
+      distractors:
+        - value: "12"
+          feedback: "Awak tidak ambil kira perubahan seragam. Jika semua nilai berubah, min juga berubah."
+        - value: "15"
+          feedback: "Awak tambah, bukan darab. Kata kunci ialah DIDARAB."
+        - value: "144"
+          feedback: "Ini kesalahan kuasa dua. Tiada operasi kuasa dalam soalan."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Jika semua nilai jadi 3 kali ganda, apa jadi pada purata?"
+
+  # --- 12.1.4 Data Terkumpul (Kelas Mod) ---
+  - id: Q3
+    text: |
+      Jadual markah:
+
+      10–19: 3
+      20–29: 7
+      30–39: 7
+      40–49: 2
+
+      Tentukan kelas mod.
+    difficulty: medium
+    learning_objective: "12.1.4"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "20–29 dan 30–39"
+      options:
+        A: "10–19"
+        B: "20–29"
+        C: "20–29 dan 30–39"
+        D: "40–49"
+      working: |
+        Kelas mod = kekerapan tertinggi
+        Nilai tertinggi = 7
+        Dua kelas berkongsi nilai sama
+      distractors:
+        - value: "20–29"
+          feedback: "Awak pilih satu sahaja. Sebenarnya ada seri."
+        - value: "7"
+          feedback: "Itu kekerapan, bukan kelas."
+        - value: "10–19"
+          feedback: "Ini bukan kumpulan tertinggi."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Cari kekerapan paling tinggi. Jika seri, semua yang tertinggi ialah kelas mod."
+
+  # --- 12.1.5 Pemilihan Sukatan (Pencilan) ---
+  - id: Q4
+    text: "Gaji (RM): 2000, 2200, 2100, 2500, 12000. Sukatan manakah paling sesuai? Beri sebab."
+    difficulty: hard
+    learning_objective: "12.1.5"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: "Median, kerana nilai ekstrem (12000) memesongkan min."
+      working: |
+        Kenal pasti pencilan: 12000
+        Min menjadi tidak seimbang
+        Median lebih stabil
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Jawapan median yang betul."
+      - marks: 1
+        criteria: "Justifikasi berdasarkan kesan pencilan."
+    hints:
+      - level: 1
+        text: "Ada satu nilai Gergasi. Sukatan mana yang terikut Gergasi, dan mana yang kekal di tengah?"
+
+  # --- 12.1.7 Penaakulan KBAT ---
+  - id: Q5
+    text: "Dua pemain mempunyai min yang sama iaitu 150. Pemain A julat 40, Pemain B julat 120. Siapakah lebih konsisten?"
+    difficulty: hard
+    learning_objective: "12.1.7"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Pemain A, kerana julat lebih kecil menunjukkan lebih konsisten."
+      working: |
+        Min sama → banding julat
+        Julat A < Julat B
+        A lebih stabil
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Pemilihan Pemain A."
+      - marks: 1
+        criteria: "Penjelasan konsistensi/julat."
+    hints:
+      - level: 1
+        text: "Jika purata sama, lihat siapa lebih stabil: data rapat atau data sangat berubah-ubah?"

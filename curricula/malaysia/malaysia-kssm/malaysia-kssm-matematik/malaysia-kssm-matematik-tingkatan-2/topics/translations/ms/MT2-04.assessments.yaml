@@ -1,0 +1,119 @@
+topic_id: MT2-04
+provenance: expert-reviewed-alignment
+questions:
+  - id: Q1
+    text: "Antara berikut, yang manakah mentakrifkan poligon sekata?"
+    difficulty: easy
+    learning_objective: "4.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Semua sisi sama panjang dan semua sudut pedalaman sama saiz."
+      working: |
+        Poligon sekata mesti mempunyai sisi sama panjang dan sudut sama saiz.
+      distractors:
+        - value: "Semua sisi sahaja sama panjang."
+          feedback: "Sudut juga mesti sama untuk menjadi sekata."
+        - value: "Semua sudut sahaja sama saiz."
+          feedback: "Sisi juga mesti sama panjang."
+        - value: "Mempunyai sekurang-kurangnya satu paksi simetri."
+          feedback: "Banyak bentuk lain juga mempunyai simetri."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Jawapan betul dipilih."
+    hints:
+      - level: 1
+        text: "Poligon sekata ada DUA syarat utama."
+
+  - id: Q2
+    text: "Nyatakan bilangan paksi simetri bagi sebuah oktagon sekata."
+    difficulty: easy
+    learning_objective: "4.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "8"
+      working: |
+        Bilangan paksi simetri = bilangan sisi.
+    marks: 1
+
+  - id: Q3
+    text: "Hitung jumlah sudut pedalaman bagi sebuah heksagon."
+    difficulty: medium
+    learning_objective: "4.2.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "720°"
+      working: |
+        (6 - 2) × 180 = 720°
+    marks: 2
+
+  - id: Q4
+    text: "Cari sudut peluaran bagi sebuah dekagon sekata."
+    difficulty: medium
+    learning_objective: "4.2.3"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "36°"
+      working: |
+        360 ÷ 10 = 36°
+    marks: 2
+
+  - id: Q5
+    text: "Sebuah poligon sekata mempunyai sudut peluaran 30°. Berapakah bilangan sisinya?"
+    difficulty: medium
+    learning_objective: "4.2.3"
+    tp_level: 4
+    kbat: false
+    answer:
+      type: exact
+      value: "12"
+      working: |
+        360 ÷ 30 = 12
+    marks: 2
+
+  - id: Q6
+    text: "Sebuah pentagon sekata dan segi empat sama bertemu pada satu titik. Cari sudut x."
+    difficulty: hard
+    learning_objective: "4.2.4"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "162°"
+      working: |
+        360 - 108 - 90 = 162°
+    marks: 4
+
+  - id: Q7
+    text: "Adakah mungkin sebuah poligon mempunyai jumlah sudut pedalaman 300°? Jelaskan."
+    difficulty: hard
+    learning_objective: "4.2.4"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Tidak, kerana bilangan sisi bukan nombor bulat."
+      working: |
+        n = 3.67 → tidak sah
+    marks: 3
+
+  - id: Q8
+    text: "Pilih rumus jumlah sudut pedalaman poligon."
+    difficulty: easy
+    learning_objective: "4.2.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "(n - 2) × 180°"
+      working: |
+        Rumus standard.
+    marks: 1

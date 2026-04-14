@@ -1,0 +1,108 @@
+id: MT2-07
+official_ref: "Bab 7"
+name: "Koordinat"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+
+content_standards:
+  - id: "7.1"
+    text: "Jarak dalam Sistem Koordinat Cartes"
+  - id: "7.2"
+    text: "Titik Tengah dalam Sistem Koordinat Cartes"
+  - id: "7.3"
+    text: "Sistem Koordinat Cartes"
+
+learning_objectives:
+  - id: "7.1.1"
+    content_standard_id: "7.1"
+    text: "Menerangkan maksud jarak antara dua titik pada satah Cartes."
+    bloom: understand
+
+  - id: "7.1.2"
+    content_standard_id: "7.1"
+    text: "Menerbitkan formula jarak antara dua titik pada satah Cartes."
+    bloom: apply
+
+  - id: "7.1.3"
+    content_standard_id: "7.1"
+    text: "Menentukan jarak antara dua titik pada satah Cartes."
+    bloom: apply
+
+  - id: "7.1.4"
+    content_standard_id: "7.1"
+    text: "Menyelesaikan masalah melibatkan jarak dalam sistem koordinat Cartes."
+    bloom: apply
+
+  - id: "7.2.1"
+    content_standard_id: "7.2"
+    text: "Menerangkan maksud titik tengah antara dua titik pada satah Cartes."
+    bloom: understand
+
+  - id: "7.2.2"
+    content_standard_id: "7.2"
+    text: "Menerbitkan formula titik tengah antara dua titik pada satah Cartes."
+    bloom: apply
+
+  - id: "7.2.3"
+    content_standard_id: "7.2"
+    text: "Menentukan koordinat titik tengah antara dua titik pada satah Cartes."
+    bloom: apply
+
+  - id: "7.2.4"
+    content_standard_id: "7.2"
+    text: "Menyelesaikan masalah melibatkan titik tengah dalam sistem koordinat Cartes."
+    bloom: apply
+
+  - id: "7.3.1"
+    content_standard_id: "7.3"
+    text: "Menyelesaikan masalah sistem koordinat Cartes menggunakan konsep jarak dan titik tengah."
+    bloom: apply
+
+prerequisites:
+  required:
+    - "Memplot titik pada satah Cartes"
+    - "Mengenal pasti paksi-x, paksi-y dan asalan (0, 0)"
+    - "Memahami Teorem Pythagoras asas"
+  recommended:
+    - "Operasi punca kuasa dua asas"
+    - "Pemahaman kuadran koordinat"
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Langkah 1: Perkenalkan satah Cartes dan koordinat (15 minit)"
+    - "Langkah 2: Terangkan konsep jarak menggunakan pergerakan grid (20 minit)"
+    - "Langkah 3: Terbitkan formula jarak menggunakan Teorem Pythagoras (25 minit)"
+    - "Langkah 4: Perkenalkan konsep titik tengah menggunakan idea purata (15 minit)"
+    - "Langkah 5: Terbitkan formula titik tengah langkah demi langkah (20 minit)"
+    - "Langkah 6: Aplikasi kedua-dua formula dalam penyelesaian masalah gabungan (20 minit)"
+
+  common_misconceptions:
+    - misconception: "Pelajar menganggap titik tengah sebagai satu nombor purata tunggal, bukan pasangan koordinat."
+      remediation: "Tekankan bahawa titik tengah mesti dalam bentuk (x, y) dengan mempuratakan x dan y secara berasingan."
+
+    - misconception: "Pelajar terlupa bahawa jarak melibatkan kuasa dua perbezaan."
+      remediation: "Kukuhkan bahawa jarak berasal daripada Teorem Pythagoras yang memerlukan kuasa dua sebelum punca kuasa dua."
+
+  engagement_hooks:
+    - "Gunakan peta sekolah untuk mengira jarak lurus antara dua bilik darjah."
+    - "Tunjukkan bagaimana aplikasi navigasi menggunakan koordinat untuk mencari jarak paling pendek."
+
+ai_teaching_notes: "MT2-07.teaching.md"
+examples_file: "MT2-07.examples.yaml"
+assessments_file: "MT2-07.assessments.yaml"
+
+quality_level: 3
+provenance: ai-assisted
+sync_checked: true

@@ -1,45 +1,59 @@
 topic_id: MT2-07
-provenance: ai-generated
-description: "Worked examples for Koordinat"
+provenance: ai-assisted
+description: "Scaffolded worked examples for Cartesian Coordinate Geometry"
+
 worked_examples:
   - id: WE-01
-    topic: "Jarak antara dua titik pada satah Cartes"
+    topic: "Distance between two points on a Cartesian plane"
     difficulty: easy
-    real_world_analogy: "Bayangkan dua kedai di sepanjang jalan lurus. Kita ingin tahu berapa jauh antara kedua-dua kedai tersebut."
-    misconception_alert: "Pelajar sering tersilap dengan menambah koordinat secara langsung tanpa menggunakan formula jarak."
-    scenario: "Diberikan dua titik A(2, 3) dan B(5, 7) pada satah Cartes. Tentukan jarak antara dua titik tersebut."
+    learning_objective: "7.1.3"
+    tp_level: 2
+    real_world_analogy: "A delivery rider travels from one house to another using the shortest possible straight route instead of following road turns."
+    misconception_alert: "Students often add coordinate values or count grid steps horizontally and vertically instead of using the distance formula."
+    scenario: "Find the distance between point $A(2, 3)$ and point $B(5, 7)$."
     working: |
-      Step 1: Kenal pasti koordinat titik A dan B. Titik A adalah (2, 3) dan titik B adalah (5, 7).
-      Step 2: Gunakan formula jarak: √((x2 - x1)² + (y2 - y1)²).
-      Step 3: Gantikan nilai ke dalam formula: √((5 - 2)² + (7 - 3)²) = √(3² + 4²) = √(9 + 16) = √25 = 5.
-      Step 4: Oleh itu, jarak antara titik A dan B ialah 5 unit.
+      1. Identify coordinates: $(x_1, y_1) = (2, 3)$ and $(x_2, y_2) = (5, 7)$.
+      2. Write the distance formula: $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.
+      3. Substitute values: $d = \sqrt{(5 - 2)^2 + (7 - 3)^2}$.
+      4. Simplify differences: $d = \sqrt{3^2 + 4^2}$.
+      5. Square values: $d = \sqrt{9 + 16}$.
+      6. Add: $d = \sqrt{25}$.
+      7. Final answer: $d = 5$ units.
 
   - id: WE-02
-    topic: "Titik tengah antara dua titik pada satah Cartes"
+    topic: "Midpoint between two points on a Cartesian plane"
     difficulty: medium
-    real_world_analogy: "Bayangkan anda dan rakan bertemu di titik tengah antara rumah anda berdua. Di mana lokasi tepatnya?"
-    misconception_alert: "Pelajar kadang-kadang keliru antara formula jarak dan formula titik tengah."
-    scenario: "Cari koordinat titik tengah antara titik C(-2, 4) dan D(4, -6)."
+    learning_objective: "7.2.3"
+    tp_level: 3
+    real_world_analogy: "Two friends agree to meet exactly halfway between their houses at a school canteen table."
+    misconception_alert: "Students often confuse midpoint with distance and incorrectly apply subtraction or Pythagoras instead of averaging coordinates."
+    scenario: "Calculate the midpoint between $C(-2, 4)$ and $D(4, -6)$."
     working: |
-      Step 1: Kenal pasti koordinat titik C dan D. Titik C adalah (-2, 4) dan titik D adalah (4, -6).
-      Step 2: Gunakan formula titik tengah: ((x1 + x2)/2, (y1 + y2)/2).
-      Step 3: Gantikan nilai ke dalam formula: ((-2 + 4)/2, (4 - 6)/2) = (2/2, -2/2) = (1, -1).
-      Step 4: Oleh itu, koordinat titik tengah antara C dan D ialah (1, -1).
+      1. Identify coordinates: $(x_1, y_1) = (-2, 4)$ and $(x_2, y_2) = (4, -6)$.
+      2. Write midpoint formula: $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$.
+      3. Substitute x-values: $x_m = \frac{-2 + 4}{2}$.
+      4. Simplify numerator: $x_m = \frac{2}{2} = 1$.
+      5. Substitute y-values: $y_m = \frac{4 + (-6)}{2}$.
+      6. Simplify numerator: $y_m = \frac{-2}{2} = -1$.
+      7. Form coordinate pair: $M = (1, -1)$.
 
   - id: WE-03
-    topic: "Menyelesaikan masalah dalam sistem koordinat Cartes"
+    topic: "Coordinate geometry problem solving involving verification of shapes"
     difficulty: hard
-    real_world_analogy: "Bayangkan anda bekerja sebagai perancang bandar yang perlu menentukan lokasi yang tepat untuk membina taman di antara empat kawasan perumahan."
-    misconception_alert: "Pelajar mungkin mengabaikan satu atau lebih langkah dalam proses menentukan titik yang memenuhi semua syarat."
-    scenario: "Diberikan empat titik: E(1, 2), F(5, 2), G(5, 6), dan H(1, 6). Tentukan jika keempat-empat titik ini membentuk sebuah segiempat tepat."
+    learning_objective: "7.3.1"
+    tp_level: 5
+    real_world_analogy: "A construction engineer verifies whether a building plot is a perfect square by measuring diagonals rather than relying on visual appearance."
+    misconception_alert: "Students often assume equal sides alone are enough to confirm a square, without checking diagonals and midpoint properties."
+    scenario: "Given points $E(1,2)$, $F(5,2)$, $G(5,6)$, and $H(1,6)$, prove that they form a square by analyzing diagonals $EG$ and $FH$."
     working: |
-      Step 1: Tentukan jarak antara setiap pasangan titik bersebelahan: 
-              EF: √((5 - 1)² + (2 - 2)²) = √(4² + 0²) = 4
-              FG: √((5 - 5)² + (6 - 2)²) = √(0² + 4²) = 4
-              GH: √((1 - 5)² + (6 - 6)²) = √(4² + 0²) = 4
-              HE: √((1 - 1)² + (6 - 2)²) = √(0² + 4²) = 4
-      Step 2: Pastikan bahwa EF = GH dan FG = HE. Semua sisi sama panjang menunjukkan segiempat.
-      Step 3: Periksa pepenjuru untuk memastikan ia adalah segiempat tepat:
-              EG: √((5 - 1)² + (6 - 2)²) = √(4² + 4²) = √32
-              FH: √((1 - 5)² + (2 - 6)²) = √(4² + 4²) = √32
-      Step 4: Kerana pepenjuru adalah sama panjang, keempat-empat titik membentuk sebuah segiempat tepat.
+      1. Identify diagonal EG endpoints: $E(1,2)$ and $G(5,6)$.
+      2. Apply distance formula: $EG = \sqrt{(5-1)^2 + (6-2)^2}$.
+      3. Simplify: $EG = \sqrt{4^2 + 4^2}$.
+      4. Square values: $EG = \sqrt{16 + 16} = \sqrt{32}$.
+      5. Identify diagonal FH endpoints: $F(5,2)$ and $H(1,6)$.
+      6. Apply distance formula: $FH = \sqrt{(1-5)^2 + (6-2)^2}$.
+      7. Simplify: $FH = \sqrt{(-4)^2 + 4^2} = \sqrt{16 + 16} = \sqrt{32}$.
+      8. Compare diagonals: $EG = FH = \sqrt{32}$.
+      9. Find midpoint of EG: $\left(\frac{1+5}{2}, \frac{2+6}{2}\right) = (3,4)$.
+      10. Find midpoint of FH: $\left(\frac{5+1}{2}, \frac{2+6}{2}\right) = (3,4)$.
+      11. Conclusion: Equal diagonals and identical midpoint confirm a square.

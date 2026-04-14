@@ -1,0 +1,57 @@
+topic_id: MT2-07
+provenance: ai-assisted
+description: "Contoh penyelesaian berstruktur bagi topik Koordinat Cartes"
+
+worked_examples:
+  - id: WE-01
+    topic: "Jarak antara dua titik pada satah Cartes"
+    difficulty: easy
+    learning_objective: "7.1.3"
+    tp_level: 2
+    real_world_analogy: "Seorang penghantar makanan bergerak dari satu rumah ke rumah lain menggunakan laluan paling singkat tanpa mengikut jalan berliku."
+    misconception_alert: "Murid sering menambah nilai koordinat atau mengira petak grid secara mendatar dan menegak tanpa menggunakan rumus jarak."
+    scenario: "Cari jarak antara titik $A(2, 3)$ dan $B(5, 7)$."
+    working: |
+      1. Kenal pasti koordinat: $(x_1, y_1) = (2, 3)$ dan $(x_2, y_2) = (5, 7)$.
+      2. Tulis rumus jarak: $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.
+      3. Gantikan nilai: $d = \sqrt{(5 - 2)^2 + (7 - 3)^2}$.
+      4. Permudahkan: $d = \sqrt{3^2 + 4^2}$.
+      5. Kuasa duakan: $d = \sqrt{9 + 16}$.
+      6. Tambah: $d = \sqrt{25}$.
+      7. Jawapan akhir: $d = 5$ unit.
+
+  - id: WE-02
+    topic: "Titik tengah antara dua titik pada satah Cartes"
+    difficulty: medium
+    learning_objective: "7.2.3"
+    tp_level: 3
+    real_world_analogy: "Dua rakan bersetuju untuk bertemu di titik tengah antara rumah mereka di sebuah kantin sekolah."
+    misconception_alert: "Murid sering keliru antara jarak dan titik tengah, lalu menggunakan tolak atau Teorem Pythagoras bukannya purata koordinat."
+    scenario: "Hitung titik tengah antara $C(-2, 4)$ dan $D(4, -6)$."
+    working: |
+      1. Kenal pasti koordinat: $(x_1, y_1) = (-2, 4)$ dan $(x_2, y_2) = (4, -6)$.
+      2. Tulis rumus titik tengah: $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$.
+      3. Gantikan nilai x: $x_m = \frac{-2 + 4}{2}$.
+      4. Permudahkan: $x_m = \frac{2}{2} = 1$.
+      5. Gantikan nilai y: $y_m = \frac{4 + (-6)}{2}$.
+      6. Permudahkan: $y_m = \frac{-2}{2} = -1$.
+      7. Bentuk koordinat: $M = (1, -1)$.
+
+  - id: WE-03
+    topic: "Penyelesaian masalah geometri koordinat melibatkan pengesahan bentuk"
+    difficulty: hard
+    learning_objective: "7.3.1"
+    tp_level: 5
+    real_world_analogy: "Seorang jurutera pembinaan menyemak sama ada pelan tanah berbentuk segi empat sama dengan menggunakan ukuran pepenjuru, bukan hanya pemerhatian visual."
+    misconception_alert: "Murid sering menganggap sisi yang sama panjang sudah cukup untuk membuktikan segi empat sama tanpa menyemak pepenjuru dan titik tengah."
+    scenario: "Diberi titik $E(1,2)$, $F(5,2)$, $G(5,6)$, dan $H(1,6)$, buktikan bahawa bentuk tersebut ialah segi empat sama."
+    working: |
+      1. Kenal pasti hujung pepenjuru EG: $E(1,2)$ dan $G(5,6)$.
+      2. Gunakan rumus jarak: $EG = \sqrt{(5-1)^2 + (6-2)^2}$.
+      3. Permudahkan: $EG = \sqrt{4^2 + 4^2}$.
+      4. Dapatkan: $EG = \sqrt{16 + 16} = \sqrt{32}$.
+      5. Kenal pasti pepenjuru FH: $F(5,2)$ dan $H(1,6)$.
+      6. Kira: $FH = \sqrt{(-4)^2 + 4^2} = \sqrt{16 + 16}$.
+      7. Bandingkan: $EG = FH = \sqrt{32}$.
+      8. Titik tengah EG: $(3,4)$ dan FH: $(3,4)$.
+      9. Kesimpulan: Kedua-dua pepenjuru sama panjang dan berkongsi titik tengah yang sama, maka bentuk ialah segi empat sama.

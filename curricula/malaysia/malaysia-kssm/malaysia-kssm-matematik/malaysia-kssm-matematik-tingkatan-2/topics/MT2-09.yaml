@@ -1,78 +1,100 @@
 id: MT2-09
-official_ref: "Bab 9"
-name: "Laju dan Pecutan"
+official_ref: "Chapter 9"
+name: "Speed and Acceleration"
 name_en: "Speed and Acceleration"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-2
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: intermediate
 tier: core
+
 content_standards:
-    - id: "9.1"
-      text: "Laju"
-      text_en: "Speed"
-    - id: "9.2"
-      text: "Pecutan"
-      text_en: "Acceleration"
+  - id: "9.1"
+    text_en: "Speed"
+  - id: "9.2"
+    text_en: "Acceleration"
+
 learning_objectives:
-    - id: "9.1.1"
-      text: "Menerangkan maksud laju sebagai suatu kadar yang melibatkan jarak dan masa."
-      text_en: "Explain the meaning of speed as a rate involving distance and time."
-      bloom: understand
-    - id: "9.1.2"
-      text: "Memerihal perbezaan antara laju seragam dan laju tak seragam."
-      text_en: "Describe the difference between uniform speed and non-uniform speed."
-      bloom: understand
-    - id: "9.1.3"
-      text: "Melaksanakan pengiraan yang melibatkan laju dan laju purata termasuk penukaran unit."
-      text_en: "Perform calculations involving speed and average speed including unit conversion."
-      bloom: apply
-    - id: "9.1.4"
-      text: "Menyelesaikan masalah yang melibatkan laju."
-      text_en: "Solve problems involving speed."
-      bloom: apply
-    - id: "9.2.1"
-      text: "Menerangkan maksud pecutan dan nyahpecutan sebagai suatu kadar yang melibatkan laju dan masa."
-      text_en: "Explain the meaning of acceleration and deceleration as a rate involving speed and time."
-      bloom: understand
-    - id: "9.2.2"
-      text: "Melaksanakan pengiraan yang melibatkan pecutan termasuk penukaran unit."
-      text_en: "Perform calculations involving acceleration including unit conversion."
-      bloom: apply
-    - id: "9.2.3"
-      text: "Menyelesaikan masalah yang melibatkan pecutan."
-      text_en: "Solve problems involving acceleration."
-      bloom: apply
+  - id: "9.1.1"
+    content_standard_id: "9.1"
+    text_en: "Explain the meaning of speed as a rate involving distance and time."
+    bloom: understand
+  - id: "9.1.2"
+    content_standard_id: "9.1"
+    text_en: "Describe the differences between uniform speed and non-uniform speed."
+    bloom: understand
+  - id: "9.1.3"
+    content_standard_id: "9.1"
+    text_en: "Perform calculations involving speed and average speed, including unit conversion."
+    bloom: apply
+  - id: "9.1.4"
+    content_standard_id: "9.1"
+    text_en: "Solve problems involving speed."
+    bloom: analyze
+  - id: "9.2.1"
+    content_standard_id: "9.2"
+    text_en: "Explain the meaning of acceleration and deceleration as a rate involving speed and time."
+    bloom: understand
+  - id: "9.2.2"
+    content_standard_id: "9.2"
+    text_en: "Perform calculations involving acceleration, including unit conversion."
+    bloom: apply
+  - id: "9.2.3"
+    content_standard_id: "9.2"
+    text_en: "Solve problems involving acceleration."
+    bloom: analyze
+
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate the basic knowledge of speed and acceleration."
+  - level: 2
+    descriptor_en: "Demonstrate the understanding of speed and acceleration."
+  - level: 3
+    descriptor_en: "Apply the understanding of speed and acceleration to perform calculations."
+  - level: 4
+    descriptor_en: "Apply appropriate knowledge and skills of speed and acceleration in the context of simple routine problem solving."
+  - level: 5
+    descriptor_en: "Apply appropriate knowledge and skills of speed and acceleration in the context of complex routine problem solving."
+  - level: 6
+    descriptor_en: "Apply appropriate knowledge and skills of speed and acceleration in the context of non-routine problem solving in a creative manner."
+
 prerequisites:
-    required: []
-bloom_levels:
-    - understand
-    - apply
+  required:
+    - "MT1-04"
+  recommended: []
+
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
-ai_teaching_notes: "MT2-09.teaching.md"
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-29T16:00:08Z"
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
 teaching:
-    sequence:
-        - 'Step 1: Introduce the concept of speed as distance over time (20 min)'
-        - 'Step 2: Explain uniform vs. non-uniform speed with graphs (15 min)'
-        - 'Step 3: Guide through average speed calculations with examples (20 min)'
-        - 'Step 4: Define acceleration and its formula, use animations (20 min)'
-    common_misconceptions:
-        - misconception: Speed is the same as velocity
-          remediation: Emphasize the directionality aspect of velocity
-        - misconception: Average speed is the average of speeds
-          remediation: Use multiple examples to clarify calculation
-engagement_hooks:
-    - Relate speed and acceleration to local sports such as cycling
-    - Discuss the importance of speed limits on roads and enforcement
-assessments_file: MT2-09.assessments.yaml
-examples_file: MT2-09.examples.yaml
+  sequence:
+    - "Step 1: Introduce speed as a rate using distance-time contexts and real-life examples (20 min)"
+    - "Step 2: Differentiate uniform and non-uniform speed using tables and graphs (15 min)"
+    - "Step 3: Perform calculations involving speed and average speed with unit conversions (25 min)"
+    - "Step 4: Introduce acceleration and deceleration as rate of change of speed (20 min)"
+    - "Step 5: Solve real-world problems involving motion, including multi-step and non-routine tasks (30 min)"
+
+  common_misconceptions:
+    - misconception: "Confusing speed with distance or time."
+      remediation: "Reinforce the formula Speed = Distance ÷ Time using visual triangle models."
+    - misconception: "Assuming average speed is the mean of speeds."
+      remediation: "Emphasize that Average Speed = Total Distance ÷ Total Time."
+    - misconception: "Misinterpreting deceleration as a different concept from acceleration."
+      remediation: "Clarify that deceleration is negative acceleration (reduction of speed)."
+
+  engagement_hooks:
+    - "Discuss real-life speed limits and their importance in road safety."
+    - "Analyze the motion of vehicles such as motorcycles or cars in daily Malaysian contexts."
+    - "Explore how athletes control speed and acceleration in sports like cycling or sprinting."
+
+quality_level: 3
+provenance: ai-assisted
+ai_teaching_notes: "MT2-09.teaching.md"
+assessments_file: "MT2-09.assessments.yaml"
+examples_file: "MT2-09.examples.yaml"

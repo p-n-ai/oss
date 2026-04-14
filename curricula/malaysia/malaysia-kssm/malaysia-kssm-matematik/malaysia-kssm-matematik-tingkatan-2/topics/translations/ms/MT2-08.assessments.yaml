@@ -1,0 +1,136 @@
+topic_id: MT2-08
+provenance: ai-assisted
+questions:
+
+  - id: Q1
+    text: "Antara berikut, yang manakah merupakan fungsi?"
+    difficulty: easy
+    learning_objective: "8.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "A"
+      options:
+        A: "{(1,2), (2,3), (3,4)}"
+        B: "{(1,2), (1,3), (2,4)}"
+        C: "{(2,5), (2,6), (3,7)}"
+        D: "{(4,8), (4,9), (4,10)}"
+      working: |
+        Fungsi: setiap input hanya ada satu output.
+      distractors:
+        - value: "B"
+          feedback: "Input 1 ada dua output. Ini bukan fungsi."
+        - value: "C"
+          feedback: "Input 2 berulang dengan output berbeza."
+        - value: "D"
+          feedback: "Input 4 mempunyai banyak output."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti fungsi dengan betul."
+    hints:
+      - level: 1
+        text: "Periksa input yang berulang."
+
+  - id: Q2
+    text: "Nyatakan sama ada hubungan berikut fungsi (Benar/Palsu):\n(i) {(1,2),(2,3)}\n(ii) {(1,2),(1,5)}"
+    difficulty: easy
+    learning_objective: "8.1.2"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: structured
+      value: "(i) Benar, (ii) Palsu"
+      working: |
+        (i) Input unik → fungsi.
+        (ii) Input berulang → bukan fungsi.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Jawapan tepat bagi kedua-dua bahagian."
+    hints:
+      - level: 1
+        text: "Fokus pada input."
+
+  - id: Q3
+    text: "Lengkapkan jadual nilai bagi fungsi $y = 2x + 1$."
+    difficulty: medium
+    learning_objective: "8.2.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "(-1,-1), (0,1), (2,5)"
+      working: |
+        Gantikan nilai x ke dalam persamaan.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Setiap jawapan betul 1 markah."
+    hints:
+      - level: 1
+        text: "Masukkan nilai x satu per satu."
+
+  - id: Q4
+    text: "Graf manakah menunjukkan fungsi kuadratik?"
+    difficulty: medium
+    learning_objective: "8.2.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "B"
+      options:
+        A: "Garis lurus"
+        B: "Lengkung berbentuk U"
+        C: "Graf salingan"
+        D: "Graf tidak sekata"
+      working: |
+        Fungsi kuadratik menghasilkan parabola.
+      distractors:
+        - value: "A"
+          feedback: "Ini fungsi linear."
+        - value: "C"
+          feedback: "Ini fungsi salingan."
+        - value: "D"
+          feedback: "Ini bukan graf fungsi standard."
+    marks: 1
+
+  - id: Q5
+    text: "Graf jarak melawan masa. Apakah maksud kecerunan?"
+    difficulty: medium
+    learning_objective: "8.2.2"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: multiple_choice
+      value: "Halaju"
+      options:
+        A: "Jarak"
+        B: "Masa"
+        C: "Halaju"
+        D: "Pecutan"
+      working: |
+        Kecerunan = perubahan jarak / masa.
+      distractors:
+        - value: "A"
+          feedback: "Jarak ialah paksi."
+        - value: "B"
+          feedback: "Masa ialah paksi-x."
+        - value: "D"
+          feedback: "Pecutan untuk graf halaju-masa."
+    marks: 2
+
+  - id: Q6
+    text: "Dua teksi: A (RM5 + RM2/km), B (RM3/km). Cari jarak kos sama."
+    difficulty: hard
+    learning_objective: "8.2.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "5 km"
+      working: |
+        5 + 2x = 3x → x = 5
+    marks: 5

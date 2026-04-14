@@ -1,0 +1,124 @@
+topic_id: MT2-04
+provenance: ai-assisted
+worked_examples:
+  - id: WE-01
+    topic: "Sifat Poligon Sekata"
+    difficulty: easy
+    learning_objective: "4.1.1"
+    real_world_analogy: >-
+      Bayangkan corak batik di Malaysia. 
+      Setiap bentuk mesti sama supaya corak kelihatan kemas dan sekata.
+    misconception_alert: >-
+      Murid sering fikir sisi sama panjang sudah cukup. 
+      Sebenarnya sudut juga mesti sama.
+    scenario: "Seorang pereka batik menggunakan bentuk 4 sisi dengan semua sisi 6 cm tetapi sudut 80°, 100°, 80°, 100°. Adakah ini poligon sekata?"
+    working: |
+      Langkah 1: Ingat definisi poligon sekata.
+      Semua sisi dan semua sudut mesti sama.
+
+      Langkah 2: Semak sisi.
+      Semua sisi = 6 cm → betul.
+
+      Langkah 3: Semak sudut.
+      80°, 100°, 80°, 100° → tidak sama.
+
+      Langkah 4: Kesimpulan.
+      Bukan poligon sekata.
+
+  - id: WE-02
+    topic: "Jumlah Sudut Pedalaman"
+    difficulty: medium
+    learning_objective: "4.2.1"
+    real_world_analogy: >-
+      Bayangkan memotong pizza kepada segitiga. 
+      Setiap segitiga ialah 180°.
+    misconception_alert: >-
+      Jangan guna n × 180°. Gunakan (n − 2) × 180°.
+    scenario: "Sebuah tingkap berbentuk nonagon. Cari jumlah sudut pedalaman."
+    working: |
+      Langkah 1: Kenal pasti sisi.
+      n = 9
+
+      Langkah 2: Guna rumus.
+      = (n − 2) × 180°
+
+      Langkah 3: Gantikan nilai.
+      = (9 − 2) × 180°
+
+      Langkah 4: Kira.
+      = 7 × 180°
+      = 1260°
+
+      Jawapan: 1260°
+
+  - id: WE-03
+    topic: "Sudut Pedalaman Poligon Sekata"
+    difficulty: medium
+    learning_objective: "4.2.2"
+    real_world_analogy: >-
+      Seperti membahagi kek sama rata kepada setiap sudut.
+    misconception_alert: >-
+      Jangan lupa bahagi dengan n selepas jumlah sudut diperoleh.
+    scenario: "Cari sudut pedalaman bagi heksagon sekata."
+    working: |
+      Langkah 1: n = 6
+
+      Langkah 2: Jumlah sudut.
+      = (6 − 2) × 180°
+      = 4 × 180°
+      = 720°
+
+      Langkah 3: Bahagi.
+      = 720° ÷ 6
+      = 120°
+
+      Jawapan: 120°
+
+  - id: WE-04
+    topic: "Sudut Peluaran dan Bilangan Sisi"
+    difficulty: medium
+    learning_objective: "4.2.3"
+    real_world_analogy: >-
+      Bayangkan berjalan keliling bentuk dan berpusing setiap bucu.
+    misconception_alert: >-
+      Gunakan 360° hanya untuk sudut peluaran.
+    scenario: "Sudut peluaran ialah 30°. Cari bilangan sisi."
+    working: |
+      Langkah 1: n = 360° ÷ sudut peluaran
+
+      Langkah 2:
+      n = 360° ÷ 30°
+
+      Langkah 3:
+      n = 12
+
+      Jawapan: 12 sisi
+
+  - id: WE-05
+    topic: "Masalah Gabungan Poligon"
+    difficulty: hard
+    learning_objective: "4.2.4"
+    real_world_analogy: >-
+      Semua sudut di satu titik mesti berjumlah 360°.
+    misconception_alert: >-
+      Jangan lupa jumlah sudut di satu titik ialah 360°.
+    scenario: "Pentagon sekata dan segi empat sama bertemu di satu titik. Cari sudut x."
+    working: |
+      Langkah 1: Sudut pentagon
+      = ((5 − 2) × 180°) ÷ 5
+      = 108°
+
+      Langkah 2: Sudut segi empat sama
+      = 90°
+
+      Langkah 3:
+      108° + 90° + x = 360°
+
+      Langkah 4:
+      198° + x = 360°
+
+      Langkah 5:
+      x = 360° − 198°
+      x = 162°
+
+      Jawapan: 162°

@@ -1,119 +1,172 @@
 topic_id: MT2-10
-provenance: ai-generated
-
+provenance: ai-assisted
 questions:
-  # Learning Objective 10.1.1
   - id: Q1
-    text: "Dalam sebuah peta, jalan A ke B mempunyai panjang mencancang 3 km dan panjang mengufuk 4 km. Apakah kecerunan jalan tersebut?"
-    difficulty: medium
-    learning_objective: LO1
-    tp_level: 2
-    kbat: false
-    answer:
-      type: exact
-      value: "0.75"
-      working: |
-        Kecerunan, $m = \frac{\text{jarak mencancang}}{\text{jarak mengufuk}} = \frac{3}{4} = 0.75$.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menentukan jarak mencancang dan mengufuk dengan betul."
-      - marks: 1
-        criteria: "Mengira kecerunan dengan betul."
-    hints:
-      - level: 1
-        text: "Kecerunan adalah nisbah antara jarak mencancang dan jarak mengufuk."
-
-  # Learning Objective 10.1.2
-  - id: Q2
-    text: "Diberi dua titik pada satah Cartes, $A(2, 3)$ dan $B(5, 7)$. Terbitkan rumus untuk mencari kecerunan garis lurus melalui titik-titik ini."
-    difficulty: medium
-    learning_objective: LO2
-    tp_level: 3
+    text: "Define the term 'Gradient' in the context of a straight line and state the ratio used to calculate it."
+    difficulty: easy
+    learning_objective: "10.1.1"
+    tp_level: 1
     kbat: false
     answer:
       type: free_text
-      value: "m = \\frac{7 - 3}{5 - 2} = \\frac{4}{3}"
+      value: "Gradient is the degree of steepness. It is the ratio of vertical distance to horizontal distance."
       working: |
-        Rumus kecerunan: $m = \frac{y_2 - y_1}{x_2 - x_1}$.
-        Substitusi nilai: $m = \frac{7 - 3}{5 - 2} = \frac{4}{3}$.
+        Gradient describes how steep a line is.
+        Formula: Gradient = Vertical Distance / Horizontal Distance.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menggunakan rumus kecerunan yang betul."
+        criteria: "Correct definition of gradient."
       - marks: 1
-        criteria: "Mengira kecerunan dengan betul menggunakan nilai yang diberi."
+        criteria: "Correct ratio stated."
     hints:
       - level: 1
-        text: "Gunakan rumus $m = \\frac{y_2 - y_1}{x_2 - x_1}$ untuk mencari kecerunan."
+        text: "Think about how 'steep' something is — height compared to width."
 
-  # Learning Objective 10.1.3
-  - id: Q3
-    text: "Analisiskan kecerunan garis lurus yang melalui titik-titik $C(1, 2)$ dan $D(4, 8)$. Adakah garis tersebut menaik atau menurun?"
-    difficulty: medium
-    learning_objective: LO3
-    tp_level: 4
-    kbat: true
+  - id: Q2
+    text: "Which of the following correctly represents the formula for gradient?"
+    difficulty: easy
+    learning_objective: "10.1.2"
+    tp_level: 2
+    kbat: false
     answer:
       type: multiple_choice
-      value: "menaik"
+      value: "A"
       options:
-        - "menaik"
-        - "menurun"
-        - "mendatar"
-        - "menegak"
+        A: "$m = \\frac{y_2 - y_1}{x_2 - x_1}$"
+        B: "$m = \\frac{x_2 - x_1}{y_2 - y_1}$"
+        C: "$m = y_2 - x_1$"
+        D: "$m = x_2 - y_1$"
       working: |
-        Kecerunan, $m = \frac{8 - 2}{4 - 1} = \frac{6}{3} = 2$. Oleh kerana kecerunan adalah positif, garis tersebut menaik.
+        Gradient is change in y over change in x.
+        So the correct formula is (y₂ - y₁)/(x₂ - x₁).
+      distractors:
+        - value: "B"
+          feedback: "You reversed the ratio. Gradient is vertical over horizontal, not the other way around."
+        - value: "C"
+          feedback: "This is not a ratio. Gradient requires division."
+        - value: "D"
+          feedback: "You mixed coordinates incorrectly. Use y-values together and x-values together."
     marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Mengira kecerunan dengan betul."
-      - marks: 1
-        criteria: "Menentukan arah kecondongan garis berdasarkan kecerunan."
     hints:
       - level: 1
-        text: "Jika kecerunan positif, garis menaik. Jika negatif, garis menurun."
+        text: "Remember: vertical change is y, horizontal change is x."
 
-  # Learning Objective 10.1.4
-  - id: Q4
-    text: "Cari kecerunan garis yang melalui titik $E(-3, 4)$ dan $F(2, -1)$."
+  - id: Q3
+    text: "Match each type of line with its gradient."
     difficulty: medium
-    learning_objective: LO4
+    learning_objective: "10.1.3"
     tp_level: 3
+    kbat: false
+    answer:
+      type: structured
+      value: |
+        Positive slope → Line rises to the right
+        Negative slope → Line falls to the right
+        Zero slope → Horizontal line
+        Undefined slope → Vertical line
+      working: |
+        Positive = upward right
+        Negative = downward right
+        Zero = flat
+        Undefined = vertical
+    marks: 4
+    rubric:
+      - marks: 4
+        criteria: "All matches correct."
+    hints:
+      - level: 1
+        text: "Imagine walking along the graph from left to right."
+
+  - id: Q4
+    text: "Calculate the gradient of the straight line passing through points P(-3, 4) and Q(2, -1)."
+    difficulty: medium
+    learning_objective: "10.1.4"
+    tp_level: 4
     kbat: false
     answer:
       type: exact
       value: "-1"
       working: |
-        Kecerunan, $m = \frac{-1 - 4}{2 - (-3)} = \frac{-5}{5} = -1$.
+        m = (y₂ - y₁)/(x₂ - x₁)
+        = (-1 - 4)/(2 - (-3))
+        = -5/5 = -1
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menggunakan rumus kecerunan yang betul."
+        criteria: "Correct substitution."
       - marks: 1
-        criteria: "Mengira nilai kecerunan dengan tepat."
+        criteria: "Correct final answer."
     hints:
       - level: 1
-        text: "Gunakan rumus $m = \\frac{y_2 - y_1}{x_2 - x_1}$ dan berhati-hati dengan tanda negatif."
+        text: "Be careful with negative numbers when subtracting."
 
-  # Learning Objective 10.1.5
   - id: Q5
-    text: "Sebuah jambatan mempunyai kecerunan 0.5. Jika panjang mengufuk jambatan ialah 100 meter, hitung ketinggian jambatan tersebut."
+    text: "The y-intercept is 6 and the x-intercept is -3. Find the gradient."
     difficulty: medium
-    learning_objective: LO5
-    tp_level: 3
+    learning_objective: "10.1.4"
+    tp_level: 4
     kbat: false
     answer:
       type: exact
-      value: "50"
+      value: "2"
       working: |
-        Ketinggian, $h = m \times \text{jarak mengufuk} = 0.5 \times 100 = 50$ meter.
-    marks: 2
+        m = -(y-intercept / x-intercept)
+        = -(6 / -3)
+        = 2
+    marks: 3
     rubric:
       - marks: 1
-        criteria: "Menggunakan kecerunan dengan betul untuk mencari ketinggian."
+        criteria: "Correct formula used."
       - marks: 1
-        criteria: "Mengira ketinggian dengan tepat."
+        criteria: "Correct substitution."
+      - marks: 1
+        criteria: "Correct answer."
     hints:
       - level: 1
-        text: "Kecerunan adalah nisbah jarak mencancang kepada jarak mengufuk. Gunakan ini untuk mencari ketinggian."
+        text: "Don't forget the negative sign outside the fraction."
+
+  - id: Q6
+    text: "Given that the gradient of a line through M(1, k) and N(-2, 3) is -2, find k."
+    difficulty: hard
+    learning_objective: "10.1.5"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "-3"
+      working: |
+        -2 = (3 - k)/(-2 - 1)
+        -2 = (3 - k)/-3
+        6 = 3 - k
+        k = -3
+    marks: 4
+    rubric:
+      - marks: 4
+        criteria: "Correct algebraic solution."
+    hints:
+      - level: 1
+        text: "Substitute into the gradient formula and solve step by step."
+
+  - id: Q7
+    text: "A roof has a total span of 21 m and height of 5 m. If symmetrical, calculate its gradient and explain why steeper roofs are used in heavy rainfall areas."
+    difficulty: hard
+    learning_objective: "10.1.5"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Gradient ≈ 0.476. Steeper roofs allow water to flow off quickly, preventing accumulation."
+      working: |
+        Horizontal = 21/2 = 10.5
+        Gradient = 5/10.5 ≈ 0.476
+        Steeper slope helps water drain faster.
+    marks: 5
+    rubric:
+      - marks: 2
+        criteria: "Correct gradient calculation."
+      - marks: 3
+        criteria: "Logical real-world explanation."
+    hints:
+      - level: 1
+        text: "Use half the span for one side of the roof."

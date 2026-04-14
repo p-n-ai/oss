@@ -1,0 +1,181 @@
+topic_id: MT2-13
+provenance: ai-assisted
+questions:
+
+  - id: Q1
+    type: OAP
+    text: "Sebuah dadu adil 6 muka dilontar. Yang manakah menunjukkan ruang sampel, S dengan betul?"
+    difficulty: easy
+    learning_objective: "13.2.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "A"
+      options:
+        A: "{1, 2, 3, 4, 5, 6}"
+        B: "{1, 2, 3, 4, 5}"
+        C: "{2, 4, 6}"
+        D: "{1, 1, 2, 3, 6}"
+      working: |
+        Langkah 1: Dadu mempunyai 6 muka bernombor 1 hingga 6.
+        Langkah 2: Ruang sampel mesti merangkumi SEMUA kemungkinan.
+        Langkah 3: Maka S = {1, 2, 3, 4, 5, 6}.
+      distractors:
+        - value: "B"
+          feedback: "Anda tertinggal nombor 6."
+        - value: "C"
+          feedback: "Ini hanya nombor genap, bukan ruang sampel lengkap."
+        - value: "D"
+          feedback: "Nilai berulang dan tidak lengkap."
+
+    marks: 1
+
+  - id: Q2
+    type: OPB
+    text: "Tentukan sama ada pernyataan berikut BENAR atau SALAH: P(A) + P(A') = 1"
+    difficulty: easy
+    learning_objective: "13.3.1"
+    tp_level: 2
+    answer:
+      type: multiple_choice
+      value: "BENAR"
+      options:
+        A: "BENAR"
+        B: "SALAH"
+      working: |
+        Langkah 1: A dan A' ialah peristiwa pelengkap.
+        Langkah 2: Jumlah kebarangkalian = 1.
+      distractors:
+        - value: "SALAH"
+          feedback: "Anda tidak memahami konsep pelengkap."
+
+    marks: 1
+
+  - id: Q3
+    type: Subjective
+    text: "Seorang pelajar melontar syiling 80 kali dan mendapat 34 kepala. Cari kebarangkalian eksperimen bagi kepala."
+    difficulty: medium
+    learning_objective: "13.1.1"
+    tp_level: 3
+    answer:
+      type: exact
+      value: "17/40"
+      working: |
+        Langkah 1: Kekerapan kepala = 34.
+        Langkah 2: Jumlah cubaan = 80.
+        Langkah 3: P = 34/80 = 17/40.
+    marks: 2
+
+  - id: Q4
+    type: OAP
+    text: "Sebuah kotak mengandungi 3 merah, 2 biru dan 5 hijau. Apakah kebarangkalian memilih bola biru?"
+    difficulty: medium
+    learning_objective: "13.2.3"
+    tp_level: 3
+    answer:
+      type: multiple_choice
+      value: "B"
+      options:
+        A: "2/5"
+        B: "2/10"
+        C: "3/10"
+        D: "5/10"
+      working: |
+        Langkah 1: Jumlah = 10.
+        Langkah 2: Biru = 2.
+        Langkah 3: P = 2/10.
+      distractors:
+        - value: "A"
+          feedback: "Anda tidak kira ruang sampel."
+        - value: "C"
+          feedback: "Ini nilai merah."
+        - value: "D"
+          feedback: "Salah kira kategori."
+
+    marks: 1
+
+  - id: Q5
+    type: Subjective
+    text: "Jika P(hujan) = 0.35, cari P(tidak hujan)."
+    difficulty: medium
+    learning_objective: "13.3.2"
+    tp_level: 3
+    answer:
+      type: exact
+      value: "0.65"
+      working: |
+        Langkah 1: P(A') = 1 - P(A).
+        Langkah 2: 1 - 0.35 = 0.65.
+    marks: 2
+
+  - id: Q6
+    type: Subjective
+    text: "Syiling dilontar 500 kali dan kebarangkalian eksperimen kepala ialah 0.48. Apakah kesimpulan?"
+    difficulty: medium
+    learning_objective: "13.1.2"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "Kebarangkalian eksperimen menghampiri kebarangkalian teori (0.5) apabila bilangan cubaan meningkat."
+      working: |
+        Langkah 1: Banding 0.48 dengan 0.5.
+        Langkah 2: Perbezaan kecil disebabkan rawak.
+    marks: 3
+
+  - id: Q7
+    type: OPB
+    text: "Padankan jenis kebarangkalian berikut:"
+    difficulty: hard
+    learning_objective: "13.2.2"
+    tp_level: 5
+    answer:
+      type: matching
+      value:
+        Eksperimen: "Berdasarkan data sebenar"
+        Teori: "Berdasarkan ruang sampel"
+    marks: 2
+
+  - id: Q8
+    type: Subjective
+    text: "Dalam kelas 40 murid, 15 suka bola sepak. Cari kebarangkalian tidak suka bola sepak."
+    difficulty: hard
+    learning_objective: "13.3.2"
+    tp_level: 5
+    answer:
+      type: exact
+      value: "5/8"
+      working: |
+        Langkah 1: 15/40 = 3/8.
+        Langkah 2: Pelengkap = 1 - 3/8 = 5/8.
+    marks: 3
+
+  - id: Q9
+    type: Subjective
+    text: "Kebarangkalian mengambil bola merah ialah 1/5. Jika ada 8 bola merah, cari jumlah bola."
+    difficulty: hard
+    learning_objective: "13.4.1"
+    tp_level: 6
+    answer:
+      type: exact
+      value: "40"
+      working: |
+        Langkah 1: 8/x = 1/5.
+        Langkah 2: x = 40.
+    marks: 3
+
+  - id: Q10
+    type: Subjective
+    text: "Reka satu eksperimen kebarangkalian dan terangkan cara mengira kebarangkalian eksperimen."
+    difficulty: hard
+    learning_objective: "13.1.1"
+    tp_level: 6
+    answer:
+      type: free_text
+      value: "Jawapan terbuka yang sah dengan nisbah kekerapan/jumlah cubaan."
+      working: |
+        Langkah 1: Huraikan eksperimen.
+        Langkah 2: Kira kekerapan.
+        Langkah 3: Bahagi dengan jumlah cubaan.
+    marks: 4

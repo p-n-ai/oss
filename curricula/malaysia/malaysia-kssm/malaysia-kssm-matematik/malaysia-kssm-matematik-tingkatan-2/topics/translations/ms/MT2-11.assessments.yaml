@@ -1,0 +1,131 @@
+topic_id: MT2-11
+provenance: ai-assisted
+questions:
+
+  - id: Q1
+    text: "Antara berikut, yang manakah memerihalkan penjelmaan yang mengekalkan bentuk dan saiz?"
+    difficulty: easy
+    learning_objective: "11.1.1"
+    tp_level: 1
+    answer:
+      type: multiple_choice
+      value: "Penjelmaan Isometri"
+      working: |
+        Langkah 1: Kenal pasti penjelmaan yang mengekalkan jarak antara titik.
+        Langkah 2: Ini dipanggil isometri.
+      options:
+        A: "Penjelmaan Isometri"
+        B: "Pembesaran"
+        C: "Regangan"
+        D: "Kecerunan"
+      distractors:
+        - value: "B"
+          feedback: "Pembesaran mengubah saiz, jadi bukan isometri."
+        - value: "C"
+          feedback: "Regangan mengubah bentuk dan saiz, tidak mengekalkan kongruen."
+        - value: "D"
+          feedback: "Kecerunan mengubah bentuk, jadi bukan isometri."
+    marks: 1
+    hints:
+      - "Fikir: penjelmaan mana kekalkan SEMUA jarak?"
+
+  - id: Q2
+    text: "Titik A(4, -2) ditranslasikan oleh vektor $\\begin{pmatrix} -3 \\\\ 5 \\end{pmatrix}$. Cari A'."
+    difficulty: medium
+    learning_objective: "11.2.3"
+    tp_level: 3
+    answer:
+      type: exact
+      value: "(1, 3)"
+      working: |
+        x' = 4 + (-3) = 1
+        y' = -2 + 5 = 3
+      distractors: []
+    marks: 2
+    hints:
+      - "Tambah x dengan nilai atas vektor, y dengan nilai bawah."
+
+  - id: Q3
+    text: "Titik P(2,5) dipantulkan pada garis y = 3. Cari P'."
+    difficulty: medium
+    learning_objective: "11.3.4"
+    tp_level: 4
+    answer:
+      type: exact
+      value: "(2, 1)"
+      working: |
+        Jarak dari 5 ke 3 = 2
+        Pantul ke bawah menjadi 1
+      distractors: []
+    marks: 3
+    hints:
+      - "Ukur jarak menegak dari garis cermin."
+
+  - id: Q4
+    text: "Titik M(3,2) diputarkan 90° ikut arah jam pada asalan menjadi?"
+    difficulty: hard
+    learning_objective: "11.4.3"
+    tp_level: 3
+    answer:
+      type: multiple_choice
+      value: "(2, -3)"
+      working: |
+        (x, y) → (y, -x)
+      options:
+        A: "(2, -3)"
+        B: "(-2, 3)"
+        C: "(-3, 2)"
+        D: "(3, -2)"
+      distractors:
+        - value: "B"
+          feedback: "Ini ialah peraturan 90° lawan arah jam."
+    marks: 2
+    hints:
+      - "Putaran ikut arah jam menukar koordinat dengan tanda berubah."
+
+  - id: Q5
+    text: "Segi tiga adalah kongruen di bawah isometri. Cari sudut hilang."
+    difficulty: hard
+    learning_objective: "11.5.3"
+    tp_level: 5
+    answer:
+      type: exact
+      value: "130°"
+      working: |
+        180 - 35 - 15 = 130
+      distractors: []
+    marks: 4
+    hints:
+      - "Gunakan jumlah sudut segi tiga + sifat kongruen."
+
+  - id: Q6
+    text: "Peringkat simetri putaran bagi pentagon?"
+    difficulty: medium
+    learning_objective: "11.6.2"
+    tp_level: 3
+    answer:
+      type: exact
+      value: "5"
+      working: |
+        Pentagon mempunyai 5 kedudukan sama dalam 360°
+      distractors: []
+    marks: 1
+    hints:
+      - "Kira berapa kali bentuk sama dalam putaran penuh 360°"
+
+  - id: Q7
+    text: "Mengapa segi empat sama yang ditranslasi dan dipantulkan masih kongruen?"
+    difficulty: hard
+    learning_objective: "11.5.2"
+    tp_level: 6
+    answer:
+      type: free_text
+      value: "Kedua-dua penjelmaan mengekalkan bentuk dan jarak."
+      working: |
+        Translasi = isometri
+        Pantulan = isometri
+        Gabungan = isometri
+      distractors: []
+    marks: 5
+    hints:
+      - "Adakah penjelmaan ini mengubah panjang atau luas?"

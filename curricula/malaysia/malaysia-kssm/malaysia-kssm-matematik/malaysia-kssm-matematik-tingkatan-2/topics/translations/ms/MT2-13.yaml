@@ -1,0 +1,116 @@
+id: MT2-13
+official_ref: "Bab 13"
+name: "Kebarangkalian Mudah"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+
+content_standards:
+  - id: "13.1"
+    text: "Kebarangkalian Eksperimen"
+  - id: "13.2"
+    text: "Teori Kebarangkalian yang Melibatkan Kesudahan Sama Boleh Jadi"
+  - id: "13.3"
+    text: "Kebarangkalian Peristiwa Pelengkap"
+  - id: "13.4"
+    text: "Kebarangkalian Mudah"
+
+learning_objectives:
+  - id: "13.1.1"
+    content_standard_id: "13.1"
+    text: "Melaksanakan eksperimen mudah untuk menentukan kebarangkalian eksperimen sebagai nisbah kekerapan kepada bilangan percubaan."
+    bloom: apply
+
+  - id: "13.1.2"
+    content_standard_id: "13.1"
+    text: "Membuat kesimpulan tentang kebarangkalian eksperimen apabila bilangan percubaan adalah besar."
+    bloom: analyze
+
+  - id: "13.2.1"
+    content_standard_id: "13.2"
+    text: "Menentukan ruang sampel dan peristiwa bagi sesuatu eksperimen."
+    bloom: understand
+
+  - id: "13.2.2"
+    content_standard_id: "13.2"
+    text: "Membina model kebarangkalian dan menghubungkaitkan kebarangkalian teori dengan kebarangkalian eksperimen."
+    bloom: analyze
+
+  - id: "13.2.3"
+    content_standard_id: "13.2"
+    text: "Menentukan kebarangkalian sesuatu peristiwa menggunakan P(A) = n(A) / n(S)."
+    bloom: apply
+
+  - id: "13.3.1"
+    content_standard_id: "13.3"
+    text: "Menerangkan peristiwa pelengkap menggunakan perkataan dan simbol A'."
+    bloom: understand
+
+  - id: "13.3.2"
+    content_standard_id: "13.3"
+    text: "Menentukan kebarangkalian peristiwa pelengkap."
+    bloom: apply
+
+  - id: "13.4.1"
+    content_standard_id: "13.4"
+    text: "Menyelesaikan masalah melibatkan kebarangkalian mudah."
+    bloom: apply
+
+performance_levels:
+  - level: 1
+    descriptor: "Mempamerkan pengetahuan asas tentang ruang sampel dan peristiwa."
+  - level: 2
+    descriptor: "Mempamerkan kefahaman tentang ruang sampel dan kebarangkalian mudah."
+  - level: 3
+    descriptor: "Mengaplikasikan kebarangkalian mudah dalam tugasan asas."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dalam masalah rutin yang mudah."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dalam masalah rutin yang kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dalam penyelesaian masalah bukan rutin secara kreatif."
+
+prerequisites:
+  required:
+    - "Pecahan, Perpuluhan dan Peratus"
+    - "Asas Teori Set"
+  recommended:
+    - "Nisbah dan Kadaran"
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Langkah 1: Perkenalkan konsep rawak melalui eksperimen (syiling, dadu)."
+    - "Langkah 2: Kenal pasti hasil dan bina ruang sampel (13.2.1)."
+    - "Langkah 3: Kira kebarangkalian teori P(A)=n(A)/n(S) (13.2.3)."
+    - "Langkah 4: Teroka kebarangkalian eksperimen dan penumpuan (13.1.1–13.1.2)."
+    - "Langkah 5: Perkenalkan peristiwa pelengkap dan simbol A' (13.3.1–13.3.2)."
+    - "Langkah 6: Selesaikan masalah rutin dan bukan rutin (13.4.1)."
+
+common_misconceptions:
+  - misconception: "Nilai kebarangkalian boleh melebihi 1."
+    remediation: "Tekankan bahawa kebarangkalian mestilah antara 0 hingga 1 sahaja."
+  - misconception: "Keliru antara ruang sampel dan peristiwa."
+    remediation: "Ruang sampel ialah SEMUA hasil, manakala peristiwa ialah subset hasil."
+
+engagement_hooks:
+  - "Bagaimana pembangun permainan menggunakan kebarangkalian untuk sistem ganjaran?"
+  - "Mengapa ramalan cuaca menggunakan peratus hujan?"
+  - "Bolehkah kebarangkalian menerangkan kejutan dalam perlawanan sukan?"
+
+quality_level: 3
+provenance: "ai-generated"
+sync_checked: true
+ai_teaching_notes: "MT2-13.teaching.md"
+assessments_file: "MT2-13.assessments.yaml"
+examples_file: "MT2-13.examples.yaml"

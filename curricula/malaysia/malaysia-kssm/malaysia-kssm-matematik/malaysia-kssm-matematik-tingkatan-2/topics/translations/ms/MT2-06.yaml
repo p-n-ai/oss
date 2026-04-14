@@ -1,0 +1,121 @@
+id: MT2-06
+official_ref: "Bab 6"
+name: "Bentuk Geometri Tiga Dimensi"
+
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+
+content_standards:
+  - id: "6.1"
+    text: "Sifat Geometri Bentuk Tiga Dimensi"
+  - id: "6.2"
+    text: "Bentangan Bentuk Tiga Dimensi"
+  - id: "6.3"
+    text: "Luas Permukaan Bentuk Tiga Dimensi"
+  - id: "6.4"
+    text: "Isi Padu Bentuk Tiga Dimensi"
+
+learning_objectives:
+  - id: "6.1.1"
+    content_standard_id: "6.1"
+    text: "Membanding, membeza dan mengklasifikasikan bentuk tiga dimensi termasuk prisma, piramid, silinder, kon dan sfera, serta menghuraikan sifat geometri."
+    bloom: analyze
+
+  - id: "6.2.1"
+    content_standard_id: "6.2"
+    text: "Menganalisis bentangan bentuk tiga dimensi dan membina model daripada bentangan."
+    bloom: analyze
+
+  - id: "6.3.1"
+    content_standard_id: "6.3"
+    text: "Menerbitkan dan menggunakan rumus luas permukaan bagi pelbagai bentuk tiga dimensi."
+    bloom: apply
+
+  - id: "6.3.2"
+    content_standard_id: "6.3"
+    text: "Menentukan luas permukaan sfera menggunakan rumus."
+    bloom: apply
+
+  - id: "6.3.3"
+    content_standard_id: "6.3"
+    text: "Menyelesaikan masalah melibatkan luas permukaan bentuk tiga dimensi."
+    bloom: evaluate
+
+  - id: "6.4.1"
+    content_standard_id: "6.4"
+    text: "Menerbitkan rumus isi padu prisma, silinder, piramid dan kon."
+    bloom: analyze
+
+  - id: "6.4.2"
+    content_standard_id: "6.4"
+    text: "Mengira isi padu bentuk tiga dimensi termasuk sfera."
+    bloom: apply
+
+  - id: "6.4.3"
+    content_standard_id: "6.4"
+    text: "Menyelesaikan masalah melibatkan isi padu termasuk bentuk gabungan dan penukaran unit."
+    bloom: evaluate
+
+performance_standards:
+  - level: 1
+    descriptor: "Menunjukkan pengetahuan asas bentuk tiga dimensi."
+  - level: 2
+    descriptor: "Memahami sifat bentuk tiga dimensi."
+  - level: 3
+    descriptor: "Mengaplikasikan pengetahuan tentang bentangan, luas permukaan dan isi padu."
+  - level: 4
+    descriptor: "Menyelesaikan masalah rutin bentuk tiga dimensi."
+  - level: 5
+    descriptor: "Menyelesaikan masalah rutin kompleks bentuk gabungan."
+  - level: 6
+    descriptor: "Menyelesaikan masalah bukan rutin secara kreatif."
+
+prerequisites:
+  required:
+    - "MT1-13"
+    - "MT1-10"
+  recommended: []
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+teaching:
+  sequence:
+    - "Langkah 1: Kenal pasti dan klasifikasikan bentuk 3D menggunakan objek sebenar."
+    - "Langkah 2: Teroka bentangan dan kaitkan dengan struktur 3D."
+    - "Langkah 3: Terbitkan rumus luas permukaan daripada bentangan."
+    - "Langkah 4: Terbitkan rumus isi padu berdasarkan luas tapak × tinggi."
+    - "Langkah 5: Aplikasikan rumus pada sfera dan bentuk gabungan."
+    - "Langkah 6: Selesaikan masalah dunia sebenar termasuk penukaran unit."
+
+  common_misconceptions:
+    - misconception: "Sfera mempunyai tepi atau bucu."
+      remediation: "Tunjukkan bahawa semua titik pada sfera adalah sama jarak dari pusat."
+
+    - misconception: "Menggunakan tinggi sendeng untuk isi padu."
+      remediation: "Tekankan penggunaan tinggi serenjang sahaja."
+
+    - misconception: "Keliru antara luas permukaan dan isi padu."
+      remediation: "Gunakan analisis unit cm² vs cm³."
+
+  engagement_hooks:
+    - "Menara Tun Mustapha: Bandingkan bentuk silinder dengan bangunan lain."
+    - "Bumbung rumah Melayu: Kajian reka bentuk geometri tradisional."
+    - "Ais krim kon: Aplikasi isi padu dalam kehidupan harian."
+
+ai_teaching_notes: "MT2-06.teaching.md"
+assessments_file: "MT2-06.assessments.yaml"
+examples_file: "MT2-06.examples.yaml"
+
+quality_level: 3
+provenance: ai-assisted
+sync_checked: true
