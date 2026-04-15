@@ -1,128 +1,131 @@
 topic_id: MT3-08
 provenance: ai-generated
-
 questions:
-
-  # Learning Objective 8.1.1
+  # --- LO 8.1.1: Recognise loci in real life (TP1 & TP2) ---
   - id: Q1
-    text: "Seorang jurutera ingin membina taman bulat yang berjarak tetap 5 meter dari satu tiang pusat. Apakah bentuk kawasan yang diperlukan untuk taman tersebut?"
-    difficulty: medium
-    learning_objective: LO1
-    tp_level: 2
-    kbat: false
-    answer:
-      type: free_text
-      value: "Lingkaran"
-      working: |
-        Langkah 1: Kenal pasti lokus bagi titik yang berjarak tetap dari satu titik tetap.
-        Langkah 2: Lokus yang berjarak tetap dari satu titik tetap membentuk lingkaran.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menentukan bentuk lingkaran."
-      - marks: 1
-        criteria: "Menerangkan bahawa lingkaran berpusat pada tiang dengan jejari 5 meter."
-    hints:
-      - level: 1
-        text: "Fikirkan tentang bentuk yang semua titiknya sama jarak dari pusat."
-
-  # Learning Objective 8.2.1
-  - id: Q2
-    text: "Tentukan dan bina lokus bagi titik yang berjarak sama dari dua titik tetap A dan B."
-    difficulty: medium
-    learning_objective: LO2
-    tp_level: 2
-    kbat: false
-    answer:
-      type: exact
-      value: "Garis lurus yang merupakan paksi serenjang kepada garis AB."
-      working: |
-        Langkah 1: Kenal pasti titik tengah antara A dan B.
-        Langkah 2: Lukis paksi serenjang pada titik tengah ini.
-        Langkah 3: Paksi ini adalah lokus yang dicari.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Menentukan titik tengah antara A dan B."
-      - marks: 1
-        criteria: "Melukis garis lurus serenjang pada titik tengah."
-      - marks: 1
-        criteria: "Menerangkan bahawa garis ini adalah lokus."
-    hints:
-      - level: 1
-        text: "Fikirkan tentang garis yang berada di tengah-tengah antara dua titik."
-
-  # Learning Objective 8.2.1
-  - id: Q3
-    text: "Apakah lokus bagi titik yang berjarak tetap 3 cm dari satu garis lurus?"
-    difficulty: medium
-    learning_objective: LO2
-    tp_level: 2
+    text: "Which of the following real-life situations represents a locus in the shape of a **straight line**?"
+    difficulty: easy
+    learning_objective: "8.1.1"
+    tp_level: 1
     kbat: false
     answer:
       type: multiple_choice
-      value: "Dua garis lurus selari, setiap satu 3 cm dari garis asal."
+      value: "A coconut falling from a tree."
       working: |
-        Langkah 1: Kenal pasti garis asal.
-        Langkah 2: Lukis dua garis selari pada setiap sisi garis asal dengan jarak 3 cm.
+        Step 1: Analyze the motion. A falling object moves vertically downward.
+        Step 2: The trace or trajectory formed by this movement is a straight vertical line.
+      distractors:
+        - value: "The tip of a spinning fan blade."
+          feedback: "A fan blade moves around a fixed point, which traces a circle, not a straight line. Check page 202 of your textbook!"
+        - value: "A swinging pendulum."
+          feedback: "A pendulum traces an arc (curve). A straight line locus requires movement in a single constant direction."
+        - value: "A sticker on a rolling bicycle tyre."
+          feedback: "While the bike moves forward, the sticker rotates, creating a complex curve called a cycloid (or a circle relative to the axle)."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Think about the path left behind. Which of these movements doesn't curve or turn?"
+
+  # --- LO 8.2.1: Describe and construct the 5 basic loci (TP3) ---
+  - id: Q2
+    text: "Describe the locus of point $P$ that moves such that it is always equidistant from two parallel lines, $L_1$ and $L_2$."
+    difficulty: medium
+    learning_objective: "8.2.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: "A straight line parallel to and passing through the midpoints of $L_1$ and $L_2$."
+      working: |
+        Step 1: Identify the condition (equidistant from two parallel lines).
+        Step 2: According to Generalization 8.2.1(iv), the locus is a single straight line in the middle.
+        Step 3: This line must be parallel to the original lines.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menentukan bahawa terdapat dua garis selari."
+        criteria: "Stating the locus is a straight line parallel to $L_1$ and $L_2$."
       - marks: 1
-        criteria: "Menyatakan jarak garis tersebut dari garis asal."
+        criteria: "Specifying it passes through the midpoints (middle) of the two lines."
     hints:
       - level: 1
-        text: "Pertimbangkan bagaimana garis selari boleh berada pada jarak yang sama dari garis asal."
+        text: "Imagine you are walking exactly in the middle of a straight road. What path are you tracing?"
 
-  # Learning Objective 8.2.2
-  - id: Q4
-    text: "Tentukan lokus bagi titik yang berjarak sama dari titik A dan juga berjarak tetap 4 cm dari garis lurus L."
+  # --- LO 8.2.2: Locus satisfying two or more conditions (TP4) ---
+  - id: Q3
+    text: "On a square grid with sides of 1 unit, point $X$ is 3 units from point $A$, and point $Y$ is equidistant from intersecting lines $AB$ and $AD$. How many points of intersection exist between locus $X$ and locus $Y$?"
     difficulty: medium
-    learning_objective: LO3
-    tp_level: 3
+    learning_objective: "8.2.2"
+    tp_level: 4
     kbat: true
     answer:
-      type: free_text
-      value: "Persilangan paksi serenjang kepada segmen A-L dan dua garis selari pada 4 cm dari L."
+      type: exact
+      value: "1"
       working: |
-        Langkah 1: Lukis paksi serenjang bagi segmen antara titik A dan satu titik pada garis L.
-        Langkah 2: Lukis dua garis selari pada 4 cm dari garis L.
-        Langkah 3: Lokasi yang memenuhi kedua-dua syarat adalah persilangan antara paksi serenjang dan garis selari.
-    marks: 4
-    rubric:
-      - marks: 1
-        criteria: "Melukis paksi serenjang bagi segmen A-L."
-      - marks: 1
-        criteria: "Melukis dua garis selari pada 4 cm dari garis L."
-      - marks: 2
-        criteria: "Mengenal pasti persilangan yang memenuhi kedua-dua syarat."
-    hints:
-      - level: 1
-        text: "MISCONCEPTION ALERT: Jangan lupa dua syarat berbeza mesti dipenuhi serentak."
-
-  # Learning Objective 8.2.3
-  - id: Q5
-    text: "Seorang pelajar diminta mencari titik yang berjarak sama dari dua garis lurus bersilang pada sudut 90 darjah. Bantu pelajar tersebut menentukan lokus."
-    difficulty: medium
-    learning_objective: LO4
-    tp_level: 3
-    kbat: true
-    answer:
-      type: free_text
-      value: "Dua garis lurus yang membentuk sudut bisection pada setiap sudut bersilang."
-      working: |
-        Langkah 1: Kenal pasti titik persilangan dua garis.
-        Langkah 2: Lukis garis bisection untuk setiap sudut yang terbentuk.
-        Langkah 3: Garis bisection ini adalah lokus yang berjarak sama dari kedua-dua garis.
+        Step 1: Locus $X$ is a circle with radius 3 centered at $A$.
+        Step 2: Locus $Y$ is the angle bisector of $\angle BAD$.
+        Step 3: Since it is a square, the angle bisector is the diagonal.
+        Step 4: The diagonal of a square intersects the circle centered at the corner exactly once inside the square area.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menentukan titik persilangan dua garis."
+        criteria: "Identifying Locus X as a circle/arc."
       - marks: 1
-        criteria: "Melukis garis bisection pada sudut bersilang."
+        criteria: "Identifying Locus Y as an angle bisector (diagonal)."
       - marks: 1
-        criteria: "Menerangkan bahawa garis bisection adalah lokus."
+        criteria: "Concluding there is 1 intersection point."
     hints:
       - level: 1
-        text: "Pertimbangkan bagaimana garis boleh membahagi dua sudut yang sama."
+        text: "Try to visualize or sketch this! Locus $X$ is a 'fan' shape from the corner, and Locus $Y$ is a 'divider' line cutting the corner into two 45-degree angles."
+
+  # --- LO 8.2.3: Solve problems involving loci (TP5) ---
+  - id: Q4
+    text: "A clinic needs to be built in a village. It must be equidistant from House $P$ and House $Q$, and exactly $600\text{ m}$ from a straight highway $AB$. If the scale is $1\text{ cm} = 600\text{ m}$, describe the possible locations for the clinic."
+    difficulty: hard
+    learning_objective: "8.2.3"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: "The intersection points between the perpendicular bisector of $PQ$ and the two lines parallel to highway $AB$ at a distance of $1\text{ cm}$."
+      working: |
+        Step 1: Condition 1 (equidistant from $P$ and $Q$) = Perpendicular bisector of line $PQ$.
+        Step 2: Condition 2 ($600\text{ m}$ from highway $AB$) = Two parallel lines, one on each side of $AB$, at a distance of $1\text{ cm}$.
+        Step 3: The clinic locations are where the bisector crosses these parallel lines.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Identifying the perpendicular bisector for $P$ and $Q$."
+      - marks: 1
+        criteria: "Identifying two parallel lines for the highway."
+      - marks: 2
+        criteria: "Specifying the intersections as the final locations."
+    hints:
+      - level: 1
+        text: "There are two separate conditions here. Solve them one by one like a treasure hunt. Don't forget the highway has two sides!"
+
+  # --- LO 8.2.3: Non-routine creative problem (TP6) ---
+  - id: Q5
+    text: "A goat is tied to a corner of a rectangular fenced grass field measuring $6\text{ m} \times 8\text{ m}$. The rope is $7\text{ m}$ long. Describe the shape of the region the goat can graze and explain why it is a locus."
+    difficulty: hard
+    learning_objective: "8.2.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "A quadrant (quarter-circle) with a radius of $7\text{ m}$ centered at the corner."
+      working: |
+        Step 1: The goat is tied to a fixed point (the corner).
+        Step 2: The rope acts as a fixed maximum distance.
+        Step 3: The area reachable is all points $\leq 7\text{ m}$ from the corner.
+        Step 4: Within the rectangular field, this forms a 90-degree sector (quadrant).
+    marks: 5
+    rubric:
+      - marks: 2
+        criteria: "Explaining that the movement is constrained by a fixed point and fixed distance."
+      - marks: 2
+        criteria: "Describing the shape as a quadrant or quarter-circle."
+      - marks: 1
+        criteria: "Stating the radius as $7\text{ m}$."
+    hints:
+      - level: 1
+        text: "Think about Example 13 or page 217 in your textbook. If the rope is $7\text{ m}$ but the wall is only $6\text{ m}$ wide, what happens to the shape?"

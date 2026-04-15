@@ -1,88 +1,92 @@
-id: MT3-06
-official_ref: "Bab 6"
-name: "Sudut dan Tangen bagi Bulatan"
-name_en: "Angles and Tangents of a Circle"
-subject_grade_id: malaysia-kssm-matematik-tingkatan-3
-subject_id: malaysia-kssm-matematik
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: intermediate
-tier: core
+id: "MT3-06"
+official_ref: "Chapter 6"
+name_en: "Angles and Tangents of Circles"
+subject_grade_id: "malaysia-kssm-matematik-tingkatan-3"
+subject_id: "malaysia-kssm-matematik"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "en"
+difficulty: "intermediate"
+tier: "core"
+
 content_standards:
-    - id: "6.1"
-      text: "Sudut pada Lilitan dan Sudut Pusat"
-      text_en: "Angles at the Circumference and Central Angles"
-    - id: "6.2"
-      text: "Sisi Empat Kitaran"
-      text_en: "Cyclic Quadrilaterals"
-    - id: "6.3"
-      text: "Tangen kepada Bulatan"
-      text_en: "Tangents to a Circle"
-    - id: "6.4"
-      text: "Tangen Sepunya"
-      text_en: "Common Tangents"
+  - id: "6.1"
+    text_en: "Angle at the Circumference and Central Angle Subtended by an Arc"
+  - id: "6.2"
+    text_en: "Cyclic Quadrilaterals"
+  - id: "6.3"
+    text_en: "Tangents to Circles"
+  - id: "6.4"
+    text_en: "Angles and Tangents of Circles"
+
 learning_objectives:
-    - id: "6.1.1"
-      text: "Membuat dan menentusahkan konjektur tentang hubungan antara (i) sudut-sudut pada lilitan, (ii) sudut pada lilitan dan sudut pusat yang dicangkum oleh lengkok tertentu, dan seterusnya menggunakan hubungan tersebut untuk menentukan nilai sudut dalam bulatan."
-      text_en: "Make and verify conjectures about the relationship between (i) angles at the circumference, (ii) the angle at the circumference and the angle at the centre subtended by a given arc, and subsequently use the relationship to determine the value of angles in a circle."
-      bloom: create
-    - id: "6.1.2"
-      text: "Menyelesaikan masalah yang melibatkan sudut dalam bulatan."
-      text_en: "Solve problems involving angles in a circle."
-      bloom: apply
-    - id: "6.2.1"
-      text: "Mengenal dan memerihalkan sisi empat kitaran."
-      text_en: "Recognise and describe cyclic quadrilaterals."
-      bloom: remember
-    - id: "6.2.2"
-      text: "Membuat dan menentusahkan konjektur tentang hubungan antara sudut-sudut pada sisi empat kitaran, dan seterusnya menggunakan hubungan tersebut untuk menentukan nilai sudut pada sisi empat kitaran."
-      text_en: "Make and verify conjectures about the relationship between angles in cyclic quadrilaterals, and subsequently use the relationship to determine the value of angles in cyclic quadrilaterals."
-      bloom: create
-    - id: "6.2.3"
-      text: "Menyelesaikan masalah yang melibatkan sisi empat kitaran."
-      text_en: "Solve problems involving cyclic quadrilaterals."
-      bloom: apply
-    - id: "6.3.1"
-      text: "Mengenal dan memerihalkan tangen kepada bulatan."
-      text_en: "Recognise and describe tangents to a circle."
-      bloom: remember
-    - id: "6.3.2"
-      text: "Membuat dan menentusahkan konjektur tentang (i) sudut di antara tangen dengan jejari bulatan pada titik ketangenan, (ii) sifat-sifat berkaitan dengan dua tangen kepada suatu bulatan, (iii) hubungan sudut di antara tangen dan perentas dengan sudut dalam tembereng selang-seli yang dicangkum oleh perentas itu, dan seterusnya melakukan pengiraan yang berkaitan."
-      text_en: "Make and verify conjectures about (i) the angle between the tangent and the radius of the circle at the point of tangency, (ii) properties related to two tangents to a circle, (iii) the relationship between the angle between the tangent and the chord and the angle in the alternate segment subtended by the chord, and subsequently perform related calculations."
-      bloom: create
-    - id: "6.3.3"
-      text: "Menyelesaikan masalah yang melibatkan tangen kepada bulatan."
-      text_en: "Solve problems involving tangents to a circle."
-      bloom: apply
-    - id: "6.4.1"
-      text: "Menyelesaikan masalah yang melibatkan sudut dan tangen bagi bulatan."
-      text_en: "Solve problems involving angles and tangents of a circle."
-      bloom: apply
+  - id: "6.1.1"
+    text_en: "Make and verify conjectures about the relationships between (i) angles at the circumference, (ii) angles at the circumference and central angle subtended by particular arcs, and hence use the relationships to determine the values of angles in circles."
+    bloom: "create"
+  - id: "6.1.2"
+    text_en: "Solve problems involving angles in circles."
+    bloom: "apply"
+  - id: "6.2.1"
+    text_en: "Recognise and describe cyclic quadrilaterals."
+    bloom: "remember"
+  - id: "6.2.2"
+    text_en: "Make and verify conjectures about the relationships between angles of cyclic quadrilateral, and hence use the relationships to determine the values of angles of cyclic quadrilateral."
+    bloom: "create"
+  - id: "6.2.3"
+    text_en: "Solve problems involving cyclic quadrilaterals."
+    bloom: "apply"
+  - id: "6.3.1"
+    text_en: "Recognise and describe the tangents to circles."
+    bloom: "remember"
+  - id: "6.3.2"
+    text_en: "Make and verify conjectures about (i) the angle between tangent and radius of a circle at the point of tangency, (ii) the properties related to two tangents to a circle, (iii) the relationship of angle between tangent and chord with the angle in the alternate segment which is subtended by the chord, and hence perform the related calculations."
+    bloom: "create"
+  - id: "6.3.3"
+    text_en: "Solve problems involving tangents to circles."
+    bloom: "apply"
+  - id: "6.4.1"
+    text_en: "Solve problems involving angles and tangents of circles."
+    bloom: "apply"
+
+mastery_parameters:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
 prerequisites:
-    required: []
-bloom_levels:
-    - remember
-    - create
-    - apply
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-29T15:27:23Z"
+  required:
+    - "MT1-04" # Basic Algebra for solving angle equations
+    - "MT2-06" # Circle properties: radius, diameter, circumference
+
 teaching:
-    sequence:
-        - 'Step 1: Introduce the concept of angles in a circle and their properties (15 min)'
-        - 'Step 2: Explain and demonstrate the relationship between angles on the circumference and central angles (20 min)'
-        - 'Step 3: Discuss cyclic quadrilaterals and their angle properties (15 min)'
-        - 'Step 4: Explore the properties of tangents to a circle and related angle calculations (20 min)'
-        - 'Step 5: Solve real-world problems involving angles and tangents in circles (20 min)'
-    common_misconceptions:
-        - misconception: Students often think all angles in a circle are equal
-          remediation: Clarify the difference between central and inscribed angles and their specific properties
-        - misconception: Confusion between tangent and secant lines
-          remediation: Use diagrams to clearly differentiate between tangents and secants
-        - misconception: Assuming all quadrilaterals inscribed in circles are squares
-          remediation: Provide examples of different cyclic quadrilaterals and their properties
-engagement_hooks:
-    - Consider the role of angles and tangents in designing roundabouts and traffic flow
-    - Explore how architects use circular designs and tangents in building structures
-    - Discuss the use of angles and tangents in sports, such as calculating the trajectory of a ball in golf
+  sequence:
+    - "Step 1: Introduce properties of angles at the circumference and central angles using dynamic geometry tools."
+    - "Step 2: Investigate relationship between arc length and angle size at circumference and centre ."
+    - "Step 3: Define cyclic quadrilaterals and explore supplementary relationship of opposite angles ."
+    - "Step 4: Introduce tangents, identifying the 90-degree angle with the radius at the point of tangency ."
+    - "Step 5: Analyze properties of two tangents from an external point and angles in alternate segments ."
+    - "Step 6: Integrate all concepts to solve complex non-routine problems involving both angles and tangents ."
+
+  common_misconceptions:
+    - misconception: "Confusing the relationship between central angles and angles at the circumference."
+      remediation: "Use dynamic software (GeoGebra) to show that the central angle is always twice the circumference angle when subtended by the same arc ."
+    - misconception: "Assuming any quadrilateral drawn inside a circle is a cyclic quadrilateral."
+      remediation: "Verify that all four vertices must lie exactly on the circumference ."
+    - misconception: "Thinking a tangent line can pass through two points on a circle."
+      remediation: "Physically demonstrate using a straight edge that a tangent touches the circle at exactly one point of tangency ."
+
+  engagement_hooks:
+    - "Design a safe roundabout: How do engineers use tangents and circle properties to calculate exit angles for traffic flow?"
+    - "Moon Phases: Use the 'Exploring Mathematics' activity to draw and explain the geometry behind the crescent and gibbous moon ."
+    - "Sports Trajectory: Analyze the angle of a golf ball or basketball using tangents to determine the point of release."
+
+ai_teaching_notes: "MT3-06.teaching.md"
+assessments_file: "MT3-06.assessments.yaml"
+examples_file: "MT3-06.examples.yaml"
+
+quality_level: 3
+provenance: "ai-generated"
+sync_checked: true
+generated_at: "2026-04-15T15:16:55Z"

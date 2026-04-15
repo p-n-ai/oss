@@ -1,0 +1,85 @@
+id: "MT3-05"
+official_ref: "Bab 5"
+name: "Nisbah Trigonometri"
+subject_grade_id: "malaysia-kssm-matematik-tingkatan-3"
+subject_id: "malaysia-kssm-matematik"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "intermediate"
+tier: "core"
+
+mastery_block:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+# Fail rujukan relatif (Versi BM akan ditarik oleh sistem melalui folder /ms/)
+ai_teaching_notes: "MT3-05.teaching.md"
+assessments_file: "MT3-05.assessments.yaml"
+examples_file: "MT3-05.examples.yaml"
+
+content_standards:
+  - id: "5.1"
+    text: "Sinus, Kosinus dan Tangen bagi Sudut Tirus dalam Segi Tiga Bersudut Tegak"
+    learning_objectives:
+      - id: "5.1.1"
+        text: "Mengenal pasti sisi bertentangan dan sisi bersebelahan berdasarkan suatu sudut tirus dalam segi tiga bersudut tegak."
+        bloom: "remember"
+        tp_level: 1
+      - id: "5.1.2"
+        text: "Membuat dan menentusahkan konjektur tentang hubungan antara sudut tirus dan nisbah sisi segi tiga bersudut tegak, dan seterusnya mentakrifkan sinus, kosinus dan tangen."
+        bloom: "understand"
+        tp_level: 2
+      - id: "5.1.3"
+        text: "Membuat dan menentusahkan konjektur tentang kesan perubahan saiz sudut terhadap nilai sinus, kosinus dan tangen."
+        bloom: "analyze"
+        tp_level: 4
+      - id: "5.1.4"
+        text: "Menentukan nilai sinus, kosinus dan tangen suatu sudut tirus."
+        bloom: "apply"
+        tp_level: 3
+      - id: "5.1.5"
+        text: "Menentukan nilai sinus, kosinus dan tangen sudut 30°, 45° dan 60° tanpa menggunakan kalkulator."
+        bloom: "apply"
+        tp_level: 3
+      - id: "5.1.6"
+        text: "Melakukan pengiraan yang melibatkan sinus, kosinus dan tangen."
+        bloom: "apply"
+        tp_level: 4
+      - id: "5.1.7"
+        text: "Menyelesaikan masalah yang melibatkan sinus, kosinus dan tangen."
+        bloom: "create"
+        tp_level: 5
+
+prerequisites:
+  required:
+    - "MT1-13" # Teorem Pythagoras (Tingkatan 1)
+    - "Identifikasi asas segi tiga bersudut tegak"
+
+teaching_sequence:
+  - "Langkah 1: Menggunakan rajah segi tiga berlabel untuk mengenal pasti sisi bertentangan, sisi bersebelahan, dan hipotenus berdasarkan sudut tirus tertentu."
+  - "Langkah 2: Menggunakan kertas grid atau alat digital untuk mengesahkan nisbah malar bagi sudut tetap (Mentakrifkan Sin, Kos, Tan)."
+  - "Langkah 3: Memerhati kesan perubahan saiz sudut terhadap nilai nisbah (contoh: nilai Sin meningkat apabila sudut mendekati 90°)."
+  - "Langkah 4: Berlatih mengira nilai untuk sudut khas (30°, 45°, 60°) menggunakan bentuk surd dan segi tiga unit."
+  - "Langkah 5: Mengaplikasikan SOH-CAH-TOA untuk menyelesaikan masalah rutin dan bukan rutin dalam dunia sebenar (Seni bina/Navigasi)."
+
+common_misconceptions:
+  - misconception: "Sisi bersebelahan dan bertentangan adalah tetap tanpa mengira kedudukan sudut."
+    remediation: "Gunakan rajah dengan dua sudut tirus berbeza (x dan y) untuk menunjukkan bagaimana 'sisi bertentangan' bagi x adalah 'sisi bersebelahan' bagi y."
+  - misconception: "Nisbah trigonometri boleh digunakan pada mana-mana jenis segi tiga."
+    remediation: "Tegaskan bahawa nisbah ini hanya ditakrifkan untuk segi tiga bersudut tegak; bagi segi tiga lain, kaedah seperti petua sinus/kosinus diperlukan (Tingkatan 4)."
+  - misconception: "Meningkatkan saiz sudut akan menggandakan nilai nisbah trigonometri (kadar terus)."
+    remediation: "Bandingkan nilai sin 15° dan sin 30° menggunakan kalkulator untuk menunjukkan hubungan tersebut adalah tidak linear."
+
+engagement_hooks:
+  - "Bagaimana jurutera menggunakan trigonometri untuk memastikan kestabilan struktur Menara Berkembar Petronas."
+  - "Mengira lebar sungai atau ketinggian tiang bendera tanpa perlu menyeberang atau memanjatnya secara fizikal."
+  - "Peranan trigonometri dalam isyarat satelit GPS dan navigasi pesawat udara."
+
+quality_level: 3
+provenance: "curriculum-aligned-rewrite"
+generated_at: "2026-04-15T13:20:47Z"
+sync_checked: true

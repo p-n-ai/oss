@@ -1,0 +1,99 @@
+id: MT3-02
+official_ref: "Bab 2"
+name: "Bentuk Piawai"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-3
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+
+content_standards:
+  - id: "2.1"
+    text: "Angka Bererti"
+  - id: "2.2"
+    text: "Bentuk Piawai"
+
+learning_objectives:
+  - id: "2.1.1"
+    content_standard_id: "2.1"
+    text: "Menerangkan maksud angka bererti dan seterusnya menentukan bilangan angka bererti suatu nombor."
+    bloom: understand
+    tp_level: 2
+  - id: "2.1.2"
+    content_standard_id: "2.1"
+    text: "Membundarkan suatu nombor kepada bilangan angka bererti yang tertentu."
+    bloom: apply
+    tp_level: 3
+  - id: "2.2.1"
+    content_standard_id: "2.2"
+    text: "Mengenal dan menulis nombor dalam bentuk piawai."
+    bloom: understand
+    tp_level: 2
+  - id: "2.2.2"
+    content_standard_id: "2.2"
+    text: "Melaksanakan operasi asas aritmetik yang melibatkan nombor dalam bentuk piawai."
+    bloom: apply
+    tp_level: 3
+  - id: "2.2.3"
+    content_standard_id: "2.2"
+    text: "Menyelesaikan masalah yang melibatkan nombor dalam bentuk piawai."
+    bloom: apply
+    tp_level: [4, 5, 6]
+
+performance_standards:
+  - level: 1
+    descriptor: "Mempamerkan pengetahuan asas tentang angka bererti dan bentuk piawai."
+  - level: 2
+    descriptor: "Mempamerkan kefahaman tentang angka bererti dan bentuk piawai."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman tentang angka bererti dan bentuk piawai untuk melaksanakan tugasan mudah."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang bentuk piawai dalam konteks penyelesaian masalah rutin yang mudah."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang bentuk piawai dalam konteks penyelesaian masalah rutin yang kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang bentuk piawai dalam konteks penyelesaian masalah bukan rutin secara kreatif."
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+prerequisites:
+  required: 
+    - "MT1-01"
+    - "MT3-01"
+  recommended: []
+
+teaching:
+  sequence:
+    - 'Langkah 1: Konsep anggaran dan penghampiran dalam situasi harian (Muka Surat 32) (15 min)'
+    - 'Langkah 2: Menentukan bilangan angka bererti bagi integer dan perpuluhan (Muka Surat 33-34) (25 min)'
+    - 'Langkah 3: Membundarkan nombor kepada angka bererti tertentu (Muka Surat 35-36) (20 min)'
+    - 'Langkah 4: Mengenal dan menukar nombor tunggal kepada bentuk piawai (A x 10^n) (Muka Surat 37-39) (30 min)'
+    - 'Langkah 5: Melaksanakan operasi tambah, tolak, darab, dan bahagi dalam bentuk piawai (Muka Surat 40-42) (40 min)'
+    - 'Langkah 6: Penyelesaian masalah dunia sebenar dan aplikasi bukan rutin (TP4-TP6) (Muka Surat 43-47) (45 min)'
+
+common_misconceptions:
+  - misconception: "Semua digit sifar dianggap sebagai angka bererti."
+    remediation: "Jelaskan bahawa sifar di hadapan perpuluhan (contoh: 0.005) bukan angka bererti; ia hanya menentukan nilai tempat (Muka Surat 34)."
+  - misconception: "Indeks positif dan negatif dalam bentuk piawai mewakili arah pergerakan perpuluhan yang sama."
+    remediation: "Pastikan pelajar faham indeks positif untuk nombor besar (>10) dan indeks negatif untuk nombor kecil (<1) (Muka Surat 37)."
+  - misconception: "Menambah atau menolak nombor bentuk piawai dengan indeks berbeza secara terus."
+    remediation: "Ajar kaedah pemfaktoran atau penukaran indeks kepada kuasa yang sama sebelum melakukan operasi (Muka Surat 40)."
+
+engagement_hooks:
+  - "Gunakan jarak astronomi (tahun cahaya ke km) untuk menunjukkan kenapa menulis berbilion sifar adalah tidak efisien (Muka Surat 30)."
+  - "Bincangkan saiz nanometer (0.000 000 001 meter) dalam teknologi peranti untuk memberi konteks kepada nilai bentuk piawai yang kecil (Muka Surat 38)."
+
+quality_level: 3
+provenance: "curriculum-architect-validated"
+sync_checked: true
+generated_at: "2026-04-15T10:45:54Z"
+ai_teaching_notes: "MT3-02.teaching.md"
+assessments_file: "MT3-02.assessments.yaml"
+examples_file: "MT3-02.examples.yaml"

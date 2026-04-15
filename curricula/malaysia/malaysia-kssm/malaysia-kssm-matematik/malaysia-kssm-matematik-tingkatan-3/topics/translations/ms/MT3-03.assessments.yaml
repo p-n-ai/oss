@@ -1,0 +1,266 @@
+id: "MT3-03-assessments"
+topic_id: "MT3-03"
+provenance: "curriculum-architect-validated"
+questions:
+  # --- Sub-bab 3.1: Simpanan dan Pelaburan ---
+
+  - id: "Q1"
+    text: "Antara berikut, yang manakah menghuraikan maksud 'pelaburan' (investment) dengan betul?"
+    difficulty: "easy"
+    learning_objective: "3.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "Membeli lot kedai untuk menerima pendapatan sewa bulanan."
+      working: |
+        - Simpanan: Wang yang disimpan dengan risiko rendah dan kecairan tinggi (cth: Akaun Simpanan).
+        - Pelaburan: Aset yang dibeli untuk menjana kekayaan/pendapatan masa hadapan dengan potensi risiko (cth: Hartanah, Saham).
+      distractors:
+        - value: "Menyimpan RM50 dalam tabung ayam di rumah."
+          feedback: "Ini adalah bentuk simpanan asas, bukan pelaburan yang berkembang melalui faedah atau keuntungan modal."
+        - value: "Mendeposit RM5,000 ke dalam Akaun Simpanan di bank."
+          feedback: "Ini adalah jenis 'Simpanan'. Pelaburan biasanya mensasarkan pulangan lebih tinggi seperti dividen atau sewa."
+        - value: "Mengeluarkan wang dari ATM untuk membayar bil."
+          feedback: "Ini hanyalah satu transaksi perbelanjaan, bukan aktiviti pelaburan."
+    marks: 1
+    hints:
+      - "Pelaburan ialah aset yang kita beli dengan harapan ia akan memberi kita lebih banyak wang pada masa hadapan, seperti dividen atau sewa."
+
+  - id: "Q2"
+    text: "Hitung nilai matang ($MV$) bagi deposit RM10,000 dalam akaun simpanan tetap selama 2 tahun dengan kadar faedah 4% setahun dikompaun setiap 6 bulan."
+    difficulty: "medium"
+    learning_objective: "3.1.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: "exact"
+      value: "10824.32"
+      working: |
+        Guna formula Faedah Kompaun: $MV = P(1 + r/n)^{nt}$
+        $P = 10\ 000$
+        $r = 0.04$
+        $n = 2$ (Dikompaun setiap 6 bulan bermaksud 2 kali setahun)
+        $t = 2$ tahun
+        $MV = 10\ 000 \times (1 + 0.04/2)^{2 \times 2}$
+        $MV = 10\ 000 \times (1.02)^4$
+        $MV = 10\ 000 \times 1.08243216 = 10\ 824.32$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti nilai $n=2$ dan penggantian ke dalam formula dengan betul."
+      - marks: 1
+        criteria: "Pengiraan $(1.02)^4$ yang tepat."
+      - marks: 1
+        criteria: "Jawapan akhir dibundarkan kepada 2 tempat perpuluhan."
+    hints:
+      - "Apakah maksud 'dikompaun setiap 6 bulan'? Berapa kali dalam setahun bank akan semak duit awak? Itulah nilai '$n$'."
+      - "Formula: $MV = P(1 + r/n)^{nt}$. Ingat untuk tukar 4% kepada 0.04 bagi kadar '$r$'."
+
+  - id: "Q3"
+    text: "Encik Yusuf membeli sebuah lot kedai dengan harga RM600,000. Beliau menerima RM45,000 hasil sewa selama setahun dan akhirnya menjual lot kedai tersebut dengan harga RM720,000. Hitung jumlah **Pulangan Pelaburan (ROI)** beliau."
+    difficulty: "medium"
+    learning_objective: "3.1.3"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: "exact"
+      value: "27.5%"
+      working: |
+        1. Hitung Keuntungan Modal: $720\ 000 - 600\ 000 = 120\ 000$.
+        2. Jumlah Pulangan = Keuntungan Modal + Pendapatan Sewa: $120\ 000 + 45\ 000 = 165\ 000$.
+        3. $ROI = (\text{Jumlah Pulangan} / \text{Pelaburan Awal}) \times 100$
+        4. $ROI = (165\ 000 / 600\ 000) \times 100 = 27.5\%$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengira Jumlah Pulangan (RM165,000) dengan tepat."
+      - marks: 1
+        criteria: "Susunan formula ROI yang betul."
+      - marks: 1
+        criteria: "Peratusan akhir yang betul (27.5%)."
+    hints:
+      - "Jumlah pulangan bukan sekadar untung jual kedai; jangan lupa duit sewa yang beliau kutip!"
+      - "$ROI = (\text{Jumlah Untung} / \text{Kos Asal}) \times 100$."
+
+  - id: "Q4"
+    text: "Padankan aset berikut dengan tahap kecairan (liquidity) mereka."
+    difficulty: "medium"
+    learning_objective: "3.1.4"
+    tp_level: 4
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "Simpanan: Tinggi | Hartanah: Rendah"
+      working: |
+        Kecairan ialah seberapa cepat sesuatu aset boleh ditukarkan kepada tunai.
+        - Simpanan: Boleh dikeluarkan melalui ATM serta-merta (Tinggi).
+        - Hartanah: Mengambil masa berbulan-bulan untuk cari pembeli dan proses jualan (Rendah).
+      distractors:
+        - value: "Simpanan: Rendah | Hartanah: Tinggi"
+          feedback: "Terbalik tu! Rumah ambil masa lama untuk dijual, jadi kecairannya adalah RENDAH."
+        - value: "Kedua-duanya Tinggi"
+          feedback: "Tidak, menukarkan rumah kepada tunai tidaklah secepat menggunakan kad bank awak."
+    marks: 2
+
+  - id: "Q5"
+    text: "Jelaskan bagaimana strategi **Pemurataan Kos Ringgit (RCA)** membantu seorang pelabur semasa harga saham mengalami turun naik."
+    difficulty: "medium"
+    learning_objective: "3.1.5"
+    tp_level: 3
+    kbat: true
+    answer:
+      type: "free_text"
+      value: "Dengan melabur jumlah tetap secara berkala, pelabur akan membeli lebih banyak unit apabila harga rendah dan kurang unit apabila harga tinggi, yang seterusnya mengurangkan kos purata keseluruhan seunit."
+      working: "Logik RCA: Modal tetap / Harga berubah = Bilangan unit berubah. Lama-kelamaan, kos purata adalah lebih rendah daripada harga puncak."
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyebut tentang pembelian lebih banyak unit apabila harga rendah."
+      - marks: 1
+        criteria: "Kesimpulan bahawa kos purata seunit dapat dikurangkan."
+    hints:
+      - "Fikirkan: Jika awak belanja RM100 setiap bulan untuk saham, adakah awak dapat LEBIH atau KURANG saham bila harganya jatuh ke RM0.50?"
+
+  - id: "Q6"
+    text: "Encik Lee menyimpan RM5,000 selama 3 tahun dengan faedah mudah 3.5% setahun. Pada tahun ke-4, beliau memindahkan keseluruhan jumlah itu ke akaun faedah kompaun dengan kadar 4% dikompaun setahun sekali. Hitung jumlah simpanannya pada akhir tahun ke-4."
+    difficulty: "hard"
+    learning_objective: "3.1.6"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: "exact"
+      value: "5746"
+      working: |
+        Bahagian 1 (Faedah Mudah): $I = Prt$
+        $I = 5000 \times 0.035 \times 3 = 525$.
+        Nilai akaun selepas 3 tahun = $5000 + 525 = 5525$.
+        Bahagian 2 (Faedah Kompaun): $MV = P(1 + r/n)^{nt}$
+        Prinsipal Baharu $P = 5525, r = 0.04, n = 1, t = 1$
+        $MV = 5525(1 + 0.04)^1 = 5525 \times 1.04 = 5746$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Pengiraan Faedah Mudah yang betul (RM525)."
+      - marks: 1
+        criteria: "Prinsipal baharu untuk fasa kompaun yang betul (RM5,525)."
+      - marks: 2
+        criteria: "Nilai matang akhir dikira dengan tepat."
+    hints:
+      - "Ini misi dua bahagian! Mula-mula, cari jumlah selepas 3 tahun guna $I = Prt$."
+      - "Sekarang, ambil jumlah keseluruhan itu dan jadikan ia 'Prinsipal Baharu' untuk pengiraan kompaun tahun ke-4."
+
+  # --- Sub-bab 3.2: Pengurusan Kredit dan Hutang ---
+
+  - id: "Q7"
+    text: "Takrifkan istilah 'Kredit' dalam konteks matematik pengguna."
+    difficulty: "easy"
+    learning_objective: "3.2.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: "free_text"
+      value: "Kredit ialah satu perjanjian kontrak di mana peminjam menerima sesuatu yang bernilai sekarang dan bersetuju untuk membayar balik kepada pemberi pinjaman pada tarikh akan datang, biasanya dengan faedah."
+      working: "Kredit = Kemudahan 'pinjam sekarang, bayar kemudian' yang disediakan oleh bank/institusi kewangan."
+    marks: 1
+    hints:
+      - "Adakah kredit itu wang yang awak SUDAH ada, atau wang yang bank benarkan awak guna dulu?"
+
+  - id: "Q8"
+    text: "Tentukan sama ada pernyataan berikut adalah BENAR atau PALSU: 'Membayar jumlah minimum pada penyata kad kredit anda akan menghentikan anda daripada dikenakan faedah ke atas baki yang tinggal.'"
+    difficulty: "medium"
+    learning_objective: "3.2.2"
+    tp_level: 4
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "PALSU"
+      working: "Membayar jumlah minimum hanya mengelakkan penalti 'bayaran lewat'; ia TIDAK menghentikan faedah daripada dikenakan ke atas baki 95% yang belum dibayar."
+      distractors:
+        - value: "BENAR"
+          feedback: "Hati-hati! Bayaran minimum hanyalah peratusan kecil daripada apa yang awak hutang. Bakinya (95%) masih akan dikenakan faedah harian!"
+    marks: 1
+
+  - id: "Q9"
+    text: "Hitung jumlah amaun yang perlu dibayar balik untuk satu pinjaman peribadi RM20,000 dengan kadar faedah tetap 5% setahun bagi tempoh 5 tahun."
+    difficulty: "medium"
+    learning_objective: "3.2.5"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: "exact"
+      value: "25000"
+      working: |
+        $A = P + Prt$
+        Faedah = $20\ 000 \times 0.05 \times 5 = 5\ 000$.
+        Jumlah bayaran balik = $20\ 000 + 5\ 000 = 25\ 000$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Pengiraan Faedah yang betul (RM5,000)."
+      - marks: 2
+        criteria: "Menambah faedah kepada prinsipal untuk mendapatkan jumlah akhir."
+    hints:
+      - "Faedah tetap adalah faedah mudah. Guna $I = Prt$ dan kemudian tambahkan semula kepada RM20,000 asal."
+
+  - id: "Q10"
+    text: "Aminah mempunyai baki kad kredit sebanyak RM3,000. Beliau terlepas bayaran untuk bulan Oktober. Bank mengenakan kadar faedah tahunan 15% ke atas baki harian dan caj bayaran lewat RM10. Hitung jumlah baki dalam akaunnya pada 1 November (31 hari kemudian)."
+    difficulty: "hard"
+    learning_objective: "3.2.3"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: "exact"
+      value: "3048.22"
+      working: |
+        1. Faedah bulanan = $3000 \times (0.15 / 365) \times 31 = 38.22$.
+        2. Penalti lewat = RM10.
+        3. Jumlah baki = RM3000 + RM38.22 + RM10 = RM3048.22.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Mengira jumlah faedah (RM38.22) dengan betul."
+      - marks: 1
+        criteria: "Memasukkan penalti caj bayaran lewat."
+      - marks: 1
+        criteria: "Jumlah baki akhir yang betul."
+    hints:
+      - "Aduhai! Terlepas bayaran akan kena caj dua kali. Pertama, bank caj faedah untuk sebulan. Kedua, mereka kenakan denda lewat."
+      - "Kira faedah: Baki $\times$ (Kadar / 365) $\times$ Bilangan Hari."
+
+  - id: "Q11"
+    text: "Sebuah bank menawarkan pinjaman perumahan RM500,000. Opsyen X: faedah 3.5% selama 30 tahun. Opsyen Y: faedah 4.0% selama 20 tahun. Opsyen manakah yang patut dipilih oleh peminjam jika matlamat mereka adalah untuk meminimumkan **Jumlah Faedah yang Dibayar**?"
+    difficulty: "hard"
+    learning_objective: "3.2.6"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: "multiple_choice"
+      value: "Opsyen Y"
+      working: |
+        Opsyen X: Faedah = $500\ 000 \times 0.035 \times 30 = 525\ 000$.
+        Opsyen Y: Faedah = $500\ 000 \times 0.040 \times 20 = 400\ 000$.
+        $400\ 000 < 525\ 000$. Opsyen Y lebih murah dari segi jumlah faedah.
+      distractors:
+        - value: "Opsyen X"
+          feedback: "Walaupun 3.5% lebih rendah daripada 4.0%, tempoh yang jauh lebih lama (30 tahun) menyebabkan jumlah faedah yang dibayar menjadi jauh lebih tinggi!"
+    marks: 2
+    hints:
+      - "Tips: Kadangkala peratusan yang rendah untuk tempoh yang lama sebenarnya akan memakan lebih banyak kos. Kira jumlah faedah untuk kedua-duanya!"
+
+  - id: "Q12"
+    text: "Nyatakan dua cara seorang pengguna boleh menggunakan kad kredit secara bijaksana untuk mengelakkan pengumpulan hutang yang tinggi."
+    difficulty: "medium"
+    learning_objective: "3.2.4"
+    tp_level: 4
+    kbat: false
+    answer:
+      type: "free_text"
+      value: "1. Membayar baki penuh sebelum tarikh akhir untuk mengelakkan faedah. 2. Menggunakan kad hanya untuk perbelanjaan terancang dalam bajet sendiri."
+      working: "Kriteria: Logik bayaran penuh vs bayaran minimum; Disiplin belanjawan."
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mencadangkan bayar baki penuh/tepat pada masa."
+      - marks: 1
+        criteria: "Mencadangkan guna dalam bajet atau elakkan belanja impulsif."

@@ -1,36 +1,83 @@
+id: MT3-02
 topic_id: MT3-02
-provenance: ai-generated
-description: "Worked examples for Bentuk Piawai"
+provenance: "curriculum-architect-validated"
 worked_examples:
   - id: WE-01
-    topic: "Understanding Significant Figures"
+    topic: "Identifying Significant Figures"
+    learning_objective: "2.1.1"
     difficulty: easy
-    real_world_analogy: "Think of significant figures as important details in a story. Just like you wouldn't leave out key parts of a story, you shouldn't leave out significant figures in a number."
-    misconception_alert: "Students often confuse significant figures with decimal places. Remember, significant figures are about the digits that carry meaning."
-    scenario: "Determine the number of significant figures in the number 0.005230."
+    real_world_analogy: "Think of your school ID number. The zeros at the very front don't change who you are, they are just placeholders. But a zero in the middle or at the end of a measurement shows how 'accurate' your tool is."
+    misconception_alert: "The 'Zero Hero' Trap! Students think all zeros are significant. Remember: leading zeros in decimals (e.g., 0.005) are NEVER significant; they only show place value (Page 34)."
+    scenario: "An experiment measures the mass of a chemical as $0.005020$ g. Determine the number of significant figures."
     working: |
-      Step 1: Identify the first non-zero digit, which is '5'.
-      Step 2: Count all digits from '5' to the end of the number, which are '5', '2', '3', and '0'.
-      Step 3: Therefore, the number 0.005230 has 4 significant figures.
+      1. Identify the first non-zero digit: It is '5'.
+      2. Start counting from '5' to the right: '5', '0', '2', '0'.
+      3. Rule: Zeros between non-zero digits are significant. (The '0' between 5 and 2).
+      4. Rule: Trailing zeros in a decimal are significant. (The '0' at the end).
+      5. Total count: $1, 2, 3, 4$.
+      6. Answer: 4 significant figures (4 s.f.).
+    tp_level: 2
 
   - id: WE-02
-    topic: "Rounding to Significant Figures"
+    topic: "Rounding Whole Numbers"
+    learning_objective: "2.1.2"
     difficulty: medium
-    real_world_analogy: "Rounding numbers is like packing for a trip; you want to include the essentials but not overpack."
-    misconception_alert: "A common mistake is rounding too early in a multi-step problem, leading to inaccurate results. Always round at the end."
-    scenario: "Round the number 4567 to 2 significant figures."
+    real_world_analogy: "Rounding is like 'trimming the grass.' You want a neat look (the main number), but you can't just delete the ground underneath (the place value). You must put zeros to keep the shape of the house!"
+    misconception_alert: "The 'Vanishing Place Value' Trap. Students rounding $63,479$ to 2 s.f. often write '$63$'. This is wrong! You must use zeros as placeholders to keep it in the ten-thousands (Page 35)."
+    scenario: "The population of a small district is $63,479$. Round this number to 2 significant figures."
     working: |
-      Step 1: Identify the first two significant figures, '4' and '5'.
-      Step 2: Look at the next digit, which is '6'. Since '6' is 5 or more, round up the last significant figure.
-      Step 3: The number 4567 rounded to 2 significant figures is 4600.
+      1. Identify the first two significant figures: '6' and '3'.
+      2. Look at the digit immediately to the right: '4'.
+      3. Compare with 5: $4 < 5$, so we do NOT round up. The '3' remains unchanged.
+      4. Identify the remaining places before the decimal: there are 3 places ('4', '7', '9').
+      5. Replace these 3 places with zeros: $000$.
+      6. Result: $63,000$.
+    tp_level: 3
 
   - id: WE-03
-    topic: "Writing Numbers in Standard Form"
-    difficulty: hard
-    real_world_analogy: "Writing numbers in standard form is like organizing books in a library; you need a system to quickly find what you need."
-    misconception_alert: "Students often forget to adjust the exponent when moving the decimal point. Always count the moves to the left or right."
-    scenario: "Express the number 0.000345 in standard form."
+    topic: "Converting to Standard Form"
+    learning_objective: "2.2.1"
+    difficulty: easy
+    real_world_analogy: "Standard form is like a 'scientific shortcut.' Instead of writing $0.000\ 000\ 001$ (which is a headache!), we use the index to tell us how many 'decimal jumps' to take."
+    misconception_alert: "Students often forget the sign of the index. Big numbers (trillions) have positive indices. Tiny decimals (nanometres) have negative indices (Page 37)."
+    scenario: "A nanometre is $0.000\ 000\ 001$ metre. Express this in standard form ($A \times 10^n$)."
     working: |
-      Step 1: Move the decimal point to the right until you have a number between 1 and 10. This gives 3.45.
-      Step 2: Count the number of places you moved the decimal point, which is 4 places to the right.
-      Step 3: Express the number as 3.45 x 10^-4 in standard form.
+      1. Identify the first non-zero digit to find $A$: It is '1'. $A = 1.0$.
+      2. Count the 'jumps' from the original decimal to get behind the '1'.
+      3. Jump count: 9 places to the right.
+      4. Determine index $n$: Since the decimal moved right (number $< 1$), $n = -9$.
+      5. Combine into $A \times 10^n$: $1 \times 10^{-9}$.
+    tp_level: 2
+
+  - id: WE-04
+    topic: "Arithmetic Operations (Addition)"
+    learning_objective: "2.2.2"
+    difficulty: medium
+    real_world_analogy: "Adding numbers in standard form with different indices is like adding 'Apples and Oranges.' You must convert them to the same index (same fruit) before you can combine them!"
+    misconception_alert: "Students often add the indices during addition (e.g., $10^4 + 10^3 = 10^7$). No! You must align the powers and then factorize (Page 40)."
+    scenario: "Calculate $(3.5 \times 10^4) + (2.1 \times 10^3)$ and state the answer in standard form."
+    working: |
+      1. Identify the indices: $10^4$ and $10^3$. They are different.
+      2. Method: Convert the smaller index ($10^3$) to the larger index ($10^4$).
+      3. Shift decimal in $2.1 \times 10^3$: $0.21 \times 10^{3+1} = 0.21 \times 10^4$.
+      4. Align the equation: $(3.5 \times 10^4) + (0.21 \times 10^4)$.
+      5. Factor out $10^4$: $(3.5 + 0.21) \times 10^4$.
+      6. Calculate the sum: $3.71 \times 10^4$.
+    tp_level: 3
+
+  - id: WE-05
+    topic: "Problem Solving (Complex Routine)"
+    learning_objective: "2.2.3"
+    difficulty: hard
+    real_world_analogy: "The 'Stacking Challenge.' If you know the height of one LEGO brick, you can find the height of a tower. Here, we do the same with reams of paper to solve a storage problem (Page 43)."
+    misconception_alert: "Students often mix up the units or lose track of the total height. Use the 4-step problem solving cycle: Understand, Plan, Implement, and Verify."
+    scenario: "A ream of paper has 800 sheets. One sheet is $9.4 \times 10^{-3}$ cm thick. If a stack of $n$ reams is $225.6$ cm high, find $n$."
+    working: |
+      1. Step 1 (Understand): We need $n$, given sheets per ream (800), thickness per sheet ($9.4 \times 10^{-3}$), and total height (225.6).
+      2. Step 2 (Plan): Find thickness of 1 ream, then divide total height by that thickness.
+      3. Calculate thickness of 1 ream: $800 \times (9.4 \times 10^{-3})$ cm.
+      4. Perform multiplication: $8 \times 10^2 \times 9.4 \times 10^{-3} = (8 \times 9.4) \times 10^{2-3} = 75.2 \times 10^{-1}$ cm.
+      5. Simplify: $7.52$ cm per ream.
+      6. Calculate $n$: $225.6 \div 7.52$.
+      7. Final Answer: $n = 30$ reams.
+    tp_level: 5

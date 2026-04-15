@@ -1,0 +1,83 @@
+id: MT3-02
+topic_id: MT3-02
+provenance: "curriculum-architect-validated"
+worked_examples:
+  - id: WE-01
+    topic: "Mengenal Pasti Angka Bererti"
+    learning_objective: "2.1.1"
+    difficulty: easy
+    real_world_analogy: "Bayangkan nombor ID sekolah anda. Sifar di depan sekali tidak mengubah siapa anda, ia cuma 'placeholder'. Tapi sifar di tengah atau di hujung ukuran menunjukkan betapa 'teliti' alat pengukur anda."
+    misconception_alert: "Perangkap 'Sifar Hero'! Murid selalu ingat semua sifar itu bererti. Ingat: sifar di hadapan perpuluhan (cth: 0.005) TIDAK PERNAH bererti; ia cuma menentukan nilai tempat (Muka Surat 34)."
+    scenario: "Satu eksperimen mengukur jisim bahan kimia sebagai $0.005020$ g. Tentukan bilangan angka bererti bagi nombor ini."
+    working: |
+      1. Kenal pasti digit bukan sifar yang pertama: Iaitu '5'.
+      2. Mula mengira dari '5' ke arah kanan: '5', '0', '2', '0'.
+      3. Peraturan: Sifar di antara digit bukan sifar adalah bererti. (Sifar antara 5 dan 2).
+      4. Peraturan: Sifar di hujung suatu perpuluhan adalah bererti. (Sifar di hujung sekali).
+      5. Jumlah kiraan: $1, 2, 3, 4$.
+      6. Jawapan: 4 angka bererti (4 a.b.).
+    tp_level: 2
+
+  - id: WE-02
+    topic: "Membundar Nombor Bulat"
+    learning_objective: "2.1.2"
+    difficulty: medium
+    real_world_analogy: "Membundar nombor adalah seperti 'memotong rumput'. Kita mahu rupa yang kemas (nombor utama), tapi kita tidak boleh buang tanah di bawahnya (nilai tempat). Kita mesti letak sifar untuk kekalkan 'saiz' nombor itu!"
+    misconception_alert: "Perangkap 'Nilai Tempat Lenyap'. Murid yang membundarkan $63,479$ kepada 2 a.b. sering menulis '$63$'. Ini salah! Anda mesti letak sifar sebagai pengganti untuk kekalkan nilai puluh ribu (Muka Surat 35)."
+    scenario: "Populasi sebuah daerah ialah $63,479$. Bundarkan nombor ini kepada 2 angka bererti."
+    working: |
+      1. Kenal pasti dua angka bererti pertama: '6' and '3'.
+      2. Lihat digit di sebelah kanannya: '4'.
+      3. Bandingkan dengan 5: $4 < 5$, maka kita TIDAK tambah 1. Digit '3' kekal.
+      4. Kenal pasti baki tempat sebelum titik perpuluhan: ada 3 tempat ('4', '7', '9').
+      5. Gantikan 3 tempat ini dengan sifar: $000$.
+      6. Hasil: $63,000$.
+    tp_level: 3
+
+  - id: WE-03
+    topic: "Menukar kepada Bentuk Piawai"
+    learning_objective: "2.2.1"
+    difficulty: easy
+    real_world_analogy: "Bentuk piawai adalah seperti 'jalan pintas saintifik'. Daripada menulis $0.000\ 000\ 001$ (yang memeningkan!), kita guna indeks untuk beritahu berapa banyak 'lompatan perpuluhan' yang perlu dibuat."
+    misconception_alert: "Murid sering lupa tanda indeks. Nombor besar (trilion) guna indeks positif. Perpuluhan kecil (nanometer) guna indeks negatif (Muka Surat 37)."
+    scenario: "Satu nanometer ialah $0.000\ 000\ 001$ meter. Nyatakan ini dalam bentuk piawai ($A \times 10^n$)."
+    working: |
+      1. Kenal pasti digit bukan sifar pertama untuk cari $A$: Iaitu '1'. Maka $A = 1.0$.
+      2. Kira 'lompatan' dari perpuluhan asal hingga ke belakang angka '1'.
+      3. Bilangan lompatan: 9 tempat ke kanan.
+      4. Tentukan indeks $n$: Memandangkan titik bergerak ke kanan (nombor $< 1$), maka $n = -9$.
+      5. Gabungkan menjadi $A \times 10^n$: $1 \times 10^{-9}$.
+    tp_level: 2
+
+  - id: WE-04
+    topic: "Operasi Aritmetik (Penambahan)"
+    learning_objective: "2.2.2"
+    difficulty: medium
+    real_world_analogy: "Menambah nombor bentuk piawai dengan indeks berbeza adalah seperti menambah 'Epal dan Oren'. Anda mesti tukar kepada indeks yang sama (buah yang sama) sebelum boleh menggabungkannya!"
+    misconception_alert: "Murid sering menambah indeks semasa operasi tambah (cth: $10^4 + 10^3 = 10^7$). Tidak boleh! Anda mesti selaraskan kuasa 10 dan kemudian lakukan pemfaktoran (Muka Surat 40)."
+    scenario: "Hitung $(3.5 \times 10^4) + (2.1 \times 10^3)$ dan nyatakan jawapan dalam bentuk piawai."
+    working: |
+      1. Kenal pasti indeks: $10^4$ dan $10^3$. Indeks tidak sama.
+      2. Kaedah: Tukar indeks kecil ($10^3$) kepada indeks besar ($10^4$).
+      3. Gerakkan perpuluhan dalam $2.1 \times 10^3$: $0.21 \times 10^{3+1} = 0.21 \times 10^4$.
+      4. Selaraskan persamaan: $(3.5 \times 10^4) + (0.21 \times 10^4)$.
+      5. Faktorkan $10^4$: $(3.5 + 0.21) \times 10^4$.
+      6. Hitung jumlah: $3.71 \times 10^4$.
+    tp_level: 3
+
+  - id: WE-05
+    topic: "Penyelesaian Masalah (Rutin Kompleks)"
+    learning_objective: "2.2.3"
+    difficulty: hard
+    real_world_analogy: "Cabaran 'Timbunan Kertas'. Jika anda tahu tinggi sehelai kertas, anda boleh cari tinggi satu bangunan. Di sini, kita buat perkara yang sama dengan rim kertas untuk selesaikan masalah storan (Muka Surat 43)."
+    misconception_alert: "Murid sering keliru dengan unit atau hilang fokus pada jumlah tinggi. Gunakan kitaran 4 langkah: Memahami, Merancang, Melaksanakan, dan Menyemak."
+    scenario: "Satu rim kertas mempunyai 800 helai. Sehelai kertas tebalnya $9.4 \times 10^{-3}$ cm. Jika satu timbunan $n$ rim kertas adalah setinggi $225.6$ cm, cari nilai $n$."
+    working: |
+      1. Langkah 1 (Memahami): Kita perlukan $n$, diberi helai per rim (800), tebal per helai ($9.4 \times 10^{-3}$), dan jumlah tinggi (225.6).
+      2. Langkah 2 (Merancang): Cari tebal 1 rim, kemudian bahagikan jumlah tinggi dengan tebal tersebut.
+      3. Kira tebal 1 rim: $800 \times (9.4 \times 10^{-3})$ cm.
+      4. Lakukan pendaraban: $8 \times 10^2 \times 9.4 \times 10^{-3} = (8 \times 9.4) \times 10^{2-3} = 75.2 \times 10^{-1}$ cm.
+      5. Permudahkan: $7.52$ cm bagi setiap rim.
+      6. Kira nilai $n$: $225.6 \div 7.52$.
+      7. Jawapan Akhir: $n = 30$ rim.
+    tp_level: 5

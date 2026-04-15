@@ -1,0 +1,131 @@
+topic_id: MT3-08
+provenance: ai-generated
+questions:
+  # --- LO 8.1.1: Mengenal lokus dalam situasi sebenar (TP1 & TP2) ---
+  - id: Q1
+    text: "Antara situasi kehidupan sebenar berikut, yang manakah mewakili lokus dalam bentuk **garis lurus**?"
+    difficulty: easy
+    learning_objective: "8.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Sebiji kelapa yang jatuh dari pokok."
+      working: |
+        Langkah 1: Analisis pergerakan. Objek yang jatuh secara bebas bergerak tegak ke bawah.
+        Langkah 2: Surihan atau lintasan yang dibentuk oleh pergerakan ini ialah satu garis lurus menegak.
+      distractors:
+        - value: "Hujung bilah kipas yang sedang berputar."
+          feedback: "Bilah kipas bergerak mengelilingi satu titik tetap, maka ia membentuk bulatan, bukannya garis lurus. Rujuk Contoh 1 di muka surat 202!"
+        - value: "Bandul yang berayun."
+          feedback: "Bandul yang berayun membentuk lengkok (lengkung). Lokus garis lurus memerlukan pergerakan dalam satu arah yang tetap."
+        - value: "Pelekat pada tayar basikal yang sedang bergerak."
+          feedback: "Walaupun basikal bergerak ke depan, pelekat itu berputar dan membentuk lengkung yang kompleks (atau bulatan relatif kepada gandar)."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Fikirkan tentang lintasan yang ditinggalkan. Antara pergerakan ini, yang manakah tidak membelok atau melengkung?"
+
+  # --- LO 8.2.1: Memerihal dan membina 5 lokus asas (TP3) ---
+  - id: Q2
+    text: "Perihalkan lokus bagi titik $P$ yang sentiasa berjarak sama dari dua garis selari, $L_1$ and $L_2$."
+    difficulty: medium
+    learning_objective: "8.2.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: "Satu garis lurus yang selari dengan dan melalui titik tengah bagi $L_1$ dan $L_2$."
+      working: |
+        Langkah 1: Kenal pasti syarat (berjarak sama dari dua garis selari).
+        Langkah 2: Menurut generalisasi 8.2.1(iv), lokusnya ialah satu garis lurus di tengah-tengah.
+        Langkah 3: Garis ini mestilah selari dengan garis-garis asal tersebut.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan lokus ialah satu garis lurus yang selari dengan $L_1$ dan $L_2$."
+      - marks: 1
+        criteria: "Menyatakan ia melalui titik tengah (berada di tengah-tengah) dua garis tersebut."
+    hints:
+      - level: 1
+        text: "Bayangkan anda berjalan tepat di tengah-tengah jalan raya yang lurus. Apakah lintasan yang anda hasilkan?"
+
+  # --- LO 8.2.2: Lokus yang memenuhi dua atau lebih syarat (TP4) ---
+  - id: Q3
+    text: "Pada grid segi empat sama bersisi 1 unit, titik $X$ berjarak 3 unit dari titik $A$, manakala titik $Y$ berjarak sama dari garis lurus $AB$ dan $AD$ yang bersilang. Berapakah bilangan titik persilangan yang wujud antara lokus $X$ dan lokus $Y$?"
+    difficulty: medium
+    learning_objective: "8.2.2"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: "1"
+      working: |
+        Langkah 1: Lokus $X$ ialah bulatan/lengkuk berjejari 3 unit berpusat di $A$.
+        Langkah 2: Lokus $Y$ ialah pembahagi dua sama sudut bagi $\angle BAD$.
+        Langkah 3: Memandangkan ia adalah segi empat sama, pembahagi dua sama sudut ialah garis pepenjuru.
+        Langkah 4: Garis pepenjuru ini akan bersilang dengan lengkuk berpusat di bucu tersebut tepat pada satu titik di dalam kawasan segi empat.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti Lokus X sebagai bulatan/lengkuk."
+      - marks: 1
+        criteria: "Mengenal pasti Lokus Y sebagai pembahagi dua sama sudut (pepenjuru)."
+      - marks: 1
+        criteria: "Menyimpulkan terdapat 1 titik persilangan."
+    hints:
+      - level: 1
+        text: "Cuba lakarkan ini! Lokus $X$ berbentuk 'kipas' dari bucu, dan Lokus $Y$ ialah garisan 'pembahagi' yang memotong bucu kepada dua sudut 45 darjah."
+
+  # --- LO 8.2.3: Menyelesaikan masalah melibatkan lokus (TP5) ---
+  - id: Q4
+    text: "Sebuah klinik akan dibina di sebuah kampung. Ia mestilah berjarak sama dari Rumah $P$ dan Rumah $Q$, serta tepat $600\text{ m}$ dari lebuh raya lurus $AB$. Jika skala ialah $1\text{ cm} = 600\text{ m}$, perihalkan kedudukan yang mungkin bagi klinik tersebut."
+    difficulty: hard
+    learning_objective: "8.2.3"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: "Titik persilangan antara pembahagi dua sama serenjang bagi garis $PQ$ dan dua garis yang selari dengan lebuh raya $AB$ pada jarak $1\text{ cm}$."
+      working: |
+        Langkah 1: Syarat 1 (berjarak sama dari $P$ dan $Q$) = Pembahagi dua sama serenjang bagi garis $PQ$.
+        Langkah 2: Syarat 2 ($600\text{ m}$ dari lebuh raya $AB$) = Dua garis selari, satu di setiap sisi $AB$, pada jarak $1\text{ cm}$ (kerana skala $1\text{ cm} = 600\text{ m}$).
+        Langkah 3: Lokasi klinik ialah di mana pembahagi tersebut bersilang dengan garis-garis selari ini.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti pembahagi dua sama serenjang untuk $P$ and $Q$."
+      - marks: 1
+        criteria: "Mengenal pasti dua garis selari untuk lebuh raya."
+      - marks: 2
+        criteria: "Menyatakan persilangan tersebut sebagai lokasi akhir."
+    hints:
+      - level: 1
+        text: "Terdapat dua syarat berbeza di sini. Selesaikan satu demi satu seperti mencari harta karun. Jangan lupa, lebuh raya mempunyai dua sisi!"
+
+  # --- LO 8.2.3: Masalah bukan rutin kreatif (TP6) ---
+  - id: Q5
+    text: "Seekor kambing diikat pada satu bucu pagar padang rumput berbentuk segi empat tepat berukuran $6\text{ m} \times 8\text{ m}$. Tali itu panjangnya $7\text{ m}$. Perihalkan bentuk kawasan yang boleh dicapai oleh kambing itu dan terangkan mengapa ia merupakan satu lokus."
+    difficulty: hard
+    learning_objective: "8.2.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Suku bulatan (quadrant) dengan jejari $7\text{ m}$ berpusat di bucu tersebut."
+      working: |
+        Langkah 1: Kambing diikat pada satu titik tetap (bucu).
+        Langkah 2: Tali bertindak sebagai jarak maksimum yang tetap.
+        Langkah 3: Kawasan yang boleh dicapai ialah semua titik $\leq 7\text{ m}$ dari bucu.
+        Langkah 4: Di dalam padang rumput tersebut, ini membentuk sektor 90 darjah (suku bulatan).
+    marks: 5
+    rubric:
+      - marks: 2
+        criteria: "Menerangkan pergerakan dihadkan oleh satu titik tetap dan jarak tetap."
+      - marks: 2
+        criteria: "Memerihalkan bentuk sebagai suku bulatan atau sektor."
+      - marks: 1
+        criteria: "Menyatakan jejari ialah $7\text{ m}$."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang Contoh 13 atau muka surat 217 dalam buku teks anda. Jika tali itu $7\text{ m}$ tetapi lebar pagar hanya $6\text{ m}$, apakah yang berlaku kepada bentuk tersebut?"

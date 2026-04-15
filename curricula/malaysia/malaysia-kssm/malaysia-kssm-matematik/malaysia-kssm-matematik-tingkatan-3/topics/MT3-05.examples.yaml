@@ -1,43 +1,77 @@
-topic_id: MT3-05
-provenance: ai-generated
-description: "Worked examples for Nisbah Trigonometri"
+topic_id: "MT3-05"
+provenance: "curriculum-aligned-rewrite"
+description: "Worked examples for Trigonometric Ratios focusing on right-angled triangles."
 worked_examples:
-  - id: WE-01
-    topic: "Mengenal pasti sisi bertentangan dan sisi bersebelahan"
-    difficulty: easy
-    real_world_analogy: "Imagine you are looking at a tree from a distance. The tree is the opposite side, the ground between you and the tree is the adjacent side, and your line of sight is the hypotenuse."
-    misconception_alert: "Students often confuse the opposite and adjacent sides. Remember, the opposite side is always across from the angle you are considering."
-    scenario: "In a right-angled triangle, identify the opposite and adjacent sides relative to a given angle of 30°."
+  - id: "WE-01"
+    topic: "Identifying Opposite, Adjacent and Hypotenuse"
+    difficulty: "easy"
+    learning_objective: "5.1.1"
+    tp_level: 1
+    real_world_analogy: "Imagine you are standing at the corner of a room (the angle). The wall directly in front of you is the 'Opposite' side. The wall you are leaning against is the 'Adjacent' side. The longest line from you to the far corner is the 'Hypotenuse'."
+    misconception_alert: "Students often think the 'bottom' side is always the adjacent side. Remember: the labels change if you move to the other acute angle!"
+    scenario: "In a right-angled triangle $ABC$ with $\angle B = 90^\circ$, identify the sides relative to $\angle ACB$."
     working: |
-      Step 1: Identify the right angle in the triangle.
-      Step 2: Locate the angle of interest, which is 30°.
-      Step 3: The side opposite the 30° angle is the opposite side.
-      Step 4: The side next to the 30° angle and the right angle is the adjacent side.
-      Step 5: Verify by ensuring the identified sides are correct in relation to the angle.
+      1. Identify the reference angle: $\angle ACB$ (or angle $C$).
+      2. Locate the side directly across from angle $C$: This is side $AB$. Therefore, $AB = \text{Opposite side}$.
+      3. Locate the longest side opposite the $90^\circ$ angle: This is side $AC$. Therefore, $AC = \text{Hypotenuse}$.
+      4. Locate the remaining side touching angle $C$: This is side $BC$. Therefore, $BC = \text{Adjacent side}$.
 
-  - id: WE-02
-    topic: "Konjektur dan takrif nisbah trigonometri"
-    difficulty: medium
-    real_world_analogy: "Think of a ladder leaning against a wall: the height the ladder reaches on the wall is similar to the opposite side, the distance from the wall to the base of the ladder is the adjacent side, and the ladder itself is the hypotenuse."
-    misconception_alert: "Students might think the longest side is always the adjacent side. It is crucial to recognize that the hypotenuse is always opposite the right angle."
-    scenario: "Given a right-angled triangle with a hypotenuse of 10 cm and an opposite side of 6 cm for an angle θ, determine the sine of θ."
+  - id: "WE-02"
+    topic: "Defining Sine, Cosine and Tangent"
+    difficulty: "medium"
+    learning_objective: "5.1.2"
+    tp_level: 2
+    real_world_analogy: "Think of a ramp. The 'steepness' (Tangent) is the ratio of how high it goes (Opposite) compared to how far it runs along the ground (Adjacent)."
+    misconception_alert: "Do not confuse the formulas! Use SOH-CAH-TOA as your golden guide: Sine=O/H, Cosine=A/H, Tangent=O/A."
+    scenario: "A right-angled triangle has an opposite side of $8\text{ cm}$, an adjacent side of $15\text{ cm}$, and a hypotenuse of $17\text{ cm}$. Find the values of $\sin \theta$, $\cos \theta$, and $\tan \theta$."
     working: |
-      Step 1: Recall the definition of sine: sin(θ) = opposite/hypotenuse.
-      Step 2: Substitute the given values into the formula: sin(θ) = 6/10.
-      Step 3: Simplify the fraction: sin(θ) = 0.6.
-      Step 4: Confirm understanding by checking that the calculated sine makes sense relative to the triangle's proportions.
+      1. Write the values: $O = 8$, $A = 15$, $H = 17$.
+      2. Apply SOH: $\sin \theta = \frac{O}{H} = \frac{8}{17}$.
+      3. Apply CAH: $\cos \theta = \frac{A}{H} = \frac{15}{17}$.
+      4. Apply TOA: $\tan \theta = \frac{O}{A} = \frac{8}{15}$.
 
-  - id: WE-03
-    topic: "Pengiraan nilai trigonometri"
-    difficulty: hard
-    real_world_analogy: "Consider a kite flying 30 meters above the ground, with the string making an angle of 45° with the ground. You need to find the length of the string."
-    misconception_alert: "A common error is misidentifying which trigonometric ratio to use based on the given angle and sides."
-    scenario: "A right triangle has an angle of 45°, and the opposite side is 30 meters long. Calculate the length of the hypotenuse."
+  - id: "WE-03"
+    topic: "Special Angles (30°, 45°, 60°) Without Calculator"
+    difficulty: "medium"
+    learning_objective: "5.1.5"
+    tp_level: 3
+    real_world_analogy: "Imagine cutting a square sandwich diagonally. The two resulting triangles have $45^\circ$ angles. Since the two sides of the sandwich were equal, the ratio (Tangent) is exactly 1!"
+    misconception_alert: "Students often forget the surd ($\sqrt{3}$) position. For $30^\circ$, the opposite side is $1$ and the hypotenuse is $2$. Use Pythagoras to remember the adjacent is $\sqrt{3}$."
+    scenario: "Calculate the value of $\cos 60^\circ + \sin 30^\circ$ without using a calculator."
     working: |
-      Step 1: Use the sine ratio for the given angle: sin(45°) = opposite/hypotenuse.
-      Step 2: Recall that sin(45°) = √2/2 from trigonometric tables.
-      Step 3: Set up the equation: √2/2 = 30/hypotenuse.
-      Step 4: Solve for the hypotenuse: hypotenuse = 30 / (√2/2).
-      Step 5: Simplify: hypotenuse = 30 * (2/√2) = 30√2/2.
-      Step 6: Calculate the numerical value: hypotenuse ≈ 21.21 meters.
-      Step 7: Verify the calculated length by considering the triangle's properties and ensuring it makes sense contextually.
+      1. Recall special values: $\cos 60^\circ = \frac{1}{2}$.
+      2. Recall special values: $\sin 30^\circ = \frac{1}{2}$.
+      3. Substitute into expression: $\frac{1}{2} + \frac{1}{2}$.
+      4. Final result: $1$.
+
+  - id: "WE-04"
+    topic: "Calculating Side Lengths using Ratios"
+    difficulty: "hard"
+    learning_objective: "5.1.6"
+    tp_level: 4
+    real_world_analogy: "A kite is flying with a $50\text{ m}$ string. If the string makes an angle of $30^\circ$ with the ground, how high is the kite? You are using the string (Hypotenuse) to find the height (Opposite)."
+    misconception_alert: "Always ensure your calculator is in 'DEG' mode before calculating. Also, ensure you pick the right ratio; if you have Hypotenuse and want Opposite, you MUST use Sine."
+    scenario: "In $\triangle PQR$, $\angle Q = 90^\circ$ and $\angle PRQ = 30^\circ$. If the hypotenuse $PR = 12\text{ cm}$, find the length of $PQ$."
+    working: |
+      1. Identify given values: $\theta = 30^\circ$, $H = 12$.
+      2. Identify required side: $PQ$ is the Opposite side ($O$).
+      3. Choose ratio: Since we have $H$ and want $O$, use SOH: $\sin \theta = \frac{O}{H}$.
+      4. Substitute: $\sin 30^\circ = \frac{PQ}{12}$.
+      5. Rearrange: $PQ = 12 \times \sin 30^\circ$.
+      6. Solve: $PQ = 12 \times 0.5 = 6\text{ cm}$.
+
+  - id: "WE-05"
+    topic: "Real-world Problem Solving (Elevation)"
+    difficulty: "hard"
+    learning_objective: "5.1.7"
+    tp_level: 5
+    real_world_analogy: "A surveyor uses a 'Theodolite' to measure the height of a building from a distance. By knowing the distance and the angle, trigonometry does the 'climbing' for them!"
+    misconception_alert: "In problems involving 'height', students often forget to check if the observer's eye-level height needs to be added to the final result."
+    scenario: "A surveyor stands $100\text{ m}$ away from the base of a tower. The angle of elevation to the top is $40^\circ$. Calculate the height of the tower."
+    working: |
+      1. Understand the problem: We have the Adjacent side ($100\text{ m}$) and want the Opposite side (height).
+      2. Choose ratio: Use TOA: $\tan \theta = \frac{O}{A}$.
+      3. Set up equation: $\tan 40^\circ = \frac{\text{height}}{100}$.
+      4. Rearrange: $\text{height} = 100 \times \tan 40^\circ$.
+      5. Calculate using calculator: $\text{height} = 100 \times 0.8391 = 83.91\text{ m}$.
+      6. Final answer: The height of the tower is $83.91\text{ m}$ (corrected to 2 decimal places).

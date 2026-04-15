@@ -1,0 +1,91 @@
+id: "MT3-06"
+official_ref: "Bab 6"
+name: "Sudut dan Tangen bagi Bulatan"
+subject_grade_id: "malaysia-kssm-matematik-tingkatan-3"
+subject_id: "malaysia-kssm-matematik"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "intermediate"
+tier: "core"
+
+content_standards:
+  - id: "6.1"
+    text: "Sudut pada Lilitan dan Sudut Pusat yang Dicangkum oleh Suatu Lengkok"
+  - id: "6.2"
+    text: "Sisi Empat Kitaran"
+  - id: "6.3"
+    text: "Tangen kepada Bulatan"
+  - id: "6.4"
+    text: "Sudut dan Tangen bagi Bulatan"
+
+learning_objectives:
+  - id: "6.1.1"
+    text: "Membuat dan menentusahkan konjektur tentang hubungan antara (i) sudut-sudut pada lilitan, (ii) sudut pada lilitan dan sudut pusat yang dicangkum oleh lengkok tertentu, dan seterusnya menggunakan hubungan tersebut untuk menentukan nilai sudut dalam bulatan."
+    bloom: "create"
+  - id: "6.1.2"
+    text: "Menyelesaikan masalah yang melibatkan sudut dalam bulatan."
+    bloom: "apply"
+  - id: "6.2.1"
+    text: "Mengenal dan memerihalkan sisi empat kitaran."
+    bloom: "remember"
+  - id: "6.2.2"
+    text: "Membuat dan menentusahkan konjektur tentang hubungan antara sudut-sudut pada sisi empat kitaran, dan seterusnya menggunakan hubungan tersebut untuk menentukan nilai sudut pada sisi empat kitaran."
+    bloom: "create"
+  - id: "6.2.3"
+    text: "Menyelesaikan masalah yang melibatkan sisi empat kitaran."
+    bloom: "apply"
+  - id: "6.3.1"
+    text: "Mengenal dan memerihalkan tangen kepada bulatan."
+    bloom: "remember"
+  - id: "6.3.2"
+    text: "Membuat dan menentusahkan konjektur tentang (i) sudut di antara tangen dengan jejari bulatan pada titik ketangenan, (ii) sifat-sifat berkaitan dengan dua tangen kepada suatu bulatan, (iii) hubungan sudut di antara tangen dan perentas dengan sudut dalam tembereng selang-seli yang dicangkum oleh perentas itu, dan seterusnya melakukan pengiraan yang berkaitan."
+    bloom: "create"
+  - id: "6.3.3"
+    text: "Menyelesaikan masalah yang melibatkan tangen kepada bulatan."
+    bloom: "apply"
+  - id: "6.4.1"
+    text: "Menyelesaikan masalah yang melibatkan sudut dan tangen bagi bulatan."
+    bloom: "apply"
+
+mastery_parameters:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+prerequisites:
+  required:
+    - "MT1-04" # Algebra Asas untuk menghitung sudut tidak diketahui
+    - "MT2-06" # Bahagian asas bulatan: jejari, diameter, lilitan
+
+teaching:
+  sequence:
+    - "Langkah 1: Temui hubungan antara sudut pada lilitan dan sudut pusat menggunakan geometri dinamik (Buku Teks m/s 131-140)."
+    - "Langkah 2: Siasat sifat sisi empat kitaran dan sifat penambah bagi sudut pedalaman yang bertentangan (Buku Teks m/s 144-149)."
+    - "Langkah 3: Takrifkan tangen dan sahkan hubungan 90 darjah antara tangen dan jejari pada titik ketangenan (Buku Teks m/s 150-152)."
+    - "Langkah 4: Analisis sifat dua tangen dari satu titik luaran dan teorem tembereng selang-seli (Buku Teks m/s 153-156)."
+    - "Langkah 5: Selesaikan masalah bukan rutin yang kompleks menggabungkan sudut, sisi empat kitaran, dan tangen sepunya (Buku Teks m/s 160-164)."
+
+  common_misconceptions:
+    - misconception: "Keliru antara sudut pusat dengan sudut pada lilitan apabila mereka berkongsi lengkok yang sama."
+      remediation: "Gunakan GeoGebra untuk visualisasikan bahawa sudut pusat sentiasa dua kali ganda sudut lilitan."
+    - misconception: "Mengandaikan sebarang sisi empat di dalam bulatan ialah sisi empat kitaran."
+      remediation: "Tekankan bahawa keempat-empat bucu mesti menyentuh lilitan untuk menjadi kitaran."
+    - misconception: "Salah anggap garis perentas (melalui dua titik) sebagai garis tangen (menyentuh satu titik sahaja)."
+      remediation: "Gunakan objek bulat fizikal dan pembaris untuk menunjukkan satu titik sentuhan."
+
+  engagement_hooks:
+    - "Fasa Bulan: Gunakan aktiviti 'Meneroka Matematik' untuk memodelkan bentuk bulan seperti sabit dan buncit menggunakan sifat bulatan (Buku Teks m/s 167)."
+    - "Keselamatan Kejuruteraan: Analisis bagaimana tangen digunakan untuk mereka bentuk laluan keluar kereta di bulatan untuk keselamatan maksimum."
+    - "Trajektori Sukan: Hitung titik pelepasan dan sudut bola keranjang atau lontar peluru menggunakan tangen kepada laluan gerakan bulat."
+
+ai_teaching_notes: "MT3-06.teaching.md"
+assessments_file: "MT3-06.assessments.yaml"
+examples_file: "MT3-06.examples.yaml"
+
+quality_level: 3
+provenance: "ai-generated"
+sync_checked: true
+generated_at: "2026-04-15T15:17:24Z"

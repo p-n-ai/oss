@@ -1,130 +1,266 @@
-topic_id: MT3-03
-provenance: ai-generated
-
+id: "MT3-03-assessments"
+topic_id: "MT3-03"
+provenance: "curriculum-architect-validated"
 questions:
-  # LO 3.1.2: Membuat pengiraan yang melibatkan faedah mudah dan faedah kompaun
-  - id: Q1
-    text: "Ahmad menyimpan RM5,000 dalam akaun simpanan dengan faedah kompaun tahunan sebanyak 5%. Berapakah jumlah simpanan Ahmad selepas 3 tahun?"
-    difficulty: medium
-    learning_objective: 3.1.2
+  # --- Subchapter 3.1: Savings and Investments ---
+
+  - id: "Q1"
+    text: "Which of the following describes an 'investment' (pelaburan) correctly?"
+    difficulty: "easy"
+    learning_objective: "3.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "Buying a shoplot to receive monthly rental income."
+      working: |
+        - Savings: Money kept with lower risk and high liquidity (e.g. Savings Account).
+        - Investment: Asset purchased to generate future wealth/income with potential risk (e.g. Real Estate, Shares).
+      distractors:
+        - value: "Keeping RM50 in a piggy bank (tabung) at home."
+          feedback: "This is a basic form of saving, not an investment that grows through interest or capital gains."
+        - value: "Depositing RM5,000 into a Savings Account at a bank."
+          feedback: "This is a type of 'Savings' (Simpanan). Investments usually target higher returns like dividends or rent."
+        - value: "Withdrawing money from an ATM to pay bills."
+          feedback: "This is just a transaction, not an investment activity."
+    marks: 1
+    hints:
+      - "Investments are assets you buy because you hope they will give you more money in the future, like dividends or rent."
+
+  - id: "Q2"
+    text: "Calculate the matured value ($MV$) of a RM10,000 deposit in a fixed deposit account for 2 years with an interest rate of 4% per annum compounded every 6 months."
+    difficulty: "medium"
+    learning_objective: "3.1.2"
     tp_level: 3
     kbat: false
     answer:
-      type: exact
-      value: "RM5,788.13"
+      type: "exact"
+      value: "10824.32"
       working: |
-        Gunakan formula faedah kompaun: 
-        $A = P(1 + \frac{r}{n})^{nt}$, 
-        di mana $P = 5000$, $r = 0.05$, $n = 1$, $t = 3$.
-        $A = 5000(1 + \frac{0.05}{1})^{1 \times 3} = 5000(1.05)^3 = 5788.13$.
+        Use the Compound Interest formula: $MV = P(1 + r/n)^{nt}$
+        $P = 10\ 000$
+        $r = 0.04$
+        $n = 2$ (Compounded every 6 months means 2 times a year)
+        $t = 2$ years
+        $MV = 10\ 000 \times (1 + 0.04/2)^{2 \times 2}$
+        $MV = 10\ 000 \times (1.02)^4$
+        $MV = 10\ 000 \times 1.08243216 = 10\ 824.32$
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menggunakan formula faedah kompaun yang betul"
+        criteria: "Correct identification of $n = 2$ and substitution into the formula."
       - marks: 1
-        criteria: "Menggantikan nilai yang betul dalam formula"
+        criteria: "Correct calculation of $(1.02)^4$."
       - marks: 1
-        criteria: "Mendapatkan jawapan akhir yang tepat"
+        criteria: "Final answer rounded correctly to 2 decimal places."
     hints:
-      - level: 1
-        text: "Gunakan formula faedah kompaun: $A = P(1 + \frac{r}{n})^{nt}$."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Pastikan anda menggunakan tempoh masa yang betul dalam tahun."
+      - "What does 'compounded every 6 months' mean? How many times in 1 year does the bank check your money? That's your '$n$'."
+      - "Formula: $MV = P(1 + r/n)^{nt}$. Remember to convert 4% to 0.04 for the rate '$r$'."
 
-  # LO 3.2.1: Menjelaskan maksud kredit dan hutang
-  - id: Q2
-    text: "Apakah perbezaan utama antara kredit dan hutang?"
-    difficulty: medium
-    learning_objective: 3.2.1
+  - id: "Q3"
+    text: "Encik Yusuf bought a shoplot for RM600,000. He received RM45,000 in rental income over one year and eventually sold the shoplot for RM720,000. Calculate his total **Return on Investment (ROI)**."
+    difficulty: "medium"
+    learning_objective: "3.1.3"
     tp_level: 3
     kbat: false
     answer:
-      type: free_text
-      value: "Kredit merujuk kepada kemudahan untuk meminjam wang yang perlu dibayar balik, sementara hutang adalah jumlah wang yang dipinjam dan belum dibayar balik."
+      type: "exact"
+      value: "27.5%"
       working: |
-        Kredit adalah kemudahan yang diberikan kepada pengguna untuk meminjam wang atau mendapatkan barangan dan perkhidmatan dengan bayaran kemudian. Hutang adalah jumlah sebenar yang dipinjam oleh seseorang dan perlu dibayar balik.
+        1. Calculate Capital Gain: $720\ 000 - 600\ 000 = 120\ 000$.
+        2. Total Return = Capital Gain + Rental Income: $120\ 000 + 45\ 000 = 165\ 000$.
+        3. $ROI = (\text{Total Return} / \text{Initial Investment}) \times 100$
+        4. $ROI = (165\ 000 / 600\ 000) \times 100 = 27.5\%$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Calculated Total Return (RM165,000) accurately."
+      - marks: 1
+        criteria: "Correct ROI formula setup."
+      - marks: 1
+        criteria: "Final percentage correct (27.5%)."
+    hints:
+      - "Total return isn't just the profit from selling; don't forget the rent he collected!"
+      - "$ROI = (\text{Total Profit} / \text{Original Cost}) \times 100$."
+
+  - id: "Q4"
+    text: "Match the following assets to their liquidity level (Kecairan)."
+    difficulty: "medium"
+    learning_objective: "3.1.4"
+    tp_level: 4
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "Savings: High | Real Estate: Low"
+      working: |
+        Liquidity is how fast an asset can be converted to cash.
+        - Savings: Can be withdrawn via ATM instantly (High).
+        - Real Estate: Takes months to find a buyer and process the sale (Low).
+      distractors:
+        - value: "Savings: Low | Real Estate: High"
+          feedback: "Opposite! Houses take a long time to sell, so they are LOW liquidity."
+        - value: "Both are High"
+          feedback: "No, converting a house into cash is not as fast as using your bank card."
+    marks: 2
+
+  - id: "Q5"
+    text: "Explain how the **Ringgit Cost Averaging (RCA)** strategy helps an investor during the fluctuation of share prices."
+    difficulty: "medium"
+    learning_objective: "3.1.5"
+    tp_level: 3
+    kbat: true
+    answer:
+      type: "free_text"
+      value: "By investing a fixed amount regularly, the investor buys more units when prices are low and fewer units when prices are high, which reduces the overall average cost per unit."
+      working: "Logic of RCA: Constant capital / Variable price = Varying units. Over time, average price paid is lower than the peak price."
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menjelaskan konsep kredit dengan betul"
+        criteria: "Mentioned buying more units when prices are low."
       - marks: 1
-        criteria: "Menjelaskan konsep hutang dengan betul"
+        criteria: "Conclusion that average cost per unit is reduced."
     hints:
-      - level: 1
-        text: "Kredit adalah tentang kemampuan untuk meminjam, sementara hutang adalah tentang jumlah yang telah dipinjam."
+      - "Think about it: If you spend RM100 every month on shares, do you get MORE or LESS shares when the price drops to RM0.50?"
 
-  # LO 3.2.3: Kesan pembayaran minimum dan pembayaran lewat
-  - id: Q3
-    text: "Terangkan kesan membuat pembayaran minimum secara berterusan terhadap baki kad kredit seseorang."
-    difficulty: medium
-    learning_objective: 3.2.3
-    tp_level: 4
+  - id: "Q6"
+    text: "Encik Lee saves RM5,000 for 3 years at 3.5% simple interest. In the 4th year, he moves the whole amount to a compound interest account at 4% compounded annually. Calculate his total savings at the end of the 4th year."
+    difficulty: "hard"
+    learning_objective: "3.1.6"
+    tp_level: 5
     kbat: true
     answer:
-      type: free_text
-      value: "Pembayaran minimum secara berterusan meningkatkan jumlah faedah yang perlu dibayar dan memanjangkan tempoh masa untuk melunaskan hutang sepenuhnya."
+      type: "exact"
+      value: "5746"
       working: |
-        Pembayaran minimum menyebabkan baki tertunggak dikenakan faedah yang tinggi. Akibatnya, jumlah faedah terkumpul dan tempoh masa untuk melunaskan hutang menjadi lebih panjang, yang akhirnya boleh menyebabkan beban kewangan yang lebih besar.
-    marks: 3
+        Part 1 (Simple Interest): $I = Prt$
+        $I = 5000 \times 0.035 \times 3 = 525$.
+        Account value after 3 years = $5000 + 525 = 5525$.
+        Part 2 (Compound Interest): $MV = P(1 + r/n)^{nt}$
+        New Principal $P = 5525, r = 0.04, n = 1, t = 1$
+        $MV = 5525(1 + 0.04)^1 = 5525 \times 1.04 = 5746$.
+    marks: 4
     rubric:
       - marks: 1
-        criteria: "Menghuraikan kesan terhadap faedah yang dikenakan"
+        criteria: "Correct calculation of Simple Interest (RM525)."
       - marks: 1
-        criteria: "Menghuraikan kesan terhadap tempoh masa pembayaran balik"
-      - marks: 1
-        criteria: "Menjelaskan potensi beban kewangan yang meningkat"
+        criteria: "Correct new principal for compound phase (RM5,525)."
+      - marks: 2
+        criteria: "Final matured value calculated accurately."
     hints:
-      - level: 1
-        text: "Pertimbangkan bagaimana faedah ditambah kepada baki tertunggak apabila hanya pembayaran minimum dibuat."
+      - "This is a two-part mission! First, find the total after 3 years using $I = Prt$."
+      - "Now, take that whole total and use it as the 'New Principal' for the 4th year's compound calculation."
 
-  # LO 3.2.5: Mengira jumlah bayaran balik pinjaman
-  - id: Q4
-    text: "Ali meminjam RM20,000 dengan kadar faedah tahunan 4% untuk tempoh 5 tahun. Berapakah jumlah bayaran balik keseluruhan jika faedah dikira secara mudah?"
-    difficulty: medium
-    learning_objective: 3.2.5
+  # --- Subchapter 3.2: Credit and Debt Management ---
+
+  - id: "Q7"
+    text: "Define the term 'Credit' in the context of consumer mathematics."
+    difficulty: "easy"
+    learning_objective: "3.2.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: "free_text"
+      value: "Credit is a contractual agreement where a borrower receives something of value now and agrees to repay the lender at a later date, usually with interest."
+      working: "Credit = 'Borrow now, pay later' facility provided by banks/financial institutions."
+    marks: 1
+    hints:
+      - "Is credit the money you ALREADY have, or money the bank allows you to use first?"
+
+  - id: "Q8"
+    text: "Determine if the following statement is TRUE or FALSE: 'Paying only the minimum amount on your credit card statement will stop you from being charged interest on the remaining balance.'"
+    difficulty: "medium"
+    learning_objective: "3.2.2"
+    tp_level: 4
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "FALSE"
+      working: "Paying the minimum amount only avoids the 'late payment' penalty; it does NOT stop interest from being charged on the unpaid 95% of the balance."
+      distractors:
+        - value: "TRUE"
+          feedback: "Careful! The minimum payment is just a small percentage of what you owe. The rest (95%) will still incur daily interest!"
+    marks: 1
+
+  - id: "Q9"
+    text: "Calculate the total amount to be repaid for a RM20,000 personal loan with a flat interest rate of 5% per annum for a period of 5 years."
+    difficulty: "medium"
+    learning_objective: "3.2.5"
     tp_level: 3
     kbat: false
     answer:
-      type: exact
-      value: "RM24,000"
+      type: "exact"
+      value: "25000"
       working: |
-        Gunakan formula faedah mudah: 
-        $I = P \times r \times t$, 
-        di mana $P = 20,000$, $r = 0.04$, $t = 5$.
-        $I = 20,000 \times 0.04 \times 5 = 4,000$.
-        Jumlah bayaran balik = $P + I = 20,000 + 4,000 = 24,000$.
+        $A = P + Prt$
+        Interest = $20\ 000 \times 0.05 \times 5 = 5\ 000$.
+        Total repayment = $20\ 000 + 5\ 000 = 25\ 000$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menggunakan formula faedah mudah dengan betul"
-      - marks: 1
-        criteria: "Mengira faedah yang tepat"
-      - marks: 1
-        criteria: "Menjumlahkan pinjaman asal dengan faedah untuk jumlah bayaran balik"
+        criteria: "Correct calculation of Interest (RM5,000)."
+      - marks: 2
+        criteria: "Added interest to principal to get final total."
     hints:
-      - level: 1
-        text: "Faedah mudah boleh dikira dengan formula $I = P \times r \times t$."
+      - "Flat interest is simple interest. Use $I = Prt$ and then add it back to the original RM20,000."
 
-  # LO 3.1.4: Membanding dan membeza potensi risiko, pulangan dan kecairan
-  - id: Q5
-    text: "Bandingkan risiko, pulangan, dan kecairan antara simpanan tetap dan pelaburan saham."
-    difficulty: medium
-    learning_objective: 3.1.4
+  - id: "Q10"
+    text: "Aminah has a credit card balance of RM3,000. She missed her payment for October. The bank charges a 15% annual interest rate on the daily balance and a late payment fee of RM10. Calculate the total balance in her account on November 1st (31 days later)."
+    difficulty: "hard"
+    learning_objective: "3.2.3"
     tp_level: 4
     kbat: true
     answer:
-      type: free_text
-      value: "Simpanan tetap mempunyai risiko rendah dan pulangan yang lebih rendah tetapi kecairan yang terhad kerana wang dikunci untuk tempoh tertentu. Pelaburan saham mempunyai risiko yang lebih tinggi, potensi pulangan yang lebih tinggi, dan lebih cair kerana boleh dijual pada bila-bila masa di pasaran saham."
+      type: "exact"
+      value: "3048.22"
       working: |
-        Simpanan tetap menawarkan keselamatan dengan risiko yang sangat rendah dan pulangan yang stabil tetapi rendah. Wang yang disimpan tidak boleh diambil sebelum tamat tempoh tanpa penalti. Pelaburan saham, sebaliknya, boleh memberikan pulangan yang lebih tinggi tetapi dengan risiko yang lebih besar kerana harga saham boleh turun. Saham lebih cair kerana boleh dijual pada bila-bila masa di pasaran terbuka.
-    marks: 3
+        1. Monthly interest = $3000 \times (0.15 / 365) \times 31 = 38.22$.
+        2. Late penalty = RM10.
+        3. Total balance = RM3000 + RM38.22 + RM10 = RM3048.22.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Calculated the interest amount (RM38.22) correctly."
+      - marks: 1
+        criteria: "Included the late payment fee penalty."
+      - marks: 1
+        criteria: "Correct final total balance."
+    hints:
+      - "Ouch! Missing a payment costs you twice. First, the bank charges interest for the whole month. Second, they slap on a late fee."
+      - "Interest calculation: Balance $\times$ (Rate / 365) $\times$ Days."
+
+  - id: "Q11"
+    text: "A bank offers a housing loan of RM500,000. Option X: 3.5% interest for 30 years. Option Y: 4.0% interest for 20 years. Which option should a borrower choose if their goal is to minimize the **Total Interest Paid**?"
+    difficulty: "hard"
+    learning_objective: "3.2.6"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: "multiple_choice"
+      value: "Option Y"
+      working: |
+        Option X: Interest = $500\ 000 \times 0.035 \times 30 = 525\ 000$.
+        Option Y: Interest = $500\ 000 \times 0.040 \times 20 = 400\ 000$.
+        $400\ 000 < 525\ 000$. Option Y is cheaper in total interest.
+      distractors:
+        - value: "Option X"
+          feedback: "Even though 3.5% is lower than 4.0%, the much longer time (30 years) makes the total interest paid much higher!"
+    marks: 2
+    hints:
+      - "Tip: Sometimes a lower percentage for a longer time actually ends up costing you MORE. Calculate the total interest for both!"
+
+  - id: "Q12"
+    text: "Describe two ways a consumer can use a credit card wisely to avoid high debt accumulation."
+    difficulty: "medium"
+    learning_objective: "3.2.4"
+    tp_level: 4
+    kbat: false
+    answer:
+      type: "free_text"
+      value: "1. Pay the full balance before the due date to avoid interest. 2. Use the card only for planned expenses within one's budget."
+      working: "Criteria: Full payment vs minimum payment logic; Budgeting discipline."
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Menjelaskan risiko simpanan tetap dan pelaburan saham"
+        criteria: "Suggested paying the full amount/on time."
       - marks: 1
-        criteria: "Menjelaskan pulangan simpanan tetap dan pelaburan saham"
-      - marks: 1
-        criteria: "Menjelaskan kecairan simpanan tetap dan pelaburan saham"
-    hints:
-      - level: 1
-        text: "Pertimbangkan bagaimana risiko dan pulangan berbeza berdasarkan jenis simpanan atau pelaburan."
+        criteria: "Suggested using it within a budget or avoiding impulse spending."

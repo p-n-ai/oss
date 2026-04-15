@@ -1,0 +1,62 @@
+id: MT3-08
+topic_id: MT3-08
+provenance: ai-generated
+worked_examples:
+  # --- LO 8.1.1: Memahami Lokus (TP2) ---
+  - id: WE-01
+    topic: "Pengenalan kepada Lokus"
+    difficulty: easy
+    real_world_analogy: "Fikirkan tentang 'Jejak Hantu'. Jika anda melambaikan bunga api (sparkler) dalam gelap, garisan bercahaya yang anda lihat ialah 'lokus' bagi hujung bunga api tersebut."
+    misconception_alert: "Pelajar sering berfikir lokus hanyalah titik destinasi akhir. Ingatkan mereka: Lokus ialah *keseluruhan lintasan* atau set semua titik mungkin yang memenuhi syarat tersebut."
+    scenario: "Sekeping pelekat berwarna ditampal pada tayar sebuah basikal. Perihalkan dan lakarkan lokus yang dihasilkan oleh pelekat itu apabila basikal tersebut dikayuh secara pegun di atas tongkat."
+    working: |
+      Langkah 1: Kenal pasti titik tetap. Gandar (pusat) roda basikal ialah titik tetap.
+      Langkah 2: Kenal pasti syarat. Pelekat kekal pada jarak yang tetap dari gandar semasa roda berputar.
+      Langkah 3: Aplikasikan definisi. Merujuk buku teks muka surat 200, satu surihan yang dibentuk oleh set titik yang memenuhi satu syarat ialah lokus.
+      Langkah 4: Tentukan bentuk. Satu set titik yang berjarak tetap dari satu titik tetap membentuk sebuah bulatan.
+      Langkah 5: Kesimpulan. Lokus bagi pelekat itu ialah sebuah bulatan.
+    
+  # --- LO 8.2.1: Lokus Berjarak Sama dari Dua Titik (TP3) ---
+  - id: WE-02
+    topic: "Lokus Berjarak Sama dari Dua Titik Tetap"
+    difficulty: medium
+    real_world_analogy: "Garis Sempandan yang Adil. Bayangkan dua orang kawan berdiri berjauhan. Jika anda mahu berjalan tepat di tengah-tengah mereka supaya jarak anda tidak lebih dekat kepada salah seorang daripada mereka, anda mesti berjalan pada satu garis lurus tepat di tengah."
+    misconception_alert: "Pelajar sering lupa bahawa lokus ini mestilah berserenjang (90 darjah) dengan garis yang menyambungkan dua titik tersebut. Mereka mungkin hanya melukis sebarang garis di tengah."
+    scenario: "Dua tiang gol, P dan Q, berjarak 8 meter antara satu sama lain. Bina lokus bagi sebiji bola yang sentiasa berjarak sama dari kedua-dua tiang gol tersebut."
+    working: |
+      Langkah 1: Tandakan dua titik tetap, P dan Q, untuk mewakili tiang gol.
+      Langkah 2: Gunakan jangka lukis. Tetapkan bukaan lebih daripada separuh jarak PQ (contohnya 5m).
+      Langkah 3: Letakkan hujung tajam jangka lukis pada P dan lukis lengkuk di atas dan di bawah garis PQ.
+      Langkah 4: Dengan bukaan yang sama, letakkan hujung tajam pada Q dan lukis lengkuk yang bersilang dengan dua lengkuk pertama.
+      Langkah 5: Gunakan pembaris untuk melukis satu garis lurus melalui dua titik persilangan tersebut.
+      Langkah 6: Generalisasi. Garis ini ialah 'pembahagi dua sama serenjang' bagi PQ (Buku Teks muka surat 206).
+    
+  # --- LO 8.2.2: Lokus yang memenuhi dua atau lebih syarat (TP4) ---
+  - id: WE-03
+    topic: "Persilangan Lokus"
+    difficulty: hard
+    real_world_analogy: "Peta Harta Karun (X tandanya harta karun). Jika harta karun berada 3m dari sebatang pokok DAN 3m dari sebuah batu, harta karun itu hanya berada pada titik spesifik di mana dua bulatan tersebut bersilang."
+    misconception_alert: "Pelajar sering melukis kedua-dua lokus tetapi terlupa untuk menandakan titik persilangan dengan jelas menggunakan simbol ⊗ yang diperlukan."
+    scenario: "Pada grid segi empat sama bersisi 1 unit, lukis lokus X bagi titik yang berjarak 3 unit dari titik A, dan lokus Y bagi titik yang berjarak sama dari garis AB dan AD. Tandakan persilangannya."
+    working: |
+      Langkah 1: Kenal pasti Syarat 1. Lokus X berjarak tetap (3 unit) dari titik tetap A. Ini ialah bulatan/lengkuk.
+      Langkah 2: Lukis Lokus X. Gunakan jangka lukis berpusat di A dengan jejari 3 unit.
+      Langkah 3: Kenal pasti Syarat 2. Lokus Y berjarak sama dari dua garis bersilang, AB dan AD.
+      Langkah 4: Aplikasikan Generalisasi. Merujuk muka surat 211, lokus bagi titik yang berjarak sama dari dua garis bersilang ialah 'pembahagi dua sama sudut'.
+      Langkah 5: Lukis Lokus Y. Memandangkan ia adalah bucu segi empat sama (90 darjah), pembahagi dua sama sudut ialah garis pepenjuru grid yang bermula dari A.
+      Langkah 6: Tandakan persilangan. Cari di mana lengkuk (Lokus X) dan garis pepenjuru (Lokus Y) bertemu. Tandakannya dengan jelas menggunakan simbol ⊗.
+
+  # --- LO 8.2.3: Menyelesaikan masalah melibatkan lokus (TP5/6) ---
+  - id: WE-04
+    topic: "Penyelesaian Masalah Dunia Sebenar"
+    difficulty: hard
+    real_world_analogy: "Zon Selamat untuk seekor kambing. Jika seekor kambing diikat pada satu bucu dengan tali, ia hanya boleh memakan rumput dalam jangkauan tali tersebut—tidak lebih daripada itu!"
+    misconception_alert: "Dalam masalah padang berbentuk segi empat tepat, pelajar sering melukis bulatan penuh. Ingatkan mereka bahawa lokus dihadkan oleh sempadan fizikal (pagar)."
+    scenario: "Seekor kambing diikat pada bucu Q sebuah padang rumput berpagar PQRS (6m x 8m) dengan tali sepanjang 7m. Lorekkan kawasan yang boleh dicapai oleh kambing tersebut."
+    working: |
+      Langkah 1: Fahami masalah. Kambing berada pada satu titik tetap (Q) dan jarak maksimumnya ialah panjang tali (7m).
+      Langkah 2: Rancang. Lokusnya ialah satu bulatan berjejari 7m, tetapi ia dihadkan di dalam segi empat tepat PQRS.
+      Langkah 3: Bandingkan jarak. Panjang tali (7m) adalah lebih panjang daripada sisi QR (6m) tetapi lebih pendek daripada sisi QP (8m).
+      Langkah 4: Pembinaan. Lukis satu lengkuk berjejari 7m berpusat di Q.
+      Langkah 5: Semak Sempadan. Lengkuk tersebut akan merentasi garisan pagar PS dan RS.
+      Langkah 6: Melorek. Lorekkan kawasan di dalam lengkuk yang juga berada di dalam segi empat tepat. Ini ialah 'kawasan ragutan' (Buku Teks muka surat 217).

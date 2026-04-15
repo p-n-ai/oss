@@ -1,0 +1,181 @@
+topic_id: "MT3-04"
+provenance: "curriculum-audit-rewrite"
+questions:
+  # TP1 - Standard Pembelajaran 4.1.1 (OPB/Benar atau Palsu)
+  - id: Q1
+    text: "Benar atau Palsu: Lukisan berskala sentiasa mewakili objek dalam saiz yang lebih kecil daripada saiz sebenarnya."
+    difficulty: "easy"
+    learning_objective: "4.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "Palsu"
+      working: |
+        - Skala $1:n$ di mana $n > 1$: Pengecilan (lebih kecil).
+        - Skala $1:n$ di mana $n < 1$: Pembesaran (lebih besar).
+        - Skala $1:n$ di mana $n = 1$: Saiz sama.
+        Oleh sebab ia boleh jadi lebih besar atau saiz sama, pernyataan 'sentiasa lebih kecil' adalah Palsu.
+      distractors:
+        - value: "Benar"
+          feedback: "Jangan lupa 'Perangkap Pembesaran'! Jika skala adalah $1 : 0.5$, lukisan sebenarnya dua kali ganda lebih besar daripada objek asal."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Cuba bayangkan pelan cip komputer yang sangat kecil. Adakah kita melukisnya lebih kecil atau lebih besar supaya kita boleh nampak litar di dalamnya?"
+
+  # TP2 - Standard Pembelajaran 4.1.2 (OAP/Aneka Pilihan)
+  - id: Q2
+    text: "Skala $1 : 200,000$ bermaksud $1 \text{ cm}$ pada peta mewakili berapa kilometer di dunia sebenar?"
+    difficulty: "easy"
+    learning_objective: "4.1.2"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "2 km"
+      working: |
+        1. Nisbah ialah $1 \text{ cm} : 200,000 \text{ cm}$.
+        2. Tukar cm kepada m: $200,000 / 100 = 2,000 \text{ m}$.
+        3. Tukar m kepada km: $2,000 / 1,000 = 2 \text{ km}$.
+      distractors:
+        - value: "20 km"
+          feedback: "Kira bilangan sifar dengan teliti! Anda mungkin tersilap bahagi. $100,000 \text{ cm} = 1 \text{ km}$."
+        - value: "0.2 km"
+          feedback: "Semak semula pergerakan titik perpuluhan. $200,000 \text{ cm}$ ialah $2 \text{ km}$, bukannya $0.2 \text{ km}$."
+    marks: 2
+    hints:
+      - level: 1
+        text: "Berapakah bilangan sentimeter dalam $1 \text{ meter}$? Dan berapa meter pula dalam $1 \text{ kilometer}$?"
+
+  # TP3 - Standard Pembelajaran 4.1.3 (Subjektif/Nilai Tepat)
+  - id: Q3
+    text: "Sebuah bilik segi empat tepat mempunyai panjang $5.2 \text{ m}$. Pada lukisan berskala, panjangnya diwakili oleh $10.4 \text{ cm}$. Tentukan skala yang digunakan dalam bentuk $1 : n$."
+    difficulty: "medium"
+    learning_objective: "4.1.3"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: "exact"
+      value: "1:50"
+      working: |
+        1. Tukar ukuran sebenar kepada cm: $5.2 \text{ m} \times 100 = 520 \text{ cm}$.
+        2. Bina nisbah $\text{Lukisan} : \text{Objek} \Rightarrow 10.4 : 520$.
+        3. Permudahkan kepada $1 : n$ dengan membahagi kedua-dua belah dengan $10.4$: $10.4 / 10.4 : 520 / 10.4 = 1 : 50$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Pertukaran unit yang betul (520 cm)."
+      - marks: 1
+        criteria: "Skala akhir yang betul (1:50)."
+    hints:
+      - level: 1
+        text: "Pertama sekali, 'seragamkan pakaian' nombor tersebut! Tukar $5.2 \text{ m}$ kepada $\text{cm}$ sebelum anda membandingkannya."
+
+  # TP3 - Standard Pembelajaran 4.1.4 (OAP/Konteks Melukis)
+  - id: Q4
+    text: "Sebuah objek mempunyai panjang $6 \text{ cm}$. Jika ia dilukis menggunakan skala $1 : \frac{1}{3}$, berapakah panjang lukisan berskala tersebut?"
+    difficulty: "medium"
+    learning_objective: "4.1.4"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "18 cm"
+      working: |
+        1. Skala $1 : n$, di mana $n = 1/3$.
+        2. $\text{Lukisan} / \text{Objek} = 1 / (1/3) = 3$.
+        3. $\text{Lukisan} = 3 \times \text{Objek} = 3 \times 6 \text{ cm} = 18 \text{ cm}$.
+      distractors:
+        - value: "2 cm"
+          feedback: "Anda mungkin menganggap skala tersebut sebagai $1:3$ (pengecilan). $1:1/3$ ialah pembesaran!"
+        - value: "6 cm"
+          feedback: "Skala bukan $1:1$. Saiz lukisan mesti berubah."
+    marks: 2
+    hints:
+      - level: 1
+        text: "Jika $n$ ialah pecahan kurang daripada 1, lukisan akan jadi LEBIH BESAR daripada objek. Adakah anda sedang membesar atau mengecil?"
+
+  # TP4 - Standard Pembelajaran 4.1.5 (Subjektif/Masalah Rutin)
+  - id: Q5
+    text: "Jarak antara Bintulu dan Miri pada sebuah peta ialah $4 \text{ cm}$ dengan skala $1 \text{ cm} : 50 \text{ km}$. Jika sebuah pesawat terbang dengan kelajuan $80 \text{ km/j}$, hitung tempoh masa penerbangan dalam jam dan minit."
+    difficulty: "medium"
+    learning_objective: "4.1.5"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: "free_text"
+      value: "2 jam 30 minit"
+      working: |
+        1. Jarak sebenar = $4 \text{ cm} \times 50 \text{ km/cm} = 200 \text{ km}$.
+        2. $\text{Masa} = \text{Jarak} / \text{Laju} = 200 \text{ km} / 80 \text{ km/j} = 2.5 \text{ jam}$.
+        3. $0.5 \text{ jam} = 0.5 \times 60 = 30 \text{ minit}$.
+        4. Jumlah Masa = 2 jam 30 minit.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Jarak sebenar yang betul (200 km)."
+      - marks: 2
+        criteria: "Penukaran masa kepada jam dan minit yang tepat."
+    hints:
+      - level: 1
+        text: "Cari jarak dunia sebenar dahulu! Kemudian, ingat formula laju: Jarak dibahagi Laju bersamaan dengan Masa."
+
+  # TP5 - Standard Pembelajaran 4.1.5 (Subjektif/Rutin Kompleks)
+  - id: Q6
+    text: "Sebuah taman berbentuk segi empat tepat pada peta dengan skala $1 : 400$ mempunyai panjang $5 \text{ cm}$ dan lebar $3 \text{ cm}$. Hitung luas sebenar taman tersebut dalam meter persegi ($m^2$)."
+    difficulty: "hard"
+    learning_objective: "4.1.5"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: "exact"
+      value: "240"
+      working: |
+        1. Panjang sebenar = $5 \text{ cm} \times 400 = 2000 \text{ cm} = 20 \text{ m}$.
+        2. Lebar sebenar = $3 \text{ cm} \times 400 = 1200 \text{ cm} = 12 \text{ m}$.
+        3. Luas Sebenar = $20 \text{ m} \times 12 \text{ m} = 240 \text{ m}^2$.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Pertukaran kedua-dua dimensi kepada meter dengan betul."
+      - marks: 2
+        criteria: "Pengiraan luas dalam m^2 yang tepat."
+    hints:
+      - level: 1
+        text: "Jangan cuma kuasaduakan skala tersebut! Tukar panjang dan lebar kepada meter dahulu, kemudian darabkan keduanya untuk dapatkan luas."
+
+  # TP6 - Standard Pembelajaran 4.1.5 (Subjektif/Masalah Bukan Rutin)
+  - id: Q7
+    text: "Puan Farah ingin memasang jubin di ruang tamunya. Lukisan berskala biliknya ialah $15 \text{ cm} \times 20 \text{ cm}$ dengan skala $1 : 50$. Beliau boleh memilih jubin bersaiz $30 \text{ cm} \times 30 \text{ cm}$ berharga RM2.80 sekeping atau jubin $50 \text{ cm} \times 50 \text{ cm}$ berharga RM6.00 sekeping. Jubin manakah yang patut dipilih untuk lebih menjimatkan? Berikan alasan anda."
+    difficulty: "hard"
+    learning_objective: "4.1.5"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: "free_text"
+      value: "Opsyen B (jubin 50cm) lebih murah (RM1,800 berbanding RM2,380)."
+      working: |
+        1. Dimensi sebenar: $15 \times 50 = 750 \text{ cm}$, $20 \times 50 = 1000 \text{ cm}$.
+        2. Opsyen A (30cm):
+           - Jubin sepanjang panjang: $750 / 30 = 25$.
+           - Jubin sepanjang lebar: $1000 / 30 \approx 33.3 \Rightarrow 34$.
+           - Jumlah jubin = $25 \times 34 = 850$.
+           - Kos = $850 \times RM2.80 = RM2,380$.
+        3. Opsyen B (50cm):
+           - Jubin sepanjang panjang: $750 / 50 = 15$.
+           - Jubin sepanjang lebar: $1000 / 50 = 20$.
+           - Jumlah jubin = $15 \times 20 = 300$.
+           - Kos = $300 \times RM6.00 = RM1,800$.
+        4. Perbandingan: $RM1,800 < RM2,380$.
+    marks: 6
+    rubric:
+      - marks: 2
+        criteria: "Dimensi sebenar dikira dengan betul."
+      - marks: 2
+        criteria: "Bilangan jubin dan kos untuk Opsyen A dikira dengan betul."
+      - marks: 2
+        criteria: "Bilangan jubin dan kos untuk Opsyen B dikira dengan betul beserta kesimpulan logik."
+    hints:
+      - level: 1
+        text: "Anda perlu cari ukuran sebenar bilik dalam cm dahulu. Kemudian, lihat berapa banyak jubin bagi setiap jenis yang muat mengikut panjang dan lebar bilik tersebut!"

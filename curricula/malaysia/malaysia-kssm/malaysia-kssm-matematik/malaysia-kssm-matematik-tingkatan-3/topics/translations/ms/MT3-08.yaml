@@ -1,0 +1,75 @@
+id: MT3-08
+official_ref: "Bab 8"
+name: "Lokus dalam Dua Dimensi"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-3
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+quality_level: 3
+
+content_standards:
+  - id: "8.1"
+    text: "Lokus"
+  - id: "8.2"
+    text: "Lokus dalam Dua Dimensi"
+
+learning_objectives:
+  - id: "8.1.1"
+    text: "Mengenal lokus dalam situasi kehidupan sebenar, dan seterusnya menerangkan maksud lokus."
+    bloom: understand
+    tp_level: 2
+  - id: "8.2.1"
+    text: "Memerihal lokus bagi titik yang berjarak (i) tetap dari satu titik tetap, (ii) sama dari dua titik tetap, (iii) tetap dari satu garis lurus, (iv) sama dari dua garis lurus yang selari, dan (v) sama dari dua garis lurus yang bersilang, dan seterusnya membina lokus tersebut."
+    bloom: apply
+    tp_level: 3
+  - id: "8.2.2"
+    text: "Menentukan lokus yang memenuhi dua atau lebih syarat."
+    bloom: apply
+    tp_level: 4
+  - id: "8.2.3"
+    text: "Menyelesaikan masalah yang melibatkan lokus."
+    bloom: apply
+    tp_level: 5
+
+mastery_criteria:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+prerequisites:
+  required:
+    - "Kefahaman asas tentang titik, garis, dan jarak dalam geometri 2D"
+    - "Kemahiran menggunakan alat geometri (pembaris dan jangka lukis)"
+
+teaching:
+  sequence:
+    - "Langkah 1: Pengenalan konsep lokus menggunakan pergerakan dunia nyata seperti bandul yang berayun atau buah yang jatuh (15 min)"
+    - "Langkah 2: Meneroka lima jenis asas lokus berdasarkan titik tetap dan garis tetap (20 min)"
+    - "Langkah 3: Aktiviti tangan (hands-on) membina lokus menggunakan alat geometri dan perisian dinamik seperti GeoGebra (25 min)"
+    - "Langkah 4: Menentukan persilangan lokus dan menyelesaikan masalah kompleks dengan pelbagai syarat (20 min)"
+  
+  common_misconceptions:
+    - misconception: "Lokus hanya berkaitan dengan bentuk bulatan."
+      remediation: "Berikan pelbagai contoh seperti garis selari (lokus dari satu garis) dan pembahagi dua sama sudut (lokus dari garis bersilang)."
+    - misconception: "Lokus dianggap sebagai satu titik tunggal, bukan set titik."
+      remediation: "Gunakan animasi untuk menunjukkan 'surihan' atau lintasan yang ditinggalkan oleh titik yang bergerak mengikut syarat tertentu."
+    - misconception: "Keliru antara 'berjarak sama dari dua titik' dengan 'garis selari'."
+      remediation: "Bandingkan secara eksplisit pembinaan pembahagi dua sama serenjang dengan pembinaan garis selari."
+
+  engagement_hooks:
+    - "Perancangan Bandar: Bagaimana arkitek menentukan lokasi hospital yang berjarak sama dari dua kawasan perumahan utama."
+    - "Sains Sukan: Menganalisis lintasan (trajektori) bola keranjang atau sepakan bola sepak sebagai lokus melengkung."
+    - "Teknologi Harian: Menerangkan bagaimana pengelap cermin kereta menggunakan lokus untuk membersihkan kawasan maksimum."
+
+ai_teaching_notes: "MT3-08.teaching.md"
+assessments_file: "MT3-08.assessments.yaml"
+examples_file: "MT3-08.examples.yaml"
+
+sync_checked: true
+provenance: ai-generated
+generated_at: "2026-04-15T16:17:12Z"

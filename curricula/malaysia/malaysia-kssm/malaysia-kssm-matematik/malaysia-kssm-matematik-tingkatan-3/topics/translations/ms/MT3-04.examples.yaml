@@ -1,0 +1,59 @@
+topic_id: "MT3-04"
+provenance: "curriculum-audit-rewrite"
+worked_examples:
+  - id: "WE-01"
+    topic: "Mentafsir Maksud Skala"
+    difficulty: "easy"
+    learning_objective: "4.1.2"
+    real_world_analogy: "Bayangkan anda ada 'Lampu Ajaib' yang boleh mengecilkan objek! Jika lampu itu disetkan pada $1:50$, ini bermakna setiap $1 \text{ cm}$ pada lukisan adalah sebenarnya $50 \text{ cm}$ di dunia nyata."
+    misconception_alert: "Perangkap 'Pembesaran'! Pelajar selalu ingat $1:n$ bermaksud lukisan mesti lebih kecil. Ingatkan mereka jika $n$ adalah pecahan seperti $1:0.5$, lukisan itu sebenarnya menjadi lebih besar (pembesaran)!"
+    scenario: "Sebuah lukisan berskala bagi sebuah meja berbentuk segi empat tepat dilukis mengikut skala $1 : 20$. Jika panjang meja dalam lukisan ialah $5 \text{ cm}$, berapakah panjang sebenar meja itu dalam $\text{cm}$?"
+    working: |
+      1. Kenal pasti nisbah Skala: $\text{Lukisan} : \text{Objek} = 1 : 20$.
+      2. Susun perkadaran: $\frac{1}{20} = \frac{5 \text{ cm}}{\text{Panjang Sebenar}}$.
+      3. Darab silang untuk mencari Panjang Sebenar: $1 \times \text{Panjang Sebenar} = 5 \text{ cm} \times 20$.
+      4. Hitung nilai akhir: $5 \times 20 = 100$.
+      5. Jawapan Akhir: Panjang sebenar meja ialah $100 \text{ cm}$.
+
+  - id: "WE-02"
+    topic: "Mengira Jarak Sebenar dengan Penukaran Unit"
+    difficulty: "medium"
+    learning_objective: "4.1.3"
+    real_world_analogy: "Bayangkan anda menggunakan peta fizikal Sarawak. Anda tidak boleh muatkan jalan raya sepanjang $150 \text{ km}$ di atas riba anda, jadi kita 'memicit' jarak itu menjadi beberapa sentimeter sahaja menggunakan skala."
+    misconception_alert: "Perangkap 'Naked Number'! Pelajar sering lupa menukar unit di akhir pengiraan. Sentiasa semak sama ada soalan meminta jawapan dalam $\text{cm}$, $\text{m}$, atau $\text{km}$."
+    scenario: "Pada peta Sarawak, jarak antara Bintulu dan Miri ialah $4 \text{ cm}$. Peta itu menggunakan skala $1 \text{ cm} : 50 \text{ km}$. Hitung jarak sebenar antara dua bandar tersebut dalam $\text{km}$."
+    working: |
+      1. Tulis skala yang diberikan: $1 \text{ cm}$ mewakili $50 \text{ km}$.
+      2. Kenal pasti jarak pada lukisan: $4 \text{ cm}$.
+      3. Darabkan jarak lukisan dengan faktor skala: $4 \times 50$.
+      4. Hitung: $4 \times 50 = 200$.
+      5. Jawapan Akhir: Jarak sebenar ialah $200 \text{ km}$.
+
+  - id: "WE-03"
+    topic: "Menentukan Skala dalam bentuk $1:n$"
+    difficulty: "medium"
+    learning_objective: "4.1.3"
+    real_world_analogy: "Ibarat mencari 'Tahap Zoom' pada kamera. Kita bandingkan saiz burung dalam foto dengan saiz burung sebenar untuk tahu berapa banyak kita telah 'zoom out'."
+    misconception_alert: "Perangkap 'Unit Tak Sama'! Anda tidak boleh bandingkan $2 \text{ cm}$ dengan $5 \text{ m}$ secara terus. Anda mesti 'seragamkan unit' (kedua-duanya dalam $\text{cm}$) sebelum mengira nisbah."
+    scenario: "Sebuah model tiang bendera adalah $15 \text{ cm}$ tinggi. Tiang bendera sebenar adalah $6 \text{ m}$ tinggi. Tentukan skala yang digunakan dalam bentuk $1 : n$."
+    working: |
+      1. Tukar tinggi sebenar kepada unit yang sama dengan model: $6 \text{ m} \times 100 = 600 \text{ cm}$.
+      2. Tulis nisbah sebagai $\text{Model} : \text{Sebenar}$: $15 : 600$.
+      3. Permudahkan nisbah kepada bentuk $1 : n$ dengan membahagi kedua-dua belah dengan 15.
+      4. Hitung: $15 \div 15 = 1$ and $600 \div 15 = 40$.
+      5. Jawapan Akhir: Skala ialah $1 : 40$.
+
+  - id: "WE-04"
+    topic: "Menyelesaikan Masalah Kompleks (Masa, Laju, dan Skala)"
+    difficulty: "hard"
+    learning_objective: "4.1.5"
+    real_world_analogy: "Ini seperti menjadi seorang 'Flight Dispatcher'! Anda guna peta untuk cari jarak, kemudian guna kelajuan kapal terbang untuk beritahu penumpang pukul berapa mereka akan mendarat."
+    misconception_alert: "Perangkap 'Masa Perpuluhan'! Jika pengiraan memberi $2.5 \text{ jam}$, ramai pelajar ingat itu '2 jam 5 minit'. Ingatkan mereka bahawa $0.5 \text{ jam} = 30 \text{ minit}$!"
+    scenario: "Jarak antara dua bandar pada peta ialah $5.4 \text{ cm}$ dengan skala $1 \text{ cm} : 150 \text{ km}$. Sebuah kapal terbang terbang antara dua bandar itu dengan kelajuan $810 \text{ km/j}$. Hitung masa yang diambil untuk penerbangan itu dalam minit."
+    working: |
+      1. Langkah 1: Cari jarak sebenar. $5.4 \text{ cm} \times 150 \text{ km/cm} = 810 \text{ km}$.
+      2. Langkah 2: Gunakan formula masa: $\text{Masa} = \frac{\text{Jarak}}{\text{Laju}}$.
+      3. Masukkan nilai: $\text{Masa} = \frac{810 \text{ km}}{810 \text{ km/j}}$.
+      4. Hitung masa dalam jam: $810 \div 810 = 1 \text{ jam}$.
+      5. Langkah 3: Tukar jam kepada minit: $1 \text{ jam} \times 60 = 60 \text{ minit}$.
+      6. Jawapan Akhir: Penerbangan itu mengambil masa $60 \text{ minit}$.

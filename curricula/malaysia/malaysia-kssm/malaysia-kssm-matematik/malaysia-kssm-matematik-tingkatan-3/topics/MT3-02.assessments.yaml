@@ -1,127 +1,193 @@
+id: MT3-02-assessments
 topic_id: MT3-02
-provenance: ai-generated
-
+provenance: "curriculum-architect-validated"
 questions:
-  # Group by learning objective 2.1.1
+  # --- Subchapter 2.1: Significant Figures ---
+
   - id: Q1
-    text: "Nyatakan bilangan angka bererti untuk nombor 0.004560."
-    difficulty: medium
-    learning_objective: 2.1.1
-    tp_level: 2
+    text: "Which of the following digits in the number $0.007020$ are considered **Significant Figures**?"
+    difficulty: easy
+    learning_objective: "2.1.1"
+    tp_level: 1
     kbat: false
     answer:
-      type: exact
-      value: "4"
+      type: multiple_choice
+      value: "7, 0, 2, and the trailing 0"
       working: |
-        Angka bererti adalah digit yang memberikan makna kepada nombor tersebut. Dalam nombor 0.004560, angka bererti adalah 4, 5, 6, dan 0.
-    marks: 2
-    rubric:
-      - marks: 2
-        criteria: "Menentukan dengan betul bilangan angka bererti sebagai 4."
-      - marks: 1
-        criteria: "Menentukan bilangan angka bererti dengan satu kesilapan."
+        1. Leading zeros in a decimal (0.00...) are not significant.
+        2. Non-zero digits (7, 2) are always significant.
+        3. Zeros between non-zero digits are significant.
+        4. Trailing zeros in a decimal are significant.
+      distractors:
+        - value: "All digits including the leading zeros"
+          feedback: "Leading zeros in decimals are just placeholders to show place value; they don't count towards accuracy."
+        - value: "Only 7 and 2"
+          feedback: "You missed the 'Zero Hero' rule! Zeros between non-zeros and zeros at the end of a decimal are significant."
+    marks: 1
     hints:
-      - level: 1
-        text: "Ingat, hanya digit bukan sifar yang mendahului dianggap sebagai angka bererti."
-      - level: 2
-        text: "Perhatikan digit selepas sifar di hadapan."
+      - "Look at the 'Zero Hero' rules on Page 34. Do the zeros at the very front count?"
 
-  # Group by learning objective 2.1.2
   - id: Q2
-    text: "Bundarkan nombor 0.007845 kepada dua angka bererti."
+    text: "Determine if the following statement is TRUE or FALSE: 'In the number 803,000, there are exactly 6 significant figures unless otherwise stated.'"
     difficulty: medium
-    learning_objective: 2.1.2
+    learning_objective: "2.1.1"
     tp_level: 2
     kbat: false
     answer:
-      type: exact
-      value: "0.0078"
+      type: multiple_choice
+      value: "FALSE"
       working: |
-        Pertama, kenal pasti dua angka bererti pertama iaitu 7 dan 8. Oleh itu, nombor ini menjadi 0.0078 setelah dibundarkan.
-    marks: 2
-    rubric:
-      - marks: 2
-        criteria: "Jawapan tepat dengan pembundaran kepada dua angka bererti."
-      - marks: 1
-        criteria: "Mengambil kira dua angka bererti tetapi dengan pembundaran yang salah."
+        1. For whole numbers, zeros at the end (trailing zeros) are generally not considered significant unless the level of accuracy is specified.
+        2. Therefore, 803,000 usually has 3 significant figures (8, 0, 3).
+      distractors:
+        - value: "TRUE"
+          feedback: "In integers, trailing zeros are placeholders. They only become significant if the number was specifically rounded to that level of accuracy."
+    marks: 1
     hints:
-      - level: 1
-        text: "Fokus pada dua digit pertama yang bukan sifar."
-      - level: 2
-        text: "Periksa digit ketiga untuk melihat jika ia memerlukan pembundaran."
+      - "Check the rule for whole numbers (integers) on Page 34. Do trailing zeros always count?"
 
-  # Group by learning objective 2.2.1
   - id: Q3
-    text: "Tulis nombor 3,200,000 dalam bentuk piawai."
+    text: "Round off $63,479$ to two significant figures."
     difficulty: medium
-    learning_objective: 2.2.1
-    tp_level: 2
+    learning_objective: "2.1.2"
+    tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "3.2 \\times 10^{6}"
+      value: "63,000"
       working: |
-        Bentuk piawai adalah cara menulis nombor sebagai hasil darab satu angka bererti dengan 10 dipangkatkan kepada suatu nombor. Jadi, 3,200,000 = 3.2 \\times 10^{6}.
+        1. Identify the first two significant figures: 6 and 3.
+        2. Look at the third digit: 4.
+        3. Since $4 < 5$, the digit 3 remains unchanged.
+        4. Replace remaining digits before the decimal point with zeros to maintain place value.
+        5. Result: 63,000.
     marks: 2
     rubric:
       - marks: 2
-        criteria: "Menulis nombor dalam bentuk piawai dengan tepat."
+        criteria: "Correct rounding to 63,000."
       - marks: 1
-        criteria: "Menentukan asas bentuk piawai tetapi salah dalam pangkat atau angka bererti."
+        criteria: "Identified '63' but failed to add placeholder zeros (e.g., writing 63)."
     hints:
-      - level: 1
-        text: "Cari angka bererti pertama dan tentukan pangkat 10."
-      - level: 2
-        text: "Ingat, bilangan digit selepas titik perpuluhan menandakan pangkat 10."
+      - "Identify the first two important digits. Now, look at the neighbor (the 3rd digit). Should you round up?"
+      - "Don't let the number shrink to 63! Use zeros as placeholders to keep it in the ten-thousands."
 
-  # Group by learning objective 2.2.2
+  # --- Subchapter 2.2: Standard Form ---
+
   - id: Q4
-    text: "Hitung hasil darab (3 \\times 10^4) \\times (2 \\times 10^3) dan nyatakan jawapan dalam bentuk piawai."
-    difficulty: medium
-    learning_objective: 2.2.2
+    text: "Which of the following is the correct representation of $0.000052$ in standard form?"
+    difficulty: easy
+    learning_objective: "2.2.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "$5.2 \times 10^{-5}$"
+      working: |
+        1. Move decimal 5 places to the right to get 5.2.
+        2. Since we moved right (small number), the index is -5.
+      distractors:
+        - value: "$5.2 \times 10^5$"
+          feedback: "A number less than 1 must have a negative index (-) because it's 'shrinking' from the base $10^0$."
+        - value: "$52 \times 10^{-6}$"
+          feedback: "Violation of the Golden Rule! The coefficient $A$ must be $1 \le A < 10$."
+    marks: 1
+    hints:
+      - "Remember the Golden Rule: $A$ must be between 1 and 10."
+
+  - id: Q5
+    text: "Express the distance of a nanometre, which is $0.000\ 000\ 001$ m, in **Standard Form** ($A \times 10^n$)."
+    difficulty: easy
+    learning_objective: "2.2.1"
     tp_level: 2
     kbat: false
     answer:
       type: exact
-      value: "6 \\times 10^7"
+      value: "1 \times 10^{-9}"
       working: |
-        (3 \\times 10^4) \\times (2 \\times 10^3) = (3 \\times 2) \\times (10^4 \\times 10^3) = 6 \\times 10^{4+3} = 6 \\times 10^7.
+        1. Move the decimal point to the right until it is after the first non-zero digit (1).
+        2. Count the number of moves: 9 places.
+        3. Since the original number is less than 1, the index is negative.
+        4. Result: $1 \times 10^{-9}$.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Correct standard form with negative index."
+      - marks: 1
+        criteria: "Correct coefficient (1) but wrong index sign or value."
+    hints:
+      - "How many 'jumps' does the decimal point take to get behind the 1? Count them carefully."
+      - "Is a nanometre very big or very small? Small numbers always use a negative index (-)."
+
+  - id: Q6
+    text: "Calculate $(3.5 \times 10^4) + (2.1 \times 10^3)$. State your answer in standard form."
+    difficulty: medium
+    learning_objective: "2.2.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "3.71 \times 10^4"
+      working: |
+        Method: Align indices to the highest power ($10^4$).
+        1. Convert $2.1 \times 10^3$ to $0.21 \times 10^4$.
+        2. Factorize: $(3.5 + 0.21) \times 10^4$.
+        3. Add coefficients: $3.71 \times 10^4$.
     marks: 3
     rubric:
       - marks: 3
-        criteria: "Jawapan lengkap dan betul dalam bentuk piawai."
+        criteria: "Final answer correct in standard form."
       - marks: 2
-        criteria: "Mengalikan angka bererti dengan betul tetapi salah dalam pangkat 10."
+        criteria: "Aligned indices correctly but made an addition error."
       - marks: 1
-        criteria: "Ada usaha untuk mengalikan tetapi terdapat kesilapan dalam kedua-dua bahagian."
+        criteria: "Attempted to align indices but used the wrong direction for the decimal shift."
     hints:
-      - level: 1
-        text: "Gabungkan angka bererti dahulu kemudian selesaikan pangkat."
-      - level: 2
-        text: "Ingat bahawa ketika mendarab pangkat, pangkat ditambah."
+      - "You can't add them yet! The powers ($10^4$ and $10^3$) are different. Can you change them to the same index first?"
+      - "Try making them both $10^4$. What happens to the decimal in $2.1$ when the index goes up?"
 
-  # Group by learning objective 2.2.3
-  - id: Q5
-    text: "Seorang astronomi mengukur jarak ke bintang sebagai 4.2 \\times 10^{16} meter. Jika kapal angkasa bergerak pada kelajuan 2 \\times 10^8 meter per saat, kira berapa lama (dalam saat) yang diperlukan untuk sampai ke bintang tersebut."
-    difficulty: medium
-    learning_objective: 2.2.3
-    tp_level: 2
+  - id: Q7
+    text: "A ream of paper contains 800 sheets. The thickness of one sheet is $9.4 \times 10^{-3}$ cm. If a stack of $n$ reams is $225.6$ cm high, calculate the value of $n$."
+    difficulty: hard
+    learning_objective: "2.2.3"
+    tp_level: 5
     kbat: true
     answer:
       type: exact
-      value: "2.1 \\times 10^8"
+      value: "30"
       working: |
-        Masa = Jarak / Kelajuan = (4.2 \\times 10^{16}) / (2 \\times 10^8) = (4.2 / 2) \\times 10^{16-8} = 2.1 \\times 10^8 saat.
-    marks: 3
+        1. Thickness of 1 ream = $800 \times (9.4 \times 10^{-3}) = 7.52$ cm.
+        2. Total height = $225.6$ cm.
+        3. Number of reams ($n$) = Total height / Thickness of 1 ream.
+        4. $n = 225.6 / 7.52 = 30$.
+    marks: 4
     rubric:
-      - marks: 3
-        criteria: "Jawapan lengkap dan betul dengan pertimbangan pembahagian dalam bentuk piawai."
+      - marks: 4
+        criteria: "Correct value of 30 reams with full working."
       - marks: 2
-        criteria: "Mengira dengan betul tetapi terdapat kesilapan kecil dalam pembahagian pangkat."
-      - marks: 1
-        criteria: "Menunjukkan usaha tetapi salah dalam angka bererti atau pangkat."
+        criteria: "Calculated thickness of 1 ream correctly but failed to divide total height correctly."
     hints:
-      - level: 1
-        text: "Gunakan formula masa = jarak / kelajuan."
-      - level: 2
-        text: "Ingat cara membahagikan nombor dalam bentuk piawai melibatkan penolakan pangkat."
+      - "First, find out how thick ONE whole ream is. Use multiplication!"
+      - "Now, how many of those ream-thicknesses fit into the $225.6$ cm stack? Use division."
+
+  - id: Q8
+    text: "An A4 paper has a length of $297$ mm and width of $210$ mm. Calculate its area in $m^2$ and express the answer in standard form correct to 3 significant figures."
+    difficulty: hard
+    learning_objective: "2.2.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: exact
+      value: "6.24 \times 10^{-2}"
+      working: |
+        1. Convert mm to m: $Length = 0.297$ m, $Width = 0.210$ m.
+        2. Area = $0.297 \times 0.210 = 0.06237$ $m^2$.
+        3. Convert to Standard Form: $6.237 \times 10^{-2}$.
+        4. Round to 3 significant figures: $6.24 \times 10^{-2}$.
+    marks: 4
+    rubric:
+      - marks: 4
+        criteria: "Correct area in $m^2$, in standard form, and rounded correctly."
+      - marks: 2
+        criteria: "Calculated area correctly but failed conversion to $m^2$ or standard form."
+    hints:
+      - "Careful! The measurements are in mm, but the answer wants $m^2$. Divide by 1000 for each side first."
+      - "Once you get the area, check your 'rounding' skill. We only want 3 significant figures!"

@@ -1,36 +1,54 @@
+id: MT3-07
 topic_id: MT3-07
-provenance: ai-generated
-description: "Worked examples for Pelan dan Dongakan"
+provenance: "aligned-with-kpm-textbook-p168-197"
 worked_examples:
   - id: WE-01
-    topic: "Unjuran Ortogon"
+    topic: "Orthogonal Projections"
     difficulty: easy
-    real_world_analogy: "Think of how a shadow is cast directly under an object when the sun is directly overhead."
-    misconception_alert: "Students often forget that orthogonal projections are always at right angles to the object."
-    scenario: "You need to draw the orthogonal projection of a cube sitting on a table."
+    learning_objective: "7.1.1"
+    real_world_analogy: "Think of a professional stage spotlight. If the light is directly above a dancer, the shadow on the floor (the plane) represents their 2D footprint without any distortion from the angle."
+    misconception_alert: "Students often draw a '3D-ish' shadow. Remember: an orthogonal projection is strictly 2D. If you see depth, it is wrong!"
+    scenario: "An architect is studying the 'Diamond Building' in Putrajaya. To simplify the design, draw the orthogonal projection of a right prism with a horizontal base $ABCD$ on a horizontal plane as viewed from the top (Direction $Z$)."
     working: |
-      Step 1: Place the cube on a flat surface and imagine the light source directly above it.
-      Step 2: Draw the outline on the paper where the shadow would appear; this is your orthogonal projection.
-      Step 3: Ensure all sides are equal in length to represent the cube accurately.
-
+      1. Identify the plane of projection: Horizontal plane.
+      2. Identify the viewing direction: From the top (Direction $Z$), which is normal to the horizontal plane.
+      3. Identify all vertices of the prism: $E, F, G, H, I, J$ (top) and $A, B, C, D$ (bottom).
+      4. Draw normal lines from every top vertex ($E, F, G, H, I, J$) down to the horizontal plane.
+      5. Mark the points of intersection on the plane. For a right prism, vertex $E$ is directly above $A$, so the projection of $E$ is point $A$.
+      6. Connect the intersection points with solid lines.
+      7. Result: The projection is a rectangle $ABCD$ (the footprint of the prism).
+    
   - id: WE-02
-    topic: "Pelan dan Dongakan"
+    topic: "Plans and Elevations"
     difficulty: medium
-    real_world_analogy: "Imagine you are a bird flying over a house and you want to draw what you see from above."
-    misconception_alert: "Students often confuse the top view with the side view due to perspective differences."
-    scenario: "Draw the plan view of a rectangular swimming pool measuring 10m by 5m."
+    learning_objective: "7.2.1"
+    real_world_analogy: "Imagine you are an X-ray technician. You need to see the internal structure. If a wall is 'hidden' behind another, you still draw it, but use 'dashed lines' to show it is there but not visible from the outside."
+    misconception_alert: "The 'Dashed Line' Disaster! Students often forget to use dashed lines for hidden edges. Always check: Can I see this edge from my current standing position? If no, but it exists, it MUST be dashed."
+    scenario: "Draw the side elevation (from Direction $Y$) for a combined solid consisting of a cuboid and a right prism. There is an internal edge $GH$ that is blocked by the front face."
     working: |
-      Step 1: Identify the dimensions of the swimming pool.
-      Step 2: On graph paper, draw a rectangle with the length and width matching the dimensions given, using an appropriate scale.
-      Step 3: Label the dimensions on your drawing to complete the plan view.
+      1. Determine the position of the side elevation in the four-quadrant method (usually the 2nd quadrant if viewing from the right).
+      2. Identify the dimensions for height and width from the given object scale.
+      3. Draw the outer boundary of the side view using thick solid lines (edges $B/A$ to $K/J$).
+      4. Identify hidden internal edges: Edge $GH$ is hidden from Direction $Y$.
+      5. Draw edge $GH$ using dashed lines ($---$).
+      6. Use thin solid lines for the $45^\circ$ projection lines to verify alignment with the Plan.
+      7. Label all vertices clearly (e.g., $E/F$ means $E$ is in front of $F$).
 
   - id: WE-03
-    topic: "Menyelesaikan Masalah Pelan dan Dongakan"
+    topic: "Problem Solving in Plans and Elevations"
     difficulty: hard
-    real_world_analogy: "Designing a multi-level parking structure requires understanding both the aerial view and the side elevations."
-    misconception_alert: "Students may overlook the importance of scale in translating real-world dimensions to their drawings."
-    scenario: "A building has a rooftop garden that needs a stairway from the ground. Draw the elevation view showing the stairway."
+    learning_objective: "7.2.3"
+    real_world_analogy: "You are a contractor for a 'Dream House' project. You have the 2D blueprints (Plan and Elevations), and you must calculate the total material cost based on the 3D volume of the actual building."
+    misconception_alert: "Scaling errors! If the scale is $1:100$, the area scale is $1:100^2$. It is safer to convert all scale drawing measurements to actual measurements in meters BEFORE calculating volume."
+    scenario: "A scale model of a study hut (STEM Project) has a plan area of $20\text{ cm}^2$ and a height in the front elevation of $10\text{ cm}$. If the scale is $1:50$, calculate the actual volume of the hut in $\text{m}^3$."
     working: |
-      Step 1: Determine the height of the building and the dimensions of the stairway.
-      Step 2: Using graph paper, draw the side elevation of the building, including the stairway, ensuring correct proportions using scale.
-      Step 3: Add details such as railings and steps to complete the elevation view.
+      1. Understand: We need the actual volume. Scale is $1:50$.
+      2. Convert model dimensions to actual dimensions:
+         - Actual base area: $20\text{ cm}^2 \times 50 \times 50 = 50,000\text{ cm}^2$.
+         - Actual height: $10\text{ cm} \times 50 = 500\text{ cm}$.
+      3. Calculate actual volume in $\text{cm}^3$:
+         - $\text{Volume} = \text{Area} \times \text{Height} = 50,000 \times 500 = 25,000,000\text{ cm}^3$.
+      4. Convert to $\text{m}^3$:
+         - Since $1\text{ m}^3 = 1,000,000\text{ cm}^3$:
+         - $\text{Actual Volume} = 25,000,000 / 1,000,000 = 25\text{ m}^3$.
+      5. Verify: Check if the scale was applied to all three dimensions (Length, Width, Height). Yes ($50 \times 50 \times 50$).

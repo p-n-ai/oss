@@ -1,0 +1,43 @@
+topic_id: "MT3-06"
+provenance: "ai-generated"
+description: "Contoh kerja berperingkat untuk Sudut dan Tangen bagi Bulatan (Bab 6)"
+worked_examples:
+  - id: "WE-01"
+    topic: "Sudut pada Lilitan dan Sudut Pusat"
+    difficulty: "easy"
+    real_world_analogy: "Bayangkan 'Busur dan Anak Panah'—lengkuk bulatan ialah busur anda. Sudut pusat ialah tempat anda tarik tali paling jauh ke belakang (tenaga dua kali ganda!), manakala sudut lilitan ialah tarikan ringan dari tepi sahaja."
+    misconception_alert: "Murid sering menganggap mana-mana sudut di dalam bulatan adalah sudut pusat. Amaran: Bucu sudut MESTI berada tepat di pusat $O$ untuk hukum 'Dua Kali Ganda' ini terpakai."
+    scenario: "Dalam sebuah bulatan berpusat $O$, diberi sudut pada lilitan $\angle ACB = 35^\circ$. Tentukan nilai sudut pusat $\angle AOB$ yang dicangkum oleh lengkuk yang sama $AB$."
+    working: |
+      1. Kenal pasti hubungan: Sudut pusat adalah dua kali ganda saiz sudut pada lilitan apabila dicangkum oleh lengkuk yang sama.
+      2. Bina persamaan: $\angle AOB = 2 \times \angle ACB$
+      3. Gantikan nilai yang diberi: $\angle AOB = 2 \times 35^\circ$
+      4. Hitung jawapan akhir: $\angle AOB = 70^\circ$
+
+  - id: "WE-02"
+    topic: "Sisi Empat Kitaran"
+    difficulty: "medium"
+    real_world_analogy: "Anggap ia sebagai 'Neraca Imbang'—dalam sisi empat kitaran, bucu-bucu yang bertentangan adalah seperti pemberat yang mesti sentiasa berjumlah tepat $180^\circ$ untuk memastikan bulatan itu seimbang."
+    misconception_alert: "Berfikir bahawa semua bentuk empat sisi di dalam bulatan mengikut peraturan ini. Perhatian: Ia hanya berfungsi jika KEEMPAT-EMPAT bucu menyentuh lilitan bulatan!"
+    scenario: "Dalam sebuah sisi empat kitaran $PQRS$, sudut pedalaman $\angle PQR = 115^\circ$. Hitung nilai sudut pedalaman bertentangan $\angle PSR$."
+    working: |
+      1. Kenal pasti sifat: Bagi sisi empat kitaran, hasil tambah sudut pedalaman yang bertentangan ialah $180^\circ$.
+      2. Bina persamaan hasil tambah: $\angle PQR + \angle PSR = 180^\circ$
+      3. Gantikan nilai yang diketahui: $115^\circ + \angle PSR = 180^\circ$
+      4. Tolak $115^\circ$ daripada kedua-dua belah: $115^\circ - 115^\circ + \angle PSR = 180^\circ - 115^\circ$
+      5. Jawapan Akhir: $\angle PSR = 65^\circ$
+
+  - id: "WE-03"
+    topic: "Tangen kepada Bulatan"
+    difficulty: "hard"
+    real_world_analogy: "Tangen adalah seperti lantai rata yang menyentuh tayar basikal—mereka hanya bertemu pada satu titik sahaja, dan jejari yang menyentuh titik itu berdiri tegak secara berserenjang pada $90^\circ$."
+    misconception_alert: "Keliru antara 'Tangen' (sentuh 1 titik) dengan 'Perentas' (potong melalui 2 titik). Tangen tidak pernah masuk ke dalam kawasan dalam bulatan."
+    scenario: "Garis $ABC$ ialah tangen kepada sebuah bulatan pada titik $B$. $O$ ialah pusat bulatan dengan jejari $OB$. Jika $\angle OAB = 25^\circ$ dalam segitiga $\triangle OAB$, cari nilai sudut pusat $\angle AOB$."
+    working: |
+      1. Kenal pasti sifat Tangen-Jejari: Jejari $OB$ adalah berserenjang dengan tangen $ABC$ pada titik ketangenan $B$.
+      2. Oleh itu, $\angle OBA = 90^\circ$.
+      3. Gunakan hasil tambah sudut dalam segitiga $\triangle OAB$: $\angle OAB + \angle OBA + \angle AOB = 180^\circ$
+      4. Gantikan nilai yang diketahui: $25^\circ + 90^\circ + \angle AOB = 180^\circ$
+      5. Permudahkan hasil tambah: $115^\circ + \angle AOB = 180^\circ$
+      6. Tolak $115^\circ$ daripada kedua-dua belah: $\angle AOB = 180^\circ - 115^\circ$
+      7. Jawapan Akhir: $\angle AOB = 65^\circ$

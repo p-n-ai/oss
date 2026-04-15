@@ -31,6 +31,10 @@ This document defines the 4 stages of content maturity for any given topic in th
 *   **Status:** Production-Ready / Fully Audited
 *   **Purpose:** The final, high-fidelity version of the topic, fully aligned with the **Golden Format v2**. This level is required before a topic is considered "Completed" in the repository.
 *   **Mandatory Requirements:**
+    * - [x] Teaching Notes Standardization
+    - [x] Write MT3-05 English Root Teaching Notes (MT3-05.teaching.md)
+    - [x] Create MT3-05 Malay Translation Teaching Notes (translations/ms/MT3-05.teaching.md)
+    - [x] Update Curriculum Progress Tracker for Teach
     *   **Bilingual Parity:** Both English (Root) and Malay (Translation) files are fully audited and synced.
     *   **Assessment Coverage:** 10-15 questions in `assessments.yaml` (min coverage of OAP, OPB, Subjective).
     *   **Worked Examples:** 3+ examples in `examples.yaml` with Scenario, Analogy, Alert, and Working.
@@ -99,13 +103,13 @@ Topics move from Level 2 to Level 3 only after passing the 4 core auditor prompt
 | Chapter | Meta (EN) | Meta (MS) | Teach (EN) | Teach (MS) | Assess (EN) | Assess (MS) | Exam (EN) | Exam (MS) |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | MT3-01 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| MT3-02 | 1️⃣ | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ |
-| MT3-03 | 1️⃣ | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ |
-| MT3-04 | 1️⃣ | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ |
-| MT3-05 | 1️⃣ | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ |
-| MT3-06 | 1️⃣ | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ |
-| MT3-11 | 1️⃣ | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ |
-| MT3-08 | 1️⃣ | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ | 🚧 | ⏳ |
+| MT3-02 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT3-03 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT3-04 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT3-05 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT3-06 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT3-07 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT3-08 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | MT3-09 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 

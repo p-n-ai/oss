@@ -1,0 +1,139 @@
+id: MT3-07
+topic_id: MT3-07
+provenance: "aligned-with-kpm-textbook-p168-197"
+questions:
+  # --- Subtopik 7.1: Unjuran Ortogon ---
+  - id: Q1
+    text: "Antara berikut, yang manakah menerangkan maksud unjuran ortogon?"
+    difficulty: easy
+    learning_objective: "7.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Imej yang terbentuk pada suatu satah apabila unjuran garis dari objek berserenjang dengan satah tersebut."
+      working: |
+        Langkah 1: Ingat kembali definisi 'ortogon' yang bermaksud sudut tegak (90 darjah).
+        Langkah 2: Bandingkan dengan definisi dalam Buku Teks m/s 171.
+      distractors:
+        - value: "Lakaran tiga dimensi bagi suatu objek yang dilihat dari satu sudut tertentu."
+          feedback: "Itu lebih kepada lukisan perspektif. Unjuran ortogon mestilah imej 2D yang terbentuk secara berserenjang dengan satah."
+        - value: "Bayang-bayang objek yang terhasil oleh sumber cahaya pada sudut condong."
+          feedback: "Jika sudutnya condong, ia bukan 'ortogon'. Unjuran mestilah berserenjang (normal) kepada satah."
+    marks: 1
+    hints:
+      - "Fikirkan maksud perkataan 'Ortogon'. Apakah sudut yang terlibat?"
+      - "Rujuk muka surat 171 dalam buku teks anda. Lihat hubungan antara garis unjuran dengan satah."
+
+  - id: Q2
+    text: "Nyatakan sama ada pernyataan berikut BENAR atau PALSU: 'Panjang sisi unjuran dalam unjuran ortogon sentiasa sama atau lebih pendek daripada panjang sebenar sisi objek tersebut.'"
+    difficulty: medium
+    learning_objective: "7.1.2"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "BENAR"
+      working: |
+        Langkah 1: Analisis Cetusan Minda 2 (m/s 179).
+        Langkah 2: Jika sisi selari dengan satah, panjangnya sama. Jika condong, unjurannya lebih pendek.
+      distractors: []
+    marks: 1
+    hints:
+      - "Bayangkan sebatang pensel dipegang selari dengan lantai berbanding dipegang secara condong. Bayang-bayang mana yang lebih panjang?"
+      - "Lihat jadual 'Hasil dapatan' pada muka surat 180 berkaitan panjang sisi."
+
+  - id: Q3
+    text: "Sebuah silinder dengan diameter $4\\text{ cm}$ dan tinggi $6\\text{ cm}$ diletakkan di atas satah mengufuk. Lukis unjuran ortogon silinder itu sebagaimana dilihat dari arah sisi (satah mencancang)."
+    difficulty: medium
+    learning_objective: "7.1.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: "Sebuah segi empat tepat dengan lebar 4 cm dan tinggi 6 cm."
+      working: |
+        Langkah 1: Kenal pasti arah pandangan (pandangan sisi).
+        Langkah 2: 'Normal' kepada satah mencancang daripada permukaan melengkung silinder membentuk segi empat tepat.
+        Langkah 3: Dimensi: Diameter menjadi lebar (4 cm), Tinggi kekal sebagai tinggi (6 cm).
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Bentuk yang betul (Segi empat tepat)."
+      - marks: 2
+        criteria: "Label dan dimensi yang betul ($4\\text{ cm} \\times 6\\text{ cm}$)."
+      - marks: 3
+        criteria: "Semua garis padu dilukis dengan kemas (tiada sisi terlindung untuk pandangan ini)."
+    hints:
+      - "Jika anda melihat sebuah tin makanan terus dari sisi, adakah anda nampak bulatan atau segi empat tepat yang rata?"
+      - "Semak Contoh 5(b) pada muka surat 176 untuk rujukan visual yang tepat."
+
+  # --- Subtopik 7.2: Pelan dan Dongakan ---
+  - id: Q4
+    text: "Semasa melukis dongakan sisi menggunakan kaedah empat sukuan, jenis garis apakah yang digunakan untuk mewakili sisi yang terlindung daripada pandangan mata?"
+    difficulty: easy
+    learning_objective: "7.2.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Garis sempang"
+      working: |
+        Langkah 1: Rujuk kotak 'TIP' pada muka surat 184.
+        Langkah 2: Sisi terlindung = garis sempang; Sisi nampak = garis padu tebal.
+      distractors:
+        - value: "Garis padu halus"
+          feedback: "Garis padu halus digunakan sebagai garis binaan dan garis unjuran, bukan untuk mewakili sisi objek."
+        - value: "Garis padu tebal"
+          feedback: "Garis padu tebal hanya digunakan untuk sisi yang nampak dari arah pandangan tersebut."
+    marks: 1
+    hints:
+      - "Fikirkan tentang 'Peraturan X-ray'. Bagaimanakah kita melukis apa yang terlindung di sebalik permukaan?"
+      - "Lihat kotak 'TIP' pada muka surat 184."
+
+  - id: Q5
+    text: "Lakar objek tiga dimensi yang disintesis daripada Pelan (segi empat sama), Dongakan Depan (segi tiga), dan Dongakan Sisi (segi tiga)."
+    difficulty: hard
+    learning_objective: "7.2.2"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: "Piramid tegak dengan tapak segi empat sama."
+      working: |
+        Langkah 1: Analisis Pelan - tapaknya ialah segi empat sama.
+        Langkah 2: Analisis Dongakan - kedua-duanya berbentuk segi tiga, bermaksud sisi-sisinya condong ke satu puncak (apeks).
+        Langkah 3: Gabungkan: Tapak segi empat sama + sisi segi tiga = Piramid.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Mengenal pasti objek sebagai piramid."
+      - marks: 4
+        criteria: "Lakaran menunjukkan perspektif 3D dengan jelas termasuk garis sempang untuk sisi terlindung di belakang."
+    hints:
+      - "Jika bahagian bawahnya segi empat sama tetapi pandangan depan dan sisinya nampak seperti Piramid Agung Giza, apakah objek itu?"
+      - "Rujuk muka surat 188, Contoh 10 untuk cara menyambungkan bucu bagi membina objek gabungan."
+
+  - id: Q6
+    text: "Satu projek STEM memerlukan pembinaan sebuah pondok belajar dalam kawasan $5\\text{ m} \\times 5\\text{ m}$. Jika kos bahan binaan ialah $\\text{RM } 2.50$ bagi setiap $1\\text{ cm}^3$ model skala, hitung jumlah kos bagi satu model prisma yang mempunyai luas tapak $20\\text{ cm}^2$ dan tinggi $10\\text{ cm}$."
+    difficulty: hard
+    learning_objective: "7.2.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: exact
+      value: "500"
+      working: |
+        Langkah 1: Hitung isi padu model: $\\text{Luas Tapak} \\times \\text{Tinggi} = 20 \\times 10 = 200\\text{ cm}^3$.
+        Langkah 2: Darabkan dengan kos seunit: $200 \\times 2.50 = 500$.
+        Langkah 3: Jumlah kos = RM 500.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Pengiraan isi padu yang betul ($200\\text{ cm}^3$)."
+      - marks: 3
+        criteria: "Pengiraan kos akhir yang tepat dengan unit RM."
+    hints:
+      - "Mula-mula, cari jumlah ruang (isi padu) yang dipenuhi oleh model tersebut dalam $\\text{cm}^3$."
+      - "Sekarang, jika setiap 'kiub' $1\\text{ cm}^3$ berharga RM 2.50, berapakah harga untuk 200 kiub?"
+      - "Ini berkaitan dengan projek STEM pada muka surat 195 dan penyelesaian masalah dalam Contoh 11."

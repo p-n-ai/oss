@@ -1,38 +1,43 @@
-topic_id: MT3-06
-provenance: ai-generated
-description: "Worked examples for Sudut dan Tangen bagi Bulatan"
+topic_id: "MT3-06"
+provenance: "ai-generated"
+description: "Scaffolded worked examples for Angles and Tangents of Circles (Chapter 6)"
 worked_examples:
-  - id: WE-01
-    topic: "Sudut Pada Lilitan dan Sudut Pusat"
-    difficulty: easy
-    real_world_analogy: "Bayangkan sudut pada lilitan seperti menonton perarakan dari jauh, dan sudut pusat seperti menonton dari tengah-tengah perarakan."
-    misconception_alert: "Pelajar sering keliru bahawa sudut pada lilitan sama dengan sudut pusat, sedangkan sudut pusat sebenarnya dua kali sudut pada lilitan."
-    scenario: "Diberikan bulatan dengan pusat O, sudut AOB = 80°. Cari sudut ACB, di mana C adalah titik pada lilitan bulatan."
+  - id: "WE-01"
+    topic: "Angle at the Circumference and Central Angle"
+    difficulty: "easy"
+    real_world_analogy: "Think of the 'Bow and Arrow'—the arc is your bow, and the central angle is where you pull the string back the furthest (twice as much effort), while the circumference angle is like a lighter pull from the edge."
+    misconception_alert: "Students often think any angle inside the circle is the central angle. Remember: The vertex MUST be exactly at the center $O$ for the 'Double Rule' to apply."
+    scenario: "In a circle with center $O$, given the angle at the circumference $\angle ACB = 35^\circ$. Determine the value of the central angle $\angle AOB$ subtended by the same arc $AB$."
     working: |
-      Step 1: Fahami bahawa sudut ACB adalah sudut pada lilitan, dan sudut AOB adalah sudut pusat.
-      Step 2: Gunakan fakta bahawa sudut pusat adalah dua kali sudut pada lilitan yang sama, iaitu AOB = 2 * ACB.
-      Step 3: Oleh itu, ACB = AOB / 2 = 80° / 2 = 40°. Jadi, sudut ACB ialah 40°.
+      1. Identify the relationship: The central angle is twice the angle at the circumference when subtended by the same arc.
+      2. Set up the equation: $\angle AOB = 2 \times \angle ACB$
+      3. Substitute the given value: $\angle AOB = 2 \times 35^\circ$
+      4. Calculate the final result: $\angle AOB = 70^\circ$
 
-  - id: WE-02
-    topic: "Sisi Empat Kitaran"
-    difficulty: medium
-    real_world_analogy: "Anggaplah sisi empat kitaran seperti satu kumpulan pelajar yang duduk dalam bulatan, di mana sudut bertentangan dalam bulatan sentiasa menambahkan hingga 180°."
-    misconception_alert: "Pelajar mungkin berfikir bahawa semua sudut dalam sisi empat kitaran adalah sama, sedangkan sudut bertentangan menambahkan hingga 180°."
-    scenario: "Dalam sisi empat kitaran ABCD, sudut ABC = 110°. Cari sudut ADC."
+  - id: "WE-02"
+    topic: "Cyclic Quadrilaterals"
+    difficulty: "medium"
+    real_world_analogy: "Imagine a 'Balanced Scale'—in a cyclic quadrilateral, the opposite corners are like weights that must always add up to exactly $180^\circ$ to keep the circle in balance."
+    misconception_alert: "Thinking all quadrilaterals inside a circle follow this rule. Warning: It only works if ALL four corners (vertices) are touching the circumference!"
+    scenario: "In a cyclic quadrilateral $PQRS$, the interior angle $\angle PQR = 115^\circ$. Calculate the value of the opposite interior angle $\angle PSR$."
     working: |
-      Step 1: Ketahui sifat sisi empat kitaran bahawa sudut bertentangan menambahkan hingga 180°.
-      Step 2: Oleh itu, sudut ABC + sudut ADC = 180°.
-      Step 3: Masukkan nilai sudut yang diketahui, 110° + sudut ADC = 180°.
-      Step 4: Selesaikan persamaan untuk mencari sudut ADC, iaitu sudut ADC = 180° - 110° = 70°.
+      1. Identify the property: For a cyclic quadrilateral, the sum of opposite interior angles is $180^\circ$.
+      2. Set up the sum equation: $\angle PQR + \angle PSR = 180^\circ$
+      3. Substitute the known value: $115^\circ + \angle PSR = 180^\circ$
+      4. Subtract $115^\circ$ from both sides: $115^\circ - 115^\circ + \angle PSR = 180^\circ - 115^\circ$
+      5. Final Result: $\angle PSR = 65^\circ$
 
-  - id: WE-03
-    topic: "Tangen kepada Bulatan dan Sudut Berkaitan"
-    difficulty: hard
-    real_world_analogy: "Anggap tangen seperti tali yang menyentuh bulatan hanya pada satu titik, sama seperti manusia yang hanya bersentuhan dengan bumi pada tapak kaki mereka ketika berdiri tegak."
-    misconception_alert: "Kesalahan umum adalah menganggap tangen sebagai garis yang melintasi bulatan, sedangkan tangen hanya menyentuh bulatan pada satu titik."
-    scenario: "Diberikan bulatan dengan pusat O dan tangen AB pada titik T. Jika sudut OTA = 30°, cari sudut antara tangen AB dan jejari OT."
+  - id: "WE-03"
+    topic: "Tangents to Circles"
+    difficulty: "hard"
+    real_world_analogy: "A tangent is like a flat floor touching a bicycle tire—they meet at exactly one point, and the spoke (radius) hitting that point stands perfectly upright at $90^\circ$."
+    misconception_alert: "Confusing a 'Tangent' (touches 1 point) with a 'Chord' (cuts through 2 points). A tangent never enters the circle's interior."
+    scenario: "Line $ABC$ is a tangent to a circle at point $B$. $O$ is the center of the circle with radius $OB$. If $\angle OAB = 25^\circ$ in triangle $\triangle OAB$, find the value of the central angle $\angle AOB$."
     working: |
-      Step 1: Fahami bahawa sudut antara tangen dan jejari pada titik ketangenan adalah 90°.
-      Step 2: Oleh itu, sudut OTA + sudut antara tangen dan jejari = 90°.
-      Step 3: Masukkan nilai yang diketahui, 30° + sudut antara tangen dan jejari = 90°.
-      Step 4: Selesaikan persamaan untuk mencari sudut antara tangen dan jejari, iaitu sudut = 90° - 30° = 60°.
+      1. Identify the Tangent-Radius property: The radius $OB$ is perpendicular to the tangent $ABC$ at the point of tangency $B$.
+      2. Therefore, $\angle OBA = 90^\circ$.
+      3. Use the sum of angles in triangle $\triangle OAB$: $\angle OAB + \angle OBA + \angle AOB = 180^\circ$
+      4. Substitute the known values: $25^\circ + 90^\circ + \angle AOB = 180^\circ$
+      5. Simplify the sum: $115^\circ + \angle AOB = 180^\circ$
+      6. Subtract $115^\circ$ from both sides: $\angle AOB = 180^\circ - 115^\circ$
+      7. Final Result: $\angle AOB = 65^\circ$

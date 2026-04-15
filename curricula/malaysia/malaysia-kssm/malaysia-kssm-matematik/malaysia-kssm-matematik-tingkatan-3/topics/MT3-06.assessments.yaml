@@ -1,113 +1,137 @@
-topic_id: MT3-06
-provenance: ai-generated
-
+id: "MT3-06"
 questions:
-  # Learning Objective: 6.1.1 (create)
-  - id: Q1
-    text: 'Diberikan bulatan dengan pusat $O$ dan sudut $\angle ACB = 40^\circ$ pada lilitan. Tentukan sudut $\angle AOB$.'
-    difficulty: medium
-    learning_objective: LO1
-    tp_level: 3
-    kbat: true
+  - id: "MT3-06-Q01"
+    type: "multiple_choice"
+    text: "Based on the properties of circles, if an angle at the circumference and a central angle are subtended by the same arc, what is the relationship between them?"
+    difficulty: "easy"
+    learning_objective: "6.1.1"
+    tp_level: 1
     answer:
-      type: exact
-      value: '80^\circ'
+      type: "multiple_choice"
+      value: "The central angle is twice the angle at the circumference."
       working: |
-        Dalam bulatan, sudut pusat $\angle AOB$ adalah dua kali ganda sudut pada lilitan $\angle ACB$ yang dicangkum oleh lengkok yang sama. Oleh itu, $\angle AOB = 2 \times 40^\circ = 80^\circ$.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: 'Menyatakan bahawa sudut pusat adalah dua kali ganda sudut pada lilitan.'
-      - marks: 2
-        criteria: 'Mengira sudut pusat dengan tepat.'
-    hints:
-      - level: 1
-        text: 'Ingat bahawa sudut pusat adalah dua kali ganda daripada sudut pada lilitan yang dicangkum oleh lengkok yang sama.'
+        Step 1: Identify the angles subtended by the same arc.
+        Step 2: Apply Theorem: Central angle = 2 × Circumference angle.
+      distractors:
+        - value: "They are equal."
+          feedback: "This only applies if both angles are at the circumference and subtended by the same arc. The central angle is always larger."
+        - value: "The angle at the circumference is twice the central angle."
+          feedback: "You have the relationship reversed! Remember the 'Parent-Child' rule: the Center (Parent) is always bigger/double."
+    marks: 1
 
-  # Learning Objective: 6.1.2 (apply)
-  - id: Q2
-    text: 'Dalam bulatan, sudut pada lilitan $\angle PRQ = 60^\circ$ dan sudut pusat $\angle POQ$ adalah dua kali sudut $\angle PRQ$. Cari sudut $\angle POQ$.'
-    difficulty: medium
-    learning_objective: LO2
+  - id: "MT3-06-Q02"
+    type: "subjective"
+    text: "In a circle with centre $O$, the angle at the circumference $\angle ACB = 40^\circ$. Calculate the value of the central angle $\angle AOB$ subtended by the same arc $AB$."
+    difficulty: "medium"
+    learning_objective: "6.1.1"
     tp_level: 3
-    kbat: false
     answer:
-      type: exact
-      value: '120^\circ'
+      type: "exact"
+      value: "80^\circ"
       working: |
-        Diketahui sudut pusat adalah dua kali sudut pada lilitan, oleh itu $\angle POQ = 2 \times \angle PRQ = 2 \times 60^\circ = 120^\circ$.
+        Step 1: State the relationship: $\angle AOB = 2 \times \angle ACB$.
+        Step 2: Substitute value: $\angle AOB = 2 \times 40^\circ$.
+        Step 3: Calculate: $\angle AOB = 80^\circ$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: 'Menggunakan hubungan antara sudut pusat dan sudut pada lilitan.'
+        criteria: "Correct application of the central angle theorem."
       - marks: 1
-        criteria: 'Mengira nilai sudut pusat dengan betul.'
+        criteria: "Final answer with correct units."
     hints:
-      - level: 1
-        text: 'MISCONCEPTION ALERT: Jangan lupa bahawa sudut pusat adalah dua kali sudut pada lilitan.'
+      - "Look at the arc $AB$. One angle is at the centre ($O$) and one is on the edge. Which one is doubled?"
+      - "Try multiplying the given circumference angle by 2."
 
-  # Learning Objective: 6.2.3 (apply)
-  - id: Q3
-    text: 'Sisi empat kitaran $ABCD$ mempunyai sudut $\angle ABC = 70^\circ$ dan $\angle CDA = 110^\circ$. Tentukan $\angle BCD$.'
-    difficulty: medium
-    learning_objective: LO3
-    tp_level: 3
-    kbat: true
+  - id: "MT3-06-Q03"
+    type: "mapping"
+    text: "Match the following circle properties to their correct descriptions."
+    difficulty: "easy"
+    learning_objective: "6.2.1"
+    tp_level: 2
     answer:
-      type: exact
-      value: '110^\circ'
+      type: "multiple_choice"
+      value: "Cyclic Quadrilateral -> All four vertices lie on the circumference; Opposite Angles -> Sum up to 180 degrees."
+      working: "Identify definitions from Textbook p. 144-145."
+    marks: 2
+
+  - id: "MT3-06-Q04"
+    type: "subjective"
+    text: "$ABCD$ is a cyclic quadrilateral. Given that $\angle ABC = 75^\circ$ and $\angle BCD = 110^\circ$, find the value of $\angle ADC$."
+    difficulty: "medium"
+    learning_objective: "6.2.2"
+    tp_level: 3
+    answer:
+      type: "exact"
+      value: "105^\circ"
       working: |
-        Dalam sisi empat kitaran, jumlah sudut bertentangan adalah $180^\circ$. Oleh itu, $\angle ABC + \angle CDA = 180^\circ$. Maka, $\angle BCD = 180^\circ - \angle ABC = 180^\circ - 70^\circ = 110^\circ$.
-    marks: 3
+        Step 1: Identify opposite angles in cyclic quadrilateral $ABCD$. $\angle ABC$ is opposite to $\angle ADC$.
+        Step 2: Apply theorem: $\angle ABC + \angle ADC = 180^\circ$.
+        Step 3: Calculate: $\angle ADC = 180^\circ - 75^\circ = 105^\circ$.
+    marks: 2
     rubric:
       - marks: 1
-        criteria: 'Mengenalpasti bahawa jumlah sudut bertentangan dalam sisi empat kitaran adalah $180^\circ$.'
-      - marks: 2
-        criteria: 'Mengira sudut $\angle BCD$ dengan tepat.'
+        criteria: "Identify that opposite angles are supplementary."
+      - marks: 1
+        criteria: "Correct subtraction from 180."
     hints:
-      - level: 1
-        text: 'Ingat bahawa dalam sisi empat kitaran, jumlah sudut bertentangan adalah $180^\circ$.'
+      - "Recall that in a cyclic quadrilateral, the 'magic number' for opposite angles is 180."
+      - "Which angle sits directly across from $\angle ABC$? Use that to subtract from 180."
 
-  # Learning Objective: 6.3.2 (create)
-  - id: Q4
-    text: 'Garis $AB$ adalah tangen kepada bulatan di titik $A$. Jejari $OA$ membentuk sudut $90^\circ$ dengan tangen. Jika sudut $\angle BAC = 30^\circ$, tentukan sudut $\angle OAC$.'
-    difficulty: medium
-    learning_objective: LO4
-    tp_level: 3
-    kbat: true
+  - id: "MT3-06-Q05"
+    type: "subjective"
+    text: "Line $PQR$ is a tangent to a circle at point $Q$. $OQ$ is the radius of the circle. Determine the size of $\angle OQR$ and explain why."
+    difficulty: "easy"
+    learning_objective: "6.3.2"
+    tp_level: 2
     answer:
-      type: exact
-      value: '60^\circ'
+      type: "exact"
+      value: "90^\circ"
       working: |
-        Sudut antara jejari dan tangen adalah $90^\circ$. Oleh itu, $\angle OAC = 90^\circ - \angle BAC = 90^\circ - 30^\circ = 60^\circ$.
-    marks: 3
+        Step 1: Identify the line as a tangent and $OQ$ as the radius.
+        Step 2: Apply the Tangent-Radius theorem: The radius is perpendicular to the tangent at the point of tangency.
+    marks: 2
     rubric:
       - marks: 1
-        criteria: 'Mengenalpasti bahawa sudut antara jejari dan tangen adalah $90^\circ$.'
-      - marks: 2
-        criteria: 'Mengira sudut $\angle OAC$ dengan tepat.'
+        criteria: "State 90 degrees."
+      - marks: 1
+        criteria: "Reason: Radius is perpendicular to tangent."
     hints:
-      - level: 1
-        text: 'MISCONCEPTION ALERT: Jangan lupa bahawa sudut antara jejari dan tangen adalah $90^\circ$.'
+      - "Think about the '90-degree handshake' rule from our notes."
 
-  # Learning Objective: 6.3.3 (apply)
-  - id: Q5
-    text: 'Dalam rajah, $PA$ dan $PB$ adalah tangen kepada bulatan dari titik luar $P$. Jika $PA = PB$ dan sudut $\angle APB = 40^\circ$, tentukan sudut $\angle PAB$.'
-    difficulty: medium
-    learning_objective: LO5
-    tp_level: 3
-    kbat: false
+  - id: "MT3-06-Q06"
+    type: "subjective"
+    text: "A gear system consists of two circles with common tangents. Using the concept of 'Common Tangents' (Textbook p. 157), if two circles are touching each other at one point, how many common tangents can be drawn in total?"
+    difficulty: "hard"
+    learning_objective: "6.3.3"
+    tp_level: 4
     answer:
-      type: exact
-      value: '70^\circ'
+      type: "exact"
+      value: "3"
       working: |
-        Tangen dari titik luar adalah sama panjang, oleh itu $\triangle PAB$ adalah segi tiga sama kaki. Sudut asas adalah sama, oleh itu $\angle PAB = \angle PBA = \frac{180^\circ - \angle APB}{2} = \frac{180^\circ - 40^\circ}{2} = 70^\circ$.
+        Step 1: Visualize two circles touching externally.
+        Step 2: Identify two outer common tangents.
+        Step 3: Identify one internal common tangent passing through the point of contact.
     marks: 3
     rubric:
-      - marks: 1
-        criteria: 'Mengenalpasti bahawa $\triangle PAB$ adalah segi tiga sama kaki.'
       - marks: 2
-        criteria: 'Mengira sudut $\angle PAB$ dengan tepat.'
+        criteria: "Identify all 3 tangent paths."
+      - marks: 1
+        criteria: "Correct final count."
     hints:
-      - level: 1
-        text: 'Ingat bahawa dalam segi tiga sama kaki, sudut asas adalah sama.'
+      - "Don't just look at the outside. Is there a line that can touch both circles right where they meet?"
+
+  - id: "MT3-06-Q07"
+    type: "subjective"
+    text: "A designer is creating a logo using a circle and a triangle where one side of the triangle is a tangent. If the angle in the alternate segment is $65^\circ$, what is the angle between the tangent and the chord? (TP5 Routine Complex)"
+    difficulty: "hard"
+    learning_objective: "6.4.1"
+    tp_level: 5
+    answer:
+      type: "exact"
+      value: "65^\circ"
+      working: |
+        Step 1: Apply Alternate Segment Theorem.
+        Step 2: The angle between the tangent and chord is equal to the angle in the alternate segment.
+    marks: 2
+    hints:
+      - "This is the 'Mirror Reflection' rule. If it is 65 inside, what must it be outside?"

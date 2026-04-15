@@ -1,37 +1,59 @@
-topic_id: MT3-04
-provenance: ai-generated
-description: "Worked examples for Lukisan Berskala"
+topic_id: "MT3-04"
+provenance: "curriculum-audit-rewrite"
 worked_examples:
-  - id: WE-01
-    topic: "Understanding scale drawings"
-    difficulty: easy
-    real_world_analogy: "Imagine using a map to find a friend's house. The map is a smaller representation of the real distances."
-    misconception_alert: "Students often confuse the scale with the actual measurement, thinking 1:100 means 1 unit on the drawing equals 100 units in real life, without considering the units."
-    scenario: "A map uses a scale of 1:1000. If a park on the map measures 5 cm, what is the actual size of the park in meters?"
+  - id: "WE-01"
+    topic: "Interpreting the Meaning of Scale"
+    difficulty: "easy"
+    learning_objective: "4.1.2"
+    real_world_analogy: "Think of a 'Magic Shrink Ray'! If the ray is set to $1:50$, it means every $1 \text{ cm}$ on the paper is actually $50 \text{ cm}$ in the real world."
+    misconception_alert: "The 'Enlargement Trap'! Students often think $1:n$ always means the drawing is smaller. Remind them that if $n$ is a fraction like $1:0.5$, the drawing actually gets bigger!"
+    scenario: "A scale drawing of a rectangular table is drawn to a scale of $1 : 20$. If the length of the table in the drawing is $5 \text{ cm}$, what is the actual length of the table in $\text{cm}$?"
     working: |
-      Step 1: Understand the scale. The scale 1:1000 means 1 cm on the map represents 1000 cm in real life.
-      Step 2: Calculate the real-life size by multiplying the map measurement by the scale factor: 5 cm x 1000 = 5000 cm.
-      Step 3: Convert the real-life measurement to meters: 5000 cm = 50 meters. So, the park is 50 meters in real life.
+      1. Identify the Scale ratio: $\text{Drawing} : \text{Object} = 1 : 20$.
+      2. Set up the proportion: $\frac{1}{20} = \frac{5 \text{ cm}}{\text{Actual Length}}$.
+      3. Cross-multiply to find the Actual Length: $1 \times \text{Actual Length} = 5 \text{ cm} \times 20$.
+      4. Calculate the final value: $5 \times 20 = 100$.
+      5. Final Answer: The actual length of the table is $100 \text{ cm}$.
 
-  - id: WE-02
-    topic: "Interpreting and applying scale"
-    difficulty: medium
-    real_world_analogy: "Think of a toy model car. It looks exactly like the real car but at a much smaller size, maintaining proportions."
-    misconception_alert: "A common mistake is using wrong units for conversion; always ensure unit consistency between the drawing and real-life measurements."
-    scenario: "A building's blueprint uses a scale of 1:200. If a wall is 3 m on the blueprint, what is the actual length of the wall?"
+  - id: "WE-02"
+    topic: "Calculating Actual Distance with Unit Conversion"
+    difficulty: "medium"
+    learning_objective: "4.1.3"
+    real_world_analogy: "Imagine using a physical map of Sarawak. You can't fit the whole $150 \text{ km}$ road on your lap, so we 'squash' it down into a few centimeters using a scale."
+    misconception_alert: "The 'Naked Number' Trap! Students often forget to convert units at the end. Always check if the question asks for the answer in $\text{cm}$, $\text{m}$, or $\text{km}$."
+    scenario: "On a map of Sarawak, the distance between Bintulu and Miri is $4 \text{ cm}$. The map uses a scale of $1 \text{ cm} : 50 \text{ km}$. Calculate the actual distance between the two towns in $\text{km}$."
     working: |
-      Step 1: Recognize the scale 1:200, meaning 1 m on the blueprint equals 200 m in real life.
-      Step 2: Calculate the actual length by multiplying the blueprint measurement by the scale factor: 3 m x 200 = 600 m.
-      Step 3: The actual length of the wall is 600 m.
+      1. Write down the given scale: $1 \text{ cm}$ represents $50 \text{ km}$.
+      2. Identify the distance on the drawing: $4 \text{ cm}$.
+      3. Multiply the drawing distance by the scale factor: $4 \times 50$.
+      4. Calculate: $4 \times 50 = 200$.
+      5. Final Answer: The actual distance is $200 \text{ km}$.
 
-  - id: WE-03
-    topic: "Solving scale drawing problems"
-    difficulty: hard
-    real_world_analogy: "Designing a miniature city model for a school project, where every building is a scaled version of real ones."
-    misconception_alert: "Students may struggle with reverse calculations; ensure understanding of converting real-life measurements back to scale."
-    scenario: "A model of a rectangular garden is drawn using a scale of 1:50. The model measures 4 cm by 6 cm. What are the actual dimensions of the garden?"
+  - id: "WE-03"
+    topic: "Determining the Scale in the form $1:n$"
+    difficulty: "medium"
+    learning_objective: "4.1.3"
+    real_world_analogy: "Like finding the 'Zoom Level' on a camera. We compare the size of the bird in your photo to the size of the real bird to find out how much we zoomed out."
+    misconception_alert: "The 'Unit Mismatch' Trap! You cannot compare $2 \text{ cm}$ to $5 \text{ m}$ directly. You must 'dress' them in the same units (both $\text{cm}$) before calculating the ratio."
+    scenario: "A model of a flagpole is $15 \text{ cm}$ tall. The actual flagpole is $6 \text{ m}$ tall. Determine the scale used in the form $1 : n$."
     working: |
-      Step 1: Determine the scale 1:50, meaning each cm on the model represents 50 cm in real life.
-      Step 2: Calculate actual length: 4 cm x 50 = 200 cm = 2 m.
-      Step 3: Calculate actual width: 6 cm x 50 = 300 cm = 3 m.
-      Step 4: The actual dimensions of the garden are 2 meters by 3 meters.
+      1. Convert the actual height to the same unit as the model: $6 \text{ m} \times 100 = 600 \text{ cm}$.
+      2. Write the ratio as $\text{Model} : \text{Actual}$: $15 : 600$.
+      3. Simplify the ratio to the form $1 : n$ by dividing both sides by 15.
+      4. Calculate: $15 \div 15 = 1$ and $600 \div 15 = 40$.
+      5. Final Answer: The scale is $1 : 40$.
+
+  - id: "WE-04"
+    topic: "Solving Complex Problems (Time, Speed, and Scale)"
+    difficulty: "hard"
+    learning_objective: "4.1.5"
+    real_world_analogy: "This is like being a flight dispatcher! You use a map to find the distance, then use the plane's speed to tell the passengers when they will land."
+    misconception_alert: "The 'Decimal Time' Trap! If the calculation gives $2.5 \text{ hours}$, many students think it is '2 hours 5 minutes'. Remind them $0.5 \text{ hours} = 30 \text{ minutes}$!"
+    scenario: "The distance between two cities on a map is $5.4 \text{ cm}$ with a scale of $1 \text{ cm} : 150 \text{ km}$. An airplane flies between these cities at a speed of $810 \text{ km/h}$. Calculate the time taken for the flight in minutes."
+    working: |
+      1. Step 1: Find the actual distance. $5.4 \text{ cm} \times 150 \text{ km/cm} = 810 \text{ km}$.
+      2. Step 2: Use the speed formula: $\text{Time} = \frac{\text{Distance}}{\text{Speed}}$.
+      3. Substitute the values: $\text{Time} = \frac{810 \text{ km}}{810 \text{ km/h}}$.
+      4. Calculate the time in hours: $810 \div 810 = 1 \text{ hour}$.
+      5. Step 3: Convert hours to minutes: $1 \text{ hour} \times 60 = 60 \text{ minutes}$.
+      6. Final Answer: The flight takes $60 \text{ minutes}$.

@@ -1,0 +1,193 @@
+id: MT3-02-assessments
+topic_id: MT3-02
+provenance: "curriculum-architect-validated"
+questions:
+  # --- Sub-bab 2.1: Angka Bererti ---
+
+  - id: Q1
+    text: "Antara digit berikut dalam nombor $0.007020$, yang manakah merupakan **Angka Bererti**?"
+    difficulty: easy
+    learning_objective: "2.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "7, 0, 2, dan 0 di hujung"
+      working: |
+        1. Sifar di hadapan perpuluhan (0.00...) bukan angka bererti.
+        2. Digit bukan sifar (7, 2) sentiasa bererti.
+        3. Sifar di antara digit bukan sifar adalah bererti.
+        4. Sifar di hujung suatu perpuluhan adalah bererti.
+      distractors:
+        - value: "Semua digit termasuk sifar di hadapan"
+          feedback: "Salah tu! Sifar di hadapan perpuluhan hanyalah 'placeholder' untuk nilai tempat; ia tidak menunjukkan kejituan."
+        - value: "Hanya 7 dan 2"
+          feedback: "Hati-hati dengan 'Perangkap Sifar'! Sifar di antara nombor dan di hujung perpuluhan sebenarnya memberikan maklumat ketepatan."
+    marks: 1
+    hints:
+      - "Rujuk peraturan 'Sifar Hero' pada Muka Surat 34. Adakah sifar di depan sekali dikira?"
+
+  - id: Q2
+    text: "Tentukan sama ada pernyataan berikut adalah BENAR atau PALSU: 'Dalam nombor 803,000, terdapat tepat 6 angka bererti melainkan dinyatakan sebaliknya.'"
+    difficulty: medium
+    learning_objective: "2.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "PALSU"
+      working: |
+        1. Bagi nombor bulat, sifar di hujung biasanya tidak dianggap sebagai angka bererti melainkan tahap kejituan dinyatakan.
+        2. Oleh itu, 803,000 biasanya mempunyai 3 angka bererti (8, 0, 3).
+      distractors:
+        - value: "BENAR"
+          feedback: "Dalam integer, sifar di hujung adalah placeholder. Ia hanya menjadi bererti jika nombor itu dibundarkan secara khusus kepada tahap kejituan tersebut."
+    marks: 1
+    hints:
+      - "Semak peraturan untuk nombor bulat (integer) pada Muka Surat 34. Adakah sifar di hujung sentiasa dikira?"
+
+  - id: Q3
+    text: "Bundarkan $63,479$ kepada dua angka bererti."
+    difficulty: medium
+    learning_objective: "2.1.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "63,000"
+      working: |
+        1. Kenal pasti dua angka bererti pertama: 6 dan 3.
+        2. Perhatikan digit ketiga: 4.
+        3. Memandangkan $4 < 5$, digit 3 kekal.
+        4. Gantikan digit selebihnya sebelum titik perpuluhan dengan sifar untuk kekalkan nilai tempat.
+        5. Hasil: 63,000.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Pembundaran betul kepada 63,000."
+      - marks: 1
+        criteria: "Mengenal pasti '63' tetapi gagal meletakkan sifar sebagai placeholder (cth: menulis 63 sahaja)."
+    hints:
+      - "Cari dua digit pertama yang 'penting'. Sekarang, tengok 'jiran' sebelah (digit ke-3). Perlu tambah 1 atau tidak?"
+      - "Jangan biarkan nombor itu 'mengecil' jadi 63! Gunakan sifar sebagai pengganti supaya nilainya kekal dalam puluh ribu."
+
+  # --- Sub-bab 2.2: Bentuk Piawai ---
+
+  - id: Q4
+    text: "Antara berikut, yang manakah merupakan perwakilan yang betul bagi $0.000052$ dalam bentuk piawai?"
+    difficulty: easy
+    learning_objective: "2.2.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "$5.2 \times 10^{-5}$"
+      working: |
+        1. Gerakkan titik perpuluhan 5 tempat ke kanan untuk dapatkan 5.2.
+        2. Memandangkan kita gerak ke kanan (nombor kecil), indeks ialah -5.
+      distractors:
+        - value: "$5.2 \times 10^5$"
+          feedback: "Nombor yang kurang daripada 1 mesti mempunyai indeks negatif (-) kerana ia 'mengecil' daripada asas $10^0$."
+        - value: "$52 \times 10^{-6}$"
+          feedback: "Melanggar Peraturan Emas! Pekali $A$ mesti berada antara $1 \le A < 10$."
+    marks: 1
+    hints:
+      - "Ingat Peraturan Emas: $A$ mestilah antara 1 dan 10."
+
+  - id: Q5
+    text: "Nyatakan jarak satu nanometer, iaitu $0.000\ 000\ 001$ m, dalam **Bentuk Piawai** ($A \times 10^n$)."
+    difficulty: easy
+    learning_objective: "2.2.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "1 \times 10^{-9}"
+      working: |
+        1. Gerakkan titik perpuluhan ke kanan sehingga berada selepas digit bukan sifar pertama (1).
+        2. Kira bilangan lompatan: 9 tempat.
+        3. Memandangkan nombor asal kurang daripada 1, indeks mestilah negatif.
+        4. Hasil: $1 \times 10^{-9}$.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Bentuk piawai betul dengan indeks negatif."
+      - marks: 1
+        criteria: "Pekali (1) betul tetapi nilai atau tanda indeks salah."
+    hints:
+      - "Berapa banyak 'lompatan' titik perpuluhan untuk sampai ke belakang angka 1? Kira betul-betul."
+      - "Adakah nanometer itu sangat besar atau sangat kecil? Nombor yang sangat kecil sentiasa guna indeks negatif (-)."
+
+  - id: Q6
+    text: "Hitung $(3.5 \times 10^4) + (2.1 \times 10^3)$. Nyatakan jawapan dalam bentuk piawai."
+    difficulty: medium
+    learning_objective: "2.2.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "3.71 \times 10^4"
+      working: |
+        Kaedah: Laraskan indeks kepada kuasa tertinggi ($10^4$).
+        1. Tukar $2.1 \times 10^3$ kepada $0.21 \times 10^4$.
+        2. Faktorkan: $(3.5 + 0.21) \times 10^4$.
+        3. Jumlahkan pekali: $3.71 \times 10^4$.
+    marks: 3
+    rubric:
+      - marks: 3
+        criteria: "Jawapan akhir betul dalam bentuk piawai."
+      - marks: 2
+        criteria: "Menyelaraskan indeks dengan betul tetapi melakukan kesilapan pengiraan jumlah."
+      - marks: 1
+        criteria: "Berusaha menyelaraskan indeks tetapi salah arah pergerakan titik perpuluhan."
+    hints:
+      - "Tak boleh tambah terus! Kuasa ($10^4$ dan $10^3$) tidak sama. Boleh tak awak samakan indeks dulu?"
+      - "Cuba jadikan kedua-duanya $10^4$. Apa jadi pada perpuluhan $2.1$ bila indeksnya naik?"
+
+  - id: Q7
+    text: "Satu rim kertas mengandungi 800 helai kertas. Ketebalan sehelai kertas ialah $9.4 \times 10^{-3}$ cm. Jika satu timbunan $n$ rim kertas adalah seinggi $225.6$ cm, hitung nilai $n$."
+    difficulty: hard
+    learning_objective: "2.2.3"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "30"
+      working: |
+        1. Ketebalan 1 rim = $800 \times (9.4 \times 10^{-3}) = 7.52$ cm.
+        2. Jumlah tinggi = $225.6$ cm.
+        3. Bilangan rim ($n$) = Jumlah tinggi / Ketebalan 1 rim.
+        4. $n = 225.6 / 7.52 = 30$.
+    marks: 4
+    rubric:
+      - marks: 4
+        criteria: "Nilai 30 rim betul dengan langkah kerja lengkap."
+      - marks: 2
+        criteria: "Mengira ketebalan 1 rim dengan betul tetapi gagal dalam pembahagian akhir."
+    hints:
+      - "Mula-mula, cari berapa tebal SATU rim kertas. Gunakan operasi darab!"
+      - "Sekarang, berapa banyak rim yang muat dalam timbunan $225.6$ cm tu? Gunakan operasi bahagi."
+
+  - id: Q8
+    text: "Sekeping kertas A4 mempunyai panjang $297$ mm dan lebar $210$ mm. Hitung luasnya dalam $m^2$ dan nyatakan jawapan dalam bentuk piawai betul kepada 3 angka bererti."
+    difficulty: hard
+    learning_objective: "2.2.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: exact
+      value: "6.24 \times 10^{-2}"
+      working: |
+        1. Tukar mm kepada m: Panjang = $0.297$ m, Lebar = $0.210$ m.
+        2. Luas = $0.297 \times 0.210 = 0.06237$ $m^2$.
+        3. Tukar ke Bentuk Piawai: $6.237 \times 10^{-2}$.
+        4. Bundar kepada 3 angka bererti: $6.24 \times 10^{-2}$.
+    marks: 4
+    rubric:
+      - marks: 4
+        criteria: "Luas dalam $m^2$ betul, dalam bentuk piawai, dan dibundarkan dengan tepat."
+      - marks: 2
+        criteria: "Mengira luas dengan betul tetapi gagal menukar unit kepada $m^2$ atau gagal dalam pembundaran."
+    hints:
+      - "Hati-hati! Ukuran dalam mm, tapi jawapan mahu dalam $m^2$. Bahagi 1000 untuk setiap sisi dahulu."
+      - "Selepas dapat luas, semak kemahiran 'membundar' awak. Kita hanya mahu 3 angka bererti sahaja!"

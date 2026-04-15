@@ -1,0 +1,54 @@
+id: MT3-07
+topic_id: MT3-07
+provenance: "aligned-with-kpm-textbook-p168-197"
+worked_examples:
+  - id: WE-01
+    topic: "Unjuran Ortogon"
+    difficulty: easy
+    learning_objective: "7.1.1"
+    real_world_analogy: "Bayangkan lampu limpah pentas yang profesional. Jika lampu berada tegak di atas penari, bayang-bayang di lantai (satah) mewakili 'footprint' 2D mereka tanpa sebarang herotan sudut."
+    misconception_alert: "Pelajar sering melukis bayang-bayang yang nampak 3D. Ingat: unjuran ortogon adalah 2D sepenuhnya. Jika anda nampak kedalaman (depth), itu salah!"
+    scenario: "Seorang arkitek sedang mengkaji 'Bangunan Berlian' di Putrajaya. Untuk memudahkan reka bentuk, lukis unjuran ortogon bagi sebuah prisma tegak dengan tapak mengufuk $ABCD$ pada satah mengufuk sebagaimana dilihat dari arah atas (Arah $Z$)."
+    working: |
+      1. Kenal pasti satah unjuran: Satah mengufuk.
+      2. Kenal pasti arah pandangan: Dari atas (Arah $Z$), yang mana adalah normal kepada satah mengufuk.
+      3. Kenal pasti semua bucu prisma: $E, F, G, H, I, J$ (bahagian atas) dan $A, B, C, D$ (bahagian bawah).
+      4. Lukis garis normal daripada setiap bucu atas ($E, F, G, H, I, J$) tegak ke bawah ke satah mengufuk.
+      5. Tandakan titik persilangan pada satah. Bagi prisma tegak, bucu $E$ berada tegak di atas $A$, maka unjuran $E$ ialah titik $A$.
+      6. Sambungkan titik-titik persilangan dengan garis padu tebal.
+      7. Hasil: Unjuran tersebut ialah sebuah segi empat tepat $ABCD$.
+    
+  - id: WE-02
+    topic: "Pelan dan Dongakan"
+    difficulty: medium
+    learning_objective: "7.2.1"
+    real_world_analogy: "Bayangkan anda seorang pakar X-ray. Anda perlu melihat struktur dalaman. Jika sesuatu dinding 'terlindung' di sebalik dinding lain, anda tetap melukisnya, tetapi gunakan 'garis sempang' untuk menunjukkan ia ada di situ walaupun tidak nampak dari luar."
+    misconception_alert: "Tragedi Garis Sempang! Pelajar sering terlupa menggunakan garis sempang bagi sisi terlindung. Sentiasa tanya: 'Boleh tak saya nampak sisi ini dari kedudukan saya berdiri?' Jika tidak nampak tapi sisi itu wujud, ia MESTI sempang."
+    scenario: "Lukis dongakan sisi (dari Arah $Y$) bagi sebuah pepejal gabungan yang terdiri daripada kuboid dan prisma tegak. Terdapat satu sisi dalaman $GH$ yang dihalang oleh permukaan depan."
+    working: |
+      1. Tentukan kedudukan dongakan sisi dalam kaedah empat sukuan (biasanya sukuan ke-2 jika dilihat dari arah kanan).
+      2. Tentukan dimensi ketinggian dan lebar berdasarkan skala objek yang diberi.
+      3. Lukis sempadan luar pandangan sisi menggunakan garis padu tebal (sisi $B/A$ ke $K/J$).
+      4. Kenal pasti sisi dalaman yang terlindung: Sisi $GH$ terlindung daripada Arah $Y$.
+      5. Lukis sisi $GH$ menggunakan garis sempang ($---$).
+      6. Gunakan garis padu halus untuk garis unjuran $45^\circ$ bagi memastikan ia selari dengan Pelan.
+      7. Labelkan semua bucu dengan jelas (contohnya $E/F$ bermaksud $E$ berada di depan $F$).
+
+  - id: WE-03
+    topic: "Penyelesaian Masalah Pelan dan Dongakan"
+    difficulty: hard
+    learning_objective: "7.2.3"
+    real_world_analogy: "Anda adalah kontraktor untuk projek 'Rumah Impian'. Anda mempunyai pelan 2D, dan anda mesti mengira jumlah kos bahan berdasarkan isi padu 3D bangunan sebenar."
+    misconception_alert: "Ralat Skala! Jika skala ialah $1:50$, skala luas ialah $1:50^2$. Lebih selamat untuk menukar semua ukuran lukisan skala kepada ukuran sebenar dalam meter SEBELUM mengira isi padu."
+    scenario: "Satu model skala bagi pondok belajar (Projek STEM) mempunyai luas pelan $20\text{ cm}^2$ dan tinggi dalam dongakan depan $10\text{ cm}$. Jika skala ialah $1:50$, hitung isi padu sebenar pondok itu dalam $\text{m}^3$."
+    working: |
+      1. Fahami: Kita perlukan isi padu sebenar. Skala ialah $1:50$.
+      2. Tukar dimensi model kepada dimensi sebenar:
+         - Luas tapak sebenar: $20\text{ cm}^2 \times 50 \times 50 = 50,000\text{ cm}^2$.
+         - Tinggi sebenar: $10\text{ cm} \times 50 = 500\text{ cm}$.
+      3. Hitung isi padu sebenar dalam $\text{cm}^3$:
+         - $\text{Isi padu} = \text{Luas} \times \text{Tinggi} = 50,000 \times 500 = 25,000,000\text{ cm}^3$.
+      4. Tukar kepada $\text{m}^3$:
+         - Memandangkan $1\text{ m}^3 = 1,000,000\text{ cm}^3$:
+         - $\text{Isi Padu Sebenar} = 25,000,000 / 1,000,000 = 25\text{ m}^3$.
+      5. Semak: Pastikan skala diaplikasikan kepada ketiga-tiga dimensi (Panjang, Lebar, Tinggi). Ya ($50 \times 50 \times 50$).

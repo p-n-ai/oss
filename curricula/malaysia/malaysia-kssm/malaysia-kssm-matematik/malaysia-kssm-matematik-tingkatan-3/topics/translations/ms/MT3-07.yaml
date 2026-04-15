@@ -1,0 +1,89 @@
+id: "MT3-07"
+official_ref: "Bab 7"
+name: "Pelan dan Dongakan"
+subject_grade_id: "malaysia-kssm-matematik-tingkatan-3"
+subject_id: "malaysia-kssm-matematik"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "intermediate"
+tier: "core"
+quality_level: 3
+provenance: "sejajar-dengan-buku-teks-kpm-m/s168-197"
+generated_at: "2026-04-15T15:48:00Z"
+
+content_standards:
+  - id: "7.1"
+    text: "Unjuran Ortogonal"
+  - id: "7.2"
+    text: "Pelan dan Dongakan"
+
+learning_objectives:
+  - id: "7.1.1"
+    text: "Melukis unjuran ortogonal."
+    bloom: "apply"
+  - id: "7.1.2"
+    text: "Membanding dan membezakan antara objek dan unjuran ortogonal yang sepadan."
+    bloom: "analyze"
+  - id: "7.2.1"
+    text: "Melukis pelan dan dongakan suatu objek mengikut skala."
+    bloom: "apply"
+  - id: "7.2.2"
+    text: "Mensintesis pelan dan dongakan suatu objek dan melakar objek tersebut."
+    bloom: "create"
+  - id: "7.2.3"
+    text: "Menyelesaikan masalah yang melibatkan pelan dan dongakan."
+    bloom: "apply"
+
+performance_standards:
+  - level: 1
+    descriptor: "Mempamerkan pengetahuan asas tentang unjuran ortogonal."
+  - level: 2
+    descriptor: "Mempamerkan kefahaman tentang unjuran ortogonal."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman tentang pelan dan dongakan untuk melaksanakan tugasan mudah."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang pelan dan dongakan dalam konteks penyelesaian masalah rutin yang mudah."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang pelan dan dongakan dalam konteks penyelesaian masalah rutin yang kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang pelan dan dongakan dalam konteks penyelesaian masalah bukan rutin secara kreatif."
+
+mastery_criteria:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+prerequisites:
+  required:
+    - id: "MT2-11" # Transformasi I (Konsep asas koordinat & unjuran)
+    - id: "MT3-04" # Lukisan Berskala (Penting untuk 7.2.1)
+
+teaching:
+  sequence:
+    - "Langkah 1: Pengenalan kepada satah (mengufuk, mencancang, condong) dan normal kepada satah [m/s 170]."
+    - "Langkah 2: Mentakrif dan mengenal pasti unjuran ortogonal berdasarkan arah pandangan [m/s 171]."
+    - "Langkah 3: Membanding dan membezakan dimensi objek dengan unjuran ortogonalnya [m/s 179]."
+    - "Langkah 4: Melukis pelan (pandangan atas) dan dongakan (pandangan depan/sisi) mengikut skala penuh [m/s 182]."
+    - "Langkah 5: Mengintegrasikan pelan dan dongakan menggunakan kaedah empat sukuan [m/s 183]."
+    - "Langkah 6: Mensintesis dan melakar objek 3D daripada pelan dan dongakan 2D [m/s 187]."
+    - "Langkah 7: Menyelesaikan masalah kompleks yang melibatkan gabungan pepejal dan ukuran [m/s 190]."
+
+common_misconceptions:
+  - misconception: "Menganggap unjuran ortogonal sebagai lukisan perspektif 3D."
+    remediation: "Gunakan model fizikal untuk menunjukkan bahawa unjuran sentiasa dalam 2D dan berserenjang dengan satah [m/s 171-172]."
+  - misconception: "Gagal menggunakan garis sempang untuk tepi yang terlindung."
+    remediation: "Tekankan bahagian 'TIP' pada muka surat 184 mengenai garis padu tebal vs. garis sempang."
+  - misconception: "Skala yang tidak konsisten antara pandangan yang berbeza."
+    remediation: "Kukuhkan teknik lukisan berskala dan konsistensi perkadaran dari muka surat 182."
+
+engagement_hooks:
+  - "Bangunan Berlian (Putrajaya): Terokai bagaimana seni bina uniknya kelihatan dari pelbagai arah [m/s 168]."
+  - "Seni Bina Sejarah: Bagaimana Mimar Sinan menggunakan pelan sebagai penanda aras reka bentuk masjid [m/s 169]."
+  - "Projek STEM: Mereka bentuk dan membina 'rumah impian' atau 'pondok bacaan' menggunakan model skala [m/s 195]."
+
+ai_teaching_notes: "MT3-07.teaching.md"
+assessments_file: "MT3-07.assessments.yaml"
+examples_file: "MT3-07.examples.yaml"

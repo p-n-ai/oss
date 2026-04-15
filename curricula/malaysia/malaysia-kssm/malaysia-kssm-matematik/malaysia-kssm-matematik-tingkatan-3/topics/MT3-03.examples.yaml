@@ -1,36 +1,70 @@
-topic_id: MT3-03
-provenance: ai-generated
-description: "Worked examples for Matematik Pengguna: Simpanan dan Pelaburan, Kredit dan Hutang"
+topic_id: "MT3-03"
+provenance: "curriculum-architect-validated"
+description: "Mastered worked examples for Consumer Mathematics: Savings, Investments, Credit and Debt."
 worked_examples:
   - id: WE-01
-    topic: "Simpanan dan Faedah Mudah"
-    difficulty: easy
-    real_world_analogy: "Consider simpanan as planting a seed that grows into a tree over time with consistent watering."
-    misconception_alert: "Students often confuse faedah mudah with faedah kompaun, forgetting that faedah mudah is calculated only on the principal."
-    scenario: "Ahmad menyimpan RM1000 di dalam akaun simpanan dengan kadar faedah mudah 3% setahun. Berapakah jumlah wang dalam akaun selepas 2 tahun?"
+    topic: "Simple Interest (Faedah Mudah)"
+    difficulty: "easy"
+    real_world_analogy: "Think of simple interest like a landlord charging rent for a room. The rent is always based on the size of the room (Principal), regardless of how many items you put inside it over time."
+    misconception_alert: "The 'Decimal Trap'! Students often multiply by the whole number (e.g., 3) instead of the decimal (0.03). Always convert % to a fraction or decimal first."
+    scenario: "Encik Zainal deposits RM4,000 in Bank Bunga Raya with a simple interest rate of 2% per annum. How much interest will he earn after 1 year?"
     working: |
-      Step 1: Identify the principal (P), rate (r), and time (t). Here, P = RM1000, r = 3% per annum, t = 2 years.
-      Step 2: Calculate the interest using the formula I = P * r * t. So, I = 1000 * 0.03 * 2 = RM60.
-      Step 3: Add the interest to the principal to find the total amount: Total = P + I = 1000 + 60 = RM1060.
-  
+      1. Identify the variables: $P = 4000$, $r = 2\% = \frac{2}{100} = 0.02$, $t = 1$.
+      2. Use the simple interest formula: $I = Prt$.
+      3. Substitute the values: $I = 4000 \times 0.02 \times 1$.
+      4. Calculate the product: $I = 80 \times 1$.
+      5. Final Answer: The interest earned is $RM80$.
+
   - id: WE-02
-    topic: "Pelaburan dan Faedah Kompaun"
-    difficulty: medium
-    real_world_analogy: "Think of faedah kompaun like a snowball rolling down a hill, picking up more snow and growing larger over time."
-    misconception_alert: "Students may forget that faedah kompaun is applied to the accumulated amount, not just the initial principal."
-    scenario: "Siti melabur RM5000 dalam akaun yang menawarkan faedah kompaun 4% setahun, dikompaunkan setiap tahun. Berapakah nilai pelaburan selepas 3 tahun?"
+    topic: "Compound Interest (Faedah Kompaun)"
+    difficulty: "medium"
+    real_world_analogy: "Compound interest is like a 'Money Snowball.' As it rolls, it picks up snow (interest), and the next turn, the bigger ball picks up even more snow because it has a larger surface area (New Principal)."
+    misconception_alert: "The 'n-Frequency' Trap. Students often forget that $n$ is the number of times interest is compounded *per year*. If it is 'every 6 months', $n$ must be 2, not 6."
+    scenario: "Mrs. Liew saves RM15,000 in a savings account with a rate of 4% per annum, compounded every 6 months. Calculate her total savings at the end of the 3rd year."
     working: |
-      Step 1: Identify the principal (P), rate (r), time (t), and n (compounding frequency). Here, P = RM5000, r = 4% per annum, t = 3 years, n = 1.
-      Step 2: Use the compound interest formula A = P(1 + r/n)^(nt) to calculate the amount: A = 5000(1 + 0.04/1)^(1*3).
-      Step 3: Calculate A = 5000(1.04)^3 = 5000 * 1.124864 = RM5624.32. The investment amount after 3 years is RM5624.32.
-  
+      1. Identify the variables: $P = 15000$, $r = 0.04$, $n = 2$ (twice a year), $t = 3$.
+      2. Use the compound interest formula: $MV = P(1 + \frac{r}{n})^{nt}$.
+      3. Substitute the values: $MV = 15000(1 + \frac{0.04}{2})^{2 \times 3}$.
+      4. Simplify the bracket and exponent: $MV = 15000(1 + 0.02)^6$.
+      5. Calculate the power: $MV = 15000(1.02)^6 \approx 15000(1.12616)$.
+      6. Final calculation: $MV = RM16,892.44$.
+
   - id: WE-03
-    topic: "Kredit dan Bayaran Balik Pinjaman"
-    difficulty: hard
-    real_world_analogy: "Imagine taking a loan as renting a car; you pay to use it over time, but returning it late incurs extra charges."
-    misconception_alert: "Students might underestimate the total cost of a loan by focusing only on the monthly installment, not the long-term interest."
-    scenario: "Ali mengambil pinjaman peribadi RM20,000 dengan kadar faedah tetap 6% setahun untuk tempoh 5 tahun. Hitung jumlah bayaran balik keseluruhan."
+    topic: "Return on Investment (ROI) - Real Estate"
+    difficulty: "hard"
+    real_world_analogy: "ROI is the 'Efficiency Score' of your money. It tells you exactly how many cents you gained for every single Ringgit you originally spent."
+    misconception_alert: "The 'Net Return' Trap. In real estate, ROI is not just (Selling Price - Buying Price). You MUST subtract expenses like legal fees, stamp duty, and agent commissions first."
+    scenario: "Encik Yusuf bought a shoplot for RM600,000. He paid RM15,000 in legal fees and RM18,000 in agent commissions. He later sold it for RM1,300,000. While owning it, he collected RM200,000 in rent. Calculate his ROI."
     working: |
-      Step 1: Determine the principal (P), annual interest rate (r), and loan term (t). Here, P = RM20,000, r = 6% per annum, t = 5 years.
-      Step 2: Calculate the total interest using the simple interest formula I = P * r * t. I = 20000 * 0.06 * 5 = RM6000.
-      Step 3: Add the total interest to the principal to find the total repayment: Total repayment = P + I = 20000 + 6000 = RM26000.
+      1. Calculate Total Return (Profit + Rent):
+         - Capital Gain = $1,300,000 - 600,000 - 15,000 - 18,000 = 667,000$.
+         - Total Return = Capital Gain + Rent = $667,000 + 200,000 = 867,000$.
+      2. Formula: $ROI = \frac{\text{Total Return}}{\text{Initial Investment}} \times 100\%$.
+      3. Using source data substitution: $ROI = \frac{867,000}{600,000} \times 100\%$.
+      4. Simplify: $ROI = 1.445 \times 100\%$.
+      5. Final Answer: $ROI = 144.5\%$.
+
+  - id: WE-04
+    topic: "Credit Card Minimum Payment Impact"
+    difficulty: "hard"
+    real_world_analogy: "Paying only the minimum on a credit card is like trying to dry a flooded room with a single tissue paper while the tap is still running (interest)."
+    misconception_alert: "The 'Interest-Free' Trap. If you do not pay the *full* balance by the due date, you lose the 20-day interest-free period for all current and new transactions!"
+    scenario: "Encik Ahmad has a credit card balance of RM5,200. He makes a minimum payment of 5%. The bank charges an annual interest rate of 18%. If the statement date is 15 days from the expiry of the interest-free period, calculate his balance in the next month."
+    working: |
+      1. Calculate Minimum Payment: $5200 \times \frac{5}{100} = RM260$.
+      2. Find Outstanding Balance: $5200 - 260 = RM4940$.
+      3. Calculate Interest for the period: $4940 \times \frac{18}{100} \times \frac{15}{365} = RM36.54$.
+      4. New Balance: $4940 + 36.54 = RM4,976.54$.
+
+  - id: WE-05
+    topic: "Loan Repayment (Flat Interest)"
+    difficulty: "medium"
+    real_world_analogy: "Flat interest is like a fixed entry fee. No matter how much of the loan you pay back early, the bank calculates the 'fee' based on the very first day you walked in."
+    misconception_alert: "The 'Time-Unit' Trap. In the formula $A = P + Prt$, $t$ MUST be in years. If the loan is for 84 months, you must convert it: $\frac{84}{12} = 7$ years."
+    scenario: "Encik Azlan obtained a personal loan of RM10,000 with a flat interest rate of 4% per annum for 7 years. Calculate his monthly installment."
+    working: |
+      1. Identify: $P = 10000$, $r = 0.04$, $t = 7$.
+      2. Calculate Total Interest: $I = 10000 \times 0.04 \times 7 = RM2800$.
+      3. Calculate Total Repayment ($A$): $10000 + 2800 = RM12800$.
+      4. Calculate Total Months: $7 \times 12 = 84$ months.
+      5. Calculate Monthly Installment: $\frac{12800}{84} = RM152.38$.

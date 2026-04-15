@@ -1,0 +1,137 @@
+id: "MT3-06"
+questions:
+  - id: "MT3-06-Q01"
+    type: "multiple_choice"
+    text: "Berdasarkan ciri-ciri bulatan, jika satu sudut pada lilitan dan satu sudut pusat dicangkum oleh lengkuk yang sama, apakah hubungan antara kedua-dua sudut tersebut?"
+    difficulty: "easy"
+    learning_objective: "6.1.1"
+    tp_level: 1
+    answer:
+      type: "multiple_choice"
+      value: "Saiz sudut pada pusat adalah dua kali ganda saiz sudut pada lilitan."
+      working: |
+        Langkah 1: Kenal pasti sudut yang dicangkum oleh lengkuk yang sama.
+        Langkah 2: Gunakan Teorem: Sudut Pusat = 2 × Sudut pada Lilitan.
+      distractors:
+        - value: "Kedua-dua sudut adalah sama besar."
+          feedback: "Ini hanya benar jika kedua-dua sudut berada pada lilitan. Sudut pusat sentiasa lebih besar jika berkongsi lengkuk yang sama."
+        - value: "Sudut pada lilitan adalah dua kali ganda sudut pusat."
+          feedback: "Anda telah terbalikkan hubungannya! Ingat hukum 'Mak vs Anak': Pusat (Mak) sentiasa lebih besar/dua kali ganda."
+    marks: 1
+
+  - id: "MT3-06-Q02"
+    type: "subjective"
+    text: "Dalam sebuah bulatan berpusat $O$, sudut pada lilitan $\angle ACB = 40^\circ$. Hitung nilai sudut pusat $\angle AOB$ yang dicangkum oleh lengkuk yang sama $AB$."
+    difficulty: "medium"
+    learning_objective: "6.1.1"
+    tp_level: 3
+    answer:
+      type: "exact"
+      value: "80^\circ"
+      working: |
+        Langkah 1: Nyatakan hubungan: $\angle AOB = 2 \times \angle ACB$.
+        Langkah 2: Masukkan nilai: $\angle AOB = 2 \times 40^\circ$.
+        Langkah 3: Hitung: $\angle AOB = 80^\circ$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Penggunaan teorem sudut pusat yang betul."
+      - marks: 1
+        criteria: "Jawapan akhir beserta unit yang betul."
+    hints:
+      - "Lihat lengkuk $AB$. Satu sudut di pusat ($O$) dan satu lagi di tepi. Sudut mana yang perlu didarab dua?"
+      - "Cuba darabkan sudut pada lilitan yang diberi dengan 2."
+
+  - id: "MT3-06-Q03"
+    type: "mapping"
+    text: "Padankan ciri bulatan berikut dengan huraian yang betul."
+    difficulty: "easy"
+    learning_objective: "6.2.1"
+    tp_level: 2
+    answer:
+      type: "multiple_choice"
+      value: "Sisi Empat Kitaran -> Keempat-empat bucu terletak pada lilitan; Sudut Bertentangan -> Hasil tambah ialah 180 darjah."
+      working: "Kenal pasti definisi daripada Buku Teks m/s 144-145."
+    marks: 2
+
+  - id: "MT3-06-Q04"
+    type: "subjective"
+    text: "$ABCD$ ialah sebuah sisi empat kitaran. Diberi $\angle ABC = 75^\circ$ and $\angle BCD = 110^\circ$, cari nilai $\angle ADC$."
+    difficulty: "medium"
+    learning_objective: "6.2.2"
+    tp_level: 3
+    answer:
+      type: "exact"
+      value: "105^\circ"
+      working: |
+        Langkah 1: Kenal pasti sudut bertentangan dalam sisi empat kitaran $ABCD$. $\angle ABC$ bertentangan dengan $\angle ADC$.
+        Langkah 2: Gunakan teorem: $\angle ABC + \angle ADC = 180^\circ$.
+        Langkah 3: Hitung: $\angle ADC = 180^\circ - 75^\circ = 105^\circ$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti sudut bertentangan adalah sudut penggenap (180 darjah)."
+      - marks: 1
+        criteria: "Pengiraan penolakan daripada 180 yang betul."
+    hints:
+      - "Ingat bahawa dalam sisi empat kitaran, 'nombor ajaib' untuk sudut bertentangan ialah 180."
+      - "Sudut manakah yang duduk setentang dengan $\angle ABC$? Gunakan sudut itu untuk menolak daripada 180."
+
+  - id: "MT3-06-Q05"
+    type: "subjective"
+    text: "Garis $PQR$ ialah tangen kepada bulatan pada titik $Q$. $OQ$ ialah jejari bulatan tersebut. Tentukan saiz $\angle OQR$ dan berikan alasan."
+    difficulty: "easy"
+    learning_objective: "6.3.2"
+    tp_level: 2
+    answer:
+      type: "exact"
+      value: "90^\circ"
+      working: |
+        Langkah 1: Kenal pasti garis sebagai tangen dan $OQ$ sebagai jejari.
+        Langkah 2: Gunakan teorem Tangen-Jejari: Jejari yang bersilang dengan tangen pada titik ketangenan akan membentuk sudut 90 darjah.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan 90 darjah."
+      - marks: 1
+        criteria: "Alasan: Jejari adalah berserenjang dengan tangen."
+    hints:
+      - "Fikirkan tentang peraturan 'Salaman 90 Darjah' antara jejari dan tangen."
+
+  - id: "MT3-06-Q06"
+    type: "subjective"
+    text: "Satu sistem gear mempunyai dua bulatan dengan tangen sepunya. Menggunakan konsep 'Tangen Sepunya' (Buku Teks m/s 157), jika dua bulatan itu bersentuhan pada satu titik di luar, berapakah jumlah tangen sepunya yang boleh dilukis?"
+    difficulty: "hard"
+    learning_objective: "6.3.3"
+    tp_level: 4
+    answer:
+      type: "exact"
+      value: "3"
+      working: |
+        Langkah 1: Visualisasikan dua bulatan yang bersentuhan di luar.
+        Langkah 2: Kenal pasti dua tangen sepunya di bahagian luar.
+        Langkah 3: Kenal pasti satu tangen sepunya di bahagian dalam yang melalui titik sentuhan tersebut.
+    marks: 3
+    rubric:
+      - marks: 2
+        criteria: "Mengenal pasti ketiga-tiga laluan tangen."
+      - marks: 1
+        criteria: "Bilangan akhir yang betul."
+    hints:
+      - "Jangan lihat bahagian luar sahaja. Adakah terdapat garis yang boleh menyentuh kedua-dua bulatan tepat pada tempat mereka bertemu?"
+
+  - id: "MT3-06-Q07"
+    type: "subjective"
+    text: "Seorang pereka mencipta logo menggunakan bulatan dan segitiga di mana satu sisi segitiga itu adalah tangen. Jika sudut dalam tembereng selang-seli ialah $65^\circ$, berapakah saiz sudut di antara tangen dengan perentas tersebut?"
+    difficulty: "hard"
+    learning_objective: "6.4.1"
+    tp_level: 5
+    answer:
+      type: "exact"
+      value: "65^\circ"
+      working: |
+        Langkah 1: Gunakan Teorem Tembereng Selang-seli.
+        Langkah 2: Sudut di antara tangen dengan perentas adalah sama dengan sudut dalam tembereng selang-seli yang dicangkum oleh perentas itu.
+    marks: 2
+    hints:
+      - "Ini adalah hukum 'Pantulan Cermin'. Jika di dalam adalah 65, berapakah nilainya di luar?"

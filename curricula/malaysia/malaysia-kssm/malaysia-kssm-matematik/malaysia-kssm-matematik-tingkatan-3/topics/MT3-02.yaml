@@ -1,62 +1,99 @@
 id: MT3-02
 official_ref: "Bab 2"
-name: "Bentuk Piawai"
+name: "Standard Form"
 name_en: "Standard Form"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-3
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: beginner
 tier: core
+
 content_standards:
-    - id: "2.1"
-      text: "Angka Bererti"
-      text_en: "Significant Figures"
-    - id: "2.2"
-      text: "Bentuk Piawai"
-      text_en: "Standard Form"
+  - id: "2.1"
+    text_en: "Significant Figures"
+  - id: "2.2"
+    text_en: "Standard Form"
+
 learning_objectives:
-    - id: "2.1.1"
-      text: "Menerangkan maksud angka bererti dan seterusnya menentukan bilangan angka bererti suatu nombor."
-      text_en: "Explain the meaning of significant figures and subsequently determine the number of significant figures of a number."
-      bloom: understand
-    - id: "2.1.2"
-      text: "Membundarkan suatu nombor kepada bilangan angka bererti yang tertentu."
-      text_en: "Round a number to a specified number of significant figures."
-      bloom: apply
-    - id: "2.2.1"
-      text: "Mengenal dan menulis nombor dalam bentuk piawai."
-      text_en: "Recognize and write numbers in standard form."
-      bloom: understand
-    - id: "2.2.2"
-      text: "Melaksanakan operasi asas aritmetik yang melibatkan nombor dalam bentuk piawai."
-      text_en: "Perform basic arithmetic operations involving numbers in standard form."
-      bloom: apply
-    - id: "2.2.3"
-      text: "Menyelesaikan masalah yang melibatkan nombor dalam bentuk piawai."
-      text_en: "Solve problems involving numbers in standard form."
-      bloom: apply
+  - id: "2.1.1"
+    content_standard_id: "2.1"
+    text_en: "Explain the meaning of significant figures and subsequently determine the number of significant figures of a number."
+    bloom: understand
+    tp_level: 2
+  - id: "2.1.2"
+    content_standard_id: "2.1"
+    text_en: "Round off a number to certain numbers of significant figures."
+    bloom: apply
+    tp_level: 3
+  - id: "2.2.1"
+    content_standard_id: "2.2"
+    text_en: "Recognise and write numbers in standard form."
+    bloom: understand
+    tp_level: 2
+  - id: "2.2.2"
+    content_standard_id: "2.2"
+    text_en: "Perform basic arithmetic operations involving numbers in standard form."
+    bloom: apply
+    tp_level: 3
+  - id: "2.2.3"
+    content_standard_id: "2.2"
+    text_en: "Solve problems involving numbers in standard form."
+    bloom: apply
+    tp_level: [4, 5, 6]
+
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate the basic knowledge of significant figures and standard form."
+  - level: 2
+    descriptor_en: "Demonstrate the understanding of significant figures and standard form."
+  - level: 3
+    descriptor_en: "Apply the understanding of significant figures and standard form to perform simple tasks."
+  - level: 4
+    descriptor_en: "Apply appropriate knowledge and skills of standard form in the context of simple routine problem solving."
+  - level: 5
+    descriptor_en: "Apply appropriate knowledge and skills of standard form in the context of complex routine problem solving."
+  - level: 6
+    descriptor_en: "Apply appropriate knowledge and skills of standard form in the context of non-routine problem solving."
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
 prerequisites:
-    required: []
-bloom_levels:
-    - understand
-    - apply
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-29T15:27:23Z"
+  required: 
+    - "MT1-01"
+    - "MT3-01"
+  recommended: []
+
 teaching:
-    sequence:
-        - 'Step 1: Introduce significant figures and their importance (20 min)'
-        - 'Step 2: Teach rounding numbers to a specific number of significant figures (15 min)'
-        - 'Step 3: Demonstrate writing numbers in standard form (20 min)'
-        - 'Step 4: Guide students through basic arithmetic operations with standard form (25 min)'
-        - 'Step 5: Apply standard form in real-world problem-solving scenarios (30 min)'
-    common_misconceptions:
-        - misconception: All digits are significant figures
-          remediation: Clarify the difference between significant digits and significant figures with examples
-        - misconception: Standard form is just a decorative way to write numbers
-          remediation: Show practical applications and relevance in science and geography
+  sequence:
+    - 'Step 1: Concept of estimation and approximation in real life (Page 32) (15 min)'
+    - 'Step 2: Determining the number of significant figures in integers and decimals (Page 33-34) (25 min)'
+    - 'Step 3: Rounding off numbers to specific significant figures (Page 35-36) (20 min)'
+    - 'Step 4: Recognizing and converting single numbers to standard form (A x 10^n) (Page 37-39) (30 min)'
+    - 'Step 5: Performing addition, subtraction, multiplication, and division in standard form (Page 40-42) (40 min)'
+    - 'Step 6: Real-world problem solving and non-routine applications (TP4-TP6) (Page 43-47) (45 min)'
+
+common_misconceptions:
+  - misconception: "All zeros are significant figures."
+    remediation: "Explain that leading zeros in decimals (e.g., 0.005) are not significant; they only determine place value (Page 34)."
+  - misconception: "Positive and negative indices in standard form represent the same direction of decimal movement."
+    remediation: "Clarify that positive indices represent large numbers (>10) while negative indices represent small numbers (<1) (Page 37)."
+  - misconception: "Adding or subtracting numbers in standard form with different indices by simply adding the coefficients."
+    remediation: "Teach factorisation or index conversion to the same power before adding/subtracting (Page 40)."
+
 engagement_hooks:
-    - Compare city populations or distances between stars using standard form to highlight importance in science
-    - Discuss the relevance of standard form in calculating astronomical distances
+  - "Use astronomical distances (light years to km) to show why writing trillions of zeros is inefficient (Page 30)."
+  - "Discuss nanotechnology and the size of a single nanometre (0.000 000 001 metre) to ground small standard form values (Page 38)."
+
+quality_level: 3
+provenance: "curriculum-architect-validated"
+generated_at: "2026-04-15T10:45:20Z"
+ai_teaching_notes: "MT3-02.teaching.md"
+assessments_file: "MT3-02.assessments.yaml"
+examples_file: "MT3-02.examples.yaml"

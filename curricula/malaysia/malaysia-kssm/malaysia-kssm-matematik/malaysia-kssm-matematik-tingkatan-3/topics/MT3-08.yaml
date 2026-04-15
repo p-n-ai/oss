@@ -1,57 +1,75 @@
 id: MT3-08
-official_ref: "Bab 8"
-name: "Lokus dalam Dua Dimensi"
-name_en: "Locus in Two Dimensions"
+official_ref: "Chapter 8"
+name_en: "Loci in Two Dimensions"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-3
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: intermediate
 tier: core
+quality_level: 3
+
 content_standards:
-    - id: "8.1"
-      text: "Lokus"
-      text_en: "Locus"
-    - id: "8.2"
-      text: "Lokus dalam Dua Dimensi"
-      text_en: "Locus in Two Dimensions"
+  - id: "8.1"
+    text_en: "Loci"
+  - id: "8.2"
+    text_en: "Loci in Two Dimensions"
+
 learning_objectives:
-    - id: "8.1.1"
-      text: "Mengenal lokus dalam situasi kehidupan sebenar, dan seterusnya menerangkan maksud lokus."
-      text_en: "Recognize locus in real-life situations, and subsequently explain the meaning of locus."
-      bloom: understand
-    - id: "8.2.1"
-      text: "Memerihal lokus bagi titik yang (i) berjarak tetap dari satu titik tetap, (ii) berjarak sama dari dua titik tetap, (iii) berjarak tetap dari satu garis lurus, (iv) berjarak sama dari dua garis lurus yang selari, dan (v) berjarak sama dari dua garis lurus yang bersilang, dan seterusnya membina lokus tersebut."
-      text_en: "Describe the locus of a point that is (i) at a fixed distance from a fixed point, (ii) equidistant from two fixed points, (iii) at a fixed distance from a straight line, (iv) equidistant from two parallel lines, and (v) equidistant from two intersecting lines, and subsequently construct the locus."
-      bloom: apply
-    - id: "8.2.2"
-      text: "Menentukan lokus yang memenuhi dua atau lebih syarat."
-      text_en: "Determine the locus that satisfies two or more conditions."
-      bloom: apply
-    - id: "8.2.3"
-      text: "Menyelesaikan masalah yang melibatkan lokus."
-      text_en: "Solve problems involving locus."
-      bloom: apply
+  - id: "8.1.1"
+    text_en: "Recognize loci in real life situations and hence explain the meaning of locus."
+    bloom: understand
+    tp_level: 2
+  - id: "8.2.1"
+    text_en: "Describe the locus of points that are of (i) constant distance from a fixed point, (ii) equidistant from two fixed points, (iii) constant distance from a straight line, (iv) equidistant from two parallel lines, and (v) equidistant from two intersecting lines, and hence construct the locus."
+    bloom: apply
+    tp_level: 3
+  - id: "8.2.2"
+    text_en: "Determine the locus that satisfies two or more conditions."
+    bloom: apply
+    tp_level: 4
+  - id: "8.2.3"
+    text_en: "Solve problems involving loci."
+    bloom: apply
+    tp_level: 5
+
+mastery_criteria:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
 prerequisites:
-    required: []
-bloom_levels:
-    - understand
-    - apply
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-29T15:27:23Z"
+  required:
+    - "Basic understanding of points, lines, and distance in 2D geometry"
+    - "Proficiency in using geometric tools (ruler and compasses)"
+
 teaching:
-    sequence:
-        - 'Step 1: Introduce the concept of locus with simple examples like a fixed distance from a point (15 min)'
-        - 'Step 2: Discuss different types of loci from fixed points and lines (20 min)'
-        - 'Step 3: Practice constructing loci using geometric tools (25 min)'
-        - 'Step 4: Solve practical problems involving loci (20 min)'
-    common_misconceptions:
-        - misconception: Locus is only related to circles
-          remediation: Provide varied examples with different locus shapes
-        - misconception: All loci are symmetrical
-          remediation: Show examples of non-symmetrical loci
-engagement_hooks:
-    - 'Use city planning examples: how architects determine building locations equidistant from two main roads'
-    - Discuss how engineers use loci in designing roadways and bridges
+  sequence:
+    - "Step 1: Introduction to the concept of Locus using real-world movements like a swinging pendulum or falling fruit (15 min)"
+    - "Step 2: Exploring the five basic types of loci based on fixed points and lines (20 min)"
+    - "Step 3: Hands-on construction of loci using geometric tools and dynamic software like GeoGebra (25 min)"
+    - "Step 4: Determining intersections of loci and solving complex multi-condition problems (20 min)"
+  
+  common_misconceptions:
+    - misconception: "Locus is only related to circles."
+      remediation: "Provide varied examples such as parallel lines (locus from a straight line) and angle bisectors (locus from intersecting lines)."
+    - misconception: "A locus is a single point rather than a set of points."
+      remediation: "Use animations to show the trajectory or 'trace' left by a moving point satisfying a condition."
+    - misconception: "Confusing 'equidistant from two points' with 'parallel to a line'."
+      remediation: "Explicitly contrast the perpendicular bisector with parallel line constructions."
+
+  engagement_hooks:
+    - "City Planning: How architects determine hospital locations that are equidistant from two major residential zones."
+    - "Sports Science: Analyzing the trajectory of a basketball shot or a football kick as a curve locus."
+    - "Daily Tech: Explaining how car windshield wipers use a locus to clear the maximum area."
+
+ai_teaching_notes: "MT3-08.teaching.md"
+assessments_file: "MT3-08.assessments.yaml"
+examples_file: "MT3-08.examples.yaml"
+
+sync_checked: true
+provenance: ai-generated
+generated_at: "2026-04-15T16:16:41Z"

@@ -1,140 +1,139 @@
+id: MT3-07
 topic_id: MT3-07
-provenance: ai-generated
-
+provenance: "aligned-with-kpm-textbook-p168-197"
 questions:
-  # Learning Objective 7.1.1
+  # --- Subchapter 7.1: Orthogonal Projections ---
   - id: Q1
-    text: "Lukis unjuran ortogon bagi kubus dengan panjang sisi 4 cm."
-    difficulty: medium
-    learning_objective: LO1
-    tp_level: 2
+    text: "Which of the following describes an orthogonal projection?"
+    difficulty: easy
+    learning_objective: "7.1.1"
+    tp_level: 1
     kbat: false
     answer:
-      type: free_text
-      value: "Unjuran ortogon dengan sisi 4 cm."
+      type: multiple_choice
+      value: "An image formed on a plane when the projected line from an object is perpendicular to the plane."
       working: |
-        1. Lukis satu sisi kubus sebagai segi empat tepat dengan panjang dan lebar 4 cm.
-        2. Ulangi langkah untuk dua sisi lain yang berserenjang dengan sisi pertama.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Lukis satu sisi dengan betul."
-      - marks: 2
-        criteria: "Lukis dua sisi berserenjang dengan betul."
-      - marks: 3
-        criteria: "Lukis ketiga-tiga sisi dengan betul."
+        Step 1: Recall the definition of 'orthogonal' which means at right angles (90 degrees).
+        Step 2: Compare with DSKP/Textbook definition on page 171.
+      distractors:
+        - value: "A three-dimensional sketch of an object seen from a specific corner."
+          feedback: "That sounds more like a perspective drawing. Orthogonal projections are strictly 2D images formed perpendicular to a plane."
+        - value: "The shadow of an object cast by a light source at an inclined angle."
+          feedback: "If the angle is inclined, it is not 'orthogonal'. The projection must be perpendicular (normal) to the plane."
+    marks: 1
     hints:
-      - level: 1
-        text: "Ingat bahawa unjuran ortogon melibatkan lukisan pandangan hadapan, sisi, dan atas."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Pastikan semua sisi berserenjang dilukis dengan ukuran tepat."
+      - "Think about the word 'Orthogonal'. What angle does it imply?"
+      - "Check page 171 of your textbook. Look for the relationship between the projected line and the plane."
 
-  # Learning Objective 7.1.2
   - id: Q2
-    text: "Bandingkan unjuran ortogon bagi prisma segitiga dengan unjuran ortogon bagi silinder. Nyatakan satu perbezaan utama."
+    text: "State whether the following statement is TRUE or FALSE: 'The length of the projected side in an orthogonal projection is always equal to or shorter than the actual length of the side of the object.'"
     difficulty: medium
-    learning_objective: LO2
-    tp_level: 3
-    kbat: true
-    answer:
-      type: free_text
-      value: "Prisma segitiga mempunyai sisi rata dalam unjurannya, manakala silinder mempunyai sisi lengkung."
-      working: |
-        1. Lukis unjuran ortogon bagi prisma segitiga dan silinder.
-        2. Analisis bentuk sisi dalam unjuran.
-        3. Kenal pasti bahawa prisma segitiga mempunyai sisi rata, silinder mempunyai sisi lengkung.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menyatakan perbezaan dalam bentuk sisi unjuran."
-      - marks: 2
-        criteria: "Menyatakan perbezaan secara jelas antara sisi rata dan lengkung."
-    hints:
-      - level: 1
-        text: "Fokus kepada bentuk sisi dalam unjuran ortogon."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Jangan keliru antara sisi rata dan permukaan melengkung."
-
-  # Learning Objective 7.2.1
-  - id: Q3
-    text: "Lukis pelan dan dongakan bagi sebuah rumah kecil berbentuk segi empat tepat dengan ukuran panjang 8 m dan lebar 6 m. Gunakan skala 1:100."
-    difficulty: medium
-    learning_objective: LO3
-    tp_level: 2
-    kbat: false
-    answer:
-      type: free_text
-      value: "Pelan dan dongakan berskala 8 cm x 6 cm."
-      working: |
-        1. Hitung ukuran skala: 8 m = 8 cm, 6 m = 6 cm.
-        2. Lukis pelan dengan panjang 8 cm dan lebar 6 cm.
-        3. Lukis dongakan sisi dengan ukuran yang sama.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Mengira skala dengan betul."
-      - marks: 2
-        criteria: "Lukis pelan dengan ukuran skala."
-      - marks: 3
-        criteria: "Lukis pelan dan dongakan dengan ukuran skala."
-    hints:
-      - level: 1
-        text: "Pastikan anda memahami konsep skala 1:100."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Jangan gunakan ukuran sebenar, gunakan ukuran skala."
-
-  # Learning Objective 7.2.2
-  - id: Q4
-    text: "Sintesiskan pelan dan dongakan bagi objek berbentuk L dengan panjang 5 cm, lebar 3 cm, dan tinggi 2 cm. Lukis objek tersebut."
-    difficulty: medium
-    learning_objective: LO4
-    tp_level: 4
-    kbat: true
-    answer:
-      type: free_text
-      value: "Objek berbentuk L yang dilukis berdasarkan pelan dan dongakan."
-      working: |
-        1. Lukis pelan dengan panjang 5 cm dan lebar 3 cm.
-        2. Tambah bahagian L yang melebar 3 cm.
-        3. Lukis dongakan dengan tinggi 2 cm.
-        4. Gabungkan pelan dan dongakan menjadi objek 3D.
-    marks: 4
-    rubric:
-      - marks: 1
-        criteria: "Lukis pelan dengan betul."
-      - marks: 2
-        criteria: "Lukis dongakan dengan betul."
-      - marks: 3
-        criteria: "Gabungkan pelan dan dongakan dengan betul."
-      - marks: 4
-        criteria: "Melakar objek 3D dengan tepat."
-    hints:
-      - level: 1
-        text: "Perhatikan bahagian L yang lebih menonjol."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Jangan abaikan dimensi yang memberi bentuk kepada objek."
-
-  # Learning Objective 7.2.3
-  - id: Q5
-    text: "Selesaikan masalah berikut: Sebuah taman berbentuk segi empat tepat berukuran 20 m x 15 m hendak dilukis dalam pelan berskala 1:200. Berapakah luas dalam pelan?"
-    difficulty: medium
-    learning_objective: LO5
+    learning_objective: "7.1.2"
     tp_level: 2
     kbat: false
     answer:
       type: exact
-      value: "15 cm^2"
+      value: "TRUE"
       working: |
-        1. Hitung ukuran skala: 20 m = 10 cm, 15 m = 7.5 cm.
-        2. Kira luas pelan: 10 cm x 7.5 cm = 75 cm^2.
-    marks: 2
+        Step 1: Analyze Brainstorming 2 (page 179).
+        Step 2: If a side is parallel to the plane, length is equal. If it is inclined, the projection is shorter.
+      distractors: []
+    marks: 1
+    hints:
+      - "Imagine a pencil held parallel to the floor vs. held at an angle. Which shadow is longer?"
+      - "Look at the 'Results of findings' table on page 180 regarding side lengths."
+
+  - id: Q3
+    text: "A cylinder with a diameter of $4\\text{ cm}$ and height of $6\\text{ cm}$ is placed on a horizontal plane. Draw the orthogonal projection as viewed from the side (vertical plane)."
+    difficulty: medium
+    learning_objective: "7.1.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: free_text
+      value: "A rectangle with a width of 4 cm and a height of 6 cm."
+      working: |
+        Step 1: Identify the viewing direction (side view).
+        Step 2: The 'normal' to the vertical plane from the cylinder's curved surface forms a rectangle.
+        Step 3: Dimensions: Diameter becomes width (4 cm), Height remains height (6 cm).
+    marks: 3
     rubric:
       - marks: 1
-        criteria: "Mengira ukuran skala dengan betul."
+        criteria: "Correct shape (Rectangle)."
       - marks: 2
-        criteria: "Mengira luas pelan dengan betul."
+        criteria: "Correct labels and dimensions ($4\\text{ cm} \\times 6\\text{ cm}$)."
+      - marks: 3
+        criteria: "All solid lines drawn neatly (no hidden edges for this view)."
     hints:
-      - level: 1
-        text: "Fahami konsep skala dan bagaimana ia digunakan untuk mengira luas."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Pastikan anda menggunakan unit ukuran yang betul dalam pengiraan."
+      - "If you look at a tin of beans directly from the side, do you see a circle or a flat rectangle?"
+      - "Check Example 5(b) on page 176 for the exact visual reference."
+
+  # --- Subchapter 7.2: Plans and Elevations ---
+  - id: Q4
+    text: "When drawing a side elevation using the four-quadrant method, which type of line is used to represent an edge that is hidden from view?"
+    difficulty: easy
+    learning_objective: "7.2.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Dashed line"
+      working: |
+        Step 1: Refer to 'TIPS' on page 184.
+        Step 2: Hidden sides = dashed lines; Visible sides = thick solid lines.
+      distractors:
+        - value: "Thin solid line"
+          feedback: "Thin solid lines are used for construction and projection lines, not for the object's edges."
+        - value: "Thick solid line"
+          feedback: "Thick solid lines are only for edges that you can actually see from that direction."
+    marks: 1
+    hints:
+      - "Think about the 'X-ray' rule mentioned in your teaching notes. How do we draw what's hidden?"
+      - "Look at the 'TIPS' box on page 184."
+
+  - id: Q5
+    text: "Sketch the three-dimensional object synthesized from a Plan (square), a Front Elevation (triangle), and a Side Elevation (triangle)."
+    difficulty: hard
+    learning_objective: "7.2.2"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: "A right pyramid with a square base."
+      working: |
+        Step 1: Analyze the Plan - the base is a square.
+        Step 2: Analyze Elevations - both are triangles, meaning the sides slope to a single vertex.
+        Step 3: Combine: Square base + triangular sides = Pyramid.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Identify the object as a pyramid."
+      - marks: 4
+        criteria: "Sketch clearly shows the 3D perspective with dashed lines for hidden back edges."
+    hints:
+      - "If the bottom is a square but the front and side views look like the Great Pyramid of Giza, what is it?"
+      - "Refer to page 188, Example 10 for how to connect vertices to create the solid."
+
+  - id: Q6
+    text: "A project requires building a study hut in an area of $5\\text{ m} \\times 5\\text{ m}$. If the cost of building materials is $\\text{RM } 2.50$ per $1\\text{ cm}^3$ of a scale model, calculate the total cost for a model prism with a base area of $20\\text{ cm}^2$ and height of $10\\text{ cm}$."
+    difficulty: hard
+    learning_objective: "7.2.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: exact
+      value: "500"
+      working: |
+        Step 1: Calculate volume of the model: $\\text{Base Area} \\times \\text{Height} = 20 \\times 10 = 200\\text{ cm}^3$.
+        Step 2: Multiply by cost per unit: $200 \\times 2.50 = 500$.
+        Step 3: Total cost = RM 500.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correct calculation of volume ($200\\text{ cm}^3$)."
+      - marks: 3
+        criteria: "Correct final cost calculation with RM unit."
+    hints:
+      - "First, find the total space (volume) the model takes up in $\\text{cm}^3$."
+      - "Now, if each 'cube' of $\\text{cm}^3$ costs RM 2.50, how much for 200 of them?"
+      - "This relates to the STEM project on page 195 and the problem solving in Example 11."

@@ -1,140 +1,156 @@
-topic_id: MT3-05
-provenance: ai-generated
-
+topic_id: "MT3-05"
+provenance: "curriculum-aligned-rewrite"
 questions:
-  # Learning Objective 5.1.2
+  # 5.1.1 - TP1: Identification (OAP)
   - id: Q1
-    text: "Dalam segi tiga bersudut tegak, jika sudut tirus adalah 30°, apakah nilai nisbah sinus bagi sudut tersebut?"
-    difficulty: medium
-    learning_objective: LO2
+    text: "In a right-angled triangle $PQR$ where $\angle Q = 90^\circ$, if we are looking from the perspective of $\angle PRQ$, which side is the 'opposite side'?"
+    difficulty: "easy"
+    learning_objective: "5.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "PQ"
+      working: |
+        Step 1: Identify the reference angle, which is $\angle PRQ$ (or $\angle R$).
+        Step 2: Locate the side directly across from $\angle R$.
+        Step 3: Side $PQ$ is the opposite side. Side $QR$ is the adjacent side. $PR$ is the hypotenuse.
+      distractors:
+        - value: "QR"
+          feedback: "That is the side 'sitting' next to the angle. Remember, the 'opposite' side is the one you would hit if you threw a ball straight out from the angle!"
+        - value: "PR"
+          feedback: "PR is the longest side opposite the $90^\circ$ angle, making it the Hypotenuse. The hypotenuse never changes, regardless of where your acute angle is."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Stand at corner R. Look straight across the triangle. Which wall are you staring at?"
+
+  # 5.1.2 - TP2: Defining Ratios (OPB)
+  - id: Q2
+    text: "Match the trigonometric ratio to its correct definition based on sides."
+    difficulty: "easy"
+    learning_objective: "5.1.2"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: "mapping"
+      value:
+        "Sine": "Opposite / Hypotenuse"
+        "Cosine": "Adjacent / Hypotenuse"
+        "Tangent": "Opposite / Adjacent"
+      working: |
+        Use the SOH-CAH-TOA mnemonic:
+        SOH: $\sin = O/H$
+        CAH: $\cos = A/H$
+        TOA: $\tan = O/A$
+    marks: 3
+    hints:
+      - level: 1
+        text: "Have you heard of 'SOH-CAH-TOA'? It’s the secret code for these ratios!"
+
+  # 5.1.3 - TP4: Conjecture/Impact (OAP)
+  - id: Q3
+    text: "As the size of an acute angle $\theta$ increases from $10^\circ$ to $80^\circ$, what happens to the value of $\cos \theta$?"
+    difficulty: "medium"
+    learning_objective: "5.1.3"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: "multiple_choice"
+      value: "The value decreases"
+      working: |
+        Step 1: Recall that as the angle increases, the adjacent side becomes shorter relative to the hypotenuse.
+        Step 2: Since $\cos = \text{Adjacent} / \text{Hypotenuse}$, a smaller numerator results in a smaller ratio.
+        Step 3: Therefore, the value approaches 0 as the angle approaches $90^\circ$.
+      distractors:
+        - value: "The value increases"
+          feedback: "Careful! That is true for Sine and Tangent, but Cosine is 'shy'—it gets smaller as the angle gets bigger."
+        - value: "The value remains constant"
+          feedback: "Ratios only stay constant if the angle stays the same. If the angle moves, the ratio must move too!"
+    marks: 1
+    hints:
+      - level: 1
+        text: "Think about the 'CAH' ratio. If the angle opens up wider, does the 'floor' (adjacent side) get longer or shorter?"
+
+  # 5.1.5 - TP3: Special Angles (Subjective)
+  - id: Q4
+    text: "Calculate the value of $2 \sin 30^\circ + \tan 45^\circ$ without using a calculator."
+    difficulty: "medium"
+    learning_objective: "5.1.5"
     tp_level: 3
     kbat: false
     answer:
-      type: exact
-      value: "0.5"
+      type: "exact"
+      value: "2"
       working: |
-        Sinus bagi sudut 30° adalah nisbah sisi bertentangan dengan hipotenus. 
-        Mengikut jadual nisbah trigonometri, $\sin 30^\circ = \frac{1}{2}$.
+        Step 1: Determine $\sin 30^\circ$. From the special angles table, $\sin 30^\circ = 0.5$ or $1/2$.
+        Step 2: Determine $\tan 45^\circ$. Since opposite and adjacent sides are equal, $\tan 45^\circ = 1$.
+        Step 3: Substitute: $2(0.5) + 1 = 1 + 1 = 2$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menulis formula sinus dengan betul."
+        criteria: "Correct substitution of both special angle values."
       - marks: 1
-        criteria: "Menentukan nilai sinus 30° dengan betul."
+        criteria: "Correct final simplified value."
     hints:
       - level: 1
-        text: "Ingat kembali nilai-nilai trigonometri istimewa untuk sudut 30°, 45°, dan 60°."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Sinus 30° adalah nisbah sisi bertentangan dengan hipotenus, bukan sisi bersebelahan."
+        text: "What is the value of $\sin 30^\circ$? It's exactly half! Now, what about the ratio where the two sides are the same length ($45^\circ$ triangle)?"
 
-  # Learning Objective 5.1.3
-  - id: Q2
-    text: "Apakah kesan peningkatan saiz sudut tirus pada nilai kosinus dalam segi tiga bersudut tegak?"
-    difficulty: medium
-    learning_objective: LO3
-    tp_level: 4
-    kbat: true
-    answer:
-      type: free_text
-      value: "Nilai kosinus akan berkurang apabila saiz sudut tirus meningkat."
-      working: |
-        Apabila sudut tirus meningkat, sisi bersebelahan akan menjadi lebih pendek berbanding hipotenus.
-        Oleh itu, nisbah kosinus, yang merupakan $\cos \theta = \frac{\text{sisi bersebelahan}}{\text{hipotenus}}$, akan berkurang.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Menyedari bahawa kosinus melibatkan sisi bersebelahan dan hipotenus."
-      - marks: 1
-        criteria: "Menentukan bahawa sisi bersebelahan menjadi lebih pendek."
-      - marks: 1
-        criteria: "Menjelaskan bahawa nilai kosinus berkurang."
-    hints:
-      - level: 1
-        text: "Pertimbangkan bagaimana perubahan sudut mempengaruhi panjang sisi dalam segi tiga."
-      - level: 2
-        text: "Apakah hubungan antara sisi bersebelahan dan sudut?"
-
-  # Learning Objective 5.1.4
-  - id: Q3
-    text: 'Hitung nilai $\tan 45^\circ$ tanpa menggunakan kalkulator.'
-    difficulty: medium
-    learning_objective: LO4
-    tp_level: 4
-    kbat: false
-    answer:
-      type: exact
-      value: "1"
-      working: |
-        $\tan 45^\circ = \frac{\text{sisi bertentangan}}{\text{sisi bersebelahan}}$. Dalam segi tiga bersudut 45°, kedua-dua sisi adalah sama panjang.
-        Oleh itu, $\tan 45^\circ = \frac{1}{1} = 1$.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Memahami bahawa pada 45°, sisi bertentangan dan bersebelahan adalah sama."
-      - marks: 1
-        criteria: "Menghitung nisbah dengan betul."
-    hints:
-      - level: 1
-        text: "Ingat bahawa dalam segi tiga bersudut 45°, sisi-sisi yang tidak sama panjang adalah sama."
-      - level: 2
-        text: "MISCONCEPTION ALERT: Pastikan anda menggunakan sisi yang betul untuk nisbah tangen."
-
-  # Learning Objective 5.1.6
-  - id: Q4
-    text: "Dalam segi tiga bersudut tegak, sisi bertentangan kepada sudut tirus 60° adalah 6 unit. Cari panjang hipotenus."
-    difficulty: medium
-    learning_objective: LO6
-    tp_level: 4
-    kbat: false
-    answer:
-      type: exact
-      value: "12"
-      working: |
-        Menggunakan $\sin 60^\circ = \frac{\text{sisi bertentangan}}{\text{hipotenus}}$.
-        $\sin 60^\circ = \frac{6}{h}$ dan $\sin 60^\circ = \frac{\sqrt{3}}{2}$.
-        Maka, $\frac{\sqrt{3}}{2} = \frac{6}{h}$.
-        Penyelesaian: $h = \frac{6 \times 2}{\sqrt{3}} = 12$ unit.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Menulis formula sinus dengan betul."
-      - marks: 1
-        criteria: "Menggantikan nilai sinus 60° dengan betul."
-      - marks: 1
-        criteria: "Menghitung panjang hipotenus dengan betul."
-    hints:
-      - level: 1
-        text: 'Gunakan formula sinus: $\sin \theta = \frac{\text{sisi bertentangan}}{\text{hipotenus}}$.'
-      - level: 2
-        text: "MISCONCEPTION ALERT: Pastikan anda menggunakan nisbah yang betul untuk sinus 60°."
-
-  # Learning Objective 5.1.7
+  # 5.1.7 - TP5: Complex Routine (Subjective)
   - id: Q5
-    text: "Seorang pelajar melihat bendera di atas menara dari jarak 50 meter dengan sudut elevasi 30°. Berapakah ketinggian menara tersebut?"
-    difficulty: medium
-    learning_objective: LO7
+    text: "A 5-meter ladder leans against a wall. The foot of the ladder is 3 meters away from the base of the wall. Calculate the angle $\theta$ between the ladder and the ground."
+    difficulty: "hard"
+    learning_objective: "5.1.7"
     tp_level: 5
     kbat: true
     answer:
-      type: exact
-      value: "28.87"
+      type: "free_text"
+      value: "53.13"
       working: |
-        Menggunakan $\tan 30^\circ = \frac{\text{ketinggian}}{\text{jarak}}$, kita ada $\tan 30^\circ = \frac{h}{50}$.
-        $\tan 30^\circ = \frac{1}{\sqrt{3}} \approx 0.577$.
-        Oleh itu, $0.577 = \frac{h}{50}$.
-        Penyelesaian: $h = 0.577 \times 50 \approx 28.87$ meter.
+        Step 1: Identify given sides. Hypotenuse (ladder) = 5m. Adjacent side (ground) = 3m.
+        Step 2: Choose ratio. Adjacent and Hypotenuse involves Cosine (CAH).
+        Step 3: Set equation: $\cos \theta = 3/5 = 0.6$.
+        Step 4: Solve for angle: $\theta = \cos^{-1}(0.6) \approx 53.13^\circ$.
     marks: 4
     rubric:
       - marks: 1
-        criteria: "Menulis formula tangen dengan betul."
+        criteria: "Identify the correct trigonometric ratio (Cosine)."
       - marks: 1
-        criteria: "Menggantikan nilai tangen 30° dengan betul."
+        criteria: "Correct substitution into the cosine formula."
       - marks: 1
-        criteria: "Menetapkan persamaan dengan jarak dengan betul."
+        criteria: "Use of inverse trigonometric function ($\cos^{-1}$)."
       - marks: 1
-        criteria: "Menghitung ketinggian dengan betul."
+        criteria: "Final answer correct to 2 decimal places with unit."
     hints:
       - level: 1
-        text: "Gunakan formula tangen: $\tan \theta = \frac{\text{ketinggian}}{\text{jarak}}$."
+        text: "Draw the triangle. You have the ladder (slanted) and the distance on the floor. Which SOH-CAH-TOA uses 'A' and 'H'?"
       - level: 2
-        text: "MISCONCEPTION ALERT: Perhatikan bahawa jarak adalah sisi bersebelahan, bukan hipotenus."
+        text: "To find the angle itself, you need to use the 'Shift' or 'Inverse' button on your calculator. Look for $\cos^{-1}$."
+
+  # 5.1.7 - TP6: Non-Routine (Subjective)
+  - id: Q6
+    text: "A surveyor stands at point A and measures the angle of elevation to the top of a tower as $30^\circ$. After walking 20 meters closer to the tower to point B, the angle of elevation becomes $60^\circ$. Calculate the height of the tower."
+    difficulty: "hard"
+    learning_objective: "5.1.7"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: "free_text"
+      value: "17.32"
+      working: |
+        Step 1: Let height be $h$ and initial distance be $x+20$.
+        Step 2: From point B: $\tan 60^\circ = h/x \implies h = x\sqrt{3}$.
+        Step 3: From point A: $\tan 30^\circ = h/(x+20) \implies h = (x+20)(1/\sqrt{3})$.
+        Step 4: Equate $h$: $x\sqrt{3} = (x+20)/\sqrt{3} \implies 3x = x+20 \implies 2x = 20 \implies x = 10$.
+        Step 5: Calculate $h$: $h = 10\sqrt{3} \approx 17.32$ meters.
+    marks: 6
+    rubric:
+      - marks: 2
+        criteria: "Forming two correct trigonometric equations using tangent."
+      - marks: 2
+        criteria: "Successful algebraic substitution to eliminate one variable."
+      - marks: 2
+        criteria: "Final height calculated correctly with units."
+    hints:
+      - level: 1
+        text: "This involves two triangles sharing the same height. Try expressing the height 'h' in two different ways using Tangent."

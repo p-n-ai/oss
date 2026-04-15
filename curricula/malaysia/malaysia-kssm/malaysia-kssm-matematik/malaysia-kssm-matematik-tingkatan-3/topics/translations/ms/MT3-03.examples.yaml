@@ -1,0 +1,70 @@
+topic_id: "MT3-03"
+provenance: "curriculum-architect-validated"
+description: "Contoh kerja (worked examples) yang dimantapkan untuk Matematik Pengguna: Simpanan, Pelaburan, Kredit dan Hutang."
+worked_examples:
+  - id: WE-01
+    topic: "Faedah Mudah (Simple Interest)"
+    difficulty: "easy"
+    real_world_analogy: "Bayangkan faedah mudah seperti tuan rumah yang mengenakan sewa bilik. Sewa itu sentiasa berdasarkan saiz bilik (Prinsipal), tidak kira berapa banyak barang yang anda masukkan ke dalamnya dari semasa ke semasa."
+    misconception_alert: "Perangkap Perpuluhan! Pelajar sering mendarab dengan nombor bulat (contoh: 3) bukannya perpuluhan (0.03). Sentiasa tukar % kepada pecahan atau perpuluhan terlebih dahulu."
+    scenario: "Encik Zainal menyimpan RM4,000 di Bank Bunga Raya dengan kadar faedah mudah 2% setahun. Berapakah faedah yang diperoleh Encik Zainal selepas 1 tahun?"
+    working: |
+      1. Kenal pasti pemboleh ubah: $P = 4000$, $r = 2\% = \frac{2}{100} = 0.02$, $t = 1$.
+      2. Gunakan formula faedah mudah: $I = Prt$.
+      3. Gantikan nilai ke dalam formula: $I = 4000 \times 0.02 \times 1$.
+      4. Hitung hasil darab: $I = 80 \times 1$.
+      5. Jawapan Akhir: Faedah yang diperoleh ialah $RM80$.
+
+  - id: WE-02
+    topic: "Faedah Kompaun (Compound Interest)"
+    difficulty: "medium"
+    real_world_analogy: "Faedah kompaun adalah seperti 'Bola Salji Wang.' Sambil ia bergolek, ia memungut salji (faedah), dan pusingan seterusnya, bola yang lebih besar itu memungut lebih banyak salji kerana ia mempunyai luas permukaan yang lebih besar (Prinsipal Baharu)."
+    misconception_alert: "Perangkap Kekerapan-n. Pelajar sering lupa bahawa $n$ ialah bilangan kali faedah dikompaunkan *setahun*. Jika 'setiap 6 bulan', $n$ mestilah 2, bukannya 6."
+    scenario: "Puan Liew menyimpan RM15,000 dalam akaun simpanan dengan kadar 4% setahun, dikompaunkan setiap 6 bulan. Hitung jumlah simpanannya pada akhir tahun ke-3."
+    working: |
+      1. Kenal pasti pemboleh ubah: $P = 15000$, $r = 0.04$, $n = 2$ (dua kali setahun), $t = 3$.
+      2. Gunakan formula faedah kompaun: $MV = P(1 + \frac{r}{n})^{nt}$.
+      3. Gantikan nilai: $MV = 15000(1 + \frac{0.04}{2})^{2 \times 3}$.
+      4. Permudahkan kurungan dan eksponen: $MV = 15000(1 + 0.02)^6$.
+      5. Hitung kuasa: $MV = 15000(1.02)^6 \approx 15000(1.12616)$.
+      6. Pengiraan akhir: $MV = RM16,892.44$.
+
+  - id: WE-03
+    topic: "Pulangan Pelaburan (ROI) - Hartanah"
+    difficulty: "hard"
+    real_world_analogy: "ROI ialah 'Skor Kecekapan' wang anda. Ia memberitahu anda dengan tepat berapa sen yang anda untung bagi setiap satu Ringgit yang anda belanjakan pada asalnya."
+    misconception_alert: "Perangkap Pulangan Bersih. Dalam hartanah, ROI bukan sekadar (Harga Jual - Harga Beli). Anda MESTI menolak perbelanjaan seperti kos guaman, duti setem, dan komisen ejen terlebih dahulu."
+    scenario: "Encik Yusuf membeli satu lot kedai dengan harga RM600,000. Beliau membayar RM15,000 untuk kos guaman dan RM18,000 untuk komisen ejen. Beliau kemudian menjualnya dengan harga RM1,300,000. Sepanjang pemilikan, beliau mengumpul sewa sebanyak RM200,000. Hitung ROI beliau."
+    working: |
+      1. Hitung Jumlah Pulangan (Keuntungan Modal + Sewa):
+         - Keuntungan Modal = $1,300,000 - 600,000 - 15,000 - 18,000 = 667,000$.
+         - Jumlah Pulangan = Keuntungan Modal + Sewa = $667,000 + 200,000 = 867,000$.
+      2. Formula: $ROI = \frac{\text{Jumlah Pulangan}}{\text{Pelaburan Awal}} \times 100\%$.
+      3. Gantikan nilai: $ROI = \frac{867,000}{600,000} \times 100\%$.
+      4. Permudahkan: $ROI = 1.445 \times 100\%$.
+      5. Jawapan Akhir: $ROI = 144.5\%$.
+
+  - id: WE-04
+    topic: "Kesan Pembayaran Minimum Kad Kredit"
+    difficulty: "hard"
+    real_world_analogy: "Membayar hanya jumlah minimum pada kad kredit adalah seperti cuba mengeringkan bilik yang banjir dengan sehelai tisu semasa paip (faedah) masih terbuka."
+    misconception_alert: "Perangkap Tanpa Faedah. Jika anda tidak membayar baki *penuh* sebelum tarikh tamat tempoh, anda kehilangan tempoh bebas faedah 20 hari untuk semua transaksi sedia ada dan baharu!"
+    scenario: "Encik Ahmad mempunyai baki kad kredit sebanyak RM5,200. Beliau membuat pembayaran minimum 5%. Bank mengenakan kadar faedah tahunan 18%. Hitung baki pada bulan hadapan jika tempoh bebas faedah telah tamat selama 15 hari."
+    working: |
+      1. Kira Pembayaran Minimum: $5200 \times \frac{5}{100} = RM260$.
+      2. Cari Baki Tertunggak: $5200 - 260 = RM4940$.
+      3. Kira Faedah untuk tempoh tersebut: $4940 \times \frac{18}{100} \times \frac{15}{365} = RM36.54$.
+      4. Baki Baharu: $4940 + 36.54 = RM4,976.54$.
+
+  - id: WE-05
+    topic: "Bayaran Balik Pinjaman (Faedah Sama Rata)"
+    difficulty: "medium"
+    real_world_analogy: "Faedah sama rata adalah seperti yuran kemasukan tetap. Tidak kira berapa banyak pinjaman yang anda bayar awal, bank mengira 'yuran' tersebut berdasarkan jumlah hari pertama anda meminjam."
+    misconception_alert: "Perangkap Unit Masa. Dalam formula $A = P + Prt$, $t$ MESTI dalam tahun. Jika pinjaman adalah untuk 84 bulan, anda mesti menukarnya: $\frac{84}{12} = 7$ tahun."
+    scenario: "Encik Azlan membuat pinjaman peribadi sebanyak RM10,000 dengan kadar faedah sama rata 4% setahun selama 7 tahun. Hitung ansuran bulanan beliau."
+    working: |
+      1. Kenal pasti: $P = 10000$, $r = 0.04$, $t = 7$.
+      2. Kira Jumlah Faedah: $I = 10000 \times 0.04 \times 7 = RM2800$.
+      3. Kira Jumlah Bayaran Balik ($A$): $10000 + 2800 = RM12800$.
+      4. Kira Jumlah Bulan: $7 \times 12 = 84$ bulan.
+      5. Kira Ansuran Bulanan: $\frac{12800}{84} = RM152.38$.

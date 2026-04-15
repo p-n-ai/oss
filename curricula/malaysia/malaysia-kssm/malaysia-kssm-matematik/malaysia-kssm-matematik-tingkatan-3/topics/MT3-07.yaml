@@ -1,66 +1,89 @@
-id: MT3-07
-official_ref: "Bab 7"
-name: "Pelan dan Dongakan"
+id: "MT3-07"
+official_ref: "Chapter 7"
 name_en: "Plans and Elevations"
-subject_grade_id: malaysia-kssm-matematik-tingkatan-3
-subject_id: malaysia-kssm-matematik
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: beginner
-tier: core
+subject_grade_id: "malaysia-kssm-matematik-tingkatan-3"
+subject_id: "malaysia-kssm-matematik"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "en"
+difficulty: "intermediate"
+tier: "core"
+quality_level: 3
+provenance: "aligned-with-kpm-textbook-p168-197"
+generated_at: "2026-04-15T15:48:08Z"
+
 content_standards:
-    - id: "7.1"
-      text: "Unjuran Ortogon"
-      text_en: "Orthogonal Projections"
-    - id: "7.2"
-      text: "Pelan dan Dongakan"
-      text_en: "Plans and Elevations"
+  - id: "7.1"
+    text_en: "Orthogonal Projections"
+  - id: "7.2"
+    text_en: "Plans and Elevations"
+
 learning_objectives:
-    - id: 7.1.1
-      text: "Melukis unjuran ortogon."
-      text_en: "Draw orthogonal projections."
-      bloom: apply
-    - id: 7.1.2
-      text: "Membanding dan membeza antara objek dan unjuran ortogon yang sepadan."
-      text_en: "Compare and differentiate between objects and their corresponding orthogonal projections."
-      bloom: analyze
-    - id: 7.2.1
-      text: "Melukis pelan dan dongakan suatu objek mengikut skala."
-      text_en: "Draw plans and elevations of an object according to scale."
-      bloom: apply
-    - id: 7.2.2
-      text: "Mensintesis pelan dan dongakan suatu objek dan melakar objek tersebut."
-      text_en: "Synthesize plans and elevations of an object and sketch the object."
-      bloom: create
-    - id: 7.2.3
-      text: "Menyelesaikan masalah yang melibatkan pelan dan dongakan."
-      text_en: "Solve problems involving plans and elevations."
-      bloom: apply
+  - id: "7.1.1"
+    text_en: "Draw orthogonal projections."
+    bloom: "apply"
+  - id: "7.1.2"
+    text_en: "Compare and contrast between objects and the corresponding orthogonal projections."
+    bloom: "analyze"
+  - id: "7.2.1"
+    text_en: "Draw the plan and elevations of an object to scale."
+    bloom: "apply"
+  - id: "7.2.2"
+    text_en: "Synthesise plan and elevations of an object and sketch the object."
+    bloom: "create"
+  - id: "7.2.3"
+    text_en: "Solve problems involving plans and elevations."
+    bloom: "apply"
+
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate basic knowledge of orthogonal projections."
+  - level: 2
+    descriptor_en: "Demonstrate understanding of orthogonal projections."
+  - level: 3
+    descriptor_en: "Apply understanding of plans and elevations to perform simple tasks."
+  - level: 4
+    descriptor_en: "Apply appropriate knowledge and skills of plans and elevations in the context of simple routine problem solving."
+  - level: 5
+    descriptor_en: "Apply appropriate knowledge and skills of plans and elevations in the context of complex routine problem solving."
+  - level: 6
+    descriptor_en: "Apply appropriate knowledge and skills of plans and elevations in the context of non-routine problem solving in a creative manner."
+
+mastery_criteria:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
 prerequisites:
-    required: []
-bloom_levels:
-    - apply
-    - analyze
-    - create
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-29T15:27:23Z"
+  required:
+    - id: "MT2-11" # Transformations I (Basic coordinate & projection concepts)
+    - id: "MT3-04" # Scale Drawings (Essential for 7.2.1)
+
 teaching:
-    sequence:
-        - 'Step 1: Introduce the concept of orthogonal projections with simple examples (15 min)'
-        - 'Step 2: Demonstrate how to draw orthogonal projections using grid paper (20 min)'
-        - 'Step 3: Guide students through drawing plans and elevations of basic objects (25 min)'
-        - 'Step 4: Facilitate a group activity to compare different projections (20 min)'
-        - 'Step 5: Provide practice problems involving real-world objects (30 min)'
-    common_misconceptions:
-        - misconception: Students may think all views of an object are identical
-          remediation: Use 3D models to show different perspectives
-        - misconception: Confusion between plan and elevation views
-          remediation: Clarify by labeling examples and discussing differences
-        - misconception: Belief that scale is not important in drawings
-          remediation: Emphasize the importance of scale in accurate representation
+  sequence:
+    - "Step 1: Introduction to planes (horizontal, vertical, inclined) and normals to a plane [p.170]."
+    - "Step 2: Defining and identifying orthogonal projections based on viewing direction [p.171]."
+    - "Step 3: Comparing and contrasting object dimensions with their orthogonal projections [p.179]."
+    - "Step 4: Drawing plans (top view) and elevations (front/side views) to full scale [p.182]."
+    - "Step 5: Integrating plans and elevations using the four-quadrant method [p.183]."
+    - "Step 6: Synthesising and sketching 3D objects from 2D plans and elevations [p.187]."
+    - "Step 7: Solving complex problems involving combined solids and measurements [p.190]."
+
+common_misconceptions:
+  - misconception: "Viewing orthogonal projections as 3D perspective drawings."
+    remediation: "Use physical models to demonstrate that projections are always 2D and perpendicular to the plane [p.171-172]."
+  - misconception: "Failing to use dashed lines for hidden edges."
+    remediation: "Highlight the 'TIPS' section on page 184 regarding thick solid lines vs. dashed lines."
+  - misconception: "Inconsistent scaling between different views."
+    remediation: "Reinforce scale drawing techniques and proportional consistency from page 182."
+
 engagement_hooks:
-    - Discuss how architects use plans and elevations in building design
-    - Explore how car designers sketch multiple views of a vehicle
-    - Relate to how maps are drawn to scale for navigation purposes
+  - "The Diamond Building (Putrajaya): Explore how its unique architecture looks from various directions [p.168]."
+  - "Historical Architecture: How Mimar Sinan used plans as benchmarks for mosque designs [p.169]."
+  - "STEM Project: Designing and building a 'dream house' or 'study hut' using scale models [p.195]."
+
+ai_teaching_notes: "MT3-07.teaching.md"
+assessments_file: "MT3-07.assessments.yaml"
+examples_file: "MT3-07.examples.yaml"
