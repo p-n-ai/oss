@@ -1,0 +1,129 @@
+topic_id: "MT4-06"
+provenance: "curriculum-aligned-rewrite"
+questions:
+  # Objektif Pembelajaran: 6.1.3 (TP1 - Pengetahuan garis sempadan)
+  - id: "Q1"
+    type: "multiple_choice"
+    text: "Apakah jenis garis yang digunakan untuk melukis sempadan bagi ketaksamaan linear $y > 2x + 5$?"
+    difficulty: "easy"
+    learning_objective: "6.1.3"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "Garis sempang"
+      working: |
+        Langkah 1: Kenal pasti simbol ketaksamaan. Simbolnya ialah '>'.
+        Langkah 2: Gunakan peraturan: Ketaksamaan tanpa komponen 'sama dengan' ( > atau < ) menggunakan garis sempang untuk menunjukkan titik pada garis tidak termasuk dalam penyelesaian.
+      distractors:
+        - value: "Garis padu"
+          feedback: "Garis padu hanya digunakan untuk ketaksamaan yang mempunyai simbol 'sama dengan' seperti $\geq$ atau $\leq$."
+        - value: "Garis mencancang"
+          feedback: "Orientasi garis bergantung kepada persamaan $y = 2x + 5$, bukannya simbol ketaksamaan semata-mata."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Rujuk 'Memori Saya' atau 'Tip' dalam buku teks (m.s. 158). Adakah simbol > bermaksud titik pada garis itu termasuk dalam rantau?"
+
+  # Objektif Pembelajaran: 6.1.1 (TP2 - Mewakilkan situasi)
+  - id: "Q2"
+    text: "Puan Carol perlu memilih selebih-lebihnya 20 orang murid untuk suatu pertandingan koir. Jika bilangan murid perempuan ialah $x$ dan bilangan murid lelaki ialah $y$, wakilkan situasi ini dalam bentuk ketaksamaan linear."
+    difficulty: "easy"
+    learning_objective: "6.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: "exact"
+      value: "x + y \leq 20"
+      working: |
+        Langkah 1: Kenal pasti pemboleh ubah. $x$ = perempuan, $y$ = lelaki.
+        Langkah 2: Kenal pasti jumlah. Jumlah ialah hasil tambah $x + y$.
+        Langkah 3: Terjemahkan 'selebih-lebihnya' kepada simbol. 'Selebih-lebihnya' bermaksud 'kurang daripada atau sama dengan' ($\leq$).
+        Langkah 4: Gabungkan: $x + y \leq 20$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti hasil tambah pemboleh ubah $x + y$ dengan betul."
+      - marks: 1
+        criteria: "Menggunakan simbol $\leq$ untuk mewakili 'selebih-lebihnya'."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang had maksimum. Jika hadnya ialah 20, adakah jumlahnya boleh tepat 20? Bolehkah ia lebih daripada 20?"
+
+  # Objektif Pembelajaran: 6.2.2 (TP3 - Menentusahkan titik dalam sistem)
+  - id: "Q3"
+    text: "Adakah titik (2, 5) memuaskan sistem ketaksamaan linear $x + y \leq 8$ dan $y \geq 3$?"
+    difficulty: "medium"
+    learning_objective: "6.2.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: "free_text"
+      value: "Ya, titik (2, 5) memuaskan sistem tersebut."
+      working: |
+        Langkah 1: Uji ketaksamaan pertama $x + y \leq 8$. Gantikan (2, 5): $2 + 5 = 7$. Oleh sebab $7 \leq 8$, pernyataan ini Benar.
+        Langkah 2: Uji ketaksamaan kedua $y \geq 3$. Gantikan $y = 5$: $5 \geq 3$. Pernyataan ini Benar.
+        Langkah 3: Oleh sebab kedua-dua ketaksamaan adalah benar, titik tersebut memuaskan sistem itu.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Gantian nilai ke dalam kedua-dua ketaksamaan dengan betul."
+      - marks: 1
+        criteria: "Pengiraan aritmetik yang tepat bagi $x + y$."
+      - marks: 1
+        criteria: "Kesimpulan akhir berdasarkan kedua-dua syarat yang dipenuhi."
+    hints:
+      - level: 1
+        text: "Gantikan nilai $x$ and $y$ ke dalam kedua-dua ketaksamaan. Adakah kedua-duanya memberikan pernyataan yang benar?"
+
+  # Objektif Pembelajaran: 6.2.3 (TP4 - Mengenal pasti rantau daripada graf)
+  - id: "Q4"
+    text: "Satu rantau berlorek pada graf dibatasi oleh garis $y = -x + 6$, paksi-x, dan paksi-y. Semua garis sempadan adalah garis padu. Nyatakan sistem ketaksamaan linear yang mentakrifkan rantau ini."
+    difficulty: "medium"
+    learning_objective: "6.2.3"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: "exact"
+      value: "y \leq -x + 6, x \geq 0, y \geq 0"
+      working: |
+        Langkah 1: Kenal pasti garis $y = -x + 6$. Oleh sebab kawasan berlorek di bawah garis, gunakan $\leq$.
+        Langkah 2: Kenal pasti sempadan paksi-y. Ini ialah $x = 0$. Lorekan ke kanan bermaksud $x \geq 0$.
+        Langkah 3: Kenal pasti sempadan paksi-x. Ini ialah $y = 0$. Lorekan ke atas bermaksud $y \geq 0$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan $y \leq -x + 6$ dengan betul."
+      - marks: 1
+        criteria: "Menyatakan kekangan sukuan $x \geq 0$ dan $y \geq 0$."
+    hints:
+      - level: 1
+        text: "Lihat 'Tip' pada muka surat 171. Apakah persamaan bagi paksi-x dan paksi-y?"
+
+  # Objektif Pembelajaran: 6.2.4 (TP5/6 - Penyelesaian Masalah)
+  - id: "Q5"
+    text: "Sebuah kilang menghasilkan $x$ pasang kasut kanak-kanak dan $y$ pasang kasut dewasa. Jumlah pengeluaran adalah selebih-lebihnya 500 pasang. Bilangan kasut kanak-kanak adalah tidak lebih daripada tiga kali bilangan kasut dewasa. Jika kilang tersebut menghasilkan 150 pasang kasut dewasa, berapakah bilangan maksimum kasut kanak-kanak yang boleh dihasilkan?"
+    difficulty: "hard"
+    learning_objective: "6.2.4"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: "exact"
+      value: "350"
+      working: |
+        Langkah 1: Bentukkan sistem: $x + y \leq 500$ dan $x \leq 3y$.
+        Langkah 2: Gantikan $y = 150$ ke dalam kedua-dua ketaksamaan.
+        Langkah 3: Daripada $x \leq 3(150)$, kita dapat $x \leq 450$.
+        Langkah 4: Daripada $x + 150 \leq 500$, kita dapat $x \leq 350$.
+        Langkah 5: Nilai maksimum mestilah memuaskan kedua-dua syarat. Maka, $x = 350$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menukarkan kedua-dua syarat situasi kepada bentuk ketaksamaan dengan betul."
+      - marks: 2
+        criteria: "Mengira had atas bagi $x$ daripada kedua-dua kekangan."
+      - marks: 1
+        criteria: "Mengenal pasti nilai maksimum yang memuaskan keseluruhan sistem."
+    hints:
+      - level: 1
+        text: "Anda mempunyai dua had berbeza untuk $x$ berdasarkan dua syarat tersebut. Had manakah yang merupakan had 'sebenar' yang tidak melanggar mana-mana peraturan?"

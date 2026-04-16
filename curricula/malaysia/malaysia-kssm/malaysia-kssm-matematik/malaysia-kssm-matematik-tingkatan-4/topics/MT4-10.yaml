@@ -1,55 +1,50 @@
 id: MT4-10
 official_ref: "10.0"
-name: "MATEMATIK PENGGUNA: PENGURUSAN KEWANGAN"
-name_en: "Consumer Mathematics: Financial Management"
+name: "Consumer Mathematics: Financial Management"
 subject_id: malaysia-kssm-matematik-tingkatan-4
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: intermediate
 tier: core
 content_standards:
-    - id: "10.1"
-      text: "Pengurusan Kewangan"
-      text_en: "Financial Management"
+  - id: "10.1"
+    text: "Financial Planning and Management"
 learning_objectives:
-    - id: "10.1.1"
-      text: "Menghuraikan proses pengurusan kewangan yang berkesan."
-      text_en: "Describe the process of effective financial management."
-      bloom: understand
-    - id: "10.1.2"
-      text: "Membina dan membentang pelan kewangan peribadi untuk mencapai matlamat kewangan jangka pendek dan jangka panjang, dan seterusnya menilai kebolehlaksanaan pelan kewangan tersebut."
-      text_en: "Construct and present a personal financial plan to achieve short-term and long-term financial goals, and subsequently evaluate the feasibility of the financial plan."
-      bloom: apply
+  - id: "10.1.1"
+    text: "Describe effective financial management process."
+    bloom: understand
+  - id: "10.1.2"
+    text: "Construct and present personal financial plans to achieve short-term and long-term financial goals, hence evaluate the feasibility of the financial plans."
+    bloom: apply
 prerequisites:
-    required: []
-    recommended: []
-bloom_levels:
-    - understand
-    - apply
+  required:
+    - "MT-BASIC-ARITHMETIC"
+  recommended:
+    - "MT3-03" # Consumer Mathematics: Savings and Investments, Credit and Debt
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
 ai_teaching_notes: "MT4-10.teaching.md"
-quality_level: 1
-provenance: ai-assisted
+assessments_file: "MT4-10.assessments.yaml"
+examples_file: "MT4-10.examples.yaml"
+quality_level: 3
+provenance: "official-dskp-aligned"
 teaching:
-    sequence:
-        - 'Step 1: Introduce key elements of financial management such as income, expenses, savings, and investments (15 min)'
-        - 'Step 2: Use flowcharts to demonstrate how money flows in financial management (10 min)'
-        - 'Step 3: Guide students in building a personal financial plan with short and long-term goals (20 min)'
-        - 'Step 4: Provide examples of financial plans and encourage students to create their own (15 min)'
-        - 'Step 5: Discuss the importance of realistic goal-setting in financial planning (10 min)'
-    common_misconceptions:
-        - misconception: All leftover money is savings
-          remediation: Explain the difference between savings and deferred spending
-        - misconception: Investments are only for the wealthy
-          remediation: Introduce small-scale investment options accessible to everyone
+  sequence:
+    - "Step 1: Introduce key elements of financial management such as income, expenses, savings, and investments (15 min)"
+    - "Step 2: Use flowcharts to demonstrate the 5 steps of the financial management process (10 min)"
+    - "Step 3: Guide students in building a personal financial plan using the SMART concept (20 min)"
+    - "Step 4: Analyze case studies (e.g., Puan Aminah or Encik Yusuf) to evaluate financial plan feasibility (15 min)"
+    - "Step 5: Discuss the impact of inflation and interest rates on long-term financial goals (10 min)"
+common_misconceptions:
+  - misconception: "All leftover money at the end of the month is considered savings."
+    remediation: "Explain the difference between 'savings' (set aside first) and 'surplus' (what is left over). Emphasize the 'pay yourself first' 10% rule."
+  - misconception: "Investments and financial planning are only for wealthy individuals."
+    remediation: "Demonstrate how small, consistent monthly savings (e.g., RM100) can accumulate significantly due to compound interest and time."
 engagement_hooks:
-    - Discuss local celebrity budgets or young Malaysian entrepreneur success stories
-    - Analyze a case study of a typical Malaysian household budget to identify financial management strategies
-assessments_file: MT4-10.assessments.yaml
-examples_file: MT4-10.examples.yaml
+  - "Discuss local celebrity budgets or young Malaysian entrepreneur success stories to illustrate wealth management."
+  - "Analyze a real-world case study of a typical Malaysian household budget to identify positive vs. negative cash flow."

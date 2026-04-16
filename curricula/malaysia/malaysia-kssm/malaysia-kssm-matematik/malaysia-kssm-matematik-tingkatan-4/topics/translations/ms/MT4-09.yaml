@@ -1,0 +1,75 @@
+id: MT4-09
+official_ref: "9.0"
+name: "Kebarangkalian Peristiwa Bergabung"
+subject_id: malaysia-kssm-matematik-tingkatan-4
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+sync_checked: true
+content_standards:
+  - id: "9.1"
+    text: "Peristiwa Bergabung"
+  - id: "9.2"
+    text: "Peristiwa Bersandar dan Peristiwa Tak Bersandar"
+  - id: "9.3"
+    text: "Peristiwa Saling Eksklusif dan Peristiwa Tidak Saling Eksklusif"
+  - id: "9.4"
+    text: "Aplikasi Kebarangkalian Peristiwa Bergabung"
+learning_objectives:
+  - id: "9.1.1"
+    text: "Memerihalkan peristiwa bergabung dan menyenaraikan peristiwa bergabung yang mungkin."
+    bloom: remember
+  - id: "9.2.1"
+    text: "Membezakan peristiwa bersandar dan peristiwa tak bersandar."
+    bloom: understand
+  - id: "9.2.2"
+    text: "Membuat dan menentusahkan konjektur tentang rumus kebarangkalian peristiwa bergabung."
+    bloom: apply
+  - id: "9.2.3"
+    text: "Menentukan kebarangkalian peristiwa bergabung bagi peristiwa bersandar dan peristiwa tak bersandar."
+    bloom: apply
+  - id: "9.3.1"
+    text: "Membezakan peristiwa saling eksklusif dan peristiwa tidak saling eksklusif."
+    bloom: understand
+  - id: "9.3.2"
+    text: "Mengesahkan rumus kebarangkalian peristiwa bergabung bagi peristiwa saling eksklusif dan peristiwa tidak saling eksklusif."
+    bloom: evaluate
+  - id: "9.3.3"
+    text: "Menentukan kebarangkalian peristiwa bergabung bagi peristiwa saling eksklusif dan peristiwa tidak saling eksklusif."
+    bloom: apply
+  - id: "9.4.1"
+    text: "Menyelesaikan masalah yang melibatkan kebarangkalian peristiwa bergabung."
+    bloom: apply
+prerequisites:
+  required:
+    - "MT2-13" # Kebarangkalian Mudah (Tingkatan 2)
+  recommended: []
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+ai_teaching_notes: "MT4-09.teaching.md"
+assessments_file: "MT4-09.assessments.yaml"
+examples_file: "MT4-09.examples.yaml"
+quality_level: 3
+provenance: "official-dskp-aligned"
+teaching:
+  sequence:
+    - "Langkah 1: Perkenalkan konsep peristiwa bergabung dan ruang sampel menggunakan eksperimen seperti melambung syiling atau dadu (20 min)"
+    - "Langkah 2: Bezakan peristiwa bersandar dan tak bersandar menggunakan senario 'dengan pemulangan' dan 'tanpa pemulangan' (25 min)"
+    - "Langkah 3: Tentusahkan hukum pendaraban bagi peristiwa tak bersandar: P(A dan B) = P(A) x P(B) (20 min)"
+    - "Langkah 4: Bezakan peristiwa saling eksklusif dan tidak saling eksklusif menggunakan gambar rajah Venn (25 min)"
+    - "Langkah 5: Aplikasikan hukum penambahan: P(A atau B) = P(A) + P(B) - P(A dan B) (30 min)"
+    - "Langkah 6: Selesaikan masalah rutin dan bukan rutin yang kompleks menggunakan gambar rajah pokok dan set (30 min)"
+common_misconceptions:
+  - misconception: "Menganggap semua peristiwa bergabung adalah tak bersandar."
+    remediation: "Tekankan bagaimana situasi 'tanpa pemulangan' mengubah jumlah ruang sampel dan kebarangkalian peristiwa seterusnya."
+  - misconception: "Gagal menolak persilangan P(A dan B) bagi peristiwa tidak saling eksklusif."
+    remediation: "Gunakan gambar rajah Venn untuk menunjukkan bahawa kawasan bertindih akan dikira dua kali jika tidak ditolak."
+engagement_hooks:
+  - "Gunakan konsep premium industri insurans tempatan untuk menjelaskan bagaimana kebarangkalian digunakan dalam pengurusan risiko."
+  - "Simulasikan perlawanan 'Gunting-Batu-Kertas' untuk menyenaraikan kesudahan dan mengira kebarangkalian menang."

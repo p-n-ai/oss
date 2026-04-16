@@ -1,0 +1,116 @@
+topic_id: MT4-05
+provenance: curriculum-aligned-rewrite
+questions:
+  - id: Q1
+    text: "Satu graf mudah mempunyai 8 tepi. Hitung jumlah darjah bagi semua bucu dalam graf ini."
+    difficulty: easy
+    learning_objective: "5.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "16"
+      working: |
+        Langkah 1: Gunakan formula jumlah darjah, $\sum d(v) = 2E$.
+        Langkah 2: Gantikan bilangan tepi ($E = 8$).
+        Langkah 3: $2 \times 8 = 16$.
+      distractors:
+        - value: "8"
+          feedback: "Anda hanya mengira setiap tepi sekali. Ingat, setiap tepi menghubungkan dua bucu, maka ia menyumbang 2 kepada jumlah darjah."
+        - value: "4"
+          feedback: "Anda membahagi bilangan tepi dengan 2. Formula yang betul ialah $2 \times E$, bukan $E/2$."
+        - value: "10"
+          feedback: "Nampaknya anda menambah 2 kepada bilangan tepi. Gunakan formula pendaraban $\sum d(v) = 2E$."
+    hints:
+      - level: 1
+        text: "Rujuk formula jumlah darjah dalam buku teks muka surat 131."
+      - level: 2
+        text: "Ingat 'Peraturan Berjabat Tangan': setiap tepi menyentuh dua titik. Jika ada 8 tepi, berapa jumlah 'sentuhan' keseluruhannya?"
+
+  - id: Q2
+    text: "Tentukan sama ada pernyataan berikut adalah BENAR atau PALSU: 'Dalam graf berpemberat, tepi mesti sentiasa mewakili jarak fizikal antara dua lokasi.'"
+    difficulty: medium
+    learning_objective: "5.1.2"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "PALSU"
+      working: |
+        Langkah 1: Ingat kembali definisi graf berpemberat.
+        Langkah 2: Kenal pasti bahawa 'pemberat' boleh mewakili pelbagai nilai seperti kos, masa, atau arus, bukan hanya jarak."
+    hints:
+      - level: 1
+        text: "Lihat jadual 'Graf Berpemberat' pada muka surat 137. Apakah contoh lain bagi nilai tepi selain jarak?"
+
+  - id: Q3
+    text: "Satu graf mempunyai 6 bucu. Berapakah bilangan tepi yang tepat diperlukan untuk membentuk sebuah pokok bagi graf tersebut?"
+    difficulty: medium
+    learning_objective: "5.1.3"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "5"
+      working: |
+        Langkah 1: Kenal pasti sifat pokok yang berkaitan dengan bucu ($n$) dan tepi ($e$).
+        Langkah 2: Gunakan formula $e = n - 1$.
+        Langkah 3: $e = 6 - 1 = 5$.
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Bilangan tepi yang betul berdasarkan peraturan n-1."
+    hints:
+      - level: 1
+        text: "Sebuah pokok ialah graf mudah di mana semua bucu dihubungkan tanpa gelung atau kitaran. Berapa banyak garisan yang anda perlukan untuk menyambung 6 titik tanpa membentuk bulatan?"
+
+  - id: Q4
+    text: "Wakilkan hubungan sosial berikut sebagai satu rangkaian: Edmund bermain Badminton dan Catur. Azwan bermain Bola Sepak dan Sepak Takraw. Rajan bermain Catur dan Bola Sepak. Gunakan jenis permainan sebagai bucu."
+    difficulty: medium
+    learning_objective: "5.1.4"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "Bucu: {Badminton, Catur, Bola Sepak, Sepak Takraw}. Tepi: {Edmund menghubungkan Badminton-Catur, Azwan menghubungkan Bola Sepak-Sepak Takraw, Rajan menghubungkan Catur-Bola Sepak}."
+      working: |
+        Langkah 1: Takrifkan bucu sebagai jenis permainan unik yang disebut.
+        Langkah 2: Takrifkan tepi sebagai individu yang menghubungkan dua jenis permainan.
+        Langkah 3: Lukis sambungan: Badminton—(Edmund)—Catur—(Rajan)—Bola Sepak—(Azwan)—Sepak Takraw.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Mengenal pasti ke semua 4 bucu permainan yang unik dengan betul."
+      - marks: 2
+        criteria: "Sambungan tepi yang betul mewakili setiap individu."
+    hints:
+      - level: 1
+        text: "Mulakan dengan menyenaraikan setiap permainan unik yang disebut. Ini akan menjadi titik (bucu) anda."
+      - level: 2
+        text: "Jika seorang individu bermain dua permainan, lukis satu garisan di antara dua permainan tersebut. Garisan itu mewakili individu tersebut."
+
+  - id: Q5
+    text: "Seorang penghantar barang perlu menghantar pakej dari Bandar A ke Bandar D. Laluan A-B-D kosnya RM15 (20 minit). Laluan A-C-D kosnya RM12 (45 minit). Jika penghantar itu mempunyai kekangan masa dan perlu sampai dalam masa kurang 30 minit, laluan manakah yang paling optimum? Berikan justifikasi anda."
+    difficulty: hard
+    learning_objective: "5.1.5"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: "Laluan A-B-D adalah pilihan optimum. Walaupun kosnya lebih RM3, ia adalah satu-satunya laluan yang memenuhi kekangan masa < 30 minit (20 minit berbanding 45 minit)."
+      working: |
+        Langkah 1: Analisis pemberat bagi Laluan 1 (A-B-D): Kos=15, Masa=20.
+        Langkah 2: Analisis pemberat bagi Laluan 2 (A-C-D): Kos=12, Masa=45.
+        Langkah 3: Aplikasikan kekangan (Masa < 30). Hanya Laluan 1 yang memenuhi syarat ini.
+        Langkah 4: Simpulkan bahawa pengoptimuman kos adalah sekunder berbanding kekangan masa yang mandatori.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti pemberat bagi kedua-dua laluan."
+      - marks: 1
+        criteria: "Aplikasi kekangan masa yang betul."
+      - marks: 2
+        criteria: "Justifikasi logik untuk memilih laluan yang lebih mahal tetapi lebih pantas."
+    hints:
+      - level: 1
+        text: "Kadangkala 'optimum' tidak semestinya bermaksud paling murah. Lihat pada 'kekangan' yang disebut dalam soalan. Apakah faktor yang paling penting di sini?"

@@ -1,0 +1,68 @@
+topic_id: MT4-09
+provenance: "official-dskp-aligned"
+description: "Contoh kerja berstruktur bagi Kebarangkalian Peristiwa Bergabung"
+worked_examples:
+  # Standard Pembelajaran 9.1.1 - TP2
+  - id: WE-01
+    topic: "Memerihalkan Peristiwa Bergabung"
+    difficulty: easy
+    real_world_analogy: "Fikirkan tentang 'Set Kombo' di restoran. Peristiwa bergabung adalah seperti memilih satu 'Hidangan Utama' DAN satu 'Air' sebagai satu set lengkap."
+    misconception_alert: "Pelajar sering anggap pasangan (A, B) sama dengan (B, A). Dalam menyenaraikan peristiwa bergabung, urutan dalam pasangan tertib biasanya mewakili urutan atau sumber yang spesifik."
+    scenario: "Sekeping syiling adil dilambung dan sebiji dadu adil dilambung. Senaraikan ruang sampel bagi peristiwa bergabung ini menggunakan pasangan tertib."
+    working: |
+      1. Senaraikan kesudahan bagi syiling (S): $S = \{A, G\}$ (Angka, Gambar).
+      2. Senaraikan kesudahan bagi dadu (D): $D = \{1, 2, 3, 4, 5, 6\}$.
+      3. Gabungkan setiap hasil syiling dengan setiap hasil dadu untuk membentuk pasangan tertib $(x, y)$:
+         - Mulakan dengan A: $(A, 1), (A, 2), (A, 3), (A, 4), (A, 5), (A, 6)$
+         - Teruskan dengan G: $(G, 1), (G, 2), (G, 3), (G, 4), (G, 5), (G, 6)$
+      4. Tuliskan ruang sampel akhir $S$:
+         $S = \{(A, 1), (A, 2), (A, 3), (A, 4), (A, 5), (A, 6), (G, 1), (G, 2), (G, 3), (G, 4), (G, 5), (G, 6)\}$.
+
+  # Standard Pembelajaran 9.2.3 - TP3
+  - id: WE-02
+    topic: "Kebarangkalian Peristiwa Tak Bersandar"
+    difficulty: medium
+    real_world_analogy: "Bayangkan dua orang di negeri berbeza melambung syiling. Apa yang orang pertama dapat tidak mengubah nasib orang kedua. Inilah inti pati Peristiwa Tak Bersandar."
+    misconception_alert: "Perangkap 'Amnesia'. Pelajar kadangkala melayan peristiwa tak bersandar seperti peristiwa bersandar dengan mengurangkan jumlah ruang sampel pada peristiwa kedua secara tidak sengaja."
+    scenario: "Kotak A mengandungi kad $\{3, 5, 7, 9\}$ dan Kotak B mengandungi kad $\{X, Y, Z\}$. Jika sekeping kad dipilih dari setiap kotak, hitung kebarangkalian mendapat satu faktor bagi 9 dari Kotak A dan huruf 'Z' dari Kotak B."
+    working: |
+      1. Kenal pasti faktor bagi 9 dalam Kotak A: $\{3, 9\}$. Maka, $n(A) = 2$.
+      2. Hitung kebarangkalian bagi Kotak A: $P(A) = \frac{n(A)}{n(S_A)} = \frac{2}{4} = \frac{1}{2}$.
+      3. Kenal pasti huruf 'Z' dalam Kotak B: $\{Z\}$. Maka, $n(B) = 1$.
+      4. Hitung kebarangkalian bagi Kotak B: $P(B) = \frac{n(B)}{n(S_B)} = \frac{1}{3}$.
+      5. Oleh sebab peristiwa ini tak bersandar, gunakan Hukum Pendaraban: $P(A \cap B) = P(A) \times P(B)$.
+      6. Gantikan nilai: $P(A \cap B) = \frac{1}{2} \times \frac{1}{3} = \frac{1}{6}$.
+
+  # Standard Pembelajaran 9.3.3 - TP4
+  - id: WE-03
+    topic: "Peristiwa Saling Eksklusif"
+    difficulty: medium
+    real_world_analogy: "Fikirkan tentang peraturan 'Penjarakan Sosial'. Dua peristiwa adalah saling eksklusif jika mereka tidak boleh 'bersentuh' atau berlaku serentak, seperti berada di Kelas 4A dan Kelas 4B pada masa yang sama."
+    misconception_alert: "Perangkap 'Kiraan Dua Kali'. Jika peristiwa TIDAK saling eksklusif, pelajar sering lupa menolak persilangan $P(A \cap B)$. Sentiasa semak pertindihan dahulu!"
+    scenario: "Satu nombor dipilih secara rawak daripada set $S = \{x : 1 \leq x \leq 10, x \in \mathbb{Z}\}$. Cari kebarangkalian memilih satu nombor perdana atau satu gandaan 4."
+    working: |
+      1. Senaraikan ruang sampel $S$: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. Maka $n(S) = 10$.
+      2. Senaraikan nombor Perdana (A): $\{2, 3, 5, 7\}$. $P(A) = \frac{4}{10}$.
+      3. Senaraikan gandaan 4 (B): $\{4, 8\}$. $P(B) = \frac{2}{10}$.
+      4. Semak persilangan: Adakah nombor perdana yang juga gandaan 4? Tiada. $A \cap B = \emptyset$.
+      5. Gunakan Hukum Penambahan bagi Peristiwa Saling Eksklusif: $P(A \cup B) = P(A) + P(B)$.
+      6. Hitung hasil: $P(A \cup B) = \frac{4}{10} + \frac{2}{10} = \frac{6}{10}$.
+      7. Permudahkan pecahan: $\frac{6}{10} = \frac{3}{5}$.
+
+  # Standard Pembelajaran 9.4.1 - TP5
+  - id: WE-04
+    topic: "Aplikasi Peristiwa Bergabung (Tanpa Pemulangan)"
+    difficulty: hard
+    real_world_analogy: "Peraturan 'Gula-gula Dimakan'. Jika anda ada 5 gula-gula dan makan satu, hanya tinggal 4 untuk orang seterusnya. Jumlah $n(S)$ MESTI berkurang."
+    misconception_alert: "Gagal mengemas kini penyebut. Dalam senario 'tanpa pemulangan', pelajar sering mengekalkan jumlah asal untuk peristiwa kedua, menyebabkan kebarangkalian salah."
+    scenario: "Sebuah beg mengandungi 8 guli hijau dan 1 guli merah. Dua biji guli dipilih satu demi satu tanpa pemulangan. Hitung kebarangkalian bahawa sekurang-kurangnya satu guli merah dipilih."
+    working: |
+      1. Strategi: Gunakan Kaedah Pelengkap kerana 'sekurang-kurangnya satu' lebih mudah diselesaikan sebagai $1 - P(\text{Tiada Merah})$.
+      2. Kenal pasti jumlah guli: $8 \text{ Hijau} + 1 \text{ Merah} = 9$.
+      3. Cari $P(\text{Hijau, Hijau})$:
+         - Cabutan pertama: $P(H_1) = \frac{8}{9}$.
+         - Cabutan kedua (tanpa pemulangan): $P(H_2 | H_1) = \frac{7}{8}$ (satu guli hijau dan satu jumlah keseluruhan telah dikurangkan).
+      4. Darabkan kebarangkalian untuk kedua-dua hijau: $P(H_1 \cap H_2) = \frac{8}{9} \times \frac{7}{8}$.
+      5. Permudahkan pendaraban: $\frac{8 \times 7}{9 \times 8} = \frac{56}{72} = \frac{7}{9}$.
+      6. Gunakan hukum pelengkap: $P(\text{sekurang-kurangnya satu merah}) = 1 - P(H_1 \cap H_2)$.
+      7. Pengiraan akhir: $1 - \frac{7}{9} = \frac{9}{9} - \frac{7}{9} = \frac{2}{9}$.

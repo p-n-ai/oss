@@ -1,0 +1,149 @@
+topic_id: MT4-10
+provenance: ai-assisted
+questions:
+  # --- SUBBAB 10.1.1: Proses Pengurusan Kewangan ---
+  - id: Q1
+    text: "Susun langkah-langkah dalam proses pengurusan kewangan yang berkesan mengikut urutan kronologi yang betul."
+    difficulty: easy
+    learning_objective: "10.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Menetapkan matlamat -> Menilai kedudukan kewangan -> Mewujudkan pelan kewangan -> Melaksanakan pelan kewangan -> Mengkaji semula dan menyemak kemajuan"
+      working: |
+        Merujuk kepada DSKP dan Buku Teks muka surat 272, proses bermula dengan penetapan matlamat dan berakhir dengan semakan kemajuan secara berkala.
+      distractors:
+        - value: "Menilai kedudukan kewangan -> Menetapkan matlamat -> Mewujudkan pelan kewangan -> Melaksanakan pelan kewangan -> Mengkaji semula dan menyemak kemajuan"
+          feedback: "Anda tidak boleh menilai kedudukan berbanding matlamat jika matlamat belum ditetapkan! Sentiasa bermula dengan menentukan destinasi anda."
+        - value: "Menetapkan matlamat -> Mewujudkan pelan kewangan -> Menilai kedudukan kewangan -> Melaksanakan pelan kewangan -> Mengkaji semula dan menyemak kemajuan"
+          feedback: "Anda perlu menilai kedudukan kewangan semasa (aset dan liabiliti) SEBELUM membina pelan yang realistik."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti urutan 5 langkah dengan betul."
+    hints:
+      - level: 1
+        text: "Fikirkan seperti satu perjalanan: Pertama, tentukan ke mana hendak pergi, kemudian periksa berapa banyak minyak yang ada dalam tangki."
+
+  - id: Q2
+    text: "Antara berikut, yang manakah menerangkan komponen 'Khusus' (S) dalam konsep SMART bagi penetapan matlamat?"
+    difficulty: easy
+    learning_objective: "10.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Matlamat dinyatakan dengan jelas, seperti membeli komputer riba bernilai $RM3,000$."
+      working: |
+        'Khusus' (Specific) bermaksud matlamat tidak kabur. Menyatakan item dan harga yang tepat menjadikannya Khusus.
+      distractors:
+        - value: "Matlamat boleh dikira berdasarkan pendapatan bulanan."
+          feedback: "Ini merujuk kepada komponen 'Boleh diukur' (M)."
+        - value: "Matlamat mesti dicapai dalam tempoh 2 tahun."
+          feedback: "Ini merujuk kepada komponen 'Tempoh masa' (T)."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti definisi Khusus dalam SMART dengan betul."
+    hints:
+      - level: 1
+        text: "Tanya diri anda: Adakah matlamat itu menyatakan dengan jelas 'Apa' yang hendak dibeli dan 'Berapa' kos tepatnya?"
+
+  # --- SUBBAB 10.1.2: Pelan Kewangan & Kebolehlaksanaan ---
+  - id: Q3
+    text: "Puan Salmah ingin membeli sebuah komputer riba bernilai $RM3,000$ sebagai hadiah hari jadi anaknya. Beliau merancang untuk menyimpan $RM300$ sebulan selama sepuluh bulan. Hitung jika matlamat beliau 'Boleh dicapai' (A) berdasarkan simpanan bulanannya."
+    difficulty: medium
+    learning_objective: "10.1.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "Ya"
+      working: |
+        Langkah 1: Hitung jumlah simpanan dalam tempoh tersebut: $RM300 \times 10 \text{ bulan} = RM3,000$.
+        Langkah 2: Bandingkan dengan harga komputer riba: $RM3,000 = RM3,000$.
+        Kesimpulan: Matlamat boleh dicapai kerana jumlah simpanan mencukupi untuk harga komputer tersebut.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Menunjukkan pendaraban simpanan bulanan dengan tempoh masa."
+      - marks: 2
+        criteria: "Kesimpulan yang betul bahawa matlamat boleh dicapai."
+    hints:
+      - level: 1
+        text: "Berapakah jumlah wang yang akan dikumpul selepas 10 bulan? Darabkan simpanan bulanan dengan bilangan bulan."
+
+  - id: Q4
+    text: "Encik Derrick menerima pendapatan aktif sebanyak $RM3,000$ dan pendapatan pasif sebanyak $RM1,000$ sebulan. Perbelanjaan tetapnya ialah $RM1,350$ dan perbelanjaan tidak tetap ialah $RM650$. Hitung aliran tunai bulanannya."
+    difficulty: medium
+    learning_objective: "10.1.2"
+    tp_level: 4
+    kbat: false
+    answer:
+      type: exact
+      value: "RM2,000"
+      working: |
+        Langkah 1: Jumlah Pendapatan = Aktif + Pasif = $RM3,000 + RM1,000 = RM4,000$.
+        Langkah 2: Jumlah Perbelanjaan = Tetap + Tidak Tetap = $RM1,350 + RM650 = RM2,000$.
+        Langkah 3: Aliran Tunai = Jumlah Pendapatan - Jumlah Perbelanjaan = $RM4,000 - RM2,000 = RM2,000$ (Aliran Tunai Positif).
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengira jumlah pendapatan dengan betul."
+      - marks: 1
+        criteria: "Mengira jumlah perbelanjaan dengan betul."
+      - marks: 3
+        criteria: "Mengira aliran tunai akhir sebanyak $RM2,000$."
+    hints:
+      - level: 1
+        text: "Pertama, tambah semua wang yang masuk. Kemudian, tambah semua wang yang keluar. Tolak jumlah 'keluar' daripada jumlah 'masuk'."
+
+  - id: Q5
+    text: "Encik Yusuf ingin membeli komputer berharga $RM6,000$ dalam masa setahun. Beliau kini mempunyai lebihan $RM0$. Jika beliau berjaya mengurangkan perbelanjaan tidak tetap untuk menyimpan $RM500$ sebulan, nilaikan kebolehlaksanaan pelan baharu ini."
+    difficulty: hard
+    learning_objective: "10.1.2"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: "Pelan ini boleh dilaksanakan kerana beliau akan menyimpan $RM6,000$ dalam masa 12 bulan, yang menyamai harga komputer tersebut."
+      working: |
+        Langkah 1: Simpanan Tahunan = $RM500 \times 12 \text{ bulan} = RM6,000$.
+        Langkah 2: Bandingkan dengan Matlamat: Matlamat ialah $RM6,000$.
+        Langkah 3: Semakan kebolehlaksanaan: Pelan adalah realistik dan boleh dicapai dalam tempoh setahun.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Mengira simpanan tahunan sebanyak $RM6,000$."
+      - marks: 4
+        criteria: "Memberikan justifikasi lengkap tentang kebolehlaksanaan berdasarkan pengiraan dan tempoh masa."
+    hints:
+      - level: 1
+        text: "Beliau perlukan $RM6,000$. Jika beliau simpan $RM500$ setiap bulan, berapa lama masa yang diambil? Adakah itu dalam tempoh matlamat setahunnya?"
+
+  - id: Q6
+    text: "Encik Wong ingin menyimpan $RM150,000$ untuk pendidikan anak-anaknya dalam masa 15 tahun. Komitmen simpanan semasanya ialah $RM650$ sebulan. Beliau kekurangan $RM183.33$ setiap bulan. Cadangkan strategi kreatif untuk mencapai matlamat ini tanpa mengurangkan dana kecemasannya."
+    difficulty: hard
+    learning_objective: "10.1.2"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Beliau boleh mengurangkan perbelanjaan tidak tetap seperti melancong atau berkongsi kereta untuk menjimatkan petrol, atau melakukan kerja sambilan untuk menambah pendapatan."
+      working: |
+        Simpanan bulanan diperlukan = $RM150,000 \div 180 \text{ bulan} = RM833.33$.
+        Simpanan semasa = $RM650$.
+        Kurangan (Defisit) = $RM183.33$.
+        Penyelesaian: Kurangkan belanja melancong sebanyak 25% ($RM125$) dan kongsi kereta untuk jimat $RM100$ petrol.
+    marks: 5
+    rubric:
+      - marks: 2
+        criteria: "Mengenal pasti perbelanjaan tidak tetap spesifik yang boleh dikurangkan (cth: melancong/petrol)."
+      - marks: 3
+        criteria: "Mencadangkan peningkatan pendapatan melalui kerja sambilan atau pelaburan."
+      - marks: 5
+        criteria: "Memberikan pelan komprehensif yang meliputi jurang $RM183.33$ secara kreatif."
+    hints:
+      - level: 1
+        text: "Lihat perbelanjaan tidak tetap Encik Wong seperti 'Melancong' atau 'Petrol'. Bolehkah beliau mengurangkannya? Atau adakah cara untuk menambah 'Pendapatan Pasif'?"

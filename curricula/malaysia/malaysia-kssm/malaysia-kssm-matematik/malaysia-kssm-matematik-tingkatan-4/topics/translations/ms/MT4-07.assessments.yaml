@@ -1,0 +1,164 @@
+topic_id: "MT4-07"
+provenance: "ai-generated"
+questions:
+  # Objektif Pembelajaran 7.1.1: Melukis graf jarak-masa (TP1)
+  - id: "Q1"
+    text: "Sebuah teksi bergerak dari Bandar A ke Bandar B yang berjarak 150 km dalam masa 2 jam. Selepas berhenti rehat selama 1 jam, teksi itu meneruskan perjalanan ke Bandar C yang berjarak 50 km lagi dalam masa 1 jam. Lakarkan graf jarak-masa untuk mewakili keseluruhan perjalanan itu."
+    difficulty: "easy"
+    learning_objective: "MT4-07-7-1-1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: "free_text"
+      value: "Graf dengan tiga segmen: (0,0) ke (2,150), garis mengufuk dari (2,150) ke (3,150), dan garis dari (3,150) ke (4,200)."
+      working: |
+        Langkah 1: Kenal pasti koordinat. Mula dari asalan (0,0).
+        Langkah 2: Perjalanan pertama: 150 km dalam 2 jam -> Titik (2, 150).
+        Langkah 3: Berhenti rehat: Jarak kekal 150 km selama 1 jam -> Titik (3, 150).
+        Langkah 4: Perjalanan akhir: Tambah 50 km (150+50=200) dalam masa 1 jam -> Titik (4, 200).
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Melukis segmen pertama dengan kecerunan positif dengan betul."
+      - marks: 1
+        criteria: "Mewakilkan waktu rehat sebagai segmen garis mengufuk dengan betul."
+      - marks: 1
+        criteria: "Melukis segmen terakhir dan melabel paksi (Jarak/Masa) dengan betul."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang paksi-Y. Jika teksi sedang berhenti rehat, adakah jarak dari titik mula berubah? Bagaimana anda tunjukkan perkara itu pada graf?"
+
+  # Objektif Pembelajaran 7.1.2: Mentafsir graf jarak-masa (TP2)
+  - id: "Q2"
+    text: "Dalam suatu graf jarak-masa, apakah yang diwakili oleh segmen garis mengufuk (kecerunan sifar) berkaitan dengan gerakan objek itu?"
+    difficulty: "easy"
+    learning_objective: "MT4-07-7-1-2"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "Objek itu berada dalam keadaan pegun (berhenti)."
+      working: |
+        Dalam graf jarak-masa, kecerunan = laju.
+        Garis mengufuk mempunyai kecerunan 0.
+        Maka, laju = 0, bermaksud objek tidak bergerak.
+      distractors:
+        - value: "Objek itu bergerak dengan laju seragam."
+          feedback: "Hati-hati! Anda sedang memikirkan graf Laju-Masa. Dalam graf Jarak-Masa, laju seragam diwakili oleh garis lurus menyerong, bukannya garis mendatar."
+        - value: "Objek itu sedang memecut."
+          feedback: "Pecutan dalam graf jarak-masa ditunjukkan oleh lengkungan, bukannya garis mengufuk. Semak label paksi-Y sekali lagi!"
+        - value: "Objek itu berpatah balik ke titik mula."
+          feedback: "Berpatah balik ke titik mula akan menunjukkan kecerunan negatif (garis menurun). Garis mendatar bermaksud jarak tidak berubah langsung."
+    marks: 1
+
+  # Objektif Pembelajaran 7.1.3: Menyelesaikan masalah melibatkan graf jarak-masa (TP4)
+  - id: "Q3"
+    text: "Zabedah memandu dari Segamat ke Muar yang berjarak 80 km dalam masa 1.5 jam. Hitung laju puratanya dalam $km \ j^{-1}$."
+    difficulty: "medium"
+    learning_objective: "MT4-07-7-1-3"
+    tp_level: 4
+    kbat: false
+    answer:
+      type: "exact"
+      value: "53.33"
+      working: |
+        Langkah 1: Gunakan formula: Laju Purata = Jumlah Jarak / Jumlah Masa.
+        Langkah 2: Jumlah Jarak = 80 km.
+        Langkah 3: Jumlah Masa = 1.5 jam.
+        Langkah 4: Pengiraan: $80 / 1.5 = 53 \frac{1}{3} \approx 53.33 \ km \ j^{-1}$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Gantian nilai ke dalam formula Laju Purata dengan betul."
+      - marks: 1
+        criteria: "Jawapan akhir tepat kepada 2 tempat perpuluhan berserta unit."
+    hints:
+      - level: 1
+        text: "Ingat 'Segi Tiga Laju'. Untuk mencari laju, anda perlu membahagikan jumlah jarak dengan jumlah masa yang diambil."
+
+  # Objektif Pembelajaran 7.2.2: Luas di bawah graf laju-masa (TP3)
+  - id: "Q4"
+    text: "Suatu graf laju-masa menunjukkan sebuah motosikal bergerak dengan laju seragam $20 \ m \ s^{-1}$ selama 15 saat. Tentukan jumlah jarak yang dilalui."
+    difficulty: "medium"
+    learning_objective: "MT4-07-7-2-2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: "exact"
+      value: "300"
+      working: |
+        Langkah 1: Kenal pasti bahawa Jarak = Luas di bawah graf Laju-Masa.
+        Langkah 2: Bentuk tersebut ialah segi empat tepat (Laju seragam).
+        Langkah 3: Luas = Tapak (Masa) x Tinggi (Laju) = $15 \ s \times 20 \ m \ s^{-1} = 300 \ m$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti dengan betul bahawa jarak ialah luas segi empat tepat."
+      - marks: 1
+        criteria: "Mengira 300 m dengan betul."
+    hints:
+      - level: 1
+        text: "Lorekkan rantau di bawah graf tersebut. Apakah bentuknya? Gunakan formula luas untuk bentuk itu bagi mencari jarak."
+
+  # Objektif Pembelajaran 7.2.4: Menyelesaikan masalah melibatkan graf laju-masa (TP5)
+  - id: "Q5"
+    text: "Sebuah kereta memecut dari keadaan pegun sehingga mencapai $30 \ m \ s^{-1}$ dalam masa 10 saat, kemudian mengekalkan laju ini selama 20 saat sebelum mengalami nyahpecutan sehingga berhenti dalam masa 5 saat. Hitung jumlah jarak yang dilalui."
+    difficulty: "hard"
+    learning_objective: "MT4-07-7-2-4"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: "exact"
+      value: "825"
+      working: |
+        Langkah 1: Luas Segi Tiga 1 (Pecutan): $0.5 \times 10 \times 30 = 150 \ m$.
+        Langkah 2: Luas Segi Empat Tepat (Laju Seragam): $20 \times 30 = 600 \ m$.
+        Langkah 3: Luas Segi Tiga 2 (Nyahpecutan): $0.5 \times 5 \times 30 = 75 \ m$.
+        Langkah 4: Jumlah Jarak = $150 + 600 + 75 = 825 \ m$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Mengira jarak semasa pecutan dengan betul."
+      - marks: 1
+        criteria: "Mengira jarak semasa laju seragam dengan betul."
+      - marks: 1
+        criteria: "Mengira jarak semasa nyahpecutan dengan betul."
+      - marks: 1
+        criteria: "Menjumlahkan semua luas untuk mendapatkan jarak keseluruhan 825 m dengan betul."
+    hints:
+      - level: 1
+        text: "Pecahkan perjalanan kepada tiga bahagian: segi tiga, segi empat tepat, dan satu lagi segi tiga. Kira luas setiap bahagian secara berasingan."
+
+  # Pelajaran Holistik: Masalah Bukan Rutin Kreatif (TP6)
+  - id: "Q6"
+    text: "Jaguh negara Azizulhasni Awang sedang berlumba. Beliau bermula dari keadaan pegun dan mencapai laju $v \ m \ s^{-1}$ dalam masa 4 saat dengan pecutan seragam. Beliau kemudian mengekalkan laju ini selama $t$ saat. Jika jumlah jarak yang dilalui dalam $(4+t)$ saat pertama ialah 100 m, dan laju puratanya untuk keseluruhan perjalanan ialah $12.5 \ m \ s^{-1}$, cari nilai $v$ dan $t$."
+    difficulty: "hard"
+    learning_objective: "MT4-07-7-2-4"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: "free_text"
+      value: "v = 16.67, t = 4"
+      working: |
+        Langkah 1: Laju purata = Jumlah Jarak / Jumlah Masa.
+        $12.5 = 100 / (4+t)$
+        $4+t = 100 / 12.5 = 8$. Maka, $t = 4$ saat.
+        Langkah 2: Jumlah Jarak = Luas Trapezium.
+        Perjalanan tersebut: Pecutan selama 4s, kemudian Laju Seragam selama $t=4s$.
+        Jumlah masa = 8s.
+        Bentuknya ialah trapezium dengan panjang sisi selari 4 (atas) dan 8 (bawah).
+        $100 = 0.5 \times (4 + 8) \times v$
+        $100 = 0.5 \times 12 \times v$
+        $100 = 6v$
+        $v = 100 / 6 \approx 16.67 \ m \ s^{-1}$.
+    marks: 6
+    rubric:
+      - marks: 2
+        criteria: "Mencari jumlah masa menggunakan formula laju purata."
+      - marks: 2
+        criteria: "Membina persamaan luas trapezium dengan betul."
+      - marks: 2
+        criteria: "Menyelesaikan kedua-dua pemboleh ubah $v$ dan $t$."
+    hints:
+      - level: 1
+        text: "Mulakan dengan petunjuk 'Laju Purata'. Ia akan memberikan anda jumlah masa $(4+t)$ dengan segera! Sebaik sahaja anda mendapat jumlah masa, gunakan luas trapezium untuk mencari nilai $v$."

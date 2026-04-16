@@ -1,76 +1,83 @@
-id: MT4-06
+id: "MT4-06"
 official_ref: "6.0"
-name: "KETAKSAMAAN LINEAR DALAM DUA PEMBOLEH UBAH"
+name: "Linear Inequalities in Two Variables"
 name_en: "Linear Inequalities in Two Variables"
-subject_id: malaysia-kssm-matematik-tingkatan-4
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: intermediate
-tier: core
+subject_id: "malaysia-kssm-matematik-tingkatan-4"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "en"
+difficulty: "intermediate"
+tier: "core"
+
 content_standards:
-    - id: "6.1"
-      text: "Ketaksamaan Linear dalam Dua Pemboleh Ubah"
-      text_en: "Linear Inequalities in Two Variables"
-    - id: "6.2"
-      text: "Sistem Ketaksamaan Linear dalam Dua Pemboleh Ubah"
-      text_en: "Systems of Linear Inequalities in Two Variables"
+  - id: "6.1"
+    text: "Linear Inequalities in Two Variables"
+    text_en: "Linear Inequalities in Two Variables"
+  - id: "6.2"
+    text: "Systems of Linear Inequalities in Two Variables"
+    text_en: "Systems of Linear Inequalities in Two Variables"
+
 learning_objectives:
-    - id: "6.1.1"
-      text: "Mewakilkan situasi dalam bentuk ketaksamaan linear."
-      text_en: "Represent situations in the form of linear inequalities."
-      bloom: apply
-    - id: "6.1.2"
-      text: "Membuat dan menentusahkan konjektur tentang titik dalam rantau dan penyelesaian bagi suatu ketaksamaan linear."
-      text_en: "Make and verify conjectures about points in the region and solution of a linear inequality."
-      bloom: analyze
-    - id: "6.1.3"
-      text: "Menentukan dan melorek rantau yang memuaskan satu ketaksamaan linear."
-      text_en: "Determine and shade the region that satisfies a linear inequality."
-      bloom: apply
-    - id: "6.2.1"
-      text: "Mewakilkan situasi dalam bentuk sistem ketaksamaan linear."
-      text_en: "Represent situations in the form of a system of linear inequalities."
-      bloom: apply
-    - id: "6.2.2"
-      text: "Membuat dan menentusahkan konjektur tentang titik dalam rantau dan penyelesaian bagi suatu sistem ketaksamaan linear."
-      text_en: "Make and verify conjectures about points in the region and solution of a system of linear inequalities."
-      bloom: analyze
-    - id: "6.2.3"
-      text: "Menentukan dan melorek rantau yang memuaskan satu sistem ketaksamaan linear."
-      text_en: "Determine and shade the region that satisfies a system of linear inequalities."
-      bloom: apply
-    - id: "6.2.4"
-      text: "Menyelesaikan masalah yang melibatkan sistem ketaksamaan linear dalam dua pemboleh ubah."
-      text_en: "Solve problems involving systems of linear inequalities in two variables."
-      bloom: apply
+  - id: "6.1.1"
+    text: "Represent situations in the form of linear inequalities."
+    text_en: "Represent situations in the form of linear inequalities."
+    bloom: "apply"
+  - id: "6.1.2"
+    text: "Make and verify the conjecture about the points in the region and the solution of certain linear inequalities."
+    text_en: "Make and verify the conjecture about the points in the region and the solution of certain linear inequalities."
+    bloom: "analyze"
+  - id: "6.1.3"
+    text: "Determine and shade the region that satisfies a linear inequality."
+    text_en: "Determine and shade the region that satisfies a linear inequality."
+    bloom: "apply"
+  - id: "6.2.1"
+    text: "Represent situations in the form of system of linear inequalities."
+    text_en: "Represent situations in the form of system of linear inequalities."
+    bloom: "apply"
+  - id: "6.2.2"
+    text: "Make and verify the conjecture about the points in the region and solution of linear inequality system."
+    text_en: "Make and verify the conjecture about the points in the region and solution of linear inequality system."
+    bloom: "analyze"
+  - id: "6.2.3"
+    text: "Determine and shade the region that satisfies a linear inequality system."
+    text_en: "Determine and shade the region that satisfies a linear inequality system."
+    bloom: "apply"
+  - id: "6.2.4"
+    text: "Solve problems involving systems of linear inequalities in two variables."
+    text_en: "Solve problems involving systems of linear inequalities in two variables."
+    bloom: "apply"
+
 prerequisites:
-    required: []
-    recommended: []
-bloom_levels:
-    - apply
-    - analyze
+  required:
+    - "MT1-06" # Linear Equations (Form 1)
+    - "MT1-07" # Linear Inequalities (Form 1)
+  recommended: []
+
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
 ai_teaching_notes: "MT4-06.teaching.md"
-quality_level: 1
-provenance: ai-assisted
+assessments_file: "MT4-06.assessments.yaml"
+examples_file: "MT4-06.examples.yaml"
+
+quality_level: 3
+provenance: "curriculum-aligned-rewrite"
+sync_checked: true
+
 teaching:
-    sequence:
-        - 'Step 1: Introduce linear inequalities with real-life scenarios (15 min)'
-        - 'Step 2: Teach graphing linear inequalities and shading regions (20 min)'
-        - 'Step 3: Explain systems of linear inequalities and overlapping regions (25 min)'
-    common_misconceptions:
-        - misconception: All inequality lines are the same as equation lines
-          remediation: Emphasize the difference with graph exercises
-        - misconception: Shaded region is chosen randomly
-          remediation: Use practical graph shading activities
-engagement_hooks:
-    - Use a small business scenario in Malaysia to calculate maximum profit with resource constraints
-    - Discuss budgeting for a school event with limitations on expenses
-assessments_file: MT4-06.assessments.yaml
-examples_file: MT4-06.examples.yaml
+  sequence:
+    - "Step 1: Introduce linear inequalities with real-life scenarios (15 min)"
+    - "Step 2: Teach graphing linear inequalities and shading regions (20 min)"
+    - "Step 3: Explain systems of linear inequalities and overlapping regions (25 min)"
+  common_misconceptions:
+    - misconception: "All inequality lines are the same as equation lines (Solid vs Dashed)."
+      remediation: "Emphasize the difference between >/< (dashed) and ≥/≤ (solid) with graph exercises."
+    - misconception: "The shaded region is chosen randomly without testing points."
+      remediation: "Use practical graph shading activities and the 'test point' method (e.g., using (0,0))."
+  engagement_hooks:
+    - "Use a small business scenario in Malaysia (e.g., a local bakery) to calculate maximum profit with resource constraints."
+    - "Discuss budgeting for a school event with specific limitations on expenses and guest numbers."

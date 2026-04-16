@@ -1,108 +1,150 @@
 topic_id: MT4-10
-provenance: ai-generated
-
+provenance: ai-assisted
 questions:
-  # Group by learning objective
+  # --- SUBCHAPTER 10.1.1: Financial Management Process ---
   - id: Q1
-    text: 'Apakah langkah pertama yang perlu diambil dalam proses pengurusan kewangan yang berkesan?'
-    difficulty: medium
-    learning_objective: 10.1.1
-    tp_level: 2
+    text: "Arrange the following steps of the effective financial management process in the correct chronological order."
+    difficulty: easy
+    learning_objective: "10.1.1"
+    tp_level: 1
     kbat: false
     answer:
-      type: free_text
-      value: "Menetapkan matlamat kewangan yang jelas."
+      type: multiple_choice
+      value: "Setting goals -> Evaluating status -> Creating plan -> Carrying out plan -> Reviewing progress"
       working: |
-        Langkah pertama dalam pengurusan kewangan ialah menetapkan matlamat kewangan yang jelas untuk mengarahkan aliran kewangan ke arah yang diinginkan.
-    marks: 2
+        According to the DSKP and textbook page 272, the process starts with goal setting and ends with periodic review.
+      distractors:
+        - value: "Evaluating status -> Setting goals -> Creating plan -> Carrying out plan -> Reviewing progress"
+          feedback: "You cannot evaluate your status against a goal that hasn't been set yet! Always start by defining your destination."
+        - value: "Setting goals -> Creating plan -> Evaluating status -> Carrying out plan -> Reviewing progress"
+          feedback: "You must evaluate your current financial status (assets and liabilities) BEFORE you can create a realistic plan."
+    marks: 1
     rubric:
       - marks: 1
-        criteria: "Menjawab menetapkan matlamat kewangan."
-      - marks: 2
-        criteria: "Menjawab menetapkan matlamat kewangan yang jelas dan terperinci."
+        criteria: "Correctly identifies the 5-step sequence."
     hints:
       - level: 1
-        text: "Pertimbangkan apa yang anda ingin capai dengan wang anda."
+        text: "Think of it like a journey: First you decide where to go, then you check how much petrol you have in the tank."
 
   - id: Q2
-    text: 'Pilih pernyataan yang benar mengenai pengurusan kewangan yang berkesan.'
-    difficulty: medium
-    learning_objective: 10.1.1
+    text: "Which of the following describes the 'Specific' (S) component of the SMART concept in goal setting?"
+    difficulty: easy
+    learning_objective: "10.1.1"
     tp_level: 2
     kbat: false
     answer:
       type: multiple_choice
-      value: "B. Mengkaji dan menilai aliran tunai secara berkala."
+      value: "The goal is clearly defined, such as buying a laptop worth $RM3,000$."
       working: |
-        Pengurusan kewangan yang berkesan melibatkan pengkajian dan penilaian aliran tunai secara berkala untuk memastikan matlamat kewangan dicapai.
-    marks: 2
-    rubric:
-      - marks: 2
-        criteria: "Memilih pernyataan yang benar mengenai pengurusan kewangan."
-    hints:
-      - level: 1
-        text: "Fokus pada tindakan yang membantu menilai keadaan kewangan semasa."
-
-  - id: Q3
-    text: 'Anda ingin membeli sebuah kereta dalam masa 5 tahun. Apakah elemen yang perlu dimasukkan dalam pelan kewangan anda?'
-    difficulty: medium
-    learning_objective: 10.1.2
-    tp_level: 3
-    kbat: true
-    answer:
-      type: free_text
-      value: "Anggaran kos kereta, tabungan bulanan, pelaburan, jangka masa, dan risiko."
-      working: |
-        Untuk mencapai matlamat ini, masukkan anggaran kos kereta, jumlah yang boleh disimpan setiap bulan, pilihan pelaburan, jangka masa, dan risiko kewangan yang mungkin dihadapi.
-    marks: 3
+        'Specific' means the goal is not vague. Stating a specific item and price makes it Specific.
+      distractors:
+        - value: "The goal can be calculated based on monthly income."
+          feedback: "This refers to the 'Measurable' (M) component."
+        - value: "The goal must be achieved within 2 years."
+          feedback: "This refers to the 'Time-bound' (T) component."
+    marks: 1
     rubric:
       - marks: 1
-        criteria: "Menjawab satu elemen dengan betul."
-      - marks: 2
-        criteria: "Menjawab dua hingga tiga elemen dengan betul."
-      - marks: 3
-        criteria: "Menjawab kesemua elemen dengan betul."
+        criteria: "Correctly identifies the definition of Specific in SMART."
     hints:
       - level: 1
-        text: "Pertimbangkan semua aspek kewangan yang terlibat dalam pembelian kereta."
+        text: "Ask yourself: Does the goal clearly state 'What' is being bought and 'How much' it costs exactly?"
 
-  - id: Q4
-    text: 'Seorang pelajar ingin menabung untuk laptop baharu dalam masa 2 tahun. Jika harga laptop adalah RM3000, berapakah jumlah bulanan yang perlu disimpan tanpa faedah?'
+  # --- SUBCHAPTER 10.1.2: Financial Plans & Feasibility ---
+  - id: Q3
+    text: "Puan Salmah intends to buy a laptop worth $RM3,000$ as a birthday gift for her son. She plans to save $RM300$ a month for ten months. Calculate if her goal is 'Attainable' (A) based on her monthly savings."
     difficulty: medium
-    learning_objective: 10.1.2
+    learning_objective: "10.1.2"
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "RM125"
+      value: "Yes"
       working: |
-        Jumlah tabungan bulanan = Total harga laptop / (Bilangan bulan)
-        Jumlah tabungan bulanan = RM3000 / (2 tahun x 12 bulan/tahun) = RM125
-    marks: 2
-    rubric:
-      - marks: 2
-        criteria: "Mengira jumlah bulanan yang tepat."
-    hints:
-      - level: 1
-        text: "Bahagikan jumlah harga laptop dengan jumlah bulan."
-
-  - id: Q5
-    text: 'Nyatakan satu risiko yang boleh menghalang pencapaian matlamat kewangan jangka panjang.'
-    difficulty: medium
-    learning_objective: 10.1.2
-    tp_level: 3
-    kbat: true
-    answer:
-      type: free_text
-      value: "Inflasi."
-      working: |
-        Inflasi boleh mengurangkan nilai wang simpanan dari masa ke masa, menjadikannya lebih sukar untuk mencapai matlamat kewangan jangka panjang.
+        Step 1: Calculate total savings over the period: $RM300 \times 10 \text{ months} = RM3,000$.
+        Step 2: Compare with laptop price: $RM3,000 = RM3,000$.
+        Conclusion: The goal is attainable because the total savings match the required amount.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menyatakan risiko umum tanpa penjelasan."
+        criteria: "Shows the multiplication of monthly savings by duration."
       - marks: 2
-        criteria: "Menyatakan dan menjelaskan risiko inflasi."
+        criteria: "Correct conclusion that the goal is attainable."
     hints:
       - level: 1
-        text: "Fikirkan tentang faktor yang boleh menurunkan nilai simpanan anda."
+        text: "How much will she have in total after 10 months? Multiply her monthly savings by the number of months."
+
+  - id: Q4
+    text: "Mr. Derrick receives an active income of $RM3,000$ and a passive income of $RM1,000$ monthly. His fixed expenses are $RM1,350$ and variable expenses are $RM650$. Calculate his monthly cash flow."
+    difficulty: medium
+    learning_objective: "10.1.2"
+    tp_level: 4
+    kbat: false
+    answer:
+      type: exact
+      value: "RM2,000"
+      working: |
+        Step 1: Total Income = Active + Passive = $RM3,000 + RM1,000 = RM4,000$.
+        Step 2: Total Expenses = Fixed + Variable = $RM1,350 + RM650 = RM2,000$.
+        Step 3: Cash Flow = Total Income - Total Expenses = $RM4,000 - RM2,000 = RM2,000$.
+        Result: Positive cash flow of $RM2,000$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Calculates total income correctly."
+      - marks: 1
+        criteria: "Calculates total expenses correctly."
+      - marks: 3
+        criteria: "Calculates final cash flow as $RM2,000$."
+    hints:
+      - level: 1
+        text: "First, add up all the money coming in. Then, add up all the money going out. Subtract the 'out' from the 'in'."
+
+  - id: Q5
+    text: "Encik Yusuf wants to buy a computer costing $RM6,000$ within a year. He currently has a $RM0$ surplus. If he manages to reduce his variable expenses to save $RM500$ a month, evaluate the feasibility of this new plan."
+    difficulty: hard
+    learning_objective: "10.1.2"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: "The plan is feasible because he will save $RM6,000$ in 12 months, which matches the computer price."
+      working: |
+        Step 1: Annual Savings = $RM500 \times 12 \text{ months} = RM6,000$.
+        Step 2: Compare with Goal: Goal is $RM6,000$.
+        Step 3: Feasibility check: Plan is realistic and attainable within the 1-year timeframe.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Calculates annual savings of $RM6,000$."
+      - marks: 4
+        criteria: "Provides a complete justification of feasibility based on the calculation and timeframe."
+    hints:
+      - level: 1
+        text: "He needs $RM6,000$. If he saves $RM500$ every month, how long will it take him? Is that within his 1-year deadline?"
+
+  - id: Q6
+    text: "Mr. Wong wants to save $RM150,000$ for his children's education in 15 years. His current savings commitment is $RM650$ monthly. He is short of $RM183.33$ per month. Suggest a creative strategy to achieve this goal without reducing his emergency fund."
+    difficulty: hard
+    learning_objective: "10.1.2"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "He can reduce variable expenses like travel or car-pool to save petrol, or take a part-time job to increase income."
+      working: |
+        Required monthly savings = $RM150,000 \div 180 \text{ months} = RM833.33$.
+        Current savings = $RM650$.
+        Deficit = $RM183.33$.
+        Solution: Reduce travel by 25% ($RM125$) and car-pool to save $RM100$ on petrol.
+    marks: 5
+    rubric:
+      - marks: 2
+        criteria: "Identifies specific variable expenses to reduce (e.g., travel/petrol)."
+      - marks: 3
+        criteria: "Suggests increasing income via part-time work or investments."
+      - marks: 5
+        criteria: "Provides a comprehensive plan that covers the $RM183.33$ gap creatively."
+    hints:
+      - level: 1
+        text: "Look at Mr. Wong's variable expenses like 'Travel' or 'Petrol'. Can he cut them? Or can he find a way to earn more 'Passive Income'?"

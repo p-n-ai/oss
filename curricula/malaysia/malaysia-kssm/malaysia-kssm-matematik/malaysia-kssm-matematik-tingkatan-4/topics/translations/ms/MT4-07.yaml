@@ -1,0 +1,71 @@
+id: "MT4-07"
+official_ref: "7.0"
+name: "Graf Gerakan"
+description: "Analisis gerakan objek melalui graf jarak-masa dan graf laju-masa, dengan fokus kepada kecerunan sebagai kadar perubahan dan luas di bawah graf sebagai jarak."
+ai_teaching_notes: "MT4-07.teaching.md"
+assessments_file: "MT4-07.assessments.yaml"
+examples_file: "MT4-07.examples.yaml"
+
+content_standards:
+  - id: "MT4-07-7-1"
+    text: "Graf Jarak-Masa"
+    learning_objectives:
+      - id: "MT4-07-7-1-1"
+        text: "Melukis graf jarak-masa."
+        tp: 1
+      - id: "MT4-07-7-1-2"
+        text: "Mentafsir graf jarak-masa dan menghuraikan gerakan berdasarkan graf tersebut."
+        tp: 2
+      - id: "MT4-07-7-1-3"
+        text: "Menyelesaikan masalah yang melibatkan graf jarak-masa."
+        tp: 4
+  - id: "MT4-07-7-2"
+    text: "Graf Laju-Masa"
+    learning_objectives:
+      - id: "MT4-07-7-2-1"
+        text: "Melukis graf laju-masa."
+        tp: 1
+      - id: "MT4-07-7-2-2"
+        text: "Membuat perkaitan antara luas di bawah graf laju-masa dengan jarak yang dilalui dan seterusnya menentukan jarak."
+        tp: 3
+      - id: "MT4-07-7-2-3"
+        text: "Mentafsir graf laju-masa dan menghuraikan gerakan berdasarkan graf tersebut."
+        tp: 2
+      - id: "MT4-07-7-2-4"
+        text: "Menyelesaikan masalah yang melibatkan graf laju-masa."
+        tp: 5
+
+pedagogical_sequence:
+  - "Mengenal pasti paksi mencancang mewakili jarak atau laju dan paksi mengufuk mewakili masa."
+  - "Memahami bahawa kecerunan graf jarak-masa mewakili laju."
+  - "Mengenal pasti kecerunan sifar dalam graf jarak-masa sebagai keadaan pegun."
+  - "Menghubungkaitkan luas di bawah graf laju-masa dengan jumlah jarak yang dilalui."
+  - "Mentafsir kecerunan graf laju-masa sebagai pecutan (positif) atau nyahpecutan (negatif)."
+  - "Mengaplikasikan strategi penyelesaian masalah 4-langkah (Memahami, Merancang, Melaksanakan, Menyemak) untuk masalah rutin kompleks dan bukan rutin."
+
+misconceptions:
+  - misconception: "Keliru antara garis mengufuk dalam graf jarak-masa (pegun) dengan graf laju-masa (laju seragam)."
+    remediation: "Bandingkan Rajah 1 dan Rajah 2 secara terus untuk menunjukkan bagaimana label paksi-Y mengubah maksud garis mendatar."
+  - misconception: "Mengira laju atau jarak tanpa menukar unit masa (minit kepada jam)."
+    remediation: "Wajibkan 'Semakan Unit' sebelum sebarang pengiraan; jika laju dalam km/j, masa MESTI dalam unit jam."
+  - misconception: "Menganggap kecerunan negatif dalam graf laju-masa bermaksud bergerak ke belakang."
+    remediation: "Jelaskan bahawa kecerunan negatif di sini menunjukkan nyahpecutan, manakala objek masih bergerak ke hadapan dalam arah yang sama."
+
+engagement_hooks:
+  - "Menganalisis rekod dunia pecutan 100m wira Paralimpik negara, Mohamad Ridzuan Puzi."
+  - "Cabaran 'Pocket Rocketman': Bagaimana laju jaguh lumba basikal trek Azizulhasni Awang berubah semasa perlumbaan."
+  - "Data pengangkutan dunia sebenar: Menganggarkan tempoh penerbangan dari KLIA2 ke Miri menggunakan graf."
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+prerequisites:
+  - "Tingkatan 1: Persamaan linear mudah dan memplot koordinat pada grid."
+  - "Tingkatan 2: Hubungan antara laju, jarak, dan masa (Laju = Jarak / Masa)."
+  - "Umum: Pengiraan luas bagi segi empat, segi tiga, dan trapezium."
+
+sync_checked: true

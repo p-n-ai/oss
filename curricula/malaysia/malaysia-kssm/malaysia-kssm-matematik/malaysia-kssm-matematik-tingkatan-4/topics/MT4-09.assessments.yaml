@@ -1,147 +1,169 @@
 topic_id: MT4-09
-provenance: ai-generated
-
+provenance: "official-dskp-aligned"
 questions:
-  # Learning Objective 9.1.1
+  # Learning Objective 9.1.1 - TP1
   - id: Q1
-    text: "Dalam satu kotak terdapat 3 bola merah dan 2 bola biru. Senaraikan semua peristiwa bergabung yang mungkin apabila dua bola dipilih secara rawak."
-    difficulty: medium
-    learning_objective: 9.1.1
+    text: "A fair coin is tossed and a fair dice is rolled simultaneously. Which of the following represents a possible outcome in the sample space $S$?"
+    difficulty: easy
+    learning_objective: "9.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "$(H, 4)$"
+      working: |
+        Step 1: Identify outcomes for a coin: $\{H, T\}$.
+        Step 2: Identify outcomes for a dice: $\{1, 2, 3, 4, 5, 6\}$.
+        Step 3: A combined event is an ordered pair $(x, y)$. Therefore, $(H, 4)$ is a valid outcome.
+      distractors:
+        - value: "$(H, T)$"
+          feedback: "This pair only shows coin results. A combined event here must include one coin side and one dice number."
+        - value: "$(4, 6)$"
+          feedback: "This pair only shows dice results. You missed the coin toss outcome!"
+        - value: "$(H, 7)$"
+          feedback: "A standard dice only goes up to 6. Check the sample space of the dice again."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Recall that a combined event outcome is written as an ordered pair $(x, y)$ where $x$ is from the first experiment and $y$ is from the second."
+
+  # Learning Objective 9.2.1 - TP2
+  - id: Q2
+    text: "State whether the following combined event is a **Dependent Event** or an **Independent Event**: 'Choosing two pens one by one from a box containing 3 red pens and 2 blue pens **without replacement**.'"
+    difficulty: easy
+    learning_objective: "9.2.1"
     tp_level: 2
     kbat: false
     answer:
-      type: free_text
-      value: "MM, MB, BM, BB"
+      type: multiple_choice
+      value: "Dependent Event"
       working: |
-        Terdapat dua jenis bola, merah (M) dan biru (B). Apabila dua bola dipilih:
-        1. Pilihan pertama: 3 M dan 2 B.
-        2. Pilihan kedua: 2 M dan 1 B (jika M dipilih dahulu) atau 3 M dan 1 B (jika B dipilih dahulu).
-        Jadi, peristiwa bergabung yang mungkin: MM, MB, BM, BB.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menyenaraikan dua peristiwa yang betul."
-      - marks: 1
-        criteria: "Menyenaraikan semua peristiwa bergabung yang mungkin."
+        Step 1: 'Without replacement' means the first pen is not put back.
+        Step 2: This changes the total number of pens and the color distribution for the second pick.
+        Step 3: Since the first outcome affects the second, it is a Dependent Event.
+      distractors:
+        - value: "Independent Event"
+          feedback: "If you don't put the pen back, the probability of the next pick changes! This makes it 'Dependent'."
+    marks: 1
     hints:
       - level: 1
-        text: "Ingat bahawa urutan pemilihan bola adalah penting."
-  
-  # Learning Objective 9.2.2
-  - id: Q2
-    text: "Dua dadu dilambung serentak. Apakah kebarangkalian bahawa salah satu dadu menunjukkan nombor 6?"
-    difficulty: medium
-    learning_objective: 9.2.2
-    tp_level: 3
-    kbat: false
-    answer:
-      type: exact
-      value: "11/36"
-      working: |
-        Kebarangkalian satu dadu menunjukkan 6 adalah 1/6.
-        Oleh itu, kebarangkalian salah satu dadu menunjukkan nombor 6 adalah:
-        P(A atau B) = P(A) + P(B) - P(A dan B)
-        = 1/6 + 1/6 - 1/36
-        = 11/36
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Mengira kebarangkalian satu dadu menunjukkan 6."
-      - marks: 1
-        criteria: "Menggunakan rumus P(A atau B) dengan betul."
-      - marks: 1
-        criteria: "Mengira kebarangkalian akhir dengan betul."
-    hints:
-      - level: 1
-        text: "MISCONCEPTION ALERT: Pastikan untuk tolak kebarangkalian kedua-dua dadu menunjukkan 6."
+        text: "Think about the total number of pens. If you take one out and keep it, does the probability of the second pick stay the same or change?"
 
-  # Learning Objective 9.2.3
+  # Learning Objective 9.2.3 - TP3
   - id: Q3
-    text: "Dalam satu permainan, jika anda memenangi pusingan pertama, kebarangkalian anda memenangi pusingan kedua adalah 0.7. Jika anda kalah dalam pusingan pertama, kebarangkalian anda memenangi pusingan kedua adalah 0.4. Apakah kebarangkalian anda memenangi pusingan kedua?"
+    text: "Box A contains cards $\{3, 5, 7, 9\}$ and Box B contains cards $\{X, Y, Z\}$. A card is chosen at random from each box. Calculate the probability of getting a factor of 9 and the letter 'Z'."
     difficulty: medium
-    learning_objective: 9.2.3
+    learning_objective: "9.2.3"
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "0.55"
+      value: "1/6"
       working: |
-        Diberi:
-        P(Menang P1) = 0.5, P(Menang P2 | Menang P1) = 0.7
-        P(Kalah P1) = 0.5, P(Menang P2 | Kalah P1) = 0.4
-        Kebarangkalian memenangi pusingan kedua adalah:
-        P(Menang P2) = P(Menang P2 | Menang P1) × P(Menang P1) + P(Menang P2 | Kalah P1) × P(Kalah P1)
-        = 0.7 × 0.5 + 0.4 × 0.5
-        = 0.35 + 0.2
-        = 0.55
+        Step 1: P(factor of 9) from Box A $\{3, 9\} = 2/4 = 1/2$.
+        Step 2: P(letter 'Z') from Box B $\{Z\} = 1/3$.
+        Step 3: Use Multiplication Rule for Independent Events: $P(A \cap B) = P(A) \times P(B) = 1/2 \times 1/3 = 1/6$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menentukan kebarangkalian memenangi pusingan pertama."
+        criteria: "Correctly identify factors of 9 and calculate $P(A) = 1/2$."
       - marks: 1
-        criteria: "Menggunakan rumus kebarangkalian bersyarat dengan betul."
+        criteria: "Correctly calculate $P(B) = 1/3$."
       - marks: 1
-        criteria: "Menentukan kebarangkalian akhir dengan betul."
+        criteria: "Apply multiplication rule to get $1/6$."
     hints:
       - level: 1
-        text: "Pertimbangkan dua senario: menang dan kalah dalam pusingan pertama."
+        text: "List the factors of 9 in Box A first. How many are there out of the total 4 cards?"
+      - level: 2
+        text: "Since choosing from Box A doesn't affect Box B, these are independent. What rule do we use to find 'Event A AND Event B'?"
 
-  # Learning Objective 9.3.2
+  # Learning Objective 9.3.3 - TP4
   - id: Q4
-    text: "Apakah kebarangkalian sekurang-kurangnya satu daripada dua kad yang dipilih dari dek 52 kad adalah hati?"
+    text: "A number is chosen at random from a set $S = \{x : x \text{ is an integer, } 1 \leq x \leq 9\}$. Calculate the probability of choosing an even number or a multiple of 5."
     difficulty: medium
-    learning_objective: 9.3.2
+    learning_objective: "9.3.3"
     tp_level: 4
+    kbat: false
+    answer:
+      type: exact
+      value: "5/9"
+      working: |
+        Step 1: Sample space $S = \{1, 2, 3, 4, 5, 6, 7, 8, 9\}$, so $n(S) = 9$.
+        Step 2: Even numbers $A = \{2, 4, 6, 8\}$, so $P(A) = 4/9$.
+        Step 3: Multiples of 5 $B = \{5\}$, so $P(B) = 1/9$.
+        Step 4: Intersection $A \cap B = \emptyset$ (Mutually Exclusive).
+        Step 5: $P(A \cup B) = P(A) + P(B) = 4/9 + 1/9 = 5/9$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Identify the sample space and even numbers correctly."
+      - marks: 1
+        criteria: "Identify the multiple of 5 correctly."
+      - marks: 1
+        criteria: "Use the addition rule for mutually exclusive events to find $5/9$."
+    hints:
+      - level: 1
+        text: "List all the numbers from 1 to 9. Then circle the even ones and put a square around the multiples of 5."
+      - level: 2
+        text: "Is there any number that is both even and a multiple of 5 in this set? If not, just add their probabilities."
+
+  # Learning Objective 9.4.1 - TP5
+  - id: Q5
+    text: "A bag contains 8 green marbles and 1 red marble. Two marbles are chosen randomly one by one **without replacement**. Calculate the probability that at least one marble is red."
+    difficulty: hard
+    learning_objective: "9.4.1"
+    tp_level: 5
     kbat: true
     answer:
       type: exact
-      value: "0.6243"
+      value: "2/9"
       working: |
-        Kebarangkalian tiada kad hati dipilih:
-        P(Tiada hati) = (39/52) × (38/51)
-        = 0.5588
-        Oleh itu, kebarangkalian sekurang-kurangnya satu hati dipilih:
-        P(Sekurang-kurangnya satu hati) = 1 - P(Tiada hati)
-        = 1 - 0.5588
-        = 0.4412
-        = 0.6243
-    marks: 3
+        Step 1: Total marbles = 9.
+        Step 2: Method 1 (Complement): $P(\text{At least one red}) = 1 - P(\text{Both green})$.
+        Step 3: $P(G_1 \cap G_2) = (8/9) \times (7/8) = 56/72 = 7/9$.
+        Step 4: Final Prob = $1 - 7/9 = 2/9$.
+        Step 5: Method 2 (Tree Diagram): $P(GR) + P(RG) = (8/9 \times 1/8) + (1/9 \times 8/8) = 8/72 + 8/72 = 16/72 = 2/9$.
+    marks: 4
     rubric:
       - marks: 1
-        criteria: "Mengira kebarangkalian tiada kad hati dipilih."
+        criteria: "Correctly identify the 'without replacement' change in denominator (8 marbles left)."
+      - marks: 2
+        criteria: "Successfully calculate $P(G,G)$ or both paths $P(G,R)$ and $P(R,G)$."
       - marks: 1
-        criteria: "Menggunakan konsep pelengkap untuk kebarangkalian."
-      - marks: 1
-        criteria: "Mengira kebarangkalian akhir dengan tepat."
+        criteria: "Final answer $2/9$ with complete working."
     hints:
       - level: 1
-        text: "Gunakan pelengkap dan kira kebarangkalian tiada kad hati dipilih dahulu."
+        text: "The term 'at least one' is a big hint to use the complement method: $1 - P(\text{None are red})$."
+      - level: 2
+        text: "Remember the 'Eaten Candy' rule! After picking the first green marble, how many green marbles and total marbles are left?"
 
-  # Learning Objective 9.4.1
-  - id: Q5
-    text: "Ali dan Abu bermain dadu. Jika Ali mendapat nombor ganjil, dia menang. Jika Abu mendapat nombor lebih besar dari 4, dia menang. Apakah kebarangkalian kedua-dua mereka menang?"
-    difficulty: medium
-    learning_objective: 9.4.1
-    tp_level: 4
-    kbat: false
+  # Learning Objective 9.4.1 - TP6
+  - id: Q6
+    text: "The probability that Khaizan is involved in an accident in each round of a race is 0.4. If he is involved in an accident, he must quit the race. Calculate the probability that Khaizan completes three laps of the race track successfully. Then, state a moral value regarding safety in sports based on this probability."
+    difficulty: hard
+    learning_objective: "9.4.1"
+    tp_level: 6
+    kbat: true
     answer:
-      type: exact
-      value: "1/12"
+      type: free_text
+      value: "Probability = 0.216; Safety first is crucial as high risk affects long-term success."
       working: |
-        Kebarangkalian Ali menang (nombor ganjil): P(Ali) = 3/6 = 1/2
-        Kebarangkalian Abu menang (nombor lebih besar dari 4): P(Abu) = 2/6 = 1/3
-        Kebarangkalian kedua-duanya menang:
-        P(Ali dan Abu) = P(Ali) × P(Abu)
-        = (1/2) × (1/3)
-        = 1/6
-    marks: 3
+        Step 1: $P(\text{Accident}) = 0.4$, therefore $P(\text{No accident}) = 1 - 0.4 = 0.6$.
+        Step 2: To complete 3 laps, he must have no accident in Lap 1, Lap 2, AND Lap 3.
+        Step 3: Since each round is independent: $0.6 \times 0.6 \times 0.6 = 0.216$.
+        Step 4: Moral value: Participation in high-risk sports requires extreme caution and safety equipment because the combined probability of failure increases with every round.
+    marks: 5
     rubric:
       - marks: 1
-        criteria: "Mengira kebarangkalian Ali menang."
+        criteria: "Identify the probability of success per lap as 0.6."
+      - marks: 2
+        criteria: "Correctly apply the multiplication rule for 3 independent rounds."
       - marks: 1
-        criteria: "Mengira kebarangkalian Abu menang."
+        criteria: "Final numerical answer 0.216."
       - marks: 1
-        criteria: "Mengira kebarangkalian kedua-duanya menang dengan betul."
+        criteria: "Provide a logical moral value or justification related to safety and risk."
     hints:
       - level: 1
-        text: "Pertimbangkan kebarangkalian setiap pemain menang secara terpisah dahulu."
+        text: "If he completes the race, it means he did NOT have an accident in Round 1, Round 2, AND Round 3. What is the probability of 'No Accident'?"
+      - level: 2
+        text: "Multiply the success probability for each of the three rounds. Does a 21.6% chance of finishing seem safe to you?"

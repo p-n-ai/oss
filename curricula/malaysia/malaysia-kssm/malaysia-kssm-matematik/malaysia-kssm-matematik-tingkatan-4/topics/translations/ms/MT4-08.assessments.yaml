@@ -1,0 +1,148 @@
+id: MT4-08-assessments
+topic_id: MT4-08
+provenance: "official-dskp-alignment"
+questions:
+  # --- 8.1.1 Serakan (TP1) ---
+  - id: Q1
+    text: "Antara pernyataan berikut, yang manakah menerangkan maksud serakan dalam statistik dengan paling tepat?"
+    difficulty: easy
+    learning_objective: "8.1.1"
+    tp_level: 1
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "Ia mengukur bagaimana nilai-nilai dalam satu set data ditaburkan."
+      working: |
+        Serakan (dispersion) merujuk kepada penyebaran data di sekitar nilai pusat. 
+        Ia kecil jika data rapat antara satu sama lain dan besar jika data tersebar luas.
+      distractors:
+        - value: "Ia mengenal pasti nilai tengah bagi satu set data yang disusun."
+          feedback: "Itu adalah definisi Median (sukatan kecenderungan memusat), bukan serakan."
+        - value: "Ia mewakili nilai yang paling kerap muncul dalam satu set data."
+          feedback: "Itu adalah definisi Mod. Serakan adalah tentang 'sebaran', bukan 'kekerapan'."
+        - value: "Ia mengira purata bagi semua nilai dalam satu set data."
+          feedback: "Itu adalah definisi Min. Anda telah keliru antara kecenderungan memusat dengan serakan."
+
+  # --- 8.1.2 Membanding/Mentafsir Serakan (TP3) ---
+  - id: Q2
+    text: "Plot titik menunjukkan skor bagi 20 orang murid dalam kuiz Sains dan kuiz Matematik. Bandingkan serakan kedua-dua kuiz tersebut dan nyatakan kuiz manakah yang mempunyai serakan yang lebih besar."
+    difficulty: medium
+    learning_objective: "8.1.2"
+    tp_level: 3
+    kbat: true
+    marks: 2
+    answer:
+      type: free_text
+      value: "Kuiz Sains mempunyai serakan yang lebih besar kerana beza cerapannya lebih besar ($15 - 8 = 7$) berbanding kuiz Matematik ($15 - 9 = 6$)."
+      working: |
+        Langkah 1: Kira julat untuk Sains: $15 - 8 = 7$.
+        Langkah 2: Kira julat untuk Matematik: $15 - 9 = 6$.
+        Langkah 3: Bandingkan nilai: $7 > 6$.
+        Kesimpulan: Sains mempunyai serakan lebih besar.
+    rubric:
+      - marks: 1
+        criteria: "Mengira perbezaan nilai (julat) bagi kedua-dua set data dengan betul."
+      - marks: 1
+        criteria: "Membuat kesimpulan yang betul berdasarkan perbandingan sebaran tersebut."
+    hints:
+      - level: 1
+        text: "Lihat pada titik terendah dan tertinggi pada paksi mengufuk untuk kedua-dua plot. Plot manakah yang lebih 'lebar'?"
+
+  # --- 8.2.1 Sukatan Serakan (TP2) ---
+  - id: Q3
+    text: "Tentukan julat antara kuartil bagi set data berikut: $4, 4, 6, 8, 10, 13, 15, 16, 20, 22, 23$."
+    difficulty: medium
+    learning_objective: "8.2.1"
+    tp_level: 2
+    marks: 3
+    answer:
+      type: exact
+      value: "14"
+      working: |
+        Langkah 1: Data sudah disusun secara menaik. $N = 11$.
+        Langkah 2: Cari median (nilai ke-6) = 13.
+        Langkah 3: Cari $Q_1$ (tengah bagi 5 nilai pertama) = 6.
+        Langkah 4: Cari $Q_3$ (tengah bagi 5 nilai terakhir) = 20.
+        Langkah 5: $JAK = Q_3 - Q_1 = 20 - 6 = 14$.
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti kuartil pertama ($Q_1$) and kuartil ketiga ($Q_3$) dengan betul."
+      - marks: 2
+        criteria: "Mengaplikasikan formula $Q_3 - Q_1$ untuk mendapatkan nilai akhir yang betul."
+    hints:
+      - level: 1
+        text: "Mula-mula, cari median untuk membahagikan data kepada dua bahagian. Kemudian, cari 'tengah bagi bahagian tersebut'."
+
+  # --- 8.2.4 Kesan Perubahan Data (TP4) ---
+  - id: Q4
+    text: "Varians bagi satu set data ialah $2.5$. Jika setiap nilai dalam set itu didarab dengan $3$, apakah varians yang baharu?"
+    difficulty: medium
+    learning_objective: "8.2.4"
+    tp_level: 4
+    marks: 1
+    answer:
+      type: multiple_choice
+      value: "22.5"
+      working: |
+        Peraturan: Varians Baharu = $k^2 \times \text{Varians Asal}$.
+        $k = 3$.
+        Varians Baharu = $3^2 \times 2.5 = 9 \times 2.5 = 22.5$.
+      distractors:
+        - value: "7.5"
+          feedback: "Anda hanya mendarab dengan $k$. Ingat, varians berada dalam 'Dunia Kuasa Dua'—anda mesti darab dengan $k^2$!"
+        - value: "2.5"
+          feedback: "Varians tidak berubah hanya jika anda menambah atau menolak pemalar. Pendaraban sentiasa mengubah serakan."
+        - value: "5.5"
+          feedback: "Nampaknya anda menambah $3$ dan bukannya mendarab. Semak semula operasi dalam soalan."
+
+  # --- 8.2.5 Perbandingan dengan Kecenderungan Memusat (TP5) ---
+  - id: Q5
+    text: "Dua orang atlet, A dan B, mencatatkan masa (dalam saat) untuk lima percubaan larian 100m. Kedua-duanya mempunyai min masa $12.5s$. Atlet A mempunyai sisihan piawai $0.15s$ manakala Atlet B mempunyai $0.45s$. Atlet manakah yang lebih konsisten?"
+    difficulty: medium
+    learning_objective: "8.2.5"
+    tp_level: 5
+    kbat: true
+    marks: 2
+    answer:
+      type: free_text
+      value: "Atlet A lebih konsisten kerana sisihan piawai mereka lebih kecil ($0.15 < 0.45$)."
+      working: |
+        Sisihan piawai lebih rendah = serakan lebih rendah = prestasi lebih konsisten.
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti Atlet A dengan betul."
+      - marks: 1
+        criteria: "Memberikan justifikasi dengan mengaitkan sisihan piawai yang lebih kecil kepada konsistensi yang lebih tinggi."
+    hints:
+      - level: 1
+        text: "Dalam statistik, 'konsisten' bermaksud data tidak banyak berubah daripada purata. Sisihan piawai manakah yang menunjukkan 'kurang huru-hara'?"
+
+  # --- 8.2.6 Penyelesaian Masalah (TP6) ---
+  - id: Q6
+    text: "Satu set yang mengandungi $10$ nombor mempunyai min $18$ and varians $38$. Jika satu nombor baharu, $19$, ditambah ke dalam set itu, hitung varians baharu bagi set tersebut."
+    difficulty: hard
+    learning_objective: "8.2.6"
+    tp_level: 6
+    kbat: true
+    marks: 5
+    answer:
+      type: exact
+      value: "35.36"
+      working: |
+        Langkah 1: Cari $\sum x$ lama $= 10 \times 18 = 180$.
+        Langkah 2: Cari $\sum x^2$ lama: $38 = \frac{\sum x^2}{10} - 18^2 \rightarrow \sum x^2 = (38 + 324) \times 10 = 3620$.
+        Langkah 3: $\sum x$ baru $= 180 + 19 = 199$. $N$ baru $= 11$. Min baru $= 199/11 = 18.09$.
+        Langkah 4: $\sum x^2$ baru $= 3620 + 19^2 = 3620 + 361 = 3981$.
+        Langkah 5: Varians Baru $= \frac{3981}{11} - 18.09^2 = 361.91 - 327.25 = 34.66$ (Terima $34.6$ hingga $35.4$ berdasarkan pembundaran).
+    rubric:
+      - marks: 1
+        criteria: "Mengira jumlah kuasa dua asal ($\sum x^2$) dengan betul."
+      - marks: 1
+        criteria: "Mengira jumlah baharu ($\sum x$) and jumlah kuasa dua baharu ($\sum x^2$) selepas menambah nombor."
+      - marks: 1
+        criteria: "Menentukan min baharu dengan betul."
+      - marks: 2
+        criteria: "Mengaplikasikan formula varians dengan betul untuk mencari nilai akhir."
+    hints:
+      - level: 1
+        text: "Anda perlu mencari jumlah besar kuasa dua ($\sum x^2$) bagi set asal sebelum anda boleh menambah nilai baharu. Gunakan formula varians secara terbalik!"

@@ -1,0 +1,168 @@
+topic_id: MT4-09
+provenance: "official-dskp-aligned"
+questions:
+  # Standard Pembelajaran 9.1.1 - TP1
+  - id: Q1
+    text: "Sekeping syiling adil dilambung dan sebiji dadu adil dilambung serentak. Antara berikut, yang manakah mewakili satu kesudahan yang mungkin dalam ruang sampel $S$?"
+    difficulty: easy
+    learning_objective: "9.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "$(A, 4)$"
+      working: |
+        Langkah 1: Kenal pasti kesudahan syiling: {Angka (A), Gambar (G)}.
+        Langkah 2: Kenal pasti kesudahan dadu: {1, 2, 3, 4, 5, 6}.
+        Langkah 3: Peristiwa bergabung ditulis sebagai pasangan tertib (x, y). Maka, (A, 4) ialah kesudahan yang sah.
+      distractors:
+        - value: "$(A, G)$"
+          feedback: "Pasangan ini hanya menunjukkan hasil syiling. Peristiwa bergabung di sini mesti melibatkan satu sisi syiling DAN satu nombor dadu."
+        - value: "$(4, 6)$"
+          feedback: "Pasangan ini hanya menunjukkan hasil dadu. Anda tertinggal kesudahan lambungan syiling!"
+        - value: "$(A, 7)$"
+          feedback: "Dadu standard hanya mempunyai nombor hingga 6. Sila semak semula ruang sampel dadu."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Ingat bahawa kesudahan peristiwa bergabung ditulis sebagai pasangan tertib (x, y) di mana x adalah daripada eksperimen pertama dan y daripada eksperimen kedua."
+
+  # Standard Pembelajaran 9.2.1 - TP2
+  - id: Q2
+    text: "Nyatakan sama ada peristiwa bergabung berikut ialah **Peristiwa Bersandar** atau **Peristiwa Tak Bersandar**: 'Memilih dua batang pen satu demi satu dari sebuah bekas yang mengandungi 3 pen merah dan 2 pen biru **tanpa pemulangan**.'"
+    difficulty: easy
+    learning_objective: "9.2.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Peristiwa Bersandar"
+      working: |
+        Langkah 1: 'Tanpa pemulangan' bermaksud pen pertama tidak diletakkan semula ke dalam bekas.
+        Langkah 2: Ini mengubah jumlah pen dan komposisi warna untuk cabutan kedua.
+        Langkah 3: Oleh kerana hasil pertama mempengaruhi hasil kedua, ia adalah Peristiwa Bersandar.
+      distractors:
+        - value: "Peristiwa Tak Bersandar"
+          feedback: "Jika anda tidak memulangkan pen tersebut, kebarangkalian untuk cabutan seterusnya akan berubah! Ini menjadikannya 'Bersandar'."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Fikirkan tentang jumlah pen. Jika anda ambil satu dan simpan, adakah kebarangkalian cabutan kedua kekal sama atau berubah?"
+
+  # Standard Pembelajaran 9.2.3 - TP3
+  - id: Q3
+    text: "Kotak A mengandungi kad {3, 5, 7, 9} dan Kotak B mengandungi kad {X, Y, Z}. Sekeping kad dipilih secara rawak dari setiap kotak. Hitung kebarangkalian mendapat satu faktor bagi 9 dan huruf 'Z'."
+    difficulty: medium
+    learning_objective: "9.2.3"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "1/6"
+      working: |
+        Langkah 1: P(faktor bagi 9) dari Kotak A {3, 9} = 2/4 = 1/2.
+        Langkah 2: P(huruf 'Z') dari Kotak B {Z} = 1/3.
+        Langkah 3: Guna Hukum Pendaraban: $P(A \cap B) = P(A) \times P(B) = 1/2 \times 1/3 = 1/6$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti faktor bagi 9 dan mengira P(A) = 1/2 dengan betul."
+      - marks: 1
+        criteria: "Mengira P(B) = 1/3 dengan betul."
+      - marks: 1
+        criteria: "Menggunakan hukum pendaraban untuk mendapat jawapan 1/6."
+    hints:
+      - level: 1
+        text: "Senaraikan faktor bagi 9 yang ada dalam Kotak A. Berapakah bilangannya daripada jumlah 4 kad?"
+      - level: 2
+        text: "Oleh sebab pilihan Kotak A tidak mempengaruhi Kotak B, ini adalah peristiwa tak bersandar. Apakah hukum yang kita gunakan untuk mencari 'Peristiwa A DAN Peristiwa B'?"
+
+  # Standard Pembelajaran 9.3.3 - TP4
+  - id: Q4
+    text: "Satu nombor dipilih secara rawak daripada set $S = \{x : x \text{ ialah integer, } 1 \leq x \leq 9\}$. Hitung kebarangkalian memilih satu nombor genap atau nombor gandaan 5."
+    difficulty: medium
+    learning_objective: "9.3.3"
+    tp_level: 4
+    kbat: false
+    answer:
+      type: exact
+      value: "5/9"
+      working: |
+        Langkah 1: Ruang sampel $S = \{1, 2, 3, 4, 5, 6, 7, 8, 9\}$, maka $n(S) = 9$.
+        Langkah 2: Nombor genap $A = \{2, 4, 6, 8\}$, maka $P(A) = 4/9$.
+        Langkah 3: Gandaan 5 $B = \{5\}$, maka $P(B) = 1/9$.
+        Langkah 4: Persilangan $A \cap B = \emptyset$ (Saling Eksklusif).
+        Langkah 5: $P(A \cup B) = P(A) + P(B) = 4/9 + 1/9 = 5/9$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti ruang sampel dan nombor genap dengan betul."
+      - marks: 1
+        criteria: "Mengenal pasti gandaan 5 dengan betul."
+      - marks: 1
+        criteria: "Menggunakan hukum penambahan bagi peristiwa saling eksklusif untuk mendapat 5/9."
+    hints:
+      - level: 1
+        text: "Senaraikan semua nombor dari 1 hingga 9. Bulatkan nombor genap dan petakkan nombor gandaan 5."
+      - level: 2
+        text: "Adakah terdapat nombor yang genap DAN gandaan 5 dalam set ini? Jika tiada, tambahkan sahaja kebarangkalian mereka."
+
+  # Standard Pembelajaran 9.4.1 - TP5
+  - id: Q5
+    text: "Sebuah beg mengandungi 8 guli hijau dan 1 guli merah. Dua biji guli dipilih secara rawak satu demi satu **tanpa pemulangan**. Hitung kebarangkalian bahawa sekurang-kurangnya satu guli merah dipilih."
+    difficulty: hard
+    learning_objective: "9.4.1"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "2/9"
+      working: |
+        Langkah 1: Jumlah guli = 9.
+        Langkah 2: Kaedah Pelengkap: $P(\text{Sekurang-kurangnya satu merah}) = 1 - P(\text{Kedua-dua hijau})$.
+        Langkah 3: $P(H_1 \cap H_2) = (8/9) \times (7/8) = 56/72 = 7/9$.
+        Langkah 4: Kebarangkalian Akhir = $1 - 7/9 = 2/9$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti perubahan penyebut disebabkan 'tanpa pemulangan' (baki 8 guli)."
+      - marks: 2
+        criteria: "Berjaya mengira P(H,H) atau menggunakan gambar rajah pokok untuk jalan kerja yang lengkap."
+      - marks: 1
+        criteria: "Jawapan akhir 2/9 dengan langkah kerja yang sempurna."
+    hints:
+      - level: 1
+        text: "Istilah 'sekurang-kurangnya satu' adalah petunjuk besar untuk menggunakan kaedah pelengkap: $1 - P(\text{Tiada yang merah})$."
+      - level: 2
+        text: "Ingat Peraturan Gula-gula Dimakan! Selepas guli hijau pertama diambil, berapakah bilangan guli hijau dan jumlah guli yang tinggal?"
+
+  # Standard Pembelajaran 9.4.1 - TP6
+  - id: Q6
+    text: "Kebarangkalian Khaizan terlibat dalam kemalangan pada setiap pusingan perlumbaan ialah 0.4. Jika dia terlibat dalam kemalangan, dia mesti berhenti berlumba. Hitung kebarangkalian Khaizan berjaya menamatkan tiga pusingan perlumbaan. Kemudian, nyatakan satu nilai murni berkaitan keselamatan dalam sukan berdasarkan kebarangkalian ini."
+    difficulty: hard
+    learning_objective: "9.4.1"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Kebarangkalian = 0.216; Keselamatan diri perlu diutamakan kerana risiko yang tinggi boleh menjejaskan kejayaan jangka panjang."
+      working: |
+        Langkah 1: $P(\text{Kemalangan}) = 0.4$, maka $P(\text{Tidak kemalangan}) = 1 - 0.4 = 0.6$.
+        Langkah 2: Untuk menamatkan 3 pusingan, dia mesti tidak mengalami kemalangan dalam Pusingan 1, Pusingan 2, DAN Pusingan 3.
+        Langkah 3: Memandangkan setiap pusingan adalah tak bersandar: $0.6 \times 0.6 \times 0.6 = 0.216$.
+        Langkah 4: Nilai murni: Sukan berisiko tinggi memerlukan peralatan keselamatan dan kewaspadaan tinggi kerana kebarangkalian terkumpul untuk gagal meningkat pada setiap pusingan tambahan.
+    marks: 5
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti kebarangkalian berjaya setiap pusingan ialah 0.6."
+      - marks: 2
+        criteria: "Menggunakan hukum pendaraban untuk 3 pusingan tak bersandar dengan betul."
+      - marks: 1
+        criteria: "Jawapan berangka akhir 0.216."
+      - marks: 1
+        criteria: "Memberikan nilai murni atau justifikasi logik berkaitan keselamatan dan risiko."
+    hints:
+      - level: 1
+        text: "Jika dia menamatkan perlumbaan, bermakna dia TIDAK kemalangan pada Pusingan 1, 2, DAN 3. Berapakah kebarangkalian 'Tidak Kemalangan'?"
+      - level: 2
+        text: "Darabkan kebarangkalian berjaya untuk ketiga-tiga pusingan tersebut. Adakah peluang 21.6% untuk tamat perlumbaan nampak selamat pada pandangan anda?"

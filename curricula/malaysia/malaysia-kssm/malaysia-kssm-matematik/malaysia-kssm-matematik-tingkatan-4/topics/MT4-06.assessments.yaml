@@ -1,119 +1,129 @@
-topic_id: MT4-06
-provenance: ai-generated
-
+topic_id: "MT4-06"
+provenance: "curriculum-aligned-rewrite"
 questions:
-  # Learning Objective: 6.1.1 (apply)
-  - id: Q1
-    text: 'Mewakilkan situasi berikut dalam bentuk ketaksamaan linear: Seorang pelajar perlu mengumpulkan sekurang-kurangnya 50 markah dalam ujian matematik dan sains. Jika markah matematik diwakili oleh $x$ dan markah sains diwakili oleh $y$, nyatakan ketaksamaan yang mewakili situasi ini.'
-    difficulty: medium
-    learning_objective: 6.1.1
+  # Learning Objective: 6.1.3 (TP1 - Knowledge of symbols/lines)
+  - id: "Q1"
+    type: "multiple_choice"
+    text: "Which type of line is used to draw the boundary for the linear inequality $y > 2x + 5$?"
+    difficulty: "easy"
+    learning_objective: "6.1.3"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "Dashed line"
+      working: |
+        Step 1: Identify the inequality sign. The sign is '>'.
+        Step 2: Apply the rule: Inequalities without an 'equal' component ( > or < ) use a dashed line to indicate the boundary is not included.
+      distractors:
+        - value: "Solid line"
+          feedback: "A solid line is only used for inequalities that include 'equal to' symbols like $\geq$ or $\leq$."
+        - value: "Vertical line"
+          feedback: "The orientation of the line depends on the equation $y = 2x + 5$, not just the inequality sign."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Check 'My Memory' or 'Tips' in the textbook (p. 158). Does the symbol > mean the points on the line are included?"
+
+  # Learning Objective: 6.1.1 (TP2 - Representing situations)
+  - id: "Q2"
+    text: "Madam Carol needs to select at most 20 pupils for a choir competition. If the number of girls is $x$ and the number of boys is $y$, represent this situation as a linear inequality."
+    difficulty: "easy"
+    learning_objective: "6.1.1"
     tp_level: 2
     kbat: false
     answer:
-      type: exact
-      value: 'x + y \geq 50'
+      type: "exact"
+      value: "x + y \leq 20"
       working: |
-        Untuk mengumpulkan sekurang-kurangnya 50 markah, jumlah markah matematik dan sains mesti lebih atau sama dengan 50. Oleh itu, ketaksamaan linear adalah $x + y \geq 50$.
+        Step 1: Identify the variables. $x$ = girls, $y$ = boys.
+        Step 2: Identify the total. The total is the sum $x + y$.
+        Step 3: Translate 'at most' into a symbol. 'At most' means 'less than or equal to' ($\leq$).
+        Step 4: Combine: $x + y \leq 20$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: 'Menulis bentuk ketaksamaan $x + y \geq 50$ dengan betul.'
+        criteria: "Correctly identifies the sum of variables $x + y$."
       - marks: 1
-        criteria: "Memahami keperluan 'sekurang-kurangnya' dalam situasi dan menerapkannya dengan betul."
+        criteria: "Correctly applies the $\leq$ symbol for 'at most'."
     hints:
       - level: 1
-        text: "Pertimbangkan apa yang dimaksudkan dengan 'sekurang-kurangnya' dalam konteks ketaksamaan."
+        text: "Think about the maximum limit. If the limit is 20, can the total be exactly 20? Can it be more?"
 
-  # Learning Objective: 6.1.2 (analyze)
-  - id: Q2
-    text: 'Berdasarkan ketaksamaan $2x + 3y < 12$, tentukan jika titik (2, 3) berada dalam rantau penyelesaian.'
-    difficulty: medium
-    learning_objective: 6.1.2
+  # Learning Objective: 6.2.2 (TP3 - Verifying points in a system)
+  - id: "Q3"
+    text: "Does the point (2, 5) satisfy the system of linear inequalities $x + y \leq 8$ and $y \geq 3$?"
+    difficulty: "medium"
+    learning_objective: "6.2.2"
     tp_level: 3
-    kbat: true
-    answer:
-      type: free_text
-      value: 'Titik (2, 3) tidak berada dalam rantau penyelesaian kerana $2(2) + 3(3) = 13$, yang tidak < 12.'
-      working: |
-        Substitusi $x = 2$ dan $y = 3$ ke dalam ketaksamaan: $2(2) + 3(3) = 4 + 9 = 13$. Oleh kerana 13 tidak kurang daripada 12, titik (2, 3) tidak berada dalam rantau penyelesaian.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Substitusi nilai $x$ dan $y$ dengan betul."
-      - marks: 1
-        criteria: "Mengira hasil $2x + 3y$ dengan betul."
-      - marks: 1
-        criteria: "Menentukan jika hasil memenuhi ketaksamaan."
-    hints:
-      - level: 1
-        text: "Substitusi nilai $x$ dan $y$ ke dalam ketaksamaan dan periksa sama ada syarat ketaksamaan dipenuhi."
-
-  # Learning Objective: 6.1.3 (apply)
-  - id: Q3
-    text: 'Lorekkan rantau yang memuaskan ketaksamaan $y \leq 2x + 1$ pada paksi kartesian.'
-    difficulty: medium
-    learning_objective: 6.1.3
-    tp_level: 2
     kbat: false
     answer:
-      type: free_text
-      value: 'Rantau di bawah garis $y = 2x + 1$ dilorekkan.'
+      type: "free_text"
+      value: "Yes, the point (2, 5) satisfies the system."
       working: |
-        Pertama, lukis garis $y = 2x + 1$. Kemudian, pilih titik uji seperti (0,0) untuk menentukan rantau. Substitusi (0,0) ke dalam ketaksamaan: $0 \leq 2(0) + 1$, yang benar. Oleh itu, lorekkan rantau di bawah garis tersebut.
+        Step 1: Test the first inequality $x + y \leq 8$. Substituting (2, 5): $2 + 5 = 7$. Since $7 \leq 8$, it is True.
+        Step 2: Test the second inequality $y \geq 3$. Substituting $y = 5$: $5 \geq 3$. It is True.
+        Step 3: Since both are true, the point satisfies the system.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Melukis garis $y = 2x + 1$ dengan betul."
+        criteria: "Correct substitution into both inequalities."
       - marks: 1
-        criteria: "Memilih titik uji yang sesuai."
+        criteria: "Correct arithmetic for the sum $x + y$."
       - marks: 1
-        criteria: "Melorek rantau yang betul berdasarkan titik uji."
+        criteria: "Final conclusion based on both conditions being met."
     hints:
       - level: 1
-        text: "Lukis garis dahulu dan kemudian gunakan titik uji untuk menentukan rantau yang perlu dilorek."
+        text: "Substitute the $x$ and $y$ values into both inequalities. Do they both hold true?"
 
-  # Learning Objective: 6.2.1 (apply)
-  - id: Q4
-    text: 'Mewakilkan situasi berikut dalam bentuk sistem ketaksamaan linear: Seorang pembuat kek perlu membuat sekurang-kurangnya 20 kek coklat dan tidak lebih daripada 30 kek vanila. Jika $x$ adalah bilangan kek coklat dan $y$ adalah bilangan kek vanila, nyatakan sistem ketaksamaan.'
-    difficulty: medium
-    learning_objective: 6.2.1
-    tp_level: 2
-    kbat: false
-    answer:
-      type: exact
-      value: 'x \geq 20, y \leq 30'
-      working: |
-        Untuk sekurang-kurangnya 20 kek coklat, $x \geq 20$. Untuk tidak lebih daripada 30 kek vanila, $y \leq 30$. Sistem ketaksamaan adalah $x \geq 20, y \leq 30$.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: 'Menulis ketaksamaan $x \geq 20$ dengan betul.'
-      - marks: 1
-        criteria: 'Menulis ketaksamaan $y \leq 30$ dengan betul.'
-    hints:
-      - level: 1
-        text: "Fikirkan tentang syarat 'sekurang-kurangnya' dan 'tidak lebih daripada'."
-
-  # Learning Objective: 6.2.4 (apply)
-  - id: Q5
-    text: 'Seorang usahawan menjual dua jenis produk, A dan B. Dia mempunyai masa maksimum 40 jam seminggu untuk mengeluarkan produk tersebut. Produk A memerlukan 2 jam dan produk B memerlukan 1 jam untuk dikeluarkan. Tulis sistem ketaksamaan yang mewakili situasi ini dan tentukan bilangan maksimum produk A yang boleh dikeluarkan jika dia tidak mengeluarkan sebarang produk B.'
-    difficulty: medium
-    learning_objective: 6.2.4
-    tp_level: 3
+  # Learning Objective: 6.2.3 (TP4 - Identifying region from graph)
+  - id: "Q4"
+    text: "A shaded region on a graph is bounded by $y = -x + 6$, the x-axis, and the y-axis. All boundary lines are solid. State the system of linear inequalities that defines this region."
+    difficulty: "medium"
+    learning_objective: "6.2.3"
+    tp_level: 4
     kbat: true
     answer:
-      type: exact
-      value: '2x + y \leq 40; x = 20'
+      type: "exact"
+      value: "y \leq -x + 6, x \geq 0, y \geq 0"
       working: |
-        Sistem ketaksamaan adalah $2x + y \leq 40$. Jika $y = 0$, maka $2x \leq 40$. Oleh itu, $x \leq 20$. Maka, bilangan maksimum produk A yang boleh dikeluarkan adalah 20.
+        Step 1: Identify the line $y = -x + 6$. Since it's shaded below, use $\leq$.
+        Step 2: Identify the y-axis boundary. This is $x = 0$. Shaded to the right means $x \geq 0$.
+        Step 3: Identify the x-axis boundary. This is $y = 0$. Shaded above means $y \geq 0$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menulis sistem ketaksamaan dengan betul."
+        criteria: "Identifies $y \leq -x + 6$."
       - marks: 1
-        criteria: "Menentukan ketaksamaan dengan tiada produk B ($y = 0$)."
-      - marks: 1
-        criteria: "Mengira bilangan maksimum produk A dengan betul."
+        criteria: "Identifies the quadrant constraints $x \geq 0$ and $y \geq 0$."
     hints:
       - level: 1
-        text: "Pertimbangkan masa maksimum yang tersedia dan bagaimana ia boleh digunakan sepenuhnya untuk produk A."
+        text: "Check 'Tips' on page 171. What are the equations for the x-axis and y-axis?"
+
+  # Learning Objective: 6.2.4 (TP5/6 - Problem Solving)
+  - id: "Q5"
+    text: "A factory produces $x$ pairs of children's shoes and $y$ pairs of adult shoes. The total production is at most 500 pairs. The number of children's shoes is at most three times the number of adult shoes. If the factory produces 150 pairs of adult shoes, what is the maximum number of children's shoes they can produce?"
+    difficulty: "hard"
+    learning_objective: "6.2.4"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: "exact"
+      value: "350"
+      working: |
+        Step 1: Formulate the system: $x + y \leq 500$ and $x \leq 3y$.
+        Step 2: Substitute $y = 150$ into both inequalities.
+        Step 3: From $x \leq 3(150)$, we get $x \leq 450$.
+        Step 4: From $x + 150 \leq 500$, we get $x \leq 350$.
+        Step 5: The maximum value must satisfy both. Therefore, $x = 350$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Correctly translates both constraints into inequalities."
+      - marks: 2
+        criteria: "Calculates the upper limits for $x$ from both constraints."
+      - marks: 1
+        criteria: "Identifies the correct maximum that satisfies the entire system."
+    hints:
+      - level: 1
+        text: "You have two different limits for $x$ based on the two conditions. Which one is the 'real' limit that doesn't break any rules?"

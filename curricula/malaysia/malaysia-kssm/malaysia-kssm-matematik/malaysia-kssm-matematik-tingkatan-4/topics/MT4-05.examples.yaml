@@ -1,36 +1,63 @@
 topic_id: MT4-05
-provenance: ai-generated
-description: "Worked examples for RANGKAIAN DALAM TEORI GRAF"
+provenance: curriculum-aligned-rewrite
+description: "Scaffolded worked examples for Network in Graph Theory (KSSM Form 4 Chapter 5)"
 worked_examples:
+  # 5.1.1 - Recognize and explain a network as a graph
   - id: WE-01
-    topic: "Pengenalan kepada Rangkaian dan Graf"
+    topic: "Introduction to Networks and Degrees"
     difficulty: easy
-    real_world_analogy: "Memikirkan rangkaian sebagai peta jalan di mana simpul adalah bandar dan tepi adalah jalan yang menghubungkan bandar-bandar tersebut."
-    misconception_alert: "Kesalahan umum adalah menganggap semua graf adalah sama, sedangkan terdapat graf terarah dan tak terarah yang mempunyai sifat berbeza."
-    scenario: "Andaikan kita mempunyai 3 bandar (A, B, C) yang saling dihubungkan. Tentukan jika graf ini adalah terarah atau tidak terarah."
+    real_world_analogy: "Think of a graph like a 'Handshake Party'. Each person is a vertex (dot). When two people shake hands, that's an edge (line). One edge always involves two 'touches' or degrees."
+    misconception_alert: "The 'Loop Degree' Trap! Students often think a loop counts as 1 degree because it is one line. But a loop touches the same vertex twice (one exit, one entry), so it must count as 2 degrees!"
+    scenario: "Based on a simple graph with 6 vertices $\{1, 2, 3, 4, 5, 6\}$ and 7 edges, determine the sum of degrees for the entire graph."
     working: |
-      Step 1: Kenal pasti sama ada tepi di antara bandar-bandar mempunyai arah tertentu.
-      Step 2: Jika tepi mempunyai arah, graf tersebut adalah graf terarah.
-      Step 3: Dalam senario ini, tepi tidak mempunyai arah, maka graf ini adalah graf tak terarah.
+      Step 1: State the number of edges ($E$) from the scenario.
+      $n(E) = 7$
+      Step 2: Apply the 'Handshake' formula for the sum of degrees.
+      $\sum d(v) = 2E$
+      Step 3: Substitute the value of $E$ into the formula.
+      $\sum d(v) = 2(7)$
+      Step 4: Calculate the final result.
+      $\sum d(v) = 14$
 
+  # 5.1.3 - Identify and draw subgraphs and trees
   - id: WE-02
-    topic: "Mengenal dan Melukis Subgraf dan Pokok"
+    topic: "Identifying Trees and the n-1 Rule"
     difficulty: medium
-    real_world_analogy: "Bayangkan pokok sebagai sebuah rangkaian jalan tanpa lingkaran seperti jalan yang tidak membolehkan kita berpatah balik ke asal tanpa memutar seluruh kawasan."
-    misconception_alert: "Seringkali, pelajar menganggap semua rangkaian yang tidak lengkap adalah subgraf, tetapi subgraf mesti mengandungi sebahagian daripada simpul dan tepi asal sahaja."
-    scenario: "Diberikan graf lengkap dengan 4 simpul, lukiskan semua subgraf yang mungkin dengan 3 simpul dan kenal pasti mana satu yang merupakan pokok."
+    real_world_analogy: "A 'Tree' is like a friendship group with NO DRAMA. Everyone is connected (no one is left out), but there are NO cycles (no secret loops). It's the most efficient way to link everyone."
+    misconception_alert: "The 'Disconnected Tree' Trap. A subgraph with $n-1$ edges is NOT a tree if some vertices are not connected to the rest. Every single vertex MUST have a path to every other vertex."
+    scenario: "A network has 5 vertices. Determine the number of edges needed to form a tree and verify if a subgraph with vertices $\{A, B, C, D, E\}$ and edges $\{(A,B), (B,C), (C,D), (D,E)\}$ is a tree."
     working: |
-      Step 1: Pilih 3 simpul dari 4 simpul yang ada. Contohnya, pilih simpul A, B, dan C.
-      Step 2: Lukiskan semua tepi yang mungkin di antara 3 simpul yang dipilih. Contohnya, tepi AB, BC, dan AC.
-      Step 3: Kenal pasti pokok dengan memastikan tiada lingkaran dalam subgraf. Jika terdapat tepi AB dan BC, tetapi bukan AC, maka ia adalah pokok sebab tiada lingkaran.
+      Step 1: Identify the number of vertices ($n$).
+      $n = 5$
+      Step 2: Use the Tree property formula to find the required number of edges ($e$).
+      $e = n - 1$
+      $e = 5 - 1 = 4$
+      Step 3: Check the given set of edges.
+      Edges provided: $\{(A,B), (B,C), (C,D), (D,E)\}$
+      Count = 4 edges.
+      Step 4: Verify connectivity and cycles.
+      Path: $A \rightarrow B \rightarrow C \rightarrow D \rightarrow E$
+      All 5 vertices are connected in a single line. There are no loops or multiple edges.
+      Step 5: Conclusion.
+      Since $e = 4$ and all vertices are connected without cycles, it is a tree.
 
+  # 5.1.5 - Solve problems involving networks
   - id: WE-03
-    topic: "Menyelesaikan Masalah Melibatkan Rangkaian"
+    topic: "Optimization and Shortest Path"
     difficulty: hard
-    real_world_analogy: "Memikirkan rangkaian sebagai sistem pengedaran di mana kita perlu mengoptimumkan laluan untuk mengurangkan kos atau masa."
-    misconception_alert: "Kesilapan biasa adalah mengambil laluan pertama yang ditemui tanpa mempertimbangkan jalan yang lebih pendek atau lebih efisien."
-    scenario: "Seorang penghantar barang perlu menghantar ke 5 lokasi berbeza. Tentukan laluan paling pendek menggunakan algoritma Dijkstra."
+    real_world_analogy: "Optimizing a route is like being a 'Foodpanda Rider'. You don't just want the shortest distance; you want the 'weighted' best—which could mean the fastest time or the cheapest toll cost!"
+    misconception_alert: "The 'Shortest Distance' Bias. Don't assume the shortest line is the best. Always calculate the total 'weight' (time or cost) based on the specific constraint of the problem."
+    scenario: "A family is traveling from Tangkak to Melaka. Route P is 46.3 km but passes through a busy town center. Route Q is 50.2 km but uses a highway. If Route P takes 78 minutes and Route Q takes 62 minutes, which route is better for a family with a 'time constraint'?"
     working: |
-      Step 1: Tentukan titik permulaan, contohnya lokasi A.
-      Step 2: Kira jarak terpendek dari A ke setiap lokasi lain menggunakan algoritma Dijkstra, dengan mengemas kini jarak minimum ketika jalan lebih pendek ditemui.
-      Step 3: Jejak semula laluan dari destinasi akhir ke titik permulaan menggunakan jarak minimum yang telah dihitung untuk mendapatkan laluan paling pendek.
+      Step 1: List the weights for each route based on the 'Time' constraint.
+      Route P Time = 78 minutes
+      Route Q Time = 62 minutes
+      Step 2: Compare the times against the family's constraint (arriving as fast as possible).
+      $62 < 78$
+      Step 3: Analyze the distance vs. time trade-off.
+      Route P is shorter by $50.2 - 46.3 = 3.9$ km.
+      However, Route Q is faster by $78 - 62 = 16$ minutes.
+      Step 4: Justify the choice based on the scenario goal.
+      The family has a time constraint, making speed more important than the 3.9 km distance difference.
+      Step 5: Conclusion.
+      Route Q is the optimal choice because it minimizes travel time despite being longer in distance.

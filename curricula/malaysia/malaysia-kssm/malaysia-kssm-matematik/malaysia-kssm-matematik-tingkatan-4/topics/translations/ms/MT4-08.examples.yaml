@@ -1,0 +1,60 @@
+id: MT4-08-examples
+topic_id: MT4-08
+provenance: "official-dskp-alignment"
+worked_examples:
+  # --- 8.1.1 Maksud Serakan (Mudah) ---
+  - id: WE-01
+    topic: "Menerangkan Maksud Serakan"
+    difficulty: easy
+    real_world_analogy: "Bayangkan dua orang pemain bola sepak. Pemain A skor 1 gol dalam setiap perlawanan. Pemain B skor 5 gol dalam satu perlawanan tapi 0 gol untuk empat perlawanan seterusnya. Walaupun 'purata' mereka mungkin sama, Pemain B mempunyai 'serakan' yang lebih tinggi kerana prestasinya tidak konsisten dan berselerak!"
+    misconception_alert: "Murid sering menganggap julat yang besar bermaksud data itu 'lebih baik'. Ingatkan mereka bahawa dalam serakan, nilai yang lebih kecil biasanya bermaksud data itu lebih konsisten dan 'rapat' di sekitar min."
+    scenario: "Berdasarkan data Sukan SEA ke-29, Malaysia memenangi 145 pingat emas. Jika kita melihat bilangan pingat emas yang dimenangi atlet dalam acara berbeza, ada acara yang mempunyai keputusan sangat sengit manakala ada yang mempunyai jurang yang besar. Terangkan apa yang diberitahu oleh 'serakan' tentang keputusan ini."
+    working: |
+      1. Fahami konsep: Serakan ialah satu sukatan yang menunjukkan bagaimana nilai-nilai dalam satu set data ditaburkan.
+      2. Analisis 'jurang': Jika beza antara nilai cerapan terbesar dengan nilai cerapan terkecil adalah kecil, maka serakan adalah kecil.
+      3. Kesimpulan: Serakan yang kecil bermaksud prestasi atlet adalah konsisten; serakan yang besar bermaksud terdapat kepelbagaian tahap prestasi yang luas.
+    
+  # --- 8.2.3 Membina Plot Kotak (Sederhana) ---
+  - id: WE-02
+    topic: "Membina dan Mentafsir Plot Kotak"
+    difficulty: medium
+    real_world_analogy: "Fikirkan Plot Kotak seperti 'Zon VIP' dalam sebuah konsert. 'Kotak' itu mewakili 50% penonton di bahagian tengah (bahagian paling penting), manakala 'Misai' menunjukkan orang yang berdiri di barisan paling depan dan paling belakang."
+    misconception_alert: "Murid sering menyangka median sentiasa berada tepat di tengah-tengah kotak. Jelaskan bahawa garis median akan beranjak mengikut sama ada data itu condong ke kiri atau ke kanan."
+    scenario: "Sekumpulan 15 orang murid menduduki ujian Bahasa Cina. Markah mereka adalah: 35, 40, 42, 45, 52, 52, 53, 57, 62, 62, 66, 68, 73, 73, 75. Bina satu plot kotak untuk data ini."
+    working: |
+      1. Susun data: Data telah sedia disusun mengikut tertib menaik.
+      2. Cari ringkasan 5-nombor:
+         - Nilai minimum = 35
+         - Kuartil pertama ($Q_1$): Kedudukan = $1/4 \times (15+1) = 4$. Maka, $Q_1 = 45$.
+         - Median ($m$): Kedudukan = $1/2 \times (15+1) = 8$. Maka, $m = 57$.
+         - Kuartil ketiga ($Q_3$): Kedudukan = $3/4 \times (15+1) = 12$. Maka, $Q_3 = 68$.
+         - Nilai maksimum = 75
+      3. Lukis garis nombor: Gunakan skala yang sesuai dari 30 hingga 80.
+      4. Plotkan kotak: Lukis segiempat tepat dari $Q_1$ (45) hingga $Q_3$ (68).
+      5. Tambah median: Lukis garis menegak di dalam kotak pada nilai 57.
+      6. Lukis misai: Sambungkan garis dari kotak ke nilai Minimum (35) dan nilai Maksimum (75).
+
+  # --- 8.2.6 Penyelesaian Masalah: Data Gabungan (Sukar) ---
+  - id: WE-03
+    topic: "Menyelesaikan Masalah Melibatkan Sisihan Piawai Gabungan"
+    difficulty: hard
+    real_world_analogy: "Bayangkan mencampurkan dua bekas air garam yang berbeza. Tahap kemasinan (sisihan piawai) yang baharu bukan sekadar purata antara kedua-duanya; anda perlu mengambil kira jumlah garam dan jumlah air dalam kedua-dua bekas tersebut secara keseluruhan."
+    misconception_alert: "Perangkap 'Purata Malas'! Murid sering cuba mencari sisihan piawai baharu dengan hanya menambah dua sisihan piawai lama dan membahagi dengan 2. Ini salah secara matematik! Anda MESTI mengira $\sum x^2$ yang baharu terlebih dahulu."
+    scenario: "Kumpulan A mempunyai 18 orang murid dengan min jisim 52 kg dan varians 2.5. Kumpulan B mempunyai 12 orang murid dengan min jisim 56 kg dan varians 1.8. Jika kedua-dua kumpulan digabungkan, hitung sisihan piawai bagi jisim kumpulan tersebut."
+    working: |
+      1. Cari $\sum x$ untuk kedua-dua kumpulan:
+         - Kumpulan A: $\sum x_A = 18 \times 52 = 936$
+         - Kumpulan B: $\sum x_B = 12 \times 56 = 672$
+         - Jumlah $\sum x = 936 + 672 = 1608$
+      2. Cari $\sum x^2$ menggunakan rumus varians $\sigma^2 = \frac{\sum x^2}{N} - \bar{x}^2$:
+         - Kumpulan A: $2.5 = \frac{\sum x^2_A}{18} - 52^2 \rightarrow \sum x^2_A = (2.5 + 2704) \times 18 = 48717$
+         - Kumpulan B: $1.8 = \frac{\sum x^2_B}{12} - 56^2 \rightarrow \sum x^2_B = (1.8 + 3136) \times 12 = 37653.6$
+         - Jumlah $\sum x^2 = 48717 + 37653.6 = 86370.6$
+      3. Hitung min baharu:
+         - $N$ baharu $= 18 + 12 = 30$
+         - Min baharu, $\bar{x} = 1608 / 30 = 53.6$
+      4. Hitung sisihan piawai baharu:
+         - $\sigma = \sqrt{\frac{86370.6}{30} - 53.6^2}$
+         - $\sigma = \sqrt{2879.02 - 2872.96}$
+         - $\sigma = \sqrt{6.06}$
+         - Jawapan Akhir: $\sigma = 2.462$

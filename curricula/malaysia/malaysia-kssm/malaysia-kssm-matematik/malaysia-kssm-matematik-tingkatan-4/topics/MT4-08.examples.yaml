@@ -1,40 +1,60 @@
+id: MT4-08-examples
 topic_id: MT4-08
-provenance: ai-generated
-description: "Worked examples for SUKATAN SERAKAN DATA TAK TERKUMPUL"
+provenance: "official-dskp-alignment"
 worked_examples:
+  # --- 8.1.1 Meaning of Dispersion (Easy) ---
   - id: WE-01
-    topic: "Understanding and Explaining Serakan"
+    topic: "Explaining the Meaning of Dispersion"
     difficulty: easy
-    real_world_analogy: "Imagine a group of students standing at different distances from a teacher. The spread of students represents data spread or 'serakan'."
-    misconception_alert: "Students often confuse 'serakan' with 'kecenderungan memusat'. Serakan describes how spread out the data is, not the center."
-    scenario: "In a class of 10 students, their heights in cm are: 150, 152, 153, 155, 157, 160, 162, 163, 165, 170. Explain the concept of serakan using this data."
+    real_world_analogy: "Imagine two soccer players. Player A scores 1 goal in every single match. Player B scores 5 goals in one match but 0 goals for the next four matches. Even if their 'average' is similar, Player B has higher 'serakan' (dispersion) because his performance is all over the place!"
+    misconception_alert: "Students often think a larger range means 'better' data. Remind them that in dispersion, a smaller value usually means the data is more consistent and 'compact' around the mean."
+    scenario: "Based on the 29th SEA Games data, Malaysia won 145 gold medals. If we look at the number of gold medals won by athletes in different events, some events have very close results while others have a huge gap. Explain what 'dispersion' tells us about these results."
     working: |
-      Step 1: Observe the given data set. The heights are spread from 150 cm to 170 cm.
-      Step 2: The difference between the highest and lowest value is 170 - 150 = 20 cm.
-      Step 3: The range is 20 cm, representing the serakan or spread of the data.
-      Conclusion: The data is fairly spread over a range of 20 cm, indicating moderate serakan.
+      1. Understand the concept: Dispersion (serakan) is a measure of how spread out the values in a data set are.
+      2. Analyze the 'gap': If the difference between the highest number of medals and the lowest is small, the dispersion is small.
+      3. Conclusion: Small dispersion means the athletes' performances are consistent; large dispersion means there is a wide variety in performance levels.
 
+  # --- 8.2.3 Constructing Box Plots (Medium) ---
   - id: WE-02
-    topic: "Analyzing and Comparing Data Sets"
+    topic: "Constructing and Interpreting a Box Plot"
     difficulty: medium
-    real_world_analogy: "Think of two different brands of chips with different levels of saltiness. Comparing their salt content helps decide which is healthier."
-    misconception_alert: "Students often neglect the importance of comparing both the central tendency and the spread for a proper analysis."
-    scenario: "Two groups of students took a math test. Group A scores are: 55, 60, 65, 70, 75. Group B scores are: 50, 60, 70, 80, 90. Compare the serakan of these scores."
+    real_world_analogy: "Think of a Box Plot like a 'VIP Zone' in a concert. The 'Box' represents the middle 50% of the crowd (the most important part), while the 'Whiskers' show the people standing at the very front and the very back."
+    misconception_alert: "Students often assume the median is always in the exact middle of the box. Clarify that the median line shifts based on whether the data is skewed to the left or right."
+    scenario: "A group of 15 pupils took a Chinese Language test. Their marks are: 35, 40, 42, 45, 52, 52, 53, 57, 62, 62, 66, 68, 73, 73, 75. Construct a box plot for this data."
     working: |
-      Step 1: Calculate the range for Group A: 75 - 55 = 20.
-      Step 2: Calculate the range for Group B: 90 - 50 = 40.
-      Step 3: Compare the ranges: Group B has a larger range, indicating more serakan.
-      Conclusion: Although both groups have similar central scores, Group B's scores are more spread out.
+      1. Order the data: The data is already in ascending order.
+      2. Find the 5-number summary:
+         - Minimum value = 35
+         - First quartile ($Q_1$): Position = $1/4 \times (15+1) = 4$th value. $Q_1 = 45$.
+         - Median ($m$): Position = $1/2 \times (15+1) = 8$th value. $m = 57$.
+         - Third quartile ($Q_3$): Position = $3/4 \times (15+1) = 12$th value. $Q_3 = 68$.
+         - Maximum value = 75
+      3. Draw the number line: Scale it from 30 to 80.
+      4. Plot the box: Draw a rectangle from $Q_1$ (45) to $Q_3$ (68).
+      5. Add the median: Draw a vertical line inside the box at 57.
+      6. Draw whiskers: Extend lines from the box to the Minimum (35) and Maximum (75).
 
+  # --- 8.2.6 Problem Solving: Combined Data (Hard) ---
   - id: WE-03
-    topic: "Applying Measures of Spread"
+    topic: "Solving Problems involving Combined Standard Deviation"
     difficulty: hard
-    real_world_analogy: "Consider a group of marathon runners where some are much faster than others. The variability in their finish times shows the spread of their performance."
-    misconception_alert: "Students might miscalculate variance and standard deviation by not squaring the differences from the mean."
-    scenario: "A data set of students' test scores: 68, 70, 72, 75, 78, 80, needs analysis for variance and standard deviation."
+    real_world_analogy: "Imagine mixing two different containers of salt water. The new saltiness (standard deviation) isn't just the average of the two; you have to consider the total amount of salt and the total volume of water in both."
+    misconception_alert: "The 'Lazy Average' Trap! Students often try to find the new standard deviation by simply adding the two old ones and dividing by 2. This is mathematically illegal! You MUST calculate the new $\sum x^2$ first."
+    scenario: "Group A has 18 pupils with a mean mass of 52kg and variance of 2.5. Group B has 12 pupils with a mean mass of 56kg and variance of 1.8. If both groups are combined, calculate the new standard deviation of the mass."
     working: |
-      Step 1: Calculate the mean: (68 + 70 + 72 + 75 + 78 + 80) / 6 = 73.83.
-      Step 2: Find the squared differences from the mean and calculate variance:
-              (68-73.83)^2 + (70-73.83)^2 + (72-73.83)^2 + (75-73.83)^2 + (78-73.83)^2 + (80-73.83)^2 / 6 = 17.14.
-      Step 3: Calculate the standard deviation: √17.14 ≈ 4.14.
-      Conclusion: The standard deviation is 4.14, indicating a moderate spread of scores around the mean.
+      1. Find $\sum x$ for both:
+         - Group A: $\sum x_A = 18 \times 52 = 936$
+         - Group B: $\sum x_B = 12 \times 56 = 672$
+         - Total $\sum x = 936 + 672 = 1608$
+      2. Find $\sum x^2$ using the variance formula $\sigma^2 = \frac{\sum x^2}{N} - \bar{x}^2$:
+         - Group A: $2.5 = \frac{\sum x^2_A}{18} - 52^2 \rightarrow \sum x^2_A = (2.5 + 2704) \times 18 = 48717$
+         - Group B: $1.8 = \frac{\sum x^2_B}{12} - 56^2 \rightarrow \sum x^2_B = (1.8 + 3136) \times 12 = 37653.6$
+         - Total $\sum x^2 = 48717 + 37653.6 = 86370.6$
+      3. Calculate the new mean:
+         - New $N = 18 + 12 = 30$
+         - New $\bar{x} = 1608 / 30 = 53.6$
+      4. Calculate the new standard deviation:
+         - $\sigma = \sqrt{\frac{86370.6}{30} - 53.6^2}$
+         - $\sigma = \sqrt{2879.02 - 2872.96}$
+         - $\sigma = \sqrt{6.06}$
+         - Final Answer: $\sigma = 2.462$

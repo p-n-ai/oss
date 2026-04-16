@@ -1,39 +1,68 @@
 topic_id: MT4-09
-provenance: ai-generated
-description: "Worked examples for KEBARANGKALIAN PERISTIWA BERGABUNG"
+provenance: "official-dskp-aligned"
+description: "Scaffolded worked examples for Probability of Combined Events"
 worked_examples:
+  # Learning Objective 9.1.1 - TP2
   - id: WE-01
-    topic: "Memerihalkan peristiwa bergabung"
+    topic: "Describing Combined Events"
     difficulty: easy
-    real_world_analogy: "Imagine you have a bag with different colored marbles and you draw one marble at a time."
-    misconception_alert: "Students often think that combined events are independent when they may actually influence each other."
-    scenario: "Anda mempunyai sebuah beg yang mengandungi 3 bola merah dan 2 bola biru. Apakah kebarangkalian untuk memilih bola merah diikuti oleh bola biru tanpa menggantikan bola merah?"
+    real_world_analogy: "Think of a combo meal at a restaurant. A combined event is like choosing one 'Main Dish' AND one 'Drink' together as a single set."
+    misconception_alert: "Students often think the order $(A, B)$ is the same as $(B, A)$. In listing combined events, the position in the ordered pair usually represents a specific sequence or source."
+    scenario: "A fair coin is tossed and a fair dice is rolled. List the sample space for this combined event using ordered pairs."
     working: |
-      Step 1: Kenal pasti bilangan keseluruhan bola. Terdapat 5 bola (3 merah + 2 biru).
-      Step 2: Kebarangkalian memilih bola merah pertama kali ialah 3 daripada 5, iaitu P(Merah) = 3/5.
-      Step 3: Selepas memilih bola merah, terdapat 4 bola yang tinggal. Kebarangkalian memilih bola biru ialah 2 daripada 4, iaitu P(Biru|Merah) = 2/4 = 1/2.
-      Step 4: Kebarangkalian memilih bola merah diikuti oleh bola biru ialah P(Merah dan Biru) = P(Merah) × P(Biru|Merah) = (3/5) × (1/2) = 3/10.
+      1. List the outcomes for the coin (C): $C = \{H, T\}$
+      2. List the outcomes for the dice (D): $D = \{1, 2, 3, 4, 5, 6\}$
+      3. Combine each coin result with every dice result to form ordered pairs $(x, y)$:
+         - Start with H: $(H, 1), (H, 2), (H, 3), (H, 4), (H, 5), (H, 6)$
+         - Move to T: $(T, 1), (T, 2), (T, 3), (T, 4), (T, 5), (T, 6)$
+      4. Write the final sample space $S$:
+         $S = \{(H, 1), (H, 2), (H, 3), (H, 4), (H, 5), (H, 6), (T, 1), (T, 2), (T, 3), (T, 4), (T, 5), (T, 6)\}$
 
+  # Learning Objective 9.2.3 - TP3
   - id: WE-02
-    topic: "Membezakan peristiwa bersandar dan peristiwa tak bersandar"
+    topic: "Probability of Independent Events"
     difficulty: medium
-    real_world_analogy: "Consider the probability of it raining today and the probability of you needing an umbrella."
-    misconception_alert: "Confusing dependent events with independent ones, like assuming the probability of rain affects the likelihood of finding an umbrella."
-    scenario: "Seorang pelajar mempunyai 5 pensel di dalam kotak iaitu 3 pensel biru dan 2 pensel hijau. Pelajar tersebut memilih satu pensel, menulis, dan kemudian memilih satu lagi pensel. Apakah kebarangkalian memilih pensel biru diikuti oleh pensel hijau?"
+    real_world_analogy: "Imagine two different people in two different states tossing coins. What one person gets does not change the other's luck. This is the essence of Independent Events."
+    misconception_alert: "The 'Amnesia Trap'. Students sometimes treat independent events like dependent ones by accidentally reducing the sample size in the second event."
+    scenario: "Box A contains cards $\{3, 5, 7, 9\}$ and Box B contains cards $\{X, Y, Z\}$. If one card is chosen from each box, calculate the probability of getting a factor of 9 from Box A and the letter 'Z' from Box B."
     working: |
-      Step 1: Tentukan kebarangkalian memilih pensel biru pertama kali. Terdapat 3 pensel biru daripada 5, jadi P(Biru) = 3/5.
-      Step 2: Selepas memilih pensel biru, tinggal 4 pensel. Kebarangkalian memilih pensel hijau adalah 2 daripada 4, iaitu P(Hijau|Biru) = 2/4 = 1/2.
-      Step 3: Kebarangkalian untuk memilih pensel biru diikuti oleh pensel hijau adalah P(Biru dan Hijau) = P(Biru) × P(Hijau|Biru) = (3/5) × (1/2) = 3/10.
+      1. Identify factors of 9 in Box A: $\{3, 9\}$. So, $n(A) = 2$.
+      2. Calculate probability for Box A: $P(A) = \frac{n(A)}{n(S_A)} = \frac{2}{4} = \frac{1}{2}$.
+      3. Identify 'Z' in Box B: $\{Z\}$. So, $n(B) = 1$.
+      4. Calculate probability for Box B: $P(B) = \frac{n(B)}{n(S_B)} = \frac{1}{3}$.
+      5. Since events are independent, use the Multiplication Rule: $P(A \cap B) = P(A) \times P(B)$.
+      6. Substitute the values: $P(A \cap B) = \frac{1}{2} \times \frac{1}{3} = \frac{1}{6}$.
 
+  # Learning Objective 9.3.3 - TP4
   - id: WE-03
-    topic: "Menyelesaikan masalah yang melibatkan kebarangkalian peristiwa bergabung"
-    difficulty: hard
-    real_world_analogy: "Think of organizing a raffle where there are multiple prizes and you want to know the probability of winning at least one."
-    misconception_alert: "Students might assume all events are mutually exclusive when some might overlap, affecting the total probability."
-    scenario: "Dalam sebuah undian, terdapat 6 tiket merah dan 4 tiket biru. Dua tiket diambil secara rawak tanpa menggantikan. Apakah kebarangkalian kedua-dua tiket berwarna merah atau kedua-dua tiket berwarna biru?"
+    topic: "Mutually Exclusive Events"
+    difficulty: medium
+    real_world_analogy: "Think of a 'Social Distancing' rule. Two events are mutually exclusive if they cannot 'touch' or happen at the same time, like being in Class 4A and Class 4B simultaneously."
+    misconception_alert: "The 'Double-Count' Trap. If events are NOT mutually exclusive, students forget to subtract the intersection $P(A \cap B)$. Always check for overlaps first!"
+    scenario: "A number is chosen at random from the set $S = \{x : 1 \leq x \leq 10, x \in \mathbb{Z}\}$. Find the probability of choosing a prime number or a multiple of 4."
     working: |
-      Step 1: Kebarangkalian memilih dua tiket merah tanpa menggantikan. P(Merah pertama) = 6/10 dan P(Merah kedua|Merah pertama) = 5/9. Jadi, P(Dua Merah) = (6/10) × (5/9) = 30/90 = 1/3.
-      Step 2: Kebarangkalian memilih dua tiket biru tanpa menggantikan. P(Biru pertama) = 4/10 dan P(Biru kedua|Biru pertama) = 3/9. Jadi, P(Dua Biru) = (4/10) × (3/9) = 12/90 = 2/15.
-      Step 3: Kebarangkalian keseluruhan untuk kedua-dua tiket merah atau kedua-dua tiket biru ialah P(Dua Merah atau Dua Biru) = P(Dua Merah) + P(Dua Biru) = 1/3 + 2/15.
-      Step 4: Cari penyebut yang sama untuk menambah pecahan. 1/3 = 5/15, jadi 5/15 + 2/15 = 7/15.
-      Step 5: Oleh itu, kebarangkalian kedua-dua tiket berwarna merah atau kedua-dua tiket berwarna biru ialah 7/15.
+      1. List the sample space $S$: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. $n(S) = 10$.
+      2. List Prime numbers (A): $\{2, 3, 5, 7\}$. $P(A) = \frac{4}{10}$.
+      3. List Multiples of 4 (B): $\{4, 8\}$. $P(B) = \frac{2}{10}$.
+      4. Check for intersection: Is any prime number also a multiple of 4? No. $A \cap B = \emptyset$.
+      5. Apply the Addition Rule for Mutually Exclusive Events: $P(A \cup B) = P(A) + P(B)$.
+      6. Calculate the result: $P(A \cup B) = \frac{4}{10} + \frac{2}{10} = \frac{6}{10}$.
+      7. Simplify the fraction: $\frac{6}{10} = \frac{3}{5}$.
+
+  # Learning Objective 9.4.1 - TP5
+  - id: WE-04
+    topic: "Application of Combined Events (Without Replacement)"
+    difficulty: hard
+    real_world_analogy: "The 'Eaten Candy' Rule. If you have 5 candies and eat one, there are only 4 left for the next person. The total $n(S)$ MUST decrease."
+    misconception_alert: "Failing to update the denominator. In 'without replacement' scenarios, students often keep the original total for the second event, leading to an incorrect probability."
+    scenario: "A bag contains 8 green marbles and 1 red marble. Two marbles are chosen one by one without replacement. Calculate the probability that at least one marble is red."
+    working: |
+      1. Strategy: Use the Complement Method because 'at least one' is easier to solve as $1 - P(\text{No Red})$.
+      2. Identify total marbles: $8 \text{ Green} + 1 \text{ Red} = 9$.
+      3. Find $P(\text{Green, Green})$:
+         - First pick: $P(G_1) = \frac{8}{9}$.
+         - Second pick (no replacement): $P(G_2 | G_1) = \frac{7}{8}$ (one green and one total marble removed).
+      4. Multiply probabilities for both green: $P(G_1 \cap G_2) = \frac{8}{9} \times \frac{7}{8}$.
+      5. Simplify the multiplication: $\frac{8 \times 7}{9 \times 8} = \frac{56}{72} = \frac{7}{9}$.
+      6. Apply the complement rule: $P(\text{at least one red}) = 1 - P(G_1 \cap G_2)$.
+      7. Final calculation: $1 - \frac{7}{9} = \frac{9}{9} - \frac{7}{9} = \frac{2}{9}$.

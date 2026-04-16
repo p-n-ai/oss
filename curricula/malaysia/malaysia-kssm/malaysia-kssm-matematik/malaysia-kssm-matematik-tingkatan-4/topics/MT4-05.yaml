@@ -1,66 +1,78 @@
 id: MT4-05
 official_ref: "5.0"
-name: "RANGKAIAN DALAM TEORI GRAF"
-name_en: "Networks in Graph Theory"
+name_en: "Network in Graph Theory"
 subject_id: malaysia-kssm-matematik-tingkatan-4
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: intermediate
 tier: core
 content_standards:
-    - id: "5.1"
-      text: "Rangkaian dalam Teori Graf"
-      text_en: "Networks in Graph Theory"
-learning_objectives:
-    - id: "5.1.1"
-      text: "Mengenal dan menerangkan rangkaian sebagai graf."
-      text_en: "Recognise and describe networks as graphs."
-      bloom: understand
-    - id: "5.1.2"
-      text: "Membanding beza (i) Graf terarah dengan graf tak terarah. (ii) Graf berpemberat dengan graf tak berpemberat."
-      text_en: "Differentiate between (i) directed graphs and undirected graphs. (ii) weighted graphs and unweighted graphs."
-      bloom: analyze
-    - id: "5.1.3"
-      text: "Mengenal dan melukis subgraf dan pokok."
-      text_en: "Recognise and draw subgraphs and trees."
-      bloom: apply
-    - id: "5.1.4"
-      text: "Mewakilkan maklumat dalam bentuk rangkaian."
-      text_en: "Represent information in the form of networks."
-      bloom: apply
-    - id: "5.1.5"
-      text: "Menyelesaikan masalah yang melibatkan rangkaian."
-      text_en: "Solve problems involving networks."
-      bloom: analyze
+  - id: "5.1"
+    text_en: "Network"
+    learning_objectives:
+      - id: "5.1.1"
+        text_en: "Recognise and explain a network as a graph."
+        bloom: understand
+        tp_mapping:
+          tp1: "Demonstrate the basic knowledge of network."
+          tp2: "Demonstrate the understanding of network."
+      - id: "5.1.2"
+        text_en: "Compare and contrast: (i) directed graphs and undirected graphs; (ii) weighted graphs and unweighted graphs."
+        bloom: analyze
+        tp_mapping:
+          tp3: "Apply the understanding of network to perform simple tasks."
+      - id: "5.1.3"
+        text_en: "Identify and draw subgraphs and trees."
+        bloom: apply
+        tp_mapping:
+          tp3: "Apply the understanding of network to perform simple tasks."
+      - id: "5.1.4"
+        text_en: "Represent information in the form of networks."
+        bloom: apply
+        tp_mapping:
+          tp4: "Apply appropriate knowledge and skills of network in the context of simple routine problem solving."
+      - id: "5.1.5"
+        text_en: "Solve problems involving networks."
+        bloom: analyze
+        tp_mapping:
+          tp5: "Apply appropriate knowledge and skills of network in the context of complex routine problem solving."
+          tp6: "Apply appropriate knowledge and skills of network in the context of non-routine problem solving in a creative manner."
 prerequisites:
-    required: []
-    recommended: []
+  required:
+    - id: "MT-GENERAL-ALGEBRA"
+      reason: "Understanding relationships between variables and basic logical mapping."
+  recommended: []
 bloom_levels:
-    - understand
-    - analyze
-    - apply
+  - understand
+  - apply
+  - analyze
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
 ai_teaching_notes: "MT4-05.teaching.md"
-quality_level: 1
-provenance: ai-assisted
+assessments_file: "MT4-05.assessments.yaml"
+examples_file: "MT4-05.examples.yaml"
+quality_level: 3
+provenance: curriculum-aligned-rewrite
 teaching:
-    sequence:
-        - 'Step 1: Introduce basic concepts of graphs, vertices, and edges (15 min)'
-        - 'Step 2: Explain directed vs undirected graphs and weighted vs unweighted graphs with examples (20 min)'
-        - 'Step 3: Teach identifying and drawing subgraphs and trees from larger graphs (25 min)'
-    common_misconceptions:
-        - misconception: All graphs are directed
-          remediation: Use clear examples of undirected graphs like social networks
-        - misconception: All graphs must be weighted
-          remediation: Clarify with examples of unweighted graphs, such as basic maps
-engagement_hooks:
-    - Explore a city map to identify routes as undirected graphs
-    - Discuss social media connections as examples of real-world network graphs
-assessments_file: MT4-05.assessments.yaml
-examples_file: MT4-05.examples.yaml
+  sequence:
+    - "Step 1: Introduction to basics - define vertices ($V$), edges ($E$), and degrees ($d$) using simple graphs (15 min)"
+    - "Step 2: Compare graph types - contrast directed/undirected and weighted/unweighted using real-world analogies like maps and electrical circuits (20 min)"
+    - "Step 3: Structural Analysis - teaching subgraphs and the specific properties of trees ($n-1$ edges) (25 min)"
+    - "Step 4: Network Representation - mapping social and transportation data into unique graph structures (20 min)"
+    - "Step 5: Optimization & Synthesis - solving complex problems involving shortest paths and optimal costs (30 min)"
+  common_misconceptions:
+    - misconception: "All graphs must have directed arrows."
+      remediation: "Use the example of a land transport network or basic social connections to show undirected relationships."
+    - misconception: "A tree can contain a loop or cycle."
+      remediation: "Highlight that a tree is a simple graph where every pair of vertices is connected by only one edge."
+    - misconception: "The degree of a loop is counted as one."
+      remediation: "Clarify that each loop adds 2 to the degree of a vertex because it starts and ends at the same point."
+  engagement_hooks:
+    - "Explore the KL Sentral train transit network as a real-world undirected graph."
+    - "Analyze social media tagging systems to see how information spreads through a network."
+    - "Solve a maze by converting it into a network of vertices and edges."

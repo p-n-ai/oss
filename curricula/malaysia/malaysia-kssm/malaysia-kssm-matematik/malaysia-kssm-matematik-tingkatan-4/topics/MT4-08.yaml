@@ -1,83 +1,80 @@
 id: MT4-08
 official_ref: "8.0"
-name: "SUKATAN SERAKAN DATA TAK TERKUMPUL"
 name_en: "Measures of Dispersion for Ungrouped Data"
 subject_id: malaysia-kssm-matematik-tingkatan-4
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: intermediate
 tier: core
 content_standards:
-    - id: "8.1"
-      text: "Serakan"
-      text_en: "Dispersion"
-    - id: "8.2"
-      text: "Sukatan Serakan"
-      text_en: "Measures of Dispersion"
+  - id: "8.1"
+    text_en: "Dispersion"
+  - id: "8.2"
+    text_en: "Measures of Dispersion"
 learning_objectives:
-    - id: 8.1.1
-      text: "Menerangkan maksud serakan."
-      text_en: "Explain the meaning of dispersion."
-      bloom: understand
-    - id: 8.1.2
-      text: "Membanding dan mentafsir serakan dua atau lebih set data berdasarkan plot batang-dan-daun dan plot titik dan seterusnya membuat kesimpulan."
-      text_en: "Compare and interpret the dispersion of two or more sets of data based on stem-and-leaf plots and dot plots and then make conclusions."
-      bloom: analyze
-    - id: 8.2.1
-      text: "Menentukan julat, julat antara kuartil, varians dan sisihan piawai sebagai sukatan untuk menghuraikan serakan bagi data tak terkumpul."
-      text_en: "Determine the range, interquartile range, variance, and standard deviation as measures to describe dispersion for ungrouped data."
-      bloom: apply
-    - id: 8.2.2
-      text: "Menerangkan kelebihan dan kekurangan pelbagai sukatan serakan untuk menghuraikan data tak terkumpul."
-      text_en: "Explain the advantages and disadvantages of various measures of dispersion for describing ungrouped data."
-      bloom: evaluate
-    - id: 8.2.3
-      text: "Membina dan mentafsir plot kotak bagi suatu set data tak terkumpul."
-      text_en: "Construct and interpret box plots for a set of ungrouped data."
-      bloom: analyze
-    - id: 8.2.4
-      text: "Menentukan kesan perubahan data terhadap serakan berdasarkan: (i) Nilai sukatan serakan (ii) Perwakilan grafik. Kesan ke atas serakan suatu taburan apabila: (i) Setiap data ditukar secara seragam (ii) Wujud pencilan (outlier) atau nilai ekstrem (iii) Sesuatu nilai dimasukkan atau dikeluarkan."
-      text_en: "Determine the effect of data changes on dispersion based on: (i) Measure of dispersion values (ii) Graphical representation. Effect on dispersion of a distribution when: (i) Each data is changed uniformly (ii) There is an outlier or extreme value (iii) A value is inserted or removed."
-      bloom: analyze
-    - id: 8.2.5
-      text: "Membanding dan mentafsir dua atau lebih set data tak terkumpul, berdasarkan sukatan serakan yang sesuai dan seterusnya membuat kesimpulan. Sukatan kecenderungan memusat perlu dilibatkan."
-      text_en: "Compare and interpret two or more sets of ungrouped data, based on appropriate measures of dispersion and then make conclusions. Measures of central tendency need to be involved."
-      bloom: analyze
-    - id: 8.2.6
-      text: "Menyelesaikan masalah yang melibatkan sukatan serakan."
-      text_en: "Solve problems involving measures of dispersion."
-      bloom: apply
+  - id: 8.1.1
+    text_en: "Explain the meaning of dispersion."
+    bloom: understand
+    tp_level: 1
+  - id: 8.1.2
+    text_en: "Compare and interpret the dispersion of two or more sets of data based on stem-and-leaf plots and dot plots, and hence make conclusions."
+    bloom: analyze
+    tp_level: 3
+  - id: 8.2.1
+    text_en: "Determine the range, interquartile range, variance, and standard deviation as measures to describe dispersion for ungrouped data."
+    bloom: apply
+    tp_level: 2
+  - id: 8.2.2
+    text_en: "Explain the advantages and disadvantages of various measures of dispersion to describe ungrouped data."
+    bloom: evaluate
+    tp_level: 2
+  - id: 8.2.3
+    text_en: "Construct and interpret the box plot for a set of ungrouped data."
+    bloom: analyze
+    tp_level: 3
+  - id: 8.2.4
+    text_en: "Determine the effect of data changes on dispersion based on: (i) the value of measure of dispersion, (ii) graphical representation. This includes effects when each data is changed uniformly, when outliers exist, or when values are added/removed."
+    bloom: analyze
+    tp_level: 4
+  - id: 8.2.5
+    text_en: "Compare and interpret two or more sets of ungrouped data based on appropriate measures of dispersion and central tendency, hence make conclusions."
+    bloom: analyze
+    tp_level: 5
+  - id: 8.2.6
+    text_en: "Solve problems involving measures of dispersion, including non-routine problems in a creative manner."
+    bloom: apply
+    tp_level: 6
 prerequisites:
-    required: []
-    recommended: []
-bloom_levels:
-    - understand
-    - analyze
-    - apply
-    - evaluate
+  required:
+    - "MT2-12" # Measures of Central Tendency (Form 2)
+  recommended: []
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
+  minimum_score: 0.75
+  assessment_count: 3
+spaced_repetition:
+  initial_interval_days: 3
+  multiplier: 2.5
 ai_teaching_notes: "MT4-08.teaching.md"
-quality_level: 1
-provenance: ai-assisted
+assessments_file: "MT4-08.assessments.yaml"
+examples_file: "MT4-08.examples.yaml"
+quality_level: 3
+provenance: "official-dskp-alignment"
 teaching:
-    sequence:
-        - 'Step 1: Introduction to dispersion and its importance in data analysis (15 min)'
-        - 'Step 2: Calculation of range, interquartile range, variance, and standard deviation (20 min)'
-        - 'Step 3: Analyze the effect of data changes on dispersion (25 min)'
-        - 'Step 4: Construct and interpret box plots (20 min)'
-    common_misconceptions:
-        - misconception: Dispersion is the same as central tendency
-          remediation: Clarify with examples showing the difference between spread and center
-        - misconception: Variance and standard deviation are interchangeable
-          remediation: Highlight the calculation steps and distinct meanings of each measure
+  sequence:
+    - "Step 1: Introduction to the concept of dispersion and visual representation using dot plots and stem-and-leaf plots (Page 212-217)."
+    - "Step 2: Calculating measures of dispersion: Range, IQR, Variance, and Standard Deviation (Page 219-223)."
+    - "Step 3: Evaluating the advantages/disadvantages of measures and constructing box plots (Page 224-227)."
+    - "Step 4: Investigating the effects of data changes, including outliers, on dispersion measures (Page 228-233)."
+    - "Step 5: Comparing data sets using both dispersion and central tendency for comprehensive analysis (Page 234-235)."
+    - "Step 6: Real-world problem solving and mathematical exploration (Page 236-241)."
+common_misconceptions:
+  - misconception: "Confusing dispersion with central tendency."
+    remediation: "Clarify that central tendency describes the 'center' (mean/median), while dispersion describes the 'spread' around that center."
+  - misconception: "Forgetting to square the deviations when calculating variance."
+    remediation: "Emphasize the formula steps where $(x - \bar{x})^2$ is required before averaging."
+  - misconception: "Treating variance and standard deviation as having the same unit as the data."
+    remediation: "Highlight that standard deviation is the square root of variance, returning the measure to the original unit."
 engagement_hooks:
-    - Use local weather data to demonstrate real-world applications of dispersion
-    - Compare exam scores of different classes to discuss performance spread
-assessments_file: MT4-08.assessments.yaml
-examples_file: MT4-08.examples.yaml
+  - "Use SEA Games medal tally data to discuss why simply looking at 'total medals' doesn't show the full consistency of a country's performance."
+  - "Compare the salaries of employees in different companies to see which company has a 'fairer' pay distribution."

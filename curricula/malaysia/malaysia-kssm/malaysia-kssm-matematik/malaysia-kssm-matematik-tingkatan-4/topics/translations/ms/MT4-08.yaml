@@ -1,0 +1,81 @@
+id: MT4-08
+official_ref: "8.0"
+name: "Sukatan Serakan Data Tak Terkumpul"
+subject_id: malaysia-kssm-matematik-tingkatan-4
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+sync_checked: true
+content_standards:
+  - id: "8.1"
+    text: "Serakan"
+  - id: "8.2"
+    text: "Sukatan Serakan"
+learning_objectives:
+  - id: 8.1.1
+    text: "Menerangkan maksud serakan."
+    bloom: understand
+    tp_level: 1
+  - id: 8.1.2
+    text: "Membanding dan mentafsir serakan dua atau lebih set data berdasarkan plot batang-dan-daun dan plot titik dan seterusnya membuat kesimpulan."
+    bloom: analyze
+    tp_level: 3
+  - id: 8.2.1
+    text: "Menentukan julat, julat antara kuartil, varians dan sisihan piawai sebagai sukatan untuk menghuraikan serakan bagi data tak terkumpul."
+    bloom: apply
+    tp_level: 2
+  - id: 8.2.2
+    text: "Menerangkan kelebihan dan kekurangan pelbagai sukatan serakan untuk menghuraikan data tak terkumpul."
+    bloom: evaluate
+    tp_level: 2
+  - id: 8.2.3
+    text: "Membina dan mentafsir plot kotak bagi suatu set data tak terkumpul."
+    bloom: analyze
+    tp_level: 3
+  - id: 8.2.4
+    text: "Menentukan kesan perubahan data terhadap serakan berdasarkan: (i) Nilai sukatan serakan, (ii) Perwakilan grafik. Kesan ke atas serakan suatu taburan apabila: (i) Setiap data ditukar secara seragam, (ii) Wujud pencilan (outlier) atau nilai ekstrem, (iii) Sesuatu nilai dimasukkan atau dikeluarkan."
+    bloom: analyze
+    tp_level: 4
+  - id: 8.2.5
+    text: "Membanding dan mentafsir dua atau lebih set data tak terkumpul, berdasarkan sukatan serakan yang sesuai dan seterusnya membuat kesimpulan. Sukatan kecenderungan memusat perlu dilibatkan."
+    bloom: analyze
+    tp_level: 5
+  - id: 8.2.6
+    text: "Menyelesaikan masalah yang melibatkan sukatan serakan termasuk masalah bukan rutin secara kreatif."
+    bloom: apply
+    tp_level: 6
+prerequisites:
+  required:
+    - "MT2-12" # Sukatan Kecenderungan Memusat (Tingkatan 2)
+  recommended: []
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+spaced_repetition:
+  initial_interval_days: 3
+  multiplier: 2.5
+ai_teaching_notes: "MT4-08.teaching.md"
+assessments_file: "MT4-08.assessments.yaml"
+examples_file: "MT4-08.examples.yaml"
+quality_level: 3
+provenance: "official-dskp-alignment"
+teaching:
+  sequence:
+    - "Langkah 1: Pengenalan kepada konsep serakan dan perwakilan visual menggunakan plot titik serta plot batang-dan-daun (Halaman 212-217)."
+    - "Langkah 2: Menghitung sukatan serakan: Julat, Julat Antara Kuartil (JAK), Varians, dan Sisihan Piawai (Halaman 219-223)."
+    - "Langkah 3: Menilai kelebihan/kekurangan sukatan serakan dan membina plot kotak (Halaman 224-227)."
+    - "Langkah 4: Menyiasat kesan perubahan data, termasuk kesan pencilan, terhadap nilai sukatan serakan (Halaman 228-233)."
+    - "Langkah 5: Membandingkan set data menggunakan sukatan serakan dan kecenderungan memusat untuk analisis menyeluruh (Halaman 234-235)."
+    - "Langkah 6: Penyelesaian masalah dunia sebenar dan eksplorasi matematik (Halaman 236-241)."
+common_misconceptions:
+  - misconception: "Mengelirukan serakan dengan kecenderungan memusat."
+    remediation: "Jelaskan bahawa kecenderungan memusat menghuraikan 'pusat' data (min/median), manakala serakan menghuraikan 'taburan' di sekitar pusat tersebut."
+  - misconception: "Lupa untuk menguasakan dua beza nilai apabila menghitung varians."
+    remediation: "Tekankan langkah-langkah formula di mana $(x - \bar{x})^2$ diperlukan sebelum mencari purata."
+  - misconception: "Menganggap varians dan sisihan piawai mempunyai unit yang sama dengan data asal."
+    remediation: "Terangkan bahawa sisihan piawai adalah punca kuasa dua varians, yang mengembalikan ukuran kepada unit asal data."
+engagement_hooks:
+  - "Gunakan data pungutan pingat Sukan SEA untuk membincangkan mengapa melihat 'jumlah pingat' sahaja tidak menunjukkan konsistensi prestasi sesebuah negara."
+  - "Bandingkan gaji pekerja di syarikat yang berbeza untuk melihat syarikat mana yang mempunyai agihan gaji yang lebih 'adil' atau setara."

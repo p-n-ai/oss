@@ -1,0 +1,72 @@
+topic_id: MT4-10
+provenance: ai-assisted
+worked_examples:
+  - id: WE-01
+    topic: "Penetapan Matlamat SMART"
+    difficulty: easy
+    learning_objective: "10.1.1"
+    real_world_analogy: "Menetapkan matlamat kewangan adalah seperti memasukkan destinasi ke dalam GPS. Jika anda hanya berkata 'Saya nak pergi ke tempat yang cantik,' GPS tidak dapat memberikan laluan. Anda perlukan alamat spesifik dan anggaran masa ketibaan."
+    misconception_alert: "Murid sering berfikir sebarang keinginan adalah matlamat 'SMART'. Matlamat seperti 'Saya mahu simpan wang' adalah terlalu kabur kerana tiada jumlah spesifik (Boleh diukur) dan tiada tarikh akhir (Tempoh masa)."
+    scenario: "Encik Yusuf ingin menyambut Hari Keluarga di Port Dickson dalam masa 6 bulan. Sambutan tersebut akan menelan belanja RM1,500. Beliau berpendapatan RM2,500 sebulan dan merancang untuk menyimpan RM250 sebulan. Nilaikan jika matlamat beliau adalah SMART."
+    working: |
+      1. Khusus (Specific): Matlamat adalah khusus kerana beliau ingin ke lokasi spesifik (Port Dickson) untuk acara spesifik (Hari Keluarga).
+      2. Boleh diukur (Measurable): Matlamat boleh diukur kerana kos telah diketahui iaitu $RM1,500$.
+      3. Boleh dicapai (Attainable): Hitung jumlah simpanan dalam tempoh tersebut.
+         Jumlah simpanan = $RM250 \times 6 \text{ bulan}$
+         Jumlah simpanan = $RM1,500$
+         Matlamat boleh dicapai kerana jumlah simpanan menyamai kos yang diperlukan.
+      4. Bersifat Realistik (Realistic): Semak jika simpanan bulanan munasabah.
+         Peratusan simpanan = $(RM250 \div RM2,500) \times 100\%$
+         Peratusan simpanan = $10\%$
+         Menyimpan 10% daripada pendapatan adalah realistik.
+      5. Tempoh masa (Time-bound): Matlamat mempunyai tempoh masa jelas iaitu 6 bulan.
+      Kesimpulan: Matlamat Encik Yusuf mematuhi pendekatan SMART.
+    
+  - id: WE-02
+    topic: "Mengira Aliran Tunai Bulanan"
+    difficulty: medium
+    learning_objective: "10.1.2"
+    real_world_analogy: "Aliran tunai adalah seperti tangki air. Pendapatan adalah air yang masuk dari paip, manakala perbelanjaan adalah lubang di dasar tangki. Jika lubang itu membocorkan lebih banyak air daripada yang masuk, tangki anda akan kering (Aliran Tunai Negatif)."
+    misconception_alert: "Murid sering terlupa memasukkan pendapatan pasif (seperti sewa atau dividen) atau gagal membezakan antara perbelanjaan tetap dan tidak tetap, yang membawa kepada pengiraan lebihan yang tidak tepat."
+    scenario: "Encik Derrick menerima pendapatan aktif sebanyak RM3,000 dan pendapatan pasif sebanyak RM1,000 sebulan. Perbelanjaan tetapnya ialah RM1,350 dan perbelanjaan tidak tetap ialah RM650. Hitung aliran tunai bulanan beliau dan jelaskan kesannya."
+    working: |
+      1. Hitung Jumlah Pendapatan:
+         Jumlah Pendapatan = Pendapatan Aktif + Pendapatan Pasif
+         Jumlah Pendapatan = $RM3,000 + RM1,000$
+         Jumlah Pendapatan = $RM4,000$
+      2. Hitung Jumlah Perbelanjaan:
+         Jumlah Perbelanjaan = Perbelanjaan Tetap + Perbelanjaan Tidak Tetap
+         Jumlah Perbelanjaan = $RM1,350 + RM650$
+         Jumlah Perbelanjaan = $RM2,000$
+      3. Hitung Aliran Tunai:
+         Aliran Tunai = Jumlah Pendapatan - Jumlah Perbelanjaan
+         Aliran Tunai = $RM4,000 - RM2,000$
+         Aliran Tunai = $RM2,000$
+      4. Penilaian: Memandangkan hasilnya adalah nilai positif ($+RM2,000$), Encik Derrick mempunyai aliran tunai positif. Ini membolehkan beliau melabur atau menghadapi situasi kecemasan.
+
+  - id: WE-03
+    topic: "Menilai Kebolehlaksanaan Pelan dan Melaras Strategi"
+    difficulty: hard
+    learning_objective: "10.1.2"
+    real_world_analogy: "Melaras pelan kewangan adalah seperti juruterbang yang melaras laluan penerbangan di udara kerana ribut (inflasi atau kehilangan pekerjaan). Anda tidak membatalkan perjalanan; anda cari jalan lain untuk sampai ke destinasi yang sama dengan selamat."
+    misconception_alert: "Murid mungkin berfikir jika pelan menunjukkan kurangan (baki negatif), matlamat itu mustahil dicapai. Mereka tidak menyedari mereka boleh menambah pendapatan atau mengurangkan perbelanjaan tidak tetap untuk menutup jurang tersebut."
+    scenario: "Encik Wong ingin menyimpan RM150,000 untuk pendidikan anak-anaknya dalam masa 15 tahun. Pelan simpanan semasanya hanya menyediakan RM650 sebulan, sedangkan beliau sebenarnya memerlukan RM833.33 sebulan. Beliau mengalami kurangan sebanyak RM183.33. Cadangkan strategi untuk mencapai matlamat ini."
+    working: |
+      1. Kenal Pasti Jurang:
+         Simpanan Bulanan Diperlukan = $RM833.33$
+         Simpanan Bulanan Semasa = $RM650.00$
+         Kurangan Bulanan = $RM833.33 - RM650.00$
+         Kurangan Bulanan = $RM183.33$
+      2. Strategi A - Kurangkan Perbelanjaan Tidak Tetap:
+         Belanja Melancong Semasa = $RM500$
+         Cadangan pengurangan (25%) = $0.25 \times RM500 = RM125$
+         Belanja Melancong Baharu = $RM500 - RM125 = RM375$
+      3. Strategi B - Kurangkan Belanja Petrol:
+         Cadangan penjimatan dengan berkongsi kereta = $RM100$
+      4. Hitung Jumlah Simpanan Tambahan Baharu:
+         Jumlah Simpanan Tambahan = $RM125 (\text{Melancong}) + RM100 (\text{Petrol})$
+         Jumlah Simpanan Tambahan = $RM225$
+      5. Penilaian Akhir:
+         Jumlah Simpanan Baharu = $RM650 (\text{Asal}) + RM225 (\text{Simpanan Tambahan})$
+         Jumlah Simpanan Baharu = $RM875$
+         Oleh sebab $RM875 > RM833.33$, pelan ini kini boleh dilaksanakan (feasible).

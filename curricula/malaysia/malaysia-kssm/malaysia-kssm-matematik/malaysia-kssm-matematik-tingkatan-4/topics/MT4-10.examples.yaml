@@ -1,43 +1,72 @@
 topic_id: MT4-10
-provenance: ai-generated
-description: "Worked examples for MATEMATIK PENGGUNA: PENGURUSAN KEWANGAN"
+provenance: ai-assisted
 worked_examples:
   - id: WE-01
-    topic: "Pengurusan Kewangan Asas"
+    topic: "SMART Goal Setting"
     difficulty: easy
-    real_world_analogy: "Menguruskan kewangan adalah seperti merancang perjalanan. Anda perlu tahu destinasi dan bagaimana untuk sampai ke sana."
-    misconception_alert: "Ramai pelajar berfikir mereka boleh mencapai matlamat kewangan tanpa perancangan yang teliti, tetapi tanpa pelan, mereka mungkin akan berbelanja lebih daripada kemampuan."
-    scenario: "Ahmad ingin membeli telefon baru yang berharga RM1,200. Dia merancang untuk menyimpan RM100 setiap bulan. Berapa lama masa yang diperlukan untuk mencapai matlamat tersebut?"
+    learning_objective: "10.1.1"
+    real_world_analogy: "Setting a financial goal is like putting a destination into a GPS. If you just say 'I want to go somewhere nice,' the GPS cannot give you a route. You need a specific address and an estimated time of arrival."
+    misconception_alert: "Students often think any goal is a 'SMART' goal. A goal like 'I want to save money' is too vague. It lacks a specific amount (Measurable) and a deadline (Time-bound)."
+    scenario: "Encik Yusuf wants to celebrate Family Day in Port Dickson in 6 months. The celebration will cost $RM1,500$. He earns $RM2,500$ monthly and plans to save $RM250$ a month. Evaluate if his goal is SMART."
     working: |
-      Step 1: Tentukan jumlah wang yang diperlukan untuk membeli telefon, iaitu RM1,200.
-      Step 2: Ahmad bercadang untuk menyimpan RM100 setiap bulan.
-      Step 3: Bahagikan jumlah wang yang diperlukan dengan simpanan bulanan: RM1,200 ÷ RM100 = 12 bulan.
-      Step 4: Oleh itu, Ahmad memerlukan 12 bulan untuk mencapai matlamatnya.
+      1. Specific: The goal is specific because he aims to go to a specific location (Port Dickson) for a specific event (Family Day).
+      2. Measurable: The goal is measurable because the cost is known ($RM1,500$).
+      3. Attainable: Calculate total savings over the period.
+         Total savings = $RM250 \times 6 \text{ months}$
+         Total savings = $RM1,500$
+         The goal is attainable as the total matches the cost.
+      4. Realistic: Check if monthly savings are reasonable.
+         Percentage of income = $(RM250 \div RM2,500) \times 100\%$
+         Percentage of income = $10\%$
+         Saving 10% of income is realistic.
+      5. Time-bound: The goal has a clear time limit of 6 months.
+      Conclusion: Encik Yusuf's goal follows the SMART approach.
 
   - id: WE-02
-    topic: "Pelan Kewangan Jangka Pendek"
+    topic: "Calculating Monthly Cash Flow"
     difficulty: medium
-    real_world_analogy: "Membuat pelan kewangan adalah seperti membuat jadual belajar. Anda perlu mengatur masa dan sumber dengan bijak untuk mencapai keputusan yang diinginkan."
-    misconception_alert: "Pelajar kadang kala mengabaikan perbelanjaan kecil harian yang boleh terkumpul menjadi jumlah yang besar tanpa disedari."
-    scenario: "Siti ingin menabung untuk percutian yang berharga RM2,400 dalam masa dua tahun. Dia juga mempunyai perbelanjaan bulanan sebanyak RM200. Bagaimana dia boleh membuat pelan kewangan untuk mencapai matlamat ini?"
+    learning_objective: "10.1.2"
+    real_world_analogy: "Cash flow is like a water tank. Income is the water flowing in from the tap, and expenses are the holes at the bottom. If the holes leak more water than the tap provides, your tank will eventually go dry (Negative Cash Flow)."
+    misconception_alert: "Students often forget to include passive income (like rental or dividends) or fail to distinguish between fixed and variable expenses, leading to inaccurate surplus calculations."
+    scenario: "Mr. Derrick receives an active income of $RM3,000$ and a passive income of $RM1,000$ monthly. His fixed expenses are $RM1,350$ and variable expenses are $RM650$. Calculate his monthly cash flow and explain its impact."
     working: |
-      Step 1: Tentukan jumlah simpanan yang diperlukan: RM2,400.
-      Step 2: Tentukan tempoh simpanan: 2 tahun (24 bulan).
-      Step 3: Kira simpanan bulanan yang diperlukan: RM2,400 ÷ 24 bulan = RM100 sebulan.
-      Step 4: Kira jumlah perbelanjaan bulanan: RM200.
-      Step 5: Jumlah yang perlu disimpan dan dibelanjakan setiap bulan: RM100 + RM200 = RM300.
-      Step 6: Jika Siti mampu menyimpan RM300 sebulan, dia akan mencapai matlamatnya dalam 2 tahun.
+      1. Calculate Total Income:
+         Total Income = Active Income + Passive Income
+         Total Income = $RM3,000 + RM1,000$
+         Total Income = $RM4,000$
+      2. Calculate Total Expenses:
+         Total Expenses = Fixed Expenses + Variable Expenses
+         Total Expenses = $RM1,350 + RM650$
+         Total Expenses = $RM2,000$
+      3. Calculate Cash Flow:
+         Cash Flow = Total Income - Total Expenses
+         Cash Flow = $RM4,000 - RM2,000$
+         Cash Flow = $RM2,000$
+      4. Evaluation: Since the result is a positive value ($+RM2,000$), Mr. Derrick has a positive cash flow. This allows him to invest or handle emergency situations.
 
   - id: WE-03
-    topic: "Pelan Kewangan Jangka Panjang"
+    topic: "Evaluating Plan Feasibility and Adjusting Strategy"
     difficulty: hard
-    real_world_analogy: "Memenuhi matlamat kewangan jangka panjang adalah seperti menamatkan maraton. Ia memerlukan ketekunan, disiplin, dan strategi yang berkesan."
-    misconception_alert: "Pelajar kadang-kadang mengabaikan kesan inflasi dan peningkatan kos hidup dalam perancangan kewangan jangka panjang."
-    scenario: "Ali ingin memiliki rumah sendiri yang dianggarkan berharga RM300,000 dalam masa 10 tahun. Dengan kadar simpanan tahunan sebanyak RM15,000, bolehkah Ali mencapai matlamat ini?"
+    learning_objective: "10.1.2"
+    real_world_analogy: "Adjusting a financial plan is like a pilot adjusting the plane's flight path mid-air because of a storm (inflation or job loss). You don't cancel the trip; you find a different way to reach the same destination safely."
+    misconception_alert: "Students might think that if a plan shows a deficit (negative balance), the goal is impossible. They fail to realize they can increase income or reduce variable expenses to bridge the gap."
+    scenario: "Mr. Wong wants to save $RM150,000$ for his children's education in 15 years. His current savings plan only provides $RM650$ monthly, but he actually needs $RM833.33$ monthly. He has a $RM183.33$ deficit. Suggest a strategy to achieve this goal."
     working: |
-      Step 1: Tentukan jumlah yang diperlukan untuk membeli rumah: RM300,000.
-      Step 2: Tentukan kadar simpanan tahunan: RM15,000.
-      Step 3: Tentukan tempoh masa simpanan: 10 tahun.
-      Step 4: Kira jumlah simpanan selepas 10 tahun: RM15,000 × 10 = RM150,000.
-      Step 5: Bandingkan jumlah simpanan dengan harga rumah: RM150,000 < RM300,000.
-      Step 6: Ali perlu mencari jalan untuk meningkatkan simpanannya atau mempertimbangkan pinjaman untuk mencapai matlamatnya.
+      1. Identify the Gap:
+         Required Monthly Savings = $RM833.33$
+         Current Monthly Savings = $RM650.00$
+         Monthly Deficit = $RM833.33 - RM650.00$
+         Monthly Deficit = $RM183.33$
+      2. Strategy A - Reduce Variable Expenses:
+         Current Travel Expense = $RM500$
+         Proposed reduction (25%) = $0.25 \times RM500 = RM125$
+         New Travel Expense = $RM500 - RM125 = RM375$
+      3. Strategy B - Reduce Petrol Expenses:
+         Proposed saving by car-pooling = $RM100$
+      4. Calculate New Total Additional Savings:
+         Total Additional Savings = $RM125 (\text{Travel}) + RM100 (\text{Petrol})$
+         Total Additional Savings = $RM225$
+      5. Final Evaluation:
+         New Savings Total = $RM650 (\text{Original}) + RM225 (\text{New Savings})$
+         New Savings Total = $RM875$
+         Since $RM875 > RM833.33$, the plan is now feasible.

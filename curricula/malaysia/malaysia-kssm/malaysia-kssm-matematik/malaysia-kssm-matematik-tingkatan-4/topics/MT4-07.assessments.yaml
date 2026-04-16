@@ -1,121 +1,164 @@
-topic_id: MT4-07
-provenance: ai-generated
-
+topic_id: "MT4-07"
+provenance: "ai-generated"
 questions:
-  # Learning objective 7.1.1: Melukis graf jarak-masa
-  - id: Q1
-    text: 'Rajah menunjukkan perjalanan seorang pelari dalam 2 jam. Lakarkan graf jarak-masa jika pelari itu mengekalkan halaju sepanjang masa.'
-    difficulty: medium
-    learning_objective: 7.1.1
-    tp_level: 3
+  # Learning Objective 7.1.1: Draw distance-time graphs (TP1)
+  - id: "Q1"
+    text: "A taxi travels from Town A to Town B, a distance of 150 km, in 2 hours. After a 1-hour break, it continues to Town C, 50 km away, in 1 hour. Sketch a distance-time graph to represent this entire journey."
+    difficulty: "easy"
+    learning_objective: "MT4-07-7-1-1"
+    tp_level: 1
     kbat: false
     answer:
-      type: free_text
-      value: "Graf yang menunjukkan garis lurus yang menaik secara seragam."
+      type: "free_text"
+      value: "A graph with three segments: (0,0) to (2,150), a horizontal line from (2,150) to (3,150), and a line from (3,150) to (4,200)."
       working: |
-        Pelari bergerak dengan halaju tetap, jadi graf jarak-masa adalah garis lurus yang menunjukkan kenaikan jarak yang seragam dari masa ke masa.
+        Step 1: Identify coordinates. Start at origin (0,0).
+        Step 2: First leg: 150 km in 2 hours -> Point (2, 150).
+        Step 3: Break: Distance remains 150 km for 1 hour -> Point (3, 150).
+        Step 4: Final leg: 50 km added (150+50=200) in 1 hour -> Point (4, 200).
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Graf menunjukkan garis lurus."
-      - marks: 2
-        criteria: "Graf menunjukkan kenaikan jarak yang seragam."
-      - marks: 3
-        criteria: "Graf menunjukkan kenaikan linear dan diperlabelkan dengan betul."
+        criteria: "Correctly plots the first segment with a positive gradient."
+      - marks: 1
+        criteria: "Correctly represents the break as a horizontal line segment."
+      - marks: 1
+        criteria: "Correctly plots the final segment and labels axes (Distance/Time)."
     hints:
       - level: 1
-        text: "Ingatlah bahawa halaju tetap bermaksud jarak bertambah secara sekata."
+        text: "Think about the Y-axis. If the taxi is taking a break, does the distance from the starting point change? How do you show that on a graph?"
 
-  # Learning objective 7.1.2: Mentafsir graf jarak-masa
-  - id: Q2
-    text: 'Graf jarak-masa menunjukkan sebuah kereta bergerak dari titik A ke B dalam 3 jam. Apakah kelajuan purata kereta tersebut?'
-    difficulty: medium
-    learning_objective: 7.1.2
-    tp_level: 3
+  # Learning Objective 7.1.2: Interpret distance-time graphs (TP2)
+  - id: "Q2"
+    text: "In a distance-time graph, what does a horizontal line segment (zero gradient) represent regarding the motion of the object?"
+    difficulty: "easy"
+    learning_objective: "MT4-07-7-1-2"
+    tp_level: 2
     kbat: false
     answer:
-      type: exact
-      value: 'Kelajuan purata = $\frac{\text{Jarak keseluruhan}}{\text{Masa keseluruhan}}$'
+      type: "multiple_choice"
+      value: "The object is stationary (stopped)."
       working: |
-        Kelajuan purata boleh dikira dengan formula $\frac{\text{Jarak keseluruhan}}{\text{Masa keseluruhan}}$. Jika jarak dari A ke B adalah 150 km, maka $v = \frac{150 \text{ km}}{3 \text{ jam}} = 50 \text{ km/j}$.
+        In a distance-time graph, gradient = speed. 
+        A horizontal line has a gradient of 0.
+        Therefore, speed = 0, meaning the object is not moving.
+      distractors:
+        - value: "The object is moving at a uniform speed."
+          feedback: "Careful! You're thinking of a Speed-Time graph. In a Distance-Time graph, uniform speed is a slanted straight line, not a flat one."
+        - value: "The object is accelerating."
+          feedback: "Acceleration in distance-time is shown by a curve, not a horizontal line. Check the Y-axis label again!"
+        - value: "The object is returning to the starting point."
+          feedback: "Returning to the start would show a negative gradient (the line goes down). A flat line means the distance isn't changing at all."
+    marks: 1
+
+  # Learning Objective 7.1.3: Solve problems distance-time (TP4)
+  - id: "Q3"
+    text: "Zabedah drives from Segamat to Muar, a distance of 80 km, in 1.5 hours. Calculate her average speed in $km \ h^{-1}$."
+    difficulty: "medium"
+    learning_objective: "MT4-07-7-1-3"
+    tp_level: 4
+    kbat: false
+    answer:
+      type: "exact"
+      value: "53.33"
+      working: |
+        Step 1: Use the formula: Average Speed = Total Distance / Total Time.
+        Step 2: Total Distance = 80 km.
+        Step 3: Total Time = 1.5 hours.
+        Step 4: Calculation: $80 / 1.5 = 53 \frac{1}{3} \approx 53.33 \ km \ h^{-1}$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Menggunakan formula kelajuan purata dengan betul."
-      - marks: 2
-        criteria: "Mengira kelajuan purata dengan betul."
+        criteria: "Substitution into the Average Speed formula."
+      - marks: 1
+        criteria: "Final answer correct to 2 decimal places with units."
     hints:
       - level: 1
-        text: 'Gunakan formula kelajuan purata: $\frac{\text{Jarak}}{\text{Masa}}$.'
+        text: "Remember the 'Speed Triangle'. To find speed, you need to divide the total distance by the total time taken."
 
-  # Learning objective 7.1.3: Menyelesaikan masalah graf jarak-masa
-  - id: Q3
-    text: 'Seorang pelari bergerak dengan kelajuan tetap 10 m/s. Berapakah jarak yang dilalui selepas 5 minit?'
-    difficulty: medium
-    learning_objective: 7.1.3
+  # Learning Objective 7.2.2: Area under speed-time graph (TP3)
+  - id: "Q4"
+    text: "A speed-time graph shows a motorcycle moving at a uniform speed of $20 \ m \ s^{-1}$ for 15 seconds. Determine the total distance traveled."
+    difficulty: "medium"
+    learning_objective: "MT4-07-7-2-2"
     tp_level: 3
     kbat: false
     answer:
-      type: exact
-      value: "3000 m"
+      type: "exact"
+      value: "300"
       working: |
-        Jarak = Kelajuan x Masa. Masa = 5 minit = 300 saat. Jadi, Jarak = 10 m/s x 300 s = 3000 m.
-    marks: 3
+        Step 1: Recognize that Distance = Area under Speed-Time graph.
+        Step 2: The shape is a rectangle (Uniform speed).
+        Step 3: Area = Base (Time) x Height (Speed) = $15 \ s \times 20 \ m \ s^{-1} = 300 \ m$.
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Menukar masa dari minit ke saat dengan betul."
-      - marks: 2
-        criteria: "Menggunakan formula Jarak = Kelajuan x Masa dengan betul."
-      - marks: 3
-        criteria: "Mengira jarak dengan betul."
-    hints:
-      - level: 1
-        text: "Pastikan untuk menukar masa ke dalam saat sebelum menggunakan formula."
-
-  # Learning objective 7.2.1: Melukis graf laju-masa
-  - id: Q4
-    text: 'Lukiskan graf laju-masa untuk sebuah kenderaan yang memulakan pergerakan dari keadaan pegun dan mencapai kelajuan 20 m/s dalam masa 10 saat.'
-    difficulty: medium
-    learning_objective: 7.2.1
-    tp_level: 3
-    kbat: false
-    answer:
-      type: free_text
-      value: "Graf menunjukkan garis lurus menaik dari (0,0) ke (10,20)."
-      working: |
-        Kenderaan memulakan pergerakan dari keadaan pegun, jadi graf bermula dari titik asal (0,0). Garis menaik secara linear ke (10,20) menunjukkan percepatan tetap.
-    marks: 3
-    rubric:
+        criteria: "Correctly identifies that distance is the area of the rectangle."
       - marks: 1
-        criteria: "Graf bermula dari titik asal (0,0)."
-      - marks: 2
-        criteria: "Graf menunjukkan garis lurus menaik."
-      - marks: 3
-        criteria: "Graf mencapai (10,20) dan diperlabelkan dengan betul."
+        criteria: "Calculates 300 m correctly."
     hints:
       - level: 1
-        text: "Percepatan tetap menghasilkan garis lurus dalam graf laju-masa."
+        text: "Shade the region under the graph. What shape is it? Use the area formula for that shape to find the distance."
 
-  # Learning objective 7.2.2: Membuat perkaitan luas di bawah graf laju-masa dengan jarak
-  - id: Q5
-    text: 'Graf laju-masa menunjukkan sebuah kereta bergerak dengan halaju tetap 15 m/s selama 4 saat. Berapakah jarak yang dilalui kereta itu?'
-    difficulty: medium
-    learning_objective: 7.2.2
-    tp_level: 4
+  # Learning Objective 7.2.4: Solve problems speed-time (TP5)
+  - id: "Q5"
+    text: "A car accelerates from rest to $30 \ m \ s^{-1}$ in 10 seconds, then maintains this speed for 20 seconds before decelerating to a stop in 5 seconds. Calculate the total distance traveled."
+    difficulty: "hard"
+    learning_objective: "MT4-07-7-2-4"
+    tp_level: 5
     kbat: true
     answer:
-      type: exact
-      value: "60 m"
+      type: "exact"
+      value: "825"
       working: |
-        Jarak yang dilalui adalah sama dengan luas di bawah graf laju-masa. Luas tersebut boleh dikira sebagai kawasan segiempat tepat: 15 m/s x 4 s = 60 m.
-    marks: 3
+        Step 1: Area of Triangle 1 (Acceleration): $0.5 \times 10 \times 30 = 150 \ m$.
+        Step 2: Area of Rectangle (Uniform Speed): $20 \times 30 = 600 \ m$.
+        Step 3: Area of Triangle 2 (Deceleration): $0.5 \times 5 \times 30 = 75 \ m$.
+        Step 4: Total Distance = $150 + 600 + 75 = 825 \ m$.
+    marks: 4
     rubric:
       - marks: 1
-        criteria: "Mengenal pasti bahawa jarak adalah luas di bawah graf."
-      - marks: 2
-        criteria: "Mengira luas segiempat tepat dengan betul."
-      - marks: 3
-        criteria: "Menyatakan jarak dengan betul."
+        criteria: "Calculates distance during acceleration correctly."
+      - marks: 1
+        criteria: "Calculates distance during uniform speed correctly."
+      - marks: 1
+        criteria: "Calculates distance during deceleration correctly."
+      - marks: 1
+        criteria: "Summates all areas for the correct total distance of 825 m."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Pastikan untuk mengaitkan luas di bawah graf dengan jarak."
+        text: "Break the journey into three parts: a triangle, a rectangle, and another triangle. Calculate the area of each part separately."
+
+  # Holistic Assessment: Creative Non-Routine Problem (TP6)
+  - id: "Q6"
+    text: "National hero Azizulhasni Awang is racing. He starts from rest and reaches a speed of $v \ m \ s^{-1}$ in 4 seconds with uniform acceleration. He then maintains this speed for $t$ seconds. If the total distance covered in the first $(4+t)$ seconds is 100 m, and his average speed for the whole journey is $12.5 \ m \ s^{-1}$, find the values of $v$ and $t$."
+    difficulty: "hard"
+    learning_objective: "MT4-07-7-2-4"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: "free_text"
+      value: "v = 16.67, t = 4"
+      working: |
+        Step 1: Average speed = Total Distance / Total Time.
+        $12.5 = 100 / (4+t)$
+        $4+t = 100 / 12.5 = 8$. So, $t = 4$ seconds.
+        Step 2: Total Distance = Area of Trapezium.
+        The journey is: Acceleration for 4s, then Uniform Speed for $t=4s$.
+        Total time = 8s.
+        Shape is a trapezium with base lengths 4 (top) and 8 (bottom).
+        $100 = 0.5 \times (4 + 8) \times v$
+        $100 = 0.5 \times 12 \times v$
+        $100 = 6v$
+        $v = 100 / 6 \approx 16.67 \ m \ s^{-1}$.
+    marks: 6
+    rubric:
+      - marks: 2
+        criteria: "Finds the total time using average speed formula."
+      - marks: 2
+        criteria: "Sets up the area of trapezium equation correctly."
+      - marks: 2
+        criteria: "Solves for both variables $v$ and $t$."
+    hints:
+      - level: 1
+        text: "Start with the 'Average Speed' clue. It will give you the total time $(4+t)$ immediately! Once you have the total time, use the area of the trapezium to find $v$."

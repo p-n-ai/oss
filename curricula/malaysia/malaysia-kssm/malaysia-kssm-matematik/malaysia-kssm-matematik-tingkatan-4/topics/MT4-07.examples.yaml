@@ -1,47 +1,80 @@
-topic_id: MT4-07
-provenance: ai-generated
-description: "Worked examples for GRAF GERAKAN"
+topic_id: "MT4-07"
+provenance: "ai-generated"
 worked_examples:
+  # Learning Objective 7.1.1: Draw distance-time graphs (TP1)
   - id: WE-01
-    topic: "Melukis dan Mentafsir Graf Jarak-Masa"
-    difficulty: easy
-    real_world_analogy: "Imagine timing how long it takes to walk to school and noting the distance covered at various times."
-    misconception_alert: "Students often confuse the axes, plotting time on the vertical axis instead of the horizontal axis."
-    scenario: "Siti berjalan dari rumah ke sekolah yang berjarak 3 km. Dia mengambil masa 30 minit untuk sampai. Lukis graf jarak-masa dan tafsirkan gerakannya."
+    topic: "Drawing Distance-Time Graphs"
+    learning_objective: "MT4-07-7-1-1"
+    difficulty: "easy"
+    real_world_analogy: "Think of a movie progress bar. As time (X-axis) moves forward, the 'distance' into the story (Y-axis) increases. If you pause the movie, time still moves on the progress bar, but the story distance stays at the same point."
+    misconception_alert: "Students often swap the axes. Remember: Time is 'Independent' and always lives on the horizontal X-axis. Distance is 'Dependent' on how long you've been moving, so it stays on the vertical Y-axis."
+    scenario: "Azreen is training to be a track cyclist like our national champion, Azizulhasni Awang. During a training session, he covers 10 km in the first 30 minutes and reaches a total of 20 km at the 60-minute mark. Draw a distance-time graph for his journey."
     working: |
-      Step 1: Plot time on the horizontal axis and distance on the vertical axis.
-      Step 2: Mark the point where Siti starts from home at (0, 0).
-      Step 3: Mark the point where Siti reaches school at (30, 3).
-      Step 4: Draw a straight line connecting these two points.
-      Step 5: Interpretation: The graph shows a constant speed since the line is straight, indicating uniform movement.
+      1. Identify the coordinates from the scenario:
+         - At start: $(0 \text{ min}, 0 \text{ km})$
+         - After 30 mins: $(30, 10)$
+         - After 60 mins: $(60, 20)$
+      2. Draw the axes: 
+         - Horizontal axis: Time (minutes) with a scale of 30 mins per unit.
+         - Vertical axis: Distance (km) with a scale of 10 km per unit.
+         - Plot point A at $(0,0)$.
+         - Plot point B at $(30,10)$.
+         - Plot point C at $(60,20)$.
+      3. Join the points: Draw a straight line from $(0,0)$ through $(30,10)$ to $(60,20)$.
+      4. Interpretation: Since the line is straight, Azreen is cycling at a uniform speed.
 
+  # Learning Objective 7.1.3: Solve problems involving distance-time graphs (TP4)
   - id: WE-02
-    topic: "Menyelesaikan Masalah Menggunakan Graf Jarak-Masa"
-    difficulty: medium
-    real_world_analogy: "Think of a bus trip where you stop to rest, and then continue at a different speed."
-    misconception_alert: "Students might assume speed is constant if they're not careful with sections of the graph that are horizontal."
-    scenario: "Ali memandu sejauh 100 km ke bandar. Dia berhenti rehat setelah 40 km selama 30 minit sebelum meneruskan perjalanan. Lukis dan tafsirkan graf jarak-masa."
+    topic: "Calculating Speed and Handling Stationary Periods"
+    learning_objective: "MT4-07-7-1-3"
+    difficulty: "medium"
+    real_world_analogy: "Imagine a GrabCar driver waiting at a traffic light. The car's clock (time) is still ticking, but the odometer (distance) isn't moving. This creates a 'flat line' on your trip graph."
+    misconception_alert: "A horizontal line in a distance-time graph does NOT mean the object disappeared or speed is constant. It means the object is stationary (speed = 0)."
+    scenario: "Mr. Selva drives 240 km from Kuala Lumpur to Kuantan. He stops for a break after 1 hour (80 km) for 30 minutes. He then completes the rest of the journey in 1.5 hours. Calculate his average speed for the whole journey in $km \ h^{-1}$."
     working: |
-      Step 1: Plot time on the horizontal axis and distance on the vertical axis.
-      Step 2: Draw a line from (0, 0) to (1, 40) to represent the first part of the journey.
-      Step 3: Draw a horizontal line from (1, 40) to (1.5, 40) to represent the rest period.
-      Step 4: Continue the line from (1.5, 40) to (3, 100) to complete the journey.
-      Step 5: Interpretation: The graph shows two segments with different slopes, indicating different speeds, and a horizontal segment indicating a rest period.
+      1. Identify total distance: $240 \text{ km}$.
+      2. Identify total time in stages:
+         - Driving to break: $1 \text{ hour}$
+         - Break duration: $30 \text{ minutes} = \frac{30}{60} = 0.5 \text{ hours}$
+         - Final leg: $1.5 \text{ hours}$
+      3. Calculate Total Time: $1 + 0.5 + 1.5 = 3 \text{ hours}$.
+      4. Apply Average Speed formula: $\text{Average Speed} = \frac{\text{Total Distance}}{\text{Total Time}}$
+      5. Substitute values: $\text{Average Speed} = \frac{240 \text{ km}}{3 \text{ hours}}$
+      6. Final Result: $80 \text{ km} \ h^{-1}$.
 
+  # Learning Objective 7.2.2: Relationship between area under graph and distance (TP3)
   - id: WE-03
-    topic: "Membuat Perkaitan dan Mentafsir Graf Laju-Masa"
-    difficulty: hard
-    real_world_analogy: "Consider a cycling race where the cyclist speeds up, maintains speed, and then slows down."
-    misconception_alert: "Students may overlook the fact that the area under the speed-time graph represents distance."
-    scenario: "Seorang pelumba basikal bergerak dengan laju 5 m/s selama 20 saat, kemudian memecut hingga 10 m/s dalam masa 10 saat, dan akhirnya memperlahankan hingga berhenti dalam 5 saat. Lukis dan tafsirkan graf laju-masa serta hitung jarak yang dilalui."
+    topic: "Determining Distance from Speed-Time Graphs"
+    learning_objective: "MT4-07-7-2-2"
+    difficulty: "medium"
+    real_world_analogy: "Think of painting a wall. The 'Speed' is how wide your brush is, and 'Time' is how far you swipe it. The total 'Area' you covered with paint represents the total 'Distance' you traveled."
+    misconception_alert: "Students often forget to check the time units. If the speed is in $km \ h^{-1}$ but the time is in 'minutes', you MUST divide the minutes by 60 before calculating the area."
+    scenario: "A motorcycle moves at a uniform speed of $20 \ m \ s^{-1}$ for 15 seconds. It then decelerates uniformly to a stop in 5 seconds. Calculate the total distance traveled."
     working: |
-      Step 1: Plot time on the horizontal axis and speed on the vertical axis.
-      Step 2: Draw a horizontal line at 5 m/s from (0, 0) to (20, 5).
-      Step 3: Draw a line increasing from (20, 5) to (30, 10) to represent acceleration.
-      Step 4: Draw a line decreasing from (30, 10) to (35, 0) to represent deceleration.
-      Step 5: Calculate the total distance by finding the area under each section:
-        - Rectangle (0 to 20s): 5 m/s * 20 s = 100 m
-        - Trapezium (20 to 30s): 0.5 * (5 + 10) * 10 s = 75 m
-        - Triangle (30 to 35s): 0.5 * 10 * 5 s = 25 m
-      Step 6: Sum the areas: 100 m + 75 m + 25 m = 200 m
-      Step 7: Interpretation: The graph shows different phases of motion, and the total distance covered is 200 meters.
+      1. Identify the shapes under the speed-time graph:
+         - Part 1 (0-15s): A rectangle (Uniform speed).
+         - Part 2 (15-20s): A triangle (Deceleration).
+      2. Calculate Area of Rectangle: $\text{Base} \times \text{Height} = 15 \text{ s} \times 20 \ m \ s^{-1} = 300 \text{ m}$.
+      3. Calculate Area of Triangle: $\frac{1}{2} \times \text{Base} \times \text{Height} = \frac{1}{2} \times (20 - 15) \text{ s} \times 20 \ m \ s^{-1}$
+      4. Simplify Triangle calculation: $0.5 \times 5 \text{ s} \times 20 \ m \ s^{-1} = 50 \text{ m}$.
+      5. Total Distance = $\text{Area 1} + \text{Area 2} = 300 \text{ m} + 50 \text{ m}$.
+      6. Final Result: $350 \text{ m}$.
+
+  # Learning Objective 7.2.4: Solve problems involving speed-time graphs (TP5)
+  - id: WE-04
+    topic: "Solving Complex Motion Problems"
+    learning_objective: "MT4-07-7-2-4"
+    difficulty: "hard"
+    real_world_analogy: "A sprinter's race: Explosive start (acceleration), maintaining top speed (uniform speed), and slowing down after the finish line (deceleration)."
+    misconception_alert: "In speed-time graphs, a negative gradient means 'Deceleration', not moving backwards! The object is still moving forward, just slower."
+    scenario: "A car accelerates from rest to $v \ m \ s^{-1}$ in 10 seconds. It maintains this speed for 20 seconds. The total distance traveled in these 30 seconds is 500 m. Calculate the value of $v$."
+    working: |
+      1. Identify the shape under the graph: A trapezium.
+         - Parallel sides: $a = 20 \text{ s}$ (uniform speed part), $b = 30 \text{ s}$ (total time).
+         - Height: $h = v \ m \ s^{-1}$.
+      2. Set up the area formula: $\text{Distance} = \frac{1}{2} \times (a + b) \times h$.
+      3. Substitute known values: $500 = \frac{1}{2} \times (20 + 30) \times v$.
+      4. Simplify the bracket: $500 = \frac{1}{2} \times 50 \times v$.
+      5. Calculate: $500 = 25v$.
+      6. Solve for $v$: $v = \frac{500}{25}$.
+      7. Final Result: $v = 20 \ m \ s^{-1}$.

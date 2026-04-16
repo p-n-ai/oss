@@ -1,0 +1,63 @@
+topic_id: MT4-05
+provenance: curriculum-aligned-rewrite
+description: "Contoh kerja berstruktur untuk Rangkaian dalam Teori Graf (KSSM Matematik Tingkatan 4 Bab 5)"
+worked_examples:
+  # 5.1.1 - Mengenal dan menerangkan rangkaian sebagai graf
+  - id: WE-01
+    topic: "Pengenalan kepada Rangkaian dan Darjah"
+    difficulty: easy
+    real_world_analogy: "Bayangkan graf seperti sebuah 'Majlis Bersalaman'. Setiap orang ialah bucu (titik). Apabila dua orang bersalaman, itu adalah tepi (garis). Satu aktiviti bersalaman sentiasa melibatkan dua 'sentuhan' atau darjah."
+    misconception_alert: "Perangkap 'Darjah Gelung'! Pelajar sering fikir gelung dikira sebagai 1 darjah kerana ia adalah satu garisan. Tetapi gelung menyentuh bucu yang sama dua kali (satu keluar, satu masuk), jadi ia MESTI dikira sebagai 2 darjah!"
+    scenario: "Berdasarkan satu graf mudah yang mempunyai 6 bucu $\{1, 2, 3, 4, 5, 6\}$ and 7 tepi, tentukan jumlah darjah bagi keseluruhan graf tersebut."
+    working: |
+      Langkah 1: Nyatakan bilangan tepi ($E$) daripada senario.
+      $n(E) = 7$
+      Langkah 2: Gunakan formula 'Bersalaman' untuk jumlah darjah.
+      $\sum d(v) = 2E$
+      Langkah 3: Gantikan nilai $E$ ke dalam formula.
+      $\sum d(v) = 2(7)$
+      Langkah 4: Hitung keputusan akhir.
+      $\sum d(v) = 14$
+
+  # 5.1.3 - Mengenal dan melukis subgraf dan pokok
+  - id: WE-02
+    topic: "Mengenal Pasti Pokok dan Peraturan n-1"
+    difficulty: medium
+    real_world_analogy: "Sebuah 'Pokok' adalah seperti kumpulan kawan yang 'TIADA DRAMA'. Semua orang berhubung (tiada siapa terpinggir), tetapi TIADA kitaran (tiada kawan yang bercakap belakang atau berpusing-pusing). Ini cara paling efisien untuk menghubungkan semua orang."
+    misconception_alert: "Perangkap 'Pokok Terputus'. Subgraf dengan $n-1$ tepi BUKANLAH pokok jika ada bucu yang tidak berhubung dengan yang lain. Setiap bucu MESTI mempunyai laluan ke setiap bucu lain."
+    scenario: "Sebuah rangkaian mempunyai 5 bucu. Tentukan bilangan tepi yang diperlukan untuk membentuk sebuah pokok dan sahkan jika subgraf dengan bucu $\{A, B, C, D, E\}$ dan tepi $\{(A,B), (B,C), (C,D), (D,E)\}$ adalah sebuah pokok."
+    working: |
+      Langkah 1: Kenal pasti bilangan bucu ($n$).
+      $n = 5$
+      Langkah 2: Gunakan formula sifat pokok untuk mencari bilangan tepi ($e$) yang diperlukan.
+      $e = n - 1$
+      $e = 5 - 1 = 4$
+      Langkah 3: Semak set tepi yang diberikan.
+      Tepi yang diberikan: $\{(A,B), (B,C), (C,D), (D,E)\}$
+      Bilangan = 4 tepi.
+      Langkah 4: Sahkan ketersambungan dan kitaran.
+      Laluan: $A \rightarrow B \rightarrow C \rightarrow D \rightarrow E$
+      Kesemua 5 bucu dihubungkan dalam satu barisan. Tiada gelung atau tepi berbilang.
+      Langkah 5: Kesimpulan.
+      Oleh sebab $e = 4$ and semua bucu berhubung tanpa kitaran, ia adalah sebuah pokok.
+
+  # 5.1.5 - Menyelesaikan masalah yang melibatkan rangkaian
+  - id: WE-03
+    topic: "Pengoptimuman dan Laluan Terpendek"
+    difficulty: hard
+    real_world_analogy: "Mengoptimumkan laluan adalah seperti menjadi seorang 'Rider Foodpanda'. Anda bukan sahaja mahukan jarak terpendek; anda mahukan yang terbaik dari segi 'pemberat'—iaitu masa yang paling pantas atau kos tol yang paling murah!"
+    misconception_alert: "Bias 'Jarak Terpendek'. Jangan anggap garis yang paling pendek adalah yang terbaik. Sentiasa kira jumlah 'pemberat' (masa atau kos) berdasarkan kekangan spesifik dalam soalan."
+    scenario: "Sebuah keluarga dalam perjalanan dari Tangkak ke Melaka. Laluan P adalah 46.3 km tetapi melalui pusat bandar yang sesak. Laluan Q adalah 50.2 km tetapi menggunakan lebuh raya. Jika Laluan P mengambil masa 78 minit dan Laluan Q mengambil masa 62 minit, laluan manakah yang lebih baik jika keluarga tersebut mempunyai 'kekangan masa'?"
+    working: |
+      Langkah 1: Senaraikan pemberat bagi setiap laluan berdasarkan kekangan 'Masa'.
+      Masa Laluan P = 78 minit
+      Masa Laluan Q = 62 minit
+      Langkah 2: Bandingkan masa tersebut dengan kekangan keluarga (sampai secepat mungkin).
+      $62 < 78$
+      Langkah 3: Analisis perbezaan antara jarak dan masa.
+      Laluan P lebih pendek sebanyak $50.2 - 46.3 = 3.9$ km.
+      Walau bagaimanapun, Laluan Q lebih pantas sebanyak $78 - 62 = 16$ minit.
+      Langkah 4: Justifikasikan pilihan berdasarkan matlamat senario.
+      Keluarga tersebut mempunyai kekangan masa, menjadikan kelajuan lebih penting daripada perbezaan jarak 3.9 km.
+      Langkah 5: Kesimpulan.
+      Laluan Q adalah pilihan optimum kerana ia meminimumkan masa perjalanan walaupun jaraknya lebih jauh.

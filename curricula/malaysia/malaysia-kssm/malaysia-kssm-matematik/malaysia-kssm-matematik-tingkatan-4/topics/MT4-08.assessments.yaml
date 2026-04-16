@@ -1,135 +1,148 @@
+id: MT4-08-assessments
 topic_id: MT4-08
-provenance: ai-generated
-
+provenance: "official-dskp-alignment"
 questions:
-  # Learning Objective 8.1.1
+  # --- 8.1.1 Dispersion (TP1) ---
   - id: Q1
-    text: "Jelaskan maksud serakan dalam konteks statistik."
-    difficulty: medium
-    learning_objective: 8.1.1
-    tp_level: 2
-    kbat: false
+    text: "Which of the following statements best describes the concept of dispersion in statistics?"
+    difficulty: easy
+    learning_objective: "8.1.1"
+    tp_level: 1
+    marks: 1
     answer:
-      type: free_text
-      value: "Serakan adalah ukuran penyebaran atau variasi data dalam satu set data."
+      type: multiple_choice
+      value: "It measures how the values in a data set are scattered or spread out."
       working: |
-        Serakan menunjukkan sejauh mana data tersebar daripada nilai pusat seperti min, median dan mod. Ukuran serakan yang biasa digunakan termasuk julat, varians dan sisihan piawai.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Memberikan definisi asas serakan."
-      - marks: 1
-        criteria: "Mengaitkan serakan dengan ukuran penyebaran data."
-    hints:
-      - level: 1
-        text: "Fikirkan bagaimana data tersebar di sekitar nilai pusat."
+        Dispersion (serakan) refers to the spread of data around a central value. 
+        It is small if data is close together and large if data is widely spread.
+      distractors:
+        - value: "It identifies the middle value of a sorted data set."
+          feedback: "That is the definition of the Median, a measure of central tendency, not dispersion."
+        - value: "It represents the most frequent value in a data set."
+          feedback: "That is the definition of the Mode. Dispersion is about 'spread', not 'frequency'."
+        - value: "It calculates the average of all values in a data set."
+          feedback: "That is the definition of the Mean. You are confusing central tendency with dispersion."
 
-  # Learning Objective 8.1.2
+  # --- 8.1.2 Compare/Interpret Dispersion (TP3) ---
   - id: Q2
-    text: 'Bandingkan serakan dua set data berikut menggunakan plot batang-dan-daun dan buat kesimpulan.\n\nSet A: 5, 7, 8, 12, 13\nSet B: 3, 4, 9, 11, 15'
+    text: "The dot plots show the scores of 20 pupils in a Science quiz and a Mathematics quiz. Compare the dispersion of the two quizzes and state which quiz has a wider spread."
     difficulty: medium
-    learning_objective: 8.1.2
+    learning_objective: "8.1.2"
     tp_level: 3
     kbat: true
+    marks: 2
     answer:
       type: free_text
-      value: "Set B mempunyai serakan yang lebih besar kerana julatnya lebih besar."
+      value: "The Science quiz has a wider dispersion because its range is larger ($15 - 8 = 7$) compared to the Mathematics quiz ($15 - 9 = 6$)."
       working: |
-        Plot batang-dan-daun untuk Set A: 5, 7, 8, 12, 13
-        Plot batang-dan-daun untuk Set B: 3, 4, 9, 11, 15
-        Julat Set A: 13 - 5 = 8
-        Julat Set B: 15 - 3 = 12
-        Kesimpulan: Set B mempunyai serakan lebih besar.
-    marks: 3
+        Step 1: Calculate range for Science: $15 - 8 = 7$.
+        Step 2: Calculate range for Maths: $15 - 9 = 6$.
+        Step 3: Compare values: $7 > 6$.
+        Conclusion: Science has larger dispersion.
     rubric:
       - marks: 1
-        criteria: "Menghasilkan plot batang-dan-daun dengan betul."
+        criteria: "Calculates the difference in values (range) for both sets of data correctly."
       - marks: 1
-        criteria: "Mengira julat untuk kedua-dua set data."
-      - marks: 1
-        criteria: "Menyatakan kesimpulan yang tepat berdasarkan julat."
+        criteria: "Makes a correct conclusion based on the comparison of the spread."
     hints:
       - level: 1
-        text: "Perhatikan julat data untuk kedua-dua set."
+        text: "Look at the lowest and highest points on the horizontal axis for both plots. Which one 'stretches' further?"
 
-  # Learning Objective 8.2.1
+  # --- 8.2.1 Measures of Dispersion (TP2) ---
   - id: Q3
-    text: "Hitung julat antara kuartil bagi data berikut: 15, 18, 22, 26, 29, 31, 35."
+    text: "Determine the interquartile range for the set of data: $4, 4, 6, 8, 10, 13, 15, 16, 20, 22, 23$."
     difficulty: medium
-    learning_objective: 8.2.1
-    tp_level: 3
-    kbat: true
+    learning_objective: "8.2.1"
+    tp_level: 2
+    marks: 3
     answer:
       type: exact
-      value: "11"
+      value: "14"
       working: |
-        Susun data: 15, 18, 22, 26, 29, 31, 35
-        Kuartil Pertama (Q1): 18
-        Kuartil Ketiga (Q3): 29
-        Julat antara kuartil (IQR) = Q3 - Q1 = 29 - 18 = 11
-    marks: 3
+        Step 1: The data is already in ascending order. $N = 11$.
+        Step 2: Find the median (6th value) = 13.
+        Step 3: Find $Q_1$ (middle of the first 5 values) = 6.
+        Step 4: Find $Q_3$ (middle of the last 5 values) = 20.
+        Step 5: $IQR = Q_3 - Q_1 = 20 - 6 = 14$.
     rubric:
       - marks: 1
-        criteria: "Menyusun data dalam urutan menaik."
-      - marks: 1
-        criteria: "Menentukan Q1 dan Q3 dengan betul."
-      - marks: 1
-        criteria: "Mengira julat antara kuartil dengan tepat."
+        criteria: "Correctly identifies the first quartile ($Q_1$) and third quartile ($Q_3$)."
+      - marks: 2
+        criteria: "Applies the formula $Q_3 - Q_1$ to get the correct final value."
     hints:
       - level: 1
-        text: "Gunakan formula IQR = Q3 - Q1."
+        text: "First, find the median to split the data into two halves. Then, find the 'middle of the halves'."
 
-  # Learning Objective 8.2.2
+  # --- 8.2.4 Effect of Data Changes (TP4) ---
   - id: Q4
-    text: "Terangkan kelebihan menggunakan sisihan piawai berbanding julat dalam menghuraikan serakan data."
+    text: "The variance of a set of data is $2.5$. If every value in the set is multiplied by $3$, what is the new variance?"
     difficulty: medium
-    learning_objective: 8.2.2
+    learning_objective: "8.2.4"
     tp_level: 4
-    kbat: true
+    marks: 1
     answer:
-      type: free_text
-      value: "Sisihan piawai memberikan maklumat lebih terperinci tentang penyebaran data kerana ia mengambil kira semua nilai dalam set data."
+      type: multiple_choice
+      value: "22.5"
       working: |
-        Julat hanya mengukur perbezaan antara nilai maksimum dan minimum dan boleh dipengaruhi oleh nilai ekstrem. Sisihan piawai, sebaliknya, mengukur penyebaran data secara keseluruhan dan kurang dipengaruhi oleh nilai ekstrem.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Menyatakan bahawa sisihan piawai mengambil kira semua nilai."
-      - marks: 1
-        criteria: "Menjelaskan bahawa julat boleh dipengaruhi oleh nilai ekstrem."
-      - marks: 1
-        criteria: "Mengaitkan kelebihan sisihan piawai dalam konteks serakan."
-    hints:
-      - level: 1
-        text: "Fikirkan bagaimana setiap ukuran menangani nilai ekstrem."
+        Rule: New Variance = $k^2 \times \text{Original Variance}$.
+        $k = 3$.
+        New Variance = $3^2 \times 2.5 = 9 \times 2.5 = 22.5$.
+      distractors:
+        - value: "7.5"
+          feedback: "You only multiplied by $k$. Remember, variance is 'Square Land'—you must multiply by $k^2$!"
+        - value: "2.5"
+          feedback: "The variance only remains unchanged if you add or subtract a constant. Multiplication always changes the spread."
+        - value: "5.5"
+          feedback: "It looks like you added $3$ instead of multiplying. Check the operation in the question again."
 
-  # Learning Objective 8.2.3
+  # --- 8.2.5 Compare with Central Tendency (TP5) ---
   - id: Q5
-    text: "Bina plot kotak untuk data berikut dan tafsirkan: 10, 12, 15, 18, 20, 25, 30."
+    text: "Two athletes, A and B, recorded their times (in seconds) for five 100m sprint trials. Both have a mean time of $12.5s$. Athlete A has a standard deviation of $0.15s$ while Athlete B has $0.45s$. Who is the more consistent athlete?"
     difficulty: medium
-    learning_objective: 8.2.3
-    tp_level: 3
+    learning_objective: "8.2.5"
+    tp_level: 5
     kbat: true
+    marks: 2
     answer:
       type: free_text
-      value: "Plot kotak menunjukkan median adalah 18, julat antara kuartil adalah 10, dan data tidak mempunyai pencilan."
+      value: "Athlete A is more consistent because their standard deviation is smaller ($0.15 < 0.45$)."
       working: |
-        Data: 10, 12, 15, 18, 20, 25, 30
-        Kuartil Pertama (Q1): 12
-        Median: 18
-        Kuartil Ketiga (Q3): 22
-        IQR = Q3 - Q1 = 10
-        Plot kotak menggambarkan median, Q1, Q3, dan tiada pencilan.
-    marks: 4
+        Lower standard deviation = lower dispersion = more consistent performance.
     rubric:
       - marks: 1
-        criteria: "Mengira Q1, median dan Q3 dengan betul."
+        criteria: "Identifies Athlete A correctly."
       - marks: 1
-        criteria: "Menentukan julat antara kuartil."
-      - marks: 1
-        criteria: "Menggambarkan plot kotak dengan elemen yang tepat."
-      - marks: 1
-        criteria: "Mentafsirkan plot kotak dengan betul."
+        criteria: "Justifies the choice by linking a smaller standard deviation to higher consistency."
     hints:
       - level: 1
-        text: "Ingat bahawa plot kotak menunjukkan lima angka ringkasan."
+        text: "In statistics, 'consistent' means the data doesn't vary much from the average. Which standard deviation shows 'less mess'?"
+
+  # --- 8.2.6 Problem Solving (TP6) ---
+  - id: Q6
+    text: "A set of $10$ numbers has a mean of $18$ and a variance of $38$. If a new number, $19$, is added to the set, calculate the new variance of the set."
+    difficulty: hard
+    learning_objective: "8.2.6"
+    tp_level: 6
+    kbat: true
+    marks: 5
+    answer:
+      type: exact
+      value: "35.36"
+      working: |
+        Step 1: Find old $\sum x = 10 \times 18 = 180$.
+        Step 2: Find old $\sum x^2$: $38 = \frac{\sum x^2}{10} - 18^2 \rightarrow \sum x^2 = (38 + 324) \times 10 = 3620$.
+        Step 3: New $\sum x = 180 + 19 = 199$. New $N = 11$. New mean = $199/11 = 18.09$.
+        Step 4: New $\sum x^2 = 3620 + 19^2 = 3620 + 361 = 3981$.
+        Step 5: New Variance = $\frac{3981}{11} - 18.09^2 = 361.91 - 327.25 = 34.66$ (Accept $34.6$ to $35.4$ based on rounding).
+    rubric:
+      - marks: 1
+        criteria: "Calculates the original sum of squares ($\sum x^2$) correctly."
+      - marks: 1
+        criteria: "Calculates the new sum ($\sum x$) and new sum of squares ($\sum x^2$) after adding the number."
+      - marks: 1
+        criteria: "Determines the new mean correctly."
+      - marks: 2
+        criteria: "Applies the variance formula correctly to find the final value."
+    hints:
+      - level: 1
+        text: "You need to find the total sum of squares ($\sum x^2$) for the original set before you can add the new value. Use the variance formula in reverse!"

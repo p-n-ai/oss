@@ -1,0 +1,79 @@
+id: MT4-05
+official_ref: "5.0"
+name: "Rangkaian dalam Teori Graf"
+subject_id: malaysia-kssm-matematik-tingkatan-4
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+sync_checked: true
+content_standards:
+  - id: "5.1"
+    text: "Rangkaian"
+    learning_objectives:
+      - id: "5.1.1"
+        text: "Mengenal dan menerangkan rangkaian sebagai graf."
+        bloom: understand
+        tp_mapping:
+          tp1: "Mempamerkan pengetahuan asas tentang rangkaian."
+          tp2: "Mempamerkan kefahaman tentang rangkaian."
+      - id: "5.1.2"
+        text: "Membanding beza: (i) graf terarah dengan graf tak terarah; (ii) graf berpemberat dengan graf tak berpemberat."
+        bloom: analyze
+        tp_mapping:
+          tp3: "Mengaplikasikan kefahaman tentang rangkaian untuk melaksanakan tugasan mudah."
+      - id: "5.1.3"
+        text: "Mengenal dan melukis subgraf dan pokok."
+        bloom: apply
+        tp_mapping:
+          tp3: "Mengaplikasikan kefahaman tentang rangkaian untuk melaksanakan tugasan mudah."
+      - id: "5.1.4"
+        text: "Mewakilkan maklumat dalam bentuk rangkaian."
+        bloom: apply
+        tp_mapping:
+          tp4: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang rangkaian dalam konteks penyelesaian masalah rutin yang mudah."
+      - id: "5.1.5"
+        text: "Menyelesaikan masalah yang melibatkan rangkaian."
+        bloom: analyze
+        tp_mapping:
+          tp5: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang rangkaian dalam konteks penyelesaian masalah rutin yang kompleks."
+          tp6: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang rangkaian dalam konteks penyelesaian masalah bukan rutin secara kreatif."
+prerequisites:
+  required:
+    - id: "MT-GENERAL-ALGEBRA"
+      reason: "Memahami hubungan antara pemboleh ubah dan pemetaan logik asas."
+  recommended: []
+bloom_levels:
+  - understand
+  - apply
+  - analyze
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+ai_teaching_notes: "MT4-05.teaching.md"
+assessments_file: "MT4-05.assessments.yaml"
+examples_file: "MT4-05.examples.yaml"
+quality_level: 3
+provenance: curriculum-aligned-rewrite
+teaching:
+  sequence:
+    - "Langkah 1: Pengenalan kepada asas - mendefinisikan bucu ($V$), tepi ($E$), dan darjah ($d$) menggunakan graf mudah (15 min)"
+    - "Langkah 2: Membandingkan jenis graf - membezakan graf terarah/tak terarah dan graf berpemberat/tak berpemberat menggunakan analogi dunia nyata (20 min)"
+    - "Langkah 3: Analisis Struktur - mengajar subgraf dan ciri-ciri khusus pokok ($n-1$ tepi) (25 min)"
+    - "Langkah 4: Perwakilan Rangkaian - memetakan data sosial dan pengangkutan ke dalam struktur graf yang unik (20 min)"
+    - "Langkah 5: Pengoptimuman & Sintesis - menyelesaikan masalah kompleks melibatkan laluan terpendek dan kos optimum (30 min)"
+  common_misconceptions:
+    - misconception: "Semua graf mesti mempunyai anak panah arah."
+      remediation: "Gunakan contoh rangkaian pengangkutan darat atau hubungan sosial asas untuk menunjukkan hubungan tak terarah."
+    - misconception: "Sesuatu pokok boleh mengandungi gelung atau kitaran."
+      remediation: "Tekankan bahawa pokok ialah graf mudah di mana setiap pasangan bucu dihubungkan oleh hanya satu tepi."
+    - misconception: "Darjah bagi satu gelung dikira sebagai satu."
+      remediation: "Jelaskan bahawa setiap gelung menambah 2 kepada darjah sesuatu bucu kerana ia bermula dan berakhir pada titik yang sama."
+  engagement_hooks:
+    - "Terokai rangkaian transit kereta api KL Sentral sebagai contoh graf tak terarah dunia nyata."
+    - "Analisis sistem 'tagging' media sosial untuk melihat bagaimana maklumat tersebar melalui rangkaian."
+    - "Selesaikan teka-teki jalan sesat (maze) dengan menukarkannya kepada rangkaian bucu dan tepi."

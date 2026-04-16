@@ -1,0 +1,56 @@
+topic_id: "MT4-06"
+provenance: "curriculum-aligned-rewrite"
+description: "Contoh kerja bagi Ketaksamaan Linear dalam Dua Pemboleh Ubah yang berfokus pada perwakilan, lorekan rantau, dan penyelesaian sistem."
+worked_examples:
+  - id: "WE-01"
+    topic: "Mewakilkan Situasi dalam Bentuk Ketaksamaan Linear"
+    difficulty: "easy"
+    learning_objective: "6.1.1"
+    tp_level: 2
+    real_world_analogy: "Fikirkan tentang papan tanda 'Had Ketinggian' di tempat letak kereta. Jika hadnya ialah 2.1m, maka tinggi kereta anda ($h$) mestilah $h \leq 2.1$. Papan tanda itu adalah sempadan yang tidak boleh anda lepasi."
+    misconception_alert: "Pelajar sering keliru 'selebih-lebihnya' dengan simbol 'lebih besar daripada' kerana bunyi perkataannya. Sentiasa ingat: 'selebih-lebihnya' adalah siling atau had atas—anda tidak boleh pergi lebih tinggi, jadi gunakan $\leq$."
+    scenario: "Taufik ingin membeli beberapa buah buku rujukan dan buku latihan. Harga sebuah buku rujukan ialah RM14 dan sebuah buku latihan ialah RM9. Amaun maksimum yang boleh dibelanjakan oleh Taufik ialah RM100. Wakilkan situasi ini dalam bentuk ketaksamaan linear."
+    working: |
+      1. Takrifkan pemboleh ubah: Katakan $x$ = bilangan buku rujukan dan $y$ = bilangan buku latihan.
+      2. Kira kos buku rujukan: $14 \times x = 14x$.
+      3. Kira kos buku latihan: $9 \times y = 9y$.
+      4. Jumlah kos = $14x + 9y$.
+      5. Kenal pasti kekangan: 'Maksimum' bermaksud jumlah tidak boleh melebihi RM100, tetapi boleh tepat RM100. Gunakan simbol $\leq$.
+      6. Ketaksamaan Akhir: $14x + 9y \leq 100$.
+
+  - id: "WE-02"
+    topic: "Menentukan dan Melorek Rantau"
+    difficulty: "medium"
+    learning_objective: "6.1.3"
+    tp_level: 3
+    real_world_analogy: "Bayangkan sebuah pagar. Jika peraturannya 'duduk di dalam kawasan pagar', pagar itu sendiri adalah sempadan. Jika peraturan kata 'jangan sentuh pagar', kita lukis pagar itu dengan garis sempang."
+    misconception_alert: "Pelajar selalu terlupa jenis garis berubah mengikut simbol. Jika simbol ialah $>$ atau $<$, garis MESTI sempang. Jika ada tanda sama dengan ($\geq$ or $\leq$), garis adalah padu."
+    scenario: "Lukis graf dan lorekkan rantau yang mewakili ketaksamaan $y > \frac{2}{3}x + 2$."
+    working: |
+      1. Tukar ketaksamaan kepada persamaan untuk mencari garis sempadan: $y = \frac{2}{3}x + 2$.
+      2. Cari pintasan-y: Apabila $x = 0$, $y = \frac{2}{3}(0) + 2 = 2$. Titik ialah $(0, 2)$.
+      3. Cari pintasan-x: Apabila $y = 0$, $0 = \frac{2}{3}x + 2 \rightarrow -2 = \frac{2}{3}x \rightarrow x = -3$. Titik ialah $(-3, 0)$.
+      4. Kenal pasti jenis garis: Simbol ialah $>$, yang tidak termasuk 'sama dengan'. Lukis **garis sempang** melalui $(-3, 0)$ and $(0, 2)$.
+      5. Tentukan rantau: Oleh sebab $y >$, lorekkan rantau **di atas** garis sempang tersebut.
+
+  - id: "WE-03"
+    topic: "Menyelesaikan Sistem Ketaksamaan Linear"
+    difficulty: "hard"
+    learning_objective: "6.2.4"
+    tp_level: 5
+    real_world_analogy: "Anggap ini sebagai mencari 'Zon Selamat' di mana dua peraturan berbeza dikenakan pada masa yang sama. Anda mesti ikut Peraturan A DAN Peraturan B. Hanya kawasan di mana kedua-dua peraturan dipenuhi adalah penyelesaiannya."
+    misconception_alert: "Apabila berhadapan dengan dua atau lebih ketaksamaan, pelajar sering melorek satu bahagian sahaja. Penyelesaiannya HANYA pada 'Rantau Sepunya' di mana semua kawasan lorekan bertindih."
+    scenario: "Puan Carol perlu memilih murid untuk pertandingan koir. Jumlah murid adalah selebih-lebihnya 20 orang. Bilangan murid perempuan ($x$) mestilah sekurang-kurangnya dua kali bilangan murid lelaki ($y$). Jika 5 orang murid lelaki dipilih, berapakah bilangan maksimum murid perempuan yang dibenarkan?"
+    working: |
+      1. Bentukkan sistem ketaksamaan:
+         - Jumlah murid: $x + y \leq 20$
+         - Nisbah: $x \geq 2y$
+      2. Gantikan nilai yang diberi: Puan Carol memilih 5 orang murid lelaki, maka $y = 5$.
+      3. Uji kekangan pertama ($x + y \leq 20$):
+         - $x + 5 \leq 20$
+         - Tolak 5 daripada kedua-dua belah: $x \leq 15$.
+      4. Uji kekangan kedua ($x \geq 2y$):
+         - $x \geq 2(5)$
+         - $x \geq 10$.
+      5. Gabungkan had: Bilangan murid perempuan mestilah sekurang-kurangnya 10 ($x \geq 10$) dan selebih-lebihnya 15 ($x \leq 15$).
+      6. Kesimpulan: Bilangan maksimum murid perempuan yang boleh dipilih ialah 15 orang.
