@@ -1,0 +1,90 @@
+id: MT4-04
+official_ref: "4.0"
+name: "OPERASI SET"
+subject_id: malaysia-kssm-matematik-tingkatan-4
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+textbook_pages: "94-127"
+
+content_standards:
+  - id: "4.1"
+    text: "Persilangan Set"
+  - id: "4.2"
+    text: "Kesatuan Set"
+  - id: "4.3"
+    text: "Gabungan Operasi Set"
+
+learning_objectives:
+  - id: "4.1.1"
+    text: "Menentu dan menghuraikan persilangan set menggunakan pelbagai perwakilan."
+    bloom: understand
+    tp_level: 2
+  - id: "4.1.2"
+    text: "Menentukan pelengkap bagi persilangan set."
+    bloom: apply
+    tp_level: 3
+  - id: "4.1.3"
+    text: "Menyelesaikan masalah yang melibatkan persilangan set."
+    bloom: apply
+    tp_level: 4
+  - id: "4.2.1"
+    text: "Menentu dan menghuraikan kesatuan set menggunakan pelbagai perwakilan."
+    bloom: understand
+    tp_level: 2
+  - id: "4.2.2"
+    text: "Menentukan pelengkap bagi kesatuan set."
+    bloom: apply
+    tp_level: 3
+  - id: "4.2.3"
+    text: "Menyelesaikan masalah yang melibatkan kesatuan set."
+    bloom: apply
+    tp_level: 4
+  - id: "4.3.1"
+    text: "Menentu dan menghuraikan gabungan operasi set menggunakan pelbagai perwakilan."
+    bloom: understand
+    tp_level: 2
+  - id: "4.3.2"
+    text: "Menentukan pelengkap bagi gabungan operasi set."
+    bloom: apply
+    tp_level: 3
+  - id: "4.3.3"
+    text: "Menyelesaikan masalah yang melibatkan gabungan operasi set."
+    bloom: apply
+    tp_level: 5
+
+prerequisites:
+  required:
+    - id: "MT1-11"
+      name: "Pengenalan Set"
+  recommended: []
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+ai_teaching_notes: "MT4-04.teaching.md"
+assessments_file: "MT4-04.assessments.yaml"
+examples_file: "MT4-04.examples.yaml"
+
+quality_level: 3
+provenance: "official-dskp-aligned"
+
+teaching_metadata:
+  sequence:
+    - "Langkah 1: Perkenalkan persilangan set menggunakan gambar rajah Venn dan unsur sepunya (20 min)"
+    - "Langkah 2: Teroka kesatuan set dan konsep menggabungkan semua unsur (20 min)"
+    - "Langkah 3: Menguasai gabungan operasi set, menekankan tertib operasi dan kurungan (25 min)"
+  common_misconceptions:
+    - misconception: "Keliru antara simbol persilangan (∩) dan kesatuan (∪)."
+      remediation: "Gunakan mnemonik visual: 'n' untuk 'n' dalam persilangan (unsur sama) dan 'u' untuk 'union' atau gabungan semua."
+    - misconception: "Terlepas pandang set semesta apabila menentukan pelengkap."
+      remediation: "Sentiasa lukis segi empat tepat untuk set semesta dan kenal pasti unsur di luar set sasaran."
+  engagement_hooks:
+    - "Kaitkan operasi set dengan penapis media sosial (contoh: mencari kawan yang suka KEDUA-DUA bola sepak dan permainan video)."
+    - "Gunakan senario 'Kelab Sekolah' di mana murid memvisualisasikan pertindihan keahlian antara aktiviti yang berbeza."

@@ -1,100 +1,92 @@
 id: MT4-03
 official_ref: "3.0"
-name: "PENAAKULAN LOGIK"
 name_en: "Logical Reasoning"
 subject_id: malaysia-kssm-matematik-tingkatan-4
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: intermediate
 tier: core
 content_standards:
-    - id: "3.1"
-      text: "Pernyataan"
-      text_en: "Statements"
-    - id: "3.2"
-      text: "Hujah"
-      text_en: "Arguments"
+  - id: "3.1"
+    text_en: "Statements"
+  - id: "3.2"
+    text_en: "Arguments"
 learning_objectives:
-    - id: 3.1.1
-      text: "Menerangkan maksud pernyataan dan seterusnya menentukan nilai kebenaran bagi suatu pernyataan."
-      text_en: "Explain the meaning of a statement and subsequently determine the truth value of a statement."
-      bloom: apply
-    - id: 3.1.2
-      text: "Menafikan suatu pernyataan. Menukar nilai kebenaran pernyataan dengan menggunakan “bukan” atau “tidak”."
-      text_en: "Negate a statement. Change the truth value of a statement using 'not' or 'no'."
-      bloom: apply
-    - id: 3.1.3
-      text: "Menentukan nilai kebenaran suatu pernyataan majmuk."
-      text_en: "Determine the truth value of a compound statement."
-      bloom: apply
-    - id: 3.1.4
-      text: "Membina pernyataan dalam bentuk implikasi (i) Jika p, maka q (ii) p jika dan hanya jika q."
-      text_en: "Construct statements in the form of implication (i) If p, then q (ii) p if and only if q."
-      bloom: apply
-    - id: 3.1.5
-      text: "Membina dan membandingkan nilai kebenaran akas, songsangan dan kontrapositif bagi suatu implikasi."
-      text_en: "Construct and compare the truth values of converse, inverse, and contrapositive of an implication."
-      bloom: analyze
-    - id: 3.1.6
-      text: "Menentukan contoh penyangkal untuk menafikan kebenaran pernyataan tertentu."
-      text_en: "Determine counterexamples to negate the truth of certain statements."
-      bloom: analyze
-    - id: 3.2.1
-      text: "Menerangkan maksud hujah, dan membezakan hujah deduktif dan hujah induktif."
-      text_en: "Explain the meaning of argument, and distinguish deductive and inductive arguments."
-      bloom: analyze
-    - id: 3.2.2
-      text: "Menentu dan menjustifikasikan keesahan suatu hujah deduktif dan seterusnya menentukan sama ada hujah yang sah itu munasabah."
-      text_en: "Determine and justify the validity of a deductive argument and subsequently determine whether the valid argument is reasonable."
-      bloom: evaluate
-    - id: 3.2.3
-      text: "Membentuk hujah deduktif yang sah bagi suatu situasi."
-      text_en: "Form a valid deductive argument for a situation."
-      bloom: create
-    - id: 3.2.4
-      text: "Menentu dan menjustifikasikan kekuatan suatu hujah induktif dan seterusnya menentukan sama ada hujah yang kuat itu meyakinkan."
-      text_en: "Determine and justify the strength of an inductive argument and subsequently determine whether the strong argument is convincing."
-      bloom: evaluate
-    - id: 3.2.5
-      text: "Membentuk hujah induktif yang kuat bagi suatu situasi."
-      text_en: "Form a strong inductive argument for a situation."
-      bloom: create
-    - id: 3.2.6
-      text: "Menyelesaikan masalah yang melibatkan penaakulan logik."
-      text_en: "Solve problems involving logical reasoning."
-      bloom: apply
+  - id: 3.1.1
+    text_en: "Explain the meaning of a statement and hence determine the truth value of a statement."
+    bloom: apply
+  - id: 3.1.2
+    text_en: "Negate a statement."
+    bloom: apply
+  - id: 3.1.3
+    text_en: "Determine the truth value of a compound statement."
+    bloom: apply
+  - id: 3.1.4
+    text_en: "Construct statement in the form of implication (i) If p then q (ii) p if and only if q."
+    bloom: apply
+  - id: 3.1.5
+    text_en: "Construct and compare the truth value of converse, inverse and contrapositive of an implication."
+    bloom: analyze
+  - id: 3.1.6
+    text_en: "Determine a counter-example to negate the truth of a particular statement."
+    bloom: analyze
+  - id: 3.2.1
+    text_en: "Explain the meaning of an argument and differentiate between deductive and inductive arguments."
+    bloom: analyze
+  - id: 3.2.2
+    text_en: "Determine and justify the validity of a deductive argument hence determine whether the valid argument is sound."
+    bloom: evaluate
+  - id: 3.2.3
+    text_en: "Form valid deductive argument for a situation."
+    bloom: create
+  - id: 3.2.4
+    text_en: "Determine and justify the strength of an inductive argument and hence determine whether the strong argument is cogent."
+    bloom: evaluate
+  - id: 3.2.5
+    text_en: "Form a strong inductive argument of a certain situation."
+    bloom: create
+  - id: 3.2.6
+    text_en: "Solve problems involving logical reasoning."
+    bloom: apply
 prerequisites:
-    required: []
-    recommended: []
-bloom_levels:
-    - apply
-    - analyze
-    - evaluate
-    - create
+  required: []
+  recommended:
+    - "MT1-01" # Rational Numbers (Form 1)
+    - "MT1-05" # Algebraic Expressions (Form 1)
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
 ai_teaching_notes: "MT4-03.teaching.md"
-quality_level: 1
-provenance: ai-assisted
+assessments_file: "MT4-03.assessments.yaml"
+examples_file: "MT4-03.examples.yaml"
+quality_level: 3
+provenance: "expert-curated"
 teaching:
-    sequence:
-        - 'Step 1: Introduce types and truth values of logical statements (20 min)'
-        - 'Step 2: Teach negation using ''not'' and ''no'' (15 min)'
-        - 'Step 3: Evaluate compound statements for truth values (15 min)'
-        - 'Step 4: Explain implications and their forms (20 min)'
-        - 'Step 5: Compare converse and contrapositive implications (20 min)'
-    common_misconceptions:
-        - misconception: All statements are true unless stated otherwise
-          remediation: Use critical analysis activities and discussions
-        - misconception: A true implication must have a true consequence
-          remediation: Provide counterexamples to clarify the concept
-engagement_hooks:
-    - Relate to daily decision-making, like choosing the best route to school based on traffic news
-    - Discuss logical reasoning in popular detective stories or puzzles
-assessments_file: MT4-03.assessments.yaml
-examples_file: MT4-03.examples.yaml
+  sequence:
+    - "Step 1: Introduction to Statements and Truth Values (LO 3.1.1)"
+    - "Step 2: Negation of Statements using 'not' or 'no' (LO 3.1.2)"
+    - "Step 3: Truth values of Compound Statements using 'and' or 'or' (LO 3.1.3)"
+    - "Step 4: Constructing Implications: 'If p then q' and 'p if and only if q' (LO 3.1.4)"
+    - "Step 5: Analyzing Converse, Inverse, and Contrapositive (LO 3.1.5)"
+    - "Step 6: Negating truth via Counter-examples (LO 3.1.6)"
+    - "Step 7: Differentiating Deductive vs Inductive Arguments (LO 3.2.1)"
+    - "Step 8: Evaluating Validity and Soundness of Deductive Arguments (LO 3.2.2)"
+    - "Step 9: Constructing Valid Deductive Arguments (LO 3.2.3)"
+    - "Step 10: Evaluating Strength and Cogency of Inductive Arguments (LO 3.2.4)"
+    - "Step 11: Forming Strong Inductive Generalizations (LO 3.2.5)"
+    - "Step 12: Complex Problem Solving and Mathematical Fikrah (LO 3.2.6)"
+  common_misconceptions:
+    - misconception: "Assuming all statements in daily speech are mathematical statements."
+      remediation: "Clarify that a mathematical statement must have a definite truth value (True or False)."
+    - misconception: "Confusing a true implication with a valid argument."
+      remediation: "Use Form I, II, and III templates to show that validity depends on structural compliance, not just the truth of premises."
+    - misconception: "Thinking 'or' in logic is exclusive (one or the other, but not both)."
+      remediation: "Explicitly teach that 'p or q' is true if either p is true, q is true, or both are true."
+  engagement_hooks:
+    - "Use 'Whodunnit' style detective puzzles to introduce the concept of premises and conclusions."
+    - "Relate logical operators 'AND'/'OR' to computer search filters or video game logic gates."
+    - "Analyze real-world advertisements or news headlines to find logical fallacies and counter-examples."

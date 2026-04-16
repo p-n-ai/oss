@@ -1,0 +1,93 @@
+id: MT4-03
+official_ref: "3.0"
+name: "Penaakulan Logik"
+subject_id: malaysia-kssm-matematik-tingkatan-4
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+content_standards:
+  - id: "3.1"
+    text: "Pernyataan"
+  - id: "3.2"
+    text: "Hujah"
+learning_objectives:
+  - id: 3.1.1
+    text: "Menerangkan maksud pernyataan dan seterusnya menentukan nilai kebenaran bagi suatu pernyataan."
+    bloom: apply
+  - id: 3.1.2
+    text: "Menafikan suatu pernyataan."
+    bloom: apply
+  - id: 3.1.3
+    text: "Menentukan nilai kebenaran suatu pernyataan majmuk."
+    bloom: apply
+  - id: 3.1.4
+    text: "Membina pernyataan dalam bentuk implikasi (i) Jika p, maka q (ii) p jika dan hanya jika q."
+    bloom: apply
+  - id: 3.1.5
+    text: "Membina dan membandingkan nilai kebenaran akas, songsangan dan kontrapositif bagi suatu implikasi."
+    bloom: analyze
+  - id: 3.1.6
+    text: "Menentukan contoh penyangkal untuk menafikan kebenaran pernyataan tertentu."
+    bloom: analyze
+  - id: 3.2.1
+    text: "Menerangkan maksud hujah, dan membezakan hujah deduktif dan hujah induktif."
+    bloom: analyze
+  - id: 3.2.2
+    text: "Menentu dan menjustifikasikan keesahan suatu hujah deduktif dan seterusnya menentukan sama ada hujah yang sah itu munasabah."
+    bloom: evaluate
+  - id: 3.2.3
+    text: "Membentuk hujah deduktif yang sah bagi suatu situasi."
+    bloom: create
+  - id: 3.2.4
+    text: "Menentu dan menjustifikasikan kekuatan suatu hujah induktif dan seterusnya menentukan sama ada hujah yang kuat itu meyakinkan."
+    bloom: evaluate
+  - id: 3.2.5
+    text: "Membentuk hujah induktif yang kuat bagi suatu situasi."
+    bloom: create
+  - id: 3.2.6
+    text: "Menyelesaikan masalah yang melibatkan penaakulan logik."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended:
+    - "MT1-01" # Nombor Nisbah
+    - "MT1-05" # Ungkapan Algebra
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+ai_teaching_notes: "MT4-03.teaching.md"
+assessments_file: "MT4-03.assessments.yaml"
+examples_file: "MT4-03.examples.yaml"
+quality_level: 3
+provenance: "expert-curated"
+sync_checked: true
+teaching:
+  sequence:
+    - "Langkah 1: Pengenalan kepada Pernyataan dan Nilai Kebenaran (SP 3.1.1)"
+    - "Langkah 2: Penafian Pernyataan menggunakan 'tidak' atau 'bukan' (SP 3.1.2)"
+    - "Langkah 3: Nilai kebenaran Pernyataan Majmuk menggunakan 'dan' atau 'atau' (SP 3.1.3)"
+    - "Langkah 4: Membina Implikasi: 'Jika p, maka q' dan 'p jika dan hanya jika q' (SP 3.1.4)"
+    - "Langkah 5: Menganalisis Akas, Songsangan, dan Kontrapositif (SP 3.1.5)"
+    - "Langkah 6: Menafikan kebenaran melalui Contoh Penyangkal (SP 3.1.6)"
+    - "Langkah 7: Membezakan Hujah Deduktif lwn Hujah Induktif (SP 3.2.1)"
+    - "Langkah 8: Menilai Keesahan dan Kemunasabahan Hujah Deduktif (SP 3.2.2)"
+    - "Langkah 9: Membentuk Hujah Deduktif yang Sah (SP 3.2.3)"
+    - "Langkah 10: Menilai Kekuatan dan Keyakinan Hujah Induktif (SP 3.2.4)"
+    - "Langkah 11: Membentuk Generalisasi Induktif yang Kuat (SP 3.2.5)"
+    - "Langkah 12: Penyelesaian Masalah Kompleks dan Fikrah Matematik (SP 3.2.6)"
+  common_misconceptions:
+    - misconception: "Menganggap semua ayat dalam perbualan harian adalah pernyataan matematik."
+      remediation: "Jelaskan bahawa pernyataan matematik mestilah mempunyai nilai kebenaran yang pasti (Benar atau Palsu)."
+    - misconception: "Keliru antara implikasi yang benar dengan hujah yang sah."
+      remediation: "Gunakan templat Bentuk I, II, dan III untuk menunjukkan bahawa keesahan bergantung kepada struktur, bukan sekadar kebenaran premis."
+    - misconception: "Beranggapan 'atau' dalam logik adalah eksklusif (pilih satu sahaja, tetapi bukan kedua-duanya)."
+      remediation: "Ajarkan secara eksplisit bahawa 'p atau q' adalah benar jika salah satu benar, atau kedua-duanya benar."
+  engagement_hooks:
+    - "Gunakan teka-teki detektif gaya 'Whodunnit' untuk memperkenalkan konsep premis dan kesimpulan."
+    - "Kaitkan operator logik 'DAN'/'ATAU' dengan penapis carian komputer atau pintu logik dalam permainan video."
+    - "Analisis iklan dunia sebenar atau tajuk berita untuk mencari falasi logik dan bina contoh penyangkal."

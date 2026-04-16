@@ -1,36 +1,57 @@
 topic_id: MT4-03
-provenance: ai-generated
-description: "Worked examples for PENAAKULAN LOGIK"
+provenance: expert-curated
+description: "Scaffolded worked examples for Logical Reasoning (Penaakulan Logik) covering statements, implications, and arguments."
 worked_examples:
   - id: WE-01
-    topic: "Maksud Pernyataan dan Nilai Kebenaran"
+    topic: "Statements and Truth Values"
     difficulty: easy
-    real_world_analogy: "Memeriksa sama ada lampu isyarat merah, kuning, atau hijau sebelum melintas jalan."
-    misconception_alert: "Pelajar sering keliru antara pernyataan yang benar dan salah apabila tidak mempertimbangkan konteks sepenuhnya."
-    scenario: "Tentukan nilai kebenaran pernyataan: 'Semua pelajar di dalam kelas memakai baju biru.'"
+    learning_objective: 3.1.1
+    real_world_analogy: "Think of a light switch. It can only be 'ON' or 'OFF' at any given time. A mathematical statement is just like that—it must be either 'True' or 'False', never both or neither."
+    misconception_alert: "Students often think that questions (Is it raining?) or commands (Close the door!) are statements. Remind them: If you cannot give it a 'True' or 'False' label, it is NOT a statement."
+    scenario: "Determine whether the following sentence is a statement. If it is, determine its truth value: 'A pentagon has five sides.'"
     working: |
-      Step 1: Periksa setiap pelajar dalam kelas untuk melihat warna baju mereka.
-      Step 2: Jika terdapat walau seorang pelajar yang tidak memakai baju biru, maka pernyataan itu adalah salah.
-      Step 3: Jika semua pelajar memakai baju biru, maka pernyataan itu adalah benar. Jawapan: Nilai kebenaran adalah salah jika ada pelajar tidak memakai baju biru.
+      1. Check if the sentence is a complete thought that can be declared true or false.
+      2. The sentence 'A pentagon has five sides' is a factual declaration.
+      3. Therefore, it is a statement.
+      4. Based on the definition of a pentagon in geometry, it indeed has 5 sides.
+      5. Answer: The sentence is a statement with a **True** truth value.
+    tp_level: 2
 
   - id: WE-02
-    topic: "Pernyataan Implikasi dan Songsangan"
+    topic: "Converse, Inverse, and Contrapositive"
     difficulty: medium
-    real_world_analogy: "Jika kita menanam benih, maka pokok akan tumbuh, tetapi ini tidak bermakna jika pokok tumbuh, kita pasti menanam benih."
-    misconception_alert: "Pelajar sering salah faham bahawa implikasi songsangan adalah sama dengan implikasi asal."
-    scenario: "Jika hujan, jalan akan basah. Bina pernyataan songsangan dan tentukan nilai kebenaran."
+    learning_objective: 3.1.5
+    real_world_analogy: "Think of a 'One-Way Street'. If you go 'If it rains (p), then the road is wet (q)', that's the statement. But you cannot simply reverse it and say 'If the road is wet, it must have rained' (it could be a water truck!). Reversing or negating changes the logic path."
+    misconception_alert: "Students often assume that the Converse always has the same truth value as the original Statement. Use the 'Sprinkler/Water Truck' example to show that the Converse can be False even if the Statement is True."
+    scenario: "Given the implication 'If $x$ is a multiple of 4, then $x$ is an even number', construct its **Contrapositive** and determine its truth value."
     working: |
-      Step 1: Pernyataan asal: Jika hujan, maka jalan akan basah.
-      Step 2: Pernyataan songsangan: Jika jalan basah, maka hujan.
-      Step 3: Tentukan nilai kebenaran pernyataan songsangan dengan memeriksa situasi lain seperti penyiraman air ke jalan. Jawapan: Songsangan adalah tidak semestinya benar kerana jalan boleh basah tanpa hujan.
+      1. Identify the Antecedent ($p$): $x$ is a multiple of 4.
+      2. Identify the Consequent ($q$): $x$ is an even number.
+      3. The formula for Contrapositive is 'If $\sim q$, then $\sim p$'.
+      4. Negate $q$: $x$ is not an even number (or $x$ is an odd number).
+      5. Negate $p$: $x$ is not a multiple of 4.
+      6. Combine: If $x$ is not an even number, then $x$ is not a multiple of 4.
+      7. Truth Value: All multiples of 4 are even. If a number is odd ($\sim q$), it definitely cannot be a multiple of 4 ($\sim p$).
+      8. Answer: The Contrapositive is **True**.
+    tp_level: 4
 
   - id: WE-03
-    topic: "Hujah Deduktif dan Induktif"
+    topic: "Validity and Soundness of Deductive Arguments"
     difficulty: hard
-    real_world_analogy: "Menggunakan bukti DNA untuk menentukan sama ada seseorang adalah suspek dalam kes jenayah adalah seperti hujah deduktif."
-    misconception_alert: "Pelajar kadang-kadang menyamakan hujah deduktif dengan induktif tanpa mempertimbangkan struktur dan bukti yang terlibat."
-    scenario: "Bina hujah deduktif untuk menentukan sama ada seorang pelajar layak mendapat anugerah berdasarkan kriteria tertentu."
+    learning_objective: 3.2.2
+    real_world_analogy: "Think of a recipe. 'Validity' is following the steps correctly (the structure). 'Soundness' is having fresh, real ingredients (the truth). You can follow a recipe for 'Mud Pie' perfectly (Valid), but it's still not edible (Unsound) because mud isn't food!"
+    misconception_alert: "Students often confuse 'True' with 'Valid'. An argument can have a true conclusion but be 'Invalid' because it doesn't follow Form I, II, or III. Always check the structure first!"
+    scenario: |
+      Analyze the following argument for validity and soundness:
+      Premise 1: All multiples of 6 are multiples of 3.
+      Premise 2: 18 is a multiple of 3.
+      Conclusion: 18 is a multiple of 6.
     working: |
-      Step 1: Kenal pasti kriteria: Pelajar mesti mendapat A dalam semua subjek dan terlibat dalam aktiviti kokurikulum.
-      Step 2: Kumpulkan maklumat: Semak rekod akademik dan rekod kokurikulum pelajar tersebut.
-      Step 3: Analisis maklumat: Jika pelajar memenuhi kedua-dua kriteria, maka pelajar layak untuk anugerah tersebut. Jika tidak, pelajar tidak layak. Jawapan: Hujah deduktif menunjukkan pelajar layak jika dan hanya jika memenuhi semua kriteria.
+      1. Check the structure against the three standard forms of deductive arguments.
+      2. This attempt follows Form I: 'All $A$ are $B$. $C$ is $B$. Therefore, $C$ is $A$'.
+      3. Compare with official Form I: 'All $A$ are $B$. $C$ is $A$. Therefore, $C$ is $B$'.
+      4. Notice the error: Premise 2 says $C$ is $B$ (result), but it should say $C$ is $A$ (the category). This is a 'structural fallacy'.
+      5. Therefore, the argument is **Not Valid**.
+      6. Since an argument must be Valid to be Sound, this argument is also **Not Sound**, even though the conclusion '18 is a multiple of 6' is a true fact in reality.
+      7. Answer: The argument is **Invalid and Unsound**.
+    tp_level: 5

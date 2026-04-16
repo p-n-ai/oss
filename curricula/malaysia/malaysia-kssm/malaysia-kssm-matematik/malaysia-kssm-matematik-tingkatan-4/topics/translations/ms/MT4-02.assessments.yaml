@@ -1,0 +1,172 @@
+topic_id: MT4-02
+provenance: curriculum-aligned-master
+questions:
+  - id: Q1
+    text: "Antara nombor berikut, yang manakah BUKAN perwakilan yang sah dalam Asas 6?"
+    difficulty: easy
+    learning_objective: "2.1.1"
+    tp_level: 1
+    kbat: false
+    type: multiple_choice
+    answer:
+      value: "461"
+      working: |
+        Langkah 1: Kenal pasti asas ($n=6$).
+        Langkah 2: Ingat 'Peraturan Bouncer'—digit mestilah kurang daripada asas ($0$ hingga $n-1$).
+        Langkah 3: Semak digit dalam 461. Digit '6' adalah sama dengan asas, maka ia tidak dibenarkan.
+      distractors:
+        - value: "245"
+          feedback: "Ini sah. Semua digit (2, 4, 5) adalah kurang daripada 6."
+        - value: "332"
+          feedback: "Ini sah. Semua digit (3, 3, 2) adalah kurang daripada 6."
+        - value: "123"
+          feedback: "Ini sah. Semua digit (1, 2, 3) adalah kurang daripada 6."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Dalam mana-mana asas $n$, bolehkah sesuatu digit itu sama atau lebih besar daripada $n$? Semak digit dalam setiap pilihan dengan teliti!"
+
+  - id: Q2
+    text: "Nyatakan nilai tempat bagi digit yang bergaris dalam $5\underline{0}37_9$."
+    difficulty: medium
+    learning_objective: "2.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "81"
+      working: |
+        Langkah 1: Kenal pasti kedudukan digit '0' yang bergaris dari arah kanan (bermula dengan 0).
+        Kedudukan: $7 \rightarrow 0$, $3 \rightarrow 1$, $0 \rightarrow 2$, $5 \rightarrow 3$.
+        Langkah 2: Gunakan formula nilai tempat $a^n$, di mana $a=9$ dan $n=2$.
+        Langkah 3: Hitung $9^2 = 81$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti kuasa/indeks bagi kedudukan digit dengan betul."
+      - marks: 1
+        criteria: "Menghitung nilai tempat berangka dengan betul."
+    hints:
+      - level: 1
+        text: "Kira kedudukan bermula dari kanan sebagai $9^0, 9^1, 9^2...$ dan seterusnya. Pada kuasa manakah digit yang bergaris itu berada?"
+
+  - id: Q3
+    text: "Tukarkan nombor perpuluhan $563_{10}$ kepada nombor dalam Asas 5."
+    difficulty: medium
+    learning_objective: "2.1.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "4223_5"
+      working: |
+        Langkah 1: Gunakan kaedah pembahagian berulang dengan asas sasaran (5).
+        $563 \div 5 = 112$ baki 3
+        $112 \div 5 = 22$ baki 2
+        $22 \div 5 = 4$ baki 2
+        $4 \div 5 = 0$ baki 4
+        Langkah 2: Baca baki dari bawah ke atas.
+        Hasil: $4223_5$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Melakukan pembahagian berulang dengan betul untuk sekurang-kurangnya dua langkah."
+      - marks: 1
+        criteria: "Menyenaraikan semua baki dengan betul."
+      - marks: 1
+        criteria: "Jawapan akhir ditulis mengikut urutan yang betul (bawah ke atas)."
+    hints:
+      - level: 1
+        text: "Bahagikan 563 dengan 5 and catat baki yang ada. Teruskan sehingga anda mendapat hasil bahagi sifar!"
+      - level: 2
+        text: "Ingat peraturan 'Lif Terbalik'—baca baki anda dari yang terakhir ditemui sehingga yang pertama!"
+
+  - id: Q4
+    text: "Hitungkan jumlah $673_8 + 175_8$ dalam Asas 8."
+    difficulty: medium
+    learning_objective: "2.1.3"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "1070_8"
+      working: |
+        Langkah 1: Susun digit dalam bentuk lazim.
+        Langkah 2: Tambah $3 + 5 = 8$. Dalam Asas 8, $8$ ialah $10_8$. Tulis 0, bawa 1 ke sebelah.
+        Langkah 3: Tambah $7 + 7 + 1 (bawa) = 15$. Dalam Asas 8, $15$ ialah $17_8$ (kerana $15 - 8 = 7$). Tulis 7, bawa 1 ke sebelah.
+        Langkah 4: Tambah $6 + 1 + 1 (bawa) = 8$. Dalam Asas 8, $8$ ialah $10_8$. Tulis 0, bawa 1 ke sebelah.
+        Hasil: $1070_8$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Penambahan dan proses 'bawa ke sebelah' yang betul untuk lajur pertama."
+      - marks: 2
+        criteria: "Penukaran hasil tambah $\ge 8$ kepada nilai Asas 8 dengan betul."
+      - marks: 1
+        criteria: "Hasil tambah akhir adalah betul."
+    hints:
+      - level: 1
+        text: "Gunakan Bentuk Lazim. Jika hasil tambah anda adalah 8 atau lebih, anda mesti 'membungkus semula' nilai tersebut menjadi kumpulan 8 untuk dibawa ke lajur sebelah!"
+
+  - id: Q5
+    text: "Satu kajian menunjukkan terdapat 200 orang murid. 25% menaiki bas dan 40% menaiki kereta. Hitungkan jumlah murid yang menaiki bas atau kereta, dan nyatakan jawapan dalam Asas 4."
+    difficulty: hard
+    learning_objective: "2.1.4"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: "2002_4"
+      working: |
+        Langkah 1: Cari jumlah murid dalam Asas 10. $25\% + 40\% = 65\%$.
+        $0.65 \times 200 = 130$ murid.
+        Langkah 2: Tukar 130 kepada Asas 4 menggunakan pembahagian berulang.
+        $130 \div 4 = 32$ baki 2
+        $32 \div 4 = 8$ baki 0
+        $8 \div 4 = 2$ baki 0
+        $2 \div 4 = 0$ baki 2
+        Langkah 3: Baca dari bawah ke atas: $2002_4$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menghitung jumlah peratusan atau bilangan murid dalam Asas 10 dengan betul."
+      - marks: 2
+        criteria: "Proses penukaran ke Asas 4 yang betul."
+      - marks: 1
+        criteria: "Jawapan akhir dalam Asas 4 adalah betul."
+    hints:
+      - level: 1
+        text: "Pertama, cari berapa ramai murid yang ada dalam Asas 10 yang biasa kita guna. Sebaik sahaja anda dapat nombor 'sebenar' itu, barulah mulakan penukaran ke Asas 4."
+
+  - id: Q6
+    text: "Purata bilangan pelawat ke Zoo Negara sehari pada bulan Januari ialah $20202_5$. Jika terdapat 31 hari dalam bulan Januari, hitungkan jumlah pelawat untuk bulan tersebut dalam Asas 10. Kemudian, cadangkan bagaimana nilai ini diwakili dalam Asas 8 untuk sistem log komputer."
+    difficulty: hard
+    learning_objective: "2.1.4"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Jumlah: 40362; Asas 8: 116652_8"
+      working: |
+        Langkah 1: Tukar purata $20202_5$ kepada Asas 10.
+        $2(5^4) + 0(5^3) + 2(5^2) + 0(5^1) + 2(5^0) = 1250 + 0 + 50 + 0 + 2 = 1302_{10}$.
+        Langkah 2: Darab dengan 31 hari. $1302 \times 31 = 40362_{10}$.
+        Langkah 3: Tukar $40362_{10}$ kepada Asas 8 menggunakan pembahagian berulang.
+        $40362 \div 8 = 5045$ baki 2
+        $5045 \div 8 = 630$ baki 5
+        $630 \div 8 = 78$ baki 6
+        $78 \div 8 = 9$ baki 6
+        $9 \div 8 = 1$ baki 1
+        $1 \div 8 = 0$ baki 1
+        Hasil: $116652_8$.
+    marks: 6
+    rubric:
+      - marks: 2
+        criteria: "Penukaran $20202_5$ kepada Asas 10 dengan betul."
+      - marks: 2
+        criteria: "Operasi pendaraban yang logik untuk jumlah bulanan."
+      - marks: 2
+        criteria: "Penukaran jumlah akhir kepada Asas 8 yang lengkap dan betul."
+    hints:
+      - level: 1
+        text: "Ini soalan besar! Pecahkan langkahnya: Purata (Asas 5) $\rightarrow$ Purata (Asas 10) $\rightarrow$ Jumlah (Asas 10) $\rightarrow$ Log Komputer (Asas 8)."

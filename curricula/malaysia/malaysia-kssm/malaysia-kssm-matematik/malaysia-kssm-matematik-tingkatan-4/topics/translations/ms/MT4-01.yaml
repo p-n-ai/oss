@@ -1,0 +1,85 @@
+id: MT4-01
+official_ref: "1.0"
+name: "Fungsi dan Persamaan Kuadratik dalam Satu Pemboleh Ubah"
+subject_id: malaysia-kssm-matematik-tingkatan-4
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+quality_level: 3
+content_standards:
+  - id: "1.1"
+    text: "Fungsi dan Persamaan Kuadratik dalam Satu Pemboleh Ubah"
+learning_objectives:
+  - id: "1.1.1"
+    text: "Mengenal pasti dan menerangkan ciri-ciri ungkapan kuadratik dalam satu pemboleh ubah."
+    bloom: understand
+    tp_level: 1
+  - id: "1.1.2"
+    text: "Mengenal fungsi kuadratik sebagai hubungan banyak kepada satu, dan seterusnya memerihalkan ciri-ciri fungsi kuadratik."
+    bloom: understand
+    tp_level: 2
+  - id: "1.1.3"
+    text: "Menyiasat dan membuat generalisasi tentang kesan perubahan nilai a, b dan c ke atas graf fungsi kuadratik, f(x)=ax²+bx+c."
+    bloom: analyze
+    tp_level: 3
+  - id: "1.1.4"
+    text: "Membentuk fungsi kuadratik berdasarkan suatu situasi dan seterusnya menghubungkaitkan dengan persamaan kuadratik."
+    bloom: apply
+    tp_level: 4
+  - id: "1.1.5"
+    text: "Menerangkan maksud punca suatu persamaan kuadratik."
+    bloom: understand
+    tp_level: 2
+  - id: "1.1.6"
+    text: "Menentukan punca suatu persamaan kuadratik dengan kaedah pemfaktoran."
+    bloom: apply
+    tp_level: 3
+  - id: "1.1.7"
+    text: "Melakar graf fungsi kuadratik."
+    bloom: apply
+    tp_level: 3
+  - id: "1.1.8"
+    text: "Menyelesaikan masalah yang melibatkan persamaan kuadratik."
+    bloom: apply
+    tp_level: 5
+prerequisites:
+  required:
+    - id: "MT1-03"
+      name: "Ungkapan Algebra"
+    - id: "MT1-06"
+      name: "Persamaan Linear"
+bloom_levels:
+  - memahami
+  - mengaplikasi
+  - menganalisis
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+ai_teaching_notes: "MT4-01.teaching.md"
+provenance: curriculum-aligned
+generated_at: "2026-04-16T10:24:59Z"
+teaching:
+  sequence:
+    - "Langkah 1: Pengenalan kepada ungkapan kuadratik dan mengenal pasti pekali a, b, dan c (Buku Teks ms. 2-5)."
+    - "Langkah 2: Mendefinisikan fungsi kuadratik dan hubungan banyak kepada satu menggunakan ujian garis mencancang (Buku Teks ms. 5-10)."
+    - "Langkah 3: Menganalisis kesan perubahan nilai a (bentuk), b (paksi simetri), dan c (pintasan-y) melalui simulasi (Buku Teks ms. 11-14)."
+    - "Langkah 4: Membentuk model situasi dunia sebenar ke dalam bentuk kuadratik (Buku Teks ms. 15)."
+    - "Langkah 5: Memvisualisasikan dan menyelesaikan punca melalui kaedah graf dan pemfaktoran (Buku Teks ms. 16-23)."
+    - "Langkah 6: Menguasai lakaran graf dan penyelesaian masalah kompleks (Buku Teks ms. 23-29)."
+common_misconceptions:
+  - misconception: "Keliru antara ungkapan kuadratik dengan linear kerana kehadiran 'x'."
+    remediation: "Tekankan bahawa fungsi kuadratik MESTI mempunyai kuasa 2 sebagai kuasa tertinggi."
+  - misconception: "Menganggap nilai 'c' mengubah lebar atau bentuk parabola."
+    remediation: "Tunjukkan bahawa 'c' hanya menggerakkan graf secara menegak (pintasan-y)."
+  - misconception: "Salah mengenal pasti paksi simetri sebagai punca persamaan."
+    remediation: "Jelaskan bahawa paksi simetri adalah garis tengah x = -b/2a, manakala punca adalah pintasan-x."
+engagement_hooks:
+  - "Mengaitkan lengkung parabola dengan trajektori bulu tangkis atau sepakan percuma bola sepak."
+  - "Membincangkan matematik seni bina di sebalik struktur jambatan melengkung seperti di Putrajaya."
+examples_file: "MT4-01.examples.yaml"
+assessments_file: "MT4-01.assessments.yaml"

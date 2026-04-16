@@ -1,45 +1,75 @@
 topic_id: MT4-02
-provenance: ai-generated
-description: "Worked examples for Asas Nombor"
+provenance: curriculum-aligned-master
+description: "Worked examples for Number Bases (Asas Nombor) following KSSM Form 4 syllabus."
 worked_examples:
   - id: WE-01
-    topic: "Understanding Number Bases"
+    topic: "Representing Numbers in Various Bases"
     difficulty: easy
-    real_world_analogy: "Think of number bases like different languages. Just as the word for 'one' is different in English and Malay (one and satu), a number can look different in base 10 and base 2."
-    misconception_alert: "Students often think that the digits in bases greater than 10 work like base 10, but they need to understand that each base has its own set of symbols and rules."
-    scenario: "Convert the decimal number 18 into base 2."
+    learning_objective: "2.1.1"
+    real_world_analogy: "Think of number bases like packaging eggs. In Base 10, we pack in boxes of 10. In Base 8, we 're-pack' those same eggs into boxes of 8. The number looks different, but the total eggs remain the same!"
+    misconception_alert: "The 'Secret Code' Trap! Students often think $12_8$ means 'twelve.' Remind them to say 'one-two base eight' because it represents one group of eight and two units, not a ten and two units."
+    scenario: "Represent the decimal number $11_{10}$ as a number in Base 8 using the collection process."
     working: |
-      Step 1: Divide the number 18 by 2. The quotient is 9 and the remainder is 0.
-      Step 2: Divide 9 by 2. The quotient is 4 and the remainder is 1.
-      Step 3: Divide 4 by 2. The quotient is 2 and the remainder is 0.
-      Step 4: Divide 2 by 2. The quotient is 1 and the remainder is 0.
-      Step 5: Divide 1 by 2. The quotient is 0 and the remainder is 1.
-      Step 6: Write down the remainders in reverse order: 10010. Therefore, 18 in base 10 is 10010 in base 2.
+      Step 1: Identify the total units in Base 10: 11 units.
+      Step 2: Determine the groups for Base 8. Since we are in Base 8, one group is 8.
+      Step 3: Calculate the number of groups of 8: $11 \div 8 = 1$ group.
+      Step 4: Calculate the remainder (leftover units): $11 - 8 = 3$ units.
+      Step 5: Place the group count in the $8^1$ place and the remainder in the $8^0$ place.
+      Step 6: Result: $1 (group) \text{ and } 3 (units) = 13_8$.
+      Final Answer: $11_{10} = 13_8$
 
   - id: WE-02
-    topic: "Operations in Different Bases"
+    topic: "Converting Between Bases (Bridge Method)"
     difficulty: medium
-    real_world_analogy: "Imagine you are adding time in hours and minutes. You have to remember that 60 minutes make an hour, just like in base 5, after reaching 4, you carry over to the next digit."
-    misconception_alert: "A common mistake is applying base 10 rules to other bases, like carrying over after 9, which doesn't apply in bases like 5 or 8."
-    scenario: "Add the numbers 243 (base 5) and 134 (base 5)."
+    learning_objective: "2.1.2"
+    real_world_analogy: "Imagine a 'Currency Exchange' at KLIA. You can't change Base 6 directly to Base 9. You must first change your Base 6 'money' into the common currency (Base 10), then exchange that Base 10 into Base 9."
+    misconception_alert: "The 'Reverse Elevator' Error! When performing repeated division to find the new base, students often read remainders from top to bottom. You MUST read from the bottom (the last remainder) to the top!"
+    scenario: "Convert $253_6$ to a number in Base 9."
     working: |
-      Step 1: Align the numbers by their place values:
-              243
-            + 134
-      Step 2: Add the rightmost digits: 3 + 4 = 7. In base 5, 7 is written as 12 (1 carry).
-      Step 3: Add the next column: 4 + 3 = 7. Add the carry 1: 7 + 1 = 8, which is 13 in base 5 (1 carry).
-      Step 4: Add the leftmost column: 2 + 1 = 3. Add the carry 1: 3 + 1 = 4.
-      Step 5: The result is 413 in base 5.
+      Step 1: Convert $253_6$ to Base 10 using the expansion method.
+      $253_6 = (2 \times 6^2) + (5 \times 6^1) + (3 \times 6^0)$
+      Step 2: Calculate each part: $2 \times 36 = 72$; $5 \times 6 = 30$; $3 \times 1 = 3$.
+      Step 3: Sum the values: $72 + 30 + 3 = 105_{10}$.
+      Step 4: Convert $105_{10}$ to Base 9 using repeated division.
+      $105 \div 9 = 11 \text{ remainder } 6$
+      $11 \div 9 = 1 \text{ remainder } 2$
+      $1 \div 9 = 0 \text{ remainder } 1$
+      Step 5: Read the remainders from bottom to top: $1, 2, 6$.
+      Final Answer: $253_6 = 126_9$
 
   - id: WE-03
+    topic: "Addition in Various Bases"
+    difficulty: medium
+    learning_objective: "2.1.3"
+    real_world_analogy: "It's like counting hours. If you add 50 minutes and 20 minutes, you don't get 70 minutes; you get 1 hour (a group of 60) and 10 minutes. In Base 8, as soon as you hit 8, you 'carry over' one group to the next column!"
+    misconception_alert: "The 'Decimal Brain' Reflex! Students often write '8' or '9' in an answer for Base 8. Remind them: 'If you are in the Base 8 club, digits 8 and 9 are BANNED!'"
+    scenario: "Calculate the sum of $673_8 + 175_8$ using the Vertical Form."
+    working: |
+      Step 1: Align the numbers vertically:
+        $673_8$
+      + $175_8$
+      ----------
+      Step 2: Add the $8^0$ column: $3 + 5 = 8_{10}$. 
+      Step 3: Convert $8_{10}$ to Base 8: $8 = 1 \times 8 + 0$, which is $10_8$. Write $0$, carry $1$.
+      Step 4: Add the $8^1$ column: $7 + 7 + 1 (\text{carry}) = 15_{10}$.
+      Step 5: Convert $15_{10}$ to Base 8: $15 = 1 \times 8 + 7$, which is $17_8$. Write $7$, carry $1$.
+      Step 6: Add the $8^2$ column: $6 + 1 + 1 (\text{carry}) = 8_{10}$.
+      Step 7: Convert $8_{10}$ to Base 8: $8 = 1 \times 8 + 0$, which is $10_8$. Write $0$, carry $1$.
+      Final Answer: $1070_8$
+
+  - id: WE-04
     topic: "Problem Solving with Number Bases"
     difficulty: hard
-    real_world_analogy: "Consider sending a coded message where each letter represents a number in a different base system. Decoding it correctly is crucial for understanding."
-    misconception_alert: "When dealing with complex multi-step base conversions, students often forget to verify their steps, leading to errors in the final result."
-    scenario: "A computer system stores data in base 16. Convert the hexadecimal number 1A3 into decimal and then subtract 100 (base 10) from it."
+    learning_objective: "2.1.4"
+    real_world_analogy: "A data analyst at Zoo Negara needs to report visitor counts in different system formats. It's about translating real-world data into the 'language' the computer system understands."
+    misconception_alert: "The 'Skipped Conversion' Trap! Students often try to perform percentages or arithmetic directly on different bases without converting to Base 10 first. Always find the 'real' decimal quantity first before moving to a new base!"
+    scenario: "The average number of visitors to Zoo Negara per day in January is $20202_5$. Calculate the total number of visitors for the 31 days of January in Base 10."
     working: |
-      Step 1: Convert 1A3 (base 16) to decimal. Break it down: 1 * 16^2 + 10 * 16^1 + 3 * 16^0.
-      Step 2: Calculate each term: 1 * 256 = 256, 10 * 16 = 160, and 3 * 1 = 3.
-      Step 3: Add them up: 256 + 160 + 3 = 419 in decimal.
-      Step 4: Subtract 100 from 419: 419 - 100 = 319.
-      Step 5: The final answer in decimal is 319.
+      Step 1: Understand the problem. We need (Average in Base 5) $\times$ (31 days) in Base 10.
+      Step 2: Convert the daily average $20202_5$ to Base 10 using expansion.
+      $2(5^4) + 0(5^3) + 2(5^2) + 0(5^1) + 2(5^0)$
+      Step 3: Calculate the powers: $5^4=625, 5^3=125, 5^2=25, 5^1=5, 5^0=1$.
+      Step 4: Multiply by the digits: $2(625) + 0 + 2(25) + 0 + 2(1) = 1250 + 50 + 2 = 1302_{10}$.
+      Step 5: Multiply the daily Base 10 average by the number of days: $1302 \times 31$.
+      Step 6: $1302 \times 31 = 40362$.
+      Final Answer: Total visitors = $40362$

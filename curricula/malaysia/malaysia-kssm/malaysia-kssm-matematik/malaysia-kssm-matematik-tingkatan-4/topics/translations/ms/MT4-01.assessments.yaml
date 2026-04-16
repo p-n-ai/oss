@@ -1,0 +1,219 @@
+topic_id: MT4-01
+provenance: curriculum-aligned
+questions:
+  - id: Q1
+    text: "Tentukan sama ada ungkapan $3x^2 - 5x + 2$ ialah ungkapan kuadratik dalam satu pemboleh ubah. Jelaskan alasan anda."
+    difficulty: easy
+    learning_objective: "1.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: free_text
+      value: "Ya, ia adalah ungkapan kuadratik kerana mempunyai satu pemboleh ubah x dan kuasa tertinggi pemboleh ubah tersebut ialah 2."
+      working: |
+        Langkah 1: Kenal pasti pemboleh ubah. Hanya terdapat 'x'.
+        Langkah 2: Kenal pasti kuasa bagi 'x'. Kuasanya ialah 2 dan 1.
+        Langkah 3: Semak kuasa tertinggi. Kuasa tertinggi ialah 2.
+        Kesimpulan: Memandangkan ia mengikut bentuk $ax^2 + bx + c$, ia adalah ungkapan kuadratik.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti ungkapan sebagai kuadratik dengan betul."
+      - marks: 1
+        criteria: "Penjelasan betul merujuk kepada satu pemboleh ubah dan kuasa tertinggi 2."
+    hints:
+      - level: 1
+        text: "Ingat kembali bentuk am $ax^2 + bx + c$. Apakah kuasa tertinggi yang dibenarkan?"
+
+  - id: Q2
+    text: "Antara yang berikut, yang manakah memerihalkan jenis hubungan bagi suatu fungsi kuadratik $f(x) = ax^2 + bx + c$?"
+    difficulty: medium
+    learning_objective: "1.1.2"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Hubungan banyak kepada satu"
+      working: |
+        Fungsi kuadratik mempunyai bentuk parabola. Bagi dua nilai x yang berbeza, anda boleh mendapat nilai f(x) (koordinat-y) yang sama.
+      distractors:
+        - value: "Hubungan satu kepada satu"
+          feedback: "Dalam hubungan satu kepada satu, setiap x mempunyai y yang unik. Dalam parabola (cth: $x^2$), kedua-dua $x=2$ and $x=-2$ menghasilkan $y=4$."
+        - value: "Hubungan satu kepada banyak"
+          feedback: "Ini bermakna satu nilai x mempunyai banyak nilai y, yang mana ia gagal dalam ujian garis mencancang untuk fungsi."
+        - value: "Hubungan banyak kepada banyak"
+          feedback: "Ini adalah hubungan umum tetapi secara khusus, fungsi kuadratik adalah banyak kepada satu kerana ia melepasi ujian garis mencancang."
+    marks: 1
+
+  - id: Q3
+    text: "Benar atau Palsu: Dalam fungsi $f(x) = ax^2 + bx + c$, jika nilai $a$ meningkat daripada 1 ke 5, bukaan parabola akan menjadi semakin sempit."
+    difficulty: medium
+    learning_objective: "1.1.3"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Benar"
+      working: |
+        Apabila nilai mutlak 'a' meningkat, nilai 'y' bertambah lebih cepat bagi nilai 'x' yang sama, menyebabkan graf meregang secara menegak dan kelihatan lebih sempit.
+    marks: 1
+    hints:
+      - level: 1
+        text: "Fikirkan tentang peraturan 'Perubahan Bentuk'. Adakah 'a' yang lebih besar membuatkan graf menjadi kurus atau gemuk?"
+
+  - id: Q4
+    text: "Sebidang tanah berbentuk segi empat tepat mempunyai panjang $(x + 20)$ m and lebar $(x + 5)$ m. Jika luas tanah itu ialah $250$ m², bentukkan satu persamaan kuadratik dalam bentuk am."
+    difficulty: medium
+    learning_objective: "1.1.4"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: "x^2 + 25x - 150 = 0"
+      working: |
+        Langkah 1: Luas = Panjang × Lebar
+        Langkah 2: $(x + 20)(x + 5) = 250$
+        Langkah 3: Kembangkan kurungan: $x^2 + 5x + 20x + 100 = 250$
+        Langkah 4: Kumpulkan sebutan serupa: $x^2 + 25x + 100 = 250$
+        Langkah 5: Samakan dengan sifar: $x^2 + 25x + 100 - 250 = 0$
+        Hasil: $x^2 + 25x - 150 = 0$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyusun pendaraban luas dengan betul."
+      - marks: 1
+        criteria: "Pengembangan kurungan yang betul."
+      - marks: 1
+        criteria: "Persamaan akhir dalam bentuk am $ax^2 + bx + c = 0$."
+    hints:
+      - level: 1
+        text: "Mulakan dengan Luas = Panjang × Lebar. Jangan lupa kembangkan $(x+a)(x+b)$ menggunakan kaedah 'salaman'."
+
+  - id: Q5
+    text: "Apakah maksud 'punca' bagi persamaan kuadratik $f(x) = 0$?"
+    difficulty: easy
+    learning_objective: "1.1.5"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Titik pintasan-x di mana graf memotong paksi-x."
+      working: |
+        Punca ialah nilai-nilai x yang memuaskan persamaan apabila y (atau f(x)) adalah sifar. Secara grafik, ini adalah tempat di mana lengkung menyentuh paksi-x.
+      distractors:
+        - value: "Pintasan-y bagi graf tersebut."
+          feedback: "Pintasan-y ialah nilai 'c' apabila $x=0$. Punca ialah apabila $y=0$."
+        - value: "Titik tertinggi atau terendah bagi parabola."
+          feedback: "Itu adalah titik pusingan atau mercu, bukannya punca."
+    marks: 1
+
+  - id: Q6
+    text: "Selesaikan persamaan kuadratik $x^2 - 3x - 10 = 0$ menggunakan kaedah pemfaktoran."
+    difficulty: medium
+    learning_objective: "1.1.6"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "x = 5, x = -2"
+      working: |
+        Langkah 1: Cari dua nombor yang hasil darabnya -10 dan hasil tambahnya -3.
+        Langkah 2: Nombor-nombor tersebut ialah -5 and 2.
+        Langkah 3: Tulis faktor: $(x - 5)(x + 2) = 0$
+        Langkah 4: Selesaikan untuk x: $x - 5 = 0$ atau $x + 2 = 0$
+        Hasil: $x = 5, x = -2$
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti faktor yang betul (-5 dan 2)."
+      - marks: 1
+        criteria: "Pemfaktoran yang betul $(x-5)(x+2)$."
+      - marks: 1
+        criteria: "Punca akhir yang betul."
+    hints:
+      - level: 1
+        text: "Fikirkan dua nombor. Darab = -10. Tambah = -3. Apakah nombor tersebut?"
+
+  - id: Q7
+    text: "Tentukan koordinat titik pusingan bagi fungsi $f(x) = x^2 - 4x + 3$ dan nyatakan sama ada ia adalah titik maksimum atau titik minimum."
+    difficulty: hard
+    learning_objective: "1.1.7"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "(2, -1), Titik minimum"
+      working: |
+        Langkah 1: Semak nilai 'a'. $a = 1$. Oleh sebab $a > 0$, ia adalah titik minimum.
+        Langkah 2: Cari paksi simetri $x = -b / (2a)$. $x = -(-4) / (2(1)) = 4/2 = 2$.
+        Langkah 3: Gantikan $x=2$ ke dalam $f(x)$: $f(2) = (2)^2 - 4(2) + 3 = 4 - 8 + 3 = -1$.
+        Hasil: Titik ialah $(2, -1)$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti bentuk titik minimum dengan betul."
+      - marks: 2
+        criteria: "Pengiraan koordinat (2, -1) yang betul."
+
+  - id: Q8
+    text: "Joseph ingin membina rangka sebuah kotak berbentuk kuboid menggunakan rod kayu. Tingginya adalah 30 cm lebih daripada panjang tapaknya. Tapaknya adalah berbentuk segi empat sama dengan sisi $x$ cm. Jika jumlah luas permukaan ialah $4800$ cm², hitung nilai $x$."
+    difficulty: hard
+    learning_objective: "1.1.8"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "20"
+      working: |
+        Langkah 1: Dimensi: Tapak = $x$ kali $x$, Tinggi = $(x+30)$.
+        Langkah 2: Luas Permukaan $L = 2(\text{luas tapak}) + 4(\text{luas sisi})$
+        Langkah 3: $4800 = 2(x^2) + 4(x)(x+30)$
+        Langkah 4: $4800 = 2x^2 + 4x^2 + 120x \Rightarrow 6x^2 + 120x - 4800 = 0$
+        Langkah 5: Bahagi dengan 6: $x^2 + 20x - 800 = 0$
+        Langkah 6: Faktorkan: $(x+40)(x-20) = 0$
+        Langkah 7: $x = -40$ (tolak) atau $x = 20$.
+        Hasil: $x = 20$.
+    marks: 5
+    rubric:
+      - marks: 1
+        criteria: "Ungkapan jumlah luas permukaan yang betul."
+      - marks: 1
+        criteria: "Permudahan kepada bentuk am kuadratik yang betul."
+      - marks: 1
+        criteria: "Pemfaktoran yang betul."
+      - marks: 1
+        criteria: "Menyelesaikan nilai x dan menolak nilai negatif."
+      - marks: 1
+        criteria: "Jawapan akhir yang betul dengan unit."
+    hints:
+      - level: 1
+        text: "Kuboid mempunyai 6 muka. Kira luas tapak/atas yang berbentuk segi empat sama dan empat sisi yang berbentuk segi empat tepat, kemudian jumlahkan kesemuanya."
+
+  - id: Q9
+    text: "Persatuan Sejarah SMK Seri Jaya telah melukis dua buah mural berbentuk segi empat tepat. Mural A mempunyai dimensi $(3x+1)$ m dan $(x-3)$ m. Mural B mempunyai dimensi $(2x-1)$ m dan $(x-1)$ m. Jika beza luas antara kedua-dua buah mural tersebut ialah $10$ m², hitung perimeter bagi mural yang lebih kecil."
+    difficulty: hard
+    learning_objective: "1.1.8"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: exact
+      value: "38"
+      working: |
+        Langkah 1: Luas A = $(3x+1)(x-3) = 3x^2 - 8x - 3$
+        Langkah 2: Luas B = $(2x-1)(x-1) = 2x^2 - 3x + 1$
+        Langkah 3: Beza $(3x^2 - 8x - 3) - (2x^2 - 3x + 1) = 10$
+        Langkah 4: $x^2 - 5x - 4 = 10 \Rightarrow x^2 - 5x - 14 = 0$
+        Langkah 5: $(x-7)(x+2) = 0 \Rightarrow x = 7$
+        Langkah 6: Semak saiz mural. Mural B ialah $(2(7)-1)=13$ kali $(7-1)=6$. Mural A ialah $(3(7)+1)=22$ kali $(7-3)=4$.
+        Luas A = 88, Luas B = 78. Maka, B adalah lebih kecil.
+        Langkah 7: Perimeter B = $2(13+6) = 38$ m.
+    marks: 6
+    rubric:
+      - marks: 2
+        criteria: "Membentuk persamaan kuadratik daripada beza luas."
+      - marks: 2
+        criteria: "Menentukan nilai x yang positif."
+      - marks: 1
+        criteria: "Mengenal pasti mural yang lebih kecil."
+      - marks: 1
+        criteria: "Hitung perimeter akhir dengan betul."

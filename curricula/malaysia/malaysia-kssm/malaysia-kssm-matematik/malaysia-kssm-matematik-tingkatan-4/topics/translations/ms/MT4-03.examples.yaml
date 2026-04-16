@@ -1,0 +1,57 @@
+topic_id: MT4-03
+provenance: expert-curated
+description: "Contoh kerja berstruktur bagi Penaakulan Logik merangkumi pernyataan, implikasi, dan hujah."
+worked_examples:
+  - id: WE-01
+    topic: "Pernyataan dan Nilai Kebenaran"
+    difficulty: easy
+    learning_objective: 3.1.1
+    real_world_analogy: "Fikirkan tentang suis lampu. Ia hanya boleh berada dalam keadaan 'HIDUP' atau 'MATI' pada satu-satu masa. Pernyataan matematik adalah sama—ia mestilah sama ada 'Benar' atau 'Palsu', tidak boleh kedua-duanya atau bukan salah satu."
+    misconception_alert: "Pelajar sering menyangka soalan (Adakah hari ini hujan?) atau arahan (Tutup pintu itu!) adalah pernyataan. Ingat: Jika anda tidak boleh melabelkannya sebagai 'Benar' atau 'Palsu', ia BUKAN pernyataan."
+    scenario: "Tentukan sama ada ayat berikut ialah pernyataan atau bukan. Jika ya, tentukan nilai kebenarannya: 'Sebuah pentagon mempunyai lima sisi.'"
+    working: |
+      1. Semak sama ada ayat tersebut merupakan satu pemikiran lengkap yang boleh diisytiharkan benar atau palsu.
+      2. Ayat 'Sebuah pentagon mempunyai lima sisi' ialah satu pengisytiharan fakta.
+      3. Oleh itu, ia merupakan satu pernyataan.
+      4. Berdasarkan definisi pentagon dalam geometri, ia memang mempunyai 5 sisi.
+      5. Jawapan: Ayat ini ialah pernyataan dengan nilai kebenaran **Benar**.
+    tp_level: 2
+
+  - id: WE-02
+    topic: "Akas, Songsangan, dan Kontrapositif"
+    difficulty: medium
+    learning_objective: 3.1.5
+    real_world_analogy: "Fikirkan tentang 'Jalan Sehala'. Jika pernyataan asal ialah 'Jika hari hujan (p), maka jalan basah (q)'. Anda tidak boleh terus menterbalikkan jalan itu dan berkata 'Jika jalan basah, mestilah hari hujan' (mungkin ada lori air!). Menukar atau menafikan kedudukan mengubah laluan logik tersebut."
+    misconception_alert: "Pelajar sering menganggap bahawa Akas sentiasa mempunyai nilai kebenaran yang sama dengan Pernyataan asal. Gunakan contoh 'Lori Air' untuk menunjukkan Akas boleh jadi Palsu walaupun Pernyataan asalnya Benar."
+    scenario: "Diberi implikasi 'Jika $x$ ialah gandaan bagi 4, maka $x$ ialah nombor genap', bina **Kontrapositif** dan tentukan nilai kebenarannya."
+    working: |
+      1. Kenal pasti Antejadian ($p$): $x$ ialah gandaan bagi 4.
+      2. Kenal pasti Akibat ($q$): $x$ ialah nombor genap.
+      3. Formula bagi Kontrapositif ialah 'Jika $\sim q$, maka $\sim p$'.
+      4. Nafikan $q$: $x$ bukan nombor genap (atau $x$ ialah nombor ganjil).
+      5. Nafikan $p$: $x$ bukan gandaan bagi 4.
+      6. Gabungkan: Jika $x$ bukan nombor genap, maka $x$ bukan gandaan bagi 4.
+      7. Nilai Kebenaran: Semua gandaan 4 adalah genap. Jika suatu nombor adalah ganjil ($\sim q$), ia pasti tidak boleh menjadi gandaan bagi 4 ($\sim p$).
+      8. Jawapan: Kontrapositif ini adalah **Benar**.
+    tp_level: 4
+
+  - id: WE-03
+    topic: "Keesahan dan Kemunasabahan Hujah Deduktif"
+    difficulty: hard
+    learning_objective: 3.2.2
+    real_world_analogy: "Fikirkan tentang resipi masakan. 'Keesahan' (Validity) adalah mengikut langkah-langkah dengan betul (struktur). 'Kemunasabahan' (Soundness) adalah mempunyai bahan-bahan yang segar dan benar (fakta). Anda boleh mengikut resipi 'Kek Lumpur' dengan sempurna (Sah), tetapi ia tetap tidak boleh dimakan (Tidak Munasabah) kerana lumpur bukan makanan!"
+    misconception_alert: "Pelajar sering keliru antara 'Benar' dengan 'Sah'. Sesuatu hujah boleh mempunyai kesimpulan yang benar tetapi 'Tidak Sah' kerana ia tidak mengikut struktur Bentuk I, II, atau III. Sentiasa semak struktur terlebih dahulu!"
+    scenario: |
+      Analisis hujah berikut untuk menentukan keesahan dan kemunasabahannya:
+      Premis 1: Semua gandaan bagi 6 ialah gandaan bagi 3.
+      Premise 2: 18 ialah gandaan bagi 3.
+      Kesimpulan: 18 ialah gandaan bagi 6.
+    working: |
+      1. Semak struktur hujah berbanding tiga bentuk hujah deduktif yang standard.
+      2. Cubaan ini cuba mengikut Bentuk I: 'Semua $A$ ialah $B$. $C$ ialah $B$. Maka, $C$ ialah $A$'.
+      3. Bandingkan dengan Bentuk I yang sah: 'Semua $A$ ialah $B$. $C$ ialah $A$. Maka, $C$ ialah $B$'.
+      4. Perhatikan ralat: Premis 2 menyatakan $C$ ialah $B$ (akibat), tetapi ia sepatutnya menyatakan $C$ ialah $A$ (kategori). Ini adalah ralat struktur.
+      5. Oleh itu, hujah ini adalah **Tidak Sah**.
+      6. Kerana sesuatu hujah mestilah Sah untuk menjadi Munasabah, hujah ini juga secara automatik **Tidak Munasabah**, walaupun kesimpulan '18 ialah gandaan bagi 6' adalah fakta yang benar dalam realiti.
+      7. Jawapan: Hujah ini adalah **Tidak Sah dan Tidak Munasabah**.
+    tp_level: 5

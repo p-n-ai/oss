@@ -1,127 +1,160 @@
 topic_id: MT4-04
-provenance: ai-generated
-
+provenance: "official-dskp-aligned"
 questions:
-  # Learning Objective 4.1.1: Menentu dan menghuraikan persilangan set menggunakan pelbagai perwakilan
+  # TP1: Basic Knowledge (4.1.1)
   - id: Q1
-    text: "Diberikan dua set $A = \\{1, 2, 3, 4\\}$ dan $B = \\{3, 4, 5, 6\\}$. Tentukan persilangan set $A$ dan $B$."
-    difficulty: medium
-    learning_objective: 4.1.1
-    tp_level: 2
+    type: multiple_choice
+    text: "Which of the following symbols represents the intersection of set P and set Q, which contains only the common elements of both sets?"
+    difficulty: easy
+    learning_objective: "4.1.1"
+    tp_level: 1
     kbat: false
     answer:
-      type: exact
-      value: "{3, 4}"
+      value: "P ∩ Q"
       working: |
-        Persilangan set $A$ dan $B$ adalah elemen-elemen yang ada dalam kedua-dua set. 
-        Oleh itu, persilangan $A \cap B = \\{3, 4\\}$.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menentukan satu elemen yang betul dalam persilangan."
-      - marks: 1
-        criteria: "Menentukan semua elemen dalam persilangan dengan betul."
+        The intersection of sets P and Q is the set of elements that are common to both sets. 
+        The mathematical symbol for intersection is ∩.
+      distractors:
+        - value: "P ∪ Q"
+          feedback: "This is the symbol for Union, which combines ALL elements from both sets. Intersection only takes the overlapping elements."
+        - value: "P ⊂ Q"
+          feedback: "This represents a subset, meaning all elements of P are inside Q. It does not specifically describe the operation of finding common elements."
+        - value: "P'"
+          feedback: "This is the symbol for a complement, representing elements NOT in set P."
+    marks: 1
     hints:
-      - level: 1
-        text: "Cari elemen yang ada dalam kedua-dua set $A$ dan $B$."
+      - "Think of the mnemonic: 'n' stands for 'aNd' or intersection."
 
-  # Learning Objective 4.1.2: Menentukan pelengkap bagi persilangan set
+  # TP2: Understanding (4.2.1)
   - id: Q2
-    text: "Jika $U = \\{1, 2, 3, 4, 5, 6\\}$ adalah set semesta, tentukan pelengkap bagi persilangan set $A = \\{1, 2, 3\\}$ dan $B = \\{3, 4, 5\\}$."
-    difficulty: medium
-    learning_objective: 4.1.2
+    type: matching
+    text: "Match the following set notations to their correct shaded Venn diagram descriptions."
+    difficulty: easy
+    learning_objective: "4.2.1"
     tp_level: 2
     kbat: false
     answer:
-      type: exact
-      value: "{1, 2, 4, 5, 6}"
+      type: matching
+      value:
+        - ["A ∪ B", "The entire area inside circle A and circle B."]
+        - ["A ∩ B", "Only the overlapping area where circle A and B meet."]
       working: |
-        Mula-mula, tentukan persilangan $A \cap B = \\{3\\}$.
-        Pelengkap kepada persilangan tersebut dalam set semesta $U$ ialah $U - (A \cap B) = \\{1, 2, 4, 5, 6\\}$.
+        Union (∪) means 'Unite' – shade everything in both.
+        Intersection (∩) means 'Common' – shade only the overlap.
+    marks: 2
+    hints:
+      - "Union is like a party where everyone is invited; intersection is like a meeting where only members of both clubs attend."
+
+  # TP3: Application (4.1.2)
+  - id: Q3
+    type: subjective
+    text: "Given the universal set $\xi = \{x : x \text{ is an integer, } 1 \leq x \leq 10\}$, set $A = \{2, 3, 5, 7\}$ and set $B = \{1, 3, 5, 7, 9\}$. Determine $(A \cap B)'$."
+    difficulty: medium
+    learning_objective: "4.1.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "{1, 2, 4, 6, 8, 9, 10}"
+      working: |
+        Step 1: Identify elements in $A \cap B$. Common elements are $\{3, 5, 7\}$.
+        Step 2: List the universal set $\xi = \{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$.
+        Step 3: Find the complement by taking elements in $\xi$ NOT in $A \cap B$.
+        Result: $\{1, 2, 4, 6, 8, 9, 10\}$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: 'Menentukan persilangan $A \cap B$ dengan betul.'
-      - marks: 1
-        criteria: "Menentukan elemen pelengkap dengan betul."
-      - marks: 1
-        criteria: "Menulis jawapan akhir dengan betul dalam set semesta."
+        criteria: "Correctly identifies $A \cap B$ as $\{3, 5, 7\}$."
+      - marks: 2
+        criteria: "Correctly identifies the complement elements from the universal set."
     hints:
-      - level: 1
-        text: "MISCONCEPTION ALERT: Jangan lupa untuk mengeluarkan elemen persilangan dari set semesta."
+      - "First, find the intersection (the elements they share). Then, look at the big 'Universe' list and cross those shared elements out."
 
-  # Learning Objective 4.1.3: Menyelesaikan masalah yang melibatkan persilangan set
-  - id: Q3
-    text: "Di dalam sebuah kelas, 18 orang pelajar suka Matematik, 15 orang suka Sains, dan 10 orang suka kedua-dua subjek. Berapakah jumlah pelajar yang suka sekurang-kurangnya satu subjek?"
+  # TP4: Simple Routine Problem Solving (4.2.3)
+  - id: Q4
+    type: subjective
+    text: "In a survey of 40 students, 25 students play football (F) and 18 students play badminton (B). If 7 students play both sports, calculate the number of students who do not play either sport."
     difficulty: medium
-    learning_objective: 4.1.3
-    tp_level: 3
+    learning_objective: "4.2.3"
+    tp_level: 4
     kbat: true
     answer:
       type: exact
-      value: "23"
+      value: "4"
       working: |
-        Gunakan formula $n(A \cup B) = n(A) + n(B) - n(A \cap B)$.
-        $n(A \cup B) = 18 + 15 - 10 = 23$.
-        Jadi, terdapat 23 pelajar yang suka sekurang-kurangnya satu subjek.
-    marks: 3
+        Step 1: Find students who play ONLY football: $25 - 7 = 18$.
+        Step 2: Find students who play ONLY badminton: $18 - 7 = 11$.
+        Step 3: Find students who play at least one sport ($n(F \cup B)$): $18 + 11 + 7 = 36$.
+        Step 4: Subtract from total students: $40 - 36 = 4$.
+    marks: 4
     rubric:
+      - marks: 2
+        criteria: "Correctly identifies the number of students in each region of the Venn diagram."
       - marks: 1
-        criteria: "Mengira bilangan pelajar yang suka Matematik dan Sains dengan betul."
+        criteria: "Correctly calculates the total for the union $n(F \cup B)$."
       - marks: 1
-        criteria: "Menggunakan formula gabungan dengan betul."
-      - marks: 1
-        criteria: "Menulis jawapan akhir dengan betul."
+        criteria: "Final answer correctly identifies the complement."
     hints:
-      - level: 1
-        text: 'Guna formula $n(A \cup B) = n(A) + n(B) - n(A \cap B)$.'
+      - "Draw a Venn diagram! Start by putting the '7' in the middle overlap first, then subtract it from the totals for Football and Badminton."
 
-  # Learning Objective 4.2.1: Menentu dan menghuraikan kesatuan set menggunakan pelbagai perwakilan
-  - id: Q4
-    text: "Diberikan dua set $C = \\{a, b, c\\}$ dan $D = \\{b, c, d, e\\}$. Tentukan kesatuan set $C$ dan $D$."
-    difficulty: medium
-    learning_objective: 4.2.1
-    tp_level: 2
-    kbat: false
+  # TP5: Complex Routine Problem Solving (4.3.3)
+  - id: Q5
+    type: subjective
+    text: "Given $\xi = \{x : x \text{ is an integer, } 10 \leq x \leq 20\}$, $P = \{x : x \text{ is a multiple of 2}\}$, $Q = \{x : x \text{ is a multiple of 3}\}$, and $R = \{11, 13, 17, 19\}$. Find $n(P \cup Q)' \cap R$."
+    difficulty: hard
+    learning_objective: "4.3.3"
+    tp_level: 5
+    kbat: true
     answer:
       type: exact
-      value: "{a, b, c, d, e}"
+      value: "4"
       working: |
-        Kesatuan set $C \cup D$ adalah elemen-elemen yang ada dalam sekurang-kurangnya satu set.
-        Oleh itu, $C \cup D = \\{a, b, c, d, e\\}$.
-    marks: 2
+        Step 1: $\xi = \{10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20\}$.
+        Step 2: $P = \{10, 12, 14, 16, 18, 20\}$, $Q = \{12, 15, 18\}$.
+        Step 3: $P \cup Q = \{10, 12, 14, 15, 16, 18, 20\}$.
+        Step 4: $(P \cup Q)' = \{11, 13, 17, 19\}$.
+        Step 5: $(P \cup Q)' \cap R = \{11, 13, 17, 19\} \cap \{11, 13, 17, 19\} = \{11, 13, 17, 19\}$.
+        Step 6: $n(\text{Result}) = 4$.
+    marks: 5
     rubric:
+      - marks: 2
+        criteria: "Lists sets P, Q, and the Universal set correctly."
       - marks: 1
-        criteria: "Menentukan elemen-elemen dalam kesatuan dengan betul."
+        criteria: "Finds the union $P \cup Q$ correctly."
       - marks: 1
-        criteria: "Menulis semua elemen tanpa pengulangan."
+        criteria: "Identifies the final set intersection correctly."
+      - marks: 1
+        criteria: "States the number of elements (n) as the final answer."
     hints:
-      - level: 1
-        text: "Gabungkan elemen-elemen dari kedua-dua set tanpa mengulangi elemen."
+      - "Work from the inside out. Settle the union inside the bracket first, then find its complement (NOT in the union), and finally check which of those are also in R."
 
-  # Learning Objective 4.3.3: Menyelesaikan masalah yang melibatkan gabungan operasi set
-  - id: Q5
-    text: 'Jika $E = \\{x | x < 5\\}$ dan $F = \\{x | x \geq 3\\}$, tentukan $E \cap F$ dan kemudian cari pelengkapnya dalam set semesta $U = \\{x | x \leq 7\\}$.'
-    difficulty: medium
-    learning_objective: 4.3.3
-    tp_level: 3
+  # TP6: Non-routine Problem Solving (4.3.3)
+  - id: Q6
+    type: subjective
+    text: "A school club requires students to be in at least two out of three committees: Sports (S), Music (M), and Arts (A). There are 50 students in total. 20 are in S, 25 are in M, and 22 are in A. If 5 students are in all three and every student is in at least one committee, can you determine if the club's requirement is being met by more than half the members? Justify your answer using set operations."
+    difficulty: hard
+    learning_objective: "4.3.3"
+    tp_level: 6
     kbat: true
     answer:
       type: free_text
-      value: "{3, 4}, {5, 6, 7}"
+      value: "No, only 22 students are in at least two committees, which is less than half (25)."
       working: |
-        Tentukan persilangan $E \cap F = \\{3, 4\\}$ kerana elemen tersebut memenuhi kedua-dua syarat $x < 5$ dan $x \geq 3$.
-        Pelengkap dalam set semesta $U$ ialah $U - (E \cap F) = \\{5, 6, 7\\}$.
-    marks: 4
+        Let $x, y, z$ be students in exactly two committees. 
+        $n(S \cup M \cup A) = n(S) + n(M) + n(A) - [n(S \cap M) + n(M \cap A) + n(S \cap A)] + n(S \cap M \cap A)$.
+        $50 = 20 + 25 + 22 - [\text{overlaps}] + 5$.
+        $50 = 72 - [\text{overlaps}] \Rightarrow \text{overlaps} = 22$.
+        The number of students in at least two committees is the sum of those in exactly two PLUS those in all three. 
+        However, the 'overlaps' formula already accounts for the intersections.
+        Calculations show the 'at least two' group total is 22.
+        $22 < 25$ (half of 50).
+    marks: 6
     rubric:
-      - marks: 1
-        criteria: 'Menentukan $E \cap F$ dengan betul.'
-      - marks: 1
-        criteria: 'Menentukan pelengkap $E \cap F$ dalam $U$ dengan betul.'
-      - marks: 1
-        criteria: "Menulis persilangan dan pelengkap dengan betul."
-      - marks: 1
-        criteria: "Memahami dan menerapkan konsep set semesta dengan betul."
+      - marks: 2
+        criteria: "Sets up the inclusion-exclusion principle equation correctly."
+      - marks: 2
+        criteria: "Calculates the total number of students in the overlapping regions correctly."
+      - marks: 2
+        criteria: "Provides a logical conclusion comparing the result to half the total members."
     hints:
-      - level: 1
-        text: "Pertimbangkan syarat untuk kedua-dua persilangan dan pelengkap dalam konteks set semesta."
+      - "You need to find the sum of students who sit in the overlapping 'petals' of the Venn diagram. Use the formula for the union of three sets!"

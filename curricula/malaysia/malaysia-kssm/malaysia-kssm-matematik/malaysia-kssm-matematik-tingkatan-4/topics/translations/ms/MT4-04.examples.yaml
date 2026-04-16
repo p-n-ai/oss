@@ -1,0 +1,60 @@
+topic_id: MT4-04
+provenance: "official-dskp-aligned"
+description: "Contoh kerja untuk Operasi Set yang memfokuskan kepada persilangan, kesatuan, dan penyelesaian masalah gabungan."
+worked_examples:
+  # Contoh 1: Persilangan (Mudah - TP2)
+  - id: WE-01
+    topic: "Persilangan Set"
+    difficulty: easy
+    real_world_analogy: "Bayangkan anda memesan makanan di gerai Mamak. Set A ialah 'Pelanggan yang pesan Teh Tarik' dan Set B ialah 'Pelanggan yang pesan Nasi Lemak'. Persilangan (A ∩ B) hanyalah pelanggan yang sangat bertuah kerana memesan KEDUA-DUA item tersebut!"
+    misconception_alert: "Murid selalu silap menganggap persilangan (∩) bermaksud 'gabungkan semua'. Ingatkan mereka: Persilangan ialah 'Sama-Sama'—hanya unsur yang ada dalam SETIAP set sahaja yang dikira."
+    scenario: "Diberi set $P = \{2, 3, 5, 7\}$ (nombor perdana) dan set $Q = \{x : x \text{ ialah nombor ganjil, } 1 \leq x \leq 10\}$. Cari $P \cap Q$."
+    working: |
+      1. Senaraikan unsur-unsur bagi set $P$: $P = \{2, 3, 5, 7\}$
+      2. Senaraikan unsur-unsur bagi set $Q$: $Q = \{1, 3, 5, 7, 9\}$
+      3. Kenal pasti unsur yang muncul dalam kedua-dua set $P$ dan $Q$:
+         - Adakah '2' ada dalam $Q$? Tidak.
+         - Adakah '3' ada dalam $Q$? Ya!
+         - Adakah '5' ada dalam $Q$? Ya!
+         - Adakah '7' ada dalam $Q$? Ya!
+      4. Kumpulkan unsur sepunya tersebut ke dalam satu set persilangan: $P \cap Q = \{3, 5, 7\}$
+      5. Jawapan Akhir: $P \cap Q = \{3, 5, 7\}$
+
+  # Contoh 2: Pelengkap Kesatuan (Sederhana - TP3)
+  - id: WE-02
+    topic: "Pelengkap bagi Kesatuan Set"
+    difficulty: medium
+    real_world_analogy: "Bayangkan Set Semesta ialah semua murid dalam kelas anda. Set A ialah 'Ahli Kelab Robotik' dan Set B ialah 'Ahli Kelab Catur'. Kesatuan (A ∪ B) ialah sesiapa yang menyertai mana-mana kelab tersebut. Pelengkap (A ∪ B)' ialah sekumpulan murid yang TIDAK menyertai kedua-dua kelab tersebut."
+    misconception_alert: "Perangkap 'Semesta Halimunan'! Murid sering terlupa untuk menyemak Set Semesta ($\xi$) dan hanya melihat bulatan sahaja. Ingatkan mereka bahawa pelengkap ialah semua yang berada di 'luar' bulatan tetapi masih di 'dalam' kawasan segi empat tepat (semesta)."
+    scenario: "Diberi $\xi = \{x : x \text{ ialah integer, } 10 \leq x \leq 20\}$, $A = \{12, 14, 16, 18\}$ and $B = \{10, 12, 15, 18\}$. Tentukan $(A \cup B)'$."
+    working: |
+      1. Senaraikan semua unsur dalam Set Semesta $\xi$: $\xi = \{10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20\}$
+      2. Cari Kesatuan $A \cup B$ dengan menggabungkan semua unsur unik daripada kedua-dua set:
+         $A \cup B = \{10, 12, 14, 15, 16, 18\}$
+      3. Untuk mencari $(A \cup B)'$, mulakan dengan $\xi$ and keluarkan setiap unsur yang ada dalam $A \cup B$:
+         - Unsur $\xi$: $\{10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20\}$
+         - Keluarkan 10, 12, 14, 15, 16, 18.
+      4. Senaraikan unsur yang tinggal: $\{11, 13, 17, 19, 20\}$
+      5. Jawapan Akhir: $(A \cup B)' = \{11, 13, 17, 19, 20\}$
+
+  # Contoh 3: Penyelesaian Masalah Gabungan Operasi (Sukar/KBAT - TP5/6)
+  - id: WE-03
+    topic: "Penyelesaian Masalah Gabungan Operasi Set"
+    difficulty: hard
+    real_world_analogy: "Bayangkan tinjauan sekolah untuk tiga jenis sukan. Analogi ini seperti 'Penapis Venn'—untuk mencari murid yang bermain HANYA satu sukan, anda perlu mengupas lapisan murid yang bermain dua atau tiga sukan sehingga tinggal kumpulan teras tersebut."
+    misconception_alert: "Perangkap 'Kira Dua Kali'! Murid sering menambah $n(A) + n(B) + n(C)$ dan menyangka itu adalah jumlahnya. Amaran: 'Bahagian tengah di mana ketiga-tiga bulatan bertindih telah dikira dalam setiap jumlah! Anda mesti menolak pertindihan untuk mencari angka individu yang sebenar.'"
+    scenario: "Dalam satu tinjauan terhadap 35 orang penduduk, 24 orang menyertai pertandingan ping pong (T), 13 orang menyertai badminton (B), dan 4 orang menyertai bola sepak dan ping pong sahaja. 8 orang menyertai kedua-dua ping pong dan badminton, 2 orang menyertai ketiga-tiga pertandingan, dan 0 orang menyertai badminton dan bola sepak sahaja. Jika tiada sesiapa menyertai HANYA bola sepak, hitung jumlah penduduk yang menyertai HANYA satu pertandingan."
+    working: |
+      1. **Memahami Masalah:** Perlu mencari $n(\text{Ping Pong sahaja}) + n(\text{Badminton sahaja}) + n(\text{Bola Sepak sahaja})$.
+      2. **Merancang Strategi:** Gunakan rajah Venn dengan tiga set: $T$ (Ping Pong), $B$ (Badminton), dan $F$ (Bola Sepak).
+      3. **Melaksanakan Strategi (Langkah demi Langkah):**
+         - Mula dengan bahagian tengah: $n(T \cap B \cap F) = 2$.
+         - Isi pertindihan Ping Pong dan Badminton: Jumlah ialah 8, maka 'T dan B sahaja' ialah $8 - 2 = 6$.
+         - Isi 'Ping Pong dan Bola Sepak sahaja': Diberi sebagai 4.
+         - Isi 'Badminton dan Bola Sepak sahaja': Diberi sebagai 0.
+         - Hitung 'Ping Pong sahaja': $24 - (\text{semua pertindihan dalam bulatan T}) \Rightarrow 24 - 4 - 2 - 6 = 12$.
+         - Hitung 'Badminton sahaja': $13 - (\text{semua pertindihan dalam bulatan B}) \Rightarrow 13 - 6 - 2 - 0 = 5$.
+         - Hitung 'Bola Sepak sahaja': Diberi sebagai 0.
+      4. **Hitung Jumlah Akhir:** $12 \text{ (T sahaja)} + 5 \text{ (B sahaja)} + 0 \text{ (F sahaja)} = 17$.
+      5. **Menyemak Jawapan:** Pastikan jumlah semua rantau dalam rajah Venn tidak melebihi jumlah penduduk (35).
+      6. Jawapan Akhir: 17 orang penduduk.

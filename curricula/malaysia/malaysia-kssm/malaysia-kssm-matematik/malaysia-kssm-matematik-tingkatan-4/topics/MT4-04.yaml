@@ -1,87 +1,90 @@
 id: MT4-04
 official_ref: "4.0"
-name: "OPERASI SET"
-name_en: "Set Operations"
+name_en: "OPERATIONS ON SETS"
 subject_id: malaysia-kssm-matematik-tingkatan-4
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: intermediate
 tier: core
+textbook_pages: "94-127"
+
 content_standards:
-    - id: "4.1"
-      text: "Persilangan Set"
-      text_en: "Intersection of Sets"
-    - id: "4.2"
-      text: "Kesatuan Set"
-      text_en: "Union of Sets"
-    - id: "4.3"
-      text: "Set Pelengkap Gabungan"
-      text_en: "Combined Set Operations"
+  - id: "4.1"
+    text_en: "Intersection of Sets"
+  - id: "4.2"
+    text_en: "Union of Sets"
+  - id: "4.3"
+    text_en: "Combined Operations on Sets"
+
 learning_objectives:
-    - id: "4.1.1"
-      text: "Menentu dan menghuraikan persilangan set menggunakan pelbagai perwakilan."
-      text_en: "Determine and describe the intersection of sets using various representations."
-      bloom: understand
-    - id: "4.1.2"
-      text: "Menentukan pelengkap bagi persilangan set."
-      text_en: "Determine the complement of the intersection of sets."
-      bloom: apply
-    - id: "4.1.3"
-      text: "Menyelesaikan masalah yang melibatkan persilangan set."
-      text_en: "Solve problems involving the intersection of sets."
-      bloom: apply
-    - id: "4.2.1"
-      text: "Menentu dan menghuraikan kesatuan set menggunakan pelbagai perwakilan."
-      text_en: "Determine and describe the union of sets using various representations."
-      bloom: understand
-    - id: "4.2.2"
-      text: "Menentukan pelengkap bagi kesatuan set."
-      text_en: "Determine the complement of the union of sets."
-      bloom: apply
-    - id: "4.2.3"
-      text: "Menyelesaikan masalah yang melibatkan kesatuan set."
-      text_en: "Solve problems involving the union of sets."
-      bloom: apply
-    - id: "4.3.1"
-      text: "Menentu dan menghuraikan gabungan operasi set menggunakan pelbagai perwakilan."
-      text_en: "Determine and describe combined operations on sets using various representations."
-      bloom: understand
-    - id: "4.3.2"
-      text: "Menentukan pelengkap bagi gabungan operasi set."
-      text_en: "Determine the complement of combined operations on sets."
-      bloom: apply
-    - id: "4.3.3"
-      text: "Menyelesaikan masalah yang melibatkan gabungan operasi set."
-      text_en: "Solve problems involving combined operations on sets."
-      bloom: apply
+  - id: "4.1.1"
+    text_en: "Determine and describe the intersection of sets using various representations."
+    bloom: understand
+    tp_level: 2
+  - id: "4.1.2"
+    text_en: "Determine the complement of the intersection of sets."
+    bloom: apply
+    tp_level: 3
+  - id: "4.1.3"
+    text_en: "Solve problems involving the intersection of sets."
+    bloom: apply
+    tp_level: 4
+  - id: "4.2.1"
+    text_en: "Determine and describe the union of sets using various representations."
+    bloom: understand
+    tp_level: 2
+  - id: "4.2.2"
+    text_en: "Determine the complement of the union of sets."
+    bloom: apply
+    tp_level: 3
+  - id: "4.2.3"
+    text_en: "Solve problems involving the union of sets."
+    bloom: apply
+    tp_level: 4
+  - id: "4.3.1"
+    text_en: "Determine and describe combined operations on sets using various representations."
+    bloom: understand
+    tp_level: 2
+  - id: "4.3.2"
+    text_en: "Determine the complement of combined operations on sets."
+    bloom: apply
+    tp_level: 3
+  - id: "4.3.3"
+    text_en: "Solve problems involving combined operations on sets."
+    bloom: apply
+    tp_level: 5
+
 prerequisites:
-    required: []
-    recommended: []
-bloom_levels:
-    - understand
-    - apply
+  required:
+    - id: "MT1-11"
+      name_en: "Introduction to Sets"
+  recommended: []
+
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
 ai_teaching_notes: "MT4-04.teaching.md"
-quality_level: 1
-provenance: ai-assisted
-teaching:
-    sequence:
-        - 'Step 1: Introduce intersection of sets using Venn diagrams (20 min)'
-        - 'Step 2: Explain union of sets with visual aids (20 min)'
-        - 'Step 3: Demonstrate combined operations step-by-step (25 min)'
-    common_misconceptions:
-        - misconception: Intersection is larger than either set
-          remediation: Use examples with non-overlapping sets to clarify
-        - misconception: Union requires overlap
-          remediation: Use sets with no common elements to explain union
-engagement_hooks:
-    - Use examples like combining favorite foods to explain union and intersection
-    - Relate set operations to organizing groups of friends with common and distinct interests
-assessments_file: MT4-04.assessments.yaml
-examples_file: MT4-04.examples.yaml
+assessments_file: "MT4-04.assessments.yaml"
+examples_file: "MT4-04.examples.yaml"
+
+quality_level: 3
+provenance: "official-dskp-aligned"
+
+teaching_metadata:
+  sequence:
+    - "Step 1: Introduce intersection of sets using Venn diagrams and common elements (20 min)"
+    - "Step 2: Explore union of sets and the concept of combining all elements (20 min)"
+    - "Step 3: Master combined operations, emphasizing the order of operations and brackets (25 min)"
+  common_misconceptions:
+    - misconception: "Confusing intersection (∩) with union (∪)."
+      remediation: "Use visual mnemonic: 'n' for 'and' (intersection) and 'u' for 'unite' (union)."
+    - misconception: "Forgetting the universal set when determining the complement."
+      remediation: "Always draw a rectangle for the universal set and identify elements outside the target set."
+  engagement_hooks:
+    - "Relate set operations to social media filters (e.g., finding friends who like BOTH football and gaming)."
+    - "Use a 'School Club' scenario where students visualize membership overlaps between different activities."

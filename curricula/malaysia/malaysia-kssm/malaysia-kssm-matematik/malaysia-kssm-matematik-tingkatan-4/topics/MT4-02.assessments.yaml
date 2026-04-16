@@ -1,142 +1,172 @@
 topic_id: MT4-02
-provenance: ai-generated
-
+provenance: curriculum-aligned-master
 questions:
-  # Learning Objective 2.1.1 (understand)
   - id: Q1
-    text: 'Nyatakan nilai tempat dan nilai digit bagi nombor 1011_2.'
+    text: "Which of the following numbers is NOT a valid representation in Base 6?"
+    difficulty: easy
+    learning_objective: "2.1.1"
+    tp_level: 1
+    kbat: false
+    type: multiple_choice
+    answer:
+      value: "461"
+      working: |
+        Step 1: Identify the base ($n=6$).
+        Step 2: Recall the 'Bouncer Rule'—digits must be less than the base ($0$ to $n-1$).
+        Step 3: Check the digits in 461. The digit '6' is equal to the base, which is not allowed.
+      distractors:
+        - value: "245"
+          feedback: "This is valid. All digits (2, 4, 5) are less than 6."
+        - value: "332"
+          feedback: "This is valid. All digits (3, 3, 2) are less than 6."
+        - value: "123"
+          feedback: "This is valid. All digits (1, 2, 3) are less than 6."
+    marks: 1
+    hints:
+      - level: 1
+        text: "In any base $n$, can a digit be equal to or larger than $n$? Check the digits in each option carefully!"
+
+  - id: Q2
+    text: "State the place value of the underlined digit in $5\underline{0}37_9$."
     difficulty: medium
-    learning_objective: 2.1.1
+    learning_objective: "2.1.1"
     tp_level: 2
     kbat: false
     answer:
-      type: free_text
-      value: "Nilai tempat: 1 (unit), 0 (dua), 1 (empat), 1 (lapan); Nilai digit: 1, 0, 1, 1"
-      working: |
-        Nombor 1011 dalam asas 2 mempunyai nilai tempat dan nilai digit seperti berikut:
-        - Digit paling kanan adalah 1 pada tempat unit (nilai 1)
-        - Digit seterusnya adalah 1 pada tempat lapan (nilai 8)
-        - Digit seterusnya adalah 0 pada tempat empat (nilai 0)
-        - Digit paling kiri adalah 1 pada tempat lapan (nilai 8)
-        Oleh itu, nilai digit dan nilai tempat adalah seperti yang dinyatakan.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Menyatakan satu nilai tempat dengan betul."
-      - marks: 1
-        criteria: "Menyatakan satu nilai digit dengan betul."
-      - marks: 1
-        criteria: "Menjelaskan semua nilai tempat dan nilai digit dengan betul."
-    hints:
-      - level: 1
-        text: "Mulakan dengan digit paling kanan dan bergerak ke kiri, nyatakan nilai tempat setiap digit."
-
-  # Learning Objective 2.1.2 (apply)
-  - id: Q2
-    text: "Tukar nombor 345_8 kepada nombor dalam asas 10."
-    difficulty: medium
-    learning_objective: 2.1.2
-    tp_level: 3
-    kbat: false
-    answer:
       type: exact
-      value: "229"
+      value: "81"
       working: |
-        Untuk menukar nombor dari asas 8 ke asas 10, kita guna formula berikut:
-        $3 \times 8^2 + 4 \times 8^1 + 5 \times 8^0 = 192 + 32 + 5 = 229$
-    marks: 3
+        Step 1: Identify the position of the underlined digit '0' from the right (start at 0).
+        Positions: $7 \rightarrow 0$, $3 \rightarrow 1$, $0 \rightarrow 2$, $5 \rightarrow 3$.
+        Step 2: Apply the place value formula $a^n$, where $a=9$ and $n=2$.
+        Step 3: Calculate $9^2 = 81$.
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Menulis formula asas 8 dengan betul."
+        criteria: "Correctly identify the power/index of the position."
       - marks: 1
-        criteria: "Melakukan pengiraan bagi satu atau dua digit dengan betul."
-      - marks: 1
-        criteria: "Menyelesaikan keseluruhan penukaran dengan betul."
+        criteria: "Correctly calculate the numerical place value."
     hints:
       - level: 1
-        text: "Hitung nilai setiap digit berdasarkan kuasa asas 8."
+        text: "Count the positions starting from the right as $9^0, 9^1, 9^2...$ and so on. Which power does the underlined digit sit on?"
 
-  # Learning Objective 2.1.2 (apply)
   - id: Q3
-    text: "Apakah nombor 1110_2 dalam asas 8?"
+    text: "Convert the decimal number $563_{10}$ to a number in Base 5."
     difficulty: medium
-    learning_objective: 2.1.2
+    learning_objective: "2.1.2"
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "16"
+      value: "4223_5"
       working: |
-        Pertama, tukar nombor dari asas 2 ke asas 10:
-        $1 \times 2^3 + 1 \times 2^2 + 1 \times 2^1 + 0 \times 2^0 = 8 + 4 + 2 + 0 = 14$
-        Kemudian, tukar dari asas 10 ke asas 8:
-        14 dibahagikan dengan 8 ialah 1 baki 6, jadi nombor dalam asas 8 adalah 16.
+        Step 1: Use repeated division by the target base (5).
+        $563 \div 5 = 112$ remainder 3
+        $112 \div 5 = 22$ remainder 2
+        $22 \div 5 = 4$ remainder 2
+        $4 \div 5 = 0$ remainder 4
+        Step 2: Read the remainders from the bottom upwards.
+        Result: $4223_5$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menukar nombor dari asas 2 ke asas 10 dengan betul."
+        criteria: "Perform repeated division correctly for at least two steps."
       - marks: 1
-        criteria: "Menukar nombor dari asas 10 ke asas 8 dengan betul."
+        criteria: "List all remainders correctly."
       - marks: 1
-        criteria: "Menyelesaikan keseluruhan proses penukaran dengan betul."
+        criteria: "Final answer written in the correct order (bottom to top)."
     hints:
       - level: 1
-        text: "Tukar ke asas 10 dahulu sebelum ke asas 8."
+        text: "Divide 563 by 5 and keep track of the 'leftovers' (remainders). Keep going until you hit zero!"
+      - level: 2
+        text: "Remember the 'Reverse Elevator' rule—read your remainders from the last one found up to the first!"
 
-  # Learning Objective 2.1.3 (apply)
   - id: Q4
-    text: 'Hitungkan jumlah 1011_2 + 1101_2 dalam asas 2.'
+    text: "Calculate the sum of $673_8 + 175_8$ in Base 8."
     difficulty: medium
-    learning_objective: 2.1.3
+    learning_objective: "2.1.3"
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "11000_2"
+      value: "1070_8"
       working: |
-        Tambah kedua-dua nombor biner seperti berikut:
-        \[
-        \begin{array}{cccc}
-          & 1 & 0 & 1 & 1 \\
-          + & 1 & 1 & 0 & 1 \\
-        \hline
-        1 & 1 & 0 & 0 & 0 \\
-        \end{array}
-        \]
-        Hasilnya adalah 11000 dalam asas 2.
+        Step 1: Align digits vertically.
+        Step 2: Add $3 + 5 = 8$. In Base 8, $8$ is $10_8$. Write 0, carry 1.
+        Step 3: Add $7 + 7 + 1 (carry) = 15$. In Base 8, $15$ is $17_8$ (since $15 - 8 = 7$). Write 7, carry 1.
+        Step 4: Add $6 + 1 + 1 (carry) = 8$. In Base 8, $8$ is $10_8$. Write 0, carry 1.
+        Result: $1070_8$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menambah dua digit pertama dengan betul."
+        criteria: "Correct addition and carry-over for the first column."
+      - marks: 2
+        criteria: "Correct conversion of sums $\ge 8$ into Base 8 values."
       - marks: 1
-        criteria: "Menambah dua digit seterusnya dengan betul, termasuk pembawa."
-      - marks: 1
-        criteria: "Mendapatkan hasil akhir dengan betul."
+        criteria: "Final sum is correct."
     hints:
       - level: 1
-        text: "Tambahkan digit demi digit, jangan lupa pembawa jika ada."
+        text: "Use the Vertical Form (Bentuk Lazim). If your sum is 8 or more, you must 're-pack' it into a group of 8 to carry over!"
 
-  # Learning Objective 2.1.4 (apply)
   - id: Q5
-    text: 'Selesaikan masalah berikut: Satu sistem komputer menggunakan asas 16 untuk alamat memori. Tukarkan 1A3_16 kepada asas 10.'
-    difficulty: medium
-    learning_objective: 2.1.4
-    tp_level: 3
+    text: "A study shows that 200 pupils go to school. 25% take the bus and 40% take cars. Calculate the total number of pupils who go by bus or car, expressed in Base 4."
+    difficulty: hard
+    learning_objective: "2.1.4"
+    tp_level: 4
     kbat: true
     answer:
       type: exact
-      value: "419"
+      value: "2002_4"
       working: |
-        Tukarkan nombor dari asas 16 ke asas 10:
-        $1 \times 16^2 + 10 \times 16^1 + 3 \times 16^0 = 256 + 160 + 3 = 419$
-    marks: 3
+        Step 1: Find total pupils in Base 10. $25\% + 40\% = 65\%$.
+        $0.65 \times 200 = 130$ pupils.
+        Step 2: Convert 130 to Base 4 using repeated division.
+        $130 \div 4 = 32$ rem 2
+        $32 \div 4 = 8$ rem 0
+        $8 \div 4 = 2$ rem 0
+        $2 \div 4 = 0$ rem 2
+        Step 3: Read bottom up: $2002_4$.
+    marks: 4
     rubric:
       - marks: 1
-        criteria: "Menukar digit A ke nilai 10 dengan betul."
+        criteria: "Calculate total percentage or number of pupils in Base 10 correctly."
+      - marks: 2
+        criteria: "Correct conversion process to Base 4."
       - marks: 1
-        criteria: "Melakukan pengiraan bagi satu atau dua digit dengan betul."
-      - marks: 1
-        criteria: "Menyelesaikan keseluruhan penukaran dengan betul."
+        criteria: "Final answer in Base 4 is correct."
     hints:
       - level: 1
-        text: "Ingat, A dalam asas 16 mewakili 10 dalam asas 10."
+        text: "First, find out exactly how many students there are in our usual Base 10. Once you have that 'real' number, then start the conversion to Base 4."
+
+  - id: Q6
+    text: "The average number of visitors to Zoo Negara per day in January is $20202_5$. If there are 31 days in January, calculate the total number of visitors for the month in Base 10. Then, suggest how this value would be represented in Base 8 for a computer log system."
+    difficulty: hard
+    learning_objective: "2.1.4"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Total: 40362; Base 8: 116652_8"
+      working: |
+        Step 1: Convert average $20202_5$ to Base 10.
+        $2(5^4) + 0(5^3) + 2(5^2) + 0(5^1) + 2(5^0) = 1250 + 0 + 50 + 0 + 2 = 1302_{10}$.
+        Step 2: Multiply by 31 days. $1302 \times 31 = 40362_{10}$.
+        Step 3: Convert $40362_{10}$ to Base 8.
+        $40362 \div 8 = 5045$ r 2
+        $5045 \div 8 = 630$ r 5
+        $630 \div 8 = 78$ r 6
+        $78 \div 8 = 9$ r 6
+        $9 \div 8 = 1$ r 1
+        $1 \div 8 = 0$ r 1
+        Result: $116652_8$.
+    marks: 6
+    rubric:
+      - marks: 2
+        criteria: "Correct conversion of $20202_5$ to Base 10."
+      - marks: 2
+        criteria: "Logical multiplication for the monthly total."
+      - marks: 2
+        criteria: "Complete and correct conversion of the final total to Base 8."
+    hints:
+      - level: 1
+        text: "This is a big one! Break it down: Average (Base 5) $\rightarrow$ Average (Base 10) $\rightarrow$ Total (Base 10) $\rightarrow$ Computer Log (Base 8)."

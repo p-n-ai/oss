@@ -1,63 +1,65 @@
 id: MT4-02
 official_ref: "2.0"
-name: "Asas Nombor"
 name_en: "Number Bases"
 subject_id: malaysia-kssm-matematik-tingkatan-4
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: intermediate
 tier: core
 content_standards:
-    - id: "2.1"
-      text: "Asas Nombor"
-      text_en: "Number Bases"
-learning_objectives:
-    - id: "2.1.1"
-      text: "Mewakil dan menjelaskan nombor dalam pelbagai asas dari segi angka, nilai tempat, nilai digit dan nilai nombor berdasarkan proses pengumpulan."
-      text_en: "Represent and explain numbers in various bases in terms of numerals, place value, digit value and number value based on the grouping process."
-      bloom: understand
-    - id: "2.1.2"
-      text: "Menukar nombor daripada satu asas kepada asas yang lain menggunakan pelbagai kaedah."
-      text_en: "Convert numbers from one base to another using various methods."
-      bloom: apply
-    - id: "2.1.3"
-      text: "Membuat pengiraan yang melibatkan operasi tambah dan tolak bagi nombor dalam pelbagai asas."
-      text_en: "Perform calculations involving addition and subtraction operations for numbers in various bases."
-      bloom: apply
-    - id: "2.1.4"
-      text: "Menyelesaikan masalah yang melibatkan asas nombor."
-      text_en: "Solve problems involving number bases."
-      bloom: apply
+  - id: "2.1"
+    text_en: "Number Bases"
+    learning_objectives:
+      - id: "2.1.1"
+        text_en: "Represent and explain numbers in various bases in terms of numerals, place value, digit value and number value based on the grouping process."
+        bloom: understand
+      - id: "2.1.2"
+        text_en: "Convert numbers from one base to another using various methods."
+        bloom: apply
+      - id: "2.1.3"
+        text_en: "Perform calculations involving addition and subtraction of numbers in various bases."
+        bloom: apply
+      - id: "2.1.4"
+        text_en: "Solve problems involving number bases."
+        bloom: apply
 prerequisites:
-    required: []
-    recommended: []
+  required:
+    - id: "MT1-02"
+      name_en: "Factors and Multiples"
+  recommended:
+    - id: "MT1-01"
+      name_en: "Rational Numbers"
 bloom_levels:
-    - understand
-    - apply
+  - understand
+  - apply
+  - analyze
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
 ai_teaching_notes: "MT4-02.teaching.md"
-quality_level: 1
-provenance: ai-assisted
+assessments_file: "MT4-02.assessments.yaml"
+examples_file: "MT4-02.examples.yaml"
+quality_level: 3
+provenance: curriculum-aligned-draft
 teaching:
-    sequence:
-        - 'Step 1: Introduce the concept of number bases using place value charts (20 min)'
-        - 'Step 2: Demonstrate conversion methods between bases with examples (30 min)'
-        - 'Step 3: Practice addition and subtraction in different bases using visual aids (30 min)'
-    common_misconceptions:
-        - misconception: All bases use the same numbers as decimal
-          remediation: Emphasize unique symbols used in bases like hexadecimal
-        - misconception: Converting between bases is arbitrary
-          remediation: Reinforce conversion methods with visual aids
-        - misconception: Arithmetic operations are the same in all bases
-          remediation: Practice operations with varied examples in different bases
+  sequence:
+    - "Step 1: Introduce the concept of number bases (2, 8, 10, and others) using place value charts and concrete diagrams."
+    - "Step 2: Demonstrate conversion methods between bases (Base 10 to other bases and vice versa) using place value and division."
+    - "Step 3: Teach shortcut methods for converting between Base 2 and Base 8 using grouping."
+    - "Step 4: Practice addition and subtraction in various bases using Vertical Form and Base Conversion methods."
+    - "Step 5: Apply concepts to solve real-world problems involving technology and daily life scenarios."
+common_misconceptions:
+  - misconception: "All bases use the same digits as the decimal system (0-9)."
+    remediation: "Emphasize that each base 'n' only uses digits from 0 up to (n-1). For example, Base 2 only uses 0 and 1."
+  - misconception: "Arithmetic operations (carrying and borrowing) follow base 10 rules in all systems."
+    remediation: "Reinforce that carrying/borrowing values are equal to the base being used (e.g., in base 5, carrying 1 represents a value of 5)."
+  - misconception: "Converting between bases is an arbitrary process without a mathematical foundation."
+    remediation: "Reinforce the link between place value and the collection process to ground the conversion logic."
 engagement_hooks:
-    - Discuss how computers use binary and hexadecimal systems in technology
-    - Relate number bases to coding behind digital screens or memory storage
-assessments_file: MT4-02.assessments.yaml
-examples_file: MT4-02.examples.yaml
+  - "Discuss how computers use binary (base 2) and hexadecimal (base 16) to process data and storage."
+  - "Explore the historical contribution of Brahmagupta in introducing the digit 0, which is fundamental to all number bases."
+  - "Relate number bases to coding behind digital screens and memory addresses in computer science."

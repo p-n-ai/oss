@@ -1,0 +1,158 @@
+topic_id: MT4-04
+provenance: "official-dskp-aligned"
+questions:
+  # TP1: Pengetahuan Asas (4.1.1)
+  - id: Q1
+    type: multiple_choice
+    text: "Antara simbol berikut, yang manakah mewakili persilangan set P dan set Q, iaitu set yang mengandungi unsur-unsur sepunya bagi kedua-dua set tersebut?"
+    difficulty: easy
+    learning_objective: "4.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      value: "P ∩ Q"
+      working: |
+        Persilangan set P and Q ialah set unsur yang sama bagi kedua-dua set. 
+        Simbol matematik bagi persilangan ialah ∩.
+      distractors:
+        - value: "P ∪ Q"
+          feedback: "Ini adalah simbol bagi Kesatuan, yang menggabungkan SEMUA unsur dari kedua-dua set. Persilangan hanya mengambil unsur yang bertindih."
+        - value: "P ⊂ Q"
+          feedback: "Ini mewakili subset, bermaksud semua unsur P berada di dalam Q. Ia tidak menghuraikan operasi mencari unsur sepunya."
+        - value: "P'"
+          feedback: "Ini adalah simbol bagi pelengkap, yang mewakili unsur yang BUKAN dalam set P."
+    marks: 1
+    hints:
+      - "Gunakan mnemonik: 'n' bermaksud 'daN' atau persilangan (intersection)."
+
+  # TP2: Pemahaman (4.2.1)
+  - id: Q2
+    type: matching
+    text: "Padankan tatanda set berikut dengan huraian rantau berlorek rajah Venn yang betul."
+    difficulty: easy
+    learning_objective: "4.2.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: matching
+      value:
+        - ["A ∪ B", "Keseluruhan kawasan di dalam bulatan A dan bulatan B."]
+        - ["A ∩ B", "Hanya kawasan pertindihan di mana bulatan A dan B bertemu."]
+      working: |
+        Kesatuan (∪) bermaksud 'Gabung' – lorek semua dalam kedua-dua bulatan.
+        Persilangan (∩) bermaksud 'Sepunya' – lorek hanya kawasan pertindihan.
+    marks: 2
+    hints:
+      - "Kesatuan adalah seperti parti di mana semua orang dijemput; persilangan adalah seperti mesyuarat di mana hanya ahli kedua-dua kelab hadir."
+
+  # TP3: Aplikasi (4.1.2)
+  - id: Q3
+    type: subjective
+    text: "Diberi set semesta $\xi = \{x : x \text{ ialah integer, } 1 \leq x \leq 10\}$, set $A = \{2, 3, 5, 7\}$ dan set $B = \{1, 3, 5, 7, 9\}$. Tentukan $(A \cap B)'$."
+    difficulty: medium
+    learning_objective: "4.1.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "{1, 2, 4, 6, 8, 9, 10}"
+      working: |
+        Langkah 1: Kenal pasti unsur dalam $A \cap B$. Unsur sepunya ialah $\{3, 5, 7\}$.
+        Langkah 2: Senaraikan set semesta $\xi = \{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$.
+        Langkah 3: Cari pelengkap dengan mengambil unsur dalam $\xi$ yang TIDAK ada dalam $A \cap B$.
+        Hasil: $\{1, 2, 4, 6, 8, 9, 10\}$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti $A \cap B$ sebagai $\{3, 5, 7\}$ dengan betul."
+      - marks: 2
+        criteria: "Mengenal pasti unsur pelengkap daripada set semesta dengan betul."
+    hints:
+      - "Mula-mula, cari persilangan (unsur yang sama). Kemudian, lihat senarai 'Semesta' dan potong unsur sepunya tersebut."
+
+  # TP4: Penyelesaian Masalah Rutin Mudah (4.2.3)
+  - id: Q4
+    type: subjective
+    text: "Dalam satu tinjauan terhadap 40 murid, 25 murid bermain bola sepak (F) dan 18 murid bermain badminton (B). Jika 7 murid bermain kedua-dua sukan, hitung bilangan murid yang tidak bermain mana-mana sukan tersebut."
+    difficulty: medium
+    learning_objective: "4.2.3"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: "4"
+      working: |
+        Langkah 1: Cari murid yang bermain bola sepak SAHAJA: $25 - 7 = 18$.
+        Langkah 2: Cari murid yang bermain badminton SAHAJA: $18 - 7 = 11$.
+        Langkah 3: Cari jumlah murid yang bermain sekurang-kurangnya satu sukan ($n(F \cup B)$): $18 + 11 + 7 = 36$.
+        Langkah 4: Tolak daripada jumlah keseluruhan murid: $40 - 36 = 4$.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Mengenal pasti bilangan murid dalam setiap rantau rajah Venn dengan betul."
+      - marks: 1
+        criteria: "Mengira jumlah kesatuan $n(F \cup B)$ dengan betul."
+      - marks: 1
+        criteria: "Jawapan akhir mengenal pasti pelengkap dengan betul."
+    hints:
+      - "Lukis rajah Venn! Masukkan angka '7' di kawasan pertindihan tengah dahulu, kemudian tolak angka itu daripada jumlah Bola Sepak dan Badminton."
+
+  # TP5: Penyelesaian Masalah Rutin Kompleks (4.3.3)
+  - id: Q5
+    type: subjective
+    text: "Diberi $\xi = \{x : x \text{ ialah integer, } 10 \leq x \leq 20\}$, $P = \{x : x \text{ ialah gandaan 2}\}$, $Q = \{x : x \text{ ialah gandaan 3}\}$, dan $R = \{11, 13, 17, 19\}$. Cari $n(P \cup Q)' \cap R$."
+    difficulty: hard
+    learning_objective: "4.3.3"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "4"
+      working: |
+        Langkah 1: $\xi = \{10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20\}$.
+        Langkah 2: $P = \{10, 12, 14, 16, 18, 20\}$, $Q = \{12, 15, 18\}$.
+        Langkah 3: $P \cup Q = \{10, 12, 14, 15, 16, 18, 20\}$.
+        Langkah 4: $(P \cup Q)' = \{11, 13, 17, 19\}$.
+        Langkah 5: $(P \cup Q)' \cap R = \{11, 13, 17, 19\} \cap \{11, 13, 17, 19\} = \{11, 13, 17, 19\}$.
+        Langkah 6: $n(\text{Hasil}) = 4$.
+    marks: 5
+    rubric:
+      - marks: 2
+        criteria: "Menyenaraikan set P, Q, dan set Semesta dengan betul."
+      - marks: 1
+        criteria: "Mencari kesatuan $P \cup Q$ dengan betul."
+      - marks: 1
+        criteria: "Mengenal pasti persilangan set akhir dengan betul."
+      - marks: 1
+        criteria: "Menyatakan bilangan unsur (n) sebagai jawapan akhir."
+    hints:
+      - "Selesaikan dari dalam ke luar. Selesaikan kesatuan dalam kurungan dahulu, cari pelengkapnya (TIDAK dalam kesatuan), dan akhirnya cari yang mana antara itu ada dalam R."
+
+  # TP6: Penyelesaian Masalah Bukan Rutin (4.3.3)
+  - id: Q6
+    type: subjective
+    text: "Satu kelab sekolah menetapkan syarat ahli mesti menyertai sekurang-kurangnya dua daripada tiga jawatankuasa: Sukan (S), Muzik (M), dan Seni (A). Terdapat 50 ahli kesemuanya. 20 orang dalam S, 25 dalam M, dan 22 dalam A. Jika 5 orang berada dalam ketiga-tiga jawatankuasa dan setiap ahli menyertai sekurang-kurangnya satu jawatankuasa, tentukan sama ada syarat kelab dipenuhi oleh lebih daripada separuh ahli? Justifikasikan jawapan anda."
+    difficulty: hard
+    learning_objective: "4.3.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Tidak, hanya 22 ahli berada dalam sekurang-kurangnya dua jawatankuasa, iaitu kurang daripada separuh (25)."
+      working: |
+        Gunakan prinsip rangkuman-pengisihan:
+        $n(S \cup M \cup A) = n(S) + n(M) + n(A) - [\text{pertindihan dua set}] + n(S \cap M \cap A)$.
+        $50 = 20 + 25 + 22 - [\text{kawasan pertindihan}] + 5$.
+        $50 = 72 - [\text{pertindihan}] \Rightarrow \text{pertindihan} = 22$.
+        Bilangan ahli dalam sekurang-kurangnya dua jawatankuasa adalah jumlah pertindihan tersebut.
+        $22 < 25$ (separuh daripada 50).
+    marks: 6
+    rubric:
+      - marks: 2
+        criteria: "Membina persamaan prinsip rangkuman-pengisihan dengan betul."
+      - marks: 2
+        criteria: "Mengira jumlah ahli dalam kawasan pertindihan dengan betul."
+      - marks: 2
+        criteria: "Memberikan kesimpulan logik dengan membandingkan hasil dengan separuh jumlah ahli."
+    hints:
+      - "Anda perlu mencari jumlah ahli yang berada dalam kawasan 'kelopak' rajah Venn yang bertindih. Gunakan formula kesatuan tiga set!"

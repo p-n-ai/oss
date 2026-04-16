@@ -1,40 +1,70 @@
 topic_id: MT4-01
-provenance: ai-generated
-description: "Worked examples for FUNGSI DAN PERSAMAAN KUADRATIK DALAM SATU PEMBOLEH UBAH"
+provenance: curriculum-aligned
+description: "Worked examples for Quadratic Functions and Equations in One Variable (Form 4 Chapter 1)"
 worked_examples:
   - id: WE-01
-    topic: "Ciri-ciri Ungkapan Kuadratik"
+    topic: "Identifying Quadratic Expressions"
     difficulty: easy
-    real_world_analogy: "Consider a water fountain whose water stream forms a parabolic shape. The equation of this parabola is a quadratic equation."
-    misconception_alert: "Students often confuse linear equations with quadratic ones. Remember, a quadratic has an x² term."
-    scenario: "Identify the quadratic expression: 3x² + 2x - 5"
+    real_world_analogy: "Think of a quadratic expression like a 2D square plot of land. To calculate the area, you must have two dimensions multiplying (like $x \times x = x^2$). If you only have $x$, it's just a straight fence line!"
+    misconception_alert: "The 'Hidden Zero' Trap! Students often think $x^2 + 5$ is not a quadratic because the '$x$' term is missing. Remind them that the coefficient $b$ can be zero ($0x$), but $a$ (the $x^2$ coefficient) can never be zero!"
+    scenario: "Determine whether the expression $\frac{1}{2}m^2$ is a quadratic expression in one variable. Justify your answer based on the general form $ax^2 + bx + c$."
     working: |
-      Step 1: Recognize that a quadratic expression is in the form ax² + bx + c.
-      Step 2: In the given expression 3x² + 2x - 5, identify a = 3, b = 2, and c = -5.
-      Step 3: Confirm it is quadratic because it contains the x² term.
+      1. Identify the variable in the expression: The variable is $m$.
+      2. Identify the highest power of the variable: The highest power of $m$ is 2.
+      3. Compare with the general form $ax^2 + bx + c$:
+         - Here, $a = \frac{1}{2}$
+         - $b = 0$
+         - $c = 0$
+      4. Check the condition for $a$: Since $a \neq 0$ and the highest power is 2, the condition is met.
+      5. Conclusion: Yes, $\frac{1}{2}m^2$ is a quadratic expression because it has one variable and the highest power of the variable is 2.
+    source_ref: "Textbook p. 3, Example 1(d)"
 
   - id: WE-02
-    topic: "Kesan Perubahan Nilai a, b dan c"
+    topic: "The Effect of Parameter 'c' on the Graph"
     difficulty: medium
-    real_world_analogy: "Imagine adjusting a satellite dish. Changing the angle affects the strength and focus of the signal, similar to changing a, b, and c in a quadratic affects the graph's shape and position."
-    misconception_alert: "Students may think changes in 'c' affect the shape of the graph, but 'c' only affects the vertical position."
-    scenario: "Investigate the effect of changing a, b, and c in f(x) = ax² + bx + c where a = 2, b = -4, c = 1."
+    real_world_analogy: "Imagine the value of 'c' is like a lift in a building. Changing 'c' doesn't change the size or shape of the lift (the parabola); it only moves the lift up or down to different floors (the y-axis)."
+    misconception_alert: "Students often think changing 'c' makes the parabola wider or narrower. Use a visualization tool like GeoGebra to show that the shape remains identical; only the y-intercept shifts."
+    scenario: "The quadratic function $f(x) = x^2 - 3x + c$ passes through point $A(-1, 3)$. Calculate the value of $c$."
     working: |
-      Step 1: Note that a = 2, so the parabola opens upwards and is narrower than a standard parabola.
-      Step 2: The term b = -4 moves the vertex along the x-axis, influencing the symmetry line.
-      Step 3: The term c = 1 shifts the parabola upwards by 1 unit.
-      Step 4: Sketch the graph to visualize these changes and confirm understanding.
+      1. State the given function: $f(x) = x^2 - 3x + c$.
+      2. Substitute the coordinates of point $A(-1, 3)$ into the function where $x = -1$ and $f(x) = 3$:
+         $3 = (-1)^2 - 3(-1) + c$
+      3. Simplify the squared term: $(-1)^2 = 1$.
+         $3 = 1 - 3(-1) + c$
+      4. Simplify the multiplication: $-3 \times -1 = +3$.
+         $3 = 1 + 3 + c$
+      5. Add the constants on the right side: $1 + 3 = 4$.
+         $3 = 4 + c$
+      6. Isolate $c$ by subtracting 4 from both sides: $3 - 4 = 4 - 4 + c$.
+      7. Final Result: $c = -1$.
+    source_ref: "Textbook p. 13, Example 2(b)"
 
   - id: WE-03
-    topic: "Menyelesaikan Masalah Persamaan Kuadratik"
+    topic: "Solving Real-World Quadratic Problems"
     difficulty: hard
-    real_world_analogy: "Think of solving a quadratic equation like finding the points where a thrown ball hits the ground, which are the roots of the equation."
-    misconception_alert: "Confusing the axis of symmetry with the roots can lead to incorrect solutions."
-    scenario: "Solve the quadratic equation 2x² - 4x - 6 = 0 by factoring."
+    real_world_analogy: "Think of this as an 'Area Puzzle.' You are given the total size of the final shape and the rules for its sides. Your job is to work backward to find the original measurement ($x$) that makes the whole puzzle fit together."
+    misconception_alert: "The 'Negative Length' Error! In math, $x$ can be negative, but in the real world (geometry), a length like $-40$ cm is impossible. Always reject the negative root in measurement problems."
+    scenario: "Joseph wants to build a cuboid box frame. The base is a square with side $x$ cm. The height is 30 cm more than the length of the base. If the total surface area is $4,800$ cm², calculate the value of $x$."
     working: |
-      Step 1: Rewrite the equation: 2x² - 4x - 6 = 0.
-      Step 2: Factor out the greatest common factor: 2(x² - 2x - 3) = 0.
-      Step 3: Factor the quadratic: 2(x - 3)(x + 1) = 0.
-      Step 4: Set each factor to zero: x - 3 = 0 or x + 1 = 0.
-      Step 5: Solve for x: x = 3 or x = -1.
-      Step 6: Verify the solutions by substituting back into the original equation.
+      1. Define the dimensions: 
+         - Length = $x$
+         - Width = $x$
+         - Height = $x + 30$
+      2. Set up the Total Surface Area formula: $Area = 2(Length \times Width) + 4(Width \times Height)$.
+      3. Substitute the values: $4800 = 2(x \times x) + 4(x)(x + 30)$.
+      4. Expand the terms:
+         - $2(x^2) = 2x^2$
+         - $4x(x + 30) = 4x^2 + 120x$
+         $4800 = 2x^2 + 4x^2 + 120x$
+      5. Combine like terms: $4800 = 6x^2 + 120x$.
+      6. Arrange into general form $ax^2 + bx + c = 0$: $6x^2 + 120x - 4800 = 0$.
+      7. Simplify the equation by dividing all terms by 6:
+         $\frac{6x^2}{6} + \frac{120x}{6} - \frac{4800}{6} = \frac{0}{6}$
+         $x^2 + 20x - 800 = 0$
+      8. Factorize the quadratic expression: $(x + 40)(x - 20) = 0$.
+      9. Solve for $x$: 
+         - $x + 40 = 0 \Rightarrow x = -40$
+         - $x - 20 = 0 \Rightarrow x = 20$
+      10. Apply real-world logic: Since length cannot be negative, $x = -40$ is rejected.
+      11. Conclusion: The value of $x$ is $20$ cm.
+    source_ref: "Textbook p. 26, Example 10"

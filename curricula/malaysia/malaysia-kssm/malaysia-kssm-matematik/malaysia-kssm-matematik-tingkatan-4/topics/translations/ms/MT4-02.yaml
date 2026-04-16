@@ -1,0 +1,66 @@
+id: MT4-02
+official_ref: "2.0"
+name: "Asas Nombor"
+subject_id: malaysia-kssm-matematik-tingkatan-4
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+sync_checked: true
+content_standards:
+  - id: "2.1"
+    text: "Asas Nombor"
+    learning_objectives:
+      - id: "2.1.1"
+        text: "Mewakil dan menjelaskan nombor dalam pelbagai asas dari segi angka, nilai tempat, nilai digit dan nilai nombor berdasarkan proses pengumpulan."
+        bloom: understand
+      - id: "2.1.2"
+        text: "Menukar nombor daripada satu asas kepada asas yang lain menggunakan pelbagai kaedah."
+        bloom: apply
+      - id: "2.1.3"
+        text: "Membuat pengiraan yang melibatkan operasi tambah dan tolak bagi nombor dalam pelbagai asas."
+        bloom: apply
+      - id: "2.1.4"
+        text: "Menyelesaikan masalah yang melibatkan asas nombor."
+        bloom: apply
+prerequisites:
+  required:
+    - id: "MT1-02"
+      name: "Faktor dan Gandaan"
+  recommended:
+    - id: "MT1-01"
+      name: "Nombor Nisbah"
+bloom_levels:
+  - understand
+  - apply
+  - analyze
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+ai_teaching_notes: "MT4-02.teaching.md"
+assessments_file: "MT4-02.assessments.yaml"
+examples_file: "MT4-02.examples.yaml"
+quality_level: 3
+provenance: curriculum-aligned-draft
+teaching:
+  sequence:
+    - "Langkah 1: Perkenalkan konsep asas nombor (2, 8, 10, dan lain-lain) menggunakan carta nilai tempat dan gambar rajah konkrit."
+    - "Langkah 2: Tunjukkan kaedah penukaran antara asas (Asas 10 ke asas lain dan sebaliknya) menggunakan nilai tempat dan pembahagian."
+    - "Langkah 3: Ajar kaedah pintas untuk menukar antara Asas 2 dan Asas 8 menggunakan pengumpulan."
+    - "Langkah 4: Berlatih operasi tambah dan tolak dalam pelbagai asas menggunakan Bentuk Lazim dan kaedah Penukaran Asas."
+    - "Langkah 5: Aplikasikan konsep untuk menyelesaikan masalah dunia sebenar yang melibatkan teknologi dan senario kehidupan harian."
+common_misconceptions:
+  - misconception: "Semua asas menggunakan digit yang sama seperti sistem perpuluhan (0-9)."
+    remediation: "Tekankan bahawa setiap asas 'n' hanya menggunakan digit dari 0 sehingga (n-1). Contohnya, Asas 2 hanya menggunakan 0 dan 1."
+  - misconception: "Operasi aritmetik (kumpul semula dan pinjam) mengikut peraturan asas 10 dalam semua sistem."
+    remediation: "Kukuhkan bahawa nilai kumpul semula atau nilai pinjam adalah sama dengan asas yang digunakan (contohnya, dalam asas 5, kumpul semula 1 mewakili nilai 5)."
+  - misconception: "Menukar antara asas adalah proses rawak tanpa asas matematik."
+    remediation: "Kukuhkan kaitan antara nilai tempat dan proses pengumpulan untuk membuktikan logik penukaran."
+engagement_hooks:
+  - "Bincangkan bagaimana komputer menggunakan binari (asas 2) dan heksadesimal (asas 16) untuk memproses data dan storan."
+  - "Teroka sumbangan sejarah Brahmagupta dalam memperkenalkan digit 0, yang menjadi asas kepada semua asas nombor."
+  - "Hubungkaitkan asas nombor dengan pengekodan di sebalik skrin digital dan alamat memori dalam sains komputer."

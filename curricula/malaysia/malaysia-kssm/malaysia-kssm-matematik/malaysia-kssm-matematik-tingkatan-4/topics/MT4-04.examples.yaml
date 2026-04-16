@@ -1,38 +1,60 @@
 topic_id: MT4-04
-provenance: ai-generated
-description: "Worked examples for OPERASI SET"
+provenance: "official-dskp-aligned"
+description: "Worked examples for Operations on Sets focusing on intersection, union, and combined problem solving."
 worked_examples:
+  # Example 1: Intersection (Easy - TP2)
   - id: WE-01
-    topic: "Persilangan Set"
+    topic: "Intersection of Sets"
     difficulty: easy
-    real_world_analogy: "Imagine two overlapping circles representing two groups of friends. The overlapping part is the intersection, showing friends common to both groups."
-    misconception_alert: "A common mistake is thinking that the intersection includes all elements from both sets, rather than only the common elements."
-    scenario: "Given two sets, A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, find A ∩ B."
+    real_world_analogy: "Think of ordering at a Mamak stall. Set A is 'People who ordered Teh Tarik' and Set B is 'People who ordered Nasi Lemak'. The intersection (A ∩ B) is only those lucky people who ordered BOTH for their meal!"
+    misconception_alert: "Students often think the intersection (∩) means 'combine everything'. Remind them: Intersection is 'Same-Same'—only elements appearing in EVERY set count."
+    scenario: "Given set $P = \{2, 3, 5, 7\}$ (prime numbers) and set $Q = \{x : x \text{ is an odd number, } 1 \leq x \leq 10\}$. Find $P \cap Q$."
     working: |
-      Step 1: Identify elements in both sets A and B.
-      Step 2: Look for common elements that appear in both sets.
-      Step 3: The common elements are 3 and 4. Therefore, A ∩ B = {3, 4}.
+      1. List the elements of set $P$: $P = \{2, 3, 5, 7\}$
+      2. List the elements of set $Q$: $Q = \{1, 3, 5, 7, 9\}$
+      3. Identify elements that appear in both $P$ and $Q$:
+         - Is '2' in $Q$? No.
+         - Is '3' in $Q$? Yes!
+         - Is '5' in $Q$? Yes!
+         - Is '7' in $Q$? Yes!
+      4. Group the common elements into the intersection set: $P \cap Q = \{3, 5, 7\}$
+      5. Final Answer: $P \cap Q = \{3, 5, 7\}$
 
+  # Example 2: Complement of Union (Medium - TP3)
   - id: WE-02
-    topic: "Pelengkap bagi Kesatuan Set"
+    topic: "Complement of the Union of Sets"
     difficulty: medium
-    real_world_analogy: "Consider a library with two sections, fiction and non-fiction. The union of these sections is all the books in the library. The complement is any book not in the library."
-    misconception_alert: "Students often forget that the complement refers to elements outside of the universal set, not just outside the union."
-    scenario: "In a universal set U = {1, 2, 3, 4, 5, 6, 7, 8}, if A = {2, 4, 6} and B = {3, 4, 5}, find the complement of A ∪ B."
+    real_world_analogy: "Imagine the Universal Set is everyone in your classroom. Set A is 'Students in the Robotics Club' and Set B is 'Students in the Chess Club'. The Union (A ∪ B) is anyone in either club. The Complement (A ∪ B)' is the group of students who joined NEITHER club."
+    misconception_alert: "The 'Invisible Universe' Trap! Students often forget to check the Universal Set ($\xi$) and only look at the circles. Remind them that the complement is everyone 'outside' the circles but 'inside' the rectangle."
+    scenario: "Given $\xi = \{x : x \text{ is an integer, } 10 \leq x \leq 20\}$, $A = \{12, 14, 16, 18\}$ and $B = \{10, 12, 15, 18\}$. Determine $(A \cup B)'$."
     working: |
-      Step 1: Determine A ∪ B, which includes all elements in either A or B.
-      Step 2: A ∪ B = {2, 3, 4, 5, 6}.
-      Step 3: Find elements in U that are not in A ∪ B.
-      Step 4: The complement of A ∪ B is {1, 7, 8}.
+      1. List all elements in the Universal Set $\xi$: $\xi = \{10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20\}$
+      2. Find the Union $A \cup B$ by combining all unique elements from both sets:
+         $A \cup B = \{10, 12, 14, 15, 16, 18\}$
+      3. To find $(A \cup B)'$, start with $\xi$ and remove every element found in $A \cup B$:
+         - $\xi$ elements: $\{10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20\}$
+         - Remove 10, 12, 14, 15, 16, 18.
+      4. List the remaining elements: $\{11, 13, 17, 19, 20\}$
+      5. Final Answer: $(A \cup B)' = \{11, 13, 17, 19, 20\}$
 
+  # Example 3: Combined Operations Problem Solving (Hard/KBAT - TP5/6)
   - id: WE-03
-    topic: "Gabungan Operasi Set"
+    topic: "Combined Operations Problem Solving"
     difficulty: hard
-    real_world_analogy: "Think of different types of fruits in a fruit salad. You can combine operations like slicing, dicing, and mixing to achieve the desired salad."
-    misconception_alert: "A common error is mixing up the order of operations, which leads to incorrect results."
-    scenario: "Given sets X = {a, b, c, d}, Y = {b, c, e} and Z = {a, e, f}, find (X ∩ Y) ∪ (Y ∩ Z)."
+    real_world_analogy: "Think of a school survey for three sports. An analogy is like a 'Venn Filter'—to find students who play ONLY one sport, you have to peel away the layers of students who play two or three sports until you are left with the core group."
+    misconception_alert: "The 'Double Counting' Trap! Students often add $n(A) + n(B) + n(C)$ and think that is the total. Warn them: 'The middle part where all three circles overlap is included in every single total! You must subtract the overlaps to find the true individual numbers.'"
+    scenario: "In a survey of 35 residents, 24 join the table tennis competition (T), 13 join badminton (B), and 4 join football and table tennis only. 8 residents join both table tennis and badminton, 2 residents join all three, and 0 residents join badminton and football only. If no one joins ONLY football, calculate the total number of residents who join ONLY one competition."
     working: |
-      Step 1: Find the intersection of X and Y, which is X ∩ Y = {b, c}.
-      Step 2: Find the intersection of Y and Z, which is Y ∩ Z = {e}.
-      Step 3: Find the union of the results from Step 1 and Step 2.
-      Step 4: (X ∩ Y) ∪ (Y ∩ Z) = {b, c, e}.
+      1. **Understand:** We need to find $n(\text{Table Tennis only}) + n(\text{Badminton only}) + n(\text{Football only})$.
+      2. **Plan:** Use a Venn diagram with three sets: $T$ (Table Tennis), $B$ (Badminton), and $F$ (Football).
+      3. **Solve (Step-by-Step Filling):**
+         - Start with the center: $n(T \cap B \cap F) = 2$.
+         - Fill Table Tennis and Badminton overlap: Total is 8, so 'T and B only' is $8 - 2 = 6$.
+         - Fill Table Tennis and Football only: Given as 4.
+         - Fill Badminton and Football only: Given as 0.
+         - Calculate 'Table Tennis only': $24 - (\text{overlaps}) \Rightarrow 24 - 4 - 2 - 6 = 12$.
+         - Calculate 'Badminton only': $13 - (\text{overlaps}) \Rightarrow 13 - 6 - 2 - 0 = 5$.
+         - Calculate 'Football only': Given as 0.
+      4. **Calculate Final Sum:** $12 \text{ (T only)} + 5 \text{ (B only)} + 0 \text{ (F only)} = 17$.
+      5. **Verify:** Check if the regions sum up correctly relative to the total of 35.
+      6. Final Answer: 17 residents.

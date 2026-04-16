@@ -1,0 +1,159 @@
+topic_id: MT4-03
+provenance: expert-curated
+questions:
+  # TP1: Pengetahuan Asas Pernyataan
+  - id: Q1
+    text: "Tentukan sama ada ayat berikut ialah satu pernyataan: '3x + 5 = 8'."
+    difficulty: easy
+    learning_objective: 3.1.1
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Bukan pernyataan"
+      working: |
+        Langkah 1: Kenal pasti sama ada ayat tersebut mempunyai nilai kebenaran yang pasti.
+        Langkah 2: '3x + 5 = 8' ialah ayat terbuka di mana kebenarannya bergantung kepada nilai x.
+        Langkah 3: Kerana ia tidak boleh ditentukan sebagai Benar atau Palsu secara pasti tanpa nilai x, ia bukan satu pernyataan.
+      distractors:
+        - value: "Satu pernyataan"
+          feedback: "Ayat matematik yang mempunyai pemboleh ubah hanya dikira sebagai pernyataan jika nilai pemboleh ubah tersebut ditakrifkan. Jika tidak, ia adalah ayat terbuka."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Adakah ayat ini mempunyai nilai 'Benar' atau 'Palsu' yang tetap sekarang?"
+      - level: 2
+        text: "Fikirkan apa yang berlaku jika x ialah 1 berbanding jika x ialah 10. Adakah jawapannya berubah?"
+
+  # TP2: Memahami Penafian
+  - id: Q2
+    text: "Nafikan pernyataan '8 ialah faktor bagi 20' dan tentukan nilai kebenarannya."
+    difficulty: easy
+    learning_objective: 3.1.2
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "8 bukan faktor bagi 20. (Benar)"
+      working: |
+        Langkah 1: Gunakan perkataan 'bukan' atau 'tidak' untuk menafikan pernyataan asal.
+        Langkah 2: Asal: '8 ialah faktor bagi 20' (Palsu, kerana 20 tidak boleh dibahagi tepat dengan 8).
+        Langkah 3: Penafian: '8 bukan faktor bagi 20'.
+        Langkah 4: Kerana pernyataan asal adalah Palsu, maka penafiannya adalah Benar.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Penafian yang betul menggunakan perkataan 'bukan'."
+      - marks: 1
+        criteria: "Nilai kebenaran bagi pernyataan penafian yang betul."
+    hints:
+      - level: 1
+        text: "Bagaimanakah kita menukar maksud ayat kepada yang bertentangan dalam logik?"
+      - level: 2
+        text: "Jika pernyataan asal adalah 'Palsu', apakah nilai kebenaran bagi penafiannya?"
+
+  # TP3: Membina Implikasi
+  - id: Q3
+    text: "Bina satu implikasi 'Jika p, maka q' berdasarkan: \nAntejadian: $x$ ialah gandaan bagi 10. \nAkibat: $x$ ialah gandaan bagi 5."
+    difficulty: medium
+    learning_objective: 3.1.4
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "Jika $x$ ialah gandaan bagi 10, maka $x$ ialah gandaan bagi 5."
+      working: |
+        Langkah 1: Kenal pasti p (antejadian) dan q (akibat).
+        Langkah 2: Letakkan mereka ke dalam format 'Jika p, maka q'.
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Struktur implikasi 'Jika p, maka q' yang betul."
+    hints:
+      - level: 1
+        text: "Kenal pasti bahagian mana yang merupakan 'sebab' (p) dan mana yang merupakan 'hasil' (q)."
+      - level: 2
+        text: "Hanya sambungkan kedua-duanya menggunakan kata kunci 'Jika' dan 'maka'."
+
+  # TP4: Menganalisis Keesahan Hujah Deduktif
+  - id: Q4
+    text: "Tentukan sama ada hujah berikut adalah sah dan munasabah: \nPremis 1: Semua nombor perdana ialah nombor ganjil. \nPremise 2: 2 ialah nombor perdana. \nKesimpulan: 2 ialah nombor ganjil."
+    difficulty: medium
+    learning_objective: 3.2.2
+    tp_level: 4
+    kbat: true
+    answer:
+      type: multiple_choice
+      value: "Sah tetapi tidak munasabah"
+      working: |
+        Langkah 1: Semak keesahan. Hujah ini mengikut Bentuk I (Semua A ialah B, C ialah A, Maka C ialah B). Oleh itu, ia adalah sah.
+        Langkah 2: Semak kemunasabahan. Premis 1 ('Semua nombor perdana ialah nombor ganjil') adalah Palsu kerana 2 ialah nombor perdana genap.
+        Langkah 3: Hujah yang mempunyai premis palsu adalah tidak munasabah walaupun strukturnya sah.
+      distractors:
+        - value: "Sah dan munasabah"
+          feedback: "Semak Premis 1 dengan teliti. Adakah benar bahawa SETIAP nombor perdana adalah ganjil?"
+        - value: "Tidak sah dan tidak munasabah"
+          feedback: "Strukturnya sebenarnya betul (Bentuk I), jadi ia adalah sah. Isunya terletak pada kebenaran premis tersebut."
+    marks: 3
+    hints:
+      - level: 1
+        text: "Lihat pada 'Bentuk' hujah itu. Adakah kesimpulannya mengikut peraturan Bentuk I?"
+      - level: 2
+        text: "Sekarang, semak sama ada semua premis itu benar dalam kehidupan sebenar. Bagaimana dengan nombor 2?"
+
+  # TP5: Menyelesaikan Masalah Rutin Kompleks (Generalisasi Induktif)
+  - id: Q5
+    text: "Bentuk satu kesimpulan induktif yang kuat bagi urutan nombor berikut: \n$1 = 2(1) - 1$ \n$3 = 2(2) - 1$ \n$5 = 2(3) - 1$ \n$7 = 2(4) - 1$ \n..."
+    difficulty: hard
+    learning_objective: 3.2.5
+    tp_level: 5
+    kbat: true
+    answer:
+      type: free_text
+      value: "$2n - 1; n = 1, 2, 3, 4, ...$"
+      working: |
+        Langkah 1: Perhatikan corak pada sebelah kanan persamaan.
+        Langkah 2: Nombor 2 dan -1 adalah tetap.
+        Langkah 3: Nombor di dalam kurungan (1, 2, 3, 4) mewakili urutan $n$.
+        Langkah 4: Gabungkan ini ke dalam bentuk am $2n - 1$.
+    marks: 3
+    rubric:
+      - marks: 2
+        criteria: "Formula am $2n - 1$ yang betul."
+      - marks: 1
+        criteria: "Takrifan $n$ yang betul (bermula dari 1)."
+    hints:
+      - level: 1
+        text: "Kenal pasti nombor yang kekal sama pada setiap baris dan nombor yang berubah."
+      - level: 2
+        text: "Bahagian yang berubah (1, 2, 3...) boleh digantikan dengan pemboleh ubah $n$."
+
+  # TP6: Penyelesaian Masalah Bukan Rutin secara Kreatif
+  - id: Q6
+    text: "Sebuah kilang menghasilkan mainan menggunakan formula $P(t) = 250t + 20$, di mana $t$ ialah masa dalam jam. Kilang tersebut mesti menghantar 25,000 mainan dalam masa 5 hari, dengan beroperasi 15 jam sehari. Gunakan penaakulan logik untuk menentukan sama ada mereka dapat memenuhi pesanan tersebut dan cadangkan satu penyelesaian jika mereka tidak dapat."
+    difficulty: hard
+    learning_objective: 3.2.6
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Tidak, mereka tidak dapat. Mereka hanya menghasilkan 18,850 mainan. Penyelesaian: Tingkatkan jam harian kepada 20 jam."
+      working: |
+        Langkah 1: Hitung jumlah jam yang ada: $5 \text{ hari} \times 15 \text{ jam} = 75 \text{ jam}$.
+        Langkah 2: Hitung jumlah pengeluaran: $P(75) = 250(75) + 20 = 18,750 + 20 = 18,770$ (atau berdasarkan jam harian).
+        Langkah 3: Pengiraan alternatif: $250(15) + 20 = 3,770$ sehari. Jumlah: $3,770 \times 5 = 18,850$.
+        Langkah 4: $18,850 < 25,000$. Logik: Penaakulan induktif menunjukkan kurangan.
+        Langkah 5: Selesaikan untuk $t$ bagi mencapai 5,000/hari: $250(t) + 20 = 5,000 \rightarrow 250t = 4,980 \rightarrow t \approx 20$.
+    marks: 5
+    rubric:
+      - marks: 1
+        criteria: "Menghitung pengeluaran bagi jam semasa."
+      - marks: 1
+        criteria: "Menyatakan kesimpulan logik (Tidak dapat memenuhi pesanan)."
+      - marks: 3
+        criteria: "Mencadangkan pelarasan matematik yang sah (contoh: jam atau hari) untuk mencapai sasaran."
+    hints:
+      - level: 1
+        text: "Pertama, cari berapa banyak mainan yang mereka buat dalam satu hari, kemudian dalam lima hari."
+      - level: 2
+        text: "Jika jumlahnya kurang daripada 25,000, berapa banyak mainan yang mereka perlu buat SEHARI untuk mencapai matlamat tersebut?"

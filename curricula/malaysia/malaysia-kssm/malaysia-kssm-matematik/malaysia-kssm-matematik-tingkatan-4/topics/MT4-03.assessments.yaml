@@ -1,129 +1,159 @@
 topic_id: MT4-03
-provenance: ai-generated
-
+provenance: expert-curated
 questions:
-  # Learning Objective: 3.1.1
+  # TP1: Basic Knowledge of Statements
   - id: Q1
-    text: 'Tentukan nilai kebenaran bagi pernyataan berikut: "Semua pelajar di kelas ini pandai."'
-    difficulty: medium
+    text: "Determine whether the following sentence is a statement: '3x + 5 = 8'."
+    difficulty: easy
     learning_objective: 3.1.1
-    tp_level: 2
+    tp_level: 1
     kbat: false
     answer:
       type: multiple_choice
-      value: "A"
+      value: "Not a statement"
       working: |
-        Jika terdapat sekurang-kurangnya seorang pelajar yang tidak pandai, maka pernyataan itu adalah palsu. Jika semua pelajar memang pandai, maka pernyataan ini adalah benar.
-    marks: 2
-    rubric:
-      - marks: 2
-        criteria: "Menentukan nilai kebenaran dengan memberikan alasan yang betul."
-      - marks: 1
-        criteria: "Menentukan nilai kebenaran tanpa alasan."
+        Step 1: Identify if the sentence has a definite truth value.
+        Step 2: '3x + 5 = 8' is an open sentence where the truth depends on the value of x.
+        Step 3: Since it cannot be determined as definitely True or False without x, it is not a statement.
+      distractors:
+        - value: "A statement"
+          feedback: "A mathematical sentence with variables is only a statement if the value of the variable is defined. Otherwise, it is an open sentence."
+    marks: 1
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Ingat bahawa 'semua' bermakna tiada pengecualian."
+        text: "Does this sentence have a fixed 'True' or 'False' value right now?"
       - level: 2
-        text: "Pertimbangkan situasi di mana seorang pelajar tidak pandai."
+        text: "Think about what happens if x is 1 versus if x is 10. Does the answer change?"
 
-  # Learning Objective: 3.1.3
+  # TP2: Understanding Negation
   - id: Q2
-    text: 'Tentukan nilai kebenaran bagi pernyataan majmuk: "Jika hari hujan, maka tanah basah dan langit cerah."'
-    difficulty: medium
-    learning_objective: 3.1.3
+    text: "Negate the statement '8 is a factor of 20' and determine its truth value."
+    difficulty: easy
+    learning_objective: 3.1.2
     tp_level: 2
     kbat: false
     answer:
-      type: exact
-      value: "Palsu"
+      type: free_text
+      value: "8 is not a factor of 20. (True)"
       working: |
-        Pernyataan ini adalah majmuk kerana mengandungi dua klausa: "tanah basah" dan "langit cerah". Jika hujan, tanah basah adalah benar, tetapi langit cerah adalah palsu. Oleh itu, pernyataan majmuk ini adalah palsu.
+        Step 1: Use 'no' or 'not' to negate the original statement.
+        Step 2: Original: '8 is a factor of 20' (False, because 20 is not divisible by 8).
+        Step 3: Negation: '8 is not a factor of 20'.
+        Step 4: Since the original was False, the negation is True.
     marks: 2
     rubric:
-      - marks: 2
-        criteria: "Menentukan nilai kebenaran dengan justifikasi yang tepat."
       - marks: 1
-        criteria: "Menentukan nilai kebenaran tetapi dengan alasan yang kurang tepat."
+        criteria: "Correct negation using the word 'not'."
+      - marks: 1
+        criteria: "Correct truth value of the negated statement."
     hints:
       - level: 1
-        text: "Pertimbangkan kedua-dua klausa dalam pernyataan majmuk."
+        text: "How do we change the meaning of a sentence to its opposite in logic?"
       - level: 2
-        text: "Bagaimana mungkin langit cerah jika hari hujan?"
+        text: "If the original statement was 'False', what must the truth value of its negation be?"
 
-  # Learning Objective: 3.1.4
+  # TP3: Constructing Implications
   - id: Q3
-    text: 'Bina pernyataan dalam bentuk implikasi bagi situasi berikut: "Semua kucing boleh memanjat pokok."'
+    text: "Construct an implication 'If p, then q' based on: \nAntecedent: $x$ is a multiple of 10. \nConsequent: $x$ is a multiple of 5."
     difficulty: medium
     learning_objective: 3.1.4
     tp_level: 3
-    kbat: true
-    answer:
-      type: free_text
-      value: "Jika seekor haiwan adalah kucing, maka ia boleh memanjat pokok."
-      working: |
-        Diberikan bahawa semua kucing mempunyai kebolehan memanjat pokok, implikasi yang sesuai adalah: "Jika seekor haiwan adalah kucing, maka ia boleh memanjat pokok."
-    marks: 3
-    rubric:
-      - marks: 3
-        criteria: "Membina pernyataan implikasi dengan struktur yang betul."
-      - marks: 2
-        criteria: "Membina pernyataan implikasi dengan sedikit kesalahan struktur."
-      - marks: 1
-        criteria: "Membina pernyataan yang tidak lengkap."
-    hints:
-      - level: 1
-        text: "Ingat format implikasi: 'Jika p, maka q'."
-      - level: 2
-        text: "Misalnya, 'Jika sesuatu adalah kucing, maka ia...'."
-
-  # Learning Objective: 3.1.6
-  - id: Q4
-    text: 'Selesaikan masalah ini menggunakan penaakulan logik: "Ali, Ben, dan Chan mengambil bahagian dalam pertandingan. Jika Ali menang, Ben akan sedih. Ali tidak menang. Apakah emosi Ben?"'
-    difficulty: medium
-    learning_objective: 3.1.6
-    tp_level: 3
-    kbat: true
+    kbat: false
     answer:
       type: exact
-      value: "Tidak sedih"
+      value: "If $x$ is a multiple of 10, then $x$ is a multiple of 5."
       working: |
-        Berdasarkan pernyataan implikasi: "Jika Ali menang, Ben akan sedih." Diketahui bahawa Ali tidak menang, maka tidak ada alasan bagi Ben untuk sedih.
-    marks: 3
+        Step 1: Identify p (antecedent) and q (consequent).
+        Step 2: Place them in the 'If p, then q' format.
+    marks: 2
     rubric:
-      - marks: 3
-        criteria: "Menggunakan penaakulan logik dengan tepat untuk menyelesaikan masalah."
       - marks: 2
-        criteria: "Menggunakan penaakulan logik tetapi dengan kesalahan kecil."
-      - marks: 1
-        criteria: "Kesimpulan yang betul tanpa penjelasan logik."
+        criteria: "Correct structure of the implication 'If p, then q'."
     hints:
       - level: 1
-        text: "Fokus pada pernyataan implikasi dan fakta yang diberikan."
+        text: "Identify which part is the 'cause' (p) and which is the 'result' (q)."
       - level: 2
-        text: "Apa berlaku jika Ali tidak menang berdasarkan pernyataan yang diberikan?"
+        text: "Simply join them using the keywords 'If' and 'then'."
 
-  # Learning Objective: 3.2.3
-  - id: Q5
-    text: 'Bentuk hujah deduktif yang sah: "Semua manusia memerlukan oksigen untuk hidup. Anna adalah manusia. Oleh itu, ..."'
+  # TP4: Analyzing Validity of Deductive Arguments
+  - id: Q4
+    text: "Determine if the following argument is valid and sound: \nPremise 1: All prime numbers are odd numbers. \nPremise 2: 2 is a prime number. \nConclusion: 2 is an odd number."
     difficulty: medium
-    learning_objective: 3.2.3
-    tp_level: 3
+    learning_objective: 3.2.2
+    tp_level: 4
+    kbat: true
+    answer:
+      type: multiple_choice
+      value: "Valid but not sound"
+      working: |
+        Step 1: Check validity. The argument follows Form I (All A are B, C is A, Therefore C is B). Thus, it is valid.
+        Step 2: Check soundness. Premise 1 ('All prime numbers are odd') is False because 2 is a even prime number.
+        Step 3: An argument with a false premise is unsound even if the structure is valid.
+      distractors:
+        - value: "Valid and sound"
+          feedback: "Check Premise 1 carefully. Is it actually true that EVERY prime number is odd?"
+        - value: "Not valid and not sound"
+          feedback: "The structure is actually correct (Form I), so it is valid. The issue lies in the truth of the premises."
+    marks: 3
+    hints:
+      - level: 1
+        text: "Look at the 'Form' of the argument. Does the conclusion follow the rules of Form I?"
+      - level: 2
+        text: "Now, check if all the premises are actually True in real life. What about the number 2?"
+
+  # TP5: Solving Complex Routine Problems (Inductive Generalization)
+  - id: Q5
+    text: "Form a strong inductive conclusion for the following number sequence: \n$1 = 2(1) - 1$ \n$3 = 2(2) - 1$ \n$5 = 2(3) - 1$ \n$7 = 2(4) - 1$ \n..."
+    difficulty: hard
+    learning_objective: 3.2.5
+    tp_level: 5
     kbat: true
     answer:
       type: free_text
-      value: "Anna memerlukan oksigen untuk hidup."
+      value: "$2n - 1; n = 1, 2, 3, 4, ...$"
       working: |
-        Berdasarkan premis deduktif: "Semua manusia memerlukan oksigen untuk hidup" dan fakta bahawa "Anna adalah manusia", kita boleh membuat kesimpulan bahawa "Anna memerlukan oksigen untuk hidup."
+        Step 1: Observe the pattern on the right side of the equations.
+        Step 2: The number 2 and -1 are constant. 
+        Step 3: The numbers in brackets (1, 2, 3, 4) represent the sequence $n$.
+        Step 4: Combine these into the general form $2n - 1$.
     marks: 3
     rubric:
-      - marks: 3
-        criteria: "Membentuk hujah deduktif yang lengkap dan tepat."
       - marks: 2
-        criteria: "Hujah deduktif dengan sedikit kesalahan."
+        criteria: "Correct general formula $2n - 1$."
       - marks: 1
-        criteria: "Hujah deduktif yang tidak lengkap."
+        criteria: "Correct definition of $n$ (starting from 1)."
     hints:
       - level: 1
-        text: "Ingat bahawa deduktif melibatkan pengambilan kesimpulan langsung dari premis."
+        text: "Identify which numbers stay the same in every row and which ones change."
       - level: 2
-        text: "Apa yang perlu semua manusia, termasuk Anna, untuk hidup?"
+        text: "The part that changes (1, 2, 3...) can be replaced with the variable $n$."
+
+  # TP6: Non-routine Creative Problem Solving
+  - id: Q6
+    text: "A factory produces toys using the formula $P(t) = 250t + 20$, where $t$ is time in hours. The factory must deliver 25,000 toys in 5 days, operating 15 hours a day. Use logical reasoning to determine if they can meet the order and suggest a solution if they cannot."
+    difficulty: hard
+    learning_objective: 3.2.6
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "No, they cannot. They only produce 18,850 toys. Solution: Increase daily hours to 20."
+      working: |
+        Step 1: Calculate total hours available: $5 \text{ days} \times 15 \text{ hours} = 75 \text{ hours}$.
+        Step 2: Calculate total production: $P(75) = 250(75) + 20 = 18,750 + 20 = 18,770$ (or based on daily hours).
+        Step 3: Alternative calculation: $250(15) + 20 = 3,770$ per day. Total: $3,770 \times 5 = 18,850$.
+        Step 4: $18,850 < 25,000$. Logic: Inductive reasoning shows a deficit. 
+        Step 5: Solving for $n$ to reach 5,000/day: $250(t) + 20 = 5,000 \rightarrow 250t = 4,980 \rightarrow t \approx 20$.
+    marks: 5
+    rubric:
+      - marks: 1
+        criteria: "Calculate production for current hours."
+      - marks: 1
+        criteria: "State the logical conclusion (Cannot meet order)."
+      - marks: 3
+        criteria: "Propose a valid mathematical adjustment (e.g., hours or days) to meet the target."
+    hints:
+      - level: 1
+        text: "First, find out how many toys they make in one day, then in five days."
+      - level: 2
+        text: "If the total is less than 25,000, how many toys do they need to make PER DAY to reach the goal?"

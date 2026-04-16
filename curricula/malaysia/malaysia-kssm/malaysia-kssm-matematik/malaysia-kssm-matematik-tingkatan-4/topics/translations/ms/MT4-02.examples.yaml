@@ -1,0 +1,75 @@
+topic_id: MT4-02
+provenance: curriculum-aligned-master
+description: "Contoh kerja bagi topik Asas Nombor mengikut silibus KSSM Tingkatan 4."
+worked_examples:
+  - id: WE-01
+    topic: "Mewakilkan Nombor dalam Pelbagai Asas"
+    difficulty: easy
+    learning_objective: "2.1.1"
+    real_world_analogy: "Bayangkan asas nombor seperti membungkus telur. Dalam Asas 10, kita bungkus dalam kotak berisi 10. Dalam Asas 8, kita 'bungkus semula' telur yang sama ke dalam kotak berisi 8. Rupa nombor berubah, tapi jumlah telur tetap sama!"
+    misconception_alert: "Perangkap 'Kod Rahsia'! Pelajar sering fikir $12_8$ bermaksud 'dua belas'. Ingatkan mereka untuk sebut 'satu-dua asas lapan' kerana ia mewakili satu kumpulan lapan dan dua unit baki, bukannya satu sepuluh dan dua unit."
+    scenario: "Wakilkan nombor perpuluhan $11_{10}$ sebagai nombor dalam Asas 8 menggunakan proses pengumpulan."
+    working: |
+      Langkah 1: Kenal pasti jumlah unit dalam Asas 10: 11 unit.
+      Langkah 2: Tentukan kumpulan untuk Asas 8. Kerana kita dalam Asas 8, satu kumpulan mempunyai 8 unit.
+      Langkah 3: Hitung bilangan kumpulan 8 yang boleh dibentuk: $11 \div 8 = 1$ kumpulan.
+      Langkah 4: Hitung baki unit yang tinggal: $11 - 8 = 3$ unit baki.
+      Langkah 5: Letakkan bilangan kumpulan di tempat $8^1$ and baki di tempat $8^0$.
+      Langkah 6: Hasilnya: $1 (kumpulan) \text{ dan } 3 (baki) = 13_8$.
+      Jawapan Akhir: $11_{10} = 13_8$
+
+  - id: WE-02
+    topic: "Menukar Antara Asas (Kaedah Jambatan)"
+    difficulty: medium
+    learning_objective: "2.1.2"
+    real_world_analogy: "Bayangkan 'Pengurup Wang' di KLIA. Anda tidak boleh tukar Asas 6 terus kepada Asas 9. Anda mesti tukar 'mata wang' Asas 6 anda kepada mata wang umum (Asas 10) dahulu, kemudian barulah tukar Asas 10 tersebut kepada Asas 9."
+    misconception_alert: "Ralat 'Lif Terbalik'! Semasa melakukan pembahagian berulang untuk mencari asas baru, pelajar sering membaca baki dari atas ke bawah. Anda MESTI membaca dari bawah (baki terakhir) ke atas!"
+    scenario: "Tukarkan $253_6$ kepada nombor dalam Asas 9."
+    working: |
+      Langkah 1: Tukar $253_6$ kepada Asas 10 menggunakan kaedah pendaraban nilai tempat.
+      $253_6 = (2 \times 6^2) + (5 \times 6^1) + (3 \times 6^0)$
+      Langkah 2: Hitung setiap bahagian: $2 \times 36 = 72$; $5 \times 6 = 30$; $3 \times 1 = 3$.
+      Langkah 3: Jumlahkan semua nilai: $72 + 30 + 3 = 105_{10}$.
+      Langkah 4: Tukar $105_{10}$ kepada Asas 9 menggunakan pembahagian berulang.
+      $105 \div 9 = 11 \text{ baki } 6$
+      $11 \div 9 = 1 \text{ baki } 2$
+      $1 \div 9 = 0 \text{ baki } 1$
+      Langkah 5: Baca baki dari bawah ke atas: $1, 2, 6$.
+      Jawapan Akhir: $253_6 = 126_9$
+
+  - id: WE-03
+    topic: "Operasi Tambah dalam Pelbagai Asas"
+    difficulty: medium
+    learning_objective: "2.1.3"
+    real_world_analogy: "Ia seperti mengira masa. Jika anda tambah 50 minit dan 20 minit, anda tidak dapat 70 minit; anda dapat 1 jam (kumpulan 60) dan 10 minit baki. Dalam Asas 8, sebaik sahaja jumlah mencecah 8, anda MESTI 'bawa ke sebelah' satu kumpulan tersebut!"
+    misconception_alert: "Refleks 'Otak Perpuluhan'! Pelajar sering menulis '8' atau '9' dalam jawapan Asas 8. Ingatkan mereka: 'Kalau anda dalam kelab Asas 8, angka 8 dan 9 adalah DIHARAMKAN!'"
+    scenario: "Hitungkan jumlah $673_8 + 175_8$ menggunakan Bentuk Lazim."
+    working: |
+      Langkah 1: Susun nombor dalam bentuk lazim:
+        $673_8$
+      + $175_8$
+      ----------
+      Langkah 2: Tambah lajur $8^0$: $3 + 5 = 8_{10}$. 
+      Langkah 3: Tukar $8_{10}$ kepada Asas 8: $8 = 1 \times 8 + 0$, iaitu $10_8$. Tulis $0$, bawa $1$ ke sebelah.
+      Langkah 4: Tambah lajur $8^1$: $7 + 7 + 1 (\text{bawa}) = 15_{10}$.
+      Langkah 5: Tukar $15_{10}$ kepada Asas 8: $15 = 1 \times 8 + 7$, iaitu $17_8$. Tulis $7$, bawa $1$ ke sebelah.
+      Langkah 6: Tambah lajur $8^2$: $6 + 1 + 1 (\text{bawa}) = 8_{10}$.
+      Langkah 7: Tukar $8_{10}$ kepada Asas 8: $8 = 1 \times 8 + 0$, iaitu $10_8$. Tulis $0$, bawa $1$ ke sebelah.
+      Jawapan Akhir: $1070_8$
+
+  - id: WE-04
+    topic: "Penyelesaian Masalah Asas Nombor"
+    difficulty: hard
+    learning_objective: "2.1.4"
+    real_world_analogy: "Seorang penganalisis data di Zoo Negara perlu melaporkan jumlah pelawat dalam format sistem yang berbeza. Ia adalah tentang menterjemah data dunia sebenar ke dalam 'bahasa' yang difahami oleh sistem komputer."
+    misconception_alert: "Perangkap 'Lompat Tukar'! Pelajar sering cuba mengira peratusan atau aritmetik terus pada asas yang berbeza tanpa menukar ke Asas 10 dahulu. Sentiasa cari kuantiti perpuluhan (decimal) yang 'sebenar' sebelum berpindah ke asas baru!"
+    scenario: "Purata bilangan pelawat ke Zoo Negara sehari pada bulan Januari ialah $20202_5$. Hitungkan jumlah pelawat bagi 31 hari dalam bulan Januari dalam Asas 10."
+    working: |
+      Langkah 1: Memahami masalah. Kita perlukan (Purata dalam Asas 5) $\times$ (31 hari) dalam Asas 10.
+      Langkah 2: Tukar purata harian $20202_5$ kepada Asas 10 menggunakan pendaraban nilai tempat.
+      $2(5^4) + 0(5^3) + 2(5^2) + 0(5^1) + 2(5^0)$
+      Langkah 3: Hitung nilai kuasa: $5^4=625, 5^3=125, 5^2=25, 5^1=5, 5^0=1$.
+      Langkah 4: Darab dengan digit: $2(625) + 0 + 2(25) + 0 + 2(1) = 1250 + 50 + 2 = 1302_{10}$.
+      Langkah 5: Darabkan purata harian Asas 10 dengan bilangan hari: $1302 \times 31$.
+      Langkah 6: $1302 \times 31 = 40362$.
+      Jawapan Akhir: Jumlah pelawat = $40362$

@@ -1,0 +1,69 @@
+topic_id: MT4-01
+provenance: curriculum-aligned
+worked_examples:
+  - id: WE-01
+    topic: "Mengenal Pasti Ungkapan Kuadratik"
+    difficulty: easy
+    real_world_analogy: "Fikirkan ungkapan kuadratik seperti sebidang tanah segi empat tepat 2D. Untuk mengira luas, anda mesti mempunyai dua dimensi yang didarab (seperti $x \times x = x^2$). Jika anda hanya mempunyai $x$, ia hanyalah satu garisan pagar yang lurus!"
+    misconception_alert: "Perangkap 'Zero Tersembunyi'! Pelajar selalu ingat $x^2 + 5$ bukan kuadratik sebab sebutan '$x$' hilang. Ingatkan mereka pekali $b$ boleh jadi sifar ($0x$), tetapi $a$ (pekali bagi $x^2$) tidak boleh sifar!"
+    scenario: "Tentukan sama ada ungkapan $\frac{1}{2}m^2$ ialah ungkapan kuadratik dalam satu pemboleh ubah. Justifikasikan jawapan anda berdasarkan bentuk am $ax^2 + bx + c$."
+    working: |
+      1. Kenal pasti pemboleh ubah dalam ungkapan: Pemboleh ubahnya ialah $m$.
+      2. Kenal pasti kuasa tertinggi pemboleh ubah: Kuasa tertinggi bagi $m$ ialah 2.
+      3. Bandingkan dengan bentuk am $ax^2 + bx + c$:
+         - Di sini, $a = \frac{1}{2}$
+         - $b = 0$
+         - $c = 0$
+      4. Semak syarat untuk $a$: Memandangkan $a \neq 0$ dan kuasa tertinggi ialah 2, syarat ini dipenuhi.
+      5. Kesimpulan: Ya, $\frac{1}{2}m^2$ ialah ungkapan kuadratik kerana ia mempunyai satu pemboleh ubah dan kuasa tertinggi pemboleh ubah tersebut ialah 2.
+    source_ref: "Buku Teks ms. 3, Contoh 1(d)"
+
+  - id: WE-02
+    topic: "Kesan Parameter 'c' pada Graf"
+    difficulty: medium
+    real_world_analogy: "Nilai 'c' adalah seperti lif di dalam bangunan. Mengubah 'c' tidak mengubah saiz atau bentuk lif (parabola); ia hanya menggerakkan lif naik atau turun ke tingkat yang berbeza (paksi-y)."
+    misconception_alert: "Pelajar selalu ingat 'c' ubah kelebaran graf. Gunakan GeoGebra untuk buktikan hanya pintasan-y yang berubah!"
+    scenario: "Fungsi kuadratik $f(x) = x^2 - 3x + c$ melalui titik $A(-1, 3)$. Hitung nilai $c$."
+    working: |
+      1. Tulis fungsi yang diberikan: $f(x) = x^2 - 3x + c$.
+      2. Gantikan koordinat titik $A(-1, 3)$ ke dalam fungsi di mana $x = -1$ dan $f(x) = 3$:
+         $3 = (-1)^2 - 3(-1) + c$
+      3. Kira kuasa dua: $(-1)^2 = 1$.
+         $3 = 1 - 3(-1) + c$
+      4. Kira pendaraban: $-3 \times -1 = +3$.
+         $3 = 1 + 3 + c$
+      5. Jumlahkan pemalar di sebelah kanan: $1 + 3 = 4$.
+         $3 = 4 + c$
+      6. Pindahkan 4 ke kiri: $3 - 4 = c$.
+      7. Jawapan akhir: $c = -1$.
+    source_ref: "Buku Teks ms. 13, Contoh 2(b)"
+
+  - id: WE-03
+    topic: "Menyelesaikan Masalah Kuadratik Dunia Sebenar"
+    difficulty: hard
+    real_world_analogy: "Fikirkan ini sebagai 'Teka-teki Luas.' Anda diberi saiz keseluruhan bentuk akhir dan peraturan bagi sisi-sisinya. Tugas anda adalah untuk mencari ukuran asal ($x$) yang membuatkan teka-teki itu padan."
+    misconception_alert: "Ralat 'Panjang Negatif'! Dalam matematik, $x$ boleh jadi negatif, tetapi dalam dunia sebenar (geometri), panjang seperti $-40$ cm adalah mustahil. Sentiasa tolak punca negatif dalam masalah ukuran."
+    scenario: "Joseph ingin membina rangka sebuah kotak berbentuk kuboid. Tapaknya ialah segi empat sama dengan sisi $x$ cm. Tingginya adalah 30 cm lebih daripada panjang tapak. Jika jumlah luas permukaan ialah $4,800$ cm², hitung nilai $x$."
+    working: |
+      1. Takrifkan dimensi:
+         - Panjang = $x$
+         - Lebar = $x$
+         - Tinggi = $x + 30$
+      2. Bina formula Jumlah Luas Permukaan: $Luas = 2(\text{Luas Tapak}) + 4(\text{Luas Sisi})$.
+      3. Gantikan nilai: $4800 = 2(x \times x) + 4(x)(x + 30)$.
+      4. Kembangkan sebutan:
+         - $2(x^2) = 2x^2$
+         - $4x(x + 30) = 4x^2 + 120x$
+         $4800 = 2x^2 + 4x^2 + 120x$
+      5. Kumpulkan sebutan serupa: $4800 = 6x^2 + 120x$.
+      6. Susun dalam bentuk am $ax^2 + bx + c = 0$: $6x^2 + 120x - 4800 = 0$.
+      7. Permudahkan persamaan dengan membahagi setiap sebutan dengan 6:
+         $\frac{6x^2}{6} + \frac{120x}{6} - \frac{4800}{6} = \frac{0}{6}$
+         $x^2 + 20x - 800 = 0$
+      8. Faktorkan ungkapan kuadratik tersebut: $(x + 40)(x - 20) = 0$.
+      9. Selesaikan untuk $x$:
+         - $x + 40 = 0 \Rightarrow x = -40$
+         - $x - 20 = 0 \Rightarrow x = 20$
+      10. Gunakan logik dunia sebenar: Panjang tidak boleh negatif, maka $x = -40$ ditolak.
+      11. Kesimpulan: Nilai $x$ ialah $20$ cm.
+    source_ref: "Buku Teks ms. 26, Contoh 10"

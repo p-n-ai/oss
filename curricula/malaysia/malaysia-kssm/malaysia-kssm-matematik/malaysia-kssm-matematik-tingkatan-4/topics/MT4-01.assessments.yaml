@@ -1,117 +1,210 @@
 topic_id: MT4-01
-provenance: ai-generated
-
+provenance: curriculum-aligned
 questions:
-  # Learning Objective 1.1.1
   - id: Q1
-    text: 'Tentukan sama ada ungkapan $3x^2 - 5x + 2$ adalah ungkapan kuadratik dalam satu pemboleh ubah dan terangkan sebabnya.'
-    difficulty: medium
-    learning_objective: 1.1.1
-    tp_level: 2
+    text: "Determine if the expression $3x^2 - 5x + 2$ is a quadratic expression in one variable. Explain your reason."
+    difficulty: easy
+    learning_objective: "1.1.1"
+    tp_level: 1
     kbat: false
     answer:
       type: free_text
-      value: 'Ya, ungkapan ini adalah ungkapan kuadratik dalam satu pemboleh ubah kerana ia mempunyai bentuk $ax^2 + bx + c$.'
+      value: "Yes, it is a quadratic expression because it has one variable x and the highest power of the variable is 2."
       working: |
-        Ungkapan $3x^2 - 5x + 2$ adalah dalam bentuk $ax^2 + bx + c$ di mana $a = 3$, $b = -5$, dan $c = 2$. Oleh itu, ia adalah ungkapan kuadratik.
+        Step 1: Identify the variable. There is only 'x'.
+        Step 2: Identify the powers of 'x'. The powers are 2 and 1.
+        Step 3: Check the highest power. The highest power is 2.
+        Conclusion: Since it follows the form $ax^2 + bx + c$, it is a quadratic expression.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Mengenal pasti bahawa ungkapan adalah dalam bentuk kuadratik."
+        criteria: "Correct identification of the expression as quadratic."
       - marks: 1
-        criteria: "Memberikan penjelasan yang betul."
+        criteria: "Correct explanation citing one variable and highest power of 2."
     hints:
       - level: 1
-        text: "Periksa bentuk umum ungkapan kuadratik $ax^2 + bx + c$."
+        text: "Recall the general form $ax^2 + bx + c$. What is the highest power allowed?"
 
-  # Learning Objective 1.1.2
   - id: Q2
-    text: 'Pilih ciri-ciri berikut yang betul untuk fungsi kuadratik: (A) Graf berbentuk parabola, (B) Mempunyai satu titik puncak, (C) Simetri tentang paksi-$x$.'
+    text: "Which of the following describes the type of relation for a quadratic function $f(x) = ax^2 + bx + c$?"
     difficulty: medium
-    learning_objective: 1.1.2
+    learning_objective: "1.1.2"
     tp_level: 2
     kbat: false
     answer:
-      type: multiple_choice      
-      value: 'A, B'
+      type: multiple_choice
+      value: "Many-to-one relation"
       working: |
-        Fungsi kuadratik mempunyai graf berbentuk parabola dan satu titik puncak. Ia adalah simetri tentang paksi-$y$, bukan paksi-$x$.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Memilih ciri (A) dan (B) dengan betul."
-      - marks: 1
-        criteria: "Mengelakkan pilihan yang salah."
+        A quadratic function has a parabolic shape. For two different values of x, you can have the same value of f(x) (the y-coordinate).
+      distractors:
+        - value: "One-to-one relation"
+          feedback: "In a one-to-one relation, each x has a unique y. In a parabola (e.g., $x^2$), both $x=2$ and $x=-2$ result in $y=4$."
+        - value: "One-to-many relation"
+          feedback: "This would mean one x-value has multiple y-values, which fails the vertical line test for functions."
+        - value: "Many-to-many relation"
+          feedback: "This is a general relation but specifically, quadratic functions are many-to-one because they pass the vertical line test."
+    marks: 1
+
+  - id: Q3
+    text: "True or False: In the function $f(x) = ax^2 + bx + c$, if the value of $a$ increases from 1 to 5, the opening of the parabola becomes narrower."
+    difficulty: medium
+    learning_objective: "1.1.3"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "True"
+      working: |
+        As the absolute value of 'a' increases, the 'y' values grow faster for the same 'x' values, causing the graph to stretch vertically and appear narrower.
+    marks: 1
     hints:
       - level: 1
-        text: "Ingat bahawa fungsi kuadratik mempunyai simetri tentang paksi menegak, bukan mendatar."
+        text: "Think about the 'Shape-Shifter' rule. Does a bigger 'a' make the graph slim or fat?"
 
-  # Learning Objective 1.1.3
-  - id: Q3
-    text: 'Analisis kesan peningkatan nilai $a$ dalam fungsi kuadratik $f(x) = ax^2 + bx + c$ terhadap bentuk graf.'
+  - id: Q4
+    text: "A rectangular piece of land has a length of $(x + 20)$ m and a width of $(x + 5)$ m. If the area of the land is $250$ m², form a quadratic equation in general form."
     difficulty: medium
-    learning_objective: 1.1.3
-    tp_level: 3
+    learning_objective: "1.1.4"
+    tp_level: 4
     kbat: true
     answer:
-      type: free_text
-      value: 'Peningkatan nilai $a$ menyebabkan parabola menjadi lebih sempit.'
+      type: exact
+      value: "x^2 + 25x - 150 = 0"
       working: |
-        Apabila nilai $a$ meningkat, pekali bagi $x^2$ menjadi lebih besar, menyebabkan parabola menjadi lebih sempit kerana kadar perubahan menegak meningkat.
+        Step 1: Area = Length × Width
+        Step 2: $(x + 20)(x + 5) = 250$
+        Step 3: Expand the brackets: $x^2 + 5x + 20x + 100 = 250$
+        Step 4: Combine like terms: $x^2 + 25x + 100 = 250$
+        Step 5: Set to zero: $x^2 + 25x + 100 - 250 = 0$
+        Result: $x^2 + 25x - 150 = 0$
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Memahami bahawa $a$ mempengaruhi bentuk graf."
+        criteria: "Set up the area multiplication correctly."
       - marks: 1
-        criteria: "Menggambarkan kesan peningkatan $a$ dengan tepat."
+        criteria: "Correct expansion of brackets."
       - marks: 1
-        criteria: "Menggunakan terminologi matematik yang betul."
+        criteria: "Final equation in general form $ax^2 + bx + c = 0$."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Perubahan pada $a$ tidak mengubah arah parabola jika tetap positif."
+        text: "Start with Area = Length × Width. Don't forget to expand $(x+a)(x+b)$ using the 'handshake' method."
 
-  # Learning Objective 1.1.4
-  - id: Q4
-    text: 'Suatu objek dilemparkan ke atas dan ketinggiannya $h$ dalam meter selepas $t$ saat diberikan oleh $h(t) = -5t^2 + 20t + 2$. Bentukkan fungsi kuadratik berdasarkan situasi ini.'
-    difficulty: medium
-    learning_objective: 1.1.4
-    tp_level: 3
+  - id: Q5
+    text: "What is the meaning of the 'roots' of the quadratic equation $f(x) = 0$?"
+    difficulty: easy
+    learning_objective: "1.1.5"
+    tp_level: 2
     kbat: false
     answer:
-      type: free_text
-      value: 'Fungsi kuadratik sudah diberikan sebagai $h(t) = -5t^2 + 20t + 2$.'
+      type: multiple_choice
+      value: "The x-intercepts where the graph intersects the x-axis."
       working: |
-        Situasi ini mewakili pergerakan menegak objek dengan fungsi kuadratik $h(t) = -5t^2 + 20t + 2$, yang menunjukkan ketinggian bergantung kepada masa.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menggambarkan situasi sebagai fungsi kuadratik."
-      - marks: 1
-        criteria: "Memberikan fungsi yang tepat."
-    hints:
-      - level: 1
-        text: "Perhatikan bahawa fungsi ketinggian telah diberikan dalam bentuk kuadratik."
+        The roots are the values of x that satisfy the equation when y (or f(x)) is zero. Graphically, this is where the curve touches the x-axis.
+      distractors:
+        - value: "The y-intercept of the graph."
+          feedback: "The y-intercept is the value of 'c' where $x=0$. Roots are where $y=0$."
+        - value: "The highest or lowest point of the parabola."
+          feedback: "That is the vertex or turning point, not the roots."
+    marks: 1
 
-  # Learning Objective 1.1.6
-  - id: Q5
-    text: 'Cari punca persamaan kuadratik $x^2 - 3x - 10 = 0$ dengan kaedah pemfaktoran.'
+  - id: Q6
+    text: "Solve the quadratic equation $x^2 - 3x - 10 = 0$ using the factorization method."
     difficulty: medium
-    learning_objective: 1.1.6
+    learning_objective: "1.1.6"
     tp_level: 3
     kbat: false
     answer:
       type: exact
       value: "x = 5, x = -2"
       working: |
-        Untuk memfaktorkan: 
-        $x^2 - 3x - 10 = (x - 5)(x + 2) = 0$. 
-        Maka, punca adalah $x = 5$ dan $x = -2$.
+        Step 1: Find two numbers that multiply to -10 and add to -3.
+        Step 2: The numbers are -5 and 2.
+        Step 3: Write the factors: $(x - 5)(x + 2) = 0$
+        Step 4: Solve for x: $x - 5 = 0$ or $x + 2 = 0$
+        Result: $x = 5, x = -2$
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Memfaktorkan persamaan dengan betul."
-      - marks: 2
-        criteria: "Menentukan kedua-dua punca dengan tepat."
+        criteria: "Identify the correct factors (-5 and 2)."
+      - marks: 1
+        criteria: "Correct factorization $(x-5)(x+2)$."
+      - marks: 1
+        criteria: "Correct final roots."
     hints:
       - level: 1
-        text: "Cari dua nombor yang hasil darabnya -10 dan jumlahnya -3."
+        text: "Think of two numbers. Multiply = -10. Add = -3. What are they?"
+
+  - id: Q7
+    text: "Determine the coordinates of the turning point for the function $f(x) = x^2 - 4x + 3$ and state if it is a maximum or minimum point."
+    difficulty: hard
+    learning_objective: "1.1.7"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "(2, -1), Minimum point"
+      working: |
+        Step 1: Check the value of 'a'. $a = 1$. Since $a > 0$, it is a minimum point.
+        Step 2: Find axis of symmetry $x = -b / (2a)$. $x = -(-4) / (2(1)) = 4/2 = 2$.
+        Step 3: Substitute $x=2$ into $f(x)$: $f(2) = (2)^2 - 4(2) + 3 = 4 - 8 + 3 = -1$.
+        Result: Point is $(2, -1)$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correct identification of minimum point shape."
+      - marks: 2
+        criteria: "Correct calculation of coordinates (2, -1)."
+
+  - id: Q8
+    text: "Joseph wants to build a box frame in the shape of a cuboid. The height is 30 cm more than the length of its base. The base is square with side $x$ cm. If the total surface area is $4800$ cm², calculate the value of $x$."
+    difficulty: hard
+    learning_objective: "1.1.8"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "20"
+      working: |
+        Step 1: Dimensions: Base = $x$ by $x$, Height = $(x+30)$.
+        Step 2: Surface Area $A = 2(\text{base area}) + 4(\text{side area})$
+        Step 3: $4800 = 2(x^2) + 4(x)(x+30)$
+        Step 4: $4800 = 2x^2 + 4x^2 + 120x \Rightarrow 6x^2 + 120x - 4800 = 0$
+        Step 5: Divide by 6: $x^2 + 20x - 800 = 0$
+        Step 6: Factorize: $(x+40)(x-20) = 0$
+        Step 7: $x = -40$ (reject) or $x = 20$.
+        Result: $x = 20$.
+    marks: 5
+    rubric:
+      - marks: 1
+        criteria: "Correct expression for total surface area."
+      - marks: 1
+        criteria: "Correct simplification to general quadratic form."
+      - marks: 1
+        criteria: "Correct factorization."
+      - marks: 1
+        criteria: "Solving for x and rejecting the negative value."
+      - marks: 1
+        criteria: "Final correct answer with units."
+    hints:
+      - level: 1
+        text: "A cuboid has 6 faces. Calculate the area of the square bottom/top and the four rectangular sides, then sum them up."
+
+  - id: Q9
+    text: "The History Club of SMK Seri Jaya has drawn two rectangular murals. Mural A has dimensions $(3x+1)$ by $(x-3)$ m. Mural B has dimensions $(2x-1)$ by $(x-1)$ m. If the difference in area between the two murals is $10$ m², calculate the perimeter of the smaller mural."
+    difficulty: hard
+    learning_objective: "1.1.8"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: exact
+      value: "38"
+      working: |
+        Step 1: Area A = $(3x+1)(x-3) = 3x^2 - 8x - 3$
+        Step 2: Area B = $(2x-1)(x-1) = 2x^2 - 3x + 1$
+        Step 3: Difference $(3x^2 - 8x - 3) - (2x^2 - 3x + 1) = 10$
+        Step 4: $x^2 - 5x - 4 = 10 \Rightarrow x^2 - 5x - 14 = 0$
+        Step 5: $(x-7)(x+2) = 0 \Rightarrow x = 7$
+        Step 6: Check mural sizes. Mural B is $(2(7)-1)=13$ by $(7-1)=6$. Mural A is $(3(7)+1)=22$ by $(7-3)=4$.
+        Area A = 88, Area B = 78. Smaller is B.
+        Step 7: Perimeter B = $2(13+6) = 38$ m.
+    marks: 6
