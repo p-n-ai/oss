@@ -1,0 +1,73 @@
+id: MT5-03
+official_ref: "DSKP KSSM Matematik Tingkatan 5 Bab 3"
+name: "Matematik Pengguna: Insurans"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-5
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+
+content_standards:
+  - id: "3.1"
+    text: "Risiko dan perlindungan insurans"
+    learning_objectives:
+      - id: "3.1.1"
+        text: "Menjelaskan maksud risiko dan kepentingan perlindungan insurans, dan seterusnya mengenal pasti jenis insurans hayat dan insurans am bagi melindungi pelbagai jenis risiko."
+        bloom: understand
+        tp_level: 2
+      - id: "3.1.2"
+        text: "Mengkaji, mentafsir dan membuat pengiraan yang melibatkan kadar dan premium insurans."
+        bloom: analyze
+        tp_level: 3
+      - id: "3.1.3"
+        text: "Menyelesaikan masalah yang melibatkan insurans termasuk deduktibel dan ko-insurans."
+        bloom: apply
+        tp_level: 4
+
+bloom_levels:
+  - understand
+  - analyze
+  - apply
+
+prerequisites:
+  required:
+    - "MT3-03" # Simpanan dan Pelaburan (Asas literasi kewangan)
+  description: "Operasi matematik asas dan pemahaman umum tentang pengurusan kewangan peribadi."
+
+quality_level: 3
+provenance: curriculum-audit
+sync_checked: true
+generated_at: "2026-04-20T16:35:00Z"
+
+teaching:
+  sequence:
+    - "Pengenalan kepada Insurans: Bincangkan maksud risiko sebagai musibah yang tidak boleh dielakkan dan pemindahan risiko kepada organisasi (20 min)"
+    - "Jenis Insurans: Bezakan antara Insurans Hayat (kematian, hilang upaya, penyakit kritikal) dan Insurans Am (motor, kebakaran, perubatan, kemalangan, perjalanan) (25 min)"
+    - "Mengira Premium: Gunakan Jadual Kadar untuk mengira premium bagi insurans hayat, motor, dan perubatan (30 min)"
+    - "Menyelesaikan Masalah Insurans: Menguasai aplikasi prinsip deduktibel dan ko-insurans/insurans bersama (35 min)"
+  
+  common_misconceptions:
+    - misconception: "Insurans adalah alat pelaburan untuk mendapatkan keuntungan."
+      remediation: "Tekankan prinsip indeminiti yang memastikan pemegang polisi dipulihkan kepada kedudukan kewangan asal, bukan untuk mendapat untung."
+    - misconception: "Deduktibel adalah sama dengan premium."
+      remediation: "Jelaskan bahawa premium adalah kos untuk perlindungan, manakala deduktibel ialah kos yang ditanggung sendiri oleh pemegang polisi sebelum membuat tuntutan."
+    - misconception: "Insurans hayat melindungi semua perbelanjaan perubatan."
+      remediation: "Bezakan antara insurans hayat (kematian/hilang upaya) dengan insurans perubatan dan kesihatan (kemasukan hospital/pembedahan)."
+
+  engagement_hooks:
+    - "Minta murid mengenal pasti risiko harian seperti kecederaan semasa bersukan atau kemalangan bas sekolah untuk memahami keperluan insurans."
+    - "Gunakan skim perlindungan kesihatan nasional MySalam sebagai contoh inisiatif kerajaan dalam menyediakan perlindungan percuma kepada rakyat."
+    - "Bincangkan senario kemalangan jalan raya untuk mengenal pasti siapa pihak pertama, kedua, dan ketiga dalam tuntutan insurans motor."
+
+ai_teaching_notes: "MT5-03.teaching.md"
+assessments_file: "MT5-03.assessments.yaml"
+examples_file: "MT5-03.examples.yaml"
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5

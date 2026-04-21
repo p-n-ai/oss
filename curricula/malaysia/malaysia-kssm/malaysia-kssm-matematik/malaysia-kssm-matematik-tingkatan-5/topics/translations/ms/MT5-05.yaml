@@ -1,0 +1,97 @@
+id: MT5-05
+official_ref: "Bab 5"
+name: "Kekongruenan, Pembesaran dan Gabungan Transformasi"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-5
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+sync_checked: true
+content_standards:
+  - id: "5.1"
+    text: "Kekongruenan"
+  - id: "5.2"
+    text: "Pembesaran"
+  - id: "5.3"
+    text: "Gabungan Transformasi"
+  - id: "5.4"
+    text: "Teselasi"
+learning_objectives:
+  - id: "5.1.1"
+    text: "Membezakan antara bentuk kongruen dan bukan kongruen berdasarkan sisi dan sudut."
+    bloom: analyze
+  - id: "5.1.2"
+    text: "Membuat dan menentusahkan konjektur terhadap kekongruenan segi tiga berdasarkan sisi dan sudut (SSS, SAS, ASA, AAS, AAA, SSA)."
+    bloom: create
+  - id: "5.1.3"
+    text: "Menyelesaikan masalah yang melibatkan kekongruenan."
+    bloom: apply
+  - id: "5.2.1"
+    text: "Menjelaskan maksud keserupaan objek geometri."
+    bloom: understand
+  - id: "5.2.2"
+    text: "Membuat perkaitan antara keserupaan dengan pembesaran dan seterusnya memerihalkan pembesaran menggunakan pelbagai perwakilan."
+    bloom: understand
+  - id: "5.2.3"
+    text: "Menentukan imej dan objek bagi suatu pembesaran."
+    bloom: apply
+  - id: "5.2.4"
+    text: "Membuat dan mengesahkan konjektur tentang hubungan antara luas imej dan luas objek bagi suatu pembesaran."
+    bloom: create
+  - id: "5.2.5"
+    text: "Menyelesaikan masalah yang melibatkan pembesaran."
+    bloom: apply
+  - id: "5.3.1"
+    text: "Menentukan imej dan objek bagi suatu gabungan transformasi."
+    bloom: apply
+  - id: "5.3.2"
+    text: "Membuat dan menentusahkan konjektur tentang sifat kalis tukar tertib terhadap gabungan transformasi."
+    bloom: create
+  - id: "5.3.3"
+    text: "Memerihalkan gabungan transformasi."
+    bloom: understand
+  - id: "5.3.4"
+    text: "Menyelesaikan masalah yang melibatkan gabungan transformasi."
+    bloom: apply
+  - id: "5.4.1"
+    text: "Menjelaskan maksud teselasi."
+    bloom: understand
+  - id: "5.4.2"
+    text: "Mereka bentuk teselasi yang melibatkan transformasi isometri."
+    bloom: create
+prerequisites:
+  required:
+    - "MT1-09" # Geometri Asas
+    - "MT2-11" # Penjelmaan I (Translasi, Pantulan, Putaran)
+quality_level: 3
+provenance: "official-dskp-aligned"
+generated_at: "2026-04-21T09:15:00Z"
+teaching:
+  sequence:
+    - "Langkah 1: Teroka kekongruenan menggunakan 'Mobilisasi Minda 1' dan '2' untuk membezakan bentuk dan segi tiga (25 min)"
+    - "Langkah 2: Perkenalkan keserupaan geometri dan pembesaran melalui 'Mobilisasi Minda 3' dan '4' (30 min)"
+    - "Langkah 3: Terbitkan dan sahkan hubungan luas-faktor skala (Luas imej = k² × Luas objek) (20 min)"
+    - "Langkah 4: Laksanakan gabungan transformasi AB (B diikuti oleh A) dan uji Sifat Kalis Tukar Tertib (30 min)"
+    - "Langkah 5: Takrifkan teselasi dan reka corak menggunakan transformasi isometri (Translasi, Putaran, Pantulan) (25 min)"
+  common_misconceptions:
+    - misconception: "Keliru antara kekongruenan dan keserupaan."
+      remediation: "Tekankan bahawa bentuk kongruen mesti mempunyai saiz yang sama, manakala bentuk serupa hanya memerlukan sisi yang berkadaran."
+    - misconception: "Menganggap sudut bertambah semasa pembesaran."
+      remediation: "Tunjukkan bahawa walaupun panjang sisi berubah, sudut yang sepadan kekal tidak berubah (invariant)."
+    - misconception: "Menggunakan tertib yang salah dalam gabungan transformasi."
+      remediation: "Tegaskan peraturan 'Abjad Terbalik': Transformasi AB bermaksud transformasi B dilakukan dahulu."
+  engagement_hooks:
+    - "Perhatikan struktur Jambatan Angkat Terengganu untuk mengenal pasti komponen kongruen dalam kejuruteraan."
+    - "Reka logo digital menggunakan gabungan transformasi dalam GeoGebra, serupa dengan aktiviti 'Terokai Matematik'."
+    - "Analisis teselasi gaya Escher dalam rekaan Batik tradisional Malaysia."
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+ai_teaching_notes: "MT5-05.teaching.md"
+assessments_file: "MT5-05.assessments.yaml"
+examples_file: "MT5-05.examples.yaml"

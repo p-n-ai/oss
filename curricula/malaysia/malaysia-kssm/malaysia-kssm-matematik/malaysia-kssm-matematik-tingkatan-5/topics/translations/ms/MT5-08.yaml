@@ -1,0 +1,61 @@
+id: MT5-08
+official_ref: "8.0"
+name: "Pemodelan Matematik"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-5
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: beginner
+tier: core
+sync_checked: true
+content_standards:
+  - id: "8.1"
+    text: "Pemodelan Matematik"
+learning_objectives:
+  - id: "8.1.1"
+    text: "Menerangkan pemodelan matematik."
+    bloom: understand
+  - id: "8.1.2"
+    text: "Menyelesaikan masalah kehidupan sebenar melalui pemodelan matematik yang melibatkan fungsi: (i) Linear (ii) Kuadratik (iii) Eksponen dan mengkomunikasikan proses pemodelan matematik yang dilaksanakan."
+    bloom: apply
+prerequisites:
+  required:
+    - "Fungsi Linear"
+    - "Fungsi Kuadratik"
+    - "Fungsi Eksponen"
+    - "Manipulasi Algebra Asas"
+bloom_levels:
+  - understand
+  - apply
+  - analyze
+  - evaluate
+  - create
+quality_level: 3
+provenance: curriculum-audit
+generated_at: "2026-04-21T09:44:02Z"
+teaching:
+  sequence:
+    - "Langkah 1: Takrifkan pemodelan matematik sebagai perwakilan senario dunia sebenar untuk mendapatkan kefahaman kualitatif/kuantitatif dan meramal perlakuan masa depan (15 min)"
+    - "Langkah 2: Perkenalkan 6 komponen penting pemodelan: mengenal pasti masalah, membuat andaian, mengaplikasi matematik, menentusahkan penyelesaian, memurnikan model, dan melaporkan dapatan (20 min)"
+    - "Langkah 3: Selesaikan masalah pemodelan linear kehidupan sebenar (cth., penggunaan petrol kereta atau kadar perjalanan tetap) (20 min)"
+    - "Langkah 4: Analisis senario pemodelan kuadratik dan eksponen (cth., profil kedalaman sungai atau faedah kompaun) (25 min)"
+    - "Langkah 5: Fasilitasi projek mini di mana murid perlu memodelkan masalah bukan rutin secara kreatif untuk mencapai TP6 (30 min)"
+  common_misconceptions:
+    - misconception: "Semua masalah dunia sebenar boleh diselesaikan dengan model linear ringkas."
+      remediation: "Tunjukkan senario di mana pertumbuhan adalah pesat (eksponen) atau laluan adalah melengkung (kuadratik) untuk menunjukkan keperluan pelbagai fungsi."
+    - misconception: "Jawapan pertama yang diperoleh daripada model matematik sentiasa merupakan penyelesaian akhir."
+      remediation: "Tekankan langkah 'Memurnikan model matematik' di mana andaian disemak semula terhadap kekangan dunia sebenar."
+  engagement_hooks:
+    - "Bincangkan mod operasi terowong SMART untuk menunjukkan bagaimana pemodelan matematik menguruskan air banjir dan trafik di Kuala Lumpur."
+    - "Analisis harga beras di kedai runcit yang berbeza untuk menentukan sama ada perjalanan itu berbaloi dengan penjimatan, menggambarkan pemodelan kos-faedah."
+    - "Teroka bagaimana keluk epidemiologi pandemik Covid-19 diratakan menggunakan Perintah Kawalan Pergerakan (PKP) berdasarkan model ramalan."
+assessments_file: "MT5-08.assessments.yaml"
+ai_teaching_notes: "MT5-08.teaching.md"
+examples_file: "MT5-08.examples.yaml"
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5

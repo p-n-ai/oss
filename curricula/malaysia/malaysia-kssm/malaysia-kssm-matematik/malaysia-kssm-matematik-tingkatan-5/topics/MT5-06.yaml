@@ -1,79 +1,75 @@
 id: MT5-06
-# official_ref: ""
-name: "Nisbah dan Graf Fungsi Trigonometri"
+official_ref: "KSSM Mathematics Form 5 Chapter 6"
 name_en: "Ratios and Graphs of Trigonometric Functions"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-5
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
-difficulty: beginner
+language: en
+difficulty: intermediate
 tier: core
 content_standards:
-    - id: "6.1"
-      text: "Nisbah Trigonometri"
-      text_en: "Trigonometric Ratios"
-    - id: "6.2"
-      text: "Graf Fungsi Trigonometri"
-      text_en: "Graphs of Trigonometric Functions"
+  - id: "6.1"
+    text_en: "Trigonometric Ratios"
+  - id: "6.2"
+    text_en: "Graphs of Trigonometric Functions"
 learning_objectives:
-    - id: 6.1.1
-      text: "Membuat dan menentusahkan konjektur tentang nilai sinus, kosinus dan tangen sudut dalam sukuan II, III dan IV dengan sudut rujukan sepadan."
-      text_en: "Make and verify conjectures about the values of sine, cosine, and tangent for angles in quadrants II, III, and IV with corresponding reference angles."
-      bloom: analyze
-    - id: 6.1.2
-      text: "Menentukan nilai sinus, kosinus dan tangen bagi sudut dalam sukuan II, III dan IV berdasarkan sudut rujukan sepadan."
-      text_en: "Determine the values of sine, cosine, and tangent for angles in quadrants II, III and IV based on corresponding reference angles."
-      bloom: apply
-    - id: 6.1.3
-      text: "Menentukan sudut apabila nilai sinus, kosinus dan tangen sudut tersebut diberi."
-      text_en: "Determine the angle when the value of sine, cosine and tangent of the angle is given."
-      bloom: apply
-    - id: 6.1.4
-      text: "Menyelesaikan masalah yang melibatkan sinus, kosinus dan tangen."
-      text_en: "Solve problems involving sine, cosine and tangent."
-      bloom: apply
-    - id: 6.2.1
-      text: "Melukis graf fungsi trigonometri, \U0001D466 = sin \U0001D465, \U0001D466 = kos \U0001D465 dan \U0001D466 = tan \U0001D465 bagi 0° ≤ x ≤ 360° dan membandingbezakan ciri-ciri graf fungsi tersebut."
-      text_en: "Draw graphs of trigonometric functions, y = sin x, y = cos x, and y = tan x for 0° ≤ x ≤ 360° and compare the characteristics of these function graphs."
-      bloom: apply
-    - id: 6.2.2
-      text: "Mengkaji dan membuat generalisasi tentang kesan perubahan pemalar a, b dan c bagi graf fungsi trigonometri: (i) y = a sin b x + c, (ii) y = a kos b x + c, (iii) y = a tan b x + c bagi a > 0, b > 0."
-      text_en: "Investigate and make generalizations about the effects of changing constants a, b, and c on the graphs of trigonometric functions: (i) y = a sin b x + c, (ii) y = a cos b x + c, (iii) y = a tan b x + c for a > 0, b > 0."
-      bloom: create
-    - id: 6.2.3
-      text: "Menyelesaikan masalah yang melibatkan graf fungsi sinus, kosinus dan tangen."
-      text_en: "Solve problems involving graphs of sine, cosine, and tangent functions."
-      bloom: apply
+  - id: 6.1.1
+    text_en: "Make and verify conjectures about the values of sine, cosine, and tangent for angles in quadrants II, III, and IV with corresponding reference angles."
+    bloom: analyze
+  - id: 6.1.2
+    text_en: "Determine the values of sine, cosine, and tangent for angles in quadrants II, III and IV based on corresponding reference angles."
+    bloom: apply
+  - id: 6.1.3
+    text_en: "Determine the angle when the value of sine, cosine and tangent of the angle is given."
+    bloom: apply
+  - id: 6.1.4
+    text_en: "Solve problems involving sine, cosine and tangent."
+    bloom: apply
+  - id: 6.2.1
+    text_en: "Draw graphs of trigonometric functions, y = sin x, y = cos x, and y = tan x for 0° ≤ x ≤ 360° and compare the characteristics of these function graphs."
+    bloom: apply
+  - id: 6.2.2
+    text_en: "Investigate and make generalizations about the effects of changing constants a, b, and c on the graphs of trigonometric functions: (i) y = a sin bx + c, (ii) y = a cos bx + c, (iii) y = a tan bx + c for a > 0, b > 0."
+    bloom: create
+  - id: 6.2.3
+    text_en: "Solve problems involving graphs of sine, cosine, and tangent functions."
+    bloom: apply
 prerequisites:
-    required: []
+  required:
+    - "MT3-05" # Trigonometric Ratios (Form 3)
 bloom_levels:
-    - analyze
-    - apply
-    - create
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-27T13:54:52Z"
+  - analyze
+  - apply
+  - create
+quality_level: 3
+provenance: curriculum-aligned
+generated_at: "2026-04-21T09:21:32Z"
 teaching:
-    sequence:
-        - 'Step 1: Introduce reference angles and sign changes in quadrants (30 min)'
-        - 'Step 2: Calculate trigonometric values in different quadrants (20 min)'
-        - 'Step 3: Graph y = sin x, y = cos x, y = tan x for 0° ≤ x ≤ 360° (40 min)'
-        - 'Step 4: Explore parameter changes in trigonometric graphs (30 min)'
-    common_misconceptions:
-        - misconception: The value of sine, cosine, and tangent is always positive.
-          remediation: Reinforce the concept of the unit circle and signs in each quadrant.
-        - misconception: The graphs of sine, cosine, and tangent are linear.
-          remediation: Use graphing tools to demonstrate the periodic nature.
+  sequence:
+    - "Step 1: Master the unit circle, quadrants, and corresponding reference angles (DSKP 6.1.1, 6.1.2)."
+    - "Step 2: Calculate specific angles given sine, cosine, or tangent values (DSKP 6.1.3)."
+    - "Step 3: Apply trigonometric ratios to solve real-world problems like navigation or lighthouse distances (DSKP 6.1.4)."
+    - "Step 4: Sketch the base graphs of y = sin x, y = cos x, and y = tan x and identify their properties (DSKP 6.2.1)."
+    - "Step 5: Use dynamic geometry software to observe how changing a, b, and c alters amplitude, period, and vertical position (DSKP 6.2.2)."
+    - "Step 6: Model periodic phenomena like respiratory cycles or tidal depths using trigonometric equations (DSKP 6.2.3)."
+common_misconceptions:
+  - misconception: "Assuming trigonometric values are always positive regardless of the quadrant."
+    remediation: "Reinforce the 'All-Science-Teachers-Crazy' or 'ADD-SUGAR-TO-COFFEE' mnemonic for quadrant signs."
+  - misconception: "Confusing the effects of constants 'a' (amplitude) and 'b' (period) on the graph shape."
+    remediation: "Use visual comparisons where only one constant is changed at a time to show vertical vs. horizontal stretching."
+  - misconception: "Attempting to find an amplitude for the tangent graph."
+    remediation: "Highlight that the tangent function approaches infinity and has no maximum or minimum value, therefore no amplitude."
 engagement_hooks:
-    - Discuss navigation and GPS technology relying on trigonometric calculations.
-    - Relate trigonometric graphs to sound waves and music production.
-ai_teaching_notes: MT5-06.teaching.md
-examples_file: MT5-06.examples.yaml
-assessments_file: MT5-06.assessments.yaml
+  - "Discover how civil engineers use trigonometric graphs to model sound strength in concert halls."
+  - "Explore how GPS and navigation systems rely on trigonometric calculations to pinpoint locations."
+  - "Analyze how the movement of ocean tides follows a periodic pattern that can be perfectly modeled by sine waves."
+ai_teaching_notes: "MT5-06.teaching.md"
+examples_file: "MT5-06.examples.yaml"
+assessments_file: "MT5-06.assessments.yaml"
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5

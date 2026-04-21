@@ -1,57 +1,75 @@
 id: MT5-04
-# official_ref: ""  # fill in if the source document assigns a chapter/section code
-name: "Matematik Pengguna: Percukaian"
+official_ref: "Chapter 4"
 name_en: "Consumer Mathematics: Taxation"
-subject_grade_id: malaysia-kssm-matematik-tingkatan-5
-subject_id: malaysia-kssm-matematik
-syllabus_id: malaysia-kssm
-country_id: malaysia
-language: ms
-difficulty: intermediate
-tier: core
+subject_grade_id: "malaysia-kssm-matematik-tingkatan-5"
+subject_id: "malaysia-kssm-matematik"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "en"
+difficulty: "intermediate"
+tier: "core"
+
 content_standards:
-    - id: "4.1"
-      text: "Percukaian"
-      text_en: "Taxation"
+  - id: "4.1"
+    text_en: "Taxation"
+
 learning_objectives:
-    - id: "4.1.1"
-      text: "Menghuraikan tujuan percukaian."
-      text_en: "Describe the purpose of taxation."
-      bloom: understand
-    - id: "4.1.2"
-      text: "Menghuraikan pelbagai cukai dan seterusnya kesan pengelakan cukai tersebut dari aspek perundangan dan kewangan."
-      text_en: "Describe various taxes and subsequently the effects of tax evasion from legal and financial aspects."
-      bloom: understand
-    - id: "4.1.3"
-      text: "Mengkaji, mentafsir dan membuat pengiraan yang melibatkan pelbagai cukai."
-      text_en: "Study, interpret, and perform calculations involving various taxes."
-      bloom: apply
-    - id: "4.1.4"
-      text: "Menyelesaikan masalah yang melibatkan percukaian."
-      text_en: "Solve problems involving taxation."
-      bloom: apply
+  - id: "4.1.1"
+    text_en: "Explain the purpose of taxation."
+    bloom: "understand"
+    tp_level: 2
+  - id: "4.1.2"
+    text_en: "Describe various taxes, hence the consequences of tax evasion from legal and financial aspects."
+    bloom: "understand"
+    tp_level: 2
+  - id: "4.1.3"
+    text_en: "Investigate, interpret and perform calculations involving various taxes."
+    bloom: "apply"
+    tp_level: 4
+  - id: "4.1.4"
+    text_en: "Solve problems involving taxation."
+    bloom: "apply"
+    tp_level: 5
+
 prerequisites:
-    required: []
-bloom_levels:
-    - understand
-    - apply
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-27T13:54:52Z"
+  required:
+    - id: "MT1-04" # Percentage and basic arithmetic
+    - id: "MT3-03" # Consumer Mathematics: Savings and Investments, Credit and Debt
+  bloom_levels:
+    - "understand"
+    - "apply"
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+quality_level: 3
+provenance: "curriculum-architect-audit"
+generated_at: "2026-04-20T16:43:13Z"
+
 teaching:
-    sequence:
-        - 'Step 1: Discuss the importance of taxes for national development (10 min)'
-        - 'Step 2: Explore different types of taxes with a comparison chart (15 min)'
-        - 'Step 3: Examine legal and financial consequences of tax evasion through case studies (20 min)'
-        - 'Step 4: Teach tax calculations and solve related problems using worksheets (25 min)'
-    common_misconceptions:
-        - misconception: Students think taxes are penalties
-          remediation: Emphasize that taxes fund essential services
-        - misconception: Students believe all taxes are calculated the same way
-          remediation: Use examples to show different calculation methods
-engagement_hooks:
-    - Discuss how taxes fund local schools and hospitals
-    - Use recent news articles on tax changes to spark discussion
-assessments_file: MT5-04.assessments.yaml
-examples_file: MT5-04.examples.yaml
-ai_teaching_notes: MT5-04.teaching.md
+  sequence:
+    - "Step 1: Introduction to Taxation and its purpose (DSKP 4.1.1) - 15 min"
+    - "Step 2: Exploring types of taxes (Income, Road, Property, Quit, Sales/Service) and Evasion (DSKP 4.1.2) - 20 min"
+    - "Step 3: Step-by-step tax calculations including tax relief, rebates, and PCB (DSKP 4.1.3) - 30 min"
+    - "Step 4: Solving complex taxation scenarios and mini-project (DSKP 4.1.4) - 25 min"
+  
+  common_misconceptions:
+    - misconception: "Students think taxes are penalties or optional donations."
+      remediation: "Emphasize that taxes are compulsory and fund essential public infrastructure like schools and hospitals."
+    - misconception: "Confusion between tax relief and tax rebate."
+      remediation: "Explain that relief is deducted from chargeable income, while rebate is deducted from the final tax payable."
+    - misconception: "Thinking tax evasion is a minor offense."
+      remediation: "Highlight the specific legal penalties and fines defined in the Income Tax and Road Transport Acts."
+
+  engagement_hooks:
+    - "Discuss how taxes fund the roads students used to get to school today."
+    - "Analyze a real-world electricity bill to identify the 6% service tax charge."
+    - "Compare joint vs. separate tax assessment scenarios for a fictional married couple."
+
+ai_teaching_notes: "MT5-04.teaching.md"
+assessments_file: "MT5-04.assessments.yaml"
+examples_file: "MT5-04.examples.yaml"

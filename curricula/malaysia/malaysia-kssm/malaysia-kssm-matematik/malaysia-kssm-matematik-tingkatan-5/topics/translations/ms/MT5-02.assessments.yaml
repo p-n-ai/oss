@@ -1,0 +1,169 @@
+topic_id: MT5-02
+provenance: ai-generated
+questions:
+  # 2.1.1 - Mewakilkan maklumat
+  - id: Q1
+    text: "Sebuah kedai sukan mencatatkan pungutan pingat bagi tiga buah sekolah: Sekolah A (10 Emas, 5 Perak), Sekolah B (8 Emas, 12 Perak), dan Sekolah C (15 Emas, 7 Perak). Wakilkan maklumat ini dalam bentuk matriks."
+    difficulty: easy
+    learning_objective: 2.1.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: exact
+      value: "[,,]"
+      working: |
+        Langkah 1: Tetapkan sekolah sebagai baris (A, B, C).
+        Langkah 2: Tetapkan jenis pingat sebagai lajur (Emas, Perak).
+        Langkah 3: Susun nilai dalam kurungan: [,,].
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Wakilan matriks 3x2 yang betul."
+      - marks: 1
+        criteria: "Unsur betul tetapi orientasi salah (cth: 2x3 bukannya 3x2)."
+    hints:
+      - level: 1
+        text: "Cuba gunakan baris untuk setiap sekolah dan lajur untuk setiap jenis pingat."
+
+  # 2.1.2 - Peringkat dan Unsur
+  - id: Q2
+    text: "Diberi matriks $P = \begin{bmatrix} 4 & -1 & 7 \\ 0 & 5 & 2 \end{bmatrix}$. Kenal pasti peringkat matriks tersebut dan unsur $a_{21}$."
+    difficulty: easy
+    learning_objective: 2.1.2
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "2 x 3, 0"
+      working: |
+        Langkah 1: Kira bilangan baris (m) = 2.
+        Langkah 2: Kira bilangan lajur (n) = 3. Peringkat ialah 2 x 3.
+        Langkah 3: Cari kedudukan baris ke-2, lajur ke-1. Unsur tersebut ialah 0.
+      distractors:
+        - value: "3 x 2, 0"
+          feedback: "Anda tertukar antara baris dan lajur. Ingat 'BL' (Baris dulu, Lajur kemudian)."
+        - value: "2 x 3, -1"
+          feedback: "Semak koordinat anda. $a_{21}$ bermaksud baris ke-2, lajur ke-1, bukannya baris ke-1, lajur ke-2."
+    marks: 2
+
+  # 2.1.3 - Kesamaan Matriks
+  - id: Q3
+    text: "Tentukan nilai $x$ dan $y$ jika $\begin{bmatrix} 2x & 4 \\ 3 & y-1 \end{bmatrix} = \begin{bmatrix} 10 & 4 \\ 3 & 5 \end{bmatrix}$."
+    difficulty: medium
+    learning_objective: 2.1.3
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "x=5, y=6"
+      working: |
+        Langkah 1: Bandingkan unsur sepadan. $2x = 10 \implies x = 5$.
+        Langkah 2: $y - 1 = 5 \implies y = 6$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Nilai x yang betul."
+      - marks: 1
+        criteria: "Nilai y yang betul."
+    hints:
+      - level: 1
+        text: "Matriks yang sama mempunyai unsur sepadan yang identik. Bentukkan dua persamaan linear mudah."
+
+  # 2.2.3 - Pendaraban Dua Matriks
+  - id: Q4
+    text: "Hitung hasil darab bagi $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \begin{bmatrix} 5 \\ 6 \end{bmatrix}$."
+    difficulty: medium
+    learning_objective: 2.2.3
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "[,]"
+      working: |
+        Langkah 1: (Baris 1 x Lajur 1): $(1 \times 5) + (2 \times 6) = 5 + 12 = 17$.
+        Langkah 2: (Baris 2 x Lajur 1): $(3 \times 5) + (4 \times 6) = 15 + 24 = 39$.
+        Langkah 3: Hasilnya ialah [,].
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menunjukkan jalan kerja hasil tambah darab bagi sekurang-kurangnya satu unsur."
+      - marks: 2
+        criteria: "Matriks lajur akhir yang betul."
+    hints:
+      - level: 1
+        text: "Gunakan peraturan 'Bentuk-7': Darabkan unsur mengufuk matriks pertama dengan unsur menegak matriks kedua."
+
+  # 2.2.5 - Matriks Songsang (Semakan Singular)
+  - id: Q5
+    text: "Antara matriks berikut, yang manakah merupakan matriks singular (tiada matriks songsang)?"
+    difficulty: medium
+    learning_objective: 2.2.5
+    tp_level: 4
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "[,]"
+      working: |
+        Langkah 1: Kira penentu $|A| = ad - bc$.
+        Langkah 2: Bagi [,], $|A| = (2 \times 2) - (4 \times 1) = 4 - 4 = 0$.
+        Langkah 3: Oleh sebab penentu ialah 0, ia adalah matriks singular.
+      distractors:
+        - value: "[,]"
+          feedback: "Penentunya ialah $(1 \times 4) - (2 \times 3) = -2$. Matriks ini mempunyai songsangan."
+        - value: "[]"
+          feedback: "Ini ialah matriks Identiti. Penentunya ialah 1, jadi ia pasti mempunyai songsangan."
+    marks: 2
+
+  # 2.2.6 - Persamaan Linear Serentak
+  - id: Q6
+    text: "Selesaikan persamaan linear serentak berikut menggunakan kaedah matriks: $x + 2y = 5$ dan $3x - y = 1$."
+    difficulty: hard
+    learning_objective: 2.2.6
+    tp_level: 5
+    kbat: false
+    answer:
+      type: exact
+      value: "x=1, y=2"
+      working: |
+        Langkah 1: Tulis dalam bentuk AX=B: $\begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 5 \\ 1 \end{bmatrix}$.
+        Langkah 2: Cari $A^{-1}$: Penentu $= (1)(-1) - (2)(3) = -7$. $A^{-1} = \frac{1}{-7} \begin{bmatrix} -1 & -2 \\ -3 & 1 \end{bmatrix}$.
+        Langkah 3: $X = A^{-1}B = \frac{1}{-7} \begin{bmatrix} -1 & -2 \\ -3 & 1 \end{bmatrix} \begin{bmatrix} 5 \\ 1 \end{bmatrix} = \frac{1}{-7} \begin{bmatrix} -7 \\ -14 \end{bmatrix} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$.
+    marks: 5
+    rubric:
+      - marks: 1
+        criteria: "Bentuk matriks AX=B yang betul."
+      - marks: 2
+        criteria: "Pengiraan matriks songsang yang betul."
+      - marks: 2
+        criteria: "Nilai akhir x dan y yang betul."
+    hints:
+      - level: 1
+        text: "Pertama, keluarkan pekali bagi x dan y ke dalam matriks 2x2."
+      - level: 2
+        text: "Untuk mencari x dan y, darabkan songsangan matriks pekali dengan matriks pemalar."
+
+  # 2.2.7 - Penyelesaian Masalah (KBAT)
+  - id: Q7
+    text: "Encik Jefri melabur RM5,000 dalam Amanah Saham P dan RM3,000 dalam Amanah Saham Q. Selepas setahun, beliau menerima jumlah dividen RM350. Encik Tan melabur RM6,000 dalam P dan RM4,000 dalam Q, dan menerima RM440 dividen. Gunakan kaedah matriks untuk mencari kadar dividen bagi P dan Q."
+    difficulty: hard
+    learning_objective: 2.2.7
+    tp_level: 6
+    kbat: true
+    answer:
+      type: exact
+      value: "P=4%, Q=5%"
+      working: |
+        Langkah 1: Bentuk persamaan: $5000p + 3000q = 350$ dan $6000p + 4000q = 440$.
+        Langkah 2: Permudahkan: $5p + 3q = 0.35$ dan $6p + 4q = 0.44$.
+        Langkah 3: Bentuk matriks: $\begin{bmatrix} 5 & 3 \\ 6 & 4 \end{bmatrix} \begin{bmatrix} p \\ q \end{bmatrix} = \begin{bmatrix} 0.35 \\ 0.44 \end{bmatrix}$.
+        Langkah 4: Selesaikan untuk p dan q menggunakan matriks songsang. $|A| = 20-18=2$.
+        Langkah 5: $p = 0.04$ (4%), $q = 0.05$ (5%).
+    marks: 6
+    rubric:
+      - marks: 2
+        criteria: "Pembentukan persamaan linear yang betul daripada situasi."
+      - marks: 4
+        criteria: "Proses penyelesaian matriks yang lengkap dengan nilai peratusan akhir."
+    hints:
+      - level: 1
+        text: "Biarkan p dan q sebagai kadar. Ingat bahawa (Pelaburan x Kadar) = Dividen."

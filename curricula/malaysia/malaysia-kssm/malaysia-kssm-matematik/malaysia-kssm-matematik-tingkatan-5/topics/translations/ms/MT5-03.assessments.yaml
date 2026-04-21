@@ -1,0 +1,167 @@
+topic_id: MT5-03
+provenance: curriculum-audit
+questions:
+  # TP1 - Pengetahuan (Standard Pembelajaran 3.1.1)
+  - id: Q1
+    text: "Antara berikut, yang manakah memerihalkan 'Prinsip Indeminiti' dalam insurans?"
+    difficulty: easy
+    learning_objective: "3.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "A"
+      working: |
+        Langkah 1: Rujuk definisi dalam buku teks muka surat 75. 
+        Langkah 2: Indeminiti bermaksud memulihkan kedudukan kewangan pemegang polisi kepada keadaan sebelum kerugian berlaku.
+        Langkah 3: Ia melarang pemegang polisi memperoleh keuntungan daripada ganti rugi insurans.
+      options:
+        - "A"
+        - "B"
+        - "C"
+        - "D"
+      distractors:
+        - value: "B"
+          feedback: "Ini menghuraikan pelan simpanan, bukan prinsip perlindungan insurans. Ingat: Insurans bukan untuk 'untung'!"
+        - value: "C"
+          feedback: "Ini adalah salah konsep. Indeminiti menghalang pemegang polisi daripada menerima pampasan yang melebihi kerugian sebenar."
+        - value: "D"
+          feedback: "Walaupun premium terlibat, prinsip indeminiti secara khusus merujuk kepada amaun pampasan berbanding kerugian."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Semak 'Buletin Ilmiah' pada muka surat 75. Apakah yang dinyatakan tentang amaun pampasan berbanding amaun kerugian?"
+
+  # TP2 - Kefahaman (Standard Pembelajaran 3.1.1) - Format OPB
+  - id: Q2
+    text: "Kelaskan risiko berikut kepada kategori insurans yang betul: (i) Kebakaran rumah, (ii) Kematian ketua keluarga, (iii) Kos pembedahan perubatan."
+    difficulty: easy
+    learning_objective: "3.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "(i) Insurans Am, (ii) Insurans Hayat, (iii) Insurans Am (Perubatan)"
+      working: |
+        Langkah 1: Kenal pasti sifat risiko. 
+        Langkah 2: Insurans hayat melindungi kematian, hilang upaya, dan penyakit kritikal. 
+        Langkah 3: Insurans am melindungi harta benda (Kebakaran), motor, dan kesihatan.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti Kebakaran rumah sebagai Insurans Am dengan betul."
+      - marks: 1
+        criteria: "Mengenal pasti Kematian sebagai Insurans Hayat dengan betul."
+      - marks: 1
+        criteria: "Mengenal pasti Pembedahan sebagai Insurans Am/Perubatan dengan betul."
+    hints:
+      - level: 1
+        text: "Lihat carta 'Jenis insurans am' pada muka surat 77. Adakah 'Kebakaran' atau 'Perubatan' muncul di situ?"
+
+  # TP3 - Aplikasi Mudah (Standard Pembelajaran 3.1.2)
+  - id: Q3
+    text: "Encik Guan (39 tahun, bukan perokok) ingin membeli polisi insurans hayat bernilai $RM100,000$. Berdasarkan kadar $RM2.49$ bagi setiap $RM1,000$ nilai muka, hitung premium tahunannya."
+    difficulty: medium
+    learning_objective: "3.1.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "249.00"
+      working: |
+        Langkah 1: Kenal pasti rumus: $Premium = \frac{Nilai\ muka\ polisi}{RMx} \times Kadar\ premium\ bagi\ setiap\ RMx$.
+        Langkah 2: Gantikan nilai: $\frac{RM100,000}{RM1,000} \times RM2.49$.
+        Langkah 3: Hitung: $100 \times 2.49 = RM249.00$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Penggantian nilai yang betul ke dalam rumus premium."
+      - marks: 1
+        criteria: "Jawapan akhir yang betul dengan unit yang tepat."
+    hints:
+      - level: 1
+        text: "Nilai 'RMx' dalam rumus merujuk kepada nilai asas dalam jadual, iaitu $RM1,000$. Bahagikan jumlah perlindungan dengan nilai ini dahulu!"
+
+  # TP4 - Penyelesaian Masalah Rutin (Standard Pembelajaran 3.1.2) - Insurans Motor
+  - id: Q4
+    text: "Encik Ramli memiliki sebuah kereta di Semenanjung Malaysia dengan jumlah yang ingin diinsuranskan sebanyak $RM60,000$. Kadar asas bagi $RM1,000$ pertama ialah $RM305.50$ dan kadar bagi setiap $RM1,000$ baki ialah $RM26$. Jika NCD beliau ialah $25\%$, hitung premium kasar bagi polisi komprehensif."
+    difficulty: medium
+    learning_objective: "3.1.2"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: exact
+      value: "1379.62"
+      working: |
+        Langkah 1: Kira baki unit bagi setiap RM1,000: $(60,000 - 1,000) / 1,000 = 59$.
+        Langkah 2: Kira premium asas: $305.50 + (59 \times 26) = 305.50 + 1,534 = RM1,839.50$.
+        Langkah 3: Tolak NCD: $1,839.50 - (0.25 \times 1,839.50) = 1,839.50 - 459.88$.
+        Langkah 4: Premium kasar akhir: $RM1,379.62$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Pengiraan unit baki yang betul (59)."
+      - marks: 1
+        criteria: "Pengiraan premium asas yang betul ($RM1,839.50$)."
+      - marks: 1
+        criteria: "Aplikasi NCD $25\%$ yang betul."
+      - marks: 1
+        criteria: "Jawapan akhir premium kasar yang betul."
+    hints:
+      - level: 1
+        text: "NCD adalah diskaun. Anda mesti mengira premium asas dahulu, kemudian tolak amaun diskaun tersebut."
+
+  # TP5 - Rutin Kompleks (Standard Pembelajaran 3.1.3)
+  - id: Q5
+    text: "Puan Chen mempunyai polisi perubatan dengan deduktibel sebanyak $RM500$ dan fasal penyertaan peratusan ko-insurans $75/25$. Jika bil perubatannya ialah $RM20,600$, berapakah jumlah yang perlu ditanggung oleh Puan Chen sendiri?"
+    difficulty: hard
+    learning_objective: "3.1.3"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "5525.00"
+      working: |
+        Langkah 1: Tolak deduktibel daripada jumlah bil: $20,600 - 500 = RM20,100$.
+        Langkah 2: Kira bahagian ko-insurans Puan Chen ($25\%$): $0.25 \times 20,100 = RM5,025$.
+        Langkah 3: Tambah deduktibel kepada bahagiannya: $500 + 5,025 = RM5,525$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menolak deduktibel dengan betul untuk mencari baki bil ($RM20,100$)."
+      - marks: 1
+        criteria: "Mengira bahagian ko-insurans $25\%$ dengan betul."
+      - marks: 1
+        criteria: "Menjumlahkan deduktibel dan ko-insurans untuk kos tanggungan sendiri."
+    hints:
+      - level: 1
+        text: "Perangkap 'Naked Numerator'! Sentiasa tolak amaun deduktibel SEBELUM anda mengira peratusan ko-insurans."
+
+  # TP6 - Bukan Rutin/Kreatif (Standard Pembelajaran 3.1.3)
+  - id: Q6
+    text: "Rumah Encik Ismail mempunyai nilai boleh insurans sebanyak $RM350,000$. Polisi kebakarannya mempunyai peruntukan ko-insurans $80\%$ dan deduktibel sebanyak $RM2,000$. Beliau hanya menginsuranskan rumahnya dengan jumlah $RM150,000$. Jika rumah itu mengalami kerugian sebahagian sebanyak $RM25,000$, hitung bayaran pampasan dan jelaskan maksud 'Penalti ko-insurans'."
+    difficulty: hard
+    learning_objective: "3.1.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Pampasan: $RM11,392.86$. Penalti: $RM11,607.14$. Penalti berlaku kerana rumah tidak diinsuranskan secukupnya (under-insured)."
+      working: |
+        Langkah 1: Kira jumlah insurans yang harus dibeli: $0.80 \times 350,000 = RM280,000$.
+        Langkah 2: Kira pampasan sebelum deduktibel: $(\frac{150,000}{280,000}) \times 25,000 = RM13,392.86$.
+        Langkah 3: Tolak deduktibel: $13,392.86 - 2,000 = RM11,392.86$.
+        Langkah 4: Kira penalti: $25,000 - 13,392.86 = RM11,607.14$.
+    marks: 5
+    rubric:
+      - marks: 1
+        criteria: "Mengira jumlah insurans yang harus dibeli ($RM280,000$)."
+      - marks: 2
+        criteria: "Menggunakan rumus ko-insurans untuk penginsuranskan kurang (under-insurance) dengan betul."
+      - marks: 1
+        criteria: "Jawapan akhir pampasan selepas deduktibel yang betul."
+      - marks: 1
+        criteria: "Menjelaskan penalti sebagai amaun kerugian yang tidak ditanggung akibat under-insurance."
+    hints:
+      - level: 1
+        text: "Oleh kerana beliau menginsuranskan kurang daripada $80\%$ yang diperlukan, syarikat insurans tidak akan membayar penuh kerugian RM25,000 tersebut. Gunakan nisbah: (Jumlah diinsuranskan / Jumlah harus dibeli) x Kerugian."

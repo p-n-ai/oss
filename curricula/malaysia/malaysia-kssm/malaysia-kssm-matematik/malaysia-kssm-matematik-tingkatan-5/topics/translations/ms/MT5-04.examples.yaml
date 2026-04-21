@@ -1,0 +1,66 @@
+id: MT5-04
+topic_id: MT5-04
+provenance: "curriculum-architect-audit"
+examples:
+  - id: WE-01
+    topic: "Tujuan Percukaian"
+    difficulty: "easy"
+    tp_level: 2
+    learning_objective: "4.1.1"
+    real_world_analogy: "Bayangkan cukai seperti 'Yuran Keahlian Kelab Negara'. Sama seperti anda bayar yuran untuk guna gim dan kolam renang kelab, rakyat bayar cukai supaya semua orang boleh guna jalan raya, sekolah, dan hospital 'percuma'."
+    misconception_alert: "Pelajar selalu ingat cukai adalah 'denda'. Ingatkan mereka bahawa denda adalah untuk orang yang langgar peraturan, manakala cukai adalah tanggungjawab bersama untuk bina negara."
+    scenario: "Adli ingin tahu kenapa ayahnya perlu membayar wang kepada kerajaan setiap tahun. Terangkan tujuan utama percukaian dalam konteks pembangunan negara."
+    working: |
+      1. Kenal pasti definisi: Percukaian ialah proses mengumpul wang daripada individu atau syarikat untuk membangunkan negara.
+      2. Senaraikan penggunaan dana: Wang tersebut digunakan untuk infrastruktur awam (jalan raya), penjagaan kesihatan (hospital), dan pendidikan (sekolah).
+      3. Terangkan peranan polisi: Cukai juga berfungsi sebagai alat untuk mengawal penggunaan barangan tertentu (cth: cukai rokok) atau mengurangkan jurang pendapatan.
+      4. Kesimpulan: Oleh itu, tujuan utama adalah menyediakan dana untuk mentadbir dan membangunkan negara.
+
+  - id: WE-02
+    topic: "Pengiraan Cukai Jalan"
+    difficulty: "medium"
+    tp_level: 4
+    learning_objective: "4.1.3"
+    real_world_analogy: "Cukai jalan adalah seperti 'Tiket Saiz Enjin'. Lagi besar dan berkuasa enjin itu, lagi banyak 'haus dan lusuh' yang ia sebabkan pada jalan, jadi harga tiket pun naik."
+    misconception_alert: "Pelajar sering lupa bahawa Cukai Jalan untuk kereta melebihi 1,600 cc terdiri daripada DUA bahagian: Kadar Asas DAN Kadar Progresif untuk baki cc tersebut."
+    scenario: "Alan memiliki sebuah kereta persendirian di Semenanjung Malaysia dengan kapasiti enjin $1,997$ cc. Berdasarkan jadual cukai, kadar asas untuk $1,801$ cc hingga $2,000$ cc ialah $RM280.00$ dan kadar progresif ialah $RM0.50$ bagi setiap cc yang melebihi $1,800$ cc. Hitung jumlah cukai jalan beliau."
+    working: |
+      1. Kenal pasti Kadar Asas untuk $1,997$ cc: $RM280.00$
+      2. Hitung lebihan kapasiti enjin: $1,997 \text{ cc} - 1,800 \text{ cc} = 197 \text{ cc}$
+      3. Hitung jumlah cukai progresif: $197 \times RM0.50 = RM98.50$
+      4. Jumlah Cukai Jalan = Kadar Asas + Cukai Progresif
+      5. Pengiraan Akhir: $RM280.00 + RM98.50 = RM378.50$
+
+  - id: WE-03
+    topic: "Cukai Pintu"
+    difficulty: "medium"
+    tp_level: 4
+    learning_objective: "4.1.3"
+    real_world_analogy: "Anggap Cukai Pintu sebagai 'Langganan Servis Kejiranan'. Anda bayar kepada majlis perbandaran supaya mereka boleh kutip sampah dan bersihkan longkang di kawasan rumah anda."
+    misconception_alert: "Pelajar selalu keliru antara 'Nilai Tahunan' (anggaran sewa) dengan 'Harga Pasaran' (harga jual) rumah. Cukai pintu sentiasa dikira berdasarkan Nilai Tahunan."
+    scenario: "Mariani memiliki sebuah rumah kediaman di Subang Jaya. Nilai tahunan rumah itu ialah $RM6,580$ dan kadar cukai pintu ialah $5\%$. Hitung cukai pintu yang perlu dibayar oleh Mariani untuk setiap setengah tahun."
+    working: |
+      1. Kenal pasti formula: $\text{Cukai pintu} = \text{kadar cukai} \times \text{nilai tahunan}$
+      2. Hitung jumlah cukai setahun: $5\% \times RM6,580 = 0.05 \times 6,580 = RM329$
+      3. Kenal pasti kehendak soalan: Soalan minta cukai untuk 'setiap setengah tahun'.
+      4. Bahagi dengan 2: $RM329 \div 2 = RM164.50$
+      5. Jawapan Akhir: Mariani membayar $RM164.50$ setiap enam bulan.
+
+  - id: WE-04
+    topic: "Cukai Pendapatan dengan Pelepasan dan Rebat"
+    difficulty: "hard"
+    tp_level: 5
+    learning_objective: "4.1.4"
+    real_world_analogy: "Mengira cukai pendapatan adalah seperti 'Menapis Air'. Mula-mula, anda tapis 'Pengecualian' dan 'Pelepasan' (kotoran) untuk cari 'Pendapatan Bercukai' (air bersih). Lepas itu baru guna jadual cukai."
+    misconception_alert: "Perangkap paling besar! Pelajar selalu tolak 'Rebat Cukai' daripada pendapatan. SALAH! Rebat ditolak daripada CUKAI PERLU DIBAYAR, manakala Pelepasan ditolak daripada JUMLAH PENDAPATAN."
+    scenario: "Encik Chan mempunyai jumlah pendapatan tahunan sebanyak $RM52,770$ pada tahun 2020. Beliau menderma $RM300$ kepada pusat kebajikan yang diluluskan. Beliau menuntut pelepasan cukai sebanyak $RM9,000$ (individu), $RM5,800$ (insurans hayat), $RM1,700$ (perubatan), dan $RM4,000$ (yuran pengajian). Jika pendapatan bercukainya $\le RM35,000$, beliau layak mendapat rebat sebanyak $RM400$. Hitung cukai pendapatan perlu dibayar."
+    working: |
+      1. Hitung Pendapatan Bercukai: $\text{Jumlah Pendapatan} - \text{Pengecualian} - \text{Pelepasan}$
+      2. $RM52,770 - RM300 - (RM9,000 + RM5,800 + RM1,700 + RM4,000)$
+      3. $RM52,470 - RM20,500 = RM31,970$
+      4. Tentukan Cukai menggunakan Jadual: $RM31,970$ berada dalam banjaran $RM20,001 - RM35,000$.
+      5. Cukai atas $RM20,000$ pertama $= RM150$
+      6. Cukai atas baki: $(RM31,970 - RM20,000) \times 3\% = RM11,970 \times 0.03 = RM359.10$
+      7. Jumlah Cukai Pendapatan sebelum rebat: $RM150 + RM359.10 = RM509.10$
+      8. Guna Rebat: Oleh sebab $RM31,970 \le RM35,000$, tolak rebat $RM400$.
+      9. Cukai Pendapatan Perlu Dibayar: $RM509.10 - RM400 = RM109.10$

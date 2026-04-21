@@ -1,0 +1,181 @@
+topic_id: MT5-07
+provenance: "kssm-textbook-dskp-aligned"
+questions:
+  # --- 7.1 Serakan ---
+  - id: Q1
+    text: "Dalam jadual kekerapan, jika selang kelas bagi suatu set data ialah $150 - 154$, tentukan sempadan atas bagi kelas ini."
+    difficulty: easy
+    learning_objective: "7.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "154.5"
+      working: |
+        Langkah 1: Kenal pasti had atas kelas semasa (154) dan had bawah kelas selepasnya (155).
+        Langkah 2: Hitung titik tengah di antara kedua-duanya: $(154 + 155) / 2 = 154.5$.
+      distractors:
+        - value: "154.0"
+          feedback: "Ini adalah had atas. Ingat, sempadan adalah titik tengah antara had kelas ini dan had kelas seterusnya."
+        - value: "149.5"
+          feedback: "Ini adalah sempadan bawah. Soalan meminta sempadan atas."
+        - value: "155.0"
+          feedback: "Ini adalah had bawah bagi kelas yang berikutnya."
+    marks: 1
+    hints:
+      - "Sempadan atas ialah nilai di tengah-tengah antara akhir kelas ini dan permulaan kelas seterusnya."
+      - "Lihat jurang antara 154 dan 155. Apakah nombor yang berada tepat di tengah-tengah?"
+
+  - id: Q2
+    text: "Satu set data terkumpul mempunyai titik tengah kelas pada $147, 152, 157,$ dan $162$. Jika anda ingin membina poligon kekerapan, apakah titik tengah yang diperlukan bagi kelas sebelum dan selepas set ini untuk memastikan poligon bermula dan berakhir pada paksi mengufuk?"
+    difficulty: medium
+    learning_objective: "7.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: subjective
+      value: "142 dan 167"
+      working: |
+        Langkah 1: Tentukan saiz kelas dengan mencari perbezaan antara titik tengah berturutan: $152 - 147 = 5$.
+        Langkah 2: Tolak saiz kelas daripada titik tengah pertama: $147 - 5 = 142$.
+        Langkah 3: Tambah saiz kelas kepada titik tengah terakhir: $162 + 5 = 167$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti saiz kelas sebagai 5 unit dengan betul."
+      - marks: 1
+        criteria: "Menghitung kedua-dua nilai 142 dan 167 dengan betul."
+    hints:
+      - "Poligon kekerapan mesti bermula dan berakhir dengan kekerapan sifar. Berapakah 'lompatan' unit antara setiap titik tengah yang sedia ada?"
+      - "Jika lompatan adalah 5, undur satu langkah dari 147 dan maju satu langkah dari 162."
+
+  - id: Q3
+    text: "Bandingkan dua histogram yang mewakili markah ujian bagi Kumpulan Arif dan Kumpulan Bestari. Histogram Kumpulan Arif berbentuk loceng dengan kebanyakan data di tengah, manakala Kumpulan Bestari adalah seragam (rata) bagi semua markah. Kumpulan manakah yang mempunyai serakan markah yang lebih luas? Berikan justifikasi anda."
+    difficulty: hard
+    learning_objective: "7.1.2"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "Kumpulan Bestari mempunyai serakan yang lebih luas kerana kekerapan tersebar secara rata merentasi semua kelas, manakala data Kumpulan Arif tertumpu di sekitar min."
+      working: |
+        Langkah 1: Analisis bentuk taburan. Arif = Bentuk loceng (tertumpu), Bestari = Seragam (tersebar).
+        Langkah 2: Kaitkan bentuk dengan serakan. Data tertumpu = serakan rendah; data tersebar = serakan tinggi.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Memilih Kumpulan Bestari sebagai kumpulan dengan serakan lebih luas."
+      - marks: 2
+        criteria: "Memberikan justifikasi berdasarkan corak taburan seragam berbanding bentuk loceng."
+    hints:
+      - "Lihat pada 'taburan' palang tersebut. Dalam graf manakah markah lebih 'berterabur' dan bukannya berkumpul di tengah?"
+      - "Ingat bahawa bentuk loceng bermaksud kebanyakan orang mendapat markah yang hampir sama. Seragam bermaksud markah tersebar di seluruh julat."
+
+  - id: Q4
+    text: "Padankan kedudukan berikut pada sebuah Ogif dengan ukuran statistik yang sepadan."
+    difficulty: medium
+    learning_objective: "7.1.3"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: opb
+      value: "A-2, B-1, C-3"
+      working: "A: $1/4(N)$ ialah Q1. B: $1/2(N)$ ialah Median. C: $3/4(N)$ ialah Q3."
+      mapping:
+        - "A: $1/4$ daripada jumlah kekerapan"
+        - "B: $1/2$ daripada jumlah kekerapan"
+        - "C: $3/4$ daripada jumlah kekerapan"
+      options:
+        - "1: Median (Q2)"
+        - "2: Kuartil Pertama (Q1)"
+        - "3: Kuartil Ketiga (Q3)"
+    marks: 3
+    hints:
+      - "Suku (1/4) kedengaran seperti kuartil yang mana? Setengah (1/2) pula merujuk kepada ukuran tengah yang mana?"
+
+  # --- 7.2 Sukatan Serakan ---
+  - id: Q5
+    text: "Varians ($\\sigma^2$) bagi satu set data terkumpul dihitung sebagai $229.19$. Hitung sisihan piawai ($\\sigma$) betul kepada dua tempat perpuluhan."
+    difficulty: easy
+    learning_objective: "7.2.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "15.14"
+      working: |
+        Langkah 1: Kenal pasti bahawa Sisihan Piawai ($\sigma$) adalah punca kuasa dua bagi Varians ($\sigma^2$).
+        Langkah 2: $\sigma = \sqrt{229.19} = 15.13902...$
+        Langkah 3: Bundarkan kepada 2 tempat perpuluhan: $15.14$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Penggunaan operasi punca kuasa dua yang betul."
+      - marks: 1
+        criteria: "Nilai akhir yang dibundarkan dengan betul kepada 2 tempat perpuluhan."
+    hints:
+      - "Bagaimana anda 'membatalkan' kuasa dua ($^2$) dalam matematik? Cari simbol tersebut pada kalkulator anda."
+      - "Jangan lupa bundarkan dengan teliti! Lihat pada digit perpuluhan yang ketiga."
+
+  - id: Q6
+    text: "Dalam sebuah plot kotak, garisan median terletak lebih dekat dengan sebelah kanan kotak, dan 'sungut' (whisker) sebelah kiri adalah lebih panjang daripada sebelah kanan. Jelaskan bentuk taburan data tersebut."
+    difficulty: medium
+    learning_objective: "7.2.2"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: multiple_choice
+      value: "Taburan pencong ke kiri"
+      working: |
+        Langkah 1: Jika sungut kiri lebih panjang dan median berada ke arah kanan, data ditarik ke arah nilai yang lebih rendah.
+        Langkah 2: Ini mewakili taburan pencong ke kiri (pencong negatif).
+      distractors:
+        - value: "Taburan simetri"
+          feedback: "Dalam taburan simetri, median berada di tengah dan sungut mempunyai panjang yang sama."
+        - value: "Taburan pencong ke kanan"
+          feedback: "Pencong ke kanan akan mempunyai sungut kanan yang lebih panjang dan median lebih dekat ke sebelah kiri."
+        - value: "Taburan seragam"
+          feedback: "Plot kotak tidak mewakili kekerapan 'seragam' secara visual seperti histogram; ia fokus pada sebaran kuartil."
+    marks: 1
+    hints:
+      - "Sungut menunjukkan sejauh mana data itu 'ditarik'. Jika ia ditarik ke arah kiri (nombor yang lebih kecil), ke manakah arah pencongnya?"
+
+  - id: Q7
+    text: "Mesin P menghasilkan komponen dengan sisihan piawai $0.64$ cm, manakala Mesin Q menghasilkannya dengan sisihan piawai $0.70$ cm. Jika kedua-dua mesin mempunyai diameter min yang sama, mesin manakah yang lebih tekal dalam pengeluarannya?"
+    difficulty: medium
+    learning_objective: "7.2.3"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: subjective
+      value: "Mesin P"
+      working: |
+        Langkah 1: Bandingkan sisihan piawai: $0.64 < 0.70$.
+        Langkah 2: Sisihan piawai yang lebih kecil menunjukkan bahawa titik data adalah lebih dekat dengan min, yang mewakili ketekalan yang lebih tinggi.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Memilih Mesin P."
+      - marks: 1
+        criteria: "Menerangkan bahawa sisihan piawai yang lebih kecil bermaksud ketekalan yang lebih tinggi atau serakan yang lebih rendah."
+    hints:
+      - "Sisihan piawai mengukur 'serakan'. Jika anda mahukan ketekalan, adakah anda mahu serakan yang besar atau serakan yang kecil?"
+
+  - id: Q8
+    text: "Reka sebuah rangka projek mini untuk menyiasat taburan BMI (Indeks Jisim Tubuh) dalam kalangan murid. Senaraikan empat perwakilan grafik atau statistik utama yang diperlukan dalam laporan akhir anda seperti yang dinyatakan dalam DSKP."
+    difficulty: hard
+    learning_objective: "7.2.5"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Laporan mesti melibatkan: 1. Jadual Kekerapan (Organisasi data), 2. Histogram/Poligon Kekerapan (Perwakilan grafik), 3. Sukatan Kecenderungan Memusat (Min/Median), dan 4. Sukatan Serakan (Sisihan Piawai/Plot Kotak)."
+      working: |
+        Langkah 1: Rujuk nota DSKP untuk 7.2.5.
+        Langkah 2: Masukkan elemen organisasi, perwakilan grafik, dan analisis data (pemusatan dan serakan).
+    marks: 4
+    rubric:
+      - marks: 4
+        criteria: "Menyenaraikan keempat-empat komponen yang diperlukan untuk penyiasatan statistik yang komprehensif dengan betul."
+    hints:
+      - "Fikirkan tentang perjalanan data: daripada senarai mentah, kepada jadual, kepada graf, dan akhirnya kepada nilai 'ketekalan' yang dihitung."

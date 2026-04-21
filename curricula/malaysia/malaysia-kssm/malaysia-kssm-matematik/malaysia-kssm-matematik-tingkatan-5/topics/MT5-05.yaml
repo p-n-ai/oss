@@ -1,115 +1,96 @@
 id: MT5-05
-# official_ref: ""  # fill in if the source document assigns a chapter/section code
-name: "Kekongruenan, Pembesaran dan Gabungan Transformasi"
-name_en: "Congruence, Enlargement, and Combination of Transformations"
+official_ref: "Chapter 5"
+name_en: "Congruency, Enlargement and Combined Transformations"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-5
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: beginner
 tier: core
 content_standards:
-    - id: "5.1"
-      text: "Kekongruenan"
-      text_en: "Congruence"
-    - id: "5.2"
-      text: "Pembesaran"
-      text_en: "Enlargement"
-    - id: "5.3"
-      text: "Gabungan Transformasi"
-      text_en: "Combination of Transformations"
-    - id: "5.4"
-      text: "Penjelmaan"
-      text_en: "Tessellation"
+  - id: "5.1"
+    text_en: "Congruency"
+  - id: "5.2"
+    text_en: "Enlargement"
+  - id: "5.3"
+    text_en: "Combined Transformations"
+  - id: "5.4"
+    text_en: "Tessellation"
 learning_objectives:
-    - id: "5.1.1"
-      text: "Membezakan antara bentuk kongruen dan bukan kongruen berdasarkan sisi dan sudut."
-      text_en: "Differentiate between congruent and non-congruent shapes based on sides and angles."
-      bloom: analyze
-    - id: "5.1.2"
-      text: "Membuat dan menentusahkan konjektur terhadap kekongruenan segi tiga berdasarkan sisi dan sudut."
-      text_en: "Make and verify conjectures about triangle congruence based on sides and angles."
-      bloom: create
-    - id: "5.1.3"
-      text: "Menyelesaikan masalah yang melibatkan kekongruenan."
-      text_en: "Solve problems involving congruence."
-      bloom: apply
-    - id: "5.2.1"
-      text: "Menjelaskan maksud keserupaan objek geometri."
-      text_en: "Explain the meaning of similarity of geometric objects."
-      bloom: understand
-    - id: "5.2.2"
-      text: "Membuat perkaitan antara keserupaan dengan pembesaran dan seterusnya memerihalkan pembesaran menggunakan pelbagai perwakilan."
-      text_en: "Make connections between similarity and enlargement and subsequently describe enlargement using various representations."
-      bloom: understand
-    - id: "5.2.3"
-      text: "Menentukan imej dan objek bagi suatu pembesaran."
-      text_en: "Determine the image and object of an enlargement."
-      bloom: apply
-    - id: "5.2.4"
-      text: "Membuat dan mengesahkan konjektur tentang hubungan antara luas imej dan luas objek bagi suatu pembesaran."
-      text_en: "Make and verify conjectures about the relationship between the area of the image and the area of the object for an enlargement."
-      bloom: create
-    - id: "5.2.5"
-      text: "Menyelesaikan masalah yang melibatkan pembesaran."
-      text_en: "Solve problems involving enlargement."
-      bloom: apply
-    - id: "5.3.1"
-      text: "Menentukan imej dan objek bagi suatu gabungan transformasi."
-      text_en: "Determine the image and object of a combination of transformations."
-      bloom: apply
-    - id: "5.3.2"
-      text: "Membuat dan menentusahkan konjektur tentang sifat kalis tukar tertib terhadap gabungan transformasi."
-      text_en: "Make and verify conjectures about the commutative property with respect to combination of transformations."
-      bloom: create
-    - id: "5.3.3"
-      text: "Memerihalkan gabungan transformasi."
-      text_en: "Describe combination of transformations."
-      bloom: understand
-    - id: "5.3.4"
-      text: "Menyelesaikan masalah yang melibatkan gabungan transformasi."
-      text_en: "Solve problems involving combination of transformations."
-      bloom: apply
-    - id: "5.4.1"
-      text: "Menjelaskan maksud teselasi."
-      text_en: "Explain the meaning of tessellation."
-      bloom: understand
-    - id: "5.4.2"
-      text: "Mereka bentuk teselasi yang melibatkan transformasi isometri."
-      text_en: "Design tessellations involving isometric transformations."
-      bloom: create
-bloom_levels:
-    - analyze
-    - understand
-    - apply
-    - create
+  - id: "5.1.1"
+    text_en: "Differentiate between congruent and non-congruent shapes based on sides and angles."
+    bloom: analyze
+  - id: "5.1.2"
+    text_en: "Make and verify the conjecture of triangle congruency based on sides and angles (SSS, SAS, ASA, AAS, AAA, SSA)."
+    bloom: create
+  - id: "5.1.3"
+    text_en: "Solve problems involving congruency."
+    bloom: apply
+  - id: "5.2.1"
+    text_en: "Explain the meaning of similarity of geometric objects."
+    bloom: understand
+  - id: "5.2.2"
+    text_en: "Make a connection between similarity and enlargement, hence describe enlargement using various representations."
+    bloom: understand
+  - id: "5.2.3"
+    text_en: "Determine the image and object of an enlargement."
+    bloom: apply
+  - id: "5.2.4"
+    text_en: "Make and verify conjecture on the relation between area of the image and area of the object of an enlargement."
+    bloom: create
+  - id: "5.2.5"
+    text_en: "Solve problems involving enlargement."
+    bloom: apply
+  - id: "5.3.1"
+    text_en: "Determine the image and object of a combined transformation."
+    bloom: apply
+  - id: "5.3.2"
+    text_en: "Make and verify the conjecture about commutative law in combined transformation."
+    bloom: create
+  - id: "5.3.3"
+    text_en: "Describe combined transformation."
+    bloom: understand
+  - id: "5.3.4"
+    text_en: "Solve problems involving combined transformation."
+    bloom: apply
+  - id: "5.4.1"
+    text_en: "Explain the meaning of tessellation."
+    bloom: understand
+  - id: "5.4.2"
+    text_en: "Design tessellation involving isometric transformation."
+    bloom: create
 prerequisites:
-    required: []
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-27T13:54:52Z"
+  required:
+    - "MT1-09" # Basic Geometry
+    - "MT2-11" # Transformations I (Translation, Reflection, Rotation)
+quality_level: 3
+provenance: "official-dskp-aligned"
+generated_at: "2026-04-21T09:15:00Z"
 teaching:
-    sequence:
-        - 'Step 1: Introduce congruence using simple shapes and focus on sides and angles (20 min)'
-        - 'Step 2: Explore geometric similarity and the concept of enlargement (25 min)'
-        - 'Step 3: Apply congruence and similarity to solve real-world problems (25 min)'
-        - 'Step 4: Introduce combined transformations and their effects (20 min)'
-        - 'Step 5: Discuss tessellation and design repeating patterns using transformations (30 min)'
-    common_misconceptions:
-        - misconception: Congruent means similar
-          remediation: Clarify the difference between identical size and proportionality
-        - misconception: Enlarged shapes have larger angles
-          remediation: Use examples to demonstrate that angles remain constant during enlargement
-engagement_hooks:
-    - Explore local architecture that features tessellations to show practical applications
-    - Discuss how transformations are used in video game graphics and animations
+  sequence:
+    - "Step 1: Explore congruency using 'Mind Mobilisation 1' and '2' to distinguish shapes and triangles (25 min)"
+    - "Step 2: Introduce geometric similarity and enlargement through 'Mind Mobilisation 3' and '4' (30 min)"
+    - "Step 3: Derive and verify the area-scale factor relationship (Area of image = k² × Area of object) (20 min)"
+    - "Step 4: Execute combined transformations AB (B followed by A) and test for the Commutative Law (30 min)"
+    - "Step 5: Define tessellations and design patterns using isometric transformations (Translation, Rotation, Reflection) (25 min)"
+  common_misconceptions:
+    - misconception: "Confusion between congruency and similarity."
+      remediation: "Emphasize that congruent shapes must have identical size, while similar shapes only require proportional sides."
+    - misconception: "Assuming angles increase during enlargement."
+      remediation: "Demonstrate that while side lengths change, corresponding angles remain invariant."
+    - misconception: "Applying combined transformations in the wrong order."
+      remediation: "Strictly enforce the 'Reverse Alphabet' rule: Transformation AB means B is performed first."
+  engagement_hooks:
+    - "Observe the Terengganu Drawbridge structure to identify congruent components in engineering."
+    - "Design a digital logo using combined transformations in GeoGebra, similar to the 'Exploring Mathematics' activity."
+    - "Analyze Escher-style tessellations in traditional Malaysian Batik designs."
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
 ai_teaching_notes: "MT5-05.teaching.md"
-assessments_file: MT5-05.assessments.yaml
-examples_file: MT5-05.examples.yaml
+assessments_file: "MT5-05.assessments.yaml"
+examples_file: "MT5-05.examples.yaml"

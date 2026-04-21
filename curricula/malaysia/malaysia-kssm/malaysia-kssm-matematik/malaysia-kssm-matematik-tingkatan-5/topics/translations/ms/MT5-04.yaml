@@ -1,0 +1,76 @@
+id: MT5-04
+official_ref: "Bab 4"
+name: "Matematik Pengguna: Percukaian"
+subject_grade_id: "malaysia-kssm-matematik-tingkatan-5"
+subject_id: "malaysia-kssm-matematik"
+syllabus_id: "malaysia-kssm"
+country_id: "malaysia"
+language: "ms"
+difficulty: "intermediate"
+tier: "core"
+
+content_standards:
+  - id: "4.1"
+    text: "Percukaian"
+
+learning_objectives:
+  - id: "4.1.1"
+    text: "Menghuraikan tujuan percukaian."
+    bloom: "understand"
+    tp_level: 2
+  - id: "4.1.2"
+    text: "Menghuraikan pelbagai cukai dan seterusnya kesan pengelakan cukai tersebut dari aspek perundangan dan kewangan."
+    bloom: "understand"
+    tp_level: 2
+  - id: "4.1.3"
+    text: "Mengkaji, mentafsir dan membuat pengiraan yang melibatkan pelbagai cukai."
+    bloom: "apply"
+    tp_level: 4
+  - id: "4.1.4"
+    text: "Menyelesaikan masalah yang melibatkan percukaian."
+    bloom: "apply"
+    tp_level: 5
+
+prerequisites:
+  required:
+    - id: "MT1-04" # Nisbah, Kadar dan Kadaran (Peratusan)
+    - id: "MT3-03" # Matematik Pengguna: Simpanan dan Pelaburan, Kredit dan Hutang
+  bloom_levels:
+    - "understand"
+    - "apply"
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+quality_level: 3
+provenance: "curriculum-architect-audit"
+generated_at: "2026-04-20T16:44:00Z"
+sync_checked: true
+
+teaching:
+  sequence:
+    - "Langkah 1: Pengenalan kepada Percukaian dan tujuannya (DSKP 4.1.1) - 15 min"
+    - "Langkah 2: Meneroka pelbagai jenis cukai (Pendapatan, Jalan, Pintu, Tanah, Jualan/Perkhidmatan) serta kesan Pengelakan Cukai (DSKP 4.1.2) - 20 min"
+    - "Langkah 3: Pengiraan cukai langkah demi langkah termasuk pelepasan cukai, rebat, dan PCB (DSKP 4.1.3) - 30 min"
+    - "Langkah 4: Penyelesaian masalah senario percukaian yang kompleks dan projek mini (DSKP 4.1.4) - 25 min"
+  
+  common_misconceptions:
+    - misconception: "Pelajar menganggap cukai adalah denda atau derma pilihan."
+      remediation: "Tekankan bahawa cukai adalah wajib dan digunakan untuk membiayai infrastruktur awam seperti sekolah dan hospital."
+    - misconception: "Keliru antara pelepasan cukai dan rebat cukai."
+      remediation: "Jelaskan bahawa pelepasan ditolak daripada pendapatan bercukai, manakala rebat ditolak daripada jumlah cukai yang perlu dibayar."
+    - misconception: "Menganggap pengelakan cukai adalah kesalahan kecil."
+      remediation: "Tunjukkan penalti undang-undang dan denda khusus di bawah Akta Cukai Pendapatan dan Akta Pengangkutan Jalan."
+
+  engagement_hooks:
+    - "Bincangkan bagaimana cukai membiayai jalan raya yang digunakan pelajar untuk ke sekolah hari ini."
+    - "Analisis bil elektrik sebenar untuk mengenal pasti caj cukai perkhidmatan 6%."
+    - "Bandingkan senario taksiran cukai bersama berbanding taksiran berasingan untuk pasangan suami isteri."
+
+ai_teaching_notes: "MT5-04.teaching.md"
+assessments_file: "MT5-04.assessments.yaml"
+examples_file: "MT5-04.examples.yaml"

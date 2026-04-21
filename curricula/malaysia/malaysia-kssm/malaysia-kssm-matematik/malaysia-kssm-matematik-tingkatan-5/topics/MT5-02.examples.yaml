@@ -1,68 +1,70 @@
 topic_id: MT5-02
 provenance: ai-generated
-description: "Worked examples for Matriks"
+description: "Worked examples for Matrices (Form 5 Chapter 2) aligned with DSKP and KSSM textbook."
+
 worked_examples:
+  # Example 1: Representing Data (SP 2.1.1 / TP 2)
   - id: WE-01
-    topic: "Mewakilkan maklumat dalam bentuk matriks"
+    topic: "Representing Information in Matrix Form"
     difficulty: easy
     tp_level: 2
-    kbat: false
-    learning_objective: "2.1.1 (apply): Mewakilkan maklumat situasi sebenar dalam bentuk matriks."
-    real_world_analogy: "Mengatur susunan meja di dalam kelas mengikut baris dan lajur."
-    misconception_alert: "Kesalahan biasa ialah menukar baris dengan lajur dalam matriks."
-    scenario: "Seorang guru ingin mewakili bilangan pelajar dalam tiga kelas yang berbeza pada hari Isnin dan Selasa. Kelas A mempunyai 20 pelajar pada hari Isnin dan 18 pelajar pada hari Selasa, Kelas B mempunyai 22 dan 21 pelajar, manakala Kelas C mempunyai 19 dan 20 pelajar."
+    learning_objective: "2.1.1: Represent real-life situation information in the form of matrices."
+    real_world_analogy: "Think of a matrix like a chocolate box tray. Each slot has a specific place for a specific flavor, and the whole tray is organized by rows and columns so the factory knows exactly what is inside."
+    misconception_alert: "The 'RC' Trap! Students often confuse rows (horizontal) with columns (vertical). Always remember 'Row first, Column second' (like the brand RC Cola)."
+    scenario: "A school cooperative sells two types of pens: Blue and Black. On Monday, they sold 15 Blue pens and 10 Black pens. On Tuesday, they sold 12 Blue pens and 18 Black pens. Represent this sales data in a matrix where rows represent the days."
     working: |
-      Step 1: Kenal pasti maklumat yang diberikan dalam bentuk baris dan lajur.
-      Step 2: Baris mewakili kelas, manakala lajur mewakili hari.
-      Step 3: Bentukkan matriks 3x2:
-              \[
-              \begin{bmatrix}
-              20 & 18 \\
-              22 & 21 \\
-              19 & 20
-              \end{bmatrix}
-              \]
+      Step 1: Identify the variables. We have two days (Monday, Tuesday) and two items (Blue, Black).
+      Step 2: Set the rows as Days and columns as Pen Colors.
+      Step 3: Arrange Monday's data in the first row:.
+      Step 4: Arrange Tuesday's data in the second row:.
+      Step 5: Enclose the numbers in brackets to form the final matrix:
+      $\begin{bmatrix} 15 & 10 \\ 12 & 18 \end{bmatrix}$
 
+  # Example 2: Matrix Multiplication (SP 2.2.3 / TP 3)
   - id: WE-02
-    topic: "Menambah dan menolak matriks"
+    topic: "Multiplication of Two Matrices"
     difficulty: medium
     tp_level: 3
-    kbat: false
-    learning_objective: "2.2.1 (apply): Menambah dan menolak matriks."
-    real_world_analogy: "Menggabungkan dua kumpulan data seperti jumlah barang di dua kedai."
-    misconception_alert: "Pelajar sering salah dalam mengira elemen yang sama kedudukan dalam kedua-dua matriks."
-    scenario: "Kedai X dan Y menjual tiga jenis buah-buahan: epal, oren, dan pisang. Kedai X menjual 30 epal, 45 oren, dan 25 pisang. Kedai Y menjual 20 epal, 35 oren, dan 30 pisang. Berapa jumlah buah yang dijual oleh kedua-dua kedai?"
+    learning_objective: "2.2.3: Multiply two matrices."
+    real_world_analogy: "Think of the '7-Shape Dive'. The first row 'dives' into the first column. You multiply the partners as you go down and then add them all up to get the final score."
+    misconception_alert: "The 'Element-to-Element' Error. Students often try to multiply matrices like addition (multiplying numbers in the same spot). You MUST use the Row $\times$ Column rule!"
+    scenario: "Calculate the product of matrix $A = \begin{bmatrix} 2 & 3 \\ 1 & 4 \end{bmatrix}$ and matrix $B = \begin{bmatrix} 5 \\ 6 \end{bmatrix}$."
     working: |
-      Step 1: Wakilkan jumlah jualan buah oleh Kedai X dan Y dalam matriks masing-masing:
-              \[
-              \text{Kedai X:} \begin{bmatrix} 30 \\ 45 \\ 25 \end{bmatrix}, \quad \text{Kedai Y:} \begin{bmatrix} 20 \\ 35 \\ 30 \end{bmatrix}
-              \]
-      Step 2: Tambahkan matriks kedua-dua kedai:
-              \[
-              \begin{bmatrix} 30 \\ 45 \\ 25 \end{bmatrix} + \begin{bmatrix} 20 \\ 35 \\ 30 \end{bmatrix} = \begin{bmatrix} 50 \\ 80 \\ 55 \end{bmatrix}
-              \]
-      Step 3: Jumlah buah yang dijual oleh kedua-dua kedai ialah 50 epal, 80 oren, dan 55 pisang.
+      Step 1: Check the order. A is $2 \times 2$, B is $2 \times 1$. The inner numbers (2 and 2) match, so multiplication is possible. The result will be $2 \times 1$.
+      Step 2: Multiply Row 1 of A by Column 1 of B.
+      Calculation: $(2 \times 5) + (3 \times 6)$
+      Step 3: Simplify the first element: $10 + 18 = 28$.
+      Step 4: Multiply Row 2 of A by Column 1 of B.
+      Calculation: $(1 \times 5) + (4 \times 6)$
+      Step 5: Simplify the second element: $5 + 24 = 29$.
+      Step 6: Combine into the final matrix:
+      $\begin{bmatrix} 28 \\ 29 \end{bmatrix}$
 
+  # Example 3: Simultaneous Equations (SP 2.2.6 / TP 5)
   - id: WE-03
-    topic: "Mendarab dua matriks"
+    topic: "Solving Simultaneous Equations using Matrices"
     difficulty: hard
-    tp_level: 4
+    tp_level: 5
     kbat: true
-    learning_objective: "2.2.3 (apply): Mendarab dua matriks."
-    real_world_analogy: "Mengira kos keseluruhan dengan mendarabkan harga dan kuantiti barang."
-    misconception_alert: "Kesalahan umum ialah tidak mematuhi peraturan darab matriks: bilangan lajur matriks pertama mesti sama dengan bilangan baris matriks kedua."
-    scenario: "Pengedar mempunyai dua produk, A dan B, dan dua pelanggan, X dan Y. Harga produk A ialah RM10 dan produk B ialah RM15. Pelanggan X membeli 3 unit A dan 1 unit B, manakala pelanggan Y membeli 2 unit A dan 4 unit B. Hitung jumlah jualan."
+    learning_objective: "2.2.6: Use the matrix method to solve simultaneous linear equations."
+    real_world_analogy: "The 'Magic Key'. Matrix $A$ is the 'lock' on our variables $x$ and $y$. To unlock them, we find the Inverse Matrix $A^{-1}$, which acts as the 'key' to solve the mystery on the other side."
+    misconception_alert: "The 'Determinant Zero' Trap! Always check the determinant $(ad - bc)$ first. If it is 0, the 'lock' is broken and no unique solution exists (Singular Matrix)."
+    scenario: "At a local stall, the price of 2 Nasi Lemak and 1 Teh Tarik is RM7. The price of 1 Nasi Lemak and 3 Teh Tarik is RM6. Solve for the price of one Nasi Lemak ($x$) and one Teh Tarik ($y$) using matrices."
     working: |
-      Step 1: Wakilkan harga dan kuantiti dalam bentuk matriks:
-              \[
-              \text{Harga:} \begin{bmatrix} 10 & 15 \end{bmatrix}, \quad \text{Kuantiti:} \begin{bmatrix} 3 & 2 \\ 1 & 4 \end{bmatrix}
-              \]
-      Step 2: Darabkan matriks harga dengan matriks kuantiti:
-              \[
-              \begin{bmatrix} 10 & 15 \end{bmatrix} \times \begin{bmatrix} 3 & 2 \\ 1 & 4 \end{bmatrix} = \begin{bmatrix} (10 \times 3 + 15 \times 1) & (10 \times 2 + 15 \times 4) \end{bmatrix}
-              \]
-      Step 3: Selesaikan pengiraan:
-              \[
-              = \begin{bmatrix} 30 + 15 & 20 + 60 \end{bmatrix} = \begin{bmatrix} 45 & 80 \end{bmatrix}
-              \]
-      Step 4: Jumlah jualan kepada pelanggan X ialah RM45 dan kepada pelanggan Y ialah RM80.
+      Step 1: Form the linear equations:
+      $2x + 1y = 7$
+      $1x + 3y = 6$
+      Step 2: Convert to matrix form $AX = B$:
+      $\begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 7 \\ 6 \end{bmatrix}$
+      Step 3: Find the determinant of A: $(2 \times 3) - (1 \times 1) = 6 - 1 = 5$.
+      Step 4: Find the inverse $A^{-1}$:
+      $A^{-1} = \frac{1}{5} \begin{bmatrix} 3 & -1 \\ -1 & 2 \end{bmatrix}$
+      Step 5: Solve for $X$ using $X = A^{-1}B$:
+      $\begin{bmatrix} x \\ y \end{bmatrix} = \frac{1}{5} \begin{bmatrix} 3 & -1 \\ -1 & 2 \end{bmatrix} \begin{bmatrix} 7 \\ 6 \end{bmatrix}$
+      Step 6: Multiply the matrices:
+      Row 1: $(3 \times 7) + (-1 \times 6) = 21 - 6 = 15$
+      Row 2: $(-1 \times 7) + (2 \times 6) = -7 + 12 = 5$
+      Step 7: Multiply by the scalar $1/5$:
+      $x = 15/5 = 3$
+      $y = 5/5 = 1$
+      Step 8: Conclusion: One Nasi Lemak is RM3.00 and one Teh Tarik is RM1.00.

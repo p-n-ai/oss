@@ -1,45 +1,103 @@
 topic_id: MT5-01
-provenance: ai-generated
-description: "Worked examples for Ubahan"
+provenance: ai-assisted
+description: "Mastering variation through real-world Malaysian scenarios and clear step-by-step logic."
 worked_examples:
   - id: WE-01
-    topic: "Ubahan Langsung"
+    topic: "Direct Variation"
     difficulty: easy
-    tp_level: 2
-    kbat: false
-    learning_objective: "1.1.1 (understand): Menerangkan maksud ubahan langsung."
-    real_world_analogy: "Consider how the cost of apples is directly proportional to the number of apples you buy."
-    misconception_alert: "A common mistake is to think that all relationships between variables are direct, but only those where a constant ratio exists are direct variations."
-    scenario: "Jika 5 biji epal berharga RM10, berapakah harga untuk 8 biji epal?"
-    working: |
-      Step 1: Nyatakan hubungan ubahan langsung: Harga (H) adalah langsung dengan bilangan epal (E), maka H = kE.
-      Step 2: Cari nilai k menggunakan maklumat yang diberikan: RM10 = k * 5, jadi k = 2.
-      Step 3: Gantikan nilai k untuk mencari harga bagi 8 biji epal: H = 2 * 8 = RM16.
-      
-  - id: WE-02
-    topic: "Ubahan Songsang"
-    difficulty: medium
     tp_level: 3
     kbat: false
-    learning_objective: "1.2.2 (apply): Menentukan hubungan antara dua pemboleh ubah bagi suatu ubahan songsang."
-    real_world_analogy: "Think of a seesaw; when one side goes up, the other goes down, similar to inverse variation."
-    misconception_alert: "Students often forget that in inverse variation, as one variable increases, the other decreases."
-    scenario: "Sebuah mesin boleh menyiapkan kerja dalam 6 jam. Jika dua mesin yang sama digunakan, berapa jam diperlukan untuk menyiapkan kerja yang sama?"
+    learning_objective: "1.1.2"
+    real_world_analogy: "Think of a mamak stall. If one piece of roti canai costs the same fixed amount every time, then the total price rises at a constant rate as the number of pieces increases."
+    misconception_alert: "The 'Not-from-Zero' trap. A graph that goes up is not automatically direct variation. It must pass through the origin, so a taxi fare with a starting fee is not a direct variation."
+    scenario: "A worker's salary, $S$, varies directly as the number of hours worked, $t$. If he earns RM112 for 14 hours of work, calculate his earnings for 20 hours."
     working: |
-      Step 1: Nyatakan hubungan ubahan songsang: Masa (M) adalah songsang dengan bilangan mesin (B), maka M = k/B.
-      Step 2: Cari nilai k menggunakan maklumat yang diberikan: 6 = k/1, jadi k = 6.
-      Step 3: Gantikan nilai k untuk mencari masa bagi 2 mesin: M = 6/2 = 3 jam.
-      
-  - id: WE-03
-    topic: "Ubahan Bergabung"
-    difficulty: hard
+      Step 1: Write the variation relation in equation form: $S = kt$.
+      Step 2: Follow the K Protocol and find the constant of variation first.
+      Step 3: Substitute $S = 112$ and $t = 14$:
+      $112 = 14k$.
+      Step 4: Solve for $k$:
+      $k = 112/14 = 8$.
+      Step 5: Form the complete equation:
+      $S = 8t$.
+      Step 6: Substitute the new value $t = 20$:
+      $S = 8(20)$.
+      Step 7: Final answer:
+      $S = RM160$.
+
+  - id: WE-02
+    topic: "Joint Variation"
+    difficulty: medium
     tp_level: 4
-    kbat: true
-    learning_objective: "1.3.2 (apply): Menyelesaikan masalah yang melibatkan ubahan bergabung."
-    real_world_analogy: "Imagine filling a tank with water where the flow rate and time together determine the total volume."
-    misconception_alert: "Students might confuse combined variation with direct or inverse alone, forgetting that it involves both types."
-    scenario: "Kelajuan (v) sebuah kereta adalah berkadar langsung dengan kuasa enjin (P) dan songsang dengan rintangan angin (R). Jika v = 60 apabila P = 120 dan R = 3, hitung v apabila P = 150 dan R = 2."
+    kbat: false
+    learning_objective: "1.1.3"
+    real_world_analogy: "Imagine a math party. The total fun depends on both the number of friends and the amount of food. If both increase together, the effect becomes bigger very quickly."
+    misconception_alert: "The 'Missing k' mistake. Students often write $y = xz$ and forget the constant of variation. Variation always needs the bridge $k$ to turn a relation into an equation."
+    scenario: "The gravitational potential energy, $E$, of an object varies jointly as its mass, $m$, the gravitational acceleration, $g$, and its height, $h$. Given that $E = 197$ J when $m = 4$ kg, $g = 9.81$ m s$^{-2}$ and $h = 5$ m, find the equation relating the variables."
     working: |
-      Step 1: Nyatakan hubungan ubahan bergabung: v = k * P/R.
-      Step 2: Cari nilai k menggunakan maklumat yang diberikan: 60 = k * 120/3, jadi k = 1.5.
-      Step 3: Gantikan nilai k untuk mencari kelajuan baru: v = 1.5 * 150/2 = 112.5 km/j.
+      Step 1: Write the joint variation relation:
+      $E \propto mgh$.
+      Step 2: Introduce the constant of variation:
+      $E = kmgh$.
+      Step 3: Apply the K Protocol using the given values:
+      $197 = k(4)(9.81)(5)$.
+      Step 4: Simplify the product:
+      $197 = 196.2k$.
+      Step 5: Solve for $k$:
+      $k = 197/196.2 \approx 1$.
+      Step 6: Write the final equation:
+      $E = mgh$.
+
+  - id: WE-03
+    topic: "Inverse Variation"
+    difficulty: medium
+    tp_level: 4
+    kbat: false
+    learning_objective: "1.2.3"
+    real_world_analogy: "Think about a seesaw. To balance a heavier friend, the distance from the pivot must change in the opposite way. One quantity goes up while the other comes down."
+    misconception_alert: "The 'Straight Line' trap. Inverse variation does not produce a straight line with negative gradient. It produces a curve, and the product of the variables stays constant."
+    scenario: "According to Boyle's Law, the pressure, $P$, of a gas is inversely proportional to its volume, $V$. A gas has volume $80$ cm$^3$ and pressure $190.25$ kPa. Calculate the volume when the pressure changes to $121.76$ kPa."
+    working: |
+      Step 1: Write the inverse variation relation:
+      $P \propto \frac{1}{V}$.
+      Step 2: Convert it into equation form:
+      $P = \frac{k}{V}$.
+      Step 3: Follow the K Protocol and find $k$ first:
+      $k = PV$.
+      Step 4: Substitute the initial values:
+      $k = 190.25 \times 80$.
+      Step 5: Calculate the constant:
+      $k = 15220$.
+      Step 6: Use the new pressure:
+      $121.76 = \frac{15220}{V}$.
+      Step 7: Solve for $V$:
+      $V = 15220/121.76 = 125$.
+      Step 8: Final answer:
+      $V = 125$ cm$^3$.
+
+  - id: WE-04
+    topic: "Combined Variation"
+    difficulty: hard
+    tp_level: 6
+    kbat: true
+    learning_objective: "1.3.2"
+    real_world_analogy: "Think about a bicycle gear system. Speed depends directly on how fast you pedal, but inversely on a resisting factor like gear resistance. Direct friends stay on top; inverse friends go underneath."
+    misconception_alert: "The 'Everything-on-Top' error. In combined variation, direct variables belong in the numerator, but inverse variables must go in the denominator."
+    scenario: "The pressure, $p$, on the tyre of a wheelbarrow varies directly as the mass of the wheelbarrow, $m$, and inversely as the surface area of the tyre touching the ground, $A$. Given that $p = 45000$ when $m = 90$ and $A = 0.02$, find the new pressure when $m = 120$ and $A = 0.05$."
+    working: |
+      Step 1: Write the combined variation equation:
+      $p = \frac{km}{A}$.
+      Step 2: Follow the K Protocol and solve for $k$ first.
+      Step 3: Substitute the given values:
+      $45000 = \frac{k(90)}{0.02}$.
+      Step 4: Multiply both sides by $0.02$:
+      $900 = 90k$.
+      Step 5: Solve for $k$:
+      $k = 10$.
+      Step 6: Substitute the new values $m = 120$ and $A = 0.05$:
+      $p = \frac{10(120)}{0.05}$.
+      Step 7: Simplify:
+      $p = 1200/0.05 = 24000$.
+      Step 8: Final answer:
+      $p = 24000$ N m$^{-2}$.
+      Conclusion: Increasing the contact area reduces the pressure.

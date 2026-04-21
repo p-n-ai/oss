@@ -1,84 +1,94 @@
 id: MT5-07
 official_ref: "7.0"
-name: "Sukatan Serakan Data Terkumpul"
 name_en: "Measures of Dispersion for Grouped Data"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-5
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: advanced
 tier: core
+
 content_standards:
-    - id: "7.1"
-      text: "Perwakilan Data Terkumpul"
-      text_en: "Representation of Grouped Data"
-    - id: "7.2"
-      text: "Sukatan Serakan bagi Data Terkumpul"
-      text_en: "Measures of Dispersion for Grouped Data"
+  - id: "7.1"
+    text_en: "Dispersion"
+  - id: "7.2"
+    text_en: "Measures of Dispersion"
+
 learning_objectives:
-    - id: "7.1.1"
-      text: "Membina histogram dan poligon kekerapan bagi suatu set data terkumpul."
-      text_en: "Construct histogram and frequency polygon for a set of grouped data."
-      bloom: apply
-    - id: "7.1.2"
-      text: "Membanding dan mentafsir serakan dua atau lebih set data terkumpul berdasarkan histogram dan poligon kekerapan dan seterusnya membuat kesimpulan."
-      text_en: "Compare and interpret the dispersion of two or more sets of grouped data based on histogram and frequency polygon and subsequently make conclusions."
-      bloom: analyze
-    - id: "7.1.3"
-      text: "Membina ogif bagi suatu set data terkumpul dan seterusnya menentukan kuartil."
-      text_en: "Construct ogive for a set of grouped data and subsequently determine quartiles."
-      bloom: apply
-    - id: "7.2.1"
-      text: "Menentukan julat, julat antara kuartil, varians dan sisihan piawai sebagai sukatan untuk menghuraikan serakan bagi data terkumpul."
-      text_en: "Determine range, interquartile range, variance and standard deviation as measures to describe dispersion for grouped data."
-      bloom: apply
-    - id: "7.2.2"
-      text: "Membina dan mentafsir plot kotak bagi suatu set data terkumpul."
-      text_en: "Construct and interpret box plot for a set of grouped data."
-      bloom: apply
-    - id: "7.2.3"
-      text: "Membanding dan mentafsir dua atau lebih set data terkumpul, berdasarkan sukatan serakan yang sesuai dan seterusnya membuat kesimpulan."
-      text_en: "Compare and interpret two or more sets of grouped data, based on appropriate measures of dispersion and subsequently make conclusions."
-      bloom: analyze
-    - id: "7.2.4"
-      text: "Menyelesaikan masalah yang melibatkan sukatan serakan bagi data terkumpul."
-      text_en: "Solve problems involving measures of dispersion for grouped data."
-      bloom: apply
-    - id: "7.2.5"
-      text: "Mereka bentuk dan melaksanakan suatu projek mini yang melibatkan penyiasatan statistik berdasarkan sukatan kecenderungan memusat dan sukatan serakan serta mentafsir dan mengkomunikasikan dapatan kajian."
-      text_en: "Design and implement a mini project involving statistical investigation based on measures of central tendency and measures of dispersion as well as interpret and communicate the findings of the study."
-      bloom: create
+  - id: "7.1.1"
+    text_en: "Construct histogram and frequency polygon for a set of grouped data."
+    bloom: apply
+  - id: "7.1.2"
+    text_en: "Compare and interpret the dispersions of two or more sets of grouped data based on histogram and frequency polygon, hence make conclusion."
+    bloom: analyze
+  - id: "7.1.3"
+    text_en: "Construct an ogive for a set of grouped data and determine the quartiles."
+    bloom: apply
+  - id: "7.2.1"
+    text_en: "Determine range, interquartile range, variance and standard deviation as a measure to describe dispersion for grouped data."
+    bloom: apply
+  - id: "7.2.2"
+    text_en: "Construct and interpret a box plot for a set of grouped data."
+    bloom: apply
+  - id: "7.2.3"
+    text_en: "Compare and interpret two or more sets of grouped data, based on measures of dispersion hence make conclusion."
+    bloom: analyze
+  - id: "7.2.4"
+    text_en: "Solve problems involving measures of dispersion for grouped data."
+    bloom: apply
+  - id: "7.2.5"
+    text_en: "Design and conduct a mini-project involving statistical investigations based on measures of central tendency and measures of dispersion and hence interpret and communicate research findings."
+    bloom: create
+
+performance_standards:
+  - tp_level: 1
+    descriptor: "Demonstrate basic knowledge of dispersion and measures of dispersion of grouped data."
+  - tp_level: 2
+    descriptor: "Demonstrate the understanding of dispersion and measures of dispersion of grouped data."
+  - tp_level: 3
+    descriptor: "Apply the understanding of dispersion and measures of dispersion of grouped data to perform simple tasks."
+  - tp_level: 4
+    descriptor: "Apply appropriate knowledge and skills about measures of dispersion of grouped data in the context of simple routine problem solving."
+  - tp_level: 5
+    descriptor: "Apply appropriate knowledge and skills to the measures of dispersion of grouped data in the context of complex routine problem solving."
+  - tp_level: 6
+    descriptor: "Apply appropriate knowledge and skills to the measures of dispersion of grouped data in the context of non-routine problem solving in a creative manner."
+
 prerequisites:
-    required: []
-bloom_levels:
-    - apply
-    - analyze
-    - create
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-27T13:54:52Z"
+  required:
+    - "Measures of Dispersion for Ungrouped Data (Form 4 Bab 8)"
+    - "Measures of Central Tendency (Form 2 Bab 12)"
+    - "Construction of Frequency Tables"
+
 teaching:
-    sequence:
-        - 'Step 1: Introduce histograms and frequency polygons as tools for visualizing data spread (30 min)'
-        - 'Step 2: Guide students in constructing ogives and determining quartiles (25 min)'
-        - 'Step 3: Teach calculation of range, interquartile range, variance, and standard deviation (40 min)'
-        - 'Step 4: Demonstrate how to build and interpret box plots for data comparison (35 min)'
-        - 'Step 5: Assist students in designing a mini-project on statistical data investigation (50 min)'
-    common_misconceptions:
-        - misconception: Histograms are the same as bar charts
-          remediation: 'Highlight differences: histograms are for continuous data, bar charts for categorical data'
-        - misconception: Range is the only measure of spread
-          remediation: Discuss limitations of range and introduce interquartile range, variance, and standard deviation
-engagement_hooks:
-    - Use local business data to explore sales trends and engage students with real-world applications
-    - Analyze demographic data from the community to understand population spread and relevance
+  sequence:
+    - "Step 1: Organizing raw data into frequency tables and identifying class intervals, limits, and boundaries (Textbook pp. 198-200)."
+    - "Step 2: Constructing and interpreting Histograms and Frequency Polygons to visualize data distribution (Learning Standards 7.1.1, 7.1.2)."
+    - "Step 3: Plotting Ogives and using them to determine cumulative frequency, quartiles, and percentiles (Learning Standard 7.1.3)."
+    - "Step 4: Calculating numerical measures: Range, Interquartile Range, Variance, and Standard Deviation (Learning Standard 7.2.1)."
+    - "Step 5: Constructing Box Plots and comparing multiple data sets (Learning Standards 7.2.2, 7.2.3)."
+    - "Step 6: Problem solving and execution of the statistical mini-project (Learning Standards 7.2.4, 7.2.5)."
+  
+  common_misconceptions:
+    - misconception: "Confusing class limits with class boundaries during graph construction."
+      remediation: "Explicitly show that boundaries (midpoints between limits) are used for contiguous bars in histograms."
+    - misconception: "Assuming the range is the most reliable measure of dispersion."
+      remediation: "Compare range with standard deviation using data with outliers to show sensitivity."
+    - misconception: "Plotting cumulative frequency against midpoints instead of upper boundaries for ogives."
+      remediation: "Emphasize that an ogive represents data 'up to' a point, hence upper boundaries must be used."
+
+  engagement_hooks:
+    - "Analyzing real-world Covid-19 daily cases data to understand how 'flattening the curve' relates to measures of dispersion."
+    - "Comparing the consistency of two different brands of batteries through standard deviation analysis."
+
 mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
 ai_teaching_notes: "MT5-07.teaching.md"
-assessments_file: MT5-07.assessments.yaml
-examples_file: MT5-07.examples.yaml
+assessments_file: "MT5-07.assessments.yaml"
+examples_file: "MT5-07.examples.yaml"

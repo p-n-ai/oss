@@ -1,51 +1,72 @@
 topic_id: MT5-07
-provenance: ai-generated
-description: "Worked examples for Sukatan Serakan Data Terkumpul"
+provenance: "kssm-textbook-aligned"
+description: "Scaffolded worked examples for Measures of Dispersion for Grouped Data."
 worked_examples:
   - id: WE-01
-    topic: "Membina Histogram dan Poligon Kekerapan"
+    topic: "Constructing Histograms and Frequency Polygons"
     difficulty: easy
+    learning_objective: "7.1.1"
     tp_level: 2
     kbat: false
-    learning_objective: "7.1.1 (apply): Membina histogram dan poligon kekerapan bagi suatu set data terkumpul."
-    real_world_analogy: "Consider a library organizing books by genre to see which genre is most popular."
-    misconception_alert: "Students often forget to label the axes correctly in a histogram."
-    scenario: "Sekumpulan 30 pelajar mengambil ujian dan skor mereka dibahagikan kepada kelas berikut: 0-10, 11-20, 21-30, dan seterusnya. Bina histogram dan poligon kekerapan berdasarkan data ini."
+    real_world_analogy: "Think of a 'Durian Sorting Station.' You can't weigh every single durian individually for a report; you group them into crates of 1kg–2kg, 2kg–3kg, etc., to see which weight category is the most common."
+    misconception_alert: "The 'Gap Trap'! Students often use class limits (e.g., 10-14, 15-19) on the x-axis, leaving gaps between bars. Always use Class Boundaries (e.g., 9.5, 14.5, 19.5) to ensure the bars are 'besties'—touching with no gaps."
+    scenario: "The following data shows the heights (cm) of 20 students in a silat class. Construct a frequency table with class intervals of $5$ cm starting from $145 - 149$, then draw a histogram to represent the data: $153, 168, 163, 157, 158, 161, 165, 162, 145, 150, 158, 156, 166, 163, 152, 155, 158, 173, 148, 164$."
     working: |
-      Step 1: Kumpulkan data skor pelajar ke dalam kelas frekuensi yang diberikan.
-      Step 2: Tentukan frekuensi bagi setiap kelas, contohnya, berapa ramai pelajar yang mendapat markah antara 0-10, 11-20, dan seterusnya.
-      Step 3: Lukis histogram dengan meletakkan kelas pada paksi-x dan frekuensi pada paksi-y. Pastikan setiap bar mewakili satu kelas.
-      Step 4: Lukis poligon kekerapan dengan menyambungkan titik tengah atas setiap bar pada histogram dengan garis lurus.
-      Step 5: Semak semula untuk memastikan semua label dan skala adalah betul.
+      1. Determine the number of classes and size: The range is $173 - 145 = 28$. Using class size of 5, we get intervals: $145-149, 150-154, 155-159, 160-164, 165-169, 170-174$.
+      2. Find Class Boundaries for the x-axis:
+         - For $145-149$: Lower Boundary = $144.5$, Upper Boundary = $149.5$.
+         - For $150-154$: Lower Boundary = $149.5$, Upper Boundary = $154.5$. (And so on).
+      3. Count Frequencies ($f$):
+         - $145-149: 2$
+         - $150-154: 3$
+         - $155-159: 6$
+         - $160-164: 5$
+         - $165-169: 3$
+         - $170-174: 1$
+      4. Plot the Histogram: x-axis = Boundaries ($144.5, 149.5...$), y-axis = Number of students ($2, 3, 6...$).
+      5. Draw bars: Height of bars corresponds to frequency, width corresponds to class size (5).
 
   - id: WE-02
-    topic: "Membanding dan Mentafsir Serakan Data"
+    topic: "Constructing an Ogive and Finding Quartiles"
     difficulty: medium
-    tp_level: 4
-    kbat: true
-    learning_objective: "7.1.2 (analyze): Membanding dan mentafsir serakan dua atau lebih set data terkumpul berdasarkan histogram dan poligon kekerapan dan seterusnya membuat kesimpulan."
-    real_world_analogy: "Comparing two different car models to determine which one is more fuel-efficient based on their fuel consumption data."
-    misconception_alert: "Students may incorrectly assume that two data sets with similar shapes have the same spread."
-    scenario: "Dua kelas pelajar mengambil ujian, dan skor mereka direkodkan. Bandingkan dan tafsirkan serakan skor ujian bagi kedua-dua kelas menggunakan histogram dan poligon kekerapan."
+    learning_objective: "7.1.3"
+    tp_level: 3
+    kbat: false
+    real_world_analogy: "Climbing a 'Cumulative Hill.' As you walk through the class intervals, you keep adding the number of people you've passed. The Ogive shows how many people are 'below' a certain height at any point."
+    misconception_alert: "The 'Floating Ogive'! If you don't start your curve at the Lower Boundary of the first class with a cumulative frequency of $0$, your graph will look like it's floating in mid-air. Always start at the 'ground' ($0$)."
+    scenario: "A food festival records the salt content (mg) of 60 types of snacks. Based on the frequency table (100-149: 4, 150-199: 11, 200-249: 15, 250-299: 21, 300-349: 8, 350-399: 1), construct an ogive and determine the Interquartile Range."
     working: |
-      Step 1: Bina histogram dan poligon kekerapan untuk setiap set data kelas.
-      Step 2: Perhatikan bentuk histogram, seperti simetri atau skewness, untuk kedua-dua kelas.
-      Step 3: Bandingkan ketinggian bar dan sebaran kelas pada histogram untuk menilai variasi.
-      Step 4: Gunakan poligon kekerapan untuk melihat pergerakan umum data.
-      Step 5: Buat kesimpulan berdasarkan perbandingan, seperti menyatakan kelas mana yang mempunyai serakan skor yang lebih luas.
+      1. Add a 'starting class' with 0 frequency: $50-99 (f=0)$.
+      2. Calculate Cumulative Frequency ($cf$):
+         - $99.5: 0$
+         - $149.5: 4$
+         - $199.5: 4+11=15$
+         - $249.5: 15+15=30$
+         - $299.5: 30+21=51$
+         - $349.5: 51+8=59$
+         - $399.5: 59+1=60$
+      3. Plot Ogive: x-axis = Upper Boundaries, y-axis = $cf$.
+      4. Find $Q_1$ (Position $1/4 \times 60 = 15$): From $y=15$, move horizontally to the curve, then down to x-axis. $Q_1 = 199.5$ mg.
+      5. Find $Q_3$ (Position $3/4 \times 60 = 45$): From $y=45$, move horizontally to curve, then down. $Q_3 \approx 284.5$ mg.
+      6. Calculate Interquartile Range: $Q_3 - Q_1 = 284.5 - 199.5 = 85$ mg.
 
   - id: WE-03
-    topic: "Menentukan Kuartil dan Membina Ogif"
+    topic: "Calculating Variance and Standard Deviation"
     difficulty: hard
-    tp_level: 5
-    kbat: true
-    learning_objective: "7.1.3 (apply): Membina ogif bagi suatu set data terkumpul dan seterusnya menentukan kuartil."
-    real_world_analogy: "Surveying a town's population income levels to determine the median and quartile ranges to identify economic diversity."
-    misconception_alert: "Students might confuse the construction of an ogif with a histogram; remember that an ogif is a line graph representing cumulative frequencies."
-    scenario: "Dalam satu kajian, pendapatan bulanan 100 keluarga direkodkan. Tentukan kuartil bagi data ini dan bina ogif."
+    learning_objective: "7.2.1"
+    tp_level: 4
+    kbat: false
+    real_world_analogy: "Think of 'Consistency Checking' for two teh tarik stalls. If Stall A pours exactly 250ml every time, its Standard Deviation is $0$ (Perfect consistency). If Stall B pours 200ml sometimes and 300ml others, its Standard Deviation is high (Very inconsistent!)."
+    misconception_alert: "The 'Mean Machine' error. Students often calculate the mean by averaging the midpoints. You MUST multiply each midpoint ($x$) by its frequency ($f$) first: $\\bar{x} = \\sum fx / \\sum f$."
+    scenario: "Calculate the standard deviation for the daily water consumption (litres) of 100 families where $\\sum f = 100$, $\\sum fx = 18{,}334$, and $\\sum fx^2 = 3{,}425{,}133.75$."
     working: |
-      Step 1: Kumpulkan data ke dalam kelas frekuensi kumulatif.
-      Step 2: Hitung frekuensi kumulatif bagi setiap kelas.
-      Step 3: Lukis ogif dengan meletakkan sempadan atas setiap kelas pada paksi-x dan frekuensi kumulatif pada paksi-y.
-      Step 4: Sambungkan titik dengan garis lurus untuk membentuk ogif.
-      Step 5: Tentukan Q1, Q2 (median), dan Q3 dengan mencari titik pada ogif yang sepadan dengan 25%, 50%, dan 75% daripada jumlah frekuensi.
+      1. Calculate the Mean ($\bar{x}$):
+         $\bar{x} = \frac{\sum fx}{\sum f} = \frac{18334}{100} = 183.34$ litres.
+      2. Apply the Variance formula ($\sigma^2$):
+         $\sigma^2 = \frac{\sum fx^2}{\sum f} - (\bar{x})^2$
+      3. Substitute the values:
+         $\sigma^2 = \frac{3425133.75}{100} - (183.34)^2$
+         $\sigma^2 = 34251.3375 - 33613.5556 = 637.7819$
+      4. Calculate Standard Deviation ($\sigma$):
+         $\sigma = \sqrt{\sigma^2} = \sqrt{637.7819} = 25.25$ litres (to 2 d.p.).
+      5. Conclusion: The average spread of water consumption from the mean is $25.25$ litres.

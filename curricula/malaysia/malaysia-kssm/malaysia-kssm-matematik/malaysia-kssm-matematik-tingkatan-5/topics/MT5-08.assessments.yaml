@@ -1,135 +1,125 @@
 topic_id: MT5-08
-provenance: ai-generated
-
+provenance: curriculum-audit
 questions:
-  # Learning Objective 8.1.1
+  # TP1: Demonstrate basic knowledge (8.1.1) - OAP
   - id: Q1
-    text: 'Jelaskan konsep pemodelan matematik dan berikan satu contoh kehidupan sebenar di mana pemodelan ini boleh digunakan.'
-    difficulty: medium
-    learning_objective: 8.1.1
-    tp_level: 3
-    kbat: true
+    text: "Which of the following is the correct first step in the mathematical modeling process?"
+    difficulty: easy
+    learning_objective: "8.1.1"
+    tp_level: 1
+    kbat: false
     answer:
-      type: free_text
-      value: 'Pemodelan matematik adalah proses menggunakan matematik untuk menggambarkan, menganalisis, dan menyelesaikan masalah dunia sebenar. Contoh: Meramal pertumbuhan populasi menggunakan fungsi eksponen.'
+      type: multiple_choice
+      value: "Identifying and defining the problems"
       working: |
-        1. Kenalpasti masalah dunia sebenar yang boleh dimodelkan secara matematik.
-        2. Pilih jenis fungsi yang sesuai untuk model tersebut.
-        3. Gunakan fungsi terpilih untuk menganalisis dan meramal hasil.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: 'Menjelaskan konsep pemodelan matematik.'
-      - marks: 1
-        criteria: 'Memberikan contoh kehidupan sebenar.'
-      - marks: 1
-        criteria: 'Menghubungkan contoh dengan pemodelan matematik.'
-    hints:
-      - level: 1
-        text: 'Fikirkan bagaimana matematik boleh membantu menyelesaikan masalah sehari-hari.'
-      - level: 2
-        text: 'Apakah masalah yang memerlukan ramalan atau analisis yang tepat?'
+        Step 1: Refer to the 6-step modeling cycle.
+        Step 2: The cycle always begins with understanding the real-world scenario.
+      distractors:
+        - value: "Making assumptions"
+          feedback: "Assumptions come second! You cannot assume anything until you know exactly what problem you are trying to solve."
+        - value: "Applying mathematics to solve problems"
+          feedback: "This is Step 3. If you jump here immediately, your math might not fit the real-world context."
+        - value: "Reporting the findings"
+          feedback: "This is the final step (Step 6). You need a solution before you can report it!"
 
-  # Learning Objective 8.1.2
+  # TP2: Demonstrate understanding (8.1.1) - OPB
   - id: Q2
-    text: 'Sebuah syarikat memerlukan model untuk meramal keuntungan masa hadapan berdasarkan keuntungan masa lalu yang meningkat secara linear. Fungsi keuntungan diberikan oleh $P(t) = 5000t + 20000$, di mana $t$ adalah masa dalam tahun. Hitung keuntungan selepas 3 tahun.'
+    text: "Match the modeling component to its correct description: 
+    (A) Refining the model, (B) Making assumptions.
+    1. Simplifying the problem by neglecting minor factors.
+    2. Modifying the model after verifying it against real-world data."
     difficulty: medium
-    learning_objective: 8.1.2
+    learning_objective: "8.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: mapping
+      value: {"A": 2, "B": 1}
+      working: |
+        Step 1: Identify that 'Assumptions' are used to simplify.
+        Step 2: Identify that 'Refining' is the act of improving the model after the first result.
+
+  # TP3: Simple Tasks (8.1.2) - Subjective
+  - id: Q3
+    text: "A car consumes petrol at a constant rate. For a 405 km journey, it uses 45 liters. Formulate a linear function $y = kx$ to represent the petrol needed ($y$) for any distance ($x$)."
+    difficulty: medium
+    learning_objective: "8.1.2"
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: '35000'
+      value: "y = 1/9x"
       working: |
-        1. Gunakan fungsi $P(t) = 5000t + 20000$.
-        2. Gantikan $t = 3$: $P(3) = 5000 \times 3 + 20000 = 15000 + 20000 = 35000$.
+        Step 1: Use the linear form $y = kx$.
+        Step 2: Substitute $y = 45$ and $x = 405$: $45 = k(405)$.
+        Step 3: Solve for $k$: $k = 45/405 = 1/9$.
+        Step 4: The model is $y = \frac{1}{9}x$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: 'Substitusi nilai $t = 3$ ke dalam fungsi.'
+        criteria: "Correct substitution of values into the linear equation."
       - marks: 1
-        criteria: 'Mengira keuntungan dengan tepat.'
+        criteria: "Final correct simplified linear function."
     hints:
       - level: 1
-        text: 'Gantikan nilai $t$ dalam fungsi untuk mencari keuntungan.'
+        text: "Think about the 'rate.' If 405km uses 45L, how many km can you go with just 1L?"
       - level: 2
-        text: 'Pastikan untuk menyelesaikan operasi perkalian sebelum penambahan.'
+        text: "Divide the liters by the distance to find your constant 'k'."
 
-  - id: Q3
-    text: 'Sebuah bakteria membiak secara eksponen. Jumlah bakteria pada masa $t$ diberikan oleh fungsi $N(t) = 100 \times e^{0.3t}$. Berapakah jumlah bakteria selepas 5 jam? (Gunakan $e \approx 2.718$)'
-    difficulty: medium
-    learning_objective: 8.1.2
-    tp_level: 4
-    kbat: false
-    answer:
-      type: exact
-      value: '448'
-      working: |
-        1. Gunakan fungsi $N(t) = 100 \times e^{0.3t}$.
-        2. Substitusi $t = 5$: $N(5) = 100 \times e^{1.5} = 100 \times (2.718)^{1.5}$.
-        3. Hitung $e^{1.5} \approx 4.4817$, jadi $N(5) \approx 100 \times 4.4817 = 448$.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: 'Substitusi nilai $t = 5$ ke dalam fungsi.'
-      - marks: 1
-        criteria: 'Mengira $e^{1.5}$ dengan betul.'
-      - marks: 1
-        criteria: 'Mengira jumlah bakteria dengan tepat.'
-    hints:
-      - level: 1
-        text: 'Gunakan kalkulator untuk menghitung nilai eksponen.'
-      - level: 2
-        text: 'Pastikan anda mengalikan hasil eksponen dengan 100.'
-
+  # TP4: Real-life Linear Context (8.1.2) - Subjective (Rice Price Scenario)
   - id: Q4
-    text: 'Diberikan fungsi kuadratik $f(x) = x^2 - 4x + 4$. Tentukan bilakah fungsi ini mencapai nilai minimum, dan apakah nilai minimum tersebut.'
-    difficulty: medium
-    learning_objective: 8.1.2
+    text: "Store A sells 10kg rice for RM25.95 and is 2km away. Store B sells it for RM23.99 and is 6km away. If petrol cost is RM2.08/liter and the car rate is 17.6km/liter, determine if driving to Store B is worth it for TWO packs of rice. Show your calculation."
+    difficulty: hard
+    learning_objective: "8.1.2"
     tp_level: 4
-    kbat: false
-    answer:
-      type: exact
-      value: 'Minimum pada $x = 2$, nilai minimum ialah 0.'
-      working: |
-        1. Fungsi kuadratik dalam bentuk $ax^2 + bx + c$ mempunyai titik minimum pada $x = -\frac{b}{2a}$.
-        2. Di sini, $a = 1$, $b = -4$, jadi $x = -\frac{-4}{2 \times 1} = 2$.
-        3. Substitusi $x = 2$ ke dalam fungsi: $f(2) = 2^2 - 4(2) + 4 = 0$.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: 'Menentukan $x = -\frac{b}{2a}$ dengan betul.'
-      - marks: 1
-        criteria: 'Substitusi $x = 2$ ke dalam fungsi.'
-      - marks: 1
-        criteria: 'Mengira nilai minimum dengan tepat.'
-    hints:
-      - level: 1
-        text: 'Gunakan formula untuk mencari vertex fungsi kuadratik.'
-      - level: 2
-        text: 'Setelah menentukan $x$, substitusikan kembali ke dalam fungsi.'
-
-  - id: Q5
-    text: 'Seorang pelajar ingin memodelkan jumlah simpanan dalam akaun bank yang memberi faedah tahunan sebanyak 5%. Jika pelajar tersebut menyimpan RM1000 pada permulaan, modelkan persamaan yang menggambarkan nilai simpanan selepas $t$ tahun.'
-    difficulty: medium
-    learning_objective: 8.1.2
-    tp_level: 3
     kbat: true
     answer:
       type: free_text
-      value: '$A(t) = 1000(1.05)^t$'
+      value: "Yes, it is worth it as the savings (RM3.92) is greater than the petrol cost (RM1.42), saving RM2.50."
       working: |
-        1. Mulakan dengan jumlah awal RM1000.
-        2. Faedah tahunan sebanyak 5% boleh dimodelkan sebagai pengganda 1.05.
-        3. Oleh itu, nilai simpanan selepas $t$ tahun adalah $A(t) = 1000(1.05)^t$.
-    marks: 2
+        Step 1: Savings = $2 \times (25.95 - 23.99) = RM3.92$.
+        Step 2: Distance to B (two ways) = $6 \times 2 = 12$ km.
+        Step 3: Petrol used = $12 / 17.6 = 0.341$ liters.
+        Step 4: Petrol cost = $0.341 \times 2.08 = RM1.42$.
+        Step 5: Net gain = $3.92 - 1.42 = RM2.50$.
+    marks: 4
     rubric:
       - marks: 1
-        criteria: 'Kenal pasti pengganda faedah tahunan.'
+        criteria: "Calculate total savings for 2 packs."
       - marks: 1
-        criteria: 'Menggunakan pengganda dalam persamaan eksponen.'
+        criteria: "Calculate total two-way distance to Store B."
+      - marks: 1
+        criteria: "Calculate total petrol cost for the trip."
+      - marks: 1
+        criteria: "Justify the decision based on net savings."
     hints:
       - level: 1
-        text: 'Fikirkan bagaimana faedah tahunan mempengaruhi jumlah simpanan setiap tahun.'
+        text: "First, find out how much money you save on the rice alone. Don't forget you are buying TWO packs!"
       - level: 2
-        text: 'Persamaan eksponen sering melibatkan pangkat tahun dan pengganda faedah.'
+        text: "Now calculate the 'burn.' A trip to the store means going there AND coming back. How many km is that?"
+
+  # TP5/6: Quadratic/Exponential Modeling & Refinement (8.1.2) - Subjective
+  - id: Q5
+    text: "A hydrologist models a river depth using $y = -0.0136x^2 + 0.408x$. If the actual measured depth at 15m from the bank is 3.5m, but the model predicts 3.06m, what is the next step in the modeling process? Suggest one way to refine this model."
+    difficulty: hard
+    learning_objective: "8.1.2"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "The next step is 'Refining the mathematical model.' One can refine it by taking more data points or considering a different function if the riverbed is not a perfect parabola."
+      working: |
+        Step 1: Compare predicted (3.06m) vs actual (3.5m).
+        Step 2: Identify the need for improvement because the error is significant.
+        Step 3: State the component 'Refining' and provide a logical refinement strategy.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Identify the next step as 'Refining the model'."
+      - marks: 2
+        criteria: "Provide a valid justification/method for refinement (e.g., more data, changing assumptions)."
+    hints:
+      - level: 1
+        text: "Look at the 6-step cycle. If the 'Verification' shows the answer is not accurate enough, where do you go back to?"
+      - level: 2
+        text: "Think about the river. Is a perfect U-shape realistic for every part of the river? How could you make the math more complex to match reality?"

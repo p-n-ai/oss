@@ -1,0 +1,264 @@
+topic_id: MT5-01
+provenance: ai-assisted
+
+questions:
+  - id: Q1
+    text: "Antara berikut, graf yang manakah mewakili ubahan langsung antara $y$ dengan $x$?"
+    difficulty: easy
+    learning_objective: "1.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: A
+      working: |
+        Langkah 1: Ingat bahawa ubahan langsung mempunyai bentuk $y = kx$.
+        Langkah 2: Graf bagi $y = kx$ ialah satu garis lurus.
+        Langkah 3: Oleh sebab tiada sebutan pemalar, garis itu mesti melalui asalan $(0,0)$.
+      options:
+        A: "Garis lurus yang melalui asalan."
+        B: "Garis lurus dengan pintasan-y yang positif."
+        C: "Hiperbola yang menghampiri kedua-dua paksi."
+        D: "Garis mengufuk."
+      distractors:
+        - value: B
+          feedback: "Itu ialah graf linear, tetapi bukan ubahan langsung kerana graf itu tidak melalui asalan."
+        - value: C
+          feedback: "Bentuk itu dikaitkan dengan ubahan songsang, bukan ubahan langsung."
+        - value: D
+          feedback: "Garis mengufuk bermaksud nilai $y$ kekal malar apabila $x$ berubah."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti graf ubahan langsung sebagai garis lurus yang melalui asalan."
+    hints:
+      - level: 1
+        text: "Fikirkan bentuk persamaan $y = kx$. Apa berlaku apabila $x = 0$?"
+
+  - id: Q2
+    text: "Pernyataan manakah yang paling tepat menerangkan ubahan songsang?"
+    difficulty: easy
+    learning_objective: "1.2.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: C
+      working: |
+        Langkah 1: Dalam ubahan songsang, satu pemboleh ubah meningkat manakala satu lagi menurun, tetapi hasil darabnya kekal malar.
+        Langkah 2: Ini boleh ditulis sebagai $y \propto \frac{1}{x}$ atau $xy = k$.
+      options:
+        A: "Kedua-dua pemboleh ubah sentiasa meningkat bersama pada kadar yang sama."
+        B: "Satu pemboleh ubah kekal tetap manakala yang satu lagi berubah."
+        C: "Apabila satu pemboleh ubah meningkat, satu lagi menurun supaya hasil darab kekal malar."
+        D: "Grafnya mesti sentiasa berupa garis lurus dengan kecerunan negatif."
+      distractors:
+        - value: A
+          feedback: "Itu menerangkan ubahan langsung, bukan ubahan songsang."
+        - value: B
+          feedback: "Ubahan songsang melibatkan kedua-dua pemboleh ubah berubah, bukan satu sahaja."
+        - value: D
+          feedback: "Ubahan songsang tidak ditentukan oleh garis lurus negatif. Ia ditentukan oleh hasil darab yang malar."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Memilih maksud ubahan songsang yang betul."
+    hints:
+      - level: 1
+        text: "Semak pernyataan yang sepadan dengan idea $xy = k$."
+
+  - id: Q3
+    text: "Diberi bahawa $y$ berubah secara langsung sebagai $x^3$. Jika $y = 12.5$ apabila $x = 5$, cari nilai $y$ apabila $x = 2$."
+    difficulty: medium
+    learning_objective: "1.1.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "0.8"
+      working: |
+        Langkah 1: Tulis hubungan sebagai $y = kx^3$.
+        Langkah 2: Gantikan $y = 12.5$ dan $x = 5$.
+        Langkah 3: $12.5 = k(125)$, maka $k = 0.1$.
+        Langkah 4: Gantikan $x = 2$ ke dalam $y = 0.1x^3$.
+        Langkah 5: $y = 0.1(8) = 0.8$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Membina persamaan ubahan langsung yang betul."
+      - marks: 1
+        criteria: "Menentukan pemalar ubahan dengan betul."
+      - marks: 1
+        criteria: "Mengira nilai baharu $y$ dengan betul."
+    hints:
+      - level: 1
+        text: "Tulis hubungan dengan $k$ dahulu sebelum menggantikan nombor."
+      - level: 2
+        text: "Cari nilai $k$ menggunakan pasangan nilai pertama, kemudian gunakan nilai baharu $x$."
+
+  - id: Q4
+    text: "Diberi bahawa $I$ berubah secara tercantum dengan $P$, $r$ dan $t$. Tulis persamaan yang menghubungkan pemboleh ubah-pemboleh ubah itu dengan pemalar ubahan $k$."
+    difficulty: medium
+    learning_objective: "1.1.3"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "I = kPrt"
+      working: |
+        Langkah 1: Ubahan tercantum bermaksud pemboleh ubah bersandar berubah secara langsung dengan semua pemboleh ubah yang disenaraikan serentak.
+        Langkah 2: Maka $I \propto Prt$.
+        Langkah 3: Gantikan simbol perkadaran dengan pemalar ubahan $k$.
+        Langkah 4: Persamaannya ialah $I = kPrt$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti bahawa hubungan itu langsung dengan ketiga-tiga pemboleh ubah."
+      - marks: 1
+        criteria: "Menulis persamaan dengan pemalar ubahan secara betul."
+    hints:
+      - level: 1
+        text: "Ubahan tercantum bermaksud semua pemboleh ubah yang berkaitan berada di bahagian atas bersama."
+
+  - id: Q5
+    text: "Jumlah upah, $P$, berubah secara langsung dengan bilangan jam bekerja, $h$. Seorang pekerja sambilan memperoleh RM54 untuk 6 jam. Hitung upah bagi 9 jam."
+    difficulty: medium
+    learning_objective: "1.1.4"
+    tp_level: 4
+    kbat: false
+    answer:
+      type: exact
+      value: "81"
+      working: |
+        Langkah 1: Tulis persamaan ubahan langsung $P = kh$.
+        Langkah 2: Gantikan $P = 54$ dan $h = 6$.
+        Langkah 3: $54 = 6k$, maka $k = 9$.
+        Langkah 4: Gantikan $h = 9$ ke dalam $P = 9h$.
+        Langkah 5: $P = 9(9) = 81$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Membina model ubahan langsung yang betul."
+      - marks: 1
+        criteria: "Menentukan pemalar ubahan dengan betul."
+      - marks: 1
+        criteria: "Mengira upah bagi 9 jam dengan betul."
+    hints:
+      - level: 1
+        text: "Ini ialah ubahan langsung, jadi bahagikan upah dengan jam untuk dapatkan kadar malar."
+
+  - id: Q6
+    text: "Pemboleh ubah $a$ berubah secara songsang dengan $b$. Jika $a = 20$ apabila $b = 5$, cari nilai $a$ apabila $b = 10$."
+    difficulty: medium
+    learning_objective: "1.2.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "10"
+      working: |
+        Langkah 1: Tulis persamaan ubahan songsang $a = \frac{k}{b}$.
+        Langkah 2: Gantikan $a = 20$ dan $b = 5$.
+        Langkah 3: $20 = \frac{k}{5}$, maka $k = 100$.
+        Langkah 4: Gantikan $b = 10$.
+        Langkah 5: $a = \frac{100}{10} = 10$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menulis model ubahan songsang yang betul."
+      - marks: 1
+        criteria: "Menentukan pemalar ubahan dengan betul."
+      - marks: 1
+        criteria: "Mengira nilai baharu $a$ dengan betul."
+    hints:
+      - level: 1
+        text: "Bagi ubahan songsang, hasil darab kedua-dua pemboleh ubah kekal malar."
+
+  - id: Q7
+    text: "Tekanan, $P$, bagi suatu gas adalah berkadar songsang dengan isi padunya, $V$. Diberi bahawa $P = 190.25$ kPa apabila $V = 80$ cm^3, hitung isi padu apabila tekanan ialah $121.76$ kPa."
+    difficulty: hard
+    learning_objective: "1.2.3"
+    tp_level: 5
+    kbat: false
+    answer:
+      type: exact
+      value: "125"
+      working: |
+        Langkah 1: Tulis persamaan ubahan songsang $P = \frac{k}{V}$.
+        Langkah 2: Susun semula untuk mencari $k$: $k = PV$.
+        Langkah 3: $k = 190.25 \times 80 = 15220$.
+        Langkah 4: Gantikan tekanan baharu: $121.76 = \frac{15220}{V}$.
+        Langkah 5: Selesaikan untuk $V$: $V = \frac{15220}{121.76} = 125$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menggunakan persamaan ubahan songsang yang betul."
+      - marks: 1
+        criteria: "Mengira pemalar ubahan dengan betul."
+      - marks: 2
+        criteria: "Mengira isi padu akhir dengan betul."
+    hints:
+      - level: 1
+        text: "Gunakan hakikat bahawa $PV$ kekal malar dalam ubahan songsang."
+
+  - id: Q8
+    text: "Jika $y$ berubah secara langsung dengan $x$ dan secara songsang dengan $z^2$, persamaan yang manakah betul?"
+    difficulty: medium
+    learning_objective: "1.3.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: B
+      working: |
+        Langkah 1: Ubahan langsung dengan $x$ bermaksud $x$ kekal di pengangka.
+        Langkah 2: Ubahan songsang dengan $z^2$ bermaksud $z^2$ masuk ke penyebut.
+        Langkah 3: Masukkan pemalar ubahan $k$.
+        Langkah 4: Persamaan yang betul ialah $y = \frac{kx}{z^2}$.
+      options:
+        A: "$y = kxz^2$"
+        B: "$y = \\frac{kx}{z^2}$"
+        C: "$y = \\frac{kz^2}{x}$"
+        D: "$y = kx + z^2$"
+      distractors:
+        - value: A
+          feedback: "Pilihan ini menganggap kedua-dua pemboleh ubah berubah secara langsung. Pemboleh ubah songsang mesti berada di penyebut."
+        - value: C
+          feedback: "Pilihan ini meletakkan pemboleh ubah pada kedudukan yang salah."
+        - value: D
+          feedback: "Hubungan ubahan adalah hubungan darab atau bahagi, bukan pernyataan tambah mudah."
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Memilih persamaan ubahan bergabung yang betul."
+    hints:
+      - level: 1
+        text: "Gunakan peraturan ingatan: langsung di atas, songsang di bawah."
+
+  - id: Q9
+    text: "Kelajuan sebuah basikal, $S$, berubah secara langsung dengan kadar kayuhan, $P$, dan secara songsang dengan bilangan gigi gear belakang, $d$. Santhami mengayuh pada 75 rpm dengan 20 gigi gear belakang dan bergerak pada 26.4 km/j. Jika dia meningkatkan kadar kayuhan kepada 90 rpm menggunakan gear belakang yang sama, hitung kelajuan baharunya."
+    difficulty: hard
+    learning_objective: "1.3.2"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: exact
+      value: "31.68"
+      working: |
+        Langkah 1: Tulis persamaan ubahan bergabung $S = \frac{kP}{d}$.
+        Langkah 2: Gantikan $S = 26.4$, $P = 75$ dan $d = 20$.
+        Langkah 3: $26.4 = \frac{75k}{20}$.
+        Langkah 4: Selesaikan untuk $k$: $k = \frac{26.4 \times 20}{75} = 7.04$.
+        Langkah 5: Gunakan gear belakang yang sama dengan $P = 90$.
+        Langkah 6: $S = \frac{7.04 \times 90}{20} = 31.68$.
+    marks: 5
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti model ubahan bergabung yang betul."
+      - marks: 2
+        criteria: "Menentukan pemalar ubahan dengan betul."
+      - marks: 2
+        criteria: "Mengira kelajuan baharu dengan betul."
+    hints:
+      - level: 1
+        text: "Perhatikan pemboleh ubah yang berubah dan pemboleh ubah yang kekal tetap sebelum menyelesaikan soalan."

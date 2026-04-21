@@ -1,0 +1,71 @@
+topic_id: MT5-03
+provenance: curriculum-audit
+worked_examples:
+  # TP1/TP2 - Pengenalan kepada Risiko (SP 3.1.1)
+  - id: WE-01
+    topic: "Konsep Risiko dan Insurans"
+    difficulty: easy
+    learning_objective: "3.1.1"
+    tp_level: 2
+    kbat: false
+    real_world_analogy: "Insurans adalah seperti membawa payung. Kita tak minta hujan turun, tapi kalau ribut melanda, payung akan halang kita daripada basah lencun. Payung (insurans) memindahkan 'risiko' basah itu daripada diri kita kepada perlindungan payung tersebut."
+    misconception_alert: "Pelajar selalu ingat insurans adalah cara untuk buat duit kalau musibah berlaku. Ingat 'Prinsip Indeminiti': insurans cuma memulihkan keadaan kewangan kita kepada asal; ia bukan untuk 'untung' (profit)."
+    scenario: "Encik Azlan ingin faham kenapa beliau perlu membayar premium untuk rumahnya. Beliau ingin tahu kaitan antara risiko dan insurans."
+    working: |
+      1. Takrifkan Risiko: Risiko ialah kemungkinan berlakunya musibah yang tidak dapat dielakkan seperti kebakaran atau banjir.
+      2. Kenal pasti Pemindahan Risiko: Dengan membeli insurans, Encik Azlan memindahkan beban kewangan akibat risiko tersebut kepada syarikat insurans.
+      3. Peranan Premium: Encik Azlan membayar jumlah kecil (premium) supaya syarikat berjanji akan membayar kerugian besarnya (pampasan).
+      4. Kesimpulan: Insurans memberi perlindungan kewangan, bukannya sumber keuntungan.
+
+  # TP3 - Pengiraan Premium Insurans Hayat (SP 3.1.2)
+  - id: WE-02
+    topic: "Mengira Premium Insurans Hayat"
+    difficulty: medium
+    learning_objective: "3.1.2"
+    tp_level: 3
+    kbat: false
+    real_world_analogy: "Anggap kadar premium sebagai harga untuk seketul 'bata pelindung'. Kalau rumah besar, kita perlukan lebih banyak bata. Semakin tua rumah itu, semakin mahal harga sebiji bata sebab risiko runtuh lebih tinggi."
+    misconception_alert: "Kesalahan paling popular ialah lupa nak bahagikan Nilai Muka dengan 'RMx' (biasanya $RM1,000$) sebelum darab dengan kadar. Ini adalah perangkap 'Naked Numerator'!"
+    scenario: "Puan Shapuwa berumur 36 tahun, sihat dan tidak merokok. Beliau ingin membeli polisi insurans hayat dengan nilai muka $RM250,000$. Kadar yang diberi dalam jadual ialah $RM1.50$ bagi setiap $RM1,000$ nilai muka. Hitung premium tahunannya."
+    working: |
+      1. Kenal pasti rumus: $Premium\ Tahunan = \frac{Nilai\ Muka\ Polisi}{RMx} \times Kadar\ Premium\ bagi\ setiap\ RMx$
+      2. Gantikan nilai: $\frac{RM250,000}{RM1,000} \times RM1.50$
+      3. Bahagikan nilai muka dengan unit asas: $250 \times 1.50$
+      4. Hitung jumlah akhir: $RM375.00$
+      5. Jawapan Akhir: Premium tahunan Puan Shapuwa ialah $RM375.00$.
+
+  # TP5 - Insurans Perubatan dengan Deduktibel dan Ko-insurans (SP 3.1.3)
+  - id: WE-03
+    topic: "Menyelesaikan Masalah Insurans Perubatan Kompleks"
+    difficulty: hard
+    learning_objective: "3.1.3"
+    tp_level: 5
+    kbat: true
+    real_world_analogy: "Ko-insurans adalah seperti 'kongsi makan pizza' dengan syarikat insurans. Tapi sebelum itu, awak kena bayar 'yuran masuk' (deduktibel). Lepas bayar yuran masuk, baru awak dan syarikat mula kongsi bayar harga pizza yang selebihnya."
+    misconception_alert: "Pelajar selalu kira peratusan ko-insurans ke atas jumlah bil keseluruhan. SALAH! Anda MESTI tolak deduktibel dahulu, baru kenakan peratusan ke atas baki bil tersebut."
+    scenario: "Puan Chen mempunyai polisi perubatan dengan deduktibel $RM500$ dan peratusan ko-insurans $75/25$ (Insurans/Pemegang Polisi). Bil perubatannya ialah $RM20,600$. Hitung jumlah yang perlu ditanggung oleh Puan Chen sendiri."
+    working: |
+      1. Kira kos selepas deduktibel: $RM20,600 - RM500 = RM20,100$
+      2. Kira bahagian ko-insurans Puan Chen ($25\%$): $\frac{25}{100} \times RM20,100 = RM5,025$
+      3. Jumlahkan kos yang ditanggung Puan Chen: $Deduktibel + Bahagian\ ko-insurans$
+      4. Jumlah bayaran: $RM500 + RM5,025 = RM5,525$
+      5. Jawapan Akhir: Puan Chen perlu membayar $RM5,525$ sendiri.
+
+  # TP6 - Penalti Ko-insurans dalam Insurans Harta (SP 3.1.3)
+  - id: WE-04
+    topic: "Menilai Kes Kurang Insurans dan Penalti"
+    difficulty: hard
+    learning_objective: "3.1.3"
+    tp_level: 6
+    kbat: true
+    real_world_analogy: "Kalau awak bayar harga separuh tiket bas, jangan terkejut kalau pemandu bas hanya hantar awak separuh jalan ke destinasi. Inilah 'Penalti Ko-insurans'—kalau tak beli perlindungan cukup, syarikat takkan bayar tuntutan penuh."
+    misconception_alert: "Pelajar fikir kalau ada perlindungan $RM150,000$ dan kerugian cuma $RM25,000$, syarikat akan bayar penuh $RM25,000$. TIDAK! Jika anda kurang insurans, anda akan dipenalti mengikut nisbah apa yang anda beli berbanding apa yang SEPATUTNYA anda beli."
+    scenario: "Rumah Encik Ismail mempunyai nilai boleh insurans sebanyak $RM350,000$. Polisi beliau mempunyai fasal ko-insurans $80\%$. Beliau hanya menginsuranskan rumahnya sebanyak $RM150,000$. Jika beliau mengalami kerugian $RM25,000$, hitung pampasan yang diterima (andaikan tiada deduktibel untuk contoh ini)."
+    working: |
+      1. Kira jumlah insurans yang harus dibeli: $80\% \times RM350,000 = RM280,000$
+      2. Kenal pasti status insurans: Disebabkan $RM150,000 < RM280,000$, Encik Ismail telah menginsuranskan rumahnya secara kurang (under-insured).
+      3. Gunakan Rumus Penginsuranskan Kurang: $Pampasan = \frac{Jumlah\ insurans\ yang\ dibeli}{Jumlah\ insurans\ yang\ harus\ dibeli} \times Jumlah\ kerugian$
+      4. Gantikan nilai: $\frac{RM150,000}{RM280,000} \times RM25,000$
+      5. Permudahkan pecahan: $0.5357 \times RM25,000 = RM13,392.86$
+      6. Kira penalti ko-insurans (kerugian ditanggung sendiri): $RM25,000 - RM13,392.86 = RM11,607.14$
+      7. Jawapan Akhir: Encik Ismail hanya menerima $RM13,392.86$ sebagai pampasan kerana beliau kurang menginsuranskan rumahnya.

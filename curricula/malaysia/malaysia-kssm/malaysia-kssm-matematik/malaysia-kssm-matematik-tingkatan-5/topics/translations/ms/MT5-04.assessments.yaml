@@ -1,0 +1,141 @@
+id: MT5-04
+topic_id: MT5-04
+provenance: "curriculum-architect-audit"
+questions:
+  # --- Subtopik 4.1.1: Tujuan Percukaian ---
+  - id: Q1
+    type: "opb" # Benar/Palsu
+    text: "Tentukan sama ada pernyataan berikut adalah Benar atau Palsu: 'Salah satu tujuan percukaian adalah sebagai alat pelaksanaan polisi kerajaan untuk mewujudkan masyarakat penyayang melalui pelepasan cukai bagi perbelanjaan rawatan perubatan ibu bapa.'"
+    difficulty: "easy"
+    learning_objective: "4.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: "exact"
+      value: "Benar"
+      working: |
+        Langkah 1: Kenal pasti empat tujuan utama percukaian: Sumber hasil, Alat polisi, Kawalan barangan/perkhidmatan, dan Alat kewangan.
+        Langkah 2: Rujuk sumber mengenai pelaksanaan polisi.
+        Langkah 3: Sahkan bahawa pelepasan perubatan ibu bapa adalah contoh khusus penggunaan cukai sebagai alat polisi untuk komuniti penyayang.
+    marks: 1
+    hints:
+      - level: 1
+        text: "Lihat rajah 'Tujuan Percukaian'. Adakah menggunakan cukai untuk menggalakkan tingkah laku tertentu (seperti menjaga ibu bapa) dianggap sebagai alat polisi?"
+
+  # --- Subtopik 4.1.2: Jenis Cukai & Pengelakan ---
+  - id: Q2
+    type: "oap"
+    text: "Encik Ganesh memiliki sebuah rumah kediaman di Subang Jaya. Setiap tahun, dia menerima bil daripada Majlis Perbandaran Subang Jaya (MPSJ) untuk membiayai kos penyelenggaraan bandar seperti mengangkut sampah dan membersihkan longkang. Apakah jenis cukai ini?"
+    difficulty: "easy"
+    learning_objective: "4.1.2"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: "multiple_choice"
+      value: "a"
+      working: |
+        Langkah 1: Kenal pasti pihak yang mengutip (MPSJ = Pihak Berkuasa Tempatan).
+        Langkah 2: Kenal pasti tujuan (Perkhidmatan bandar/pembersihan longkang).
+        Langkah 3: Padankan dengan 'Cukai Pintu' (Property Assessment Tax) seperti dalam Buku Teks.
+      distractors:
+        - value: "b"
+          feedback: "Salah. Cukai Tanah dibayar kepada Pejabat Tanah Negeri, bukan majlis perbandaran. Fikirkan siapa yang bersihkan longkang di taman perumahan anda."
+        - value: "c"
+          feedback: "Salah. Cukai Perkhidmatan dikenakan ke atas perkhidmatan seperti hotel atau telekomunikasi, bukan ke atas pemilikan hartanah."
+        - value: "d"
+          feedback: "Salah. Cukai Pendapatan dibayar kepada LHDN berdasarkan gaji, bukan kepada majlis perbandaran berdasarkan pemilikan rumah."
+    options:
+      a: "Cukai Pintu"
+      b: "Cukai Tanah"
+      c: "Cukai Perkhidmatan"
+      d: "Cukai Pendapatan"
+    marks: 1
+    hints:
+      - level: 1
+        text: "Pihak berkuasa mana yang mengutip cukai ini? Buku teks menyatakan Pihak Berkuasa Tempatan (seperti MPSJ) mengutip cukai khusus untuk servis sampah dan longkang."
+
+  # --- Subtopik 4.1.3: Pengiraan (Cukai Jalan) ---
+  - id: Q3
+    type: "subjective"
+    text: "Alan memiliki sebuah kereta persendirian di Semenanjung Malaysia dengan kapasiti enjin $1,997$ cc. Berdasarkan kadar yang diberikan, kadar asas bagi $1,801$ cc hingga $2,000$ cc ialah $RM280.00$ dengan kadar progresif $RM0.50$ bagi setiap cc yang melebihi $1,800$ cc. Hitung jumlah cukai jalan beliau."
+    difficulty: "medium"
+    learning_objective: "4.1.3"
+    tp_level: 4
+    kbat: false
+    answer:
+      type: "exact"
+      value: "378.50"
+      working: |
+        Langkah 1: Kenal pasti kadar asas bagi bracket 1801-2000 cc = $RM280.00$.
+        Langkah 2: Hitung lebihan cc: $1,997 - 1,800 = 197$ cc.
+        Langkah 3: Hitung cukai progresif: $197 \times RM0.50 = RM98.50$.
+        Langkah 4: Jumlah cukai jalan = $RM280.00 + RM98.50 = RM378.50$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti kadar asas RM280 dengan betul."
+      - marks: 1
+        criteria: "Mengira lebihan cc (197) dan cukai progresif (RM98.50) dengan betul."
+      - marks: 1
+        criteria: "Jumlah akhir RM378.50 adalah tepat."
+    hints:
+      - level: 1
+        text: "Cukai ini ada dua bahagian. Pertama, cari 'Kadar Asas' untuk kereta 1997cc Alan dalam jadual. Berapakah amaun untuk tier 1801-2000cc?"
+      - level: 2
+        text: "Sekarang cari lebihan cc. Enjin Alan 1997cc, dan kadar progresif bermula selepas 1800cc. Tolak 1800 daripada 1997, kemudian darab baki tersebut dengan RM0.50."
+
+  # --- Subtopik 4.1.4: Penyelesaian Masalah (Taksiran Bersama vs Berasingan) ---
+  - id: Q4
+    type: "subjective"
+    text: "Encik Raj dan isterinya kedua-duanya mempunyai pendapatan bercukai. Di bawah 'Taksiran Bersama', jumlah pendapatan bercukai mereka ialah $RM87,500$ yang menghasilkan cukai perlu dibayar sebanyak $RM8,275$. Di bawah 'Taksiran Berasingan', Encik Raj membayar $RM125.60$ dan isterinya membayar $RM714.40$. (a) Hitung jumlah cukai di bawah taksiran berasingan. (b) Taksiran manakah yang patut mereka pilih untuk menjimatkan wang? Berikan justifikasi anda."
+    difficulty: "hard"
+    learning_objective: "4.1.4"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: "free_text"
+      value: "(a) RM840.00. (b) Taksiran Berasingan, kerana mereka menjimatkan RM7,435.00."
+      working: |
+        Langkah 1: Jumlah Cukai Berasingan = $RM125.60 + RM714.40 = RM840.00$.
+        Langkah 2: Bandingkan dengan Cukai Bersama ($RM8,275.00$).
+        Langkah 3: Hitung penjimatan: $RM8,275 - RM840 = RM7,435$.
+        Langkah 4: Kesimpulan: Taksiran berasingan lebih baik kerana ia mengurangkan beban cukai secara drastik.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Mengira jumlah taksiran berasingan dengan betul (RM840)."
+      - marks: 1
+        criteria: "Membuat pilihan yang jelas (Taksiran Berasingan)."
+      - marks: 2
+        criteria: "Menjustifikasikan pilihan dengan menunjukkan perbezaan nilai/penjimatan (RM7,435)."
+    hints:
+      - level: 1
+        text: "Mula-mula, tambahkan dua cukai individu daripada taksiran berasingan. Adakah jumlahnya lebih tinggi atau lebih rendah daripada RM8,275 cukai bersama?"
+      - level: 2
+        text: "Untuk menjustifikasikan jawapan, anda mesti tunjukkan berapa banyak wang yang pasangan itu 'jimat' dengan memilih pilihan yang lebih murah. Tolak jumlah yang kecil daripada jumlah yang besar."
+
+  # --- TP6: Projek Bukan Rutin Kreatif ---
+  - id: Q5
+    type: "free_text"
+    text: "Projek Mini: 'Perunding Cukai Keluarga'. Cari bil elektrik rumah anda. Kenal pasti 'Cukai Perkhidmatan' yang dikenakan. Jika kadar semasa ialah 6%, hitung berapakah jumlah bil jika kerajaan memutuskan untuk menaikkan kadar kepada 8% bagi penggunaan melebihi 600 kWj. Tunjukkan jalan kerja penuh anda."
+    difficulty: "hard"
+    learning_objective: "4.1.4"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: "free_text"
+      value: "Pengiraan pelajar bergantung pada nilai bil spesifik mereka."
+      working: |
+        Langkah 1: Kenal pasti penggunaan > 600 kWj.
+        Langkah 2: Hitung amaun bagi penggunaan tersebut.
+        Langkah 3: Kenakan cukai 8% menggantikan 6%.
+        Langkah 4: Bandingkan jumlah keseluruhan.
+    marks: 5
+    rubric:
+      - marks: 2
+        criteria: "Mengenal pasti bahagian bil yang boleh dicukai daripada sumber sebenar atau simulasi dengan tepat."
+      - marks: 3
+        criteria: "Melakukan pengiraan 8% dengan betul dan menjelaskan impak kewangan terhadap isi rumah."
+    hints:
+      - level: 1
+        text: "Rujuk Buku Teks m.s. 117 untuk contoh bil elektrik Encik Khor. Hanya penggunaan melebihi 600 kWj yang dikenakan cukai. Adakah bil anda melebihi 600 kWj?"

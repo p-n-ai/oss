@@ -1,0 +1,133 @@
+topic_id: MT5-06
+provenance: curriculum-aligned
+questions:
+  - id: Q1
+    text: "Antara sukuan berikut, yang manakah mempunyai nilai positif bagi $\\tan \\theta$ tetapi nilai negatif bagi $\\sin \\theta$?"
+    difficulty: easy
+    learning_objective: "6.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Sukuan III"
+      working: |
+        Langkah 1: Ingat tanda nisbah trigonometri dalam setiap sukuan (Semua Saya Tahu Kira).
+        Langkah 2: Suku-an I (Semua positif).
+        Langkah 3: Suku-an II (Hanya Sinus positif).
+        Langkah 4: Suku-an III (Hanya Tangen positif, maka Sinus adalah negatif).
+        Langkah 5: Suku-an IV (Hanya Kosinus positif).
+      distractors:
+        - value: "Sukuan II"
+          feedback: "Dalam Sukuan II, Sinus adalah positif manakala Tangen adalah negatif. Anda mungkin tertukar peraturan Sin dan Tan!"
+        - value: "Sukuan IV"
+          feedback: "Dalam Sukuan IV, hanya Kosinus yang positif. Gunakan akronim 'Semua Saya Tahu Kira' untuk menjejaki tanda sukuan dengan betul!"
+    marks: 1
+    hints:
+      - "Gunakan akronim 'Semua Saya Tahu Kira' untuk mengingati tanda positif nisbah dalam setiap sukuan."
+      - "Dalam sukuan manakah koordinat-y bernilai negatif tetapi nisbah y/x adalah positif?"
+
+  - id: Q2
+    text: "Diberi $\\sin \\theta = -0.866$ dan $180^\\circ \\leq \\theta \\leq 270^\\circ$, tentukan sudut rujukan sepadan $\\alpha$ dan nilai $\\theta$."
+    difficulty: medium
+    learning_objective: "6.1.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: subjective
+      value: "alpha = 60^\circ, theta = 240^\circ"
+      working: |
+        Langkah 1: Tanda negatif menunjukkan sukuan. Julat $180^\circ$ hingga $270^\circ$ mengesahkan sudut berada di Sukuan III.
+        Langkah 2: Cari sudut rujukan $\\alpha$ menggunakan nilai mutlak: $\\sin \\alpha = 0.866$. Maka, $\\alpha = 60^\circ$.
+        Langkah 3: Dalam Sukuan III, formula sudut ialah $\\theta = 180^\circ + \\alpha$.
+        Langkah 4: Pengiraan: $180^\circ + 60^\circ = 240^\circ$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti sudut rujukan alpha sebagai 60 darjah dengan betul."
+      - marks: 1
+        criteria: "Menggunakan formula Sukuan III (180 + alpha) dengan betul."
+      - marks: 1
+        criteria: "Nilai akhir theta ialah 240 darjah."
+    hints:
+      - "Mula-mula, abaikan tanda negatif untuk mencari sudut tirus 'mini' (sudut rujukan)."
+      - "Oleh sebab sudut berada di sukuan ke-3, ia telah melepasi garisan 180 darjah. Berapakah baki perjalanan sudut tersebut?"
+
+  - id: Q3
+    text: "Satu lengan robotik dengan panjang 15 cm diprogramkan untuk menggerakkan objek dari titik P ke titik Q. Jika sudut $\\theta$ yang dibentuk oleh lengan itu memenuhi $\\cos \\theta = -0.866$ bagi $0^\\circ \\leq \\theta \\leq 180^\\circ$, cari nilai $\\theta$ dan jarak mengufuk dari asalan ke titik Q."
+    difficulty: hard
+    learning_objective: "6.1.4"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: subjective
+      value: "theta = 150^\circ, Jarak = 12.99 cm"
+      working: |
+        Langkah 1: $\\cos \\theta$ bernilai negatif dalam Sukuan II bagi julat yang diberi.
+        Langkah 2: Cari sudut rujukan $\\alpha = \\cos^{-1}(0.866) = 30^\circ$.
+        Langkah 3: $\\theta = 180^\circ - 30^\circ = 150^\circ$.
+        Langkah 4: Jarak mengufuk (koordinat-x) = $15 \\times \\cos(30^\circ)$ atau $15 \\times |-0.866|$.
+        Langkah 5: Jarak = $12.99$ cm.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Mencari sudut rujukan 30 darjah."
+      - marks: 1
+        criteria: "Menentukan nilai theta sebagai 150 darjah."
+      - marks: 2
+        criteria: "Mengira jarak mengufuk menggunakan nisbah kosinus dengan betul."
+    hints:
+      - "Rujuk Contoh 8 dalam buku teks anda; jarak mengufuk berkaitan dengan sisi bersebelahan bagi segi tiga yang dibentuk oleh lengan itu."
+      - "Nilai kosinus yang diberi ialah nisbah jarak mengufuk kepada panjang lengan robotik tersebut."
+
+  - id: Q4
+    text: "Graf bagi satu fungsi trigonometri ditakrifkan oleh $y = 3 \\sin 2x + 1$ bagi $0^\\circ \\leq x \\leq 360^\\circ$. Nyatakan amplitud, tempoh fungsi tersebut, dan nilai maksimum bagi $y$."
+    difficulty: medium
+    learning_objective: "6.2.2"
+    tp_level: 5
+    kbat: false
+    answer:
+      type: subjective
+      value: "Amplitud = 3, Tempoh = 180^\circ, Maksimum = 4"
+      working: |
+        Langkah 1: Kenal pasti pemalar daripada $y = a \\sin bx + c$: $a=3, b=2, c=1$.
+        Langkah 2: Amplitud ialah $|a|$, maka Amplitud = 3.
+        Langkah 3: Tempoh bagi sinus ialah $360^\circ / b = 360^\circ / 2 = 180^\circ$.
+        Langkah 4: Nilai maksimum ialah $a + c = 3 + 1 = 4$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Menyatakan amplitud dengan betul."
+      - marks: 1
+        criteria: "Mengira tempoh fungsi dengan betul."
+      - marks: 1
+        criteria: "Mengira nilai maksimum y dengan betul."
+    hints:
+      - "Pemalar 'a' meregangkan gelombang secara menegak, manakala 'b' memampatkan gelombang secara mengufuk."
+      - "Jangan lupa bahawa '+1' (pemalar c) bertindak seperti 'lif' yang menggerakkan seluruh gelombang ke atas!"
+
+  - id: Q5
+    text: "Kedalaman air, $y$ meter, di sebuah pelabuhan dimodelkan oleh $y = 2 \\cos(15x) + 5$, dengan $x$ ialah bilangan jam selepas tengah malam. Pada pukul berapakah dalam tempoh 24 jam pertama air berada pada titik paling cetek?"
+    difficulty: hard
+    learning_objective: "6.2.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: subjective
+      value: "12:00 tengah hari (12 jam selepas tengah malam)"
+      working: |
+        Langkah 1: Titik paling cetek berlaku apabila fungsi kosinus berada pada nilai minimumnya.
+        Langkah 2: Nilai minimum bagi $\\cos(15x)$ ialah -1.
+        Langkah 3: Selesaikan $\\cos(15x) = -1$ untuk mencari nilai $x$.
+        Langkah 4: $15x = 180^\\circ$.
+        Langkah 5: $x = 180 / 15 = 12$ jam.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Menyedari bahawa titik paling cetek ialah nilai minimum bagi graf."
+      - marks: 1
+        criteria: "Menetapkan bahagian trigonometri dalam persamaan kepada -1."
+      - marks: 2
+        criteria: "Menyelesaikan nilai x dengan betul untuk mendapat 12 jam."
+    hints:
+      - "Fikirkan tentang bentuk graf kosinus. Di manakah kedudukan 'lembah' paling rendah bagi gelombang tersebut?"
+      - "Untuk fungsi berada pada tahap minimum, sebutan kosinus mestilah bernilai -1. Selesaikan nilai x apabila $15x = 180$."

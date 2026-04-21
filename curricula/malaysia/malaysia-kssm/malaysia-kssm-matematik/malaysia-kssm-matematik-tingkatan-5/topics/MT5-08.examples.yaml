@@ -1,45 +1,77 @@
 topic_id: MT5-08
-provenance: ai-generated
-description: "Worked examples for Pemodelan Matematik"
+provenance: curriculum-audit
+description: "Worked examples for Mathematical Modeling involving Linear, Quadratic, and Exponential functions."
 worked_examples:
+  # TP3: Simple Tasks (8.1.2) - Linear
   - id: WE-01
-    topic: "Linear Function Modeling"
+    topic: "Linear Function Modeling (Petrol Consumption)"
     difficulty: easy
-    tp_level: 1
-    kbat: false
-    learning_objective: "8.1.1 Menerangkan pemodelan matematik"
-    real_world_analogy: "Comparing the cost of buying multiple apples to determine the total cost."
-    misconception_alert: "Students might confuse the slope with the y-intercept."
-    scenario: "A fruit vendor sells apples at RM2 each. Model the total cost, C, to purchase x apples."
-    working: |
-      Step 1: Identify the constant rate. The cost per apple is RM2.
-      Step 2: Formulate the linear function. C = 2x, where C is the total cost and x is the number of apples.
-      Step 3: Interpret the model. For example, if x = 5, then C = 2(5) = RM10.
-      
-  - id: WE-02
-    topic: "Quadratic Function Modeling"
-    difficulty: medium
-    tp_level: 2
-    kbat: true
-    learning_objective: "8.1.2 Menyelesaikan masalah kehidupan sebenar melalui pemodelan matematik"
-    real_world_analogy: "Calculating the trajectory of a ball thrown into the air."
-    misconception_alert: "Students may misinterpret the vertex as the starting point."
-    scenario: "A ball is thrown upward with an initial velocity of 20 m/s from a height of 5 meters. Model the height, h, of the ball after t seconds."
-    working: |
-      Step 1: Identify the initial conditions. Initial velocity = 20 m/s, initial height = 5 meters.
-      Step 2: Use the quadratic formula for motion: h(t) = -4.9t^2 + 20t + 5.
-      Step 3: Find the height at t = 2 seconds. h(2) = -4.9(2)^2 + 20(2) + 5 = 25.4 meters.
-      
-  - id: WE-03
-    topic: "Exponential Function Modeling"
-    difficulty: hard
     tp_level: 3
-    kbat: true
-    learning_objective: "8.1.2 Menyelesaikan masalah kehidupan sebenar melalui pemodelan matematik"
-    real_world_analogy: "Modeling the growth of a bacteria population over time."
-    misconception_alert: "Students might confuse exponential growth with linear growth."
-    scenario: "A bacteria culture doubles every 3 hours. If there are initially 100 bacteria, model the population size, P, after t hours."
+    kbat: false
+    learning_objective: "8.1.2 Solve real-life problems through mathematical modeling involving functions: Linear"
+    real_world_analogy: "Comparing a car's petrol tank to a phone battery; the more you use it (distance), the more 'charge' (petrol) you lose at a steady rate."
+    misconception_alert: "Students often forget to define the constant 'k' first before solving for a new distance."
+    scenario: "Amin uses 45 liters of petrol to travel 405 km. Model this as a linear function $y = kx$ and determine how much petrol is needed for a 198 km journey."
     working: |
-      Step 1: Identify the growth factor. The population doubles, so the growth factor is 2.
-      Step 2: Formulate the exponential function. P(t) = 100 * 2^(t/3).
-      Step 3: Calculate the population size after 9 hours. P(9) = 100 * 2^(9/3) = 100 * 2^3 = 800 bacteria.
+      1. Identify variables: Let $x$ be the distance (km) and $y$ be the petrol needed (liters).
+      2. Formulate the model: $y = kx$
+      3. Substitute known values to find $k$:
+         $45 = k(405)$
+      4. Solve for $k$:
+         $k = 45 / 405$
+         $k = 1/9$
+      5. Complete the model: $y = \frac{1}{9}x$
+      6. Calculate for $x = 198$:
+         $y = \frac{1}{9}(198)$
+         $y = 22$
+      7. Conclusion: 22 liters of petrol are required for 198 km.
+
+  # TP4: Real-life Linear Context (8.1.2) - Financial Modeling
+  - id: WE-02
+    topic: "Financial Modeling (The Rice Price Dilemma)"
+    difficulty: medium
+    tp_level: 4
+    kbat: true
+    learning_objective: "8.1.2 Solve real-life problems through mathematical modeling involving functions: Linear"
+    real_world_analogy: "Think of this as a 'GrabFood' order. Is the discount on the food (rice) bigger than the delivery fee (petrol)? If not, it's better to buy locally."
+    misconception_alert: "The 'One-Way Trap.' Students often calculate petrol for the distance to the store but forget the trip back home."
+    scenario: "Store A (2km away) sells 10kg rice for RM25.95. Store B (6km away) sells it for RM23.99. Petrol costs RM2.08/liter and the car rate is 17.6km/liter. Is it worth driving to Store B for 2 packs of rice?"
+    working: |
+      1. Calculate total savings ($S$):
+         Price difference = $RM25.95 - RM23.99 = RM1.96$
+         $S = 2 \times RM1.96 = RM3.92$
+      2. Calculate total distance for Store B (two-ways):
+         $Distance = 6 km \times 2 = 12 km$
+      3. Calculate petrol needed for the 12 km trip:
+         $Liters = 12 km / 17.6 km/liter = 0.682 liters$ (for 12km) 
+         Note: The textbook uses the 6km one-way petrol (0.341L) then doubles the cost.
+         $Cost = 0.341 \times RM2.08 \times 2 = RM1.42$.
+      4. Compare Savings ($S$) vs Petrol Cost ($T$):
+         $RM3.92 (S) > RM1.42 (T)$
+      5. Final Result: Net savings = $RM3.92 - RM1.42 = RM2.50$. It is sensible to drive to Store B.
+
+  # TP5: Quadratic/Exponential Real-life Context (8.1.2)
+  - id: WE-03
+    topic: "Quadratic Modeling (River Depth Profile)"
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: "8.1.2 Solve real-life problems through mathematical modeling involving functions: Quadratic"
+    real_world_analogy: "Imagine the riverbed as a giant 'U-shaped' skateboard ramp. The further you move from the edge, the deeper you go until you reach the middle."
+    misconception_alert: "Linear thinking in curved spaces. Students might assume the depth increases at a constant rate, ignoring the parabolic shape of the riverbed."
+    scenario: "A hydrologist measures river depth at distances $x$ from the bank. Using data points (0,0), (25, 1.7), and (30, 0), find the quadratic function $y = ax^2 + bx + c$ to model the depth."
+    working: |
+      1. Identify the model: $y = ax^2 + bx + c$
+      2. Substitute (0,0):
+         $0 = a(0)^2 + b(0) + c \rightarrow c = 0$
+      3. Substitute (30,0) and use $c=0$:
+         $0 = a(30)^2 + b(30)$
+         $0 = 900a + 30b \rightarrow 30b = -900a \rightarrow b = -30a$
+      4. Substitute (25, 1.7) and $b = -30a$:
+         $1.7 = a(25)^2 + (-30a)(25)$
+         $1.7 = 625a - 750a$
+         $1.7 = -125a$
+         $a = -0.0136$
+      5. Solve for $b$:
+         $b = -30(-0.0136) = 0.408$
+      6. Conclusion: The model is $y = -0.0136x^2 + 0.408x$.

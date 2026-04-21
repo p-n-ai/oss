@@ -1,128 +1,169 @@
 topic_id: MT5-02
 provenance: ai-generated
-
 questions:
-  # Learning Objective 2.1.1
+  # 2.1.1 - Represent situations
   - id: Q1
-    text: 'Satu kedai menjual tiga jenis barangan: A, B, dan C. Jumlah jualan setiap barang dalam dua hari berturut-turut adalah seperti berikut: Hari 1: A - 50 unit, B - 30 unit, C - 20 unit; Hari 2: A - 40 unit, B - 35 unit, C - 25 unit. Wakilkan maklumat ini dalam bentuk matriks.'
-    difficulty: medium
+    text: "A sports store records the following medal collection for three schools: School A (10 Gold, 5 Silver), School B (8 Gold, 12 Silver), and School C (15 Gold, 7 Silver). Represent this information in the form of a matrix."
+    difficulty: easy
     learning_objective: 2.1.1
-    tp_level: 3
+    tp_level: 2
     kbat: false
     answer:
       type: exact
-      value: '[[50, 30, 20], [40, 35, 25]]'
+      value: "[,,]"
       working: |
-        Letakkan jumlah unit yang dijual untuk setiap barang dalam baris yang berasingan bagi setiap hari.
-        Hari 1: Baris pertama [50, 30, 20]
-        Hari 2: Baris kedua [40, 35, 25]
-        Bentuk matriks: [[50, 30, 20], [40, 35, 25]]
-    marks: 3
+        Step 1: Assign schools to rows (A, B, C).
+        Step 2: Assign medal types to columns (Gold, Silver).
+        Step 3: Arrange values into brackets: [,,].
+    marks: 2
     rubric:
       - marks: 2
-        criteria: "Matriks diwakilkan dengan susunan baris yang betul tetapi ada kesilapan dalam satu nilai."
+        criteria: "Correct 3x2 matrix representation."
       - marks: 1
-        criteria: "Matriks diwakilkan dengan susunan baris yang betul tetapi lebih dari satu nilai salah."
+        criteria: "Correct elements but incorrect orientation (e.g., 2x3 instead of 3x2)."
     hints:
       - level: 1
-        text: "Bayangkan setiap baris mewakili satu hari dan setiap lajur mewakili satu jenis barang."
+        text: "Try using rows for each school and columns for each medal type."
 
-  # Learning Objective 2.1.2
+  # 2.1.2 - Order and Elements
   - id: Q2
-    text: 'Diberi matriks $M = \begin{bmatrix} 2 & 3 \\ 5 & 7 \end{bmatrix}$. Apakah peringkat matriks ini dan apakah unsur pada baris kedua, lajur pertama?'
-    difficulty: medium
+    text: "Given matrix $P = \begin{bmatrix} 4 & -1 & 7 \\ 0 & 5 & 2 \end{bmatrix}$. Identify the order of the matrix and the element $a_{21}$."
+    difficulty: easy
     learning_objective: 2.1.2
-    tp_level: 3
+    tp_level: 1
     kbat: false
     answer:
-      type: exact
-      value: '2, 5'
+      type: multiple_choice
+      value: "2 x 3, 0"
       working: |
-        Matriks $M$ mempunyai 2 baris dan 2 lajur, maka peringkatnya ialah 2x2.
-        Unsur pada baris kedua, lajur pertama ialah 5.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Menentukan peringkat matriks dengan betul."
-      - marks: 2
-        criteria: "Menentukan peringkat dan satu unsur dengan betul."
-    hints:
-      - level: 1
-        text: "Peringkat matriks adalah bilangan baris dan lajur."
-      - level: 2
-        text: "Unsur pada baris kedua, lajur pertama adalah yang terletak di kedudukan (2,1)."
+        Step 1: Count rows (m) = 2.
+        Step 2: Count columns (n) = 3. Order is 2 x 3.
+        Step 3: Locate 2nd row, 1st column. Element is 0.
+      distractors:
+        - value: "3 x 2, 0"
+          feedback: "You swapped rows and columns. Remember 'RC' (Row then Column)."
+        - value: "2 x 3, -1"
+          feedback: "Check your coordinates. $a_{21}$ is 2nd row, 1st column, not 1st row, 2nd column."
+    marks: 2
 
-  # Learning Objective 2.1.3
+  # 2.1.3 - Equality
   - id: Q3
-    text: 'Tentukan sama ada matriks $A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ dan $B = \begin{bmatrix} 1 & 2 \\ 3 & 5 \end{bmatrix}$ adalah sama.'
+    text: "Determine the values of $x$ and $y$ if $\begin{bmatrix} 2x & 4 \\ 3 & y-1 \end{bmatrix} = \begin{bmatrix} 10 & 4 \\ 3 & 5 \end{bmatrix}$."
     difficulty: medium
     learning_objective: 2.1.3
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: 'Tidak sama'
+      value: "x=5, y=6"
       working: |
-        Untuk dua matriks sama, semua unsur mesti sama dan terletak pada kedudukan yang sama.
-        Matriks $A$ dan $B$ tidak sama kerana unsur pada kedudukan (2,2) berbeza: $A_{2,2} = 4$, $B_{2,2} = 5$.
+        Step 1: Compare corresponding elements. $2x = 10 \implies x = 5$.
+        Step 2: $y - 1 = 5 \implies y = 6$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: "Mengenal pasti bahawa satu unsur tidak sama."
+        criteria: "Correct value for x."
+      - marks: 1
+        criteria: "Correct value for y."
     hints:
       - level: 1
-        text: "Bandingkan setiap unsur satu persatu untuk memastikan semua unsur sama."
+        text: "Equal matrices have identical corresponding elements. Set up two simple linear equations."
 
-  # Learning Objective 2.2.1
+  # 2.2.3 - Matrix Multiplication
   - id: Q4
-    text: 'Hitungkan hasil tambah bagi matriks $C = \begin{bmatrix} 1 & 3 \\ 4 & 6 \end{bmatrix}$ dan $D = \begin{bmatrix} 5 & 7 \\ 2 & 8 \end{bmatrix}$.'
+    text: "Calculate the product of $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \begin{bmatrix} 5 \\ 6 \end{bmatrix}$."
     difficulty: medium
-    learning_objective: 2.2.1
+    learning_objective: 2.2.3
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: '\begin{bmatrix} 6 & 10 \\ 6 & 14 \end{bmatrix}'
+      value: "[,]"
       working: |
-        Tambahkan unsur sepadan dalam $C$ dan $D$:
-        $C_{11} + D_{11} = 1 + 5 = 6$
-        $C_{12} + D_{12} = 3 + 7 = 10$
-        $C_{21} + D_{21} = 4 + 2 = 6$
-        $C_{22} + D_{22} = 6 + 8 = 14$
-        Hasil tambah: $\begin{bmatrix} 6 & 10 \\ 6 & 14 \end{bmatrix}$
+        Step 1: (Row 1 x Col 1): $(1 \times 5) + (2 \times 6) = 5 + 12 = 17$.
+        Step 2: (Row 2 x Col 1): $(3 \times 5) + (4 \times 6) = 15 + 24 = 39$.
+        Step 3: Result is [,].
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Mengira satu baris dengan betul."
+        criteria: "Show the sum of products for at least one element."
       - marks: 2
-        criteria: "Mengira dua baris tetapi ada satu kesilapan."
+        criteria: "Correct final column matrix."
     hints:
       - level: 1
-        text: "Tambahkan unsur yang terletak di kedudukan yang sama dalam kedua-dua matriks."
+        text: "Use the '7-shape' rule: Multiply the horizontal elements of the first matrix with the vertical elements of the second."
 
-  # Learning Objective 2.2.5
+  # 2.2.5 - Inverse Matrix (Singular Check)
   - id: Q5
-    text: 'Tentukan matriks songsang bagi matriks $E = \begin{bmatrix} 2 & 3 \\ 1 & 2 \end{bmatrix}$.'
+    text: "Which of the following matrices is a singular matrix (has no inverse)?"
     difficulty: medium
     learning_objective: 2.2.5
     tp_level: 4
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "[,]"
+      working: |
+        Step 1: Calculate determinant $|A| = ad - bc$.
+        Step 2: For [,], $|A| = (2 \times 2) - (4 \times 1) = 4 - 4 = 0$.
+        Step 3: Since determinant is 0, it is a singular matrix.
+      distractors:
+        - value: "[,]"
+          feedback: "The determinant is $(1 \times 4) - (2 \times 3) = -2$. This matrix has an inverse."
+        - value: "[]"
+          feedback: "This is the Identity matrix. Its determinant is 1, so it definitely has an inverse."
+    marks: 2
+
+  # 2.2.6 - Simultaneous Equations
+  - id: Q6
+    text: "Solve the following simultaneous equations using the matrix method: $x + 2y = 5$ and $3x - y = 1$."
+    difficulty: hard
+    learning_objective: 2.2.6
+    tp_level: 5
+    kbat: false
+    answer:
+      type: exact
+      value: "x=1, y=2"
+      working: |
+        Step 1: Write in form AX=B: $\begin{bmatrix} 1 & 2 \\ 3 & -1 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 5 \\ 1 \end{bmatrix}$.
+        Step 2: Find $A^{-1}$: Determinant $= (1)(-1) - (2)(3) = -7$. $A^{-1} = \frac{1}{-7} \begin{bmatrix} -1 & -2 \\ -3 & 1 \end{bmatrix}$.
+        Step 3: $X = A^{-1}B = \frac{1}{-7} \begin{bmatrix} -1 & -2 \\ -3 & 1 \end{bmatrix} \begin{bmatrix} 5 \\ 1 \end{bmatrix} = \frac{1}{-7} \begin{bmatrix} -7 \\ -14 \end{bmatrix} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}$.
+    marks: 5
+    rubric:
+      - marks: 1
+        criteria: "Correct matrix form AX=B."
+      - marks: 2
+        criteria: "Correct inverse matrix calculation."
+      - marks: 2
+        criteria: "Final correct values for x and y."
+    hints:
+      - level: 1
+        text: "First, extract the coefficients of x and y into a 2x2 matrix."
+      - level: 2
+        text: "To find x and y, multiply the inverse of your coefficient matrix by the constants matrix."
+
+  # 2.2.7 - Problem Solving (KBAT)
+  - id: Q7
+    text: "Encik Jefri invests RM5,000 in Unit Trust P and RM3,000 in Unit Trust Q. After a year, he receives a total dividend of RM350. Encik Tan invests RM6,000 in P and RM4,000 in Q, receiving RM440 in dividends. Use the matrix method to find the dividend rates for P and Q."
+    difficulty: hard
+    learning_objective: 2.2.7
+    tp_level: 6
     kbat: true
     answer:
       type: exact
-      value: '\begin{bmatrix} 2 & -3 \\ -1 & 2 \end{bmatrix}'
+      value: "P=4%, Q=5%"
       working: |
-        Formula untuk matriks songsang: $\frac{1}{ad-bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$
-        Untuk $E = \begin{bmatrix} 2 & 3 \\ 1 & 2 \end{bmatrix}$, $a = 2$, $b = 3$, $c = 1$, $d = 2$.
-        $ad-bc = (2)(2) - (3)(1) = 4 - 3 = 1$.
-        Matriks songsang: $\frac{1}{1} \begin{bmatrix} 2 & -3 \\ -1 & 2 \end{bmatrix} = \begin{bmatrix} 2 & -3 \\ -1 & 2 \end{bmatrix}$.
-    marks: 4
+        Step 1: Form equations: $5000p + 3000q = 350$ and $6000p + 4000q = 440$.
+        Step 2: Simplify: $5p + 3q = 0.35$ and $6p + 4q = 0.44$.
+        Step 3: Matrix form: $\begin{bmatrix} 5 & 3 \\ 6 & 4 \end{bmatrix} \begin{bmatrix} p \\ q \end{bmatrix} = \begin{bmatrix} 0.35 \\ 0.44 \end{bmatrix}$.
+        Step 4: Solve for $p$ and $q$ using inverse matrix. $|A| = 20-18=2$.
+        Step 5: $p = 0.04$ (4%), $q = 0.05$ (5%).
+    marks: 6
     rubric:
       - marks: 2
-        criteria: "Mengira determinan dengan betul."
-      - marks: 3
-        criteria: "Menggunakan formula matriks songsang dengan betul tetapi ada kesilapan kecil dalam pengiraan."
+        criteria: "Correct formation of linear equations from the scenario."
+      - marks: 4
+        criteria: "Complete matrix solving process with final percentage values."
     hints:
       - level: 1
-        text: "Ingat formula untuk matriks songsang untuk matriks 2x2."
-      - level: 2
-        text: "Matriks songsang melibatkan pertukaran tempat unsur dan menukar tanda unsur lain."
+        text: "Let p and q be the rates. Remember that (Investment x Rate) = Dividend."

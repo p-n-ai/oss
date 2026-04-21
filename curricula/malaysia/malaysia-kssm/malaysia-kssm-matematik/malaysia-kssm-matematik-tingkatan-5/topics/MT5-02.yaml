@@ -1,91 +1,110 @@
 id: MT5-02
+official_ref: "2.0"
 name: "Matriks"
 name_en: "Matrices"
 subject_grade_id: malaysia-kssm-matematik-tingkatan-5
 subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
-language: ms
+language: en
 difficulty: intermediate
 tier: core
+
 content_standards:
-    - id: "2.1"
-      text: "Matriks"
-      text_en: "Matrices"
-    - id: "2.2"
-      text: "Operasi Asas Matriks"
-      text_en: "Basic Operations on Matrices"
+  - id: "2.1"
+    text_en: "Matrices"
+  - id: "2.2"
+    text_en: "Basic Operations on Matrices"
+
 learning_objectives:
-    - id: 2.1.1
-      text: "Mewakilkan maklumat situasi sebenar dalam bentuk matriks."
-      text_en: "Represent real-life situation information in matrix form."
-      bloom: apply
-    - id: 2.1.2
-      text: "Menentukan peringkat matriks dan seterusnya mengenal pasti unsur tertentu dalam suatu matriks."
-      text_en: "Determine the order of a matrix and subsequently identify specific elements in a matrix."
-      bloom: apply
-    - id: 2.1.3
-      text: "Menentukan sama ada dua matriks adalah sama."
-      text_en: "Determine whether two matrices are equal."
-      bloom: apply
-    - id: 2.2.1
-      text: "Menambah dan menolak matriks."
-      text_en: "Add and subtract matrices."
-      bloom: apply
-    - id: 2.2.2
-      text: "Mendarab matriks dengan suatu nombor."
-      text_en: "Multiply a matrix by a number."
-      bloom: apply
-    - id: 2.2.3
-      text: "Mendarab dua matriks."
-      text_en: "Multiply two matrices."
-      bloom: apply
-    - id: 2.2.4
-      text: "Menerangkan ciri-ciri matriks identiti."
-      text_en: "Explain the characteristics of an identity matrix."
-      bloom: understand
-    - id: 2.2.5
-      text: "Menerangkan maksud matriks songsang dan seterusnya menentukan matriks songsang bagi suatu matriks 2 × 2."
-      text_en: "Explain the meaning of an inverse matrix and subsequently determine the inverse matrix for a 2x2 matrix."
-      bloom: apply
-    - id: 2.2.6
-      text: "Menggunakan kaedah matriks untuk menyelesaikan persamaan linear serentak."
-      text_en: "Use the matrix method to solve simultaneous linear equations."
-      bloom: apply
-    - id: 2.2.7
-      text: "Menyelesaikan masalah yang melibatkan matriks."
-      text_en: "Solve problems involving matrices."
-      bloom: apply
+  - id: 2.1.1
+    text_en: "Represent real-life situation information in matrix form."
+    bloom: apply
+  - id: 2.1.2
+    text_en: "Determine the order of a matrix and subsequently identify specific elements in a matrix."
+    bloom: apply
+  - id: 2.1.3
+    text_en: "Determine whether two matrices are equal."
+    bloom: apply
+  - id: 2.2.1
+    text_en: "Add and subtract matrices."
+    bloom: apply
+  - id: 2.2.2
+    text_en: "Multiply a matrix by a number."
+    bloom: apply
+  - id: 2.2.3
+    text_en: "Multiply two matrices."
+    bloom: apply
+  - id: 2.2.4
+    text_en: "Explain the characteristics of an identity matrix."
+    bloom: understand
+  - id: 2.2.5
+    text_en: "Explain the meaning of an inverse matrix and subsequently determine the inverse matrix for a 2 x 2 matrix."
+    bloom: apply
+  - id: 2.2.6
+    text_en: "Use the matrix method to solve simultaneous linear equations."
+    bloom: apply
+  - id: 2.2.7
+    text_en: "Solve problems involving matrices."
+    bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor_en: "Demonstrate basic knowledge of matrices and their basic operations."
+  - level: 2
+    descriptor_en: "Demonstrate understanding of matrix representation, order, equality and operations."
+  - level: 3
+    descriptor_en: "Apply understanding of matrices to represent information and perform basic operations."
+  - level: 4
+    descriptor_en: "Apply appropriate knowledge and skills of matrices in the context of simple routine problem solving."
+  - level: 5
+    descriptor_en: "Apply appropriate knowledge and skills of matrices in the context of complex routine problem solving."
+  - level: 6
+    descriptor_en: "Apply appropriate knowledge and skills of matrices in the context of non-routine problem solving in a creative manner."
+
 prerequisites:
-    required: []
+  required:
+    - "MT1-05"
+    - "MT1-06"
+  recommended: []
+
 bloom_levels:
-    - apply
-    - understand
-quality_level: 1
-provenance: ai-generated
-generated_at: "2026-03-27T13:54:52Z"
+  - understand
+  - apply
+
+quality_level: 3
+provenance: ai-assisted
+generated_at: "2026-04-21T00:00:00Z"
+
 teaching:
-    sequence:
-        - 'Step 1: Introduce the concept of matrices and their real-world applications (15 min)'
-        - 'Step 2: Explain how to represent data using matrices and identify elements (20 min)'
-        - 'Step 3: Teach basic matrix operations such as addition and subtraction (20 min)'
-        - 'Step 4: Discuss matrix multiplication and scalar multiplication (20 min)'
-        - 'Step 5: Explain identity and inverse matrices with examples (25 min)'
-        - 'Step 6: Solve simultaneous linear equations using matrices (25 min)'
-    common_misconceptions:
-        - misconception: Matrices can be added even if they have different sizes
-          remediation: Emphasize the need for matrices to have the same size for addition
-        - misconception: All matrices have an inverse
-          remediation: Clarify the concept of singular matrices and conditions for inverses
-engagement_hooks:
-    - Use examples like store inventory management to show matrix applications
-    - Discuss weather data analysis to relate matrices to real-world scenarios
+  sequence:
+    - "Step 1: Introduce matrices through real-world tables such as sales, schedules and inventory records."
+    - "Step 2: Define matrix order and identify specific elements using row and column notation."
+    - "Step 3: Establish the conditions for matrix equality by matching order and corresponding elements."
+    - "Step 4: Demonstrate addition, subtraction and scalar multiplication of matrices."
+    - "Step 5: Teach matrix multiplication using the row-by-column rule and emphasize the condition for existence."
+    - "Step 6: Explore the identity matrix and its multiplicative property."
+    - "Step 7: Explain inverse matrices for 2 x 2 matrices and connect them to solving simultaneous equations."
+    - "Step 8: Apply matrix methods in multi-step routine and non-routine problem solving."
+  common_misconceptions:
+    - misconception: "Students try to add or subtract matrices with different orders."
+      remediation: "Reinforce that matrix addition and subtraction are only possible when every element has a matching partner in the same position."
+    - misconception: "Students multiply corresponding elements when multiplying two matrices."
+      remediation: "Use row-by-column tracing arrows to show that matrix multiplication is not the same as addition."
+    - misconception: "Students believe every square matrix has an inverse."
+      remediation: "Show that a 2 x 2 matrix has no inverse when the determinant is zero."
+  engagement_hooks:
+    - "Use school inventory records to show how matrices organize stock data quickly."
+    - "Discuss how matrices appear in cryptography and coded messages."
+    - "Connect matrices to data analysis tasks such as comparing sales or transport schedules."
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
 assessments_file: MT5-02.assessments.yaml
 ai_teaching_notes: MT5-02.teaching.md
-mastery:
-    minimum_score: 0.75
-    assessment_count: 3
-    spaced_repetition:
-        initial_interval_days: 3
-        multiplier: 2.5
 examples_file: MT5-02.examples.yaml

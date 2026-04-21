@@ -1,159 +1,181 @@
 topic_id: MT5-07
-provenance: ai-generated
-
+provenance: "kssm-textbook-dskp-aligned"
 questions:
-  # Learning Objective 7.1.1
+  # --- 7.1 Dispersion ---
   - id: Q1
-    text: 'Bina satu histogram bagi set data terkumpul berikut: Kelas (10-20, 20-30, 30-40, 40-50) dengan kekerapan (5, 15, 10, 20).'
-    difficulty: medium
-    learning_objective: 7.1.1
-    tp_level: 3
+    text: "In a frequency table, if the class interval for a set of data is $150 - 154$, determine the upper boundary of this class."
+    difficulty: easy
+    learning_objective: "7.1.1"
+    tp_level: 1
     kbat: false
     answer:
-      type: free_text
-      value: 'Histogram with correct bars'
+      type: multiple_choice
+      value: "154.5"
       working: |
-        1. Tentukan lebar setiap kelas.
-        2. Lukis paksi x dan y.
-        3. Label paksi x dengan kelas data dan paksi y dengan kekerapan.
-        4. Lukis bar untuk setiap kelas berdasarkan kekerapan.
-    marks: 4
-    rubric:
-      - marks: 1
-        criteria: "Menentukan lebar setiap kelas dengan betul."
-      - marks: 1
-        criteria: "Melukis paksi x dan y dengan betul."
-      - marks: 1
-        criteria: "Melabel paksi x dan y dengan betul."
-      - marks: 1
-        criteria: "Melukis bar berdasarkan kekerapan dengan betul."
+        Step 1: Identify the upper limit of the current class ($154$) and the lower limit of the next class ($155$).
+        Step 2: Calculate the midpoint between them: $(154 + 155) / 2 = 154.5$.
+      distractors:
+        - value: "154.0"
+          feedback: "This is the upper limit. Remember, the boundary is the midpoint between the current limit and the next class limit."
+        - value: "149.5"
+          feedback: "This is the lower boundary. The question asks for the upper boundary."
+        - value: "155.0"
+          feedback: "This is the lower limit of the subsequent class."
+    marks: 1
     hints:
-      - level: 1
-        text: "Mulakan dengan menentukan lebar setiap kelas."
-      - level: 2
-        text: "Lukis paksi x dan y dan labelkan dengan kelas data dan kekerapan."
-      - level: 3
-        text: "Lukis bar berdasarkan kekerapan untuk setiap kelas."
+      - "The upper boundary is the value halfway between the end of this class and the start of the next."
+      - "Look at the gap between 154 and 155. What number sits exactly in the middle?"
 
-  # Learning Objective 7.1.2
   - id: Q2
-    text: 'Bandingkan dan tafsirkan serakan dua set data terkumpul berikut menggunakan poligon kekerapan: Set A (10-20, 30-40, 50-60) dengan kekerapan (5, 10, 15), dan Set B (10-20, 30-40, 50-60) dengan kekerapan (10, 5, 20).'
+    text: "A set of grouped data has class midpoints at $147, 152, 157,$ and $162$. If you were to construct a frequency polygon, what are the midpoints required for the classes before and after this set to ensure the polygon starts and ends on the horizontal axis?"
     difficulty: medium
-    learning_objective: 7.1.2
+    learning_objective: "7.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: subjective
+      value: "142 and 167"
+      working: |
+        Step 1: Determine the class size by finding the difference between consecutive midpoints: $152 - 147 = 5$.
+        Step 2: Subtract the class size from the first midpoint: $147 - 5 = 142$.
+        Step 3: Add the class size to the last midpoint: $162 + 5 = 167$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifying the class size as 5 units."
+      - marks: 1
+        criteria: "Correctly calculating both 142 and 167."
+    hints:
+      - "A frequency polygon must start and end with zero frequency. How many units are between each existing midpoint?"
+      - "If the 'jump' between points is 5, go back one jump from 147 and forward one jump from 162."
+
+  - id: Q3
+    text: "Compare two histograms representing the test marks of Group Arif and Group Bestari. Group Arif's histogram is bell-shaped with most data at the center, while Group Bestari is uniform (flat) across all marks. Which group has a wider dispersion of marks? Justify your answer."
+    difficulty: hard
+    learning_objective: "7.1.2"
     tp_level: 4
     kbat: true
     answer:
       type: free_text
-      value: 'Set B mempunyai lebih banyak serakan pada kelas terakhir berbanding Set A.'
+      value: "Group Bestari has a wider dispersion because the frequencies are spread evenly across all classes, whereas Group Arif's data is concentrated around the mean."
       working: |
-        1. Lukis poligon kekerapan untuk Set A dan Set B.
-        2. Bandingkan kekerapan setiap kelas antara keduanya.
-        3. Buat kesimpulan berdasarkan perbandingan.
-    marks: 5
+        Step 1: Analyze distribution shapes. Arif = Bell-shaped (concentrated), Bestari = Uniform (spread out).
+        Step 2: Relate shape to dispersion. Concentrated data = low dispersion; spread data = high dispersion.
+    marks: 3
     rubric:
-      - marks: 2
-        criteria: "Melukis poligon kekerapan untuk Set A dengan betul."
-      - marks: 2
-        criteria: "Melukis poligon kekerapan untuk Set B dengan betul."
       - marks: 1
-        criteria: "Membuat kesimpulan yang tepat berdasarkan perbandingan."
+        criteria: "Identifying Group Bestari as having wider dispersion."
+      - marks: 2
+        criteria: "Providing justification based on the uniform vs. bell-shaped distribution patterns."
     hints:
-      - level: 1
-        text: "Lukis poligon kekerapan untuk kedua-dua set data."
-      - level: 2
-        text: "Bandingkan kekerapan setiap kelas antara Set A dan Set B."
-      - level: 3
-        text: "Perhatikan perbezaan kekerapan di kelas terakhir."
+      - "Look at the 'spread' of the bars. In which graph are the marks more 'all over the place' instead of huddling in the middle?"
+      - "Remember that bell-shaped means most people scored similarly. Uniform means scores were scattered across the whole range."
 
-  # Learning Objective 7.1.3
-  - id: Q3
-    text: 'Bina ogif bagi set data terkumpul berikut dan tentukan kuartil pertama: Kelas (5-10, 10-15, 15-20, 20-25) dengan kekerapan (4, 8, 12, 16).'
+  - id: Q4
+    text: "Match the following positions on an Ogive with their corresponding statistical measures."
     difficulty: medium
-    learning_objective: 7.1.3
+    learning_objective: "7.1.3"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: opb
+      value: "A-2, B-1, C-3"
+      working: "A: $1/4(N)$ is Q1. B: $1/2(N)$ is Median. C: $3/4(N)$ is Q3."
+      mapping:
+        - "A: $1/4$ of total frequency"
+        - "B: $1/2$ of total frequency"
+        - "C: $3/4$ of total frequency"
+      options:
+        - "1: Median (Q2)"
+        - "2: First Quartile (Q1)"
+        - "3: Third Quartile (Q3)"
+    marks: 3
+    hints:
+      - "Quarter (1/4) sounds like which quartile? Half (1/2) sounds like which center measure?"
+
+  # --- 7.2 Measures of Dispersion ---
+  - id: Q5
+    text: "The variance ($\\sigma^2$) of a set of grouped data is calculated as $229.19$. Calculate the standard deviation ($\\sigma$) correct to two decimal places."
+    difficulty: easy
+    learning_objective: "7.2.1"
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: '9'
+      value: "15.14"
       working: |
-        1. Kira kekerapan terkumpul.
-        2. Lukis ogif berdasarkan kekerapan terkumpul.
-        3. Tentukan kuartil pertama dari ogif.
-    marks: 4
+        Step 1: Identify that Standard Deviation ($\sigma$) is the square root of Variance ($\sigma^2$).
+        Step 2: $\sigma = \sqrt{229.19} = 15.13902...$
+        Step 3: Round to 2 decimal places: $15.14$.
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Mengira kekerapan terkumpul dengan betul."
+        criteria: "Correct use of the square root operation."
       - marks: 1
-        criteria: "Melukis ogif dengan betul."
-      - marks: 2
-        criteria: "Menentukan kuartil pertama dengan betul."
+        criteria: "Correct final value rounded to 2 decimal places."
     hints:
-      - level: 1
-        text: "Mulakan dengan mengira kekerapan terkumpul."
-      - level: 2
-        text: "Lukis ogif menggunakan kekerapan terkumpul."
-      - level: 3
-        text: "Cari nilai kuartil pertama dari ogif."
+      - "How do you 'undo' a square ($^2$) in math? Check your calculator for the symbol."
+      - "Don't forget to round carefully! Look at the third decimal digit."
 
-  # Learning Objective 7.2.1
-  - id: Q4
-    text: 'Tentukan varians bagi set data terkumpul berikut: Kelas (15-25, 25-35, 35-45) dengan kekerapan (6, 14, 10).'
+  - id: Q6
+    text: "In a box plot, the median line is positioned closer to the right side of the box, and the left whisker is significantly longer than the right whisker. Describe the shape of the data distribution."
     difficulty: medium
-    learning_objective: 7.2.1
-    tp_level: 4
-    kbat: false
-    answer:
-      type: exact
-      value: '50'
-      working: |
-        1. Tentukan titik tengah setiap kelas.
-        2. Kira purata dengan menggunakan titik tengah dan kekerapan.
-        3. Kira jumlah kuasa dua perbezaan dari purata.
-        4. Bahagikan dengan jumlah kekerapan untuk mendapatkan varians.
-    marks: 5
-    rubric:
-      - marks: 1
-        criteria: "Menentukan titik tengah setiap kelas dengan betul."
-      - marks: 1
-        criteria: "Mengira purata dengan betul."
-      - marks: 2
-        criteria: "Mengira jumlah kuasa dua perbezaan dari purata dengan betul."
-      - marks: 1
-        criteria: "Mengira varians dengan betul."
-    hints:
-      - level: 1
-        text: "Mulakan dengan mengira titik tengah setiap kelas."
-      - level: 2
-        text: "Gunakan titik tengah untuk mengira purata."
-      - level: 3
-        text: "Kira jumlah kuasa dua perbezaan dari purata."
-
-  # Learning Objective 7.2.2
-  - id: Q5
-    text: 'Bina dan tafsirkan plot kotak bagi set data terkumpul berikut: Kelas (20-30, 30-40, 40-50) dengan kekerapan (10, 20, 10).'
-    difficulty: medium
-    learning_objective: 7.2.2
+    learning_objective: "7.2.2"
     tp_level: 4
     kbat: true
     answer:
-      type: free_text
-      value: 'Plot kotak menunjukkan data lebih tertumpu di sekitar kelas kedua.'
+      type: multiple_choice
+      value: "Left-skewed distribution"
       working: |
-        1. Kira nilai kuartil dan julat antara kuartil.
-        2. Lukis plot kotak berdasarkan nilai yang dikira.
-        3. Tafsirkan plot kotak berdasarkan kedudukan median dan hujung kotak.
-    marks: 4
+        Step 1: If the left whisker is longer and the median is towards the right, the data is pulled towards the lower values.
+        Step 2: This represents a left-skewed (negative skew) distribution.
+      distractors:
+        - value: "Symmetric distribution"
+          feedback: "In a symmetric distribution, the median would be in the center and whiskers would be equal length."
+        - value: "Right-skewed distribution"
+          feedback: "Right-skewed would have a longer right whisker and the median would be closer to the left."
+        - value: "Uniform distribution"
+          feedback: "Box plots don't visually represent 'uniform' frequency like histograms do; they focus on quartile spread."
+    marks: 1
+    hints:
+      - "Whiskers show how far the data is 'stretched'. If it's stretched to the left (lower numbers), where is the skew?"
+
+  - id: Q7
+    text: "Machine P produces components with a standard deviation of $0.64$ cm, while Machine Q produces them with a standard deviation of $0.70$ cm. If both machines have the same mean diameter, which machine is more consistent in its production?"
+    difficulty: medium
+    learning_objective: "7.2.3"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: subjective
+      value: "Machine P"
+      working: |
+        Step 1: Compare the standard deviations: $0.64 < 0.70$.
+        Step 2: A smaller standard deviation indicates that the data points are closer to the mean, representing higher consistency.
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Mengira nilai kuartil dengan betul."
+        criteria: "Choosing Machine P."
       - marks: 1
-        criteria: "Lukis plot kotak dengan betul berdasarkan nilai kuartil."
-      - marks: 2
-        criteria: "Mentafsir plot kotak dengan betul."
+        criteria: "Explaining that a smaller standard deviation means higher consistency or less dispersion."
     hints:
-      - level: 1
-        text: "Kira nilai kuartil berdasarkan kekerapan."
-      - level: 2
-        text: "Gunakan nilai kuartil untuk melukis plot kotak."
-      - level: 3
-        text: "Perhatikan kedudukan median dan hujung kotak untuk tafsiran."
+      - "Standard deviation measures 'spread'. If you want consistency, do you want a big spread or a tiny spread?"
+
+  - id: Q8
+    text: "Design a mini-project layout to investigate the BMI (Body Mass Index) distribution among students. List the four essential graphical or statistical representations required in your final report as per the DSKP."
+    difficulty: hard
+    learning_objective: "7.2.5"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "The report must involve: 1. Frequency Table (Data organization), 2. Histogram/Frequency Polygon (Graphical representation), 3. Measures of Central Tendency (Mean/Median), and 4. Measures of Dispersion (Standard Deviation/Box Plot)."
+      working: |
+        Step 1: Refer to DSKP notes for 7.2.5. 
+        Step 2: Include organization, graphical representation, and data analysis (centrality and dispersion).
+    marks: 4
+    rubric:
+      - marks: 4
+        criteria: "Correctly listing all 4 components required for a comprehensive statistical investigation."
+    hints:
+      - "Think about the journey of data: from a raw list, to a table, to a graph, and finally to the calculated 'consistency' numbers."

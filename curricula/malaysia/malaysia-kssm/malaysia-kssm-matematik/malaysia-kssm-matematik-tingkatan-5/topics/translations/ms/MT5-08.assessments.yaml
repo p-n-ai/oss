@@ -1,0 +1,125 @@
+topic_id: MT5-08
+provenance: curriculum-audit
+questions:
+  # TP1: Mempamerkan pengetahuan asas (8.1.1) - OAP
+  - id: Q1
+    text: "Manakah antara berikut merupakan langkah pertama yang betul dalam proses pemodelan matematik?"
+    difficulty: easy
+    learning_objective: "8.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Mengenal pasti dan mendefinisikan masalah"
+      working: |
+        Langkah 1: Rujuk kitaran pemodelan matematik 6 langkah.
+        Langkah 2: Kitaran sentiasa bermula dengan memahami situasi dunia sebenar.
+      distractors:
+        - value: "Membuat andaian"
+          feedback: "Andaian adalah langkah kedua! Anda tidak boleh membuat andaian sebelum mengetahui masalah sebenar yang ingin diselesaikan."
+        - value: "Mengaplikasi matematik untuk menyelesaikan masalah"
+          feedback: "Ini adalah Langkah 3. Jika anda terus melompat ke sini, pengiraan matematik anda mungkin tidak sesuai dengan konteks dunia sebenar."
+        - value: "Melaporkan dapatan"
+          feedback: "Ini adalah langkah terakhir (Langkah 6). Anda perlu ada penyelesaian sebelum boleh melaporkannya!"
+
+  # TP2: Mempamerkan kefahaman (8.1.1) - OPB
+  - id: Q2
+    text: "Padankan komponen pemodelan dengan huraian yang betul: 
+    (A) Memurnikan model matematik, (B) Membuat andaian.
+    1. Memudahkan masalah dengan mengabaikan faktor-faktor kecil.
+    2. Mengubah suai model setelah menentusahkannya dengan data dunia sebenar."
+    difficulty: medium
+    learning_objective: "8.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: mapping
+      value: {"A": 2, "B": 1}
+      working: |
+        Langkah 1: Kenal pasti 'Andaian' digunakan untuk memudahkan masalah.
+        Langkah 2: Kenal pasti 'Memurnikan' adalah tindakan menambah baik model selepas keputusan pertama diperoleh.
+
+  # TP3: Tugasan Mudah (8.1.2) - Subjektif
+  - id: Q3
+    text: "Sebuah kereta menggunakan petrol pada kadar malar. Untuk perjalanan sejauh 405 km, ia menggunakan 45 liter petrol. Bentukkan satu fungsi linear $y = kx$ untuk mewakili liter petrol yang diperlukan ($y$) bagi sebarang jarak ($x$)."
+    difficulty: medium
+    learning_objective: "8.1.2"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "y = 1/9x"
+      working: |
+        Langkah 1: Gunakan bentuk linear $y = kx$.
+        Langkah 2: Gantikan $y = 45$ dan $x = 405$: $45 = k(405)$.
+        Langkah 3: Selesaikan untuk $k$: $k = 45/405 = 1/9$.
+        Langkah 4: Model tersebut ialah $y = \frac{1}{9}x$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Gantikan nilai dengan betul ke dalam persamaan linear."
+      - marks: 1
+        criteria: "Fungsi linear akhir yang dipermudahkan dengan betul."
+    hints:
+      - level: 1
+        text: "Fikirkan tentang 'kadar'. Jika 405km guna 45L, berapa km anda boleh pergi dengan hanya 1L?"
+      - level: 2
+        text: "Bahagikan liter dengan jarak untuk mencari pemalar 'k' anda."
+
+  # TP4: Konteks Linear Dunia Sebenar (8.1.2) - Subjektif (Senario Harga Beras)
+  - id: Q4
+    text: "Pasar Raya A menjual beras 10kg pada harga RM25.95 dan jaraknya 2km. Pasar Raya B menjualnya pada harga RM23.99 dan jaraknya 6km. Jika kos petrol ialah RM2.08/liter dan kadar penggunaan petrol kereta ialah 17.6km/liter, tentukan sama ada memandu ke Pasar Raya B berbaloi untuk pembelian DUA kampit beras. Tunjukkan pengiraan anda."
+    difficulty: hard
+    learning_objective: "8.1.2"
+    tp_level: 4
+    kbat: true
+    answer:
+      type: free_text
+      value: "Ya, berbaloi kerana jumlah penjimatan (RM3.92) adalah lebih besar daripada kos petrol (RM1.42), dengan baki penjimatan RM2.50."
+      working: |
+        Langkah 1: Penjimatan beras = $2 \times (25.95 - 23.99) = RM3.92$.
+        Langkah 2: Jarak ke B (pergi balik) = $6 \times 2 = 12$ km.
+        Langkah 3: Petrol digunakan = $12 / 17.6 = 0.341$ liter.
+        Langkah 4: Kos petrol = $0.341 \times 2.08 = RM1.42$.
+        Langkah 5: Penjimatan bersih = $3.92 - 1.42 = RM2.50$.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Kira jumlah penjimatan untuk 2 kampit beras."
+      - marks: 1
+        criteria: "Kira jumlah jarak pergi balik ke Pasar Raya B."
+      - marks: 1
+        criteria: "Kira jumlah kos petrol untuk perjalanan tersebut."
+      - marks: 1
+        criteria: "Justifikasi keputusan berdasarkan penjimatan bersih."
+    hints:
+      - level: 1
+        text: "Mula-mula, cari berapa banyak wang yang anda jimat untuk beras sahaja. Jangan lupa anda beli DUA kampit!"
+      - level: 2
+        text: "Sekarang kira kos perjalanan. Pergi ke kedai bermakna perjalanan pergi DAN balik. Berapa jumlah km itu?"
+
+  # TP5/6: Pemodelan Kuadratik/Eksponen & Pemurnian (8.1.2) - Subjektif
+  - id: Q5
+    text: "Seorang ahli hidrologi memodelkan kedalaman sungai menggunakan $y = -0.0136x^2 + 0.408x$. Jika kedalaman sebenar yang diukur pada jarak 15m dari tebing ialah 3.5m, manakala model meramalkan 3.06m, apakah langkah seterusnya dalam proses pemodelan? Cadangkan satu cara untuk memurnikan model ini."
+    difficulty: hard
+    learning_objective: "8.1.2"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Langkah seterusnya ialah 'Memurnikan model matematik'. Model boleh dimurnikan dengan mengambil lebih banyak titik data atau mempertimbangkan fungsi yang berbeza jika dasar sungai bukan parabola sempurna."
+      working: |
+        Langkah 1: Bandingkan ramalan (3.06m) vs nilai sebenar (3.5m).
+        Langkah 2: Kenal pasti keperluan untuk penambahbaikan kerana ralat adalah ketara.
+        Langkah 3: Nyatakan komponen 'Memurnikan' dan berikan strategi pemurnian yang logik.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti langkah seterusnya sebagai 'Memurnikan model'."
+      - marks: 2
+        criteria: "Memberikan justifikasi atau kaedah pemurnian yang sah (cth: lebih banyak data, mengubah andaian)."
+    hints:
+      - level: 1
+        text: "Lihat kitaran 6 langkah. Jika 'Menentusahkan' menunjukkan jawapan tidak cukup tepat, ke mana anda perlu kembali?"
+      - level: 2
+        text: "Fikirkan tentang sungai tersebut. Adakah bentuk-U yang sempurna realistik untuk semua bahagian sungai? Bagaimana anda boleh jadikan matematik itu lebih padan dengan realiti?"

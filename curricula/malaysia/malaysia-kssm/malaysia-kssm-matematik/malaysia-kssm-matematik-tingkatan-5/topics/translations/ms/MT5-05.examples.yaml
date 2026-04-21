@@ -1,0 +1,74 @@
+topic_id: MT5-05
+provenance: official-dskp-aligned
+description: "Contoh kerja untuk Kekongruenan, Pembesaran dan Gabungan Transformasi"
+worked_examples:
+  ### 5.1 Kekongruenan (TP2 - Mudah)
+  - id: WE-01
+    topic: "Kekongruenan"
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: "5.1.1: Membezakan antara bentuk kongruen dan bukan kongruen berdasarkan sisi dan sudut."
+    real_world_analogy: "Bayangkan tingkap-tingkap pada Jambatan Angkat Terengganu. Semuanya dibuat menggunakan acuan yang sama; jika anda ambil satu dan gelongsor atau putarkannya, ia akan bertindih tepat dengan yang lain. Itulah kekongruenan."
+    misconception_alert: "Jangan terpedaya dengan orientasi! Satu segi tiga tetap kongruen jika sisi dan sudutnya sama, walaupun ia telah dipantulkan atau diputar."
+    scenario: "Tentukan sama ada $\\triangle ABC$ dan $\\triangle PQR$ adalah kongruen. $\\triangle ABC$ mempunyai sisi $5\\text{ cm}, 12\\text{ cm}, 13\\text{ cm}$ dan satu sudut tegak. $\\triangle PQR$ juga mempunyai sisi $5\\text{ cm}, 12\\text{ cm}, 13\\text{ cm}$ dan satu sudut tegak, tetapi ia telah diputarkan $90^{\\circ}$."
+    working: |
+      1. Kenal pasti sisi $\triangle ABC$: $AB=5, BC=12, AC=13$.
+      2. Kenal pasti sisi $\triangle PQR$: $PQ=5, QR=12, PR=13$.
+      3. Bandingkan sisi sepadan: $AB=PQ$, $BC=QR$, dan $AC=PR$. Semuanya sama panjang.
+      4. Bandingkan sudut sepadan: Kedua-dua segi tiga mempunyai satu sudut $90^{\\circ}$.
+      5. Kesimpulan: Oleh sebab semua sisi dan sudut sepadan adalah sama, maka kedua-dua segi tiga adalah kongruen walaupun orientasinya berbeza.
+    
+  ### 5.2 Pembesaran (TP4 - Sederhana)
+  - id: WE-02
+    topic: "Pembesaran"
+    difficulty: medium
+    tp_level: 4
+    kbat: true
+    learning_objective: "5.2.4: Membuat dan mengesahkan konjektur tentang hubungan antara luas imej dan luas objek bagi suatu pembesaran."
+    real_world_analogy: "Bayangkan sekeping mozek segi empat sama. Jika anda gandakan panjang dan lebarnya ($k=2$), anda bukan sekadar dapat dua kali ganda luas; anda perlukan $2^2 = 4$ keping mozek untuk penuhi ruang baru itu!"
+    misconception_alert: "Perangkap $k^2$! Ramai pelajar fikir jika sisi berganda, luas juga berganda. Ingat: Luas imej = $k^2 \\times$ Luas objek."
+    scenario: "Satu logo dengan luas $20\\text{ cm}^2$ diperbesarkan dengan faktor skala $k = -3$. Hitung luas imej logo yang telah diperbesarkan itu."
+    working: |
+      1. Nyatakan rumus: $\text{Luas imej} = k^2 \\times \\text{Luas objek}$.
+      2. Masukkan nilai: $\text{Luas imej} = (-3)^2 \\times 20$.
+      3. Hitung kuasa dua faktor skala: $(-3) \\times (-3) = 9$.
+      4. Pengiraan akhir: $9 \\times 20 = 180\\text{ cm}^2$.
+      5. Nota: Faktor skala negatif bermaksud imej adalah songsang, tetapi nilai luas tetap positif.
+
+  ### 5.3 Gabungan Transformasi (TP5 - Sukar)
+  - id: WE-03
+    topic: "Gabungan Transformasi"
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: "5.3.4: Menyelesaikan masalah yang melibatkan gabungan transformasi."
+    real_world_analogy: "Satu urutan tarian berlabel 'AB' di mana B adalah 'Gelongsor ke Kiri' dan A adalah 'Pusing'. Anda MESTI buat Gelongsor (B) dahulu sebelum Pusing (A) untuk sampai ke kedudukan yang betul di atas pentas."
+    misconception_alert: "Perangkap Abjad Terbalik! Dalam gabungan transformasi $AB$, transformasi $B$ sentiasa dilakukan DAHULU, diikuti dengan transformasi $A$."
+    scenario: "Titik $M(1, 4)$ melalui gabungan transformasi $RS$. $S$ ialah pantulan pada garis $x = 3$ dan $R$ ialah translasi $\\begin{pmatrix} 2 \\\\ -1 \\\\end{pmatrix}$. Cari imej akhir bagi titik $M$."
+    working: |
+      1. Kenal pasti tertib: Dalam $RS$, lakukan $S$ dahulu, kemudian $R$.
+      2. Langkah 1 (Transformasi $S$): Pantulkan $M(1, 4)$ pada garis $x = 3$. 
+         Jarak dari $x=1$ ke paksi pantulan $x=3$ ialah 2 unit. Gerak 2 unit ke kanan dari $x=3$ untuk dapatkan $x=5$. 
+         Imej pertama $M'$ ialah $(5, 4)$.
+      3. Langkah 2 (Transformasi $R$): Lakukan translasi $\\begin{pmatrix} 2 \\\\ -1 \\\\end{pmatrix}$ pada $M'(5, 4)$.
+         $x = 5 + 2 = 7$
+         $y = 4 - 1 = 3$
+      4. Jawapan Akhir: Koordinat bagi imej akhir $M''$ ialah $(7, 3)$.
+
+  ### 5.4 Teselasi (TP6 - Sukar)
+  - id: WE-04
+    topic: "Teselasi"
+    difficulty: hard
+    tp_level: 6
+    kbat: true
+    learning_objective: "5.4.2: Mereka bentuk teselasi yang melibatkan transformasi isometri."
+    real_world_analogy: "Corak Batik Malaysia! Satu motif kecil diulang melalui pantulan dan translasi untuk menutup seluruh kain tanpa ada ruang kosong."
+    misconception_alert: "Satu corak hanya dianggap teselasi jika tiada sebarang ruang kosong (gaps) dan tiada pertindihan (overlaps). Jika bentuk tidak bercantum tepat, ia bukan teselasi."
+    scenario: "Terangkan bagaimana satu segi tiga sama sisi boleh digunakan untuk membina teselasi menggunakan putaran dan translasi sahaja."
+    working: |
+      1. Mulakan dengan satu segi tiga sama sisi (Bentuk P).
+      2. Lakukan putaran $60^{\\circ}$ bagi Bentuk P pada salah satu bucunya untuk menghasilkan segi tiga bersebelahan.
+      3. Ulangi putaran ini sebanyak 5 kali lagi untuk membentuk satu heksagon sekata.
+      4. Gunakan translasi untuk mengulang unit heksagon ini bagi menutup seluruh satah.
+      5. Pengesahan: Oleh sebab jumlah sudut pedalaman pada titik pertemuan ($60^{\\circ} \\times 6$) ialah $360^{\\circ}$, maka tiada ruang kosong atau pertindihan berlaku.

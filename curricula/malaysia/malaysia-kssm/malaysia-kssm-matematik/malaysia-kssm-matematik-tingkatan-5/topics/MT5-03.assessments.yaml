@@ -1,131 +1,167 @@
 topic_id: MT5-03
-provenance: ai-generated
-
+provenance: curriculum-audit
 questions:
-  # Learning Objective 3.1.1
+  # TP1 - Knowledge (Learning Objective 3.1.1)
   - id: Q1
-    text: 'Jelaskan maksud risiko dan mengapa perlindungan insurans penting dalam kehidupan seharian.'
-    difficulty: medium
-    learning_objective: 3.1.1
-    tp_level: 3
-    kbat: true
-    answer:
-      type: free_text
-      value: 'Risiko adalah kemungkinan berlakunya kejadian yang tidak diingini yang boleh menyebabkan kerugian. Perlindungan insurans penting untuk melindungi diri dan aset daripada kerugian kewangan akibat risiko tersebut.'
-      working: |
-        1. Definisi Risiko: Kemungkinan berlakunya kejadian tidak diingini.
-        2. Kepentingan Insurans: Melindungi daripada kerugian kewangan akibat risiko.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: 'Menjelaskan maksud risiko.'
-      - marks: 2
-        criteria: 'Menghuraikan kepentingan perlindungan insurans.'
-    hints:
-      - level: 1
-        text: 'Fikirkan tentang peristiwa yang tidak dijangka dan kesannya ke atas kewangan.'
-
-  # Learning Objective 3.1.1
-  - id: Q2
-    text: 'Antara berikut, yang manakah bukan jenis insurans am? A) Insurans Kebakaran B) Insurans Hayat C) Insurans Perjalanan D) Insurans Kereta'
-    difficulty: medium
-    learning_objective: 3.1.1
-    tp_level: 3
+    text: "Which of the following describes the 'Principle of Indemnity' in insurance?"
+    difficulty: easy
+    learning_objective: "3.1.1"
+    tp_level: 1
     kbat: false
     answer:
       type: multiple_choice
-      value: 'B'
-      options: 
-        - 'A'
-        - 'B'
-        - 'C'
-        - 'D'
+      value: "A"
+      working: |
+        Step 1: Recall the definition from textbook page 75. 
+        Step 2: Indemnity means to restore the financial position to the pre-loss condition.
+        Step 3: It explicitly forbids gaining profit from a loss.
+      options:
+        - "A"
+        - "B"
+        - "C"
+        - "D"
       distractors:
-        - value: 'A'
-          feedback: 'Insurans Kebakaran adalah insurans am.'
-        - value: 'C'
-          feedback: 'Insurans Perjalanan adalah insurans am.'
-        - value: 'D'
-          feedback: 'Insurans Kereta adalah insurans am.'
-    marks: 2
-    rubric:
-      - marks: 2
-        criteria: 'Memilih jawapan yang betul.'
+        - value: "B"
+          feedback: "This describes a savings plan, not the core principle of insurance protection. Remember: Insurance is not for 'untung' (profit)!"
+        - value: "C"
+          feedback: "This is a misconception. Indemnity prevents the policyholder from receiving more than the actual loss incurred."
+        - value: "D"
+          feedback: "While premiums are involved, the principle of indemnity specifically refers to the amount of compensation relative to the loss."
+    marks: 1
     hints:
       - level: 1
-        text: 'MISCONCEPTION ALERT: Ingat bahawa insurans hayat adalah untuk perlindungan hayat jangka panjang.'
+        text: "Check the 'Info Bulletin' on page 75. What does it say about the amount of compensation vs the amount of loss?"
 
-  # Learning Objective 3.1.2
+  # TP2 - Understanding (Learning Objective 3.1.1) - OPB Format
+  - id: Q2
+    text: "Classify the following risks into the correct insurance category: (i) Fire damage to a house, (ii) Death of a breadwinner, (iii) Medical surgery costs."
+    difficulty: easy
+    learning_objective: "3.1.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: free_text
+      value: "(i) General Insurance, (ii) Life Insurance, (iii) General Insurance (Medical)"
+      working: |
+        Step 1: Identify the nature of the risk. 
+        Step 2: Life insurance covers death, disability, and critical illness. 
+        Step 3: General insurance covers property (Fire), motor, and health.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Correctly identifies Fire damage as General Insurance."
+      - marks: 1
+        criteria: "Correctly identifies Death as Life Insurance."
+      - marks: 1
+        criteria: "Correctly identifies Surgery as General/Medical Insurance."
+    hints:
+      - level: 1
+        text: "Look at the 'Types of general insurance' chart on page 77. Does 'Fire' or 'Medical' appear there?"
+
+  # TP3 - Simple Application (Learning Objective 3.1.2)
   - id: Q3
-    text: 'Kira jumlah premium tahunan jika kadar premium insurans ialah 2.5% daripada nilai insurans RM200,000.'
+    text: "Mr. Guan (39 years old, non-smoker) wants to buy a life insurance policy worth $RM100,000$. Based on the rate of $RM2.49$ per $RM1,000$ face value, calculate his annual premium."
     difficulty: medium
-    learning_objective: 3.1.2
-    tp_level: 4
+    learning_objective: "3.1.2"
+    tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: 'RM5000'
+      value: "249.00"
       working: |
-        1. Kadar premium = 2.5%
-        2. Nilai insurans = RM200,000
-        3. Premium tahunan = 2.5% x RM200,000 = RM5,000
-    marks: 3
+        Step 1: Identify the formula: $Premium = \frac{Face\ value\ of\ policy}{RMx} \times Premium\ rate\ per\ RMx$.
+        Step 2: Substitute values: $\frac{RM100,000}{RM1,000} \times RM2.49$.
+        Step 3: Calculate: $100 \times 2.49 = RM249.00$.
+    marks: 2
     rubric:
       - marks: 1
-        criteria: 'Menulis formula untuk mengira premium.'
-      - marks: 2
-        criteria: 'Mengira jumlah premium dengan betul.'
+        criteria: "Correct substitution into the premium formula."
+      - marks: 1
+        criteria: "Final correct value with correct units."
     hints:
       - level: 1
-        text: 'Gunakan formula kadar x nilai untuk mencari jumlah premium.'
+        text: "The 'RMx' in the formula refers to the base value in the table, which is $RM1,000$. Divide the total coverage by this first!"
 
-  # Learning Objective 3.1.2
+  # TP4 - Routine Problem Solving (Learning Objective 3.1.2) - Motor Insurance
   - id: Q4
-    text: 'Nyatakan perbezaan antara premium dan deduktibel dalam insurans.'
+    text: "Encik Ramli owns a car in Peninsular Malaysia with a sum insured of $RM60,000$. The basic rate for the first $RM1,000$ is $RM305.50$ and the rate for every subsequent $RM1,000$ is $RM26$. If his NCD is $25\%$, calculate the gross premium for a comprehensive policy."
     difficulty: medium
-    learning_objective: 3.1.2
-    tp_level: 3
-    kbat: true
-    answer:
-      type: free_text
-      value: 'Premium adalah bayaran berkala yang dibayar untuk mendapatkan perlindungan insurans. Deduktibel adalah jumlah yang perlu dibayar sendiri oleh pemegang polisi sebelum insurans mula membayar tuntutan.'
-      working: |
-        1. Premium: Bayaran berkala untuk perlindungan.
-        2. Deduktibel: Jumlah dibayar sebelum tuntutan insurans.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: 'Menjelaskan maksud premium.'
-      - marks: 2
-        criteria: 'Menjelaskan maksud deduktibel.'
-    hints:
-      - level: 1
-        text: 'Pertimbangkan premium sebagai kos untuk mendapatkan insurans dan deduktibel sebagai kos apabila membuat tuntutan.'
-
-  # Learning Objective 3.1.3
-  - id: Q5
-    text: 'Seorang pemegang polisi mempunyai insurans kesihatan dengan deduktibel RM1000 dan ko-insurans 20%. Jika bil perubatan adalah RM5000, berapakah jumlah yang perlu dibayar oleh pemegang polisi?'
-    difficulty: medium
-    learning_objective: 3.1.3
+    learning_objective: "3.1.2"
     tp_level: 4
     kbat: true
     answer:
       type: exact
-      value: 'RM1800'
+      value: "1379.62"
       working: |
-        1. Deduktibel: RM1000
-        2. Bil perubatan: RM5000
-        3. Jumlah selepas deduktibel: RM5000 - RM1000 = RM4000
-        4. Bahagian ko-insurans (20%): 0.20 x RM4000 = RM800
-        5. Jumlah yang perlu dibayar: RM1000 + RM800 = RM1800
+        Step 1: Calculate the rate for the balance: $(60,000 - 1,000) / 1,000 = 59$.
+        Step 2: Calculate basic premium: $305.50 + (59 \times 26) = 305.50 + 1,534 = RM1,839.50$.
+        Step 3: Apply NCD: $1,839.50 - (0.25 \times 1,839.50) = 1,839.50 - 459.88$.
+        Step 4: Final gross premium: $RM1,379.62$.
     marks: 4
     rubric:
       - marks: 1
-        criteria: 'Mengira jumlah bil selepas deduktibel.'
-      - marks: 2
-        criteria: 'Mengira bahagian ko-insurans.'
+        criteria: "Correct calculation of the balance units (59)."
       - marks: 1
-        criteria: 'Menjumlahkan deduktibel dan ko-insurans.'
+        criteria: "Correct calculation of basic premium ($RM1,839.50$)."
+      - marks: 1
+        criteria: "Correct application of the $25\%$ NCD."
+      - marks: 1
+        criteria: "Final correct gross premium."
     hints:
       - level: 1
-        text: 'MISCONCEPTION ALERT: Deduktibel dibayar dahulu sebelum mengira ko-insurans.'
+        text: "The NCD is a discount. You must calculate the basic premium first, then subtract the discount amount."
+
+  # TP5 - Complex Routine (Learning Objective 3.1.3)
+  - id: Q5
+    text: "Madam Chen has a medical policy with a deductible of $RM500$ and a $75/25$ co-insurance clause. If her medical bill is $RM20,600$, how much must Madam Chen pay herself?"
+    difficulty: hard
+    learning_objective: "3.1.3"
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "5525.00"
+      working: |
+        Step 1: Subtract the deductible from the total bill: $20,600 - 500 = RM20,100$.
+        Step 2: Calculate Madam Chen's co-insurance share ($25\%$): $0.25 \times 20,100 = RM5,025$.
+        Step 3: Add the deductible back to her share: $500 + 5,025 = RM5,525$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Subtracts deductible correctly to find the balance ($RM20,100$)."
+      - marks: 1
+        criteria: "Calculates the $25\%$ co-insurance share correctly."
+      - marks: 1
+        criteria: "Sums the deductible and co-insurance for the total out-of-pocket cost."
+    hints:
+      - level: 1
+        text: "The 'Naked Numerator' Trap! Always subtract the deductible BEFORE you calculate the co-insurance percentage."
+
+  # TP6 - Creative/Non-Routine (Learning Objective 3.1.3)
+  - id: Q6
+    text: "Encik Ismail's house has an insurable value of $RM350,000$. His fire policy has an $80\%$ co-insurance provision and a deductible of $RM2,000$. He only insured his house for $RM150,000$. If the house suffers a partial loss of $RM25,000$, calculate his compensation and explain the 'Co-insurance penalty'."
+    difficulty: hard
+    learning_objective: "3.1.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Compensation: $RM11,392.86$. Penalty: $RM11,607.14$. The penalty occurs because the house was under-insured."
+      working: |
+        Step 1: Calculate amount of required insurance: $0.80 \times 350,000 = RM280,000$.
+        Step 2: Calculate compensation before deductible: $(\frac{150,000}{280,000}) \times 25,000 = RM13,392.86$.
+        Step 3: Subtract deductible: $13,392.86 - 2,000 = RM11,392.86$.
+        Step 4: Calculate penalty: $25,000 - 13,392.86 = RM11,607.14$.
+    marks: 5
+    rubric:
+      - marks: 1
+        criteria: "Calculates required insurance amount ($RM280,000$)."
+      - marks: 2
+        criteria: "Correctly applies the co-insurance formula for under-insurance."
+      - marks: 1
+        criteria: "Correct final compensation after deductible."
+      - marks: 1
+        criteria: "Explains that the penalty is the loss amount not covered due to under-insurance."
+    hints:
+      - level: 1
+        text: "Since he insured for less than the required $80\%$, the insurance company will not pay the full RM25,000 loss. Use the ratio: (Amount purchased / Amount required) x Loss."

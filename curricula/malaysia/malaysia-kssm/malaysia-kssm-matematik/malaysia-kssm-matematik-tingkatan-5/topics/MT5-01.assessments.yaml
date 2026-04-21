@@ -1,148 +1,264 @@
 topic_id: MT5-01
-provenance: ai-generated
+provenance: ai-assisted
 
 questions:
-  # Group by learning objective 1.1.1
   - id: Q1
-    text: 'Jelaskan maksud ubahan langsung dan berikan satu contoh dalam kehidupan harian.'
-    difficulty: medium
-    learning_objective: 1.1.1
-    tp_level: 2
-    kbat: true
+    text: "Which graph represents a direct variation between $y$ and $x$?"
+    difficulty: easy
+    learning_objective: "1.1.1"
+    tp_level: 1
+    kbat: false
     answer:
-      type: free_text
-      value: 'Ubahan langsung ialah satu hubungan di mana dua pemboleh ubah berubah pada kadar yang sama. Contoh: Jarak dan masa bergerak dengan kelajuan yang tetap.'
+      type: multiple_choice
+      value: A
       working: |
-        - Ubahan langsung bermaksud apabila satu pemboleh ubah meningkat, pemboleh ubah lain juga meningkat pada kadar yang sama.
-        - Contoh: Jika anda memandu dengan kelajuan tetap, lebih lama anda memandu, lebih jauh anda akan pergi.
-    marks: 3
+        Step 1: Recall that direct variation has the form $y = kx$.
+        Step 2: A graph of $y = kx$ is a straight line.
+        Step 3: Because there is no constant term, the line must pass through the origin $(0,0)$.
+      options:
+        A: "A straight line passing through the origin."
+        B: "A straight line with a positive y-intercept."
+        C: "A hyperbola approaching both axes."
+        D: "A horizontal line."
+      distractors:
+        - value: B
+          feedback: "That is a linear graph, but not a direct variation because it does not pass through the origin."
+        - value: C
+          feedback: "That shape is linked to inverse variation, not direct variation."
+        - value: D
+          feedback: "A horizontal line means the value of $y$ stays constant as $x$ changes."
+    marks: 1
     rubric:
       - marks: 1
-        criteria: "Memberikan definisi asas ubahan langsung."
-      - marks: 1
-        criteria: "Memberikan contoh yang relevan."
-      - marks: 1
-        criteria: "Mengaitkan dengan situasi kehidupan harian."
+        criteria: "Identifies the graph of direct variation as a straight line through the origin."
     hints:
       - level: 1
-        text: "Fikirkan tentang situasi di mana dua perkara bertambah secara serentak."
-      - level: 2
-        text: "Contoh: Kelajuan dan masa ketika memandu kereta."
+        text: "Think about the equation form $y = kx$. What happens when $x = 0$?"
 
-  # Group by learning objective 1.1.2
   - id: Q2
-    text: 'Jika $y$ berubah secara langsung dengan $x$ dan $y = 15$ apabila $x = 3$, cari nilai $y$ apabila $x = 7$.'
+    text: "Which statement best explains inverse variation?"
+    difficulty: easy
+    learning_objective: "1.2.1"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: C
+      working: |
+        Step 1: In inverse variation, one variable increases while the other decreases in such a way that their product stays constant.
+        Step 2: This can be written as $y \propto \frac{1}{x}$ or $xy = k$.
+      options:
+        A: "Both variables always increase together at the same rate."
+        B: "One variable stays fixed while the other changes."
+        C: "As one variable increases, the other decreases so that the product remains constant."
+        D: "The graph must always be a straight line with negative gradient."
+      distractors:
+        - value: A
+          feedback: "That describes direct variation, not inverse variation."
+        - value: B
+          feedback: "Inverse variation involves both variables changing, not one staying fixed."
+        - value: D
+          feedback: "Inverse variation is not defined by a negative straight line. It is defined by a constant product."
+    marks: 1
+    rubric:
+      - marks: 1
+        criteria: "Chooses the correct meaning of inverse variation."
+    hints:
+      - level: 1
+        text: "Test which statement matches the idea $xy = k$."
+
+  - id: Q3
+    text: "It is given that $y$ varies directly as $x^3$. If $y = 12.5$ when $x = 5$, find the value of $y$ when $x = 2$."
     difficulty: medium
-    learning_objective: 1.1.2
+    learning_objective: "1.1.2"
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: '35'
+      value: "0.8"
       working: |
-        - Diberi bahawa $y = kx$, dan apabila $x = 3$, $y = 15$.
-        - Maka, $15 = k \times 3 \implies k = 5$.
-        - Oleh itu, apabila $x = 7$, $y = 5 \times 7 = 35$.
+        Step 1: Write the relation as $y = kx^3$.
+        Step 2: Substitute $y = 12.5$ and $x = 5$.
+        Step 3: $12.5 = k(125)$, so $k = 0.1$.
+        Step 4: Substitute $x = 2$ into $y = 0.1x^3$.
+        Step 5: $y = 0.1(8) = 0.8$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menentukan nilai pemalar $k$ dengan betul."
+        criteria: "Forms the correct direct variation equation."
       - marks: 1
-        criteria: "Menggantikan nilai $x$ yang baru ke dalam persamaan."
+        criteria: "Finds the constant of variation correctly."
       - marks: 1
-        criteria: "Mengira nilai $y$ dengan betul."
+        criteria: "Calculates the new value of $y$ correctly."
     hints:
       - level: 1
-        text: "MISCONCEPTION ALERT: Pastikan anda mencari nilai k sebelum mencari nilai y yang baru."
+        text: "Write the relation with $k$ first before substituting numbers."
       - level: 2
-        text: "Gunakan formula y = kx dan gantikan nilai yang diketahui."
+        text: "Find $k$ using the first pair of values, then use the new value of $x$."
 
-  # Group by learning objective 1.1.3
-  - id: Q3
-    text: 'Dalam suatu ubahan tercantum, $y$ berubah secara langsung dengan $x$ dan secara songsang dengan $z$. Jika $y = 10$ apabila $x = 4$ dan $z = 5$, cari nilai $y$ apabila $x = 8$ dan $z = 10$.'
+  - id: Q4
+    text: "Given that $I$ varies jointly as $P$, $r$ and $t$, write the equation connecting the variables and the constant of variation $k$."
     difficulty: medium
-    learning_objective: 1.1.3
+    learning_objective: "1.1.3"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: exact
+      value: "I = kPrt"
+      working: |
+        Step 1: Joint variation means the dependent variable varies directly with all listed variables together.
+        Step 2: So $I \propto Prt$.
+        Step 3: Replace the proportional sign with the constant of variation $k$.
+        Step 4: The equation is $I = kPrt$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Recognizes that the relation is direct with all three variables."
+      - marks: 1
+        criteria: "Writes the equation with the constant of variation correctly."
+    hints:
+      - level: 1
+        text: "Joint variation means all linked variables stay on top together."
+
+  - id: Q5
+    text: "The total pay, $P$, varies directly as the number of hours worked, $h$. A part-time worker earns RM54 for 6 hours. Calculate the pay for 9 hours."
+    difficulty: medium
+    learning_objective: "1.1.4"
     tp_level: 4
     kbat: false
     answer:
       type: exact
-      value: '8'
+      value: "81"
       working: |
-        - Diberikan $y = \frac{kx}{z}$.
-        - Apabila $x = 4$ dan $z = 5$, $y = 10 \implies 10 = \frac{k \times 4}{5}$.
-        - Oleh itu, $k = 12.5$.
-        - Apabila $x = 8$ dan $z = 10$, $y = \frac{12.5 \times 8}{10} = 8$.
-    marks: 4
+        Step 1: Write the direct variation equation $P = kh$.
+        Step 2: Substitute $P = 54$ and $h = 6$.
+        Step 3: $54 = 6k$, so $k = 9$.
+        Step 4: Substitute $h = 9$ into $P = 9h$.
+        Step 5: $P = 9(9) = 81$.
+    marks: 3
     rubric:
       - marks: 1
-        criteria: "Menentukan bentuk persamaan yang betul."
+        criteria: "Forms the correct direct variation model."
       - marks: 1
-        criteria: "Mengira nilai pemalar $k$ dengan betul."
+        criteria: "Determines the constant of variation correctly."
       - marks: 1
-        criteria: "Menggantikan nilai $x$ dan $z$ yang baru ke dalam persamaan."
-      - marks: 1
-        criteria: "Mengira nilai $y$ dengan betul."
+        criteria: "Finds the pay for 9 hours correctly."
     hints:
       - level: 1
-        text: "Perhatikan hubungan tercantum yang melibatkan ketiga-tiga pemboleh ubah."
-      - level: 2
-        text: "Cari nilai k terlebih dahulu sebelum mencari nilai y yang baru."
+        text: "This is direct variation, so divide pay by hours to find the constant rate."
 
-  # Group by learning objective 1.2.2
-  - id: Q4
-    text: 'Jika $a$ berubah secara songsang dengan $b$, dan $a = 20$ apabila $b = 5$, cari nilai $a$ apabila $b = 10$.'
+  - id: Q6
+    text: "The variable $a$ varies inversely as $b$. If $a = 20$ when $b = 5$, find the value of $a$ when $b = 10$."
     difficulty: medium
-    learning_objective: 1.2.2
+    learning_objective: "1.2.2"
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: '10'
+      value: "10"
       working: |
-        - Diberikan $a = \frac{k}{b}$.
-        - Apabila $a = 20$ dan $b = 5$, $20 = \frac{k}{5} \implies k = 100$.
-        - Oleh itu, apabila $b = 10$, $a = \frac{100}{10} = 10$.
+        Step 1: Write the inverse variation equation $a = \frac{k}{b}$.
+        Step 2: Substitute $a = 20$ and $b = 5$.
+        Step 3: $20 = \frac{k}{5}$, so $k = 100$.
+        Step 4: Substitute $b = 10$.
+        Step 5: $a = \frac{100}{10} = 10$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menentukan bentuk persamaan songsang yang betul."
+        criteria: "Writes the correct inverse variation model."
       - marks: 1
-        criteria: "Mengira nilai pemalar $k$ dengan betul."
+        criteria: "Finds the constant of variation correctly."
       - marks: 1
-        criteria: "Menggantikan nilai $b$ yang baru ke dalam persamaan."
+        criteria: "Calculates the new value of $a$ correctly."
     hints:
       - level: 1
-        text: "Ingat bahawa hubungan songsang bermaksud apabila satu pemboleh ubah meningkat, yang lain menurun."
-      - level: 2
-        text: "Gunakan formula a = k/b dan cari nilai k terlebih dahulu."
+        text: "For inverse variation, the product of the two variables stays constant."
 
-  # Group by learning objective 1.3.2
-  - id: Q5
-    text: 'Selesaikan masalah berikut: Jika $p$ berubah secara langsung dengan $q$ dan secara songsang dengan $r$, dan $p = 24$ apabila $q = 6$ dan $r = 4$, cari nilai $p$ apabila $q = 9$ dan $r = 6$.'
-    difficulty: medium
-    learning_objective: 1.3.2
+  - id: Q7
+    text: "The pressure, $P$, of a gas is inversely proportional to its volume, $V$. Given that $P = 190.25$ kPa when $V = 80$ cm^3, calculate the volume when the pressure is $121.76$ kPa."
+    difficulty: hard
+    learning_objective: "1.2.3"
     tp_level: 5
-    kbat: true
+    kbat: false
     answer:
       type: exact
-      value: '18'
+      value: "125"
       working: |
-        - Diberi bahawa $p = \frac{kq}{r}$.
-        - Apabila $q = 6$ dan $r = 4$, $p = 24 \implies 24 = \frac{k \times 6}{4}$.
-        - Oleh itu, $k = 16$.
-        - Apabila $q = 9$ dan $r = 6$, $p = \frac{16 \times 9}{6} = 18$.
+        Step 1: Write the inverse variation equation $P = \frac{k}{V}$.
+        Step 2: Rearrange to find $k$: $k = PV$.
+        Step 3: $k = 190.25 \times 80 = 15220$.
+        Step 4: Substitute the new pressure: $121.76 = \frac{15220}{V}$.
+        Step 5: Solve for $V$: $V = \frac{15220}{121.76} = 125$.
     marks: 4
     rubric:
       - marks: 1
-        criteria: "Menentukan bentuk persamaan bergabung yang betul."
+        criteria: "Uses the correct inverse variation equation."
       - marks: 1
-        criteria: "Mengira nilai pemalar $k$ dengan betul."
-      - marks: 1
-        criteria: "Menggantikan nilai $q$ dan $r$ yang baru ke dalam persamaan."
-      - marks: 1
-        criteria: "Mengira nilai $p$ dengan betul."
+        criteria: "Calculates the constant of variation correctly."
+      - marks: 2
+        criteria: "Finds the final volume correctly."
     hints:
       - level: 1
-        text: "Hubungan bergabung melibatkan kedua-dua ubahan langsung dan songsang."
-      - level: 2
-        text: "Cari k dahulu sebelum mencari nilai p yang baru."
+        text: "Use the fact that $PV$ stays constant in inverse variation."
+
+  - id: Q8
+    text: "If $y$ varies directly as $x$ and inversely as $z^2$, which equation is correct?"
+    difficulty: medium
+    learning_objective: "1.3.1"
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: B
+      working: |
+        Step 1: Direct variation with $x$ means $x$ stays in the numerator.
+        Step 2: Inverse variation with $z^2$ means $z^2$ goes in the denominator.
+        Step 3: Insert the constant of variation $k$.
+        Step 4: The correct equation is $y = \frac{kx}{z^2}$.
+      options:
+        A: "$y = kxz^2$"
+        B: "$y = \\frac{kx}{z^2}$"
+        C: "$y = \\frac{kz^2}{x}$"
+        D: "$y = kx + z^2$"
+      distractors:
+        - value: A
+          feedback: "That treats both variables as direct variation. The inverse variable must go in the denominator."
+        - value: C
+          feedback: "This places the variables in the wrong positions."
+        - value: D
+          feedback: "Variation relations are multiplicative, not simple addition statements."
+    marks: 2
+    rubric:
+      - marks: 2
+        criteria: "Chooses the correct combined variation equation."
+    hints:
+      - level: 1
+        text: "Use the memory rule: direct on top, inverse underneath."
+
+  - id: Q9
+    text: "The speed of a bicycle, $S$, varies directly as the pedalling rate, $P$, and inversely as the number of back gear teeth, $d$. Santhami pedals at 75 rpm with 20 back gear teeth and moves at 26.4 km/h. If she increases her pedalling rate to 90 rpm using the same back gear, calculate her new speed."
+    difficulty: hard
+    learning_objective: "1.3.2"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: exact
+      value: "31.68"
+      working: |
+        Step 1: Write the combined variation equation $S = \frac{kP}{d}$.
+        Step 2: Substitute $S = 26.4$, $P = 75$ and $d = 20$.
+        Step 3: $26.4 = \frac{75k}{20}$.
+        Step 4: Solve for $k$: $k = \frac{26.4 \times 20}{75} = 7.04$.
+        Step 5: Use the same back gear with $P = 90$.
+        Step 6: $S = \frac{7.04 \times 90}{20} = 31.68$.
+    marks: 5
+    rubric:
+      - marks: 1
+        criteria: "Identifies the correct combined variation model."
+      - marks: 2
+        criteria: "Finds the constant of variation correctly."
+      - marks: 2
+        criteria: "Calculates the new speed correctly."
+    hints:
+      - level: 1
+        text: "Notice which variable changes and which one stays fixed before you solve."

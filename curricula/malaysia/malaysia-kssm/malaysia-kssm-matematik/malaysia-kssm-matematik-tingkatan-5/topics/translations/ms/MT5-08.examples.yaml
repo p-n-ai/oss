@@ -1,0 +1,77 @@
+topic_id: MT5-08
+provenance: curriculum-audit
+description: "Contoh kerja bagi Pemodelan Matematik yang melibatkan fungsi Linear, Kuadratik, dan Eksponen."
+worked_examples:
+  # TP3: Tugasan Mudah (8.1.2) - Linear
+  - id: WE-01
+    topic: "Pemodelan Fungsi Linear (Penggunaan Petrol)"
+    difficulty: easy
+    tp_level: 3
+    kbat: false
+    learning_objective: "8.1.2 Menyelesaikan masalah kehidupan sebenar melalui pemodelan matematik yang melibatkan fungsi: Linear"
+    real_world_analogy: "Bayangkan tangki petrol kereta seperti bateri telefon bimbit; semakin jauh anda menggunakannya (jarak), semakin banyak 'cas' (petrol) yang berkurangan pada kadar yang tetap."
+    misconception_alert: "Murid sering lupa untuk mencari nilai pemalar 'k' terlebih dahulu sebelum menyelesaikan masalah bagi jarak yang baharu."
+    scenario: "Amin menggunakan 45 liter petrol untuk bergerak sejauh 405 km. Modelkan situasi ini sebagai fungsi linear $y = kx$ dan tentukan jumlah petrol yang diperlukan untuk perjalanan sejauh 198 km."
+    working: |
+      1. Kenal pasti pemboleh ubah: Katakan $x$ ialah jarak (km) dan $y$ ialah petrol yang diperlukan (liter).
+      2. Bentukkan model: $y = kx$
+      3. Gantikan nilai yang diketahui untuk mencari $k$:
+         $45 = k(405)$
+      4. Selesaikan untuk $k$:
+         $k = 45 / 405$
+         $k = 1/9$
+      5. Lengkapkan model: $y = \frac{1}{9}x$
+      6. Hitung untuk $x = 198$:
+         $y = \frac{1}{9}(198)$
+         $y = 22$
+      7. Kesimpulan: 22 liter petrol diperlukan untuk perjalanan sejauh 198 km.
+
+  # TP4: Konteks Linear Dunia Sebenar (8.1.2) - Pemodelan Kewangan
+  - id: WE-02
+    topic: "Pemodelan Kewangan (Dilema Harga Beras)"
+    difficulty: medium
+    tp_level: 4
+    kbat: true
+    learning_objective: "8.1.2 Menyelesaikan masalah kehidupan sebenar melalui pemodelan matematik yang melibatkan fungsi: Linear"
+    real_world_analogy: "Fikirkan ini seperti pesanan 'GrabFood'. Adakah diskaun makanan (beras) lebih besar daripada caj penghantaran (petrol)? Jika tidak, lebih baik beli di kedai berdekatan."
+    misconception_alert: "Perangkap 'Satu Hala'. Murid sering mengira kos petrol untuk jarak ke kedai sahaja tetapi terlupa perjalanan balik ke rumah."
+    scenario: "Pasar Raya A (2km jauh) menjual beras 10kg pada harga RM25.95. Pasar Raya B (6km jauh) menjualnya pada harga RM23.99. Kos petrol ialah RM2.08/liter dan kadar kereta ialah 17.6km/liter. Adakah berbaloi memandu ke Pasar Raya B untuk 2 kampit beras?"
+    working: |
+      1. Kira jumlah penjimatan ($S$):
+         Beza harga = $RM25.95 - RM23.99 = RM1.96$
+         $S = 2 \times RM1.96 = RM3.92$
+      2. Kira jumlah jarak untuk ke Pasar Raya B (pergi-balik):
+         $Jarak = 6 km \times 2 = 12 km$
+      3. Kira petrol yang diperlukan untuk perjalanan 12 km:
+         $Liter = 12 km / 17.6 km/liter = 0.682 liter$
+      4. Kira kos petrol ($T$):
+         $Kos = 0.682 \times RM2.08 = RM1.42$
+      5. Bandingkan Penjimatan ($S$) vs Kos Petrol ($T$):
+         $RM3.92 (S) > RM1.42 (T)$
+      6. Keputusan Akhir: Penjimatan bersih = $RM3.92 - RM1.42 = RM2.50$. Maka, adalah wajar untuk memandu ke Pasar Raya B.
+
+  # TP5: Konteks Dunia Sebenar Kuadratik (8.1.2)
+  - id: WE-03
+    topic: "Pemodelan Kuadratik (Profil Kedalaman Sungai)"
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: "8.1.2 Menyelesaikan masalah kehidupan sebenar melalui pemodelan matematik yang melibatkan fungsi: Kuadratik"
+    real_world_analogy: "Bayangkan dasar sungai seperti papan lungsur 'U-shape'. Semakin jauh anda bergerak dari tebing, semakin dalam kedalamannya sehingga sampai ke tengah sungai."
+    misconception_alert: "Pemikiran linear dalam ruang melengkung. Murid mungkin menganggap kedalaman bertambah secara malar, mengabaikan bentuk parabola dasar sungai."
+    scenario: "Seorang ahli hidrologi mengukur kedalaman sungai, $y$, pada jarak $x$ dari tebing. Menggunakan titik data (0,0), (25, 1.7), dan (30, 0), cari fungsi kuadratik $y = ax^2 + bx + c$ untuk memodelkan kedalaman tersebut."
+    working: |
+      1. Kenal pasti model: $y = ax^2 + bx + c$
+      2. Gantikan titik (0,0):
+         $0 = a(0)^2 + b(0) + c \rightarrow c = 0$
+      3. Gantikan titik (30,0) dan gunakan $c=0$:
+         $0 = a(30)^2 + b(30)$
+         $0 = 900a + 30b \rightarrow 30b = -900a \rightarrow b = -30a$
+      4. Gantikan titik (25, 1.7) dan $b = -30a$:
+         $1.7 = a(25)^2 + (-30a)(25)$
+         $1.7 = 625a - 750a$
+         $1.7 = -125a$
+         $a = -0.0136$
+      5. Selesaikan untuk $b$:
+         $b = -30(-0.0136) = 0.408$
+      6. Kesimpulan: Model tersebut ialah $y = -0.0136x^2 + 0.408x$.

@@ -1,124 +1,133 @@
 topic_id: MT5-06
-provenance: ai-generated
-
+provenance: curriculum-aligned
 questions:
-  # Learning Objective 6.1.1 (analyze)
   - id: Q1
-    text: 'Tentukan nilai sinus bagi sudut $120^\circ$ dan jelaskan bagaimana nilai ini berkaitan dengan sudut rujukan sepadan.'
-    difficulty: medium
-    learning_objective: 6.1.1
-    tp_level: 3
-    kbat: true
-    answer:
-      type: exact
-      value: '0.866'
-      working: |
-        Sudut $120^\circ$ berada dalam sukuan II. Sudut rujukan sepadan ialah $180^\circ - 120^\circ = 60^\circ$. Nilai sinus bagi $60^\circ$ ialah $0.866$. Oleh itu, sinus bagi $120^\circ$ ialah $0.866$.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: "Menentukan sudut rujukan sepadan."
-      - marks: 1
-        criteria: "Mengetahui nilai sinus bagi sudut rujukan."
-      - marks: 1
-        criteria: "Menerangkan hubungan nilai sinus dengan sudut rujukan."
-    hints:
-      - level: 1
-        text: 'Ingat bahawa sudut dalam sukuan II adalah $180^\circ - x$.'
-
-  # Learning Objective 6.1.2 (apply)
-  - id: Q2
-    text: 'Hitungkan nilai kosinus bagi sudut $240^\circ$.'
-    difficulty: medium
-    learning_objective: 6.1.2
-    tp_level: 3
-    kbat: false
-    answer:
-      type: exact
-      value: '-0.5'
-      working: |
-        Sudut $240^\circ$ berada dalam sukuan III. Sudut rujukan sepadan ialah $240^\circ - 180^\circ = 60^\circ$. Nilai kosinus bagi $60^\circ$ ialah $0.5$. Oleh kerana sudut tersebut berada dalam sukuan III, nilai kosinus adalah negatif, jadi kosinus bagi $240^\circ$ ialah $-0.5$.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menentukan sudut rujukan sepadan."
-      - marks: 1
-        criteria: "Mengira nilai kosinus berdasarkan sukuan."
-    hints:
-      - level: 1
-        text: "MISCONCEPTION ALERT: Jangan lupa bahawa kosinus adalah negatif dalam sukuan III."
-
-  # Learning Objective 6.1.3 (apply)
-  - id: Q3
-    text: 'Cari sudut dalam julat $0^\circ \leq x < 360^\circ$ jika $\tan x = -1$.'
-    difficulty: medium
-    learning_objective: 6.1.3
-    tp_level: 3
+    text: "Which of the following quadrants has a positive value for $\\tan \\theta$ but a negative value for $\\sin \\theta$?"
+    difficulty: easy
+    learning_objective: "6.1.1"
+    tp_level: 2
     kbat: false
     answer:
       type: multiple_choice
-      value: '135^\circ, 315^\circ'
-      options:
-        - '45^\circ, 225^\circ'
-        - '135^\circ, 315^\circ'
-        - '90^\circ, 270^\circ'
-        - '180^\circ, 360^\circ'
+      value: "Quadrant III"
       working: |
-        Tan $x = -1$ bermaksud sudut tersebut berada dalam sukuan II atau IV. Sudut rujukan ialah $45^\circ$. Oleh itu, sudut yang mungkin ialah $180^\circ - 45^\circ = 135^\circ$ dan $360^\circ - 45^\circ = 315^\circ$.
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: "Menentukan sudut rujukan yang betul."
-      - marks: 1
-        criteria: "Menentukan sudut dalam sukuan II dan IV."
+        Step 1: Recall the signs of trigonometric ratios in each quadrant (ASTC).
+        Step 2: In Quadrant I, all are positive.
+        Step 3: In Quadrant II, only Sine is positive.
+        Step 4: In Quadrant III, only Tangent is positive (Sine is negative).
+        Step 5: In Quadrant IV, only Cosine is positive.
+      distractors:
+        - value: "Quadrant II"
+          feedback: "In Quadrant II, Sine is positive while Tangent is negative. You might be swapping the rules for Sin and Tan!"
+        - value: "Quadrant IV"
+          feedback: "In Quadrant IV, Cosine is the only positive ratio. Remember 'Add Sugar To Coffee' to track the quadrants!"
+    marks: 1
     hints:
-      - level: 1
-        text: "Ingat bahawa tangen adalah negatif dalam sukuan II dan IV."
+      - "Try using the mnemonic 'Add Sugar To Coffee' or 'All Science Teachers Crazy' to remember the signs."
+      - "In which quadrant is the y-coordinate negative but the ratio of y/x positive?"
 
-  # Learning Objective 6.2.1 (apply)
-  - id: Q4
-    text: 'Lukis graf fungsi $y = \cos x$ bagi $0^\circ \leq x \leq 360^\circ$.'
+  - id: Q2
+    text: "Given that $\\sin \\theta = -0.866$ and $180^\\circ \\leq \\theta \\leq 270^\\circ$, determine the corresponding reference angle $\\alpha$ and the value of $\\theta$."
     difficulty: medium
-    learning_objective: 6.2.1
-    tp_level: 4
+    learning_objective: "6.1.2"
+    tp_level: 3
     kbat: false
     answer:
-      type: free_text
-      value: 'Graf sinusoidal dengan puncak pada $0^\circ$, $180^\circ$, dan $360^\circ$.'
+      type: subjective
+      value: "alpha = 60^\circ, theta = 240^\circ"
       working: |
-        Graf $y = \cos x$ bermula dari 1 pada $0^\circ$, turun ke -1 pada $180^\circ$, dan kembali ke 1 pada $360^\circ$. Bentuk graf menyerupai gelombang sinusoidal.
+        Step 1: The negative sign indicates the quadrant. The range $180^\circ$ to $270^\circ$ confirms Quadrant III.
+        Step 2: Find the reference angle $\alpha$ using the absolute value: $\\sin \\alpha = 0.866$. So, $\\alpha = 60^\circ$.
+        Step 3: In Quadrant III, the formula for the angle is $\\theta = 180^\circ + \\alpha$.
+        Step 4: Calculation: $180^\circ + 60^\circ = 240^\circ$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menentukan titik maksimum dan minimum."
+        criteria: "Correct identification of reference angle alpha as 60 degrees."
       - marks: 1
-        criteria: "Melukis bentuk sinusoidal yang betul."
+        criteria: "Correct application of the Quadrant III formula (180 + alpha)."
       - marks: 1
-        criteria: "Labelkan titik penting pada paksi x."
+        criteria: "Final value of theta is 240 degrees."
     hints:
-      - level: 1
-        text: 'Pertimbangkan bentuk asas graf kosinus dari $0^\circ$ ke $360^\circ$.'
+      - "First, ignore the negative sign to find the acute 'mini-me' angle (reference angle)."
+      - "Since the angle is in the 3rd quadrant, it has already passed the 180-degree line. How much further did it go?"
 
-  # Learning Objective 6.2.2 (create)
-  - id: Q5
-    text: 'Kaji kesan perubahan pemalar $a$ dalam fungsi $y = a\sin x$ dengan $a > 0$.'
-    difficulty: medium
-    learning_objective: 6.2.2
-    tp_level: 5
+  - id: Q3
+    text: "A robotic arm of length 15 cm is programmed to move an object from point P to point Q. If the angle $\\theta$ formed by the arm satisfies $\\cos \\theta = -0.866$ for $0^\\circ \\leq \\theta \\leq 180^\\circ$, find the value of $\\theta$ and the horizontal distance from the origin to point Q."
+    difficulty: hard
+    learning_objective: "6.1.4"
+    tp_level: 4
     kbat: true
     answer:
-      type: free_text
-      value: 'Peningkatan nilai $a$ meningkatkan amplitud graf.'
+      type: subjective
+      value: "theta = 150^\circ, Distance = 12.99 cm"
       working: |
-        Fungsi $y = a\sin x$ menunjukkan bahawa $a$ adalah amplitud fungsi. Apabila $a$ meningkat, amplitud graf juga meningkat, menyebabkan graf menegak lebih tinggi dan lebih rendah dari paksi x.
+        Step 1: $\\cos \\theta$ is negative in Quadrant II for the given range.
+        Step 2: Find reference angle $\\alpha = \\cos^{-1}(0.866) = 30^\circ$.
+        Step 3: $\\theta = 180^\circ - 30^\circ = 150^\circ$.
+        Step 4: Horizontal distance (x-coordinate) = $15 \\times \\cos(30^\circ)$ or $15 \\times |-0.866|$.
+        Step 5: Distance = $12.99$ cm.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Find reference angle 30 degrees."
+      - marks: 1
+        criteria: "Determine theta as 150 degrees."
+      - marks: 2
+        criteria: "Calculate horizontal distance using cosine ratio correctly."
+    hints:
+      - "Check Example 8 in your textbook; the horizontal distance relates to the adjacent side of the triangle formed by the arm."
+      - "The cosine value given is the ratio of the horizontal distance to the length of the arm."
+
+  - id: Q4
+    text: "The graph of a trigonometric function is defined by $y = 3 \\sin 2x + 1$ for $0^\\circ \\leq x \\leq 360^\\circ$. State the amplitude, the period of the function, and the maximum value of $y$."
+    difficulty: medium
+    learning_objective: "6.2.2"
+    tp_level: 5
+    kbat: false
+    answer:
+      type: subjective
+      value: "Amplitude = 3, Period = 180^\circ, Max = 4"
+      working: |
+        Step 1: Identify constants from $y = a \\sin bx + c$: $a=3, b=2, c=1$.
+        Step 2: Amplitude is $|a|$, so Amplitude = 3.
+        Step 3: Period for sine is $360^\circ / b = 360^\circ / 2 = 180^\circ$.
+        Step 4: Max value is $a + c = 3 + 1 = 4$.
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Mengenalpasti peranan $a$ dalam persamaan."
+        criteria: "Correct amplitude."
       - marks: 1
-        criteria: "Menjelaskan hubungan antara $a$ dan amplitud."
+        criteria: "Correct period calculation."
       - marks: 1
-        criteria: "Memberikan contoh perubahan graf dengan nilai $a$ yang berbeza."
+        criteria: "Correct maximum value calculation."
     hints:
-      - level: 1
-        text: "MISCONCEPTION ALERT: Jangan keliru antara amplitud dan frekuensi."
+      - "The constant 'a' stretches the wave vertically, while 'b' squashes it horizontally."
+      - "Don't forget that the '+1' (constant c) acts like an elevator moving the whole wave up!"
+
+  - id: Q5
+    text: "The depth of water, $y$ meters, in a port is modeled by $y = 2 \\cos(15x) + 5$, where $x$ is the number of hours after midnight. At what time(s) during the first 24 hours is the water at its shallowest point?"
+    difficulty: hard
+    learning_objective: "6.2.3"
+    tp_level: 6
+    kbat: true
+    answer:
+      type: subjective
+      value: "12:00 PM (12 hours after midnight)"
+      working: |
+        Step 1: Shallowest point occurs when the cosine function is at its minimum.
+        Step 2: Minimum of $\\cos(15x)$ is -1.
+        Step 3: Solve $\\cos(15x) = -1$ for $x$.
+        Step 4: $15x = 180^\\circ$.
+        Step 5: $x = 180 / 15 = 12$ hours.
+    marks: 4
+    rubric:
+      - marks: 1
+        criteria: "Realize the shallowest point is the minimum value of the graph."
+      - marks: 1
+        criteria: "Set the trig part of the equation to -1."
+      - marks: 2
+        criteria: "Solve for x correctly to get 12 hours."
+    hints:
+      - "Think about the shape of a cosine graph. Where is the lowest 'valley' of the wave?"
+      - "For the function to be at its minimum, the cosine term must equal -1. Solve for x when $15x = 180$."

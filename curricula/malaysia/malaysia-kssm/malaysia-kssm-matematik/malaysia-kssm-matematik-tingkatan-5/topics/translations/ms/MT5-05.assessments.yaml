@@ -1,0 +1,133 @@
+topic_id: MT5-05
+provenance: official-dskp-aligned
+questions:
+  ### Standard Pembelajaran: 5.1.1 (analyze) - TP1/2
+  - id: Q1
+    text: "Antara syarat berikut, yang manakah PERLU bagi dua poligon untuk dianggap kongruen?"
+    difficulty: easy
+    learning_objective: 5.1.1
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Sisi sepadan dan sudut sepadan mestilah sama."
+      working: |
+        Mengikut takrifan, kekongruenan memerlukan bentuk dan saiz yang identikal.
+        Langkah 1: Semak jika semua sisi sepadan adalah sama.
+        Langkah 2: Semak jika semua sudut sepadan adalah sama.
+        Kesimpulan: Jika kedua-duanya dipenuhi, bentuk tersebut adalah kongruen.
+      distractors:
+        - value: "Hanya sudut sepadan sahaja perlu sama."
+          feedback: "Ini mentakrifkan keserupaan, bukan kekongruenan. Untuk kekongruenan, saiz (sisi) juga mesti sama tepat."
+        - value: "Hanya sisi sepadan sahaja perlu sama."
+          feedback: "Walaupun sisi sama, jika sudut berbeza, bentuk tersebut tidak identikal. Kedua-duanya mesti sama."
+        - value: "Luas kedua-dua bentuk mestilah sama."
+          feedback: "Dua bentuk boleh mempunyai luas yang sama (cth: segi empat sama dan segi empat tepat) tetapi bentuk berbeza. Ia tidak semestinya kongruen."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Rujuk 'Mobilisasi Minda 1' pada muka surat 124. Apa yang berlaku apabila sisi empat biru digerakkan untuk bertindih dengan ABCD?"
+
+  ### Standard Pembelajaran: 5.1.2 (create) - TP3
+  - id: Q2
+    text: "Kenal pasti kriteria kekongruenan segi tiga yang ditunjukkan: Dua segi tiga mempunyai dua sisi sepadan yang sama panjang dan saiz sudut sepadan yang tercangkum di antara dua sisi tersebut adalah sama."
+    difficulty: medium
+    learning_objective: 5.1.2
+    tp_level: 3
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: "Sisi-Sudut-Sisi (SAS)"
+      working: |
+        Langkah 1: Kenal pasti komponen yang diberi.
+        Langkah 2: Dua sisi (S) dan satu sudut (A) di antaranya.
+        Langkah 3: Ini memadankan kriteria Sisi-Sudut-Sisi (SAS).
+      distractors:
+        - value: "Sisi-Sisi-Sisi (SSS)"
+          feedback: "SSS memerlukan ketiga-tiga sisi sama, tetapi soalan ini menyebut tentang sudut."
+        - value: "Sudut-Sisi-Sudut (ASA)"
+          feedback: "ASA memerlukan dua sudut dan satu sisi di antaranya. Di sini kita ada dua sisi dan satu sudut."
+        - value: "Sudut-Sudut-Sisi (AAS)"
+          feedback: "AAS melibatkan dua sudut dan satu sisi yang tidak terletak di antaranya."
+    marks: 1
+    hints:
+      - level: 1
+        text: "Lihat urutan yang disebut: Sisi, kemudian Sudut di antaranya, kemudian satu lagi Sisi."
+
+  ### Standard Pembelajaran: 5.2.4 (create) - TP4
+  - id: Q3
+    text: "Satu objek dengan luas $15 \text{ cm}^2$ diperbesarkan dengan faktor skala $k = 3$. Hitung luas imej, dalam $\text{ cm}^2$."
+    difficulty: medium
+    learning_objective: 5.2.4
+    tp_level: 4
+    kbat: false
+    answer:
+      type: exact
+      value: "135"
+      working: |
+        Rumus: $\text{Luas imej} = k^2 \times \text{Luas objek}$
+        Langkah 1: Kenal pasti $k = 3$ dan $Luas_{objek} = 15$.
+        Langkah 2: Hitung $k^2 = 3^2 = 9$.
+        Langkah 3: $Luas_{imej} = 9 \times 15 = 135 \text{ cm}^2$.
+    marks: 2
+    rubric:
+      - marks: 1
+        criteria: "Mengenal pasti $k^2$ sebagai 9 dengan betul."
+      - marks: 1
+        criteria: "Jawapan akhir 135 dengan unit yang betul."
+    hints:
+      - level: 1
+        text: "Hubungan antara luas dan faktor skala BUKAN linear. Ingat peraturan $k^2$ dari muka surat 146!"
+
+  ### Standard Pembelajaran: 5.3.4 (apply) - TP5
+  - id: Q4
+    text: "Titik $P(2, 3)$ melalui gabungan transformasi $AB$. $B$ ialah translasi $\begin{pmatrix} 1 \\ -2 \end{pmatrix}$ dan $A$ ialah pantulan pada paksi-x. Nyatakan koordinat akhir bagi imej $P''$."
+    difficulty: hard
+    learning_objective: 5.3.4
+    tp_level: 5
+    kbat: true
+    answer:
+      type: exact
+      value: "(3, -1)"
+      working: |
+        Gabungan transformasi AB bermaksud transformasi B berlaku dahulu, diikuti oleh A.
+        Langkah 1 (Transformasi B): $(2, 3) \rightarrow (2+1, 3-2) = (3, 1)$.
+        Langkah 2 (Transformasi A): Pantulan $(3, 1)$ pada paksi-x $\rightarrow (3, -1)$.
+        Imej Akhir: $(3, -1)$.
+    marks: 3
+    rubric:
+      - marks: 1
+        criteria: "Melaksanakan Transformasi B dahulu untuk mendapatkan (3, 1)."
+      - marks: 1
+        criteria: "Logik pantulan yang betul (menukarkan tanda koordinat-y)."
+      - marks: 1
+        criteria: "Koordinat akhir (3, -1)."
+    hints:
+      - level: 1
+        text: "AWAS Perangkap Abjad Terbalik! Transformasi mana yang anda perlu buat dahulu dalam 'AB'?"
+      - level: 2
+        text: "Pantulan pada paksi-x hanya mengubah tanda koordinat-y sahaja."
+
+  ### Standard Pembelajaran: 5.4.2 (create) - TP6
+  - id: Q5
+    text: "Reka satu teselasi menggunakan satu segi tiga sama kaki. Perihalkan transformasi isometri yang digunakan untuk memastikan tiada ruang kosong atau pertindihan."
+    difficulty: hard
+    learning_objective: 5.4.2
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "Teselasi ini menggunakan putaran dan translasi. Dua segi tiga diputarkan $180^{\circ}$ untuk membentuk rombus, yang kemudiannya melalui proses translasi."
+      working: |
+        Langkah 1: Ambil satu segi tiga sama kaki.
+        Langkah 2: Lakukan putaran $180^{\circ}$ pada titik tengah salah satu sisi untuk membentuk selari jangjang atau rombus.
+        Langkah 3: Ulangi translasi bagi bentuk gabungan ini untuk menutup satah.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Mengenal pasti transformasi isometri yang betul (Putaran/Translasi/Pantulan)."
+      - marks: 2
+        criteria: "Penerangan logik yang menunjukkan tiada ruang kosong atau pertindihan berlaku."
+    hints:
+      - level: 1
+        text: "Rujuk muka surat 163. Bolehkah anda putarkan segi tiga tersebut supaya ia bercantum sempurna dengan 'kembarnya'?"

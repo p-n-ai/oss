@@ -1,0 +1,59 @@
+topic_id: MT5-02
+worked_examples:
+  - id: WE-01
+    topic: "Mewakilkan Maklumat dalam Bentuk Matriks"
+    difficulty: easy
+    tp_level: 2
+    learning_objective: "2.1.1: Mewakilkan maklumat situasi sebenar dalam bentuk matriks."
+    real_world_analogy: "Bayangkan matriks seperti dulang kotak coklat. Setiap ruang ada tempat khas untuk perisa tertentu, dan seluruh dulang disusun mengikut baris dan lajur supaya kilang tahu apa di dalamnya."
+    misconception_alert: "Perangkap 'B-L'! Pelajar selalu keliru antara baris (mengufuk) dan lajur (menegak). Sentiasa ingat 'Baris dulu, Lajur kemudian' (B-L)."
+    scenario: "Koperasi sekolah menjual dua jenis pen: Biru dan Hitam. Pada hari Isnin, mereka menjual 15 pen Biru dan 10 pen Hitam. Pada hari Selasa, mereka menjual 12 pen Biru dan 18 pen Hitam. Wakilkan data jualan ini dalam matriks di mana baris mewakili hari."
+    working: |
+      Langkah 1: Kenal pasti pemboleh ubah. Kita ada dua hari (Isnin, Selasa) dan dua item (Biru, Hitam).
+      Langkah 2: Tetapkan baris sebagai Hari dan lajur sebagai Warna Pen.
+      Langkah 3: Susun data Isnin dalam baris pertama.
+      Langkah 4: Susun data Selasa dalam baris kedua.
+      Langkah 5: Letakkan nombor dalam kurungan untuk membentuk matriks akhir:
+      $\begin{bmatrix} 15 & 10 \\ 12 & 18 \end{bmatrix}$
+
+  - id: WE-02
+    topic: "Pendaraban Dua Matriks"
+    difficulty: medium
+    tp_level: 3
+    learning_objective: "2.2.3: Mendarab dua matriks."
+    real_world_analogy: "Bayangkan 'Bentuk-7'. Baris pertama 'berenang' mendatar, kemudian 'terjun' ke bawah mengikut lajur."
+    misconception_alert: "Jangan darab nombor pada posisi yang sama macam operasi tambah! Matriks ada peraturan darab tersendiri."
+    scenario: "Hitung hasil darab $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \begin{bmatrix} 5 \\ 6 \end{bmatrix}$."
+    working: |
+      Langkah 1: Semak peringkat. $(2 \times 2)$ darab $(2 \times 1)$. Angka dalam sama (2), maka boleh darab.
+      Langkah 2: Baris 1 darab Lajur 1: $(1 \times 5) + (2 \times 6) = 5 + 12 = 17$.
+      Langkah 3: Baris 2 darab Lajur 1: $(3 \times 5) + (4 \times 6) = 15 + 24 = 39$.
+      Langkah 4: Susun jawapan akhir: $\begin{bmatrix} 17 \\ 39 \end{bmatrix}$.
+
+  - id: WE-03
+    topic: "Menyelesaikan Persamaan Linear Serentak menggunakan Matriks"
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: "2.2.6: Menggunakan kaedah matriks untuk menyelesaikan persamaan linear serentak."
+    real_world_analogy: "'Kunci Ajaib'. Matriks $A$ adalah 'mangga' pada pemboleh ubah kita $x$ dan $y$. Untuk membukanya, kita cari Matriks Songsang $A^{-1}$, yang bertindak sebagai 'kunci' untuk menyelesaikan misteri di sebelah sana."
+    misconception_alert: "Perangkap 'Penentu Sifar'! Sentiasa semak penentu $(ad - bc)$ dahulu. Jika ia adalah 0, 'mangga' telah rosak dan tiada penyelesaian unik wujud (Matriks Singular)."
+    scenario: "Di sebuah warung tempatan, harga bagi 2 Nasi Lemak dan 1 Teh Tarik ialah RM7. Harga bagi 1 Nasi Lemak dan 3 Teh Tarik ialah RM6. Selesaikan harga untuk satu Nasi Lemak ($x$) dan satu Teh Tarik ($y$) menggunakan kaedah matriks."
+    working: |
+      Langkah 1: Bentukkan persamaan linear:
+      $2x + 1y = 7$
+      $1x + 3y = 6$
+      Langkah 2: Tukar kepada bentuk matriks $AX = B$:
+      $\begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 7 \\ 6 \end{bmatrix}$
+      Langkah 3: Cari penentu A: $(2 \times 3) - (1 \times 1) = 6 - 1 = 5$.
+      Langkah 4: Cari songsang $A^{-1}$:
+      $A^{-1} = \frac{1}{5} \begin{bmatrix} 3 & -1 \\ -1 & 2 \end{bmatrix}$
+      Langkah 5: Selesaikan $X$ menggunakan $X = A^{-1}B$:
+      $\begin{bmatrix} x \\ y \end{bmatrix} = \frac{1}{5} \begin{bmatrix} 3 & -1 \\ -1 & 2 \end{bmatrix} \begin{bmatrix} 7 \\ 6 \end{bmatrix}$
+      Langkah 6: Darabkan matriks:
+      Baris 1: $(3 \times 7) + (-1 \times 6) = 21 - 6 = 15$
+      Baris 2: $(-1 \times 7) + (2 \times 6) = -7 + 12 = 5$
+      Langkah 7: Darabkan dengan skalar $1/5$:
+      $x = 15/5 = 3$
+      $y = 5/5 = 1$
+      Langkah 8: Kesimpulan: Harga satu Nasi Lemak ialah RM3.00 dan satu Teh Tarik ialah RM1.00.

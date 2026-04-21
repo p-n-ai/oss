@@ -1,0 +1,84 @@
+topic_id: MT5-06
+provenance: curriculum-aligned
+description: "Contoh kerja langkah demi langkah untuk Nisbah dan Graf Fungsi Trigonometri berdasarkan KSSM Matematik Tingkatan 5."
+worked_examples:
+  - id: WE-01
+    topic: "Nisbah Trigonometri dalam Sukuan II, III, dan IV"
+    difficulty: easy
+    tp_level: 2
+    kbat: false
+    learning_objective: "6.1.2"
+    real_world_analogy: "Cermin 'Bow-Tie'. Bayangkan paksi-x ialah cermin. Sudut dalam sukuan ke-2 atau ke-3 hanyalah pantulan daripada 'mini-me' (sudut rujukan) yang memeluk permukaan cermin tersebut."
+    misconception_alert: "Perangkap 'Peluk Paksi-Y'! Pelajar selalu kira sudut rujukan dari paksi menegak (y). Ingat: Sudut rujukan MESTI sentiasa diukur dari paksi mengufuk (x)!"
+    scenario: "Tentukan nilai bagi $\\cos 210^\\circ$ tanpa menggunakan kalkulator, berikan jawapan dalam bentuk surd."
+    working: |
+      1. Kenal pasti sukuan: $210^\circ$ berada di antara $180^\circ$ dan $270^\circ$, maka ia berada dalam **Sukuan III**.
+      2. Guna aturan 'Semua Saya Tahu Kira': Dalam Sukuan III, hanya Tangen yang positif. Maka, nilai $\cos 210^\circ$ mestilah **negatif**.
+      3. Cari sudut rujukan sepadan $\alpha$:
+         $\alpha = 210^\circ - 180^\circ$
+         $\alpha = 30^\circ$
+      4. Hubungkan dengan sudut rujukan: $\cos 210^\circ = -\cos 30^\circ$.
+      5. Guna nilai sudut istimewa: $\cos 30^\circ = \frac{\sqrt{3}}{2}$.
+      6. Jawapan Akhir: $\cos 210^\circ = -\frac{\sqrt{3}}{2}$.
+
+  - id: WE-02
+    topic: "Melakar Graf Fungsi Trigonometri"
+    difficulty: medium
+    tp_level: 3
+    kbat: false
+    learning_objective: "6.2.1"
+    real_world_analogy: "Dinding Misteri (Asimptot). Bayangkan graf Tangen macam kereta yang cuba langgar dinding kat $90^\circ$. Dia boleh naik tinggi gila, tapi dia takkan pernah dapat sentuh atau lintas dinding tu!"
+    misconception_alert: "Kesalahan 'Gelombang Tajam'. Jangan lukis gelombang Sinus dan Kosinus macam segi tiga yang tajam. Ia mestilah lengkung 'S' yang licin dan membulat."
+    scenario: "Lakarkan graf $y = \\sin x$ untuk julat $0^\\circ \\leq x \\leq 360^\\circ$."
+    working: |
+      1. Bina jadual koordinat untuk lima titik utama:
+         Pada $x = 0^\circ, y = \sin 0^\circ = 0$
+         Pada $x = 90^\circ, y = \sin 90^\circ = 1$ (Maksimum)
+         Pada $x = 180^\circ, y = \sin 180^\circ = 0$
+         Pada $x = 270^\circ, y = \sin 270^\circ = -1$ (Minimum)
+         Pada $x = 360^\circ, y = \sin 360^\circ = 0$
+      2. Lukis paksi: Label paksi-y dari -1 ke 1 dan paksi-x dengan selang 90 darjah.
+      3. Plotkan lima titik utama tersebut pada satah.
+      4. Sambungkan titik: Lukis satu gelombang licin bermula dari asalan, naik ke puncak di $90^\circ$, memintas di $180^\circ$, turun ke lembah di $270^\circ$, dan berakhir di $360^\circ$.
+
+  - id: WE-03
+    topic: "Kesan Pemalar a, b, dan c terhadap Graf"
+    difficulty: hard
+    tp_level: 5
+    kbat: true
+    learning_objective: "6.2.2"
+    real_world_analogy: "Sistem Radio AM/FM. Parameter 'a' ialah Volume (Amplitud), 'b' ialah Kelajuan/Frekuensi (Tempoh), dan 'c' ialah Lif (Anjakan Menegak)."
+    misconception_alert: "Perangkap 'Nilai-b Tempoh'! Nilai 'b' yang besar TIDAK bermaksud graf jadi lagi panjang. Ia bermaksud graf itu 'diperah' atau dimampatkan! Tempoh = $360^\\circ / b$."
+    scenario: "Huraikan transformasi dan nyatakan tempoh serta amplitud baharu bagi fungsi $y = 3 \\cos 2x - 1$."
+    working: |
+      1. Bandingkan dengan bentuk am $y = a \\cos bx + c$.
+      2. Kenal pasti $a = 3$: **Amplitud** ialah 3. Graf diregangkan secara menegak (naik lagi tinggi, turun lagi rendah).
+      3. Kenal pasti $b = 2$: Tempoh berubah.
+         Tempoh baharu = $360^\circ / b = 360^\circ / 2 = 180^\circ$.
+         Ini bermaksud dua kitaran lengkap berlaku dalam ruang $360^\circ$.
+      4. Kenal pasti $c = -1$: Keseluruhan graf dianjur **1 unit ke bawah**.
+      5. Tentukan Maksimum dan Minimum baharu:
+         Maks = $a + c = 3 + (-1) = 2$
+         Min = $-a + c = -3 + (-1) = -4$
+
+  - id: WE-04
+    topic: "Penyelesaian Masalah Dunia Nyata (Ombak Pasang Surut)"
+    difficulty: hard
+    tp_level: 6
+    kbat: true
+    learning_objective: "6.2.3"
+    real_world_analogy: "Pasang Surut Langkawi. Macam jam yang berpusing setiap 12 jam, kedalaman air laut kat jeti pun naik dan turun ikut gelombang matematik yang sempurna."
+    misconception_alert: "Lupa nilai 'c' dalam model. Dalam dunia nyata, kedalaman laut takkan jadi 0 kat garis tengah; nilai '+ c' mewakili kedalaman purata air tersebut."
+    scenario: "Kedalaman air di sebuah stesen ombak di Pulau Langkawi dimodelkan oleh $y = 3 \\sin(30x) + 5$, dengan $x$ ialah bilangan jam selepas tengah malam. Cari kedalaman air pada pukul 2:00 pagi."
+    working: |
+      1. Fahami pemboleh ubah: $x$ mewakili masa. Pada pukul 2:00 pagi, $x = 2$.
+      2. Masukkan $x = 2$ ke dalam fungsi:
+         $y = 3 \\sin(30 \\times 2) + 5$
+      3. Kira sudut di dalam fungsi sinus:
+         $30 \\times 2 = 60^\circ$
+      4. Cari nilai sinus: $\\sin 60^\circ \\approx 0.866$.
+      5. Darab dengan amplitud $a$:
+         $3 \\times 0.866 = 2.598$
+      6. Tambah dengan anjakan menegak $c$:
+         $2.598 + 5 = 7.598$
+      7. Jawapan Akhir: Kedalaman air ialah kira-kira **7.60 meter**.

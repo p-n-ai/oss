@@ -1,0 +1,104 @@
+topic_id: MT5-01
+provenance: ai-assisted
+description: "Menguasai topik ubahan melalui senario dunia sebenar di Malaysia dan logik langkah demi langkah."
+worked_examples:
+  - id: WE-01
+    topic: "Ubahan Langsung"
+    difficulty: easy
+    tp_level: 3
+    kbat: false
+    learning_objective: "1.1.2"
+    real_world_analogy: "Bayangkan kedai mamak. Jika sekeping roti canai berharga pada kadar tetap yang sama setiap kali, maka jumlah harga akan meningkat pada kadar malar apabila bilangan keping bertambah."
+    misconception_alert: "Perangkap 'Bukan-dari-Kosong'. Graf yang menaik tidak semestinya ubahan langsung. Graf itu mesti melalui asalan, jadi tambang teksi yang ada caj permulaan bukan ubahan langsung."
+    scenario: "Gaji seorang pekerja, $S$, berubah secara langsung dengan bilangan jam bekerja, $t$. Jika dia menerima RM112 untuk 14 jam bekerja, hitung gajinya untuk 20 jam."
+    working: |
+      Langkah 1: Tulis hubungan ubahan dalam bentuk persamaan:
+      $S = kt$.
+      Langkah 2: Ikut Protokol K dan cari pemalar ubahan dahulu.
+      Langkah 3: Gantikan $S = 112$ dan $t = 14$:
+      $112 = 14k$.
+      Langkah 4: Selesaikan untuk $k$:
+      $k = 112/14 = 8$.
+      Langkah 5: Bentuk persamaan lengkap:
+      $S = 8t$.
+      Langkah 6: Gantikan nilai baharu $t = 20$:
+      $S = 8(20)$.
+      Langkah 7: Jawapan akhir:
+      $S = RM160$.
+
+  - id: WE-02
+    topic: "Ubahan Tercantum"
+    difficulty: medium
+    tp_level: 4
+    kbat: false
+    learning_objective: "1.1.3"
+    real_world_analogy: "Bayangkan satu math party. Jumlah keseronokan bergantung pada bilangan kawan dan juga jumlah makanan. Jika kedua-duanya bertambah serentak, kesannya jadi lebih besar dengan cepat."
+    misconception_alert: "Kesilapan 'Lupa k'. Pelajar selalu tulis $y = xz$ dan terlupa pemalar ubahan. Ubahan sentiasa perlukan jambatan $k$ untuk menukarkan hubungan kepada persamaan."
+    scenario: "Tenaga keupayaan graviti, $E$, bagi suatu objek berubah secara tercantum dengan jisimnya, $m$, pecutan graviti, $g$, dan ketinggiannya, $h$. Diberi bahawa $E = 197$ J apabila $m = 4$ kg, $g = 9.81$ m s$^{-2}$ dan $h = 5$ m, cari persamaan yang menghubungkan pemboleh ubah tersebut."
+    working: |
+      Langkah 1: Tulis hubungan ubahan tercantum:
+      $E \propto mgh$.
+      Langkah 2: Perkenalkan pemalar ubahan:
+      $E = kmgh$.
+      Langkah 3: Ikut Protokol K menggunakan nilai yang diberi:
+      $197 = k(4)(9.81)(5)$.
+      Langkah 4: Ringkaskan hasil darab:
+      $197 = 196.2k$.
+      Langkah 5: Selesaikan untuk $k$:
+      $k = 197/196.2 \approx 1$.
+      Langkah 6: Tulis persamaan akhir:
+      $E = mgh$.
+
+  - id: WE-03
+    topic: "Ubahan Songsang"
+    difficulty: medium
+    tp_level: 4
+    kbat: false
+    learning_objective: "1.2.3"
+    real_world_analogy: "Fikirkan tentang jongkang-jongket. Untuk mengimbangkan kawan yang lebih berat, jarak dari paksi perlu berubah secara bertentangan. Satu kuantiti naik, satu lagi turun."
+    misconception_alert: "Perangkap 'Garis Lurus'. Ubahan songsang tidak menghasilkan garis lurus berkecerunan negatif. Ia menghasilkan lengkung, dan hasil darab pemboleh ubah kekal malar."
+    scenario: "Menurut Hukum Boyle, tekanan, $P$, bagi suatu gas adalah berkadar songsang dengan isi padu, $V$. Satu gas mempunyai isi padu $80$ cm$^3$ dan tekanan $190.25$ kPa. Hitung isi padu apabila tekanan berubah kepada $121.76$ kPa."
+    working: |
+      Langkah 1: Tulis hubungan ubahan songsang:
+      $P \propto \frac{1}{V}$.
+      Langkah 2: Tukarkan kepada bentuk persamaan:
+      $P = \frac{k}{V}$.
+      Langkah 3: Ikut Protokol K dan cari $k$ dahulu:
+      $k = PV$.
+      Langkah 4: Gantikan nilai awal:
+      $k = 190.25 \times 80$.
+      Langkah 5: Kira pemalar:
+      $k = 15220$.
+      Langkah 6: Gunakan tekanan baharu:
+      $121.76 = \frac{15220}{V}$.
+      Langkah 7: Selesaikan untuk $V$:
+      $V = 15220/121.76 = 125$.
+      Langkah 8: Jawapan akhir:
+      $V = 125$ cm$^3$.
+
+  - id: WE-04
+    topic: "Ubahan Bergabung"
+    difficulty: hard
+    tp_level: 6
+    kbat: true
+    learning_objective: "1.3.2"
+    real_world_analogy: "Bayangkan sistem gear basikal. Kelajuan bergantung secara langsung pada seberapa laju anda mengayuh, tetapi secara songsang pada faktor rintangan tertentu. Kawan langsung duduk di atas; kawan songsang duduk di bawah."
+    misconception_alert: "Kesilapan 'Semua-di-Atas'. Dalam ubahan bergabung, pemboleh ubah langsung berada di pengangka, tetapi pemboleh ubah songsang mesti berada di penyebut."
+    scenario: "Tekanan, $p$, pada tayar kereta sorong berubah secara langsung dengan jisim kereta sorong, $m$, dan secara songsang dengan luas permukaan tayar yang menyentuh tanah, $A$. Diberi bahawa $p = 45000$ apabila $m = 90$ dan $A = 0.02$, cari tekanan baharu apabila $m = 120$ dan $A = 0.05$."
+    working: |
+      Langkah 1: Tulis persamaan ubahan bergabung:
+      $p = \frac{km}{A}$.
+      Langkah 2: Ikut Protokol K dan selesaikan untuk $k$ dahulu.
+      Langkah 3: Gantikan nilai yang diberi:
+      $45000 = \frac{k(90)}{0.02}$.
+      Langkah 4: Darab kedua-dua belah dengan $0.02$:
+      $900 = 90k$.
+      Langkah 5: Selesaikan untuk $k$:
+      $k = 10$.
+      Langkah 6: Gantikan nilai baharu $m = 120$ dan $A = 0.05$:
+      $p = \frac{10(120)}{0.05}$.
+      Langkah 7: Ringkaskan:
+      $p = 1200/0.05 = 24000$.
+      Langkah 8: Jawapan akhir:
+      $p = 24000$ N m$^{-2}$.
+      Kesimpulan: Pertambahan luas sentuhan berjaya mengurangkan tekanan.

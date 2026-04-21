@@ -1,0 +1,95 @@
+id: MT5-07
+official_ref: "7.0"
+name: "Sukatan Serakan bagi Data Terkumpul"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-5
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: advanced
+tier: core
+sync_checked: true
+
+content_standards:
+  - id: "7.1"
+    text: "Serakan"
+  - id: "7.2"
+    text: "Sukatan Serakan"
+
+learning_objectives:
+  - id: "7.1.1"
+    text: "Membina histogram dan poligon frekuensi bagi satu set data terkumpul."
+    bloom: apply
+  - id: "7.1.2"
+    text: "Membandingbezakan dan mentafsir serakan dua atau lebih set data terkumpul berdasarkan histogram dan poligon frekuensi, seterusnya membuat kesimpulan."
+    bloom: analyze
+  - id: "7.1.3"
+    text: "Membina ogif bagi satu set data terkumpul dan menentukan kuartil."
+    bloom: apply
+  - id: "7.2.1"
+    text: "Menentukan julat, julat antara kuartil, varians dan sisihan piawai sebagai sukatan untuk menerangkan serakan bagi data terkumpul."
+    bloom: apply
+  - id: "7.2.2"
+    text: "Membina dan mentafsir plot kotak bagi satu set data terkumpul."
+    bloom: apply
+  - id: "7.2.3"
+    text: "Membandingbezakan dan mentafsir dua atau lebih set data terkumpul berdasarkan sukatan serakan, seterusnya membuat kesimpulan."
+    bloom: analyze
+  - id: "7.2.4"
+    text: "Menyelesaikan masalah yang melibatkan sukatan serakan bagi data terkumpul."
+    bloom: apply
+  - id: "7.2.5"
+    text: "Mereka bentuk dan menjalankan projek mini yang melibatkan siasatan statistik berdasarkan sukatan memusat dan sukatan serakan, seterusnya mentafsir dan menyampaikan dapatan kajian."
+    bloom: create
+
+performance_standards:
+  - tp_level: 1
+    descriptor: "Menunjukkan pengetahuan asas tentang serakan dan sukatan serakan bagi data terkumpul."
+  - tp_level: 2
+    descriptor: "Menunjukkan kefahaman tentang serakan dan sukatan serakan bagi data terkumpul."
+  - tp_level: 3
+    descriptor: "Mengaplikasikan kefahaman tentang serakan dan sukatan serakan bagi data terkumpul untuk melaksanakan tugasan mudah."
+  - tp_level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang sukatan serakan bagi data terkumpul dalam konteks penyelesaian masalah rutin yang mudah."
+  - tp_level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang sukatan serakan bagi data terkumpul dalam konteks penyelesaian masalah rutin yang kompleks."
+  - tp_level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang sukatan serakan bagi data terkumpul dalam konteks penyelesaian masalah bukan rutin secara kreatif."
+
+prerequisites:
+  required:
+    - "Sukatan Serakan bagi Data Tak Terkumpul (Tingkatan 4 Bab 8)"
+    - "Sukatan Memusat (Tingkatan 2 Bab 12)"
+    - "Pembinaan Jadual Kekerapan"
+
+teaching:
+  sequence:
+    - "Langkah 1: Mengorganisasikan data mentah ke dalam jadual kekerapan dan mengenal pasti selang kelas, had kelas, dan sempadan kelas (Buku Teks ms. 198-200)."
+    - "Langkah 2: Membina dan mentafsir Histogram dan Poligon Frekuensi untuk memvisualisasikan taburan data (Standard Pembelajaran 7.1.1, 7.1.2)."
+    - "Langkah 3: Memplot Ogif dan menggunakannya untuk menentukan kekerapan terkumpul, kuartil, dan persentil (Standard Pembelajaran 7.1.3)."
+    - "Langkah 4: Mengira sukatan berangka serakan: Julat, Julat Antara Kuartil, Varians, dan Sisihan Piawai (Standard Pembelajaran 7.2.1)."
+    - "Langkah 5: Membina Plot Kotak dan membandingkan pelbagai set data (Standard Pembelajaran 7.2.2, 7.2.3)."
+    - "Langkah 6: Menyelesaikan masalah dan menjalankan projek mini statistik (Standard Pembelajaran 7.2.4, 7.2.5)."
+  
+  common_misconceptions:
+    - misconception: "Mengelirukan had kelas dengan sempadan kelas semasa pembinaan graf."
+      remediation: "Tunjukkan secara eksplisit bahawa sempadan kelas (titik tengah antara had) digunakan untuk bar yang bersebelahan dalam histogram."
+    - misconception: "Menganggap julat adalah sukatan serakan yang paling boleh dipercayai."
+      remediation: "Bandingkan julat dengan sisihan piawai menggunakan data yang mempunyai nilai terpencil untuk menunjukkan sensitiviti."
+    - misconception: "Memplotkan kekerapan terkumpul berbanding nilai tengah kelas dan bukannya sempadan atas untuk ogif."
+      remediation: "Tekankan bahawa ogif mewakili data 'sehingga' satu titik tertentu, maka sempadan atas mesti digunakan."
+
+  engagement_hooks:
+    - "Menganalisis data kes harian Covid-19 dunia nyata untuk memahami bagaimana 'meratakan keluk' berkait dengan sukatan serakan."
+    - "Membandingkan ketekalan dua jenama bateri yang berbeza melalui analisis sisihan piawai."
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+ai_teaching_notes: "MT5-07.teaching.md"
+assessments_file: "MT5-07.assessments.yaml"
+examples_file: "MT5-07.examples.yaml"

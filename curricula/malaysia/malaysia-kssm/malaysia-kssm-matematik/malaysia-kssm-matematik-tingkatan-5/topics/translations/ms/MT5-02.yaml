@@ -1,0 +1,110 @@
+id: MT5-02
+official_ref: "2.0"
+name: "Matriks"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-5
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+difficulty: intermediate
+tier: core
+
+content_standards:
+  - id: "2.1"
+    text: "Matriks"
+  - id: "2.2"
+    text: "Operasi Asas Matriks"
+
+learning_objectives:
+  - id: 2.1.1
+    text: "Mewakilkan maklumat situasi sebenar dalam bentuk matriks."
+    bloom: apply
+  - id: 2.1.2
+    text: "Menentukan peringkat matriks dan seterusnya mengenal pasti unsur tertentu dalam suatu matriks."
+    bloom: apply
+  - id: 2.1.3
+    text: "Menentukan sama ada dua matriks adalah sama."
+    bloom: apply
+  - id: 2.2.1
+    text: "Menambah dan menolak matriks."
+    bloom: apply
+  - id: 2.2.2
+    text: "Mendarab matriks dengan suatu nombor."
+    bloom: apply
+  - id: 2.2.3
+    text: "Mendarab dua matriks."
+    bloom: apply
+  - id: 2.2.4
+    text: "Menerangkan ciri-ciri matriks identiti."
+    bloom: understand
+  - id: 2.2.5
+    text: "Menerangkan maksud matriks songsang dan seterusnya menentukan matriks songsang bagi suatu matriks 2 x 2."
+    bloom: apply
+  - id: 2.2.6
+    text: "Menggunakan kaedah matriks untuk menyelesaikan persamaan linear serentak."
+    bloom: apply
+  - id: 2.2.7
+    text: "Menyelesaikan masalah yang melibatkan matriks."
+    bloom: apply
+
+performance_standards:
+  - level: 1
+    descriptor: "Mempamerkan pengetahuan asas tentang matriks dan operasi asasnya."
+  - level: 2
+    descriptor: "Mempamerkan kefahaman tentang perwakilan matriks, peringkat, kesamaan dan operasinya."
+  - level: 3
+    descriptor: "Mengaplikasikan kefahaman tentang matriks untuk mewakilkan maklumat dan melaksanakan operasi asas."
+  - level: 4
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang matriks dalam konteks penyelesaian masalah rutin yang mudah."
+  - level: 5
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang matriks dalam konteks penyelesaian masalah rutin yang kompleks."
+  - level: 6
+    descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang matriks dalam konteks penyelesaian masalah bukan rutin secara kreatif."
+
+prerequisites:
+  required:
+    - "MT1-05"
+    - "MT1-06"
+  recommended: []
+
+bloom_levels:
+  - understand
+  - apply
+
+quality_level: 3
+provenance: ai-assisted
+generated_at: "2026-04-21T00:00:00Z"
+sync_checked: true
+
+teaching:
+  sequence:
+    - "Langkah 1: Perkenalkan matriks melalui jadual dunia sebenar seperti jualan, jadual dan rekod inventori."
+    - "Langkah 2: Takrifkan peringkat matriks dan kenal pasti unsur tertentu menggunakan tatatanda baris dan lajur."
+    - "Langkah 3: Tetapkan syarat kesamaan matriks dengan memadankan peringkat dan unsur sepadan."
+    - "Langkah 4: Tunjukkan penambahan, penolakan dan pendaraban skalar bagi matriks."
+    - "Langkah 5: Ajar pendaraban matriks menggunakan peraturan baris darab lajur serta tekankan syarat kewujudannya."
+    - "Langkah 6: Teroka matriks identiti dan sifat pendarabannya."
+    - "Langkah 7: Terangkan matriks songsang bagi matriks 2 x 2 dan kaitkannya dengan penyelesaian persamaan serentak."
+    - "Langkah 8: Aplikasikan kaedah matriks dalam penyelesaian masalah rutin dan bukan rutin pelbagai langkah."
+  common_misconceptions:
+    - misconception: "Pelajar cuba menambah atau menolak matriks yang mempunyai peringkat berbeza."
+      remediation: "Tekankan bahawa penambahan dan penolakan hanya boleh dilakukan apabila setiap unsur mempunyai pasangan pada kedudukan yang sama."
+    - misconception: "Pelajar mendarab unsur sepadan semasa mendarab dua matriks."
+      remediation: "Gunakan anak panah jejak baris-darab-lajur untuk menunjukkan bahawa pendaraban matriks tidak sama dengan penambahan."
+    - misconception: "Pelajar percaya setiap matriks segi empat sama mempunyai matriks songsang."
+      remediation: "Tunjukkan bahawa matriks 2 x 2 tidak mempunyai songsang apabila penentunya sama dengan sifar."
+  engagement_hooks:
+    - "Gunakan rekod inventori sekolah untuk menunjukkan bagaimana matriks menyusun data stok dengan pantas."
+    - "Bincangkan bagaimana matriks muncul dalam kriptografi dan mesej berkod."
+    - "Kaitkan matriks dengan tugasan analisis data seperti membandingkan jualan atau jadual pengangkutan."
+
+mastery:
+  minimum_score: 0.75
+  assessment_count: 3
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
+
+assessments_file: MT5-02.assessments.yaml
+ai_teaching_notes: MT5-02.teaching.md
+examples_file: MT5-02.examples.yaml

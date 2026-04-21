@@ -1,130 +1,133 @@
 topic_id: MT5-05
-provenance: ai-generated
-
+provenance: official-dskp-aligned
 questions:
-
-  # Learning Objective: 5.1.1 (analyze)
+  ### Learning Objective: 5.1.1 (analyze) - TP1/2
   - id: Q1
-    text: 'Dua segi tiga, $\triangle ABC$ dan $\triangle DEF$, mempunyai ukuran sisi yang sama tetapi sudut berbeza. Adakah kedua-dua segi tiga ini adalah kongruen? Jelaskan.'
-    difficulty: medium
+    text: "Which of the following conditions is NECESSARY for two polygons to be considered congruent?"
+    difficulty: easy
     learning_objective: 5.1.1
-    tp_level: 4
-    kbat: true
+    tp_level: 2
+    kbat: false
     answer:
-      type: free_text
-      value: 'Tidak, segi tiga ini tidak kongruen kerana walaupun sisi adalah sama, sudut tidak sama.'
+      type: multiple_choice
+      value: "Corresponding sides and corresponding angles must be equal."
       working: |
-        Untuk dua segi tiga menjadi kongruen, kedua-dua sisi dan sudut mesti sama. Dalam kes ini, walaupun sisi sama, sudut berbeza, maka kedua-dua segi tiga tidak kongruen.
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: 'Mengenal pasti bahawa sisi sama.'
-      - marks: 1
-        criteria: 'Menjelaskan bahawa sudut mesti sama untuk kekongruenan.'
-      - marks: 1
-        criteria: 'Kesimpulan yang tepat bahawa segi tiga tidak kongruen.'
+        By definition, congruency requires both shape and size to be identical. 
+        Step 1: Check if all corresponding sides are equal.
+        Step 2: Check if all corresponding angles are equal.
+        Conclusion: If both are met, shapes are congruent.
+      distractors:
+        - value: "Only corresponding angles must be equal."
+          feedback: "This defines similarity, not congruency. For congruency, the size (sides) must also match exactly."
+        - value: "Only corresponding sides must be equal."
+          feedback: "While sides match, if the angles differ, the shapes are not identical. Both must match."
+        - value: "The area of both shapes must be equal."
+          feedback: "Two shapes can have the same area (e.g., a square and a rectangle) but different shapes. They aren't necessarily congruent."
+    marks: 1
     hints:
       - level: 1
-        text: 'MISCONCEPTION ALERT: Adakah hanya sisi yang sama sudah mencukupi untuk kongruensi?'
-      - level: 2
-        text: 'Pertimbangkan hubungan antara sisi dan sudut dalam segi tiga kongruen.'
+        text: "Recall 'Mind Mobilisation 1' on page 124. What happened when the blue quadrilateral was rotated to overlap ABCD?"
 
-  # Learning Objective: 5.1.3 (apply)
+  ### Learning Objective: 5.1.2 (create) - TP3
   - id: Q2
-    text: 'Diberi dua segi tiga, $\triangle PQR$ dan $\triangle XYZ$, dengan ukuran $PQ = 5 \text{cm}$, $QR = 7 \text{cm}$, $RP = 6 \text{cm}$, $XY = 5 \text{cm}$, $YZ = 7 \text{cm}$, dan $ZX = 6 \text{cm}$. Tentukan sama ada kedua-dua segi tiga ini kongruen.'
+    text: "Identify the triangle congruency criteria shown: Two triangles have two corresponding sides equal in length and the size of the corresponding subtended angle between the two sides is equal."
     difficulty: medium
-    learning_objective: 5.1.3
+    learning_objective: 5.1.2
     tp_level: 3
     kbat: false
     answer:
-      type: exact
-      value: 'Ya, kedua-dua segi tiga adalah kongruen.'
+      type: multiple_choice
+      value: "SAS (Side-Angle-Side)"
       working: |
-        Ukuran sisi segi tiga adalah sama: $PQ = XY$, $QR = YZ$, dan $RP = ZX$. Oleh itu, $\triangle PQR \equiv \triangle XYZ$ berdasarkan kriteria SSS (Side-Side-Side).
-    marks: 2
-    rubric:
-      - marks: 1
-        criteria: 'Menggunakan kriteria SSS untuk menentukan kongruensi.'
-      - marks: 1
-        criteria: 'Menentukan bahawa kedua-dua segi tiga adalah kongruen.'
+        Step 1: Identify the components given.
+        Step 2: Two sides (S) and one angle (A) between them.
+        Step 3: This matches the Side-Angle-Side (SAS) property.
+      distractors:
+        - value: "SSS (Side-Side-Side)"
+          feedback: "SSS requires three sides to be equal, but this question mentions an angle."
+        - value: "ASA (Angle-Side-Angle)"
+          feedback: "ASA requires two angles and one side between them. Here we have two sides and one angle."
+        - value: "AAS (Angle-Angle-Side)"
+          feedback: "AAS involves two angles and a side not between them. Check the description again."
+    marks: 1
     hints:
       - level: 1
-        text: 'Periksa sama ada ketiga-tiga sisi dari kedua-dua segi tiga adalah sama.'
+        text: "Look at the order mentioned: Side, then the Angle between them, then another Side."
 
-  # Learning Objective: 5.2.3 (apply)
+  ### Learning Objective: 5.2.4 (create) - TP4
   - id: Q3
-    text: 'Suatu objek berbentuk segi empat tepat dengan panjang 4 cm dan lebar 3 cm dibesarkan dengan faktor skala 2. Tentukan panjang dan lebar imej yang terbentuk.'
+    text: "An object with an area of $15 \text{ cm}^2$ is enlarged with a scale factor of $k = 3$. Calculate the area of the image, in $\text{ cm}^2$."
     difficulty: medium
-    learning_objective: 5.2.3
-    tp_level: 3
+    learning_objective: 5.2.4
+    tp_level: 4
     kbat: false
     answer:
       type: exact
-      value: 'Panjang: 8 cm, Lebar: 6 cm'
+      value: "135"
       working: |
-        Panjang imej = $4 \text{cm} \times 2 = 8 \text{cm}$.
-        Lebar imej = $3 \text{cm} \times 2 = 6 \text{cm}$.
+        Formula: $\text{Area of image} = k^2 \times \text{Area of object}$
+        Step 1: Identify $k = 3$ and $Area_{object} = 15$.
+        Step 2: Calculate $k^2 = 3^2 = 9$.
+        Step 3: $Area_{image} = 9 \times 15 = 135 \text{ cm}^2$.
     marks: 2
     rubric:
       - marks: 1
-        criteria: 'Mengira panjang imej dengan betul.'
+        criteria: "Correctly identifying $k^2$ as 9."
       - marks: 1
-        criteria: 'Mengira lebar imej dengan betul.'
+        criteria: "Final answer of 135 with correct units."
     hints:
       - level: 1
-        text: 'Gunakan faktor skala untuk membesarkan panjang dan lebar asal.'
+        text: "The relationship between area and scale factor is NOT linear. Remember the $k^2$ rule from page 146!"
 
-  # Learning Objective: 5.3.1 (apply)
+  ### Learning Objective: 5.3.4 (apply) - TP5
   - id: Q4
-    text: 'Diberikan titik A(2, 3). Tentukan koordinat imej titik ini selepas gabungan transformasi translasi oleh vektor $\begin{pmatrix} 3 \\ 2 \end{pmatrix}$ diikuti putaran 90 darjah lawan arah jam dengan pusat di asal (0,0).'
-    difficulty: medium
-    learning_objective: 5.3.1
-    tp_level: 4
-    kbat: true
-    answer:
-      type: exact
-      value: 'Koordinat imej: (-1, 5)'
-      working: |
-        Selepas translasi, A' = (2+3, 3+2) = (5, 5).
-        Selepas putaran 90 darjah lawan arah jam, A'' = (-y, x) = (-5, 5).
-    marks: 3
-    rubric:
-      - marks: 1
-        criteria: 'Menentukan koordinat selepas translasi dengan betul.'
-      - marks: 1
-        criteria: 'Menentukan koordinat selepas putaran dengan betul.'
-      - marks: 1
-        criteria: 'Menghasilkan koordinat imej akhir dengan tepat.'
-    hints:
-      - level: 1
-        text: 'Lakukan translasi terlebih dahulu sebelum putaran.'
-      - level: 2
-        text: 'Putaran 90 darjah lawan arah jam menukar (x, y) kepada (-y, x).'
-
-  # Learning Objective: 5.4.2 (create)
-  - id: Q5
-    text: 'Reka satu teselasi menggunakan transformasi isometri dengan bentuk segi empat tepat. Nyatakan jenis transformasi yang digunakan.'
-    difficulty: medium
-    learning_objective: 5.4.2
+    text: "Point $P(2, 3)$ undergoes combined transformation $AB$. $B$ is a translation $\begin{pmatrix} 1 \\ -2 \end{pmatrix}$ and $A$ is a reflection in the x-axis. State the final coordinates of image $P''$."
+    difficulty: hard
+    learning_objective: 5.3.4
     tp_level: 5
     kbat: true
     answer:
-      type: free_text
-      value: 'Teselasi yang dibina menggunakan translasi dan pantulan dengan bentuk segi empat tepat.'
+      type: exact
+      value: "(3, -1)"
       working: |
-        Bentuk segi empat tepat diulang dalam corak grid menggunakan translasi. Pantulan boleh digunakan untuk membina simetri dalam teselasi.
-    marks: 4
+        Transformation AB means B occurs first, then A.
+        Step 1 (Transformation B): $(2, 3) \rightarrow (2+1, 3-2) = (3, 1)$.
+        Step 2 (Transformation A): Reflection of $(3, 1)$ in x-axis $\rightarrow (3, -1)$.
+        Final Image: $(3, -1)$.
+    marks: 3
     rubric:
       - marks: 1
-        criteria: 'Menggunakan sekurang-kurangnya satu bentuk segi empat tepat.'
+        criteria: "Applying Transformation B first to get (3, 1)."
       - marks: 1
-        criteria: 'Menggunakan translasi dalam teselasi.'
+        criteria: "Correct reflection logic (negating the y-coordinate)."
       - marks: 1
-        criteria: 'Menggunakan pantulan dalam teselasi.'
-      - marks: 1
-        criteria: 'Menerangkan jenis transformasi dengan jelas.'
+        criteria: "Final coordinate (3, -1)."
     hints:
       - level: 1
-        text: 'MISCONCEPTION ALERT: Ingat bahawa teselasi boleh menggunakan lebih dari satu jenis transformasi.'
+        text: "BEWARE the Reverse Alphabet Trap! Which transformation do you apply first in 'AB'?"
       - level: 2
-        text: 'Pertimbangkan bagaimana bentuk berulang dalam corak grid.'
+        text: "Reflection in the x-axis changes the sign of the y-coordinate only."
+
+  ### Learning Objective: 5.4.2 (create) - TP6
+  - id: Q5
+    text: "Design a tessellation using a single isosceles triangle. Describe the isometric transformations used to ensure no gaps or overlaps."
+    difficulty: hard
+    learning_objective: 5.4.2
+    tp_level: 6
+    kbat: true
+    answer:
+      type: free_text
+      value: "The tessellation uses rotation and translation. Two triangles are rotated $180^{\circ}$ to form a rhombus, which then undergoes translation."
+      working: |
+        Step 1: Take an isosceles triangle.
+        Step 2: Perform a rotation of $180^{\circ}$ at the midpoint of one side to form a parallelogram or rhombus.
+        Step 3: Repeat the translation of this combined shape to cover the plane.
+    marks: 4
+    rubric:
+      - marks: 2
+        criteria: "Correct identification of isometric transformations (Rotation/Translation/Reflection)."
+      - marks: 2
+        criteria: "Logical explanation showing no gaps or overlaps occur."
+    hints:
+      - level: 1
+        text: "Refer to page 163. Can you rotate the triangle to fit perfectly with its twin?"

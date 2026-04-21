@@ -1,45 +1,66 @@
+id: MT5-04
 topic_id: MT5-04
-provenance: ai-generated
-description: "Worked examples for Matematik Pengguna: Percukaian"
-worked_examples:
+provenance: "curriculum-architect-audit"
+examples:
   - id: WE-01
-    topic: "Pengenalan kepada Percukaian"
-    difficulty: easy
+    topic: "Purpose of Taxation"
+    difficulty: "easy"
     tp_level: 2
-    kbat: false
-    learning_objective: "4.1.1: Menghuraikan tujuan percukaian."
-    real_world_analogy: "Memikirkan cukai sebagai yuran keahlian kelab negara yang membolehkan kita menggunakan kemudahan umum seperti jalan raya dan taman."
-    misconception_alert: "Ramai pelajar berfikir bahawa cukai hanya satu bebanan, tetapi ia adalah penting untuk pembangunan negara."
-    scenario: "Ali mendengar bahawa cukai adalah penting untuk negara. Dia ingin tahu apa tujuan utama percukaian."
+    learning_objective: "4.1.1"
+    real_world_analogy: "Think of taxes like a 'National Club Membership Fee'. Just as you pay a fee to use a club's gym and pool, citizens pay taxes so everyone can use 'free' roads, schools, and hospitals."
+    misconception_alert: "Students often think taxes are 'fines' or penalties. Remind them that fines are for breaking rules, while taxes are a shared responsibility to build the country."
+    scenario: "Adli is curious about why his father has to pay money to the government every year. Explain the primary purpose of taxation in the context of national development."
     working: |
-      Step 1: Fahami bahawa cukai adalah sumbangan kewangan wajib yang dikenakan oleh kerajaan kepada individu atau perniagaan.
-      Step 2: Tujuan utama percukaian adalah untuk mengumpul dana bagi menampung perbelanjaan kerajaan seperti pembinaan sekolah, hospital, dan infrastruktur.
-      Step 3: Selain itu, cukai membantu dalam pengagihan semula pendapatan dan mengurangkan jurang ekonomi di kalangan rakyat.
+      1. Identify the definition: Taxation is a process of collecting money from individuals or companies to develop the country.
+      2. List the usage of funds: The money is used for public infrastructure (roads), healthcare (hospitals), and education (schools).
+      3. Explain the policy role: Taxes also act as a tool to control the consumption of certain goods (e.g., tobacco tax) or to reduce income inequality.
+      4. Conclusion: Therefore, the primary purpose is to provide funds for governing and developing the nation.
 
   - id: WE-02
-    topic: "Jenis-jenis Cukai"
-    difficulty: medium
-    tp_level: 3
-    kbat: true
-    learning_objective: "4.1.2: Menghuraikan pelbagai cukai dan seterusnya kesan pengelakan cukai tersebut dari aspek perundangan dan kewangan."
-    real_world_analogy: "Menganggap pelbagai cukai sebagai jenis yuran yang berbeza anda bayar untuk menggunakan kemudahan dan perkhidmatan tertentu."
-    misconception_alert: "Pelajar sering keliru antara cukai langsung dan tidak langsung."
-    scenario: "Farah keliru antara cukai langsung dan tidak langsung. Bantu dia memahami perbezaan antara kedua-duanya."
+    topic: "Road Tax Calculation"
+    difficulty: "medium"
+    tp_level: 4
+    learning_objective: "4.1.3"
+    real_world_analogy: "Road tax is like an 'Engine Size Ticket'. The bigger and more powerful the engine, the more 'wear and tear' it supposedly causes, so the ticket price goes up."
+    misconception_alert: "Students often forget that Road Tax for cars above 1,600 cc consists of TWO parts: a Base Rate AND a Progressive Rate for the excess cc."
+    scenario: "Alan owns a private car in Peninsular Malaysia with an engine capacity of $1,997$ cc. Based on the tax table, the base rate for $1,801$ cc to $2,000$ cc is $RM280.00$ and the progressive rate is $RM0.50$ for each cc exceeding $1,800$ cc. Calculate his total road tax."
     working: |
-      Step 1: Cukai langsung dikenakan terus ke atas pendapatan individu atau perniagaan, seperti cukai pendapatan.
-      Step 2: Cukai tidak langsung dikenakan ke atas barang dan perkhidmatan, seperti cukai jualan dan perkhidmatan (SST).
-      Step 3: Kesan pengelakan cukai termasuk tindakan undang-undang seperti denda dan hukuman, serta kesan ekonomi seperti kurangnya dana untuk pembangunan.
+      1. Identify the Base Rate for $1,997$ cc: $RM280.00$
+      2. Calculate the excess engine capacity: $1,997 \text{ cc} - 1,800 \text{ cc} = 197 \text{ cc}$
+      3. Calculate the progressive tax amount: $197 \times RM0.50 = RM98.50$
+      4. Total Road Tax = Base Rate + Progressive Tax
+      5. Final Calculation: $RM280.00 + RM98.50 = RM378.50$
 
   - id: WE-03
-    topic: "Pengiraan Cukai"
-    difficulty: hard
+    topic: "Property Assessment Tax"
+    difficulty: "medium"
     tp_level: 4
-    kbat: true
-    learning_objective: "4.1.3: Mengkaji, mentafsir dan membuat pengiraan yang melibatkan pelbagai cukai."
-    real_world_analogy: "Menganggap pengiraan cukai sebagai mengisi tangki bahan bakar kereta; anda perlu tahu berapa banyak yang diperlukan untuk perjalanan yang lancar."
-    misconception_alert: "Pelajar sering tersilap dalam mengira kadar cukai ganda atau tidak menolak pengecualian yang layak."
-    scenario: "Syarikat XYZ mempunyai pendapatan kasar sebanyak RM500,000 dan layak mendapat potongan cukai sebanyak RM50,000. Kadar cukai adalah 24%. Hitung cukai pendapatan yang perlu dibayar."
+    learning_objective: "4.1.3"
+    real_world_analogy: "Think of Property Assessment Tax as a 'Neighborhood Service Subscription'. You pay it to the local council so they can collect your trash and clean the neighborhood drains."
+    misconception_alert: "Students often confuse 'Annual Value' (rental estimate) with the 'Market Value' (selling price) of the house. Assessment tax is always calculated based on the Annual Value."
+    scenario: "Mariani owns a residential house in Subang Jaya. The annual value of the house is $RM6,580$ and the property assessment tax rate is $5\%$. Calculate the property assessment tax payable by Mariani for each half-year."
     working: |
-      Step 1: Hitung pendapatan bercukai dengan menolak potongan cukai: RM500,000 - RM50,000 = RM450,000.
-      Step 2: Kira cukai pendapatan dengan kadar 24%: 0.24 x RM450,000 = RM108,000.
-      Step 3: Syarikat XYZ perlu membayar cukai pendapatan sebanyak RM108,000.
+      1. Identify the formula: $\text{Property assessment tax} = \text{tax rate} \times \text{annual value}$
+      2. Calculate the total tax per year: $5\% \times RM6,580 = 0.05 \times 6,580 = RM329$
+      3. Identify the requirement: The question asks for the tax for 'each half-year'.
+      4. Divide by 2: $RM329 \div 2 = RM164.50$
+      5. Final Answer: Mariani pays $RM164.50$ every six months.
+
+  - id: WE-04
+    topic: "Income Tax with Relief and Rebates"
+    difficulty: "hard"
+    tp_level: 5
+    learning_objective: "4.1.4"
+    real_world_analogy: "Calculating income tax is like 'Filtering Water'. First, you filter out 'Exemptions' and 'Reliefs' (dirt) to find the 'Chargeable Income' (clean water). Only then do you apply the tax table."
+    misconception_alert: "The ultimate trap! Students often subtract 'Tax Rebates' from the income. NO! Rebates are subtracted from the TAX PAYABLE, while Reliefs are subtracted from the TOTAL INCOME."
+    scenario: "Mr. Chan has a total annual income of $RM52,770$ in 2020. He donated $RM300$ to an approved charity. He claims tax reliefs of $RM9,000$ (individual), $RM5,800$ (life insurance), $RM1,700$ (medical), and $RM4,000$ (education). If his chargeable income is $\le RM35,000$, he is eligible for a rebate of $RM400$. Calculate his income tax payable."
+    working: |
+      1. Calculate Chargeable Income: $\text{Total Income} - \text{Exemption} - \text{Relief}$
+      2. $RM52,770 - RM300 - (RM9,000 + RM5,800 + RM1,700 + RM4,000)$
+      3. $RM52,470 - RM20,500 = RM31,970$
+      4. Determine Tax using Table: $RM31,970$ falls in the $RM20,001 - RM35,000$ bracket.
+      5. Tax on first $RM20,000 = RM150$
+      6. Tax on balance: $(RM31,970 - RM20,000) \times 3\% = RM11,970 \times 0.03 = RM359.10$
+      7. Total Income Tax before rebate: $RM150 + RM359.10 = RM509.10$
+      8. Apply Rebate: Since $RM31,970 \le RM35,000$, subtract $RM400$ rebate.
+      9. Final Tax Payable: $RM509.10 - RM400 = RM109.10$

@@ -1,47 +1,71 @@
 topic_id: MT5-03
-provenance: ai-generated
-description: "Worked examples for Matematik Pengguna: Insurans"
+provenance: curriculum-audit
 worked_examples:
+  # TP1/TP2 - Introduction to Risk (SP 3.1.1)
   - id: WE-01
-    topic: "Introduction to Insurance Risks and Types"
+    topic: "The Concept of Risk and Insurance"
     difficulty: easy
-    tp_level: 1
+    learning_objective: "3.1.1"
+    tp_level: 2
     kbat: false
-    learning_objective: 3.1.1
-    real_world_analogy: "Imagine insurance as a safety net that catches you when unexpected things happen, like a broken window that insurance helps to fix."
-    misconception_alert: "Students often think insurance is only for accidents, but it covers a wide range of events."
-    scenario: "Ahmad is considering buying insurance for his new car. He wants to understand what types of risks can be covered by insurance."
+    real_world_analogy: "Insurance is like carrying an umbrella. You don't want it to rain, but if a storm happens, the umbrella prevents you from getting soaked. The umbrella (insurance) transfers the 'risk' of getting wet from you to the umbrella's coverage."
+    misconception_alert: "Students often think insurance is a way to make money if something bad happens. Remember the 'Principle of Indemnity': insurance only restores you to your original state; it is not for 'untung' (profit)."
+    scenario: "Encik Azlan wants to understand why he needs to pay a premium for his house. He wants to know the relationship between risk and insurance."
     working: |
-      Step 1: Identify the types of risks Ahmad might face such as theft, accidents, and natural disasters.
-      Step 2: Explain that insurance provides financial protection against these risks.
-      Step 3: Discuss the two main categories of insurance: life insurance and general insurance, and relate to Ahmad's car insurance as a type of general insurance.
+      1. Define Risk: Risk is the possibility of a disaster that cannot be avoided, such as a fire or flood.
+      2. Identify the Transfer of Risk: By buying insurance, Encik Azlan transfers the financial burden of these risks to the insurance company.
+      3. Role of the Premium: Encik Azlan pays a small amount (premium) so that the company promises to pay for his large losses (compensation).
+      4. Conclusion: Insurance provides financial protection, not a source of profit.
 
+  # TP3 - Life Insurance Premium Calculation (SP 3.1.2)
   - id: WE-02
-    topic: "Calculating Insurance Premiums"
+    topic: "Calculating Life Insurance Premium"
     difficulty: medium
+    learning_objective: "3.1.2"
     tp_level: 3
-    kbat: true
-    learning_objective: 3.1.2
-    real_world_analogy: "Paying insurance premiums is like paying a subscription fee for a service that promises to help you in difficult times."
-    misconception_alert: "A common mistake is thinking that the premium is the total cost of insurance, but it might not cover all scenarios due to deductibles."
-    scenario: "Siti's car insurance policy states a premium of RM1,200 per year. Calculate her monthly premium."
+    kbat: false
+    real_world_analogy: "Think of a premium rate as the price of a single 'protection brick'. If your house is big, you need more bricks. The older the house, the more expensive each brick becomes because the risk of collapse is higher."
+    misconception_alert: "The most common mistake is forgetting to divide the Face Value by the 'RMx' (usually $RM1,000$) before multiplying by the rate. This is the 'Naked Numerator' trap."
+    scenario: "Madam Shapuwa is 36 years old, healthy, and a non-smoker. She wants to buy a life insurance policy with a face value of $RM250,000$. The rate given in the table is $RM1.50$ per $RM1,000$ face value. Calculate her annual premium."
     working: |
-      Step 1: Understand that the annual premium is divided over 12 months.
-      Step 2: Use the formula for monthly premium: Annual Premium ÷ 12.
-      Step 3: Calculate: RM1,200 ÷ 12 = RM100.
-      Step 4: Conclude that Siti pays RM100 per month for her car insurance.
+      1. Identify the formula: $Annual\ Premium = \frac{Face\ Value\ of\ Policy}{RMx} \times Premium\ Rate\ per\ RMx$
+      2. Substitute the values: $\frac{RM250,000}{RM1,000} \times RM1.50$
+      3. Divide the face value by the base unit: $250 \times 1.50$
+      4. Calculate the final amount: $RM375.00$
+      5. Final Answer: Madam Shapuwa's annual premium is $RM375.00$.
 
+  # TP5 - Medical Insurance with Deductible and Co-insurance (SP 3.1.3)
   - id: WE-03
-    topic: "Solving Insurance Deductible Problems"
+    topic: "Solving Complex Medical Insurance Problems"
     difficulty: hard
+    learning_objective: "3.1.3"
     tp_level: 5
     kbat: true
-    learning_objective: 3.1.3
-    real_world_analogy: "A deductible is like an entry fee to a theme park; you must pay it before enjoying the rides, just as you have to pay a deductible before insurance covers the rest."
-    misconception_alert: "Students often confuse deductible and premium, thinking both reduce the cost of insurance claims."
-    scenario: "Ali's health insurance has a deductible of RM500. If he incurs medical expenses of RM3,000, how much will the insurance cover?"
+    real_world_analogy: "Co-insurance is like 'sharing a pizza' with the insurance company. But first, you must pay an 'entry fee' (the deductible). Only after you pay the entry fee do you and the company start sharing the remaining cost of the pizza."
+    misconception_alert: "Students often calculate the co-insurance percentage on the total bill. This is WRONG! You MUST subtract the deductible first, then apply the percentage to the balance."
+    scenario: "Madam Chen has a medical policy with a deductible of $RM500$ and a co-insurance percentage of $75/25$ (Insurance/Policyholder). Her medical bill is $RM20,600$. Calculate the total amount borne by Madam Chen."
     working: |
-      Step 1: Identify the total medical expenses: RM3,000.
-      Step 2: Recognize that Ali must pay the deductible first: RM500.
-      Step 3: Calculate the amount insurance will cover: Total expenses - Deductible = RM3,000 - RM500 = RM2,500.
-      Step 4: Conclude that the insurance will cover RM2,500 of Ali's medical expenses.
+      1. Calculate the cost after deductible: $RM20,600 - RM500 = RM20,100$
+      2. Calculate Madam Chen's share of co-insurance ($25\%$): $\frac{25}{100} \times RM20,100 = RM5,025$
+      3. Sum the costs borne by Madam Chen: $Deductible + Co-insurance\ share$
+      4. Total payment: $RM500 + RM5,025 = RM5,525$
+      5. Final Answer: Madam Chen must pay $RM5,525$ herself.
+
+  # TP6 - Co-insurance Penalty in Property Insurance (SP 3.1.3)
+  - id: WE-04
+    topic: "Evaluating Under-insurance and Penalties"
+    difficulty: hard
+    learning_objective: "3.1.3"
+    tp_level: 6
+    kbat: true
+    real_world_analogy: "If you only pay for half a bus ticket, don't be surprised if the bus driver only takes you halfway to your destination. This is the 'Co-insurance Penalty'—if you don't buy enough coverage, the company won't pay the full claim."
+    misconception_alert: "Students think if they have $RM150,000$ coverage and a $RM25,000$ loss, the company will pay the full $RM25,000$. NO! If you are under-insured, you are penalized based on the ratio of what you bought versus what you SHOULD have bought."
+    scenario: "Encik Ismail's house has an insurable value of $RM350,000$. His policy has an $80\%$ co-insurance clause. He only insured his house for $RM150,000$. If he suffers a loss of $RM25,000$, calculate his compensation (assuming no deductible for this example)."
+    working: |
+      1. Calculate the required insurance amount: $80\% \times RM350,000 = RM280,000$
+      2. Identify the insurance status: Since $RM150,000 < RM280,000$, Encik Ismail is under-insured.
+      3. Apply the Under-insurance Formula: $Compensation = \frac{Amount\ of\ insurance\ purchased}{Amount\ of\ required\ insurance} \times Amount\ of\ loss$
+      4. Substitute values: $\frac{RM150,000}{RM280,000} \times RM25,000$
+      5. Simplify the fraction: $0.5357 \times RM25,000 = RM13,392.86$
+      6. Calculate the penalty: $RM25,000 - RM13,392.86 = RM11,607.14$
+      7. Final Answer: Encik Ismail only receives $RM13,392.86$ in compensation because he was under-insured.
