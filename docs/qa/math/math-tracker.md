@@ -1,0 +1,96 @@
+# Math Curriculum Tracker
+
+### 🛠️ Prompt Review Status
+| Prompt File | Status | Notes |
+| :--- | :---: | :--- |
+| `topic-metadata-prompt.md` | ✅ | Original Math Prompts |
+| `teaching-notes-prompt.md` | ✅ | Original Math Prompts |
+| `assessments-prompt.md` | ✅ | Original Math Prompts |
+| `examples-prompt.md` | ✅ | Original Math Prompts |
+
+## 📊 Curriculum Development Progress Tracker
+
+### Legend
+*   **0️⃣** : Level 0 Stub (Metadata structurally incomplete)
+*   **1️⃣** : Level 1 Base (Basic Metadata & LOs)
+*   **2️⃣** : Level 2 Pedagogical Enrichment (Teaching logic added to Metadata)
+*   **⏳** : Yet to create the file / translation
+*   **🚧** : Drafted / AI Generated without standard QA
+*   **✅** : Level 3 Teachable (Golden Version, fully audited)
+
+### 📘 Form 1 (F1)
+
+| Chapter | Meta (EN) | Meta (MS) | Teach (EN) | Teach (MS) | Assess (EN) | Assess (MS) | Exam (EN) | Exam (MS) |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| MT1-01 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT1-02 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT1-03 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT1-04 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT1-05 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT1-06 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT1-07 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT1-08 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT1-09 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT1-10 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT1-11 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT1-12 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT1-13 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+### 📗 Form 2 (F2)
+
+| Chapter | Meta (EN) | Meta (MS) | Teach (EN) | Teach (MS) | Assess (EN) | Assess (MS) | Exam (EN) | Exam (MS) |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| MT2-01 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT2-02 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT2-03 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT2-04 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT2-05 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT2-06 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT2-07 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT2-08 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT2-09 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT2-10 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT2-11 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT2-12 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT2-13 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+### 📕 Form 3 (F3)
+
+| Chapter | Meta (EN) | Meta (MS) | Teach (EN) | Teach (MS) | Assess (EN) | Assess (MS) | Exam (EN) | Exam (MS) |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| MT3-01 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT3-02 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT3-03 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT3-04 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT3-05 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT3-06 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT3-07 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT3-08 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT3-09 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+### 📔 Form 4 (F4)
+
+| Chapter | Meta (EN) | Meta (MS) | Teach (EN) | Teach (MS) | Assess (EN) | Assess (MS) | Exam (EN) | Exam (MS) |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| MT4-01 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT4-02 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT4-03 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT4-04 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT4-05 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT4-06 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT4-07 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT4-08 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT4-09 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| MT4-10 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+
+
+
+
+
+
+
+
+
+
+
