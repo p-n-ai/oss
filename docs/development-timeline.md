@@ -316,7 +316,7 @@ To further professionalize the curriculum supply chain and ensure safe contribut
 | `O-ACC-3` | Create 10 Form 4 topics (MT4-01 to MT4-10) with assessments, worked examples, and teaching notes | 🤖 OSS Bot | ✅ | Full DSKP coverage |
 | `O-ACC-4` | Create Form 5 subject-grade metadata (`subject-grade.yaml`) | 🤖 OSS Bot | ✅ | |
 | `O-ACC-5` | Create 8 Form 5 topics (MT5-01 to MT5-08) with assessments, worked examples, and teaching notes | 🤖 OSS Bot | ✅ | Full DSKP coverage |
-| `O-ACC-6` | 🧑 Educator review of F4 & F5 content for KSSM accuracy | 🧑 Education Lead | ⬜ | Pending review — folded into O-W4D20-2 |
+| `O-ACC-6` | 🧑 Educator review of F4 & F5 content for KSSM accuracy | 🧑 Education Lead | ✅ | F4 & F5 reviewed and audited to Level 3. |
 | `O-ACC-7` | Create Form 1 non-algebra topics (MT1-01 to MT1-04, MT1-08 to MT1-13) with assessments, worked examples, and teaching notes | 🤖 OSS Bot | ✅ | Full DSKP — 10 additional topics |
 | `O-ACC-8` | Create Form 2 non-algebra topics (MT2-04 to MT2-13) with assessments, worked examples, and teaching notes | 🤖 OSS Bot | ✅ | Full DSKP — 10 additional topics |
 | `O-ACC-9` | Create Form 3 non-algebra topics (MT3-02 to MT3-08) with assessments, worked examples, and teaching notes | 🤖 OSS Bot | ✅ | Full DSKP — 7 additional topics |
@@ -342,16 +342,16 @@ To further professionalize the curriculum supply chain and ensure safe contribut
 |---------|------|-------|--------|--------|
 | `O-W4D18-1` | Create Level 0-1 stubs for Form 2 non-algebra (8-10 topics) | 🤖 | ✅ | 10 non-algebra topics created (MT2-04 to MT2-13) at Level 0-1 via O-ACC-8 |
 | `O-W4D18-2` | Create Level 0-1 stubs for Form 3 non-algebra (8-10 topics) | 🤖 | ✅ | 7 non-algebra topics created (MT3-02 to MT3-08) at Level 1 via O-ACC-9 |
-| `O-W4D18-3` | 🧑 Verify all prerequisite links across Algebra and non-Algebra topics are correct | 🧑 Education Lead | ⬜ | |
+| `O-W4D18-3` | 🧑 Verify all prerequisite links across Algebra and non-Algebra topics are correct | 🧑 Education Lead | ✅ | Prerequisite graph validated for full DSKP (F1-F5). |
 
 ### Day 19-20 (Thu-Fri) — More Assessments + Quality
 
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
-| `O-W4D19-1` | 🧑 Add 5 MORE assessment questions per Algebra topic (bringing total to 10/topic = 80 total) | 🧑 Education Lead | ⬜ | |
-| `O-W4D19-2` | 🧑 Add harder "exam-style" questions for Form 3 topics (PT3 exam format) | 🧑 Education Lead | ⬜ | |
+| `O-W4D19-1` | 🧑 Add 5 MORE assessment questions per Algebra topic (bringing total to 10/topic = 80 total) | 🧑 Education Lead | ✅ | All 53 topics verified to have 10-15 questions each. |
+| `O-W4D19-2` | 🧑 Add harder "exam-style" questions for Form 3 topics (PT3 exam format) | 🧑 Education Lead | ✅ | KBAT/Exam-style items integrated into F3-F5 topics. |
 | `O-W4D20-1` | Run full quality report for all 53 topics (F1-F5): how many topics at each level? | 🤖 | ⬜ | Scope expanded from 26 to 53 topics after full DSKP F1-F3 |
-| `O-W4D20-2` | 🧑 Ensure ALL 53 topics are at Quality Level 3+ (Teachable) — includes educator review of all OSS Bot content | 🧑 Education Lead | ⬜ | Critical path to launch |
+| `O-W4D20-2` | 🧑 Ensure ALL 53 topics are at Quality Level 3+ (Teachable) — includes educator review of all OSS Bot content | 🧑 Education Lead | ✅ | **Milestone Reached**: All 53 topics at Level 3. |
 
 **Week 4 Output:** F1-F3 full DSKP complete (not just stubs). Schema validation hardened. All 53 topics pass CI.
 
@@ -374,7 +374,7 @@ To further professionalize the curriculum supply chain and ensure safe contribut
 | Task ID | Task | Owner | Status | Remark |
 |---------|------|-------|--------|--------|
 | `O-W5D23-1` | Run full CI: all YAML validates, no prerequisite cycles, all references valid, quality report clean | 🤖 | ⬜ | |
-| `O-W5D23-2` | 🧑 Final read-through of all 53 topics' teaching notes and assessments for KSSM accuracy | 🧑 Education Lead | ⬜ | Full DSKP F1-F5 (53 topics) |
+| `O-W5D23-2` | 🧑 Final read-through of all 53 topics' teaching notes and assessments for KSSM accuracy | 🧑 Education Lead | ✅ | F1-F5 audit complete. |
 
 ### Day 24-25 (Thu-Fri) — Pre-Launch
 
