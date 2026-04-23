@@ -1,9 +1,18 @@
 name: Validate Curriculum
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   validate:
     runs-on: ubuntu-latest
+    env:
+      UV_TOOL_DIR: ${{ github.workspace }}/.ci/uv/tools
+      UV_TOOL_BIN_DIR: ${{ github.workspace }}/.ci/uv/bin
+      NPM_CONFIG_PREFIX: ${{ github.workspace }}/.ci/npm-prefix
     steps:
       - uses: actions/checkout@v4
 
@@ -12,15 +21,58 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v8
         with:
           python-version: "3.12"
+          enable-cache: true
+          tool-dir: ${{ env.UV_TOOL_DIR }}
+          tool-bin-dir: ${{ env.UV_TOOL_BIN_DIR }}
+
+      - name: Restore validation tools
+        id: validation-tools-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            .ci/uv/tools
+            .ci/uv/bin
+            .ci/npm-prefix
+          key: validation-tools-${{ runner.os }}-uv-yamllint-ajv-v1
 
       - name: Install validators
         run: |
-          npm install -g ajv-cli ajv-formats
-          pip install yamllint
+          mkdir -p "$UV_TOOL_DIR" "$UV_TOOL_BIN_DIR" "$NPM_CONFIG_PREFIX"
+          echo "$UV_TOOL_BIN_DIR" >> "$GITHUB_PATH"
+          echo "$NPM_CONFIG_PREFIX/bin" >> "$GITHUB_PATH"
+          export PATH="$UV_TOOL_BIN_DIR:$NPM_CONFIG_PREFIX/bin:$PATH"
+
+          uv python install 3.12
+
+          if ! command -v yamllint >/dev/null; then
+            uv tool install yamllint
+          fi
+
+          if ! command -v ajv >/dev/null; then
+            npm install --global ajv-cli ajv-formats
+          fi
+
+          yamllint --version
+          ajv help >/dev/null
+
+      - name: Save validation tools
+        if: steps.validation-tools-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            .ci/uv/tools
+            .ci/uv/bin
+            .ci/npm-prefix
+          key: validation-tools-${{ runner.os }}-uv-yamllint-ajv-v1
+
+      - name: Run changed files validation
+        if: github.event_name == 'pull_request'
+        run: ./scripts/validate-changed.sh
 
       - name: Run full validation
+        if: github.event_name != 'pull_request'
         run: ./scripts/validate.sh
