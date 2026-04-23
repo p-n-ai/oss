@@ -113,6 +113,7 @@ oss/
 │
 ├── scripts/                          # CI and maintenance scripts
 │   ├── validate.sh
+│   ├── validate-changed.sh
 │   ├── check-prerequisites.rb
 │   ├── check-references.rb
 │   ├── assess-quality.rb
@@ -435,7 +436,8 @@ A pre-built SQLite database (50-200MB) containing all curriculum data, for offli
 All YAML files are validated against JSON Schemas in the `schema/` directory.
 
 ```bash
-# Install the validator
+# Install validators
+uv tool install yamllint
 npm install -g ajv-cli ajv-formats
 
 # Validate a single topic (--spec=draft2020 required for Draft 2020-12)
@@ -445,7 +447,7 @@ ajv validate --spec=draft2020 -s schema/topic.schema.json -d "curricula/cambridg
 find curricula/cambridge -name "*.yaml" -path "*/topics/*" | xargs -I{} ajv validate --spec=draft2020 -s schema/topic.schema.json -d {}
 ```
 
-The CI pipeline validates every file on every pull request. Invalid files cannot be merged.
+Pull request CI validates only changed validation-relevant files so scoped fixes are not blocked by existing full-repo failures. Pushes to `main` and manual workflow runs execute the full `./scripts/validate.sh` gate.
 
 ---
 
