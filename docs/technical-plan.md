@@ -68,19 +68,21 @@ OSS itself has no runtime dependencies. The tech stack consists entirely of data
 
 | Tool | Version | Purpose |
 |------|---------|---------|
-| **ajv-cli** | ≥5 | JSON Schema validator. Validates all YAML files against their corresponding schema on every PR. Runs in GitHub Actions CI. |
+| **uv** | current | Python tool installer/cache for CI. Installs `yamllint` and persists uv tool directories between runs. |
+| **ajv-cli** | ≥5 | JSON Schema validator. Validates changed YAML files on PRs and all YAML files on the full gate. |
 | **yamllint** | ≥1.35 | YAML syntax and style checker. Enforces consistent formatting (indentation, line length, key ordering). |
 | **Node.js** | 20 LTS | Runtime for ajv-cli. Only used in CI, not required for consuming OSS. |
-| **Python** (optional) | 3.12 | For custom validation scripts (prerequisite cycle detection, cross-reference integrity). |
+| **Ruby** | system Ruby or newer | Custom validation scripts for prerequisites, references, and quality assessment. |
+| **Python** | 3.12 | Managed by uv for Python-based tooling such as `yamllint`. |
 
 ### 2.3 CI/CD
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
-| **CI Platform** | GitHub Actions | Free for public repositories. Runs on every push and PR. |
-| **Schema Validation** | ajv-cli | Validates every YAML file against its JSON Schema |
-| **Lint** | yamllint | Enforces YAML formatting standards |
-| **Custom Checks** | Python/Bash scripts | Prerequisite graph cycle detection, cross-reference integrity, quality level auto-assessment |
+| **CI Platform** | GitHub Actions | Pull requests run changed-file validation. Pushes to `main` and manual runs execute full validation. |
+| **Schema Validation** | ajv-cli | Validates changed YAML files on PRs and every YAML file on the full gate. |
+| **Lint** | yamllint | Enforces YAML formatting standards on changed PR files and the full repo gate. |
+| **Custom Checks** | Ruby/Bash scripts | Prerequisite graph cycle detection, cross-reference integrity, quality level auto-assessment |
 | **Release** | GitHub Releases | Tagged releases for versioned curriculum snapshots |
 
 ---
@@ -256,6 +258,7 @@ oss/
 │
 ├── scripts/                            # CI and maintenance scripts
 │   ├── validate.sh                     # Run all schema validations
+│   ├── validate-changed.sh             # Run PR validation for changed files
 │   ├── check-prerequisites.rb          # Detect cycles in prerequisite graph
 │   ├── check-references.rb             # Verify cross-references are valid
 │   ├── assess-quality.rb               # Auto-assess quality levels
@@ -264,7 +267,7 @@ oss/
 │
 ├── .github/
 │   └── workflows/
-│       ├── validate.yml                # Schema validation on every PR
+│       ├── validate.yml                # Changed-file PR validation + full main gate
 │       ├── quality-report.yml          # Quality assessment on merge to main
 │       └── release.yml                 # Tagged release with SQLite export
 │
@@ -307,69 +310,77 @@ Every topic carries a `quality_level` field (0–5) that indicates completeness.
 
 ## 6. Validation Pipeline (CI)
 
-Every PR triggers the following validation pipeline via GitHub Actions:
+Pull requests run changed-file validation so scoped fixes are not blocked by existing unrelated full-repo failures. Pushes to `main` and manual workflow runs execute the full validation gate.
 
 ```yaml
 # .github/workflows/validate.yml
 name: Validate Curriculum
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   validate:
     runs-on: ubuntu-latest
+    env:
+      UV_TOOL_DIR: ${{ github.workspace }}/.ci/uv/tools
+      UV_TOOL_BIN_DIR: ${{ github.workspace }}/.ci/uv/bin
+      NPM_CONFIG_PREFIX: ${{ github.workspace }}/.ci/npm-prefix
     steps:
-      # 1. YAML syntax and style
-      - name: Lint YAML
-        run: yamllint -c .yamllint.yml curricula/ concepts/ taxonomy/
+      - uses: actions/checkout@v4
 
-      # 2. JSON Schema validation (--spec=draft2020 required for Draft 2020-12)
-      - name: Validate schemas
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          python-version: "3.12"
+          enable-cache: true
+          tool-dir: ${{ env.UV_TOOL_DIR }}
+          tool-bin-dir: ${{ env.UV_TOOL_BIN_DIR }}
+
+      - name: Restore validation tools
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            .ci/uv/tools
+            .ci/uv/bin
+            .ci/npm-prefix
+          key: validation-tools-${{ runner.os }}-uv-yamllint-ajv-v1
+
+      - name: Install validators
         run: |
-          # Validate all syllabus files
-          find curricula -name "syllabus.yaml" | xargs -I{} \
-            ajv validate --spec=draft2020 -s schema/syllabus.schema.json -d {}
+          uv python install 3.12
+          uv tool install yamllint
+          npm install --global ajv-cli ajv-formats
 
-          # Validate all subject files
-          find curricula -path "*/subjects/*.yaml" | xargs -I{} \
-            ajv validate --spec=draft2020 -s schema/subject.schema.json -d {}
+      - name: Run changed files validation
+        if: github.event_name == 'pull_request'
+        run: ./scripts/validate-changed.sh
 
-          # Validate all topic files (exclude teaching, examples, assessments)
-          find curricula -path "*/topics/*" -name "*.yaml" \
-            ! -name "*.examples.yaml" ! -name "*.assessments.yaml" | xargs -I{} \
-            ajv validate --spec=draft2020 -s schema/topic.schema.json -d {}
-
-          # Validate examples and assessments
-          find curricula -name "*.examples.yaml" | xargs -I{} \
-            ajv validate --spec=draft2020 -s schema/examples.schema.json -d {}
-          find curricula -name "*.assessments.yaml" | xargs -I{} \
-            ajv validate --spec=draft2020 -s schema/assessments.schema.json -d {}
-
-      # 3. Prerequisite graph integrity
-      - name: Check prerequisite cycles
-        run: ruby scripts/check-prerequisites.rb
-
-      # 4. Cross-reference integrity
-      - name: Check references
-        run: ruby scripts/check-references.rb
-
-      # 5. Quality level assessment
-      - name: Assess quality levels
-        run: ruby scripts/assess-quality.rb --report
+      - name: Run full validation
+        if: github.event_name != 'pull_request'
+        run: ./scripts/validate.sh
 ```
 
 **Validation rules enforced:**
 
-| Check | Tool | Blocks Merge? |
-|-------|------|---------------|
-| YAML syntax valid | yamllint | Yes |
-| Matches JSON Schema | ajv-cli | Yes |
-| No prerequisite cycles | custom Ruby | Yes |
-| All topic_id references exist | custom Python | Yes |
-| All syllabus_id references exist | custom Python | Yes |
-| Bloom's taxonomy levels are valid | JSON Schema enum | Yes |
-| Quality level not decreased | custom Python | Warning (reviewer decides) |
-| Teaching notes file exists if referenced | custom script | Warning |
-| Translation structure matches source | custom script | Warning |
+| Check | Tool | PR Gate | Full Gate |
+|-------|------|---------|-----------|
+| Changed YAML syntax valid | yamllint | Yes | Yes |
+| Changed YAML matches JSON Schema | ajv-cli | Yes | Yes |
+| Full-repo YAML syntax valid | yamllint | No | Yes |
+| Full-repo schema validity | ajv-cli | No | Yes |
+| No prerequisite cycles | custom Ruby | No | Yes |
+| All topic_id/syllabus_id references exist | custom Ruby | No | Yes |
+| Quality level not overclaimed | custom Ruby | No | Yes |
+| Workflow YAML parses | Ruby YAML parser | Yes, when workflow changes | Yes, through workflow execution |
 
 ---
 

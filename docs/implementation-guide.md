@@ -36,8 +36,11 @@ node --version   # Expected: v20.x.x
 # Ruby (for custom validation scripts)
 ruby --version   # Expected: system Ruby or newer
 
+# uv (Python tool installer/cache; CI uses astral-sh/setup-uv)
+uv --version
+
 # yamllint (YAML linter)
-pip install yamllint
+uv tool install yamllint
 yamllint --version   # Expected: ≥1.35
 
 # ajv-cli (JSON Schema validator)
@@ -48,8 +51,8 @@ ajv --version   # Expected: ≥5.0.0
 ### Verify Setup
 
 ```bash
-# All four should succeed without errors
-node --version && ruby --version && yamllint --version && ajv help
+# All five should succeed without errors
+node --version && ruby --version && uv --version && yamllint --version && ajv help
 ```
 
 ---
@@ -1088,7 +1091,8 @@ done
 |---|------|-------|---------------|--------|
 | 3.1 | Create GitHub Actions `validate.yml` | 🤖 | `.github/workflows/validate.yml` | ✅ Done |
 | 3.2 | Create `scripts/validate.sh` | 🤖 | `scripts/validate.sh` | ✅ Done |
-| 3.3 | Run full validation, fix any failures | 🤖 | — | ✅ Done |
+| 3.3 | Create changed-files PR validation | 🤖 | `scripts/validate-changed.sh` | ✅ Done |
+| 3.4 | Run full validation, fix any failures | 🤖 | — | ✅ Done |
 
 #### 3.1 — GitHub Actions Workflow
 
@@ -1096,11 +1100,20 @@ done
 
 ```yaml
 name: Validate Curriculum
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   validate:
     runs-on: ubuntu-latest
+    env:
+      UV_TOOL_DIR: ${{ github.workspace }}/.ci/uv/tools
+      UV_TOOL_BIN_DIR: ${{ github.workspace }}/.ci/uv/bin
+      NPM_CONFIG_PREFIX: ${{ github.workspace }}/.ci/npm-prefix
     steps:
       - uses: actions/checkout@v4
 
@@ -1109,69 +1122,36 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
         with:
           python-version: "3.12"
+          enable-cache: true
+          tool-dir: ${{ env.UV_TOOL_DIR }}
+          tool-bin-dir: ${{ env.UV_TOOL_BIN_DIR }}
+
+      - name: Restore validation tools
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            .ci/uv/tools
+            .ci/uv/bin
+            .ci/npm-prefix
+          key: validation-tools-${{ runner.os }}-uv-yamllint-ajv-v1
 
       - name: Install validators
         run: |
-          npm install -g ajv-cli ajv-formats
-          pip install yamllint
+          uv python install 3.12
+          uv tool install yamllint
+          npm install --global ajv-cli ajv-formats
 
-      - name: Lint YAML
-        run: yamllint -c .yamllint.yml curricula/ concepts/ taxonomy/
+      - name: Run changed files validation
+        if: github.event_name == 'pull_request'
+        run: ./scripts/validate-changed.sh
 
-      - name: Validate syllabus files
-        run: |
-          find curricula -name "syllabus.yaml" -print0 | \
-            xargs -0 -I{} ajv validate --spec=draft2020 -s schema/syllabus.schema.json -d {}
-
-      - name: Validate subject files
-        run: |
-          find curricula -path "*/subjects/*.yaml" -print0 | \
-            xargs -0 -I{} ajv validate --spec=draft2020 -s schema/subject.schema.json -d {}
-
-      - name: Validate topic files
-        run: |
-          find curricula -path "*/topics/*" -name "*.yaml" \
-            ! -name "*.examples.yaml" ! -name "*.assessments.yaml" -print0 | \
-            xargs -0 -I{} ajv validate --spec=draft2020 -s schema/topic.schema.json -d {}
-
-      - name: Validate assessment files
-        run: |
-          find curricula -name "*.assessments.yaml" -print0 | \
-            xargs -0 -I{} ajv validate --spec=draft2020 -s schema/assessments.schema.json -d {}
-
-      - name: Validate example files
-        run: |
-          shopt -s nullglob
-          files=$(find curricula -name "*.examples.yaml")
-          if [ -n "$files" ]; then
-            echo "$files" | xargs -I{} ajv validate --spec=draft2020 -s schema/examples.schema.json -d {}
-          else
-            echo "No example files found (OK at this stage)"
-          fi
-
-      - name: Validate concept files
-        run: |
-          shopt -s nullglob
-          files=$(find concepts -name "*.yaml" 2>/dev/null)
-          if [ -n "$files" ]; then
-            echo "$files" | xargs -I{} ajv validate --spec=draft2020 -s schema/concept.schema.json -d {}
-          else
-            echo "No concept files found (OK at this stage)"
-          fi
-
-      - name: Validate taxonomy files
-        run: |
-          shopt -s nullglob
-          files=$(find taxonomy -name "*.yaml" 2>/dev/null)
-          if [ -n "$files" ]; then
-            echo "$files" | xargs -I{} ajv validate --spec=draft2020 -s schema/taxonomy.schema.json -d {}
-          else
-            echo "No taxonomy files found (OK at this stage)"
-          fi
+      - name: Run full validation
+        if: github.event_name != 'pull_request'
+        run: ./scripts/validate.sh
 ```
 
 #### 3.2 — Local Validation Script
@@ -1269,22 +1249,34 @@ fi
 chmod +x scripts/validate.sh
 ```
 
-#### 3.3 — Run Full Validation
+#### 3.3 — Changed-Files PR Validation
+
+**File:** `scripts/validate-changed.sh`
+
+```bash
+./scripts/validate-changed.sh main
+```
+
+Use this on pull requests to validate only files changed by the PR. It runs yamllint for changed curriculum YAML files and `.yamllint.yml`, validates changed curriculum YAML against the matching JSON Schema, parses changed workflow YAML, and syntax-checks validation scripts when they change.
+
+#### 3.4 — Run Full Validation
 
 ```bash
 ./scripts/validate.sh
 ```
 
-Fix any failures before proceeding.
+Run the full gate on pushes to `main`, manual workflow runs, and local release checks. Fix any failures before proceeding with a release or a full-repo validation cleanup.
 
 #### Day 3 Exit Criteria
 
 - [x] `.github/workflows/validate.yml` created
 - [x] `scripts/validate.sh` created and executable
-- [x] Full validation passes locally with zero errors
+- [x] `scripts/validate-changed.sh` created and executable
+- [x] Pull request validation checks changed files only
+- [x] Full validation remains available for `main` pushes and manual runs
 - [x] All existing content (1 syllabus, 1 subject, 3 topics, 3 assessments) validates
 
-**Progress:** 3 topics | 15 questions | 3 teaching notes | 3 assessments | 4 schemas | 1 syllabus | 1 subject | 1 CI workflow | 1 validation script
+**Progress:** 3 topics | 15 questions | 3 teaching notes | 3 assessments | 4 schemas | 1 syllabus | 1 subject | 1 CI workflow | 2 validation scripts
 
 ---
 
