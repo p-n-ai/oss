@@ -532,13 +532,14 @@ questions:
       - level: 1
         text: "Count the number of pencils in each group first to create a number sequence."
 
-  ### ---------------------------------------------------------
-  ### NEW ADDITIONS TO MEET 5-5-5 POOL MINIMUM
-  ### ---------------------------------------------------------
   - id: Q22
     # EXAM: UASA Bahagian C (Subjektif)
     # RATIONALE: Non-routine visual pattern requiring algebraic generalization (n=1, 2, 3...).
-    text: "A pattern is formed using square tiles. The first pattern ($n=1$) has 1 tile, the second ($n=2$) has 4 tiles, the third ($n=3$) has 7 tiles, and so on. Form an algebraic expression to represent the number of tiles in the $n$-th pattern."
+    text: >-
+      A pattern is formed using square tiles. The first pattern ($n=1$) has 1 tile,
+      the second ($n=2$) has 4 tiles, the third ($n=3$) has 7 tiles, and so on.
+      Form an algebraic expression to represent the number of tiles in the
+      $n$-th pattern.
     difficulty: hard
     tp_level: 5
     kbat: true
