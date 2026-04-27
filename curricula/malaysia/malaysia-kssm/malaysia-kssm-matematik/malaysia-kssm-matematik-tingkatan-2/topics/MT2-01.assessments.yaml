@@ -532,9 +532,6 @@ questions:
       - level: 1
         text: "Count the number of pencils in each group first to create a number sequence."
 
-  ### ---------------------------------------------------------
-  ### NEW ADDITIONS TO MEET 5-5-5 POOL MINIMUM
-  ### ---------------------------------------------------------
   - id: Q22
     # EXAM: UASA Bahagian C (Subjektif)
     # RATIONALE: Non-routine visual pattern requiring algebraic generalization (n=1, 2, 3...).
