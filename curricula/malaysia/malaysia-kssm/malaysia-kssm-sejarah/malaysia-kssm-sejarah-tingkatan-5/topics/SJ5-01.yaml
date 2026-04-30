@@ -128,5 +128,6 @@ teaching:
 quality_level: 2
 provenance: "ai-assisted"
 ai_teaching_notes: "SJ5-01.teaching.md"
+ai_content_notes: "SJ5-01.content.md"
 assessments_file: "SJ5-01.assessments.yaml"
 examples_file: "SJ5-01.examples.yaml"
