@@ -116,6 +116,29 @@
       },
       "uniqueItems": true
     },
+    "textbook_topics": {
+      "type": "array",
+      "description": "Chapters or sections from the physical textbook included in this topic",
+      "items": {
+        "type": "object",
+        "required": ["id", "title"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Textbook chapter/section ID, e.g. 1.1, 2.3"
+          },
+          "title": {
+            "type": "string",
+            "description": "Textbook section title in primary language"
+          },
+          "title_en": {
+            "type": "string",
+            "description": "Textbook section title in English"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
     "content_standards": {
       "type": "array",
       "minItems": 1,
@@ -175,6 +198,10 @@
             "type": "string",
             "pattern": "^[0-9]+\\.[0-9]+$",
             "description": "Reference to a content standard ID within this topic"
+          },
+          "textbook_topic_id": {
+            "type": "string",
+            "description": "Reference to a textbook section ID within this topic"
           },
           "is_citizenship_elements": {
             "type": "boolean",
@@ -354,6 +381,10 @@
     "ai_teaching_notes": {
       "type": "string",
       "description": "Relative path to .teaching.md file containing detailed AI tutoring guidance"
+    },
+    "ai_content_notes": {
+      "type": "string",
+      "description": "Relative path to .content.md file containing detailed AI content guidance"
     },
     "examples_file": {
       "type": "string",

@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/p-n-ai/oss/schema/teaching.schema.json",
+  "title": "Teaching Guidance",
+  "description": "Structured pedagogical guidance for AI tutoring delivery",
+  "type": "object",
+  "required": ["overview", "chatbot_delivery_rules", "teaching_units"],
+  "properties": {
+    "overview": {
+      "type": "string",
+      "description": "High-level summary of the topic's pedagogical goals"
+    },
+    "chatbot_delivery_rules": {
+      "type": "array",
+      "description": "Specific constraints and style guides for the AI tutor",
+      "items": {
+        "type": "object",
+        "required": ["rule", "description"],
+        "properties": {
+          "rule": { "type": "string", "description": "Short name of the rule (e.g., Pacing, Tone)" },
+          "description": { "type": "string", "description": "Detailed instruction for the rule" }
+        }
+      }
+    },
+    "dskp_mapping": {
+      "type": "array",
+      "description": "Mapping of textbook topics to official learning standards (SP)",
+      "items": {
+        "type": "object",
+        "required": ["textbook_topic_id", "standards"],
+        "properties": {
+          "textbook_topic_id": { "type": "string" },
+          "standards": { 
+            "type": "array", 
+            "items": { "type": "string" },
+            "description": "List of SP IDs, e.g., 12.1.1, K12.1.5"
+          }
+        }
+      }
+    },
+    "performance_standards_guidance": {
+      "type": "array",
+      "description": "Guidance on how to assess or deliver content for different TP levels",
+      "items": {
+        "type": "object",
+        "required": ["level", "descriptor"],
+        "properties": {
+          "level": { "type": "integer", "minimum": 1, "maximum": 6 },
+          "descriptor": { "type": "string" }
+        }
+      }
+    },
+    "teaching_units": {
+      "type": "array",
+      "description": "Unit-by-unit pedagogical strategies",
+      "items": {
+        "type": "object",
+        "required": ["id", "strategies", "cfu"],
+        "properties": {
+          "id": { "type": "string", "description": "Matches textbook_topic_id, e.g. 1.1" },
+          "title": { "type": "string" },
+          "strategies": { 
+            "type": "array", 
+            "items": { "type": "string" },
+            "description": "Instructional methods or activity suggestions"
+          },
+          "cfu": { 
+            "type": "array", 
+            "description": "Check for Understanding questions",
+            "items": { "type": "string" }
+          },
+          "the_trap": { 
+            "type": "string", 
+            "description": "Common misconceptions or pitfalls for this unit" 
+          }
+        }
+      }
+    },
+    "glossary": {
+      "type": "array",
+      "description": "Key terms and their translations/definitions",
+      "items": {
+        "type": "object",
+        "required": ["term_ms", "term_en", "definition"],
+        "properties": {
+          "term_ms": { "type": "string" },
+          "term_en": { "type": "string" },
+          "definition": { "type": "string" }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
