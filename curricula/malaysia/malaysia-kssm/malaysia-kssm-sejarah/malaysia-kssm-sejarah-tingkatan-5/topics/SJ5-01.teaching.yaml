@@ -1,0 +1,66 @@
+overview: "Bab ini adalah asas penting di mana kita membina pemahaman pelajar tentang makna sebenar kemerdekaan dan kenegaraan. Kita akan merungkai konsep kedaulatan bukan sahaja dari sudut sejarah lampau, tetapi mengaitkannya dengan realiti hari ini seperti isu sempadan perairan, perlembagaan, dan peranan mereka sebagai rakyat."
+chatbot_delivery_rules:
+  - rule: "Bite-Sized Pacing"
+    description: "Maksimum 2 perenggan pendek bagi setiap mesej. Jangan berikan maklumat yang terlalu padat (info-dump) pada satu masa."
+  - rule: "Tone"
+    description: "Bersemangat, patriotik, dan santai (relatable). Gunakan analogi kehidupan seharian (contoh: kedaulatan negara umpama 'tuan rumah' yang bebas menentukan peraturan di rumahnya sendiri)."
+  - rule: "Bilingualism"
+    description: "Sentiasa sebutkan istilah rasmi Bahasa Melayu Sejarah (KSSM), dan sertakan terjemahan Inggeris dalam kurungan bagi istilah utama (contoh: Kedaulatan (Sovereignty))."
+dskp_mapping:
+  - textbook_topic_id: "1.1"
+    standards: ["12.1.1", "K12.1.5"]
+  - textbook_topic_id: "1.2"
+    standards: ["12.1.2", "K12.1.6"]
+  - textbook_topic_id: "1.3"
+    standards: ["12.1.3", "K12.1.7"]
+  - textbook_topic_id: "1.4"
+    standards: ["12.1.4", "K12.1.8"]
+performance_standards_guidance:
+  - level: 1
+    descriptor: "Fokus kepada keupayaan pelajar menyebut semula definisi kedaulatan."
+  - level: 2
+    descriptor: "Pelajar perlu memberi contoh kedaulatan dalam konteks Malaysia."
+  - level: 5
+    descriptor: "Menilai pemahaman pelajar tentang mengapa kedaulatan adalah hak yang perlu dipertahankan."
+teaching_units:
+  - id: "1.1"
+    title: "Konsep Kedaulatan"
+    strategies:
+      - "Mulakan dengan etimologi bahasa (Yunani, Arab, Inggeris)."
+      - "Gunakan aktiviti role-play untuk pandangan tokoh."
+    activity_facilitation:
+      - activity_title: "Kerusi Panas (Hot Seat)"
+        guidance: "Minta pelajar bayangkan mereka adalah Aristotle atau Ibnu Khaldun. Tanya mereka: 'Jika anda adalah Aristotle, adakah undang-undang lebih besar daripada raja?'"
+    cfu:
+      - "Cuba kaitkan pandangan Ibnu Khaldun tentang 'semangat kekitaan' dengan perpaduan kaum di Malaysia hari ini. Mengapa ia penting?"
+    the_trap: "Pelajar sering mencampuradukkan Kedaulatan Tradisional (kuasa mutlak raja) dengan Kedaulatan Moden (kuasa rakyat/kerajaan berperlembagaan)."
+  - id: "1.2"
+    title: "Ciri Negara yang Berdaulat"
+    strategies:
+      - "Gunakan formula P.S.P.R (Pemerintahan, Sempadan, Perundangan, Rakyat)."
+    activity_facilitation:
+      - activity_title: "Peta Sempadan Malaysia"
+        guidance: "Tunjukkan peta Asia Tenggara. Tanya pelajar: 'Kenapa penting untuk kita tahu di mana sempadan laut kita berakhir dan sempadan jiran bermula?'"
+    cfu:
+      - "Mengapakah negara kita mesti mempunyai sempadan yang jelas dan diiktiraf oleh PBB?"
+    the_trap: "Pelajar selalu menganggap sempadan negara hanya bermaksud daratan. Tegaskan bahawa ia merangkumi maritim dan ruang udara."
+  - id: "1.3"
+    title: "Kepentingan Mewujudkan Negara Berdaulat"
+    strategies:
+      - "Hubungkaitkan kedaulatan dengan manfaat nyata: Pentadbiran, Ekonomi, Sosial, dan Hubungan Luar."
+    cfu:
+      - "Bagaimanakah kedaulatan negara membolehkan Malaysia merangka Dasar Pelajaran Kebangsaan mengikut acuan kita sendiri?"
+    the_trap: "Pelajar sering menganggap kedaulatan hanya tentang keselamatan tentera, lupa tentang aspek ekonomi dan pendidikan."
+  - id: "1.4"
+    title: "Langkah Mempertahankan Kedaulatan"
+    strategies:
+      - "Bahagikan kepada Peranan Pemerintah dan Peranan Rakyat."
+    activity_facilitation:
+      - activity_title: "Meja Bulat Serentak (Simultaneous Round Table)"
+        guidance: "Minta pelajar senaraikan 3 cara mereka sebagai remaja boleh menunjukkan patriotisme selain daripada mengibar bendera."
+    cfu:
+      - "Jika pemerintah telah menyediakan askar yang kuat, adakah rakyat biasa seperti anda tidak perlu lagi melakukan apa-apa? Mengapa?"
+    the_trap: "Pelajar menganggap mempertahan kedaulatan hanya kerja tentera. Tekankan elemen sivik dan perpaduan kaum sebagai pertahanan dalaman."
+    kbat_scaffolding:
+      - question_preview: "Setiap warganegara Malaysia mempunyai tanggungjawab untuk mempertahankan kedaulatan perairan negara."
+        hint: "Fikirkan tentang isu pencerobohan nelayan asing atau keselamatan di zon maritim (ESSZONE)."
