@@ -13,11 +13,12 @@
 | :--- | :---: | :--- |
 | `assessments.schema.json` | 🚧 | Needs review |
 | `concept.schema.json` | 🚧 | Needs review |
+| `content.schema.json` | ✅ | [NEW] Digital Twin of Textbook |
 | `examples.schema.json` | 🚧 | Needs review |
 | `subject.schema.json` | 🚧 | Needs review |
 | `syllabus.schema.json` | 🚧 | Needs review |
-| `topic.schema.json` | ✅ | Amended for textbook_topics |
 | `teaching.schema.json` | ✅ | [NEW] Based on SJ5-01.teaching.md |
+| `topic.schema.json` | ✅ | Amended for textbook_topics |
 
 
 ### Legend

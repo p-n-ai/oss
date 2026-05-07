@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/p-n-ai/oss/schema/content.schema.json",
+  "title": "Textbook Content Notes (Sejarah KSSM)",
+  "description": "Structured schema for storing detailed textbook notes, historical facts, figures, activities, and end-of-chapter assessments to serve as a comprehensive AI knowledge base.",
+  "type": "object",
+  "required": ["chapter_id", "chapter_title", "synopsis", "chapter_metadata", "subtopics", "chapter_conclusion"],
+  "properties": {
+    "chapter_id": {
+      "type": "string",
+      "description": "The chapter number, e.g., '1'"
+    },
+    "chapter_title": {
+      "type": "string",
+      "description": "The chapter title, e.g., 'Kedaulatan Negara'"
+    },
+    "synopsis": {
+      "type": "object",
+      "required": ["text", "page_reference"],
+      "properties": {
+        "text": { "type": "string", "description": "Brief overview/introduction of the chapter" },
+        "page_reference": { "type": "string", "description": "e.g., 'Halaman 2'" }
+      }
+    },
+    "chapter_metadata": {
+      "type": "object",
+      "description": "Front-matter goals and elements outlined at the start of the chapter.",
+      "properties": {
+        "inti_pati_pembelajaran": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of core learning objectives for the chapter."
+        },
+        "kemahiran_pemikiran_sejarah": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of historical thinking skills applied in the chapter."
+        },
+        "elemen_kewarganegaraan_dan_sivik": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of civic and citizenship elements focused on in the chapter."
+        }
+      }
+    },
+    "subtopics": {
+      "type": "array",
+      "description": "List of subtopics in the chapter, corresponding to the DSKP/Textbook structure.",
+      "items": {
+        "type": "object",
+        "required": ["subtopic_id", "subtopic_title", "page_references", "sections"],
+        "properties": {
+          "subtopic_id": {
+            "type": "string",
+            "description": "e.g., '1.1'"
+          },
+          "subtopic_title": {
+            "type": "string",
+            "description": "e.g., 'Konsep Kedaulatan'"
+          },
+          "page_references": {
+            "type": "string",
+            "description": "e.g., 'Halaman 4 - 7'"
+          },
+          "sections": {
+            "type": "array",
+            "description": "Sub-headings or logical groupings within the subtopic.",
+            "items": {
+              "type": "object",
+              "required": ["section_title", "items"],
+              "properties": {
+                "section_title": {
+                  "type": "string",
+                  "description": "e.g., 'Pandangan Tokoh'"
+                },
+                "page_reference": {
+                  "type": "string",
+                  "description": "Specific page number for this section, e.g., 'Halaman 5'"
+                },
+                "items": {
+                  "type": "array",
+                  "description": "Factual content, activities, and side-notes categorized for AI parsing.",
+                  "items": {
+                    "type": "object",
+                    "required": ["item_type", "description"],
+                    "properties": {
+                      "item_type": {
+                        "type": "string",
+                        "enum": [
+                          "language_definition", 
+                          "figure_viewpoint", 
+                          "concept", 
+                          "chronology", 
+                          "general_fact", 
+                          "role_responsibility",
+                          "information_box",
+                          "glossary_term",
+                          "pak21_activity",
+                          "museum_inspiration",
+                          "qr_code_reference",
+                          "historical_document",
+                          "map_or_chart_reference"
+                        ],
+                        "description": "Categorizes the data."
+                      },
+                      "title": {
+                        "type": "string",
+                        "description": "The specific term, figure's name, concept title, or activity name."
+                      },
+                      "description": {
+                        "type": "string",
+                        "description": "The detailed explanation, quote, fact, or instruction for the activity."
+                      },
+                      "context": {
+                        "type": "string",
+                        "description": "Additional tags, e.g., '(Ahli Falsafah Yunani)' or '(Aktiviti Hot Seat)'"
+                      },
+                      "page_reference": {
+                        "type": "string",
+                        "description": "Optional specific page for this item if different from section"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "chapter_conclusion": {
+      "type": "object",
+      "description": "Materials found at the end of the chapter for review, assessment, and reflection.",
+      "properties": {
+        "imbas_kembali": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Summary points of the chapter."
+        },
+        "pemahaman_dan_pemikiran_kritis": {
+          "type": "array",
+          "description": "End-of-chapter questions testing different cognitive levels.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "question_text": { "type": "string" },
+              "question_type": { "type": "string", "enum": ["objective", "subjective", "kbat"] }
+            }
+          }
+        },
+        "cakna_dan_cerminan_sejarah": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Reflections, values, patriotism, and lessons learned."
+        },
+        "kajian_kes": {
+          "type": "object",
+          "description": "Case study assignment details if present in the chapter.",
+          "properties": {
+            "tema": { "type": "string" },
+            "standard_kandungan": { "type": "string" },
+            "pernyataan_masalah": { "type": "string" },
+            "tugasan_arahan": { "type": "string" }
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
