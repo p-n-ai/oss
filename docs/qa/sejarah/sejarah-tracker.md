@@ -43,7 +43,7 @@ This document tracks the progress of the Sejarah (History) curriculum digitaliza
 ## 📈 Curriculum Progress
 
 ### Form 1
-| Chapter | Level | Metadata | Content | Teaching | Assessments | Exams |
+| Chapter | Level | Metadata | Content | Teaching | Assessments | Examples |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
 | SJ1-01 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | SJ1-02 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
@@ -55,7 +55,7 @@ This document tracks the progress of the Sejarah (History) curriculum digitaliza
 | SJ1-08 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 ### Form 2
-| Chapter | Level | Metadata | Content | Teaching | Assessments | Exams |
+| Chapter | Level | Metadata | Content | Teaching | Assessments | Examples |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
 | SJ2-01 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | SJ2-02 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
@@ -69,7 +69,7 @@ This document tracks the progress of the Sejarah (History) curriculum digitaliza
 | SJ2-10 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 ### Form 3
-| Chapter | Level | Metadata | Content | Teaching | Assessments | Exams |
+| Chapter | Level | Metadata | Content | Teaching | Assessments | Examples |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
 | SJ3-01 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | SJ3-02 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
@@ -81,7 +81,7 @@ This document tracks the progress of the Sejarah (History) curriculum digitaliza
 | SJ3-08 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 ### Form 4
-| Chapter | Level | Metadata | Content | Teaching | Assessments | Exams |
+| Chapter | Level | Metadata | Content | Teaching | Assessments | Examples |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
 | SJ4-01 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | SJ4-02 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
@@ -95,7 +95,7 @@ This document tracks the progress of the Sejarah (History) curriculum digitaliza
 | SJ4-10 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
 ### Form 5
-| Chapter | Level | Metadata | Content | Teaching | Assessments | Exams |
+| Chapter | Level | Metadata | Content | Teaching | Assessments | Examples |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
 | SJ5-01 | 3️⃣ | ✅ | ✅ | ✅ | ⏳ | ⏳ |
 | SJ5-02 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
