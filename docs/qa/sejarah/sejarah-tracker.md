@@ -2,6 +2,28 @@
 
 This document tracks the progress of the Sejarah (History) curriculum digitalization for the AI Tutor. The goal is to reach **Level 3 (Golden Standard)** for all chapters.
 
+### 🛠️ Prompt Review Status
+| Prompt File | Status | Notes |
+| :--- | :---: | :--- |
+| `topic-metadata-prompt.md` | 🚧 | Needs review |
+| `teaching-notes-prompt.md` | 🚧 | Needs review |
+| `assessments-prompt.md` | 🚧 | Needs review |
+| `examples-prompt.md` | 🚧 | Needs review |
+
+### 📜 Schema Review Status
+| Schema File | Status | Notes |
+| :--- | :---: | :--- |
+| `assessments.schema.json` | 🚧 | Needs review |
+| `concept.schema.json` | 🚧 | Needs review |
+| `content.schema.json` | ✅ | [NEW] Digital Twin of Textbook |
+| `examples.schema.json` | 🚧 | Needs review |
+| `subject.schema.json` | 🚧 | Needs review |
+| `syllabus.schema.json` | 🚧 | Needs review |
+| `teaching.schema.json` | ✅ | [NEW] Based on SJ5-01.teaching.md |
+| `topic.schema.json` | ✅ | Amended for textbook_topics |
+
+---
+
 ## 🏁 Quality Level Definitions
 
 *   **0️⃣** : No structured data (Markdown/PDF only)
@@ -11,6 +33,10 @@ This document tracks the progress of the Sejarah (History) curriculum digitaliza
 *   **⏳** : Yet to create the file
 *   **🚧** : Drafted / AI Generated without standard QA
 *   **✅** : Final Golden Version (Audited)
+
+### Legend Extensions
+*   **0️⃣** : Level 0 Stub (Metadata structurally incomplete)
+*   **1️⃣** : Level 1 Base (Basic Metadata & LOs)
 
 ---
 
@@ -38,7 +64,7 @@ This document tracks the progress of the Sejarah (History) curriculum digitaliza
 | SJ2-05 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | SJ2-06 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | SJ2-07 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-| SJ2-08 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
+| SJ2-08 | 0️⃣ | ⏳ | ⏳ | ⏳ | 2️⃣ | ⏳ |
 | SJ2-09 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | SJ2-10 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 
@@ -81,30 +107,3 @@ This document tracks the progress of the Sejarah (History) curriculum digitaliza
 | SJ5-08 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | SJ5-09 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
 | SJ5-10 | 0️⃣ | ⏳ | ⏳ | ⏳ | ⏳ | ⏳ |
-
----
-
-### 🛠️ Prompt Review Status
-| Prompt File | Status | Notes |
-| :--- | :---: | :--- |
-| `topic-metadata-prompt.md` | 🚧 | Needs review |
-| `teaching-notes-prompt.md` | 🚧 | Needs review |
-| `assessments-prompt.md` | 🚧 | Needs review |
-| `examples-prompt.md` | 🚧 | Needs review |
-
-### 📜 Schema Review Status
-| Schema File | Status | Notes |
-| :--- | :---: | :--- |
-| `assessments.schema.json` | 🚧 | Needs review |
-| `concept.schema.json` | 🚧 | Needs review |
-| `content.schema.json` | ✅ | [NEW] Digital Twin of Textbook |
-| `examples.schema.json` | 🚧 | Needs review |
-| `subject.schema.json` | 🚧 | Needs review |
-| `syllabus.schema.json` | 🚧 | Needs review |
-| `teaching.schema.json` | ✅ | [NEW] Based on SJ5-01.teaching.md |
-| `topic.schema.json` | ✅ | Amended for textbook_topics |
-
-
-### Legend Extensions
-*   **0️⃣** : Level 0 Stub (Metadata structurally incomplete)
-*   **1️⃣** : Level 1 Base (Basic Metadata & LOs)
