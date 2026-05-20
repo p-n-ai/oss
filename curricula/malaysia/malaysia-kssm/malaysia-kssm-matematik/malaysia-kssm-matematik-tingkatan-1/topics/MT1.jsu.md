@@ -21,8 +21,7 @@
 | 4.2 | Kadar | - | - | - | - | - | - | 0 | 0 |
 | 4.3 | Kadaran | - | 1(R) | - | 1(S) | - | - | 2 | 2 |
 | 4.4 | Nisbah, Kadar dan Kadaran | - | - | 1(R) | - | - | - | 1 | 1 |
-| 4.5 | Perkaitan antara Nisbah, Kadar dan Kadaran dengan 
-Peratusan, Pecahan dan Perpuluhan | - | - | - | - | - | - | 0 | 0 |
+| 4.5 | Perkaitan antara Nisbah, Kadar dan Kadaran dengan Peratusan Pecahan dan Perpuluhan | - | - | - | - | - | - | 0 | 0 |
 | **5.0** | **Ungkapan Algebra** |  |  |  |  |  |  |  |  |
 | 5.1 | Pemboleh Ubah dan Ungkapan Algebra | - | - | - | - | - | - | 0 | 0 |
 | 5.2 | Ungkapan Algebra yang Melibatkan Operasi Asas Aritmetik | - | 1 (R) | - | 1 (S) | - | - | 2 | 2 |
