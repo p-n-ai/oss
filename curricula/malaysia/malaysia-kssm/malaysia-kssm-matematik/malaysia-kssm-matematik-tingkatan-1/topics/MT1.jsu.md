@@ -35,25 +35,20 @@
 | **8.0** | **Garis dan Sudut** |  |  |  |  |  |  |  |  |
 | 8.1 | Garis dan Sudut | - | - | - | - | - | - | 0 | 0 |
 | 8.2 | Sudut yang berkaitan dengan Garis Bersilang | - | - | - | - | - | - | 0 | 0 |
-| 8.3 | Sudut yang berkaitan dengan Garis Selari dan Garis Rentas 
-Lintang | - | - | 1 (T) | - | - | - | 1 | 1 |
+| 8.3 | Sudut yang berkaitan dengan Garis Selari dan Garis Rentas Lintang | - | - | 1 (T) | - | - | - | 1 | 1 |
 | **9.0** | **Poligon Asas** |  |  |  |  |  |  |  |  |
 | 9.1 | Poligon | - | - | - | - | - | - | 0 | 0 |
-| 9.2 | Sifat Segi Tiga dan Sudut Pedalaman serta Sudut Peluaran 
-Segi Tiga | - | - | - | - | - | - | 0 | 0 |
-| 9.3 | Sifat Sisi Empat dan Sudut Pedalaman serta Sudut Peluaran 
-Sisi Empat | - | - | 1 (S) | - | - | - | 1 | 1 |
+| 9.2 | Sifat Segi Tiga dan Sudut Pedalaman serta Sudut Peluaran Segi Tiga | - | - | - | - | - | - | 0 | 0 |
+| 9.3 | Sifat Sisi Empat dan Sudut Pedalaman serta Sudut Peluaran Sisi Empat | - | - | 1 (S) | - | - | - | 1 | 1 |
 | **10.0** | **Perimeter dan Luas** |  |  |  |  |  |  |  |  |
 | 10.1 |  Perimeter | - | - | - | 1(S) | - | - | 1 | 1 |
 | 10.2 | Luas Segi Tiga, Segi Empat Selari, Lelayang dan Trapezium | - | - | - | - | - | - | 0 | 0 |
 | 10.3 | Perkaitan antara Perimeter dan Luas | - | - | - | - | - | - | 0 | 0 |
 | **11.0** | **Pengenalan Set** |  |  |  |  |  |  |  |  |
 | 11.1 | Set | - | - | - | - | - | - | 0 | 0 |
-| 11.2 | Gambar Rajah Venn, Set Semesta, Pelengkap bagi suatu Set 
-dan Subset | - | - | - | 1(R) | 1(S) | - | 2 | 2 |
+| 11.2 | Gambar Rajah Venn, Set Semesta, Pelengkap bagi suatu Set dan Subset | - | - | - | 1(R) | 1(S) | - | 2 | 2 |
 | **12.0** | **Pengendalian Data** |  |  |  |  |  |  |  |  |
-| 12.1 | Proses Pengumpulan, Pengorganisasian dan Perwakilan Data, 
-serta Pentafsiran Perwakilan Data | 1(R) | - | - | 1(S) | - | - | 2 | 2 |
+| 12.1 | Proses Pengumpulan, Pengorganisasian dan Perwakilan Data, serta Pentafsiran Perwakilan Data | 1(R) | - | - | 1(S) | - | - | 2 | 2 |
 | **13.0** | **Teorem Pythagoras** |  |  |  |  |  |  |  |  |
 | 13.1 | Teorem Pythagoras | - | - | 2(T) | - | - | - | 2 | 2 |
 | 13.2 | Akas Teorem Pythagoras | - | - | - | - | - | - | 0 | 0 |
