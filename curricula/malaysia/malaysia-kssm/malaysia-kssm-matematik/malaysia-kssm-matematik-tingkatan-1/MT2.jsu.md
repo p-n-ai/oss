@@ -49,8 +49,7 @@
 | 12.1 | Sukatan Kecenderungan Memusat | - | - | - | 1(T) | - | - | 1 | 1 |
 | **13.0** | **Kebarangkalian Mudah** |  |  |  |  |  |  |  |  |
 | 13.1 | Kebarangkalian Eksperimen | 1(R) | - | - | - | - | - | 1 | 1 |
-| 13.2 |  Kebarangkalian Teori yang Melibatkan Kesudahan Sama 
-Boleh Jadi | - | - | 1(S) | - | - | - | 1 | 1 |
+| 13.2 |  Kebarangkalian Teori yang Melibatkan Kesudahan Sama Boleh Jadi | - | - | 1(S) | - | - | - | 1 | 1 |
 | 13.3 | Kebarangkalian Peristiwa Pelengkap | - | - | - | - | - | - | 0 | 0 |
 | 13.4 | Kebarangkalian Mudah | - | - | - | - | - | - | 0 | 0 |
 
