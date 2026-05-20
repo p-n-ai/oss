@@ -1,11 +1,19 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/p-n-ai/oss/schema/teaching.schema.json",
-  "title": "Teaching Guidance",
-  "description": "Structured pedagogical guidance for AI tutoring delivery",
+  "title": "Teaching Guidance Frontmatter",
+  "description": "Schema for the YAML frontmatter in teaching guidance Markdown files.",
   "type": "object",
-  "required": ["overview", "chatbot_delivery_rules", "teaching_units"],
+  "required": ["id", "title", "overview", "chatbot_delivery_rules"],
   "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the teaching guide, e.g., SJ5-01-teaching"
+    },
+    "title": {
+      "type": "string",
+      "description": "Display title for the teaching guidance"
+    },
     "overview": {
       "type": "string",
       "description": "High-level summary of the topic's pedagogical goals"
@@ -47,56 +55,6 @@
         "properties": {
           "level": { "type": "integer", "minimum": 1, "maximum": 6 },
           "descriptor": { "type": "string" }
-        }
-      }
-    },
-    "teaching_units": {
-      "type": "array",
-      "description": "Unit-by-unit pedagogical strategies",
-      "items": {
-        "type": "object",
-        "required": ["id", "strategies", "cfu"],
-        "properties": {
-          "id": { "type": "string", "description": "Matches subtopic_id in content.yaml, e.g. 1.1" },
-          "title": { "type": "string" },
-          "strategies": { 
-            "type": "array", 
-            "items": { "type": "string" },
-            "description": "Instructional methods or activity suggestions"
-          },
-          "activity_facilitation": {
-            "type": "array",
-            "description": "How the AI should deliver specific textbook activities (PAK-21, Museum, etc.)",
-            "items": {
-              "type": "object",
-              "required": ["activity_title", "guidance"],
-              "properties": {
-                "activity_title": { "type": "string", "description": "Title of the activity as listed in content.yaml" },
-                "guidance": { "type": "string", "description": "Specific delivery instructions for the AI" }
-              }
-            }
-          },
-          "cfu": { 
-            "type": "array", 
-            "description": "Check for Understanding questions",
-            "items": { "type": "string" }
-          },
-          "kbat_scaffolding": {
-            "type": "array",
-            "description": "Hints or steps to help students answer KBAT questions for this unit",
-            "items": {
-              "type": "object",
-              "required": ["hint"],
-              "properties": {
-                "question_preview": { "type": "string", "description": "Optional snippet of the question this hint relates to" },
-                "hint": { "type": "string" }
-              }
-            }
-          },
-          "the_trap": { 
-            "type": "string", 
-            "description": "Common misconceptions or pitfalls for this unit" 
-          }
         }
       }
     }
