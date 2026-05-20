@@ -8,15 +8,12 @@
 | 1.3 | Pecahan Positif dan Negatif | 1 (R) | - | - | - | - | - | 1 | 1 |
 | 1.4 | Perpuluhan Positif dan Negatif | - | 1 (S) | - | - | - | - | 1 | 1 |
 | 1.5 | Nombor Nisbah | - | - | - | - | - | - | 0 | 0 |
-
 | **2.0** | **Faktor dan Gandaan** |  |  |  |  |  |  |  |  |
 | 2.1 | Faktor, Faktor Perdana dan FSTB | - | - | - | - | - | - | 0 | 0 |
 | 2.2 | Gandaan dan GSTK | - | - | 1 (R) | - | - | - | 1 | 1 |
-
 | **3.0** | **Kuasa Dua / Tiga** |  |  |  |  |  |  |  |  |
 | 3.1 | Kuasa Dua dan Punca Kuasa Dua | - | - | - | - | - | - | 0 | 0 |
 | 3.2 | Kuasa Tiga dan Punca Kuasa Tiga | - | - | 1 (T) | - | - | - | 1 | 1 |
-
 | **4.0** | **Nisbah, Kadar dan Kadaran** |  |  |  |  |  |  |  |  |
 | 4.1 | Nisbah | - | - | - | - | - | - | 0 | 0 |
 | 4.2 | Kadar | - | - | - | - | - | - | 0 | 0 |
