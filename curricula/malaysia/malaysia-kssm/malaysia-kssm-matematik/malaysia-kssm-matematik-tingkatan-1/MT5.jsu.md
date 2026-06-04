@@ -5,7 +5,7 @@
 # KERTAS 1
 
 | No. Soalan | Tajuk | SP | Ting. | Mengingat & Memahami (R/S/T) | Mengaplikasi (R/S/T) | Menganalisis (R/S/T) | Jumlah Markah |
-|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|
 | 1 | Ubahan | 1.3.1 | 5 | 1(R) | - | - | 1 |
 | 2 | Matematik Pengguna: Simpanan dan Pelaburan, Kredit dan Hutang | 3.2.2 | 3 | 1(R) | - | - | 1 |
 | 3 | Matematik Pengguna: Insurans | 3.1.3 | 5 | - | 1(R) | - | 1 |
@@ -54,7 +54,7 @@
 ## Bahagian A
 
 | No. Soalan | Tajuk | SP | Ting. | Mengingat & Memahami (R/S/T) | Mengaplikasi (R/S/T) | Menganalisis (R/S/T) | Menilai (R/S/T) | Mencipta (R/S/T) | Jumlah Markah |
-|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|
 | 1 | Matematik Pengguna: Insurans | 3.1.3 | 5 | - | 4(S) | - | - | - | 4 |
 | 2 | Graf Fungsi | 8.2.1 | 2 | 2(R) | - | - | - | - | 2 |
 | 3 | Matematik Pengguna: Simpanan dan Pelaburan, Kredit dan Hutang | 3.1.3 | 3 | - | - | 4(S) | - | - | 4 |
@@ -75,7 +75,7 @@
 ## Bahagian B
 
 | No. Soalan | Tajuk | SP | Ting. | Mengingat & Memahami (R/S/T) | Mengaplikasi (R/S/T) | Menganalisis (R/S/T) | Menilai (R/S/T) | Mencipta (R/S/T) | Jumlah Markah |
-|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|
 | 11(a) | Ketaksamaan Linear dalam Dua Pemboleh Ubah | 6.2.1 | 4 | - | - | 2(S) | - | - | 2 |
 | 11(b) | Ketaksamaan Linear dalam Dua Pemboleh Ubah | 6.2.3 | 4 | - | 3(R) | - | - | - | 2 |
 | 11(c) | Ketaksamaan Linear dalam Dua Pemboleh Ubah | 6.2.4 | 4 | - | - | 2(R) | - | - | 2 |
@@ -94,7 +94,7 @@
 ## Bahagian C
 
 | No. Soalan | Tajuk | SP | Ting. | Mengingat & Memahami (R/S/T) | Mengaplikasi (R/S/T) | Menganalisis (R/S/T) | Menilai (R/S/T) | Mencipta (R/S/T) | Jumlah Markah |
-|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|
 | 16(a) | Nisbah, Kadar dan Kadaran | 4.4.4 | 1 | - | 2(R) | - | - | - | 2 |
 | 16(b) | Pengendalian Data | 12.1.3 | 1 | 4(R) | - | - | - | - | 4 |
 | 16(c) | Koordinat | 7.2.4 | 2 | - | 3(R) | - | - | - | 3 |
