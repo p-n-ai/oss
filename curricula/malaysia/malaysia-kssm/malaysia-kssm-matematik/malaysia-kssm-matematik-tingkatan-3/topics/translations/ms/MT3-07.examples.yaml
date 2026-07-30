@@ -40,7 +40,7 @@ worked_examples:
     learning_objective: "7.2.3"
     real_world_analogy: "Anda adalah kontraktor untuk projek 'Rumah Impian'. Anda mempunyai pelan 2D, dan anda mesti mengira jumlah kos bahan berdasarkan isi padu 3D bangunan sebenar."
     misconception_alert: "Ralat Skala! Jika skala ialah $1:50$, skala luas ialah $1:50^2$. Lebih selamat untuk menukar semua ukuran lukisan skala kepada ukuran sebenar dalam meter SEBELUM mengira isi padu."
-    scenario: "Satu model skala bagi pondok belajar (Projek STEM) mempunyai luas pelan $20\text{ cm}^2$ dan tinggi dalam dongakan depan $10\text{ cm}$. Jika skala ialah $1:50$, hitung isi padu sebenar pondok itu dalam $\text{m}^3$."
+    scenario: "Satu model skala bagi pondok belajar (Projek STEM) mempunyai luas pelan $20\\text{ cm}^2$ dan tinggi dalam dongakan depan $10\\text{ cm}$. Jika skala ialah $1:50$, hitung isi padu sebenar pondok itu dalam $\\text{m}^3$."
     working: |
       1. Fahami: Kita perlukan isi padu sebenar. Skala ialah $1:50$.
       2. Tukar dimensi model kepada dimensi sebenar:

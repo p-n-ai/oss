@@ -40,7 +40,7 @@ worked_examples:
     learning_objective: "7.2.3"
     real_world_analogy: "You are a contractor for a 'Dream House' project. You have the 2D blueprints (Plan and Elevations), and you must calculate the total material cost based on the 3D volume of the actual building."
     misconception_alert: "Scaling errors! If the scale is $1:100$, the area scale is $1:100^2$. It is safer to convert all scale drawing measurements to actual measurements in meters BEFORE calculating volume."
-    scenario: "A scale model of a study hut (STEM Project) has a plan area of $20\text{ cm}^2$ and a height in the front elevation of $10\text{ cm}$. If the scale is $1:50$, calculate the actual volume of the hut in $\text{m}^3$."
+    scenario: "A scale model of a study hut (STEM Project) has a plan area of $20\\text{ cm}^2$ and a height in the front elevation of $10\\text{ cm}$. If the scale is $1:50$, calculate the actual volume of the hut in $\\text{m}^3$."
     working: |
       1. Understand: We need the actual volume. Scale is $1:50$.
       2. Convert model dimensions to actual dimensions:

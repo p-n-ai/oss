@@ -34,7 +34,7 @@ questions:
     kbat: false
     answer:
       type: subjective
-      value: "alpha = 60^\circ, theta = 240^\circ"
+      value: "alpha = 60^\\circ, theta = 240^\\circ"
       working: |
         Langkah 1: Tanda negatif menunjukkan sukuan. Julat $180^\circ$ hingga $270^\circ$ mengesahkan sudut berada di Sukuan III.
         Langkah 2: Cari sudut rujukan $\\alpha$ menggunakan nilai mutlak: $\\sin \\alpha = 0.866$. Maka, $\\alpha = 60^\circ$.
@@ -60,7 +60,7 @@ questions:
     kbat: true
     answer:
       type: subjective
-      value: "theta = 150^\circ, Jarak = 12.99 cm"
+      value: "theta = 150^\\circ, Jarak = 12.99 cm"
       working: |
         Langkah 1: $\\cos \\theta$ bernilai negatif dalam Sukuan II bagi julat yang diberi.
         Langkah 2: Cari sudut rujukan $\\alpha = \\cos^{-1}(0.866) = 30^\circ$.
@@ -87,7 +87,7 @@ questions:
     kbat: false
     answer:
       type: subjective
-      value: "Amplitud = 3, Tempoh = 180^\circ, Maksimum = 4"
+      value: "Amplitud = 3, Tempoh = 180^\\circ, Maksimum = 4"
       working: |
         Langkah 1: Kenal pasti pemalar daripada $y = a \\sin bx + c$: $a=3, b=2, c=1$.
         Langkah 2: Amplitud ialah $|a|$, maka Amplitud = 3.

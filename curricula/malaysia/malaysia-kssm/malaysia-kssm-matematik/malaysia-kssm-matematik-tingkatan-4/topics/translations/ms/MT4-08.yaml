@@ -73,7 +73,7 @@ common_misconceptions:
   - misconception: "Mengelirukan serakan dengan kecenderungan memusat."
     remediation: "Jelaskan bahawa kecenderungan memusat menghuraikan 'pusat' data (min/median), manakala serakan menghuraikan 'taburan' di sekitar pusat tersebut."
   - misconception: "Lupa untuk menguasakan dua beza nilai apabila menghitung varians."
-    remediation: "Tekankan langkah-langkah formula di mana $(x - \bar{x})^2$ diperlukan sebelum mencari purata."
+    remediation: "Tekankan langkah-langkah formula di mana $(x - \\bar{x})^2$ diperlukan sebelum mencari purata."
   - misconception: "Menganggap varians dan sisihan piawai mempunyai unit yang sama dengan data asal."
     remediation: "Terangkan bahawa sisihan piawai adalah punca kuasa dua varians, yang mengembalikan ukuran kepada unit asal data."
 engagement_hooks:

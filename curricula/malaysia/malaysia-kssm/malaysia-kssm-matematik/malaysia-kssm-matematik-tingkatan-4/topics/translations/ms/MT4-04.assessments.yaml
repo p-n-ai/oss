@@ -48,7 +48,7 @@ questions:
   # TP3: Aplikasi (4.1.2)
   - id: Q3
     type: subjective
-    text: "Diberi set semesta $\xi = \{x : x \text{ ialah integer, } 1 \leq x \leq 10\}$, set $A = \{2, 3, 5, 7\}$ dan set $B = \{1, 3, 5, 7, 9\}$. Tentukan $(A \cap B)'$."
+    text: "Diberi set semesta $\\xi = \\{x : x \\text{ ialah integer, } 1 \\leq x \\leq 10\\}$, set $A = \\{2, 3, 5, 7\\}$ dan set $B = \\{1, 3, 5, 7, 9\\}$. Tentukan $(A \\cap B)'$."
     difficulty: medium
     learning_objective: "4.1.2"
     tp_level: 3
@@ -64,7 +64,7 @@ questions:
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Mengenal pasti $A \cap B$ sebagai $\{3, 5, 7\}$ dengan betul."
+        criteria: "Mengenal pasti $A \\cap B$ sebagai $\\{3, 5, 7\\}$ dengan betul."
       - marks: 2
         criteria: "Mengenal pasti unsur pelengkap daripada set semesta dengan betul."
     hints:
@@ -91,7 +91,7 @@ questions:
       - marks: 2
         criteria: "Mengenal pasti bilangan murid dalam setiap rantau rajah Venn dengan betul."
       - marks: 1
-        criteria: "Mengira jumlah kesatuan $n(F \cup B)$ dengan betul."
+        criteria: "Mengira jumlah kesatuan $n(F \\cup B)$ dengan betul."
       - marks: 1
         criteria: "Jawapan akhir mengenal pasti pelengkap dengan betul."
     hints:
@@ -100,7 +100,7 @@ questions:
   # TP5: Penyelesaian Masalah Rutin Kompleks (4.3.3)
   - id: Q5
     type: subjective
-    text: "Diberi $\xi = \{x : x \text{ ialah integer, } 10 \leq x \leq 20\}$, $P = \{x : x \text{ ialah gandaan 2}\}$, $Q = \{x : x \text{ ialah gandaan 3}\}$, dan $R = \{11, 13, 17, 19\}$. Cari $n(P \cup Q)' \cap R$."
+    text: "Diberi $\\xi = \\{x : x \\text{ ialah integer, } 10 \\leq x \\leq 20\\}$, $P = \\{x : x \\text{ ialah gandaan 2}\\}$, $Q = \\{x : x \\text{ ialah gandaan 3}\\}$, dan $R = \\{11, 13, 17, 19\\}$. Cari $n(P \\cup Q)' \\cap R$."
     difficulty: hard
     learning_objective: "4.3.3"
     tp_level: 5
@@ -120,7 +120,7 @@ questions:
       - marks: 2
         criteria: "Menyenaraikan set P, Q, dan set Semesta dengan betul."
       - marks: 1
-        criteria: "Mencari kesatuan $P \cup Q$ dengan betul."
+        criteria: "Mencari kesatuan $P \\cup Q$ dengan betul."
       - marks: 1
         criteria: "Mengenal pasti persilangan set akhir dengan betul."
       - marks: 1

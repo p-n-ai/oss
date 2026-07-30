@@ -5,9 +5,9 @@ worked_examples:
   - id: WE-01
     topic: "Identifying Quadratic Expressions"
     difficulty: easy
-    real_world_analogy: "Think of a quadratic expression like a 2D square plot of land. To calculate the area, you must have two dimensions multiplying (like $x \times x = x^2$). If you only have $x$, it's just a straight fence line!"
+    real_world_analogy: "Think of a quadratic expression like a 2D square plot of land. To calculate the area, you must have two dimensions multiplying (like $x \\times x = x^2$). If you only have $x$, it's just a straight fence line!"
     misconception_alert: "The 'Hidden Zero' Trap! Students often think $x^2 + 5$ is not a quadratic because the '$x$' term is missing. Remind them that the coefficient $b$ can be zero ($0x$), but $a$ (the $x^2$ coefficient) can never be zero!"
-    scenario: "Determine whether the expression $\frac{1}{2}m^2$ is a quadratic expression in one variable. Justify your answer based on the general form $ax^2 + bx + c$."
+    scenario: "Determine whether the expression $\\frac{1}{2}m^2$ is a quadratic expression in one variable. Justify your answer based on the general form $ax^2 + bx + c$."
     working: |
       1. Identify the variable in the expression: The variable is $m$.
       2. Identify the highest power of the variable: The highest power of $m$ is 2.

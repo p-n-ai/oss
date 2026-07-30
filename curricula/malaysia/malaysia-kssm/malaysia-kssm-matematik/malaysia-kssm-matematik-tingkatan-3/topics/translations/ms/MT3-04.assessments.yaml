@@ -26,7 +26,7 @@ questions:
 
   # TP2 - Standard Pembelajaran 4.1.2 (OAP/Aneka Pilihan)
   - id: Q2
-    text: "Skala $1 : 200,000$ bermaksud $1 \text{ cm}$ pada peta mewakili berapa kilometer di dunia sebenar?"
+    text: "Skala $1 : 200,000$ bermaksud $1 \\text{ cm}$ pada peta mewakili berapa kilometer di dunia sebenar?"
     difficulty: "easy"
     learning_objective: "4.1.2"
     tp_level: 2
@@ -40,17 +40,17 @@ questions:
         3. Tukar m kepada km: $2,000 / 1,000 = 2 \text{ km}$.
       distractors:
         - value: "20 km"
-          feedback: "Kira bilangan sifar dengan teliti! Anda mungkin tersilap bahagi. $100,000 \text{ cm} = 1 \text{ km}$."
+          feedback: "Kira bilangan sifar dengan teliti! Anda mungkin tersilap bahagi. $100,000 \\text{ cm} = 1 \\text{ km}$."
         - value: "0.2 km"
-          feedback: "Semak semula pergerakan titik perpuluhan. $200,000 \text{ cm}$ ialah $2 \text{ km}$, bukannya $0.2 \text{ km}$."
+          feedback: "Semak semula pergerakan titik perpuluhan. $200,000 \\text{ cm}$ ialah $2 \\text{ km}$, bukannya $0.2 \\text{ km}$."
     marks: 2
     hints:
       - level: 1
-        text: "Berapakah bilangan sentimeter dalam $1 \text{ meter}$? Dan berapa meter pula dalam $1 \text{ kilometer}$?"
+        text: "Berapakah bilangan sentimeter dalam $1 \\text{ meter}$? Dan berapa meter pula dalam $1 \\text{ kilometer}$?"
 
   # TP3 - Standard Pembelajaran 4.1.3 (Subjektif/Nilai Tepat)
   - id: Q3
-    text: "Sebuah bilik segi empat tepat mempunyai panjang $5.2 \text{ m}$. Pada lukisan berskala, panjangnya diwakili oleh $10.4 \text{ cm}$. Tentukan skala yang digunakan dalam bentuk $1 : n$."
+    text: "Sebuah bilik segi empat tepat mempunyai panjang $5.2 \\text{ m}$. Pada lukisan berskala, panjangnya diwakili oleh $10.4 \\text{ cm}$. Tentukan skala yang digunakan dalam bentuk $1 : n$."
     difficulty: "medium"
     learning_objective: "4.1.3"
     tp_level: 3
@@ -70,11 +70,11 @@ questions:
         criteria: "Skala akhir yang betul (1:50)."
     hints:
       - level: 1
-        text: "Pertama sekali, 'seragamkan pakaian' nombor tersebut! Tukar $5.2 \text{ m}$ kepada $\text{cm}$ sebelum anda membandingkannya."
+        text: "Pertama sekali, 'seragamkan pakaian' nombor tersebut! Tukar $5.2 \\text{ m}$ kepada $\\text{cm}$ sebelum anda membandingkannya."
 
   # TP3 - Standard Pembelajaran 4.1.4 (OAP/Konteks Melukis)
   - id: Q4
-    text: "Sebuah objek mempunyai panjang $6 \text{ cm}$. Jika ia dilukis menggunakan skala $1 : \frac{1}{3}$, berapakah panjang lukisan berskala tersebut?"
+    text: "Sebuah objek mempunyai panjang $6 \\text{ cm}$. Jika ia dilukis menggunakan skala $1 : \\frac{1}{3}$, berapakah panjang lukisan berskala tersebut?"
     difficulty: "medium"
     learning_objective: "4.1.4"
     tp_level: 3
@@ -98,7 +98,7 @@ questions:
 
   # TP4 - Standard Pembelajaran 4.1.5 (Subjektif/Masalah Rutin)
   - id: Q5
-    text: "Jarak antara Bintulu dan Miri pada sebuah peta ialah $4 \text{ cm}$ dengan skala $1 \text{ cm} : 50 \text{ km}$. Jika sebuah pesawat terbang dengan kelajuan $80 \text{ km/j}$, hitung tempoh masa penerbangan dalam jam dan minit."
+    text: "Jarak antara Bintulu dan Miri pada sebuah peta ialah $4 \\text{ cm}$ dengan skala $1 \\text{ cm} : 50 \\text{ km}$. Jika sebuah pesawat terbang dengan kelajuan $80 \\text{ km/j}$, hitung tempoh masa penerbangan dalam jam dan minit."
     difficulty: "medium"
     learning_objective: "4.1.5"
     tp_level: 4
@@ -123,7 +123,7 @@ questions:
 
   # TP5 - Standard Pembelajaran 4.1.5 (Subjektif/Rutin Kompleks)
   - id: Q6
-    text: "Sebuah taman berbentuk segi empat tepat pada peta dengan skala $1 : 400$ mempunyai panjang $5 \text{ cm}$ dan lebar $3 \text{ cm}$. Hitung luas sebenar taman tersebut dalam meter persegi ($m^2$)."
+    text: "Sebuah taman berbentuk segi empat tepat pada peta dengan skala $1 : 400$ mempunyai panjang $5 \\text{ cm}$ dan lebar $3 \\text{ cm}$. Hitung luas sebenar taman tersebut dalam meter persegi ($m^2$)."
     difficulty: "hard"
     learning_objective: "4.1.5"
     tp_level: 5
@@ -147,7 +147,7 @@ questions:
 
   # TP6 - Standard Pembelajaran 4.1.5 (Subjektif/Masalah Bukan Rutin)
   - id: Q7
-    text: "Puan Farah ingin memasang jubin di ruang tamunya. Lukisan berskala biliknya ialah $15 \text{ cm} \times 20 \text{ cm}$ dengan skala $1 : 50$. Beliau boleh memilih jubin bersaiz $30 \text{ cm} \times 30 \text{ cm}$ berharga RM2.80 sekeping atau jubin $50 \text{ cm} \times 50 \text{ cm}$ berharga RM6.00 sekeping. Jubin manakah yang patut dipilih untuk lebih menjimatkan? Berikan alasan anda."
+    text: "Puan Farah ingin memasang jubin di ruang tamunya. Lukisan berskala biliknya ialah $15 \\text{ cm} \\times 20 \\text{ cm}$ dengan skala $1 : 50$. Beliau boleh memilih jubin bersaiz $30 \\text{ cm} \\times 30 \\text{ cm}$ berharga RM2.80 sekeping atau jubin $50 \\text{ cm} \\times 50 \\text{ cm}$ berharga RM6.00 sekeping. Jubin manakah yang patut dipilih untuk lebih menjimatkan? Berikan alasan anda."
     difficulty: "hard"
     learning_objective: "4.1.5"
     tp_level: 6

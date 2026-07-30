@@ -56,7 +56,7 @@ questions:
 
   ### Standard Pembelajaran: 5.2.4 (create) - TP4
   - id: Q3
-    text: "Satu objek dengan luas $15 \text{ cm}^2$ diperbesarkan dengan faktor skala $k = 3$. Hitung luas imej, dalam $\text{ cm}^2$."
+    text: "Satu objek dengan luas $15 \\text{ cm}^2$ diperbesarkan dengan faktor skala $k = 3$. Hitung luas imej, dalam $\\text{ cm}^2$."
     difficulty: medium
     learning_objective: 5.2.4
     tp_level: 4
@@ -81,7 +81,7 @@ questions:
 
   ### Standard Pembelajaran: 5.3.4 (apply) - TP5
   - id: Q4
-    text: "Titik $P(2, 3)$ melalui gabungan transformasi $AB$. $B$ ialah translasi $\begin{pmatrix} 1 \\ -2 \end{pmatrix}$ dan $A$ ialah pantulan pada paksi-x. Nyatakan koordinat akhir bagi imej $P''$."
+    text: "Titik $P(2, 3)$ melalui gabungan transformasi $AB$. $B$ ialah translasi $\\begin{pmatrix} 1 \\ -2 \\end{pmatrix}$ dan $A$ ialah pantulan pada paksi-x. Nyatakan koordinat akhir bagi imej $P''$."
     difficulty: hard
     learning_objective: 5.3.4
     tp_level: 5
@@ -117,7 +117,7 @@ questions:
     kbat: true
     answer:
       type: free_text
-      value: "Teselasi ini menggunakan putaran dan translasi. Dua segi tiga diputarkan $180^{\circ}$ untuk membentuk rombus, yang kemudiannya melalui proses translasi."
+      value: "Teselasi ini menggunakan putaran dan translasi. Dua segi tiga diputarkan $180^{\\circ}$ untuk membentuk rombus, yang kemudiannya melalui proses translasi."
       working: |
         Langkah 1: Ambil satu segi tiga sama kaki.
         Langkah 2: Lakukan putaran $180^{\circ}$ pada titik tengah salah satu sisi untuk membentuk selari jangjang atau rombus.

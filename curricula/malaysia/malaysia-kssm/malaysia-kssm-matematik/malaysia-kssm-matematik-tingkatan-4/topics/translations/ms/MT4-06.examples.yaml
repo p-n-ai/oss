@@ -7,8 +7,8 @@ worked_examples:
     difficulty: "easy"
     learning_objective: "6.1.1"
     tp_level: 2
-    real_world_analogy: "Fikirkan tentang papan tanda 'Had Ketinggian' di tempat letak kereta. Jika hadnya ialah 2.1m, maka tinggi kereta anda ($h$) mestilah $h \leq 2.1$. Papan tanda itu adalah sempadan yang tidak boleh anda lepasi."
-    misconception_alert: "Pelajar sering keliru 'selebih-lebihnya' dengan simbol 'lebih besar daripada' kerana bunyi perkataannya. Sentiasa ingat: 'selebih-lebihnya' adalah siling atau had atas—anda tidak boleh pergi lebih tinggi, jadi gunakan $\leq$."
+    real_world_analogy: "Fikirkan tentang papan tanda 'Had Ketinggian' di tempat letak kereta. Jika hadnya ialah 2.1m, maka tinggi kereta anda ($h$) mestilah $h \\leq 2.1$. Papan tanda itu adalah sempadan yang tidak boleh anda lepasi."
+    misconception_alert: "Pelajar sering keliru 'selebih-lebihnya' dengan simbol 'lebih besar daripada' kerana bunyi perkataannya. Sentiasa ingat: 'selebih-lebihnya' adalah siling atau had atas—anda tidak boleh pergi lebih tinggi, jadi gunakan $\\leq$."
     scenario: "Taufik ingin membeli beberapa buah buku rujukan dan buku latihan. Harga sebuah buku rujukan ialah RM14 dan sebuah buku latihan ialah RM9. Amaun maksimum yang boleh dibelanjakan oleh Taufik ialah RM100. Wakilkan situasi ini dalam bentuk ketaksamaan linear."
     working: |
       1. Takrifkan pemboleh ubah: Katakan $x$ = bilangan buku rujukan dan $y$ = bilangan buku latihan.
@@ -24,8 +24,8 @@ worked_examples:
     learning_objective: "6.1.3"
     tp_level: 3
     real_world_analogy: "Bayangkan sebuah pagar. Jika peraturannya 'duduk di dalam kawasan pagar', pagar itu sendiri adalah sempadan. Jika peraturan kata 'jangan sentuh pagar', kita lukis pagar itu dengan garis sempang."
-    misconception_alert: "Pelajar selalu terlupa jenis garis berubah mengikut simbol. Jika simbol ialah $>$ atau $<$, garis MESTI sempang. Jika ada tanda sama dengan ($\geq$ or $\leq$), garis adalah padu."
-    scenario: "Lukis graf dan lorekkan rantau yang mewakili ketaksamaan $y > \frac{2}{3}x + 2$."
+    misconception_alert: "Pelajar selalu terlupa jenis garis berubah mengikut simbol. Jika simbol ialah $>$ atau $<$, garis MESTI sempang. Jika ada tanda sama dengan ($\\geq$ or $\\leq$), garis adalah padu."
+    scenario: "Lukis graf dan lorekkan rantau yang mewakili ketaksamaan $y > \\frac{2}{3}x + 2$."
     working: |
       1. Tukar ketaksamaan kepada persamaan untuk mencari garis sempadan: $y = \frac{2}{3}x + 2$.
       2. Cari pintasan-y: Apabila $x = 0$, $y = \frac{2}{3}(0) + 2 = 2$. Titik ialah $(0, 2)$.

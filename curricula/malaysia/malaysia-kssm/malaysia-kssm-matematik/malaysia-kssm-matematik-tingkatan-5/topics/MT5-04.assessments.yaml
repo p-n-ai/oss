@@ -5,7 +5,7 @@ questions:
   # --- Subchapter 4.1.1: Purpose of Taxation ---
   - id: Q1
     type: "opb" # True/False
-    text: "Determine whether the following statement is True or False: 'One of the purposes of taxation is as a government policy implementation tool to encourage a caring society through tax relief for parents\' medical expenses.'"
+    text: "Determine whether the following statement is True or False: 'One of the purposes of taxation is as a government policy implementation tool to encourage a caring society through tax relief for parents' medical expenses.'"
     difficulty: "easy"
     learning_objective: "4.1.1"
     tp_level: 1

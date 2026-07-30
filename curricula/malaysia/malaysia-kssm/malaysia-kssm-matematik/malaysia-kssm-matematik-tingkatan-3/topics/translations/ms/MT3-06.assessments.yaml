@@ -21,13 +21,13 @@ questions:
 
   - id: "MT3-06-Q02"
     type: "subjective"
-    text: "Dalam sebuah bulatan berpusat $O$, sudut pada lilitan $\angle ACB = 40^\circ$. Hitung nilai sudut pusat $\angle AOB$ yang dicangkum oleh lengkuk yang sama $AB$."
+    text: "Dalam sebuah bulatan berpusat $O$, sudut pada lilitan $\\angle ACB = 40^\\circ$. Hitung nilai sudut pusat $\\angle AOB$ yang dicangkum oleh lengkuk yang sama $AB$."
     difficulty: "medium"
     learning_objective: "6.1.1"
     tp_level: 3
     answer:
       type: "exact"
-      value: "80^\circ"
+      value: "80^\\circ"
       working: |
         Langkah 1: Nyatakan hubungan: $\angle AOB = 2 \times \angle ACB$.
         Langkah 2: Masukkan nilai: $\angle AOB = 2 \times 40^\circ$.
@@ -56,13 +56,13 @@ questions:
 
   - id: "MT3-06-Q04"
     type: "subjective"
-    text: "$ABCD$ ialah sebuah sisi empat kitaran. Diberi $\angle ABC = 75^\circ$ and $\angle BCD = 110^\circ$, cari nilai $\angle ADC$."
+    text: "$ABCD$ ialah sebuah sisi empat kitaran. Diberi $\\angle ABC = 75^\\circ$ and $\\angle BCD = 110^\\circ$, cari nilai $\\angle ADC$."
     difficulty: "medium"
     learning_objective: "6.2.2"
     tp_level: 3
     answer:
       type: "exact"
-      value: "105^\circ"
+      value: "105^\\circ"
       working: |
         Langkah 1: Kenal pasti sudut bertentangan dalam sisi empat kitaran $ABCD$. $\angle ABC$ bertentangan dengan $\angle ADC$.
         Langkah 2: Gunakan teorem: $\angle ABC + \angle ADC = 180^\circ$.
@@ -75,17 +75,17 @@ questions:
         criteria: "Pengiraan penolakan daripada 180 yang betul."
     hints:
       - "Ingat bahawa dalam sisi empat kitaran, 'nombor ajaib' untuk sudut bertentangan ialah 180."
-      - "Sudut manakah yang duduk setentang dengan $\angle ABC$? Gunakan sudut itu untuk menolak daripada 180."
+      - "Sudut manakah yang duduk setentang dengan $\\angle ABC$? Gunakan sudut itu untuk menolak daripada 180."
 
   - id: "MT3-06-Q05"
     type: "subjective"
-    text: "Garis $PQR$ ialah tangen kepada bulatan pada titik $Q$. $OQ$ ialah jejari bulatan tersebut. Tentukan saiz $\angle OQR$ dan berikan alasan."
+    text: "Garis $PQR$ ialah tangen kepada bulatan pada titik $Q$. $OQ$ ialah jejari bulatan tersebut. Tentukan saiz $\\angle OQR$ dan berikan alasan."
     difficulty: "easy"
     learning_objective: "6.3.2"
     tp_level: 2
     answer:
       type: "exact"
-      value: "90^\circ"
+      value: "90^\\circ"
       working: |
         Langkah 1: Kenal pasti garis sebagai tangen dan $OQ$ sebagai jejari.
         Langkah 2: Gunakan teorem Tangen-Jejari: Jejari yang bersilang dengan tangen pada titik ketangenan akan membentuk sudut 90 darjah.
@@ -122,13 +122,13 @@ questions:
 
   - id: "MT3-06-Q07"
     type: "subjective"
-    text: "Seorang pereka mencipta logo menggunakan bulatan dan segitiga di mana satu sisi segitiga itu adalah tangen. Jika sudut dalam tembereng selang-seli ialah $65^\circ$, berapakah saiz sudut di antara tangen dengan perentas tersebut?"
+    text: "Seorang pereka mencipta logo menggunakan bulatan dan segitiga di mana satu sisi segitiga itu adalah tangen. Jika sudut dalam tembereng selang-seli ialah $65^\\circ$, berapakah saiz sudut di antara tangen dengan perentas tersebut?"
     difficulty: "hard"
     learning_objective: "6.4.1"
     tp_level: 5
     answer:
       type: "exact"
-      value: "65^\circ"
+      value: "65^\\circ"
       working: |
         Langkah 1: Gunakan Teorem Tembereng Selang-seli.
         Langkah 2: Sudut di antara tangen dengan perentas adalah sama dengan sudut dalam tembereng selang-seli yang dicangkum oleh perentas itu.

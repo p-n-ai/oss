@@ -16,11 +16,11 @@ questions:
         Step 3: Check the options. $215^\circ$ is the only value in this range.
       distractors:
         - value: "75^\\circ"
-          feedback: "This is an acute angle. Remember, a reflex angle must be larger than a straight line ($180^\circ$)."
+          feedback: "This is an acute angle. Remember, a reflex angle must be larger than a straight line ($180^\\circ$)."
         - value: "180^\\circ"
-          feedback: "This is a straight line angle. A reflex angle must exceed $180^\circ$."
+          feedback: "This is a straight line angle. A reflex angle must exceed $180^\\circ$."
         - value: "370^\\circ"
-          feedback: "This is more than one whole turn. A reflex angle must be less than $360^\circ$."
+          feedback: "This is more than one whole turn. A reflex angle must be less than $360^\\circ$."
     marks: 1
     hints:
       - level: 1

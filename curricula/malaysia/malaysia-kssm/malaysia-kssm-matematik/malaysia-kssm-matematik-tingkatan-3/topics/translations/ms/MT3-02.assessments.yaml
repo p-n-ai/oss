@@ -81,28 +81,28 @@ questions:
     kbat: false
     answer:
       type: multiple_choice
-      value: "$5.2 \times 10^{-5}$"
+      value: "$5.2 \\times 10^{-5}$"
       working: |
         1. Gerakkan titik perpuluhan 5 tempat ke kanan untuk dapatkan 5.2.
         2. Memandangkan kita gerak ke kanan (nombor kecil), indeks ialah -5.
       distractors:
-        - value: "$5.2 \times 10^5$"
+        - value: "$5.2 \\times 10^5$"
           feedback: "Nombor yang kurang daripada 1 mesti mempunyai indeks negatif (-) kerana ia 'mengecil' daripada asas $10^0$."
-        - value: "$52 \times 10^{-6}$"
-          feedback: "Melanggar Peraturan Emas! Pekali $A$ mesti berada antara $1 \le A < 10$."
+        - value: "$52 \\times 10^{-6}$"
+          feedback: "Melanggar Peraturan Emas! Pekali $A$ mesti berada antara $1 \\le A < 10$."
     marks: 1
     hints:
       - "Ingat Peraturan Emas: $A$ mestilah antara 1 dan 10."
 
   - id: Q5
-    text: "Nyatakan jarak satu nanometer, iaitu $0.000\ 000\ 001$ m, dalam **Bentuk Piawai** ($A \times 10^n$)."
+    text: "Nyatakan jarak satu nanometer, iaitu $0.000\\ 000\\ 001$ m, dalam **Bentuk Piawai** ($A \\times 10^n$)."
     difficulty: easy
     learning_objective: "2.2.1"
     tp_level: 2
     kbat: false
     answer:
       type: exact
-      value: "1 \times 10^{-9}"
+      value: "1 \\times 10^{-9}"
       working: |
         1. Gerakkan titik perpuluhan ke kanan sehingga berada selepas digit bukan sifar pertama (1).
         2. Kira bilangan lompatan: 9 tempat.
@@ -119,14 +119,14 @@ questions:
       - "Adakah nanometer itu sangat besar atau sangat kecil? Nombor yang sangat kecil sentiasa guna indeks negatif (-)."
 
   - id: Q6
-    text: "Hitung $(3.5 \times 10^4) + (2.1 \times 10^3)$. Nyatakan jawapan dalam bentuk piawai."
+    text: "Hitung $(3.5 \\times 10^4) + (2.1 \\times 10^3)$. Nyatakan jawapan dalam bentuk piawai."
     difficulty: medium
     learning_objective: "2.2.2"
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "3.71 \times 10^4"
+      value: "3.71 \\times 10^4"
       working: |
         Kaedah: Laraskan indeks kepada kuasa tertinggi ($10^4$).
         1. Tukar $2.1 \times 10^3$ kepada $0.21 \times 10^4$.
@@ -145,7 +145,7 @@ questions:
       - "Cuba jadikan kedua-duanya $10^4$. Apa jadi pada perpuluhan $2.1$ bila indeksnya naik?"
 
   - id: Q7
-    text: "Satu rim kertas mengandungi 800 helai kertas. Ketebalan sehelai kertas ialah $9.4 \times 10^{-3}$ cm. Jika satu timbunan $n$ rim kertas adalah seinggi $225.6$ cm, hitung nilai $n$."
+    text: "Satu rim kertas mengandungi 800 helai kertas. Ketebalan sehelai kertas ialah $9.4 \\times 10^{-3}$ cm. Jika satu timbunan $n$ rim kertas adalah seinggi $225.6$ cm, hitung nilai $n$."
     difficulty: hard
     learning_objective: "2.2.3"
     tp_level: 5
@@ -176,7 +176,7 @@ questions:
     kbat: true
     answer:
       type: exact
-      value: "6.24 \times 10^{-2}"
+      value: "6.24 \\times 10^{-2}"
       working: |
         1. Tukar mm kepada m: Panjang = $0.297$ m, Lebar = $0.210$ m.
         2. Luas = $0.297 \times 0.210 = 0.06237$ $m^2$.

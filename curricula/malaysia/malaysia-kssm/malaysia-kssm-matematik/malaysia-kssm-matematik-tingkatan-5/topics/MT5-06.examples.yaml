@@ -27,7 +27,7 @@ worked_examples:
     tp_level: 3
     kbat: false
     learning_objective: "6.2.1"
-    real_world_analogy: "The 'Wall of Mystery' (Asymptotes). Think of the Tangent graph like a car trying to drive through a wall at $90^\circ$. It can go higher and higher, but it can never touch or cross that line!"
+    real_world_analogy: "The 'Wall of Mystery' (Asymptotes). Think of the Tangent graph like a car trying to drive through a wall at $90^\\circ$. It can go higher and higher, but it can never touch or cross that line!"
     misconception_alert: "The 'Pointy Wave' Mistake. Do not draw Sine and Cosine waves as triangles with straight lines. They must be smooth, rounded 'S' curves."
     scenario: "Sketch the graph of $y = \\sin x$ for the range $0^\\circ \\leq x \\leq 360^\\circ$."
     working: |

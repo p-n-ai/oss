@@ -2,7 +2,7 @@ topic_id: MT3-01
 provenance: ai-assisted
 questions:
   - id: Q1
-    text: "Wakilkan pendaraban berulang berikut dalam bentuk indeks: $m \times m \times m \times m \times m \times m \times m$. Kemudian, nyatakan asas dan indeks."
+    text: "Wakilkan pendaraban berulang berikut dalam bentuk indeks: $m \\times m \\times m \\times m \\times m \\times m \\times m$. Kemudian, nyatakan asas dan indeks."
     difficulty: easy
     tp_level: 1
     kbat: false
@@ -26,7 +26,7 @@ questions:
         text: "Ingat, nombor/huruf yang besar ialah asas (item yang didarab), dan nombor kecil yang terapung ialah indeks (berapa kali ia muncul)."
 
   - id: Q2
-    text: "Antara berikut, yang manakah mewakili $5 \times 5 \times 5 \times 5$ dalam tatatanda indeks?"
+    text: "Antara berikut, yang manakah mewakili $5 \\times 5 \\times 5 \\times 5$ dalam tatatanda indeks?"
     difficulty: easy
     tp_level: 1
     kbat: false
@@ -111,7 +111,7 @@ questions:
         text: "Kembangkan bentuk indeks ini kepada ayat pendaraban berulang dan selesaikan langkah demi langkah dari kiri ke kanan."
 
   - id: Q5
-    text: "Permudahkan ungkapan berikut menggunakan hukum indeks: $3^2 \times 3^5$."
+    text: "Permudahkan ungkapan berikut menggunakan hukum indeks: $3^2 \\times 3^5$."
     difficulty: medium
     tp_level: 3
     kbat: false
@@ -330,7 +330,7 @@ questions:
         text: "Kuasa $1/4$ bermaksud punca kuasa empat. Cari punca kuasa empat bagi 16, dan darabkan indeks-indeks pemboleh ubah dengan $1/4$."
 
   - id: Q13
-    text: "Hitung nilai $x$ bagi persamaan berikut: $3^x \times 9^{x-1} = 27$."
+    text: "Hitung nilai $x$ bagi persamaan berikut: $3^x \\times 9^{x-1} = 27$."
     difficulty: hard
     tp_level: 5
     kbat: true

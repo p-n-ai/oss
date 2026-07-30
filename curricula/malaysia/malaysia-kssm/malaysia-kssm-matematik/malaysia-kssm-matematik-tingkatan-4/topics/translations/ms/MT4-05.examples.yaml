@@ -8,7 +8,7 @@ worked_examples:
     difficulty: easy
     real_world_analogy: "Bayangkan graf seperti sebuah 'Majlis Bersalaman'. Setiap orang ialah bucu (titik). Apabila dua orang bersalaman, itu adalah tepi (garis). Satu aktiviti bersalaman sentiasa melibatkan dua 'sentuhan' atau darjah."
     misconception_alert: "Perangkap 'Darjah Gelung'! Pelajar sering fikir gelung dikira sebagai 1 darjah kerana ia adalah satu garisan. Tetapi gelung menyentuh bucu yang sama dua kali (satu keluar, satu masuk), jadi ia MESTI dikira sebagai 2 darjah!"
-    scenario: "Berdasarkan satu graf mudah yang mempunyai 6 bucu $\{1, 2, 3, 4, 5, 6\}$ and 7 tepi, tentukan jumlah darjah bagi keseluruhan graf tersebut."
+    scenario: "Berdasarkan satu graf mudah yang mempunyai 6 bucu $\\{1, 2, 3, 4, 5, 6\\}$ and 7 tepi, tentukan jumlah darjah bagi keseluruhan graf tersebut."
     working: |
       Langkah 1: Nyatakan bilangan tepi ($E$) daripada senario.
       $n(E) = 7$
@@ -25,7 +25,7 @@ worked_examples:
     difficulty: medium
     real_world_analogy: "Sebuah 'Pokok' adalah seperti kumpulan kawan yang 'TIADA DRAMA'. Semua orang berhubung (tiada siapa terpinggir), tetapi TIADA kitaran (tiada kawan yang bercakap belakang atau berpusing-pusing). Ini cara paling efisien untuk menghubungkan semua orang."
     misconception_alert: "Perangkap 'Pokok Terputus'. Subgraf dengan $n-1$ tepi BUKANLAH pokok jika ada bucu yang tidak berhubung dengan yang lain. Setiap bucu MESTI mempunyai laluan ke setiap bucu lain."
-    scenario: "Sebuah rangkaian mempunyai 5 bucu. Tentukan bilangan tepi yang diperlukan untuk membentuk sebuah pokok dan sahkan jika subgraf dengan bucu $\{A, B, C, D, E\}$ dan tepi $\{(A,B), (B,C), (C,D), (D,E)\}$ adalah sebuah pokok."
+    scenario: "Sebuah rangkaian mempunyai 5 bucu. Tentukan bilangan tepi yang diperlukan untuk membentuk sebuah pokok dan sahkan jika subgraf dengan bucu $\\{A, B, C, D, E\\}$ dan tepi $\\{(A,B), (B,C), (C,D), (D,E)\\}$ adalah sebuah pokok."
     working: |
       Langkah 1: Kenal pasti bilangan bucu ($n$).
       $n = 5$

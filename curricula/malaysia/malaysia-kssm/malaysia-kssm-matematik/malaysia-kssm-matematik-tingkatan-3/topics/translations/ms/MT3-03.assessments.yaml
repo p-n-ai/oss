@@ -81,7 +81,7 @@ questions:
         criteria: "Peratusan akhir yang betul (27.5%)."
     hints:
       - "Jumlah pulangan bukan sekadar untung jual kedai; jangan lupa duit sewa yang beliau kutip!"
-      - "$ROI = (\text{Jumlah Untung} / \text{Kos Asal}) \times 100$."
+      - "$ROI = (\\text{Jumlah Untung} / \\text{Kos Asal}) \\times 100$."
 
   - id: "Q4"
     text: "Padankan aset berikut dengan tahap kecairan (liquidity) mereka."
@@ -226,7 +226,7 @@ questions:
         criteria: "Jumlah baki akhir yang betul."
     hints:
       - "Aduhai! Terlepas bayaran akan kena caj dua kali. Pertama, bank caj faedah untuk sebulan. Kedua, mereka kenakan denda lewat."
-      - "Kira faedah: Baki $\times$ (Kadar / 365) $\times$ Bilangan Hari."
+      - "Kira faedah: Baki $\\times$ (Kadar / 365) $\\times$ Bilangan Hari."
 
   - id: "Q11"
     text: "Sebuah bank menawarkan pinjaman perumahan RM500,000. Opsyen X: faedah 3.5% selama 30 tahun. Opsyen Y: faedah 4.0% selama 20 tahun. Opsyen manakah yang patut dipilih oleh peminjam jika matlamat mereka adalah untuk meminimumkan **Jumlah Faedah yang Dibayar**?"

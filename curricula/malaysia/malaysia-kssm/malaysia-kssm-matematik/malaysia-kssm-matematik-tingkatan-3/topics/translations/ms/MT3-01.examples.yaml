@@ -3,7 +3,7 @@ provenance: ai-assisted
 worked_examples:
   - id: WE-01
     topic: "Memahami Tatatanda Indeks"
-    scenario: "Nyatakan pendaraban berulang berikut dalam bentuk indeks: $5 \times 5 \times 5$."
+    scenario: "Nyatakan pendaraban berulang berikut dalam bentuk indeks: $5 \\times 5 \\times 5$."
     difficulty: easy
     tp_level: 2
     kbat: false
@@ -20,7 +20,7 @@ worked_examples:
 
   - id: WE-02
     topic: "Hukum Indeks - Pendaraban"
-    scenario: "Permudahkan ungkapan berikut: $2^3 \times 2^2$."
+    scenario: "Permudahkan ungkapan berikut: $2^3 \\times 2^2$."
     difficulty: medium
     tp_level: 3
     kbat: false
@@ -37,7 +37,7 @@ worked_examples:
 
   - id: WE-03
     topic: "Menyelesaikan Persamaan Indeks"
-    scenario: "Cari nilai $x$ bagi persamaan berikut: $3^x \times 9 = 81$."
+    scenario: "Cari nilai $x$ bagi persamaan berikut: $3^x \\times 9 = 81$."
     difficulty: hard
     tp_level: 5
     kbat: true

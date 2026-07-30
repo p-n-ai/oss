@@ -21,13 +21,13 @@ questions:
 
   - id: "MT3-06-Q02"
     type: "subjective"
-    text: "In a circle with centre $O$, the angle at the circumference $\angle ACB = 40^\circ$. Calculate the value of the central angle $\angle AOB$ subtended by the same arc $AB$."
+    text: "In a circle with centre $O$, the angle at the circumference $\\angle ACB = 40^\\circ$. Calculate the value of the central angle $\\angle AOB$ subtended by the same arc $AB$."
     difficulty: "medium"
     learning_objective: "6.1.1"
     tp_level: 3
     answer:
       type: "exact"
-      value: "80^\circ"
+      value: "80^\\circ"
       working: |
         Step 1: State the relationship: $\angle AOB = 2 \times \angle ACB$.
         Step 2: Substitute value: $\angle AOB = 2 \times 40^\circ$.
@@ -56,13 +56,13 @@ questions:
 
   - id: "MT3-06-Q04"
     type: "subjective"
-    text: "$ABCD$ is a cyclic quadrilateral. Given that $\angle ABC = 75^\circ$ and $\angle BCD = 110^\circ$, find the value of $\angle ADC$."
+    text: "$ABCD$ is a cyclic quadrilateral. Given that $\\angle ABC = 75^\\circ$ and $\\angle BCD = 110^\\circ$, find the value of $\\angle ADC$."
     difficulty: "medium"
     learning_objective: "6.2.2"
     tp_level: 3
     answer:
       type: "exact"
-      value: "105^\circ"
+      value: "105^\\circ"
       working: |
         Step 1: Identify opposite angles in cyclic quadrilateral $ABCD$. $\angle ABC$ is opposite to $\angle ADC$.
         Step 2: Apply theorem: $\angle ABC + \angle ADC = 180^\circ$.
@@ -75,17 +75,17 @@ questions:
         criteria: "Correct subtraction from 180."
     hints:
       - "Recall that in a cyclic quadrilateral, the 'magic number' for opposite angles is 180."
-      - "Which angle sits directly across from $\angle ABC$? Use that to subtract from 180."
+      - "Which angle sits directly across from $\\angle ABC$? Use that to subtract from 180."
 
   - id: "MT3-06-Q05"
     type: "subjective"
-    text: "Line $PQR$ is a tangent to a circle at point $Q$. $OQ$ is the radius of the circle. Determine the size of $\angle OQR$ and explain why."
+    text: "Line $PQR$ is a tangent to a circle at point $Q$. $OQ$ is the radius of the circle. Determine the size of $\\angle OQR$ and explain why."
     difficulty: "easy"
     learning_objective: "6.3.2"
     tp_level: 2
     answer:
       type: "exact"
-      value: "90^\circ"
+      value: "90^\\circ"
       working: |
         Step 1: Identify the line as a tangent and $OQ$ as the radius.
         Step 2: Apply the Tangent-Radius theorem: The radius is perpendicular to the tangent at the point of tangency.
@@ -122,13 +122,13 @@ questions:
 
   - id: "MT3-06-Q07"
     type: "subjective"
-    text: "A designer is creating a logo using a circle and a triangle where one side of the triangle is a tangent. If the angle in the alternate segment is $65^\circ$, what is the angle between the tangent and the chord? (TP5 Routine Complex)"
+    text: "A designer is creating a logo using a circle and a triangle where one side of the triangle is a tangent. If the angle in the alternate segment is $65^\\circ$, what is the angle between the tangent and the chord? (TP5 Routine Complex)"
     difficulty: "hard"
     learning_objective: "6.4.1"
     tp_level: 5
     answer:
       type: "exact"
-      value: "65^\circ"
+      value: "65^\\circ"
       working: |
         Step 1: Apply Alternate Segment Theorem.
         Step 2: The angle between the tangent and chord is equal to the angle in the alternate segment.

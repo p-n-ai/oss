@@ -23,7 +23,7 @@ worked_examples:
     learning_objective: "2.2.3: Mendarab dua matriks."
     real_world_analogy: "Bayangkan 'Bentuk-7'. Baris pertama 'berenang' mendatar, kemudian 'terjun' ke bawah mengikut lajur."
     misconception_alert: "Jangan darab nombor pada posisi yang sama macam operasi tambah! Matriks ada peraturan darab tersendiri."
-    scenario: "Hitung hasil darab $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \begin{bmatrix} 5 \\ 6 \end{bmatrix}$."
+    scenario: "Hitung hasil darab $\\begin{bmatrix} 1 & 2 \\ 3 & 4 \\end{bmatrix} \\begin{bmatrix} 5 \\ 6 \\end{bmatrix}$."
     working: |
       Langkah 1: Semak peringkat. $(2 \times 2)$ darab $(2 \times 1)$. Angka dalam sama (2), maka boleh darab.
       Langkah 2: Baris 1 darab Lajur 1: $(1 \times 5) + (2 \times 6) = 5 + 12 = 17$.

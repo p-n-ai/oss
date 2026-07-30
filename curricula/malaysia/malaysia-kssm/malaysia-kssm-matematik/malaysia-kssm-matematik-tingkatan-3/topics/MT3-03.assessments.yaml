@@ -81,7 +81,7 @@ questions:
         criteria: "Final percentage correct (27.5%)."
     hints:
       - "Total return isn't just the profit from selling; don't forget the rent he collected!"
-      - "$ROI = (\text{Total Profit} / \text{Original Cost}) \times 100$."
+      - "$ROI = (\\text{Total Profit} / \\text{Original Cost}) \\times 100$."
 
   - id: "Q4"
     text: "Match the following assets to their liquidity level (Kecairan)."
@@ -226,7 +226,7 @@ questions:
         criteria: "Correct final total balance."
     hints:
       - "Ouch! Missing a payment costs you twice. First, the bank charges interest for the whole month. Second, they slap on a late fee."
-      - "Interest calculation: Balance $\times$ (Rate / 365) $\times$ Days."
+      - "Interest calculation: Balance $\\times$ (Rate / 365) $\\times$ Days."
 
   - id: "Q11"
     text: "A bank offers a housing loan of RM500,000. Option X: 3.5% interest for 30 years. Option Y: 4.0% interest for 20 years. Which option should a borrower choose if their goal is to minimize the **Total Interest Paid**?"

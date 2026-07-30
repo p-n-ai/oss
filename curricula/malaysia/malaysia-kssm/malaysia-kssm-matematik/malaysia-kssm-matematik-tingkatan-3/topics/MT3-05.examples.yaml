@@ -9,7 +9,7 @@ worked_examples:
     tp_level: 1
     real_world_analogy: "Imagine you are standing at the corner of a room (the angle). The wall directly in front of you is the 'Opposite' side. The wall you are leaning against is the 'Adjacent' side. The longest line from you to the far corner is the 'Hypotenuse'."
     misconception_alert: "Students often think the 'bottom' side is always the adjacent side. Remember: the labels change if you move to the other acute angle!"
-    scenario: "In a right-angled triangle $ABC$ with $\angle B = 90^\circ$, identify the sides relative to $\angle ACB$."
+    scenario: "In a right-angled triangle $ABC$ with $\\angle B = 90^\\circ$, identify the sides relative to $\\angle ACB$."
     working: |
       1. Identify the reference angle: $\angle ACB$ (or angle $C$).
       2. Locate the side directly across from angle $C$: This is side $AB$. Therefore, $AB = \text{Opposite side}$.
@@ -23,7 +23,7 @@ worked_examples:
     tp_level: 2
     real_world_analogy: "Think of a ramp. The 'steepness' (Tangent) is the ratio of how high it goes (Opposite) compared to how far it runs along the ground (Adjacent)."
     misconception_alert: "Do not confuse the formulas! Use SOH-CAH-TOA as your golden guide: Sine=O/H, Cosine=A/H, Tangent=O/A."
-    scenario: "A right-angled triangle has an opposite side of $8\text{ cm}$, an adjacent side of $15\text{ cm}$, and a hypotenuse of $17\text{ cm}$. Find the values of $\sin \theta$, $\cos \theta$, and $\tan \theta$."
+    scenario: "A right-angled triangle has an opposite side of $8\\text{ cm}$, an adjacent side of $15\\text{ cm}$, and a hypotenuse of $17\\text{ cm}$. Find the values of $\\sin \\theta$, $\\cos \\theta$, and $\\tan \\theta$."
     working: |
       1. Write the values: $O = 8$, $A = 15$, $H = 17$.
       2. Apply SOH: $\sin \theta = \frac{O}{H} = \frac{8}{17}$.
@@ -35,9 +35,9 @@ worked_examples:
     difficulty: "medium"
     learning_objective: "5.1.5"
     tp_level: 3
-    real_world_analogy: "Imagine cutting a square sandwich diagonally. The two resulting triangles have $45^\circ$ angles. Since the two sides of the sandwich were equal, the ratio (Tangent) is exactly 1!"
-    misconception_alert: "Students often forget the surd ($\sqrt{3}$) position. For $30^\circ$, the opposite side is $1$ and the hypotenuse is $2$. Use Pythagoras to remember the adjacent is $\sqrt{3}$."
-    scenario: "Calculate the value of $\cos 60^\circ + \sin 30^\circ$ without using a calculator."
+    real_world_analogy: "Imagine cutting a square sandwich diagonally. The two resulting triangles have $45^\\circ$ angles. Since the two sides of the sandwich were equal, the ratio (Tangent) is exactly 1!"
+    misconception_alert: "Students often forget the surd ($\\sqrt{3}$) position. For $30^\\circ$, the opposite side is $1$ and the hypotenuse is $2$. Use Pythagoras to remember the adjacent is $\\sqrt{3}$."
+    scenario: "Calculate the value of $\\cos 60^\\circ + \\sin 30^\\circ$ without using a calculator."
     working: |
       1. Recall special values: $\cos 60^\circ = \frac{1}{2}$.
       2. Recall special values: $\sin 30^\circ = \frac{1}{2}$.
@@ -49,9 +49,9 @@ worked_examples:
     difficulty: "hard"
     learning_objective: "5.1.6"
     tp_level: 4
-    real_world_analogy: "A kite is flying with a $50\text{ m}$ string. If the string makes an angle of $30^\circ$ with the ground, how high is the kite? You are using the string (Hypotenuse) to find the height (Opposite)."
+    real_world_analogy: "A kite is flying with a $50\\text{ m}$ string. If the string makes an angle of $30^\\circ$ with the ground, how high is the kite? You are using the string (Hypotenuse) to find the height (Opposite)."
     misconception_alert: "Always ensure your calculator is in 'DEG' mode before calculating. Also, ensure you pick the right ratio; if you have Hypotenuse and want Opposite, you MUST use Sine."
-    scenario: "In $\triangle PQR$, $\angle Q = 90^\circ$ and $\angle PRQ = 30^\circ$. If the hypotenuse $PR = 12\text{ cm}$, find the length of $PQ$."
+    scenario: "In $\\triangle PQR$, $\\angle Q = 90^\\circ$ and $\\angle PRQ = 30^\\circ$. If the hypotenuse $PR = 12\\text{ cm}$, find the length of $PQ$."
     working: |
       1. Identify given values: $\theta = 30^\circ$, $H = 12$.
       2. Identify required side: $PQ$ is the Opposite side ($O$).
@@ -67,7 +67,7 @@ worked_examples:
     tp_level: 5
     real_world_analogy: "A surveyor uses a 'Theodolite' to measure the height of a building from a distance. By knowing the distance and the angle, trigonometry does the 'climbing' for them!"
     misconception_alert: "In problems involving 'height', students often forget to check if the observer's eye-level height needs to be added to the final result."
-    scenario: "A surveyor stands $100\text{ m}$ away from the base of a tower. The angle of elevation to the top is $40^\circ$. Calculate the height of the tower."
+    scenario: "A surveyor stands $100\\text{ m}$ away from the base of a tower. The angle of elevation to the top is $40^\\circ$. Calculate the height of the tower."
     working: |
       1. Understand the problem: We have the Adjacent side ($100\text{ m}$) and want the Opposite side (height).
       2. Choose ratio: Use TOA: $\tan \theta = \frac{O}{A}$.

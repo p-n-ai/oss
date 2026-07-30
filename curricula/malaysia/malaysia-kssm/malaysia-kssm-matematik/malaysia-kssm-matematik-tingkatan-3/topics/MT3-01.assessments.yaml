@@ -2,7 +2,7 @@ topic_id: MT3-01
 provenance: ai-assisted
 questions:
   - id: Q1
-    text: "Represent the following repeated multiplication in index form: $m \times m \times m \times m \times m \times m \times m$. Then, state the base and the index."
+    text: "Represent the following repeated multiplication in index form: $m \\times m \\times m \\times m \\times m \\times m \\times m$. Then, state the base and the index."
     difficulty: easy
     tp_level: 1
     kbat: false
@@ -26,7 +26,7 @@ questions:
         text: "Remember, the large number/letter is the item being multiplied, and the small floating number is how many times it appears."
 
   - id: Q2
-    text: "Which of the following represents $5 \times 5 \times 5 \times 5$ in index notation?"
+    text: "Which of the following represents $5 \\times 5 \\times 5 \\times 5$ in index notation?"
     difficulty: easy
     tp_level: 1
     kbat: false
@@ -111,7 +111,7 @@ questions:
         text: "Expand the index form into a multiplication sentence and solve it step-by-step from left to right."
 
   - id: Q5
-    text: "Simplify the following expression using the laws of indices: $3^2 \times 3^5$."
+    text: "Simplify the following expression using the laws of indices: $3^2 \\times 3^5$."
     difficulty: medium
     tp_level: 3
     kbat: false
@@ -330,7 +330,7 @@ questions:
         text: "The power $1/4$ means the 4th root. Find the 4th root of 16, and multiply the indices of the variables by $1/4$."
 
   - id: Q13
-    text: "Calculate the value of $x$ for the following equation: $3^x \times 9^{x-1} = 27$."
+    text: "Calculate the value of $x$ for the following equation: $3^x \\times 9^{x-1} = 27$."
     difficulty: hard
     tp_level: 5
     kbat: true

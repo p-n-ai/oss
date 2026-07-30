@@ -27,7 +27,7 @@ questions:
         text: "In any base $n$, can a digit be equal to or larger than $n$? Check the digits in each option carefully!"
 
   - id: Q2
-    text: "State the place value of the underlined digit in $5\underline{0}37_9$."
+    text: "State the place value of the underlined digit in $5\\underline{0}37_9$."
     difficulty: medium
     learning_objective: "2.1.1"
     tp_level: 2
@@ -101,7 +101,7 @@ questions:
       - marks: 1
         criteria: "Correct addition and carry-over for the first column."
       - marks: 2
-        criteria: "Correct conversion of sums $\ge 8$ into Base 8 values."
+        criteria: "Correct conversion of sums $\\ge 8$ into Base 8 values."
       - marks: 1
         criteria: "Final sum is correct."
     hints:
@@ -169,4 +169,4 @@ questions:
         criteria: "Complete and correct conversion of the final total to Base 8."
     hints:
       - level: 1
-        text: "This is a big one! Break it down: Average (Base 5) $\rightarrow$ Average (Base 10) $\rightarrow$ Total (Base 10) $\rightarrow$ Computer Log (Base 8)."
+        text: "This is a big one! Break it down: Average (Base 5) $\\rightarrow$ Average (Base 10) $\\rightarrow$ Total (Base 10) $\\rightarrow$ Computer Log (Base 8)."

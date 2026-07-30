@@ -19,9 +19,9 @@ questions:
         - value: "8"
           feedback: "You only counted each edge once. Remember, each edge connects two vertices, so it contributes 2 to the total sum of degrees."
         - value: "4"
-          feedback: "You divided the number of edges by 2. The formula is $2 \times E$, not $E/2$."
+          feedback: "You divided the number of edges by 2. The formula is $2 \\times E$, not $E/2$."
         - value: "10"
-          feedback: "It seems you added 2 to the number of edges. Use the multiplication formula $\sum d(v) = 2E$."
+          feedback: "It seems you added 2 to the number of edges. Use the multiplication formula $\\sum d(v) = 2E$."
     hints:
       - level: 1
         text: "Check the relationship between the number of edges and the sum of degrees in your textbook on page 131."

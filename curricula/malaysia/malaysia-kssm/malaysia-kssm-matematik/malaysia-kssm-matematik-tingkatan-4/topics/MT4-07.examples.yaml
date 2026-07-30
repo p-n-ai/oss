@@ -30,7 +30,7 @@ worked_examples:
     difficulty: "medium"
     real_world_analogy: "Imagine a GrabCar driver waiting at a traffic light. The car's clock (time) is still ticking, but the odometer (distance) isn't moving. This creates a 'flat line' on your trip graph."
     misconception_alert: "A horizontal line in a distance-time graph does NOT mean the object disappeared or speed is constant. It means the object is stationary (speed = 0)."
-    scenario: "Mr. Selva drives 240 km from Kuala Lumpur to Kuantan. He stops for a break after 1 hour (80 km) for 30 minutes. He then completes the rest of the journey in 1.5 hours. Calculate his average speed for the whole journey in $km \ h^{-1}$."
+    scenario: "Mr. Selva drives 240 km from Kuala Lumpur to Kuantan. He stops for a break after 1 hour (80 km) for 30 minutes. He then completes the rest of the journey in 1.5 hours. Calculate his average speed for the whole journey in $km \\ h^{-1}$."
     working: |
       1. Identify total distance: $240 \text{ km}$.
       2. Identify total time in stages:
@@ -48,8 +48,8 @@ worked_examples:
     learning_objective: "MT4-07-7-2-2"
     difficulty: "medium"
     real_world_analogy: "Think of painting a wall. The 'Speed' is how wide your brush is, and 'Time' is how far you swipe it. The total 'Area' you covered with paint represents the total 'Distance' you traveled."
-    misconception_alert: "Students often forget to check the time units. If the speed is in $km \ h^{-1}$ but the time is in 'minutes', you MUST divide the minutes by 60 before calculating the area."
-    scenario: "A motorcycle moves at a uniform speed of $20 \ m \ s^{-1}$ for 15 seconds. It then decelerates uniformly to a stop in 5 seconds. Calculate the total distance traveled."
+    misconception_alert: "Students often forget to check the time units. If the speed is in $km \\ h^{-1}$ but the time is in 'minutes', you MUST divide the minutes by 60 before calculating the area."
+    scenario: "A motorcycle moves at a uniform speed of $20 \\ m \\ s^{-1}$ for 15 seconds. It then decelerates uniformly to a stop in 5 seconds. Calculate the total distance traveled."
     working: |
       1. Identify the shapes under the speed-time graph:
          - Part 1 (0-15s): A rectangle (Uniform speed).
@@ -67,7 +67,7 @@ worked_examples:
     difficulty: "hard"
     real_world_analogy: "A sprinter's race: Explosive start (acceleration), maintaining top speed (uniform speed), and slowing down after the finish line (deceleration)."
     misconception_alert: "In speed-time graphs, a negative gradient means 'Deceleration', not moving backwards! The object is still moving forward, just slower."
-    scenario: "A car accelerates from rest to $v \ m \ s^{-1}$ in 10 seconds. It maintains this speed for 20 seconds. The total distance traveled in these 30 seconds is 500 m. Calculate the value of $v$."
+    scenario: "A car accelerates from rest to $v \\ m \\ s^{-1}$ in 10 seconds. It maintains this speed for 20 seconds. The total distance traveled in these 30 seconds is 500 m. Calculate the value of $v$."
     working: |
       1. Identify the shape under the graph: A trapezium.
          - Parallel sides: $a = 20 \text{ s}$ (uniform speed part), $b = 30 \text{ s}$ (total time).

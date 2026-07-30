@@ -27,8 +27,8 @@ worked_examples:
     tp_level: 3
     learning_objective: "2.2.3: Multiply two matrices."
     real_world_analogy: "Think of the '7-Shape Dive'. The first row 'dives' into the first column. You multiply the partners as you go down and then add them all up to get the final score."
-    misconception_alert: "The 'Element-to-Element' Error. Students often try to multiply matrices like addition (multiplying numbers in the same spot). You MUST use the Row $\times$ Column rule!"
-    scenario: "Calculate the product of matrix $A = \begin{bmatrix} 2 & 3 \\ 1 & 4 \end{bmatrix}$ and matrix $B = \begin{bmatrix} 5 \\ 6 \end{bmatrix}$."
+    misconception_alert: "The 'Element-to-Element' Error. Students often try to multiply matrices like addition (multiplying numbers in the same spot). You MUST use the Row $\\times$ Column rule!"
+    scenario: "Calculate the product of matrix $A = \\begin{bmatrix} 2 & 3 \\ 1 & 4 \\end{bmatrix}$ and matrix $B = \\begin{bmatrix} 5 \\ 6 \\end{bmatrix}$."
     working: |
       Step 1: Check the order. A is $2 \times 2$, B is $2 \times 1$. The inner numbers (2 and 2) match, so multiplication is possible. The result will be $2 \times 1$.
       Step 2: Multiply Row 1 of A by Column 1 of B.

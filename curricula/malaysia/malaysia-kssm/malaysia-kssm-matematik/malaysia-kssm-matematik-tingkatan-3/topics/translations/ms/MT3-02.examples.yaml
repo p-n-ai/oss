@@ -38,9 +38,9 @@ worked_examples:
     topic: "Menukar kepada Bentuk Piawai"
     learning_objective: "2.2.1"
     difficulty: easy
-    real_world_analogy: "Bentuk piawai adalah seperti 'jalan pintas saintifik'. Daripada menulis $0.000\ 000\ 001$ (yang memeningkan!), kita guna indeks untuk beritahu berapa banyak 'lompatan perpuluhan' yang perlu dibuat."
+    real_world_analogy: "Bentuk piawai adalah seperti 'jalan pintas saintifik'. Daripada menulis $0.000\\ 000\\ 001$ (yang memeningkan!), kita guna indeks untuk beritahu berapa banyak 'lompatan perpuluhan' yang perlu dibuat."
     misconception_alert: "Murid sering lupa tanda indeks. Nombor besar (trilion) guna indeks positif. Perpuluhan kecil (nanometer) guna indeks negatif (Muka Surat 37)."
-    scenario: "Satu nanometer ialah $0.000\ 000\ 001$ meter. Nyatakan ini dalam bentuk piawai ($A \times 10^n$)."
+    scenario: "Satu nanometer ialah $0.000\\ 000\\ 001$ meter. Nyatakan ini dalam bentuk piawai ($A \\times 10^n$)."
     working: |
       1. Kenal pasti digit bukan sifar pertama untuk cari $A$: Iaitu '1'. Maka $A = 1.0$.
       2. Kira 'lompatan' dari perpuluhan asal hingga ke belakang angka '1'.
@@ -55,7 +55,7 @@ worked_examples:
     difficulty: medium
     real_world_analogy: "Menambah nombor bentuk piawai dengan indeks berbeza adalah seperti menambah 'Epal dan Oren'. Anda mesti tukar kepada indeks yang sama (buah yang sama) sebelum boleh menggabungkannya!"
     misconception_alert: "Murid sering menambah indeks semasa operasi tambah (cth: $10^4 + 10^3 = 10^7$). Tidak boleh! Anda mesti selaraskan kuasa 10 dan kemudian lakukan pemfaktoran (Muka Surat 40)."
-    scenario: "Hitung $(3.5 \times 10^4) + (2.1 \times 10^3)$ dan nyatakan jawapan dalam bentuk piawai."
+    scenario: "Hitung $(3.5 \\times 10^4) + (2.1 \\times 10^3)$ dan nyatakan jawapan dalam bentuk piawai."
     working: |
       1. Kenal pasti indeks: $10^4$ dan $10^3$. Indeks tidak sama.
       2. Kaedah: Tukar indeks kecil ($10^3$) kepada indeks besar ($10^4$).
@@ -71,7 +71,7 @@ worked_examples:
     difficulty: hard
     real_world_analogy: "Cabaran 'Timbunan Kertas'. Jika anda tahu tinggi sehelai kertas, anda boleh cari tinggi satu bangunan. Di sini, kita buat perkara yang sama dengan rim kertas untuk selesaikan masalah storan (Muka Surat 43)."
     misconception_alert: "Murid sering keliru dengan unit atau hilang fokus pada jumlah tinggi. Gunakan kitaran 4 langkah: Memahami, Merancang, Melaksanakan, dan Menyemak."
-    scenario: "Satu rim kertas mempunyai 800 helai. Sehelai kertas tebalnya $9.4 \times 10^{-3}$ cm. Jika satu timbunan $n$ rim kertas adalah setinggi $225.6$ cm, cari nilai $n$."
+    scenario: "Satu rim kertas mempunyai 800 helai. Sehelai kertas tebalnya $9.4 \\times 10^{-3}$ cm. Jika satu timbunan $n$ rim kertas adalah setinggi $225.6$ cm, cari nilai $n$."
     working: |
       1. Langkah 1 (Memahami): Kita perlukan $n$, diberi helai per rim (800), tebal per helai ($9.4 \times 10^{-3}$), dan jumlah tinggi (225.6).
       2. Langkah 2 (Merancang): Cari tebal 1 rim, kemudian bahagikan jumlah tinggi dengan tebal tersebut.

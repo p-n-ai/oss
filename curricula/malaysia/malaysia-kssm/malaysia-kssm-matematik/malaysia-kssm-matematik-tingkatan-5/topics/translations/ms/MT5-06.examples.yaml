@@ -27,7 +27,7 @@ worked_examples:
     tp_level: 3
     kbat: false
     learning_objective: "6.2.1"
-    real_world_analogy: "Dinding Misteri (Asimptot). Bayangkan graf Tangen macam kereta yang cuba langgar dinding kat $90^\circ$. Dia boleh naik tinggi gila, tapi dia takkan pernah dapat sentuh atau lintas dinding tu!"
+    real_world_analogy: "Dinding Misteri (Asimptot). Bayangkan graf Tangen macam kereta yang cuba langgar dinding kat $90^\\circ$. Dia boleh naik tinggi gila, tapi dia takkan pernah dapat sentuh atau lintas dinding tu!"
     misconception_alert: "Kesalahan 'Gelombang Tajam'. Jangan lukis gelombang Sinus dan Kosinus macam segi tiga yang tajam. Ia mestilah lengkung 'S' yang licin dan membulat."
     scenario: "Lakarkan graf $y = \\sin x$ untuk julat $0^\\circ \\leq x \\leq 360^\\circ$."
     working: |

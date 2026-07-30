@@ -60,7 +60,7 @@ worked_examples:
     topic: "Bayaran Balik Pinjaman (Faedah Sama Rata)"
     difficulty: "medium"
     real_world_analogy: "Faedah sama rata adalah seperti yuran kemasukan tetap. Tidak kira berapa banyak pinjaman yang anda bayar awal, bank mengira 'yuran' tersebut berdasarkan jumlah hari pertama anda meminjam."
-    misconception_alert: "Perangkap Unit Masa. Dalam formula $A = P + Prt$, $t$ MESTI dalam tahun. Jika pinjaman adalah untuk 84 bulan, anda mesti menukarnya: $\frac{84}{12} = 7$ tahun."
+    misconception_alert: "Perangkap Unit Masa. Dalam formula $A = P + Prt$, $t$ MESTI dalam tahun. Jika pinjaman adalah untuk 84 bulan, anda mesti menukarnya: $\\frac{84}{12} = 7$ tahun."
     scenario: "Encik Azlan membuat pinjaman peribadi sebanyak RM10,000 dengan kadar faedah sama rata 4% setahun selama 7 tahun. Hitung ansuran bulanan beliau."
     working: |
       1. Kenal pasti: $P = 10000$, $r = 0.04$, $t = 7$.

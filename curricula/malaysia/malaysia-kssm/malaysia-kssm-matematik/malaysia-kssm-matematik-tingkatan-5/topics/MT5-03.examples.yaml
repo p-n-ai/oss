@@ -60,7 +60,7 @@ worked_examples:
     kbat: true
     real_world_analogy: "If you only pay for half a bus ticket, don't be surprised if the bus driver only takes you halfway to your destination. This is the 'Co-insurance Penalty'—if you don't buy enough coverage, the company won't pay the full claim."
     misconception_alert: "Students think if they have $RM150,000$ coverage and a $RM25,000$ loss, the company will pay the full $RM25,000$. NO! If you are under-insured, you are penalized based on the ratio of what you bought versus what you SHOULD have bought."
-    scenario: "Encik Ismail's house has an insurable value of $RM350,000$. His policy has an $80\%$ co-insurance clause. He only insured his house for $RM150,000$. If he suffers a loss of $RM25,000$, calculate his compensation (assuming no deductible for this example)."
+    scenario: "Encik Ismail's house has an insurable value of $RM350,000$. His policy has an $80\\%$ co-insurance clause. He only insured his house for $RM150,000$. If he suffers a loss of $RM25,000$, calculate his compensation (assuming no deductible for this example)."
     working: |
       1. Calculate the required insurance amount: $80\% \times RM350,000 = RM280,000$
       2. Identify the insurance status: Since $RM150,000 < RM280,000$, Encik Ismail is under-insured.

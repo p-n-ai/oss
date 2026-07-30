@@ -34,7 +34,7 @@ questions:
     kbat: false
     answer:
       type: subjective
-      value: "alpha = 60^\circ, theta = 240^\circ"
+      value: "alpha = 60^\\circ, theta = 240^\\circ"
       working: |
         Step 1: The negative sign indicates the quadrant. The range $180^\circ$ to $270^\circ$ confirms Quadrant III.
         Step 2: Find the reference angle $\alpha$ using the absolute value: $\\sin \\alpha = 0.866$. So, $\\alpha = 60^\circ$.
@@ -60,7 +60,7 @@ questions:
     kbat: true
     answer:
       type: subjective
-      value: "theta = 150^\circ, Distance = 12.99 cm"
+      value: "theta = 150^\\circ, Distance = 12.99 cm"
       working: |
         Step 1: $\\cos \\theta$ is negative in Quadrant II for the given range.
         Step 2: Find reference angle $\\alpha = \\cos^{-1}(0.866) = 30^\circ$.
@@ -87,7 +87,7 @@ questions:
     kbat: false
     answer:
       type: subjective
-      value: "Amplitude = 3, Period = 180^\circ, Max = 4"
+      value: "Amplitude = 3, Period = 180^\\circ, Max = 4"
       working: |
         Step 1: Identify constants from $y = a \\sin bx + c$: $a=3, b=2, c=1$.
         Step 2: Amplitude is $|a|$, so Amplitude = 3.

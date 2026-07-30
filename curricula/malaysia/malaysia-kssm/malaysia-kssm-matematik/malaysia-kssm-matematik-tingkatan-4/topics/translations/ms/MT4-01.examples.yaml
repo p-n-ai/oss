@@ -4,9 +4,9 @@ worked_examples:
   - id: WE-01
     topic: "Mengenal Pasti Ungkapan Kuadratik"
     difficulty: easy
-    real_world_analogy: "Fikirkan ungkapan kuadratik seperti sebidang tanah segi empat tepat 2D. Untuk mengira luas, anda mesti mempunyai dua dimensi yang didarab (seperti $x \times x = x^2$). Jika anda hanya mempunyai $x$, ia hanyalah satu garisan pagar yang lurus!"
+    real_world_analogy: "Fikirkan ungkapan kuadratik seperti sebidang tanah segi empat tepat 2D. Untuk mengira luas, anda mesti mempunyai dua dimensi yang didarab (seperti $x \\times x = x^2$). Jika anda hanya mempunyai $x$, ia hanyalah satu garisan pagar yang lurus!"
     misconception_alert: "Perangkap 'Zero Tersembunyi'! Pelajar selalu ingat $x^2 + 5$ bukan kuadratik sebab sebutan '$x$' hilang. Ingatkan mereka pekali $b$ boleh jadi sifar ($0x$), tetapi $a$ (pekali bagi $x^2$) tidak boleh sifar!"
-    scenario: "Tentukan sama ada ungkapan $\frac{1}{2}m^2$ ialah ungkapan kuadratik dalam satu pemboleh ubah. Justifikasikan jawapan anda berdasarkan bentuk am $ax^2 + bx + c$."
+    scenario: "Tentukan sama ada ungkapan $\\frac{1}{2}m^2$ ialah ungkapan kuadratik dalam satu pemboleh ubah. Justifikasikan jawapan anda berdasarkan bentuk am $ax^2 + bx + c$."
     working: |
       1. Kenal pasti pemboleh ubah dalam ungkapan: Pemboleh ubahnya ialah $m$.
       2. Kenal pasti kuasa tertinggi pemboleh ubah: Kuasa tertinggi bagi $m$ ialah 2.

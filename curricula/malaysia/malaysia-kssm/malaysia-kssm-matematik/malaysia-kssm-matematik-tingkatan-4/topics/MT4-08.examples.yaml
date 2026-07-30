@@ -39,7 +39,7 @@ worked_examples:
     topic: "Solving Problems involving Combined Standard Deviation"
     difficulty: hard
     real_world_analogy: "Imagine mixing two different containers of salt water. The new saltiness (standard deviation) isn't just the average of the two; you have to consider the total amount of salt and the total volume of water in both."
-    misconception_alert: "The 'Lazy Average' Trap! Students often try to find the new standard deviation by simply adding the two old ones and dividing by 2. This is mathematically illegal! You MUST calculate the new $\sum x^2$ first."
+    misconception_alert: "The 'Lazy Average' Trap! Students often try to find the new standard deviation by simply adding the two old ones and dividing by 2. This is mathematically illegal! You MUST calculate the new $\\sum x^2$ first."
     scenario: "Group A has 18 pupils with a mean mass of 52kg and variance of 2.5. Group B has 12 pupils with a mean mass of 56kg and variance of 1.8. If both groups are combined, calculate the new standard deviation of the mass."
     working: |
       1. Find $\sum x$ for both:

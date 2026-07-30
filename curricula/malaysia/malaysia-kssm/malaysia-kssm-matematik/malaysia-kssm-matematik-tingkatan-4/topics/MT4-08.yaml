@@ -72,7 +72,7 @@ common_misconceptions:
   - misconception: "Confusing dispersion with central tendency."
     remediation: "Clarify that central tendency describes the 'center' (mean/median), while dispersion describes the 'spread' around that center."
   - misconception: "Forgetting to square the deviations when calculating variance."
-    remediation: "Emphasize the formula steps where $(x - \bar{x})^2$ is required before averaging."
+    remediation: "Emphasize the formula steps where $(x - \\bar{x})^2$ is required before averaging."
   - misconception: "Treating variance and standard deviation as having the same unit as the data."
     remediation: "Highlight that standard deviation is the square root of variance, returning the measure to the original unit."
 engagement_hooks:

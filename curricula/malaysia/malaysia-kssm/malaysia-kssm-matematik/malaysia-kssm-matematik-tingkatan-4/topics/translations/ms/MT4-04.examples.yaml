@@ -8,7 +8,7 @@ worked_examples:
     difficulty: easy
     real_world_analogy: "Bayangkan anda memesan makanan di gerai Mamak. Set A ialah 'Pelanggan yang pesan Teh Tarik' dan Set B ialah 'Pelanggan yang pesan Nasi Lemak'. Persilangan (A ∩ B) hanyalah pelanggan yang sangat bertuah kerana memesan KEDUA-DUA item tersebut!"
     misconception_alert: "Murid selalu silap menganggap persilangan (∩) bermaksud 'gabungkan semua'. Ingatkan mereka: Persilangan ialah 'Sama-Sama'—hanya unsur yang ada dalam SETIAP set sahaja yang dikira."
-    scenario: "Diberi set $P = \{2, 3, 5, 7\}$ (nombor perdana) dan set $Q = \{x : x \text{ ialah nombor ganjil, } 1 \leq x \leq 10\}$. Cari $P \cap Q$."
+    scenario: "Diberi set $P = \\{2, 3, 5, 7\\}$ (nombor perdana) dan set $Q = \\{x : x \\text{ ialah nombor ganjil, } 1 \\leq x \\leq 10\\}$. Cari $P \\cap Q$."
     working: |
       1. Senaraikan unsur-unsur bagi set $P$: $P = \{2, 3, 5, 7\}$
       2. Senaraikan unsur-unsur bagi set $Q$: $Q = \{1, 3, 5, 7, 9\}$
@@ -25,8 +25,8 @@ worked_examples:
     topic: "Pelengkap bagi Kesatuan Set"
     difficulty: medium
     real_world_analogy: "Bayangkan Set Semesta ialah semua murid dalam kelas anda. Set A ialah 'Ahli Kelab Robotik' dan Set B ialah 'Ahli Kelab Catur'. Kesatuan (A ∪ B) ialah sesiapa yang menyertai mana-mana kelab tersebut. Pelengkap (A ∪ B)' ialah sekumpulan murid yang TIDAK menyertai kedua-dua kelab tersebut."
-    misconception_alert: "Perangkap 'Semesta Halimunan'! Murid sering terlupa untuk menyemak Set Semesta ($\xi$) dan hanya melihat bulatan sahaja. Ingatkan mereka bahawa pelengkap ialah semua yang berada di 'luar' bulatan tetapi masih di 'dalam' kawasan segi empat tepat (semesta)."
-    scenario: "Diberi $\xi = \{x : x \text{ ialah integer, } 10 \leq x \leq 20\}$, $A = \{12, 14, 16, 18\}$ and $B = \{10, 12, 15, 18\}$. Tentukan $(A \cup B)'$."
+    misconception_alert: "Perangkap 'Semesta Halimunan'! Murid sering terlupa untuk menyemak Set Semesta ($\\xi$) dan hanya melihat bulatan sahaja. Ingatkan mereka bahawa pelengkap ialah semua yang berada di 'luar' bulatan tetapi masih di 'dalam' kawasan segi empat tepat (semesta)."
+    scenario: "Diberi $\\xi = \\{x : x \\text{ ialah integer, } 10 \\leq x \\leq 20\\}$, $A = \\{12, 14, 16, 18\\}$ and $B = \\{10, 12, 15, 18\\}$. Tentukan $(A \\cup B)'$."
     working: |
       1. Senaraikan semua unsur dalam Set Semesta $\xi$: $\xi = \{10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20\}$
       2. Cari Kesatuan $A \cup B$ dengan menggabungkan semua unsur unik daripada kedua-dua set:

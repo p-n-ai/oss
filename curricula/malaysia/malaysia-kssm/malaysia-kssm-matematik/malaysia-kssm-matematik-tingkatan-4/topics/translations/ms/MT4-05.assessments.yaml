@@ -18,9 +18,9 @@ questions:
         - value: "8"
           feedback: "Anda hanya mengira setiap tepi sekali. Ingat, setiap tepi menghubungkan dua bucu, maka ia menyumbang 2 kepada jumlah darjah."
         - value: "4"
-          feedback: "Anda membahagi bilangan tepi dengan 2. Formula yang betul ialah $2 \times E$, bukan $E/2$."
+          feedback: "Anda membahagi bilangan tepi dengan 2. Formula yang betul ialah $2 \\times E$, bukan $E/2$."
         - value: "10"
-          feedback: "Nampaknya anda menambah 2 kepada bilangan tepi. Gunakan formula pendaraban $\sum d(v) = 2E$."
+          feedback: "Nampaknya anda menambah 2 kepada bilangan tepi. Gunakan formula pendaraban $\\sum d(v) = 2E$."
     hints:
       - level: 1
         text: "Rujuk formula jumlah darjah dalam buku teks muka surat 131."

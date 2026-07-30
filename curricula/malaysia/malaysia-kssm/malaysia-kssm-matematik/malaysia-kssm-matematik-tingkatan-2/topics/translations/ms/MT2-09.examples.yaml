@@ -31,7 +31,7 @@ worked_examples:
     topic: "Pecutan dan Nyahpecutan"
     difficulty: hard
     misconception_alert: "Pelajar sering lupa bahawa nyahpecutan ialah pecutan negatif dan tersalah susun formula."
-    scenario: "Sebuah lori mainan menyahpecut pada kadar $0.741\text{ m/s}^2$ selama 27 saat sehingga berhenti. Cari halaju awalnya."
+    scenario: "Sebuah lori mainan menyahpecut pada kadar $0.741\\text{ m/s}^2$ selama 27 saat sehingga berhenti. Cari halaju awalnya."
     working: |
       Langkah 1: Halaju akhir = $0\text{ m/s}$, masa = $27\text{ s}$.
       Langkah 2: Pecutan = $-0.741\text{ m/s}^2$.

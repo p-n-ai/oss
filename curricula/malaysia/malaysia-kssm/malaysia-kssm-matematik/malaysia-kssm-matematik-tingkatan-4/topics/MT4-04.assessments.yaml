@@ -48,7 +48,7 @@ questions:
   # TP3: Application (4.1.2)
   - id: Q3
     type: subjective
-    text: "Given the universal set $\xi = \{x : x \text{ is an integer, } 1 \leq x \leq 10\}$, set $A = \{2, 3, 5, 7\}$ and set $B = \{1, 3, 5, 7, 9\}$. Determine $(A \cap B)'$."
+    text: "Given the universal set $\\xi = \\{x : x \\text{ is an integer, } 1 \\leq x \\leq 10\\}$, set $A = \\{2, 3, 5, 7\\}$ and set $B = \\{1, 3, 5, 7, 9\\}$. Determine $(A \\cap B)'$."
     difficulty: medium
     learning_objective: "4.1.2"
     tp_level: 3
@@ -64,7 +64,7 @@ questions:
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Correctly identifies $A \cap B$ as $\{3, 5, 7\}$."
+        criteria: "Correctly identifies $A \\cap B$ as $\\{3, 5, 7\\}$."
       - marks: 2
         criteria: "Correctly identifies the complement elements from the universal set."
     hints:
@@ -91,7 +91,7 @@ questions:
       - marks: 2
         criteria: "Correctly identifies the number of students in each region of the Venn diagram."
       - marks: 1
-        criteria: "Correctly calculates the total for the union $n(F \cup B)$."
+        criteria: "Correctly calculates the total for the union $n(F \\cup B)$."
       - marks: 1
         criteria: "Final answer correctly identifies the complement."
     hints:
@@ -100,7 +100,7 @@ questions:
   # TP5: Complex Routine Problem Solving (4.3.3)
   - id: Q5
     type: subjective
-    text: "Given $\xi = \{x : x \text{ is an integer, } 10 \leq x \leq 20\}$, $P = \{x : x \text{ is a multiple of 2}\}$, $Q = \{x : x \text{ is a multiple of 3}\}$, and $R = \{11, 13, 17, 19\}$. Find $n(P \cup Q)' \cap R$."
+    text: "Given $\\xi = \\{x : x \\text{ is an integer, } 10 \\leq x \\leq 20\\}$, $P = \\{x : x \\text{ is a multiple of 2}\\}$, $Q = \\{x : x \\text{ is a multiple of 3}\\}$, and $R = \\{11, 13, 17, 19\\}$. Find $n(P \\cup Q)' \\cap R$."
     difficulty: hard
     learning_objective: "4.3.3"
     tp_level: 5
@@ -120,7 +120,7 @@ questions:
       - marks: 2
         criteria: "Lists sets P, Q, and the Universal set correctly."
       - marks: 1
-        criteria: "Finds the union $P \cup Q$ correctly."
+        criteria: "Finds the union $P \\cup Q$ correctly."
       - marks: 1
         criteria: "Identifies the final set intersection correctly."
       - marks: 1

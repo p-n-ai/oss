@@ -60,7 +60,7 @@ worked_examples:
     kbat: true
     real_world_analogy: "Kalau awak bayar harga separuh tiket bas, jangan terkejut kalau pemandu bas hanya hantar awak separuh jalan ke destinasi. Inilah 'Penalti Ko-insurans'—kalau tak beli perlindungan cukup, syarikat takkan bayar tuntutan penuh."
     misconception_alert: "Pelajar fikir kalau ada perlindungan $RM150,000$ dan kerugian cuma $RM25,000$, syarikat akan bayar penuh $RM25,000$. TIDAK! Jika anda kurang insurans, anda akan dipenalti mengikut nisbah apa yang anda beli berbanding apa yang SEPATUTNYA anda beli."
-    scenario: "Rumah Encik Ismail mempunyai nilai boleh insurans sebanyak $RM350,000$. Polisi beliau mempunyai fasal ko-insurans $80\%$. Beliau hanya menginsuranskan rumahnya sebanyak $RM150,000$. Jika beliau mengalami kerugian $RM25,000$, hitung pampasan yang diterima (andaikan tiada deduktibel untuk contoh ini)."
+    scenario: "Rumah Encik Ismail mempunyai nilai boleh insurans sebanyak $RM350,000$. Polisi beliau mempunyai fasal ko-insurans $80\\%$. Beliau hanya menginsuranskan rumahnya sebanyak $RM150,000$. Jika beliau mengalami kerugian $RM25,000$, hitung pampasan yang diterima (andaikan tiada deduktibel untuk contoh ini)."
     working: |
       1. Kira jumlah insurans yang harus dibeli: $80\% \times RM350,000 = RM280,000$
       2. Kenal pasti status insurans: Disebabkan $RM150,000 < RM280,000$, Encik Ismail telah menginsuranskan rumahnya secara kurang (under-insured).

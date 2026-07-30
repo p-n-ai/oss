@@ -56,7 +56,7 @@ questions:
 
   ### Learning Objective: 5.2.4 (create) - TP4
   - id: Q3
-    text: "An object with an area of $15 \text{ cm}^2$ is enlarged with a scale factor of $k = 3$. Calculate the area of the image, in $\text{ cm}^2$."
+    text: "An object with an area of $15 \\text{ cm}^2$ is enlarged with a scale factor of $k = 3$. Calculate the area of the image, in $\\text{ cm}^2$."
     difficulty: medium
     learning_objective: 5.2.4
     tp_level: 4
@@ -81,7 +81,7 @@ questions:
 
   ### Learning Objective: 5.3.4 (apply) - TP5
   - id: Q4
-    text: "Point $P(2, 3)$ undergoes combined transformation $AB$. $B$ is a translation $\begin{pmatrix} 1 \\ -2 \end{pmatrix}$ and $A$ is a reflection in the x-axis. State the final coordinates of image $P''$."
+    text: "Point $P(2, 3)$ undergoes combined transformation $AB$. $B$ is a translation $\\begin{pmatrix} 1 \\ -2 \\end{pmatrix}$ and $A$ is a reflection in the x-axis. State the final coordinates of image $P''$."
     difficulty: hard
     learning_objective: 5.3.4
     tp_level: 5
@@ -117,7 +117,7 @@ questions:
     kbat: true
     answer:
       type: free_text
-      value: "The tessellation uses rotation and translation. Two triangles are rotated $180^{\circ}$ to form a rhombus, which then undergoes translation."
+      value: "The tessellation uses rotation and translation. Two triangles are rotated $180^{\\circ}$ to form a rhombus, which then undergoes translation."
       working: |
         Step 1: Take an isosceles triangle.
         Step 2: Perform a rotation of $180^{\circ}$ at the midpoint of one side to form a parallelogram or rhombus.

@@ -8,7 +8,7 @@ worked_examples:
     difficulty: easy
     real_world_analogy: "Think of ordering at a Mamak stall. Set A is 'People who ordered Teh Tarik' and Set B is 'People who ordered Nasi Lemak'. The intersection (A ∩ B) is only those lucky people who ordered BOTH for their meal!"
     misconception_alert: "Students often think the intersection (∩) means 'combine everything'. Remind them: Intersection is 'Same-Same'—only elements appearing in EVERY set count."
-    scenario: "Given set $P = \{2, 3, 5, 7\}$ (prime numbers) and set $Q = \{x : x \text{ is an odd number, } 1 \leq x \leq 10\}$. Find $P \cap Q$."
+    scenario: "Given set $P = \\{2, 3, 5, 7\\}$ (prime numbers) and set $Q = \\{x : x \\text{ is an odd number, } 1 \\leq x \\leq 10\\}$. Find $P \\cap Q$."
     working: |
       1. List the elements of set $P$: $P = \{2, 3, 5, 7\}$
       2. List the elements of set $Q$: $Q = \{1, 3, 5, 7, 9\}$
@@ -25,8 +25,8 @@ worked_examples:
     topic: "Complement of the Union of Sets"
     difficulty: medium
     real_world_analogy: "Imagine the Universal Set is everyone in your classroom. Set A is 'Students in the Robotics Club' and Set B is 'Students in the Chess Club'. The Union (A ∪ B) is anyone in either club. The Complement (A ∪ B)' is the group of students who joined NEITHER club."
-    misconception_alert: "The 'Invisible Universe' Trap! Students often forget to check the Universal Set ($\xi$) and only look at the circles. Remind them that the complement is everyone 'outside' the circles but 'inside' the rectangle."
-    scenario: "Given $\xi = \{x : x \text{ is an integer, } 10 \leq x \leq 20\}$, $A = \{12, 14, 16, 18\}$ and $B = \{10, 12, 15, 18\}$. Determine $(A \cup B)'$."
+    misconception_alert: "The 'Invisible Universe' Trap! Students often forget to check the Universal Set ($\\xi$) and only look at the circles. Remind them that the complement is everyone 'outside' the circles but 'inside' the rectangle."
+    scenario: "Given $\\xi = \\{x : x \\text{ is an integer, } 10 \\leq x \\leq 20\\}$, $A = \\{12, 14, 16, 18\\}$ and $B = \\{10, 12, 15, 18\\}$. Determine $(A \\cup B)'$."
     working: |
       1. List all elements in the Universal Set $\xi$: $\xi = \{10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20\}$
       2. Find the Union $A \cup B$ by combining all unique elements from both sets:

@@ -17,7 +17,7 @@ questions:
         Langkah 2: Gunakan peraturan: Ketaksamaan tanpa komponen 'sama dengan' ( > atau < ) menggunakan garis sempang untuk menunjukkan titik pada garis tidak termasuk dalam penyelesaian.
       distractors:
         - value: "Garis padu"
-          feedback: "Garis padu hanya digunakan untuk ketaksamaan yang mempunyai simbol 'sama dengan' seperti $\geq$ atau $\leq$."
+          feedback: "Garis padu hanya digunakan untuk ketaksamaan yang mempunyai simbol 'sama dengan' seperti $\\geq$ atau $\\leq$."
         - value: "Garis mencancang"
           feedback: "Orientasi garis bergantung kepada persamaan $y = 2x + 5$, bukannya simbol ketaksamaan semata-mata."
     marks: 1
@@ -34,7 +34,7 @@ questions:
     kbat: false
     answer:
       type: "exact"
-      value: "x + y \leq 20"
+      value: "x + y \\leq 20"
       working: |
         Langkah 1: Kenal pasti pemboleh ubah. $x$ = perempuan, $y$ = lelaki.
         Langkah 2: Kenal pasti jumlah. Jumlah ialah hasil tambah $x + y$.
@@ -45,14 +45,14 @@ questions:
       - marks: 1
         criteria: "Mengenal pasti hasil tambah pemboleh ubah $x + y$ dengan betul."
       - marks: 1
-        criteria: "Menggunakan simbol $\leq$ untuk mewakili 'selebih-lebihnya'."
+        criteria: "Menggunakan simbol $\\leq$ untuk mewakili 'selebih-lebihnya'."
     hints:
       - level: 1
         text: "Fikirkan tentang had maksimum. Jika hadnya ialah 20, adakah jumlahnya boleh tepat 20? Bolehkah ia lebih daripada 20?"
 
   # Objektif Pembelajaran: 6.2.2 (TP3 - Menentusahkan titik dalam sistem)
   - id: "Q3"
-    text: "Adakah titik (2, 5) memuaskan sistem ketaksamaan linear $x + y \leq 8$ dan $y \geq 3$?"
+    text: "Adakah titik (2, 5) memuaskan sistem ketaksamaan linear $x + y \\leq 8$ dan $y \\geq 3$?"
     difficulty: "medium"
     learning_objective: "6.2.2"
     tp_level: 3
@@ -85,7 +85,7 @@ questions:
     kbat: true
     answer:
       type: "exact"
-      value: "y \leq -x + 6, x \geq 0, y \geq 0"
+      value: "y \\leq -x + 6, x \\geq 0, y \\geq 0"
       working: |
         Langkah 1: Kenal pasti garis $y = -x + 6$. Oleh sebab kawasan berlorek di bawah garis, gunakan $\leq$.
         Langkah 2: Kenal pasti sempadan paksi-y. Ini ialah $x = 0$. Lorekan ke kanan bermaksud $x \geq 0$.
@@ -93,9 +93,9 @@ questions:
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Menyatakan $y \leq -x + 6$ dengan betul."
+        criteria: "Menyatakan $y \\leq -x + 6$ dengan betul."
       - marks: 1
-        criteria: "Menyatakan kekangan sukuan $x \geq 0$ dan $y \geq 0$."
+        criteria: "Menyatakan kekangan sukuan $x \\geq 0$ dan $y \\geq 0$."
     hints:
       - level: 1
         text: "Lihat 'Tip' pada muka surat 171. Apakah persamaan bagi paksi-x dan paksi-y?"
