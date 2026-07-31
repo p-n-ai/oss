@@ -69,7 +69,9 @@ questions:
 
   # 5.1.4 - Represent information in the form of networks
   - id: Q4
-    text: "Represent the following social connection as a network: Edmund plays Badminton and Chess. Azwan plays Football and Sepak Takraw. Rajan plays Chess and Football. Use types of games as vertices."
+    text: >-
+      Represent the following social connection as a network: Edmund plays Badminton and Chess. Azwan plays Football
+      and Sepak Takraw. Rajan plays Chess and Football. Use types of games as vertices.
     difficulty: medium
     learning_objective: "5.1.4"
     tp_level: 4

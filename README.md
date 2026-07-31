@@ -14,8 +14,8 @@
   </p>
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY--SA%204.0-orange.svg" alt="License"></a>
-    <img src="https://img.shields.io/badge/status-scaffolding-yellow.svg" alt="Status">
-    <img src="https://img.shields.io/badge/curricula-0_(building)-blue.svg" alt="Curricula Count">
+    <img src="https://img.shields.io/badge/status-live-green.svg" alt="Status">
+    <img src="https://img.shields.io/badge/content_YAML-562-blue.svg" alt="Content YAML Count">
     <img src="https://img.shields.io/badge/format-YAML%20%2B%20Markdown-yellow.svg" alt="Format">
   </p>
 </p>
@@ -42,18 +42,13 @@ Every AI tutoring platform, every educational app, every school management syste
 
 ## Browse Curricula
 
-### Planned (Contributions Welcome!)
+### Available curriculum
 
 | Curriculum | Country | Status |
 |-----------|---------|--------|
-| Cambridge IGCSE 0580 Mathematics | International | 🚧 In progress (seed content) |
-| KSSM Matematik Forms 1-3 | Malaysia | 🚧 In progress (seed content) |
-| IB Diploma Mathematics AA | International | 📋 Scaffolded |
-| SAT Mathematics | USA | 📋 Scaffolded |
-| CBSE Class 10 Mathematics | India | 🔲 Not started |
-| GCSE Mathematics (Edexcel) | UK | 🔲 Not started |
-| SPM Mathematics | Malaysia | 🔲 Not started |
-| Kurikulum Merdeka SMA | Indonesia | 🔲 Not started |
+| Malaysia KSSM Mathematics Forms 1-5 | Malaysia | Live structured curriculum |
+| Malaysia KSSM Science Forms 1-5 | Malaysia | Live catalog and curriculum content |
+| Malaysia KSSM History Forms 1-5 | Malaysia | Live catalog and curriculum content |
 
 Want to see your country's curriculum here? [Start a contribution →](#contribute)
 
@@ -131,11 +126,11 @@ OSS uses nine JSON Schema types. The validator classifies canonical and localize
 | Subject-grade | 15 |
 | Canonical topic | 152 |
 | Locale topic variant | 53 |
-| Assessment | 114 canonical + 53 locale |
-| Example | 114 canonical + 53 locale |
+| Assessment | 115 canonical + 53 locale |
+| Example | 115 canonical + 53 locale |
 | Concept | 2 |
 | Taxonomy | 0 |
-| **Total content YAML** | **560** |
+| **Total content YAML** | **562** |
 
 Canonical topic IDs are globally unique across OSS. A locale topic variant deliberately reuses its canonical topic ID, but is validated separately for its mirrored path, locale, language, and parent identity.
 
@@ -147,7 +142,7 @@ Locale assessment variants may localize question prose and expected values, but 
 
 Worked examples may omit `learning_objective`; when present, it must exactly match an authored objective ID from the canonical topic. Locale example variants may translate prose but preserve canonical worked-example IDs and objective identities.
 
-The full gate validates all 560 content YAML files. Pull requests use the changed-files gate unless a schema or validation change requires the full corpus to be checked.
+The full gate validates all 562 content YAML files. Pull requests use the changed-files gate unless a schema or validation change requires the full corpus to be checked.
 
 ### 1. Syllabus
 
@@ -377,7 +372,7 @@ ajv validate --spec=draft2020 -c ajv-formats -s schema/topic.schema.json -d "cur
 ./scripts/validate-changed.sh
 ```
 
-The full gate parses every content YAML file, validates it through the correct one of nine schemas with `ajv-formats`, enforces the exact 560-file inventory, and checks references, prerequisite integrity, and quality claims. It intentionally does not make historical repository-wide YAML style debt part of that gate: there are currently 2,240 pre-existing `yamllint` findings across 447 files. The changed-files gate owns `yamllint` for touched YAML and blocks any increase in findings by rule, so new style debt cannot hide inside a semantic change.
+The full gate parses every content YAML file, validates it through the correct one of nine schemas with `ajv-formats`, enforces the exact 562-file inventory, and checks references, prerequisite integrity, and quality claims. It intentionally does not make historical repository-wide YAML style debt part of that gate: there are currently 2,240 pre-existing `yamllint` findings across 447 files. The changed-files gate owns `yamllint` for touched YAML and blocks any increase in findings by rule, so new style debt cannot hide inside a semantic change.
 
 Pull request CI runs changed-file validation. Pushes to `main` and manual workflow runs execute the full `./scripts/validate.sh` gate.
 

@@ -7,7 +7,9 @@ worked_examples:
     topic: "Memerihalkan Peristiwa Bergabung"
     difficulty: easy
     real_world_analogy: "Fikirkan tentang 'Set Kombo' di restoran. Peristiwa bergabung adalah seperti memilih satu 'Hidangan Utama' DAN satu 'Air' sebagai satu set lengkap."
-    misconception_alert: "Pelajar sering anggap pasangan (A, B) sama dengan (B, A). Dalam menyenaraikan peristiwa bergabung, urutan dalam pasangan tertib biasanya mewakili urutan atau sumber yang spesifik."
+    misconception_alert: >-
+      Pelajar sering anggap pasangan (A, B) sama dengan (B, A). Dalam menyenaraikan peristiwa bergabung, urutan dalam
+      pasangan tertib biasanya mewakili urutan atau sumber yang spesifik.
     scenario: "Sekeping syiling adil dilambung dan sebiji dadu adil dilambung. Senaraikan ruang sampel bagi peristiwa bergabung ini menggunakan pasangan tertib."
     working: |
       1. Senaraikan kesudahan bagi syiling (S): $S = \{A, G\}$ (Angka, Gambar).

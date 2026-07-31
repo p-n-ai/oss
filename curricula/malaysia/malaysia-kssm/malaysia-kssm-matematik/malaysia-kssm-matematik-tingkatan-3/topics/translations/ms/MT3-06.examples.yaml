@@ -5,7 +5,9 @@ worked_examples:
   - id: "WE-01"
     topic: "Sudut pada Lilitan dan Sudut Pusat"
     difficulty: "easy"
-    real_world_analogy: "Bayangkan 'Busur dan Anak Panah'—lengkuk bulatan ialah busur anda. Sudut pusat ialah tempat anda tarik tali paling jauh ke belakang (tenaga dua kali ganda!), manakala sudut lilitan ialah tarikan ringan dari tepi sahaja."
+    real_world_analogy: >-
+      Bayangkan 'Busur dan Anak Panah'—lengkuk bulatan ialah busur anda. Sudut pusat ialah tempat anda tarik tali
+      paling jauh ke belakang (tenaga dua kali ganda!), manakala sudut lilitan ialah tarikan ringan dari tepi sahaja.
     misconception_alert: "Murid sering menganggap mana-mana sudut di dalam bulatan adalah sudut pusat. Amaran: Bucu sudut MESTI berada tepat di pusat $O$ untuk hukum 'Dua Kali Ganda' ini terpakai."
     scenario: "Dalam sebuah bulatan berpusat $O$, diberi sudut pada lilitan $\\angle ACB = 35^\\circ$. Tentukan nilai sudut pusat $\\angle AOB$ yang dicangkum oleh lengkuk yang sama $AB$."
     working: |

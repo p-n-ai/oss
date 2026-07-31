@@ -6,7 +6,10 @@ worked_examples:
   - id: WE-01
     topic: "Persilangan Set"
     difficulty: easy
-    real_world_analogy: "Bayangkan anda memesan makanan di gerai Mamak. Set A ialah 'Pelanggan yang pesan Teh Tarik' dan Set B ialah 'Pelanggan yang pesan Nasi Lemak'. Persilangan (A ∩ B) hanyalah pelanggan yang sangat bertuah kerana memesan KEDUA-DUA item tersebut!"
+    real_world_analogy: >-
+      Bayangkan anda memesan makanan di gerai Mamak. Set A ialah 'Pelanggan yang pesan Teh Tarik' dan Set B ialah
+      'Pelanggan yang pesan Nasi Lemak'. Persilangan (A ∩ B) hanyalah pelanggan yang sangat bertuah kerana memesan
+      KEDUA-DUA item tersebut!
     misconception_alert: "Murid selalu silap menganggap persilangan (∩) bermaksud 'gabungkan semua'. Ingatkan mereka: Persilangan ialah 'Sama-Sama'—hanya unsur yang ada dalam SETIAP set sahaja yang dikira."
     scenario: "Diberi set $P = \\{2, 3, 5, 7\\}$ (nombor perdana) dan set $Q = \\{x : x \\text{ ialah nombor ganjil, } 1 \\leq x \\leq 10\\}$. Cari $P \\cap Q$."
     working: |

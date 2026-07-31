@@ -29,7 +29,10 @@ questions:
 
   # Standard Pembelajaran 9.2.1 - TP2
   - id: Q2
-    text: "Nyatakan sama ada peristiwa bergabung berikut ialah **Peristiwa Bersandar** atau **Peristiwa Tak Bersandar**: 'Memilih dua batang pen satu demi satu dari sebuah bekas yang mengandungi 3 pen merah dan 2 pen biru **tanpa pemulangan**.'"
+    text: >-
+      Nyatakan sama ada peristiwa bergabung berikut ialah **Peristiwa Bersandar** atau **Peristiwa Tak Bersandar**:
+      'Memilih dua batang pen satu demi satu dari sebuah bekas yang mengandungi 3 pen merah dan 2 pen biru **tanpa
+      pemulangan**.'
     difficulty: easy
     learning_objective: "9.2.1"
     tp_level: 2

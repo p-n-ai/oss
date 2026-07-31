@@ -29,7 +29,9 @@ questions:
 
   # Learning Objective 9.2.1 - TP2
   - id: Q2
-    text: "State whether the following combined event is a **Dependent Event** or an **Independent Event**: 'Choosing two pens one by one from a box containing 3 red pens and 2 blue pens **without replacement**.'"
+    text: >-
+      State whether the following combined event is a **Dependent Event** or an **Independent Event**: 'Choosing two
+      pens one by one from a box containing 3 red pens and 2 blue pens **without replacement**.'
     difficulty: easy
     learning_objective: "9.2.1"
     tp_level: 2

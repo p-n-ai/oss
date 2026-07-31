@@ -105,7 +105,10 @@ questions:
 
   - id: "MT3-06-Q06"
     type: "subjective"
-    text: "Satu sistem gear mempunyai dua bulatan dengan tangen sepunya. Menggunakan konsep 'Tangen Sepunya' (Buku Teks m/s 157), jika dua bulatan itu bersentuhan pada satu titik di luar, berapakah jumlah tangen sepunya yang boleh dilukis?"
+    text: >-
+      Satu sistem gear mempunyai dua bulatan dengan tangen sepunya. Menggunakan konsep 'Tangen Sepunya' (Buku Teks m/s
+      157), jika dua bulatan itu bersentuhan pada satu titik di luar, berapakah jumlah tangen sepunya yang boleh
+      dilukis?
     difficulty: "hard"
     learning_objective: "6.3.3"
     tp_level: 4

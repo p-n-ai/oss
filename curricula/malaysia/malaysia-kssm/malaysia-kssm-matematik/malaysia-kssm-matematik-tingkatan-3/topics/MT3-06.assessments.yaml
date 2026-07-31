@@ -105,7 +105,9 @@ questions:
 
   - id: "MT3-06-Q06"
     type: "subjective"
-    text: "A gear system consists of two circles with common tangents. Using the concept of 'Common Tangents' (Textbook p. 157), if two circles are touching each other at one point, how many common tangents can be drawn in total?"
+    text: >-
+      A gear system consists of two circles with common tangents. Using the concept of 'Common Tangents' (Textbook p.
+      157), if two circles are touching each other at one point, how many common tangents can be drawn in total?
     difficulty: "hard"
     learning_objective: "6.3.3"
     tp_level: 4

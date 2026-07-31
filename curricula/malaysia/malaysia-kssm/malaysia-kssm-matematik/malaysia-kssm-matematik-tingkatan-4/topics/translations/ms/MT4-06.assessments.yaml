@@ -27,7 +27,9 @@ questions:
 
   # Objektif Pembelajaran: 6.1.1 (TP2 - Mewakilkan situasi)
   - id: "Q2"
-    text: "Puan Carol perlu memilih selebih-lebihnya 20 orang murid untuk suatu pertandingan koir. Jika bilangan murid perempuan ialah $x$ dan bilangan murid lelaki ialah $y$, wakilkan situasi ini dalam bentuk ketaksamaan linear."
+    text: >-
+      Puan Carol perlu memilih selebih-lebihnya 20 orang murid untuk suatu pertandingan koir. Jika bilangan murid
+      perempuan ialah $x$ dan bilangan murid lelaki ialah $y$, wakilkan situasi ini dalam bentuk ketaksamaan linear.
     difficulty: "easy"
     learning_objective: "6.1.1"
     tp_level: 2

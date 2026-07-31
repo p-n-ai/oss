@@ -132,7 +132,9 @@ questions:
 
   # 5.1.7 - TP6: Masalah Bukan Rutin (Subjektif)
   - id: Q6
-    text: "Seorang juruukur berdiri di titik A dan mengukur sudut dongak ke puncak menara sebagai $30^\\circ$. Selepas berjalan 20 meter mendekati menara ke titik B, sudut dongak menjadi $60^\\circ$. Hitung tinggi menara tersebut."
+    text: >-
+      Seorang juruukur berdiri di titik A dan mengukur sudut dongak ke puncak menara sebagai $30^\circ$. Selepas
+      berjalan 20 meter mendekati menara ke titik B, sudut dongak menjadi $60^\circ$. Hitung tinggi menara tersebut.
     difficulty: "hard"
     learning_objective: "5.1.7"
     tp_level: 6

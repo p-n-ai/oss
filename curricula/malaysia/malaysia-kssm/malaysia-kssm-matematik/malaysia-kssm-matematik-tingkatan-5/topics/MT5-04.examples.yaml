@@ -7,7 +7,9 @@ worked_examples:
     difficulty: "easy"
     tp_level: 2
     learning_objective: "4.1.1"
-    real_world_analogy: "Think of taxes like a 'National Club Membership Fee'. Just as you pay a fee to use a club's gym and pool, citizens pay taxes so everyone can use 'free' roads, schools, and hospitals."
+    real_world_analogy: >-
+      Think of taxes like a 'National Club Membership Fee'. Just as you pay a fee to use a club's gym and pool,
+      citizens pay taxes so everyone can use 'free' roads, schools, and hospitals.
     misconception_alert: "Students often think taxes are 'fines' or penalties. Remind them that fines are for breaking rules, while taxes are a shared responsibility to build the country."
     scenario: "Adli is curious about why his father has to pay money to the government every year. Explain the primary purpose of taxation in the context of national development."
     working: |

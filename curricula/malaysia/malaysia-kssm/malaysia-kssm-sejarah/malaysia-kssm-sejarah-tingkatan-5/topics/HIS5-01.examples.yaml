@@ -1,0 +1,23 @@
+id: HIS5-01.examples
+topic_id: HIS5-01
+provenance: ai-assisted
+worked_examples:
+  - id: WE-1
+    topic: "Langkah rakyat mempertahankan kedaulatan"
+    difficulty: medium
+    tp_level: 4
+    kbat: true
+    learning_objective: "12.1.4"
+    misconception_alert: >-
+      Mempertahankan kedaulatan bukan tanggungjawab pemerintah dan pasukan
+      keselamatan sahaja; tindakan rakyat turut menentukan kestabilan negara.
+    scenario: >-
+      Kedaulatan negara ialah tanggungjawab bersama. Huraikan langkah yang boleh
+      diambil oleh rakyat untuk mempertahankan kedaulatan negara.
+    working: |-
+      Rakyat boleh mempertahankan kedaulatan melalui tindakan berikut:
+
+      1. Memupuk semangat patriotisme, termasuk menghormati lambang negara.
+      2. Mematuhi undang-undang dan Perlembagaan Persekutuan.
+      3. Menghormati kepelbagaian kaum, budaya dan agama untuk mengekalkan perpaduan.
+      4. Bersedia menyumbang tenaga melalui pasukan beruniform dan pertahanan awam.

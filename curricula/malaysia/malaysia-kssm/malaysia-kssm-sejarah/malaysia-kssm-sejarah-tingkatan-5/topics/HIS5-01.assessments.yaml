@@ -1,0 +1,48 @@
+id: HIS5-01.assessments
+topic_id: HIS5-01
+provenance: ai-assisted
+questions:
+  - id: HIS5-01-Q1
+    text: "Apakah yang dimaksudkan secara umum dengan kedaulatan?"
+    difficulty: easy
+    learning_objective: "12.1.1"
+    tp_level: 1
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: A
+      options:
+        A: "Kekuasaan tertinggi negara yang bebas untuk mentadbir negaranya sendiri."
+        B: "Keupayaan tentera yang dapat menguasai wilayah di negara luar."
+        C: "Hubungan ekonomi antarabangsa yang kuat."
+        D: "Kemajuan teknologi dalam pembangunan perindustrian dan pertahanan."
+
+  - id: HIS5-01-Q2
+    text: "Antara berikut, yang manakah BUKAN merupakan ciri utama negara yang berdaulat?"
+    difficulty: easy
+    learning_objective: "12.1.2"
+    tp_level: 2
+    kbat: false
+    answer:
+      type: multiple_choice
+      value: B
+      options:
+        A: "Mempunyai sempadan"
+        B: "Mempunyai empayar jajahan takluk"
+        C: "Mempunyai pemerintahan"
+        D: "Mempunyai rakyat"
+
+  - id: HIS5-01-Q3
+    text: >-
+      Jelaskan dua kepentingan mengekalkan kedaulatan negara bagi menjamin
+      keamanan hidup bermasyarakat.
+    difficulty: medium
+    learning_objective: "K12.1.6"
+    tp_level: 3
+    kbat: true
+    answer:
+      type: structured
+      value: >-
+        Menjamin keselamatan nyawa dan harta benda rakyat tanpa ancaman
+        penjajahan, serta memastikan pembangunan negara dan ekonomi berterusan
+        supaya rakyat hidup harmoni.

@@ -68,6 +68,15 @@ def teaching_signals(topic_path, data)
   [has_level2, missing, notes_path]
 end
 
+def gradeable_assessment?(path)
+  return false if path.nil? || !path.exist?
+
+  data = OssValidation.load_yaml(path)
+  Array(data["questions"]).any? do |question|
+    question.is_a?(Hash) && %w[exact multiple_choice].include?(question.dig("answer", "type"))
+  end
+end
+
 def next_level_requirements(level, topic_path, data, signals)
   case level
   when -1
@@ -89,6 +98,9 @@ def next_level_requirements(level, topic_path, data, signals)
     examples_path = OssValidation.linked_file(topic_path, data["examples_file"])
     missing << "assessments_file field missing" if assessments_path.nil?
     missing << "assessments_file missing: #{assessments_path.basename}" if assessments_path && !assessments_path.exist?
+    if assessments_path&.exist? && !gradeable_assessment?(assessments_path)
+      missing << "assessments_file has no deterministic exact or multiple_choice question"
+    end
     missing << "examples_file field missing" if examples_path.nil?
     missing << "examples_file missing: #{examples_path.basename}" if examples_path && !examples_path.exist?
     missing
@@ -119,6 +131,7 @@ def assess_topic(topic_path)
   has_level3 = actual >= 2 &&
     !notes_path.nil? && notes_path.exist? &&
     !assessments_path.nil? && assessments_path.exist? &&
+    gradeable_assessment?(assessments_path) &&
     !examples_path.nil? && examples_path.exist?
   actual = 3 if has_level3
 

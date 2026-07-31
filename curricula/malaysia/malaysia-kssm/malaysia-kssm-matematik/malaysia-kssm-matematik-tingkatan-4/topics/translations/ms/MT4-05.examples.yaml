@@ -6,7 +6,9 @@ worked_examples:
   - id: WE-01
     topic: "Pengenalan kepada Rangkaian dan Darjah"
     difficulty: easy
-    real_world_analogy: "Bayangkan graf seperti sebuah 'Majlis Bersalaman'. Setiap orang ialah bucu (titik). Apabila dua orang bersalaman, itu adalah tepi (garis). Satu aktiviti bersalaman sentiasa melibatkan dua 'sentuhan' atau darjah."
+    real_world_analogy: >-
+      Bayangkan graf seperti sebuah 'Majlis Bersalaman'. Setiap orang ialah bucu (titik). Apabila dua orang
+      bersalaman, itu adalah tepi (garis). Satu aktiviti bersalaman sentiasa melibatkan dua 'sentuhan' atau darjah.
     misconception_alert: "Perangkap 'Darjah Gelung'! Pelajar sering fikir gelung dikira sebagai 1 darjah kerana ia adalah satu garisan. Tetapi gelung menyentuh bucu yang sama dua kali (satu keluar, satu masuk), jadi ia MESTI dikira sebagai 2 darjah!"
     scenario: "Berdasarkan satu graf mudah yang mempunyai 6 bucu $\\{1, 2, 3, 4, 5, 6\\}$ and 7 tepi, tentukan jumlah darjah bagi keseluruhan graf tersebut."
     working: |

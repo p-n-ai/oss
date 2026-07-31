@@ -140,7 +140,10 @@ questions:
         text: "Pertama, cari berapa ramai murid yang ada dalam Asas 10 yang biasa kita guna. Sebaik sahaja anda dapat nombor 'sebenar' itu, barulah mulakan penukaran ke Asas 4."
 
   - id: Q6
-    text: "Purata bilangan pelawat ke Zoo Negara sehari pada bulan Januari ialah $20202_5$. Jika terdapat 31 hari dalam bulan Januari, hitungkan jumlah pelawat untuk bulan tersebut dalam Asas 10. Kemudian, cadangkan bagaimana nilai ini diwakili dalam Asas 8 untuk sistem log komputer."
+    text: >-
+      Purata bilangan pelawat ke Zoo Negara sehari pada bulan Januari ialah $20202_5$. Jika terdapat 31 hari dalam
+      bulan Januari, hitungkan jumlah pelawat untuk bulan tersebut dalam Asas 10. Kemudian, cadangkan bagaimana nilai
+      ini diwakili dalam Asas 8 untuk sistem log komputer.
     difficulty: hard
     learning_objective: "2.1.4"
     tp_level: 6

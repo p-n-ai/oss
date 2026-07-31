@@ -79,7 +79,9 @@ questions:
   # TP4: Penyelesaian Masalah Rutin Mudah (4.2.3)
   - id: Q4
     type: subjective
-    text: "Dalam satu tinjauan terhadap 40 murid, 25 murid bermain bola sepak (F) dan 18 murid bermain badminton (B). Jika 7 murid bermain kedua-dua sukan, hitung bilangan murid yang tidak bermain mana-mana sukan tersebut."
+    text: >-
+      Dalam satu tinjauan terhadap 40 murid, 25 murid bermain bola sepak (F) dan 18 murid bermain badminton (B). Jika
+      7 murid bermain kedua-dua sukan, hitung bilangan murid yang tidak bermain mana-mana sukan tersebut.
     difficulty: medium
     learning_objective: "4.2.3"
     tp_level: 4

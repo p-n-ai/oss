@@ -8,7 +8,10 @@ worked_examples:
     learning_objective: "3.1.1"
     tp_level: 2
     kbat: false
-    real_world_analogy: "Insurance is like carrying an umbrella. You don't want it to rain, but if a storm happens, the umbrella prevents you from getting soaked. The umbrella (insurance) transfers the 'risk' of getting wet from you to the umbrella's coverage."
+    real_world_analogy: >-
+      Insurance is like carrying an umbrella. You don't want it to rain, but if a storm happens, the umbrella prevents
+      you from getting soaked. The umbrella (insurance) transfers the 'risk' of getting wet from you to the umbrella's
+      coverage.
     misconception_alert: "Students often think insurance is a way to make money if something bad happens. Remember the 'Principle of Indemnity': insurance only restores you to your original state; it is not for 'untung' (profit)."
     scenario: "Encik Azlan wants to understand why he needs to pay a premium for his house. He wants to know the relationship between risk and insurance."
     working: |

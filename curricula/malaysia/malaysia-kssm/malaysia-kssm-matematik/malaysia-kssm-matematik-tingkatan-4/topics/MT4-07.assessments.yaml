@@ -3,7 +3,9 @@ provenance: "ai-generated"
 questions:
   # Learning Objective 7.1.1: Draw distance-time graphs (TP1)
   - id: "Q1"
-    text: "A taxi travels from Town A to Town B, a distance of 150 km, in 2 hours. After a 1-hour break, it continues to Town C, 50 km away, in 1 hour. Sketch a distance-time graph to represent this entire journey."
+    text: >-
+      A taxi travels from Town A to Town B, a distance of 150 km, in 2 hours. After a 1-hour break, it continues to
+      Town C, 50 km away, in 1 hour. Sketch a distance-time graph to represent this entire journey.
     difficulty: "easy"
     learning_objective: "MT4-07-7-1-1"
     tp_level: 1

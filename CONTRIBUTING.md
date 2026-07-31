@@ -4,13 +4,7 @@ Open School Syllabus (OSS) is an open curriculum data repository. Contributions 
 
 ## Current State
 
-This repository is currently in scaffolding/documentation phase. Some paths described in docs are planned and may not exist yet.
-
-If your contribution introduces new structure (for example `curricula/`, `schema/`, `scripts/`, `.github/workflows/`), follow:
-
-1. `docs/technical-plan.md`
-2. `docs/development-timeline.md`
-3. `AGENTS.md`
+This is a live curriculum-data repository. The checked-in schemas and validation scripts are authoritative. Read `AGENTS.md` and `docs/id-conventions.md` before changing content.
 
 ## Three Ways to Contribute
 
@@ -45,8 +39,11 @@ Suggested issue content:
 
 ### Naming
 
-- Curriculum directory: `curricula/{board}/{level}/{subject-code}/`
-- Topic files: `NN-kebab-case.yaml` (example: `05-quadratic-equations.yaml`)
+- Syllabus directory: `curricula/{country_id}/{syllabus_id}/`
+- Subject directory: `curricula/{country_id}/{syllabus_id}/{subject_id}/`
+- Subject-grade directory: `curricula/{country_id}/{syllabus_id}/{subject_id}/{subject_grade_id}/`
+- Canonical topic files: `topics/{TOPIC_ID}.yaml` (example: `topics/MT1-01.yaml`)
+- Locale variants: `topics/translations/{locale}/{TOPIC_ID}.yaml`
 - Teaching notes: same base + `.teaching.md`
 - Examples: same base + `.examples.yaml`
 - Assessments: same base + `.assessments.yaml`
@@ -71,11 +68,8 @@ Suggested issue content:
 When scaffolding files/tooling are present, run:
 
 ```bash
-yamllint -c .yamllint.yml curricula/ concepts/ taxonomy/
-ajv validate --spec=draft2020 -s schema/topic.schema.json -d "path/to/topic.yaml"
-ruby scripts/check-prerequisites.rb
-ruby scripts/check-references.rb
-ruby scripts/assess-quality.rb --report
+./scripts/validate.sh
+./scripts/validate-changed.sh
 ```
 
 If commands fail because paths are not created yet, add the missing scaffold first according to `docs/technical-plan.md`.

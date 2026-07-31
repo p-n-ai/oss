@@ -5,7 +5,9 @@ worked_examples:
   - id: "WE-01"
     topic: "Angle at the Circumference and Central Angle"
     difficulty: "easy"
-    real_world_analogy: "Think of the 'Bow and Arrow'—the arc is your bow, and the central angle is where you pull the string back the furthest (twice as much effort), while the circumference angle is like a lighter pull from the edge."
+    real_world_analogy: >-
+      Think of the 'Bow and Arrow'—the arc is your bow, and the central angle is where you pull the string back the
+      furthest (twice as much effort), while the circumference angle is like a lighter pull from the edge.
     misconception_alert: "Students often think any angle inside the circle is the central angle. Remember: The vertex MUST be exactly at the center $O$ for the 'Double Rule' to apply."
     scenario: "In a circle with center $O$, given the angle at the circumference $\\angle ACB = 35^\\circ$. Determine the value of the central angle $\\angle AOB$ subtended by the same arc $AB$."
     working: |

@@ -107,7 +107,9 @@ questions:
   # TP5: Complex Routine Problem Solving (4.3.3)
   - id: Q5
     type: subjective
-    text: "Given $\\xi = \\{x : x \\text{ is an integer, } 10 \\leq x \\leq 20\\}$, $P = \\{x : x \\text{ is a multiple of 2}\\}$, $Q = \\{x : x \\text{ is a multiple of 3}\\}$, and $R = \\{11, 13, 17, 19\\}$. Find $n(P \\cup Q)' \\cap R$."
+    text: >-
+      Given $\xi = \{x : x \text{ is an integer, } 10 \leq x \leq 20\}$, $P = \{x : x \text{ is a multiple of 2}\}$,
+      $Q = \{x : x \text{ is a multiple of 3}\}$, and $R = \{11, 13, 17, 19\}$. Find $n(P \cup Q)' \cap R$.
     difficulty: hard
     learning_objective: "4.3.3"
     tp_level: 5

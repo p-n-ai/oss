@@ -7,7 +7,9 @@ worked_examples:
     topic: "Describing Combined Events"
     difficulty: easy
     real_world_analogy: "Think of a combo meal at a restaurant. A combined event is like choosing one 'Main Dish' AND one 'Drink' together as a single set."
-    misconception_alert: "Students often think the order $(A, B)$ is the same as $(B, A)$. In listing combined events, the position in the ordered pair usually represents a specific sequence or source."
+    misconception_alert: >-
+      Students often think the order $(A, B)$ is the same as $(B, A)$. In listing combined events, the position in the
+      ordered pair usually represents a specific sequence or source.
     scenario: "A fair coin is tossed and a fair dice is rolled. List the sample space for this combined event using ordered pairs."
     working: |
       1. List the outcomes for the coin (C): $C = \{H, T\}$

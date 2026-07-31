@@ -8,7 +8,10 @@ worked_examples:
     learning_objective: "3.1.1"
     tp_level: 2
     kbat: false
-    real_world_analogy: "Insurans adalah seperti membawa payung. Kita tak minta hujan turun, tapi kalau ribut melanda, payung akan halang kita daripada basah lencun. Payung (insurans) memindahkan 'risiko' basah itu daripada diri kita kepada perlindungan payung tersebut."
+    real_world_analogy: >-
+      Insurans adalah seperti membawa payung. Kita tak minta hujan turun, tapi kalau ribut melanda, payung akan halang
+      kita daripada basah lencun. Payung (insurans) memindahkan 'risiko' basah itu daripada diri kita kepada
+      perlindungan payung tersebut.
     misconception_alert: "Pelajar selalu ingat insurans adalah cara untuk buat duit kalau musibah berlaku. Ingat 'Prinsip Indeminiti': insurans cuma memulihkan keadaan kewangan kita kepada asal; ia bukan untuk 'untung' (profit)."
     scenario: "Encik Azlan ingin faham kenapa beliau perlu membayar premium untuk rumahnya. Beliau ingin tahu kaitan antara risiko dan insurans."
     working: |

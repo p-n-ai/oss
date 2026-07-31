@@ -140,7 +140,10 @@ questions:
         text: "First, find out exactly how many students there are in our usual Base 10. Once you have that 'real' number, then start the conversion to Base 4."
 
   - id: Q6
-    text: "The average number of visitors to Zoo Negara per day in January is $20202_5$. If there are 31 days in January, calculate the total number of visitors for the month in Base 10. Then, suggest how this value would be represented in Base 8 for a computer log system."
+    text: >-
+      The average number of visitors to Zoo Negara per day in January is $20202_5$. If there are 31 days in January,
+      calculate the total number of visitors for the month in Base 10. Then, suggest how this value would be
+      represented in Base 8 for a computer log system.
     difficulty: hard
     learning_objective: "2.1.4"
     tp_level: 6

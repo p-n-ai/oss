@@ -7,7 +7,9 @@ worked_examples:
     learning_objective: "4.1.2"
     real_world_analogy: "Think of a 'Magic Shrink Ray'! If the ray is set to $1:50$, it means every $1 \\text{ cm}$ on the paper is actually $50 \\text{ cm}$ in the real world."
     misconception_alert: "The 'Enlargement Trap'! Students often think $1:n$ always means the drawing is smaller. Remind them that if $n$ is a fraction like $1:0.5$, the drawing actually gets bigger!"
-    scenario: "A scale drawing of a rectangular table is drawn to a scale of $1 : 20$. If the length of the table in the drawing is $5 \\text{ cm}$, what is the actual length of the table in $\\text{cm}$?"
+    scenario: >-
+      A scale drawing of a rectangular table is drawn to a scale of $1 : 20$. If the length of the table in the
+      drawing is $5 \text{ cm}$, what is the actual length of the table in $\text{cm}$?
     working: |
       1. Identify the Scale ratio: $\text{Drawing} : \text{Object} = 1 : 20$.
       2. Set up the proportion: $\frac{1}{20} = \frac{5 \text{ cm}}{\text{Actual Length}}$.

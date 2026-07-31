@@ -132,7 +132,10 @@ questions:
 
   # 5.1.7 - TP6: Non-Routine (Subjective)
   - id: Q6
-    text: "A surveyor stands at point A and measures the angle of elevation to the top of a tower as $30^\\circ$. After walking 20 meters closer to the tower to point B, the angle of elevation becomes $60^\\circ$. Calculate the height of the tower."
+    text: >-
+      A surveyor stands at point A and measures the angle of elevation to the top of a tower as $30^\circ$. After
+      walking 20 meters closer to the tower to point B, the angle of elevation becomes $60^\circ$. Calculate the
+      height of the tower.
     difficulty: "hard"
     learning_objective: "5.1.7"
     tp_level: 6

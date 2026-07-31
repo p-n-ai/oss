@@ -57,7 +57,10 @@ questions:
         text: "Oleh sebab sudut berada di sukuan ke-3, ia telah melepasi garisan 180 darjah. Berapakah baki perjalanan sudut tersebut?"
 
   - id: Q3
-    text: "Satu lengan robotik dengan panjang 15 cm diprogramkan untuk menggerakkan objek dari titik P ke titik Q. Jika sudut $\\theta$ yang dibentuk oleh lengan itu memenuhi $\\cos \\theta = -0.866$ bagi $0^\\circ \\leq \\theta \\leq 180^\\circ$, cari nilai $\\theta$ dan jarak mengufuk dari asalan ke titik Q."
+    text: >-
+      Satu lengan robotik dengan panjang 15 cm diprogramkan untuk menggerakkan objek dari titik P ke titik Q. Jika
+      sudut $\theta$ yang dibentuk oleh lengan itu memenuhi $\cos \theta = -0.866$ bagi $0^\circ \leq \theta \leq
+      180^\circ$, cari nilai $\theta$ dan jarak mengufuk dari asalan ke titik Q.
     difficulty: hard
     learning_objective: "6.1.4"
     tp_level: 4

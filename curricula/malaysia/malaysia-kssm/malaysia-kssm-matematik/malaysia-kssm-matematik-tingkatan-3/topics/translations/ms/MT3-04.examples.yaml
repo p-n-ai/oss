@@ -5,7 +5,9 @@ worked_examples:
     topic: "Mentafsir Maksud Skala"
     difficulty: "easy"
     learning_objective: "4.1.2"
-    real_world_analogy: "Bayangkan anda ada 'Lampu Ajaib' yang boleh mengecilkan objek! Jika lampu itu disetkan pada $1:50$, ini bermakna setiap $1 \\text{ cm}$ pada lukisan adalah sebenarnya $50 \\text{ cm}$ di dunia nyata."
+    real_world_analogy: >-
+      Bayangkan anda ada 'Lampu Ajaib' yang boleh mengecilkan objek! Jika lampu itu disetkan pada $1:50$, ini bermakna
+      setiap $1 \text{ cm}$ pada lukisan adalah sebenarnya $50 \text{ cm}$ di dunia nyata.
     misconception_alert: "Perangkap 'Pembesaran'! Pelajar selalu ingat $1:n$ bermaksud lukisan mesti lebih kecil. Ingatkan mereka jika $n$ adalah pecahan seperti $1:0.5$, lukisan itu sebenarnya menjadi lebih besar (pembesaran)!"
     scenario: "Sebuah lukisan berskala bagi sebuah meja berbentuk segi empat tepat dilukis mengikut skala $1 : 20$. Jika panjang meja dalam lukisan ialah $5 \\text{ cm}$, berapakah panjang sebenar meja itu dalam $\\text{cm}$?"
     working: |

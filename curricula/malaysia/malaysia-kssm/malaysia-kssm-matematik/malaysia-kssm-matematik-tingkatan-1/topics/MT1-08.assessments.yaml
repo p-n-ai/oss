@@ -27,7 +27,10 @@ questions:
         text: "Check the 'Walking through Time' or 'Summary' section. What is the range for a reflex angle?"
 
   - id: Q2
-    text: "Identify if the following statements about lines and angles are TRUE or FALSE: (i) The sum of complementary angles is $90^\\circ$. (ii) Conjugate angles sum up to $180^\\circ$. (iii) A whole turn angle is exactly $360^\\circ$."
+    text: >-
+      Identify if the following statements about lines and angles are TRUE or FALSE: (i) The sum of complementary
+      angles is $90^\circ$. (ii) Conjugate angles sum up to $180^\circ$. (iii) A whole turn angle is exactly
+      $360^\circ$.
     difficulty: medium
     learning_objective: "8.1.4"
     tp_level: 2

@@ -7,7 +7,9 @@ worked_examples:
     difficulty: "easy"
     tp_level: 2
     learning_objective: "4.1.1"
-    real_world_analogy: "Bayangkan cukai seperti 'Yuran Keahlian Kelab Negara'. Sama seperti anda bayar yuran untuk guna gim dan kolam renang kelab, rakyat bayar cukai supaya semua orang boleh guna jalan raya, sekolah, dan hospital 'percuma'."
+    real_world_analogy: >-
+      Bayangkan cukai seperti 'Yuran Keahlian Kelab Negara'. Sama seperti anda bayar yuran untuk guna gim dan kolam
+      renang kelab, rakyat bayar cukai supaya semua orang boleh guna jalan raya, sekolah, dan hospital 'percuma'.
     misconception_alert: "Pelajar selalu ingat cukai adalah 'denda'. Ingatkan mereka bahawa denda adalah untuk orang yang langgar peraturan, manakala cukai adalah tanggungjawab bersama untuk bina negara."
     scenario: "Adli ingin tahu kenapa ayahnya perlu membayar wang kepada kerajaan setiap tahun. Terangkan tujuan utama percukaian dalam konteks pembangunan negara."
     working: |

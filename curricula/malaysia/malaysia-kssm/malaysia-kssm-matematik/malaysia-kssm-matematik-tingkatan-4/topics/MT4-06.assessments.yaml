@@ -102,7 +102,10 @@ questions:
 
   # Learning Objective: 6.2.4 (TP5/6 - Problem Solving)
   - id: "Q5"
-    text: "A factory produces $x$ pairs of children's shoes and $y$ pairs of adult shoes. The total production is at most 500 pairs. The number of children's shoes is at most three times the number of adult shoes. If the factory produces 150 pairs of adult shoes, what is the maximum number of children's shoes they can produce?"
+    text: >-
+      A factory produces $x$ pairs of children's shoes and $y$ pairs of adult shoes. The total production is at most
+      500 pairs. The number of children's shoes is at most three times the number of adult shoes. If the factory
+      produces 150 pairs of adult shoes, what is the maximum number of children's shoes they can produce?
     difficulty: "hard"
     learning_objective: "6.2.4"
     tp_level: 5

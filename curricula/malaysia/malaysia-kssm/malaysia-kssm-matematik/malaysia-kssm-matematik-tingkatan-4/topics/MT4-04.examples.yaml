@@ -6,7 +6,9 @@ worked_examples:
   - id: WE-01
     topic: "Intersection of Sets"
     difficulty: easy
-    real_world_analogy: "Think of ordering at a Mamak stall. Set A is 'People who ordered Teh Tarik' and Set B is 'People who ordered Nasi Lemak'. The intersection (A ∩ B) is only those lucky people who ordered BOTH for their meal!"
+    real_world_analogy: >-
+      Think of ordering at a Mamak stall. Set A is 'People who ordered Teh Tarik' and Set B is 'People who ordered
+      Nasi Lemak'. The intersection (A ∩ B) is only those lucky people who ordered BOTH for their meal!
     misconception_alert: "Students often think the intersection (∩) means 'combine everything'. Remind them: Intersection is 'Same-Same'—only elements appearing in EVERY set count."
     scenario: "Given set $P = \\{2, 3, 5, 7\\}$ (prime numbers) and set $Q = \\{x : x \\text{ is an odd number, } 1 \\leq x \\leq 10\\}$. Find $P \\cap Q$."
     working: |

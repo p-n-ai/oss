@@ -17,9 +17,9 @@ module OssValidation
     subject_grade: 15,
     topic: 152,
     topic_variant: 53,
-    assessment: 114,
+    assessment: 115,
     assessment_variant: 53,
-    example: 114,
+    example: 115,
     example_variant: 53,
     concept: 2,
     taxonomy: 0
@@ -164,7 +164,8 @@ module OssValidation
     end
 
     classified_count = EXPECTED_INVENTORY.keys.sum { |type| groups.fetch(type, []).length }
-    errors << "total: expected 560, found #{classified_count}" unless classified_count == 560
+    expected_total = EXPECTED_INVENTORY.values.sum
+    errors << "total: expected #{expected_total}, found #{classified_count}" unless classified_count == expected_total
     errors
   end
 

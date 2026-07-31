@@ -7,7 +7,10 @@ worked_examples:
     difficulty: "easy"
     learning_objective: "5.1.1"
     tp_level: 1
-    real_world_analogy: "Imagine you are standing at the corner of a room (the angle). The wall directly in front of you is the 'Opposite' side. The wall you are leaning against is the 'Adjacent' side. The longest line from you to the far corner is the 'Hypotenuse'."
+    real_world_analogy: >-
+      Imagine you are standing at the corner of a room (the angle). The wall directly in front of you is the
+      'Opposite' side. The wall you are leaning against is the 'Adjacent' side. The longest line from you to the far
+      corner is the 'Hypotenuse'.
     misconception_alert: "Students often think the 'bottom' side is always the adjacent side. Remember: the labels change if you move to the other acute angle!"
     scenario: "In a right-angled triangle $ABC$ with $\\angle B = 90^\\circ$, identify the sides relative to $\\angle ACB$."
     working: |

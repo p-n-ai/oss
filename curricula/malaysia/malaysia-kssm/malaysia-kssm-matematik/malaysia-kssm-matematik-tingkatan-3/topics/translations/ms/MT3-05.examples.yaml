@@ -7,7 +7,10 @@ worked_examples:
     difficulty: "easy"
     learning_objective: "5.1.1"
     tp_level: 1
-    real_world_analogy: "Bayangkan awak berdiri di penjuru sebuah bilik (sudut rujukan). Dinding yang berada tepat di depan awak ialah 'Sisi Bertentangan'. Dinding yang awak sedang sandar ialah 'Sisi Bersebelahan'. Garisan paling panjang dari awak ke penjuru bilik yang paling jauh ialah 'Hipotenus'."
+    real_world_analogy: >-
+      Bayangkan awak berdiri di penjuru sebuah bilik (sudut rujukan). Dinding yang berada tepat di depan awak ialah
+      'Sisi Bertentangan'. Dinding yang awak sedang sandar ialah 'Sisi Bersebelahan'. Garisan paling panjang dari awak
+      ke penjuru bilik yang paling jauh ialah 'Hipotenus'.
     misconception_alert: "Pelajar sering keliru dan menganggap sisi 'bawah' sentiasa sisi bersebelahan. Ingat: label sisi akan berubah jika kita tukar sudut rujukan!"
     scenario: "Dalam sebuah segi tiga bersudut tegak $ABC$ dengan $\\angle B = 90^\\circ$, kenal pasti sisi-sisi berdasarakan $\\angle ACB$."
     working: |

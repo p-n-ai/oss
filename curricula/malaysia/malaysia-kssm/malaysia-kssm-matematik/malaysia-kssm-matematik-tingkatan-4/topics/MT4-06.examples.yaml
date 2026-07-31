@@ -9,7 +9,9 @@ worked_examples:
     tp_level: 2
     real_world_analogy: "Think of a 'Height Limit' sign at a parking garage. If the limit is 2.1m, your car height ($h$) must be $h \\leq 2.1$. The sign is a boundary that you cannot cross."
     misconception_alert: "Students often think 'at most' means 'greater than' because the word 'most' sounds like 'more'. Always remember: 'at most' is a ceiling—you can't go higher, so use $\\leq$."
-    scenario: "Taufik wants to buy some reference books and exercise books. The price of a reference book is RM14 and an exercise book is RM9. The maximum amount he can spend is RM100. Represent this situation as a linear inequality."
+    scenario: >-
+      Taufik wants to buy some reference books and exercise books. The price of a reference book is RM14 and an
+      exercise book is RM9. The maximum amount he can spend is RM100. Represent this situation as a linear inequality.
     working: |
       1. Define the variables: Let $x$ = number of reference books and $y$ = number of exercise books.
       2. Calculate the cost of reference books: $14 \times x = 14x$.
