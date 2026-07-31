@@ -1,0 +1,41 @@
+id: "SJ5-01.assessments"
+topic_id: "SJ5-01"
+questions:
+  - id: "SJ5-01-Q1"
+    learning_objective_id: "12.1.1"
+    type: "multiple_choice"
+    text: "Apakah yang dimaksudkan secara umum dengan kedaulatan?"
+    text_en: "What is generally meant by sovereignty?"
+    options:
+      - text: "Kekuasaan tertinggi negara yang bebas untuk mentadbir negaranya sendiri."
+        is_correct: true
+      - text: "Keupayaan tentera yang dapat menguasai wilayah di negara luar."
+        is_correct: false
+      - text: "Hubungan ekonomi antarabangsa yang kuat."
+        is_correct: false
+      - text: "Kemajuan teknologi dalam pembangunan perindustrian dan pertahanan."
+        is_correct: false
+
+  - id: "SJ5-01-Q2"
+    learning_objective_id: "12.1.2"
+    type: "multiple_choice"
+    text: "Antara berikut, yang manakah BUKAN merupakan ciri utama negara yang berdaulat?"
+    text_en: "Which of the following is NOT a main characteristic of a sovereign state?"
+    options:
+      - text: "Mempunyai sempadan"
+        is_correct: false
+      - text: "Mempunyai empayar jajahan takluk"
+        is_correct: true
+      - text: "Mempunyai pemerintahan"
+        is_correct: false
+      - text: "Mempunyai rakyat"
+        is_correct: false
+
+  - id: "SJ5-01-Q3"
+    learning_objective_id: "K12.1.6"
+    type: "structured"
+    text: "Jelaskan dua kepentingan mengekalkan kedaulatan negara bagi menjamin keamanan hidup bermasyarakat."
+    text_en: "Explain two importance of maintaining national sovereignty to ensure peaceful community living."
+    sample_answer: |
+      1. Menjamin keselamatan nyawa dan harta benda rakyat tanpa ancaman penjajahan.
+      2. Memastikan pembangunan negara dan ekonomi berterusan supaya rakyat hidup harmoni.

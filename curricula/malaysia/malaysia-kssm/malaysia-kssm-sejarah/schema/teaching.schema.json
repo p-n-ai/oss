@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/p-n-ai/oss/schema/teaching.schema.json",
+  "title": "Teaching Guidance Frontmatter",
+  "description": "Schema for the YAML frontmatter in teaching guidance Markdown files.",
+  "type": "object",
+  "required": ["id", "title", "overview", "chatbot_delivery_rules"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the teaching guide, e.g., SJ5-01-teaching"
+    },
+    "title": {
+      "type": "string",
+      "description": "Display title for the teaching guidance"
+    },
+    "overview": {
+      "type": "string",
+      "description": "High-level summary of the topic's pedagogical goals"
+    },
+    "chatbot_delivery_rules": {
+      "type": "array",
+      "description": "Specific constraints and style guides for the AI tutor",
+      "items": {
+        "type": "object",
+        "required": ["rule", "description"],
+        "properties": {
+          "rule": { "type": "string", "description": "Short name of the rule (e.g., Pacing, Tone)" },
+          "description": { "type": "string", "description": "Detailed instruction for the rule" }
+        }
+      }
+    },
+    "dskp_mapping": {
+      "type": "array",
+      "description": "Mapping of textbook topics to official learning standards (SP)",
+      "items": {
+        "type": "object",
+        "required": ["textbook_topic_id", "standards"],
+        "properties": {
+          "textbook_topic_id": { "type": "string" },
+          "standards": { 
+            "type": "array", 
+            "items": { "type": "string" },
+            "description": "List of SP IDs, e.g., 12.1.1, K12.1.5"
+          }
+        }
+      }
+    },
+    "performance_standards_guidance": {
+      "type": "array",
+      "description": "Guidance on how to assess or deliver content for different TP levels",
+      "items": {
+        "type": "object",
+        "required": ["level", "descriptor"],
+        "properties": {
+          "level": { "type": "integer", "minimum": 1, "maximum": 6 },
+          "descriptor": { "type": "string" }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

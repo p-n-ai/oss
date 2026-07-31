@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/p-n-ai/oss/schema/content.schema.json",
+  "title": "Textbook Content Frontmatter",
+  "description": "Schema for the YAML frontmatter in textbook content Markdown files.",
+  "type": "object",
+  "required": ["chapter_id", "chapter_title", "synopsis", "metadata"],
+  "properties": {
+    "chapter_id": {
+      "type": "string",
+      "description": "The sequential number of the chapter in the textbook."
+    },
+    "chapter_title": {
+      "type": "string",
+      "description": "The official name of the chapter."
+    },
+    "synopsis": {
+      "type": "string",
+      "description": "A brief overview of the chapter's focus."
+    },
+    "page_reference": {
+      "type": "string",
+      "description": "e.g., 'Halaman 4'"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Metadata elements outlined at the start of the chapter.",
+      "properties": {
+        "inti_pati_pembelajaran": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of core learning objectives for the chapter."
+        },
+        "kemahiran_pemikiran_sejarah": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of historical thinking skills applied in the chapter."
+        },
+        "elemen_kewarganegaraan_dan_sivik": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of civic and citizenship elements focused on in the chapter."
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
