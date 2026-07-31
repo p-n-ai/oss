@@ -21,8 +21,8 @@ content_standards:
       text_en: "Principle of Conservation of Energy"
 learning_objectives:
     - id: "7.1.1"
-      text: "Menentukan kerja dan menyelesaikan masalah berkaitan tenaga dalam kehidupan harian."
-      text_en: "Determine work and solve problems related to energy in daily life."
+      text: "Mendefinisikan kerja dan menyelesaikan masalah berkaitan tenaga dalam kehidupan harian."
+      text_en: "Define work and solve problems related to energy in daily life."
       bloom: "apply"
       content_standard_id: "7.1"
     - id: "7.1.2"
@@ -55,11 +55,6 @@ learning_objectives:
       text_en: "Solve qualitative and quantitative problems involving changes in kinetic energy and potential energy for a closed system."
       bloom: "apply"
       content_standard_id: "7.3"
-    - id: "7.1.1"
-      text: "Mendefinisikan kerja dan menyelesaikan masalah berkaitan tenaga dalam kehidupan harian."
-      text_en: "Define work and solve problems related to energy in daily life."
-      bloom: "remember"
-      content_standard_id: "7.1"
 performance_standards:
     - level: 1
       id: "TP1"

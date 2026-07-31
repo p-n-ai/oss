@@ -23,8 +23,10 @@ questions:
           feedback: "In Quadrant IV, Cosine is the only positive ratio. Remember 'Add Sugar To Coffee' to track the quadrants!"
     marks: 1
     hints:
-      - "Try using the mnemonic 'Add Sugar To Coffee' or 'All Science Teachers Crazy' to remember the signs."
-      - "In which quadrant is the y-coordinate negative but the ratio of y/x positive?"
+      - level: 1
+        text: "Try using the mnemonic 'Add Sugar To Coffee' or 'All Science Teachers Crazy' to remember the signs."
+      - level: 2
+        text: "In which quadrant is the y-coordinate negative but the ratio of y/x positive?"
 
   - id: Q2
     text: "Given that $\\sin \\theta = -0.866$ and $180^\\circ \\leq \\theta \\leq 270^\\circ$, determine the corresponding reference angle $\\alpha$ and the value of $\\theta$."
@@ -49,8 +51,10 @@ questions:
       - marks: 1
         criteria: "Final value of theta is 240 degrees."
     hints:
-      - "First, ignore the negative sign to find the acute 'mini-me' angle (reference angle)."
-      - "Since the angle is in the 3rd quadrant, it has already passed the 180-degree line. How much further did it go?"
+      - level: 1
+        text: "First, ignore the negative sign to find the acute 'mini-me' angle (reference angle)."
+      - level: 2
+        text: "Since the angle is in the 3rd quadrant, it has already passed the 180-degree line. How much further did it go?"
 
   - id: Q3
     text: "A robotic arm of length 15 cm is programmed to move an object from point P to point Q. If the angle $\\theta$ formed by the arm satisfies $\\cos \\theta = -0.866$ for $0^\\circ \\leq \\theta \\leq 180^\\circ$, find the value of $\\theta$ and the horizontal distance from the origin to point Q."
@@ -76,8 +80,10 @@ questions:
       - marks: 2
         criteria: "Calculate horizontal distance using cosine ratio correctly."
     hints:
-      - "Check Example 8 in your textbook; the horizontal distance relates to the adjacent side of the triangle formed by the arm."
-      - "The cosine value given is the ratio of the horizontal distance to the length of the arm."
+      - level: 1
+        text: "Check Example 8 in your textbook; the horizontal distance relates to the adjacent side of the triangle formed by the arm."
+      - level: 2
+        text: "The cosine value given is the ratio of the horizontal distance to the length of the arm."
 
   - id: Q4
     text: "The graph of a trigonometric function is defined by $y = 3 \\sin 2x + 1$ for $0^\\circ \\leq x \\leq 360^\\circ$. State the amplitude, the period of the function, and the maximum value of $y$."
@@ -102,8 +108,10 @@ questions:
       - marks: 1
         criteria: "Correct maximum value calculation."
     hints:
-      - "The constant 'a' stretches the wave vertically, while 'b' squashes it horizontally."
-      - "Don't forget that the '+1' (constant c) acts like an elevator moving the whole wave up!"
+      - level: 1
+        text: "The constant 'a' stretches the wave vertically, while 'b' squashes it horizontally."
+      - level: 2
+        text: "Don't forget that the '+1' (constant c) acts like an elevator moving the whole wave up!"
 
   - id: Q5
     text: "The depth of water, $y$ meters, in a port is modeled by $y = 2 \\cos(15x) + 5$, where $x$ is the number of hours after midnight. At what time(s) during the first 24 hours is the water at its shallowest point?"
@@ -129,5 +137,7 @@ questions:
       - marks: 2
         criteria: "Solve for x correctly to get 12 hours."
     hints:
-      - "Think about the shape of a cosine graph. Where is the lowest 'valley' of the wave?"
-      - "For the function to be at its minimum, the cosine term must equal -1. Solve for x when $15x = 180$."
+      - level: 1
+        text: "Think about the shape of a cosine graph. Where is the lowest 'valley' of the wave?"
+      - level: 2
+        text: "For the function to be at its minimum, the cosine term must equal -1. Solve for x when $15x = 180$."

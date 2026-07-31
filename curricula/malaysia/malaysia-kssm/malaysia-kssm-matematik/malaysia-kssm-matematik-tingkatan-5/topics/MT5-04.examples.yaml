@@ -1,7 +1,7 @@
 id: MT5-04
 topic_id: MT5-04
 provenance: "curriculum-architect-audit"
-examples:
+worked_examples:
   - id: WE-01
     topic: "Purpose of Taxation"
     difficulty: "easy"

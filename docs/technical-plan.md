@@ -2,7 +2,7 @@
 
 > **Repository:** `p-n-ai/oss`
 > **License:** CC BY-SA 4.0
-> **Last updated:** February 2026
+> **Last updated:** July 2026
 
 ---
 
@@ -18,23 +18,24 @@ The architecture is deliberately simple. Any platform can consume OSS by cloning
 │                                                           │
 │  ┌─────────────────────────┐  ┌────────────────────────┐  │
 │  │  curricula/             │  │  schema/               │  │
-│  │  ├── cambridge/igcse/   │  │  ├── syllabus.json     │  │
-│  │  ├── malaysia/kssm/     │  │  ├── subject.json      │  │
-│  │  ├── india/cbse/        │  │  ├── topic.json        │  │
-│  │  └── ...                │  │  ├── examples.json     │  │
-│  └─────────────────────────┘  │  └── assessments.json  │  │
+│  │  └── malaysia/          │  │  ├── syllabus          │  │
+│  │      └── malaysia-kssm/ │  │  ├── subject/grade     │  │
+│  │                         │  │  ├── topic/variant     │  │
+│  │                         │  │  ├── assessment/example│  │
+│  └─────────────────────────┘  │  └── concept/taxonomy  │  │
 │                               └────────────────────────┘  │
 │  ┌─────────────────────────┐  ┌────────────────────────┐  │
 │  │  concepts/              │  │  taxonomy/             │  │
 │  │  └── mathematics/       │  │  └── mathematics/      │  │
-│  │      ├── quadratic.yaml │  │      ├── algebra.yaml  │  │
-│  │      └── ...            │  │      └── ...           │  │
+│  │      ├── algebraic...    │  │  0 artifacts today    │  │
+│  │      └── linear...       │  │                       │  │
 │  └─────────────────────────┘  └────────────────────────┘  │
 │                                                           │
 │  ┌─────────────────────────────────────────────────────┐  │
 │  │  GitHub Actions CI                                  │  │
-│  │  ├── YAML syntax check                              │  │
-│  │  ├── JSON Schema validation (ajv)                   │  │
+│  │  ├── Parse every content YAML                       │  │
+│  │  ├── JSON Schema validation (ajv + formats)         │  │
+│  │  ├── Exact artifact inventory                       │  │
 │  │  ├── Prerequisite graph cycle detection             │  │
 │  │  ├── Cross-reference integrity check                │  │
 │  │  └── Quality level auto-assessment                  │  │
@@ -69,8 +70,9 @@ OSS itself has no runtime dependencies. The tech stack consists entirely of data
 | Tool | Version | Purpose |
 |------|---------|---------|
 | **uv** | current | Python tool installer/cache for CI. Installs `yamllint` and persists uv tool directories between runs. |
-| **ajv-cli** | ≥5 | JSON Schema validator. Validates changed YAML files on PRs and all YAML files on the full gate. |
-| **yamllint** | ≥1.35 | YAML syntax and style checker. Enforces consistent formatting (indentation, line length, key ordering). |
+| **ajv-cli** | ≥5 | JSON Schema validator. Validates changed YAML files on PRs and all content YAML files on the full gate. |
+| **ajv-formats** | current | AJV plugin for JSON Schema formats such as `date-time`; installed and load-checked independently from `ajv-cli`. |
+| **yamllint** | ≥1.35 | YAML style checker for touched content. Historical repository-wide style debt is not part of the full semantic gate. |
 | **Node.js** | 20 LTS | Runtime for ajv-cli. Only used in CI, not required for consuming OSS. |
 | **Ruby** | system Ruby or newer | Custom validation scripts for prerequisites, references, and quality assessment. |
 | **Python** | 3.12 | Managed by uv for Python-based tooling such as `yamllint`. |
@@ -81,25 +83,27 @@ OSS itself has no runtime dependencies. The tech stack consists entirely of data
 |-----------|-----------|---------|
 | **CI Platform** | GitHub Actions | Pull requests run changed-file validation. Pushes to `main` and manual runs execute full validation. |
 | **Schema Validation** | ajv-cli | Validates changed YAML files on PRs and every YAML file on the full gate. |
-| **Lint** | yamllint | Enforces YAML formatting standards on changed PR files and the full repo gate. |
-| **Custom Checks** | Ruby/Bash scripts | Prerequisite graph cycle detection, cross-reference integrity, quality level auto-assessment |
+| **Lint** | yamllint | Enforces YAML formatting standards on content YAML touched by a pull request. |
+| **Custom Checks** | Ruby/Bash scripts | YAML parsing, exact inventory, prerequisite graph, cross-reference integrity, and quality assessment |
 | **Release** | GitHub Releases | Tagged releases for versioned curriculum snapshots |
 
 ---
 
 ## 3. Schema Design
 
-OSS uses 7 interconnected schema types. Every file is validated against its JSON Schema on every commit.
+OSS uses nine interconnected schema types. The deterministic artifact classifier selects the schema from a file's role and path; it does not infer a schema from whatever shape happens to validate.
 
 ### 3.1 Schema Hierarchy
 
 ```
 Syllabus (top-level qualification)
- └── Subject (topic grouping)
-      └── Topic (core teachable unit)
-           ├── Teaching Notes (AI instruction guide, Markdown)
-           ├── Examples (worked examples with steps)
-           └── Assessments (questions, rubrics, hints)
+ └── Subject (discipline)
+      └── Subject-grade (grade-specific grouping)
+           └── Canonical Topic (core teachable unit)
+                ├── Locale Topic Variant (same canonical ID)
+                ├── Teaching Notes (AI instruction guide, Markdown)
+                ├── Examples (worked examples with steps)
+                └── Assessments (questions, rubrics, hints)
 
 Concept (cross-curriculum bridge)
  └── Links topics from different syllabi covering the same idea
@@ -113,12 +117,35 @@ Taxonomy (subject area hierarchy)
 | Schema | File | Validates |
 |--------|------|-----------|
 | Syllabus | `schema/syllabus.schema.json` | `curricula/**/syllabus.yaml` |
-| Subject | `schema/subject.schema.json` | `curricula/**/subjects/*.yaml` |
-| Topic | `schema/topic.schema.json` | `curricula/**/topics/**/*.yaml` |
-| Examples | `schema/examples.schema.json` | `curricula/**/topics/**/*.examples.yaml` |
-| Assessments | `schema/assessments.schema.json` | `curricula/**/topics/**/*.assessments.yaml` |
+| Subject | `schema/subject.schema.json` | `curricula/**/subject.yaml` |
+| Subject-grade | `schema/subject-grade.schema.json` | `curricula/**/subject-grade.yaml` |
+| Canonical topic | `schema/topic.schema.json` | Canonical topic YAML under `curricula/**/topics/` |
+| Locale topic variant | `schema/topic-variant.schema.json` | Topic YAML under `curricula/**/topics/translations/{locale}/` |
+| Assessment | `schema/assessments.schema.json` | Canonical and locale `*.assessments.yaml` companions |
+| Example | `schema/examples.schema.json` | Canonical and locale `*.examples.yaml` companions |
 | Concept | `schema/concept.schema.json` | `concepts/**/*.yaml` |
 | Taxonomy | `schema/taxonomy.schema.json` | `taxonomy/**/*.yaml` |
+
+Canonical topic IDs are globally unique across the repository. A locale variant reuses the canonical topic ID by design, but is classified and validated separately for its mirrored path, locale, language, and parent identities.
+
+Canonical topic files live directly under `topics/` and use English when an English representation exists. Malay variants live under `topics/translations/ms/`, reuse the canonical filename and topic ID, and carry `language: ms`.
+
+The current exact inventory is 560 content YAML files:
+
+| Artifact class | Count |
+|----------------|------:|
+| Syllabus | 1 |
+| Subject | 3 |
+| Subject-grade | 15 |
+| Canonical topic | 152 |
+| Locale topic variant | 53 |
+| Canonical assessment | 114 |
+| Locale assessment | 53 |
+| Canonical example | 114 |
+| Locale example | 53 |
+| Concept | 2 |
+| Taxonomy | 0 |
+| **Total** | **560** |
 
 ### 3.3 Topic Schema (Core — Most Complex)
 
@@ -126,22 +153,27 @@ The topic schema is the heart of OSS. Every field exists because an AI tutor or 
 
 ```yaml
 # Required fields
-id: string                        # Unique within syllabus (e.g., "05-quadratic-equations")
-name: string                      # Human-readable name
+id: string                        # Globally unique canonical topic ID
+official_ref: string              # Non-empty source curriculum reference
+name or name_en: string           # At least one human-readable name
+subject_grade_id: string          # Reference to parent subject-grade
 subject_id: string                # Reference to parent subject
 syllabus_id: string               # Reference to parent syllabus
-difficulty: enum                  # beginner | intermediate | advanced
-learning_objectives: array        # Each with id, text, bloom level
+content_standards: array          # May be empty for a Level 0 catalog stub
 
-# Pedagogical fields (Level 2+)
+# Level 1 teaching identity
+difficulty: enum                  # beginner | intermediate | advanced
+learning_objectives: array        # At least one root objective
 prerequisites:
   required: array[string]         # Topic IDs that must be mastered first
   recommended: array[string]      # Topic IDs that help but aren't required
+bloom_levels: array[enum]         # Or Bloom evidence embedded in objectives
+
+# Pedagogical fields (Level 2+)
 teaching:
   sequence: array[string]         # Recommended teaching order (step by step)
   common_misconceptions: array    # Each with misconception + remediation text
   engagement_hooks: array[string] # Real-world hooks to capture interest
-bloom_levels: array[enum]         # remember | understand | apply | analyze | evaluate | create
 
 # Progress tracking fields
 mastery:
@@ -165,6 +197,12 @@ quality_level: integer            # 0–5 (see Quality Levels below)
 provenance: enum                  # human | ai-assisted | ai-generated | ai-observed
 ```
 
+Runtime-bearing values have one canonical representation: root `learning_objectives`, `mastery`, nested `teaching.sequence` and `teaching.common_misconceptions`, and `answer.options`. Root `engagement_hooks` is the only retained alternate placement because the Go consumer normalizes it with conflict detection. The schemas reject the removed aliases instead of silently dropping authored policy.
+
+Locale assessment variants may localize question prose and expected values, but question IDs, learning-objective references, and answer types remain identical to the canonical assessment. The cross-reference gate enforces that evidence contract.
+
+Worked examples may omit `learning_objective`; when present, it must exactly match an authored objective ID from the canonical topic. Locale example variants may translate prose but preserve canonical worked-example IDs and objective identities.
+
 ### 3.4 Assessment Schema
 
 ```yaml
@@ -175,8 +213,11 @@ questions: array
     difficulty: enum              # easy | medium | hard
     learning_objective: string    # References topic's LO id
     answer:
-      type: enum                  # exact | range | multiple_choice | free_text
-      value: string               # Correct answer
+      type: enum                  # exact | range | multiple_choice | true_false |
+                                  # matching | free_text | structured |
+                                  # structured_response | subjective | opb
+      value: string               # Required except for matching
+      pairs: array                # Required for matching; value is forbidden
       working: string             # Step-by-step solution (multiline)
     marks: integer                # Total marks available
     rubric: array                 # Mark allocation breakdown
@@ -197,79 +238,57 @@ questions: array
 ```
 oss/
 ├── curricula/                          # All curricula organized by board
-│   ├── cambridge/
-│   │   └── igcse/
-│   │       └── mathematics-0580/
-│   │           ├── syllabus.yaml                           # Top-level qualification
-│   │           ├── subjects/
-│   │           │   ├── algebra.yaml                        # Subject grouping
-│   │           │   ├── number.yaml
-│   │           │   ├── geometry.yaml
-│   │           │   └── statistics.yaml
-│   │           ├── topics/
-│   │           │   ├── algebra/
-│   │           │   │   ├── 01-expressions.yaml             # Topic definition
-│   │           │   │   ├── 01-expressions.teaching.md      # AI teaching notes
-│   │           │   │   ├── 01-expressions.examples.yaml    # Worked examples
-│   │           │   │   ├── 01-expressions.assessments.yaml # Assessment questions
-│   │           │   │   ├── 02-linear-equations.yaml
-│   │           │   │   └── ...
-│   │           │   ├── number/
-│   │           │   │   └── ...
-│   │           │   └── geometry/
-│   │           │       └── ...
-│   │           └── locales/                                # Translations
-│   │               ├── ms/                                 # Malay
-│   │               │   └── topics/algebra/
-│   │               │       └── 01-expressions.yaml
-│   │               └── ar/                                 # Arabic
-│   │                   └── ...
 │   └── malaysia/
-│       └── kssm/
-│           ├── matematik-tingkatan1/
-│           │   └── ...                                     # Same structure
-│           ├── matematik-tingkatan2/
-│           │   └── ...
-│           └── matematik-tingkatan3/
-│               └── ...
+│       └── malaysia-kssm/
+│           ├── syllabus.yaml                               # Top-level syllabus
+│           └── malaysia-kssm-matematik/
+│               ├── subject.yaml                            # Subject
+│               └── malaysia-kssm-matematik-tingkatan-1/
+│                   ├── subject-grade.yaml                   # Grade-specific subject
+│                   └── topics/
+│                       ├── MT1-01.yaml                       # Canonical topic
+│                       ├── MT1-01.teaching.md                # AI teaching notes
+│                       ├── MT1-01.examples.yaml              # Worked examples
+│                       ├── MT1-01.assessments.yaml           # Assessments
+│                       └── translations/
+│                           └── ms/
+│                               ├── MT1-01.yaml               # Locale topic variant
+│                               ├── MT1-01.examples.yaml
+│                               └── MT1-01.assessments.yaml
 │
 ├── concepts/                           # Universal cross-curriculum concepts
 │   └── mathematics/
-│       ├── quadratic-equation.yaml     # Bridges IGCSE ↔ KSSM ↔ IB
-│       ├── linear-function.yaml
-│       ├── pythagorean-theorem.yaml
-│       └── ...
+│       ├── algebraic-expression.yaml
+│       └── linear-equation.yaml
 │
-├── taxonomy/                           # Subject area hierarchies
-│   └── mathematics/
-│       ├── algebra.yaml                # Classification tree for algebra topics
-│       ├── geometry.yaml
-│       ├── statistics.yaml
-│       └── calculus.yaml
+├── taxonomy/                           # Empty today; schema exists for future taxonomies
 │
 ├── schema/                             # JSON Schema validation files
 │   ├── syllabus.schema.json
 │   ├── subject.schema.json
+│   ├── subject-grade.schema.json
 │   ├── topic.schema.json
-│   ├── examples.schema.json
+│   ├── topic-variant.schema.json
 │   ├── assessments.schema.json
+│   ├── examples.schema.json
 │   ├── concept.schema.json
 │   └── taxonomy.schema.json
 │
 ├── scripts/                            # CI and maintenance scripts
-│   ├── validate.sh                     # Run all schema validations
+│   ├── validate.sh                     # Run the full semantic gate
 │   ├── validate-changed.sh             # Run PR validation for changed files
+│   ├── check-inventory.rb              # Enforce the exact artifact inventory
+│   ├── check-yaml-syntax.rb             # Parse every content YAML object
+│   ├── check-yamllint-regressions.rb    # Block new touched-file style debt
 │   ├── check-prerequisites.rb          # Detect cycles in prerequisite graph
 │   ├── check-references.rb             # Verify cross-references are valid
 │   ├── assess-quality.rb               # Auto-assess quality levels
-│   ├── lib/oss_validation.rb           # Shared YAML + repo helpers
-│   └── export-sqlite.py                # Generate SQLite export (coming soon)
+│   ├── list-schema-targets.rb           # Emit deterministic schema targets
+│   └── lib/oss_validation.rb           # Shared classifier + repo helpers
 │
 ├── .github/
 │   └── workflows/
-│       ├── validate.yml                # Changed-file PR validation + full main gate
-│       ├── quality-report.yml          # Quality assessment on merge to main
-│       └── release.yml                 # Tagged release with SQLite export
+│       └── validate.yml                # Changed-file PR validation + full main gate
 │
 ├── .yamllint.yml                       # YAML linting rules
 ├── CONTRIBUTING.md                     # Contribution guide (3 paths)
@@ -281,24 +300,24 @@ oss/
 
 | Pattern | Example | Rule |
 |---------|---------|------|
-| Directories | `curricula/cambridge/igcse/mathematics-0580/` | `board/level/subject-code/` |
-| Topics | `05-quadratic-equations.yaml` | `NN-kebab-case.yaml` (NN = sequence number) |
-| Teaching notes | `05-quadratic-equations.teaching.md` | Same base name + `.teaching.md` |
-| Examples | `05-quadratic-equations.examples.yaml` | Same base name + `.examples.yaml` |
-| Assessments | `05-quadratic-equations.assessments.yaml` | Same base name + `.assessments.yaml` |
-| Translations | `locales/ms/topics/algebra/01-expressions.yaml` | `locales/{lang-code}/` mirrors source path |
-| Concepts | `concepts/mathematics/quadratic-equation.yaml` | `concepts/{domain}/{concept-name}.yaml` |
+| Directories | `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-3/` | `{country_id}/{syllabus_id}/{subject_id}/{subject_grade_id}/` |
+| Topics | `MT3-09.yaml` | Canonical topic ID + `.yaml` |
+| Teaching notes | `MT3-09.teaching.md` | Same topic ID + `.teaching.md` |
+| Examples | `MT3-09.examples.yaml` | Same topic ID + `.examples.yaml` |
+| Assessments | `MT3-09.assessments.yaml` | Same topic ID + `.assessments.yaml` |
+| Translations | `topics/translations/ms/MT1-01.yaml` | Reuse the canonical filename under `topics/translations/{lang-code}/` |
+| Concepts | `concepts/mathematics/linear-equation.yaml` | `concepts/{domain}/{concept-name}.yaml` |
 
 ---
 
 ## 5. Quality Level Framework
 
-Every topic carries a `quality_level` field (0–5) that indicates completeness. This is both a content standard and a technical contract — consumers can filter by quality level to ensure they only use content that meets their requirements.
+A topic's optional `quality_level` field is a 0–5 completeness claim. When present, the full quality gate rejects claims above the completeness it can verify; consumers can filter for a minimum claimed level when they require it.
 
 | Level | Name | Required Fields | AI Teaching Capability |
 |-------|------|----------------|----------------------|
-| **0** | Stub | `id`, `name`, `learning_objectives` | Barely — LLM can attempt teaching from name alone |
-| **1** | Basic | + `prerequisites`, `difficulty`, `tier`, `bloom_levels` | Minimally — knows difficulty and ordering |
+| **0** | Stub | `id`, `name`; `content_standards` and `learning_objectives` may be empty | No — catalog node only |
+| **1** | Basic | + at least one learning objective, `prerequisites`, `difficulty`, Bloom evidence | Minimally — knows the teaching target, difficulty, and ordering |
 | **2** | Structured | + `teaching.sequence`, `teaching.common_misconceptions`, `engagement_hooks` | Somewhat — knows what to teach and common pitfalls |
 | **3** | Teachable | + `ai_teaching_notes` (.md), `examples_file`, `assessments_file` | **Yes** — has everything needed for an effective session |
 | **4** | Complete | + translations (≥1 language), `cross_curriculum` links, peer-reviewed | Well — multilingual, cross-referenced |
@@ -352,13 +371,30 @@ jobs:
             .ci/uv/tools
             .ci/uv/bin
             .ci/npm-prefix
-          key: validation-tools-${{ runner.os }}-uv-yamllint-ajv-v1
+          key: validation-tools-${{ runner.os }}-uv-yamllint-ajv-v2
 
       - name: Install validators
         run: |
+          mkdir -p "$UV_TOOL_DIR" "$UV_TOOL_BIN_DIR" "$NPM_CONFIG_PREFIX"
+          echo "$UV_TOOL_BIN_DIR" >> "$GITHUB_PATH"
+          echo "$NPM_CONFIG_PREFIX/bin" >> "$GITHUB_PATH"
+          export PATH="$UV_TOOL_BIN_DIR:$NPM_CONFIG_PREFIX/bin:$PATH"
           uv python install 3.12
-          uv tool install yamllint
-          npm install --global ajv-cli ajv-formats
+
+          if ! command -v yamllint >/dev/null; then
+            uv tool install yamllint
+          fi
+          if ! npm list --global --depth=0 ajv-cli >/dev/null 2>&1; then
+            npm install --global ajv-cli
+          fi
+          if ! npm list --global --depth=0 ajv-formats >/dev/null 2>&1; then
+            npm install --global ajv-formats
+          fi
+
+          export NODE_PATH="$(npm root --global)"
+          echo "NODE_PATH=$NODE_PATH" >> "$GITHUB_ENV"
+          node -e 'require("ajv-formats")'
+          ajv compile --spec=draft2020 -c ajv-formats -s schema/syllabus.schema.json >/dev/null
 
       - name: Run changed files validation
         if: github.event_name == 'pull_request'
@@ -373,14 +409,17 @@ jobs:
 
 | Check | Tool | PR Gate | Full Gate |
 |-------|------|---------|-----------|
-| Changed YAML syntax valid | yamllint | Yes | Yes |
-| Changed YAML matches JSON Schema | ajv-cli | Yes | Yes |
-| Full-repo YAML syntax valid | yamllint | No | Yes |
-| Full-repo schema validity | ajv-cli | No | Yes |
+| Touched content YAML style | yamllint | Yes | No |
+| Touched content YAML syntax and schema | YAML parser + AJV | Yes | Included in full checks |
+| Every content YAML parses | YAML parser | No | Yes, all 560 |
+| Every artifact matches its classified schema | ajv-cli + ajv-formats | No | Yes, all 560 |
+| Exact artifact inventory | custom Ruby | No | Yes |
 | No prerequisite cycles | custom Ruby | No | Yes |
-| All topic_id/syllabus_id references exist | custom Ruby | No | Yes |
+| All path, topic, syllabus, and companion references agree | custom Ruby | No | Yes |
 | Quality level not overclaimed | custom Ruby | No | Yes |
 | Workflow YAML parses | Ruby YAML parser | Yes, when workflow changes | Yes, through workflow execution |
+
+The full gate is semantic: syntax, classified schema validity, exact inventory, references, prerequisites, and quality. It intentionally excludes historical repository-wide `yamllint` style debt—currently 2,240 findings across 447 files. The changed-files gate owns `yamllint` for touched content, preventing new style regressions without conflating a legacy formatting cleanup with corpus correctness.
 
 ---
 
@@ -398,7 +437,7 @@ Read YAML files directly in any language:
 
 ```go
 // Go (used by P&AI Bot)
-data, _ := os.ReadFile("oss/curricula/cambridge/igcse/mathematics-0580/topics/algebra/05-quadratic-equations.yaml")
+data, _ := os.ReadFile("oss/curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-3/topics/MT3-09.yaml")
 var topic Topic
 yaml.Unmarshal(data, &topic)
 ```
@@ -406,7 +445,7 @@ yaml.Unmarshal(data, &topic)
 ```python
 # Python
 import yaml
-with open("oss/curricula/cambridge/igcse/mathematics-0580/topics/algebra/05-quadratic-equations.yaml") as f:
+with open("oss/curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-3/topics/MT3-09.yaml") as f:
     topic = yaml.safe_load(f)
 ```
 
@@ -435,7 +474,7 @@ curl -LO https://github.com/p-n-ai/oss/releases/latest/download/oss.sqlite
 
 ```bash
 # Fetch a single topic via GitHub raw content
-curl https://raw.githubusercontent.com/p-n-ai/oss/main/curricula/cambridge/igcse/mathematics-0580/topics/algebra/05-quadratic-equations.yaml
+curl https://raw.githubusercontent.com/p-n-ai/oss/main/curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-3/topics/MT3-09.yaml
 ```
 
 ---
@@ -457,24 +496,17 @@ GitHub labels mirror provenance: `provenance:human`, `provenance:ai-generated`, 
 
 ## 9. Translation Architecture
 
-Translations live in `locales/{lang-code}/` directories that mirror the source structure exactly. This design means translations are additive — they never modify the source files.
+Translations live under `topics/translations/{lang-code}/` and mirror the canonical topic filenames. This design keeps translations additive: they never modify the canonical files.
 
 ```
-curricula/cambridge/igcse/mathematics-0580/
-├── topics/algebra/
-│   └── 01-expressions.yaml              # Source (English)
-└── locales/
-    ├── ms/                               # Malay
-    │   └── topics/algebra/
-    │       └── 01-expressions.yaml       # Translated fields only
-    ├── ar/                               # Arabic
-    │   └── topics/algebra/
-    │       └── 01-expressions.yaml
-    └── zh/                               # Chinese
-        └── ...
+curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-3/topics/
+├── MT3-09.yaml                           # English canonical topic
+└── translations/
+    └── ms/
+        └── MT3-09.yaml                   # Malay locale variant
 ```
 
-**Translation file format:** Contains only translatable fields (`name`, `learning_objectives[].text`, `teaching.sequence`, `teaching.common_misconceptions`, `engagement_hooks`). Non-translatable fields (`id`, `difficulty`, `prerequisites`, `mastery`) are inherited from the source.
+**Translation identity:** A locale topic variant reuses the canonical topic ID. The validator checks it through `topic-variant.schema.json` and separately enforces mirrored filename, locale/language agreement, and canonical parent identities. Locale assessment and example companions likewise reuse their canonical `topic_id` and are classified separately from canonical companions.
 
 **Language codes:** ISO 639-1 two-letter codes (e.g., `ms`, `ar`, `zh`, `hi`, `es`, `fr`).
 
@@ -489,24 +521,19 @@ The `concepts/` directory bridges the same mathematical (or scientific, literary
 - Researchers comparing curriculum alignment across countries
 
 ```yaml
-# concepts/mathematics/quadratic-equation.yaml
-id: quadratic-equation
-name: Quadratic Equation
+# concepts/mathematics/linear-equation.yaml
+id: linear-equation
+name: "Linear Equation"
 domain: mathematics
 subdomain: algebra
-
-definition: "A polynomial equation of degree 2 in the form ax² + bx + c = 0, where a ≠ 0"
-
+definition: "An equation of degree 1 in the form ax + b = c, where a is not equal to 0"
 curricula:
-  - syllabus: cambridge-igcse-mathematics-0580
-    topic: 05-quadratic-equations
-    scope: "Factorisation and quadratic formula. No completing the square."
-  - syllabus: malaysia-kssm-mathematics-form4
-    topic: quadratic-equations-and-inequalities
-    scope: "Includes completing the square. Quadratic inequalities introduced."
-  - syllabus: ib-dp-mathematics-aa-sl
-    topic: quadratic-functions
-    scope: "Full treatment including discriminant analysis and graphical interpretation."
+  - syllabus: malaysia-kssm
+    topic: MT1-06
+    scope: "Solving linear equations in one variable."
+  - syllabus: malaysia-kssm
+    topic: MT3-09
+    scope: "Straight lines and linear equations in two variables."
 ```
 
 ---

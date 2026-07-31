@@ -34,7 +34,7 @@ learning_objectives:
     bloom: apply
     tp_level: 5
 
-mastery_criteria:
+mastery:
   minimum_score: 0.75
   assessment_count: 3
   spaced_repetition:
@@ -42,9 +42,12 @@ mastery_criteria:
     multiplier: 2.5
 
 prerequisites:
-  required:
-    - "Basic understanding of points, lines, and distance in 2D geometry"
-    - "Proficiency in using geometric tools (ruler and compasses)"
+  required: []
+  recommended: []
+
+background_knowledge:
+  - "Basic understanding of points, lines, and distance in 2D geometry"
+  - "Proficiency in using geometric tools (ruler and compasses)"
 
 teaching:
   sequence:

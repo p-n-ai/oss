@@ -4,89 +4,70 @@
 require "set"
 require_relative "lib/oss_validation"
 
-def find_required_chains(topic_key, topics, trail = nil)
-  trail ||= [topic_key]
-  required = topics.fetch(topic_key).fetch("resolved_required")
-  return [trail] if required.empty?
-
-  required.flat_map do |dependency|
-    if !topics.key?(dependency) || trail.include?(dependency)
-      [trail + [dependency]]
-    else
-      find_required_chains(dependency, topics, trail + [dependency])
-    end
-  end
-end
-
 syllabi, syllabus_duplicates = OssValidation.build_syllabus_catalog
 topics, topics_by_id, topic_duplicates = OssValidation.build_topic_catalog(syllabi)
-topics_by_syllabus = Hash.new { |hash, key| hash[key] = [] }
 errors = []
-cycles = []
+edges = {}
 
 syllabus_duplicates.each do |duplicate|
-  paths = duplicate.fetch("paths").join(", ")
-  errors << "duplicate syllabus id: #{duplicate.fetch('syllabus_id')} (files: #{paths})"
+  paths = duplicate.fetch("paths").map { |path| OssValidation.relative_path(path) }.join(", ")
+  errors << "duplicate syllabus id #{duplicate.fetch('syllabus_id')}: #{paths}"
 end
 
 topic_duplicates.each do |duplicate|
-  paths = duplicate.fetch("paths").join(", ")
-  errors << "duplicate topic key: #{duplicate.fetch('syllabus_id')}:#{duplicate.fetch('topic_id')} (files: #{paths})"
+  paths = duplicate.fetch("paths").map { |path| OssValidation.relative_path(path) }.join(", ")
+  errors << "duplicate global topic id #{duplicate.fetch('topic_id')}: #{paths}"
 end
 
 OssValidation.topic_files.each do |path|
   data = OssValidation.load_yaml(path)
   topic_id = data["id"]
-  syllabus_id = data["syllabus_id"] || "unknown"
-  subject_id = data["subject_id"]
-  prerequisites = data["prerequisites"] || {}
-  required = Array(prerequisites["required"])
-  recommended = Array(prerequisites["recommended"])
+  next if topic_id.nil? || topic_id.empty?
 
-  if [topic_id, syllabus_id, subject_id].any? { |value| value.nil? || value.empty? }
-    errors << "#{path}: missing topic id, syllabus_id, or subject_id"
-    next
-  end
-
-  topic_key = OssValidation.topic_key(syllabus_id, topic_id)
-  topic = topics[topic_key]
-  unless topic
-    errors << "#{path}: topic index missing for #{topic_key}"
-    next
-  end
-
-  topic["required"] = required
-  topic["recommended"] = recommended
-  topic["resolved_required"] = []
-  topic["resolved_recommended"] = []
-  topics_by_syllabus[syllabus_id] << topic_key
-end
-
-topics.each_value do |meta|
-  (meta["required"] + meta["recommended"]).each do |dependency|
-    resolution = OssValidation.resolve_topic_reference(topic_id: dependency, from_topic: meta, topics_by_id: topics_by_id)
-    case resolution.fetch("status")
-    when "missing"
-      errors << "#{OssValidation.render_topic_reference(meta)}: missing prerequisite topic #{dependency}"
-    when "ambiguous"
-      matches = resolution.fetch("matches").map { |topic| OssValidation.render_topic_reference(topic) }.join(", ")
-      errors << "#{OssValidation.render_topic_reference(meta)}: ambiguous prerequisite topic #{dependency} (matches: #{matches})"
-    else
-      target = resolution.fetch("topic").fetch("key")
-      bucket = meta["required"].include?(dependency) ? "resolved_required" : "resolved_recommended"
-      meta.fetch(bucket) << target
+  prerequisites = data["prerequisites"].is_a?(Hash) ? data["prerequisites"] : {}
+  dependencies = {}
+  %w[required recommended].each do |kind|
+    dependencies[kind] = []
+    Array(prerequisites[kind]).each_with_index do |reference, index|
+      dependency = OssValidation.prerequisite_id(reference)
+      if dependency.nil?
+        errors << "#{topic_id}: prerequisites.#{kind}[#{index}] must be a canonical topic ID"
+      else
+        dependencies[kind] << dependency
+      end
     end
   end
+  required = dependencies.fetch("required")
+  recommended = dependencies.fetch("recommended")
+
+  duplicates = required & recommended
+  duplicates.each do |dependency|
+    errors << "#{topic_id}: prerequisite #{dependency} is both required and recommended"
+  end
+
+  (required + recommended).each do |dependency|
+    if dependency == topic_id
+      errors << "#{topic_id}: prerequisite cannot reference itself"
+    elsif !topics.key?(dependency)
+      errors << "#{topic_id}: missing prerequisite topic #{dependency}"
+    end
+  end
+
+  edges[topic_id] = {
+    "required" => required.uniq,
+    "recommended" => recommended.uniq
+  }
 end
 
+cycles = []
 state = {}
 stack = []
 
-dfs = lambda do |topic_id|
+visit = lambda do |topic_id|
   case state[topic_id]
   when :visiting
-    start_index = stack.index(topic_id) || 0
-    cycles << (stack[start_index..] + [topic_id])
+    start = stack.index(topic_id) || 0
+    cycles << (stack[start..] + [topic_id])
     return
   when :visited
     return
@@ -94,54 +75,33 @@ dfs = lambda do |topic_id|
 
   state[topic_id] = :visiting
   stack << topic_id
-  topics.fetch(topic_id).fetch("resolved_required").each do |dependency|
-    dfs.call(dependency) if topics.key?(dependency)
+  edges.fetch(topic_id, {}).fetch("required", []).each do |dependency|
+    visit.call(dependency) if edges.key?(dependency)
   end
   stack.pop
   state[topic_id] = :visited
 end
 
-topics.keys.sort.each do |topic_key|
-  dfs.call(topic_key) unless state.key?(topic_key)
+edges.keys.sort.each { |topic_id| visit.call(topic_id) }
+
+seen_cycles = Set.new
+cycles.each do |cycle|
+  rendered = cycle.join(" -> ")
+  next unless seen_cycles.add?(rendered)
+
+  errors << "required prerequisite cycle: #{rendered}"
 end
 
-if cycles.empty?
-  puts "PASS: no prerequisite cycles detected"
-else
-  puts "FAIL: prerequisite cycles detected"
-  seen = Set.new
-  cycles.each do |cycle|
-    rendered = cycle.map { |topic_key| OssValidation.render_topic_reference(topics.fetch(topic_key)) }.join(" -> ")
-    next if seen.include?(rendered)
-
-    puts "- #{rendered}"
-    seen << rendered
+if errors.empty?
+  edge_count = edges.values.sum do |dependencies|
+    dependencies.fetch("required").length + dependencies.fetch("recommended").length
   end
+  puts "PASS: prerequisite graph is globally resolvable and acyclic"
+  puts "- canonical topics: #{topics.length}"
+  puts "- graph edges: #{edge_count}"
+  exit 0
 end
 
-puts
-puts "Prerequisite chains by syllabus"
-topics_by_syllabus.keys.sort.each do |syllabus_id|
-  puts "- #{syllabus_id}"
-  topics_by_syllabus[syllabus_id].sort_by { |topic_key| topics.fetch(topic_key).fetch("topic_id") }.each do |topic_key|
-    chains = find_required_chains(topic_key, topics)
-    rendered = chains.map do |chain|
-      chain.reverse.map { |key| topics.fetch(key).fetch("topic_id") }.join(" -> ")
-    end.join(" | ")
-    recommended = topics.fetch(topic_key).fetch("recommended")
-    topic_id = topics.fetch(topic_key).fetch("topic_id")
-    if recommended.empty?
-      puts "  - #{topic_id}: #{rendered}"
-    else
-      puts "  - #{topic_id}: #{rendered} | recommended=#{recommended.join(', ')}"
-    end
-  end
-end
-
-unless errors.empty?
-  puts
-  puts "FAIL: invalid prerequisite references"
-  errors.each { |error| puts "- #{error}" }
-end
-
-exit(cycles.empty? && errors.empty? ? 0 : 1)
+puts "FAIL: invalid prerequisite graph"
+errors.each { |error| puts "- #{error}" }
+exit 1

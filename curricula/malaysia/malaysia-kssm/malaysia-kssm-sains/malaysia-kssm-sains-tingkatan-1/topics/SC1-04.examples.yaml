@@ -7,7 +7,7 @@ worked_examples:
     difficulty: easy
     tp_level: 2
     kbat: false
-    learning_objective: "4.1.1 (analyze): membanding dan membezakan pembiakan seks dan aseks bagi haiwan dan tumbuhan."
+    learning_objective: "4.1.1"
     real_world_analogy: "Pembiakan seks adalah seperti dua orang memberikan sumbangan genetik kepada bayi, manakala pembiakan aseks adalah seperti menyalin satu dokumen secara tepat."
     misconception_alert: "Ramai murid menganggap semua tumbuhan membiak secara seks, tetapi banyak tumbuhan juga membiak secara aseks."
     scenario: "Seorang murid ingin mengetahui perbezaan antara pembiakan seks dan aseks pada tumbuhan dan haiwan."
@@ -21,7 +21,7 @@ worked_examples:
     difficulty: medium
     tp_level: 3
     kbat: true
-    learning_objective: "4.2.1 (remember): mengenal pasti struktur dan fungsi sistem pembiakan lelaki dan perempuan."
+    learning_objective: "4.2.1"
     real_world_analogy: "Menganggap sistem pembiakan seperti kilang di mana setiap bahagian mempunyai tugas tertentu dalam menghasilkan produk akhir."
     misconception_alert: "Murid mungkin keliru antara struktur pembiakan lelaki dan perempuan kerana beberapa istilah yang hampir sama."
     scenario: "Seorang murid perlu mengenal pasti dan menjelaskan fungsi asas struktur dalam sistem pembiakan lelaki dan perempuan."
@@ -35,7 +35,7 @@ worked_examples:
     difficulty: hard
     tp_level: 4
     kbat: true
-    learning_objective: "4.3.2 (understand): hubungkaitkan waktu subur kitar haid dengan proses persenyawaan."
+    learning_objective: "4.3.2"
     real_world_analogy: "Proses ini seperti merancang waktu terbaik untuk menyemai benih di tanah agar tumbuh dengan baik."
     misconception_alert: "Murid sering salah faham tentang masa subur, menganggap ia berlaku sepanjang bulan dan bukan dalam jangka masa tertentu."
     scenario: "Seorang murid ingin memahami bagaimana kitar haid mempengaruhi kebarangkalian persenyawaan berlaku."

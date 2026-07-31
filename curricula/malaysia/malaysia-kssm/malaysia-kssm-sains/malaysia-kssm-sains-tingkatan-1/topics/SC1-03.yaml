@@ -13,7 +13,7 @@ learning_objectives:
       text: "berkomunikasi maksud homeostasis."
       text_en: "Communicate the meaning of homeostasis."
       bloom: understand
-    - id: 3.1.3
+    - id: 3.1.2
       text: "menjelaskan dengan contoh sistem yang terlibat dengan homeostasis dalam manusia dan haiwan."
       text_en: "Explain with examples of systems involved in homeostasis in humans and animals."
       bloom: understand
@@ -25,14 +25,6 @@ learning_objectives:
       text: "menghargai kepentingan homeostasis kepada manusia dan benda hidup."
       text_en: "Appreciate the importance of homeostasis to humans and living things."
       bloom: evaluate
-    - id: 3.1.5
-      text: "Menghargai kepentingan homeostasis kepada manusia dan benda hidup."
-      text_en: "Appreciate the importance of homeostasis to humans and living things."
-      bloom: evaluate
-    - id: 3.1.2
-      text: "Berkomunikasi maksud homeostasis."
-      text_en: "Communicate the meaning of homeostasis."
-      bloom: understand
 content_standards:
     - id: "3.1"
       text: "Homeostasis dalam benda hidup"

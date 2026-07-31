@@ -10,6 +10,7 @@ questions:
     tp_level: 1
     kbat: false
     answer:
+      type: multiple_choice
       value: "P ∩ Q"
       working: |
         The intersection of sets P and Q is the set of elements that are common to both sets. 
@@ -23,7 +24,8 @@ questions:
           feedback: "This is the symbol for a complement, representing elements NOT in set P."
     marks: 1
     hints:
-      - "Think of the mnemonic: 'n' stands for 'aNd' or intersection."
+      - level: 1
+        text: "Think of the mnemonic: 'n' stands for 'aNd' or intersection."
 
   # TP2: Understanding (4.2.1)
   - id: Q2
@@ -35,15 +37,18 @@ questions:
     kbat: false
     answer:
       type: matching
-      value:
-        - ["A ∪ B", "The entire area inside circle A and circle B."]
-        - ["A ∩ B", "Only the overlapping area where circle A and B meet."]
+      pairs:
+        - left: "A ∪ B"
+          right: "The entire area inside circle A and circle B."
+        - left: "A ∩ B"
+          right: "Only the overlapping area where circle A and B meet."
       working: |
         Union (∪) means 'Unite' – shade everything in both.
         Intersection (∩) means 'Common' – shade only the overlap.
     marks: 2
     hints:
-      - "Union is like a party where everyone is invited; intersection is like a meeting where only members of both clubs attend."
+      - level: 1
+        text: "Union is like a party where everyone is invited; intersection is like a meeting where only members of both clubs attend."
 
   # TP3: Application (4.1.2)
   - id: Q3
@@ -68,7 +73,8 @@ questions:
       - marks: 2
         criteria: "Correctly identifies the complement elements from the universal set."
     hints:
-      - "First, find the intersection (the elements they share). Then, look at the big 'Universe' list and cross those shared elements out."
+      - level: 1
+        text: "First, find the intersection (the elements they share). Then, look at the big 'Universe' list and cross those shared elements out."
 
   # TP4: Simple Routine Problem Solving (4.2.3)
   - id: Q4
@@ -95,7 +101,8 @@ questions:
       - marks: 1
         criteria: "Final answer correctly identifies the complement."
     hints:
-      - "Draw a Venn diagram! Start by putting the '7' in the middle overlap first, then subtract it from the totals for Football and Badminton."
+      - level: 1
+        text: "Draw a Venn diagram! Start by putting the '7' in the middle overlap first, then subtract it from the totals for Football and Badminton."
 
   # TP5: Complex Routine Problem Solving (4.3.3)
   - id: Q5
@@ -126,7 +133,8 @@ questions:
       - marks: 1
         criteria: "States the number of elements (n) as the final answer."
     hints:
-      - "Work from the inside out. Settle the union inside the bracket first, then find its complement (NOT in the union), and finally check which of those are also in R."
+      - level: 1
+        text: "Work from the inside out. Settle the union inside the bracket first, then find its complement (NOT in the union), and finally check which of those are also in R."
 
   # TP6: Non-routine Problem Solving (4.3.3)
   - id: Q6
@@ -157,4 +165,5 @@ questions:
       - marks: 2
         criteria: "Provides a logical conclusion comparing the result to half the total members."
     hints:
-      - "You need to find the sum of students who sit in the overlapping 'petals' of the Venn diagram. Use the formula for the union of three sets!"
+      - level: 1
+        text: "You need to find the sum of students who sit in the overlapping 'petals' of the Venn diagram. Use the formula for the union of three sets!"

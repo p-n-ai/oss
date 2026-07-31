@@ -48,7 +48,7 @@ learning_objectives:
     text: "Menyelesaikan masalah yang melibatkan sudut dan tangen bagi bulatan."
     bloom: "apply"
 
-mastery_parameters:
+mastery:
   minimum_score: 0.75
   assessment_count: 3
   spaced_repetition:

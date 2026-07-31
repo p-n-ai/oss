@@ -68,8 +68,11 @@ performance_standards:
 
 prerequisites:
   required:
-    - "MT-G5-Perimeter"
     - "MT1-04"
+  recommended: []
+
+background_knowledge:
+  - "MT-G5-Perimeter"
 
 bloom_levels:
   - "apply"

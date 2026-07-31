@@ -8,7 +8,7 @@ worked_examples:
     difficulty: easy
     tp_level: 3
     kbat: false
-    learning_objective: "8.1.2 Solve real-life problems through mathematical modeling involving functions: Linear"
+    learning_objective: "8.1.2"
     real_world_analogy: "Comparing a car's petrol tank to a phone battery; the more you use it (distance), the more 'charge' (petrol) you lose at a steady rate."
     misconception_alert: "Students often forget to define the constant 'k' first before solving for a new distance."
     scenario: "Amin uses 45 liters of petrol to travel 405 km. Model this as a linear function $y = kx$ and determine how much petrol is needed for a 198 km journey."
@@ -32,7 +32,7 @@ worked_examples:
     difficulty: medium
     tp_level: 4
     kbat: true
-    learning_objective: "8.1.2 Solve real-life problems through mathematical modeling involving functions: Linear"
+    learning_objective: "8.1.2"
     real_world_analogy: "Think of this as a 'GrabFood' order. Is the discount on the food (rice) bigger than the delivery fee (petrol)? If not, it's better to buy locally."
     misconception_alert: "The 'One-Way Trap.' Students often calculate petrol for the distance to the store but forget the trip back home."
     scenario: "Store A (2km away) sells 10kg rice for RM25.95. Store B (6km away) sells it for RM23.99. Petrol costs RM2.08/liter and the car rate is 17.6km/liter. Is it worth driving to Store B for 2 packs of rice?"
@@ -56,7 +56,7 @@ worked_examples:
     difficulty: hard
     tp_level: 5
     kbat: true
-    learning_objective: "8.1.2 Solve real-life problems through mathematical modeling involving functions: Quadratic"
+    learning_objective: "8.1.2"
     real_world_analogy: "Imagine the riverbed as a giant 'U-shaped' skateboard ramp. The further you move from the edge, the deeper you go until you reach the middle."
     misconception_alert: "Linear thinking in curved spaces. Students might assume the depth increases at a constant rate, ignoring the parabolic shape of the riverbed."
     scenario: "A hydrologist measures river depth at distances $x$ from the bank. Using data points (0,0), (25, 1.7), and (30, 0), find the quadratic function $y = ax^2 + bx + c$ to model the depth."

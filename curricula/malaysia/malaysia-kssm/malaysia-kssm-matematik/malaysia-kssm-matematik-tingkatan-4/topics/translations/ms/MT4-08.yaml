@@ -1,7 +1,8 @@
 id: MT4-08
 official_ref: "8.0"
 name: "Sukatan Serakan Data Tak Terkumpul"
-subject_id: malaysia-kssm-matematik-tingkatan-4
+subject_grade_id: malaysia-kssm-matematik-tingkatan-4
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
 language: ms
@@ -53,9 +54,9 @@ prerequisites:
 mastery:
   minimum_score: 0.75
   assessment_count: 3
-spaced_repetition:
-  initial_interval_days: 3
-  multiplier: 2.5
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
 ai_teaching_notes: "MT4-08.teaching.md"
 assessments_file: "MT4-08.assessments.yaml"
 examples_file: "MT4-08.examples.yaml"
@@ -69,13 +70,13 @@ teaching:
     - "Langkah 4: Menyiasat kesan perubahan data, termasuk kesan pencilan, terhadap nilai sukatan serakan (Halaman 228-233)."
     - "Langkah 5: Membandingkan set data menggunakan sukatan serakan dan kecenderungan memusat untuk analisis menyeluruh (Halaman 234-235)."
     - "Langkah 6: Penyelesaian masalah dunia sebenar dan eksplorasi matematik (Halaman 236-241)."
-common_misconceptions:
-  - misconception: "Mengelirukan serakan dengan kecenderungan memusat."
-    remediation: "Jelaskan bahawa kecenderungan memusat menghuraikan 'pusat' data (min/median), manakala serakan menghuraikan 'taburan' di sekitar pusat tersebut."
-  - misconception: "Lupa untuk menguasakan dua beza nilai apabila menghitung varians."
-    remediation: "Tekankan langkah-langkah formula di mana $(x - \\bar{x})^2$ diperlukan sebelum mencari purata."
-  - misconception: "Menganggap varians dan sisihan piawai mempunyai unit yang sama dengan data asal."
-    remediation: "Terangkan bahawa sisihan piawai adalah punca kuasa dua varians, yang mengembalikan ukuran kepada unit asal data."
+  common_misconceptions:
+    - misconception: "Mengelirukan serakan dengan kecenderungan memusat."
+      remediation: "Jelaskan bahawa kecenderungan memusat menghuraikan 'pusat' data (min/median), manakala serakan menghuraikan 'taburan' di sekitar pusat tersebut."
+    - misconception: "Lupa untuk menguasakan dua beza nilai apabila menghitung varians."
+      remediation: "Tekankan langkah-langkah formula di mana $(x - \\bar{x})^2$ diperlukan sebelum mencari purata."
+    - misconception: "Menganggap varians dan sisihan piawai mempunyai unit yang sama dengan data asal."
+      remediation: "Terangkan bahawa sisihan piawai adalah punca kuasa dua varians, yang mengembalikan ukuran kepada unit asal data."
 engagement_hooks:
   - "Gunakan data pungutan pingat Sukan SEA untuk membincangkan mengapa melihat 'jumlah pingat' sahaja tidak menunjukkan konsistensi prestasi sesebuah negara."
   - "Bandingkan gaji pekerja di syarikat yang berbeza untuk melihat syarikat mana yang mempunyai agihan gaji yang lebih 'adil' atau setara."

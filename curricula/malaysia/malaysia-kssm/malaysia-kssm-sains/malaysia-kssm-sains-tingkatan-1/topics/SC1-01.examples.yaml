@@ -7,7 +7,7 @@ worked_examples:
     difficulty: easy
     tp_level: 1
     kbat: false
-    learning_objective: "1.1.3 (understand): merumuskan kepentingan bidang Sains tersebut dalam kehidupan seharian."
+    learning_objective: "1.1.3"
     real_world_analogy: "Memahami bagaimana sains menyumbang kepada teknologi moden seperti telefon pintar yang kita gunakan setiap hari."
     misconception_alert: "Ramai pelajar mungkin berfikir bahawa sains hanya berkaitan dengan eksperimen di makmal dan tidak menyedari impak sains dalam kehidupan harian."
     scenario: "Bagaimana bidang sains memainkan peranan penting dalam memastikan makanan yang kita makan selamat dan berkhasiat?"
@@ -21,7 +21,7 @@ worked_examples:
     difficulty: medium
     tp_level: 4
     kbat: false
-    learning_objective: "1.2.4 (evaluate): mewajarkan peraturan dan langkah keselamatan dalam makmal."
+    learning_objective: "1.2.4"
     real_world_analogy: "Seperti memakai tali pinggang keledar semasa memandu untuk keselamatan, peraturan makmal adalah penting untuk melindungi diri kita."
     misconception_alert: "Pelajar mungkin meremehkan kepentingan langkah keselamatan kerana mereka tidak selalu melihat kesannya secara langsung."
     scenario: "Mengapa penting untuk memakai cermin mata keselamatan dan sarung tangan semasa menjalankan eksperimen kimia?"
@@ -35,7 +35,7 @@ worked_examples:
     difficulty: hard
     tp_level: 5
     kbat: true
-    learning_objective: "1.4.1 (apply): menggunakan alat pengukur yang betul dan dengan cara yang betul, untuk mengukur dengan persis dan jitu kuantiti panjang, jisim, masa, suhu dan arus elektrik."
+    learning_objective: "1.4.1"
     real_world_analogy: "Seperti menggunakan alat masak yang tepat untuk memastikan hidangan dimasak dengan sempurna, alat pengukur yang tepat memastikan hasil eksperimen yang tepat."
     misconception_alert: "Kesilapan biasa adalah menganggap semua alat pengukur memberikan hasil yang sama tanpa mempertimbangkan ketepatan dan kepekaan alat tersebut."
     scenario: "Bagaimana menggunakan mikrometer untuk mengukur diameter sebatang dawai dengan tepat?"

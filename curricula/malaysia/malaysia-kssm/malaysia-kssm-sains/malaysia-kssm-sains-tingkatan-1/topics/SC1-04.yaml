@@ -2,7 +2,8 @@ id: SC1-04
 official_ref: "Bab 4"
 name: Pembiakan
 name_en: Reproduction
-subject_id: malaysia-kssm-sains-tingkatan-1
+subject_grade_id: malaysia-kssm-sains-tingkatan-1
+subject_id: malaysia-kssm-sains
 syllabus_id: malaysia-kssm
 country_id: malaysia
 language: ms
@@ -182,10 +183,6 @@ mastery:
     spaced_repetition:
         initial_interval_days: 1
         multiplier: 2.5
-cross_curriculum:
-    - concept_id: "bio-01"
-      syllabus_id: "malaysia-kssm"
-      topic_id: "SC1-04"
 performance_standards:
     - level: 1
       id: "TP2-SC1-04-L1"

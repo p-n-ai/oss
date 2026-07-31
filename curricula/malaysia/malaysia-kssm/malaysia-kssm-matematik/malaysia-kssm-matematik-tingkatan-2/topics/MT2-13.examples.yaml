@@ -1,7 +1,7 @@
-id: MT2-13
-topic: "Simple Probability"
+topic_id: MT2-13
+description: "Simple Probability"
 
-examples:
+worked_examples:
   # --- 13.2.1 Sample Space (Easy) ---
   - id: WE-01
     topic: "Sample Space and Events"

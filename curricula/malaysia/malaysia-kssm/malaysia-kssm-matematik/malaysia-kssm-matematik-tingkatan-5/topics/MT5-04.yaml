@@ -33,11 +33,12 @@ learning_objectives:
 
 prerequisites:
   required:
-    - id: "MT1-04" # Percentage and basic arithmetic
-    - id: "MT3-03" # Consumer Mathematics: Savings and Investments, Credit and Debt
-  bloom_levels:
-    - "understand"
-    - "apply"
+    - "MT1-04" # Percentage and basic arithmetic
+    - "MT3-03" # Consumer Mathematics: Savings and Investments, Credit and Debt
+
+bloom_levels:
+  - "understand"
+  - "apply"
 
 mastery:
   minimum_score: 0.75

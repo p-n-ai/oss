@@ -15,6 +15,46 @@ This guide provides step-by-step executable instructions for every day of the de
 4. Verify all **exit criteria** checkboxes before moving to the next day
 5. Track cumulative progress in the dashboard at the bottom of each day
 
+### Current Contract (July 2026)
+
+The day-by-day sections preserve the original implementation history. For current changes, the checked-in `schema/*.schema.json`, `scripts/lib/oss_validation.rb`, and validation scripts override older inline schema copies, historical counters, and shell snippets.
+
+Current curriculum layout:
+
+```text
+curricula/{country_id}/{syllabus_id}/
+├── syllabus.yaml
+└── {subject_id}/
+    ├── subject.yaml
+    └── {subject_grade_id}/
+        ├── subject-grade.yaml
+        └── topics/
+            ├── {topic_id}.yaml
+            ├── {topic_id}.assessments.yaml
+            ├── {topic_id}.examples.yaml
+            └── translations/{locale}/
+                ├── {topic_id}.yaml
+                ├── {topic_id}.assessments.yaml
+                └── {topic_id}.examples.yaml
+```
+
+The nine authoritative schemas cover syllabus, subject, subject-grade, canonical topic, locale topic variant, assessment, example, concept, and taxonomy artifacts. Canonical topic IDs are globally unique; a locale topic variant deliberately reuses its canonical ID and is validated separately by path, locale, language, and parent identity.
+
+The exact inventory is 560 content YAML files: 1 syllabus, 3 subjects, 15 subject-grades, 152 canonical topics, 53 locale topic variants, 114 canonical assessments, 53 locale assessment variants, 114 canonical examples, 53 locale example variants, 2 concepts, and 0 taxonomy artifacts.
+
+Preserve `quality_level: 0` history stubs in that inventory. They may have empty `content_standards` and `learning_objectives` and are catalog-only, not teachable content. Topics at `quality_level >= 1` require non-empty teaching identity.
+
+Runtime-bearing values use root `learning_objectives`, `mastery`, nested `teaching.sequence` and `teaching.common_misconceptions`, and `answer.options`. Do not reintroduce the removed aliases; root `engagement_hooks` is the sole conflict-normalized exception.
+
+Use the repository scripts rather than reimplementing classification with `find`:
+
+```bash
+./scripts/validate.sh
+./scripts/validate-changed.sh
+```
+
+The full gate parses every content YAML file, validates all classified artifacts with AJV and `ajv-formats`, enforces the exact inventory, and checks references, prerequisites, and quality. The changed-files gate blocks newly introduced `yamllint` findings in touched YAML; pre-existing style findings, including findings in a touched file, remain outside both gates.
+
 ### Task Owner Legend
 
 | Icon | Owner | Meaning |
@@ -44,7 +84,8 @@ uv tool install yamllint
 yamllint --version   # Expected: ≥1.35
 
 # ajv-cli (JSON Schema validator)
-npm install -g ajv-cli ajv-formats
+npm install -g ajv-cli
+npm install -g ajv-formats
 ajv --version   # Expected: ≥5.0.0
 ```
 
@@ -70,7 +111,7 @@ node --version && ruby --version && uv --version && yamllint --version && ajv he
 | 0.3 | Create `assessments.schema.json` | 🤖 | `schema/assessments.schema.json` |
 | 0.4 | Create `syllabus.schema.json` | 🤖 | `schema/syllabus.schema.json` |
 | 0.5 | Create `subject.schema.json` | 🤖 | `schema/subject.schema.json` |
-| 0.6 | Create Form 1 `syllabus.yaml` | 🤖 | `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/syllabus.yaml` |
+| 0.6 | Create Malaysia KSSM `syllabus.yaml` | 🤖 | `curricula/malaysia/malaysia-kssm/syllabus.yaml` |
 | 0.7 | Create `.yamllint.yml` | 🤖 | `.yamllint.yml` |
 | 0.8 | Choose first 5 Algebra topics | 🧑 | Decision only |
 
@@ -78,12 +119,9 @@ node --version && ruby --version && uv --version && yamllint --version && ajv he
 
 ```bash
 mkdir -p schema
-mkdir -p curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/subjects
-mkdir -p curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/topics/algebra
-mkdir -p curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-2/subjects
-mkdir -p curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-2/topics/algebra
-mkdir -p curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-3/subjects
-mkdir -p curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-3/topics/algebra
+mkdir -p curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-1/topics
+mkdir -p curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-2/topics
+mkdir -p curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-3/topics
 mkdir -p concepts/mathematics
 mkdir -p taxonomy/mathematics
 mkdir -p scripts
@@ -92,7 +130,7 @@ mkdir -p .github/workflows
 
 ### 0.2 — Create `schema/topic.schema.json`
 
-This is the core schema. All topic YAML files validate against it.
+The inline block below records the initial Day 0 draft only. Do not use it as the current contract: it predates `subject_grade_id`, required `official_ref`, locale variants, and catalog-only Level 0 history stubs. The checked-in `schema/topic.schema.json` is authoritative; `quality_level` is optional, and Level 0 may have empty `content_standards` and `learning_objectives`.
 
 ```json
 {
@@ -101,12 +139,12 @@ This is the core schema. All topic YAML files validate against it.
   "title": "Topic",
   "description": "A single teachable unit within a subject",
   "type": "object",
-  "required": ["id", "name", "subject_id", "syllabus_id", "difficulty", "learning_objectives", "quality_level", "provenance"],
+  "required": ["id", "name", "subject_id", "syllabus_id"],
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[A-Z]{2,3}[0-9]*-[0-9]{2}$",
-      "description": "Unique topic ID per OSS conventions (e.g., MT1-05, SA2-03, PH4-01)"
+      "pattern": "^[A-Z]{2,3}[0-9]+-[0-9]{2}$",
+      "description": "Globally unique canonical topic ID per OSS conventions (e.g., MT1-05, SC2-03, SJ3-01)"
     },
     "name": {
       "type": "string",
@@ -126,7 +164,6 @@ This is the core schema. All topic YAML files validate against it.
     },
     "learning_objectives": {
       "type": "array",
-      "minItems": 1,
       "items": {
         "type": "object",
         "required": ["id", "text", "bloom"],
@@ -479,33 +516,20 @@ This is the core schema. All topic YAML files validate against it.
 }
 ```
 
-### 0.6 — Create Form 1 Syllabus
+### 0.6 — Create Malaysia KSSM Syllabus
 
-**File:** `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/syllabus.yaml`
+**File:** `curricula/malaysia/malaysia-kssm/syllabus.yaml`
 
 ```yaml
-id: malaysia-kssm-matematik-tingkatan-1
-name: "KSSM Matematik Tingkatan 1"
-board: malaysia
-level: kssm
-code: matematik-tingkatan-1
-version: "2017"
+id: malaysia-kssm
+name: "Kurikulum Standard Sekolah Menengah (KSSM)"
+name_en: "Kurikulum Standard Sekolah Menengah (KSSM)"
+country_id: malaysia
+language: ms
 subjects:
-  - algebra
-
-assessment:
-  components:
-    - name: "Pentaksiran Bilik Darjah (PBD)"
-      weight: 1.0
-
-grading:
-  scale:
-    - "Tahap Penguasaan 6 (Cemerlang)"
-    - "Tahap Penguasaan 5 (Kepujian)"
-    - "Tahap Penguasaan 4 (Baik)"
-    - "Tahap Penguasaan 3 (Memuaskan)"
-    - "Tahap Penguasaan 2 (Sederhana)"
-    - "Tahap Penguasaan 1 (Lemah)"
+  - malaysia-kssm-matematik
+  - malaysia-kssm-sains
+  - malaysia-kssm-sejarah
 ```
 
 ### 0.7 — Create `.yamllint.yml`
@@ -552,11 +576,11 @@ Confirmed against official DSKP. Topic IDs follow DSKP chapter numbering:
 # Verify directory structure
 ls -R curricula/ schema/
 
-# Lint the syllabus file
-yamllint -c .yamllint.yml curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/syllabus.yaml
+# Lint the newly created syllabus file
+yamllint -c .yamllint.yml curricula/malaysia/malaysia-kssm/syllabus.yaml
 
 # Validate syllabus against schema (--spec=draft2020 required for Draft 2020-12)
-ajv validate --spec=draft2020 -s schema/syllabus.schema.json -d curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/syllabus.yaml
+ajv validate --spec=draft2020 -c ajv-formats -s schema/syllabus.schema.json -d curricula/malaysia/malaysia-kssm/syllabus.yaml
 ```
 
 ### Day 0 Exit Criteria
@@ -581,23 +605,24 @@ ajv validate --spec=draft2020 -s schema/syllabus.schema.json -d curricula/malays
 
 | # | Task | Owner | Files Created |
 |---|------|-------|---------------|
-| 1.1 | Create Form 1 `subject.yaml` | 🤖 | `curricula/.../malaysia-kssm-matematik-tingkatan-1/subject.yaml` |
+| 1.1 | Create Form 1 `subject-grade.yaml` | 🤖 | `curricula/.../malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-1/subject-grade.yaml` |
 | 1.2 | Create MT1-05, MT1-06, MT1-07 topic stubs | 🤖 | 3 files in `topics/` |
 | 1.3 | Write MT1-05 teaching notes | 🧑 | `MT1-05.teaching.md` |
 | 1.4 | AI-draft teaching notes for MT1-06 and MT1-07, Education Lead reviews | 🧑🤖 | 2 `.teaching.md` files |
 
-All paths below are relative to `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/`.
+All paths below are relative to `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-1/`.
 
-#### 1.1 — Create Subject File
+#### 1.1 — Create Subject-Grade File
 
-**File:** `subject.yaml` (at the root of `malaysia-kssm-matematik-tingkatan-1/`)
+**File:** `subject-grade.yaml` (at the root of `malaysia-kssm-matematik-tingkatan-1/`)
 
-Per [id-conventions.md](../docs/id-conventions.md), the subject folder is named after the full subject ID and contains a single `subject.yaml`. There is no `subjects/` subfolder.
+Per [id-conventions.md](id-conventions.md), the parent `malaysia-kssm-matematik/` directory contains `subject.yaml`; each grade directory contains `subject-grade.yaml`. There is no `subjects/` subfolder.
 
 ```yaml
 id: malaysia-kssm-matematik-tingkatan-1
 name: "Matematik Tingkatan 1"
 name_en: "Mathematics Form 1"
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 grade_id: tingkatan-1
 country_id: malaysia
@@ -610,14 +635,17 @@ topics:
 
 #### 1.2 — Create Topic YAML Stubs
 
-Each topic file starts at Quality Level 1 (id, name, learning_objectives, prerequisites, difficulty, bloom_levels).
+These Day 1 topics were intended to start at Quality Level 1 with a non-empty teaching identity, prerequisites, difficulty, and Bloom evidence.
+
+The snippets below preserve the initial teaching draft and are not current scaffolds. For new content, use the checked-in topic schema and an official source: include the required source reference, canonical and parent identities, and source-backed content standards. Do not invent missing curriculum values.
 
 **File:** `topics/MT1-05.yaml`
 
 ```yaml
 id: MT1-05
 name: "Ungkapan Algebra (Algebraic Expressions)"
-subject_id: malaysia-kssm-matematik-tingkatan-1
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 difficulty: beginner
 tier: core
@@ -836,19 +864,19 @@ ai_teaching_notes: "MT1-05.teaching.md"  # relative path within topics/
 # Lint all YAML
 yamllint -c .yamllint.yml curricula/
 
-# Validate subject (--spec=draft2020 required for Draft 2020-12)
-ajv validate --spec=draft2020 -s schema/subject.schema.json \
-  -d curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/subject.yaml
+# Validate subject-grade (--spec=draft2020 required for Draft 2020-12)
+ajv validate --spec=draft2020 -c ajv-formats -s schema/subject-grade.schema.json \
+  -d curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-1/subject-grade.yaml
 
 # Validate all topic files
-for f in curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/topics/*.yaml; do
-  ajv validate --spec=draft2020 -s schema/topic.schema.json -d "$f"
+for f in curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-1/topics/*.yaml; do
+  ajv validate --spec=draft2020 -c ajv-formats -s schema/topic.schema.json -d "$f"
 done
 ```
 
 #### Day 1 Exit Criteria
 
-- [ ] `subject.yaml` validates against subject schema
+- [ ] `subject-grade.yaml` validates against subject-grade schema
 - [ ] 3 topic YAMLs (MT1-05, MT1-06, MT1-07) validate against topic schema
 - [ ] MT1-05 teaching notes written by Education Lead
 - [ ] MT1-06, MT1-07 teaching notes drafted and reviewed
@@ -871,7 +899,7 @@ done
 
 #### 2.1 — MT1-05 Assessment File (🧑 Education Lead)
 
-**File:** `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/topics/MT1-05.assessments.yaml`
+**File:** `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-1/topics/MT1-05.assessments.yaml`
 
 ```yaml
 topic_id: MT1-05
@@ -1058,12 +1086,12 @@ assessments_file: "MT1-05.assessments.yaml"  # matching filename
 yamllint -c .yamllint.yml curricula/
 
 # Validate all assessments (--spec=draft2020 required)
-for f in curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/topics/*.assessments.yaml; do
+for f in curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-1/topics/*.assessments.yaml; do
   ajv validate --spec=draft2020 -s schema/assessments.schema.json -d "$f"
 done
 
 # Re-validate topics (now updated with assessments_file references)
-for f in curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/topics/*.yaml; do
+for f in curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-1/topics/*.yaml; do
   [[ "$f" != *".assessments.yaml" ]] && ajv validate --spec=draft2020 -s schema/topic.schema.json -d "$f"
 done
 ```
@@ -1098,156 +1126,17 @@ done
 
 **File:** `.github/workflows/validate.yml`
 
-```yaml
-name: Validate Curriculum
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-  workflow_dispatch:
-
-jobs:
-  validate:
-    runs-on: ubuntu-latest
-    env:
-      UV_TOOL_DIR: ${{ github.workspace }}/.ci/uv/tools
-      UV_TOOL_BIN_DIR: ${{ github.workspace }}/.ci/uv/bin
-      NPM_CONFIG_PREFIX: ${{ github.workspace }}/.ci/npm-prefix
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
-      - name: Set up uv
-        uses: astral-sh/setup-uv@v7
-        with:
-          python-version: "3.12"
-          enable-cache: true
-          tool-dir: ${{ env.UV_TOOL_DIR }}
-          tool-bin-dir: ${{ env.UV_TOOL_BIN_DIR }}
-
-      - name: Restore validation tools
-        uses: actions/cache/restore@v4
-        with:
-          path: |
-            .ci/uv/tools
-            .ci/uv/bin
-            .ci/npm-prefix
-          key: validation-tools-${{ runner.os }}-uv-yamllint-ajv-v1
-
-      - name: Install validators
-        run: |
-          uv python install 3.12
-          uv tool install yamllint
-          npm install --global ajv-cli ajv-formats
-
-      - name: Run changed files validation
-        if: github.event_name == 'pull_request'
-        run: ./scripts/validate-changed.sh
-
-      - name: Run full validation
-        if: github.event_name != 'pull_request'
-        run: ./scripts/validate.sh
-```
+The checked-in workflow is authoritative. It installs `ajv-cli` and `ajv-formats` as independently verified dependencies, runs `./scripts/validate-changed.sh` for pull requests, and runs `./scripts/validate.sh` for pushes to `main` and manual dispatches.
 
 #### 3.2 — Local Validation Script
 
 **File:** `scripts/validate.sh`
 
 ```bash
-#!/usr/bin/env bash
-set -euo pipefail
-
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[0;33m'
-NC='\033[0m'
-
-ERRORS=0
-
-echo "=== OSS Curriculum Validation ==="
-echo ""
-
-# 1. YAML Lint
-echo "--- YAML Lint ---"
-if yamllint -c .yamllint.yml curricula/ concepts/ taxonomy/ 2>/dev/null; then
-  echo -e "${GREEN}PASS${NC}: YAML lint"
-else
-  echo -e "${RED}FAIL${NC}: YAML lint"
-  ERRORS=$((ERRORS + 1))
-fi
-
-# 2. Schema validation
-echo ""
-echo "--- Schema Validation ---"
-
-validate_files() {
-  local schema="$1"
-  local pattern="$2"
-  local label="$3"
-  local count=0
-  local fails=0
-
-  while IFS= read -r -d '' file; do
-    count=$((count + 1))
-    if ! ajv validate --spec=draft2020 -s "$schema" -d "$file" > /dev/null 2>&1; then
-      echo -e "${RED}FAIL${NC}: $file"
-      ajv validate --spec=draft2020 -s "$schema" -d "$file" 2>&1 || true
-      fails=$((fails + 1))
-    fi
-  done < <(eval "$pattern")
-
-  if [ $count -eq 0 ]; then
-    echo -e "${YELLOW}SKIP${NC}: No $label files found"
-  elif [ $fails -eq 0 ]; then
-    echo -e "${GREEN}PASS${NC}: $count $label file(s)"
-  else
-    echo -e "${RED}FAIL${NC}: $fails/$count $label file(s) failed"
-    ERRORS=$((ERRORS + fails))
-  fi
-}
-
-validate_files "schema/syllabus.schema.json" \
-  "find curricula -name 'syllabus.yaml' -print0" "syllabus"
-
-validate_files "schema/subject.schema.json" \
-  "find curricula -path '*/subjects/*.yaml' -print0" "subject"
-
-validate_files "schema/topic.schema.json" \
-  "find curricula -path '*/topics/*' -name '*.yaml' ! -name '*.examples.yaml' ! -name '*.assessments.yaml' -print0" "topic"
-
-validate_files "schema/assessments.schema.json" \
-  "find curricula -name '*.assessments.yaml' -print0" "assessment"
-
-validate_files "schema/examples.schema.json" \
-  "find curricula -name '*.examples.yaml' -print0" "example"
-
-validate_files "schema/concept.schema.json" \
-  "find concepts -name '*.yaml' -print0 2>/dev/null" "concept"
-
-validate_files "schema/taxonomy.schema.json" \
-  "find taxonomy -name '*.yaml' -print0 2>/dev/null" "taxonomy"
-
-# Summary
-echo ""
-echo "=== Summary ==="
-if [ $ERRORS -eq 0 ]; then
-  echo -e "${GREEN}All validations passed!${NC}"
-  exit 0
-else
-  echo -e "${RED}$ERRORS validation error(s) found${NC}"
-  exit 1
-fi
+./scripts/validate.sh
 ```
 
-```bash
-# Make executable
-chmod +x scripts/validate.sh
-```
+Do not replace the deterministic classifier with `find` globs. `scripts/list-schema-targets.rb` delegates to `scripts/lib/oss_validation.rb`, which distinguishes canonical and locale artifacts before selecting the correct one of nine schemas.
 
 #### 3.3 — Changed-Files PR Validation
 
@@ -1257,7 +1146,9 @@ chmod +x scripts/validate.sh
 ./scripts/validate-changed.sh main
 ```
 
-Use this on pull requests to validate only files changed by the PR. It runs yamllint for changed curriculum YAML files and `.yamllint.yml`, validates changed curriculum YAML against the matching JSON Schema, parses changed workflow YAML, and syntax-checks validation scripts when they change.
+Use this on pull requests. It validates changed content through the deterministic classifier, runs semantic integrity checks, parses changed workflow YAML, and syntax-checks validation scripts when they change. Schema or validator changes trigger the full semantic gate.
+
+For style, the changed-files gate reports only newly introduced `yamllint` regressions in touched YAML. Existing style findings are historical debt and do not have to be fixed merely because their file was touched.
 
 #### 3.4 — Run Full Validation
 
@@ -1265,7 +1156,9 @@ Use this on pull requests to validate only files changed by the PR. It runs yaml
 ./scripts/validate.sh
 ```
 
-Run the full gate on pushes to `main`, manual workflow runs, and local release checks. Fix any failures before proceeding with a release or a full-repo validation cleanup.
+Run the full gate on pushes to `main`, manual workflow runs, and local release checks. It parses every content YAML file, validates all 560 classified artifacts with AJV and `ajv-formats`, enforces the exact inventory, and checks references, prerequisites, and quality.
+
+Repository-wide `yamllint` style debt is not part of this semantic gate. Fix semantic failures before proceeding with a release; handle historical style cleanup separately.
 
 #### Day 3 Exit Criteria
 
@@ -1294,7 +1187,7 @@ Run the full gate on pushes to `main`, manual workflow runs, and local release c
 | 4.4 | Write MT2-01 teaching notes | 🧑 | `MT2-01.teaching.md` |
 | 4.5 | AI-draft teaching notes for MT2-02 to MT2-03 | 🧑🤖 | 2 `.teaching.md` files |
 
-All paths below are relative to `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-2/`.
+All paths below are relative to `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-2/`.
 
 #### 4.1 — Form 2 Syllabus
 
@@ -1413,7 +1306,7 @@ Follow the teaching notes template from Day 1, task 1.3.
 
 #### Instructions
 
-- Assessment files go in `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-2/topics/`
+- Assessment files go in `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-2/topics/`
 - Follow the assessment template from Day 2, task 2.1
 - MT2-01 assessments must test pattern recognition and sequences — include questions like "Find the next three terms" and "Write the general term"
 - Update each topic YAML with `assessments_file` and `ai_teaching_notes` references
@@ -1448,7 +1341,7 @@ Follow the teaching notes template from Day 1, task 1.3.
 | 7.3 | Write MT3-01 teaching notes | 🧑 | 1 `.teaching.md` |
 | 7.4 | AI-draft teaching notes for MT3-09 | 🧑🤖 | 1 `.teaching.md` file |
 
-All paths below are relative to `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-3/`.
+All paths below are relative to `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-3/`.
 
 #### Form 3 Topic Details
 
@@ -1489,7 +1382,7 @@ Set `difficulty: advanced` for all Form 3 topics.
 
 #### Instructions
 
-- Assessment files go in `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-3/topics/`
+- Assessment files go in `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-3/topics/`
 - Form 3 questions should be harder — include multi-step problems
 - MT3-09 (Straight Lines) should include questions requiring gradient calculation and equation of a line
 - Update each topic YAML with `assessments_file` reference
@@ -1687,17 +1580,17 @@ ruby scripts/check-references.rb
 
 **File:** `scripts/assess-quality.rb`
 
-This script should:
-1. Walk all topic YAML files
-2. For each topic, determine quality level based on present fields:
-   - Level 0: has `id`, `name`, `learning_objectives`
-   - Level 1: + `prerequisites`, `difficulty`, `bloom_levels`
+The checked-in script is authoritative. Its current behavior is:
+1. Assess canonical topics supplied by the deterministic classifier.
+2. Determine the supported quality level from present teaching evidence:
+   - Level 0: has `id` and `name` or `name_en`; `content_standards` and `learning_objectives` may be empty, so this is catalog-only.
+   - Level 1: + at least one learning objective, `prerequisites`, `difficulty`, and Bloom evidence.
    - Level 2: + `teaching.sequence`, `teaching.common_misconceptions`, `engagement_hooks` (inside teaching notes)
    - Level 3: + `ai_teaching_notes` file exists, `examples_file` exists, `assessments_file` exists
    - Level 4: + translation file exists, `cross_curriculum` has entries, peer-reviewed
    - Level 5: + curriculum authority validation
-3. Compare with claimed `quality_level` in the YAML
-4. Flag topics claiming higher than actual
+3. Compare `quality_level` with the supported level when the optional claim is present.
+4. Fail only topics that claim a higher level than their evidence supports.
 5. Print summary report
 
 Usage: `ruby scripts/assess-quality.rb --report`
@@ -1823,7 +1716,7 @@ Review the quality report output. For each of the 8 algebra topics:
 
 Create example files for each Form 1 topic. 3 examples per file (easy, medium, hard).
 
-**File:** `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/topics/MT1-05.examples.yaml`
+**File:** `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-1/topics/MT1-05.examples.yaml`
 
 ```yaml
 topic_id: MT1-05
@@ -1939,36 +1832,37 @@ Follow the examples template from Day 11. After creating all examples, update al
 
 ```bash
 # Form 1 translations (translations/ lives inside topics/)
-mkdir -p curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/topics/translations/ms
+mkdir -p curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-1/topics/translations/ms
 # Form 2 translations
-mkdir -p curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-2/topics/translations/ms
+mkdir -p curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-2/topics/translations/ms
 # Form 3 translations
-mkdir -p curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-3/topics/translations/ms
+mkdir -p curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-3/topics/translations/ms
 ```
 
 #### 13.2 — Translation File Format
 
-Translation files contain ONLY translatable fields. Non-translatable fields inherit from source.
+Locale topic files are full variants, not partial overlays. They reuse the canonical topic ID and parent identities, declare the locale in `language`, and validate separately through `topic-variant.schema.json`.
 
-**File:** `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik-tingkatan-1/topics/translations/ms/MT1-05.yaml`
+**File:** `curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-1/topics/translations/ms/MT1-05.yaml`
 
 ```yaml
-# Translation of MT1-05 to Bahasa Melayu
-# Non-translatable fields (id, difficulty, prerequisites, mastery) inherit from source
+id: MT1-05
+official_ref: "Bab 5"
+name: "Ungkapan Algebra"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-1
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
 
-name: "Pemboleh ubah & Ungkapan Algebra"
-
+content_standards:
+  - id: "5.1"
+    text: "Pemboleh ubah dan ungkapan algebra"
 learning_objectives:
-  - id: LO1
-    text: "Menggunakan huruf untuk mewakili kuantiti yang tidak diketahui"
-  - id: LO2
-    text: "Mengenal pasti dan menerangkan sebutan algebra, pekali, dan pemalar"
-  - id: LO3
-    text: "Membentuk ungkapan algebra daripada situasi yang diberikan"
-  - id: LO4
-    text: "Memudahkan ungkapan algebra dengan mengumpul sebutan serupa"
-  - id: LO5
-    text: "Menilai ungkapan algebra dengan menggantikan nilai"
+  - id: "5.1.1"
+    content_standard_id: "5.1"
+    text: "Menggunakan huruf untuk mewakilkan kuantiti yang tidak diketahui nilai."
+    bloom: understand
 ```
 
 #### Day 13 Exit Criteria
@@ -2071,11 +1965,11 @@ subtopics:
 
 - [ ] Taxonomy schema created
 - [ ] Algebra taxonomy file validates
-- [ ] All 7 schemas now exist
+- [ ] Original seven-schema milestone complete; the current contract has nine schemas
 - [ ] CONTRIBUTING.md updated to reflect current state
 - [ ] README.md updated to reflect current state
 
-**Week 3 Output:** 24 worked examples. Malay translations for all 8 topics. Taxonomy defined. All 7 schemas complete.
+**Week 3 Output:** 24 worked examples. Malay translations for all 8 topics. Taxonomy defined. Original seven-schema milestone complete; subject-grade and topic-variant schemas were added to the current contract later.
 
 **Progress:** 8 topics | 40 questions | 8 teaching notes | 8 assessments | 24 examples | 8 translations | 7 schemas | 1 taxonomy | 3 syllabi | 3 subjects | 2 concepts
 
@@ -2085,13 +1979,13 @@ subtopics:
 
 ### Days 16-17 — Form 1 Non-Algebra Topics
 
-**Entry criteria:** Week 3 complete. All 7 schemas exist.
+**Entry criteria:** Week 3 complete. The original seven-schema milestone exists; current work uses all nine root schemas.
 
 #### Tasks
 
 | # | Task | Owner | Files Created |
 |---|------|-------|---------------|
-| 16.1 | Create non-algebra subjects for Form 1: `numbers.yaml`, `measurement.yaml`, `statistics.yaml` | 🤖 | 3 subject files |
+| 16.1 | Plan non-algebra topic groupings for Form 1: numbers, measurement, statistics | 🤖 | Decision only |
 | 16.2 | Create Level 0-1 topic stubs for Form 1 non-algebra (8-10 topics) | 🤖 | 8-10 topic files |
 | 16.3 | Elevate 3 high-priority topics to Level 2 | 🧑🤖 | Updates + 3 teaching notes |
 
@@ -2108,16 +2002,16 @@ subtopics:
 | statistics | Data Handling & Representation | beginner |
 | statistics | Basic Probability | beginner |
 
-Create topic files at Quality Level 0-1. Follow the topic YAML template from Day 1 but with minimal fields (id, name, subject_id, syllabus_id, difficulty, learning_objectives, quality_level, provenance).
+Create topic files at Quality Level 0-1. A Level 0 history stub may keep `content_standards` and `learning_objectives` empty and is catalog-only; Level 1 and above requires non-empty teaching identity. In every case, keep the canonical ID and parent identity fields valid and include the file in its subject-grade topic inventory.
 
-Update the Form 1 `syllabus.yaml` to add new subject IDs. The existing `malaysia-kssm-matematik-tingkatan-1/subject.yaml` is unchanged.
+Keep these topics under the existing `malaysia-kssm-matematik` subject and Form 1 subject-grade. Add their globally unique topic IDs to `malaysia-kssm-matematik-tingkatan-1/subject-grade.yaml`; do not create flat `subjects/*.yaml` grouping files.
 
 #### Days 16-17 Exit Criteria
 
-- [ ] 3 new subject files for Form 1
+- [ ] Non-algebra topic groupings planned without creating new subject files
 - [ ] 8-10 non-algebra topic stubs created
 - [ ] 3 topics elevated to Level 2 with teaching notes
-- [ ] Form 1 syllabus updated with new subjects
+- [ ] Form 1 `subject-grade.yaml` updated with the new canonical topic IDs
 - [ ] All validation passes
 
 **Progress:** 16-18 topics | 40 questions | 11 teaching notes | 8 assessments | 24 examples | 8 translations | 7 schemas
@@ -2136,12 +2030,12 @@ Update the Form 1 `syllabus.yaml` to add new subject IDs. The existing `malaysia
 | 18.2 | Create Level 0-1 stubs for Form 3 non-algebra (8-10 topics) | 🤖 | 8-10 topic files |
 | 18.3 | Verify all prerequisite links across algebra and non-algebra | 🧑 | — |
 
-Create appropriate subjects (numbers, geometry, statistics, measurement) for Forms 2 and 3. Update syllabi to include new subjects.
+Create the topic stubs under the existing Form 2 and Form 3 subject-grade directories. Update each `subject-grade.yaml` topic inventory; do not create flat subject-group YAML files.
 
 #### Day 18 Exit Criteria
 
 - [ ] 16-20 more non-algebra topic stubs (Forms 2 + 3)
-- [ ] Syllabi updated for all 3 forms
+- [ ] Subject-grade topic inventories updated for all 3 forms
 - [ ] Prerequisite links verified by Education Lead
 - [ ] All validation passes
 
@@ -2349,19 +2243,23 @@ This triggers the release workflow which generates the SQLite export as a downlo
 
 ---
 
-## Appendix A — Complete Schema Reference
+## Appendix A — Current Schema Reference
 
-All 7 schemas are defined inline in the guide at the point of first creation:
+The original timeline introduced seven schemas inline. The authoritative root `schema/` now contains nine:
 
-| Schema | Created On | Section |
-|--------|-----------|---------|
-| `topic.schema.json` | Day 0 | Task 0.2 |
-| `assessments.schema.json` | Day 0 | Task 0.3 |
-| `syllabus.schema.json` | Day 0 | Task 0.4 |
-| `subject.schema.json` | Day 0 | Task 0.5 |
-| `concept.schema.json` | Day 9 | Task 9.3 |
-| `examples.schema.json` | Day 11 | Task 11.1 |
-| `taxonomy.schema.json` | Day 15 | Task 15.1 |
+| Schema | Artifact role |
+|--------|---------------|
+| `syllabus.schema.json` | Syllabus |
+| `subject.schema.json` | Subject |
+| `subject-grade.schema.json` | Subject-grade |
+| `topic.schema.json` | Canonical topic |
+| `topic-variant.schema.json` | Locale topic variant |
+| `assessments.schema.json` | Canonical and locale assessment companions |
+| `examples.schema.json` | Canonical and locale example companions |
+| `concept.schema.json` | Concept |
+| `taxonomy.schema.json` | Taxonomy |
+
+Use these checked-in files rather than the historical inline schema copies above.
 
 ---
 

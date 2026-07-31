@@ -7,7 +7,7 @@ worked_examples:
     difficulty: easy
     tp_level: 1
     kbat: false
-    learning_objective: "3.1.1: berkomunikasi maksud homeostasis."
+    learning_objective: "3.1.1"
     real_world_analogy: "Homeostasis is like a thermostat in a house that regulates the temperature."
     misconception_alert: "Students often think homeostasis only refers to temperature regulation, but it involves multiple systems like glucose and water balance."
     scenario: "Explain what homeostasis means in the context of human biology."
@@ -21,7 +21,7 @@ worked_examples:
     difficulty: medium
     tp_level: 3
     kbat: false
-    learning_objective: "3.1.3: menjelaskan dengan contoh sistem yang terlibat dengan homeostasis dalam tumbuhan."
+    learning_objective: "3.1.3"
     real_world_analogy: "Plants are like factories that need to regulate their operations to produce energy efficiently."
     misconception_alert: "A common misconception is that plants do not have homeostatic mechanisms like animals, but they do, such as regulating water through stomata."
     scenario: "Describe a homeostatic process in plants and how it aids in their survival."
@@ -35,7 +35,7 @@ worked_examples:
     difficulty: hard
     tp_level: 5
     kbat: true
-    learning_objective: "3.1.4: menghargai kepentingan homeostasis kepada manusia dan benda hidup."
+    learning_objective: "3.1.4"
     real_world_analogy: "Think of a computer that needs a cooling system to function properly; without it, the computer would overheat and malfunction."
     misconception_alert: "Some students may not understand that without homeostasis, living organisms cannot survive prolonged changes in their environment."
     scenario: "Evaluate why homeostasis is crucial for the survival of organisms, using examples from both humans and animals."

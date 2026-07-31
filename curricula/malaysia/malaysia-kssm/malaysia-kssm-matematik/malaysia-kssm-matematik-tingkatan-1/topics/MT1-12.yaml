@@ -13,25 +13,32 @@ tier: core
 content_standards:
   - id: "12.1"
     text_en: "Data collection and data management"
-    learning_objectives:
-      - id: "12.1.1"
-        text_en: "Generate statistical questions and collect relevant data."
-        bloom: create
-      - id: "12.1.2"
-        text_en: "Classify data into categorical or numerical data and construct frequency tables."
-        bloom: understand
-      - id: "12.1.3"
-        text_en: "Construct data representations for ungrouped data and justify the suitability of a data representation."
-        bloom: apply
-      - id: "12.1.4"
-        text_en: "Convert one data representation to another suitable representation and provide justification."
-        bloom: apply
-      - id: "12.1.5"
-        text_en: "Interpret various data representations including making inferences or predictions."
-        bloom: analyze
-      - id: "12.1.6"
-        text_en: "Discuss the importance of representing data ethically to avoid confusion."
-        bloom: evaluate
+
+learning_objectives:
+  - id: "12.1.1"
+    content_standard_id: "12.1"
+    text_en: "Generate statistical questions and collect relevant data."
+    bloom: create
+  - id: "12.1.2"
+    content_standard_id: "12.1"
+    text_en: "Classify data into categorical or numerical data and construct frequency tables."
+    bloom: understand
+  - id: "12.1.3"
+    content_standard_id: "12.1"
+    text_en: "Construct data representations for ungrouped data and justify the suitability of a data representation."
+    bloom: apply
+  - id: "12.1.4"
+    content_standard_id: "12.1"
+    text_en: "Convert one data representation to another suitable representation and provide justification."
+    bloom: apply
+  - id: "12.1.5"
+    content_standard_id: "12.1"
+    text_en: "Interpret various data representations including making inferences or predictions."
+    bloom: analyze
+  - id: "12.1.6"
+    content_standard_id: "12.1"
+    text_en: "Discuss the importance of representing data ethically to avoid confusion."
+    bloom: evaluate
 
 performance_standards:
   - level: 1

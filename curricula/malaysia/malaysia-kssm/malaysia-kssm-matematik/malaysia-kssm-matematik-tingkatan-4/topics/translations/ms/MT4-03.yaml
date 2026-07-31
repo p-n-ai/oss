@@ -1,7 +1,8 @@
 id: MT4-03
 official_ref: "3.0"
 name: "Penaakulan Logik"
-subject_id: malaysia-kssm-matematik-tingkatan-4
+subject_grade_id: malaysia-kssm-matematik-tingkatan-4
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
 language: ms

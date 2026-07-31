@@ -9,6 +9,7 @@ questions:
     kbat: false
     type: multiple_choice
     answer:
+      type: multiple_choice
       value: "461"
       working: |
         Langkah 1: Kenal pasti asas ($n=6$).

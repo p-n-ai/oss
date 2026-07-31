@@ -8,7 +8,7 @@ worked_examples:
     difficulty: easy
     tp_level: 2
     kbat: false
-    learning_objective: "5.1.1: Membezakan antara bentuk kongruen dan bukan kongruen berdasarkan sisi dan sudut."
+    learning_objective: "5.1.1"
     real_world_analogy: "Bayangkan tingkap-tingkap pada Jambatan Angkat Terengganu. Semuanya dibuat menggunakan acuan yang sama; jika anda ambil satu dan gelongsor atau putarkannya, ia akan bertindih tepat dengan yang lain. Itulah kekongruenan."
     misconception_alert: "Jangan terpedaya dengan orientasi! Satu segi tiga tetap kongruen jika sisi dan sudutnya sama, walaupun ia telah dipantulkan atau diputar."
     scenario: "Tentukan sama ada $\\triangle ABC$ dan $\\triangle PQR$ adalah kongruen. $\\triangle ABC$ mempunyai sisi $5\\text{ cm}, 12\\text{ cm}, 13\\text{ cm}$ dan satu sudut tegak. $\\triangle PQR$ juga mempunyai sisi $5\\text{ cm}, 12\\text{ cm}, 13\\text{ cm}$ dan satu sudut tegak, tetapi ia telah diputarkan $90^{\\circ}$."
@@ -25,7 +25,7 @@ worked_examples:
     difficulty: medium
     tp_level: 4
     kbat: true
-    learning_objective: "5.2.4: Membuat dan mengesahkan konjektur tentang hubungan antara luas imej dan luas objek bagi suatu pembesaran."
+    learning_objective: "5.2.4"
     real_world_analogy: "Bayangkan sekeping mozek segi empat sama. Jika anda gandakan panjang dan lebarnya ($k=2$), anda bukan sekadar dapat dua kali ganda luas; anda perlukan $2^2 = 4$ keping mozek untuk penuhi ruang baru itu!"
     misconception_alert: "Perangkap $k^2$! Ramai pelajar fikir jika sisi berganda, luas juga berganda. Ingat: Luas imej = $k^2 \\times$ Luas objek."
     scenario: "Satu logo dengan luas $20\\text{ cm}^2$ diperbesarkan dengan faktor skala $k = -3$. Hitung luas imej logo yang telah diperbesarkan itu."
@@ -42,7 +42,7 @@ worked_examples:
     difficulty: hard
     tp_level: 5
     kbat: true
-    learning_objective: "5.3.4: Menyelesaikan masalah yang melibatkan gabungan transformasi."
+    learning_objective: "5.3.4"
     real_world_analogy: "Satu urutan tarian berlabel 'AB' di mana B adalah 'Gelongsor ke Kiri' dan A adalah 'Pusing'. Anda MESTI buat Gelongsor (B) dahulu sebelum Pusing (A) untuk sampai ke kedudukan yang betul di atas pentas."
     misconception_alert: "Perangkap Abjad Terbalik! Dalam gabungan transformasi $AB$, transformasi $B$ sentiasa dilakukan DAHULU, diikuti dengan transformasi $A$."
     scenario: "Titik $M(1, 4)$ melalui gabungan transformasi $RS$. $S$ ialah pantulan pada garis $x = 3$ dan $R$ ialah translasi $\\begin{pmatrix} 2 \\\\ -1 \\\\end{pmatrix}$. Cari imej akhir bagi titik $M$."
@@ -62,7 +62,7 @@ worked_examples:
     difficulty: hard
     tp_level: 6
     kbat: true
-    learning_objective: "5.4.2: Mereka bentuk teselasi yang melibatkan transformasi isometri."
+    learning_objective: "5.4.2"
     real_world_analogy: "Corak Batik Malaysia! Satu motif kecil diulang melalui pantulan dan translasi untuk menutup seluruh kain tanpa ada ruang kosong."
     misconception_alert: "Satu corak hanya dianggap teselasi jika tiada sebarang ruang kosong (gaps) dan tiada pertindihan (overlaps). Jika bentuk tidak bercantum tepat, ia bukan teselasi."
     scenario: "Terangkan bagaimana satu segi tiga sama sisi boleh digunakan untuk membina teselasi menggunakan putaran dan translasi sahaja."

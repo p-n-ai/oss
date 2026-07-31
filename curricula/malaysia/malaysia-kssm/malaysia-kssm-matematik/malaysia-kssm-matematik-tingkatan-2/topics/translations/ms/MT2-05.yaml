@@ -81,13 +81,13 @@ teaching:
     - "Langkah 4: Menerbitkan nilai π, lilitan dan luas bulatan."
     - "Langkah 5: Menyelesaikan masalah melibatkan lengkok dan sektor."
 
-common_misconceptions:
-  - misconception: "Keliru antara jejari dan diameter."
-    remediation: "Tekankan bahawa diameter ialah dua kali jejari dan melalui pusat."
-  - misconception: "Menganggap π ialah 3.14 tepat."
-    remediation: "Terangkan π sebagai nisbah tidak berpenghujung; 3.14 hanyalah anggaran."
-  - misconception: "Keliru antara sektor dan tembereng."
-    remediation: "Sektor dibatasi dua jejari, tembereng dibatasi perentas."
+  common_misconceptions:
+    - misconception: "Keliru antara jejari dan diameter."
+      remediation: "Tekankan bahawa diameter ialah dua kali jejari dan melalui pusat."
+    - misconception: "Menganggap π ialah 3.14 tepat."
+      remediation: "Terangkan π sebagai nisbah tidak berpenghujung; 3.14 hanyalah anggaran."
+    - misconception: "Keliru antara sektor dan tembereng."
+      remediation: "Sektor dibatasi dua jejari, tembereng dibatasi perentas."
 
 engagement_hooks:
   - "Terokai corak bulatan dalam seni bina dan rekaan tradisional."
@@ -102,4 +102,4 @@ mastery:
     multiplier: 2.5
 
 provenance: ai-assisted
-quality_level: 3
+quality_level: 2

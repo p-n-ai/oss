@@ -8,6 +8,8 @@ syllabus_id: malaysia-kssm
 country_id: malaysia
 language: ms
 difficulty: beginner
+prerequisites:
+  required: []
 learning_objectives:
     - id: 1.1.1
       text: "menghubungkaitkan aktiviti seharian dengan Sains."

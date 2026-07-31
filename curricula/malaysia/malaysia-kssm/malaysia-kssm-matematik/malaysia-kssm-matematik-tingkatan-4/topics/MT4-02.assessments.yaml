@@ -9,6 +9,7 @@ questions:
     kbat: false
     type: multiple_choice
     answer:
+      type: multiple_choice
       value: "461"
       working: |
         Step 1: Identify the base ($n=6$).

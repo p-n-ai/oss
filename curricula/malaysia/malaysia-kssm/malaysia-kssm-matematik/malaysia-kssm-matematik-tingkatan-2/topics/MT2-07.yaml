@@ -64,13 +64,15 @@ learning_objectives:
     bloom: apply
 
 prerequisites:
-  required:
-    - "Plotting points on a Cartesian plane"
-    - "Identifying x-axis, y-axis, and origin (0, 0)"
-    - "Understanding basic Pythagoras theorem"
-  recommended:
-    - "Basic square root operations"
-    - "Understanding of coordinate quadrants"
+  required: []
+  recommended: []
+
+background_knowledge:
+  - "Plotting points on a Cartesian plane"
+  - "Identifying x-axis, y-axis, and origin (0, 0)"
+  - "Understanding basic Pythagoras theorem"
+  - "Basic square root operations"
+  - "Understanding of coordinate quadrants"
 
 mastery:
   minimum_score: 0.75

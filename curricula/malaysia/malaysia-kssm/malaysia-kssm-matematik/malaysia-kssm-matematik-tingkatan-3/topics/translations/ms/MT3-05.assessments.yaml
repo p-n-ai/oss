@@ -33,11 +33,14 @@ questions:
     tp_level: 2
     kbat: false
     answer:
-      type: "mapping"
-      value:
-        "Sinus": "Sisi Bertentangan / Hipotenus"
-        "Kosinus": "Sisi Bersebelahan / Hipotenus"
-        "Tangen": "Sisi Bertentangan / Sisi Bersebelahan"
+      type: "matching"
+      pairs:
+        - left: "Sinus"
+          right: "Sisi Bertentangan / Hipotenus"
+        - left: "Kosinus"
+          right: "Sisi Bersebelahan / Hipotenus"
+        - left: "Tangen"
+          right: "Sisi Bertentangan / Sisi Bersebelahan"
       working: |
         Gunakan formula mnemonik SOH-CAH-TOA:
         SOH: $\sin = \text{Depan}/\text{Hipo}$

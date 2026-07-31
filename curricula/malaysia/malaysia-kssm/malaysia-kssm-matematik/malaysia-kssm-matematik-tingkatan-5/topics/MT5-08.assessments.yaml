@@ -33,8 +33,12 @@ questions:
     tp_level: 2
     kbat: false
     answer:
-      type: mapping
-      value: {"A": 2, "B": 1}
+      type: matching
+      pairs:
+        - left: "A"
+          right: "2"
+        - left: "B"
+          right: "1"
       working: |
         Step 1: Identify that 'Assumptions' are used to simplify.
         Step 2: Identify that 'Refining' is the act of improving the model after the first result.

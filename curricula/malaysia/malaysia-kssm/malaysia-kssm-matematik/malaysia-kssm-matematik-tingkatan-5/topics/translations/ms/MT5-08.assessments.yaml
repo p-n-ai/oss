@@ -33,8 +33,12 @@ questions:
     tp_level: 2
     kbat: false
     answer:
-      type: mapping
-      value: {"A": 2, "B": 1}
+      type: matching
+      pairs:
+        - left: "A"
+          right: "2"
+        - left: "B"
+          right: "1"
       working: |
         Langkah 1: Kenal pasti 'Andaian' digunakan untuk memudahkan masalah.
         Langkah 2: Kenal pasti 'Memurnikan' adalah tindakan menambah baik model selepas keputusan pertama diperoleh.

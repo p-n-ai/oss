@@ -20,11 +20,15 @@ learning_objectives:
     text: "Menyelesaikan masalah kehidupan sebenar melalui pemodelan matematik yang melibatkan fungsi: (i) Linear (ii) Kuadratik (iii) Eksponen dan mengkomunikasikan proses pemodelan matematik yang dilaksanakan."
     bloom: apply
 prerequisites:
-  required:
-    - "Fungsi Linear"
-    - "Fungsi Kuadratik"
-    - "Fungsi Eksponen"
-    - "Manipulasi Algebra Asas"
+  required: []
+  recommended: []
+
+background_knowledge:
+  - "Fungsi Linear"
+  - "Fungsi Kuadratik"
+  - "Fungsi Eksponen"
+  - "Manipulasi Algebra Asas"
+
 bloom_levels:
   - understand
   - apply

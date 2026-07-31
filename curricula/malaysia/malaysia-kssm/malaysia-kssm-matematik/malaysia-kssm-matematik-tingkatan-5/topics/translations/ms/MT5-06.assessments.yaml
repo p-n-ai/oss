@@ -23,8 +23,10 @@ questions:
           feedback: "Dalam Sukuan IV, hanya Kosinus yang positif. Gunakan akronim 'Semua Saya Tahu Kira' untuk menjejaki tanda sukuan dengan betul!"
     marks: 1
     hints:
-      - "Gunakan akronim 'Semua Saya Tahu Kira' untuk mengingati tanda positif nisbah dalam setiap sukuan."
-      - "Dalam sukuan manakah koordinat-y bernilai negatif tetapi nisbah y/x adalah positif?"
+      - level: 1
+        text: "Gunakan akronim 'Semua Saya Tahu Kira' untuk mengingati tanda positif nisbah dalam setiap sukuan."
+      - level: 2
+        text: "Dalam sukuan manakah koordinat-y bernilai negatif tetapi nisbah y/x adalah positif?"
 
   - id: Q2
     text: "Diberi $\\sin \\theta = -0.866$ dan $180^\\circ \\leq \\theta \\leq 270^\\circ$, tentukan sudut rujukan sepadan $\\alpha$ dan nilai $\\theta$."
@@ -49,8 +51,10 @@ questions:
       - marks: 1
         criteria: "Nilai akhir theta ialah 240 darjah."
     hints:
-      - "Mula-mula, abaikan tanda negatif untuk mencari sudut tirus 'mini' (sudut rujukan)."
-      - "Oleh sebab sudut berada di sukuan ke-3, ia telah melepasi garisan 180 darjah. Berapakah baki perjalanan sudut tersebut?"
+      - level: 1
+        text: "Mula-mula, abaikan tanda negatif untuk mencari sudut tirus 'mini' (sudut rujukan)."
+      - level: 2
+        text: "Oleh sebab sudut berada di sukuan ke-3, ia telah melepasi garisan 180 darjah. Berapakah baki perjalanan sudut tersebut?"
 
   - id: Q3
     text: "Satu lengan robotik dengan panjang 15 cm diprogramkan untuk menggerakkan objek dari titik P ke titik Q. Jika sudut $\\theta$ yang dibentuk oleh lengan itu memenuhi $\\cos \\theta = -0.866$ bagi $0^\\circ \\leq \\theta \\leq 180^\\circ$, cari nilai $\\theta$ dan jarak mengufuk dari asalan ke titik Q."
@@ -76,8 +80,10 @@ questions:
       - marks: 2
         criteria: "Mengira jarak mengufuk menggunakan nisbah kosinus dengan betul."
     hints:
-      - "Rujuk Contoh 8 dalam buku teks anda; jarak mengufuk berkaitan dengan sisi bersebelahan bagi segi tiga yang dibentuk oleh lengan itu."
-      - "Nilai kosinus yang diberi ialah nisbah jarak mengufuk kepada panjang lengan robotik tersebut."
+      - level: 1
+        text: "Rujuk Contoh 8 dalam buku teks anda; jarak mengufuk berkaitan dengan sisi bersebelahan bagi segi tiga yang dibentuk oleh lengan itu."
+      - level: 2
+        text: "Nilai kosinus yang diberi ialah nisbah jarak mengufuk kepada panjang lengan robotik tersebut."
 
   - id: Q4
     text: "Graf bagi satu fungsi trigonometri ditakrifkan oleh $y = 3 \\sin 2x + 1$ bagi $0^\\circ \\leq x \\leq 360^\\circ$. Nyatakan amplitud, tempoh fungsi tersebut, dan nilai maksimum bagi $y$."
@@ -102,8 +108,10 @@ questions:
       - marks: 1
         criteria: "Mengira nilai maksimum y dengan betul."
     hints:
-      - "Pemalar 'a' meregangkan gelombang secara menegak, manakala 'b' memampatkan gelombang secara mengufuk."
-      - "Jangan lupa bahawa '+1' (pemalar c) bertindak seperti 'lif' yang menggerakkan seluruh gelombang ke atas!"
+      - level: 1
+        text: "Pemalar 'a' meregangkan gelombang secara menegak, manakala 'b' memampatkan gelombang secara mengufuk."
+      - level: 2
+        text: "Jangan lupa bahawa '+1' (pemalar c) bertindak seperti 'lif' yang menggerakkan seluruh gelombang ke atas!"
 
   - id: Q5
     text: "Kedalaman air, $y$ meter, di sebuah pelabuhan dimodelkan oleh $y = 2 \\cos(15x) + 5$, dengan $x$ ialah bilangan jam selepas tengah malam. Pada pukul berapakah dalam tempoh 24 jam pertama air berada pada titik paling cetek?"
@@ -129,5 +137,7 @@ questions:
       - marks: 2
         criteria: "Menyelesaikan nilai x dengan betul untuk mendapat 12 jam."
     hints:
-      - "Fikirkan tentang bentuk graf kosinus. Di manakah kedudukan 'lembah' paling rendah bagi gelombang tersebut?"
-      - "Untuk fungsi berada pada tahap minimum, sebutan kosinus mestilah bernilai -1. Selesaikan nilai x apabila $15x = 180$."
+      - level: 1
+        text: "Fikirkan tentang bentuk graf kosinus. Di manakah kedudukan 'lembah' paling rendah bagi gelombang tersebut?"
+      - level: 2
+        text: "Untuk fungsi berada pada tahap minimum, sebutan kosinus mestilah bernilai -1. Selesaikan nilai x apabila $15x = 180$."

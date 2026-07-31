@@ -1,4 +1,4 @@
-id: "MT3-06"
+topic_id: "MT3-06"
 questions:
   - id: "MT3-06-Q01"
     type: "multiple_choice"
@@ -39,8 +39,10 @@ questions:
       - marks: 1
         criteria: "Final answer with correct units."
     hints:
-      - "Look at the arc $AB$. One angle is at the centre ($O$) and one is on the edge. Which one is doubled?"
-      - "Try multiplying the given circumference angle by 2."
+      - level: 1
+        text: "Look at the arc $AB$. One angle is at the centre ($O$) and one is on the edge. Which one is doubled?"
+      - level: 2
+        text: "Try multiplying the given circumference angle by 2."
 
   - id: "MT3-06-Q03"
     type: "mapping"
@@ -74,8 +76,10 @@ questions:
       - marks: 1
         criteria: "Correct subtraction from 180."
     hints:
-      - "Recall that in a cyclic quadrilateral, the 'magic number' for opposite angles is 180."
-      - "Which angle sits directly across from $\\angle ABC$? Use that to subtract from 180."
+      - level: 1
+        text: "Recall that in a cyclic quadrilateral, the 'magic number' for opposite angles is 180."
+      - level: 2
+        text: "Which angle sits directly across from $\\angle ABC$? Use that to subtract from 180."
 
   - id: "MT3-06-Q05"
     type: "subjective"
@@ -96,7 +100,8 @@ questions:
       - marks: 1
         criteria: "Reason: Radius is perpendicular to tangent."
     hints:
-      - "Think about the '90-degree handshake' rule from our notes."
+      - level: 1
+        text: "Think about the '90-degree handshake' rule from our notes."
 
   - id: "MT3-06-Q06"
     type: "subjective"
@@ -118,7 +123,8 @@ questions:
       - marks: 1
         criteria: "Correct final count."
     hints:
-      - "Don't just look at the outside. Is there a line that can touch both circles right where they meet?"
+      - level: 1
+        text: "Don't just look at the outside. Is there a line that can touch both circles right where they meet?"
 
   - id: "MT3-06-Q07"
     type: "subjective"
@@ -134,4 +140,5 @@ questions:
         Step 2: The angle between the tangent and chord is equal to the angle in the alternate segment.
     marks: 2
     hints:
-      - "This is the 'Mirror Reflection' rule. If it is 65 inside, what must it be outside?"
+      - level: 1
+        text: "This is the 'Mirror Reflection' rule. If it is 65 inside, what must it be outside?"

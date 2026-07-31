@@ -52,11 +52,11 @@ questions:
       - level: 1
         text: 'Fikirkan tentang proses biologi dan industri yang bergantung kepada gas-gas dalam udara.'
 
-  # Learning objective: 7.1.5 (evaluate): mewajarkan kepentingan gas oksigen, karbon dioksida, nitrogen dan gas nadir dalam kehidupan harian.
+  # Learning objective: 7.1.3 (evaluate): mewajarkan kepentingan gas oksigen, karbon dioksida, nitrogen dan gas nadir dalam kehidupan harian.
   - id: Q3
     text: 'Jelaskan mengapa gas oksigen, karbon dioksida, nitrogen, dan gas nadir adalah penting dalam kehidupan harian kita. Gunakan contoh yang relevan.'
     difficulty: medium
-    learning_objective: 7.1.5
+    learning_objective: 7.1.3
     tp_level: 5
     kbat: true
     answer:

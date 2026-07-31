@@ -1,7 +1,8 @@
 id: MT4-10
 official_ref: "10.0"
 name: "Matematik Pengguna: Pengurusan Kewangan"
-subject_id: malaysia-kssm-matematik-tingkatan-4
+subject_grade_id: malaysia-kssm-matematik-tingkatan-4
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
 language: ms
@@ -19,10 +20,13 @@ learning_objectives:
     text: "Membina dan membentang pelan kewangan peribadi untuk mencapai matlamat kewangan jangka pendek dan jangka panjang, dan seterusnya menilai kebolehlaksanaan pelan kewangan tersebut."
     bloom: apply
 prerequisites:
-  required:
-    - "MT-BASIC-ARITHMETIC"
+  required: []
   recommended:
     - "MT3-03" # Matematik Pengguna: Simpanan dan Pelaburan, Kredit dan Hutang
+
+background_knowledge:
+  - "MT-BASIC-ARITHMETIC"
+
 mastery:
   minimum_score: 0.75
   assessment_count: 3
@@ -41,11 +45,11 @@ teaching:
     - "Langkah 3: Membimbing murid membina pelan kewangan peribadi menggunakan konsep SMART (20 min)"
     - "Langkah 4: Menganalisis kajian kes (contoh: Puan Aminah atau Encik Yusuf) untuk menilai kebolehlaksanaan pelan kewangan (15 min)"
     - "Langkah 5: Membincangkan kesan inflasi dan kadar faedah terhadap matlamat kewangan jangka panjang (10 min)"
-common_misconceptions:
-  - misconception: "Semua wang baki pada akhir bulan adalah simpanan."
-    remediation: "Jelaskan perbezaan antara 'simpanan' (asingkan wang dahulu) dan 'lebihan' (apa yang tinggal selepas belanja). Tekankan peraturan 10% untuk 'bayar diri sendiri dahulu'."
-  - misconception: "Pelaburan dan perancangan kewangan hanya untuk orang kaya."
-    remediation: "Tunjukkan bagaimana simpanan bulanan yang kecil (contoh: RM100) boleh terkumpul secara signifikan melalui faedah kompaun dan masa."
+  common_misconceptions:
+    - misconception: "Semua wang baki pada akhir bulan adalah simpanan."
+      remediation: "Jelaskan perbezaan antara 'simpanan' (asingkan wang dahulu) dan 'lebihan' (apa yang tinggal selepas belanja). Tekankan peraturan 10% untuk 'bayar diri sendiri dahulu'."
+    - misconception: "Pelaburan dan perancangan kewangan hanya untuk orang kaya."
+      remediation: "Tunjukkan bagaimana simpanan bulanan yang kecil (contoh: RM100) boleh terkumpul secara signifikan melalui faedah kompaun dan masa."
 engagement_hooks:
   - "Bincangkan bajet selebriti tempatan atau kisah kejayaan usahawan muda Malaysia untuk menggambarkan pengurusan kekayaan."
   - "Analisis kajian kes bajet isi rumah Malaysia yang tipikal untuk mengenal pasti aliran tunai positif berbanding negatif."

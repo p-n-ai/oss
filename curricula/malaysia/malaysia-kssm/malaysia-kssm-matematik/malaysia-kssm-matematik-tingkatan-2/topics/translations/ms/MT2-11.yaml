@@ -1,9 +1,9 @@
 id: MT2-11
 official_ref: "Bab 11"
 name: "Transformasi Isometri"
-subject_grade_id: MT2-11
-subject_id: MT2
-syllabus_id: KSSM-MT2
+subject_grade_id: malaysia-kssm-matematik-tingkatan-2
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
 country_id: malaysia
 language: ms
 difficulty: intermediate
@@ -121,10 +121,12 @@ performance_standards:
     descriptor: "Mengaplikasikan pengetahuan dan kemahiran dalam penyelesaian masalah bukan rutin secara kreatif."
 
 prerequisites:
-  required:
-    - "MT1-Coordinates"
-    - "MT1-Polygons"
+  required: []
   recommended: []
+
+background_knowledge:
+  - "MT1-Coordinates"
+  - "MT1-Polygons"
 
 mastery:
   minimum_score: 0.75

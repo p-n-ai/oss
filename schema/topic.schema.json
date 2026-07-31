@@ -1,323 +1,328 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/p-n-ai/oss/schema/topic.schema.json",
-  "title": "Topic",
-  "description": "A single teachable unit within a subject",
+  "title": "Canonical topic",
+  "description": "A canonical teachable unit. Canonical topic IDs are globally unique.",
   "type": "object",
-  "required": ["id", "name", "subject_id", "syllabus_id", "difficulty", "content_standards", "learning_objectives", "quality_level", "provenance"],
+  "required": [
+    "id",
+    "official_ref",
+    "subject_grade_id",
+    "subject_id",
+    "syllabus_id",
+    "content_standards"
+  ],
+  "anyOf": [
+    { "required": ["name"] },
+    { "required": ["name_en"] }
+  ],
   "properties": {
-    "id": {
-      "type": "string",
-      "pattern": "^[A-Z]{2,3}[0-9]*-[0-9]{2}$",
-      "description": "Unique topic ID within syllabus, e.g. MT1-05, SC2-03"
-    },
-    "official_ref": {
-      "type": "string",
-      "description": "Official chapter/section code from the source curriculum document (e.g., Chapter 1, Bab 1)"
-    },
-    "name": {
-      "type": "string",
-      "minLength": 1,
-      "description": "Topic name in the primary language of the curriculum"
-    },
-    "name_en": {
-      "type": "string",
-      "minLength": 1,
-      "description": "English name for interoperability"
-    },
-    "subject_grade_id": {
-      "type": "string",
-      "description": "Reference to parent subject-grade ID"
-    },
-    "subject_id": {
-      "type": "string",
-      "description": "Reference to parent subject ID"
-    },
-    "syllabus_id": {
-      "type": "string",
-      "description": "Reference to parent syllabus ID"
-    },
-    "country_id": {
-      "type": "string",
-      "description": "Reference to country ID"
-    },
-    "language": {
-      "type": "string",
-      "description": "BCP 47 language code for primary content language (e.g., ms, en)"
-    },
+    "id": { "$ref": "#/$defs/topicId" },
+    "official_ref": { "$ref": "#/$defs/nonEmptyString" },
+    "name": { "$ref": "#/$defs/nonEmptyString" },
+    "name_en": { "$ref": "#/$defs/nonEmptyString" },
+    "subject_grade_id": { "$ref": "#/$defs/nonEmptyString" },
+    "subject_id": { "$ref": "#/$defs/nonEmptyString" },
+    "syllabus_id": { "$ref": "#/$defs/nonEmptyString" },
+    "country_id": { "$ref": "#/$defs/nonEmptyString" },
+    "language": { "$ref": "#/$defs/nonEmptyString" },
+    "description": { "$ref": "#/$defs/nonEmptyString" },
     "difficulty": {
       "type": "string",
-      "enum": ["beginner", "intermediate", "advanced"],
-      "description": "Overall difficulty level of the topic relative to the grade"
-    },
-    "content_standards": {
-      "type": "array",
-      "minItems": 1,
-      "description": "Official content standards (Standard Kandungan) from the curriculum document that this topic addresses",
-      "items": {
-        "type": "object",
-        "required": ["id"],
-        "properties": {
-          "id": {
-            "type": "string",
-            "pattern": "^[0-9]+\\.[0-9]+$",
-            "description": "Content standard ID in major.minor format matching the official curriculum document (e.g., 1.1, 2.3)"
-          },
-          "text": {
-            "type": "string",
-            "minLength": 1,
-            "description": "Content standard text in the primary language of the curriculum"
-          },
-          "text_en": {
-            "type": "string",
-            "minLength": 1,
-            "description": "English translation of the content standard"
-          }
-        },
-        "additionalProperties": false
-      }
-    },
-    "learning_objectives": {
-      "type": "array",
-      "minItems": 1,
-      "description": "Specific, measurable learning objectives (Standard Pembelajaran) that students should achieve",
-      "items": {
-        "type": "object",
-        "required": ["id", "bloom"],
-        "properties": {
-          "id": {
-            "type": "string",
-            "pattern": "^(LO[0-9]+|[0-9]+\\.[0-9]+\\.[0-9]+)$",
-            "description": "Learning objective ID — either LOnn format (e.g., LO01) or major.minor.seq format (e.g., 1.1.1)"
-          },
-          "text": {
-            "type": "string",
-            "minLength": 1,
-            "description": "Learning objective text in the primary language of the curriculum"
-          },
-          "text_en": {
-            "type": "string",
-            "minLength": 1,
-            "description": "English translation of the learning objective text"
-          },
-          "bloom": {
-            "type": "string",
-            "enum": ["remember", "understand", "apply", "analyze", "evaluate", "create"],
-            "description": "Bloom's taxonomy level that this objective targets"
-          },
-          "content_standard_id": {
-            "type": "string",
-            "pattern": "^[0-9]+\\.[0-9]+$",
-            "description": "Reference to a content standard ID within this topic"
-          }
-        },
-        "additionalProperties": false
-      }
-    },
-    "prerequisites": {
-      "type": "object",
-      "description": "Topic IDs that should be mastered before or alongside this topic",
-      "properties": {
-        "required": {
-          "type": "array",
-          "items": { "type": "string" },
-          "description": "Topic IDs that must be completed before starting this topic"
-        },
-        "recommended": {
-          "type": "array",
-          "items": { "type": "string" },
-          "description": "Topic IDs that are helpful but not strictly required"
-        }
-      },
-      "additionalProperties": false
-    },
-    "teaching": {
-      "type": "object",
-      "description": "Pedagogical guidance for teaching this topic effectively",
-      "properties": {
-        "sequence": {
-          "type": "array",
-          "items": { "type": "string" },
-          "description": "Ordered list of sub-topic teaching steps or phases for lesson delivery"
-        },
-        "common_misconceptions": {
-          "type": "array",
-          "description": "Known student misconceptions and how to address them",
-          "items": {
-            "type": "object",
-            "required": ["misconception", "remediation"],
-            "properties": {
-              "misconception": {
-                "type": "string",
-                "description": "A common incorrect belief or error students make on this topic"
-              },
-              "remediation": {
-                "type": "string",
-                "description": "Teaching strategy or explanation to correct the misconception"
-              }
-            },
-            "additionalProperties": false
-          }
-        },
-        "engagement_hooks": {
-          "type": "array",
-          "items": { "type": "string" },
-          "description": "Real-world connections or interesting facts to motivate student engagement"
-        }
-      },
-      "additionalProperties": false
-    },
-    "bloom_levels": {
-      "type": "array",
-      "description": "Bloom's taxonomy levels covered across all learning objectives in this topic",
-      "items": {
-        "type": "string",
-        "enum": ["remember", "understand", "apply", "analyze", "evaluate", "create"]
-      }
-    },
-    "mastery": {
-      "type": "object",
-      "description": "Criteria for determining when a student has mastered this topic",
-      "properties": {
-        "minimum_score": {
-          "type": "number",
-          "minimum": 0,
-          "maximum": 1,
-          "default": 0.75,
-          "description": "Minimum score (0-1) a student must achieve to be considered proficient"
-        },
-        "assessment_count": {
-          "type": "integer",
-          "minimum": 1,
-          "description": "Number of assessment questions to use when testing mastery"
-        },
-        "spaced_repetition": {
-          "type": "object",
-          "description": "Parameters for spaced repetition review scheduling",
-          "properties": {
-            "initial_interval_days": {
-              "type": "integer",
-              "minimum": 1,
-              "description": "Number of days before the first review after initial mastery"
-            },
-            "multiplier": {
-              "type": "number",
-              "minimum": 1,
-              "default": 2.5,
-              "description": "Factor by which the review interval grows after each successful review"
-            }
-          },
-          "additionalProperties": false
-        }
-      },
-      "additionalProperties": false
-    },
-    "cross_curriculum": {
-      "type": "array",
-      "description": "Links to equivalent or related topics in other syllabi via shared concepts",
-      "items": {
-        "type": "object",
-        "required": ["concept_id", "syllabus_id", "topic_id"],
-        "properties": {
-          "concept_id": {
-            "type": "string",
-            "description": "ID of the shared concept that bridges the two topics"
-          },
-          "syllabus_id": {
-            "type": "string",
-            "description": "Syllabus ID of the linked topic"
-          },
-          "topic_id": {
-            "type": "string",
-            "description": "Topic ID in the other syllabus that covers the same concept"
-          }
-        },
-        "additionalProperties": false
-      }
-    },
-    "performance_standards": {
-      "type": "array",
-      "description": "Tahap Penguasaan (TP) performance standard descriptors (levels 1-6)",
-      "items": {
-        "type": "object",
-        "properties": {
-          "level": {
-            "type": "integer",
-            "minimum": 1,
-            "maximum": 6,
-            "description": "TP level number (1=lowest, 6=highest mastery)"
-          },
-          "id": {
-            "type": "string",
-            "description": "Performance standard ID, typically TPn format (e.g., TP1, TP6)"
-          },
-          "text": {
-            "type": "string",
-            "minLength": 1,
-            "description": "Performance standard text in the primary language"
-          },
-          "text_en": {
-            "type": "string",
-            "minLength": 1,
-            "description": "English translation of the performance standard text"
-          },
-          "descriptor": {
-            "type": "string",
-            "minLength": 1,
-            "description": "Detailed descriptor of what the student can do at this level, in primary language"
-          },
-          "descriptor_en": {
-            "type": "string",
-            "minLength": 1,
-            "description": "English translation of the detailed descriptor"
-          }
-        },
-        "additionalProperties": false
-      }
+      "enum": ["beginner", "intermediate", "advanced"]
     },
     "tier": {
       "type": "string",
-      "enum": ["core", "extended"],
-      "description": "Whether this topic is part of the core syllabus or the extended/elective syllabus"
+      "enum": ["core", "extended"]
     },
-    "ai_teaching_notes": {
-      "type": "string",
-      "description": "Relative path to .teaching.md file containing detailed AI tutoring guidance"
+    "theme": { "$ref": "#/$defs/nonEmptyString" },
+    "textbook_pages": { "$ref": "#/$defs/nonEmptyString" },
+    "content_standards": {
+      "type": "array",
+      "description": "May be empty for a quality_level 0 catalog stub.",
+      "items": { "$ref": "#/$defs/contentStandard" }
     },
-    "examples_file": {
-      "type": "string",
-      "description": "Relative path to .examples.yaml file containing worked examples"
+    "learning_objectives": {
+      "type": "array",
+      "description": "May be empty for a quality_level 0 catalog stub; quality_level 1 and above require at least one root learning objective.",
+      "items": { "$ref": "#/$defs/learningObjective" }
     },
-    "assessments_file": {
-      "type": "string",
-      "description": "Relative path to .assessments.yaml file containing assessment questions"
+    "prerequisites": { "$ref": "#/$defs/prerequisites" },
+    "background_knowledge": { "$ref": "#/$defs/stringArray" },
+    "bloom_levels": { "$ref": "#/$defs/stringArray" },
+    "mastery": { "$ref": "#/$defs/mastery" },
+    "teaching": { "$ref": "#/$defs/teaching" },
+    "engagement_hooks": { "$ref": "#/$defs/stringArray" },
+    "performance_standards": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/performanceStandard" }
     },
+    "performance_levels": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/performanceStandard" }
+    },
+    "cross_curriculum": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/crossCurriculum" }
+    },
+    "citizenship_elements": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/citizenshipElement" }
+    },
+    "historical_thinking_skills": { "$ref": "#/$defs/stringArray" },
+    "topic_focus": { "$ref": "#/$defs/stringArray" },
+    "topic_empathy": { "$ref": "#/$defs/stringArray" },
+    "ai_teaching_notes": { "$ref": "#/$defs/nonEmptyString" },
+    "examples_file": { "$ref": "#/$defs/nonEmptyString" },
+    "assessments_file": { "$ref": "#/$defs/nonEmptyString" },
     "quality_level": {
       "type": "integer",
       "minimum": 0,
       "maximum": 5,
-      "description": "Content quality level (0=stub, 1=basic, 2=structured, 3=teachable, 4=complete, 5=gold)"
+      "description": "Completeness claim. Level 0 is a non-teachable catalog stub; the quality gate requires a nonempty teaching identity from level 1."
     },
-    "provenance": {
-      "type": "string",
-      "enum": ["human", "ai-assisted", "ai-generated", "ai-observed"],
-      "description": "How this content was created: human, ai-assisted, ai-generated, or ai-observed"
-    },
+    "provenance": { "$ref": "#/$defs/nonEmptyString" },
     "generated_at": {
       "type": "string",
-      "format": "date-time",
-      "description": "ISO 8601 timestamp of when the content was generated"
+      "format": "date-time"
     },
-    "engagement_hooks": {
-      "type": "array",
-      "items": { "type": "string" },
-      "description": "Hooks to engage students (can appear at root or under teaching)"
-    },
-    "sync_checked": {
-      "type": "boolean",
-      "default": false,
-      "description": "If true, explicitly confirms that logic-heavy fields (prerequisites, mastery) in this file match the Root EN file."
-    }
+    "sync_checked": { "type": "boolean" }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stringArray": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/nonEmptyString" }
+    },
+    "topicId": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,3}[0-9]+-[0-9]{2}$"
+    },
+    "tpLevel": {
+      "oneOf": [
+        {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 6
+          }
+        }
+      ]
+    },
+    "tpMapping": {
+      "type": "object",
+      "patternProperties": {
+        "^tp[1-6]$": { "$ref": "#/$defs/nonEmptyString" }
+      },
+      "additionalProperties": false
+    },
+    "learningObjectiveBase": {
+      "type": "object",
+      "required": ["id"],
+      "anyOf": [
+        { "required": ["text"] },
+        { "required": ["text_en"] }
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/nonEmptyString" },
+        "text": { "$ref": "#/$defs/nonEmptyString" },
+        "text_en": { "$ref": "#/$defs/nonEmptyString" },
+        "bloom": {
+          "type": "string",
+          "enum": ["remember", "understand", "apply", "analyze", "evaluate", "create"]
+        },
+        "content_standard_id": { "$ref": "#/$defs/nonEmptyString" },
+        "tp_level": { "$ref": "#/$defs/tpLevel" },
+        "tp": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "tp_mapping": { "$ref": "#/$defs/tpMapping" },
+        "is_citizenship_elements": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "learningObjective": {
+      "$ref": "#/$defs/learningObjectiveBase"
+    },
+    "contentStandard": {
+      "type": "object",
+      "required": ["id"],
+      "anyOf": [
+        { "required": ["text"] },
+        { "required": ["text_en"] }
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/nonEmptyString" },
+        "text": { "$ref": "#/$defs/nonEmptyString" },
+        "text_en": { "$ref": "#/$defs/nonEmptyString" }
+      },
+      "additionalProperties": false
+    },
+    "prerequisiteItem": {
+      "oneOf": [
+        { "$ref": "#/$defs/topicId" },
+        {
+          "type": "object",
+          "required": ["id"],
+          "properties": {
+            "id": { "$ref": "#/$defs/topicId" },
+            "name": { "$ref": "#/$defs/nonEmptyString" },
+            "name_en": { "$ref": "#/$defs/nonEmptyString" },
+            "reason": { "$ref": "#/$defs/nonEmptyString" }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "prerequisites": {
+      "type": "object",
+      "required": ["required"],
+      "properties": {
+        "required": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/prerequisiteItem" }
+        },
+        "recommended": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/prerequisiteItem" }
+        },
+        "description": { "$ref": "#/$defs/nonEmptyString" }
+      },
+      "additionalProperties": false
+    },
+    "spacedRepetition": {
+      "type": "object",
+      "required": ["initial_interval_days", "multiplier"],
+      "properties": {
+        "initial_interval_days": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "multiplier": {
+          "type": "number",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "mastery": {
+      "type": "object",
+      "required": ["minimum_score", "assessment_count"],
+      "properties": {
+        "minimum_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "assessment_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "spaced_repetition": { "$ref": "#/$defs/spacedRepetition" }
+      },
+      "additionalProperties": false
+    },
+    "misconception": {
+      "type": "object",
+      "required": ["misconception", "remediation"],
+      "properties": {
+        "misconception": { "$ref": "#/$defs/nonEmptyString" },
+        "remediation": { "$ref": "#/$defs/nonEmptyString" }
+      },
+      "additionalProperties": false
+    },
+    "misconceptions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/misconception" }
+    },
+    "teaching": {
+      "type": "object",
+      "required": ["sequence"],
+      "properties": {
+        "sequence": { "$ref": "#/$defs/stringArray" },
+        "common_misconceptions": { "$ref": "#/$defs/misconceptions" },
+        "engagement_hooks": { "$ref": "#/$defs/stringArray" }
+      },
+      "additionalProperties": false
+    },
+    "performanceStandard": {
+      "type": "object",
+      "allOf": [
+        {
+          "anyOf": [
+            { "required": ["level"] },
+            { "required": ["id"] },
+            { "required": ["tp_level"] }
+          ]
+        },
+        {
+          "anyOf": [
+            { "required": ["text"] },
+            { "required": ["text_en"] },
+            { "required": ["descriptor"] },
+            { "required": ["descriptor_en"] },
+            { "required": ["description"] }
+          ]
+        }
+      ],
+      "properties": {
+        "level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "id": { "$ref": "#/$defs/nonEmptyString" },
+        "tp_level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "text": { "$ref": "#/$defs/nonEmptyString" },
+        "text_en": { "$ref": "#/$defs/nonEmptyString" },
+        "descriptor": { "$ref": "#/$defs/nonEmptyString" },
+        "descriptor_en": { "$ref": "#/$defs/nonEmptyString" },
+        "description": { "$ref": "#/$defs/nonEmptyString" }
+      },
+      "additionalProperties": false
+    },
+    "crossCurriculum": {
+      "type": "object",
+      "required": ["concept_id", "syllabus_id", "topic_id"],
+      "properties": {
+        "concept_id": { "$ref": "#/$defs/nonEmptyString" },
+        "syllabus_id": { "$ref": "#/$defs/nonEmptyString" },
+        "topic_id": { "$ref": "#/$defs/topicId" }
+      },
+      "additionalProperties": false
+    },
+    "citizenshipElement": {
+      "type": "object",
+      "required": ["id", "content_standard_id"],
+      "anyOf": [
+        { "required": ["text"] },
+        { "required": ["text_en"] }
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/nonEmptyString" },
+        "content_standard_id": { "$ref": "#/$defs/nonEmptyString" },
+        "text": { "$ref": "#/$defs/nonEmptyString" },
+        "text_en": { "$ref": "#/$defs/nonEmptyString" }
+      },
+      "additionalProperties": false
+    }
+  }
 }

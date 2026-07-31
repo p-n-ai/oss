@@ -2,7 +2,8 @@ id: "MT4-06"
 official_ref: "6.0"
 name: "Linear Inequalities in Two Variables"
 name_en: "Linear Inequalities in Two Variables"
-subject_id: "malaysia-kssm-matematik-tingkatan-4"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-4
+subject_id: malaysia-kssm-matematik
 syllabus_id: "malaysia-kssm"
 country_id: "malaysia"
 language: "en"

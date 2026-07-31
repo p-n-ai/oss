@@ -33,11 +33,14 @@ questions:
     tp_level: 2
     kbat: false
     answer:
-      type: "mapping"
-      value:
-        "Sine": "Opposite / Hypotenuse"
-        "Cosine": "Adjacent / Hypotenuse"
-        "Tangent": "Opposite / Adjacent"
+      type: "matching"
+      pairs:
+        - left: "Sine"
+          right: "Opposite / Hypotenuse"
+        - left: "Cosine"
+          right: "Adjacent / Hypotenuse"
+        - left: "Tangent"
+          right: "Opposite / Adjacent"
       working: |
         Use the SOH-CAH-TOA mnemonic:
         SOH: $\sin = O/H$

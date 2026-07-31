@@ -27,11 +27,11 @@ learning_objectives:
       text: "mencerakinkan komposisi udara daripada carta pai."
       text_en: "Decompose air composition from a pie chart."
       bloom: analyze
-    - id: 7.1.5
+    - id: 7.1.3
       text: "mewajarkan kepentingan gas oksigen, karbon dioksida, nitrogen dan gas nadir dalam kehidupan harian."
       text_en: "Justify the importance of oxygen gas, carbon dioxide, nitrogen and noble gases in daily life."
       bloom: evaluate
-    - id: 7.1.5
+    - id: 7.1.4
       text: "menghargai dan mengagumi kitar karbon dan kitar oksigen dalam mengekalkan kandungan gas dalam udara."
       text_en: "Appreciate and admire the carbon cycle and oxygen cycle in maintaining gas content in the air."
       bloom: evaluate
@@ -43,7 +43,7 @@ learning_objectives:
       text: "merumuskan syarat untuk berlaku pembakaran."
       text_en: "Conclude the conditions for combustion to occur."
       bloom: understand
-    - id: 7.2.3
+    - id: 7.2.2
       text: "menghubungkaitkan antara syarat pembakaran dengan prinsip yang digunakan dalam pembuatan alat pemadam api."
       text_en: "Relate between combustion conditions with principles used in the manufacture of fire extinguishers."
       bloom: understand

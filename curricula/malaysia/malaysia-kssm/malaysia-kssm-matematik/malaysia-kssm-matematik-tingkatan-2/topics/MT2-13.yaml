@@ -76,11 +76,13 @@ performance_levels:
     descriptor_en: "Apply knowledge in non-routine creative probability problem solving."
 
 prerequisites:
-  required:
-    - "Fractions, Decimals and Percentages"
-    - "Basic Set Theory"
-  recommended:
-    - "Ratio and Proportion"
+  required: []
+  recommended: []
+
+background_knowledge:
+  - "Fractions, Decimals and Percentages"
+  - "Basic Set Theory"
+  - "Ratio and Proportion"
 
 mastery:
   minimum_score: 0.75
@@ -98,11 +100,11 @@ teaching:
     - "Step 5: Introduce complement events and notation A' (13.3.1–13.3.2)."
     - "Step 6: Solve mixed routine and non-routine problems (13.4.1)."
 
-common_misconceptions:
-  - misconception: "Probability values can exceed 1."
-    remediation: "Reinforce probability scale is strictly between 0 and 1."
-  - misconception: "Confusing sample space with event."
-    remediation: "Sample space is ALL outcomes; event is a subset of outcomes."
+  common_misconceptions:
+    - misconception: "Probability values can exceed 1."
+      remediation: "Reinforce probability scale is strictly between 0 and 1."
+    - misconception: "Confusing sample space with event."
+      remediation: "Sample space is ALL outcomes; event is a subset of outcomes."
 
 engagement_hooks:
   - "How do game developers use probability to design loot drops?"

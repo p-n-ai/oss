@@ -1,7 +1,8 @@
 id: MT4-09
 official_ref: "9.0"
 name: "Kebarangkalian Peristiwa Bergabung"
-subject_id: malaysia-kssm-matematik-tingkatan-4
+subject_grade_id: malaysia-kssm-matematik-tingkatan-4
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
 language: ms
@@ -65,11 +66,11 @@ teaching:
     - "Langkah 4: Bezakan peristiwa saling eksklusif dan tidak saling eksklusif menggunakan gambar rajah Venn (25 min)"
     - "Langkah 5: Aplikasikan hukum penambahan: P(A atau B) = P(A) + P(B) - P(A dan B) (30 min)"
     - "Langkah 6: Selesaikan masalah rutin dan bukan rutin yang kompleks menggunakan gambar rajah pokok dan set (30 min)"
-common_misconceptions:
-  - misconception: "Menganggap semua peristiwa bergabung adalah tak bersandar."
-    remediation: "Tekankan bagaimana situasi 'tanpa pemulangan' mengubah jumlah ruang sampel dan kebarangkalian peristiwa seterusnya."
-  - misconception: "Gagal menolak persilangan P(A dan B) bagi peristiwa tidak saling eksklusif."
-    remediation: "Gunakan gambar rajah Venn untuk menunjukkan bahawa kawasan bertindih akan dikira dua kali jika tidak ditolak."
+  common_misconceptions:
+    - misconception: "Menganggap semua peristiwa bergabung adalah tak bersandar."
+      remediation: "Tekankan bagaimana situasi 'tanpa pemulangan' mengubah jumlah ruang sampel dan kebarangkalian peristiwa seterusnya."
+    - misconception: "Gagal menolak persilangan P(A dan B) bagi peristiwa tidak saling eksklusif."
+      remediation: "Gunakan gambar rajah Venn untuk menunjukkan bahawa kawasan bertindih akan dikira dua kali jika tidak ditolak."
 engagement_hooks:
   - "Gunakan konsep premium industri insurans tempatan untuk menjelaskan bagaimana kebarangkalian digunakan dalam pengurusan risiko."
   - "Simulasikan perlawanan 'Gunting-Batu-Kertas' untuk menyenaraikan kesudahan dan mengira kebarangkalian menang."
