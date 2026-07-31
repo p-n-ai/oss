@@ -23,8 +23,10 @@ questions:
           feedback: "This is the lower limit of the subsequent class."
     marks: 1
     hints:
-      - "The upper boundary is the value halfway between the end of this class and the start of the next."
-      - "Look at the gap between 154 and 155. What number sits exactly in the middle?"
+      - level: 1
+        text: "The upper boundary is the value halfway between the end of this class and the start of the next."
+      - level: 2
+        text: "Look at the gap between 154 and 155. What number sits exactly in the middle?"
 
   - id: Q2
     text: "A set of grouped data has class midpoints at $147, 152, 157,$ and $162$. If you were to construct a frequency polygon, what are the midpoints required for the classes before and after this set to ensure the polygon starts and ends on the horizontal axis?"
@@ -46,8 +48,10 @@ questions:
       - marks: 1
         criteria: "Correctly calculating both 142 and 167."
     hints:
-      - "A frequency polygon must start and end with zero frequency. How many units are between each existing midpoint?"
-      - "If the 'jump' between points is 5, go back one jump from 147 and forward one jump from 162."
+      - level: 1
+        text: "A frequency polygon must start and end with zero frequency. How many units are between each existing midpoint?"
+      - level: 2
+        text: "If the 'jump' between points is 5, go back one jump from 147 and forward one jump from 162."
 
   - id: Q3
     text: "Compare two histograms representing the test marks of Group Arif and Group Bestari. Group Arif's histogram is bell-shaped with most data at the center, while Group Bestari is uniform (flat) across all marks. Which group has a wider dispersion of marks? Justify your answer."
@@ -68,8 +72,10 @@ questions:
       - marks: 2
         criteria: "Providing justification based on the uniform vs. bell-shaped distribution patterns."
     hints:
-      - "Look at the 'spread' of the bars. In which graph are the marks more 'all over the place' instead of huddling in the middle?"
-      - "Remember that bell-shaped means most people scored similarly. Uniform means scores were scattered across the whole range."
+      - level: 1
+        text: "Look at the 'spread' of the bars. In which graph are the marks more 'all over the place' instead of huddling in the middle?"
+      - level: 2
+        text: "Remember that bell-shaped means most people scored similarly. Uniform means scores were scattered across the whole range."
 
   - id: Q4
     text: "Match the following positions on an Ogive with their corresponding statistical measures."
@@ -91,7 +97,8 @@ questions:
         - "3: Third Quartile (Q3)"
     marks: 3
     hints:
-      - "Quarter (1/4) sounds like which quartile? Half (1/2) sounds like which center measure?"
+      - level: 1
+        text: "Quarter (1/4) sounds like which quartile? Half (1/2) sounds like which center measure?"
 
   # --- 7.2 Measures of Dispersion ---
   - id: Q5
@@ -114,8 +121,10 @@ questions:
       - marks: 1
         criteria: "Correct final value rounded to 2 decimal places."
     hints:
-      - "How do you 'undo' a square ($^2$) in math? Check your calculator for the symbol."
-      - "Don't forget to round carefully! Look at the third decimal digit."
+      - level: 1
+        text: "How do you 'undo' a square ($^2$) in math? Check your calculator for the symbol."
+      - level: 2
+        text: "Don't forget to round carefully! Look at the third decimal digit."
 
   - id: Q6
     text: "In a box plot, the median line is positioned closer to the right side of the box, and the left whisker is significantly longer than the right whisker. Describe the shape of the data distribution."
@@ -138,7 +147,8 @@ questions:
           feedback: "Box plots don't visually represent 'uniform' frequency like histograms do; they focus on quartile spread."
     marks: 1
     hints:
-      - "Whiskers show how far the data is 'stretched'. If it's stretched to the left (lower numbers), where is the skew?"
+      - level: 1
+        text: "Whiskers show how far the data is 'stretched'. If it's stretched to the left (lower numbers), where is the skew?"
 
   - id: Q7
     text: "Machine P produces components with a standard deviation of $0.64$ cm, while Machine Q produces them with a standard deviation of $0.70$ cm. If both machines have the same mean diameter, which machine is more consistent in its production?"
@@ -159,7 +169,8 @@ questions:
       - marks: 1
         criteria: "Explaining that a smaller standard deviation means higher consistency or less dispersion."
     hints:
-      - "Standard deviation measures 'spread'. If you want consistency, do you want a big spread or a tiny spread?"
+      - level: 1
+        text: "Standard deviation measures 'spread'. If you want consistency, do you want a big spread or a tiny spread?"
 
   - id: Q8
     text: "Design a mini-project layout to investigate the BMI (Body Mass Index) distribution among students. List the four essential graphical or statistical representations required in your final report as per the DSKP."
@@ -178,4 +189,5 @@ questions:
       - marks: 4
         criteria: "Correctly listing all 4 components required for a comprehensive statistical investigation."
     hints:
-      - "Think about the journey of data: from a raw list, to a table, to a graph, and finally to the calculated 'consistency' numbers."
+      - level: 1
+        text: "Think about the journey of data: from a raw list, to a table, to a graph, and finally to the calculated 'consistency' numbers."

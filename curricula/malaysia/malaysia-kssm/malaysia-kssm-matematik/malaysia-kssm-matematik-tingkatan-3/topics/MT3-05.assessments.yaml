@@ -3,7 +3,7 @@ provenance: "curriculum-aligned-rewrite"
 questions:
   # 5.1.1 - TP1: Identification (OAP)
   - id: Q1
-    text: "In a right-angled triangle $PQR$ where $\angle Q = 90^\circ$, if we are looking from the perspective of $\angle PRQ$, which side is the 'opposite side'?"
+    text: "In a right-angled triangle $PQR$ where $\\angle Q = 90^\\circ$, if we are looking from the perspective of $\\angle PRQ$, which side is the 'opposite side'?"
     difficulty: "easy"
     learning_objective: "5.1.1"
     tp_level: 1
@@ -19,7 +19,7 @@ questions:
         - value: "QR"
           feedback: "That is the side 'sitting' next to the angle. Remember, the 'opposite' side is the one you would hit if you threw a ball straight out from the angle!"
         - value: "PR"
-          feedback: "PR is the longest side opposite the $90^\circ$ angle, making it the Hypotenuse. The hypotenuse never changes, regardless of where your acute angle is."
+          feedback: "PR is the longest side opposite the $90^\\circ$ angle, making it the Hypotenuse. The hypotenuse never changes, regardless of where your acute angle is."
     marks: 1
     hints:
       - level: 1
@@ -33,11 +33,14 @@ questions:
     tp_level: 2
     kbat: false
     answer:
-      type: "mapping"
-      value:
-        "Sine": "Opposite / Hypotenuse"
-        "Cosine": "Adjacent / Hypotenuse"
-        "Tangent": "Opposite / Adjacent"
+      type: "matching"
+      pairs:
+        - left: "Sine"
+          right: "Opposite / Hypotenuse"
+        - left: "Cosine"
+          right: "Adjacent / Hypotenuse"
+        - left: "Tangent"
+          right: "Opposite / Adjacent"
       working: |
         Use the SOH-CAH-TOA mnemonic:
         SOH: $\sin = O/H$
@@ -50,7 +53,7 @@ questions:
 
   # 5.1.3 - TP4: Conjecture/Impact (OAP)
   - id: Q3
-    text: "As the size of an acute angle $\theta$ increases from $10^\circ$ to $80^\circ$, what happens to the value of $\cos \theta$?"
+    text: "As the size of an acute angle $\\theta$ increases from $10^\\circ$ to $80^\\circ$, what happens to the value of $\\cos \\theta$?"
     difficulty: "medium"
     learning_objective: "5.1.3"
     tp_level: 4
@@ -74,7 +77,7 @@ questions:
 
   # 5.1.5 - TP3: Special Angles (Subjective)
   - id: Q4
-    text: "Calculate the value of $2 \sin 30^\circ + \tan 45^\circ$ without using a calculator."
+    text: "Calculate the value of $2 \\sin 30^\\circ + \\tan 45^\\circ$ without using a calculator."
     difficulty: "medium"
     learning_objective: "5.1.5"
     tp_level: 3
@@ -94,11 +97,11 @@ questions:
         criteria: "Correct final simplified value."
     hints:
       - level: 1
-        text: "What is the value of $\sin 30^\circ$? It's exactly half! Now, what about the ratio where the two sides are the same length ($45^\circ$ triangle)?"
+        text: "What is the value of $\\sin 30^\\circ$? It's exactly half! Now, what about the ratio where the two sides are the same length ($45^\\circ$ triangle)?"
 
   # 5.1.7 - TP5: Complex Routine (Subjective)
   - id: Q5
-    text: "A 5-meter ladder leans against a wall. The foot of the ladder is 3 meters away from the base of the wall. Calculate the angle $\theta$ between the ladder and the ground."
+    text: "A 5-meter ladder leans against a wall. The foot of the ladder is 3 meters away from the base of the wall. Calculate the angle $\\theta$ between the ladder and the ground."
     difficulty: "hard"
     learning_objective: "5.1.7"
     tp_level: 5
@@ -118,18 +121,21 @@ questions:
       - marks: 1
         criteria: "Correct substitution into the cosine formula."
       - marks: 1
-        criteria: "Use of inverse trigonometric function ($\cos^{-1}$)."
+        criteria: "Use of inverse trigonometric function ($\\cos^{-1}$)."
       - marks: 1
         criteria: "Final answer correct to 2 decimal places with unit."
     hints:
       - level: 1
         text: "Draw the triangle. You have the ladder (slanted) and the distance on the floor. Which SOH-CAH-TOA uses 'A' and 'H'?"
       - level: 2
-        text: "To find the angle itself, you need to use the 'Shift' or 'Inverse' button on your calculator. Look for $\cos^{-1}$."
+        text: "To find the angle itself, you need to use the 'Shift' or 'Inverse' button on your calculator. Look for $\\cos^{-1}$."
 
   # 5.1.7 - TP6: Non-Routine (Subjective)
   - id: Q6
-    text: "A surveyor stands at point A and measures the angle of elevation to the top of a tower as $30^\circ$. After walking 20 meters closer to the tower to point B, the angle of elevation becomes $60^\circ$. Calculate the height of the tower."
+    text: >-
+      A surveyor stands at point A and measures the angle of elevation to the top of a tower as $30^\circ$. After
+      walking 20 meters closer to the tower to point B, the angle of elevation becomes $60^\circ$. Calculate the
+      height of the tower.
     difficulty: "hard"
     learning_objective: "5.1.7"
     tp_level: 6

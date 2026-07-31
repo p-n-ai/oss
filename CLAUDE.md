@@ -8,7 +8,7 @@ Think "Wikipedia for curricula" — open, structured, AI-ready.
 
 **What it is NOT:** Not a web application, API server, or learning platform. Not a place for copyrighted exam content.
 
-**Current state:** Scaffolding phase. Documentation exists (`README.md`, `docs/`). Curriculum content, schemas, scripts, and CI workflows are being built per the [development timeline](docs/development-timeline.md).
+**Current state:** Live curriculum-data repository. The checked-in `schema/`, `scripts/lib/oss_validation.rb`, and validation commands are the authoritative contracts.
 
 **IMPORTANT — Daily Implementation Workflow:**
 Before starting any day's work, you **MUST** read and cross-reference **both** documents:
@@ -46,18 +46,21 @@ When completing a day's tasks, update the Status column from ⬜ to ✅ and add 
 
 ```
 oss/
-├── curricula/{board}/{level}/{subject-code}/
+├── curricula/{country_id}/{syllabus_id}/
 │   ├── syllabus.yaml
-│   ├── subjects/*.yaml
-│   ├── topics/{subject}/
-│   │   ├── NN-topic-name.yaml
-│   │   ├── NN-topic-name.teaching.md
-│   │   ├── NN-topic-name.examples.yaml
-│   │   └── NN-topic-name.assessments.yaml
-│   └── locales/{lang-code}/topics/...
+│   └── {subject_id}/
+│       ├── subject.yaml
+│       └── {subject_grade_id}/
+│           ├── subject-grade.yaml
+│           └── topics/
+│               ├── {TOPIC_ID}.yaml
+│               ├── {TOPIC_ID}.teaching.md
+│               ├── {TOPIC_ID}.examples.yaml
+│               ├── {TOPIC_ID}.assessments.yaml
+│               └── translations/{locale}/...
 ├── concepts/{domain}/*.yaml
 ├── taxonomy/{domain}/*.yaml
-├── schema/*.schema.json              # 7 schema files
+├── schema/*.schema.json              # 9 schema files
 ├── scripts/                           # Validation & maintenance scripts
 ├── .github/workflows/                 # CI pipelines
 └── .yamllint.yml
@@ -67,22 +70,24 @@ oss/
 
 | File Type | Pattern | Example |
 |---|---|---|
-| Curriculum dir | `curricula/{board}/{level}/{subject-code}/` | `curricula/cambridge/igcse/mathematics-0580/` |
-| Topic | `NN-kebab-case.yaml` | `05-quadratic-equations.yaml` |
-| Teaching notes | same base + `.teaching.md` | `05-quadratic-equations.teaching.md` |
-| Examples | same base + `.examples.yaml` | `05-quadratic-equations.examples.yaml` |
-| Assessments | same base + `.assessments.yaml` | `05-quadratic-equations.assessments.yaml` |
-| Translations | `locales/{ISO 639-1}/` mirrors source | `locales/ms/topics/algebra/01-expressions.yaml` |
+| Curriculum dir | `curricula/{country_id}/{syllabus_id}/` | `curricula/malaysia/malaysia-kssm/` |
+| Topic | `{TOPIC_ID}.yaml` | `MT1-01.yaml` |
+| Teaching notes | same ID + `.teaching.md` | `MT1-01.teaching.md` |
+| Examples | same ID + `.examples.yaml` | `MT1-01.examples.yaml` |
+| Assessments | same ID + `.assessments.yaml` | `MT1-01.assessments.yaml` |
+| Translations | `topics/translations/{locale}/` | `topics/translations/ms/MT1-01.yaml` |
 | Concepts | `concepts/{domain}/{name}.yaml` | `concepts/mathematics/quadratic-equation.yaml` |
 | Taxonomy | `taxonomy/{domain}/{area}.yaml` | `taxonomy/mathematics/algebra.yaml` |
 
-## Schema Types (7 total)
+## Schema Types (9 total)
 
 | Schema | File | Validates | Purpose |
 |---|---|---|---|
 | Syllabus | `syllabus.schema.json` | `curricula/**/syllabus.yaml` | Top-level qualification |
 | Subject | `subject.schema.json` | `curricula/**/subjects/*.yaml` | Groups related topics |
+| Subject grade | `subject-grade.schema.json` | `curricula/**/subject-grade.yaml` | Declares one grade's topic inventory |
 | Topic | `topic.schema.json` | `curricula/**/topics/**/*.yaml` (excl. examples/assessments) | Core teachable unit |
+| Topic variant | `topic-variant.schema.json` | `curricula/**/topics/translations/**/*.yaml` | Localized topic identity |
 | Examples | `examples.schema.json` | `**/*.examples.yaml` | Worked examples with steps |
 | Assessments | `assessments.schema.json` | `**/*.assessments.yaml` | Questions, rubrics, hints |
 | Concept | `concept.schema.json` | `concepts/**/*.yaml` | Cross-curriculum bridge |
@@ -90,7 +95,7 @@ oss/
 
 **Hierarchy:**
 ```
-Syllabus → Subject → Topic → {Teaching Notes, Examples, Assessments}
+Syllabus → Subject → Subject Grade → Topic → {Teaching Notes, Examples, Assessments}
 Concept → links Topics across different Syllabi
 Taxonomy → classifies Subjects into domain trees
 ```

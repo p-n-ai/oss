@@ -78,13 +78,13 @@ teaching:
     - 'Langkah 5: Melaksanakan operasi tambah, tolak, darab, dan bahagi dalam bentuk piawai (Muka Surat 40-42) (40 min)'
     - 'Langkah 6: Penyelesaian masalah dunia sebenar dan aplikasi bukan rutin (TP4-TP6) (Muka Surat 43-47) (45 min)'
 
-common_misconceptions:
-  - misconception: "Semua digit sifar dianggap sebagai angka bererti."
-    remediation: "Jelaskan bahawa sifar di hadapan perpuluhan (contoh: 0.005) bukan angka bererti; ia hanya menentukan nilai tempat (Muka Surat 34)."
-  - misconception: "Indeks positif dan negatif dalam bentuk piawai mewakili arah pergerakan perpuluhan yang sama."
-    remediation: "Pastikan pelajar faham indeks positif untuk nombor besar (>10) dan indeks negatif untuk nombor kecil (<1) (Muka Surat 37)."
-  - misconception: "Menambah atau menolak nombor bentuk piawai dengan indeks berbeza secara terus."
-    remediation: "Ajar kaedah pemfaktoran atau penukaran indeks kepada kuasa yang sama sebelum melakukan operasi (Muka Surat 40)."
+  common_misconceptions:
+    - misconception: "Semua digit sifar dianggap sebagai angka bererti."
+      remediation: "Jelaskan bahawa sifar di hadapan perpuluhan (contoh: 0.005) bukan angka bererti; ia hanya menentukan nilai tempat (Muka Surat 34)."
+    - misconception: "Indeks positif dan negatif dalam bentuk piawai mewakili arah pergerakan perpuluhan yang sama."
+      remediation: "Pastikan pelajar faham indeks positif untuk nombor besar (>10) dan indeks negatif untuk nombor kecil (<1) (Muka Surat 37)."
+    - misconception: "Menambah atau menolak nombor bentuk piawai dengan indeks berbeza secara terus."
+      remediation: "Ajar kaedah pemfaktoran atau penukaran indeks kepada kuasa yang sama sebelum melakukan operasi (Muka Surat 40)."
 
 engagement_hooks:
   - "Gunakan jarak astronomi (tahun cahaya ke km) untuk menunjukkan kenapa menulis berbilion sifar adalah tidak efisien (Muka Surat 30)."

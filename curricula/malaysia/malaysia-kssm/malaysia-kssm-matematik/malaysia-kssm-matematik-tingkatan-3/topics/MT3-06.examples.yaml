@@ -5,9 +5,11 @@ worked_examples:
   - id: "WE-01"
     topic: "Angle at the Circumference and Central Angle"
     difficulty: "easy"
-    real_world_analogy: "Think of the 'Bow and Arrow'—the arc is your bow, and the central angle is where you pull the string back the furthest (twice as much effort), while the circumference angle is like a lighter pull from the edge."
+    real_world_analogy: >-
+      Think of the 'Bow and Arrow'—the arc is your bow, and the central angle is where you pull the string back the
+      furthest (twice as much effort), while the circumference angle is like a lighter pull from the edge.
     misconception_alert: "Students often think any angle inside the circle is the central angle. Remember: The vertex MUST be exactly at the center $O$ for the 'Double Rule' to apply."
-    scenario: "In a circle with center $O$, given the angle at the circumference $\angle ACB = 35^\circ$. Determine the value of the central angle $\angle AOB$ subtended by the same arc $AB$."
+    scenario: "In a circle with center $O$, given the angle at the circumference $\\angle ACB = 35^\\circ$. Determine the value of the central angle $\\angle AOB$ subtended by the same arc $AB$."
     working: |
       1. Identify the relationship: The central angle is twice the angle at the circumference when subtended by the same arc.
       2. Set up the equation: $\angle AOB = 2 \times \angle ACB$
@@ -17,9 +19,9 @@ worked_examples:
   - id: "WE-02"
     topic: "Cyclic Quadrilaterals"
     difficulty: "medium"
-    real_world_analogy: "Imagine a 'Balanced Scale'—in a cyclic quadrilateral, the opposite corners are like weights that must always add up to exactly $180^\circ$ to keep the circle in balance."
+    real_world_analogy: "Imagine a 'Balanced Scale'—in a cyclic quadrilateral, the opposite corners are like weights that must always add up to exactly $180^\\circ$ to keep the circle in balance."
     misconception_alert: "Thinking all quadrilaterals inside a circle follow this rule. Warning: It only works if ALL four corners (vertices) are touching the circumference!"
-    scenario: "In a cyclic quadrilateral $PQRS$, the interior angle $\angle PQR = 115^\circ$. Calculate the value of the opposite interior angle $\angle PSR$."
+    scenario: "In a cyclic quadrilateral $PQRS$, the interior angle $\\angle PQR = 115^\\circ$. Calculate the value of the opposite interior angle $\\angle PSR$."
     working: |
       1. Identify the property: For a cyclic quadrilateral, the sum of opposite interior angles is $180^\circ$.
       2. Set up the sum equation: $\angle PQR + \angle PSR = 180^\circ$
@@ -30,9 +32,9 @@ worked_examples:
   - id: "WE-03"
     topic: "Tangents to Circles"
     difficulty: "hard"
-    real_world_analogy: "A tangent is like a flat floor touching a bicycle tire—they meet at exactly one point, and the spoke (radius) hitting that point stands perfectly upright at $90^\circ$."
+    real_world_analogy: "A tangent is like a flat floor touching a bicycle tire—they meet at exactly one point, and the spoke (radius) hitting that point stands perfectly upright at $90^\\circ$."
     misconception_alert: "Confusing a 'Tangent' (touches 1 point) with a 'Chord' (cuts through 2 points). A tangent never enters the circle's interior."
-    scenario: "Line $ABC$ is a tangent to a circle at point $B$. $O$ is the center of the circle with radius $OB$. If $\angle OAB = 25^\circ$ in triangle $\triangle OAB$, find the value of the central angle $\angle AOB$."
+    scenario: "Line $ABC$ is a tangent to a circle at point $B$. $O$ is the center of the circle with radius $OB$. If $\\angle OAB = 25^\\circ$ in triangle $\\triangle OAB$, find the value of the central angle $\\angle AOB$."
     working: |
       1. Identify the Tangent-Radius property: The radius $OB$ is perpendicular to the tangent $ABC$ at the point of tangency $B$.
       2. Therefore, $\angle OBA = 90^\circ$.

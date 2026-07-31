@@ -64,13 +64,15 @@ learning_objectives:
     bloom: apply
 
 prerequisites:
-  required:
-    - "Memplot titik pada satah Cartes"
-    - "Mengenal pasti paksi-x, paksi-y dan asalan (0, 0)"
-    - "Memahami Teorem Pythagoras asas"
-  recommended:
-    - "Operasi punca kuasa dua asas"
-    - "Pemahaman kuadran koordinat"
+  required: []
+  recommended: []
+
+background_knowledge:
+  - "Memplot titik pada satah Cartes"
+  - "Mengenal pasti paksi-x, paksi-y dan asalan (0, 0)"
+  - "Memahami Teorem Pythagoras asas"
+  - "Operasi punca kuasa dua asas"
+  - "Pemahaman kuadran koordinat"
 
 mastery:
   minimum_score: 0.75

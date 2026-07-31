@@ -1,7 +1,8 @@
 id: MT4-08
 official_ref: "8.0"
 name_en: "Measures of Dispersion for Ungrouped Data"
-subject_id: malaysia-kssm-matematik-tingkatan-4
+subject_grade_id: malaysia-kssm-matematik-tingkatan-4
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
 language: en
@@ -52,9 +53,9 @@ prerequisites:
 mastery:
   minimum_score: 0.75
   assessment_count: 3
-spaced_repetition:
-  initial_interval_days: 3
-  multiplier: 2.5
+  spaced_repetition:
+    initial_interval_days: 3
+    multiplier: 2.5
 ai_teaching_notes: "MT4-08.teaching.md"
 assessments_file: "MT4-08.assessments.yaml"
 examples_file: "MT4-08.examples.yaml"
@@ -68,13 +69,13 @@ teaching:
     - "Step 4: Investigating the effects of data changes, including outliers, on dispersion measures (Page 228-233)."
     - "Step 5: Comparing data sets using both dispersion and central tendency for comprehensive analysis (Page 234-235)."
     - "Step 6: Real-world problem solving and mathematical exploration (Page 236-241)."
-common_misconceptions:
-  - misconception: "Confusing dispersion with central tendency."
-    remediation: "Clarify that central tendency describes the 'center' (mean/median), while dispersion describes the 'spread' around that center."
-  - misconception: "Forgetting to square the deviations when calculating variance."
-    remediation: "Emphasize the formula steps where $(x - \bar{x})^2$ is required before averaging."
-  - misconception: "Treating variance and standard deviation as having the same unit as the data."
-    remediation: "Highlight that standard deviation is the square root of variance, returning the measure to the original unit."
+  common_misconceptions:
+    - misconception: "Confusing dispersion with central tendency."
+      remediation: "Clarify that central tendency describes the 'center' (mean/median), while dispersion describes the 'spread' around that center."
+    - misconception: "Forgetting to square the deviations when calculating variance."
+      remediation: "Emphasize the formula steps where $(x - \\bar{x})^2$ is required before averaging."
+    - misconception: "Treating variance and standard deviation as having the same unit as the data."
+      remediation: "Highlight that standard deviation is the square root of variance, returning the measure to the original unit."
 engagement_hooks:
   - "Use SEA Games medal tally data to discuss why simply looking at 'total medals' doesn't show the full consistency of a country's performance."
   - "Compare the salaries of employees in different companies to see which company has a 'fairer' pay distribution."

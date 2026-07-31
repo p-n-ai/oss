@@ -8,7 +8,9 @@ worked_examples:
     tp_level: 2
     kbat: false
     learning_objective: "6.1.2"
-    real_world_analogy: "Cermin 'Bow-Tie'. Bayangkan paksi-x ialah cermin. Sudut dalam sukuan ke-2 atau ke-3 hanyalah pantulan daripada 'mini-me' (sudut rujukan) yang memeluk permukaan cermin tersebut."
+    real_world_analogy: >-
+      Cermin 'Bow-Tie'. Bayangkan paksi-x ialah cermin. Sudut dalam sukuan ke-2 atau ke-3 hanyalah pantulan daripada
+      'mini-me' (sudut rujukan) yang memeluk permukaan cermin tersebut.
     misconception_alert: "Perangkap 'Peluk Paksi-Y'! Pelajar selalu kira sudut rujukan dari paksi menegak (y). Ingat: Sudut rujukan MESTI sentiasa diukur dari paksi mengufuk (x)!"
     scenario: "Tentukan nilai bagi $\\cos 210^\\circ$ tanpa menggunakan kalkulator, berikan jawapan dalam bentuk surd."
     working: |
@@ -27,7 +29,7 @@ worked_examples:
     tp_level: 3
     kbat: false
     learning_objective: "6.2.1"
-    real_world_analogy: "Dinding Misteri (Asimptot). Bayangkan graf Tangen macam kereta yang cuba langgar dinding kat $90^\circ$. Dia boleh naik tinggi gila, tapi dia takkan pernah dapat sentuh atau lintas dinding tu!"
+    real_world_analogy: "Dinding Misteri (Asimptot). Bayangkan graf Tangen macam kereta yang cuba langgar dinding kat $90^\\circ$. Dia boleh naik tinggi gila, tapi dia takkan pernah dapat sentuh atau lintas dinding tu!"
     misconception_alert: "Kesalahan 'Gelombang Tajam'. Jangan lukis gelombang Sinus dan Kosinus macam segi tiga yang tajam. Ia mestilah lengkung 'S' yang licin dan membulat."
     scenario: "Lakarkan graf $y = \\sin x$ untuk julat $0^\\circ \\leq x \\leq 360^\\circ$."
     working: |

@@ -136,13 +136,13 @@ questions:
         Langkah 5: Varians Baru $= \frac{3981}{11} - 18.09^2 = 361.91 - 327.25 = 34.66$ (Terima $34.6$ hingga $35.4$ berdasarkan pembundaran).
     rubric:
       - marks: 1
-        criteria: "Mengira jumlah kuasa dua asal ($\sum x^2$) dengan betul."
+        criteria: "Mengira jumlah kuasa dua asal ($\\sum x^2$) dengan betul."
       - marks: 1
-        criteria: "Mengira jumlah baharu ($\sum x$) and jumlah kuasa dua baharu ($\sum x^2$) selepas menambah nombor."
+        criteria: "Mengira jumlah baharu ($\\sum x$) and jumlah kuasa dua baharu ($\\sum x^2$) selepas menambah nombor."
       - marks: 1
         criteria: "Menentukan min baharu dengan betul."
       - marks: 2
         criteria: "Mengaplikasikan formula varians dengan betul untuk mencari nilai akhir."
     hints:
       - level: 1
-        text: "Anda perlu mencari jumlah besar kuasa dua ($\sum x^2$) bagi set asal sebelum anda boleh menambah nilai baharu. Gunakan formula varians secara terbalik!"
+        text: "Anda perlu mencari jumlah besar kuasa dua ($\\sum x^2$) bagi set asal sebelum anda boleh menambah nilai baharu. Gunakan formula varians secara terbalik!"

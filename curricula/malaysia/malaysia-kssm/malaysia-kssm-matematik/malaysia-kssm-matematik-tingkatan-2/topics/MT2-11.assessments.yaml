@@ -27,7 +27,8 @@ questions:
           feedback: "Shearing distorts shape, so it does not preserve congruence."
     marks: 1
     hints:
-      - "Think: which transformation keeps ALL distances unchanged?"
+      - level: 1
+        text: "Think: which transformation keeps ALL distances unchanged?"
 
   - id: Q2
     text: "Point A(4, -2) is translated by vector $\\begin{pmatrix} -3 \\\\ 5 \\end{pmatrix}$. Find A'."
@@ -44,7 +45,8 @@ questions:
       distractors: []
     marks: 2
     hints:
-      - "Add x with top vector value, y with bottom value."
+      - level: 1
+        text: "Add x with top vector value, y with bottom value."
 
   - id: Q3
     text: "Point P(2,5) is reflected in y = 3. Find P'."
@@ -60,7 +62,8 @@ questions:
       distractors: []
     marks: 3
     hints:
-      - "Measure vertical distance from mirror line."
+      - level: 1
+        text: "Measure vertical distance from mirror line."
 
   - id: Q4
     text: "Point M(3,2) rotated 90° clockwise about origin becomes?"
@@ -82,7 +85,8 @@ questions:
           feedback: "This is 90° anticlockwise rule."
     marks: 2
     hints:
-      - "Clockwise rotation swaps coordinates with sign change."
+      - level: 1
+        text: "Clockwise rotation swaps coordinates with sign change."
 
   - id: Q5
     text: "Triangles are congruent under isometry. Find missing angle."
@@ -97,7 +101,8 @@ questions:
       distractors: []
     marks: 4
     hints:
-      - "Use triangle angle sum + congruence property."
+      - level: 1
+        text: "Use triangle angle sum + congruence property."
 
   - id: Q6
     text: "Order of rotational symmetry of a pentagon?"
@@ -112,7 +117,8 @@ questions:
       distractors: []
     marks: 1
     hints:
-      - "Count how many times shape matches itself in 360°"
+      - level: 1
+        text: "Count how many times shape matches itself in 360°"
 
   - id: Q7
     text: "Why is a translated and reflected square still congruent?"
@@ -129,4 +135,5 @@ questions:
       distractors: []
     marks: 5
     hints:
-      - "Do these transformations change length or area?"
+      - level: 1
+        text: "Do these transformations change length or area?"

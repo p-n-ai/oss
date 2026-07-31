@@ -25,7 +25,8 @@ questions:
           feedback: "You missed the 'Zero Hero' rule! Zeros between non-zeros and zeros at the end of a decimal are significant."
     marks: 1
     hints:
-      - "Look at the 'Zero Hero' rules on Page 34. Do the zeros at the very front count?"
+      - level: 1
+        text: "Look at the 'Zero Hero' rules on Page 34. Do the zeros at the very front count?"
 
   - id: Q2
     text: "Determine if the following statement is TRUE or FALSE: 'In the number 803,000, there are exactly 6 significant figures unless otherwise stated.'"
@@ -44,7 +45,8 @@ questions:
           feedback: "In integers, trailing zeros are placeholders. They only become significant if the number was specifically rounded to that level of accuracy."
     marks: 1
     hints:
-      - "Check the rule for whole numbers (integers) on Page 34. Do trailing zeros always count?"
+      - level: 1
+        text: "Check the rule for whole numbers (integers) on Page 34. Do trailing zeros always count?"
 
   - id: Q3
     text: "Round off $63,479$ to two significant figures."
@@ -68,8 +70,10 @@ questions:
       - marks: 1
         criteria: "Identified '63' but failed to add placeholder zeros (e.g., writing 63)."
     hints:
-      - "Identify the first two important digits. Now, look at the neighbor (the 3rd digit). Should you round up?"
-      - "Don't let the number shrink to 63! Use zeros as placeholders to keep it in the ten-thousands."
+      - level: 1
+        text: "Identify the first two important digits. Now, look at the neighbor (the 3rd digit). Should you round up?"
+      - level: 2
+        text: "Don't let the number shrink to 63! Use zeros as placeholders to keep it in the ten-thousands."
 
   # --- Subchapter 2.2: Standard Form ---
 
@@ -81,28 +85,29 @@ questions:
     kbat: false
     answer:
       type: multiple_choice
-      value: "$5.2 \times 10^{-5}$"
+      value: "$5.2 \\times 10^{-5}$"
       working: |
         1. Move decimal 5 places to the right to get 5.2.
         2. Since we moved right (small number), the index is -5.
       distractors:
-        - value: "$5.2 \times 10^5$"
+        - value: "$5.2 \\times 10^5$"
           feedback: "A number less than 1 must have a negative index (-) because it's 'shrinking' from the base $10^0$."
-        - value: "$52 \times 10^{-6}$"
-          feedback: "Violation of the Golden Rule! The coefficient $A$ must be $1 \le A < 10$."
+        - value: "$52 \\times 10^{-6}$"
+          feedback: "Violation of the Golden Rule! The coefficient $A$ must be $1 \\le A < 10$."
     marks: 1
     hints:
-      - "Remember the Golden Rule: $A$ must be between 1 and 10."
+      - level: 1
+        text: "Remember the Golden Rule: $A$ must be between 1 and 10."
 
   - id: Q5
-    text: "Express the distance of a nanometre, which is $0.000\ 000\ 001$ m, in **Standard Form** ($A \times 10^n$)."
+    text: "Express the distance of a nanometre, which is $0.000\\ 000\\ 001$ m, in **Standard Form** ($A \\times 10^n$)."
     difficulty: easy
     learning_objective: "2.2.1"
     tp_level: 2
     kbat: false
     answer:
       type: exact
-      value: "1 \times 10^{-9}"
+      value: "1 \\times 10^{-9}"
       working: |
         1. Move the decimal point to the right until it is after the first non-zero digit (1).
         2. Count the number of moves: 9 places.
@@ -115,18 +120,20 @@ questions:
       - marks: 1
         criteria: "Correct coefficient (1) but wrong index sign or value."
     hints:
-      - "How many 'jumps' does the decimal point take to get behind the 1? Count them carefully."
-      - "Is a nanometre very big or very small? Small numbers always use a negative index (-)."
+      - level: 1
+        text: "How many 'jumps' does the decimal point take to get behind the 1? Count them carefully."
+      - level: 2
+        text: "Is a nanometre very big or very small? Small numbers always use a negative index (-)."
 
   - id: Q6
-    text: "Calculate $(3.5 \times 10^4) + (2.1 \times 10^3)$. State your answer in standard form."
+    text: "Calculate $(3.5 \\times 10^4) + (2.1 \\times 10^3)$. State your answer in standard form."
     difficulty: medium
     learning_objective: "2.2.2"
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "3.71 \times 10^4"
+      value: "3.71 \\times 10^4"
       working: |
         Method: Align indices to the highest power ($10^4$).
         1. Convert $2.1 \times 10^3$ to $0.21 \times 10^4$.
@@ -141,11 +148,13 @@ questions:
       - marks: 1
         criteria: "Attempted to align indices but used the wrong direction for the decimal shift."
     hints:
-      - "You can't add them yet! The powers ($10^4$ and $10^3$) are different. Can you change them to the same index first?"
-      - "Try making them both $10^4$. What happens to the decimal in $2.1$ when the index goes up?"
+      - level: 1
+        text: "You can't add them yet! The powers ($10^4$ and $10^3$) are different. Can you change them to the same index first?"
+      - level: 2
+        text: "Try making them both $10^4$. What happens to the decimal in $2.1$ when the index goes up?"
 
   - id: Q7
-    text: "A ream of paper contains 800 sheets. The thickness of one sheet is $9.4 \times 10^{-3}$ cm. If a stack of $n$ reams is $225.6$ cm high, calculate the value of $n$."
+    text: "A ream of paper contains 800 sheets. The thickness of one sheet is $9.4 \\times 10^{-3}$ cm. If a stack of $n$ reams is $225.6$ cm high, calculate the value of $n$."
     difficulty: hard
     learning_objective: "2.2.3"
     tp_level: 5
@@ -165,8 +174,10 @@ questions:
       - marks: 2
         criteria: "Calculated thickness of 1 ream correctly but failed to divide total height correctly."
     hints:
-      - "First, find out how thick ONE whole ream is. Use multiplication!"
-      - "Now, how many of those ream-thicknesses fit into the $225.6$ cm stack? Use division."
+      - level: 1
+        text: "First, find out how thick ONE whole ream is. Use multiplication!"
+      - level: 2
+        text: "Now, how many of those ream-thicknesses fit into the $225.6$ cm stack? Use division."
 
   - id: Q8
     text: "An A4 paper has a length of $297$ mm and width of $210$ mm. Calculate its area in $m^2$ and express the answer in standard form correct to 3 significant figures."
@@ -176,7 +187,7 @@ questions:
     kbat: true
     answer:
       type: exact
-      value: "6.24 \times 10^{-2}"
+      value: "6.24 \\times 10^{-2}"
       working: |
         1. Convert mm to m: $Length = 0.297$ m, $Width = 0.210$ m.
         2. Area = $0.297 \times 0.210 = 0.06237$ $m^2$.
@@ -189,5 +200,7 @@ questions:
       - marks: 2
         criteria: "Calculated area correctly but failed conversion to $m^2$ or standard form."
     hints:
-      - "Careful! The measurements are in mm, but the answer wants $m^2$. Divide by 1000 for each side first."
-      - "Once you get the area, check your 'rounding' skill. We only want 3 significant figures!"
+      - level: 1
+        text: "Careful! The measurements are in mm, but the answer wants $m^2$. Divide by 1000 for each side first."
+      - level: 2
+        text: "Once you get the area, check your 'rounding' skill. We only want 3 significant figures!"

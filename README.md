@@ -14,8 +14,8 @@
   </p>
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY--SA%204.0-orange.svg" alt="License"></a>
-    <img src="https://img.shields.io/badge/status-scaffolding-yellow.svg" alt="Status">
-    <img src="https://img.shields.io/badge/curricula-0_(building)-blue.svg" alt="Curricula Count">
+    <img src="https://img.shields.io/badge/status-live-green.svg" alt="Status">
+    <img src="https://img.shields.io/badge/content_YAML-562-blue.svg" alt="Content YAML Count">
     <img src="https://img.shields.io/badge/format-YAML%20%2B%20Markdown-yellow.svg" alt="Format">
   </p>
 </p>
@@ -42,18 +42,13 @@ Every AI tutoring platform, every educational app, every school management syste
 
 ## Browse Curricula
 
-### Planned (Contributions Welcome!)
+### Available curriculum
 
 | Curriculum | Country | Status |
 |-----------|---------|--------|
-| Cambridge IGCSE 0580 Mathematics | International | 🚧 In progress (seed content) |
-| KSSM Matematik Forms 1-3 | Malaysia | 🚧 In progress (seed content) |
-| IB Diploma Mathematics AA | International | 📋 Scaffolded |
-| SAT Mathematics | USA | 📋 Scaffolded |
-| CBSE Class 10 Mathematics | India | 🔲 Not started |
-| GCSE Mathematics (Edexcel) | UK | 🔲 Not started |
-| SPM Mathematics | Malaysia | 🔲 Not started |
-| Kurikulum Merdeka SMA | Indonesia | 🔲 Not started |
+| Malaysia KSSM Mathematics Forms 1-5 | Malaysia | Live structured curriculum |
+| Malaysia KSSM Science Forms 1-5 | Malaysia | Live catalog and curriculum content |
+| Malaysia KSSM History Forms 1-5 | Malaysia | Live catalog and curriculum content |
 
 Want to see your country's curriculum here? [Start a contribution →](#contribute)
 
@@ -64,56 +59,46 @@ Want to see your country's curriculum here? [Start a contribution →](#contribu
 ```
 oss/
 ├── curricula/                        # All curricula organized by board
-│   ├── cambridge/
-│   │   └── igcse/
-│   │       └── mathematics-0580/
-│   │           ├── syllabus.yaml                         # Top-level qualification
-│   │           ├── subjects/
-│   │           │   ├── algebra.yaml                      # Subject grouping
-│   │           │   └── number.yaml
-│   │           ├── topics/
-│   │           │   └── algebra/
-│   │           │       ├── 01-expressions.yaml           # Topic definition
-│   │           │       ├── 01-expressions.teaching.md    # AI teaching notes
-│   │           │       ├── 01-expressions.examples.yaml  # Worked examples
-│   │           │       └── 01-expressions.assessments.yaml
-│   │           └── locales/                              # Translations
-│   │               └── ms/                               # Malay
-│   │                   └── topics/algebra/
-│   │                       └── 01-expressions.yaml
 │   └── malaysia/
-│       └── kssm/
-│           ├── matematik-tingkatan1/
-│           │   └── ...                                     # Same structure
-│           ├── matematik-tingkatan2/
-│           │   └── ...
-│           └── matematik-tingkatan3/
-│               └── ...
+│       └── malaysia-kssm/
+│           ├── syllabus.yaml                            # Top-level syllabus
+│           └── malaysia-kssm-matematik/
+│               ├── subject.yaml                         # Subject
+│               └── malaysia-kssm-matematik-tingkatan-1/
+│                   ├── subject-grade.yaml                # Grade-specific subject
+│                   └── topics/
+│                       ├── MT1-01.yaml                    # Canonical topic
+│                       ├── MT1-01.teaching.md             # AI teaching notes
+│                       ├── MT1-01.examples.yaml           # Worked examples
+│                       ├── MT1-01.assessments.yaml        # Assessments
+│                       └── translations/
+│                           └── ms/
+│                               ├── MT1-01.yaml            # Locale topic variant
+│                               ├── MT1-01.examples.yaml
+│                               └── MT1-01.assessments.yaml
 │
 ├── concepts/                         # Universal cross-curriculum concepts
 │   └── mathematics/
-│       ├── quadratic-equation.yaml   # Bridges same concept across curricula
-│       ├── linear-function.yaml
-│       └── ...
+│       ├── algebraic-expression.yaml
+│       └── linear-equation.yaml
 │
-├── taxonomy/                         # Subject area hierarchies
-│   └── mathematics/
-│       ├── algebra.yaml
-│       ├── geometry.yaml
-│       └── ...
+├── taxonomy/                         # Empty today; schema exists for future taxonomies
 │
 ├── schema/                           # JSON Schema validation files
 │   ├── syllabus.schema.json
 │   ├── subject.schema.json
+│   ├── subject-grade.schema.json
 │   ├── topic.schema.json
-│   ├── examples.schema.json
+│   ├── topic-variant.schema.json
 │   ├── assessments.schema.json
+│   ├── examples.schema.json
 │   ├── concept.schema.json
 │   └── taxonomy.schema.json
 │
 ├── scripts/                          # CI and maintenance scripts
 │   ├── validate.sh
 │   ├── validate-changed.sh
+│   ├── check-inventory.rb
 │   ├── check-prerequisites.rb
 │   ├── check-references.rb
 │   ├── assess-quality.rb
@@ -132,53 +117,67 @@ oss/
 
 ## Schema Overview
 
-OSS uses 7 core schema types. Every file is validated against its JSON Schema on every commit.
+OSS uses nine JSON Schema types. The validator classifies canonical and localized artifacts before selecting a schema, so locale variants cannot accidentally pass as canonical topics.
+
+| Schema type | Current inventory |
+|-------------|------------------:|
+| Syllabus | 1 |
+| Subject | 3 |
+| Subject-grade | 15 |
+| Canonical topic | 152 |
+| Locale topic variant | 53 |
+| Assessment | 115 canonical + 53 locale |
+| Example | 115 canonical + 53 locale |
+| Concept | 2 |
+| Taxonomy | 0 |
+| **Total content YAML** | **562** |
+
+Canonical topic IDs are globally unique across OSS. A locale topic variant deliberately reuses its canonical topic ID, but is validated separately for its mirrored path, locale, language, and parent identity.
+
+Canonical topic files live directly under `topics/` and use English when an English representation exists. Malay variants live under `topics/translations/ms/`, reuse the canonical filename and topic ID, and carry `language: ms`.
+
+Runtime-bearing values use one canonical shape: root `learning_objectives`, `mastery`, nested `teaching.sequence` and `teaching.common_misconceptions`, and `answer.options`. Root `engagement_hooks` is the sole retained alternate placement because the consumer normalizes it with conflict detection.
+
+Locale assessment variants may localize question prose and expected values, but question IDs, learning-objective references, and answer types must match the canonical assessment so localization cannot change mastery semantics.
+
+Worked examples may omit `learning_objective`; when present, it must exactly match an authored objective ID from the canonical topic. Locale example variants may translate prose but preserve canonical worked-example IDs and objective identities.
+
+The full gate validates all 562 content YAML files. Pull requests use the changed-files gate unless a schema or validation change requires the full corpus to be checked.
 
 ### 1. Syllabus
 
-Top-level qualification (e.g., "Cambridge IGCSE Mathematics 0580").
+Top-level curriculum family.
 
 ```yaml
-# curricula/cambridge/igcse/mathematics-0580/syllabus.yaml
-id: cambridge-igcse-mathematics-0580
-name: Cambridge IGCSE Mathematics
-board: cambridge
-level: igcse
-code: "0580"
-version: "2025-2027"
+# curricula/malaysia/malaysia-kssm/syllabus.yaml
+id: malaysia-kssm
+name: "Kurikulum Standard Sekolah Menengah (KSSM)"
+name_en: "Kurikulum Standard Sekolah Menengah (KSSM)"
+country_id: malaysia
+language: ms
 subjects:
-  - algebra
-  - number
-  - geometry
-  - statistics
-assessment:
-  components:
-    - name: Paper 2 (Extended)
-      weight: 35
-      duration_minutes: 90
-    - name: Paper 4 (Extended)
-      weight: 65
-      duration_minutes: 150
-grading:
-  scale: [A*, A, B, C, D, E, F, G, U]
+  - malaysia-kssm-matematik
+  - malaysia-kssm-sains
+  - malaysia-kssm-sejarah
+provenance: ai-generated
+generated_at: "2026-03-30T07:22:36Z"
 ```
 
 ### 2. Subject
 
-Groups related topics within a syllabus.
+Names a discipline within a syllabus. Grade-specific topic inventories live in
+the nested `subject-grade.yaml` records.
 
 ```yaml
-# curricula/cambridge/igcse/mathematics-0580/subjects/algebra.yaml
-id: algebra
-name: Algebra
-syllabus_id: cambridge-igcse-mathematics-0580
-description: "Algebraic manipulation, equations, inequalities, sequences, and functions"
-topics:
-  - 01-expressions
-  - 02-linear-equations
-  - 03-simultaneous-equations
-  - 04-inequalities
-  - 05-quadratic-equations
+# curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/subject.yaml
+id: malaysia-kssm-matematik
+name: "Matematik"
+name_en: "Mathematics"
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: ms
+provenance: ai-generated
+generated_at: "2026-03-29T23:18:08Z"
 ```
 
 ### 3. Topic (Core Unit)
@@ -186,72 +185,51 @@ topics:
 The heart of OSS. Each topic contains everything an AI agent or learning platform needs.
 
 ```yaml
-# curricula/cambridge/igcse/mathematics-0580/topics/algebra/05-quadratic-equations.yaml
-id: 05-quadratic-equations
-name: Quadratic Equations
-subject_id: algebra
-syllabus_id: cambridge-igcse-mathematics-0580
-
+# curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/
+# malaysia-kssm-matematik-tingkatan-3/topics/MT3-09.yaml
+id: MT3-09
+official_ref: "Bab 9"
+name: "Garis Lurus"
+name_en: "Straight Lines"
+subject_grade_id: malaysia-kssm-matematik-tingkatan-3
+subject_id: malaysia-kssm-matematik
+syllabus_id: malaysia-kssm
+country_id: malaysia
+language: en
 difficulty: intermediate
-tier: extended                       # core | extended
+tier: core
 
-bloom_levels:                        # Bloom's Taxonomy mapping
-  - apply
-  - analyze
+content_standards:
+  - id: "9.1"
+    text_en: "Straight Lines"
 
 learning_objectives:
-  - id: LO1
-    text: "Solve quadratic equations by factorisation"
-    bloom: apply
-  - id: LO2
-    text: "Solve quadratic equations using the quadratic formula"
-    bloom: apply
-  - id: LO3
-    text: "Form and solve quadratic equations from context"
-    bloom: analyze
+  - id: 9.1.1
+    content_standard_id: "9.1"
+    text_en: "Connect y = mx + c with gradient and y-intercept."
+    bloom: understand
 
 prerequisites:
   required:
-    - 01-expressions                 # Must master these first
-    - 02-linear-equations
+    - MT1-06
+    - MT2-03
   recommended:
-    - 04-inequalities
-
-cross_curriculum:                    # Same concept in other curricula
-  - syllabus: malaysia-kssm-mathematics-form4
-    topic: quadratic-equations-and-inequalities
-    scope_difference: "KSSM includes completing the square at Form 4 level"
-  - concept: mathematics/quadratic-equation
+    - MT2-01
 
 teaching:
-  sequence:                          # Recommended teaching order
-    - "Review expanding brackets (prerequisite check)"
-    - "Introduce through pattern recognition: find two numbers that add to 5 and multiply to 6"
-    - "Connect pattern to factorisation"
-    - "Teach the quadratic formula for non-factorisable equations"
-    - "Apply to real-world problems"
+  sequence:
+    - "Connect the equation form to gradient and intercept."
   common_misconceptions:
-    - misconception: "Students write x² + 5x + 6 = 0 as x(x+5) + 6 = 0"
-      remediation: "Emphasise that factorisation means TWO brackets: (x+?)(x+?)"
-    - misconception: "Students forget ± when using the quadratic formula"
-      remediation: "Always write both solutions first, then check if both are valid"
+    - misconception: "Reading the gradient before isolating y."
+      remediation: "Rewrite the equation with y alone first."
   engagement_hooks:
-    - "Projectile problems: 'How long until the ball hits the ground?'"
-    - "Area puzzles: 'A rectangular garden has area 24m² and perimeter 20m. Find the dimensions.'"
+    - "Compare the gradients of familiar ramps and staircases."
 
-mastery:
-  minimum_score: 0.75
-  assessment_count: 3                # Minimum assessments before mastery
-  spaced_repetition:
-    initial_interval_days: 1
-    multiplier: 2.5
-
-ai_teaching_notes: 05-quadratic-equations.teaching.md
-examples_file: 05-quadratic-equations.examples.yaml
-assessments_file: 05-quadratic-equations.assessments.yaml
-
-quality_level: 3                     # See Quality Levels below
-provenance: human                    # human | ai-assisted | ai-generated | ai-observed
+quality_level: 3
+provenance: ai-assisted
+ai_teaching_notes: MT3-09.teaching.md
+assessments_file: MT3-09.assessments.yaml
+examples_file: MT3-09.examples.yaml
 ```
 
 ### 4. Teaching Notes (Markdown)
@@ -259,49 +237,19 @@ provenance: human                    # human | ai-assisted | ai-generated | ai-o
 Written specifically for AI agents — conversational guidance for teaching the topic via chat.
 
 ```markdown
-<!-- 05-quadratic-equations.teaching.md -->
+<!-- MT3-09.teaching.md -->
 
-# Teaching: Quadratic Equations
+# Teaching: Straight Lines
 
 ## Opening (First Message)
 
-Start with a puzzle, not a definition:
-
-"I'm thinking of two numbers. They ADD to 5 and MULTIPLY to 6.
-Can you figure out what they are? 🤔"
-
-This is intuitive and avoids the abstract "factorise the trinomial" language
-that loses students immediately.
+Ask the student to compare two familiar ramps: which is steeper, and how could
+we express that difference with numbers?
 
 ## When the Student is Stuck
 
-If they can't find the two numbers, scaffold:
-1. "What pairs of numbers multiply to 6?" → (1,6), (2,3)
-2. "Which of those pairs add to 5?" → (2,3) ✓
-
-Then reveal: "You just solved x² + 5x + 6 = 0. The answer is x = -2 or x = -3.
-The puzzle IS the method!"
-
-## Common Failure Point: Sign Errors
-
-73% of students make sign errors when factors have negative values.
-When this happens, DON'T just correct them. Instead:
-"Let's check: if x = 3, does (3)² + 5(3) + 6 = 0? → 9 + 15 + 6 = 30 ≠ 0.
-Something's off. Let's try x = -3..."
-
-Always verify by substitution. Build the habit of checking.
-
-## Transitioning to the Quadratic Formula
-
-Only introduce the formula AFTER the student is comfortable with factorisation.
-Frame it as: "Some quadratics can't be factorised neatly. That's when we
-use the formula — it works for ALL quadratics."
-
-## Session Ending
-
-End with a forward look: "You can now solve quadratic equations two ways.
-Next time, we'll use these to solve real problems — like calculating
-how high a ball goes when you throw it upward. 🚀"
+Have them isolate `y` before identifying `m` and `c`, then verify the gradient
+from two points on the line.
 ```
 
 ### 5. Assessments
@@ -309,47 +257,34 @@ how high a ball goes when you throw it upward. 🚀"
 Practice questions with rubrics, hints, and difficulty scaling.
 
 ```yaml
-# 05-quadratic-equations.assessments.yaml
-topic_id: 05-quadratic-equations
+# MT3-09.assessments.yaml
+topic_id: MT3-09
+provenance: ai-assisted
 questions:
   - id: Q1
-    text: "Solve x² + 7x + 12 = 0"
+    text: "For 2y = 6x - 4, identify the gradient and y-intercept."
     difficulty: easy
-    learning_objective: LO1
+    learning_objective: 9.1.1
+    tp_level: 1
+    kbat: false
     answer:
-      type: exact
-      value: "x = -3 or x = -4"
+      type: multiple_choice
+      value: "Gradient = 3, y-intercept = -2"
       working: |
-        x² + 7x + 12 = 0
-        Find two numbers that multiply to 12 and add to 7: (3, 4)
-        (x + 3)(x + 4) = 0
-        x = -3 or x = -4
-    marks: 3
+        Divide the equation by 2:
+        y = 3x - 2
+      distractors:
+        - value: "Gradient = 6, y-intercept = -4"
+          feedback: "Divide every term by 2 before reading m and c."
+    marks: 2
     rubric:
       - marks: 1
-        criteria: "Correct factorisation"
+        criteria: "Correctly identifies the gradient."
       - marks: 1
-        criteria: "Both solutions found"
-      - marks: 1
-        criteria: "Correct signs"
+        criteria: "Correctly identifies the y-intercept."
     hints:
       - level: 1
-        text: "Find two numbers that multiply to 12 and add to 7"
-      - level: 2
-        text: "The numbers are 3 and 4. Now write it as (x + ?)(x + ?) = 0"
-    distractors:                     # Common wrong answers
-      - value: "x = 3 or x = 4"
-        feedback: "Check the signs! If x = 3, then 9 + 21 + 12 = 42 ≠ 0"
-
-  - id: Q2
-    text: "Solve 2x² - 5x - 3 = 0 using the quadratic formula"
-    difficulty: medium
-    learning_objective: LO2
-    answer:
-      type: exact
-      value: "x = 3 or x = -0.5"
-    marks: 4
-    # ... rubric, hints, distractors
+        text: "Isolate y before reading the gradient and intercept."
 ```
 
 ### 6. Concept (Cross-Curriculum Bridge)
@@ -357,39 +292,25 @@ questions:
 Bridges the same concept across different curricula, enabling student transfer and cross-curriculum analysis.
 
 ```yaml
-# concepts/mathematics/quadratic-equation.yaml
-id: quadratic-equation
-name: Quadratic Equation
+# concepts/mathematics/linear-equation.yaml
+id: linear-equation
+name: "Linear Equation"
 domain: mathematics
 subdomain: algebra
-
-definition: "A polynomial equation of degree 2 in the form ax² + bx + c = 0, where a ≠ 0"
-
+definition: "An equation of degree 1 in the form ax + b = c, where a is not equal to 0"
 curricula:
-  - syllabus: cambridge-igcse-mathematics-0580
-    topic: 05-quadratic-equations
-    scope: "Factorisation and quadratic formula. No completing the square."
-  - syllabus: malaysia-kssm-mathematics-form4
-    topic: quadratic-equations-and-inequalities
-    scope: "Includes completing the square. Quadratic inequalities introduced."
+  - syllabus: malaysia-kssm
+    topic: MT1-06
+    scope: "Solving linear equations in one variable."
+  - syllabus: malaysia-kssm
+    topic: MT3-09
+    scope: "Straight lines and linear equations in two variables."
 ```
 
 ### 7. Taxonomy (Subject Area Hierarchy)
 
-Defines the universal classification tree for subject areas, enabling consistent categorisation across curricula.
-
-```yaml
-# taxonomy/mathematics/algebra.yaml
-id: algebra
-name: Algebra
-domain: mathematics
-subtopics:
-  - expressions
-  - equations
-  - inequalities
-  - sequences
-  - functions
-```
+The taxonomy schema is ready for subject-area hierarchies, but the exact current
+inventory contains no taxonomy artifacts.
 
 ---
 
@@ -407,16 +328,16 @@ git clone https://github.com/p-n-ai/oss.git
 # Python
 import yaml
 
-with open("oss/curricula/cambridge/igcse/mathematics-0580/topics/algebra/05-quadratic-equations.yaml") as f:
+with open("oss/curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-3/topics/MT3-09.yaml") as f:
     topic = yaml.safe_load(f)
 
-print(topic["learning_objectives"][0]["text"])
-# → "Solve quadratic equations by factorisation"
+print(topic["learning_objectives"][0]["text_en"])
+# → "Make connection between the equation, y = mx + c, and the gradient..."
 ```
 
 ```go
 // Go
-data, _ := os.ReadFile("oss/curricula/cambridge/igcse/mathematics-0580/topics/algebra/05-quadratic-equations.yaml")
+data, _ := os.ReadFile("oss/curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-3/topics/MT3-09.yaml")
 var topic Topic
 yaml.Unmarshal(data, &topic)
 ```
@@ -433,21 +354,27 @@ A pre-built SQLite database (50-200MB) containing all curriculum data, for offli
 
 ### Validating Content
 
-All YAML files are validated against JSON Schemas in the `schema/` directory.
+The repository scripts are the supported validation surface:
 
 ```bash
 # Install validators
 uv tool install yamllint
-npm install -g ajv-cli ajv-formats
+npm install -g ajv-cli
+npm install -g ajv-formats
 
 # Validate a single topic (--spec=draft2020 required for Draft 2020-12)
-ajv validate --spec=draft2020 -s schema/topic.schema.json -d "curricula/cambridge/igcse/mathematics-0580/topics/algebra/05-quadratic-equations.yaml"
+ajv validate --spec=draft2020 -c ajv-formats -s schema/topic.schema.json -d "curricula/malaysia/malaysia-kssm/malaysia-kssm-matematik/malaysia-kssm-matematik-tingkatan-3/topics/MT3-09.yaml"
 
-# Validate all topics in a syllabus
-find curricula/cambridge -name "*.yaml" -path "*/topics/*" | xargs -I{} ajv validate --spec=draft2020 -s schema/topic.schema.json -d {}
+# Validate the complete corpus
+./scripts/validate.sh
+
+# Validate files changed from the PR base
+./scripts/validate-changed.sh
 ```
 
-Pull request CI validates only changed validation-relevant files so scoped fixes are not blocked by existing full-repo failures. Pushes to `main` and manual workflow runs execute the full `./scripts/validate.sh` gate.
+The full gate parses every content YAML file, validates it through the correct one of nine schemas with `ajv-formats`, enforces the exact 562-file inventory, and checks references, prerequisite integrity, and quality claims. It intentionally does not make historical repository-wide YAML style debt part of that gate: there are currently 2,240 pre-existing `yamllint` findings across 447 files. The changed-files gate owns `yamllint` for touched YAML and blocks any increase in findings by rule, so new style debt cannot hide inside a semantic change.
+
+Pull request CI runs changed-file validation. Pushes to `main` and manual workflow runs execute the full `./scripts/validate.sh` gate.
 
 ---
 
@@ -474,7 +401,7 @@ Examples:
 
 Fork the repo, add or edit YAML/Markdown files, and open a PR. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
-> **Before writing any YAML:** Read [docs/id-conventions.md](docs/id-conventions.md) for the canonical ID and folder naming rules. IDs use the official MOE language of the target country and every entity must include both `name` (MOE language) and `name_en` (English). The validator enforces these conventions and will block non-conforming PRs.
+> **Before writing any YAML:** Read [docs/id-conventions.md](docs/id-conventions.md) for the canonical ID, naming, and locale rules. IDs use the official MOE language of the target country. Syllabus, subject, and subject-grade records require both `name` and `name_en`; canonical topics require at least one, and locale variants carry the localized `name`. The validator enforces the schema-specific requirements.
 
 ### What We Need Most
 
@@ -491,12 +418,12 @@ Fork the repo, add or edit YAML/Markdown files, and open a PR. See [CONTRIBUTING
 
 ## Quality Levels
 
-Every topic in OSS has a quality level that indicates its completeness:
+When present, a topic's quality level is a 0–5 completeness claim. The quality gate rejects claims above the completeness it can verify:
 
 | Level | Name | Contents | AI Can Use? |
 |-------|------|----------|-------------|
-| ⬜ **0** | Stub | Name + learning objectives only | Barely |
-| ⭐ **1** | Basic | + prerequisites, difficulty, tier | Minimally |
+| ⬜ **0** | Stub | Name; content standards and objectives may be empty | No — catalog only |
+| ⭐ **1** | Basic | + at least one objective, prerequisites, difficulty, Bloom evidence | Minimally |
 | ⭐⭐ **2** | Structured | + teaching sequence, misconceptions | Somewhat |
 | ⭐⭐⭐ **3** | Teachable | + teaching notes, examples, assessments | **Yes** |
 | ⭐⭐⭐⭐ **4** | Complete | + translations, cross-curriculum links, peer-reviewed | Well |
@@ -511,24 +438,19 @@ Every topic in OSS has a quality level that indicates its completeness:
 OSS includes a `concepts/` directory that bridges the same concept across different curricula.
 
 ```yaml
-# concepts/mathematics/quadratic-equation.yaml
-id: quadratic-equation
-name: Quadratic Equation
+# concepts/mathematics/linear-equation.yaml
+id: linear-equation
+name: "Linear Equation"
 domain: mathematics
 subdomain: algebra
-
-definition: "A polynomial equation of degree 2 in the form ax² + bx + c = 0, where a ≠ 0"
-
+definition: "An equation of degree 1 in the form ax + b = c, where a is not equal to 0"
 curricula:
-  - syllabus: cambridge-igcse-mathematics-0580
-    topic: 05-quadratic-equations
-    scope: "Factorisation and quadratic formula. No completing the square."
-  - syllabus: malaysia-kssm-mathematics-form4
-    topic: quadratic-equations-and-inequalities
-    scope: "Includes completing the square. Quadratic inequalities introduced."
-  - syllabus: ib-dp-mathematics-aa-sl
-    topic: quadratic-functions
-    scope: "Full treatment including discriminant analysis and graphical interpretation."
+  - syllabus: malaysia-kssm
+    topic: MT1-06
+    scope: "Solving linear equations in one variable."
+  - syllabus: malaysia-kssm
+    topic: MT3-09
+    scope: "Straight lines and linear equations in two variables."
 ```
 
 This enables:

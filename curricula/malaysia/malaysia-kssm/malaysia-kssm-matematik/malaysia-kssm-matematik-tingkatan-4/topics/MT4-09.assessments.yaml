@@ -29,7 +29,9 @@ questions:
 
   # Learning Objective 9.2.1 - TP2
   - id: Q2
-    text: "State whether the following combined event is a **Dependent Event** or an **Independent Event**: 'Choosing two pens one by one from a box containing 3 red pens and 2 blue pens **without replacement**.'"
+    text: >-
+      State whether the following combined event is a **Dependent Event** or an **Independent Event**: 'Choosing two
+      pens one by one from a box containing 3 red pens and 2 blue pens **without replacement**.'
     difficulty: easy
     learning_objective: "9.2.1"
     tp_level: 2
@@ -51,7 +53,7 @@ questions:
 
   # Learning Objective 9.2.3 - TP3
   - id: Q3
-    text: "Box A contains cards $\{3, 5, 7, 9\}$ and Box B contains cards $\{X, Y, Z\}$. A card is chosen at random from each box. Calculate the probability of getting a factor of 9 and the letter 'Z'."
+    text: "Box A contains cards $\\{3, 5, 7, 9\\}$ and Box B contains cards $\\{X, Y, Z\\}$. A card is chosen at random from each box. Calculate the probability of getting a factor of 9 and the letter 'Z'."
     difficulty: medium
     learning_objective: "9.2.3"
     tp_level: 3
@@ -79,7 +81,7 @@ questions:
 
   # Learning Objective 9.3.3 - TP4
   - id: Q4
-    text: "A number is chosen at random from a set $S = \{x : x \text{ is an integer, } 1 \leq x \leq 9\}$. Calculate the probability of choosing an even number or a multiple of 5."
+    text: "A number is chosen at random from a set $S = \\{x : x \\text{ is an integer, } 1 \\leq x \\leq 9\\}$. Calculate the probability of choosing an even number or a multiple of 5."
     difficulty: medium
     learning_objective: "9.3.3"
     tp_level: 4
@@ -133,7 +135,7 @@ questions:
         criteria: "Final answer $2/9$ with complete working."
     hints:
       - level: 1
-        text: "The term 'at least one' is a big hint to use the complement method: $1 - P(\text{None are red})$."
+        text: "The term 'at least one' is a big hint to use the complement method: $1 - P(\\text{None are red})$."
       - level: 2
         text: "Remember the 'Eaten Candy' rule! After picking the first green marble, how many green marbles and total marbles are left?"
 

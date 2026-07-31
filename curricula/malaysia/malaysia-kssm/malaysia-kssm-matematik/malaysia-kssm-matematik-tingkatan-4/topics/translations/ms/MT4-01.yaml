@@ -1,7 +1,8 @@
 id: MT4-01
 official_ref: "1.0"
 name: "Fungsi dan Persamaan Kuadratik dalam Satu Pemboleh Ubah"
-subject_id: malaysia-kssm-matematik-tingkatan-4
+subject_grade_id: malaysia-kssm-matematik-tingkatan-4
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
 language: ms
@@ -71,13 +72,13 @@ teaching:
     - "Langkah 4: Membentuk model situasi dunia sebenar ke dalam bentuk kuadratik (Buku Teks ms. 15)."
     - "Langkah 5: Memvisualisasikan dan menyelesaikan punca melalui kaedah graf dan pemfaktoran (Buku Teks ms. 16-23)."
     - "Langkah 6: Menguasai lakaran graf dan penyelesaian masalah kompleks (Buku Teks ms. 23-29)."
-common_misconceptions:
-  - misconception: "Keliru antara ungkapan kuadratik dengan linear kerana kehadiran 'x'."
-    remediation: "Tekankan bahawa fungsi kuadratik MESTI mempunyai kuasa 2 sebagai kuasa tertinggi."
-  - misconception: "Menganggap nilai 'c' mengubah lebar atau bentuk parabola."
-    remediation: "Tunjukkan bahawa 'c' hanya menggerakkan graf secara menegak (pintasan-y)."
-  - misconception: "Salah mengenal pasti paksi simetri sebagai punca persamaan."
-    remediation: "Jelaskan bahawa paksi simetri adalah garis tengah x = -b/2a, manakala punca adalah pintasan-x."
+  common_misconceptions:
+    - misconception: "Keliru antara ungkapan kuadratik dengan linear kerana kehadiran 'x'."
+      remediation: "Tekankan bahawa fungsi kuadratik MESTI mempunyai kuasa 2 sebagai kuasa tertinggi."
+    - misconception: "Menganggap nilai 'c' mengubah lebar atau bentuk parabola."
+      remediation: "Tunjukkan bahawa 'c' hanya menggerakkan graf secara menegak (pintasan-y)."
+    - misconception: "Salah mengenal pasti paksi simetri sebagai punca persamaan."
+      remediation: "Jelaskan bahawa paksi simetri adalah garis tengah x = -b/2a, manakala punca adalah pintasan-x."
 engagement_hooks:
   - "Mengaitkan lengkung parabola dengan trajektori bulu tangkis atau sepakan percuma bola sepak."
   - "Membincangkan matematik seni bina di sebalik struktur jambatan melengkung seperti di Putrajaya."

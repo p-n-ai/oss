@@ -61,9 +61,9 @@ worked_examples:
   - id: WE-04
     topic: "Area and circumference applications (5.3.4)"
     difficulty: hard
-    real_world_analogy: "A Mamak plate: the curry-covered surface represents area ($\pi r^2$), while the metal rim represents circumference ($2\pi r$)."
+    real_world_analogy: "A Mamak plate: the curry-covered surface represents area ($\\pi r^2$), while the metal rim represents circumference ($2\\pi r$)."
     misconception_alert: "Students often forget unit consistency. Always convert units before applying formulas, especially when squaring radius for area."
-    scenario: "A circular tabletop has a circumference of 132 cm. Find its area. (Use $\pi = \frac{22}{7}$)"
+    scenario: "A circular tabletop has a circumference of 132 cm. Find its area. (Use $\\pi = \\frac{22}{7}$)"
     working: |
       1. Use circumference formula:
          $C = 2\pi r$

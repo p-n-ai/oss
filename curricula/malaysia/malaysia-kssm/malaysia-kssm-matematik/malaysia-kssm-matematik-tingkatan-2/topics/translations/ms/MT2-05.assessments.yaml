@@ -83,8 +83,9 @@ questions:
     tp_level: 3
     answer:
       type: matching
-      value:
-        peraturan: "Perentas yang sama panjang mempunyai jarak yang sama dari pusat"
+      pairs:
+        - left: "peraturan"
+          right: "Perentas yang sama panjang mempunyai jarak yang sama dari pusat"
       working: |
         Perentas yang sama panjang adalah sama jarak dari pusat.
     marks: 2

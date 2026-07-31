@@ -132,9 +132,11 @@ questions:
     tp_level: 5
     answer:
       type: matching
-      value:
-        Eksperimen: "Berdasarkan data sebenar"
-        Teori: "Berdasarkan ruang sampel"
+      pairs:
+        - left: "Eksperimen"
+          right: "Berdasarkan data sebenar"
+        - left: "Teori"
+          right: "Berdasarkan ruang sampel"
     marks: 2
 
   - id: Q8

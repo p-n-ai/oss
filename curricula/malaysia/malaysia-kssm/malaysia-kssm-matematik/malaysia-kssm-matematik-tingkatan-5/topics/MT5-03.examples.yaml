@@ -8,7 +8,10 @@ worked_examples:
     learning_objective: "3.1.1"
     tp_level: 2
     kbat: false
-    real_world_analogy: "Insurance is like carrying an umbrella. You don't want it to rain, but if a storm happens, the umbrella prevents you from getting soaked. The umbrella (insurance) transfers the 'risk' of getting wet from you to the umbrella's coverage."
+    real_world_analogy: >-
+      Insurance is like carrying an umbrella. You don't want it to rain, but if a storm happens, the umbrella prevents
+      you from getting soaked. The umbrella (insurance) transfers the 'risk' of getting wet from you to the umbrella's
+      coverage.
     misconception_alert: "Students often think insurance is a way to make money if something bad happens. Remember the 'Principle of Indemnity': insurance only restores you to your original state; it is not for 'untung' (profit)."
     scenario: "Encik Azlan wants to understand why he needs to pay a premium for his house. He wants to know the relationship between risk and insurance."
     working: |
@@ -60,7 +63,7 @@ worked_examples:
     kbat: true
     real_world_analogy: "If you only pay for half a bus ticket, don't be surprised if the bus driver only takes you halfway to your destination. This is the 'Co-insurance Penalty'—if you don't buy enough coverage, the company won't pay the full claim."
     misconception_alert: "Students think if they have $RM150,000$ coverage and a $RM25,000$ loss, the company will pay the full $RM25,000$. NO! If you are under-insured, you are penalized based on the ratio of what you bought versus what you SHOULD have bought."
-    scenario: "Encik Ismail's house has an insurable value of $RM350,000$. His policy has an $80\%$ co-insurance clause. He only insured his house for $RM150,000$. If he suffers a loss of $RM25,000$, calculate his compensation (assuming no deductible for this example)."
+    scenario: "Encik Ismail's house has an insurable value of $RM350,000$. His policy has an $80\\%$ co-insurance clause. He only insured his house for $RM150,000$. If he suffers a loss of $RM25,000$, calculate his compensation (assuming no deductible for this example)."
     working: |
       1. Calculate the required insurance amount: $80\% \times RM350,000 = RM280,000$
       2. Identify the insurance status: Since $RM150,000 < RM280,000$, Encik Ismail is under-insured.

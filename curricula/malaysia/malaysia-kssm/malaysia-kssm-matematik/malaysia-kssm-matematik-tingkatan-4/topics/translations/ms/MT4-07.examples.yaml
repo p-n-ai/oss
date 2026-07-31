@@ -31,7 +31,7 @@ worked_examples:
     difficulty: "medium"
     real_world_analogy: "Fikirkan pemandu GrabCar yang sedang menunggu di lampu isyarat. Jam (masa) terus berdetik, tetapi odometer (jarak) tidak bertambah. Ini mewujudkan 'garis mendatar' pada graf perjalanan anda."
     misconception_alert: "Garis mengufuk dalam graf jarak-masa TIDAK bermaksud objek itu hilang atau bergerak dengan laju malar. Ia bermaksud objek itu pegun (laju = 0)."
-    scenario: "Encik Selva memandu sejauh 240 km dari Kuala Lumpur ke Kuantan. Dia berhenti rehat selepas 1 jam memandu (80 km) selama 30 minit. Dia kemudian melengkapkan baki perjalanannya dalam masa 1.5 jam. Hitung laju purata keseluruhan perjalanan dalam $km \ j^{-1}$."
+    scenario: "Encik Selva memandu sejauh 240 km dari Kuala Lumpur ke Kuantan. Dia berhenti rehat selepas 1 jam memandu (80 km) selama 30 minit. Dia kemudian melengkapkan baki perjalanannya dalam masa 1.5 jam. Hitung laju purata keseluruhan perjalanan dalam $km \\ j^{-1}$."
     working: |
       1. Kenal pasti jumlah jarak: $240 \text{ km}$.
       2. Kenal pasti jumlah masa dalam peringkat:
@@ -49,8 +49,8 @@ worked_examples:
     learning_objective: "MT4-07-7-2-2"
     difficulty: "medium"
     real_world_analogy: "Bayangkan anda sedang mengecat dinding. 'Laju' ialah lebar berus anda, dan 'Masa' ialah sejauh mana anda meleretkan berus itu. Jumlah 'Luas' yang dilitupi cat mewakili jumlah 'Jarak' yang anda lalui."
-    misconception_alert: "Pelajar sering lupa menyemak unit masa. Jika laju dalam $km \ j^{-1}$ tetapi masa dalam 'minit', anda MESTI membahagi minit dengan 60 sebelum mengira luas."
-    scenario: "Sebuah motosikal bergerak dengan laju seragam $20 \ m \ s^{-1}$ selama 15 saat. Ia kemudian mengalami nyahpecutan seragam sehingga berhenti dalam masa 5 saat. Hitung jumlah jarak yang dilalui."
+    misconception_alert: "Pelajar sering lupa menyemak unit masa. Jika laju dalam $km \\ j^{-1}$ tetapi masa dalam 'minit', anda MESTI membahagi minit dengan 60 sebelum mengira luas."
+    scenario: "Sebuah motosikal bergerak dengan laju seragam $20 \\ m \\ s^{-1}$ selama 15 saat. Ia kemudian mengalami nyahpecutan seragam sehingga berhenti dalam masa 5 saat. Hitung jumlah jarak yang dilalui."
     working: |
       1. Kenal pasti bentuk di bawah graf laju-masa:
          - Bahagian 1 (0-15s): Segi empat tepat (Laju seragam).
@@ -68,7 +68,7 @@ worked_examples:
     difficulty: "hard"
     real_world_analogy: "Perlumbaan pelari pecut: Permulaan yang bertenaga (pecutan), mengekalkan kelajuan maksimum (laju seragam), dan memperlahankan diri selepas garisan penamat (nyahpecutan)."
     misconception_alert: "Dalam graf laju-masa, kecerunan negatif bermaksud 'Nyahpecutan', bukan bergerak ke belakang! Objek masih bergerak ke hadapan, cuma semakin perlahan."
-    scenario: "Sebuah kereta memecut dari keadaan pegun sehingga mencapai laju $v \ m \ s^{-1}$ dalam masa 10 saat. Kereta itu mengekalkan laju ini selama 20 saat. Jumlah jarak yang dilalui dalam 30 saat itu ialah 500 m. Hitung nilai $v$."
+    scenario: "Sebuah kereta memecut dari keadaan pegun sehingga mencapai laju $v \\ m \\ s^{-1}$ dalam masa 10 saat. Kereta itu mengekalkan laju ini selama 20 saat. Jumlah jarak yang dilalui dalam 30 saat itu ialah 500 m. Hitung nilai $v$."
     working: |
       1. Kenal pasti bentuk di bawah graf: Trapezium.
          - Sisi selari: $a = 20 \text{ s}$ (bahagian laju seragam), $b = 30 \text{ s}$ (jumlah masa).

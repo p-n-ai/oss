@@ -5,9 +5,11 @@ worked_examples:
     topic: "Interpreting the Meaning of Scale"
     difficulty: "easy"
     learning_objective: "4.1.2"
-    real_world_analogy: "Think of a 'Magic Shrink Ray'! If the ray is set to $1:50$, it means every $1 \text{ cm}$ on the paper is actually $50 \text{ cm}$ in the real world."
+    real_world_analogy: "Think of a 'Magic Shrink Ray'! If the ray is set to $1:50$, it means every $1 \\text{ cm}$ on the paper is actually $50 \\text{ cm}$ in the real world."
     misconception_alert: "The 'Enlargement Trap'! Students often think $1:n$ always means the drawing is smaller. Remind them that if $n$ is a fraction like $1:0.5$, the drawing actually gets bigger!"
-    scenario: "A scale drawing of a rectangular table is drawn to a scale of $1 : 20$. If the length of the table in the drawing is $5 \text{ cm}$, what is the actual length of the table in $\text{cm}$?"
+    scenario: >-
+      A scale drawing of a rectangular table is drawn to a scale of $1 : 20$. If the length of the table in the
+      drawing is $5 \text{ cm}$, what is the actual length of the table in $\text{cm}$?
     working: |
       1. Identify the Scale ratio: $\text{Drawing} : \text{Object} = 1 : 20$.
       2. Set up the proportion: $\frac{1}{20} = \frac{5 \text{ cm}}{\text{Actual Length}}$.
@@ -19,9 +21,9 @@ worked_examples:
     topic: "Calculating Actual Distance with Unit Conversion"
     difficulty: "medium"
     learning_objective: "4.1.3"
-    real_world_analogy: "Imagine using a physical map of Sarawak. You can't fit the whole $150 \text{ km}$ road on your lap, so we 'squash' it down into a few centimeters using a scale."
-    misconception_alert: "The 'Naked Number' Trap! Students often forget to convert units at the end. Always check if the question asks for the answer in $\text{cm}$, $\text{m}$, or $\text{km}$."
-    scenario: "On a map of Sarawak, the distance between Bintulu and Miri is $4 \text{ cm}$. The map uses a scale of $1 \text{ cm} : 50 \text{ km}$. Calculate the actual distance between the two towns in $\text{km}$."
+    real_world_analogy: "Imagine using a physical map of Sarawak. You can't fit the whole $150 \\text{ km}$ road on your lap, so we 'squash' it down into a few centimeters using a scale."
+    misconception_alert: "The 'Naked Number' Trap! Students often forget to convert units at the end. Always check if the question asks for the answer in $\\text{cm}$, $\\text{m}$, or $\\text{km}$."
+    scenario: "On a map of Sarawak, the distance between Bintulu and Miri is $4 \\text{ cm}$. The map uses a scale of $1 \\text{ cm} : 50 \\text{ km}$. Calculate the actual distance between the two towns in $\\text{km}$."
     working: |
       1. Write down the given scale: $1 \text{ cm}$ represents $50 \text{ km}$.
       2. Identify the distance on the drawing: $4 \text{ cm}$.
@@ -34,8 +36,8 @@ worked_examples:
     difficulty: "medium"
     learning_objective: "4.1.3"
     real_world_analogy: "Like finding the 'Zoom Level' on a camera. We compare the size of the bird in your photo to the size of the real bird to find out how much we zoomed out."
-    misconception_alert: "The 'Unit Mismatch' Trap! You cannot compare $2 \text{ cm}$ to $5 \text{ m}$ directly. You must 'dress' them in the same units (both $\text{cm}$) before calculating the ratio."
-    scenario: "A model of a flagpole is $15 \text{ cm}$ tall. The actual flagpole is $6 \text{ m}$ tall. Determine the scale used in the form $1 : n$."
+    misconception_alert: "The 'Unit Mismatch' Trap! You cannot compare $2 \\text{ cm}$ to $5 \\text{ m}$ directly. You must 'dress' them in the same units (both $\\text{cm}$) before calculating the ratio."
+    scenario: "A model of a flagpole is $15 \\text{ cm}$ tall. The actual flagpole is $6 \\text{ m}$ tall. Determine the scale used in the form $1 : n$."
     working: |
       1. Convert the actual height to the same unit as the model: $6 \text{ m} \times 100 = 600 \text{ cm}$.
       2. Write the ratio as $\text{Model} : \text{Actual}$: $15 : 600$.
@@ -48,8 +50,8 @@ worked_examples:
     difficulty: "hard"
     learning_objective: "4.1.5"
     real_world_analogy: "This is like being a flight dispatcher! You use a map to find the distance, then use the plane's speed to tell the passengers when they will land."
-    misconception_alert: "The 'Decimal Time' Trap! If the calculation gives $2.5 \text{ hours}$, many students think it is '2 hours 5 minutes'. Remind them $0.5 \text{ hours} = 30 \text{ minutes}$!"
-    scenario: "The distance between two cities on a map is $5.4 \text{ cm}$ with a scale of $1 \text{ cm} : 150 \text{ km}$. An airplane flies between these cities at a speed of $810 \text{ km/h}$. Calculate the time taken for the flight in minutes."
+    misconception_alert: "The 'Decimal Time' Trap! If the calculation gives $2.5 \\text{ hours}$, many students think it is '2 hours 5 minutes'. Remind them $0.5 \\text{ hours} = 30 \\text{ minutes}$!"
+    scenario: "The distance between two cities on a map is $5.4 \\text{ cm}$ with a scale of $1 \\text{ cm} : 150 \\text{ km}$. An airplane flies between these cities at a speed of $810 \\text{ km/h}$. Calculate the time taken for the flight in minutes."
     working: |
       1. Step 1: Find the actual distance. $5.4 \text{ cm} \times 150 \text{ km/cm} = 810 \text{ km}$.
       2. Step 2: Use the speed formula: $\text{Time} = \frac{\text{Distance}}{\text{Speed}}$.

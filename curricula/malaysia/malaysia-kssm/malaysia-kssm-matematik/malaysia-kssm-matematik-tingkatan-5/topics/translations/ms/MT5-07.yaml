@@ -57,10 +57,13 @@ performance_standards:
     descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang sukatan serakan bagi data terkumpul dalam konteks penyelesaian masalah bukan rutin secara kreatif."
 
 prerequisites:
-  required:
-    - "Sukatan Serakan bagi Data Tak Terkumpul (Tingkatan 4 Bab 8)"
-    - "Sukatan Memusat (Tingkatan 2 Bab 12)"
-    - "Pembinaan Jadual Kekerapan"
+  required: []
+  recommended: []
+
+background_knowledge:
+  - "Sukatan Serakan bagi Data Tak Terkumpul (Tingkatan 4 Bab 8)"
+  - "Sukatan Memusat (Tingkatan 2 Bab 12)"
+  - "Pembinaan Jadual Kekerapan"
 
 teaching:
   sequence:

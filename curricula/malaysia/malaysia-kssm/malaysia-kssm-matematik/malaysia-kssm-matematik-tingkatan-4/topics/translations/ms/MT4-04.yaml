@@ -1,7 +1,8 @@
 id: MT4-04
 official_ref: "4.0"
 name: "OPERASI SET"
-subject_id: malaysia-kssm-matematik-tingkatan-4
+subject_grade_id: malaysia-kssm-matematik-tingkatan-4
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
 language: ms
@@ -75,7 +76,7 @@ examples_file: "MT4-04.examples.yaml"
 quality_level: 3
 provenance: "official-dskp-aligned"
 
-teaching_metadata:
+teaching:
   sequence:
     - "Langkah 1: Perkenalkan persilangan set menggunakan gambar rajah Venn dan unsur sepunya (20 min)"
     - "Langkah 2: Teroka kesatuan set dan konsep menggabungkan semua unsur (20 min)"

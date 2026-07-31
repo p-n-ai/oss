@@ -38,9 +38,9 @@ worked_examples:
     topic: "Converting to Standard Form"
     learning_objective: "2.2.1"
     difficulty: easy
-    real_world_analogy: "Standard form is like a 'scientific shortcut.' Instead of writing $0.000\ 000\ 001$ (which is a headache!), we use the index to tell us how many 'decimal jumps' to take."
+    real_world_analogy: "Standard form is like a 'scientific shortcut.' Instead of writing $0.000\\ 000\\ 001$ (which is a headache!), we use the index to tell us how many 'decimal jumps' to take."
     misconception_alert: "Students often forget the sign of the index. Big numbers (trillions) have positive indices. Tiny decimals (nanometres) have negative indices (Page 37)."
-    scenario: "A nanometre is $0.000\ 000\ 001$ metre. Express this in standard form ($A \times 10^n$)."
+    scenario: "A nanometre is $0.000\\ 000\\ 001$ metre. Express this in standard form ($A \\times 10^n$)."
     working: |
       1. Identify the first non-zero digit to find $A$: It is '1'. $A = 1.0$.
       2. Count the 'jumps' from the original decimal to get behind the '1'.
@@ -55,7 +55,7 @@ worked_examples:
     difficulty: medium
     real_world_analogy: "Adding numbers in standard form with different indices is like adding 'Apples and Oranges.' You must convert them to the same index (same fruit) before you can combine them!"
     misconception_alert: "Students often add the indices during addition (e.g., $10^4 + 10^3 = 10^7$). No! You must align the powers and then factorize (Page 40)."
-    scenario: "Calculate $(3.5 \times 10^4) + (2.1 \times 10^3)$ and state the answer in standard form."
+    scenario: "Calculate $(3.5 \\times 10^4) + (2.1 \\times 10^3)$ and state the answer in standard form."
     working: |
       1. Identify the indices: $10^4$ and $10^3$. They are different.
       2. Method: Convert the smaller index ($10^3$) to the larger index ($10^4$).
@@ -71,7 +71,7 @@ worked_examples:
     difficulty: hard
     real_world_analogy: "The 'Stacking Challenge.' If you know the height of one LEGO brick, you can find the height of a tower. Here, we do the same with reams of paper to solve a storage problem (Page 43)."
     misconception_alert: "Students often mix up the units or lose track of the total height. Use the 4-step problem solving cycle: Understand, Plan, Implement, and Verify."
-    scenario: "A ream of paper has 800 sheets. One sheet is $9.4 \times 10^{-3}$ cm thick. If a stack of $n$ reams is $225.6$ cm high, find $n$."
+    scenario: "A ream of paper has 800 sheets. One sheet is $9.4 \\times 10^{-3}$ cm thick. If a stack of $n$ reams is $225.6$ cm high, find $n$."
     working: |
       1. Step 1 (Understand): We need $n$, given sheets per ream (800), thickness per sheet ($9.4 \times 10^{-3}$), and total height (225.6).
       2. Step 2 (Plan): Find thickness of 1 ream, then divide total height by that thickness.

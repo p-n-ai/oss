@@ -1,7 +1,8 @@
 id: MT4-09
 official_ref: "9.0"
 name: "Probability of Combined Events"
-subject_id: malaysia-kssm-mathematics-form-4
+subject_grade_id: malaysia-kssm-matematik-tingkatan-4
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
 language: en
@@ -64,11 +65,11 @@ teaching:
     - "Step 4: Distinguish between mutually exclusive and non-mutually exclusive events using Venn diagrams (25 min)"
     - "Step 5: Apply the addition rule: P(A or B) = P(A) + P(B) - P(A and B) (30 min)"
     - "Step 6: Solve complex routine and non-routine problems using tree diagrams and sets (30 min)"
-common_misconceptions:
-  - misconception: "Assuming all combined events are independent."
-    remediation: "Highlight how 'without replacement' changes the total sample size and subsequent probabilities."
-  - misconception: "Failing to subtract the intersection P(A and B) for non-mutually exclusive events."
-    remediation: "Use Venn diagrams to show that the overlapping area is counted twice if not subtracted."
+  common_misconceptions:
+    - misconception: "Assuming all combined events are independent."
+      remediation: "Highlight how 'without replacement' changes the total sample size and subsequent probabilities."
+    - misconception: "Failing to subtract the intersection P(A and B) for non-mutually exclusive events."
+      remediation: "Use Venn diagrams to show that the overlapping area is counted twice if not subtracted."
 engagement_hooks:
   - "Use local insurance premium concepts to explain how probability affects risk management."
   - "Simulate a 'Rock-Paper-Scissors' tournament to list outcomes and calculate win probabilities."

@@ -18,9 +18,9 @@ questions:
         - value: "8"
           feedback: "Anda hanya mengira setiap tepi sekali. Ingat, setiap tepi menghubungkan dua bucu, maka ia menyumbang 2 kepada jumlah darjah."
         - value: "4"
-          feedback: "Anda membahagi bilangan tepi dengan 2. Formula yang betul ialah $2 \times E$, bukan $E/2$."
+          feedback: "Anda membahagi bilangan tepi dengan 2. Formula yang betul ialah $2 \\times E$, bukan $E/2$."
         - value: "10"
-          feedback: "Nampaknya anda menambah 2 kepada bilangan tepi. Gunakan formula pendaraban $\sum d(v) = 2E$."
+          feedback: "Nampaknya anda menambah 2 kepada bilangan tepi. Gunakan formula pendaraban $\\sum d(v) = 2E$."
     hints:
       - level: 1
         text: "Rujuk formula jumlah darjah dalam buku teks muka surat 131."
@@ -65,7 +65,9 @@ questions:
         text: "Sebuah pokok ialah graf mudah di mana semua bucu dihubungkan tanpa gelung atau kitaran. Berapa banyak garisan yang anda perlukan untuk menyambung 6 titik tanpa membentuk bulatan?"
 
   - id: Q4
-    text: "Wakilkan hubungan sosial berikut sebagai satu rangkaian: Edmund bermain Badminton dan Catur. Azwan bermain Bola Sepak dan Sepak Takraw. Rajan bermain Catur dan Bola Sepak. Gunakan jenis permainan sebagai bucu."
+    text: >-
+      Wakilkan hubungan sosial berikut sebagai satu rangkaian: Edmund bermain Badminton dan Catur. Azwan bermain Bola
+      Sepak dan Sepak Takraw. Rajan bermain Catur dan Bola Sepak. Gunakan jenis permainan sebagai bucu.
     difficulty: medium
     learning_objective: "5.1.4"
     tp_level: 4

@@ -9,6 +9,7 @@ questions:
     kbat: false
     type: multiple_choice
     answer:
+      type: multiple_choice
       value: "461"
       working: |
         Step 1: Identify the base ($n=6$).
@@ -27,7 +28,7 @@ questions:
         text: "In any base $n$, can a digit be equal to or larger than $n$? Check the digits in each option carefully!"
 
   - id: Q2
-    text: "State the place value of the underlined digit in $5\underline{0}37_9$."
+    text: "State the place value of the underlined digit in $5\\underline{0}37_9$."
     difficulty: medium
     learning_objective: "2.1.1"
     tp_level: 2
@@ -101,7 +102,7 @@ questions:
       - marks: 1
         criteria: "Correct addition and carry-over for the first column."
       - marks: 2
-        criteria: "Correct conversion of sums $\ge 8$ into Base 8 values."
+        criteria: "Correct conversion of sums $\\ge 8$ into Base 8 values."
       - marks: 1
         criteria: "Final sum is correct."
     hints:
@@ -139,7 +140,10 @@ questions:
         text: "First, find out exactly how many students there are in our usual Base 10. Once you have that 'real' number, then start the conversion to Base 4."
 
   - id: Q6
-    text: "The average number of visitors to Zoo Negara per day in January is $20202_5$. If there are 31 days in January, calculate the total number of visitors for the month in Base 10. Then, suggest how this value would be represented in Base 8 for a computer log system."
+    text: >-
+      The average number of visitors to Zoo Negara per day in January is $20202_5$. If there are 31 days in January,
+      calculate the total number of visitors for the month in Base 10. Then, suggest how this value would be
+      represented in Base 8 for a computer log system.
     difficulty: hard
     learning_objective: "2.1.4"
     tp_level: 6
@@ -169,4 +173,4 @@ questions:
         criteria: "Complete and correct conversion of the final total to Base 8."
     hints:
       - level: 1
-        text: "This is a big one! Break it down: Average (Base 5) $\rightarrow$ Average (Base 10) $\rightarrow$ Total (Base 10) $\rightarrow$ Computer Log (Base 8)."
+        text: "This is a big one! Break it down: Average (Base 5) $\\rightarrow$ Average (Base 10) $\\rightarrow$ Total (Base 10) $\\rightarrow$ Computer Log (Base 8)."

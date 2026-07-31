@@ -25,7 +25,8 @@ questions:
           feedback: "Ini hanyalah satu transaksi perbelanjaan, bukan aktiviti pelaburan."
     marks: 1
     hints:
-      - "Pelaburan ialah aset yang kita beli dengan harapan ia akan memberi kita lebih banyak wang pada masa hadapan, seperti dividen atau sewa."
+      - level: 1
+        text: "Pelaburan ialah aset yang kita beli dengan harapan ia akan memberi kita lebih banyak wang pada masa hadapan, seperti dividen atau sewa."
 
   - id: "Q2"
     text: "Hitung nilai matang ($MV$) bagi deposit RM10,000 dalam akaun simpanan tetap selama 2 tahun dengan kadar faedah 4% setahun dikompaun setiap 6 bulan."
@@ -54,8 +55,10 @@ questions:
       - marks: 1
         criteria: "Jawapan akhir dibundarkan kepada 2 tempat perpuluhan."
     hints:
-      - "Apakah maksud 'dikompaun setiap 6 bulan'? Berapa kali dalam setahun bank akan semak duit awak? Itulah nilai '$n$'."
-      - "Formula: $MV = P(1 + r/n)^{nt}$. Ingat untuk tukar 4% kepada 0.04 bagi kadar '$r$'."
+      - level: 1
+        text: "Apakah maksud 'dikompaun setiap 6 bulan'? Berapa kali dalam setahun bank akan semak duit awak? Itulah nilai '$n$'."
+      - level: 2
+        text: "Formula: $MV = P(1 + r/n)^{nt}$. Ingat untuk tukar 4% kepada 0.04 bagi kadar '$r$'."
 
   - id: "Q3"
     text: "Encik Yusuf membeli sebuah lot kedai dengan harga RM600,000. Beliau menerima RM45,000 hasil sewa selama setahun dan akhirnya menjual lot kedai tersebut dengan harga RM720,000. Hitung jumlah **Pulangan Pelaburan (ROI)** beliau."
@@ -80,8 +83,10 @@ questions:
       - marks: 1
         criteria: "Peratusan akhir yang betul (27.5%)."
     hints:
-      - "Jumlah pulangan bukan sekadar untung jual kedai; jangan lupa duit sewa yang beliau kutip!"
-      - "$ROI = (\text{Jumlah Untung} / \text{Kos Asal}) \times 100$."
+      - level: 1
+        text: "Jumlah pulangan bukan sekadar untung jual kedai; jangan lupa duit sewa yang beliau kutip!"
+      - level: 2
+        text: "$ROI = (\\text{Jumlah Untung} / \\text{Kos Asal}) \\times 100$."
 
   - id: "Q4"
     text: "Padankan aset berikut dengan tahap kecairan (liquidity) mereka."
@@ -120,7 +125,8 @@ questions:
       - marks: 1
         criteria: "Kesimpulan bahawa kos purata seunit dapat dikurangkan."
     hints:
-      - "Fikirkan: Jika awak belanja RM100 setiap bulan untuk saham, adakah awak dapat LEBIH atau KURANG saham bila harganya jatuh ke RM0.50?"
+      - level: 1
+        text: "Fikirkan: Jika awak belanja RM100 setiap bulan untuk saham, adakah awak dapat LEBIH atau KURANG saham bila harganya jatuh ke RM0.50?"
 
   - id: "Q6"
     text: "Encik Lee menyimpan RM5,000 selama 3 tahun dengan faedah mudah 3.5% setahun. Pada tahun ke-4, beliau memindahkan keseluruhan jumlah itu ke akaun faedah kompaun dengan kadar 4% dikompaun setahun sekali. Hitung jumlah simpanannya pada akhir tahun ke-4."
@@ -147,8 +153,10 @@ questions:
       - marks: 2
         criteria: "Nilai matang akhir dikira dengan tepat."
     hints:
-      - "Ini misi dua bahagian! Mula-mula, cari jumlah selepas 3 tahun guna $I = Prt$."
-      - "Sekarang, ambil jumlah keseluruhan itu dan jadikan ia 'Prinsipal Baharu' untuk pengiraan kompaun tahun ke-4."
+      - level: 1
+        text: "Ini misi dua bahagian! Mula-mula, cari jumlah selepas 3 tahun guna $I = Prt$."
+      - level: 2
+        text: "Sekarang, ambil jumlah keseluruhan itu dan jadikan ia 'Prinsipal Baharu' untuk pengiraan kompaun tahun ke-4."
 
   # --- Sub-bab 3.2: Pengurusan Kredit dan Hutang ---
 
@@ -164,7 +172,8 @@ questions:
       working: "Kredit = Kemudahan 'pinjam sekarang, bayar kemudian' yang disediakan oleh bank/institusi kewangan."
     marks: 1
     hints:
-      - "Adakah kredit itu wang yang awak SUDAH ada, atau wang yang bank benarkan awak guna dulu?"
+      - level: 1
+        text: "Adakah kredit itu wang yang awak SUDAH ada, atau wang yang bank benarkan awak guna dulu?"
 
   - id: "Q8"
     text: "Tentukan sama ada pernyataan berikut adalah BENAR atau PALSU: 'Membayar jumlah minimum pada penyata kad kredit anda akan menghentikan anda daripada dikenakan faedah ke atas baki yang tinggal.'"
@@ -201,7 +210,8 @@ questions:
       - marks: 2
         criteria: "Menambah faedah kepada prinsipal untuk mendapatkan jumlah akhir."
     hints:
-      - "Faedah tetap adalah faedah mudah. Guna $I = Prt$ dan kemudian tambahkan semula kepada RM20,000 asal."
+      - level: 1
+        text: "Faedah tetap adalah faedah mudah. Guna $I = Prt$ dan kemudian tambahkan semula kepada RM20,000 asal."
 
   - id: "Q10"
     text: "Aminah mempunyai baki kad kredit sebanyak RM3,000. Beliau terlepas bayaran untuk bulan Oktober. Bank mengenakan kadar faedah tahunan 15% ke atas baki harian dan caj bayaran lewat RM10. Hitung jumlah baki dalam akaunnya pada 1 November (31 hari kemudian)."
@@ -225,8 +235,10 @@ questions:
       - marks: 1
         criteria: "Jumlah baki akhir yang betul."
     hints:
-      - "Aduhai! Terlepas bayaran akan kena caj dua kali. Pertama, bank caj faedah untuk sebulan. Kedua, mereka kenakan denda lewat."
-      - "Kira faedah: Baki $\times$ (Kadar / 365) $\times$ Bilangan Hari."
+      - level: 1
+        text: "Aduhai! Terlepas bayaran akan kena caj dua kali. Pertama, bank caj faedah untuk sebulan. Kedua, mereka kenakan denda lewat."
+      - level: 2
+        text: "Kira faedah: Baki $\\times$ (Kadar / 365) $\\times$ Bilangan Hari."
 
   - id: "Q11"
     text: "Sebuah bank menawarkan pinjaman perumahan RM500,000. Opsyen X: faedah 3.5% selama 30 tahun. Opsyen Y: faedah 4.0% selama 20 tahun. Opsyen manakah yang patut dipilih oleh peminjam jika matlamat mereka adalah untuk meminimumkan **Jumlah Faedah yang Dibayar**?"
@@ -246,7 +258,8 @@ questions:
           feedback: "Walaupun 3.5% lebih rendah daripada 4.0%, tempoh yang jauh lebih lama (30 tahun) menyebabkan jumlah faedah yang dibayar menjadi jauh lebih tinggi!"
     marks: 2
     hints:
-      - "Tips: Kadangkala peratusan yang rendah untuk tempoh yang lama sebenarnya akan memakan lebih banyak kos. Kira jumlah faedah untuk kedua-duanya!"
+      - level: 1
+        text: "Tips: Kadangkala peratusan yang rendah untuk tempoh yang lama sebenarnya akan memakan lebih banyak kos. Kira jumlah faedah untuk kedua-duanya!"
 
   - id: "Q12"
     text: "Nyatakan dua cara seorang pengguna boleh menggunakan kad kredit secara bijaksana untuk mengelakkan pengumpulan hutang yang tinggi."

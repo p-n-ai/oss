@@ -8,7 +8,7 @@ worked_examples:
     difficulty: easy
     tp_level: 3
     kbat: false
-    learning_objective: "8.1.2 Menyelesaikan masalah kehidupan sebenar melalui pemodelan matematik yang melibatkan fungsi: Linear"
+    learning_objective: "8.1.2"
     real_world_analogy: "Bayangkan tangki petrol kereta seperti bateri telefon bimbit; semakin jauh anda menggunakannya (jarak), semakin banyak 'cas' (petrol) yang berkurangan pada kadar yang tetap."
     misconception_alert: "Murid sering lupa untuk mencari nilai pemalar 'k' terlebih dahulu sebelum menyelesaikan masalah bagi jarak yang baharu."
     scenario: "Amin menggunakan 45 liter petrol untuk bergerak sejauh 405 km. Modelkan situasi ini sebagai fungsi linear $y = kx$ dan tentukan jumlah petrol yang diperlukan untuk perjalanan sejauh 198 km."
@@ -32,7 +32,7 @@ worked_examples:
     difficulty: medium
     tp_level: 4
     kbat: true
-    learning_objective: "8.1.2 Menyelesaikan masalah kehidupan sebenar melalui pemodelan matematik yang melibatkan fungsi: Linear"
+    learning_objective: "8.1.2"
     real_world_analogy: "Fikirkan ini seperti pesanan 'GrabFood'. Adakah diskaun makanan (beras) lebih besar daripada caj penghantaran (petrol)? Jika tidak, lebih baik beli di kedai berdekatan."
     misconception_alert: "Perangkap 'Satu Hala'. Murid sering mengira kos petrol untuk jarak ke kedai sahaja tetapi terlupa perjalanan balik ke rumah."
     scenario: "Pasar Raya A (2km jauh) menjual beras 10kg pada harga RM25.95. Pasar Raya B (6km jauh) menjualnya pada harga RM23.99. Kos petrol ialah RM2.08/liter dan kadar kereta ialah 17.6km/liter. Adakah berbaloi memandu ke Pasar Raya B untuk 2 kampit beras?"
@@ -56,7 +56,7 @@ worked_examples:
     difficulty: hard
     tp_level: 5
     kbat: true
-    learning_objective: "8.1.2 Menyelesaikan masalah kehidupan sebenar melalui pemodelan matematik yang melibatkan fungsi: Kuadratik"
+    learning_objective: "8.1.2"
     real_world_analogy: "Bayangkan dasar sungai seperti papan lungsur 'U-shape'. Semakin jauh anda bergerak dari tebing, semakin dalam kedalamannya sehingga sampai ke tengah sungai."
     misconception_alert: "Pemikiran linear dalam ruang melengkung. Murid mungkin menganggap kedalaman bertambah secara malar, mengabaikan bentuk parabola dasar sungai."
     scenario: "Seorang ahli hidrologi mengukur kedalaman sungai, $y$, pada jarak $x$ dari tebing. Menggunakan titik data (0,0), (25, 1.7), dan (30, 0), cari fungsi kuadratik $y = ax^2 + bx + c$ untuk memodelkan kedalaman tersebut."

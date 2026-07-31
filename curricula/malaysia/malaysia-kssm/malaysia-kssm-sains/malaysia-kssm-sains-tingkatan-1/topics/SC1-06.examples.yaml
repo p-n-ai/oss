@@ -7,7 +7,7 @@ worked_examples:
     difficulty: easy
     tp_level: 1
     kbat: false
-    learning_objective: "6.1.1: Merumuskan semua jirim terdiri daripada atom."
+    learning_objective: "6.1.1"
     real_world_analogy: "Think of atoms as the individual Lego blocks used to build a larger structure."
     misconception_alert: "Students often confuse atoms with molecules, thinking they are the same."
     scenario: "Explain how all matter is made up of atoms."
@@ -21,7 +21,7 @@ worked_examples:
     difficulty: medium
     tp_level: 2
     kbat: false
-    learning_objective: "6.1.3: Mengenal pasti kedudukan logam, bukan logam dan gas nadir dalam jadual berkala."
+    learning_objective: "6.1.3"
     real_world_analogy: "Imagine the periodic table as a city map where different groups of elements live in different neighborhoods."
     misconception_alert: "Confusing the location of non-metals and noble gases in the periodic table."
     scenario: "Identify where metals, non-metals, and noble gases are located in the periodic table."
@@ -35,7 +35,7 @@ worked_examples:
     difficulty: hard
     tp_level: 5
     kbat: true
-    learning_objective: "6.3.5: Membezakan perubahan kimia dan perubahan fizik."
+    learning_objective: "6.3.5"
     real_world_analogy: "Consider baking a cake (chemical change) versus melting ice (physical change)."
     misconception_alert: "Mistaking a physical change for a chemical change because both can involve a change in state."
     scenario: "Discuss whether the rusting of iron and the melting of ice are chemical or physical changes."

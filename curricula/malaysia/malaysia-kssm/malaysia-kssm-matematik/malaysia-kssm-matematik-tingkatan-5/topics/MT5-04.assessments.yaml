@@ -5,7 +5,7 @@ questions:
   # --- Subchapter 4.1.1: Purpose of Taxation ---
   - id: Q1
     type: "opb" # True/False
-    text: "Determine whether the following statement is True or False: 'One of the purposes of taxation is as a government policy implementation tool to encourage a caring society through tax relief for parents\' medical expenses.'"
+    text: "Determine whether the following statement is True or False: 'One of the purposes of taxation is as a government policy implementation tool to encourage a caring society through tax relief for parents' medical expenses.'"
     difficulty: "easy"
     learning_objective: "4.1.1"
     tp_level: 1
@@ -33,6 +33,11 @@ questions:
     answer:
       type: "multiple_choice"
       value: "a"
+      options:
+        a: "Property Assessment Tax"
+        b: "Quit Rent"
+        c: "Service Tax"
+        d: "Income Tax"
       working: |
         Step 1: Identify the collecting authority (MPSJ = Local Authority).
         Step 2: Identify the purpose (Municipal services/rubbish collection).
@@ -44,11 +49,6 @@ questions:
           feedback: "Incorrect. Service Tax is charged on services like hotels or telecommunications, not on property ownership."
         - value: "d"
           feedback: "Incorrect. Income tax is paid to LHDN based on earnings, not to a municipal council based on house ownership."
-    options:
-      a: "Property Assessment Tax"
-      b: "Quit Rent"
-      c: "Service Tax"
-      d: "Income Tax"
     marks: 1
     hints:
       - level: 1

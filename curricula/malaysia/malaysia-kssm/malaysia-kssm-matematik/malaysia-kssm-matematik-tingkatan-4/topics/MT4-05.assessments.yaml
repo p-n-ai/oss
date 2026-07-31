@@ -19,9 +19,9 @@ questions:
         - value: "8"
           feedback: "You only counted each edge once. Remember, each edge connects two vertices, so it contributes 2 to the total sum of degrees."
         - value: "4"
-          feedback: "You divided the number of edges by 2. The formula is $2 \times E$, not $E/2$."
+          feedback: "You divided the number of edges by 2. The formula is $2 \\times E$, not $E/2$."
         - value: "10"
-          feedback: "It seems you added 2 to the number of edges. Use the multiplication formula $\sum d(v) = 2E$."
+          feedback: "It seems you added 2 to the number of edges. Use the multiplication formula $\\sum d(v) = 2E$."
     hints:
       - level: 1
         text: "Check the relationship between the number of edges and the sum of degrees in your textbook on page 131."
@@ -69,7 +69,9 @@ questions:
 
   # 5.1.4 - Represent information in the form of networks
   - id: Q4
-    text: "Represent the following social connection as a network: Edmund plays Badminton and Chess. Azwan plays Football and Sepak Takraw. Rajan plays Chess and Football. Use types of games as vertices."
+    text: >-
+      Represent the following social connection as a network: Edmund plays Badminton and Chess. Azwan plays Football
+      and Sepak Takraw. Rajan plays Chess and Football. Use types of games as vertices.
     difficulty: medium
     learning_objective: "5.1.4"
     tp_level: 4

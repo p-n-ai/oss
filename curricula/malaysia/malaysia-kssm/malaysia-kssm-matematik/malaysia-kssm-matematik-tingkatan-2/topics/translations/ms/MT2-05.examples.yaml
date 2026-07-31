@@ -61,9 +61,9 @@ worked_examples:
   - id: WE-04
     topic: "Aplikasi luas dan lilitan (5.3.4)"
     difficulty: hard
-    real_world_analogy: "Pinggan Mamak: bahagian berkuah ialah luas ($\pi r^2$), manakala tepi pinggan ialah lilitan ($2\pi r$)."
+    real_world_analogy: "Pinggan Mamak: bahagian berkuah ialah luas ($\\pi r^2$), manakala tepi pinggan ialah lilitan ($2\\pi r$)."
     misconception_alert: "Pelajar sering lupa unit. Pastikan semua unit ditukar sebelum kuasa dua radius digunakan."
-    scenario: "Sebuah meja bulat mempunyai lilitan 132 cm. Cari luas meja tersebut. (Guna $\pi = \frac{22}{7}$)"
+    scenario: "Sebuah meja bulat mempunyai lilitan 132 cm. Cari luas meja tersebut. (Guna $\\pi = \\frac{22}{7}$)"
     working: |
       1. Guna formula lilitan:
          $C = 2\pi r$

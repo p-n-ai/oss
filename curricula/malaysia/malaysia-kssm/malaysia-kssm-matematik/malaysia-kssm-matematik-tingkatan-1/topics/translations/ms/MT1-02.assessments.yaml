@@ -115,7 +115,7 @@ questions:
     tp_level: 5
     kbat: true
     answer:
-      type: "multiple_choice"
+      type: "free_text"
       value: "36"
       working: |
         Cari Gandaan Sepunya Terkecil (GSTK) bagi $9$ dan $12$:

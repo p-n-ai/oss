@@ -22,8 +22,10 @@ questions:
           feedback: "If the angle is inclined, it is not 'orthogonal'. The projection must be perpendicular (normal) to the plane."
     marks: 1
     hints:
-      - "Think about the word 'Orthogonal'. What angle does it imply?"
-      - "Check page 171 of your textbook. Look for the relationship between the projected line and the plane."
+      - level: 1
+        text: "Think about the word 'Orthogonal'. What angle does it imply?"
+      - level: 2
+        text: "Check page 171 of your textbook. Look for the relationship between the projected line and the plane."
 
   - id: Q2
     text: "State whether the following statement is TRUE or FALSE: 'The length of the projected side in an orthogonal projection is always equal to or shorter than the actual length of the side of the object.'"
@@ -40,8 +42,10 @@ questions:
       distractors: []
     marks: 1
     hints:
-      - "Imagine a pencil held parallel to the floor vs. held at an angle. Which shadow is longer?"
-      - "Look at the 'Results of findings' table on page 180 regarding side lengths."
+      - level: 1
+        text: "Imagine a pencil held parallel to the floor vs. held at an angle. Which shadow is longer?"
+      - level: 2
+        text: "Look at the 'Results of findings' table on page 180 regarding side lengths."
 
   - id: Q3
     text: "A cylinder with a diameter of $4\\text{ cm}$ and height of $6\\text{ cm}$ is placed on a horizontal plane. Draw the orthogonal projection as viewed from the side (vertical plane)."
@@ -65,8 +69,10 @@ questions:
       - marks: 3
         criteria: "All solid lines drawn neatly (no hidden edges for this view)."
     hints:
-      - "If you look at a tin of beans directly from the side, do you see a circle or a flat rectangle?"
-      - "Check Example 5(b) on page 176 for the exact visual reference."
+      - level: 1
+        text: "If you look at a tin of beans directly from the side, do you see a circle or a flat rectangle?"
+      - level: 2
+        text: "Check Example 5(b) on page 176 for the exact visual reference."
 
   # --- Subchapter 7.2: Plans and Elevations ---
   - id: Q4
@@ -88,8 +94,10 @@ questions:
           feedback: "Thick solid lines are only for edges that you can actually see from that direction."
     marks: 1
     hints:
-      - "Think about the 'X-ray' rule mentioned in your teaching notes. How do we draw what's hidden?"
-      - "Look at the 'TIPS' box on page 184."
+      - level: 1
+        text: "Think about the 'X-ray' rule mentioned in your teaching notes. How do we draw what's hidden?"
+      - level: 2
+        text: "Look at the 'TIPS' box on page 184."
 
   - id: Q5
     text: "Sketch the three-dimensional object synthesized from a Plan (square), a Front Elevation (triangle), and a Side Elevation (triangle)."
@@ -111,8 +119,10 @@ questions:
       - marks: 4
         criteria: "Sketch clearly shows the 3D perspective with dashed lines for hidden back edges."
     hints:
-      - "If the bottom is a square but the front and side views look like the Great Pyramid of Giza, what is it?"
-      - "Refer to page 188, Example 10 for how to connect vertices to create the solid."
+      - level: 1
+        text: "If the bottom is a square but the front and side views look like the Great Pyramid of Giza, what is it?"
+      - level: 2
+        text: "Refer to page 188, Example 10 for how to connect vertices to create the solid."
 
   - id: Q6
     text: "A project requires building a study hut in an area of $5\\text{ m} \\times 5\\text{ m}$. If the cost of building materials is $\\text{RM } 2.50$ per $1\\text{ cm}^3$ of a scale model, calculate the total cost for a model prism with a base area of $20\\text{ cm}^2$ and height of $10\\text{ cm}$."
@@ -134,6 +144,9 @@ questions:
       - marks: 3
         criteria: "Correct final cost calculation with RM unit."
     hints:
-      - "First, find the total space (volume) the model takes up in $\\text{cm}^3$."
-      - "Now, if each 'cube' of $\\text{cm}^3$ costs RM 2.50, how much for 200 of them?"
-      - "This relates to the STEM project on page 195 and the problem solving in Example 11."
+      - level: 1
+        text: "First, find the total space (volume) the model takes up in $\\text{cm}^3$."
+      - level: 2
+        text: "Now, if each 'cube' of $\\text{cm}^3$ costs RM 2.50, how much for 200 of them?"
+      - level: 3
+        text: "This relates to the STEM project on page 195 and the problem solving in Example 11."

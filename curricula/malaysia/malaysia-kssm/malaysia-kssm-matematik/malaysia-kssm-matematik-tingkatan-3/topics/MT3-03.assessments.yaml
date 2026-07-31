@@ -25,7 +25,8 @@ questions:
           feedback: "This is just a transaction, not an investment activity."
     marks: 1
     hints:
-      - "Investments are assets you buy because you hope they will give you more money in the future, like dividends or rent."
+      - level: 1
+        text: "Investments are assets you buy because you hope they will give you more money in the future, like dividends or rent."
 
   - id: "Q2"
     text: "Calculate the matured value ($MV$) of a RM10,000 deposit in a fixed deposit account for 2 years with an interest rate of 4% per annum compounded every 6 months."
@@ -54,8 +55,10 @@ questions:
       - marks: 1
         criteria: "Final answer rounded correctly to 2 decimal places."
     hints:
-      - "What does 'compounded every 6 months' mean? How many times in 1 year does the bank check your money? That's your '$n$'."
-      - "Formula: $MV = P(1 + r/n)^{nt}$. Remember to convert 4% to 0.04 for the rate '$r$'."
+      - level: 1
+        text: "What does 'compounded every 6 months' mean? How many times in 1 year does the bank check your money? That's your '$n$'."
+      - level: 2
+        text: "Formula: $MV = P(1 + r/n)^{nt}$. Remember to convert 4% to 0.04 for the rate '$r$'."
 
   - id: "Q3"
     text: "Encik Yusuf bought a shoplot for RM600,000. He received RM45,000 in rental income over one year and eventually sold the shoplot for RM720,000. Calculate his total **Return on Investment (ROI)**."
@@ -80,8 +83,10 @@ questions:
       - marks: 1
         criteria: "Final percentage correct (27.5%)."
     hints:
-      - "Total return isn't just the profit from selling; don't forget the rent he collected!"
-      - "$ROI = (\text{Total Profit} / \text{Original Cost}) \times 100$."
+      - level: 1
+        text: "Total return isn't just the profit from selling; don't forget the rent he collected!"
+      - level: 2
+        text: "$ROI = (\\text{Total Profit} / \\text{Original Cost}) \\times 100$."
 
   - id: "Q4"
     text: "Match the following assets to their liquidity level (Kecairan)."
@@ -120,7 +125,8 @@ questions:
       - marks: 1
         criteria: "Conclusion that average cost per unit is reduced."
     hints:
-      - "Think about it: If you spend RM100 every month on shares, do you get MORE or LESS shares when the price drops to RM0.50?"
+      - level: 1
+        text: "Think about it: If you spend RM100 every month on shares, do you get MORE or LESS shares when the price drops to RM0.50?"
 
   - id: "Q6"
     text: "Encik Lee saves RM5,000 for 3 years at 3.5% simple interest. In the 4th year, he moves the whole amount to a compound interest account at 4% compounded annually. Calculate his total savings at the end of the 4th year."
@@ -147,8 +153,10 @@ questions:
       - marks: 2
         criteria: "Final matured value calculated accurately."
     hints:
-      - "This is a two-part mission! First, find the total after 3 years using $I = Prt$."
-      - "Now, take that whole total and use it as the 'New Principal' for the 4th year's compound calculation."
+      - level: 1
+        text: "This is a two-part mission! First, find the total after 3 years using $I = Prt$."
+      - level: 2
+        text: "Now, take that whole total and use it as the 'New Principal' for the 4th year's compound calculation."
 
   # --- Subchapter 3.2: Credit and Debt Management ---
 
@@ -164,7 +172,8 @@ questions:
       working: "Credit = 'Borrow now, pay later' facility provided by banks/financial institutions."
     marks: 1
     hints:
-      - "Is credit the money you ALREADY have, or money the bank allows you to use first?"
+      - level: 1
+        text: "Is credit the money you ALREADY have, or money the bank allows you to use first?"
 
   - id: "Q8"
     text: "Determine if the following statement is TRUE or FALSE: 'Paying only the minimum amount on your credit card statement will stop you from being charged interest on the remaining balance.'"
@@ -201,7 +210,8 @@ questions:
       - marks: 2
         criteria: "Added interest to principal to get final total."
     hints:
-      - "Flat interest is simple interest. Use $I = Prt$ and then add it back to the original RM20,000."
+      - level: 1
+        text: "Flat interest is simple interest. Use $I = Prt$ and then add it back to the original RM20,000."
 
   - id: "Q10"
     text: "Aminah has a credit card balance of RM3,000. She missed her payment for October. The bank charges a 15% annual interest rate on the daily balance and a late payment fee of RM10. Calculate the total balance in her account on November 1st (31 days later)."
@@ -225,8 +235,10 @@ questions:
       - marks: 1
         criteria: "Correct final total balance."
     hints:
-      - "Ouch! Missing a payment costs you twice. First, the bank charges interest for the whole month. Second, they slap on a late fee."
-      - "Interest calculation: Balance $\times$ (Rate / 365) $\times$ Days."
+      - level: 1
+        text: "Ouch! Missing a payment costs you twice. First, the bank charges interest for the whole month. Second, they slap on a late fee."
+      - level: 2
+        text: "Interest calculation: Balance $\\times$ (Rate / 365) $\\times$ Days."
 
   - id: "Q11"
     text: "A bank offers a housing loan of RM500,000. Option X: 3.5% interest for 30 years. Option Y: 4.0% interest for 20 years. Which option should a borrower choose if their goal is to minimize the **Total Interest Paid**?"
@@ -246,7 +258,8 @@ questions:
           feedback: "Even though 3.5% is lower than 4.0%, the much longer time (30 years) makes the total interest paid much higher!"
     marks: 2
     hints:
-      - "Tip: Sometimes a lower percentage for a longer time actually ends up costing you MORE. Calculate the total interest for both!"
+      - level: 1
+        text: "Tip: Sometimes a lower percentage for a longer time actually ends up costing you MORE. Calculate the total interest for both!"
 
   - id: "Q12"
     text: "Describe two ways a consumer can use a credit card wisely to avoid high debt accumulation."

@@ -87,8 +87,9 @@ questions:
     tp_level: 3
     answer:
       type: matching
-      value:
-        rule: "Equal chords are equidistant from the centre"
+      pairs:
+        - left: "rule"
+          right: "Equal chords are equidistant from the centre"
       working: |
         Equal chords have equal distance from centre.
     marks: 2

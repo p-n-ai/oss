@@ -29,7 +29,10 @@ questions:
 
   # Standard Pembelajaran 9.2.1 - TP2
   - id: Q2
-    text: "Nyatakan sama ada peristiwa bergabung berikut ialah **Peristiwa Bersandar** atau **Peristiwa Tak Bersandar**: 'Memilih dua batang pen satu demi satu dari sebuah bekas yang mengandungi 3 pen merah dan 2 pen biru **tanpa pemulangan**.'"
+    text: >-
+      Nyatakan sama ada peristiwa bergabung berikut ialah **Peristiwa Bersandar** atau **Peristiwa Tak Bersandar**:
+      'Memilih dua batang pen satu demi satu dari sebuah bekas yang mengandungi 3 pen merah dan 2 pen biru **tanpa
+      pemulangan**.'
     difficulty: easy
     learning_objective: "9.2.1"
     tp_level: 2
@@ -79,7 +82,7 @@ questions:
 
   # Standard Pembelajaran 9.3.3 - TP4
   - id: Q4
-    text: "Satu nombor dipilih secara rawak daripada set $S = \{x : x \text{ ialah integer, } 1 \leq x \leq 9\}$. Hitung kebarangkalian memilih satu nombor genap atau nombor gandaan 5."
+    text: "Satu nombor dipilih secara rawak daripada set $S = \\{x : x \\text{ ialah integer, } 1 \\leq x \\leq 9\\}$. Hitung kebarangkalian memilih satu nombor genap atau nombor gandaan 5."
     difficulty: medium
     learning_objective: "9.3.3"
     tp_level: 4
@@ -132,7 +135,7 @@ questions:
         criteria: "Jawapan akhir 2/9 dengan langkah kerja yang sempurna."
     hints:
       - level: 1
-        text: "Istilah 'sekurang-kurangnya satu' adalah petunjuk besar untuk menggunakan kaedah pelengkap: $1 - P(\text{Tiada yang merah})$."
+        text: "Istilah 'sekurang-kurangnya satu' adalah petunjuk besar untuk menggunakan kaedah pelengkap: $1 - P(\\text{Tiada yang merah})$."
       - level: 2
         text: "Ingat Peraturan Gula-gula Dimakan! Selepas guli hijau pertama diambil, berapakah bilangan guli hijau dan jumlah guli yang tinggal?"
 

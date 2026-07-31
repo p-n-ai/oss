@@ -5,18 +5,18 @@ subdomain: algebra
 definition: "A mathematical phrase containing variables, constants, and operations but no equality sign"
 
 curricula:
-  - syllabus: malaysia-kssm-matematik-tingkatan1
-    topic: F1-05
+  - syllabus: malaysia-kssm
+    topic: MT1-05
     scope: "Basic expressions, like terms, substitution, and simplification"
-  - syllabus: malaysia-kssm-matematik-tingkatan2
-    topic: F2-01
+  - syllabus: malaysia-kssm
+    topic: MT2-01
     scope: "Generalising number patterns using algebraic expressions"
-  - syllabus: malaysia-kssm-matematik-tingkatan2
-    topic: F2-02
+  - syllabus: malaysia-kssm
+    topic: MT2-02
     scope: "Expansion, factorisation, and algebraic fractions"
-  - syllabus: malaysia-kssm-matematik-tingkatan2
-    topic: F2-03
+  - syllabus: malaysia-kssm
+    topic: MT2-03
     scope: "Changing subject of formula through algebraic manipulation"
-  - syllabus: malaysia-kssm-matematik-tingkatan3
-    topic: F3-01
+  - syllabus: malaysia-kssm
+    topic: MT3-01
     scope: "Indices applied to numerical and algebraic expressions"

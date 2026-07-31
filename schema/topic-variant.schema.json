@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/p-n-ai/oss/schema/topic-variant.schema.json",
+  "title": "Locale topic variant",
+  "description": "A localized representation that reuses its canonical topic ID.",
+  "type": "object",
+  "$ref": "https://github.com/p-n-ai/oss/schema/topic.schema.json",
+  "required": [
+    "id",
+    "official_ref",
+    "name",
+    "subject_grade_id",
+    "subject_id",
+    "syllabus_id",
+    "language",
+    "content_standards"
+  ]
+}

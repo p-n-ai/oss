@@ -1,7 +1,8 @@
 id: MT4-10
 official_ref: "10.0"
 name: "Consumer Mathematics: Financial Management"
-subject_id: malaysia-kssm-matematik-tingkatan-4
+subject_grade_id: malaysia-kssm-matematik-tingkatan-4
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
 language: en
@@ -18,10 +19,13 @@ learning_objectives:
     text: "Construct and present personal financial plans to achieve short-term and long-term financial goals, hence evaluate the feasibility of the financial plans."
     bloom: apply
 prerequisites:
-  required:
-    - "MT-BASIC-ARITHMETIC"
+  required: []
   recommended:
     - "MT3-03" # Consumer Mathematics: Savings and Investments, Credit and Debt
+
+background_knowledge:
+  - "MT-BASIC-ARITHMETIC"
+
 mastery:
   minimum_score: 0.75
   assessment_count: 3
@@ -40,11 +44,11 @@ teaching:
     - "Step 3: Guide students in building a personal financial plan using the SMART concept (20 min)"
     - "Step 4: Analyze case studies (e.g., Puan Aminah or Encik Yusuf) to evaluate financial plan feasibility (15 min)"
     - "Step 5: Discuss the impact of inflation and interest rates on long-term financial goals (10 min)"
-common_misconceptions:
-  - misconception: "All leftover money at the end of the month is considered savings."
-    remediation: "Explain the difference between 'savings' (set aside first) and 'surplus' (what is left over). Emphasize the 'pay yourself first' 10% rule."
-  - misconception: "Investments and financial planning are only for wealthy individuals."
-    remediation: "Demonstrate how small, consistent monthly savings (e.g., RM100) can accumulate significantly due to compound interest and time."
+  common_misconceptions:
+    - misconception: "All leftover money at the end of the month is considered savings."
+      remediation: "Explain the difference between 'savings' (set aside first) and 'surplus' (what is left over). Emphasize the 'pay yourself first' 10% rule."
+    - misconception: "Investments and financial planning are only for wealthy individuals."
+      remediation: "Demonstrate how small, consistent monthly savings (e.g., RM100) can accumulate significantly due to compound interest and time."
 engagement_hooks:
   - "Discuss local celebrity budgets or young Malaysian entrepreneur success stories to illustrate wealth management."
   - "Analyze a real-world case study of a typical Malaysian household budget to identify positive vs. negative cash flow."

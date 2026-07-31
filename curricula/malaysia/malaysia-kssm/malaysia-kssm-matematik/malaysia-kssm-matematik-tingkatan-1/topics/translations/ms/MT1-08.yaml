@@ -99,8 +99,11 @@ performance_standards:
     descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang garis dan sudut dalam konteks penyelesaian masalah bukan rutin secara kreatif."
 
 prerequisites:
-  required:
-    - "primary-school-geometry"
+  required: []
+  recommended: []
+
+background_knowledge:
+  - "primary-school-geometry"
 
 mastery:
   minimum_score: 0.75

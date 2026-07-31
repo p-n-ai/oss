@@ -1,7 +1,7 @@
-id: MT2-13
-topic: "Kebarangkalian Mudah"
+topic_id: MT2-13
+description: "Kebarangkalian Mudah"
 
-examples:
+worked_examples:
   # --- 13.2.1 Ruang Sampel (Mudah) ---
   - id: WE-01
     topic: "Ruang Sampel dan Peristiwa"

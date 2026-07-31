@@ -75,11 +75,13 @@ performance_levels:
     descriptor: "Mengaplikasikan pengetahuan dalam penyelesaian masalah bukan rutin secara kreatif."
 
 prerequisites:
-  required:
-    - "Pecahan, Perpuluhan dan Peratus"
-    - "Asas Teori Set"
-  recommended:
-    - "Nisbah dan Kadaran"
+  required: []
+  recommended: []
+
+background_knowledge:
+  - "Pecahan, Perpuluhan dan Peratus"
+  - "Asas Teori Set"
+  - "Nisbah dan Kadaran"
 
 mastery:
   minimum_score: 0.75
@@ -97,11 +99,11 @@ teaching:
     - "Langkah 5: Perkenalkan peristiwa pelengkap dan simbol A' (13.3.1–13.3.2)."
     - "Langkah 6: Selesaikan masalah rutin dan bukan rutin (13.4.1)."
 
-common_misconceptions:
-  - misconception: "Nilai kebarangkalian boleh melebihi 1."
-    remediation: "Tekankan bahawa kebarangkalian mestilah antara 0 hingga 1 sahaja."
-  - misconception: "Keliru antara ruang sampel dan peristiwa."
-    remediation: "Ruang sampel ialah SEMUA hasil, manakala peristiwa ialah subset hasil."
+  common_misconceptions:
+    - misconception: "Nilai kebarangkalian boleh melebihi 1."
+      remediation: "Tekankan bahawa kebarangkalian mestilah antara 0 hingga 1 sahaja."
+    - misconception: "Keliru antara ruang sampel dan peristiwa."
+      remediation: "Ruang sampel ialah SEMUA hasil, manakala peristiwa ialah subset hasil."
 
 engagement_hooks:
   - "Bagaimana pembangun permainan menggunakan kebarangkalian untuk sistem ganjaran?"

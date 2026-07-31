@@ -27,7 +27,8 @@ questions:
           feedback: "Kecerunan mengubah bentuk, jadi bukan isometri."
     marks: 1
     hints:
-      - "Fikir: penjelmaan mana kekalkan SEMUA jarak?"
+      - level: 1
+        text: "Fikir: penjelmaan mana kekalkan SEMUA jarak?"
 
   - id: Q2
     text: "Titik A(4, -2) ditranslasikan oleh vektor $\\begin{pmatrix} -3 \\\\ 5 \\end{pmatrix}$. Cari A'."
@@ -43,7 +44,8 @@ questions:
       distractors: []
     marks: 2
     hints:
-      - "Tambah x dengan nilai atas vektor, y dengan nilai bawah."
+      - level: 1
+        text: "Tambah x dengan nilai atas vektor, y dengan nilai bawah."
 
   - id: Q3
     text: "Titik P(2,5) dipantulkan pada garis y = 3. Cari P'."
@@ -59,7 +61,8 @@ questions:
       distractors: []
     marks: 3
     hints:
-      - "Ukur jarak menegak dari garis cermin."
+      - level: 1
+        text: "Ukur jarak menegak dari garis cermin."
 
   - id: Q4
     text: "Titik M(3,2) diputarkan 90° ikut arah jam pada asalan menjadi?"
@@ -81,7 +84,8 @@ questions:
           feedback: "Ini ialah peraturan 90° lawan arah jam."
     marks: 2
     hints:
-      - "Putaran ikut arah jam menukar koordinat dengan tanda berubah."
+      - level: 1
+        text: "Putaran ikut arah jam menukar koordinat dengan tanda berubah."
 
   - id: Q5
     text: "Segi tiga adalah kongruen di bawah isometri. Cari sudut hilang."
@@ -96,7 +100,8 @@ questions:
       distractors: []
     marks: 4
     hints:
-      - "Gunakan jumlah sudut segi tiga + sifat kongruen."
+      - level: 1
+        text: "Gunakan jumlah sudut segi tiga + sifat kongruen."
 
   - id: Q6
     text: "Peringkat simetri putaran bagi pentagon?"
@@ -111,7 +116,8 @@ questions:
       distractors: []
     marks: 1
     hints:
-      - "Kira berapa kali bentuk sama dalam putaran penuh 360°"
+      - level: 1
+        text: "Kira berapa kali bentuk sama dalam putaran penuh 360°"
 
   - id: Q7
     text: "Mengapa segi empat sama yang ditranslasi dan dipantulkan masih kongruen?"
@@ -128,4 +134,5 @@ questions:
       distractors: []
     marks: 5
     hints:
-      - "Adakah penjelmaan ini mengubah panjang atau luas?"
+      - level: 1
+        text: "Adakah penjelmaan ini mengubah panjang atau luas?"

@@ -79,14 +79,14 @@ questions:
 
   # --- LO 8.2.3: Menyelesaikan masalah melibatkan lokus (TP5) ---
   - id: Q4
-    text: "Sebuah klinik akan dibina di sebuah kampung. Ia mestilah berjarak sama dari Rumah $P$ dan Rumah $Q$, serta tepat $600\text{ m}$ dari lebuh raya lurus $AB$. Jika skala ialah $1\text{ cm} = 600\text{ m}$, perihalkan kedudukan yang mungkin bagi klinik tersebut."
+    text: "Sebuah klinik akan dibina di sebuah kampung. Ia mestilah berjarak sama dari Rumah $P$ dan Rumah $Q$, serta tepat $600\\text{ m}$ dari lebuh raya lurus $AB$. Jika skala ialah $1\\text{ cm} = 600\\text{ m}$, perihalkan kedudukan yang mungkin bagi klinik tersebut."
     difficulty: hard
     learning_objective: "8.2.3"
     tp_level: 5
     kbat: true
     answer:
       type: free_text
-      value: "Titik persilangan antara pembahagi dua sama serenjang bagi garis $PQ$ dan dua garis yang selari dengan lebuh raya $AB$ pada jarak $1\text{ cm}$."
+      value: "Titik persilangan antara pembahagi dua sama serenjang bagi garis $PQ$ dan dua garis yang selari dengan lebuh raya $AB$ pada jarak $1\\text{ cm}$."
       working: |
         Langkah 1: Syarat 1 (berjarak sama dari $P$ dan $Q$) = Pembahagi dua sama serenjang bagi garis $PQ$.
         Langkah 2: Syarat 2 ($600\text{ m}$ dari lebuh raya $AB$) = Dua garis selari, satu di setiap sisi $AB$, pada jarak $1\text{ cm}$ (kerana skala $1\text{ cm} = 600\text{ m}$).
@@ -105,14 +105,14 @@ questions:
 
   # --- LO 8.2.3: Masalah bukan rutin kreatif (TP6) ---
   - id: Q5
-    text: "Seekor kambing diikat pada satu bucu pagar padang rumput berbentuk segi empat tepat berukuran $6\text{ m} \times 8\text{ m}$. Tali itu panjangnya $7\text{ m}$. Perihalkan bentuk kawasan yang boleh dicapai oleh kambing itu dan terangkan mengapa ia merupakan satu lokus."
+    text: "Seekor kambing diikat pada satu bucu pagar padang rumput berbentuk segi empat tepat berukuran $6\\text{ m} \\times 8\\text{ m}$. Tali itu panjangnya $7\\text{ m}$. Perihalkan bentuk kawasan yang boleh dicapai oleh kambing itu dan terangkan mengapa ia merupakan satu lokus."
     difficulty: hard
     learning_objective: "8.2.3"
     tp_level: 6
     kbat: true
     answer:
       type: free_text
-      value: "Suku bulatan (quadrant) dengan jejari $7\text{ m}$ berpusat di bucu tersebut."
+      value: "Suku bulatan (quadrant) dengan jejari $7\\text{ m}$ berpusat di bucu tersebut."
       working: |
         Langkah 1: Kambing diikat pada satu titik tetap (bucu).
         Langkah 2: Tali bertindak sebagai jarak maksimum yang tetap.
@@ -125,7 +125,7 @@ questions:
       - marks: 2
         criteria: "Memerihalkan bentuk sebagai suku bulatan atau sektor."
       - marks: 1
-        criteria: "Menyatakan jejari ialah $7\text{ m}$."
+        criteria: "Menyatakan jejari ialah $7\\text{ m}$."
     hints:
       - level: 1
-        text: "Fikirkan tentang Contoh 13 atau muka surat 217 dalam buku teks anda. Jika tali itu $7\text{ m}$ tetapi lebar pagar hanya $6\text{ m}$, apakah yang berlaku kepada bentuk tersebut?"
+        text: "Fikirkan tentang Contoh 13 atau muka surat 217 dalam buku teks anda. Jika tali itu $7\\text{ m}$ tetapi lebar pagar hanya $6\\text{ m}$, apakah yang berlaku kepada bentuk tersebut?"

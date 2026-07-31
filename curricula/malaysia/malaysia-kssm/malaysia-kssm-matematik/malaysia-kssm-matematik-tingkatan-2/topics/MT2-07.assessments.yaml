@@ -9,6 +9,7 @@ questions:
     learning_objective: "7.1.1"
     tp_level: 1
     answer:
+      type: multiple_choice
       value: "The shortest straight-line length connecting two points."
       working: |
         Distance in the Cartesian system is defined as the shortest straight-line segment joining two coordinates.
@@ -36,6 +37,7 @@ questions:
     learning_objective: "7.1.3"
     tp_level: 2
     answer:
+      type: exact
       value: "6"
       working: |
         Since x-coordinates are equal (x = 2), distance is vertical only.
@@ -53,6 +55,7 @@ questions:
     learning_objective: "7.1.3"
     tp_level: 3
     answer:
+      type: exact
       value: "5"
       working: |
         d = √((5−1)² + (2−5)²)
@@ -81,6 +84,7 @@ questions:
     learning_objective: "7.2.3"
     tp_level: 3
     answer:
+      type: exact
       value: "(1,-1)"
       working: |
         Midpoint formula: ((x1+x2)/2, (y1+y2)/2)
@@ -99,6 +103,7 @@ questions:
     learning_objective: "7.2.4"
     tp_level: 4
     answer:
+      type: exact
       value: "(5,6)"
       working: |
         Let Q = (x,y)
@@ -117,6 +122,7 @@ questions:
     learning_objective: "7.3.1"
     tp_level: 5
     answer:
+      type: exact
       value: "65"
       working: |
         d = √((8+4)² + (-2-3)²)

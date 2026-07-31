@@ -7,9 +7,12 @@ worked_examples:
     difficulty: "easy"
     learning_objective: "5.1.1"
     tp_level: 1
-    real_world_analogy: "Bayangkan awak berdiri di penjuru sebuah bilik (sudut rujukan). Dinding yang berada tepat di depan awak ialah 'Sisi Bertentangan'. Dinding yang awak sedang sandar ialah 'Sisi Bersebelahan'. Garisan paling panjang dari awak ke penjuru bilik yang paling jauh ialah 'Hipotenus'."
+    real_world_analogy: >-
+      Bayangkan awak berdiri di penjuru sebuah bilik (sudut rujukan). Dinding yang berada tepat di depan awak ialah
+      'Sisi Bertentangan'. Dinding yang awak sedang sandar ialah 'Sisi Bersebelahan'. Garisan paling panjang dari awak
+      ke penjuru bilik yang paling jauh ialah 'Hipotenus'.
     misconception_alert: "Pelajar sering keliru dan menganggap sisi 'bawah' sentiasa sisi bersebelahan. Ingat: label sisi akan berubah jika kita tukar sudut rujukan!"
-    scenario: "Dalam sebuah segi tiga bersudut tegak $ABC$ dengan $\angle B = 90^\circ$, kenal pasti sisi-sisi berdasarakan $\angle ACB$."
+    scenario: "Dalam sebuah segi tiga bersudut tegak $ABC$ dengan $\\angle B = 90^\\circ$, kenal pasti sisi-sisi berdasarakan $\\angle ACB$."
     working: |
       1. Kenal pasti sudut rujukan: $\angle ACB$ (atau sudut $C$).
       2. Cari sisi yang berada tepat di hadapan sudut $C$: Ini ialah sisi $AB$. Maka, $AB = \text{Sisi bertentangan}$.
@@ -23,7 +26,7 @@ worked_examples:
     tp_level: 2
     real_world_analogy: "Fikirkan tentang sebuah tanjakan (ramp). 'Kecondongan' (Tangen) ialah nisbah antara berapa tinggi tanjakan itu (Bertentangan) berbanding berapa jauh ia merentasi lantai (Bersebelahan)."
     misconception_alert: "Jangan keliru dengan formula! Gunakan mnemonik SOH-CAH-TOA sebagai panduan emas: Sinus=D/H, Kosinus=S/H, Tangen=D/S."
-    scenario: "Sebuah segi tiga bersudut tegak mempunyai sisi bertentangan $8\text{ cm}$, sisi bersebelahan $15\text{ cm}$, dan hipotenus $17\text{ cm}$. Cari nilai $\sin \theta$, $\cos \theta$, and $\tan \theta$."
+    scenario: "Sebuah segi tiga bersudut tegak mempunyai sisi bertentangan $8\\text{ cm}$, sisi bersebelahan $15\\text{ cm}$, dan hipotenus $17\\text{ cm}$. Cari nilai $\\sin \\theta$, $\\cos \\theta$, and $\\tan \\theta$."
     working: |
       1. Senaraikan nilai: $D = 8$, $S = 15$, $H = 17$.
       2. Guna SOH: $\sin \theta = \frac{D}{H} = \frac{8}{17}$.
@@ -35,9 +38,9 @@ worked_examples:
     difficulty: "medium"
     learning_objective: "5.1.5"
     tp_level: 3
-    real_world_analogy: "Bayangkan memotong sepotong sandwic segi empat tepat secara menyerong. Dua segi tiga yang terhasil mempunyai sudut $45^\circ$. Kerana kedua-dua sisi sandwic itu sama panjang, maka nisbahnya (Tangen) adalah tepat 1!"
-    misconception_alert: "Pelajar selalu lupa kedudukan punca kuasa ($\sqrt{3}$). Untuk $30^\circ$, sisi bertentangan ialah $1$ dan hipotenus ialah $2$. Guna Teorem Pythagoras untuk ingat bahawa sisi bersebelahan ialah $\sqrt{3}$."
-    scenario: "Hitung nilai $\cos 60^\circ + \sin 30^\circ$ tanpa menggunakan kalkulator."
+    real_world_analogy: "Bayangkan memotong sepotong sandwic segi empat tepat secara menyerong. Dua segi tiga yang terhasil mempunyai sudut $45^\\circ$. Kerana kedua-dua sisi sandwic itu sama panjang, maka nisbahnya (Tangen) adalah tepat 1!"
+    misconception_alert: "Pelajar selalu lupa kedudukan punca kuasa ($\\sqrt{3}$). Untuk $30^\\circ$, sisi bertentangan ialah $1$ dan hipotenus ialah $2$. Guna Teorem Pythagoras untuk ingat bahawa sisi bersebelahan ialah $\\sqrt{3}$."
+    scenario: "Hitung nilai $\\cos 60^\\circ + \\sin 30^\\circ$ tanpa menggunakan kalkulator."
     working: |
       1. Imbas kembali nilai khas: $\cos 60^\circ = \frac{1}{2}$.
       2. Imbas kembali nilai khas: $\sin 30^\circ = \frac{1}{2}$.
@@ -49,9 +52,9 @@ worked_examples:
     difficulty: "hard"
     learning_objective: "5.1.6"
     tp_level: 4
-    real_world_analogy: "Sebuah layang-layang terbang dengan tali sepanjang $50\text{ m}$. Jika tali itu membentuk sudut $30^\circ$ dengan tanah, berapa tinggikah layang-layang itu? Awak menggunakan tali (Hipotenus) untuk mencari tinggi (Bertentangan)."
+    real_world_analogy: "Sebuah layang-layang terbang dengan tali sepanjang $50\\text{ m}$. Jika tali itu membentuk sudut $30^\\circ$ dengan tanah, berapa tinggikah layang-layang itu? Awak menggunakan tali (Hipotenus) untuk mencari tinggi (Bertentangan)."
     misconception_alert: "Sentiasa pastikan kalkulator anda dalam mod 'DEG' sebelum mengira. Juga, pastikan awak pilih nisbah yang betul; jika ada Hipotenus dan mahu cari Bertentangan, awak MESTI guna Sinus."
-    scenario: "Dalam $\triangle PQR$, $\angle Q = 90^\circ$ and $\angle PRQ = 30^\circ$. Jika hipotenus $PR = 12\text{ cm}$, cari panjang $PQ$."
+    scenario: "Dalam $\\triangle PQR$, $\\angle Q = 90^\\circ$ and $\\angle PRQ = 30^\\circ$. Jika hipotenus $PR = 12\\text{ cm}$, cari panjang $PQ$."
     working: |
       1. Kenal pasti nilai diberi: $\theta = 30^\circ$, $H = 12$.
       2. Kenal pasti sisi yang dicari: $PQ$ ialah Sisi Bertentangan ($D$).
@@ -67,7 +70,7 @@ worked_examples:
     tp_level: 5
     real_world_analogy: "Seorang juruukur menggunakan 'Tiodolit' untuk mengukur tinggi bangunan dari jauh. Dengan mengetahui jarak dan sudut, trigonometri melakukan kerja 'memanjat' untuk mereka!"
     misconception_alert: "Dalam masalah melibatkan 'tinggi', pelajar sering lupa untuk menyemak sama ada ketinggian aras mata pemerhati perlu ditambah kepada jawapan akhir atau tidak."
-    scenario: "Seorang juruukur berdiri $100\text{ m}$ dari tapak sebuah menara. Sudut dongak ke puncak menara ialah $40^\circ$. Hitung tinggi menara tersebut."
+    scenario: "Seorang juruukur berdiri $100\\text{ m}$ dari tapak sebuah menara. Sudut dongak ke puncak menara ialah $40^\\circ$. Hitung tinggi menara tersebut."
     working: |
       1. Fahami masalah: Kita ada Sisi Bersebelahan ($100\text{ m}$) dan mahu mencari Sisi Bertentangan (tinggi).
       2. Pilih nisbah: Guna TOA: $\tan \theta = \frac{D}{S}$.

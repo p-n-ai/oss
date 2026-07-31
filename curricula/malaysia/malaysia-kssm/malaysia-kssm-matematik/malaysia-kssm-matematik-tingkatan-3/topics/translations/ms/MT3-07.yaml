@@ -49,7 +49,7 @@ performance_standards:
   - level: 6
     descriptor: "Mengaplikasikan pengetahuan dan kemahiran yang sesuai tentang pelan dan dongakan dalam konteks penyelesaian masalah bukan rutin secara kreatif."
 
-mastery_criteria:
+mastery:
   minimum_score: 0.75
   assessment_count: 3
   spaced_repetition:
@@ -58,8 +58,8 @@ mastery_criteria:
 
 prerequisites:
   required:
-    - id: "MT2-11" # Transformasi I (Konsep asas koordinat & unjuran)
-    - id: "MT3-04" # Lukisan Berskala (Penting untuk 7.2.1)
+    - "MT2-11" # Transformasi I (Konsep asas koordinat & unjuran)
+    - "MT3-04" # Lukisan Berskala (Penting untuk 7.2.1)
 
 teaching:
   sequence:
@@ -71,13 +71,13 @@ teaching:
     - "Langkah 6: Mensintesis dan melakar objek 3D daripada pelan dan dongakan 2D [m/s 187]."
     - "Langkah 7: Menyelesaikan masalah kompleks yang melibatkan gabungan pepejal dan ukuran [m/s 190]."
 
-common_misconceptions:
-  - misconception: "Menganggap unjuran ortogonal sebagai lukisan perspektif 3D."
-    remediation: "Gunakan model fizikal untuk menunjukkan bahawa unjuran sentiasa dalam 2D dan berserenjang dengan satah [m/s 171-172]."
-  - misconception: "Gagal menggunakan garis sempang untuk tepi yang terlindung."
-    remediation: "Tekankan bahagian 'TIP' pada muka surat 184 mengenai garis padu tebal vs. garis sempang."
-  - misconception: "Skala yang tidak konsisten antara pandangan yang berbeza."
-    remediation: "Kukuhkan teknik lukisan berskala dan konsistensi perkadaran dari muka surat 182."
+  common_misconceptions:
+    - misconception: "Menganggap unjuran ortogonal sebagai lukisan perspektif 3D."
+      remediation: "Gunakan model fizikal untuk menunjukkan bahawa unjuran sentiasa dalam 2D dan berserenjang dengan satah [m/s 171-172]."
+    - misconception: "Gagal menggunakan garis sempang untuk tepi yang terlindung."
+      remediation: "Tekankan bahagian 'TIP' pada muka surat 184 mengenai garis padu tebal vs. garis sempang."
+    - misconception: "Skala yang tidak konsisten antara pandangan yang berbeza."
+      remediation: "Kukuhkan teknik lukisan berskala dan konsistensi perkadaran dari muka surat 182."
 
 engagement_hooks:
   - "Bangunan Berlian (Putrajaya): Terokai bagaimana seni bina uniknya kelihatan dari pelbagai arah [m/s 168]."

@@ -101,7 +101,6 @@ teaching:
 
 quality_level: 3
 provenance: ai-assisted
-sync_checked: true
 ai_teaching_notes: "MT2-12.teaching.md"
 assessments_file: "MT2-12.assessments.yaml"
 examples_file: "MT2-12.examples.yaml"

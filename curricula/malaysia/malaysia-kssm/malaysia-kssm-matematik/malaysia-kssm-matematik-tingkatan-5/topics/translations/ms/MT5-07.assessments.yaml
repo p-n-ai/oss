@@ -23,8 +23,10 @@ questions:
           feedback: "Ini adalah had bawah bagi kelas yang berikutnya."
     marks: 1
     hints:
-      - "Sempadan atas ialah nilai di tengah-tengah antara akhir kelas ini dan permulaan kelas seterusnya."
-      - "Lihat jurang antara 154 dan 155. Apakah nombor yang berada tepat di tengah-tengah?"
+      - level: 1
+        text: "Sempadan atas ialah nilai di tengah-tengah antara akhir kelas ini dan permulaan kelas seterusnya."
+      - level: 2
+        text: "Lihat jurang antara 154 dan 155. Apakah nombor yang berada tepat di tengah-tengah?"
 
   - id: Q2
     text: "Satu set data terkumpul mempunyai titik tengah kelas pada $147, 152, 157,$ dan $162$. Jika anda ingin membina poligon kekerapan, apakah titik tengah yang diperlukan bagi kelas sebelum dan selepas set ini untuk memastikan poligon bermula dan berakhir pada paksi mengufuk?"
@@ -46,8 +48,10 @@ questions:
       - marks: 1
         criteria: "Menghitung kedua-dua nilai 142 dan 167 dengan betul."
     hints:
-      - "Poligon kekerapan mesti bermula dan berakhir dengan kekerapan sifar. Berapakah 'lompatan' unit antara setiap titik tengah yang sedia ada?"
-      - "Jika lompatan adalah 5, undur satu langkah dari 147 dan maju satu langkah dari 162."
+      - level: 1
+        text: "Poligon kekerapan mesti bermula dan berakhir dengan kekerapan sifar. Berapakah 'lompatan' unit antara setiap titik tengah yang sedia ada?"
+      - level: 2
+        text: "Jika lompatan adalah 5, undur satu langkah dari 147 dan maju satu langkah dari 162."
 
   - id: Q3
     text: "Bandingkan dua histogram yang mewakili markah ujian bagi Kumpulan Arif dan Kumpulan Bestari. Histogram Kumpulan Arif berbentuk loceng dengan kebanyakan data di tengah, manakala Kumpulan Bestari adalah seragam (rata) bagi semua markah. Kumpulan manakah yang mempunyai serakan markah yang lebih luas? Berikan justifikasi anda."
@@ -68,8 +72,10 @@ questions:
       - marks: 2
         criteria: "Memberikan justifikasi berdasarkan corak taburan seragam berbanding bentuk loceng."
     hints:
-      - "Lihat pada 'taburan' palang tersebut. Dalam graf manakah markah lebih 'berterabur' dan bukannya berkumpul di tengah?"
-      - "Ingat bahawa bentuk loceng bermaksud kebanyakan orang mendapat markah yang hampir sama. Seragam bermaksud markah tersebar di seluruh julat."
+      - level: 1
+        text: "Lihat pada 'taburan' palang tersebut. Dalam graf manakah markah lebih 'berterabur' dan bukannya berkumpul di tengah?"
+      - level: 2
+        text: "Ingat bahawa bentuk loceng bermaksud kebanyakan orang mendapat markah yang hampir sama. Seragam bermaksud markah tersebar di seluruh julat."
 
   - id: Q4
     text: "Padankan kedudukan berikut pada sebuah Ogif dengan ukuran statistik yang sepadan."
@@ -91,7 +97,8 @@ questions:
         - "3: Kuartil Ketiga (Q3)"
     marks: 3
     hints:
-      - "Suku (1/4) kedengaran seperti kuartil yang mana? Setengah (1/2) pula merujuk kepada ukuran tengah yang mana?"
+      - level: 1
+        text: "Suku (1/4) kedengaran seperti kuartil yang mana? Setengah (1/2) pula merujuk kepada ukuran tengah yang mana?"
 
   # --- 7.2 Sukatan Serakan ---
   - id: Q5
@@ -114,8 +121,10 @@ questions:
       - marks: 1
         criteria: "Nilai akhir yang dibundarkan dengan betul kepada 2 tempat perpuluhan."
     hints:
-      - "Bagaimana anda 'membatalkan' kuasa dua ($^2$) dalam matematik? Cari simbol tersebut pada kalkulator anda."
-      - "Jangan lupa bundarkan dengan teliti! Lihat pada digit perpuluhan yang ketiga."
+      - level: 1
+        text: "Bagaimana anda 'membatalkan' kuasa dua ($^2$) dalam matematik? Cari simbol tersebut pada kalkulator anda."
+      - level: 2
+        text: "Jangan lupa bundarkan dengan teliti! Lihat pada digit perpuluhan yang ketiga."
 
   - id: Q6
     text: "Dalam sebuah plot kotak, garisan median terletak lebih dekat dengan sebelah kanan kotak, dan 'sungut' (whisker) sebelah kiri adalah lebih panjang daripada sebelah kanan. Jelaskan bentuk taburan data tersebut."
@@ -138,7 +147,8 @@ questions:
           feedback: "Plot kotak tidak mewakili kekerapan 'seragam' secara visual seperti histogram; ia fokus pada sebaran kuartil."
     marks: 1
     hints:
-      - "Sungut menunjukkan sejauh mana data itu 'ditarik'. Jika ia ditarik ke arah kiri (nombor yang lebih kecil), ke manakah arah pencongnya?"
+      - level: 1
+        text: "Sungut menunjukkan sejauh mana data itu 'ditarik'. Jika ia ditarik ke arah kiri (nombor yang lebih kecil), ke manakah arah pencongnya?"
 
   - id: Q7
     text: "Mesin P menghasilkan komponen dengan sisihan piawai $0.64$ cm, manakala Mesin Q menghasilkannya dengan sisihan piawai $0.70$ cm. Jika kedua-dua mesin mempunyai diameter min yang sama, mesin manakah yang lebih tekal dalam pengeluarannya?"
@@ -159,7 +169,8 @@ questions:
       - marks: 1
         criteria: "Menerangkan bahawa sisihan piawai yang lebih kecil bermaksud ketekalan yang lebih tinggi atau serakan yang lebih rendah."
     hints:
-      - "Sisihan piawai mengukur 'serakan'. Jika anda mahukan ketekalan, adakah anda mahu serakan yang besar atau serakan yang kecil?"
+      - level: 1
+        text: "Sisihan piawai mengukur 'serakan'. Jika anda mahukan ketekalan, adakah anda mahu serakan yang besar atau serakan yang kecil?"
 
   - id: Q8
     text: "Reka sebuah rangka projek mini untuk menyiasat taburan BMI (Indeks Jisim Tubuh) dalam kalangan murid. Senaraikan empat perwakilan grafik atau statistik utama yang diperlukan dalam laporan akhir anda seperti yang dinyatakan dalam DSKP."
@@ -178,4 +189,5 @@ questions:
       - marks: 4
         criteria: "Menyenaraikan keempat-empat komponen yang diperlukan untuk penyiasatan statistik yang komprehensif dengan betul."
     hints:
-      - "Fikirkan tentang perjalanan data: daripada senarai mentah, kepada jadual, kepada graf, dan akhirnya kepada nilai 'ketekalan' yang dihitung."
+      - level: 1
+        text: "Fikirkan tentang perjalanan data: daripada senarai mentah, kepada jadual, kepada graf, dan akhirnya kepada nilai 'ketekalan' yang dihitung."

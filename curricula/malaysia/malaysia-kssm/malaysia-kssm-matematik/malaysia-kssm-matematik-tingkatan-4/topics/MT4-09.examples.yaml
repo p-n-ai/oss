@@ -7,7 +7,9 @@ worked_examples:
     topic: "Describing Combined Events"
     difficulty: easy
     real_world_analogy: "Think of a combo meal at a restaurant. A combined event is like choosing one 'Main Dish' AND one 'Drink' together as a single set."
-    misconception_alert: "Students often think the order $(A, B)$ is the same as $(B, A)$. In listing combined events, the position in the ordered pair usually represents a specific sequence or source."
+    misconception_alert: >-
+      Students often think the order $(A, B)$ is the same as $(B, A)$. In listing combined events, the position in the
+      ordered pair usually represents a specific sequence or source.
     scenario: "A fair coin is tossed and a fair dice is rolled. List the sample space for this combined event using ordered pairs."
     working: |
       1. List the outcomes for the coin (C): $C = \{H, T\}$
@@ -24,7 +26,7 @@ worked_examples:
     difficulty: medium
     real_world_analogy: "Imagine two different people in two different states tossing coins. What one person gets does not change the other's luck. This is the essence of Independent Events."
     misconception_alert: "The 'Amnesia Trap'. Students sometimes treat independent events like dependent ones by accidentally reducing the sample size in the second event."
-    scenario: "Box A contains cards $\{3, 5, 7, 9\}$ and Box B contains cards $\{X, Y, Z\}$. If one card is chosen from each box, calculate the probability of getting a factor of 9 from Box A and the letter 'Z' from Box B."
+    scenario: "Box A contains cards $\\{3, 5, 7, 9\\}$ and Box B contains cards $\\{X, Y, Z\\}$. If one card is chosen from each box, calculate the probability of getting a factor of 9 from Box A and the letter 'Z' from Box B."
     working: |
       1. Identify factors of 9 in Box A: $\{3, 9\}$. So, $n(A) = 2$.
       2. Calculate probability for Box A: $P(A) = \frac{n(A)}{n(S_A)} = \frac{2}{4} = \frac{1}{2}$.
@@ -38,8 +40,8 @@ worked_examples:
     topic: "Mutually Exclusive Events"
     difficulty: medium
     real_world_analogy: "Think of a 'Social Distancing' rule. Two events are mutually exclusive if they cannot 'touch' or happen at the same time, like being in Class 4A and Class 4B simultaneously."
-    misconception_alert: "The 'Double-Count' Trap. If events are NOT mutually exclusive, students forget to subtract the intersection $P(A \cap B)$. Always check for overlaps first!"
-    scenario: "A number is chosen at random from the set $S = \{x : 1 \leq x \leq 10, x \in \mathbb{Z}\}$. Find the probability of choosing a prime number or a multiple of 4."
+    misconception_alert: "The 'Double-Count' Trap. If events are NOT mutually exclusive, students forget to subtract the intersection $P(A \\cap B)$. Always check for overlaps first!"
+    scenario: "A number is chosen at random from the set $S = \\{x : 1 \\leq x \\leq 10, x \\in \\mathbb{Z}\\}$. Find the probability of choosing a prime number or a multiple of 4."
     working: |
       1. List the sample space $S$: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. $n(S) = 10$.
       2. List Prime numbers (A): $\{2, 3, 5, 7\}$. $P(A) = \frac{4}{10}$.

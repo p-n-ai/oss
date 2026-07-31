@@ -136,13 +136,13 @@ questions:
         Step 5: New Variance = $\frac{3981}{11} - 18.09^2 = 361.91 - 327.25 = 34.66$ (Accept $34.6$ to $35.4$ based on rounding).
     rubric:
       - marks: 1
-        criteria: "Calculates the original sum of squares ($\sum x^2$) correctly."
+        criteria: "Calculates the original sum of squares ($\\sum x^2$) correctly."
       - marks: 1
-        criteria: "Calculates the new sum ($\sum x$) and new sum of squares ($\sum x^2$) after adding the number."
+        criteria: "Calculates the new sum ($\\sum x$) and new sum of squares ($\\sum x^2$) after adding the number."
       - marks: 1
         criteria: "Determines the new mean correctly."
       - marks: 2
         criteria: "Applies the variance formula correctly to find the final value."
     hints:
       - level: 1
-        text: "You need to find the total sum of squares ($\sum x^2$) for the original set before you can add the new value. Use the variance formula in reverse!"
+        text: "You need to find the total sum of squares ($\\sum x^2$) for the original set before you can add the new value. Use the variance formula in reverse!"

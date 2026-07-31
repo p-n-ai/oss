@@ -19,11 +19,15 @@ learning_objectives:
     text_en: "Solve real-life problems through mathematical modeling involving functions: Linear, Quadratic, Exponential and communicate the mathematical modeling process implemented."
     bloom: apply
 prerequisites:
-  required:
-    - "Linear Functions"
-    - "Quadratic Functions"
-    - "Exponential Functions"
-    - "Basic Algebraic Manipulation"
+  required: []
+  recommended: []
+
+background_knowledge:
+  - "Linear Functions"
+  - "Quadratic Functions"
+  - "Exponential Functions"
+  - "Basic Algebraic Manipulation"
+
 bloom_levels:
   - understand
   - apply

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/p-n-ai/oss/schema/taxonomy.schema.json",
+  "title": "Taxonomy",
+  "description": "A subject-area classification hierarchy.",
+  "type": "object",
+  "required": ["id", "name", "domain", "subtopics"],
+  "properties": {
+    "id": { "$ref": "#/$defs/nonEmptyString" },
+    "name": { "$ref": "#/$defs/nonEmptyString" },
+    "domain": { "$ref": "#/$defs/nonEmptyString" },
+    "subtopics": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/nonEmptyString" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

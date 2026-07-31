@@ -6,9 +6,11 @@ worked_examples:
   - id: WE-01
     topic: "Introduction to Networks and Degrees"
     difficulty: easy
-    real_world_analogy: "Think of a graph like a 'Handshake Party'. Each person is a vertex (dot). When two people shake hands, that's an edge (line). One edge always involves two 'touches' or degrees."
+    real_world_analogy: >-
+      Think of a graph like a 'Handshake Party'. Each person is a vertex (dot). When two people shake hands, that's an
+      edge (line). One edge always involves two 'touches' or degrees.
     misconception_alert: "The 'Loop Degree' Trap! Students often think a loop counts as 1 degree because it is one line. But a loop touches the same vertex twice (one exit, one entry), so it must count as 2 degrees!"
-    scenario: "Based on a simple graph with 6 vertices $\{1, 2, 3, 4, 5, 6\}$ and 7 edges, determine the sum of degrees for the entire graph."
+    scenario: "Based on a simple graph with 6 vertices $\\{1, 2, 3, 4, 5, 6\\}$ and 7 edges, determine the sum of degrees for the entire graph."
     working: |
       Step 1: State the number of edges ($E$) from the scenario.
       $n(E) = 7$
@@ -25,7 +27,7 @@ worked_examples:
     difficulty: medium
     real_world_analogy: "A 'Tree' is like a friendship group with NO DRAMA. Everyone is connected (no one is left out), but there are NO cycles (no secret loops). It's the most efficient way to link everyone."
     misconception_alert: "The 'Disconnected Tree' Trap. A subgraph with $n-1$ edges is NOT a tree if some vertices are not connected to the rest. Every single vertex MUST have a path to every other vertex."
-    scenario: "A network has 5 vertices. Determine the number of edges needed to form a tree and verify if a subgraph with vertices $\{A, B, C, D, E\}$ and edges $\{(A,B), (B,C), (C,D), (D,E)\}$ is a tree."
+    scenario: "A network has 5 vertices. Determine the number of edges needed to form a tree and verify if a subgraph with vertices $\\{A, B, C, D, E\\}$ and edges $\\{(A,B), (B,C), (C,D), (D,E)\\}$ is a tree."
     working: |
       Step 1: Identify the number of vertices ($n$).
       $n = 5$

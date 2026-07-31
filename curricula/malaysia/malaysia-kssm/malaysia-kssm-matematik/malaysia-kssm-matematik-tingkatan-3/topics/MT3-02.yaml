@@ -79,13 +79,13 @@ teaching:
     - 'Step 5: Performing addition, subtraction, multiplication, and division in standard form (Page 40-42) (40 min)'
     - 'Step 6: Real-world problem solving and non-routine applications (TP4-TP6) (Page 43-47) (45 min)'
 
-common_misconceptions:
-  - misconception: "All zeros are significant figures."
-    remediation: "Explain that leading zeros in decimals (e.g., 0.005) are not significant; they only determine place value (Page 34)."
-  - misconception: "Positive and negative indices in standard form represent the same direction of decimal movement."
-    remediation: "Clarify that positive indices represent large numbers (>10) while negative indices represent small numbers (<1) (Page 37)."
-  - misconception: "Adding or subtracting numbers in standard form with different indices by simply adding the coefficients."
-    remediation: "Teach factorisation or index conversion to the same power before adding/subtracting (Page 40)."
+  common_misconceptions:
+    - misconception: "All zeros are significant figures."
+      remediation: "Explain that leading zeros in decimals (e.g., 0.005) are not significant; they only determine place value (Page 34)."
+    - misconception: "Positive and negative indices in standard form represent the same direction of decimal movement."
+      remediation: "Clarify that positive indices represent large numbers (>10) while negative indices represent small numbers (<1) (Page 37)."
+    - misconception: "Adding or subtracting numbers in standard form with different indices by simply adding the coefficients."
+      remediation: "Teach factorisation or index conversion to the same power before adding/subtracting (Page 40)."
 
 engagement_hooks:
   - "Use astronomical distances (light years to km) to show why writing trillions of zeros is inefficient (Page 30)."

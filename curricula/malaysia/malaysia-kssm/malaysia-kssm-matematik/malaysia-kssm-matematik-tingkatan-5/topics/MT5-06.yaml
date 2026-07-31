@@ -53,13 +53,13 @@ teaching:
     - "Step 4: Sketch the base graphs of y = sin x, y = cos x, and y = tan x and identify their properties (DSKP 6.2.1)."
     - "Step 5: Use dynamic geometry software to observe how changing a, b, and c alters amplitude, period, and vertical position (DSKP 6.2.2)."
     - "Step 6: Model periodic phenomena like respiratory cycles or tidal depths using trigonometric equations (DSKP 6.2.3)."
-common_misconceptions:
-  - misconception: "Assuming trigonometric values are always positive regardless of the quadrant."
-    remediation: "Reinforce the 'All-Science-Teachers-Crazy' or 'ADD-SUGAR-TO-COFFEE' mnemonic for quadrant signs."
-  - misconception: "Confusing the effects of constants 'a' (amplitude) and 'b' (period) on the graph shape."
-    remediation: "Use visual comparisons where only one constant is changed at a time to show vertical vs. horizontal stretching."
-  - misconception: "Attempting to find an amplitude for the tangent graph."
-    remediation: "Highlight that the tangent function approaches infinity and has no maximum or minimum value, therefore no amplitude."
+  common_misconceptions:
+    - misconception: "Assuming trigonometric values are always positive regardless of the quadrant."
+      remediation: "Reinforce the 'All-Science-Teachers-Crazy' or 'ADD-SUGAR-TO-COFFEE' mnemonic for quadrant signs."
+    - misconception: "Confusing the effects of constants 'a' (amplitude) and 'b' (period) on the graph shape."
+      remediation: "Use visual comparisons where only one constant is changed at a time to show vertical vs. horizontal stretching."
+    - misconception: "Attempting to find an amplitude for the tangent graph."
+      remediation: "Highlight that the tangent function approaches infinity and has no maximum or minimum value, therefore no amplitude."
 engagement_hooks:
   - "Discover how civil engineers use trigonometric graphs to model sound strength in concert halls."
   - "Explore how GPS and navigation systems rely on trigonometric calculations to pinpoint locations."

@@ -3,7 +3,7 @@ provenance: ai-assisted
 worked_examples:
   - id: WE-01
     topic: "Understanding Index Notation"
-    scenario: "Express the repeated multiplication in index form: $5 \times 5 \times 5$."
+    scenario: "Express the repeated multiplication in index form: $5 \\times 5 \\times 5$."
     difficulty: easy
     tp_level: 2
     kbat: false
@@ -20,7 +20,7 @@ worked_examples:
 
   - id: WE-02
     topic: "Laws of Indices - Multiplication"
-    scenario: "Simplify the following expression: $2^3 \times 2^2$."
+    scenario: "Simplify the following expression: $2^3 \\times 2^2$."
     difficulty: medium
     tp_level: 3
     kbat: false
@@ -37,7 +37,7 @@ worked_examples:
 
   - id: WE-03
     topic: "Solving Index Equations"
-    scenario: "Find the value of $x$ for the following equation: $3^x \times 9 = 81$."
+    scenario: "Find the value of $x$ for the following equation: $3^x \\times 9 = 81$."
     difficulty: hard
     tp_level: 5
     kbat: true

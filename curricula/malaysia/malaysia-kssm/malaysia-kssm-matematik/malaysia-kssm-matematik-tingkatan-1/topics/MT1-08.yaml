@@ -99,8 +99,11 @@ performance_standards:
     descriptor_en: "Apply appropriate knowledge and skills of lines and angles in the context of non-routine problem solving."
 
 prerequisites:
-  required:
-    - "primary-school-geometry"
+  required: []
+  recommended: []
+
+background_knowledge:
+  - "primary-school-geometry"
 
 mastery:
   minimum_score: 0.75

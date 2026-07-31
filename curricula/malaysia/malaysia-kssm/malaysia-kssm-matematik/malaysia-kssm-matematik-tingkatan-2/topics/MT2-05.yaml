@@ -81,13 +81,13 @@ teaching:
     - "Step 4: Derive pi, circumference, and area formulas."
     - "Step 5: Solve multi-step problems involving arcs and sectors."
 
-common_misconceptions:
-  - misconception: "Confusing radius and diameter."
-    remediation: "Emphasise that diameter is twice the radius and passes through the centre."
-  - misconception: "Treating pi as exactly 3.14."
-    remediation: "Explain pi as an irrational ratio, 3.14 is only an approximation."
-  - misconception: "Confusing sector and segment."
-    remediation: "Sector has two radii; segment has a chord."
+  common_misconceptions:
+    - misconception: "Confusing radius and diameter."
+      remediation: "Emphasise that diameter is twice the radius and passes through the centre."
+    - misconception: "Treating pi as exactly 3.14."
+      remediation: "Explain pi as an irrational ratio, 3.14 is only an approximation."
+    - misconception: "Confusing sector and segment."
+      remediation: "Sector has two radii; segment has a chord."
 
 engagement_hooks:
   - "Explore circular designs in architecture and traditional patterns."
@@ -102,4 +102,4 @@ mastery:
     multiplier: 2.5
 
 provenance: ai-assisted
-quality_level: 3
+quality_level: 2

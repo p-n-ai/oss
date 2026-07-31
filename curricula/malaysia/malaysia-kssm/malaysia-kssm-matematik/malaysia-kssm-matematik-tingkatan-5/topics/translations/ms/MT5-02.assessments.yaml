@@ -27,7 +27,7 @@ questions:
 
   # 2.1.2 - Peringkat dan Unsur
   - id: Q2
-    text: "Diberi matriks $P = \begin{bmatrix} 4 & -1 & 7 \\ 0 & 5 & 2 \end{bmatrix}$. Kenal pasti peringkat matriks tersebut dan unsur $a_{21}$."
+    text: "Diberi matriks $P = \\begin{bmatrix} 4 & -1 & 7 \\ 0 & 5 & 2 \\end{bmatrix}$. Kenal pasti peringkat matriks tersebut dan unsur $a_{21}$."
     difficulty: easy
     learning_objective: 2.1.2
     tp_level: 1
@@ -48,7 +48,7 @@ questions:
 
   # 2.1.3 - Kesamaan Matriks
   - id: Q3
-    text: "Tentukan nilai $x$ dan $y$ jika $\begin{bmatrix} 2x & 4 \\ 3 & y-1 \end{bmatrix} = \begin{bmatrix} 10 & 4 \\ 3 & 5 \end{bmatrix}$."
+    text: "Tentukan nilai $x$ dan $y$ jika $\\begin{bmatrix} 2x & 4 \\ 3 & y-1 \\end{bmatrix} = \\begin{bmatrix} 10 & 4 \\ 3 & 5 \\end{bmatrix}$."
     difficulty: medium
     learning_objective: 2.1.3
     tp_level: 3
@@ -71,7 +71,7 @@ questions:
 
   # 2.2.3 - Pendaraban Dua Matriks
   - id: Q4
-    text: "Hitung hasil darab bagi $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \begin{bmatrix} 5 \\ 6 \end{bmatrix}$."
+    text: "Hitung hasil darab bagi $\\begin{bmatrix} 1 & 2 \\ 3 & 4 \\end{bmatrix} \\begin{bmatrix} 5 \\ 6 \\end{bmatrix}$."
     difficulty: medium
     learning_objective: 2.2.3
     tp_level: 3
@@ -109,7 +109,7 @@ questions:
         Langkah 3: Oleh sebab penentu ialah 0, ia adalah matriks singular.
       distractors:
         - value: "[,]"
-          feedback: "Penentunya ialah $(1 \times 4) - (2 \times 3) = -2$. Matriks ini mempunyai songsangan."
+          feedback: "Penentunya ialah $(1 \\times 4) - (2 \\times 3) = -2$. Matriks ini mempunyai songsangan."
         - value: "[]"
           feedback: "Ini ialah matriks Identiti. Penentunya ialah 1, jadi ia pasti mempunyai songsangan."
     marks: 2

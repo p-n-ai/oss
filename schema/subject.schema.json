@@ -2,31 +2,36 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/p-n-ai/oss/schema/subject.schema.json",
   "title": "Subject",
-  "description": "A subject grouping within a syllabus",
+  "description": "A subject declared by a syllabus.",
   "type": "object",
-  "required": ["id", "name", "syllabus_id", "topics"],
+  "required": [
+    "id",
+    "name",
+    "name_en",
+    "syllabus_id",
+    "country_id",
+    "language",
+    "provenance",
+    "generated_at"
+  ],
   "properties": {
-    "id": {
+    "id": { "$ref": "#/$defs/nonEmptyString" },
+    "name": { "$ref": "#/$defs/nonEmptyString" },
+    "name_en": { "$ref": "#/$defs/nonEmptyString" },
+    "syllabus_id": { "$ref": "#/$defs/nonEmptyString" },
+    "country_id": { "$ref": "#/$defs/nonEmptyString" },
+    "language": { "$ref": "#/$defs/nonEmptyString" },
+    "provenance": { "$ref": "#/$defs/nonEmptyString" },
+    "generated_at": {
       "type": "string",
-      "description": "Unique subject identifier (e.g., malaysia-kssm-matematik-tingkatan-1)"
-    },
-    "name": {
-      "type": "string",
-      "description": "Subject name in the primary language of the curriculum"
-    },
-    "syllabus_id": {
-      "type": "string",
-      "description": "Reference to parent syllabus ID"
-    },
-    "description": {
-      "type": "string",
-      "description": "Brief description of what this subject covers"
-    },
-    "topics": {
-      "type": "array",
-      "items": { "type": "string" },
-      "description": "Ordered list of topic IDs belonging to this subject, in recommended teaching sequence"
+      "format": "date-time"
     }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
 }

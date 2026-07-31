@@ -8,7 +8,7 @@ worked_examples:
     difficulty: easy
     tp_level: 2
     kbat: false
-    learning_objective: "5.1.1: Differentiate between congruent and non-congruent shapes based on sides and angles."
+    learning_objective: "5.1.1"
     real_world_analogy: "Think of the windows on the Terengganu Drawbridge. They are all made from the same mold; if you take one and slide or rotate it, it fits perfectly onto another. They are congruent."
     misconception_alert: "Don't be fooled by orientation! A triangle is still congruent to another if its sides and angles match, even if it has been flipped or rotated."
     scenario: "Determine if $\\triangle ABC$ and $\\triangle PQR$ are congruent. $\\triangle ABC$ has sides $5\\text{ cm}, 12\\text{ cm}, 13\\text{ cm}$ and a right angle. $\\triangle PQR$ has sides $5\\text{ cm}, 12\\text{ cm}, 13\\text{ cm}$ and a right angle, but it is rotated $90^{\\circ}$."
@@ -25,7 +25,7 @@ worked_examples:
     difficulty: medium
     tp_level: 4
     kbat: true
-    learning_objective: "5.2.4: Make and verify conjecture on the relation between area of the image and area of the object of an enlargement."
+    learning_objective: "5.2.4"
     real_world_analogy: "Imagine a square mosaic tile. If you double the length and width ($k=2$), you don't just get two tiles' worth of area; you need $2^2 = 4$ tiles to fill the new space!"
     misconception_alert: "The $k^2$ Trap! Many students think that if the sides double, the area doubles. Remember: Area of image = $k^2 \\times$ Area of object."
     scenario: "A logo with an area of $20\\text{ cm}^2$ is enlarged with a scale factor of $k = -3$. Calculate the area of the enlarged image logo."
@@ -42,7 +42,7 @@ worked_examples:
     difficulty: hard
     tp_level: 5
     kbat: true
-    learning_objective: "5.3.4: Solve problems involving combined transformation."
+    learning_objective: "5.3.4"
     real_world_analogy: "A dance move sequence labeled 'AB' where B is 'Slide Left' and A is 'Spin'. You MUST do the Slide (B) before the Spin (A) to end up at the right spot on stage."
     misconception_alert: "The Reverse Alphabet Trap! In a combined transformation $AB$, transformation $B$ is always performed FIRST, followed by transformation $A$."
     scenario: "Point $M(1, 4)$ undergoes combined transformation $RS$. $S$ is a reflection in the line $x = 3$ and $R$ is a translation $\\begin{pmatrix} 2 \\\\ -1 \\\\end{pmatrix}$. Find the final image of $M$."
@@ -62,7 +62,7 @@ worked_examples:
     difficulty: hard
     tp_level: 6
     kbat: true
-    learning_objective: "5.4.2: Design tessellation involving isometric transformation."
+    learning_objective: "5.4.2"
     real_world_analogy: "Malaysian Batik patterns! A single small motif is repeated through reflection and translation to cover the whole cloth without any empty gaps."
     misconception_alert: "A pattern is only a tessellation if there are ZERO gaps and ZERO overlaps. If the shapes don't fit perfectly, it's just a regular drawing."
     scenario: "Explain how a single equilateral triangle can be used to create a tessellation using only rotation and translation."

@@ -4,7 +4,7 @@ worked_examples:
     topic: "Mewakilkan Maklumat dalam Bentuk Matriks"
     difficulty: easy
     tp_level: 2
-    learning_objective: "2.1.1: Mewakilkan maklumat situasi sebenar dalam bentuk matriks."
+    learning_objective: "2.1.1"
     real_world_analogy: "Bayangkan matriks seperti dulang kotak coklat. Setiap ruang ada tempat khas untuk perisa tertentu, dan seluruh dulang disusun mengikut baris dan lajur supaya kilang tahu apa di dalamnya."
     misconception_alert: "Perangkap 'B-L'! Pelajar selalu keliru antara baris (mengufuk) dan lajur (menegak). Sentiasa ingat 'Baris dulu, Lajur kemudian' (B-L)."
     scenario: "Koperasi sekolah menjual dua jenis pen: Biru dan Hitam. Pada hari Isnin, mereka menjual 15 pen Biru dan 10 pen Hitam. Pada hari Selasa, mereka menjual 12 pen Biru dan 18 pen Hitam. Wakilkan data jualan ini dalam matriks di mana baris mewakili hari."
@@ -20,10 +20,10 @@ worked_examples:
     topic: "Pendaraban Dua Matriks"
     difficulty: medium
     tp_level: 3
-    learning_objective: "2.2.3: Mendarab dua matriks."
+    learning_objective: "2.2.3"
     real_world_analogy: "Bayangkan 'Bentuk-7'. Baris pertama 'berenang' mendatar, kemudian 'terjun' ke bawah mengikut lajur."
     misconception_alert: "Jangan darab nombor pada posisi yang sama macam operasi tambah! Matriks ada peraturan darab tersendiri."
-    scenario: "Hitung hasil darab $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} \begin{bmatrix} 5 \\ 6 \end{bmatrix}$."
+    scenario: "Hitung hasil darab $\\begin{bmatrix} 1 & 2 \\ 3 & 4 \\end{bmatrix} \\begin{bmatrix} 5 \\ 6 \\end{bmatrix}$."
     working: |
       Langkah 1: Semak peringkat. $(2 \times 2)$ darab $(2 \times 1)$. Angka dalam sama (2), maka boleh darab.
       Langkah 2: Baris 1 darab Lajur 1: $(1 \times 5) + (2 \times 6) = 5 + 12 = 17$.
@@ -35,7 +35,7 @@ worked_examples:
     difficulty: hard
     tp_level: 5
     kbat: true
-    learning_objective: "2.2.6: Menggunakan kaedah matriks untuk menyelesaikan persamaan linear serentak."
+    learning_objective: "2.2.6"
     real_world_analogy: "'Kunci Ajaib'. Matriks $A$ adalah 'mangga' pada pemboleh ubah kita $x$ dan $y$. Untuk membukanya, kita cari Matriks Songsang $A^{-1}$, yang bertindak sebagai 'kunci' untuk menyelesaikan misteri di sebelah sana."
     misconception_alert: "Perangkap 'Penentu Sifar'! Sentiasa semak penentu $(ad - bc)$ dahulu. Jika ia adalah 0, 'mangga' telah rosak dan tiada penyelesaian unik wujud (Matriks Singular)."
     scenario: "Di sebuah warung tempatan, harga bagi 2 Nasi Lemak dan 1 Teh Tarik ialah RM7. Harga bagi 1 Nasi Lemak dan 3 Teh Tarik ialah RM6. Selesaikan harga untuk satu Nasi Lemak ($x$) dan satu Teh Tarik ($y$) menggunakan kaedah matriks."

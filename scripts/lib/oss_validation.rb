@@ -8,6 +8,36 @@ module OssValidation
   ROOT = Pathname(__dir__).join("..", "..").expand_path
   CURRICULA_ROOT = ROOT.join("curricula")
   CONCEPTS_ROOT = ROOT.join("concepts")
+  TAXONOMY_ROOT = ROOT.join("taxonomy")
+  TOPIC_ID_PATTERN = /\A[A-Z]{2,3}[0-9]+-[0-9]{2}\z/
+
+  EXPECTED_INVENTORY = {
+    syllabus: 1,
+    subject: 3,
+    subject_grade: 15,
+    topic: 152,
+    topic_variant: 53,
+    assessment: 115,
+    assessment_variant: 53,
+    example: 115,
+    example_variant: 53,
+    concept: 2,
+    taxonomy: 0
+  }.freeze
+
+  SCHEMAS = {
+    syllabus: "schema/syllabus.schema.json",
+    subject: "schema/subject.schema.json",
+    subject_grade: "schema/subject-grade.schema.json",
+    topic: "schema/topic.schema.json",
+    topic_variant: "schema/topic-variant.schema.json",
+    assessment: "schema/assessments.schema.json",
+    assessment_variant: "schema/assessments.schema.json",
+    example: "schema/examples.schema.json",
+    example_variant: "schema/examples.schema.json",
+    concept: "schema/concept.schema.json",
+    taxonomy: "schema/taxonomy.schema.json"
+  }.freeze
 
   module_function
 
@@ -20,47 +50,175 @@ module OssValidation
     raise "#{path}: YAML parse failed: #{error.message}"
   end
 
-  def topic_files
-    Dir.glob(CURRICULA_ROOT.join("**", "*.yaml").to_s).map do |raw_path|
-      path = Pathname(raw_path)
-      next if path.basename.to_s == "syllabus.yaml"
-      next if path.to_s.include?("/subjects/")
-      next if path.basename.to_s.include?(".assessments.")
-      next if path.basename.to_s.include?(".examples.")
+  def content_yaml_files
+    [CURRICULA_ROOT, CONCEPTS_ROOT, TAXONOMY_ROOT].flat_map do |root|
+      next [] unless root.exist?
 
-      path
-    end.compact.sort
+      Dir.glob(root.join("**", "*.{yaml,yml}").to_s).map { |path| Pathname(path) }
+    end.sort
+  end
+
+  def artifact_type(path)
+    path = Pathname(path).expand_path
+    relative = path.relative_path_from(ROOT)
+    parts = relative.each_filename.to_a
+    basename = path.basename.to_s
+
+    return :concept if parts.first == "concepts"
+    return :taxonomy if parts.first == "taxonomy"
+    return nil unless parts.first == "curricula"
+    return :syllabus if basename == "syllabus.yaml"
+    return :subject if basename == "subject.yaml"
+    return :subject_grade if basename == "subject-grade.yaml"
+
+    topics_index = parts.index("topics")
+    return nil if topics_index.nil?
+
+    variant = parts[topics_index + 1] == "translations"
+    return variant ? :assessment_variant : :assessment if basename.end_with?(".assessments.yaml")
+    return variant ? :example_variant : :example if basename.end_with?(".examples.yaml")
+
+    variant ? :topic_variant : :topic
+  rescue ArgumentError
+    nil
+  end
+
+  def artifact_groups
+    groups = Hash.new { |hash, key| hash[key] = [] }
+    content_yaml_files.each { |path| groups[artifact_type(path)] << path }
+    groups.each_value(&:sort!)
+    groups
+  end
+
+  def files_for(type)
+    artifact_groups.fetch(type, [])
   end
 
   def syllabus_files
-    Dir.glob(CURRICULA_ROOT.join("**", "syllabus.yaml").to_s).map { |path| Pathname(path) }.sort
+    files_for(:syllabus)
   end
 
   def subject_files
-    Dir.glob(CURRICULA_ROOT.join("**", "*.yaml").to_s).map do |raw_path|
-      path = Pathname(raw_path)
-      path if path.to_s.include?("/subjects/")
-    end.compact.sort
+    files_for(:subject)
+  end
+
+  def subject_grade_files
+    files_for(:subject_grade)
+  end
+
+  def topic_files
+    files_for(:topic)
+  end
+
+  def topic_variant_files
+    files_for(:topic_variant)
+  end
+
+  def assessment_files
+    files_for(:assessment)
+  end
+
+  def assessment_variant_files
+    files_for(:assessment_variant)
+  end
+
+  def example_files
+    files_for(:example)
+  end
+
+  def example_variant_files
+    files_for(:example_variant)
   end
 
   def concept_files
-    return [] unless CONCEPTS_ROOT.exist?
+    files_for(:concept)
+  end
 
-    Dir.glob(CONCEPTS_ROOT.join("**", "*.yaml").to_s).map { |path| Pathname(path) }.sort
+  def taxonomy_files
+    files_for(:taxonomy)
+  end
+
+  def schema_for(path)
+    type = artifact_type(path)
+    schema = SCHEMAS[type]
+    schema && ROOT.join(schema)
+  end
+
+  def relative_path(path)
+    Pathname(path).expand_path.relative_path_from(ROOT).to_s
+  end
+
+  def inventory_errors
+    groups = artifact_groups
+    errors = []
+    unclassified = groups.fetch(nil, [])
+    unless unclassified.empty?
+      errors << "unclassified YAML: #{unclassified.map { |path| relative_path(path) }.join(', ')}"
+    end
+
+    EXPECTED_INVENTORY.each do |type, expected|
+      actual = groups.fetch(type, []).length
+      next if actual == expected
+
+      errors << "#{type}: expected #{expected}, found #{actual}"
+    end
+
+    classified_count = EXPECTED_INVENTORY.keys.sum { |type| groups.fetch(type, []).length }
+    expected_total = EXPECTED_INVENTORY.values.sum
+    errors << "total: expected #{expected_total}, found #{classified_count}" unless classified_count == expected_total
+    errors
   end
 
   def linked_file(topic_path, relative_path)
     return nil if relative_path.nil? || relative_path.empty?
 
-    topic_path.dirname.join(relative_path)
+    Pathname(topic_path).dirname.join(relative_path)
   end
 
-  def topic_key(syllabus_id, topic_id)
-    "#{syllabus_id}::#{topic_id}"
+  def canonical_path_for_variant(path)
+    path = Pathname(path).expand_path
+    parts = path.relative_path_from(ROOT).each_filename.to_a
+    topics_index = parts.index("topics")
+    return nil unless topics_index && parts[topics_index + 1] == "translations"
+    return nil if parts.length <= topics_index + 3
+
+    ROOT.join(*parts[0..topics_index]).join(*parts[(topics_index + 3)..])
+  end
+
+  def locale_for_variant(path)
+    parts = Pathname(path).each_filename.to_a
+    topics_index = parts.index("topics")
+    return nil unless topics_index && parts[topics_index + 1] == "translations"
+
+    parts[topics_index + 2]
+  end
+
+  def prerequisite_id(reference)
+    case reference
+    when String
+      reference if TOPIC_ID_PATTERN.match?(reference)
+    when Hash
+      topic_id = reference["id"]
+      topic_id if topic_id.is_a?(String) && TOPIC_ID_PATTERN.match?(topic_id)
+    end
+  end
+
+  def prerequisite_ids(data)
+    prerequisites = data["prerequisites"]
+    return { "required" => [], "recommended" => [] } unless prerequisites.is_a?(Hash)
+
+    {
+      "required" => Array(prerequisites["required"]).map { |reference| prerequisite_id(reference) },
+      "recommended" => Array(prerequisites["recommended"]).map { |reference| prerequisite_id(reference) }
+    }
+  end
+
+  def topic_key(_syllabus_id, topic_id)
+    topic_id
   end
 
   def syllabus_family_root(path)
-    path.parent.parent
+    Pathname(path).dirname
   end
 
   def build_syllabus_catalog
@@ -84,6 +242,7 @@ module OssValidation
         "id" => syllabus_id,
         "path" => path,
         "family_root" => syllabus_family_root(path),
+        "country_id" => data["country_id"],
         "subjects" => Array(data["subjects"])
       }
     end
@@ -101,30 +260,29 @@ module OssValidation
       topic_id = data["id"]
       syllabus_id = data["syllabus_id"]
       subject_id = data["subject_id"]
-      next if [topic_id, syllabus_id, subject_id].any? { |value| value.nil? || value.empty? }
+      subject_grade_id = data["subject_grade_id"] || subject_id
+      next if topic_id.nil? || topic_id.empty?
 
       syllabus = syllabi[syllabus_id]
-      key = topic_key(syllabus_id, topic_id)
-      if topics.key?(key)
+      if topics.key?(topic_id)
         duplicates << {
-          "topic_key" => key,
-          "syllabus_id" => syllabus_id,
           "topic_id" => topic_id,
-          "paths" => [topics.fetch(key).fetch("path"), path]
+          "paths" => [topics.fetch(topic_id).fetch("path"), path]
         }
         next
       end
 
       topic = {
-        "key" => key,
+        "key" => topic_id,
         "path" => path,
         "topic_id" => topic_id,
         "syllabus_id" => syllabus_id,
         "subject_id" => subject_id,
-        "family_root" => syllabus ? syllabus.fetch("family_root") : path.parent.parent.parent.parent
+        "subject_grade_id" => subject_grade_id,
+        "family_root" => syllabus ? syllabus.fetch("family_root") : path
       }
 
-      topics[topic.fetch("key")] = topic
+      topics[topic_id] = topic
       topics_by_id[topic_id] << topic
     end
 
@@ -132,26 +290,15 @@ module OssValidation
   end
 
   def render_topic_reference(topic)
-    "#{topic.fetch('syllabus_id')}:#{topic.fetch('topic_id')}"
+    syllabus_id = topic["syllabus_id"]
+    topic_id = topic.fetch("topic_id")
+    syllabus_id.nil? || syllabus_id.empty? ? topic_id : "#{syllabus_id}:#{topic_id}"
   end
 
   def resolve_topic_reference(topic_id:, from_topic:, topics_by_id:)
+    _ = from_topic
     candidates = topics_by_id.fetch(topic_id, [])
     return { "status" => "missing", "matches" => [] } if candidates.empty?
-
-    same_family_and_subject = candidates.select do |candidate|
-      candidate.fetch("family_root") == from_topic.fetch("family_root") &&
-        candidate.fetch("subject_id") == from_topic.fetch("subject_id")
-    end
-    return { "status" => "ok", "topic" => same_family_and_subject.first } if same_family_and_subject.length == 1
-    return { "status" => "ambiguous", "matches" => same_family_and_subject } if same_family_and_subject.length > 1
-
-    same_family = candidates.select do |candidate|
-      candidate.fetch("family_root") == from_topic.fetch("family_root")
-    end
-    return { "status" => "ok", "topic" => same_family.first } if same_family.length == 1
-    return { "status" => "ambiguous", "matches" => same_family } if same_family.length > 1
-
     return { "status" => "ok", "topic" => candidates.first } if candidates.length == 1
 
     { "status" => "ambiguous", "matches" => candidates }
@@ -165,13 +312,12 @@ module OssValidation
   end
 
   def translation_exists?(topic_path)
-    syllabus_root = topic_path.parent.parent.parent
-    locales_root = syllabus_root.join("locales")
-    return false unless locales_root.exist?
+    topic_path = Pathname(topic_path)
+    translations_root = topic_path.dirname.join("translations")
+    return false unless translations_root.exist?
 
-    relative_path = topic_path.relative_path_from(syllabus_root)
-    locales_root.each_child.any? do |locale_dir|
-      locale_dir.directory? && locale_dir.join(relative_path).exist?
+    translations_root.each_child.any? do |locale_dir|
+      locale_dir.directory? && locale_dir.join(topic_path.basename).exist?
     end
   end
 end

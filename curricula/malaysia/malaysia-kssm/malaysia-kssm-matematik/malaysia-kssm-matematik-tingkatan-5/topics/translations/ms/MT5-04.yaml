@@ -33,11 +33,12 @@ learning_objectives:
 
 prerequisites:
   required:
-    - id: "MT1-04" # Nisbah, Kadar dan Kadaran (Peratusan)
-    - id: "MT3-03" # Matematik Pengguna: Simpanan dan Pelaburan, Kredit dan Hutang
-  bloom_levels:
-    - "understand"
-    - "apply"
+    - "MT1-04" # Nisbah, Kadar dan Kadaran (Peratusan)
+    - "MT3-03" # Matematik Pengguna: Simpanan dan Pelaburan, Kredit dan Hutang
+
+bloom_levels:
+  - "understand"
+  - "apply"
 
 mastery:
   minimum_score: 0.75

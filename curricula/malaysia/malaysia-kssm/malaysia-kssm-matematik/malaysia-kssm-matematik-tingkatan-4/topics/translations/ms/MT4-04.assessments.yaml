@@ -10,6 +10,7 @@ questions:
     tp_level: 1
     kbat: false
     answer:
+      type: multiple_choice
       value: "P ∩ Q"
       working: |
         Persilangan set P and Q ialah set unsur yang sama bagi kedua-dua set. 
@@ -23,7 +24,8 @@ questions:
           feedback: "Ini adalah simbol bagi pelengkap, yang mewakili unsur yang BUKAN dalam set P."
     marks: 1
     hints:
-      - "Gunakan mnemonik: 'n' bermaksud 'daN' atau persilangan (intersection)."
+      - level: 1
+        text: "Gunakan mnemonik: 'n' bermaksud 'daN' atau persilangan (intersection)."
 
   # TP2: Pemahaman (4.2.1)
   - id: Q2
@@ -35,20 +37,23 @@ questions:
     kbat: false
     answer:
       type: matching
-      value:
-        - ["A ∪ B", "Keseluruhan kawasan di dalam bulatan A dan bulatan B."]
-        - ["A ∩ B", "Hanya kawasan pertindihan di mana bulatan A dan B bertemu."]
+      pairs:
+        - left: "A ∪ B"
+          right: "Keseluruhan kawasan di dalam bulatan A dan bulatan B."
+        - left: "A ∩ B"
+          right: "Hanya kawasan pertindihan di mana bulatan A dan B bertemu."
       working: |
         Kesatuan (∪) bermaksud 'Gabung' – lorek semua dalam kedua-dua bulatan.
         Persilangan (∩) bermaksud 'Sepunya' – lorek hanya kawasan pertindihan.
     marks: 2
     hints:
-      - "Kesatuan adalah seperti parti di mana semua orang dijemput; persilangan adalah seperti mesyuarat di mana hanya ahli kedua-dua kelab hadir."
+      - level: 1
+        text: "Kesatuan adalah seperti parti di mana semua orang dijemput; persilangan adalah seperti mesyuarat di mana hanya ahli kedua-dua kelab hadir."
 
   # TP3: Aplikasi (4.1.2)
   - id: Q3
     type: subjective
-    text: "Diberi set semesta $\xi = \{x : x \text{ ialah integer, } 1 \leq x \leq 10\}$, set $A = \{2, 3, 5, 7\}$ dan set $B = \{1, 3, 5, 7, 9\}$. Tentukan $(A \cap B)'$."
+    text: "Diberi set semesta $\\xi = \\{x : x \\text{ ialah integer, } 1 \\leq x \\leq 10\\}$, set $A = \\{2, 3, 5, 7\\}$ dan set $B = \\{1, 3, 5, 7, 9\\}$. Tentukan $(A \\cap B)'$."
     difficulty: medium
     learning_objective: "4.1.2"
     tp_level: 3
@@ -64,16 +69,19 @@ questions:
     marks: 3
     rubric:
       - marks: 1
-        criteria: "Mengenal pasti $A \cap B$ sebagai $\{3, 5, 7\}$ dengan betul."
+        criteria: "Mengenal pasti $A \\cap B$ sebagai $\\{3, 5, 7\\}$ dengan betul."
       - marks: 2
         criteria: "Mengenal pasti unsur pelengkap daripada set semesta dengan betul."
     hints:
-      - "Mula-mula, cari persilangan (unsur yang sama). Kemudian, lihat senarai 'Semesta' dan potong unsur sepunya tersebut."
+      - level: 1
+        text: "Mula-mula, cari persilangan (unsur yang sama). Kemudian, lihat senarai 'Semesta' dan potong unsur sepunya tersebut."
 
   # TP4: Penyelesaian Masalah Rutin Mudah (4.2.3)
   - id: Q4
     type: subjective
-    text: "Dalam satu tinjauan terhadap 40 murid, 25 murid bermain bola sepak (F) dan 18 murid bermain badminton (B). Jika 7 murid bermain kedua-dua sukan, hitung bilangan murid yang tidak bermain mana-mana sukan tersebut."
+    text: >-
+      Dalam satu tinjauan terhadap 40 murid, 25 murid bermain bola sepak (F) dan 18 murid bermain badminton (B). Jika
+      7 murid bermain kedua-dua sukan, hitung bilangan murid yang tidak bermain mana-mana sukan tersebut.
     difficulty: medium
     learning_objective: "4.2.3"
     tp_level: 4
@@ -91,16 +99,17 @@ questions:
       - marks: 2
         criteria: "Mengenal pasti bilangan murid dalam setiap rantau rajah Venn dengan betul."
       - marks: 1
-        criteria: "Mengira jumlah kesatuan $n(F \cup B)$ dengan betul."
+        criteria: "Mengira jumlah kesatuan $n(F \\cup B)$ dengan betul."
       - marks: 1
         criteria: "Jawapan akhir mengenal pasti pelengkap dengan betul."
     hints:
-      - "Lukis rajah Venn! Masukkan angka '7' di kawasan pertindihan tengah dahulu, kemudian tolak angka itu daripada jumlah Bola Sepak dan Badminton."
+      - level: 1
+        text: "Lukis rajah Venn! Masukkan angka '7' di kawasan pertindihan tengah dahulu, kemudian tolak angka itu daripada jumlah Bola Sepak dan Badminton."
 
   # TP5: Penyelesaian Masalah Rutin Kompleks (4.3.3)
   - id: Q5
     type: subjective
-    text: "Diberi $\xi = \{x : x \text{ ialah integer, } 10 \leq x \leq 20\}$, $P = \{x : x \text{ ialah gandaan 2}\}$, $Q = \{x : x \text{ ialah gandaan 3}\}$, dan $R = \{11, 13, 17, 19\}$. Cari $n(P \cup Q)' \cap R$."
+    text: "Diberi $\\xi = \\{x : x \\text{ ialah integer, } 10 \\leq x \\leq 20\\}$, $P = \\{x : x \\text{ ialah gandaan 2}\\}$, $Q = \\{x : x \\text{ ialah gandaan 3}\\}$, dan $R = \\{11, 13, 17, 19\\}$. Cari $n(P \\cup Q)' \\cap R$."
     difficulty: hard
     learning_objective: "4.3.3"
     tp_level: 5
@@ -120,13 +129,14 @@ questions:
       - marks: 2
         criteria: "Menyenaraikan set P, Q, dan set Semesta dengan betul."
       - marks: 1
-        criteria: "Mencari kesatuan $P \cup Q$ dengan betul."
+        criteria: "Mencari kesatuan $P \\cup Q$ dengan betul."
       - marks: 1
         criteria: "Mengenal pasti persilangan set akhir dengan betul."
       - marks: 1
         criteria: "Menyatakan bilangan unsur (n) sebagai jawapan akhir."
     hints:
-      - "Selesaikan dari dalam ke luar. Selesaikan kesatuan dalam kurungan dahulu, cari pelengkapnya (TIDAK dalam kesatuan), dan akhirnya cari yang mana antara itu ada dalam R."
+      - level: 1
+        text: "Selesaikan dari dalam ke luar. Selesaikan kesatuan dalam kurungan dahulu, cari pelengkapnya (TIDAK dalam kesatuan), dan akhirnya cari yang mana antara itu ada dalam R."
 
   # TP6: Penyelesaian Masalah Bukan Rutin (4.3.3)
   - id: Q6
@@ -155,4 +165,5 @@ questions:
       - marks: 2
         criteria: "Memberikan kesimpulan logik dengan membandingkan hasil dengan separuh jumlah ahli."
     hints:
-      - "Anda perlu mencari jumlah ahli yang berada dalam kawasan 'kelopak' rajah Venn yang bertindih. Gunakan formula kesatuan tiga set!"
+      - level: 1
+        text: "Anda perlu mencari jumlah ahli yang berada dalam kawasan 'kelopak' rajah Venn yang bertindih. Gunakan formula kesatuan tiga set!"

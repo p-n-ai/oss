@@ -60,7 +60,7 @@ worked_examples:
     topic: "Loan Repayment (Flat Interest)"
     difficulty: "medium"
     real_world_analogy: "Flat interest is like a fixed entry fee. No matter how much of the loan you pay back early, the bank calculates the 'fee' based on the very first day you walked in."
-    misconception_alert: "The 'Time-Unit' Trap. In the formula $A = P + Prt$, $t$ MUST be in years. If the loan is for 84 months, you must convert it: $\frac{84}{12} = 7$ years."
+    misconception_alert: "The 'Time-Unit' Trap. In the formula $A = P + Prt$, $t$ MUST be in years. If the loan is for 84 months, you must convert it: $\\frac{84}{12} = 7$ years."
     scenario: "Encik Azlan obtained a personal loan of RM10,000 with a flat interest rate of 4% per annum for 7 years. Calculate his monthly installment."
     working: |
       1. Identify: $P = 10000$, $r = 0.04$, $t = 7$.

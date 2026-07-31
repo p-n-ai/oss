@@ -30,11 +30,11 @@ questions:
       - level: 3
         text: "MISCONCEPTION ALERT: Homeostasis bukan hanya tentang suhu badan, tetapi juga melibatkan aspek lain seperti pH dan tekanan darah."
 
-  # Learning Objective: 3.1.3 (understand): menjelaskan dengan contoh sistem yang terlibat dengan homeostasis dalam manusia dan haiwan.
+  # Learning Objective: 3.1.2 (understand): menjelaskan dengan contoh sistem yang terlibat dengan homeostasis dalam manusia dan haiwan.
   - id: Q2
     text: "Apakah sistem badan yang terlibat dalam pengawalan suhu badan manusia? Terangkan fungsinya."
     difficulty: medium
-    learning_objective: 3.1.3
+    learning_objective: 3.1.2
     tp_level: 3
     kbat: false
     answer:
@@ -116,11 +116,11 @@ questions:
       - level: 3
         text: "MISCONCEPTION ALERT: Homeostasis tidak hanya berkaitan dengan satu jenis penyakit sahaja."
 
-  # Learning Objective: 3.1.5 (evaluate): Menghargai kepentingan homeostasis kepada manusia dan benda hidup.
+  # Learning Objective: 3.1.4 (evaluate): Menghargai kepentingan homeostasis kepada manusia dan benda hidup.
   - id: Q5
     text: "Bagaimanakah perubahan persekitaran yang ekstrem boleh menjejaskan homeostasis dalam organisma?"
     difficulty: medium
-    learning_objective: 3.1.5
+    learning_objective: 3.1.4
     tp_level: 4
     kbat: true
     answer:

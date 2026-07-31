@@ -33,6 +33,11 @@ questions:
     answer:
       type: "multiple_choice"
       value: "a"
+      options:
+        a: "Cukai Pintu"
+        b: "Cukai Tanah"
+        c: "Cukai Perkhidmatan"
+        d: "Cukai Pendapatan"
       working: |
         Langkah 1: Kenal pasti pihak yang mengutip (MPSJ = Pihak Berkuasa Tempatan).
         Langkah 2: Kenal pasti tujuan (Perkhidmatan bandar/pembersihan longkang).
@@ -44,11 +49,6 @@ questions:
           feedback: "Salah. Cukai Perkhidmatan dikenakan ke atas perkhidmatan seperti hotel atau telekomunikasi, bukan ke atas pemilikan hartanah."
         - value: "d"
           feedback: "Salah. Cukai Pendapatan dibayar kepada LHDN berdasarkan gaji, bukan kepada majlis perbandaran berdasarkan pemilikan rumah."
-    options:
-      a: "Cukai Pintu"
-      b: "Cukai Tanah"
-      c: "Cukai Perkhidmatan"
-      d: "Cukai Pendapatan"
     marks: 1
     hints:
       - level: 1

@@ -1,7 +1,8 @@
 id: MT4-01
 official_ref: "1.0"
 name: "Quadratic Functions and Equations in One Variable"
-subject_id: malaysia-kssm-matematik-tingkatan-4
+subject_grade_id: malaysia-kssm-matematik-tingkatan-4
+subject_id: malaysia-kssm-matematik
 syllabus_id: malaysia-kssm
 country_id: malaysia
 language: en
@@ -71,13 +72,13 @@ teaching:
     - "Step 4: Modeling real-world situations into quadratic forms (Textbook p. 15)."
     - "Step 5: Visualizing and solving for roots via graphing and factorization (Textbook p. 16-23)."
     - "Step 6: Mastering graph sketching and complex problem solving (Textbook p. 23-29)."
-common_misconceptions:
-  - misconception: "Confusing quadratic expressions with linear ones due to the presence of 'x'."
-    remediation: "Emphasize that a quadratic MUST have a power of 2 as the highest power."
-  - misconception: "Thinking the value of 'c' changes the width or shape of the parabola."
-    remediation: "Demonstrate that 'c' only shifts the graph vertically (y-intercept)."
-  - misconception: "Misidentifying the axis of symmetry as the roots of the equation."
-    remediation: "Clarify that the axis of symmetry is the center-line x = -b/2a, while roots are x-intercepts."
+  common_misconceptions:
+    - misconception: "Confusing quadratic expressions with linear ones due to the presence of 'x'."
+      remediation: "Emphasize that a quadratic MUST have a power of 2 as the highest power."
+    - misconception: "Thinking the value of 'c' changes the width or shape of the parabola."
+      remediation: "Demonstrate that 'c' only shifts the graph vertically (y-intercept)."
+    - misconception: "Misidentifying the axis of symmetry as the roots of the equation."
+      remediation: "Clarify that the axis of symmetry is the center-line x = -b/2a, while roots are x-intercepts."
 engagement_hooks:
   - "Relate the parabolic curve to the trajectory of a badminton shuttlecock or a football free kick."
   - "Discuss the architectural mathematics behind curved bridge structures like those in Putrajaya."

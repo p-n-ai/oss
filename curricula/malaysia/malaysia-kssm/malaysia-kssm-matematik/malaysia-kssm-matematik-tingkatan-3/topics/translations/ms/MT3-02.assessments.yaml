@@ -25,7 +25,8 @@ questions:
           feedback: "Hati-hati dengan 'Perangkap Sifar'! Sifar di antara nombor dan di hujung perpuluhan sebenarnya memberikan maklumat ketepatan."
     marks: 1
     hints:
-      - "Rujuk peraturan 'Sifar Hero' pada Muka Surat 34. Adakah sifar di depan sekali dikira?"
+      - level: 1
+        text: "Rujuk peraturan 'Sifar Hero' pada Muka Surat 34. Adakah sifar di depan sekali dikira?"
 
   - id: Q2
     text: "Tentukan sama ada pernyataan berikut adalah BENAR atau PALSU: 'Dalam nombor 803,000, terdapat tepat 6 angka bererti melainkan dinyatakan sebaliknya.'"
@@ -44,7 +45,8 @@ questions:
           feedback: "Dalam integer, sifar di hujung adalah placeholder. Ia hanya menjadi bererti jika nombor itu dibundarkan secara khusus kepada tahap kejituan tersebut."
     marks: 1
     hints:
-      - "Semak peraturan untuk nombor bulat (integer) pada Muka Surat 34. Adakah sifar di hujung sentiasa dikira?"
+      - level: 1
+        text: "Semak peraturan untuk nombor bulat (integer) pada Muka Surat 34. Adakah sifar di hujung sentiasa dikira?"
 
   - id: Q3
     text: "Bundarkan $63,479$ kepada dua angka bererti."
@@ -68,8 +70,10 @@ questions:
       - marks: 1
         criteria: "Mengenal pasti '63' tetapi gagal meletakkan sifar sebagai placeholder (cth: menulis 63 sahaja)."
     hints:
-      - "Cari dua digit pertama yang 'penting'. Sekarang, tengok 'jiran' sebelah (digit ke-3). Perlu tambah 1 atau tidak?"
-      - "Jangan biarkan nombor itu 'mengecil' jadi 63! Gunakan sifar sebagai pengganti supaya nilainya kekal dalam puluh ribu."
+      - level: 1
+        text: "Cari dua digit pertama yang 'penting'. Sekarang, tengok 'jiran' sebelah (digit ke-3). Perlu tambah 1 atau tidak?"
+      - level: 2
+        text: "Jangan biarkan nombor itu 'mengecil' jadi 63! Gunakan sifar sebagai pengganti supaya nilainya kekal dalam puluh ribu."
 
   # --- Sub-bab 2.2: Bentuk Piawai ---
 
@@ -81,28 +85,29 @@ questions:
     kbat: false
     answer:
       type: multiple_choice
-      value: "$5.2 \times 10^{-5}$"
+      value: "$5.2 \\times 10^{-5}$"
       working: |
         1. Gerakkan titik perpuluhan 5 tempat ke kanan untuk dapatkan 5.2.
         2. Memandangkan kita gerak ke kanan (nombor kecil), indeks ialah -5.
       distractors:
-        - value: "$5.2 \times 10^5$"
+        - value: "$5.2 \\times 10^5$"
           feedback: "Nombor yang kurang daripada 1 mesti mempunyai indeks negatif (-) kerana ia 'mengecil' daripada asas $10^0$."
-        - value: "$52 \times 10^{-6}$"
-          feedback: "Melanggar Peraturan Emas! Pekali $A$ mesti berada antara $1 \le A < 10$."
+        - value: "$52 \\times 10^{-6}$"
+          feedback: "Melanggar Peraturan Emas! Pekali $A$ mesti berada antara $1 \\le A < 10$."
     marks: 1
     hints:
-      - "Ingat Peraturan Emas: $A$ mestilah antara 1 dan 10."
+      - level: 1
+        text: "Ingat Peraturan Emas: $A$ mestilah antara 1 dan 10."
 
   - id: Q5
-    text: "Nyatakan jarak satu nanometer, iaitu $0.000\ 000\ 001$ m, dalam **Bentuk Piawai** ($A \times 10^n$)."
+    text: "Nyatakan jarak satu nanometer, iaitu $0.000\\ 000\\ 001$ m, dalam **Bentuk Piawai** ($A \\times 10^n$)."
     difficulty: easy
     learning_objective: "2.2.1"
     tp_level: 2
     kbat: false
     answer:
       type: exact
-      value: "1 \times 10^{-9}"
+      value: "1 \\times 10^{-9}"
       working: |
         1. Gerakkan titik perpuluhan ke kanan sehingga berada selepas digit bukan sifar pertama (1).
         2. Kira bilangan lompatan: 9 tempat.
@@ -115,18 +120,20 @@ questions:
       - marks: 1
         criteria: "Pekali (1) betul tetapi nilai atau tanda indeks salah."
     hints:
-      - "Berapa banyak 'lompatan' titik perpuluhan untuk sampai ke belakang angka 1? Kira betul-betul."
-      - "Adakah nanometer itu sangat besar atau sangat kecil? Nombor yang sangat kecil sentiasa guna indeks negatif (-)."
+      - level: 1
+        text: "Berapa banyak 'lompatan' titik perpuluhan untuk sampai ke belakang angka 1? Kira betul-betul."
+      - level: 2
+        text: "Adakah nanometer itu sangat besar atau sangat kecil? Nombor yang sangat kecil sentiasa guna indeks negatif (-)."
 
   - id: Q6
-    text: "Hitung $(3.5 \times 10^4) + (2.1 \times 10^3)$. Nyatakan jawapan dalam bentuk piawai."
+    text: "Hitung $(3.5 \\times 10^4) + (2.1 \\times 10^3)$. Nyatakan jawapan dalam bentuk piawai."
     difficulty: medium
     learning_objective: "2.2.2"
     tp_level: 3
     kbat: false
     answer:
       type: exact
-      value: "3.71 \times 10^4"
+      value: "3.71 \\times 10^4"
       working: |
         Kaedah: Laraskan indeks kepada kuasa tertinggi ($10^4$).
         1. Tukar $2.1 \times 10^3$ kepada $0.21 \times 10^4$.
@@ -141,11 +148,13 @@ questions:
       - marks: 1
         criteria: "Berusaha menyelaraskan indeks tetapi salah arah pergerakan titik perpuluhan."
     hints:
-      - "Tak boleh tambah terus! Kuasa ($10^4$ dan $10^3$) tidak sama. Boleh tak awak samakan indeks dulu?"
-      - "Cuba jadikan kedua-duanya $10^4$. Apa jadi pada perpuluhan $2.1$ bila indeksnya naik?"
+      - level: 1
+        text: "Tak boleh tambah terus! Kuasa ($10^4$ dan $10^3$) tidak sama. Boleh tak awak samakan indeks dulu?"
+      - level: 2
+        text: "Cuba jadikan kedua-duanya $10^4$. Apa jadi pada perpuluhan $2.1$ bila indeksnya naik?"
 
   - id: Q7
-    text: "Satu rim kertas mengandungi 800 helai kertas. Ketebalan sehelai kertas ialah $9.4 \times 10^{-3}$ cm. Jika satu timbunan $n$ rim kertas adalah seinggi $225.6$ cm, hitung nilai $n$."
+    text: "Satu rim kertas mengandungi 800 helai kertas. Ketebalan sehelai kertas ialah $9.4 \\times 10^{-3}$ cm. Jika satu timbunan $n$ rim kertas adalah seinggi $225.6$ cm, hitung nilai $n$."
     difficulty: hard
     learning_objective: "2.2.3"
     tp_level: 5
@@ -165,8 +174,10 @@ questions:
       - marks: 2
         criteria: "Mengira ketebalan 1 rim dengan betul tetapi gagal dalam pembahagian akhir."
     hints:
-      - "Mula-mula, cari berapa tebal SATU rim kertas. Gunakan operasi darab!"
-      - "Sekarang, berapa banyak rim yang muat dalam timbunan $225.6$ cm tu? Gunakan operasi bahagi."
+      - level: 1
+        text: "Mula-mula, cari berapa tebal SATU rim kertas. Gunakan operasi darab!"
+      - level: 2
+        text: "Sekarang, berapa banyak rim yang muat dalam timbunan $225.6$ cm tu? Gunakan operasi bahagi."
 
   - id: Q8
     text: "Sekeping kertas A4 mempunyai panjang $297$ mm dan lebar $210$ mm. Hitung luasnya dalam $m^2$ dan nyatakan jawapan dalam bentuk piawai betul kepada 3 angka bererti."
@@ -176,7 +187,7 @@ questions:
     kbat: true
     answer:
       type: exact
-      value: "6.24 \times 10^{-2}"
+      value: "6.24 \\times 10^{-2}"
       working: |
         1. Tukar mm kepada m: Panjang = $0.297$ m, Lebar = $0.210$ m.
         2. Luas = $0.297 \times 0.210 = 0.06237$ $m^2$.
@@ -189,5 +200,7 @@ questions:
       - marks: 2
         criteria: "Mengira luas dengan betul tetapi gagal menukar unit kepada $m^2$ atau gagal dalam pembundaran."
     hints:
-      - "Hati-hati! Ukuran dalam mm, tapi jawapan mahu dalam $m^2$. Bahagi 1000 untuk setiap sisi dahulu."
-      - "Selepas dapat luas, semak kemahiran 'membundar' awak. Kita hanya mahu 3 angka bererti sahaja!"
+      - level: 1
+        text: "Hati-hati! Ukuran dalam mm, tapi jawapan mahu dalam $m^2$. Bahagi 1000 untuk setiap sisi dahulu."
+      - level: 2
+        text: "Selepas dapat luas, semak kemahiran 'membundar' awak. Kita hanya mahu 3 angka bererti sahaja!"

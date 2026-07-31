@@ -164,9 +164,11 @@ questions:
     kbat: true
     answer:
       type: matching
-      value:
-        Experimental: "Based on actual trials"
-        Theoretical: "Based on sample space"
+      pairs:
+        - left: "Experimental"
+          right: "Based on actual trials"
+        - left: "Theoretical"
+          right: "Based on sample space"
       working: |
         Step 1: Experimental uses data from experiments.
         Step 2: Theoretical uses mathematical calculation.

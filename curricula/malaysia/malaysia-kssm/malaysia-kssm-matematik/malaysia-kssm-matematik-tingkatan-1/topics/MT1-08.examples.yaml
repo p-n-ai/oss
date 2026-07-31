@@ -19,9 +19,9 @@ worked_examples:
     topic: "Complementary and Supplementary Angles"
     difficulty: medium
     learning_objective: "8.1.5"
-    real_world_analogy: "A right angle is like a square corner of a book. Complementary angles are two friends who share that corner to make exactly $90^\circ$."
-    misconception_alert: "Students often flip the two: remember that 'C' in Complementary comes before 'S' in Supplementary, just like $90^\circ$ comes before $180^\circ$."
-    scenario: "In a construction plan, two angles are complementary ($sudut$ $pelengkap$). If one angle is $35^\circ$, find the value of the other angle, $x$."
+    real_world_analogy: "A right angle is like a square corner of a book. Complementary angles are two friends who share that corner to make exactly $90^\\circ$."
+    misconception_alert: "Students often flip the two: remember that 'C' in Complementary comes before 'S' in Supplementary, just like $90^\\circ$ comes before $180^\\circ$."
+    scenario: "In a construction plan, two angles are complementary ($sudut$ $pelengkap$). If one angle is $35^\\circ$, find the value of the other angle, $x$."
     working: |
       1. Identify the property: Complementary angles sum up to $90^\circ$.
       2. Set up the equation: $x + 35^\circ = 90^\circ$.
@@ -33,8 +33,8 @@ worked_examples:
     difficulty: medium
     learning_objective: "8.2.2"
     real_world_analogy: "Think of an 'X' shape made by two crossing paths. If you stand in one angle, the person directly opposite you in the 'X' is in an identical angle."
-    misconception_alert: "Students often think all four angles in an intersection are equal. This is only true if the lines are perpendicular ($90^\circ$)."
-    scenario: "Two straight lines intersect. If one of the angles is $110^\circ$, find the value of its adjacent angle ($sudut$ $bersebelahan$), $y$."
+    misconception_alert: "Students often think all four angles in an intersection are equal. This is only true if the lines are perpendicular ($90^\\circ$)."
+    scenario: "Two straight lines intersect. If one of the angles is $110^\\circ$, find the value of its adjacent angle ($sudut$ $bersebelahan$), $y$."
     working: |
       1. Identify the property: Adjacent angles on a straight line sum up to $180^\circ$.
       2. Set up the equation: $y + 110^\circ = 180^\circ$.
@@ -46,8 +46,8 @@ worked_examples:
     difficulty: hard
     learning_objective: "8.3.4"
     real_world_analogy: "Imagine the parallel railings of the Penang Bridge. If a support beam crosses them, it creates a 'Z' shape (Alternate Angles) where the inner corners are identical."
-    misconception_alert: "The 'C' shape (Interior Angles) are NOT equal; they add up to $180^\circ$. Only 'Z' (Alternate) and 'F' (Corresponding) shapes show equal angles."
-    scenario: "Two parallel lines are intersected by a transversal. An interior angle is $(2x)^\circ$ and its corresponding interior angle on the same side is $120^\circ$. Find the value of $x$."
+    misconception_alert: "The 'C' shape (Interior Angles) are NOT equal; they add up to $180^\\circ$. Only 'Z' (Alternate) and 'F' (Corresponding) shapes show equal angles."
+    scenario: "Two parallel lines are intersected by a transversal. An interior angle is $(2x)^\\circ$ and its corresponding interior angle on the same side is $120^\\circ$. Find the value of $x$."
     working: |
       1. Identify the property: Interior angles ($sudut$ $pedalaman$) on parallel lines sum up to $180^\circ$.
       2. Set up the algebraic equation: $2x + 120 = 180$.

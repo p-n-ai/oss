@@ -53,13 +53,13 @@ teaching:
     - "Langkah 4: Melukis graf asas y = sin x, y = kos x, dan y = tan x serta mengenal pasti ciri-ciri seperti nilai maksimum dan pintasan (DSKP 6.2.1)."
     - "Langkah 5: Menggunakan perisian geometri dinamik untuk memerhati kesan perubahan a, b, dan c terhadap amplitud, tempoh, dan kedudukan graf (DSKP 6.2.2)."
     - "Langkah 6: Memodelkan fenomena berkala seperti kitaran pernafasan manusia atau kedalaman air pasang surut menggunakan fungsi trigonometri (DSKP 6.2.3)."
-common_misconceptions:
-  - misconception: "Menganggap nilai trigonometri sentiasa positif tanpa mengira kedudukan sukuan."
-    remediation: "Gunakan akronim 'Semua-Saya-Tahu-Kira' untuk mengingati tanda positif/negatif dalam setiap sukuan."
-  - misconception: "Keliru antara kesan pemalar 'a' (amplitud) dan 'b' (tempoh) terhadap bentuk graf."
-    remediation: "Lakukan perbandingan visual di mana hanya satu pemalar diubah pada satu masa untuk melihat regangan menegak vs mendatar."
-  - misconception: "Cuba mencari nilai amplitud bagi graf tangen."
-    remediation: "Tekankan bahawa fungsi tangen menghampiri infiniti dan tidak mempunyai nilai maksimum atau minimum, maka tiada amplitud."
+  common_misconceptions:
+    - misconception: "Menganggap nilai trigonometri sentiasa positif tanpa mengira kedudukan sukuan."
+      remediation: "Gunakan akronim 'Semua-Saya-Tahu-Kira' untuk mengingati tanda positif/negatif dalam setiap sukuan."
+    - misconception: "Keliru antara kesan pemalar 'a' (amplitud) dan 'b' (tempoh) terhadap bentuk graf."
+      remediation: "Lakukan perbandingan visual di mana hanya satu pemalar diubah pada satu masa untuk melihat regangan menegak vs mendatar."
+    - misconception: "Cuba mencari nilai amplitud bagi graf tangen."
+      remediation: "Tekankan bahawa fungsi tangen menghampiri infiniti dan tidak mempunyai nilai maksimum atau minimum, maka tiada amplitud."
 engagement_hooks:
   - "Ketahui bagaimana jurutera menggunakan graf trigonometri dalam pembinaan dewan konsert untuk mengukur kekuatan bunyi."
   - "Teroka bagaimana sistem GPS menggunakan pengiraan trigonometri untuk menentukan lokasi yang tepat."

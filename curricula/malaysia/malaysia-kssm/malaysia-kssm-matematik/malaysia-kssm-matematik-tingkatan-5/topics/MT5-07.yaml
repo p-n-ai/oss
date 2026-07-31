@@ -56,10 +56,13 @@ performance_standards:
     descriptor: "Apply appropriate knowledge and skills to the measures of dispersion of grouped data in the context of non-routine problem solving in a creative manner."
 
 prerequisites:
-  required:
-    - "Measures of Dispersion for Ungrouped Data (Form 4 Bab 8)"
-    - "Measures of Central Tendency (Form 2 Bab 12)"
-    - "Construction of Frequency Tables"
+  required: []
+  recommended: []
+
+background_knowledge:
+  - "Measures of Dispersion for Ungrouped Data (Form 4 Bab 8)"
+  - "Measures of Central Tendency (Form 2 Bab 12)"
+  - "Construction of Frequency Tables"
 
 teaching:
   sequence:

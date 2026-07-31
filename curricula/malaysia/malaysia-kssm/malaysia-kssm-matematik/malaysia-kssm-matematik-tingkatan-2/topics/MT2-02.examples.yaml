@@ -64,7 +64,7 @@ worked_examples:
 
   - id: WE-03
     topic: "Algebraic Fractions (2.3)"
-    scenario: "Simplify the algebraic fraction equation: $\frac{3}{4r} - \frac{m}{3rs}$"
+    scenario: "Simplify the algebraic fraction equation: $\\frac{3}{4r} - \\frac{m}{3rs}$"
     difficulty: hard
     tp_level: 4
     kbat: false

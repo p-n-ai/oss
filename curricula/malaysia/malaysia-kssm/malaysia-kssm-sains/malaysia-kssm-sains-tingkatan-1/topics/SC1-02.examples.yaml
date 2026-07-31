@@ -7,7 +7,7 @@ worked_examples:
     difficulty: easy
     tp_level: 1
     kbat: false
-    learning_objective: "2.1.1: Menerangkan benda hidup dibina daripada sel yang menjalankan fungsi hidup dan mengalami pembahagian sel."
+    learning_objective: "2.1.1"
     real_world_analogy: "Cells are like tiny factories where each part has a specific role to ensure the whole system works efficiently."
     misconception_alert: "Students often think that all cells look the same and have the same parts. In reality, different cells have different structures based on their functions."
     scenario: "Explain how a cell can be compared to a factory in terms of structure and function."
@@ -25,7 +25,7 @@ worked_examples:
     difficulty: medium
     tp_level: 3
     kbat: false
-    learning_objective: "2.1.2: Menunjuk cara penyediaan slaid sel haiwan dan sel tumbuhan mengikut prosedur yang betul."
+    learning_objective: "2.1.2"
     real_world_analogy: "Preparing a cell slide is like setting up a microscope to examine a tiny world, much like setting up a telescope to explore the universe."
     misconception_alert: "A common mistake is using too much or too little staining solution, which can obscure the view of the cell structures."
     scenario: "Demonstrate the correct procedure for preparing a plant cell slide for microscopic observation."
@@ -41,7 +41,7 @@ worked_examples:
     difficulty: hard
     tp_level: 5
     kbat: true
-    learning_objective: "2.1.5: Membezakan jenis dan fungsi sel haiwan dan sel tumbuhan."
+    learning_objective: "2.1.5"
     real_world_analogy: "Comparing animal and plant cells is like comparing a smartphone to a tablet; both have similar core functions but different features and uses."
     misconception_alert: "It is often misunderstood that plant cells and animal cells are identical, whereas they have distinct structures and functions."
     scenario: "Analyze the differences in structure and function between an animal cell and a plant cell."

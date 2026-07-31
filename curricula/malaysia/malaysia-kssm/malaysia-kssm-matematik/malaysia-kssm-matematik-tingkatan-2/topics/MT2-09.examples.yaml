@@ -31,7 +31,7 @@ worked_examples:
     topic: "Acceleration and Deceleration Problem Solving"
     difficulty: hard
     misconception_alert: "Students often forget deceleration is negative acceleration and misuse the formula by swapping values incorrectly."
-    scenario: "A toy lorry decelerates at $0.741\text{ m/s}^2$ for 27 seconds until it stops. Find its initial velocity."
+    scenario: "A toy lorry decelerates at $0.741\\text{ m/s}^2$ for 27 seconds until it stops. Find its initial velocity."
     working: |
       Step 1: Final velocity = $0\text{ m/s}$, time = $27\text{ s}$.
       Step 2: Acceleration = $-0.741\text{ m/s}^2$.

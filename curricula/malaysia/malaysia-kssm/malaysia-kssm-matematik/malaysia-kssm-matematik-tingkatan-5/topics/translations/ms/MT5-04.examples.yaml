@@ -1,13 +1,15 @@
 id: MT5-04
 topic_id: MT5-04
 provenance: "curriculum-architect-audit"
-examples:
+worked_examples:
   - id: WE-01
     topic: "Tujuan Percukaian"
     difficulty: "easy"
     tp_level: 2
     learning_objective: "4.1.1"
-    real_world_analogy: "Bayangkan cukai seperti 'Yuran Keahlian Kelab Negara'. Sama seperti anda bayar yuran untuk guna gim dan kolam renang kelab, rakyat bayar cukai supaya semua orang boleh guna jalan raya, sekolah, dan hospital 'percuma'."
+    real_world_analogy: >-
+      Bayangkan cukai seperti 'Yuran Keahlian Kelab Negara'. Sama seperti anda bayar yuran untuk guna gim dan kolam
+      renang kelab, rakyat bayar cukai supaya semua orang boleh guna jalan raya, sekolah, dan hospital 'percuma'.
     misconception_alert: "Pelajar selalu ingat cukai adalah 'denda'. Ingatkan mereka bahawa denda adalah untuk orang yang langgar peraturan, manakala cukai adalah tanggungjawab bersama untuk bina negara."
     scenario: "Adli ingin tahu kenapa ayahnya perlu membayar wang kepada kerajaan setiap tahun. Terangkan tujuan utama percukaian dalam konteks pembangunan negara."
     working: |
@@ -38,7 +40,7 @@ examples:
     learning_objective: "4.1.3"
     real_world_analogy: "Anggap Cukai Pintu sebagai 'Langganan Servis Kejiranan'. Anda bayar kepada majlis perbandaran supaya mereka boleh kutip sampah dan bersihkan longkang di kawasan rumah anda."
     misconception_alert: "Pelajar selalu keliru antara 'Nilai Tahunan' (anggaran sewa) dengan 'Harga Pasaran' (harga jual) rumah. Cukai pintu sentiasa dikira berdasarkan Nilai Tahunan."
-    scenario: "Mariani memiliki sebuah rumah kediaman di Subang Jaya. Nilai tahunan rumah itu ialah $RM6,580$ dan kadar cukai pintu ialah $5\%$. Hitung cukai pintu yang perlu dibayar oleh Mariani untuk setiap setengah tahun."
+    scenario: "Mariani memiliki sebuah rumah kediaman di Subang Jaya. Nilai tahunan rumah itu ialah $RM6,580$ dan kadar cukai pintu ialah $5\\%$. Hitung cukai pintu yang perlu dibayar oleh Mariani untuk setiap setengah tahun."
     working: |
       1. Kenal pasti formula: $\text{Cukai pintu} = \text{kadar cukai} \times \text{nilai tahunan}$
       2. Hitung jumlah cukai setahun: $5\% \times RM6,580 = 0.05 \times 6,580 = RM329$
@@ -53,7 +55,7 @@ examples:
     learning_objective: "4.1.4"
     real_world_analogy: "Mengira cukai pendapatan adalah seperti 'Menapis Air'. Mula-mula, anda tapis 'Pengecualian' dan 'Pelepasan' (kotoran) untuk cari 'Pendapatan Bercukai' (air bersih). Lepas itu baru guna jadual cukai."
     misconception_alert: "Perangkap paling besar! Pelajar selalu tolak 'Rebat Cukai' daripada pendapatan. SALAH! Rebat ditolak daripada CUKAI PERLU DIBAYAR, manakala Pelepasan ditolak daripada JUMLAH PENDAPATAN."
-    scenario: "Encik Chan mempunyai jumlah pendapatan tahunan sebanyak $RM52,770$ pada tahun 2020. Beliau menderma $RM300$ kepada pusat kebajikan yang diluluskan. Beliau menuntut pelepasan cukai sebanyak $RM9,000$ (individu), $RM5,800$ (insurans hayat), $RM1,700$ (perubatan), dan $RM4,000$ (yuran pengajian). Jika pendapatan bercukainya $\le RM35,000$, beliau layak mendapat rebat sebanyak $RM400$. Hitung cukai pendapatan perlu dibayar."
+    scenario: "Encik Chan mempunyai jumlah pendapatan tahunan sebanyak $RM52,770$ pada tahun 2020. Beliau menderma $RM300$ kepada pusat kebajikan yang diluluskan. Beliau menuntut pelepasan cukai sebanyak $RM9,000$ (individu), $RM5,800$ (insurans hayat), $RM1,700$ (perubatan), dan $RM4,000$ (yuran pengajian). Jika pendapatan bercukainya $\\le RM35,000$, beliau layak mendapat rebat sebanyak $RM400$. Hitung cukai pendapatan perlu dibayar."
     working: |
       1. Hitung Pendapatan Bercukai: $\text{Jumlah Pendapatan} - \text{Pengecualian} - \text{Pelepasan}$
       2. $RM52,770 - RM300 - (RM9,000 + RM5,800 + RM1,700 + RM4,000)$

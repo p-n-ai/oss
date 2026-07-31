@@ -7,7 +7,9 @@ worked_examples:
     topic: "Memerihalkan Peristiwa Bergabung"
     difficulty: easy
     real_world_analogy: "Fikirkan tentang 'Set Kombo' di restoran. Peristiwa bergabung adalah seperti memilih satu 'Hidangan Utama' DAN satu 'Air' sebagai satu set lengkap."
-    misconception_alert: "Pelajar sering anggap pasangan (A, B) sama dengan (B, A). Dalam menyenaraikan peristiwa bergabung, urutan dalam pasangan tertib biasanya mewakili urutan atau sumber yang spesifik."
+    misconception_alert: >-
+      Pelajar sering anggap pasangan (A, B) sama dengan (B, A). Dalam menyenaraikan peristiwa bergabung, urutan dalam
+      pasangan tertib biasanya mewakili urutan atau sumber yang spesifik.
     scenario: "Sekeping syiling adil dilambung dan sebiji dadu adil dilambung. Senaraikan ruang sampel bagi peristiwa bergabung ini menggunakan pasangan tertib."
     working: |
       1. Senaraikan kesudahan bagi syiling (S): $S = \{A, G\}$ (Angka, Gambar).
@@ -24,7 +26,7 @@ worked_examples:
     difficulty: medium
     real_world_analogy: "Bayangkan dua orang di negeri berbeza melambung syiling. Apa yang orang pertama dapat tidak mengubah nasib orang kedua. Inilah inti pati Peristiwa Tak Bersandar."
     misconception_alert: "Perangkap 'Amnesia'. Pelajar kadangkala melayan peristiwa tak bersandar seperti peristiwa bersandar dengan mengurangkan jumlah ruang sampel pada peristiwa kedua secara tidak sengaja."
-    scenario: "Kotak A mengandungi kad $\{3, 5, 7, 9\}$ dan Kotak B mengandungi kad $\{X, Y, Z\}$. Jika sekeping kad dipilih dari setiap kotak, hitung kebarangkalian mendapat satu faktor bagi 9 dari Kotak A dan huruf 'Z' dari Kotak B."
+    scenario: "Kotak A mengandungi kad $\\{3, 5, 7, 9\\}$ dan Kotak B mengandungi kad $\\{X, Y, Z\\}$. Jika sekeping kad dipilih dari setiap kotak, hitung kebarangkalian mendapat satu faktor bagi 9 dari Kotak A dan huruf 'Z' dari Kotak B."
     working: |
       1. Kenal pasti faktor bagi 9 dalam Kotak A: $\{3, 9\}$. Maka, $n(A) = 2$.
       2. Hitung kebarangkalian bagi Kotak A: $P(A) = \frac{n(A)}{n(S_A)} = \frac{2}{4} = \frac{1}{2}$.
@@ -38,8 +40,8 @@ worked_examples:
     topic: "Peristiwa Saling Eksklusif"
     difficulty: medium
     real_world_analogy: "Fikirkan tentang peraturan 'Penjarakan Sosial'. Dua peristiwa adalah saling eksklusif jika mereka tidak boleh 'bersentuh' atau berlaku serentak, seperti berada di Kelas 4A dan Kelas 4B pada masa yang sama."
-    misconception_alert: "Perangkap 'Kiraan Dua Kali'. Jika peristiwa TIDAK saling eksklusif, pelajar sering lupa menolak persilangan $P(A \cap B)$. Sentiasa semak pertindihan dahulu!"
-    scenario: "Satu nombor dipilih secara rawak daripada set $S = \{x : 1 \leq x \leq 10, x \in \mathbb{Z}\}$. Cari kebarangkalian memilih satu nombor perdana atau satu gandaan 4."
+    misconception_alert: "Perangkap 'Kiraan Dua Kali'. Jika peristiwa TIDAK saling eksklusif, pelajar sering lupa menolak persilangan $P(A \\cap B)$. Sentiasa semak pertindihan dahulu!"
+    scenario: "Satu nombor dipilih secara rawak daripada set $S = \\{x : 1 \\leq x \\leq 10, x \\in \\mathbb{Z}\\}$. Cari kebarangkalian memilih satu nombor perdana atau satu gandaan 4."
     working: |
       1. Senaraikan ruang sampel $S$: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. Maka $n(S) = 10$.
       2. Senaraikan nombor Perdana (A): $\{2, 3, 5, 7\}$. $P(A) = \frac{4}{10}$.

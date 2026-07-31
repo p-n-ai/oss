@@ -64,7 +64,7 @@ worked_examples:
 
   - id: WE-03
     topic: "Pecahan Algebra (2.3)"
-    scenario: "Permudahkan persamaan pecahan algebra berikut: $\frac{3}{4r} - \frac{m}{3rs}$"
+    scenario: "Permudahkan persamaan pecahan algebra berikut: $\\frac{3}{4r} - \\frac{m}{3rs}$"
     difficulty: hard
     tp_level: 4
     kbat: false

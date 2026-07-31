@@ -48,7 +48,7 @@ learning_objectives:
     text_en: "Solve problems involving angles and tangents of circles."
     bloom: "apply"
 
-mastery_parameters:
+mastery:
   minimum_score: 0.75
   assessment_count: 3
   spaced_repetition:

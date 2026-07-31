@@ -39,7 +39,7 @@ worked_examples:
     topic: "Menyelesaikan Masalah Melibatkan Sisihan Piawai Gabungan"
     difficulty: hard
     real_world_analogy: "Bayangkan mencampurkan dua bekas air garam yang berbeza. Tahap kemasinan (sisihan piawai) yang baharu bukan sekadar purata antara kedua-duanya; anda perlu mengambil kira jumlah garam dan jumlah air dalam kedua-dua bekas tersebut secara keseluruhan."
-    misconception_alert: "Perangkap 'Purata Malas'! Murid sering cuba mencari sisihan piawai baharu dengan hanya menambah dua sisihan piawai lama dan membahagi dengan 2. Ini salah secara matematik! Anda MESTI mengira $\sum x^2$ yang baharu terlebih dahulu."
+    misconception_alert: "Perangkap 'Purata Malas'! Murid sering cuba mencari sisihan piawai baharu dengan hanya menambah dua sisihan piawai lama dan membahagi dengan 2. Ini salah secara matematik! Anda MESTI mengira $\\sum x^2$ yang baharu terlebih dahulu."
     scenario: "Kumpulan A mempunyai 18 orang murid dengan min jisim 52 kg dan varians 2.5. Kumpulan B mempunyai 12 orang murid dengan min jisim 56 kg dan varians 1.8. Jika kedua-dua kumpulan digabungkan, hitung sisihan piawai bagi jisim kumpulan tersebut."
     working: |
       1. Cari $\sum x$ untuk kedua-dua kumpulan:

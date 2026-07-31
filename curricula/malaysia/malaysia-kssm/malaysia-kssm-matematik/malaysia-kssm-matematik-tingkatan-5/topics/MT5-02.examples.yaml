@@ -8,7 +8,7 @@ worked_examples:
     topic: "Representing Information in Matrix Form"
     difficulty: easy
     tp_level: 2
-    learning_objective: "2.1.1: Represent real-life situation information in the form of matrices."
+    learning_objective: "2.1.1"
     real_world_analogy: "Think of a matrix like a chocolate box tray. Each slot has a specific place for a specific flavor, and the whole tray is organized by rows and columns so the factory knows exactly what is inside."
     misconception_alert: "The 'RC' Trap! Students often confuse rows (horizontal) with columns (vertical). Always remember 'Row first, Column second' (like the brand RC Cola)."
     scenario: "A school cooperative sells two types of pens: Blue and Black. On Monday, they sold 15 Blue pens and 10 Black pens. On Tuesday, they sold 12 Blue pens and 18 Black pens. Represent this sales data in a matrix where rows represent the days."
@@ -25,10 +25,10 @@ worked_examples:
     topic: "Multiplication of Two Matrices"
     difficulty: medium
     tp_level: 3
-    learning_objective: "2.2.3: Multiply two matrices."
+    learning_objective: "2.2.3"
     real_world_analogy: "Think of the '7-Shape Dive'. The first row 'dives' into the first column. You multiply the partners as you go down and then add them all up to get the final score."
-    misconception_alert: "The 'Element-to-Element' Error. Students often try to multiply matrices like addition (multiplying numbers in the same spot). You MUST use the Row $\times$ Column rule!"
-    scenario: "Calculate the product of matrix $A = \begin{bmatrix} 2 & 3 \\ 1 & 4 \end{bmatrix}$ and matrix $B = \begin{bmatrix} 5 \\ 6 \end{bmatrix}$."
+    misconception_alert: "The 'Element-to-Element' Error. Students often try to multiply matrices like addition (multiplying numbers in the same spot). You MUST use the Row $\\times$ Column rule!"
+    scenario: "Calculate the product of matrix $A = \\begin{bmatrix} 2 & 3 \\ 1 & 4 \\end{bmatrix}$ and matrix $B = \\begin{bmatrix} 5 \\ 6 \\end{bmatrix}$."
     working: |
       Step 1: Check the order. A is $2 \times 2$, B is $2 \times 1$. The inner numbers (2 and 2) match, so multiplication is possible. The result will be $2 \times 1$.
       Step 2: Multiply Row 1 of A by Column 1 of B.
@@ -46,7 +46,7 @@ worked_examples:
     difficulty: hard
     tp_level: 5
     kbat: true
-    learning_objective: "2.2.6: Use the matrix method to solve simultaneous linear equations."
+    learning_objective: "2.2.6"
     real_world_analogy: "The 'Magic Key'. Matrix $A$ is the 'lock' on our variables $x$ and $y$. To unlock them, we find the Inverse Matrix $A^{-1}$, which acts as the 'key' to solve the mystery on the other side."
     misconception_alert: "The 'Determinant Zero' Trap! Always check the determinant $(ad - bc)$ first. If it is 0, the 'lock' is broken and no unique solution exists (Singular Matrix)."
     scenario: "At a local stall, the price of 2 Nasi Lemak and 1 Teh Tarik is RM7. The price of 1 Nasi Lemak and 3 Teh Tarik is RM6. Solve for the price of one Nasi Lemak ($x$) and one Teh Tarik ($y$) using matrices."

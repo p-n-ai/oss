@@ -79,14 +79,14 @@ questions:
 
   # --- LO 8.2.3: Solve problems involving loci (TP5) ---
   - id: Q4
-    text: "A clinic needs to be built in a village. It must be equidistant from House $P$ and House $Q$, and exactly $600\text{ m}$ from a straight highway $AB$. If the scale is $1\text{ cm} = 600\text{ m}$, describe the possible locations for the clinic."
+    text: "A clinic needs to be built in a village. It must be equidistant from House $P$ and House $Q$, and exactly $600\\text{ m}$ from a straight highway $AB$. If the scale is $1\\text{ cm} = 600\\text{ m}$, describe the possible locations for the clinic."
     difficulty: hard
     learning_objective: "8.2.3"
     tp_level: 5
     kbat: true
     answer:
       type: free_text
-      value: "The intersection points between the perpendicular bisector of $PQ$ and the two lines parallel to highway $AB$ at a distance of $1\text{ cm}$."
+      value: "The intersection points between the perpendicular bisector of $PQ$ and the two lines parallel to highway $AB$ at a distance of $1\\text{ cm}$."
       working: |
         Step 1: Condition 1 (equidistant from $P$ and $Q$) = Perpendicular bisector of line $PQ$.
         Step 2: Condition 2 ($600\text{ m}$ from highway $AB$) = Two parallel lines, one on each side of $AB$, at a distance of $1\text{ cm}$.
@@ -105,14 +105,14 @@ questions:
 
   # --- LO 8.2.3: Non-routine creative problem (TP6) ---
   - id: Q5
-    text: "A goat is tied to a corner of a rectangular fenced grass field measuring $6\text{ m} \times 8\text{ m}$. The rope is $7\text{ m}$ long. Describe the shape of the region the goat can graze and explain why it is a locus."
+    text: "A goat is tied to a corner of a rectangular fenced grass field measuring $6\\text{ m} \\times 8\\text{ m}$. The rope is $7\\text{ m}$ long. Describe the shape of the region the goat can graze and explain why it is a locus."
     difficulty: hard
     learning_objective: "8.2.3"
     tp_level: 6
     kbat: true
     answer:
       type: free_text
-      value: "A quadrant (quarter-circle) with a radius of $7\text{ m}$ centered at the corner."
+      value: "A quadrant (quarter-circle) with a radius of $7\\text{ m}$ centered at the corner."
       working: |
         Step 1: The goat is tied to a fixed point (the corner).
         Step 2: The rope acts as a fixed maximum distance.
@@ -125,7 +125,7 @@ questions:
       - marks: 2
         criteria: "Describing the shape as a quadrant or quarter-circle."
       - marks: 1
-        criteria: "Stating the radius as $7\text{ m}$."
+        criteria: "Stating the radius as $7\\text{ m}$."
     hints:
       - level: 1
-        text: "Think about Example 13 or page 217 in your textbook. If the rope is $7\text{ m}$ but the wall is only $6\text{ m}$ wide, what happens to the shape?"
+        text: "Think about Example 13 or page 217 in your textbook. If the rope is $7\\text{ m}$ but the wall is only $6\\text{ m}$ wide, what happens to the shape?"
