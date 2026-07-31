@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "budget_seconds": 120,
+  "max_changed_files": 200,
+  "cache": true,
+  "cache_failures": true,
+  "max_cache_entries": 50,
+  "max_output_chars": 16000,
+  "checks": [
+    {
+      "name": "changed OSS curriculum validation",
+      "include": [
+        "curricula/**/*.yaml",
+        "curricula/**/*.yml",
+        "concepts/**/*.yaml",
+        "taxonomy/**/*.yaml",
+        "schema/**/*.json",
+        "scripts/*.rb",
+        "scripts/**/*.rb",
+        "scripts/*.sh",
+        ".github/workflows/*.yml",
+        ".github/workflows/*.yaml",
+        ".yamllint.yml"
+      ],
+      "exclude": [".codex/cache/**"],
+      "command": ["./scripts/validate-changed.sh"],
+      "timeout_seconds": 110,
+      "max_files": 120
+    }
+  ]
+}
