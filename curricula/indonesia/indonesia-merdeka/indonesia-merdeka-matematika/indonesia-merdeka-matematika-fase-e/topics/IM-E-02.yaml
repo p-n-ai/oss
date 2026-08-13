@@ -1,0 +1,29 @@
+id: IM-E-02
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.5.2"
+name: "Aljabar dan Fungsi"
+name_en: "Algebra and Functions"
+subject_grade_id: indonesia-merdeka-matematika-fase-e
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: advanced
+tier: core
+content_standards:
+  - id: "5.2"
+    text: "Sistem pertidaksamaan linear dua variabel, persamaan dan fungsi kuadrat, serta eksponensial."
+learning_objectives:
+  - id: "5.2.1"
+    content_standard_id: "5.2"
+    text: "Menyelesaikan masalah dengan sistem pertidaksamaan linear dua variabel."
+    bloom: apply
+  - id: "5.2.2"
+    content_standard_id: "5.2"
+    text: "Menyelesaikan masalah persamaan, fungsi kuadrat, dan persamaan atau fungsi eksponensial."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

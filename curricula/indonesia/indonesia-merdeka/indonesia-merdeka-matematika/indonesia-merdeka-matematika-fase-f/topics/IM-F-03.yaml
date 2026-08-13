@@ -1,0 +1,29 @@
+id: IM-F-03
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.6.3"
+name: "Geometri"
+name_en: "Geometry"
+subject_grade_id: indonesia-merdeka-matematika-fase-f
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: advanced
+tier: core
+content_standards:
+  - id: "6.3"
+    text: "Hubungan antarunsur lingkaran dalam pemecahan masalah."
+learning_objectives:
+  - id: "6.3.1"
+    content_standard_id: "6.3"
+    text: "Mengidentifikasi dan menjelaskan hubungan antarunsur lingkaran."
+    bloom: understand
+  - id: "6.3.2"
+    content_standard_id: "6.3"
+    text: "Menerapkan hubungan unsur lingkaran untuk menyelesaikan masalah."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

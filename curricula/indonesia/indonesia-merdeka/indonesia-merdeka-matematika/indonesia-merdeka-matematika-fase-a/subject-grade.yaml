@@ -1,0 +1,17 @@
+id: indonesia-merdeka-matematika-fase-a
+name: "Matematika Fase A"
+name_en: "Mathematics Phase A"
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+grade_id: fase-a
+country_id: indonesia
+language: id
+description: "Fase A generally covers classes I and II at SD, MI, and Paket A."
+topics:
+  - IM-A-01
+  - IM-A-02
+  - IM-A-03
+  - IM-A-04
+  - IM-A-05
+provenance: official-cp-046-2025
+generated_at: "2026-08-13T03:28:18Z"

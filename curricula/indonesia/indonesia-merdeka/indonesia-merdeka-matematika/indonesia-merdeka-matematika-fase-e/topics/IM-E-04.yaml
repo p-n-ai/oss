@@ -1,0 +1,29 @@
+id: IM-E-04
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.5.4"
+name: "Analisis Data dan Peluang"
+name_en: "Data Analysis and Probability"
+subject_grade_id: indonesia-merdeka-matematika-fase-e
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: advanced
+tier: core
+content_standards:
+  - id: "5.4"
+    text: "Ukuran penyebaran, box plot, histogram, dot plot, diagram pencar, dan evaluasi laporan statistika."
+learning_objectives:
+  - id: "5.4.1"
+    content_standard_id: "5.4"
+    text: "Merepresentasikan dan membandingkan data memakai kuartil, box plot, histogram, atau dot plot yang sesuai."
+    bloom: analyze
+  - id: "5.4.2"
+    content_standard_id: "5.4"
+    text: "Menyelidiki hubungan dua variabel dan mengevaluasi laporan statistika dari representasi datanya."
+    bloom: evaluate
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

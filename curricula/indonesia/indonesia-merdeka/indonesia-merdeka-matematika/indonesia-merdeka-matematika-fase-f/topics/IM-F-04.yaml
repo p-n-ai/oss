@@ -1,0 +1,29 @@
+id: IM-F-04
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.6.4"
+name: "Analisis Data dan Peluang"
+name_en: "Data Analysis and Probability"
+subject_grade_id: indonesia-merdeka-matematika-fase-f
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: advanced
+tier: core
+content_standards:
+  - id: "6.4"
+    text: "Penyelidikan bivariat, model linear, asosiasi, sebab-akibat, dan peluang kejadian majemuk."
+learning_objectives:
+  - id: "6.4.1"
+    content_standard_id: "6.4"
+    text: "Menyelidiki hubungan dua variabel, memperkirakan model linear, dan membedakan asosiasi dari sebab-akibat."
+    bloom: analyze
+  - id: "6.4.2"
+    content_standard_id: "6.4"
+    text: "Menentukan peluang kejadian majemuk, saling bebas, saling lepas, dan bersyarat dengan permutasi atau kombinasi."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

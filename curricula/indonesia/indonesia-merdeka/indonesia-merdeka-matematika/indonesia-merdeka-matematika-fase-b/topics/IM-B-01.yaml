@@ -1,0 +1,29 @@
+id: IM-B-01
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.2.1"
+name: "Bilangan"
+name_en: "Numbers"
+subject_grade_id: indonesia-merdeka-matematika-fase-b
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: beginner
+tier: core
+content_standards:
+  - id: "2.1"
+    text: "Bilangan cacah sampai 10.000, operasi dasar, faktor dan kelipatan, serta pecahan, desimal, dan persen."
+learning_objectives:
+  - id: "2.1.1"
+    content_standard_id: "2.1"
+    text: "Menggunakan nilai tempat serta membandingkan, mengurutkan, menyusun, dan mengurai bilangan sampai 10.000."
+    bloom: apply
+  - id: "2.1.2"
+    content_standard_id: "2.1"
+    text: "Menyelesaikan masalah operasi bilangan dan menghubungkan pecahan senilai dengan desimal dan persen."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

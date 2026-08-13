@@ -1,0 +1,29 @@
+id: IM-A-02
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.1.2"
+name: "Aljabar"
+name_en: "Algebra"
+subject_grade_id: indonesia-merdeka-matematika-fase-a
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: beginner
+tier: core
+content_standards:
+  - id: "1.2"
+    text: "Makna kesetaraan pada penjumlahan dan pengurangan sampai 20 serta pola bukan bilangan."
+learning_objectives:
+  - id: "1.2.1"
+    content_standard_id: "1.2"
+    text: "Menafsirkan simbol sama dengan pada kalimat penjumlahan dan pengurangan sampai 20 dengan bantuan gambar."
+    bloom: understand
+  - id: "1.2.2"
+    content_standard_id: "1.2"
+    text: "Mengenali, meniru, dan melanjutkan pola gambar, warna, atau bunyi."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

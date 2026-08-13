@@ -190,7 +190,7 @@ Rules:
 
 **Format:** `{subject-id}-{grade-id}`
 
-Subject Grade IDs combine the subject with a specific grade level. These are used as folder names and YAML IDs for the grade-specific content:
+Subject Grade IDs combine the subject with a specific official learning level. The level may be a grade, form, class, or curriculum phase. These IDs are used as folder names and YAML IDs:
 
 ```
 # Malaysia KSSM
@@ -208,6 +208,9 @@ indonesia-k13-matematika-kelas-10
 indonesia-k13-fisika-kelas-11
 indonesia-k13-biologi-kelas-10
 
+# Indonesia Kurikulum Merdeka
+indonesia-merdeka-matematika-fase-d
+
 # India CBSE
 india-cbse-mathematics-class-10
 india-cbse-physics-class-12
@@ -219,20 +222,24 @@ uk-cambridge-igcse-physics-0625
 ```
 
 Rules:
-- Appends the grade ID to the subject ID
+- Appends the official learning-level ID to the subject ID
+- Stores that level in `grade_id` for schema compatibility, including values such as `fase-d`
 - For exam-based syllabi with no grade structure (e.g. IGCSE, JEE), the subject grade ID equals the subject ID
 
 ---
 
 ## Topic ID
 
-**Format:** `{PREFIX}{grade_num}-{NN}`
+**Grade format:** `{PREFIX}{grade_num}-{NN}`
 
-- **PREFIX** — 2-3 uppercase letters derived from the **English subject name** (language-neutral, for tooling)
+**Phase format:** `{PREFIX}-{phase_letter}-{NN}`
+
+- **PREFIX** — 2-3 uppercase letters reserved globally for one curriculum-subject identity
 - **grade_num** — one or more digits identifying the grade grouping (e.g. `1` for Tingkatan 1, `12` for Class 12)
+- **phase_letter** — one uppercase letter identifying the official curriculum phase
 - **NN** — 2-digit zero-padded sequence number within the subject+grade, matching chapter/topic order in the official syllabus document
 
-The current schema pattern is `^[A-Z]{2,3}[0-9]+-[0-9]{2}$`. A grade-less form such as `MT-01` is not valid. Canonical topic IDs must also remain globally unique across OSS.
+The current schema pattern is `^(?:[A-Z]{2,3}[0-9]+|[A-Z]{2,3}-[A-Z])-[0-9]{2}$`. A grade-less form such as `MT-01` is not valid. Canonical topic IDs must also remain globally unique across OSS.
 
 ```
 # Malaysia KSSM Matematik Tingkatan 1 → prefix MT, grade 1
@@ -254,26 +261,22 @@ PH4-01
 # India CBSE Physics Class 12 → prefix PH, grade 12
 PH12-01
 
+# Indonesia Kurikulum Merdeka Matematika Fase D → prefix IM, phase D
+IM-D-01
+IM-D-05
+
 ```
 
-**Prefix table** (derived from English name — language-neutral):
+**Reserved prefix table:**
 
-| Subject (any language) | English equivalent | Prefix |
-|------------------------|-------------------|--------|
-| Matematik, Matematika, Mathematics | Mathematics | `MT` |
-| Sains, Ilmu Pengetahuan Alam, Science | Science | `SC` |
-| Fizik, Fisika, Physics | Physics | `PH` |
-| Kimia, Kimia, Chemistry | Chemistry | `CH` |
-| Biologi, Biologi, Biology | Biology | `BI` |
-| Sejarah, History | History | `SJ` |
-| Geografi, Geography | Geography | `GE` |
-| Bahasa Melayu | Malay Language | `BM` |
-| Indonesian | Indonesian Language | `ID` |
-| English Language | English | `EN` |
-| Bahasa Arab, Arabic | Arabic | `AR` |
-| Other | First 2 consonants of English name | — |
+| Curriculum subject | Prefix |
+|--------------------|--------|
+| Malaysia KSSM Mathematics | `MT` |
+| Malaysia KSSM Science | `SC` |
+| Malaysia KSSM History | `SJ` |
+| Indonesia Kurikulum Merdeka Mathematics | `IM` |
 
-Topic prefixes are always derived from English to keep them consistent across languages. This means `MT3-01` is unambiguous whether the subject is called "Matematik" (Malaysia), "Matematika" (Indonesia), or "Mathematics" (India).
+Existing prefixes remain stable. New curriculum subjects must reserve an unused prefix before adding topics. Start from the English subject name, then qualify it by curriculum or country when the natural prefix is already reserved. Locale variants reuse the canonical topic ID.
 
 ---
 
@@ -570,21 +573,21 @@ The path classifier selects the artifact contract before schema validation. It n
 
 | Artifact class | Path rule | Schema | Current count |
 |----------------|-----------|--------|--------------:|
-| Syllabus | `curricula/**/syllabus.yaml` | `syllabus.schema.json` | 1 |
-| Subject | `curricula/**/subject.yaml` | `subject.schema.json` | 3 |
-| Subject-grade | `curricula/**/subject-grade.yaml` | `subject-grade.schema.json` | 15 |
-| Canonical topic | canonical YAML directly under `topics/` | `topic.schema.json` | 152 |
+| Syllabus | `curricula/**/syllabus.yaml` | `syllabus.schema.json` | 3 |
+| Subject | `curricula/**/subject.yaml` | `subject.schema.json` | 89 |
+| Subject-grade | `curricula/**/subject-grade.yaml` | `subject-grade.schema.json` | 21 |
+| Canonical topic | canonical YAML directly under `topics/` | `topic.schema.json` | 180 |
 | Locale topic variant | topic YAML under `topics/translations/{locale}/` | `topic-variant.schema.json` | 53 |
-| Assessment | canonical or locale `*.assessments.yaml` | `assessments.schema.json` | 114 canonical + 53 locale |
-| Example | canonical or locale `*.examples.yaml` | `examples.schema.json` | 114 canonical + 53 locale |
+| Assessment | canonical or locale `*.assessments.yaml` | `assessments.schema.json` | 115 canonical + 53 locale |
+| Example | canonical or locale `*.examples.yaml` | `examples.schema.json` | 115 canonical + 53 locale |
 | Concept | `concepts/**/*.yaml` | `concept.schema.json` | 2 |
 | Taxonomy | `taxonomy/**/*.yaml` | `taxonomy.schema.json` | 0 |
-| **Total content YAML** |  | **9 schemas** | **560** |
+| **Total content YAML** |  | **9 schemas** | **684** |
 
 The schemas enforce these identifier patterns:
 
 ```yaml
-topic_id:          pattern: "^[A-Z]{2,3}[0-9]+-[0-9]{2}$"
+topic_id:          pattern: "^(?:[A-Z]{2,3}[0-9]+|[A-Z]{2,3}-[A-Z])-[0-9]{2}$"
 syllabus_id:       pattern: "^[a-z][a-z0-9-]+$"
 subject_id:        pattern: "^[a-z][a-z0-9-]+$"
 subject_grade_id:  pattern: "^[a-z][a-z0-9-]+$"
@@ -592,7 +595,7 @@ country_id:        pattern: "^[a-z][a-z0-9-]+$"
 grade_id:          pattern: "^[a-z][a-z0-9-]+$"
 ```
 
-`./scripts/validate.sh` parses every content YAML file, validates all 560 classified artifacts with AJV and `ajv-formats`, enforces the exact inventory, and checks references, prerequisites, and quality claims. `./scripts/validate-changed.sh` additionally blocks newly introduced `yamllint` findings in touched YAML; pre-existing style findings, including findings in a touched file, remain outside both gates.
+`./scripts/validate.sh` parses every content YAML file, validates all 684 classified artifacts with AJV and `ajv-formats`, enforces the exact inventory, and checks references, prerequisites, and quality claims. `./scripts/validate-changed.sh` additionally blocks newly introduced `yamllint` findings in touched YAML; pre-existing style findings, including findings in a touched file, remain outside both gates.
 
 `quality_level: 0` history stubs remain valid inventory members and may have empty `content_standards` and `learning_objectives`. They are catalog-only, not teachable content. Topics at `quality_level >= 1` require non-empty teaching identity.
 
@@ -604,7 +607,7 @@ When the OSS Bot generates IDs or scaffolds new content, it follows these conven
 - IDs use the official MOE language of the target country
 - Canonical topic content uses English fields when an English representation exists; localized fields belong in the matching full locale variant
 - Locale variants reuse the canonical topic ID, filename, and parent identities
-- Topic prefixes always use the English-derived prefix table (language-neutral)
+- Topic prefixes use the globally reserved registry and remain stable across locale variants
 - Capture the source chapter or section reference in the required `official_ref` field
 
 If you are writing prompt templates or reviewing AI output, refer to this document. Misformatted IDs are caught by the validator and the PR will be blocked.

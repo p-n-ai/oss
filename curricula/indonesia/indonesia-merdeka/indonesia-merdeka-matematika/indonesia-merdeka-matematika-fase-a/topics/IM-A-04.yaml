@@ -1,0 +1,29 @@
+id: IM-A-04
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.1.4"
+name: "Geometri"
+name_en: "Geometry"
+subject_grade_id: indonesia-merdeka-matematika-fase-a
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: beginner
+tier: core
+content_standards:
+  - id: "1.4"
+    text: "Pengenalan bangun datar, bangun ruang, komposisi bentuk, dan posisi relatif."
+learning_objectives:
+  - id: "1.4.1"
+    content_standard_id: "1.4"
+    text: "Mengenali bentuk datar dan ruang dasar beserta ciri visualnya."
+    bloom: remember
+  - id: "1.4.2"
+    content_standard_id: "1.4"
+    text: "Menyusun dan mengurai bangun datar serta menentukan posisi relatif benda."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

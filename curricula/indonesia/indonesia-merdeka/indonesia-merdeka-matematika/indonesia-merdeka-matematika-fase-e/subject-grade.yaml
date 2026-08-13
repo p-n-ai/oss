@@ -1,0 +1,16 @@
+id: indonesia-merdeka-matematika-fase-e
+name: "Matematika Fase E"
+name_en: "Mathematics Phase E"
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+grade_id: fase-e
+country_id: indonesia
+language: id
+description: "Fase E generally covers classes X and XI at SMA, MA, SMK, MAK, and Paket C."
+topics:
+  - IM-E-01
+  - IM-E-02
+  - IM-E-03
+  - IM-E-04
+provenance: official-cp-046-2025
+generated_at: "2026-08-13T03:28:18Z"

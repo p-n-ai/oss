@@ -1,0 +1,33 @@
+id: IM-D-03
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.4.3"
+name: "Pengukuran"
+name_en: "Measurement"
+subject_grade_id: indonesia-merdeka-matematika-fase-d
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: intermediate
+tier: core
+content_standards:
+  - id: "4.3"
+    text: "Pengukuran lingkaran, bangun ruang, dan perubahan proporsional ukuran."
+learning_objectives:
+  - id: "4.3.1"
+    content_standard_id: "4.3"
+    text: "Menentukan keliling, luas, panjang busur, sudut, dan luas juring lingkaran untuk menyelesaikan masalah."
+    bloom: apply
+  - id: "4.3.2"
+    content_standard_id: "4.3"
+    text: "Menentukan luas permukaan dan volume prisma, tabung, bola, limas, dan kerucut."
+    bloom: apply
+  - id: "4.3.3"
+    content_standard_id: "4.3"
+    text: "Menjelaskan pengaruh perubahan proporsional terhadap panjang, sudut, luas, dan volume."
+    bloom: analyze
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

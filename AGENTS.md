@@ -11,16 +11,16 @@ This repository stores structured curriculum data (YAML + Markdown), validated b
 - No proprietary exam content.
 - License target: CC BY-SA 4.0.
 
-## Current Repository State (as of July 2026)
+## Current Repository State (as of August 2026)
 
 This is a live curriculum-data repository. The checked-in `curricula/`, `concepts/`, `schema/`, `scripts/`, and validation workflow are implemented and authoritative.
 
-The exact classified inventory is 562 content YAML files:
+The exact classified inventory is 684 content YAML files:
 
-- 1 syllabus
-- 3 subjects
-- 15 subject-grades
-- 152 canonical topics and 53 locale topic variants
+- 3 syllabi
+- 89 subjects
+- 21 subject-grades
+- 180 canonical topics and 53 locale topic variants
 - 115 canonical assessments and 53 locale assessment variants
 - 115 canonical examples and 53 locale example variants
 - 2 concepts and 0 taxonomy artifacts
@@ -118,7 +118,7 @@ When creating curriculum content, follow these requirements:
 - Preserve `quality_level: 0` history stubs in the exact inventory. They may have empty `content_standards` and `learning_objectives` and are catalog-only, not teachable content.
 - Topics at `quality_level >= 1` require non-empty teaching identity.
 - Level 3 (Teachable) is minimum AI-ready threshold.
-- Canonical topic IDs are globally unique and match `^[A-Z]{2,3}[0-9]+-[0-9]{2}$`; companion filenames reuse the topic ID.
+- Canonical topic IDs are globally unique and match `^(?:[A-Z]{2,3}[0-9]+|[A-Z]{2,3}-[A-Z])-[0-9]{2}$`; companion filenames reuse the topic ID.
 - Locale variants deliberately reuse their canonical topic ID and are distinguished by their `topics/translations/{locale}/` path.
 - Use only consumer-safe canonical fields: root `learning_objectives`, `mastery`, `teaching.sequence`, `teaching.common_misconceptions`, and `answer.options`. Root `engagement_hooks` is the one conflict-normalized exception.
 - Locale assessments may translate prose and expected values, but must preserve canonical question IDs, learning-objective references, and answer types.
@@ -137,7 +137,7 @@ When creating curriculum content, follow these requirements:
 ./scripts/validate-changed.sh
 ```
 
-The full gate parses every content YAML file, validates all 562 artifacts through the deterministic classifier and the correct one of nine schemas with `ajv-formats`, enforces the exact inventory, and checks references, prerequisites, and quality claims.
+The full gate parses every content YAML file, validates all 684 artifacts through the deterministic classifier and the correct one of nine schemas with `ajv-formats`, enforces the exact inventory, and checks references, prerequisites, and quality claims.
 
 The changed-files gate owns `yamllint` regressions for touched YAML and blocks newly introduced findings. Historical style findings, including pre-existing findings in a touched file, are intentionally excluded from both gates.
 

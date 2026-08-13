@@ -1,0 +1,17 @@
+id: indonesia-merdeka-matematika-fase-c
+name: "Matematika Fase C"
+name_en: "Mathematics Phase C"
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+grade_id: fase-c
+country_id: indonesia
+language: id
+description: "Fase C generally covers classes V and VI at SD, MI, and Paket A."
+topics:
+  - IM-C-01
+  - IM-C-02
+  - IM-C-03
+  - IM-C-04
+  - IM-C-05
+provenance: official-cp-046-2025
+generated_at: "2026-08-13T03:28:18Z"

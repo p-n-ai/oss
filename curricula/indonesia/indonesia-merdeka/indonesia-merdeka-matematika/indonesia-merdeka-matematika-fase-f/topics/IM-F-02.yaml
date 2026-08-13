@@ -1,0 +1,29 @@
+id: IM-F-02
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.6.2"
+name: "Aljabar dan Fungsi"
+name_en: "Algebra and Functions"
+subject_grade_id: indonesia-merdeka-matematika-fase-f
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: advanced
+tier: core
+content_standards:
+  - id: "6.2"
+    text: "Fungsi invers, komposisi, dan transformasi untuk pemodelan situasi nyata."
+learning_objectives:
+  - id: "6.2.1"
+    content_standard_id: "6.2"
+    text: "Menentukan fungsi invers, komposisi fungsi, dan transformasi fungsi."
+    bloom: apply
+  - id: "6.2.2"
+    content_standard_id: "6.2"
+    text: "Memilih fungsi linear, kuadrat, atau eksponensial untuk memodelkan situasi nyata."
+    bloom: analyze
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

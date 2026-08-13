@@ -1,0 +1,37 @@
+id: IM-D-04
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.4.4"
+name: "Geometri"
+name_en: "Geometry"
+subject_grade_id: indonesia-merdeka-matematika-fase-d
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: intermediate
+tier: core
+content_standards:
+  - id: "4.4"
+    text: "Bangun ruang, hubungan sudut, kesebangunan, Teorema Pythagoras, dan transformasi geometri."
+learning_objectives:
+  - id: "4.4.1"
+    content_standard_id: "4.4"
+    text: "Membuat jaring-jaring prisma, tabung, limas, dan kerucut serta membangun bentuk ruangnya."
+    bloom: create
+  - id: "4.4.2"
+    content_standard_id: "4.4"
+    text: "Menggunakan hubungan sudut pada garis berpotongan, garis sejajar, dan segitiga untuk menyelesaikan masalah."
+    bloom: apply
+  - id: "4.4.3"
+    content_standard_id: "4.4"
+    text: "Menggunakan kekongruenan, kesebangunan, dan Teorema Pythagoras untuk menyelesaikan masalah."
+    bloom: apply
+  - id: "4.4.4"
+    content_standard_id: "4.4"
+    text: "Melakukan refleksi, translasi, rotasi, dan dilatasi pada bidang koordinat Kartesius."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

@@ -1,0 +1,29 @@
+id: IM-A-05
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.1.5"
+name: "Analisis Data dan Peluang"
+name_en: "Data Analysis and Probability"
+subject_grade_id: indonesia-merdeka-matematika-fase-a
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: beginner
+tier: core
+content_standards:
+  - id: "1.5"
+    text: "Pengurutan, pengelompokan, perbandingan, dan penyajian data sederhana."
+learning_objectives:
+  - id: "1.5.1"
+    content_standard_id: "1.5"
+    text: "Mengurutkan, menyortir, mengelompokkan, dan membandingkan kumpulan benda."
+    bloom: apply
+  - id: "1.5.2"
+    content_standard_id: "1.5"
+    text: "Menyajikan data sampai empat kategori dengan turus dan piktogram."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"
