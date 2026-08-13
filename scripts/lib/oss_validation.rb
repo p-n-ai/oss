@@ -9,13 +9,13 @@ module OssValidation
   CURRICULA_ROOT = ROOT.join("curricula")
   CONCEPTS_ROOT = ROOT.join("concepts")
   TAXONOMY_ROOT = ROOT.join("taxonomy")
-  TOPIC_ID_PATTERN = /\A[A-Z]{2,3}[0-9]+-[0-9]{2}\z/
+  TOPIC_ID_PATTERN = /\A(?:[A-Z]{2,3}[0-9]+|[A-Z]{2,3}-[A-Z])-[0-9]{2}\z/
 
   EXPECTED_INVENTORY = {
-    syllabus: 1,
-    subject: 3,
-    subject_grade: 15,
-    topic: 152,
+    syllabus: 3,
+    subject: 44,
+    subject_grade: 16,
+    topic: 157,
     topic_variant: 53,
     assessment: 115,
     assessment_variant: 53,

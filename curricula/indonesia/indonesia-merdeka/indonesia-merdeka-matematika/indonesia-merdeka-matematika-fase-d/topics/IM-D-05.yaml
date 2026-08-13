@@ -1,0 +1,37 @@
+id: IM-D-05
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.4.5"
+name: "Analisis Data dan Peluang"
+name_en: "Data Analysis and Probability"
+subject_grade_id: indonesia-merdeka-matematika-fase-d
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: intermediate
+tier: core
+content_standards:
+  - id: "4.5"
+    text: "Penyelidikan data, ukuran pemusatan, peluang, dan frekuensi relatif."
+learning_objectives:
+  - id: "4.5.1"
+    content_standard_id: "4.5"
+    text: "Merumuskan pertanyaan, mengumpulkan data, serta menyajikannya dengan diagram batang dan diagram lingkaran."
+    bloom: create
+  - id: "4.5.2"
+    content_standard_id: "4.5"
+    text: "Menggunakan sampel yang mewakili populasi dan menganalisis data dengan rerata, median, modus, dan jangkauan."
+    bloom: analyze
+  - id: "4.5.3"
+    content_standard_id: "4.5"
+    text: "Membandingkan kelompok data, membuat prediksi, dan mengambil keputusan berdasarkan data."
+    bloom: evaluate
+  - id: "4.5.4"
+    content_standard_id: "4.5"
+    text: "Menggunakan peluang dan frekuensi relatif untuk menentukan frekuensi harapan pada percobaan sederhana."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

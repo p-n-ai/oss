@@ -1,0 +1,10 @@
+id: indonesia-merdeka
+name: "Kurikulum Merdeka"
+name_en: "Merdeka Curriculum"
+country_id: indonesia
+language: id
+description: "Indonesia's competency-based national curriculum. This first source-aligned slice covers Matematika Fase D under the 2025 learning outcomes."
+subjects:
+  - indonesia-merdeka-matematika
+provenance: official-cp-046-2025
+generated_at: "2026-08-13T03:28:18Z"

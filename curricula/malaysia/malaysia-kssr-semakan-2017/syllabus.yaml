@@ -1,0 +1,29 @@
+id: malaysia-kssr-semakan-2017
+name: "Kurikulum Standard Sekolah Rendah (KSSR) Semakan 2017"
+name_en: "Primary School Standard Curriculum (KSSR) 2017 Revision"
+country_id: malaysia
+language: ms
+description: "The Malaysian national primary curriculum introduced progressively from 2017. This catalog covers all Tahap Dua subjects listed for the 2025 school-based assessment cycle."
+subjects:
+  - malaysia-kssr-bahasa-melayu
+  - malaysia-kssr-bahasa-inggeris
+  - malaysia-kssr-matematik
+  - malaysia-kssr-sains
+  - malaysia-kssr-sejarah
+  - malaysia-kssr-bahasa-cina-sjkc
+  - malaysia-kssr-bahasa-tamil-sjkt
+  - malaysia-kssr-pendidikan-jasmani-dan-pendidikan-kesihatan
+  - malaysia-kssr-pendidikan-seni-visual
+  - malaysia-kssr-pendidikan-islam
+  - malaysia-kssr-pendidikan-moral
+  - malaysia-kssr-pendidikan-muzik
+  - malaysia-kssr-reka-bentuk-dan-teknologi
+  - malaysia-kssr-bahasa-tamil
+  - malaysia-kssr-bahasa-arab
+  - malaysia-kssr-bahasa-kadazandusun
+  - malaysia-kssr-bahasa-iban
+  - malaysia-kssr-bahasa-semai
+  - malaysia-kssr-bahasa-cina-sk
+  - malaysia-kssr-bahasa-tamil-sk
+provenance: official-pbs-2025-catalog
+generated_at: "2026-08-13T03:28:18Z"

@@ -5,8 +5,28 @@ country_id: malaysia
 language: ms
 description: "The KSSM is a curriculum framework established by the Ministry of Education Malaysia for secondary schools."
 subjects:
+  - malaysia-kssm-bahasa-melayu
+  - malaysia-kssm-bahasa-inggeris
+  - malaysia-kssm-geografi
+  - malaysia-kssm-bahasa-arab
+  - malaysia-kssm-bahasa-cina
+  - malaysia-kssm-bahasa-tamil
+  - malaysia-kssm-bahasa-iban
+  - malaysia-kssm-bahasa-kadazandusun
+  - malaysia-kssm-bahasa-semai
+  - malaysia-kssm-pendidikan-islam
   - malaysia-kssm-matematik
   - malaysia-kssm-sains
   - malaysia-kssm-sejarah
-provenance: ai-generated
-generated_at: "2026-03-30T07:22:36Z"
+  - malaysia-kssm-asas-sains-komputer
+  - malaysia-kssm-reka-bentuk-dan-teknologi
+  - malaysia-kssm-maharat-al-quran
+  - malaysia-kssm-usul-al-din
+  - malaysia-kssm-al-syariah
+  - malaysia-kssm-al-lughah-al-arabiah-al-muasirah
+  - malaysia-kssm-pendidikan-jasmani-dan-pendidikan-kesihatan
+  - malaysia-kssm-pendidikan-seni-visual
+  - malaysia-kssm-pendidikan-moral
+  - malaysia-kssm-pendidikan-muzik
+provenance: official-pbs-2025-catalog
+generated_at: "2026-08-13T03:28:18Z"

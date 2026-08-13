@@ -1,0 +1,37 @@
+id: IM-D-02
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.4.2"
+name: "Aljabar"
+name_en: "Algebra"
+subject_grade_id: indonesia-merdeka-matematika-fase-d
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: intermediate
+tier: core
+content_standards:
+  - id: "4.2"
+    text: "Pola, bentuk aljabar, relasi, fungsi, persamaan, dan pertidaksamaan dalam pemecahan masalah."
+learning_objectives:
+  - id: "4.2.1"
+    content_standard_id: "4.2"
+    text: "Mengenali, memprediksi, dan menggeneralisasi pola benda dan bilangan."
+    bloom: analyze
+  - id: "4.2.2"
+    content_standard_id: "4.2"
+    text: "Memodelkan situasi dengan bentuk aljabar dan menghasilkan bentuk ekuivalen memakai sifat operasi."
+    bloom: apply
+  - id: "4.2.3"
+    content_standard_id: "4.2"
+    text: "Menyajikan relasi dan fungsi dalam diagram, tabel, pasangan berurutan, dan grafik."
+    bloom: apply
+  - id: "4.2.4"
+    content_standard_id: "4.2"
+    text: "Menyelesaikan masalah menggunakan persamaan, pertidaksamaan linear satu variabel, fungsi linear, dan sistem persamaan linear dua variabel."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

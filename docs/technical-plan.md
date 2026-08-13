@@ -130,22 +130,22 @@ Canonical topic IDs are globally unique across the repository. A locale variant 
 
 Canonical topic files live directly under `topics/` and use English when an English representation exists. Malay variants live under `topics/translations/ms/`, reuse the canonical filename and topic ID, and carry `language: ms`.
 
-The current exact inventory is 560 content YAML files:
+The current exact inventory is 611 content YAML files:
 
 | Artifact class | Count |
 |----------------|------:|
-| Syllabus | 1 |
-| Subject | 3 |
-| Subject-grade | 15 |
-| Canonical topic | 152 |
+| Syllabus | 3 |
+| Subject | 44 |
+| Subject-grade | 16 |
+| Canonical topic | 157 |
 | Locale topic variant | 53 |
-| Canonical assessment | 114 |
+| Canonical assessment | 115 |
 | Locale assessment | 53 |
-| Canonical example | 114 |
+| Canonical example | 115 |
 | Locale example | 53 |
 | Concept | 2 |
 | Taxonomy | 0 |
-| **Total** | **560** |
+| **Total** | **611** |
 
 ### 3.3 Topic Schema (Core — Most Complex)
 
@@ -411,8 +411,8 @@ jobs:
 |-------|------|---------|-----------|
 | Touched content YAML style | yamllint | Yes | No |
 | Touched content YAML syntax and schema | YAML parser + AJV | Yes | Included in full checks |
-| Every content YAML parses | YAML parser | No | Yes, all 560 |
-| Every artifact matches its classified schema | ajv-cli + ajv-formats | No | Yes, all 560 |
+| Every content YAML parses | YAML parser | No | Yes, all 611 |
+| Every artifact matches its classified schema | ajv-cli + ajv-formats | No | Yes, all 611 |
 | Exact artifact inventory | custom Ruby | No | Yes |
 | No prerequisite cycles | custom Ruby | No | Yes |
 | All path, topic, syllabus, and companion references agree | custom Ruby | No | Yes |
