@@ -1,0 +1,29 @@
+id: IM-C-02
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.3.2"
+name: "Aljabar"
+name_en: "Algebra"
+subject_grade_id: indonesia-merdeka-matematika-fase-c
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: intermediate
+tier: core
+content_standards:
+  - id: "3.2"
+    text: "Nilai yang belum diketahui, pola perkalian dan pembagian, rasio satuan, serta proporsi."
+learning_objectives:
+  - id: "3.2.1"
+    content_standard_id: "3.2"
+    text: "Menentukan nilai yang belum diketahui dalam kalimat empat operasi sampai 1.000."
+    bloom: apply
+  - id: "3.2.2"
+    content_standard_id: "3.2"
+    text: "Menggunakan pola, rasio satuan, dan proporsi untuk menyelesaikan masalah sehari-hari."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

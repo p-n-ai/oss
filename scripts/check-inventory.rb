@@ -14,4 +14,4 @@ puts "PASS: exact curriculum artifact inventory"
 OssValidation::EXPECTED_INVENTORY.each do |type, count|
   puts "- #{type}: #{count}"
 end
-puts "- total: 611"
+puts "- total: 684"

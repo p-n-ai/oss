@@ -1,0 +1,29 @@
+id: IM-E-01
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.5.1"
+name: "Bilangan"
+name_en: "Numbers"
+subject_grade_id: indonesia-merdeka-matematika-fase-e
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: advanced
+tier: core
+content_standards:
+  - id: "5.1"
+    text: "Generalisasi sifat bilangan berpangkat, termasuk pangkat pecahan."
+learning_objectives:
+  - id: "5.1.1"
+    content_standard_id: "5.1"
+    text: "Menggeneralisasi sifat bilangan berpangkat, termasuk pangkat pecahan."
+    bloom: analyze
+  - id: "5.1.2"
+    content_standard_id: "5.1"
+    text: "Menggunakan sifat bilangan berpangkat untuk menyelesaikan masalah."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

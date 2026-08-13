@@ -1,0 +1,29 @@
+id: IM-A-01
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.1.1"
+name: "Bilangan"
+name_en: "Numbers"
+subject_grade_id: indonesia-merdeka-matematika-fase-a
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: beginner
+tier: core
+content_standards:
+  - id: "1.1"
+    text: "Intuisi bilangan cacah sampai 100, operasi sampai 20, serta pecahan setengah dan seperempat."
+learning_objectives:
+  - id: "1.1.1"
+    content_standard_id: "1.1"
+    text: "Membaca, menulis, membandingkan, mengurutkan, menyusun, dan mengurai bilangan cacah sampai 100."
+    bloom: understand
+  - id: "1.1.2"
+    content_standard_id: "1.1"
+    text: "Menjumlahkan dan mengurangkan sampai 20 dengan benda konkret serta mengenali setengah dan seperempat."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

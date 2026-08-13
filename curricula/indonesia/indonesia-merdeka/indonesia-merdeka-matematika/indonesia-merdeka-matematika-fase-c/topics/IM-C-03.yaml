@@ -1,0 +1,29 @@
+id: IM-C-03
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.3.3"
+name: "Pengukuran"
+name_en: "Measurement"
+subject_grade_id: indonesia-merdeka-matematika-fase-c
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: intermediate
+tier: core
+content_standards:
+  - id: "3.3"
+    text: "Keliling dan luas bangun datar, durasi waktu, dan ukuran sudut."
+learning_objectives:
+  - id: "3.3.1"
+    content_standard_id: "3.3"
+    text: "Menentukan keliling dan luas segitiga, segiempat, segi banyak, dan gabungannya."
+    bloom: apply
+  - id: "3.3.2"
+    content_standard_id: "3.3"
+    text: "Menghitung durasi serta mengukur sudut pada bangun atau garis berpotongan."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

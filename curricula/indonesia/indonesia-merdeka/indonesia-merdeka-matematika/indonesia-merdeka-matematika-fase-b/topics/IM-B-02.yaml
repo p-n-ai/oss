@@ -1,0 +1,29 @@
+id: IM-B-02
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.2.2"
+name: "Aljabar"
+name_en: "Algebra"
+subject_grade_id: indonesia-merdeka-matematika-fase-b
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: beginner
+tier: core
+content_standards:
+  - id: "2.2"
+    text: "Nilai yang belum diketahui dalam kalimat matematika dan perkembangan pola sederhana."
+learning_objectives:
+  - id: "2.2.1"
+    content_standard_id: "2.2"
+    text: "Menentukan nilai yang belum diketahui pada penjumlahan dan pengurangan sampai 100."
+    bloom: apply
+  - id: "2.2.2"
+    content_standard_id: "2.2"
+    text: "Mengidentifikasi, meniru, dan mengembangkan pola objek atau pola bilangan."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

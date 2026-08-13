@@ -1,0 +1,29 @@
+id: IM-B-03
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.2.3"
+name: "Pengukuran"
+name_en: "Measurement"
+subject_grade_id: indonesia-merdeka-matematika-fase-b
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: beginner
+tier: core
+content_standards:
+  - id: "2.3"
+    text: "Panjang dan berat dengan satuan baku serta estimasi luas dan volume."
+learning_objectives:
+  - id: "2.3.1"
+    content_standard_id: "2.3"
+    text: "Mengukur panjang dan berat serta menggunakan hubungan sentimeter-meter dan gram-kilogram."
+    bloom: apply
+  - id: "2.3.2"
+    content_standard_id: "2.3"
+    text: "Mengukur dan mengestimasi luas serta volume dengan satuan baku atau tidak baku."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

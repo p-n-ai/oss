@@ -1,0 +1,29 @@
+id: IM-C-04
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.3.4"
+name: "Geometri"
+name_en: "Geometry"
+subject_grade_id: indonesia-merdeka-matematika-fase-c
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: intermediate
+tier: core
+content_standards:
+  - id: "3.4"
+    text: "Bangun ruang, visualisasi spasial, perbandingan bentuk, dan lokasi pada peta berpetak."
+learning_objectives:
+  - id: "3.4.1"
+    content_standard_id: "3.4"
+    text: "Mengkonstruksi dan mengurai kubus, balok, serta gabungannya dari berbagai tampak."
+    bloom: apply
+  - id: "3.4.2"
+    content_standard_id: "3.4"
+    text: "Membandingkan karakteristik bentuk dan menentukan lokasi pada sistem berpetak."
+    bloom: analyze
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

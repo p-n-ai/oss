@@ -39,22 +39,25 @@ Official sources:
 
 ### Kurikulum Merdeka
 
-The repository begins with the complete five-element Matematika Fase D learning-outcome catalog: Bilangan, Aljabar, Pengukuran, Geometri, and Analisis Data dan Peluang. The topics are `quality_level: 1`; teaching notes, examples, assessments, and educator review remain pending.
+The repository includes the complete 46-subject general and non-vocational catalog from the national learning-outcome annex. The six Agama dan Budi Pekerti entries use the 2026 amendment as their catalog authority. Their phase content remains pending ingestion from the amended learning outcomes.
 
-Current status: one complete phase-subject standards catalog, not a complete national subject catalog.
+Matematika has a complete Fase A-F standards catalog with 28 ordered element topics. Each topic is `quality_level: 1`; teaching notes, examples, assessments, and educator review remain pending.
+
+Current status: complete general subject catalog and complete Matematika phase standards. The vocational catalog and non-Mathematics phase standards remain pending.
 
 Indonesia continued to permit both Kurikulum Merdeka and Kurikulum 2013 for the 2025/2026 school year. They must remain separate syllabus families in OSS.
 
 Official sources:
 
 - [Keputusan Kepala BSKAP Nomor 046/H/KR/2025 tentang Capaian Pembelajaran](https://bpmpbabel.kemendikdasmen.go.id/PPID/wp-content/uploads/2025/07/KepKaBSKAP-046_2025-ttg-CP.pdf)
+- [Keputusan Kepala BKPDM Nomor 020 Tahun 2026 amendment announcement](https://www.kemendikdasmen.go.id/siaran-pers/15636-capaian-pembelajaran-baru-telah-terbit-yang-berubah-hanya-mata-pelajaran-agama-dan-budi-pekerti)
 - [Summary of Permendikdasmen Nomor 13 Tahun 2025](https://kurikulum.kemendikdasmen.go.id/berita/detail/ringkasan-permendikdasmen-nomor-13-tahun-2025-tentang-perubahan-atas-peraturan-menteri-pendidikan-kebudayaan-riset-dan-teknologi-nomor-12-tahun-2024-tentang-kurikulum-pada-pendidikan-anak-usia-dini-jenjang-pendidikan-dasar-dan-jenjang-pendidikan-menengah)
 
 ## Next content slices
 
-1. Add KSSR Mathematics Tahun 1–6 ordered standards and source references.
-2. Add KSSM Bahasa Melayu and Bahasa Inggeris Forms 1–5 topic catalogs.
-3. Add Kurikulum Merdeka Mathematics Fases A–C, E, and F.
-4. Add the remaining Kurikulum Merdeka subject catalog.
+1. Add Kurikulum Merdeka phase standards for Bahasa Indonesia, Pendidikan Pancasila, IPAS, IPA, IPS, and Informatika.
+2. Add the amended Agama dan Budi Pekerti phase standards and the separate vocational subject catalog.
+3. Add KSSR Mathematics Tahun 1–6 ordered standards and source references.
+4. Add KSSM Bahasa Melayu and Bahasa Inggeris Forms 1–5 topic catalogs.
 5. Add Kurikulum 2013 as a separate Indonesia syllabus family.
 6. Upgrade one subject at a time to `quality_level: 3`, then request educator review.

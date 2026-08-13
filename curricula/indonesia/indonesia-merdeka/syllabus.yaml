@@ -3,8 +3,53 @@ name: "Kurikulum Merdeka"
 name_en: "Merdeka Curriculum"
 country_id: indonesia
 language: id
-description: "Indonesia's competency-based national curriculum. This first source-aligned slice covers Matematika Fase D under the 2025 learning outcomes."
+description: "Indonesia's competency-based national curriculum. The catalog covers the 46 general subjects, with source-aligned Matematika outcomes across Fase A-F."
 subjects:
+  - indonesia-merdeka-pendidikan-agama-islam-dan-budi-pekerti
+  - indonesia-merdeka-pendidikan-agama-kristen-dan-budi-pekerti
+  - indonesia-merdeka-pendidikan-agama-katolik-dan-budi-pekerti
+  - indonesia-merdeka-pendidikan-agama-hindu-dan-budi-pekerti
+  - indonesia-merdeka-pendidikan-agama-buddha-dan-budi-pekerti
+  - indonesia-merdeka-pendidikan-agama-khonghucu-dan-budi-pekerti
+  - indonesia-merdeka-pendidikan-pancasila
+  - indonesia-merdeka-bahasa-indonesia
+  - indonesia-merdeka-bahasa-indonesia-tingkat-lanjut
   - indonesia-merdeka-matematika
+  - indonesia-merdeka-matematika-tingkat-lanjut
+  - indonesia-merdeka-bahasa-inggris
+  - indonesia-merdeka-bahasa-inggris-tingkat-lanjut
+  - indonesia-merdeka-ilmu-pengetahuan-alam-dan-sosial
+  - indonesia-merdeka-ilmu-pengetahuan-alam
+  - indonesia-merdeka-fisika
+  - indonesia-merdeka-kimia
+  - indonesia-merdeka-biologi
+  - indonesia-merdeka-informatika
+  - indonesia-merdeka-ilmu-pengetahuan-sosial
+  - indonesia-merdeka-sejarah
+  - indonesia-merdeka-sejarah-tingkat-lanjut
+  - indonesia-merdeka-geografi
+  - indonesia-merdeka-ekonomi
+  - indonesia-merdeka-sosiologi
+  - indonesia-merdeka-antropologi
+  - indonesia-merdeka-seni-musik
+  - indonesia-merdeka-seni-rupa
+  - indonesia-merdeka-seni-tari
+  - indonesia-merdeka-seni-teater
+  - indonesia-merdeka-prakarya-budi-daya
+  - indonesia-merdeka-prakarya-kerajinan
+  - indonesia-merdeka-prakarya-pengolahan
+  - indonesia-merdeka-prakarya-rekayasa
+  - indonesia-merdeka-prakarya-dan-kewirausahaan-budi-daya
+  - indonesia-merdeka-prakarya-dan-kewirausahaan-kerajinan
+  - indonesia-merdeka-prakarya-dan-kewirausahaan-pengolahan
+  - indonesia-merdeka-prakarya-dan-kewirausahaan-rekayasa
+  - indonesia-merdeka-pendidikan-jasmani-olahraga-dan-kesehatan
+  - indonesia-merdeka-bahasa-arab
+  - indonesia-merdeka-bahasa-jepang
+  - indonesia-merdeka-bahasa-jerman
+  - indonesia-merdeka-bahasa-korea
+  - indonesia-merdeka-bahasa-mandarin
+  - indonesia-merdeka-bahasa-prancis
+  - indonesia-merdeka-koding-dan-kecerdasan-artifisial
 provenance: official-cp-046-2025
 generated_at: "2026-08-13T03:28:18Z"

@@ -15,12 +15,12 @@ This repository stores structured curriculum data (YAML + Markdown), validated b
 
 This is a live curriculum-data repository. The checked-in `curricula/`, `concepts/`, `schema/`, `scripts/`, and validation workflow are implemented and authoritative.
 
-The exact classified inventory is 611 content YAML files:
+The exact classified inventory is 684 content YAML files:
 
 - 3 syllabi
-- 44 subjects
-- 16 subject-grades
-- 157 canonical topics and 53 locale topic variants
+- 89 subjects
+- 21 subject-grades
+- 180 canonical topics and 53 locale topic variants
 - 115 canonical assessments and 53 locale assessment variants
 - 115 canonical examples and 53 locale example variants
 - 2 concepts and 0 taxonomy artifacts
@@ -137,7 +137,7 @@ When creating curriculum content, follow these requirements:
 ./scripts/validate-changed.sh
 ```
 
-The full gate parses every content YAML file, validates all 611 artifacts through the deterministic classifier and the correct one of nine schemas with `ajv-formats`, enforces the exact inventory, and checks references, prerequisites, and quality claims.
+The full gate parses every content YAML file, validates all 684 artifacts through the deterministic classifier and the correct one of nine schemas with `ajv-formats`, enforces the exact inventory, and checks references, prerequisites, and quality claims.
 
 The changed-files gate owns `yamllint` regressions for touched YAML and blocks newly introduced findings. Historical style findings, including pre-existing findings in a touched file, are intentionally excluded from both gates.
 

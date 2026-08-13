@@ -574,15 +574,15 @@ The path classifier selects the artifact contract before schema validation. It n
 | Artifact class | Path rule | Schema | Current count |
 |----------------|-----------|--------|--------------:|
 | Syllabus | `curricula/**/syllabus.yaml` | `syllabus.schema.json` | 3 |
-| Subject | `curricula/**/subject.yaml` | `subject.schema.json` | 44 |
-| Subject-grade | `curricula/**/subject-grade.yaml` | `subject-grade.schema.json` | 16 |
-| Canonical topic | canonical YAML directly under `topics/` | `topic.schema.json` | 157 |
+| Subject | `curricula/**/subject.yaml` | `subject.schema.json` | 89 |
+| Subject-grade | `curricula/**/subject-grade.yaml` | `subject-grade.schema.json` | 21 |
+| Canonical topic | canonical YAML directly under `topics/` | `topic.schema.json` | 180 |
 | Locale topic variant | topic YAML under `topics/translations/{locale}/` | `topic-variant.schema.json` | 53 |
 | Assessment | canonical or locale `*.assessments.yaml` | `assessments.schema.json` | 115 canonical + 53 locale |
 | Example | canonical or locale `*.examples.yaml` | `examples.schema.json` | 115 canonical + 53 locale |
 | Concept | `concepts/**/*.yaml` | `concept.schema.json` | 2 |
 | Taxonomy | `taxonomy/**/*.yaml` | `taxonomy.schema.json` | 0 |
-| **Total content YAML** |  | **9 schemas** | **611** |
+| **Total content YAML** |  | **9 schemas** | **684** |
 
 The schemas enforce these identifier patterns:
 
@@ -595,7 +595,7 @@ country_id:        pattern: "^[a-z][a-z0-9-]+$"
 grade_id:          pattern: "^[a-z][a-z0-9-]+$"
 ```
 
-`./scripts/validate.sh` parses every content YAML file, validates all 611 classified artifacts with AJV and `ajv-formats`, enforces the exact inventory, and checks references, prerequisites, and quality claims. `./scripts/validate-changed.sh` additionally blocks newly introduced `yamllint` findings in touched YAML; pre-existing style findings, including findings in a touched file, remain outside both gates.
+`./scripts/validate.sh` parses every content YAML file, validates all 684 classified artifacts with AJV and `ajv-formats`, enforces the exact inventory, and checks references, prerequisites, and quality claims. `./scripts/validate-changed.sh` additionally blocks newly introduced `yamllint` findings in touched YAML; pre-existing style findings, including findings in a touched file, remain outside both gates.
 
 `quality_level: 0` history stubs remain valid inventory members and may have empty `content_standards` and `learning_objectives`. They are catalog-only, not teachable content. Topics at `quality_level >= 1` require non-empty teaching identity.
 

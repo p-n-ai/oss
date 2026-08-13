@@ -15,7 +15,7 @@
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY--SA%204.0-orange.svg" alt="License"></a>
     <img src="https://img.shields.io/badge/status-live-green.svg" alt="Status">
-    <img src="https://img.shields.io/badge/content_YAML-611-blue.svg" alt="Content YAML Count">
+    <img src="https://img.shields.io/badge/content_YAML-684-blue.svg" alt="Content YAML Count">
     <img src="https://img.shields.io/badge/format-YAML%20%2B%20Markdown-yellow.svg" alt="Format">
   </p>
 </p>
@@ -48,7 +48,7 @@ Every AI tutoring platform, every educational app, every school management syste
 |-----------|---------|--------|
 | Malaysia KSSR Semakan 2017 | Malaysia | Full Tahap Dua subject catalog; teaching content pending |
 | Malaysia KSSM | Malaysia | Full menengah rendah subject catalog; Mathematics, Science, and History topic content live |
-| Indonesia Kurikulum Merdeka Mathematics Phase D | Indonesia | Official learning-outcome catalog live |
+| Indonesia Kurikulum Merdeka | Indonesia | Full 46-subject catalog; Mathematics Phases A-F live |
 
 Want to see your country's curriculum here? [Start a contribution →](#contribute)
 
@@ -124,15 +124,15 @@ OSS uses nine JSON Schema types. The validator classifies canonical and localize
 | Schema type | Current inventory |
 |-------------|------------------:|
 | Syllabus | 3 |
-| Subject | 44 |
-| Subject-grade | 16 |
-| Canonical topic | 157 |
+| Subject | 89 |
+| Subject-grade | 21 |
+| Canonical topic | 180 |
 | Locale topic variant | 53 |
 | Assessment | 115 canonical + 53 locale |
 | Example | 115 canonical + 53 locale |
 | Concept | 2 |
 | Taxonomy | 0 |
-| **Total content YAML** | **611** |
+| **Total content YAML** | **684** |
 
 Canonical topic IDs are globally unique across OSS. A locale topic variant deliberately reuses its canonical topic ID, but is validated separately for its mirrored path, locale, language, and parent identity.
 
@@ -144,7 +144,7 @@ Locale assessment variants may localize question prose and expected values, but 
 
 Worked examples may omit `learning_objective`; when present, it must exactly match an authored objective ID from the canonical topic. Locale example variants may translate prose but preserve canonical worked-example IDs and objective identities.
 
-The full gate validates all 611 content YAML files. Pull requests use the changed-files gate unless a schema or validation change requires the full corpus to be checked.
+The full gate validates all 684 content YAML files. Pull requests use the changed-files gate unless a schema or validation change requires the full corpus to be checked.
 
 ### 1. Syllabus
 
@@ -374,7 +374,7 @@ ajv validate --spec=draft2020 -c ajv-formats -s schema/topic.schema.json -d "cur
 ./scripts/validate-changed.sh
 ```
 
-The full gate parses every content YAML file, validates it through the correct one of nine schemas with `ajv-formats`, enforces the exact 611-file inventory, and checks references, prerequisite integrity, and quality claims. It intentionally does not make historical repository-wide YAML style debt part of that gate: there are currently 2,240 pre-existing `yamllint` findings across 447 files. The changed-files gate owns `yamllint` for touched YAML and blocks any increase in findings by rule, so new style debt cannot hide inside a semantic change.
+The full gate parses every content YAML file, validates it through the correct one of nine schemas with `ajv-formats`, enforces the exact 684-file inventory, and checks references, prerequisite integrity, and quality claims. It intentionally does not make historical repository-wide YAML style debt part of that gate: there are currently 2,240 pre-existing `yamllint` findings across 447 files. The changed-files gate owns `yamllint` for touched YAML and blocks any increase in findings by rule, so new style debt cannot hide inside a semantic change.
 
 Pull request CI runs changed-file validation. Pushes to `main` and manual workflow runs execute the full `./scripts/validate.sh` gate.
 

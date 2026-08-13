@@ -1,0 +1,29 @@
+id: IM-C-01
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.3.1"
+name: "Bilangan"
+name_en: "Numbers"
+subject_grade_id: indonesia-merdeka-matematika-fase-c
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: intermediate
+tier: core
+content_standards:
+  - id: "3.1"
+    text: "Bilangan cacah sampai 1.000.000, operasi sampai 100.000, uang, KPK, FPB, pecahan, dan desimal."
+learning_objectives:
+  - id: "3.1.1"
+    content_standard_id: "3.1"
+    text: "Menggunakan nilai tempat dan operasi bilangan cacah untuk menyelesaikan masalah, termasuk uang, KPK, dan FPB."
+    bloom: apply
+  - id: "3.1.2"
+    content_standard_id: "3.1"
+    text: "Membandingkan serta mengoperasikan pecahan dan menghubungkannya dengan bentuk pecahan atau desimal lain."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

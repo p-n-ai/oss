@@ -1,0 +1,29 @@
+id: IM-C-05
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.3.5"
+name: "Analisis Data dan Peluang"
+name_en: "Data Analysis and Probability"
+subject_grade_id: indonesia-merdeka-matematika-fase-c
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: intermediate
+tier: core
+content_standards:
+  - id: "3.5"
+    text: "Analisis data hasil pengukuran dan perbandingan kemungkinan pada percobaan acak."
+learning_objectives:
+  - id: "3.5.1"
+    content_standard_id: "3.5"
+    text: "Menyajikan dan menganalisis data dengan gambar, piktogram, diagram batang, atau tabel frekuensi."
+    bloom: analyze
+  - id: "3.5.2"
+    content_standard_id: "3.5"
+    text: "Membandingkan kemungkinan kejadian dalam percobaan acak sederhana."
+    bloom: analyze
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

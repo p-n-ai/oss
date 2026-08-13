@@ -1,0 +1,29 @@
+id: IM-A-03
+official_ref: "Keputusan Kepala BSKAP Nomor 046/H/KR/2025, IV.1.D.1.3"
+name: "Pengukuran"
+name_en: "Measurement"
+subject_grade_id: indonesia-merdeka-matematika-fase-a
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+country_id: indonesia
+language: id
+difficulty: beginner
+tier: core
+content_standards:
+  - id: "1.3"
+    text: "Perbandingan dan estimasi panjang, berat, dan waktu dengan satuan tidak baku."
+learning_objectives:
+  - id: "1.3.1"
+    content_standard_id: "1.3"
+    text: "Membandingkan panjang, berat, dan durasi secara langsung."
+    bloom: understand
+  - id: "1.3.2"
+    content_standard_id: "1.3"
+    text: "Mengukur dan mengestimasi panjang serta berat dengan satuan tidak baku."
+    bloom: apply
+prerequisites:
+  required: []
+  recommended: []
+quality_level: 1
+provenance: official-source-aligned
+generated_at: "2026-08-13T03:28:18Z"

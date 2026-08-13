@@ -1,0 +1,17 @@
+id: indonesia-merdeka-matematika-fase-b
+name: "Matematika Fase B"
+name_en: "Mathematics Phase B"
+subject_id: indonesia-merdeka-matematika
+syllabus_id: indonesia-merdeka
+grade_id: fase-b
+country_id: indonesia
+language: id
+description: "Fase B generally covers classes III and IV at SD, MI, and Paket A."
+topics:
+  - IM-B-01
+  - IM-B-02
+  - IM-B-03
+  - IM-B-04
+  - IM-B-05
+provenance: official-cp-046-2025
+generated_at: "2026-08-13T03:28:18Z"

@@ -40,7 +40,7 @@ curricula/{country_id}/{syllabus_id}/
 
 The nine authoritative schemas cover syllabus, subject, subject-grade, canonical topic, locale topic variant, assessment, example, concept, and taxonomy artifacts. Canonical topic IDs are globally unique; a locale topic variant deliberately reuses its canonical ID and is validated separately by path, locale, language, and parent identity.
 
-The exact inventory is 611 content YAML files: 3 syllabi, 44 subjects, 16 subject-grades, 157 canonical topics, 53 locale topic variants, 115 canonical assessments, 53 locale assessment variants, 115 canonical examples, 53 locale example variants, 2 concepts, and 0 taxonomy artifacts.
+The exact inventory is 684 content YAML files: 3 syllabi, 89 subjects, 21 subject-grades, 180 canonical topics, 53 locale topic variants, 115 canonical assessments, 53 locale assessment variants, 115 canonical examples, 53 locale example variants, 2 concepts, and 0 taxonomy artifacts.
 
 Preserve `quality_level: 0` history stubs in that inventory. They may have empty `content_standards` and `learning_objectives` and are catalog-only, not teachable content. Topics at `quality_level >= 1` require non-empty teaching identity.
 
@@ -1156,7 +1156,7 @@ For style, the changed-files gate reports only newly introduced `yamllint` regre
 ./scripts/validate.sh
 ```
 
-Run the full gate on pushes to `main`, manual workflow runs, and local release checks. It parses every content YAML file, validates all 611 classified artifacts with AJV and `ajv-formats`, enforces the exact inventory, and checks references, prerequisites, and quality.
+Run the full gate on pushes to `main`, manual workflow runs, and local release checks. It parses every content YAML file, validates all 684 classified artifacts with AJV and `ajv-formats`, enforces the exact inventory, and checks references, prerequisites, and quality.
 
 Repository-wide `yamllint` style debt is not part of this semantic gate. Fix semantic failures before proceeding with a release; handle historical style cleanup separately.
 

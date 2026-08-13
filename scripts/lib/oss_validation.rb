@@ -13,9 +13,9 @@ module OssValidation
 
   EXPECTED_INVENTORY = {
     syllabus: 3,
-    subject: 44,
-    subject_grade: 16,
-    topic: 157,
+    subject: 89,
+    subject_grade: 21,
+    topic: 180,
     topic_variant: 53,
     assessment: 115,
     assessment_variant: 53,
